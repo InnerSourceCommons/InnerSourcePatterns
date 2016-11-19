@@ -34,6 +34,10 @@ contains the sources for the GitHub pages website for innersourcecommons.org.
   * contain the name of the pattern,
   * contain a short description (at least the problem) and
   * be labeled with the appropriate label (_idea_, _donut_, _pattern_) 
+# Create a new branch either in your clone or fork of the 
+  [patterns repository][patternsRepo]. Please use the following pattern for
+  naming branches: `pattern/<patternName>`. Example: 
+  `pattern/contractedContributor`.
 # Create a _Markdown_ file with the description of the _idea_, _donut_ or
   _pattern_ and store it either the `ideas`, `donuts` or `patterns` 
   subdirectories. Commit and push.
