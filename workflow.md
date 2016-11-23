@@ -29,29 +29,29 @@ contains the sources for the GitHub pages website for innersourcecommons.org.
 
 ### Working inside of the InnerSourcePatterns repository
 
-# [Create an issue] for each new idea, donut or pattern in the 
+# [Create an issue] for each new idea, donut or pattern in the
   [patterns repository][patternsRepo]. The issue should
   * contain the name of the pattern,
   * contain a short description (at least the problem) and
-  * be labeled with the appropriate label (_idea_, _donut_, _pattern_) 
-# Create a new branch either in your clone or fork of the 
+  * be labeled with the appropriate label (_idea_, _donut_, _pattern_)
+# Create a new branch either in your clone or fork of the
   [patterns repository][patternsRepo]. Please use the following pattern for
-  naming branches: `pattern/<patternName>`. Example: 
+  naming branches: `pattern/<patternName>`. Example:
   `pattern/contractedContributor`.
 # Create a _Markdown_ file with the description of the _idea_, _donut_ or
-  _pattern_ and store it either the `ideas`, `donuts` or `patterns` 
-  subdirectories. Commit and push.
-# Once your contribution is ready to be reviewed, create a pull request 
-  targeted at `master` and label it with either _idea_, _donut_ or _pattern_ 
+  _pattern_ and store it in the main directory. Commit and push.
+# Once your contribution is ready to be reviewed, create a pull request
+  targeted at `master` and label it with either _idea_, _donut_ or _pattern_
   and _Ready for Review_.
-# Reviewer can now use the PR features to comment on the pattern. 
+# Reviewer can now use the PR features to comment on the pattern.
 # After the review is complete, the reviewers should remove the label
   _Ready for Review_ and label the pattern _Accepted_ or don't apply any label
   in case rework is necessary.
 # In case of required rework, the author should apply the labels
   _Ready for Review_ and _Revised_ to indicate that a 2nd review is requested.
 # Once a pattern was labeled _Accepted_ by the reviewers, one of the TCs of the
-  [patterns repository][patternsRepo] will then merge it to `master` and 
+  [patterns repository][patternsRepo] will then move the pattern to either the
+  `ideas`, `donuts` or `patterns` subdirectories, merge it to `master` and 
   close the associated issue.
 
 ### Publishing a InnerSource pattern on innersourcecommons.org (InnerSourceCommons repository)
@@ -65,9 +65,9 @@ dedicated branch, originating from `master` starting with
 
 ## License
 
-tbd: we have to agree what license we apply to the 
-[patterns repository][patternsRepo] by default. 
- 
+tbd: we have to agree what license we apply to the
+[patterns repository][patternsRepo] by default.
+
 [commons]: http://innersourcecommons.org
 [patternsRepo]: https://github.com/paypal/InnerSourceCommons-patterns
 [commonsRepo]: https://github.com/paypal/InnerSourceCommons
