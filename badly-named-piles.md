@@ -21,12 +21,13 @@ People can't find internally developed solutions - they might not find it in bad
 * Hard to find stuff in github (especially if names are cryptic and keywords aren't used).
 
 ## Solution
-* Improve findability within a repo (use meaningful name; don't use code names; put keywords into descriptions)
+* Improve findability within a repo (use meaningful project name; don't use code names for projects; put keywords into descriptions)
     - **note: problem/pattern: solution exists but people aren't following it**
         - **ask PayPal folks about their practices set up to address this problem**
         * Use tagging (tag repositories) (_validated_)
-        * Pull in Repo names, descriptions and README.md files into the search engine
-        * Process change to first check for internal solutions for this problem
+        * Use labels
+        * Pull in Repo names, descriptions and README.md files into the search engine (not the code itself)
+        * Instate a process change to first check for internal solutions for this problem
         * Tool with a central view (but people are more inclined to google externally than look internally)
         * Concierge service (guide) to help product people find stuff. Might not scale but could be helpful in the beginning.
         * Need some very visible lighthouse projects that start using inner source components and make positive statements about the inner source program.
