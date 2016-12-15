@@ -16,7 +16,9 @@ The company has many “Systems Engineers” writing requirements for the produc
 Reusing code is an important goal to save the company time and money.  
 
 ## Solution
-Align the requirements of the projects so that the code that meets the requirements for one project also meets the needs for the other projects.  Decompose the code into smaller pieces for which the many using projects can agree upon requirements.  
+Align the requirements of the projects so that the code that meets the requirements for one project also meets the needs for the other projects.  Decompose the code into smaller pieces for which the many using projects can agree upon requirements.
+
+Additionally, take advantage of customers expecting the supplier to help elucidate requirements. Bring about the alignment of requirements during the customer requirements negotiations and change the customers requirements rather than changing the component.
 
 ## Resulting Context
 This might require negotiating requirements changes with the customer.  It might also require other involvement by the sales teams and product managers to get alignment on the requirements.  
