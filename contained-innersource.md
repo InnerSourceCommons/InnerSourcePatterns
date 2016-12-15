@@ -1,5 +1,5 @@
 ## Title  
-Contained inner source enables collaborative product development
+Contained InnerSource
 
 ## Context
 * The company needs to develop a software product component; multiple business units use this component.
@@ -14,8 +14,6 @@ Contained inner source enables collaborative product development
 ## Forces  
 * The product's importance to company revenue and the committed feature content and dates require a development paradigm that provides known, stable development resources (headcount).
 * Uncontained InnerSource has an effect on on collaborative product development: there is added effort for soliciting and managing contributions. In addition, uncontained InnerSource may have some effect on the ability to control the timeline for completion and deployment.
-
-## Sketch (optional)
 
 ## Solution
 The solution is for the participating BUs to each dedicate development resources to collaboratively add the features that each BU needs to the software component. InnerSource tools and some InnerSource processes are used, but the InnerSource cooperation is **contained**; there is no attempt to encourage open contribution from participants outside the core group of BUs that have entered into this arrangement.
