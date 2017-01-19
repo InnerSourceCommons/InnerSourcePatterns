@@ -40,28 +40,26 @@ contains the sources for the GitHub pages website for innersourcecommons.org.
   `pattern/contractedContributor`.
 3. Create a _Markdown_ file with the description of the _idea_, _donut_ or
   _pattern_ and store it in the main directory. Commit and push.
-4. Once your contribution is ready to be reviewed, create a pull request
-  targeted at `master` and label it with either _idea_, _donut_ or _pattern_
-  and _Ready for Review_.
-5. Reviewer can now use the PR features to comment on the pattern.
-6. After the review is complete, the reviewers should remove the label
-  _Ready for Review_ and label the pattern _Accepted_ or don't apply any label
-  in case rework is necessary.
-7. In case of required rework, the author should apply the labels
-  _Ready for Review_ and _Revised_ to indicate that a 2nd review is requested.
-8. Once a pattern was labeled _Accepted_ by the reviewers, one of the TCs of the
+4. Once your contribution is ready to be reviewed, create a pull request (PR)
+  targeted at `master` and label it with _pattern_. Additionally decide whether
+  to label it with _idea_, _donut_, or _draft_ and _Ready for Review_ or _Incomplete_
+5. Reviewers can now use the PR features to comment on the pattern.
+6. In case of required rework, the author should apply the labels
+  _Ready for Additional Review_ and/or _Revised_ to indicate that a 2nd review is requested.
+7. After reviews are complete, the reviewers or author should remove the label
+  _Ready for Review_ and label the pattern _Accepted_.
+8. Once a pattern is labeled _Accepted_ by the reviewers, one of the TCs of the
   [patterns repository][patternsRepo] will then move the pattern to either the
   `ideas`, `donuts` or `patterns` subdirectories, merge it to `master` and
   close the associated issue.
 
-### Publishing a InnerSource pattern on innersourcecommons.org (InnerSourceCommons repository)
+### Publishing an InnerSource pattern on innersourcecommons.org (InnerSourceCommons repository)
 
-* for each new pattern which should be published a new issue should be created
-  * the issue should contain the name of the pattern and a link to it inside of
-  the InnerSourcePatterns repository
-* every publishing process of a pattern idea, donut or draft should start on a
-dedicated branch, originating from `master` starting with
-`pattern/[title]`
+* for each new pattern to be published, a new issue should be created
+  * the issue should contain the name of the pattern and a link to the accepted
+  pattern inside of the InnerSourcePatterns repository
+* every publishing process of a pattern idea, donut, or draft should start on a
+  dedicated branch, originating from `master` starting with `pattern/<patternName>`
 
 ### Technical steps
 
@@ -69,20 +67,20 @@ If you want to contribute, the workflow is done through branches. You can see th
 available branches of this repository at [the branches URL](https://github.com/paypal/InnerSourcePatterns/branches)
 or by clicking on the 'branches' button on the main page.
 
-Branches are used to bring discussion about a specific inner source pattern.
-This pattern should use as a first approach the
-[proposed template](https://github.com/paypal/InnerSourceCommons/wiki/InnerSource-Patterns-template) and
-discussion will start. There are indeed two ways to start a discussion:
+Branches and Pull Requests (PR's) are used to bring discussion/review about a specific inner source pattern.
+New patterns should use, as a first approach, the
+[pattern template](https://github.com/paypal/InnerSourceCommons/wiki/InnerSource-Patterns-template). There are indeed multiple ways to start a discussion:
 * Pull request your branch and the maintainers will receive a notification.
 * Ask directly for comments to some of the maintainers. You can mention them
 using the symbol '@' prior their nickname.
+* Add reviewers to the Pull Request on the website - this sends requests to review your work
 
 Please, when starting a new pattern, be aware that this does not exist. You can
 have a look at some of the existing patterns in this repository.
 
 #### How can you create a branch?
 
-In first place you need to create a branch (ask for permission! e.g.: as a new issue).
+In first place you need to create a branch (no need to ask for permission!).
 For this, let's clone the repository:
 
 ```
@@ -119,11 +117,11 @@ $ git branch -a
   remotes/origin/pattern/contained-innersource-enables-collaborative-product-development
 ```
 
-The command 'git branch' tells you the current branch you are and the local branches you have.
-And with 'git branch -a' you see the branches in local and in the server.
+The command 'git branch' shows you which branch you are currently working within.
+And with 'git branch -a' you see additional branches which are local and remote (on the web).
 There is extra information using the command '$ man git branch' in linux based systems.
 
-Then, if you want to create a new branch as a way to start creating a new pattern,
+Next, in order to create a new branch as a way to start creating a new pattern,
 you need to 'checkout' that branch. As a common nomenclature, all of the
 pattern-related branches should start with the keyword 'pattern/'. Thus, a new
 branch with a new pattern named as foo should be as follows:
@@ -132,11 +130,13 @@ branch with a new pattern named as foo should be as follows:
 $ git checkout -b pattern/foo
 ```
 
-If you need to go again to the 'master' branch or another branch, you can easily
-'checkout' to those as follows:
+You are now in the 'pattern/foo' branch. When you create a new branch, the files 
+in the directory might appear change. Each branch can have slightly different content,
+and that is intentional. If you need to go again to the 'master' branch or another
+branch, you can easily 'checkout' to those as follows:
 
 ```
-$ git checkout <branch>
+$ git checkout <branchname>
 ```
 
 #### Adding a new pattern
@@ -150,8 +150,8 @@ $ git checkout -b pattern/ewoks-do-not-hunt
 $ touch ewoks-do-not-hunt.md
 ```
 
-Once our pattern is ready to go, we need to add and commit that new inner source
-pattern to our new branch.
+Once our pattern file is ready to go, we need to add the file to the repo and
+commit that change to our new branch.
 
 ```
 $ git add ewoks-do-not-hunt.md
@@ -164,15 +164,18 @@ And we should finally upload that branch and file to the server.
 $ git push origin pattern/ewoks-do-not-hunt
 ```
 
-Then, if you feel the pattern is ready to review, you can pull request your new
-branch. For this, you should see a 'Create pull request' button in your branch.
+Then, if you feel the pattern is ready to review, you can start a Pull Request (PR) asking
+to join your new branch to the master branch. To do this, navigate to the github web repo 
+and get into your new branch. You should see a 'Create pull request' button while in in your branch.
 
 
-## License
+## Licensing
 
-tbd: we have to agree what license we apply to the
-[patterns repository][patternsRepo] by default.
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
+
 
 [commons]: http://innersourcecommons.org
-[patternsRepo]: https://github.com/paypal/InnerSourceCommons-patterns
+[patternsRepo]: https://github.com/paypal/InnerSourcePatterns
 [commonsRepo]: https://github.com/paypal/InnerSourceCommons
