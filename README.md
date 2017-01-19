@@ -24,7 +24,7 @@ Contribute! If you want to expand your InnerSource knowledge, the best way is to
 
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings.
 
-* [CONTRIBUTING.md](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md) - Get detailed instructions on contributing here
+* [CONTRIBUTING.md - Get detailed instructions on contributing here](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
 
 
 Pattern States
@@ -33,7 +33,35 @@ Pattern States
 * [Pattern States](https://github.com/paypal/InnerSourceCommons/wiki/Pattern-States)
 
 
-Other links of interest
-=======================
+Reviewed Patterns
+-----------------
+* [[Contracted Contributor]]
+* [[Dedicated Community Leader]]
 
-There is a detailed list of materials available at the PayPal Inner Source Commons Article Listing http://paypal.github.io/InnerSourceCommons/resources/articles/ .
+Proven Pattern Drafts (not yet reviewed)
+----------------------------------------
+* [[Common Requirements]]
+* [[Contained inner source enables collaborative product development]]
+* [Review Committee Cheese Interface](https://github.com/paypal/InnerSourceCommons/wiki/Review-Committee--aka--Cheese-Interface)
+* [[Overcome Acquisition based Silos]]  
+* [[Open Source trumps InnerSource]]
+* [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
+* [Draft Pattern Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
+
+Pattern brainstormed ideas (not yet proven)
+-------------------------------------------
+* [[Different repo for shared code than the product org uses in its build]]
+* [[Pattern: Share Your Code to Get More Done - Likely Contributors Variant]]
+* [[Pattern: change the developers mindset]]
+* [[Don't bother looking]]
+* [[Badly named piles]]
+* [[Junkyard Styled Inner Sourcing]]
+
+Pattern donuts (needing a solution)
+-----------------------------------
+* [[Donut 3: how to defeat the hierarchical constraints]]  
+* [[Donut 4: modular code (for reuse) requires extra resources]]  
+* [[Donut 5: project management time pressures]]
+* [[Donut 6: organizational mindset change]]  
+* [[Donut 8: Not invented here]]
+* [[Donut: Bad weather for liftoff]]
