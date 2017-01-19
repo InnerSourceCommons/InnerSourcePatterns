@@ -22,7 +22,7 @@ How to Contribute?
 
 We encourage beginners seeking answers to jump in by creating ''donuts'' (see above). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
 
-We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings. Check out our CONTRIBUTING.md below which gives a run down of how to add and edit content to this repo.
+We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings. Check out our CONTRIBUTING.md file which gives a run down of how to add and edit content to this repo:
 
 * [CONTRIBUTING.md - Learn our process for contributing](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
 
@@ -35,11 +35,13 @@ Pattern States
 
 Reviewed Patterns
 =================
+
 * [[Contracted Contributor]]
 * [[Dedicated Community Leader]]
 
 Proven Pattern Drafts (not yet reviewed)
-----------------------------------------
+========================================
+
 * [[Common Requirements]]
 * [[Contained inner source enables collaborative product development]]
 * [Review Committee Cheese Interface](https://github.com/paypal/InnerSourceCommons/wiki/Review-Committee--aka--Cheese-Interface)
@@ -49,7 +51,8 @@ Proven Pattern Drafts (not yet reviewed)
 * [Draft Pattern Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
 
 Pattern brainstormed ideas (not yet proven)
--------------------------------------------
+===========================================
+
 * [[Different repo for shared code than the product org uses in its build]]
 * [[Pattern: Share Your Code to Get More Done - Likely Contributors Variant]]
 * [[Pattern: change the developers mindset]]
@@ -58,7 +61,8 @@ Pattern brainstormed ideas (not yet proven)
 * [[Junkyard Styled Inner Sourcing]]
 
 Pattern donuts (needing a solution)
------------------------------------
+===================================
+
 * [[Donut 3: how to defeat the hierarchical constraints]]  
 * [[Donut 4: modular code (for reuse) requires extra resources]]  
 * [[Donut 5: project management time pressures]]
