@@ -15,7 +15,7 @@ How can you help to improve?
 ============================
 
 If you want to contribute, the workflow is done through branches. You can see the
-available branches of this repository at [the branches URL](https://github.com/gruetter/innerSourceTest/branches)
+available branches of this repository at [the branches URL](https://github.com/paypal/InnerSourcePatterns/branches)
 or by clicking on the 'branches' button on the main page.
 
 Branches are used to bring discussion about a specific inner source pattern.
@@ -36,13 +36,13 @@ In first place you need to create a branch (ask for permission! e.g.: as a new i
 For this, let's clone the repository:
 
 ```
-$ git clone https://github.com/gruetter/innerSourceTest.git
+$ git clone https://github.com/paypal/InnerSourcePatterns.git
 ```
 
 Then you should see some message similar to the following one:
 
 ```
-Cloning into 'innerSourceTest'...
+Cloning into 'InnerSourcePatterns'...
 remote: Counting objects: 73, done.
 remote: Compressing objects: 100% (37/37), done.
 remote: Total 73 (delta 35), reused 73 (delta 35), pack-reused 0
@@ -54,7 +54,7 @@ This means that you successfully cloned the repository. Then we need to access
 the directory and check that everything is as expected.
 
 ```
-$ cd innerSourceTest/
+$ cd InnerSourcePatterns/
 $ ls
 first-test.md  README.md  second-test.md  third-test.md  workflow.md
 $ git branch
