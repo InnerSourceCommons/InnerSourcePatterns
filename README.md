@@ -1,126 +1,71 @@
-What is this?
-=============
+This repository serves as the collection-point, ideation hub, and process behind the [InnerSource Commons'](http://innersourcecommons.com) set of proven and reviewed InnerSource approaches (patterns). These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource methodologies](http://paypal.github.io/InnerSourceCommons/getting-started/).
 
-This project aims at helping in the definition of Inner Source Patterns.
-That's great, but what is an Inner Source Pattern? There is great documentation
-at the [Inner Source Commons wiki](https://github.com/paypal/InnerSourceCommons/wiki/InnerSource-Patterns).
+What are Inner Source Patterns?
+===============================
 
-In brief, those are patterns of activity or behaviours found in organizations when applying Inner Source methodologies.
-Each of these patterns are divided into Title, Context, Problem Statement, Forces and  Resulting Context as their main
-sections. An [inner source template](https://github.com/paypal/InnerSourceCommons/wiki/InnerSource-Patterns-template)
-is also provided to help with this process.
+Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Context, Problem Statement, Forces, and Solutions as their main sections.
+
+* [InnerSource Patterns template](https://github.com/paypal/InnerSourceCommons/wiki/InnerSource-Patterns-template)
+* [See the presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF)
 
 
-How can you help to improve?
-============================
+How can you use Inner Source Patterns?
+======================================
 
-If you want to contribute, the workflow is done through branches. You can see the
-available branches of this repository at [the branches URL](https://github.com/paypal/InnerSourcePatterns/branches)
-or by clicking on the 'branches' button on the main page.
+Patterns must be used in a thoughtful manner. They cannot be blindly applied. In most cases, you will need to adapt the given solution to your own situation; but the information given in the pattern, defining the context (immovable constraints) and forces (constraints that can be changed and balanced against each other), should help you do this.
 
-Branches are used to bring discussion about a specific inner source pattern.
-This pattern should use as a first approach the
-[proposed template](https://github.com/paypal/InnerSourceCommons/wiki/InnerSource-Patterns-template) and
-discussion will start. There are indeed two ways to start a discussion:
-* Pull request your branch and the maintainers will receive a notification.
-* Ask directly for comments to some of the maintainers. You can mention them
-using the symbol '@' prior their nickname.
-
-Please, when starting a new pattern, be aware that this does not exist. You can
-have a look at some of the existing patterns in this repository.
-
-How can you create a branch?
-----------------------------
-
-In first place you need to create a branch (ask for permission! e.g.: as a new issue).
-For this, let's clone the repository:
-
-```
-$ git clone https://github.com/paypal/InnerSourcePatterns.git
-```
-
-Then you should see some message similar to the following one:
-
-```
-Cloning into 'InnerSourcePatterns'...
-remote: Counting objects: 73, done.
-remote: Compressing objects: 100% (37/37), done.
-remote: Total 73 (delta 35), reused 73 (delta 35), pack-reused 0
-Unpacking objects: 100% (73/73), done.
-Checking connectivity... done.
-```
-
-This means that you successfully cloned the repository. Then we need to access
-the directory and check that everything is as expected.
-
-```
-$ cd InnerSourcePatterns/
-$ ls
-first-test.md  README.md  second-test.md  third-test.md  workflow.md
-$ git branch
-* master
-$ git branch -a
-* master
-  remotes/origin/HEAD -> origin/master
-  remotes/origin/master
-  remotes/origin/master-public
-  remotes/origin/pattern/badly-named-piles
-  remotes/origin/pattern/commonRequirements
-  remotes/origin/pattern/contained-innersource-enables-collaborative-product-development
-```
-
-The command 'git branch' tells you the current branch you are and the local branches you have.
-And with 'git branch -a' you see the branches in local and in the server.
-There is extra information using the command '$ man git branch' in linux based systems.
-
-Then, if you want to create a new branch as a way to start creating a new pattern,
-you need to 'checkout' that branch. As a common nomenclature, all of the
-pattern-related branches should start with the keyword 'pattern/'. Thus, a new
-branch with a new pattern named as foo should be as follows:
-
-```
-$ git checkout -b pattern/foo
-```
-
-If you need to go again to the 'master' branch or another branch, you can easily
-'checkout' to those as follows:
-
-```
-$ git checkout <branch>
-```
-
-Adding a new pattern
---------------------
-
-Let's imagine we want to work a new pattern related to the activities of the
-Ewoks that for some reason gave up hunting. We should choose some initial
-name for this pattern file that could be 'ewoks-do-not-hunt.md'.
-
-```
-$ git checkout -b pattern/ewoks-do-not-hunt
-$ touch ewoks-do-not-hunt.md
-```
-
-Once our pattern is ready to go, we need to add and commit that new inner source
-pattern to our new branch.
-
-```
-$ git add ewoks-do-not-hunt.md
-$ git commit -m "Inner Source Pattern to deal with Ewoks that do not hunt"
-```
-
-And we should finally upload that branch and file to the server.
-
-```
-$ git push origin pattern/ewoks-do-not-hunt
-```
-
-Then, if you feel the pattern is ready to review, you can pull request your new
-branch. For this, you should see a 'Create pull request' button in your branch.
+The pattern form is useful for describing proven patterns but it could also be used for *brainstorming solutions* where patterns are not yet established, since the form gives a structured way for thinking about a problem. You could also create a *donut pattern* (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
 
 
-Other links of interest
-=======================
+How to Contribute?
+==================
 
-There is a detailed list of materials available at the PayPal Inner Source Commons
-repository at https://github.com/paypal/InnerSourceCommons .
+We encourage beginners seeking answers to jump in by creating ''donuts'' (see above). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
+
+We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings. Check out our CONTRIBUTING.md file which gives a run down of how to add and edit content to this repo:
+
+* [CONTRIBUTING.md - Learn our process for contributing](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
+
+
+Pattern States
+==============
+
+* [Pattern States](https://github.com/paypal/InnerSourceCommons/wiki/Pattern-States)
+
+
+Reviewed Patterns
+=================
+
+* [[Contracted Contributor]]
+* [[Dedicated Community Leader]]
+
+Proven Pattern Drafts (not yet reviewed)
+========================================
+
+* [[Common Requirements]]
+* [[Contained inner source enables collaborative product development]]
+* [Review Committee Cheese Interface](https://github.com/paypal/InnerSourceCommons/wiki/Review-Committee--aka--Cheese-Interface)
+* [[Overcome Acquisition based Silos]]  
+* [[Open Source trumps InnerSource]]
+* [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
+* [Draft Pattern Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
+
+Pattern brainstormed ideas (not yet proven)
+===========================================
+
+* [[Different repo for shared code than the product org uses in its build]]
+* [[Pattern: Share Your Code to Get More Done - Likely Contributors Variant]]
+* [[Pattern: change the developers mindset]]
+* [[Don't bother looking]]
+* [[Badly named piles]]
+* [[Junkyard Styled Inner Sourcing]]
+
+Pattern donuts (needing a solution)
+===================================
+
+* [[Donut 3: how to defeat the hierarchical constraints]]  
+* [[Donut 4: modular code (for reuse) requires extra resources]]  
+* [[Donut 5: project management time pressures]]
+* [[Donut 6: organizational mindset change]]  
+* [[Donut 8: Not invented here]]
+* [[Donut: Bad weather for liftoff]]
