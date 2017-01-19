@@ -20,11 +20,11 @@ The pattern form is useful for describing proven patterns but it could also be u
 How can you get answers and join the discussion?
 ================================================
 
-Contribute. If you want to expand your InnerSource knowledge, the best way is to join us. We encourage beginners seeking answers to jump in by creating ''donuts'' (see above). Anyone can offer reviews and comments for in-progress patterns.
-
-* [[CONTRIBUTING.md]] - Get detailed instructions on contributing here
+Contribute! If you want to expand your InnerSource knowledge, the best way is to join us. We encourage beginners seeking answers to jump in by creating ''donuts'' (see above). Anyone can offer reviews and comments for in-progress patterns.
 
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings.
+
+* [CONTRIBUTING.md](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md) - Get detailed instructions on contributing here
 
 
 Pattern States
@@ -36,5 +36,4 @@ Pattern States
 Other links of interest
 =======================
 
-There is a detailed list of materials available at the PayPal Inner Source Commons
-repository at https://github.com/paypal/InnerSourceCommons .
+There is a detailed list of materials available at the PayPal Inner Source Commons Article Listing http://paypal.github.io/InnerSourceCommons/resources/articles/ .
