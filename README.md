@@ -17,14 +17,14 @@ Patterns must be used in a thoughtful manner. They cannot be blindly applied. In
 The pattern form is useful for describing proven patterns but it could also be used for *brainstorming solutions* where patterns are not yet established, since the form gives a structured way for thinking about a problem. You could also create a *donut pattern* (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
 
 
-How can you get answers and join the discussion?
-================================================
+How to Contribute?
+==================
 
-Contribute! If you want to expand your InnerSource knowledge, the best way is to join us. We encourage beginners seeking answers to jump in by creating ''donuts'' (see above). Anyone can offer reviews and comments for in-progress patterns.
+We encourage beginners seeking answers to jump in by creating ''donuts'' (see above). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
 
-We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings.
+We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings. Check out our CONTRIBUTING.md below which gives a run down of how to add and edit content to this repo.
 
-* [CONTRIBUTING.md - Get detailed instructions on contributing here](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
+* [CONTRIBUTING.md - Learn our process for contributing](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
 
 
 Pattern States
@@ -34,7 +34,7 @@ Pattern States
 
 
 Reviewed Patterns
------------------
+=================
 * [[Contracted Contributor]]
 * [[Dedicated Community Leader]]
 
