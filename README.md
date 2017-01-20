@@ -20,11 +20,11 @@ The pattern form is useful for describing proven patterns but it could also be u
 How to Contribute?
 ==================
 
-We encourage beginners seeking answers to jump in by creating ''donuts'' (see above). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
+[See our CONTRIBUTING.md for details on getting involved](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
+
+We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
 
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings. Check out our CONTRIBUTING.md file which gives a run down of how to add and edit content to this repo:
-
-* [CONTRIBUTING.md - Learn our process for contributing](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
 
 
 Pattern States
