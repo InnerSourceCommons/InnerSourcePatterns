@@ -27,10 +27,6 @@ Note that there is a separate process for [publishing reviewed and accepted (fin
 ![branch, commit, pull request, review](assets/img/branchCommitPullReview.png)
 The basic steps below can be thought of as branch, commit, pull request, and review.
 
-If you are unfamiliar with git or github, you can either:
-* follow the [technical instructions below](#technical-steps) (command line) or 
-* use [Github's GUI-based application](https://desktop.github.com/) (its rather nice and makes everything easier for a beginner).
-
 1. [Create an issue] for each new idea, donut or pattern in the
   [patterns repository][patternsRepo]. The issue should
   * contain the name of the pattern,
@@ -59,6 +55,10 @@ When completed patterns are ready to be published to InnerSourceCommons, [see he
 
 
 # Technical steps
+
+If you are unfamiliar with git or github, you can either:
+  * follow the technical instructions below (command line) or 
+  * [use Github's GUI-based application](https://desktop.github.com/) (its rather nice and makes everything easier for a beginner).
 
 If you want to contribute, the workflow is done through branches. You can see the
 available branches of this repository at [the branches URL](https://github.com/paypal/InnerSourcePatterns/branches)
