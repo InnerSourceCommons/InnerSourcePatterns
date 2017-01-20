@@ -15,34 +15,19 @@ If you don't have access yet to the google drive shared folder, contact @thyao, 
 
 # InnerSource Patterns Workflow
 
-This document describes the workflow for writing, reviewing and publishing
+The rest of this document describes the workflow / process for writing, reviewing and publishing
 InnerSource ideas, donuts and patterns. It utilizes Pull Requests to facilitate
 collaborative reviews.
 
-There are two separate repositories needed for this workflow:
+Note that there is a separate process for [publishing reviewed and accepted (finalized) patterns](https://github.com/paypal/InnerSourcePatterns/publishing.md) from this InnerSourcePatterns repository to the InnerSourceCommons repository. Beginners shouldn't need to know this, but read it if you want the context.
 
-* [InnerSourcePatterns][patternsRepo]
-* [InnerSourceCommons][commonsRepo]
-
-## InnerSourcePatterns repository
-
-This is a private repository where new ideas, donuts and patterns are published
-and reviewed by the patterns community **prior to** publishing them on
-[innersourcecommons.org][commons]. Inside of this
-repository we're using the standard GitHub workflow where we have one main
-branch - the master branch.  Contributions are done via fork and pull-requests.
-
-## InnerSourceCommons repository
-
-This is where ideas, donuts and patterns will be published **after** they have
-been reviewed and accepted by the reviewers. Inside of this repository we're
-using the standard GitHub workflow where we have one main branch - the master
-branch. Contributions are done via fork and pull-requests. This repository
-contains the sources for the GitHub pages website for innersourcecommons.org.
 
 ## Workflow
 
-### Working inside of the InnerSourcePatterns repository
+![branch, commit, pull request, review](assets/img/branchCommitPullReview.png)
+The basic steps below can be thought of as branch, commit, pull request, and review.
+
+If you are unfamiliar with git or github, you can either follow the technical instructions below (command line), or use github's GUI-based application (its rather nice and makes everything easier for a beginner).
 
 1. [Create an issue] for each new idea, donut or pattern in the
   [patterns repository][patternsRepo]. The issue should
@@ -68,13 +53,7 @@ contains the sources for the GitHub pages website for innersourcecommons.org.
   `ideas`, `donuts` or `patterns` subdirectories, merge it to `master` and
   close the associated issue.
 
-### Publishing an InnerSource pattern on innersourcecommons.org (InnerSourceCommons repository)
-
-* for each new pattern to be published, a new issue should be created
-  * the issue should contain the name of the pattern and a link to the accepted
-  pattern inside of the InnerSourcePatterns repository
-* every publishing process of a pattern idea, donut, or draft should start on a
-  dedicated branch, originating from `master` starting with `pattern/<patternName>`
+When completed patterns are ready to be published to InnerSourceCommons, [see here](https://github.com/paypal/InnerSourcePatterns/publishing.md).
 
 
 # Technical steps
