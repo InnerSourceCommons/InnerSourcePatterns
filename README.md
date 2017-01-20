@@ -20,7 +20,7 @@ The pattern form is useful for describing proven patterns but it could also be u
 How to Contribute?
 ==================
 
-[See our CONTRIBUTING.md for details on getting involved](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
+[See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
 
 We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
 
