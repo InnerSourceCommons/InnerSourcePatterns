@@ -24,7 +24,7 @@ How to Contribute?
 
 We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
 
-We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings. Check out our CONTRIBUTING.md file which gives a run down of how to add and edit content to this repo:
+We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (email list).
 
 
 Pattern States
