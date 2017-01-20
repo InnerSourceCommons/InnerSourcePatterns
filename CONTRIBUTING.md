@@ -1,5 +1,5 @@
-# How we are Organizing
-Note: A transition from Wiki to Github is in the works. For the time being, some of both are being done until all is transferred.
+# How to Contribute
+Note: A transition from Wiki to Github is in the works. For the time being, some of both are being done until all is transferred. Default to github.
 
 1. See our [complete list of patterns](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) (discussed so far)
 2. See Action Items for all who are interested in patterns:
