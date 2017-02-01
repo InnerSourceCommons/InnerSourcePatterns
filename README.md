@@ -69,3 +69,10 @@ Pattern donuts (needing a solution)
 * [[Donut 6: organizational mindset change]]  
 * [[Donut 8: Not invented here]]
 * [[Donut: Bad weather for liftoff]]
+
+
+# Licensing
+
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.

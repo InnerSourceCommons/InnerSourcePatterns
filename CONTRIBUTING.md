@@ -25,7 +25,7 @@ The rest of this document describes the workflow / process for writing, reviewin
 InnerSource ideas, donuts and patterns. It utilizes Pull Requests to facilitate
 collaborative reviews.
 
-Note that there is a separate process for [publishing reviewed and accepted (finalized) patterns](https://github.com/paypal/InnerSourcePatterns/publishing.md) from this InnerSourcePatterns repository to the InnerSourceCommons repository. Beginners shouldn't need to know this, but read it if you want the context.
+Note that there is a separate process for [publishing reviewed and accepted (finalized) patterns](PUBLISHING.md) from this InnerSourcePatterns repository to the InnerSourceCommons repository. Beginners shouldn't need to know this, but read it if you want the context.
 
 
 ## Workflow
@@ -35,7 +35,7 @@ Note that there is a separate process for [publishing reviewed and accepted (fin
 The basic steps below can be thought of as *branch*, *commit*, *pull request*, and *review*.
 
 1. [Create an issue] for each new idea, donut or pattern in the
-  [patterns repository][patternsRepo]. The issue should
+  [patterns repository][patternsRepo]. The issue should:
   * contain the name of the pattern,
   * contain a short description (at least the problem) and
   * be labeled with the appropriate label (_idea_, _donut_, _pattern_)
@@ -58,7 +58,7 @@ The basic steps below can be thought of as *branch*, *commit*, *pull request*, a
   `ideas`, `donuts` or `patterns` subdirectories, merge it to `master` and
   close the associated issue.
 
-When completed patterns are ready to be published to InnerSourceCommons, [see here](https://github.com/paypal/InnerSourcePatterns/publishing.md).
+When completed patterns are ready to be published to InnerSourceCommons, [see here](PUBLISHING.md).
 
 
 # Technical steps
@@ -172,12 +172,6 @@ Then, if you feel the pattern is ready to review, you can start a Pull Request (
 to join your new branch to the master branch. To do this, navigate to the github web repo 
 and get into your new branch. You should see a 'Create pull request' button while in in your branch.
 
-
-# Licensing
-
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
-
-InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
 
 
 [commons]: http://innersourcecommons.org
