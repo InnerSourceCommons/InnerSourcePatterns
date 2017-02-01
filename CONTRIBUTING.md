@@ -3,7 +3,11 @@ We encourage beginners seeking answers to jump in by creating ''donuts'' (proble
 
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (there is an email list).
 
-The below shows ways to become involved, via various roles and tasks:
+[To learn about our technical github workflow, see below.](#innersource-patterns-workflow)
+
+## Roles, Tasks, and Meetings
+
+Become involved with the people and communications of Inner Source Patterns:
 
 1. See our [complete list of patterns](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) (discussed so far)
 2. See Action Items for all who are interested in patterns:
