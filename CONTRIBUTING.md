@@ -1,5 +1,9 @@
 # How to Contribute
-Note: A transition from Wiki to Github is in the works. For the time being, some of both are being done until all is transferred. Default to github.
+We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
+
+We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (there is an email list).
+
+The below shows ways to become involved, via various roles and tasks:
 
 1. See our [complete list of patterns](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) (discussed so far)
 2. See Action Items for all who are interested in patterns:
@@ -11,6 +15,8 @@ Note: A transition from Wiki to Github is in the works. For the time being, some
 5. Folks who want to join the pattern mining team but are new to this please let us know. We can bring you up to speed. 
 
 If you don't have access yet to the google drive shared folder, contact @thyao, @silona or @cedric on the Slack channel. They can add you to the google group. @cedric or @duane can ensure you have access to the #innersource-patterns slack channel.
+
+Note: A transition from Wiki to Github is in the works. For the time being, some of both are being done until all is transferred. Default to github.
 
 
 # InnerSource Patterns Workflow
@@ -25,7 +31,8 @@ Note that there is a separate process for [publishing reviewed and accepted (fin
 ## Workflow
 
 ![branch, commit, pull request, review](assets/img/branchCommitPullReview.png)
-The basic steps below can be thought of as branch, commit, pull request, and review.
+
+The basic steps below can be thought of as *branch*, *commit*, *pull request*, and *review*.
 
 1. [Create an issue] for each new idea, donut or pattern in the
   [patterns repository][patternsRepo]. The issue should
