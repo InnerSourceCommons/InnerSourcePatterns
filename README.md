@@ -20,11 +20,11 @@ The pattern form is useful for describing proven patterns but it could also be u
 How to Contribute?
 ==================
 
-We encourage beginners seeking answers to jump in by creating ''donuts'' (see above). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
+[See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
 
-We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) slack channel and ask to be included in the patterns meetings. Check out our CONTRIBUTING.md file which gives a run down of how to add and edit content to this repo:
+We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
 
-* [CONTRIBUTING.md - Learn our process for contributing](https://github.com/paypal/InnerSourcePatterns/blob/master/CONTRIBUTING.md)
+We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (email list).
 
 
 Pattern States
@@ -69,3 +69,10 @@ Pattern donuts (needing a solution)
 * [[Donut 6: organizational mindset change]]  
 * [[Donut 8: Not invented here]]
 * [[Donut: Bad weather for liftoff]]
+
+
+# Licensing
+
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.

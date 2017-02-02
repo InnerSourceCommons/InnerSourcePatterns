@@ -1,36 +1,45 @@
+# How to Contribute
+We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
+
+We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (there is an email list).
+
+[To learn about our technical github workflow, see below.](#innersource-patterns-workflow)
+
+## Roles, Tasks, and Meetings
+
+Become involved with the people and communications of Inner Source Patterns:
+
+1. See our [complete list of patterns](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) (discussed so far)
+2. See Action Items for all who are interested in patterns:
+  * Add any missing pattern or add new ones anytime
+  * Add your name if you want to be on the author team. Mark your name in blue if you want to be the coordinator.
+  * Add your name to the reviewer team if interested in the pattern
+3. Coordinator role (per pattern): Setup meetings with pattern Authors to work through the patterns. Note the team can use Google docs or any other tool to work on the pattern. However github is the final destination for the patterns. It is recommended that github be kept as up-to-date as possible. Please keep the status and target updated for each pattern in the spreadsheet.
+4. Every 2 weeks (or even sooner if necessary) we will have a meeting with a larger team and review the patterns.
+5. Folks who want to join the pattern mining team but are new to this please let us know. We can bring you up to speed. 
+
+If you don't have access yet to the google drive shared folder, contact @thyao, @silona or @cedric on the Slack channel. They can add you to the google group. @cedric or @duane can ensure you have access to the #innersource-patterns slack channel.
+
+Note: A transition from Wiki to Github is in the works. For the time being, some of both are being done until all is transferred. Default to github.
+
+
 # InnerSource Patterns Workflow
 
-This document describes the workflow for writing, reviewing and publishing
+The rest of this document describes the workflow / process for writing, reviewing and publishing
 InnerSource ideas, donuts and patterns. It utilizes Pull Requests to facilitate
 collaborative reviews.
 
-There are two separate repositories needed for this workflow:
+Note that there is a separate process for [publishing reviewed and accepted (finalized) patterns](PUBLISHING.md) from this InnerSourcePatterns repository to the InnerSourceCommons repository. Beginners shouldn't need to know this, but read it if you want the context.
 
-* [InnerSourcePatterns][patternsRepo]
-* [InnerSourceCommons][commonsRepo]
-
-## InnerSourcePatterns repository
-
-This is a private repository where new ideas, donuts and patterns are published
-and reviewed by the patterns community **prior to** publishing them on
-[innersourcecommons.org][commons]. Inside of this
-repository we're using the standard GitHub workflow where we have one main
-branch - the master branch.  Contributions are done via fork and pull-requests.
-
-## InnerSourceCommons repository
-
-This is where ideas, donuts and patterns will be published **after** they have
-been reviewed and accepted by the reviewers. Inside of this repository we're
-using the standard GitHub workflow where we have one main branch - the master
-branch. Contributions are done via fork and pull-requests. This repository
-contains the sources for the GitHub pages website for innersourcecommons.org.
 
 ## Workflow
 
-### Working inside of the InnerSourcePatterns repository
+![branch, commit, pull request, review](assets/img/branchCommitPullReview.png)
+
+The basic steps below can be thought of as *branch*, *commit*, *pull request*, and *review*.
 
 1. [Create an issue] for each new idea, donut or pattern in the
-  [patterns repository][patternsRepo]. The issue should
+  [patterns repository][patternsRepo]. The issue should:
   * contain the name of the pattern,
   * contain a short description (at least the problem) and
   * be labeled with the appropriate label (_idea_, _donut_, _pattern_)
@@ -53,15 +62,14 @@ contains the sources for the GitHub pages website for innersourcecommons.org.
   `ideas`, `donuts` or `patterns` subdirectories, merge it to `master` and
   close the associated issue.
 
-### Publishing an InnerSource pattern on innersourcecommons.org (InnerSourceCommons repository)
+When completed patterns are ready to be published to InnerSourceCommons, [see here](PUBLISHING.md).
 
-* for each new pattern to be published, a new issue should be created
-  * the issue should contain the name of the pattern and a link to the accepted
-  pattern inside of the InnerSourcePatterns repository
-* every publishing process of a pattern idea, donut, or draft should start on a
-  dedicated branch, originating from `master` starting with `pattern/<patternName>`
 
-### Technical steps
+# Technical steps
+
+If you are unfamiliar with git or github, you can either:
+  * follow the technical instructions below (command line) or 
+  * [use Github's GUI-based application](https://desktop.github.com/) (its rather nice and makes everything easier for a beginner).
 
 If you want to contribute, the workflow is done through branches. You can see the
 available branches of this repository at [the branches URL](https://github.com/paypal/InnerSourcePatterns/branches)
@@ -78,7 +86,7 @@ using the symbol '@' prior their nickname.
 Please, when starting a new pattern, be aware that this does not exist. You can
 have a look at some of the existing patterns in this repository.
 
-#### How can you create a branch?
+## How can you create a branch?
 
 In first place you need to create a branch (no need to ask for permission!).
 For this, let's clone the repository:
@@ -139,7 +147,7 @@ branch, you can easily 'checkout' to those as follows:
 $ git checkout <branchname>
 ```
 
-#### Adding a new pattern
+## Adding a new pattern
 
 Let's imagine we want to work a new pattern related to the activities of the
 Ewoks that for some reason gave up hunting. We should choose some initial
@@ -168,12 +176,6 @@ Then, if you feel the pattern is ready to review, you can start a Pull Request (
 to join your new branch to the master branch. To do this, navigate to the github web repo 
 and get into your new branch. You should see a 'Create pull request' button while in in your branch.
 
-
-## Licensing
-
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
-
-InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
 
 
 [commons]: http://innersourcecommons.org
