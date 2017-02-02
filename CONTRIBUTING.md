@@ -1,22 +1,26 @@
 # How to Contribute
-We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
+
+1. [Take part in our Meetings and Roles](#roles-tasks-and-meetings)
+2. [Learn our github workflow](#innersource-patterns-workflow) (Add & Review patterns)
+
+We encourage beginners seeking answers to jump in by creating ''donuts'' (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
 
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (there is an email list).
 
 [To learn about our technical github workflow, see below.](#innersource-patterns-workflow)
 
-## Roles, Tasks, and Meetings
+# Roles, Tasks, and Meetings
 
 Become involved with the people and communications of Inner Source Patterns:
 
-1. See our [complete list of patterns](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) (discussed so far)
-2. See Action Items for all who are interested in patterns:
+* See our [complete list of patterns](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) (discussed so far)
+* See Action Items for all who are interested in patterns:
   * Add any missing pattern or add new ones anytime
   * Add your name if you want to be on the author team. Mark your name in blue if you want to be the coordinator.
   * Add your name to the reviewer team if interested in the pattern
-3. Coordinator role (per pattern): Setup meetings with pattern Authors to work through the patterns. Note the team can use Google docs or any other tool to work on the pattern. However github is the final destination for the patterns. It is recommended that github be kept as up-to-date as possible. Please keep the status and target updated for each pattern in the spreadsheet.
-4. Every 2 weeks (or even sooner if necessary) we will have a meeting with a larger team and review the patterns.
-5. Folks who want to join the pattern mining team but are new to this please let us know. We can bring you up to speed. 
+* Coordinator role (per pattern): Setup meetings with pattern Authors to work through the patterns. Note the team can use Google docs or any other tool to work on the pattern. However github is the final destination for the patterns. It is recommended that github be kept as up-to-date as possible. Please keep the status and target updated for each pattern in the spreadsheet.
+* Every 2 weeks (or even sooner if necessary) we will have a meeting with a larger team and review the patterns.
+* Folks who want to join the pattern mining team but are new to this please let us know. We can bring you up to speed. 
 
 If you don't have access yet to the google drive shared folder, contact @thyao, @silona or @cedric on the Slack channel. They can add you to the google group. @cedric or @duane can ensure you have access to the #innersource-patterns slack channel.
 
@@ -29,24 +33,20 @@ The rest of this document describes the workflow / process for writing, reviewin
 InnerSource ideas, donuts and patterns. It utilizes Pull Requests to facilitate
 collaborative reviews.
 
-Note that there is a separate process for [publishing reviewed and accepted (finalized) patterns](PUBLISHING.md) from this InnerSourcePatterns repository to the InnerSourceCommons repository. Beginners shouldn't need to know this, but read it if you want the context.
-
-
 ## Workflow
 
 ![branch, commit, pull request, review](assets/img/branchCommitPullReview.png)
 
 The basic steps below can be thought of as *branch*, *commit*, *pull request*, and *review*.
 
-1. [Create an issue] for each new idea, donut or pattern in the
-  [patterns repository][patternsRepo]. The issue should:
-  * contain the name of the pattern,
+1. [Create an issue](https://github.com/paypal/InnerSourcePatterns/issues) for each new idea, donut or pattern. The issue should:
+  * contain a title of the pattern in format ex: ``pattern/badly-named-piles``
   * contain a short description (at least the problem) and
   * be labeled with the appropriate label (_idea_, _donut_, _pattern_)
-2. Create a new branch either in your clone or fork of the
-  [patterns repository][patternsRepo]. Please use the following pattern for
-  naming branches: `pattern/<patternName>`. Example:
-  `pattern/contractedContributor`.
+2. Create a new branch either in your browser, clone, or fork of the
+  [patterns repository][patternsRepo]. Please use the similar convention for
+  naming branches: `pattern/<pattern-name>`. Example:
+  `pattern/contracted-contributor`.
 3. Create a _Markdown_ file with the description of the _idea_, _donut_ or
   _pattern_ and store it in the main directory. Commit and push.
 4. Once your contribution is ready to be reviewed, create a pull request (PR)
@@ -62,7 +62,8 @@ The basic steps below can be thought of as *branch*, *commit*, *pull request*, a
   `ideas`, `donuts` or `patterns` subdirectories, merge it to `master` and
   close the associated issue.
 
-When completed patterns are ready to be published to InnerSourceCommons, [see here](PUBLISHING.md).
+When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to the InnerSourceCommons repo, [see our seperate PUBLISHING.md instructions](PUBLISHING.md).
+
 
 
 # Technical steps
