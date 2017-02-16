@@ -78,7 +78,7 @@ or by clicking on the 'branches' button on the main page.
 
 Branches and Pull Requests (PR's) are used to bring discussion/review about a specific inner source pattern.
 New patterns should use, as a first approach, the
-[pattern template](https://github.com/paypal/InnerSourceCommons/wiki/InnerSource-Patterns-template). There are indeed multiple ways to start a discussion:
+[pattern template](resources/pattern-template). There are indeed multiple ways to start a discussion:
 * Pull request your branch and the maintainers will receive a notification.
 * Ask directly for comments to some of the maintainers. You can mention them
 using the symbol '@' prior their nickname.
