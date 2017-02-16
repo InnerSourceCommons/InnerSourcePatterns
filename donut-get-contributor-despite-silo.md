@@ -2,19 +2,23 @@
 
 ## Problem
 
-In hierarchical and silo-organized organizations, get voluntary contributions in InnerSource
-projects can be challenging. It is crucial to create  mechanisms to incentivize managers foster
-voluntary contributions. Consider the following story. Company A has started an InnerSource 
-initiative. Their InnerSource concept expected to have associates voluntarily contributing 
-to InnerSource projects, regardless of topic and if there is a business alignment with contributor's
-home business unit. 
+In hierarchical and silo-organized organizations, getting voluntary contributions in InnerSource
+projects can be challenging. It is crucial to create mechanisms to incentivize managers to foster
+voluntary contributions. Consider the following story: 
+
+Company A has started an InnerSource initiative. Their InnerSource concept expected to have 
+associates voluntarily contributing to InnerSource projects, regardless of topic and regardless of 
+home-business-unit alignment.
+ 
 After some time in activity, the core team realizes that their InnerSource project is not getting 
 voluntary contributions. While engaging with potential individual contributors, the 
 core team (pattern link) has consistently learned that the contributors in question were
-not allowed to contribute or have their participation to the InnerSource project rejected by 
-their respective line managers. The reasons presented by the management are: (i) the lack of strategic 
-alignment between the InnerSource project goal and the business unit product/service portfolio,
-(ii) managers have planned their developer's capacity 100% to the home business units projects.
+not allowed to contribute or have their participation in InnerSource projects rejected by 
+their respective line managers. The reasons presented by management are: 
+
+- the lack of strategic alignment between the InnerSource project goal and the business unit product/service portfolio,
+- managers have planned their developer's capacity 100% to the home business units projects.
+
 So, the management is not motivated to provide their scarce developer capacity to the
 InnerSource project.
 
@@ -58,11 +62,17 @@ and 100% allocated to the home business unit projects
 - Managers (middle-management) have a percentage of their bonus associated to 
   contribution and the results of InnerSource projects not directly related/sponsored 
   by their business units.
+- Utilize any existing engineering-wide bonus that allots some percentage of each employee's 
+  bonus to be aligned with Inner Source interactions. It could be # of commits, or commits + 
+  issues + documentation + chat interaction, etc. Utilize some kind of personally-linked
+  statistic to fill, for example, 15% of each employees bonus. Note that this encourages
+  after-hours type work more-so than regular work-week hours, but if combined with other
+  solutions above, could hit the issue from multiple angles. (used partially @ RedHat)
 
 ## Resulting Context
 
 - The top management communication of the strategic decision to plan and commit 
-  85% of developers capacity and have 15% buffer for other company iniciatives,
+  85% of developers capacity and have 15% buffer for other company initiatives,
   for instance InnerSource projects, shows their support and sets a clear sign
   that InnerSource is part of the corporate goal and get executive air cover.
 - Allocation of corporate funds to business units for reimbursement of 
@@ -80,6 +90,7 @@ and 100% allocated to the home business unit projects
 Diogo Fregonese (Robert Bosch GmbH) 
 Georg Gruetter (Robert Bosch GmbH) 
 Robert Hansel (Robert Bosch GmbH) 
+Nick Yeates
 
 ## Acknowledgements
 
