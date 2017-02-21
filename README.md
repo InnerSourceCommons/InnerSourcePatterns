@@ -36,8 +36,8 @@ Pattern States
 Reviewed Patterns
 =================
 
-* [[Contracted Contributor]]
-* [[Dedicated Community Leader]]
+* [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/blob/master/contracted-contributor.md)
+* [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
 
 Proven Pattern Drafts (not yet reviewed)
 ========================================
