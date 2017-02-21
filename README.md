@@ -27,8 +27,8 @@ We encourage beginners seeking answers to jump in by creating ''donuts'' (proble
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (email list).
 
 
-Pattern Meta
-============
+Pattern Meta Info
+=================
 
 * [Pattern States](https://github.com/paypal/InnerSourceCommons/wiki/Pattern-States) - Definitions of the various status and review steps a pattern can be in
 * [Pattern Template](resources/pattern-template.md) - Start a new pattern with a copy of this
@@ -44,22 +44,25 @@ Pattern Drafts (proven, not yet reviewed)
 =========================================
 
 * [Common Requirements](https://github.com/paypal/InnerSourcePatterns/pull/11)
+* [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
 * [Contained inner source enables collaborative product development](https://github.com/paypal/InnerSourcePatterns/pull/13)
 * [Review Committee aka Cheese Interface](https://github.com/paypal/InnerSourcePatterns/pull/43)
-* [Overcome Acquisition based Silos](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
+* [What Before How or Services Documentation](https://docs.google.com/document/d/1u4HZJxSfGsgvFCRtw6iqE1xDDowChb3BtcI1_nbu0Ys/edit)
+* [Overcome Acquisition based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
+* [Overcome Acquisition based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Open Source trumps InnerSource](https://github.com/paypal/InnerSourceCommons/wiki/Open-Source-trumps-InnerSource)
-* [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
 * [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
 
 Pattern Ideas (not yet proven; brainstormed)
 ============================================
 
-* [Different repo for shared code than the product org uses in its build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
-* [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
-* [Change the developers mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
-* [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/blob/master/dont-bother-looking.md)
 * [Badly named piles](https://github.com/paypal/InnerSourcePatterns/blob/master/badly-named-piles.md)
+* [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/blob/master/dont-bother-looking.md)
 * [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/blob/master/junkyard-styled-innersourcing.md)
+* [Different repo for shared code than the product org uses in its build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
+* [Incentive Alignment](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
+* [Change the developers mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
+* [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
 
 Pattern Donuts (needing a solution)
 ===================================
@@ -73,7 +76,8 @@ Pattern Donuts (needing a solution)
 * [Get contributions despite silo thinking](https://github.com/paypal/InnerSourcePatterns/pull/38)
 
 
-# Licensing
+Licensing
+=========
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
