@@ -42,13 +42,13 @@ Reviewed Patterns
 Proven Pattern Drafts (not yet reviewed)
 ========================================
 
-* [[Common Requirements]]
-* [[Contained inner source enables collaborative product development]]
+* [Common Requirements](https://github.com/paypal/InnerSourcePatterns/pull/11)
+* [Contained inner source enables collaborative product development](https://github.com/paypal/InnerSourcePatterns/pull/13)
 * [Review Committee aka Cheese Interface](https://github.com/paypal/InnerSourcePatterns/pull/43)
 * [[Overcome Acquisition based Silos]]  
 * [[Open Source trumps InnerSource]]
 * [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
-* [Draft Pattern Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
+* [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
 
 Pattern brainstormed ideas (not yet proven)
 ===========================================
@@ -56,9 +56,9 @@ Pattern brainstormed ideas (not yet proven)
 * [[Different repo for shared code than the product org uses in its build]]
 * [[Pattern: Share Your Code to Get More Done - Likely Contributors Variant]]
 * [[Pattern: change the developers mindset]]
-* [[Don't bother looking]]
-* [[Badly named piles]]
-* [[Junkyard Styled Inner Sourcing]]
+* [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/blob/master/dont-bother-looking.md)
+* [Badly named piles](https://github.com/paypal/InnerSourcePatterns/blob/master/badly-named-piles.md)
+* [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/blob/master/junkyard-styled-innersourcing.md)
 
 Pattern donuts (needing a solution)
 ===================================
@@ -69,6 +69,7 @@ Pattern donuts (needing a solution)
 * [[Donut 6: organizational mindset change]]  
 * [[Donut 8: Not invented here]]
 * [[Donut: Bad weather for liftoff]]
+* [Get contributions despite silo thinking](https://github.com/paypal/InnerSourcePatterns/pull/38)
 
 
 # Licensing
