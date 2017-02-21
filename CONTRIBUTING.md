@@ -3,7 +3,7 @@
 1. [Take part in our Meetings and Roles](#roles-tasks-and-meetings)
 2. [Learn our github workflow](#innersource-patterns-workflow) (Add & Review patterns)
 
-We encourage beginners seeking answers to jump in by creating ''donuts'' (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
+We encourage beginners seeking answers to jump in by creating ''donuts'' (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). 
 
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (there is an email list).
 

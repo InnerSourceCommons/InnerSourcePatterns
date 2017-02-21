@@ -3,7 +3,7 @@ This repository serves as the collection-point, ideation hub, and process behind
 What are Inner Source Patterns?
 ===============================
 
-Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Context, Problem Statement, Forces, and Solutions as their main sections.
+Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
 * [InnerSource Patterns template](resources/pattern-template.md)
 * [See the presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF)
@@ -22,57 +22,62 @@ How to Contribute?
 
 [See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
 
-We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for in-progress patterns. 
+We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). 
 
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (email list).
 
 
-Pattern States
-==============
-
-* [Pattern States](https://github.com/paypal/InnerSourceCommons/wiki/Pattern-States)
-
-
-Reviewed Patterns
+Pattern Meta Info
 =================
+
+* [Pattern States](https://github.com/paypal/InnerSourceCommons/wiki/Pattern-States) - Definitions of the various status and review steps a pattern can be in
+* [Pattern Template](resources/pattern-template.md) - Start a new pattern with a copy of this
+
+
+Reviewed Patterns (proven and reviewed)
+=======================================
 
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/blob/master/contracted-contributor.md)
 * [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
 
-Proven Pattern Drafts (not yet reviewed)
-========================================
+Pattern Drafts (proven, not yet reviewed)
+=========================================
 
 * [Common Requirements](https://github.com/paypal/InnerSourcePatterns/pull/11)
+* [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
 * [Contained inner source enables collaborative product development](https://github.com/paypal/InnerSourcePatterns/pull/13)
 * [Review Committee aka Cheese Interface](https://github.com/paypal/InnerSourcePatterns/pull/43)
-* [[Overcome Acquisition based Silos]]  
-* [[Open Source trumps InnerSource]]
-* [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
+* [What Before How or Services Documentation](https://docs.google.com/document/d/1u4HZJxSfGsgvFCRtw6iqE1xDDowChb3BtcI1_nbu0Ys/edit)
+* [Overcome Acquisition based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
+* [Overcome Acquisition based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
+* [Open Source trumps InnerSource](https://github.com/paypal/InnerSourceCommons/wiki/Open-Source-trumps-InnerSource)
 * [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
 
-Pattern brainstormed ideas (not yet proven)
-===========================================
+Pattern Ideas (not yet proven; brainstormed)
+============================================
 
-* [[Different repo for shared code than the product org uses in its build]]
-* [[Pattern: Share Your Code to Get More Done - Likely Contributors Variant]]
-* [[Pattern: change the developers mindset]]
-* [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/blob/master/dont-bother-looking.md)
 * [Badly named piles](https://github.com/paypal/InnerSourcePatterns/blob/master/badly-named-piles.md)
+* [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/blob/master/dont-bother-looking.md)
 * [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/blob/master/junkyard-styled-innersourcing.md)
+* [Different repo for shared code than the product org uses in its build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
+* [Incentive Alignment](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
+* [Change the developers mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
+* [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
 
-Pattern donuts (needing a solution)
+Pattern Donuts (needing a solution)
 ===================================
 
-* [[Donut 3: how to defeat the hierarchical constraints]]  
-* [[Donut 4: modular code (for reuse) requires extra resources]]  
-* [[Donut 5: project management time pressures]]
-* [[Donut 6: organizational mindset change]]  
-* [[Donut 8: Not invented here]]
-* [[Donut: Bad weather for liftoff]]
+* [Donut 3: how to defeat the hierarchical constraints](https://github.com/paypal/InnerSourceCommons/wiki/Donut-3%3A-how-to-defeat-the-hierarchical-constraints)
+* [Donut 4: modular code (for reuse) requires extra resources](https://github.com/paypal/InnerSourceCommons/wiki/Donut-4%3A-modular-code-%28for-reuse%29-requires-extra-resources)
+* [Donut 5: project management time pressures](https://github.com/paypal/InnerSourceCommons/wiki/Donut-5:-project-management-time-pressures)
+* [Donut 6: organizational mindset change](https://github.com/paypal/InnerSourceCommons/wiki/Donut-6:-organizational-mindset-change)
+* [Donut 8: Not invented here](https://github.com/paypal/InnerSourceCommons/wiki/Donut-8:-Not-invented-here)
+* [Donut: Bad weather for liftoff](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Bad-weather-for-liftoff)
 * [Get contributions despite silo thinking](https://github.com/paypal/InnerSourcePatterns/pull/38)
 
 
-# Licensing
+Licensing
+=========
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
