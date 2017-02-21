@@ -44,7 +44,7 @@ Proven Pattern Drafts (not yet reviewed)
 
 * [[Common Requirements]]
 * [[Contained inner source enables collaborative product development]]
-* [Review Committee Cheese Interface](https://github.com/paypal/InnerSourceCommons/wiki/Review-Committee--aka--Cheese-Interface)
+* [Review Committee aka Cheese Interface](https://github.com/paypal/InnerSourcePatterns/pull/43)
 * [[Overcome Acquisition based Silos]]  
 * [[Open Source trumps InnerSource]]
 * [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
