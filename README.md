@@ -34,14 +34,14 @@ Pattern Meta
 * [Pattern Template](resources/pattern-template.md) - Start a new pattern with a copy of this
 
 
-Reviewed Patterns
-=================
+Reviewed Patterns (proven and reviewed)
+=======================================
 
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/blob/master/contracted-contributor.md)
 * [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
 
-Proven Pattern Drafts (not yet reviewed)
-========================================
+Pattern Drafts (proven, not yet reviewed)
+=========================================
 
 * [Common Requirements](https://github.com/paypal/InnerSourcePatterns/pull/11)
 * [Contained inner source enables collaborative product development](https://github.com/paypal/InnerSourcePatterns/pull/13)
@@ -51,8 +51,8 @@ Proven Pattern Drafts (not yet reviewed)
 * [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
 * [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
 
-Pattern brainstormed ideas (not yet proven)
-===========================================
+Pattern Ideas (not yet proven; brainstormed)
+============================================
 
 * [Different repo for shared code than the product org uses in its build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
 * [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
@@ -61,15 +61,15 @@ Pattern brainstormed ideas (not yet proven)
 * [Badly named piles](https://github.com/paypal/InnerSourcePatterns/blob/master/badly-named-piles.md)
 * [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/blob/master/junkyard-styled-innersourcing.md)
 
-Pattern donuts (needing a solution)
+Pattern Donuts (needing a solution)
 ===================================
 
-* [Donut 3: how to defeat the hierarchical constraints]
-* [Donut 4: modular code (for reuse) requires extra resources]
-* [Donut 5: project management time pressures]
-* [Donut 6: organizational mindset change]
-* [Donut 8: Not invented here]
-* [Donut: Bad weather for liftoff]
+* [Donut 3: how to defeat the hierarchical constraints](https://github.com/paypal/InnerSourceCommons/wiki/Donut-3%3A-how-to-defeat-the-hierarchical-constraints)
+* [Donut 4: modular code (for reuse) requires extra resources](https://github.com/paypal/InnerSourceCommons/wiki/Donut-4%3A-modular-code-%28for-reuse%29-requires-extra-resources)
+* [Donut 5: project management time pressures](https://github.com/paypal/InnerSourceCommons/wiki/Donut-5:-project-management-time-pressures)
+* [Donut 6: organizational mindset change](https://github.com/paypal/InnerSourceCommons/wiki/Donut-6:-organizational-mindset-change)
+* [Donut 8: Not invented here](https://github.com/paypal/InnerSourceCommons/wiki/Donut-8:-Not-invented-here)
+* [Donut: Bad weather for liftoff](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Bad-weather-for-liftoff)
 * [Get contributions despite silo thinking](https://github.com/paypal/InnerSourcePatterns/pull/38)
 
 
