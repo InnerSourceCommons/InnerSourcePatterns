@@ -5,7 +5,7 @@ What are Inner Source Patterns?
 
 Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
-* [InnerSource Patterns template](resources/pattern-template.md)
+* [InnerSource Patterns template](meta/pattern-template.md)
 * [See the presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF)
 
 
@@ -72,8 +72,8 @@ Pattern Donuts (needing a solution)
 Pattern Meta Info
 =================
 
-* [Pattern States](resources/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
-* [Pattern Template](resources/pattern-template.md) - Start a new pattern with a copy of this
+* [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
+* [Pattern Template](meta/pattern-template.md) - Start a new pattern with a copy of this
 
 
 Licensing
