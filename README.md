@@ -27,13 +27,6 @@ We encourage beginners seeking answers to jump in by creating ''donuts'' (proble
 We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (email list).
 
 
-Pattern Meta Info
-=================
-
-* [Pattern States](https://github.com/paypal/InnerSourceCommons/wiki/Pattern-States) - Definitions of the various status and review steps a pattern can be in
-* [Pattern Template](resources/pattern-template.md) - Start a new pattern with a copy of this
-
-
 Reviewed Patterns (proven and reviewed)
 =======================================
 
@@ -74,6 +67,13 @@ Pattern Donuts (needing a solution)
 * [Donut 8: Not invented here](https://github.com/paypal/InnerSourceCommons/wiki/Donut-8:-Not-invented-here)
 * [Donut: Bad weather for liftoff](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Bad-weather-for-liftoff)
 * [Get contributions despite silo thinking](https://github.com/paypal/InnerSourcePatterns/pull/38)
+
+
+Pattern Meta Info
+=================
+
+* [Pattern States](resources/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
+* [Pattern Template](resources/pattern-template.md) - Start a new pattern with a copy of this
 
 
 Licensing
