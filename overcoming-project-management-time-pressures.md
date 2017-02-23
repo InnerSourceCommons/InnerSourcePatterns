@@ -1,31 +1,32 @@
-**Title:** ??  
+**Title:** Time Constraints Hamper Inner Source Progress  
 
-**Statement of Problem:**  Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.
+**Statement of Problem:**  Project management believes that timeline pressures and feature content commitments do not allow Developers to spend the time needed to develop shareable, reusable code and provide support. As a result, there is currently no code available for reuse, and Developers are writing redundant code.
 
-Context: Customer deadlines (and committed feature content) do not change. InnerSource has already been tried on separate internal tooling projects.  
+**Context:** Customer deadlines and delivery commitments for feature content do not change.  
 
 **Forces:**
-- Project management is concerned/fearful that we will miss the committed dates if its developers spend time working on other projects or on documentation so that their code is modular or are spending time supporting shared code.
-- Project managers worry that other organizations may require the time of their experts (dilution of expert time spent on their own projects).
-- Inner sourcing can generate new, innovative features and could save time: benefitting the project manager. 
-- Time in testing could also be saved by using more robust software (shared code is more likely to be more robust).
-- Adopting InnerSource initially will slow you down.
-- Test Driven Development could mitigate some of the above forces
-
+- Aggressive roadmaps for delivery
+- Project management concern that engagement will lead to missed deadlines 
+- Project management concern that Code contribution and/or mentoring may lead to dilution of subject matter expert time spent on their own projects (other teams may require their time).
++ Elimination of rewriting common code saves time (write once, use many times)
++ Crowd-based testing and debugging saves time (and improves quality)
++ The collaboration and synergy of inner sourcing can generate new, innovative features  .
++ Test Driven Development could mitigate some of the above forces
 
 **Resolution:** 
 - Known pattern: temporary fork by product team, merging changes back later to component team
 - Known anti-pattern: surreptitious temporary fork, no communication
 - New Pattern: Pre-pull request (prior to release), to ensure component team has buy-in, to avoid breakage for temporary fork
+- Allocate time into Development sprint/release schedules to allow for inner sourcing
+- Provide education to product owners and Development leads regarding time saving benefits of Inner Source
 
-
-
-**Resulting Context:** Time is allotted in the schedule to allow for inner sourcing.  
-
+**Resulting Context:** Time is allotted in the schedule for inner sourcing. Less duplicative development due to availability of reusable code. (No negative impact on customer deadlines or content delivery commitments.)
+  
 **Authors:**  
 - Tim Yao
 - Nick Stahl
 - Guy Martin
 - Michael Dorner
+- Erin Bank
 
 **Status:** Draft Pattern
