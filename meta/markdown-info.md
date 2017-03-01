@@ -1,4 +1,6 @@
-All markdown is in plain text. It is meant to be easy to read in plain ASCII, while also being pretty once rendered. 
+# What is Markdown?
+
+A markdown file is a plain ASCII text file that is meant to be easy to read in plaintext, while also being pretty once rendered. 
 It is similar to the format that many wiki's have. As an example, you can see 
 [this rendered pattern](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md) 
 of ours also [in plain text](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/dedicated-community-leader.md). 

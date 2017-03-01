@@ -1,8 +1,4 @@
-# Technical steps
-
-If you are unfamiliar with git or github, you can either:
-  * follow the technical instructions below (command line) or 
-  * [use Github's GUI-based application](https://desktop.github.com/) (its rather nice and makes everything easier for a beginner).
+# Command-line git steps for creating a new Pattern
 
 If you want to contribute, the workflow is done through branches. You can see the
 available branches of this repository at [the branches URL](https://github.com/paypal/InnerSourcePatterns/branches)

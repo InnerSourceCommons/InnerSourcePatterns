@@ -4,7 +4,7 @@ Click the following for more info:
 
 1. [Write a new pattern](#writing-a-new-pattern)
 2. [Discuss/Record early ideas](#discussing-early-ideas-in-issues)
-3. [Add-to/Comment-on existing patterns in review](#interacting-with-patterns-reviews)
+3. [Review existing patterns](#interacting-with-patterns-reviews)
 4. [Take part in our Meetings and Roles](/meta/meetings.md) <-- link to separate doc
 
 # Where to Start...
@@ -30,7 +30,9 @@ The simplest way to create a pattern is with your browser:
 
 This creates a separate branch and creates a Pull Request (PR) all in one fell swoop!
 
-You can also utilize git's native command line instead: [we have separate technical instructions here](/meta/technical-git-howto.md).
+Note: If you are a contributor (@nyeates or @gruetter can add you)... Then assure you select 'Create a new branch...' during Step 4. Name the branch like "pattern/project-management-time-pressures"
+
+Like the command-line better? *As an alternative, you can utilize git's native command line instead* [We have a separate set of technical instructions here](/meta/technical-git-howto.md).
 
 
 # Discussing Early Ideas in Issues
