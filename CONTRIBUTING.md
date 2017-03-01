@@ -18,9 +18,9 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 
 # Writing a New Pattern
 
-We utilizes Github Pull Requests to facilitate collaborative reviews.
+The below steps can be used to create a new ''donut'', ''idea'', or complete pattern. We explain a simple github web-site-only method of creation, and if you wish to utilize git's native command line instead, [we have separate technical instructions here](/meta/technical-git-howto.md)!
 
-## Workflow
+
 
 ![branch, commit, pull request, review](assets/img/branchCommitPullReview.png)
 
@@ -34,7 +34,7 @@ The basic steps below can be thought of as *branch*, *commit*, *pull request*, a
   [patterns repository][patternsRepo]. Please use the similar convention for
   naming branches: `pattern/<pattern-name>`. Example:
   `pattern/contracted-contributor`.
-3. Create a _Markdown_ file with the description of the _idea_, _donut_ or
+3. Create a [Markdown](/meta/markdown-info.md) file with the description of the _idea_, _donut_ or
   _pattern_ and store it in the main directory. Commit and push.
 4. Once your contribution is ready to be reviewed, create a pull request (PR)
   targeted at `master` and label it with _pattern_. Additionally decide whether
