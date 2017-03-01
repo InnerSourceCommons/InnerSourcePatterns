@@ -1,7 +1,9 @@
 # How to Contribute
 
-1. [Add & Review patterns on Github](#add-and-review-patterns-on-github) <-- link to below
-2. [Take part in our Meetings and Roles](/meta/meetings.md) <-- link to separate doc
+1. [Write a new pattern](#writing-a-new-pattern)
+2. [Discuss/Record early ideas]()
+3. [Add-to/Comment-on existing patterns in review]()
+4. [Take part in our Meetings and Roles](/meta/meetings.md) <-- link to separate doc
 
 # What to Help Us With
 
@@ -12,11 +14,9 @@ We encourage beginners seeking answers to jump in by creating ''donuts'' (fillin
 We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (there is an email list).
 
 
-# Add and Review Patterns on Github
+# Writing a New Pattern
 
-The rest of this document describes the workflow / process for writing, reviewing, and publishing
-InnerSource ideas, donuts and patterns. It utilizes Github Pull Requests to facilitate
-collaborative reviews.
+We utilizes Github Pull Requests to facilitate collaborative reviews.
 
 ## Workflow
 
