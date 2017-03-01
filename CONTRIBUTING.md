@@ -1,17 +1,19 @@
 # How to Contribute
 
+Click the following for more info:
+
 1. [Write a new pattern](#writing-a-new-pattern)
 2. [Discuss/Record early ideas]()
 3. [Add-to/Comment-on existing patterns in review]()
 4. [Take part in our Meetings and Roles](/meta/meetings.md) <-- link to separate doc
 
-# What to Help Us With
+# Where to Start...
 
 First, checkout our complete list of patterns: [google doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) OR [public github](https://github.com/paypal/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed)
 
 We encourage beginners seeking answers to jump in by creating ''donuts'' (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). 
 
-We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (there is an email list).
+We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
 
 # Writing a New Pattern
