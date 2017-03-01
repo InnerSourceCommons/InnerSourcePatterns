@@ -1,7 +1,7 @@
 # How to Contribute
 
 1. [Take part in our Meetings and Roles](#roles-tasks-and-meetings)
-2. [Learn our github workflow](#innersource-patterns-workflow) (Add & Review patterns)
+2. [Add & Review patterns on Github](#add-and-review-patterns-on-github)
 
 We encourage beginners seeking answers to jump in by creating ''donuts'' (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). 
 
@@ -19,7 +19,7 @@ Become involved with the people and communications of Inner Source Patterns:
   * Add your name if you want to be on the author team. Mark your name in blue if you want to be the coordinator.
   * Add your name to the reviewer team if interested in the pattern
 * Coordinator role (per pattern): Setup meetings with pattern Authors to work through the patterns. Note the team can use Google docs or any other tool to work on the pattern. However github is the final destination for the patterns. It is recommended that github be kept as up-to-date as possible. Please keep the status and target updated for each pattern in the spreadsheet.
-* Every 2 weeks (or even sooner if necessary) we will have a meeting with a larger team and review the patterns.
+* Every 4 weeks (or even sooner if necessary) we will have a meeting with a larger team and review the patterns.
 * Folks who want to join the pattern mining team but are new to this please let us know. We can bring you up to speed. 
 
 If you don't have access yet to the google drive shared folder, contact @thyao, @silona or @cedric on the Slack channel. They can add you to the google group. @cedric or @duane can ensure you have access to the #innersource-patterns slack channel.
@@ -27,10 +27,10 @@ If you don't have access yet to the google drive shared folder, contact @thyao, 
 Note: A transition from Wiki to Github is in the works. For the time being, some of both are being done until all is transferred. Default to github.
 
 
-# InnerSource Patterns Workflow
+# Add and Review Patterns on Github
 
-The rest of this document describes the workflow / process for writing, reviewing and publishing
-InnerSource ideas, donuts and patterns. It utilizes Pull Requests to facilitate
+The rest of this document describes the workflow / process for writing, reviewing, and publishing
+InnerSource ideas, donuts and patterns. It utilizes Github Pull Requests to facilitate
 collaborative reviews.
 
 ## Workflow
@@ -175,7 +175,7 @@ $ git push origin pattern/ewoks-do-not-hunt
 
 Then, if you feel the pattern is ready to review, you can start a Pull Request (PR) asking
 to join your new branch to the master branch. To do this, navigate to the github web repo 
-and get into your new branch. You should see a 'Create pull request' button while in in your branch.
+and get into your new branch. You should see a 'Create pull request' button while in your branch.
 
 
 
