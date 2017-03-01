@@ -1,7 +1,7 @@
 # How to Contribute
 
-1. [Add & Review patterns on Github](#add-and-review-patterns-on-github)
-2. [Take part in our Meetings and Roles](/meta/meetings.md)
+1. [Add & Review patterns on Github](#add-and-review-patterns-on-github) <-- link to below
+2. [Take part in our Meetings and Roles](/meta/meetings.md) <-- link to separate doc
 
 # What to Help Us With
 
