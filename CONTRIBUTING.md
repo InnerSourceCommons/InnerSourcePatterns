@@ -37,7 +37,7 @@ Like the command-line better? *As an alternative, you can utilize git's native c
 
 ## Use Branches When Creating New Patterns
 We develop new patterns in branches with the naming convention:  
-`pattern/[title-of-pattern-here]`.
+`pattern/<title-of-pattern-here>`.
 
 If you are asked to 'Commit directly...' vs 'Create a new branch...'
 
@@ -67,9 +67,6 @@ After this process, it is our turn to drive you through the pattern creation pro
 
 FIXME: The below content is wrong for this section. Content for this section needs to be written, and the below content needs to be integrated elsewhere (it has some useful info).
 
-![branch, commit, pull request, review](assets/img/branchCommitPullReview.png)
-
-The basic steps below can be thought of as *branch*, *commit*, *pull request*, and *review*.
 
 1. [Create an issue](https://github.com/paypal/InnerSourcePatterns/issues) for each new idea, donut or pattern. The issue should:
   * contain a title of the pattern in format ex: ``pattern/badly-named-piles``
