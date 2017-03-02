@@ -30,9 +30,9 @@ The simplest way to create a pattern is with your browser:
   * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns).
 6. Propose this new file and then also create a Pull Request (PR)
 
-Your done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop!
+Your done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop! PR's are the mechanism we use for our multi-step Review process. See next steps in [Interacting with Pattern Reviews](#c-interacting-with-patterns-reviews).
 
-Like the command-line better? *As an alternative, you can utilize git's native command line instead* [We have a separate set of technical instructions here](/meta/technical-git-howto.md).
+Like the command-line better? *As an alternative, you can utilize git's native command line instead*. [We have a separate set of technical instructions here](/meta/technical-git-howto.md).
 
 
 ## Use Branches When Creating New Patterns
@@ -42,7 +42,7 @@ We develop new patterns in branches with the naming convention:
 If you are asked to 'Commit directly...' vs 'Create a new branch...'
 
 * Assure you select **'Create a new branch...'** and name the branch like this example: "pattern/project-management-time-pressures". 
-* This occurs when [writing a new pattern via the web interface](#writing-a-new-pattern).
+* This occurs when writing a new pattern via the web interface (section A above).
 * Only [Trusted Collaborators](/meta/trusted_collaborators.md) (TC's) are asked this; we are adding most contributors as TC's.
 
 
