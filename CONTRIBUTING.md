@@ -1,12 +1,12 @@
 # How to Contribute
 
-First, checkout our complete list of patterns: [google doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) OR [public github](https://github.com/paypal/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed)
+First, checkout our complete list of patterns: [Google Doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) OR [public GitHub](https://github.com/paypal/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed)
 
 We encourage beginners seeking answers to jump in by creating `donut` patterns (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). 
 
 Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). We encourage experts to pad their experience - these are hoped to become part of an Inner Source handbook one day.
 
-We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
+We work together via GitHub, WebEx, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns Slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
 Select one of the following ways to contribute, to learn our workflow:
 
@@ -22,7 +22,7 @@ The below steps can be used to create a new `donut`, `idea`, or complete pattern
 
 The simplest way to create a pattern is with your browser:
 
-1. Assure you are logged into Github & go to the [patterns web repo](https://github.com/paypal/InnerSourcePatterns)
+1. Assure you are logged into GitHub & go to the [patterns web repo](https://github.com/paypal/InnerSourcePatterns)
 2. Click on the 'Create new file' button
 3. Name the file like this example: "project-management-time-pressures.md"
 4. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your _idea_, _donut_, or _pattern_
