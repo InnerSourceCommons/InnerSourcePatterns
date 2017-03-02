@@ -49,14 +49,18 @@ If you are asked to 'Commit directly...' vs 'Create a new branch...'
 
 # B. Discussing Early Ideas in Issues
 
-If you feel that you need extra advice when dealing with patterns, please open an issue in the [ticketing system](https://github.com/paypal/InnerSourcePatterns/issues). This process is only needed when contributing early ideas. This is as follows:
+If you feel that you need extra advice when dealing with patterns, please open an issue in the [ticketing system](https://github.com/paypal/InnerSourcePatterns/issues). This process is only needed when contributing early ideas that you are uncertain about. 
+
+Here are tips on starting this discussion:
 
 * [Create a new ticket](https://github.com/paypal/InnerSourcePatterns/issues/new).
-* Add a concise title of the pattern you would like to discuss about
-* Work on the context of the pattern and your expected output.
-* [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) 'idea'. That label can be found in the right column settings.
+* Add a concise title to the pattern you would like to discuss.
+* Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
+* Ask any questions that you are unsure about. Are you unsure if this problem belongs here? Are you unsure on how to frame and explain the problem?
+* [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) `Idea`. Labels can be found in the right column settings.
 
-After this process, it is our turn to drive you around the patterns process creation. We will help to land your idea and check if there are other similar in progress.
+After this process, it is our turn to drive you through the pattern creation process. We will help to land your idea and check if there are existing  similar patterns.
+
 
 
 # C. Interacting with Patterns Reviews
