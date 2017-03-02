@@ -26,11 +26,11 @@ The simplest way to create a pattern is with your browser:
 2. Click on the 'Create new file' button
 3. Name the file like this example: "project-management-time-pressures.md"
 4. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of the _idea_, _donut_, or _pattern_
-5. Propose this new file and then also create a Pull Request (PR)
+5. Enter a descriptive commit message
+  * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns).
+6. Propose this new file and then also create a Pull Request (PR)
 
 This creates a separate branch and creates a Pull Request (PR) all in one fell swoop!
-
-Note: If you are a contributor (@nyeates or @gruetter can add you)... Then assure you select 'Create a new branch...' during Step 4. Name the branch like "pattern/project-management-time-pressures"
 
 Like the command-line better? *As an alternative, you can utilize git's native command line instead* [We have a separate set of technical instructions here](/meta/technical-git-howto.md).
 
@@ -78,6 +78,13 @@ When completed patterns (reviewed and accepted) are ready to be published from t
 
 If you would like [technical command-line instructions, see here](/meta/technical-git-howto.md).
 
+
+## Use Branches When Creating New Patterns
+We develop new patterns in branches with the naming convention:  
+`pattern/[title-of-pattern-here]`.
+
+If you are asked to 'Commit directly...' vs 'Create a new branch...' when [writing a new pattern via the web interface](#writing-a-new-pattern),  
+Assure you select `Create a new branch...` and name the branch like "pattern/project-management-time-pressures"
 
 
 [commons]: http://innersourcecommons.org
