@@ -10,9 +10,9 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 
 Select one of the following ways to contribute, to learn our workflow:
 
-* A. [Write a new pattern](#a.-writing-a-new-pattern)
-* B. [Discuss/Record early ideas](#b.-discussing-early-ideas-in-issues)
-* C. [Review existing patterns](#c.-interacting-with-patterns-reviews)
+* A. [Write a new pattern](#a-writing-a-new-pattern)
+* B. [Discuss/Record early ideas](#b-discussing-early-ideas-in-issues)
+* C. [Review existing patterns](#c-interacting-with-patterns-reviews)
 * D. [Take part in our Meetings and Roles](/meta/meetings.md) <-- link to separate doc
 
 
