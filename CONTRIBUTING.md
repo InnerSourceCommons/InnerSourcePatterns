@@ -18,7 +18,7 @@ Select one of the following ways to contribute, to learn our workflow:
 
 # A. Writing a New Pattern
 
-The below steps can be used to create a new `donut`, `idea`, or complete pattern. The use-case here is that you have a relatively thought-out idea or problem in your head and can confidently fill out the barest of pattern fields. If you are unsure your idea is ready for this, [discuss it in an issue first](#discussing-early-ideas-in-issues).
+The below steps can be used to create a new `donut`, `idea`, or complete pattern. The use-case here is that you have a relatively thought-out idea or problem in your head and can confidently fill out the barest of pattern fields (Solution doesn't need to be known). If you are unsure your idea is ready for this, [discuss it in an issue first](#discussing-early-ideas-in-issues).
 
 The simplest way to create a pattern is with your browser:
 
@@ -54,8 +54,8 @@ If you feel that you need extra advice when dealing with patterns, please open a
 Here are tips on starting this discussion:
 
 * [Create a new ticket](https://github.com/paypal/InnerSourcePatterns/issues/new).
-* Add a concise title to the pattern you would like to discuss.
-* Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
+* Add a concise title like this example: "pattern/badly-named-piles"
+* Describe your problem. Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
 * Ask any questions that you are unsure about. Are you unsure if this problem belongs here? Are you unsure on how to frame and explain the problem?
 * [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) `Idea`. Labels can be found in the right column settings.
 
@@ -65,38 +65,18 @@ After this process, it is our turn to drive you through the pattern creation pro
 
 # C. Interacting with Patterns Reviews
 
-FIXME: The below content is wrong for this section. Content for this section needs to be written, and the below content needs to be integrated elsewhere (it has some useful info).
+A pattern is said to be "in-review" or being "Reviewed" when we have a Pull Request with some amount of Pattern detail filled out. We then communally review, and comment-on, and OK these "in-review" patterns. There are multiple steps involved, sometimes requiring multiple re-writes, and peer-reviews. Usually though, we first look for a pattern with all the fields filled out, and then go through TWO peer-reviews.
 
+Our workflow is done through Pull Requests (PR's) and Branches. Branches are meant to separate content, so that multiple people and patterns can exist all at once. Pull Requests (PR's) are used to bring online discussion/review about a specific Inner Source pattern. 
 
-1. [Create an issue](https://github.com/paypal/InnerSourcePatterns/issues) for each new idea, donut or pattern. The issue should:
-  * contain a title of the pattern in format ex: ``pattern/badly-named-piles``
-  * contain a short description (at least the problem) and
-  * be labeled with the appropriate label (_idea_, _donut_, _pattern_)
-2. Create a new branch either in your browser, clone, or fork of the
-  [patterns repository][patternsRepo]. Please use the similar convention for
-  naming branches: `pattern/<pattern-name>`. Example:
-  `pattern/contracted-contributor`.
-3. Create a [Markdown](/meta/markdown-info.md) file with the description of the _idea_, _donut_ or
-  _pattern_ and store it in the main directory. Commit and push.
-4. Once your contribution is ready to be reviewed, create a pull request (PR)
-  targeted at `master` and label it with _pattern_. Additionally decide whether
-  to label it with _idea_, _donut_, or _draft_ and _Ready for Review_ or _Incomplete_
-5. Reviewers can now use the PR features to comment on the pattern.
-6. In case of required rework, the author should apply the labels
-  _Ready for Additional Review_ and/or _Revised_ to indicate that a 2nd review is requested.
-7. After reviews are complete, the reviewers or author should remove the label
-  _Ready for Review_ and label the pattern _Accepted_.
-8. Once a pattern is labeled _Accepted_ by the reviewers, one of the TCs of the
-  [patterns repository][patternsRepo] will then move the pattern to either the
-  `ideas`, `donuts` or `patterns` subdirectories, merge it to `master` and
-  close the associated issue.
+FIXME Explain how to add content to in-review patterns. Explain how to add review comments and accepting a review.
 
-When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to the InnerSourceCommons repo, [see our seperate PUBLISHING.md instructions](PUBLISHING.md).
+Below are the major steps in our Review process:
 
-If you would like [technical command-line instructions, see here](/meta/technical-git-howto.md).
+1. Label your Pull Request with `pattern`. Additionally decide whether to label it with `idea`, `donut`, or `draft` and `Ready for Review` or `Incomplete`
+2. Reviewers can now use the PR features to comment on the pattern.
+3. In case of required rework, the author should apply the labels `Ready for Additional Review` and/or `Revised` to indicate that a 2nd review is requested.
+4. After reviews are complete, the reviewers or author should remove the label `Ready for Review` and label the pattern `Accepted`.
+5. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Collaborators](/meta/trusted_collaborators.md) (most authors are by this point) can  Merge the PR on Github. This places the .md file into the master branch / root directory.
 
-
-
-[commons]: http://innersourcecommons.org
-[patternsRepo]: https://github.com/paypal/InnerSourcePatterns
-[commonsRepo]: https://github.com/paypal/InnerSourceCommons
+When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to the InnerSourcePatterns Gitbook, [see our separate PUBLISHING.md instructions](/meta/publishing.md).
