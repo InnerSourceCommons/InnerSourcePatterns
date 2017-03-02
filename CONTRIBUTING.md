@@ -50,11 +50,14 @@ If you are asked to 'Commit directly...' vs 'Create a new branch...'
 
 # Discussing Early Ideas in Issues
 
-FIXME: Content needs to be created (by Daniel Izquierdo??)
+If you feel that you need extra advice when dealing with patterns, please open an issue in the [ticketing system](https://github.com/paypal/InnerSourcePatterns/issues). This process is only needed when contributing early ideas. This is as follows:
 
-* "for early discussions go to issues, you can click there, and then open a new issue here, please use the label `idea` and try to be concise with the context, so we can point to others if needed"
-* "Context is basically a description of the issue they may face in their organization"
+* [Create a new ticket](https://github.com/paypal/InnerSourcePatterns/issues/new).
+* Add a concise title of the pattern you would like to discuss about
+* Work on the context of the pattern and your expected output.
+* [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) 'idea'. That label can be found in the right column settings.
 
+After this process, it is our turn to drive you around the patterns process creation. We will help to land your idea and check if there are other similar in progress.
 
 
 # Interacting with Patterns Reviews
