@@ -14,7 +14,7 @@ Please, when starting a new pattern, make sure that it does not already exist. T
 
 ## Overview of steps
 
-![branch, commit, pull request, review](assets/img/branchCommitPullReview.png)
+![branch, commit, pull request, review](/assets/img/branchCommitPullReview.png)
 
 The basic steps below can be thought of as *branch*, *commit*, *pull request*, and *review*.
 
@@ -87,7 +87,7 @@ $ git checkout -b pattern/ewoks-do-not-hunt
 $ touch ewoks-do-not-hunt.md
 ```
 
-You can fill your [markdown](meta/markdown-info.md) file with the [pattern template text](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) and begin to fill it in with your pattern.
+You can fill your [markdown](/meta/markdown-info.md) file with the [pattern template text](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) and begin to fill it in with your pattern.
 
 Once our pattern file is ready to go, we need to add the file to the repo and
 commit that change to our new branch.
@@ -105,4 +105,4 @@ $ git push origin pattern/ewoks-do-not-hunt
 
 Then, if you feel the pattern is ready to be reviewed, you can start a Pull Request (PR) asking to join your new branch to the github master branch. To do this, navigate to the github web repo and get into your new branch. You should see a 'Create pull request' button while in your branch.
 
-PR's are the mechanism we use for our multi-step Review process. See next steps in [Interacting with Pattern Reviews](CONTRIBUTING.md#c-interacting-with-patterns-reviews).
+PR's are the mechanism we use for our multi-step Review process. See next steps in [Interacting with Pattern Reviews](/CONTRIBUTING.md#c-interacting-with-patterns-reviews).
