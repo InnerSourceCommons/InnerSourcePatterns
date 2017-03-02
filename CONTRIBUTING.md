@@ -16,6 +16,7 @@ We encourage beginners seeking answers to jump in by creating `donuts` (filling 
 We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
 
+
 # Writing a New Pattern
 
 The below steps can be used to create a new `donut`, `idea`, or complete pattern. The use-case here is that you have a relatively thought-out idea or problem in your head and can confidently fill out the barest of pattern fields. If you are unsure your idea is ready for this, [discuss it in an issue first](#discussing-early-ideas-in-issues).
@@ -30,9 +31,21 @@ The simplest way to create a pattern is with your browser:
   * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns).
 6. Propose this new file and then also create a Pull Request (PR)
 
-This creates a separate branch and creates a Pull Request (PR) all in one fell swoop!
+Your done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop!
 
 Like the command-line better? *As an alternative, you can utilize git's native command line instead* [We have a separate set of technical instructions here](/meta/technical-git-howto.md).
+
+
+## Use Branches When Creating New Patterns
+We develop new patterns in branches with the naming convention:  
+`pattern/[title-of-pattern-here]`.
+
+If you are asked to 'Commit directly...' vs 'Create a new branch...'
+
+* Assure you select **'Create a new branch...'** and name the branch like "pattern/project-management-time-pressures". 
+* This occurs when [writing a new pattern via the web interface](#writing-a-new-pattern).
+* Only [Trusted Collaborators](/meta/trusted_collaborators.md) (TC's) are asked this; we are adding most contributors as TC's.
+
 
 
 # Discussing Early Ideas in Issues
@@ -41,6 +54,7 @@ FIXME: Content needs to be created (by Daniel Izquierdo??)
 
 * "for early discussions go to issues, you can click there, and then open a new issue here, please use the label `idea` and try to be concise with the context, so we can point to others if needed"
 * "Context is basically a description of the issue they may face in their organization"
+
 
 
 # Interacting with Patterns Reviews
@@ -78,13 +92,6 @@ When completed patterns (reviewed and accepted) are ready to be published from t
 
 If you would like [technical command-line instructions, see here](/meta/technical-git-howto.md).
 
-
-## Use Branches When Creating New Patterns
-We develop new patterns in branches with the naming convention:  
-`pattern/[title-of-pattern-here]`.
-
-If you are asked to 'Commit directly...' vs 'Create a new branch...' when [writing a new pattern via the web interface](#writing-a-new-pattern),  
-Assure you select `Create a new branch...` and name the branch like "pattern/project-management-time-pressures"
 
 
 [commons]: http://innersourcecommons.org
