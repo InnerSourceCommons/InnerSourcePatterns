@@ -1,7 +1,7 @@
 This repository serves as the collection-point, ideation hub, and process behind the [InnerSource Commons'](http://innersourcecommons.com) set of proven and reviewed InnerSource approaches (patterns). These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource methodologies](http://paypal.github.io/InnerSourceCommons/getting-started/).
 
-What are Inner Source Patterns?
-===============================
+
+# What are Inner Source Patterns?
 
 Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
@@ -10,16 +10,14 @@ Patterns are a way of describing a repeatable, proven solution to a problem with
 * [View our InnerSource Patterns Template](meta/pattern-template.md)
 
 
-How can you use Inner Source Patterns?
-======================================
+# How can you use Inner Source Patterns?
 
 Patterns must be used in a thoughtful manner. They cannot be blindly applied. In most cases, you will need to adapt the given solution to your own situation; but the information given in the pattern, defining the context (immovable constraints) and forces (constraints that can be changed and balanced against each other), should help you do this.
 
 The pattern form is useful for describing proven patterns but it could also be used for *brainstorming solutions* where patterns are not yet established, since the form gives a structured way for thinking about a problem. You could also create a *donut pattern* (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
 
 
-How to Contribute?
-==================
+# How to Contribute?
 
 [See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
 
@@ -28,14 +26,15 @@ We encourage beginners seeking answers to jump in by creating ''donuts'' (proble
 We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
 
-Reviewed Patterns (proven and reviewed)
-=======================================
+
+# List of Patterns
+
+## Reviewed Patterns (proven and reviewed)
 
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/blob/master/contracted-contributor.md)
 * [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
 
-Pattern Drafts (proven, not yet reviewed)
-=========================================
+## Pattern Drafts (proven, not yet reviewed)
 
 * [Common Requirements](https://github.com/paypal/InnerSourcePatterns/pull/11)
 * [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
@@ -47,8 +46,7 @@ Pattern Drafts (proven, not yet reviewed)
 * [Open Source trumps InnerSource](https://github.com/paypal/InnerSourceCommons/wiki/Open-Source-trumps-InnerSource)
 * [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
 
-Pattern Ideas (not yet proven; brainstormed)
-============================================
+## Pattern Ideas (not yet proven; brainstormed)
 
 * [Badly named piles](https://github.com/paypal/InnerSourcePatterns/blob/master/badly-named-piles.md)
 * [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/blob/master/dont-bother-looking.md)
@@ -58,8 +56,7 @@ Pattern Ideas (not yet proven; brainstormed)
 * [Change the developers mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
 * [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
 
-Pattern Donuts (needing a solution)
-===================================
+## Pattern Donuts (needing a solution)
 
 * [Donut 3: how to defeat the hierarchical constraints](https://github.com/paypal/InnerSourceCommons/wiki/Donut-3%3A-how-to-defeat-the-hierarchical-constraints)
 * [Donut 4: modular code (for reuse) requires extra resources](https://github.com/paypal/InnerSourceCommons/wiki/Donut-4%3A-modular-code-%28for-reuse%29-requires-extra-resources)
@@ -70,15 +67,13 @@ Pattern Donuts (needing a solution)
 * [Get contributions despite silo thinking](https://github.com/paypal/InnerSourcePatterns/pull/38)
 
 
-Pattern Meta Info
-=================
+# Pattern Meta Info
 
 * [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
 * [Pattern Template](meta/pattern-template.md) - Start a new pattern with a copy of this
 
 
-Licensing
-=========
+# Licensing
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
