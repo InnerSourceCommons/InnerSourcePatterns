@@ -5,8 +5,9 @@ What are Inner Source Patterns?
 
 Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
-* [InnerSource Patterns template](meta/pattern-template.md)
+* [Watch a set of 2-5 min youtube videos explaining Patterns](http://bit.ly/innersource_patterns_videos)
 * [See the presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF)
+* [View our InnerSource Patterns Template](meta/pattern-template.md)
 
 
 How can you use Inner Source Patterns?
@@ -22,9 +23,9 @@ How to Contribute?
 
 [See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
 
-We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these could easily become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). 
+We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). 
 
-We work together via github, phone-meetings, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the patterns meetings (email list).
+We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
 
 Reviewed Patterns (proven and reviewed)
