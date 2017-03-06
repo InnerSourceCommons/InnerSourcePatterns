@@ -43,7 +43,7 @@ If you are asked to 'Commit directly...' vs 'Create a new branch...'
 
 * Assure you select **'Create a new branch...'** and name the branch like this example: "pattern/project-management-time-pressures". 
 * This occurs when writing a new pattern via the web interface (section A above).
-* Only [Trusted Collaborators](/meta/trusted_collaborators.md) (TC's) are asked this; we are adding most contributors as TC's.
+* Only [Trusted Collaborators](/meta/trusted-collaborators.md) (TC's) are asked this; we are adding most contributors as TC's.
 
 
 
@@ -77,6 +77,6 @@ Below are the major steps in our Review process:
 2. Reviewers can now use the PR features to comment on the pattern.
 3. In case of required rework, the author should apply the labels `Ready for Additional Review` and/or `Revised` to indicate that a 2nd review is requested.
 4. After reviews are complete, the reviewers or author should remove the label `Ready for Review` and label the pattern `Accepted`.
-5. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Collaborators](/meta/trusted_collaborators.md) (most authors are by this point) can  Merge the PR on Github. This places the .md file into the master branch / root directory.
+5. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Collaborators](/meta/trusted-collaborators.md) (most authors are by this point) can  Merge the PR on Github. This places the .md file into the master branch / root directory.
 
 When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to the InnerSourcePatterns Gitbook, [see our separate PUBLISHING.md instructions](/meta/publishing.md).
