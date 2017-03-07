@@ -18,7 +18,7 @@ Select one of the following ways to contribute, to learn our workflow:
 
 # A. Writing a New Pattern
 
-The below steps can be used to create a new `donut`, `idea`, or complete pattern. The use-case here is that you have a relatively thought-out idea or problem in your head and can confidently fill out the barest of pattern fields (Solution doesn't need to be known). If you are unsure your idea is ready for this, [discuss it in an issue first](#discussing-early-ideas-in-issues).
+The below steps can be used to create a new `donut`, `idea`, or complete pattern. The use-case here is that you have a relatively thought-out idea or problem in your head and can confidently fill out the barest of pattern fields (Solution doesn't need to be known). If you are unsure your idea is ready for this, [discuss it in an issue first](#b-discussing-early-ideas-in-issues).
 
 The simplest way to create a pattern is with your browser:
 
@@ -27,7 +27,7 @@ The simplest way to create a pattern is with your browser:
 3. Name the file like this example: "project-management-time-pressures.md"
 4. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your _idea_, _donut_, or _pattern_
 5. Enter a commit message
-  * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns).
+  * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns) below.
 6. Propose this new file and then also create a Pull Request (PR)
 
 Your done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop! PR's are the mechanism we use for our multi-step Review process. See next steps in [Interacting with Pattern Reviews](#c-interacting-with-patterns-reviews).
@@ -43,7 +43,7 @@ If you are asked to 'Commit directly...' vs 'Create a new branch...'
 
 * Assure you select **'Create a new branch...'** and name the branch like this example: "pattern/project-management-time-pressures". 
 * This occurs when writing a new pattern via the web interface (section A above).
-* Only [Trusted Collaborators](/meta/trusted_collaborators.md) (TC's) are asked this; we are adding most contributors as TC's.
+* Only [Trusted Collaborators](/meta/trusted-collaborators.md) (TC's) are asked this; we are adding most contributors as TC's.
 
 
 
@@ -77,6 +77,6 @@ Below are the major steps in our Review process:
 2. Reviewers can now use the PR features to comment on the pattern.
 3. In case of required rework, the author should apply the labels `Ready for Additional Review` and/or `Revised` to indicate that a 2nd review is requested.
 4. After reviews are complete, the reviewers or author should remove the label `Ready for Review` and label the pattern `Accepted`.
-5. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Collaborators](/meta/trusted_collaborators.md) (most authors are by this point) can  Merge the PR on Github. This places the .md file into the master branch / root directory.
+5. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Collaborators](/meta/trusted-collaborators.md) (most authors are by this point) can  Merge the PR on Github. This places the .md file into the master branch / root directory.
 
-When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to the InnerSourcePatterns Gitbook, [see our separate PUBLISHING.md instructions](/meta/publishing.md).
+When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to a Gitbook (PDF), [see our separate Publishing instructions](/meta/publishing.md).
