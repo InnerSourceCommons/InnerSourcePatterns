@@ -36,7 +36,7 @@ BIOS at Robert Bosch GmbH
 
 ## Status
 
-_Draft Pattern_
+_Ready For Review_
 
 ## Authors
 
