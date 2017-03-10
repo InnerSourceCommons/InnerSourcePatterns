@@ -19,3 +19,6 @@ Brainstormed pattern idea in progress
 * Erin Bank
 * Padma Sudarsan
 * Tim Yao
+
+## JUST TESTING
+Just testing to see how githubs PR-based review process will work when editing one of these existing files from in master. Are reviewers still able to comment on the entire file?... or just changes?
