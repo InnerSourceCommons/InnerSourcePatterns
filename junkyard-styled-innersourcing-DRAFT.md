@@ -1,3 +1,7 @@
+# THIS IS A DRAFT PATTERN
+IT IS HERE ONLY AS AN EXAMPLE AND IS NOT COMPLETE.  
+[Please join us in reviewing this and other patterns](https://github.com/paypal/InnerSourcePatterns/pulls).
+
 ## Title
 * junkyard styled inner sourcing
 * Finding but deciding not to use the internal component
