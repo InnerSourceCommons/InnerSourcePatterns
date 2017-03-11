@@ -43,14 +43,14 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1u4HZJxSfGsgvFCRtw6iqE1xDDowChb3BtcI1_nbu0Ys/edit)
 * [Overcome Acquisition based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Overcome Acquisition based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
-* [Open Source trumps InnerSource](https://github.com/paypal/InnerSourceCommons/wiki/Open-Source-trumps-InnerSource)
-* [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Draft-Pattern---Overcoming-Project-Management-Time-Pressures)
+* [Open Source trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46)
+* [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47)
 
 #### Pattern Ideas (not yet proven; brainstormed)
 
 * [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/pull/59)
 * [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/pull/60)
-* [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/blob/master/junkyard-styled-innersourcing.md)
+* [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/pull/61)
 * [Different repo for shared code than the product org uses in its build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
 * [Incentive Alignment](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
 * [Change the developers mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
