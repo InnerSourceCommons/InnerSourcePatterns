@@ -39,7 +39,7 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 * [Common Requirements](https://github.com/paypal/InnerSourcePatterns/pull/11)
 * [Reluctance to receive contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
 * [Contained inner source enables collaborative product development](https://github.com/paypal/InnerSourcePatterns/pull/13)
-* [Review Committee aka Cheese Interface](https://github.com/paypal/InnerSourcePatterns/pull/43)
+* [Review Committee](https://github.com/paypal/InnerSourcePatterns/pull/43)
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1u4HZJxSfGsgvFCRtw6iqE1xDDowChb3BtcI1_nbu0Ys/edit)
 * [Overcome Acquisition based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Overcome Acquisition based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
