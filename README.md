@@ -32,7 +32,7 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 #### Reviewed Patterns (proven and reviewed)
 
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/pull/57)
-* [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
+* [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/pull/58)
 
 #### Pattern Drafts (proven, not yet reviewed)
 
