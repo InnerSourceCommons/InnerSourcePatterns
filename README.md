@@ -48,7 +48,7 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 
 #### Pattern Ideas (not yet proven; brainstormed)
 
-* [Badly named piles](https://github.com/paypal/InnerSourcePatterns/blob/master/badly-named-piles.md)
+* [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/pull/59)
 * [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/blob/master/dont-bother-looking.md)
 * [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/blob/master/junkyard-styled-innersourcing.md)
 * [Different repo for shared code than the product org uses in its build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
