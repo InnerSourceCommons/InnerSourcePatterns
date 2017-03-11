@@ -49,7 +49,7 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 #### Pattern Ideas (not yet proven; brainstormed)
 
 * [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/pull/59)
-* [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/blob/master/dont-bother-looking.md)
+* [Don't bother looking](https://github.com/paypal/InnerSourcePatterns/pull/60)
 * [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/blob/master/junkyard-styled-innersourcing.md)
 * [Different repo for shared code than the product org uses in its build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
 * [Incentive Alignment](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
