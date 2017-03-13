@@ -29,6 +29,8 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 
 # List of Patterns
 
+The below lists all known patterns. They are grouped into four stages of maturity.
+
 #### Reviewed Patterns (proven and reviewed)
 
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/pull/57)
@@ -68,6 +70,8 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 
 
 # Pattern Meta Info
+
+The topics below cover information about how we define, operate, and upkeep this collection of patterns.
 
 * [Pattern Template](meta/pattern-template.md) - Start a new pattern with a copy of this
 * [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
