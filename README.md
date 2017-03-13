@@ -69,8 +69,15 @@ We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#in
 
 # Pattern Meta Info
 
-* [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
 * [Pattern Template](meta/pattern-template.md) - Start a new pattern with a copy of this
+* [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
+* [Trusted Collaborators](meta/trusted-collaborators.md) - Who these people are, what elevated rights they get, and how you can become one
+* [Publishing](meta/publishing.md) - How we take completed, reviewed, proven patterns and publish them toward an online book
+* [Markdown Info](meta/markdown-info.md) - Markdown is the ascii text format our patterns are written in; this document briefly defines how we use it
+* [Contributing](CONTRIBUTING.md) - How to interact with our group, create your own patterns, or take part in our review-process; Github / Web centric instructions
+  * [Alternate Command-line steps](meta/technical-git-howto.md) - If you want to contribute a pattern using `git` from the command-line, this is your document
+  * [Meetings](meta/meetings.md) - Become involved with the people and communications of the Inner Source Patterns group
+
 
 
 # Licensing
