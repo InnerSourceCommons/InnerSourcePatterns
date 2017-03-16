@@ -23,7 +23,7 @@ The below steps can be used to create a new pattern. The use-case here is that y
 The simplest way to create a pattern is with your browser (see below).  
 [Like the command-line better? See here for alternate instructions.](/meta/technical-git-howto.md)
 
-![Creating a new pattern](/assets/img/write-new-pattern.png)
+<img alt="Creating a new pattern" src="/assets/img/write-new-pattern.png" width="70%">
 
 1. Login to GitHub & inside the [patterns web repo](https://github.com/paypal/InnerSourcePatterns), click on the 'Create new file' button
 2. Name the file like this example: "project-management-time-pressures.md"
@@ -68,7 +68,7 @@ A pattern is said to be "in-review" or being "Reviewed" when we have a Pull Requ
 ## Editing a pattern that is in-review
 Go ahead, edit away - we can always go back - and we encourage action over discussion.
 
-![How to edit an existing pattern](/assets/img/edit-existing-pattern.png)
+<img alt="How to edit an existing pattern" src="/assets/img/edit-existing-pattern.png" width="70%">
 
 ## Reviewing a pattern
 FIXME Explain how to add review comments and accepting a review. Basically, this is all done through Githubs web GUI around Pull Requests.
