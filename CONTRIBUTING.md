@@ -18,21 +18,21 @@ Select one of the following ways to contribute, to learn our workflow:
 
 # A. Writing a New Pattern
 
-The below steps can be used to create a new `donut`, `idea`, or complete pattern. The use-case here is that you have a relatively thought-out idea or problem in your head and can confidently fill out the barest of pattern fields (Solution doesn't need to be known). If you are unsure your idea is ready for this, [discuss it in an issue first](#b-discussing-early-ideas-in-issues).
+The below steps can be used to create a new pattern. The use-case here is that you have an idea or problem in your head and can confidently fill out the barest of pattern fields (Solution doesn't need to be known). If you are unsure your idea is ready for this, [discuss it in an issue first](#b-discussing-early-ideas-in-issues).
 
-The simplest way to create a pattern is with your browser:
+The simplest way to create a pattern is with your browser (see below).  
+[Like the command-line better? See here for alternate instructions.](/meta/technical-git-howto.md)
 
-1. Assure you are logged into GitHub & go to the [patterns web repo](https://github.com/paypal/InnerSourcePatterns)
-2. Click on the 'Create new file' button
-3. Name the file like this example: "project-management-time-pressures.md"
-4. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your _idea_, _donut_, or _pattern_
-5. Enter a commit message
+![Creating a new pattern](/assets/img/write-new-pattern.png)
+
+1. Login to GitHub & inside the [patterns web repo](https://github.com/paypal/InnerSourcePatterns), click on the 'Create new file' button
+2. Name the file like this example: "project-management-time-pressures.md"
+3. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your fledgling pattern; it does not need to be complete, as you can add to it later
+4. Enter a commit message
   * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns) below.
-6. Propose this new file and then also create a Pull Request (PR)
+5. Propose this new file and then also create a Pull Request (PR)
 
-Your done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop! PR's are the mechanism we use for our multi-step Review process. See next steps in [Interacting with Pattern Reviews](#c-interacting-with-patterns-reviews).
-
-Like the command-line better? *As an alternative, you can utilize git's native command line instead*. [We have a separate set of technical instructions here](/meta/technical-git-howto.md).
+Your done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop! PR's are the mechanism we use for our Review process. See next steps in [Interacting with Pattern Reviews](#c-interacting-with-patterns-reviews).
 
 
 ## Use Branches When Creating New Patterns
@@ -65,18 +65,27 @@ After this process, it is our turn to drive you through the pattern creation pro
 
 # C. Interacting with Patterns Reviews
 
-A pattern is said to be "in-review" or being "Reviewed" when we have a Pull Request with some amount of Pattern detail filled out. We then communally review, and comment-on, and OK these "in-review" patterns. There are multiple steps involved, sometimes requiring multiple re-writes, and peer-reviews. Usually though, we first look for a pattern with all the fields filled out, and then go through TWO peer-reviews.
+A pattern is said to be "in-review" or being "Reviewed" when we have a Pull Request with some amount of Pattern detail filled out. We then communally review, and comment-on, and OK these "in-review" patterns. Usually, we first look for a pattern with all the fields filled out, and then go through TWO peer-reviews.
 
-Our workflow is done through Pull Requests (PR's) and Branches. Branches are meant to separate content, so that multiple people and patterns can exist all at once. Pull Requests (PR's) are used to bring online discussion/review about a specific Inner Source pattern. 
+## Editing a pattern that is in-review
+Go ahead, edit away - we can always go back - and we encourage action over discussion.
 
-FIXME Explain how to add content to in-review patterns. Explain how to add review comments and accepting a review.
+![How to edit an existing pattern](/assets/img/edit-existing-pattern.png)
 
-Below are the major steps in our Review process:
+## Reviewing a pattern
+FIXME Explain how to add review comments and accepting a review. Basically, this is all done through Githubs web GUI around Pull Requests.
 
-1. Label your Pull Request with `pattern`. Additionally decide whether to label it with `idea`, `donut`, or `draft` and `Ready for Review` or `Incomplete`
-2. Reviewers can now use the PR features to comment on the pattern.
-3. In case of required rework, the author should apply the labels `Ready for Additional Review` and/or `Revised` to indicate that a 2nd review is requested.
-4. After reviews are complete, the reviewers or author should remove the label `Ready for Review` and label the pattern `Accepted`.
-5. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Collaborators](/meta/trusted-collaborators.md) (most authors are by this point) can  Merge the PR on Github. This places the .md file into the master branch / root directory.
+FIXME Give tips for good reviews. We have done both interspersed comments, or patter-wide advise. Be constructive. If you can fix the problem, [edit the PR](#editing-a-pattern-that-is-in-review) instead of leaving a comment.
 
+## Our Review Process
+Below are the procedural steps in our Review process:
+
+1. Decide which Maturity level your pattern is in: `Donut (Lacks solution)`, `Unproven`, or `Proven`; these all describe what state the *Solution* is in.
+2. Decide which Review Step you are in: Usually `Incomplete` or `Do 1st Review`
+3. Reviewers can now use the PR features to comment on the pattern.
+4. In most cases, we do two reviews, and the PR's labels should reflect `Do 2nd Review` etc.
+5. After reviews are complete, the reviewers or author should Revise and Finalize the pattern, eventually labeling it with  `Accepted`.
+6. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Collaborators](/meta/trusted-collaborators.md) (most authors are by this point) can Merge the PR on Github. This places the .md file into the master branch / root directory.
+
+## Completed Patterns
 When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to a Gitbook (PDF), [see our separate Publishing instructions](/meta/publishing.md).
