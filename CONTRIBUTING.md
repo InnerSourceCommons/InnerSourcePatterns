@@ -1,6 +1,6 @@
 # How to Contribute
 
-First, checkout our complete list of patterns: [Google Doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0) OR [public GitHub](https://github.com/paypal/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed)
+First, checkout our complete list of patterns: [public GitHub](https://github.com/paypal/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed) OR [Google Doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0)
 
 We encourage beginners seeking answers to jump in by creating `donut` patterns (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). 
 
@@ -29,7 +29,7 @@ The simplest way to create a pattern is with your browser (see below).
 2. Name the file like this example: "project-management-time-pressures.md"
 3. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your fledgling pattern; it does not need to be complete, as you can add to it later
 4. Enter a commit message
-  * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns) below.
+   * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns) below.
 5. Propose this new file and then also create a Pull Request (PR)
 
 Your done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop! PR's are the mechanism we use for our Review process. See next steps in [Interacting with Pattern Reviews](#c-interacting-with-patterns-reviews).
@@ -57,7 +57,7 @@ Here are tips on starting this discussion:
 * Add a concise title like this example: "pattern/badly-named-piles"
 * Describe your problem. Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
 * Ask any questions that you are unsure about. Are you unsure if this problem belongs here? Are you unsure on how to frame and explain the problem?
-* [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) `Idea`. Labels can be found in the right column settings.
+* [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) `Early Idea`. Labels can be found in the right column settings.
 
 After this process, it is our turn to drive you through the pattern creation process. We will help to land your idea and check if there are existing  similar patterns.
 
@@ -75,7 +75,7 @@ Go ahead, edit away - we can always go back - and we encourage action over discu
 ## Reviewing a pattern
 FIXME Explain how to add review comments and accepting a review. Basically, this is all done through Githubs web GUI around Pull Requests.
 
-FIXME Give tips for good reviews. We have done both interspersed comments, or patter-wide advise. Be constructive. If you can fix the problem, [edit the PR](#editing-a-pattern-that-is-in-review) instead of leaving a comment.
+FIXME Give tips for good reviews. We have done both interspersed comments, or pattern-wide advise. Be constructive. If you can fix the problem, [edit the PR](#editing-a-pattern-that-is-in-review) instead of leaving a comment.
 
 ## Our Review Process
 Below are the procedural steps in our Review process:
