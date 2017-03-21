@@ -5,9 +5,10 @@ This repository serves as the collection-point, ideation hub, and process behind
 
 Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
-* [Watch a set of 2-5 min youtube videos explaining Patterns](http://bit.ly/innersource_patterns_videos)
-* [See the presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF)
-* [View our InnerSource Patterns Template](meta/pattern-template.md)
+* [`What are patterns?` Youtube videos](http://bit.ly/innersource_patterns_videos) - Watch a set of 2-5 min youtube videos explaining Inner Source Patterns
+* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU) - We held a webinar to live-discuss a pattern (go to 24:30 for the discussion)
+* [Detailed Pattern Background and Examples](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF) -  Get a detailed understanding of why and how to interact with our patterns during this presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016
+* [Pattern Template File](meta/pattern-template.md) - View a skeleton inner source pattern to get an idea on what goes into a new pattern!
 
 
 # How can you use Inner Source Patterns?
