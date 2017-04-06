@@ -4,14 +4,13 @@ _Dedicated Community Leader_
 
 ## Problem
 
-When starting an InnerSource initiative it is crucial to nominate the right people to lead the communities. Selecting the wrong persons and/or not providing enough capacity for them risks wasted effort and ultimately the failure of the InnerSource initiative.
+How do you ensure that a new InnerSource initiative has the right leadership to grow it's communities?
 
-Consider the following story. Company A wants to initiate an InnerSource initiative in order to foster collaboration across organizational boundaries. They have decided to start with an experimental phase with limited scope. Management has selected a suitable pilot topic for the first InnerSource community and expects contributions from many business units across the organization. Company A has nominated a new hire to head the community for 50 % of his work time, because he was not yet 100 % planned for. After 6 months, the community has received only a few contributions, most of which are from a single business unit. Company A replaces the community leader with someone who has a longer history in the company, this time for only 30 % of his time. After another 6 months, the number of contributions has picked up only  marginally. Company A is no longer convinced that InnerSource helps to achieve their goal of increased, cross divisional collaboration and abandons InnerSource. 
+Selecting the wrong persons and/or not providing enough capacity for them risks wasted effort and ultimately the failure of a new InnerSource initiative.
 
-**Review Comments**
-- (**Done**) add summary about underlying core problem present in this story at the beginning (possibly boldfaced)
-- (**Done**) add _kicker statement_ after summary to get people interested in the contents (something like a rationale, outcome. Example: "avoid wasted effort on InnerSource"). 
-- (**Done**) add information about initial scope of InnerSource initiative (start small)
+## Story
+
+Consider the following story. A company wants to initiate an InnerSource initiative in order to foster collaboration across organizational boundaries. They have decided to start with an experimental phase with limited scope. Management has selected a suitable pilot topic for the first InnerSource community and expects contributions from many business units across the organization. The company has nominated a new hire to head the community for 50 % of his work time, because he was not yet 100 % planned for. After 6 months, the community has received only a few contributions, most of which are from a single business unit. The company replaces the community leader with someone who has a longer history in the company, this time for only 30 % of his time. After another 6 months, the number of contributions has picked up only  marginally. The company is no longer convinced that InnerSource helps to achieve their goal of increased, cross divisional collaboration and abandons InnerSource. 
 
 ## Context
 
