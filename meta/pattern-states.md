@@ -1,6 +1,8 @@
 # Potential new nomenclature
 Below shows updated nomenclature around the maturity and state that each pattern can be in. Each pattern is either less or more mature (has a solution or doesn't), and goes through a multi-step review process.
 
+<img src="/assets/img/patterns-steps-and-maturities.png" height="350" style="float:right" align="right" alt="Maturity and Review Steps as seen on Github">
+
 ## Pattern Maturity
 * A - Donut (Lacks Solution)
 * B - Unproven (Ideas)
