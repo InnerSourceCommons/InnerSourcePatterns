@@ -1,10 +1,12 @@
 ## Title
 
-_Dedicated Community Leader_
+_Dedicated Community Manager_
+
+alternative:_Dedicated Community Leader_
 
 ## Problem
 
-How do you ensure that a new InnerSource initiative has the right leadership to grow it's communities?
+How do you ensure that a new InnerSource initiative has the right [community manager](http://www.artofcommunityonline.org/) to grow it's impact?
 
 Selecting the wrong persons and/or not providing enough capacity for them risks wasted effort and ultimately the failure of a new InnerSource initiative.
 
@@ -14,9 +16,9 @@ Consider the following story. A company wants to initiate an InnerSource initiat
 
 ## Context
 
-- Company A is a large and old company. It has no prior experience in Open Source or other, community based working models. The company culture is best characterized as a classical top down management style - it is generally at odds with community culture.
-- While there are supporters and a sponsor in top level management, middle management in company A is not yet sold on InnerSource.
-- Management has provided a limited budget to fund a part time community leader, only.
+- The company is a large and old company. It has no prior experience in Open Source or other, community based working models. The company culture is best characterized as a classical top-down management style - it is generally at odds with community culture.
+- While there are supporters and a sponsor in top level management, middle management in the company is not yet sold on InnerSource.
+- Management has provided a limited budget to fund a part time community leader only.
 - The initially selected community leader has little or no prior experience with the Open Source working model.
 - The initially selected developer community leader does not have an extensive network within the company.
 
