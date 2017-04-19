@@ -10,10 +10,6 @@ blocks progress or is disrupted by frequent escalations.
 
 - TBD: link to pattern "setting clear expectations for contributing code"
 
-- Team is scared of but in control (compensation)
-- contributed code had to be heavily rewritten
-- contributors might not be available after contribution for modifications/bugfixes
-
 # Context
 
 Teams depends on another team accepting their contributions so that a component
@@ -34,6 +30,8 @@ to write the contributed component.
   by oneself.
 - Contributed needs to be heavily rewritten before being accepted into the
   codebase.
+- There is the fear of the contributors not being available for support with
+  fixing bugs after the time on contribution.
 
 # Solution
 
@@ -44,11 +42,6 @@ bug fixes to the receiving team.
 
 a) clear contribution guidelines spelling out the expectations of the receiving
    team and
-
-- as a contributor, you have to certify that the code meets defined
-  expectations (e. g. bugs can be fixed)
-- create run books and desaster scenarios, warranty applies after desaster
-  scenario has been test.
 
 # Resulting Context
 
