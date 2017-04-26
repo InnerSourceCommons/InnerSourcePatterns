@@ -34,8 +34,8 @@ The below lists all known patterns. They are grouped into four stages of maturit
 
 #### Reviewed Patterns (proven and reviewed)
 
+* [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/pull/57)
-* [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/pull/58)
 
 #### Pattern Drafts (proven, not yet reviewed)
 
