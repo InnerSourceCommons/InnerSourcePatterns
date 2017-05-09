@@ -1,20 +1,20 @@
 ## Title
-Include product owners 
+Include Product Owners 
 
 ### Problem
-KPIs are very product focused and don't consider things like product collaboration.
+Key Performance Indicators (KPIs) for Product Owners are primarily product focused and don't consider areas such as  collaborative development.
+Impact: Lower level of engagement with innersource.  
 
 ### Forces
-* KPIs discourages you from contributing to someone else in InnerSource
-* You want to grow your circle of influence but limit use of your own resources
-* Products have different priorities; they have their own best interests at heart but possibly not the company's (Products care about their ROI as pushed down by product management)
-* product owners don't see the benefits of InnerSource. (Educating the product owners so they see the longer term benefits)
-* InnerSource changes resource distribution; need up-front discussions (time needs to be allocated)--people don't understand how it can impact them in terms of resources. Too often people talk about InnerSource about what will be saved but don't talk about the costs up front.
-* How you split up your resources if you can educate Product, they might invest some piece of that pie. By educating, you can have them invest in that.
-* InnerSource will sometimes save time and money. If we had to wait until the original time had time to do your product it would be 2. If another team had to do it, it could be 3.2 but you get it on time. There is savings over if people weren't InnerSourcing at all. Writing a new thing would be a 7 or a 10. Reuse of software has much greater savings.
-* Internal advertising is needed to find InnerSource reuse opportunities. Blogging can help. Labeling the blog "Tales from InnerSource" -- success stories, projects to work with. Create a champions program and have them identify the projects to work on. 
-* Discoverability is a huge problem for product owners. Product owners when they hear about InnerSource want to do this for themselves; but how do they found out about collaboration opportunities.
-* Product owner personal metrics are different; and their turnover can be higher than engineers. They don't care about longer term.
+* KPIs discourage Developers from contributing to others via InnerSource.
+* The desire of employees to grow thier own circle of influence, and limit use of their own resources.
+* Products have different priorities that may not align directly with inner source priorities. (Products care about their ROI, per Product Management.)
+* Product Owners do not see the longer-term benefits of InnerSource. 
+* InnerSource changes resource distribution and requires up-front discussions, which require time allocation. 
+* Some people lack understanding of the up-front impact and cost of InnerSource in terms of resources, because they are more focused on the efficiences that it can provide. 
+* Internal advertising is needed to find InnerSource reuse opportunities. 
+* Discoverability is a big problem for product owners, who may not use Development tools and may therefore lack the opportunity to find out about inner source offerings and collaboration opportunities. 
+* Product Owners' personal metrics are different; and their turnover can be higher than engineers. They might not have as much of a focus on longer-term benefits.
 * Fear of loss of control. Resistance to allowing people to come in (there are big payoffs to allow people to come in and work on stuff).
     - Motivation: I can't get a feature in unless I get a feature in--external teams cleared old backlogs.
     - Sometimes contributors want to get in (if they have a requirement)
@@ -31,12 +31,15 @@ KPIs are very product focused and don't consider things like product collaborati
 
 ### Solution
 * By bringing in the impacted product owners, the overall resources cost would be lower. Cost for one team might be higher. Doing InnerSource avoids teams having to write new software from scratch. E.g., it is faster and easier to use open source than to write a new database.
+* How you split up your resources if you can educate Product, they might invest some piece of that pie. By educating, you can have them invest in that.
+* InnerSource will sometimes save time and money. If we had to wait until the original time had time to do your product it would be 2. If another team had to do it, it could be 3.2 but you get it on time. There is savings over if people weren't InnerSourcing at all. Writing a new thing would be a 7 or a 10. Reuse of software has much greater savings.
 * Change the collaboration model on the Product side, gather stakeholders together; then they will understand it is important.
 * Some time needs to be invested to understand the choices.
 * Technical collaboration will result in better quality decisions. There might be risk that the component might not be shared. Having the conversation builds trust and may result in evolution of the software component.
 * Effective Enterprise search is essential with the education piece. Need useful information to feed the Enterprise search.
 * Adjust KPIs (mandate) to motivate people (e.g., to put in tests, through Quality and Performance). Work through executives to get the needed mandates (e.g., Security) to "encourage" Product owners to enable InnerSource.
-    - Make their goals fit your needs.
+   - Make their goals fit your needs.
+* Internal advertising: Blogging can help. Labeling the blog "Tales from InnerSource" -- success stories, projects to work with. Create a champions program and have them identify the projects to work on. 
 * Talk with the Product Owners to understand Product Owner priorities
 * Read their Rally (CA Agile Central) user stories and roadmap where it is available.
 * Find out their motivation.
