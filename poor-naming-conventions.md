@@ -1,18 +1,19 @@
 ## Title
-* Poor Naming Conventions Impact Findability (formerly Badly Named Piles)
+* Poor Naming Conventions Impact Findability 
 
 ## Problem
-People can't find the internally developed solutions that they need due to poor naming conventions.
+People cannot find the internally developed solutions that they need due to poor naming conventions applied to InnerSource projects.
 
 ## Context
-* Reusable Software component(s) are available internally but users can't easily find them.
-* This problem is more likely to occur in larger, siloed companies. 
-* Historically, the company does not have a culture of sharing code across silos. 
+* Reusable software components exist and are available internally.
+* Larger, siloed company. 
+* The company does not have a history of code sharing and collaboration. 
+* High volume of inner source contributions.
+* Search engine fixes would be costly and complex and are unlikely to be implemented.
 
 ## Forces
-* Enough people are contributing things to inner sourcing that it is becoming hard to find components.
-* Poor internal search engine (or not connected to git repositories; and difficult to make this change happen)
-* Users may not be able to find the people responsible even if they know where the common places are.
+* Search engine issues (such as lack of connection to codes sources) lead to problems with findability 
+* The code is findable, but information on ownership is not provided.
 * People become discouraged from engaging in inner source when they search and can't find what they need.
 * It can be difficult enough to find stuff in github, this is compounded if names are cryptic and keywords aren't used.
 
