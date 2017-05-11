@@ -1,21 +1,20 @@
-This repository serves as the collection-point, ideation hub, and process behind the [InnerSource Commons'](http://innersourcecommons.com) set of proven and reviewed InnerSource approaches (patterns). These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource methodologies](http://paypal.github.io/InnerSourceCommons/getting-started/).
-
+This repository serves as the collection-point, ideation hub, and process behind the [InnerSource Commons'](http://innersourcecommons.com) InnerSource Patterns--a set of proven and reviewed solutions to InnerSource problems. These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource methodologies](http://paypal.github.io/InnerSourceCommons/getting-started/).
 
 # What are Inner Source Patterns?
 
 Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
 * [`What are patterns?` Youtube videos](http://bit.ly/innersource_patterns_videos) - Watch a set of 2-5 min youtube videos explaining Inner Source Patterns
-* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU) - We held a webinar to live-discuss a pattern (go to 24:30 for the discussion)
-* [Detailed Pattern Background and Examples](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF) -  Get a detailed understanding of why and how to interact with our patterns during this presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016
+* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU) - We held a webinar 2017-03-16 to live-discuss a donut pattern (go to 24:30 for the discussion). This is an illustration of the review process we follow.
+* [Detailed Pattern Background and Examples](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF) -  Get a detailed understanding of why and how to interact with our patterns during this presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016.
 * [Pattern Template File](meta/pattern-template.md) - View a skeleton inner source pattern to get an idea on what goes into a new pattern!
 
 
 # How can you use Inner Source Patterns?
 
-Patterns must be used in a thoughtful manner. They cannot be blindly applied. In most cases, you will need to adapt the given solution to your own situation; but the information given in the pattern, defining the context (immovable constraints) and forces (constraints that can be changed and balanced against each other), should help you do this.
+Patterns must be used in a thoughtful manner. They cannot be blindly applied. In most cases, you will need to adapt the given solution to your own situation; but the information given in the pattern, defining the context (immovable constraints) and forces (constraints that can be changed and balanced against each other), should help you do this. Note that you will also need to determine if there are additional constraints (company context and company forces) that apply to your particular company/organization that must be added to the pattern (as a kind of filter). These additional constraints may require additional solution steps to be applied.
 
-The pattern form is useful for describing proven patterns but it could also be used for *brainstorming solutions* where patterns are not yet established, since the form gives a structured way for thinking about a problem. You could also create a *donut pattern* (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
+The pattern form is useful for describing proven patterns but it can also be used for *brainstorming solutions* where patterns are not yet established, since the form gives a structured way for thinking about a problem. You could also create a *donut pattern* (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
 
 
 # How to Contribute?
@@ -37,17 +36,20 @@ The below lists all known patterns. They are grouped into four stages of maturit
 * [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/pull/57)
 
-#### Pattern Drafts (proven, not yet reviewed)
+#### Pattern Drafts (proven, not yet fully reviewed)
 
 * [Common Requirements](https://github.com/paypal/InnerSourcePatterns/pull/11)
 * [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
 * [Contained Inner Source](https://github.com/paypal/InnerSourcePatterns/pull/13)
 * [Review Committee](https://github.com/paypal/InnerSourcePatterns/pull/43)
-* [What Before How or Services Documentation](https://docs.google.com/document/d/1u4HZJxSfGsgvFCRtw6iqE1xDDowChb3BtcI1_nbu0Ys/edit)
+* [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web)
 * [Overcome Acquisition Based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Overcome Acquisition Based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46)
 * [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47)
+* [Start as Experiment](https://github.com/paypal/InnerSourcePatterns/pull/66)
+* [30 Day Warranty](https://github.com/paypal/InnerSourcePatterns/pull/68)
+* [Include Product Owners](https://github.com/paypal/InnerSourcePatterns/pull/71)
 
 #### Pattern Ideas (not yet proven; brainstormed)
 
@@ -90,3 +92,4 @@ The topics below cover information about how we define, operate, and upkeep this
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
+
