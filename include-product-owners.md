@@ -7,42 +7,37 @@ Impact: Lower level of engagement with innersource.
 
 ### Forces
 * KPIs discourage Developers from contributing to others via InnerSource.
-* The desire of employees to grow thier own circle of influence, and limit use of their own resources.
-* Products have different priorities that may not align directly with inner source priorities. (Products care about their ROI, per Product Management.)
-* Product Owners do not see the longer-term benefits of InnerSource. 
-* InnerSource changes resource distribution and requires up-front discussions, which require time allocation. 
+* Product Owners have different priorities that may not align directly with inner source priorities. Product Owners are focused on their ROI in alignment with Product Management.
+* Product Owners may not be as focused on the longer-term benefits of InnerSource because many of their own metrics and goals are shorter lived.
+* Product Owners may not be aware of the benefits of InnerSource
+* Employees desire to grow their own circle of influence, which leads them to limited sharing of their own resources.
 * Some people lack understanding of the up-front impact and cost of InnerSource in terms of resources, because they are more focused on the efficiences that it can provide. 
-* Internal advertising is needed to find InnerSource reuse opportunities. 
-* Discoverability is a big problem for product owners, who may not use Development tools and may therefore lack the opportunity to find out about inner source offerings and collaboration opportunities. 
-* Product Owners' personal metrics are different; and their turnover can be higher than engineers. They might not have as much of a focus on longer-term benefits.
-* Fear of loss of control. Resistance to allowing people to come in (there are big payoffs to allow people to come in and work on stuff).
-    - Motivation: I can't get a feature in unless I get a feature in--external teams cleared old backlogs.
-    - Sometimes contributors want to get in (if they have a requirement)
-    - Other teams of contributors might not be highly motivated; you have to figure out how to help them. Developers generally will want to.
-    - Motivation: Internal/receiving team: you can get external teams to help (staff augmentation)
-* Testing standards become obsolete quicker; automating checking of standards is a better solution.
+* Product Owners might not use Development tools and may therefore lack the opportunity to find out about inner source offerings and opportunities for collaboration and reuse. 
+* Fear of loss of control. 
+* Resistance to allow people to join and contribute. 
+* Motivation: For the receiving Product Owners, there are big benefits of external contributions.
+* Motivation: Some are motivated to contribute because it is the only way that their desired feature will make it into the codebase.
+* Lack of motivation: If Developers don't see what's in it for them to contribute, they might not be highly motivated to help. 
 
 ### Contexts
-* People are not rewarded for software component reuse.
-* Motivations of product aren't aligned with InnerSource initiative.
+* Teams and individuals are not rewarded for software component reuse.
+* Motivations of the product(s) are not aligned with the InnerSource initiative.
 * Every product area has their own limited resource/budget.
-* Delivery deadlines aren't movable. 
-* Product owners rarely make compromises across their area in technical things.
+* Delivery deadlines are not movable. 
+* Product Owners rarely make compromises regarding technical items in their area.
+* InnerSource changes resource distribution and requires up-front discussions, which require time allocation.
 
 ### Solution
-* By bringing in the impacted product owners, the overall resources cost would be lower. Cost for one team might be higher. Doing InnerSource avoids teams having to write new software from scratch. E.g., it is faster and easier to use open source than to write a new database.
-* How you split up your resources if you can educate Product, they might invest some piece of that pie. By educating, you can have them invest in that.
-* InnerSource will sometimes save time and money. If we had to wait until the original time had time to do your product it would be 2. If another team had to do it, it could be 3.2 but you get it on time. There is savings over if people weren't InnerSourcing at all. Writing a new thing would be a 7 or a 10. Reuse of software has much greater savings.
-* Change the collaboration model on the Product side, gather stakeholders together; then they will understand it is important.
-* Some time needs to be invested to understand the choices.
-* Technical collaboration will result in better quality decisions. There might be risk that the component might not be shared. Having the conversation builds trust and may result in evolution of the software component.
-* Effective Enterprise search is essential with the education piece. Need useful information to feed the Enterprise search.
-* Adjust KPIs (mandate) to motivate people (e.g., to put in tests, through Quality and Performance). Work through executives to get the needed mandates (e.g., Security) to "encourage" Product owners to enable InnerSource.
-   - Make their goals fit your needs.
-* Internal advertising: Blogging can help. Labeling the blog "Tales from InnerSource" -- success stories, projects to work with. Create a champions program and have them identify the projects to work on. 
-* Talk with the Product Owners to understand Product Owner priorities
-* Read their Rally (CA Agile Central) user stories and roadmap where it is available.
-* Find out their motivation.
+* Talk with the Product Owners to understand their priorities. Prepare for this dicussion by understanding their user stories, backlog, and roadmap if possible.
+* Ensure that Product Owners are aware of the benefits of InnerSource that they might care about most, including: 
+    - Reuse. Teams can avoid writing new software from scratch because they can leverage and/or existing code.
+    - Savings of time and money. It may cost more for a team other than the original team to write it, but it costs less than   writing it from scratch.
+    - Staff augmentation for the receiving team.
+* Change the collaboration model on the product side. Bring the impacted Product Owners together to discuss the inner source project and choices related to resource allocation. Technical collaboration will result in better quality decisions. Overall resources cost could be lowered for some areas. Having the conversation builds trust and may result in evolution of the software component.  
+* If possible, implement effective enterprise search. 
+* Adjust KPIs to motivate people to collaborate and reuse. Work with leadership to get support. 
+* Internally advertise opportunities for reuse and collaboration. This can be done with blogs, success stories, providing a searchable list of projects to work with, and other methods. 
+* Create a champions program and have them identify project opportunities. 
 
 ### Resulting Context
 * Initial time investment is rewarded by the outcomes.
@@ -52,9 +47,7 @@ Impact: Lower level of engagement with innersource.
 * Product owners factor in InnerSource so they reach their KPIs more efficiently.
 
 ### Known instance
-* PayPal is looking into finding a search solution for their project agora. They found team using older tech: solr (pulled down different sources and searched them independently); decided to use elasticsearch. By approaching this team, discovered they would like to use elasticsearch. In that case, this team had a huge amount of code and it was unsupportable.
-* No redundant efforts.
-* Previously, Confluence was regarded as the single source of truth; they tried to put everything there and search on it there. But they had to de-index search on the large Confluence instance and so search there was not effective.
+* PayPal is looking into finding a search solution for their project Agora. They are collaborating with other teams pursuing a similar mission, eliminating redundancy and inefficiency regarding effort and tools. 
 
 ### Authors
 * Silona Bonewald
