@@ -1,10 +1,11 @@
-## Change the developers mindset
+## Title
+Change the developers mindset
 
 ## Context
 
 * Top-down InnerSource support exists.
 * 3k population of developers.
-* Middle Management is not supporting InnerSource.
+* Middle management is not supporting InnerSource.
 * There's already a successful InnerSource group in the early stages.
 * Code visibility is product dependent.
 
@@ -13,16 +14,16 @@
 * How do you change developer mindset? It's difficult to push developers to do things.
 * Developers are resisting the change, they are in their comfort zone and it's hard to get them to go out of it.
 * Developer organization's maturity is high, so people are used to being in some hierarchy/rules.
-* Developers are formed in agile, the shift from agile is difficult
+* Developers are formed in agile, the shift from agile is difficult.
 
 ## Forces  
 
 * Managers are previous developers, so they like the way they were promoted and they want to proceed in similar ways.
-* Managers restrict what developers can spend time on.
-* Top-down approach to the InnerSource.
-* Different teams within the company have to decide to proceed with InnerSource.
-* No formal training.
-* Processes are not clear.
+* Managers restrict what developers can spend time on, perhaps because of KPIs they have to meet and their belief in the best way to meet those.
+* The approach to the InnerSource initiative is top down--it is supported by top management.
+* Different teams within the company decide whether to proceed with InnerSource.
+* No formal training exists.
+* Processes are not clearly defined.
 
 ## Sketch (optional)
 
@@ -36,14 +37,13 @@
 
 ## Resulting Context
 
-* Use of the software from several InnerSource projects across the several development teams.
-* Collaboration within the same developer team (mentorship and so on).
-
+* Software from several InnerSource projects is used across the several development teams.
+* There is improved collaboration within the same developer team (mentorship and so on).
 
 ## Rationale (optional)
 
 ## Known instances (optional)
 
 ## Status  
-Pattern Idea / Donut
+Pattern Idea
 
