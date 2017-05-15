@@ -3,8 +3,11 @@
 ## Problem
 What is the problem - crisp definition of the problem. 1-2 sentances. Anymore should go into other sections.
 
+## Story (Optional)
+Sometimes there is a story that helps people understand the pattern better.
+
 ## Context
-Where does the problem exist? what are the pre-conditions? **Unchangable** before the solution goes into place. The content here is often tied to applicability of other readers: "Do I have this same particular situation?"
+Where does the problem exist? what are the pre-conditions? **Unchangeable** before the solution goes into place. The content here is often tied to applicability of other readers: "Do I have this same particular situation?"
 
 ## Forces
 What makes the problem difficult? What are the trade-offs? These are constraints that **can be changed** at a cost. The solution might change one or more of these forces in order to solve the problem, while also in-turn changing the context.
