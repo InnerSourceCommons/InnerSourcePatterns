@@ -51,5 +51,6 @@ Impact: Lower level of engagement with innersource.
 
 ### Authors
 * Silona Bonewald
+* Alex Bozic, Bloomberg
 * Erin Bank
 * Tim Yao
