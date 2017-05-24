@@ -32,7 +32,7 @@ The simplest way to create a pattern is with your browser (see below).
    * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns) below.
 5. Propose this new file and then also create a Pull Request (PR)
 
-Your done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop! PR's are the mechanism we use for our Review process. See next steps in [Interacting with Pattern Reviews](#c-interacting-with-patterns-reviews).
+You're done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop! PR's are the mechanism we use for our Review process. See next steps in [Interacting with Pattern Reviews](#c-interacting-with-patterns-reviews).
 
 
 ## Use Branches When Creating New Patterns
