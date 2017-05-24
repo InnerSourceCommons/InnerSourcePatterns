@@ -1,7 +1,7 @@
 ## Title  
 
 ## Problem
-What is the problem - crisp definition of the problem. 1-2 sentances. Anymore should go into other sections.
+What is the problem - crisp definition of the problem. 1-2 sentences. Anymore should go into other sections.
 
 ## Story (Optional)
 Sometimes there is a story that helps people understand the pattern better.
