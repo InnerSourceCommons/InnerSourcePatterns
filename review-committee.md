@@ -4,9 +4,19 @@ _Review Committee_ (aka _Cheese Interface_)
 
 ## Context
 
-- Company A wants to introduce its first InnerSource initiative.
-- Most managers in company A are not familiar with the Open Source working model.
-- Most managers in company A are accustomed to hierarchical, top-down control style management.
+Company A wants to introduce its first InnerSource initiative. Most managers in
+company A are not familiar with the Open Source working model and are instead
+accustomed to hierarchical, top-down control style management.
+
+
+## Problem
+
+Managers will perceive the InnerSource working model as a radical departure
+from the working models they are accustomed to and have experience with. As a
+consequence, it is likely that they will either reject or micro manage the
+InnerSource initiative in order to try to minimize the perceived risk of this
+change. In both cases, the benefits of InnerSource can not be realized. As a
+result, InnerSource is subsequently discredited.
 
 ## Forces
 
@@ -21,35 +31,40 @@ _Review Committee_ (aka _Cheese Interface_)
    adopted to the required extent. As a result, the benefits of InnerSource
    will not be realized.
 
-## Problem
-
-- Managers either reject or micro manage the InnerSource initiative. As a
-  result, the benefits of InnerSource can not be realized. InnerSource is
-  discredited.
-
-## Sketch (optional)
-
 ## Solution
 
-- Establish a review committee to convene regularly (e. g. twice a year). The
-  review committee has the authority to make the decision to approve and fund
-  InnerSource projects based on data presented by the respective project.
+- Establish a review committee comprised of senior managers of all business
+  units which participate in the InnerSource initiative.
+- The review committee members are given the authority to decide as a group
+  which InnerSource projects will receive support in general and funding in
+  particular. 
+- Applicants can be elected by review committee members before meetings to
+  present their proposed InnerSource project during review committee meetings
+  for consideration.
+- Leaders of InnerSource projects currently funded by the review committee are
+  obliged to report on the status of their project during every review
+  committee meeting.
+- Review committee members are obliged to provide constructive feedback to both
+  new applicants and current project leaders during review committee meetings.
 - Every InnerSource project is to be given the chance to react to feedback
   received on one session of the review committee until the next session in
-  order to avoid shutting down the project prematurely. 
-- An InnerSource project can also present the motion to be shut down on its own
-  initiative a review committee. The review committee then has to decide
-  whether or not the business units using the software need to be given time to
-  put measures in place to ensure that development and/or maintenance of the
-  codebase continues until an alternative solution to development by the
+  order to avoid shutting down the project prematurely.
+- An InnerSource project leader can also present the motion to be shut down on
+  its own initiative on a review committee. The review committee then has to
+  decide whether or not the business units using the software need to be given
+  time to put measures in place to ensure that development and/or maintenance
+  of the codebase continues until an alternative solution to development by the
   InnerSource community is found (if business relevant or mission critical).
+- The review committee should convene regularly. A cadence of two meetings per
+  year has proven successful.
 
 ## Resulting Context
 
 - Managers get to apply a known tool in their toolbox to InnerSource in order
   to get the required amount of information about and control over the inner
   workings of the InnerSource initiative. This familiarity helps convince them
-  to sign off on the initiative.
+  to sign off on the initiative and grant the required degree of freedom for
+  InnerSource projects.
 - Developers can still self organise to a sufficient degree. Micro management
   does not happen because the review committee convenes rather infrequently.
 
