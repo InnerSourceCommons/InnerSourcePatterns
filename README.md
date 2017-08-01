@@ -85,7 +85,8 @@ The topics below cover information about how we define, operate, and upkeep this
   * [Alternate Command-line steps](meta/technical-git-howto.md) - If you want to contribute a pattern using `git` from the command-line, this is your document
   * [Meetings](meta/meetings.md) - Become involved with the people and communications of the Inner Source Patterns group
 
-
+# Related References
+* [A pattern language for pattern writing](http://hillside.net/index.php/a-pattern-language-for-pattern-writing), Meszaros and Doble
 
 # Licensing
 
