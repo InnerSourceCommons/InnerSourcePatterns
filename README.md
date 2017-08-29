@@ -35,6 +35,7 @@ The below lists all known patterns. They are grouped into four stages of maturit
 
 * [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/pull/57)
+* [30 Day Warranty](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
 
 #### Pattern Drafts (proven, not yet fully reviewed)
 
@@ -48,7 +49,6 @@ The below lists all known patterns. They are grouped into four stages of maturit
 * [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46)
 * [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47)
 * [Start as Experiment](https://github.com/paypal/InnerSourcePatterns/pull/66)
-* [30 Day Warranty](https://github.com/paypal/InnerSourcePatterns/pull/68)
 * [Include Product Owners](https://github.com/paypal/InnerSourcePatterns/pull/71)
 
 #### Pattern Ideas (not yet proven; brainstormed)
