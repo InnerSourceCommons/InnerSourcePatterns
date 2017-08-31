@@ -46,6 +46,7 @@ Provide clear contribution guidelines spelling out the expectations of the recei
 
 Note that the warranty period could be 45, 60, or 100 days too. The duration may vary based upon the constraints of the project, the software life cycle of the project, commitments to customers, and other factors.
 
+<img alt="30 Day Warranty" src="/assets/img/thirtydaywarranty.jpg" width="70%">
 
 # Resulting Context
 
