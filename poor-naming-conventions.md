@@ -37,6 +37,8 @@ note: problem/pattern: solution exists but people aren't following it
 -  Concierge service (guide) to help product people find stuff. Might not scale but could be helpful in the beginning. 
 -  Encourage the community to identify redundancy and make recommendations for the better package to use. Could be a dedicated role within a company, someone with a complete overview of what is going on.
 
+<img alt="Poor naming conventions" src="/assets/img/poornamingconventions.jpg" width="70%">
+
 ## Known instances
 None known as of yet---this is a pattern idea until it is proven.
 
