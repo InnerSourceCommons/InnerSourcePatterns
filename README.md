@@ -32,16 +32,16 @@ The below lists all known patterns. They are grouped into four stages of maturit
 
 #### Reviewed Patterns (proven and reviewed)
 
-* [30 Day Warranty](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
-* [Common Requirements](https://github.com/paypal/InnerSourcePatterns/blob/master/common-requirements.md)
+* [30 Day Warranty](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md) - *a pattern for getting a reluctant code-owning team to accept code submissions from outside their team.*
+* [Common Requirements](https://github.com/paypal/InnerSourcePatterns/blob/master/common-requirements.md) - *The common code in the shared repository isn't meeting the needs of all the projects that want to use it.*
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/pull/57)
-* [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
-* [Review Committee](https://github.com/paypal/InnerSourcePatterns/blob/master/review-committee.md)
+* [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md) - *When starting an InnerSource initiative it is crucial to nominate the right people to lead the communities. Selecting the wrong persons and/or not providing enough capacity for them risks wasted effort and ultimately the failure of the InnerSource initiative. The person needs both communication skills as well as technical.*
+* [Review Committee](https://github.com/paypal/InnerSourcePatterns/blob/master/review-committee.md) - *A formal review committee is setup within an org to "officiate" particular inner source projects with resources, etc.*
 
 #### Reviewed Pattern Ideas (not yet proven but reviewed)
 
-* [Modular Code](https://github.com/paypal/InnerSourcePatterns/blob/master/modular-code.md)
-* [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/blob/master/poor-naming-conventions.md)
+* [Modular Code](https://github.com/paypal/InnerSourcePatterns/blob/master/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
+* [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/blob/master/poor-naming-conventions.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
 
 #### Pattern Drafts (proven, not yet fully reviewed)
 
