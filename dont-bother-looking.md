@@ -1,14 +1,16 @@
 ## Title
 * Don't bother looking
-* Not looking for stuff internally 
 
-## Problem
-People don't bother looking for internally developed solutions - they might not find the repo at all or be aware of its existence.
+## Also Known As
+* Not looking for stuff internally 
 
 ## Context
 * Software component(s) are available internally but users can't easily find these.
 * This problem is more likely to occur where there are silos in the company (e.g., larger companies; smaller companies may have fewer opportunities for reuse of internally developed software). 
 * The company traditionally has been bad at sharing across silos (people don't have the culture of sharing). 
+
+## Problem
+People don't bother looking for internally developed solutions - they might not find the repo at all or be aware of its existence.
 
 ## Forces
 * No good internal search engine (or not connected to git repositories; and difficult to make this change happen)
@@ -21,6 +23,8 @@ People don't bother looking for internally developed solutions - they might not 
     - if someone put out a SW internally, the expectation is that they wouldn't have time to support it (vs. open source options)
 
 ## Solution
+Make it easy to find the reusable code.
+
 * Pull in Repo names, descriptions and README.md files into the search engine
 * Implement process change to first check for internal solutions for this problem
 * Tool with a central view (but people are more inclined to google externally than look internally)
