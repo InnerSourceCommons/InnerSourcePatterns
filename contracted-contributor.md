@@ -2,15 +2,39 @@
 
 _Contracted Contributor_ (aka _Free Electron_)
 
-## Problem
+## Context
 
 Company A has started an InnerSource initiative. One of the goals for this
 initiative is to foster innovation by allowing every associate to voluntarily
 contribute to InnerSource projects, regardless of topic and business unit.
+
+Top level management is on board with InnerSource and is supporting the
+initiative to introduce it. For them, the InnerSource initiative is just one of
+many initiatives to foster innovation and efficiency, though. They are funding
+InnerSource with money and capacity for community leaders and are largely
+giving autonomy as for how the budget is spent. They are also limiting the
+breadth and duration of the initiative and partake in periodic reviews until
+there is proof that it yields the expected results (see [Review
+Committee](https://github.com/paypal/InnerSourcePatterns/blob/master/review-committee.md)).
+Top level management has announced their support for InnerSource on various
+company internal meetings.
+
+However, top level management has not yet empowered or incentivised mid-level
+managers to allow or even motivate their employees to participate in
+cross-divisional InnerSource activities. In addition to that, the capacity of
+every associate is usually allocated to non InnerSource projects for 100 % of
+their working time. Cross organizational collaboration is not yet the norm and
+line managers usually do not have targets outside of their own organisation.
+Contributions to InnerSource projects are expected to be made during working
+hours, not during free time.  
+
+## Problem
+
 After a year, only a few voluntary contributions have been received. While
-engaging with potential individual contributors, the _Dedicated Community
-Leader_ determined that the main problem was that the contributors respective
-line managers did not allow them to contribute.
+engaging with potential individual contributors, the [Dedicated Community
+Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md)
+determined that the main problem was that the contributors respective line
+managers did not allow them to contribute.
 
 As a result, the total number of contributors remained small and progress was
 not as fast as expected by top level management. Furthermore, contributions
@@ -18,25 +42,6 @@ mostly originated in the same business unit the Dedicated Community Leader
 belonged to.  Innovation did not happen in the expected scale. Top management
 is no longer convinced that InnerSource yields the expected benefits and
 abandons the initiative altogether.
-
-## Context
-
-- Top level management was on board with and is supporting the InnerSource
-  initiative. For them, InnerSource initiative is just one of many initiatives
-  to foster innovation. They are funding InnerSource with money and capacity
-  for community leaders and are giving autonomy as for how the budget is spent.
-  They are also limiting the breadth and duration of the initiative and
-  partake in periodic reviews until there is proof that it yields the
-  expected results. Top level management has announced their support for
-  InnerSource on various company internal meetings, but has not empowered
-  or incentivised mid-level managers to allow their employees to
-  participate in cross-divisional InnerSource activities.
-- The capacity of every associate is usually allocated to non InnerSource
-  projects for 100 %.
-- Cross organizational collaboration is not the norm.
-- Line managers usually do not have targets outside of their own organisation.
-- Contributions to InnerSource projects are expected to be made during working
-  hours, not during free time.
 
 ## Forces
 
