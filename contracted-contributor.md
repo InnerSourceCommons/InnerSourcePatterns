@@ -15,7 +15,7 @@ innovation and efficiency, though. They are funding InnerSource with money and
 capacity for community leaders and are largely giving autonomy as for how the
 budget is spent. They are also limiting the breadth and duration of the
 initiative and partake in periodic reviews until there is proof that it yields
-the expected results (see [Review Committee](review-commitee.md)).  Top level
+the expected results (see [Review Committee](review-committee.md)).  Top level
 management has announced their support for InnerSource on various company
 internal meetings.
 
