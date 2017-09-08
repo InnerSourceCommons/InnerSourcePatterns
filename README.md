@@ -53,7 +53,7 @@ The below lists all known patterns. They are grouped into four stages of maturit
 * [Overcome Acquisition Based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46)
 * [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47)
-* [Start as Experiment](https://github.com/paypal/InnerSourcePatterns/pull/66)
+* [Start as Experiment](https://github.com/paypal/InnerSourcePatterns/pull/66) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
 * [Include Product Owners](https://github.com/paypal/InnerSourcePatterns/pull/71)
 
 #### Pattern Ideas (not yet proven; brainstormed)
