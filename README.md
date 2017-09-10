@@ -34,7 +34,7 @@ The below lists all known patterns. They are grouped into four stages of maturit
 
 * [30 Day Warranty](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md) - *a pattern for getting a reluctant code-owning team to accept code submissions from outside their team.*
 * [Common Requirements](https://github.com/paypal/InnerSourcePatterns/blob/master/common-requirements.md) - *The common code in the shared repository isn't meeting the needs of all the projects that want to use it.*
-* [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/pull/57) - *Solutions for when associates wanting to contribute to an InnerSource project are discouraged from doing so by their line management*
+* [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/blob/master/contracted-contributor.md) - *Solutions for when associates wanting to contribute to an InnerSource project are discouraged from doing so by their line management*
 * [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md) - *When starting an InnerSource initiative it is crucial to nominate the right people to lead the communities. Selecting the wrong persons and/or not providing enough capacity for them risks wasted effort and ultimately the failure of the InnerSource initiative. The person needs both communication skills as well as technical.*
 * [Review Committee](https://github.com/paypal/InnerSourcePatterns/blob/master/review-committee.md) - *A formal review committee is setup within an org to "officiate" particular inner source projects with resources, etc.*
 
