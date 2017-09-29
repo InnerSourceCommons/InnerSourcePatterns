@@ -54,7 +54,7 @@ May mention:
 * Anonymyzed instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...". 
 
 ## Status (optional until merging)
-Pattern idea - first draft
+Pattern Idea (not yet proven; brainstormed)
 
 ## Author(s)
 Often, this is yourself; If you need to, find someone in the InnerSource Commons to be the nominal author (As Told To); Could also be no-one if you do not want to take on authorship (common with a donut looking for a solution)
