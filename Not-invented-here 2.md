@@ -54,7 +54,7 @@ May mention:
 * Anonymyzed instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...". 
 
 ## Status (optional until merging)
-General pattern status is stored in githubs Label tagging - see any pull request. Note that this github label tagging becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful. You might store other related info here info, such as review history: "Three of us reviewed this on 2/5/17 and it needs Johns expertise before it can go further"
+Pattern idea - first draft
 
 ## Author(s)
 Often, this is yourself; If you need to, find someone in the InnerSource Commons to be the nominal author (As Told To); Could also be no-one if you do not want to take on authorship (common with a donut looking for a solution)
