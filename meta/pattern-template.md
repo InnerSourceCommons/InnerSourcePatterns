@@ -1,7 +1,11 @@
-## Title  
+## Title
+Short Title Here
+
+## Patlet
+Concise 1-2 sentance description of the problem and solution. Readers may quickly review dozens of these patlets to discover and browse the larger library of patterns. From http://wiki.c2.com/?PatLet
 
 ## Problem
-What is the problem - crisp definition of the problem. 1-2 sentences. Anymore should go into other sections.
+What is the problem - crisp definition of the problem. Short description, usually not more than a couple sentances, that describes what the issues and challenges are. Be careful not to morph into information found in other sections below.
 
 ## Story (Optional)
 Sometimes there is a story that helps people understand the pattern better.
