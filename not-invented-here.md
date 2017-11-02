@@ -9,6 +9,9 @@ Impact: Duplicative development, Cost, Redundancy, Missed opportunities for know
 
 Team or community is resistant to accept contributions from external contributors. Note: Split this based on use case: org-wide dysfunction vs team-level
 
+Companies with software developers :) We suppose that this may also be a more common problem among deeply silo-ed engineering teams and/or in companies with more mature/entrenched engineering cultures.
+
+
 ## Context
 *Where does the problem exist? what are the pre-conditions?*
 * Traditional development teams lack experience and knowledge of community engagement.
@@ -38,13 +41,21 @@ Fear of increased support load in genera
 * Fear of losing control. 
 * Security can be a problem.
 
-Teams tightly control their processes/engagement models
-Contributing teams do not read contrib.md or prepare ("fling it over the wall")
-Conflicting business goals/individual performance measures may result in groups or individuals being dis-incented to engage
-Fear of diluting your perceived value
-Teams are more comfortable being held accountable for their own work - hesitant to take on unknown risk- ex: will i break my own product if I accept this? will I break stuff on a wider scale?
-Teams are hesitant to reuse/consume others' code
-Perceived value of accepting contributions that have narrow impact
+* Teams tightly control their processes/engagement models
+* Contributing teams do not read contrib.md or prepare ("fling it over the wall")
+* Conflicting business goals/individual performance measures may result in groups or individuals being dis-incented to engage
+* Fear of diluting your perceived value
+* Teams are more comfortable being held accountable for their own work - hesitant to take on unknown risk- ex: will i break my own product if I accept this? will I break stuff on a wider scale?
+* Teams are hesitant to reuse/consume others' code
+* Perceived value of accepting contributions that have narrow impact
+
+- Team egos
+- Individual egos 
+- The obvious benefit of what the solution could bring
+- Optics challenges - teams being judged for bringing in software from outside the walls
+- What metrics are being measured
+- Reward system 
+
 
 ## Sketch (optional)
 visual illustration
@@ -85,6 +96,10 @@ Tim Yao, Nokia
 Padma Sudarsan, Nokia
 Georg Gruetter, Bosch
 Ofer Hermoni
+Rob Mulcahy 
+Max Capraro 
+Jory Burson 
+John McDonough
 
 ## Acknowledgements (optional)
 Oana-Maria Pop, Hype Innovation Blog: Going deep into the not-invented-here syndrome (http://blog.hypeinnovation.com/the-not-invented-here-syndrome)
