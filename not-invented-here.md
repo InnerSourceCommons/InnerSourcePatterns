@@ -1,32 +1,50 @@
 ## Title
 
-Not Invented Here
+Overcoming the Not invented Here Mindset
 
 ## Problem
 
+"Not Invented Here" mindset exists and has the following impact: Duplicative development, Cost, Redundancy, Missed opportunities for knowledge transfer, Slower time to market/bottlenecks, Quality impact (potential to miss out on leveraging superior technology), excessive ownership culture, lowered morale that can lead to talent retention issue.
+
+Notes:
+Is the cost of adoption / integration of code from outside a reason for "Not Invented Here" rather than a peer issue?
+from Daniel to everyone: adoption/integration/understanding 
+from Tom to everyone: Is there the concept of defined anti-patterns within ISC?
+from Tom  to everyone: It might be better to define it from the other side
+from Tim Yao to everyone: Very true, Tom. Anti-patterns can be effective. We don't have any in the ISC yet, though.
+from Daniel to everyone:
+
+Following items should move into sub-patterns:
 High quality solutions are being rejected due to the "Not Invented Here" mindset. Engineers and their managers are choosing to rewrite the same functionality even though an alternative exists.
-Impact: Duplicative development, Cost, Redundancy, Missed opportunities for knowledge transfer, Slower time to market, Quality impact (potential to miss out on leveraging superior technology).
+Notes: Not invented here can inject itself into many situations. It's a mindset.
 
 Team or community is resistant to accept contributions from external contributors. Note: Split this based on use case: org-wide dysfunction vs team-level
 
-Companies with software developers :) We suppose that this may also be a more common problem among deeply silo-ed engineering teams and/or in companies with more mature/entrenched engineering cultures.
+## Patlet
+Concise 1-2 sentance description of the problem and solution. Readers may quickly review dozens of these patlets to discover and browse the larger library of patterns. From http://wiki.c2.com/?PatLet
 
+
+## Story (Optional)
+Team agrees that one or more stories could be helpful here, to illustrate the problem.
+
+Company x has a software system available. A User Group realized that a common problem needed to be solved connected to that system. If there were failures during connecting time, need to retry. A library was created. Maintainers of the system looked at the library and rewrote it instead of leveraging the library that was written by another team. They assessed the library to be sub-par. The user group who wrote the library believes that it was not a quality issue that caused them to rewrite it, but that they rewrote it because they wanted to do it their way.
 
 ## Context
 *Where does the problem exist? what are the pre-conditions?*
 * Traditional development teams lack experience and knowledge of community engagement.
-* Company has silos.
+* Company has deeply silo-ed engineering teams 
 * Excess of ownership culture.
 * Little to no history using open source.
-
-There is focus on intra-team cohesion and collaboration as opposed to cross-team collaboration
-You can't predict where the next contrib is coming from (might be a force?)
-Historical culture of silos, lack of cross-domain collaboration
+* Company has mature/entrenched engineering cultures.
+* There is focus on intra-team cohesion and collaboration as opposed to cross-team collaboration
+* You can't predict where the next contrib is coming from (might be a force?)
+* Historical culture of silos, lack of cross-domain collaboration
 Acknowledge that no matter what you do, some won't read contrib files
 Acknowledge that no matter what you do, conflicting business goals/measures may result in dis-incentive to engage
 Individuals fear being made replaceable
 Your contribution extends the usability of my widget, but I'm not allocated to support it/I fear change - fear of increased support load
-Fear of increased support load in genera
+Fear of increased support load in general
+Companies with software developers :) We suppose that this may also be a more common problem among deeply silo-ed engineering teams and/or in companies with more mature/entrenched engineering cultures.
 
 ## Forces
 *What makes the problem difficult? What are the trade-offs? These are constraints that can be changed at a cost.*
@@ -100,6 +118,10 @@ Rob Mulcahy
 Max Capraro 
 Jory Burson 
 John McDonough
+Shola
+Becky - name only
+Russ - name only
+Nick
 
 ## Acknowledgements (optional)
 Oana-Maria Pop, Hype Innovation Blog: Going deep into the not-invented-here syndrome (http://blog.hypeinnovation.com/the-not-invented-here-syndrome)
