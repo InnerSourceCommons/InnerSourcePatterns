@@ -2,6 +2,9 @@
 
 _Contracted Contributor_ 
 
+## Patlet
+Give middle management confidence to sign off on their employees to contribute to InnerSource by establishing formal contracts with the InnerSource community.
+
 ## Context
 
 A large corporation has started an InnerSource initiative. Major goals for the
