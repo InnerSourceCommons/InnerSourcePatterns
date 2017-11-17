@@ -3,7 +3,7 @@
 _Contracted Contributor_ 
 
 ## Patlet
-Give middle management confidence to sign off on their employees to contribute to InnerSource by establishing formal contracts with the InnerSource community.
+Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.
 
 ## Context
 
