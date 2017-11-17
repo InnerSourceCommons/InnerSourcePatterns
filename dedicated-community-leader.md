@@ -4,6 +4,9 @@ _Dedicated Community Manager_
 
 alternative:_Dedicated Community Leader_
 
+## Patlet
+Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative. 
+
 ## Problem
 
 How do you ensure that a new InnerSource initiative has the right [community manager](http://www.artofcommunityonline.org/) to grow it's impact?
