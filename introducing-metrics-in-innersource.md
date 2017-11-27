@@ -4,9 +4,12 @@ Introducing Metrics in the InnerSource Initiative
 
 # Context
 
-An organization is applying InnerSource. This needs to check the
-current status and if some of the expected outcomes are starting
-to work.
+An organization is applying InnerSource.
+This would like to measure the current status in terms of 'health'
+and performance of the initiative, and if the expected outcomes such as
+an increase in the level of cross-divisional and cross-location collaboration
+are actually taking place.
+
 
 
 # Problem
@@ -32,18 +35,32 @@ There is not a culture of software development metrics.
 Metrics are usually misunderstood if people have not received any
 training on those.
 
+Organizations may have unrealistic or premature business
+objectives. Even feeling that InnerSource is a
+silver bullet for their problems.
+
+Organizations collect vanity metrics that do not track business
+objectives' success or failure over time.
+
+Metrics tend to become goals, will subsequently be gamed and thus meaningless.
 
 # Solution
 
 Bring developers, middle managers and C-level to have a discussion
-about metrics.
+about metrics. And consider other roles out of the usual development process such as
+Human Resources, legal departments, product management, and others.
 
 Let developers and middle managers know that these metrics or KPIs
 are not focused on tracking their personal performance, but to compare
 if the initiative is currently working as expected.
 
+Consider third party and neutral player to produce such metrics.
+
 Have specific training on the topic of metrics and good practices
-to use them.
+to use them. An example is to have a methodology to follow metrics such
+as the Goal-Question-Metric approach or the Objetives-KeyResults one.
+On the other hand, try to update the metrics used to the short-term
+and medium-term goals.
 
 Bring specific discussions on the metrics to be used avoiding per
 developer granularity or at least anonymizing that info.
