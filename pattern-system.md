@@ -116,7 +116,29 @@ Each of these programs have some unique characteristics. E.g., sometimes in Prod
 One lesson from PLoP 2017 was that the GoF book presented not a pattern language but a (useful) collection of patterns. Ideally, while we may have different classification systems for our InnerSource patterns, I think we want to develop a Pattern Language--a group of patterns that work together to solve a larger problem (e.g., "How do I build a new InnerSource program appropriate for my company") vs. a collection of patterns that might not have a larger goal.
 
 
+### Daniel Izquierdo
 
+Another option would be to use the principles defined by Jim Jagielski in his talk "InnerSource 101 and The Apache Way"[1] as a way to characterize patterns:
+
+* Culture
+* Communication
+* Transparency
+* Collaboration
+* Community
+* Meritocracy
+
+And in addition, this would have some ortogonal techniques to work on building a proper transparency (for instance) that could go from the infrastructure to be used to monitoring the process and produce surveys, training and other actions.
+
+
+Another potential characterization would be to use a similar structure as existing in the organizations. This would affect all of the departments in that organization. For instance, the 'Review Committee' pattern helps with the process of letting developers work on their own and still give control to middle management and business roles. Would it make sense to have another potential characterization based on the companies structure?
+* IT/DevTeams
+* Marketing
+* Management
+* Legal
+* Business
+* Financial
+
+[1] https://es.slideshare.net/jimjag/apachecon-2017-innersource-and-the-apache-way
 
 
 
