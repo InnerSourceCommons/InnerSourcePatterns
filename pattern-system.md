@@ -93,11 +93,14 @@ I propose we use a classification of the problem, a pattern tries to solve as
 the main criteria for organizing our list of patterns. The following 
 classifications come to mind:
 
-- Getting started with InnerSource 
-- Getting sustainable middle management buy-in and support 
-- Getting buy-in of developers
-- Fostering contributions
-- Interfacing with traditional, non-InnerSource projects
+- 1. Getting started with InnerSource 
+- 2. Getting sustainable middle management buy-in and support 
+- 3. Getting buy-in of developers
+- 4. Fostering contributions
+- 5. Interfacing with traditional, non-InnerSource projects
+
+Tim: Could be tags, instead of (orthogonal) planes
+Ofer: Ideas for vectors: Timeline, adoption, ...
 
 As an additional category, we might classify the solutions provided by the
 patterns into:
@@ -107,15 +110,15 @@ patterns into:
 
 #### Test run
 
-- 30 Day Warranty
-- Common Requirements
-- Contracted Contributor
-- Dedicated Community Leader
-- Discover Your InnerSource
-- Improve Findability
-- Junkyard Styled InnerSource
-- Modular Code
-- Review Committee
+- 30 Day Warranty;1/2/3/4/5
+- Common Requirements;1/4
+- Contracted Contributor;1/2/4
+- Dedicated Community Leader;1/4
+- Discover Your InnerSource;1/4/5
+- Improve Findability;? (similar to "Discover your InnerSource"?)
+- Junkyard Styled InnerSource;3/4
+- Modular Code;1/2/3/4/5
+- Review Committee;1/2
 
 - Change Middle Management Mindset
 - Assisted Compliance
@@ -133,10 +136,11 @@ patterns into:
 Another plane that would be useful is the plane of type of InnerSource.
 InnerSource programs can be structured to accomplish different goals: e.g.,
 
-* Product Development
-* Tools Development
-* Innovation (Proof of concepts, demos)
-* Shared components development
+* P: Product Development
+* T: Tools Development
+* I: Innovation (Proof of concepts, demos)
+* S: Shared components development
+* C: Culture
 
 Each of these programs have some unique characteristics. E.g., sometimes in
 Product Development, the open source characteristic of voluntariness has to be
@@ -148,15 +152,15 @@ different business lines.
 
 #### Test run
 
-- 30 Day Warranty
-- Common Requirements
-- Contracted Contributor
-- Dedicated Community Leader
-- Discover Your InnerSource
-- Improve Findability
-- Junkyard Styled InnerSource
-- Modular Code
-- Review Committee
+- 30 Day Warranty;P/T/S
+- Common Requirements;P/I/S
+- Contracted Contributor;P/T/I/S
+- Dedicated Community Leader;P/T/I/C
+- Discover Your InnerSource;T/S
+- Improve Findability (s. above)
+- Junkyard Styled InnerSource;T/S/C
+- Modular Code;P/T/S
+- Review Committee;I/S/C
 
 - Change Middle Management Mindset
 - Assisted Compliance
@@ -269,5 +273,17 @@ I like a lot of the other planes suggestions.  Wanted to add one more - the poin
 - Open Source Trumps InnerSource
 - Get Contributions Despite Silo Thinking
 - Contained InnerSource
+
+
+### Ofer Hermoni
+
+tools
+security
+Culture change (probably need to separate into multiple categories)
+buy in
+trust
+etc.
+Processes / Methodology
+Coding practices
 
 
