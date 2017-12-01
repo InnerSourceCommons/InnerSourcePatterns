@@ -238,10 +238,36 @@ potential characterization based on the companies structure?
 
 
 
+### Russ Rutledge
 
+I like a lot of the other planes suggestions.  Wanted to add one more - the point in the lifecycle of the InnerSource project.  Does this pattern apply to:
+* Pre-launch (prepration to launch) an InnerSource project?
+* Launch (initial kick-off)?
+* Initial growth?
+* Broad adoption?
+* End-of-life?
 
+#### Test run
 
+- 30 Day Warranty
+- Common Requirements
+- Contracted Contributor
+- Dedicated Community Leader
+- Discover Your InnerSource
+- Improve Findability
+- Junkyard Styled InnerSource
+- Modular Code
+- Review Committee
 
-
+- Change Middle Management Mindset
+- Assisted Compliance
+- Include Product Owners
+- Start as Experiment
+- Not Invented Here
+- Change Developers Mindset
+- Overcoming Project Management Time Pressures
+- Open Source Trumps InnerSource
+- Get Contributions Despite Silo Thinking
+- Contained InnerSource
 
 
