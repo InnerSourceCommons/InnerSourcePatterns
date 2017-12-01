@@ -1,39 +1,70 @@
 ## Title  
+
 Contained InnerSource
 
-## Context
-* The company needs to develop a software product component; multiple business units use this component.
-* Multiple business units need a software component.
-* The business units (BUs) are in agreement that it makes sense for the BUs to collaborate; each needs some different changes to the code.
-* One BU doesn't have the resources to do the development for all the rest.
-* InnerSource programs and tools exist ("uncontained" InnerSource).
+## Patlet
+
+Apply InnerSource methods to facilitate collaboration in a cross divisional 
+project but don't invest in soliciting contributions from outside of that
+project.
 
 ## Problem  
-* The uncontained inner sourcing of the collaboration is regarded as distracting from the needed efficiency of specific collaborative development with the other BUs sharing the use of this component, but normal development practices do not effectively work with sharing of development resources to work on this component.
+
+Traditional development practices do not work as effectively for cross
+divisional projects as do InnerSource style practices. However, Management
+does not support adopting InnerSource practices because it regards efforts for
+soliciting and facilitating contributions from outside of the project as
+detrimental for the required efficiency. 
+
+## Context
+
+* The company plans to develop a new software intensive product; multiple
+  business units are involved in the development of this product
+* There is not one single BU which has the required resources or knowledge
+  to do the development on its own.
+* An InnerSource program and required tools exist. 
+* The InnerSource program advocates using the full spectrum of InnerSource
+  practices (_Full Scale InnerSource_).
 
 ## Forces  
-* The product's importance to company revenue and the committed feature content and dates require a development paradigm that provides known, stable development resources (headcount).
-* Uncontained InnerSource has an effect on on collaborative product development: there is added effort for soliciting and managing contributions. In addition, uncontained InnerSource may have some effect on the ability to control the timeline for completion and deployment.
+
+* The product's importance to company revenue and the committed feature content
+  and dates require a development paradigm that provides known, stable
+  development resources (headcount).
+* _Full scale InnerSource_ includes substantial effort for soliciting and 
+   managing contributions as well as onboarding new contributors, which is 
+   hard to plan for and my have some effect on the ability to control the 
+   timeline for completion and deployment.
 
 ## Solution
-The solution is for the participating BUs to each dedicate development resources to collaboratively add the features that each BU needs to the software component. InnerSource tools and some InnerSource processes are used, but the InnerSource cooperation is **contained**; there is no attempt to encourage open contribution from participants outside the core group of BUs that have entered into this arrangement.
 
-In some cases, the component source might be kept visible only to those BUs participating in its development, even though it uses InnerSource infrastructure and development processes.
-
-Uncontained InnerSource infrastructure and processes effectively allow and facilitate the development collaboration of multiple BUs where existing traditional development infrastructure and processes do not suffice.
+The BUs involved in the development of the new product each dedicate
+development resources develop the new product, apply the InnerSource working
+model and adopt InnerSource tooling to facilitate collaborative development but
+limit the scope of InnerSource practices to the project. No effort will be
+spent on facilitating and managing contributions from outside of the project.
+The application of InnerSource is _contained_ to the project. The project may
+but is not required to share the developed artefacts outside of the project.
 
 ## Resulting Context
-Product development is successfully completed. Inner sourcing in the classic sense isn't happening, so while the development cooperation that needs to occur happens, the full benefits from inner sourcing are not realized (e.g., exemplary documentation designed to promote further use of the component by others).
 
-## Rationale
+_Contained InnerSource_ effectively allows and facilitates the
+development collaboration of multiple BUs where existing traditional
+development infrastructure and processes would not have worked efficiently.
 
+Product development can be successfully completed. Even though _full scale
+InnerSource_ was not implemented and the full benefits from InnerSource
+practices, such as exemplary documentation which facilitates reuse beyond the
+project context, are not realized, the projects success still lends credibility
+to the concept of InnerSource.
 
 ## Known instances
-* Large company
+* Large Company
 
 ## Status  
 * DRAFT pattern (in progress)
 
 ## Author
-* As told to Tim Yao
+* Tim Yao
+* Georg Grütter
 
