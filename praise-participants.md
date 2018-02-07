@@ -30,7 +30,7 @@ For non-trivial contributions (all code contributions and also significant time 
 > Everyone @here give a high-five to @andrew.clegg for updating the _rcs-viewer_ to the latest version of the _hebo-client_ (https://github.com/rcs/rcs-viewer/pull/81).
 Thanks for helping keep this library up-to-date, Andy!
 
-1. Send an email to them and their manager (cc'd) privately thanking them for the contribution.
+2. Send an email to them and their manager (cc'd) privately thanking them for the contribution.
 For code contributions often-times you can just forward the merge notification mail.  Example:
 
 > Hi, Andy, I want to thank you again for making this update.
