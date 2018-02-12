@@ -2,12 +2,13 @@
 Praise Participants
 
 ## Patlet
-After an inner source contribution it's important to thank the contributor for their time and effort.
-This pattern gives guidance for a way to do so that not only effectively acknowledges the contribution but also endgenders further engagement from the contributor and others.
+After an inner source contribution, it's important to thank the contributor for their time and effort.
+This pattern gives guidance that not only effectively acknowledges the contribution but also endgenders further engagement from the contributor and others.
 
 ## Problem
 How can we properly express our gratitude to a contributor for their inner source contribution to a project?
 It can be easy to forget to do so or not know the words or medium to use for adequate effect and sincerity.
+Praise and thanks are easy, affordable ways to keep contributors and their managers motivated and excited to continue.
 A pattern in this area makes it easy to do and ensures that the message comes across clearly and sincerely.
 
 ## Context
@@ -15,13 +16,14 @@ A pattern in this area makes it easy to do and ensures that the message comes ac
 * You value the community of contributors and want to maintain and grow it.
 
 ## Forces
-You are busy, which makes it easy to forget some of the soft touches like praise and thanks.
-You may not be someone that is comfortable in social situations or good with words.
+* You are busy, which makes it easy to forget some of the soft touches like praise and thanks.
+* You may not be someone that is comfortable in social situations or good with words.
+* Peer recognition is very important to job satisfaction and career developement.
 
 ## Solutions
 It feels good to anyone to be recognized by others.
 In a professional setting, increased recognition is also an avenue to increased influence and growth.
-Any time someone gives to your inner source project, recognize them with a sincere "thank you".
+Any time someone gives to your inner source project, recognize them with a sincere and qualified "thank you".
 
 For non-trivial contributions (all code contributions and also significant time contributions), say thank you via the following mechanisms:
 
@@ -40,7 +42,8 @@ Thanks for solving your own problem in a way that also makes the _rcs-viewer_ be
 ## Resulting Context
 Feedback like this leaves the contributor with a fantastic feeling and ready to come back for more.
 Combining **both** forms of thanks gives them recognition in front of their peers (breadth) and in front of their direct manager (depth).
-Additionally, there's also a subtle encouragement for those peers in chat to consider contributing themselves and for that manager to look for appropriate circumstances to encourage their other direct reports to do the same.
+There's a subtle encouragement for those peers in chat to consider contributing themselves and for that manager to look for appropriate circumstances to encourage their other direct reports to do the same.
+Additionally, awareness of the inner source project is spread to the manager, who may have previously not known of the team's use and involvement with it.
 
 One caveat - keep it real.
 Make sure that your words stem from the sincere thanks that you feel inside for what they've done.
@@ -57,4 +60,5 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 
 ## Acknowledgements
 
-* [Todd Underwood](https://github.com/tunderwood) for encouraging to "keep it real".
+* [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real".
+* [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of a "qualified" thank you.
