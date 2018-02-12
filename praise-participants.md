@@ -18,7 +18,7 @@ A pattern in this area makes it easy to do and ensures that the message comes ac
 ## Forces
 * You are busy, which makes it easy to forget some of the soft touches like praise and thanks.
 * You may not be someone that is comfortable in social situations or good with words.
-* Peer recognition is very important to job satisfaction and career developement.
+* Peer recognition is very important to job satisfaction and career development.
 
 ## Solutions
 It feels good to anyone to be recognized by others.
@@ -43,7 +43,7 @@ Thanks for solving your own problem in a way that also makes the _rcs-viewer_ be
 Feedback like this leaves the contributor with a fantastic feeling and ready to come back for more.
 Combining **both** forms of thanks gives them recognition in front of their peers (breadth) and in front of their direct manager (depth).
 There's a subtle encouragement for those peers in chat to consider contributing themselves and for that manager to look for appropriate circumstances to encourage their other direct reports to do the same.
-Additionally, awareness of the inner source project is spread to the manager, who may have previously not known of the team's use and involvement with it.
+Additionally, awareness of the inner source project spreads to the manager, who may have previously not known of the team's use and involvement with it.
 
 One caveat - keep it real.
 Make sure that your words stem from the sincere thanks that you feel inside for what they've done.
