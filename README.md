@@ -25,7 +25,7 @@ The below lists all known patterns. They are grouped into four stages of maturit
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
 * [Overcome Acquisition Based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Overcome Acquisition Based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
-* [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46)
+* [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
 * [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47)
 * [Start as Experiment](https://github.com/paypal/InnerSourcePatterns/pull/66) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
 * [Include Product Owners](https://github.com/paypal/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
