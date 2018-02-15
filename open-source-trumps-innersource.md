@@ -21,8 +21,13 @@ Open Source trumps InnerSource
 See figure 1 in https://drive.google.com/open?id=0B7_9iQb93uBQNlJ0YU5wWmpWYUU 
 
 ## Resolution
-* Corporate requirement that internally developed components should be evaluated before we go outside to search for open source component. If the open source component is now more mature, replace the internally developed with the open source. Create some extrinsic rewards to encourage them (initially). Make it easier to find the internal component (discoverability and visibility). Make the process simple and aligned with well known open source methods.
-* Provide an internal instance of GitHub Enterprise or an well publicized external GitHub organization repo to allow employees to easily find internally developed solutions. Assign maintainers to make sure proper open source processes are being followed within the leading repos. Provide “value add” services linked to the formal repo solution such as automated CI/CD services, IaaS/PaaS, NPM organization/server linkages, ChatOps, etc.
+* Corporate requirement that internally developed components should be evaluated before we go outside to search for open source component.
+If the open source component is now more mature, replace the internally developed with the open source. Create some extrinsic rewards to encourage them (initially).
+Make it easier to find the internal component (discoverability and visibility).
+Make the process simple and aligned with well known open source methods.
+* Provide an internal instance of GitHub Enterprise or an well publicized external GitHub organization repo to allow employees to easily find internally developed solutions.
+Assign maintainers to make sure proper open source processes are being followed within the leading repos.
+Provide “value add” services linked to the formal repo solution such as automated CI/CD services, IaaS/PaaS, NPM organization/server linkages, ChatOps, etc.
 * Create a tool with a central view of internally available software, but be aware that people are more inclined to google externally than look internally.
 
 ## Resulting Context
