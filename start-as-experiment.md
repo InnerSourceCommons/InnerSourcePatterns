@@ -2,6 +2,9 @@
 
 Start as an Experiment
 
+# Patlet
+
+
 # Problem
 
 An InnerSource initiative is considered but not started because management is 
@@ -10,19 +13,18 @@ investment.
 
 # Context
 
-The company is considering to leverage InnerSource to make the required
-collaboration more efficient. However, most managers are not familiar with the
-Open Source working model and are instead accustomed to hierarchical, top-down
-control style management. The idea of InnerSource is very popular with software
-developers in the company, not the least because many developers use or are
-actively developing Open Source software.
+The company is considering to leverage InnerSource to increase the efficiency
+of collaboration on software projects. However, most managers are not familiar
+with the Open Source working model and are instead accustomed to hierarchical,
+top-down control style management. The idea of InnerSource is very popular with
+software developers in the company, not the least because many developers use
+or are actively developing Open Source software.
 
 # Forces
 
 - Managers will want to validate the claims of improved collaboration through
   InnerSource before making a long term investment. This usually involves
-  putting numbers against the expected improvements, which are hard to come
-  by for InnerSource.
+  measuring the improvements.
 - If the InnerSource initiative will likely have a huge uptake among developers
   and if many projects are likely to rely on it, a decision to shut it down
   will be very unpopular and therefore hard to make. The perceived resulting
@@ -55,18 +57,19 @@ Consider designating the end of the experiment a _pivot_, _change_ or _pause_
 point to re-evaluate. Also consider establishing a [Review
 Committee](review-committee.md) to increase the chances of management buy-in
 through participation. Depending on company culture, it might be helpful to
-accompany the experiment with appropriate metrics (**tbd: Pattern link**). If
-the projects in the experiment don't provide a direct impact on the companies
-revenue, consider introducing [Cross Team
-Valuation](https://github.com/paypal/InnerSourcePatterns/blob/rrrutledge-patch-3/crossteam-project-valuation.md)
-to highlight its value contribution.
+accompany the experiment with appropriate metrics [First Steps With
+Metrics](introducing-metrics-in-innersource.md). If the projects in the
+experiment don't provide a direct impact on the companies revenue, consider
+introducing [Cross Team Valuation](crossteam-project-valuation.md) to highlight
+their value contributions.
 
 # Resulting Context
 
 Managers are able to kick start InnerSource for the following reasons:
 
-- The experimental setup eases the need to management to scrutinize their
-  numbers in the same way that they would for typical projects.
+- The experimental setup eases the need of managers to scrutinize the
+  InnerSource program numbers in the same way that they would for typical
+  projects.
 - The possibility of failure of the experiment is understood and accepted. The
   personal risk for the supporting managers is minimized.
 - Even in case of a failure, the setup ensures that the company will learn from
@@ -74,13 +77,14 @@ Managers are able to kick start InnerSource for the following reasons:
 - In case of success, the data gathered during the experiment will allow
   managers to make a longer lasting commitment to InnerSource. 
 
-Participants in the InnerSource experiment are conscious of the fact that they
-have to prove to management that InnerSource yields the promised benefits. It
-will therefore help to focus work on those activites which provide the most and
-most demonstrable value thus increasing the chances of success.
+Participants in the InnerSource experiment are now conscious of the fact that
+they have to prove to management that InnerSource yields the promised benefits.
+It will therefore help to focus work on those activites which provide the most
+demonstrable value thus increasing the chances of success.
 
-Finally, starting as an experiment makes it much easier to bend and adapt the 
-existing processes and rules before you break them.
+Finally, starting as an experiment makes it much easier to sidestep regulations
+and forces such as tool and process policies which could decrease the chances
+of success.
 
 # Related Patterns
 
@@ -89,8 +93,7 @@ existing processes and rules before you break them.
 
 # Known Instances
 
-- Robert Bosch GmbH
-
+- Robert Bosch GmbH (globally distributed software development)
 
 # Author
 
@@ -98,7 +101,7 @@ existing processes and rules before you break them.
 
 # Status
 
-Draft Pattern
+Proven Pattern
 
 # Acknowledgements
 
@@ -106,3 +109,6 @@ Draft Pattern
 - Diogo Fregonese (Robert Bosch GmbH)
 - Robert Hansel (Robert Bosch GmbH)
 - Hans Malte Kern (Robert Bosch GmbH)
+- Russ Rutledge (Nike)
+- Tim Yao (Nokia)
+- Clint Cain (Optum)
