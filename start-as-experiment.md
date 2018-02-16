@@ -4,6 +4,9 @@ Start as an Experiment
 
 # Patlet
 
+Start your InnerSource initiative as a time limited experiment to make it 
+easier for managers unfamiliar with InnerSource to endorse and support the 
+initiative.
 
 # Problem
 
