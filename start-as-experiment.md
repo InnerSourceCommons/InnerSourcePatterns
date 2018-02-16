@@ -10,13 +10,12 @@ investment.
 
 # Context
 
-The majority of software development projects in the company are distributed
-globally. The company is considering to leverage InnerSource to make the
-required collaboration more efficient. However, most managers are not familiar
-with the Open Source working model and are instead accustomed to hierarchical,
-top-down control style management. The idea of InnerSource is very popular with
-software developers in the company, not the least because many developers use
-or are actively developing Open Source software.
+The company is considering to leverage InnerSource to make the required
+collaboration more efficient. However, most managers are not familiar with the
+Open Source working model and are instead accustomed to hierarchical, top-down
+control style management. The idea of InnerSource is very popular with software
+developers in the company, not the least because many developers use or are
+actively developing Open Source software.
 
 # Forces
 
@@ -59,7 +58,8 @@ through participation. Depending on company culture, it might be helpful to
 accompany the experiment with appropriate metrics (**tbd: Pattern link**). If
 the projects in the experiment don't provide a direct impact on the companies
 revenue, consider introducing [Cross Team
-Valuation](crossteam-project-valuation.md) to highlight its value contribution.
+Valuation](https://github.com/paypal/InnerSourcePatterns/blob/rrrutledge-patch-3/crossteam-project-valuation.md)
+to highlight its value contribution.
 
 # Resulting Context
 
@@ -82,9 +82,15 @@ most demonstrable value thus increasing the chances of success.
 Finally, starting as an experiment makes it much easier to bend and adapt the 
 existing processes and rules before you break them.
 
+# Related Patterns
+
+- _Trial Run_ (from the book [_Fearless
+  Change_](http://www.fearlesschangepatterns.com/))
+
 # Known Instances
 
 - Robert Bosch GmbH
+
 
 # Author
 
