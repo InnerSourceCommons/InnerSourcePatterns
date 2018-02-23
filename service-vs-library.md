@@ -5,8 +5,9 @@ Service vs. library: It's inner source, not inner deployment
 Teams in a DevOps environment may be reluctant to work across team boundaries on
 interdependent code bases due to ambiguity over who will be responsible for
 responding to service downtime. The solution is to realize that often it's
-possible to deploy the same service in independent environments with separate
-escalation chains in the event of service downtime.
+possible to either deploy the same service in independent environments with
+separate escalation chains in the event of service downtime or factor a lot of
+shared code out into one library and collaborate on that.
 
 ## Problem
 
@@ -15,7 +16,7 @@ feature end-to-end: From the customer down to deployment, maintenance and
 support. This poses a challenge when working across team boundaries: Escalation
 chains may not be the same for errors happening in either team. Coupling
 source code and deployment leaves the teams with the question of who is
-responsible for on-call support in the event of errros. As a result teams are
+responsible for on-call support in the event of erros. As a result teams are
 reluctant to join forces even if there is significant overlap in requirements.
 
 ## Context
