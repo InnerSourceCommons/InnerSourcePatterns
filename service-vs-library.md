@@ -3,7 +3,7 @@ Service vs. library: It's inner source, not inner deployment
 
 ## Patlet
 Teams in a DevOps environment may be reluctant to work across team boundaries on
-interdependent code bases due to ambiguity over who will be responsible for
+common code bases due to ambiguity over who will be responsible for
 responding to service downtime. The solution is to realize that often it's
 possible to either deploy the same service in independent environments with
 separate escalation chains in the event of service downtime or factor a lot of
