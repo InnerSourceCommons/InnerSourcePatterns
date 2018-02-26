@@ -69,6 +69,10 @@ The likelihood that changes are needed and made in the shared source code
 increases, leading to more frequent oportunities to refine, improve and optimise
 the implementation.
 
+## See also
+
+Related to this pattern is the [Thirty day warrenty](https://github.com/paypal/InnerSourcePatterns/blob/master/30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
+
 ## Known instances
 
 Europace AG
