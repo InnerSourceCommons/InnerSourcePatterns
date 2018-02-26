@@ -10,7 +10,7 @@ Teams depends on another team accepting their contributions so that a component 
 
 # Problem
 
-A team developing a component which is used throughout an organization is resisting to accept or rejects contributions (feature requests) and as a result blocks progress or is disrupted by frequent escalations.
+A team developing a component which is used throughout an organization resists accepting or rejecting contributions (feature requests) and as a result blocks progress or is disrupted by frequent escalations.
 
 # Forces
 
