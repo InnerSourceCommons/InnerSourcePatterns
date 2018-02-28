@@ -12,6 +12,8 @@ The below lists all known patterns. They are grouped into four stages of maturit
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/blob/master/contracted-contributor.md) - *Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.*
 * [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md) - *Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative.*
 * [Review Committee](https://github.com/paypal/InnerSourcePatterns/blob/master/review-committee.md) - *A formal review committee is setup within an org to "officiate" particular inner source projects with resources, etc.*
+* [Service vs. library: It's inner source, not inner deployment](https://github.com/paypal/InnerSourcePatterns/blob/master/service-vs-library.md) - *Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's
+possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.*
 
 #### Reviewed Pattern Ideas (not yet proven but reviewed)
 
