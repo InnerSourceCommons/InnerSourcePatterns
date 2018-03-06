@@ -67,4 +67,4 @@ Brainstormed pattern idea in progress
 * Tim Yao
 
 ## Acknowledgements
-* Contributions from Russ Ruttledge, Ofer Hermoni and Robert Hanmer
+* Contributions from Russ Rutledge, Ofer Hermoni and Robert Hanmer
