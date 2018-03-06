@@ -1,6 +1,6 @@
 # Title
 
-Cross-team Project Valuation
+Cross-Team Project Valuation
 
 # Patlet
 
