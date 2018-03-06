@@ -14,15 +14,19 @@ Here's a data-driven way to represent your project that both articulates its val
 
 # Problem
 
-Cross-team projects can potentially have a very large impact on the company yet are notoriosly-difficult to represent in a data-driven fashion.
+Cross-team projects can potentially have a very large impact on the company yet are difficult to represent in a data-driven fashion.
 As a result, it is easy and common to either pursue projects that does not provide real value or to underfund what would otherwise produce great value.
-Setting in place a pattern and model of how to value such projects gives us the tool that we need to focus and amplify high-value collaboration for the company.
 
 # Forces
 
-Projects need to show value (objective or subjective) to company leadership in order to be funded.
+* Projects need to show value (objective or subjective) to company leadership in order to be funded.
+* Cross-team project value is dispersed across multiple end business units.
+* Due to this dispersal, cross-team project value is difficult to measure directly.
 
 # Solution
+
+Set in place a pattern and model of how to value cross-team projects.
+Such models give us the tool that we need to focus and amplify high-value collaboration for the company.
 
 The core of all cross-team project value is the idea that we can get more done together than apart.
 Ascribing value to a cross-team effort is an exercise in quantifying _how much more_ is getting done together.
@@ -38,7 +42,7 @@ Using that team of experts, estimate 4 things about each consumer of your projec
   * What percentage of your project output is actually useful for them?
   * How much time on an ongoing basis (ideally per-use) would they otherwise spend maintaining their home-rolled solution?
 
-When making these estimations, it's impossible to know with high precision _exactly_ how long any activities take.  That's not your goal.
+When making these estimations, it's impossible to know with high accuracy _exactly_ how long any activities take.  That's not your goal.
 Rather than exactness, you should strive to _**set a worst-case bound**_ on these estimates.
 The idea is for the group of experts to be able to say to each other, "We don't know exactly how long it would take, but we can all agree it's _at least_ this much."
 Specifically, you should estimate a *maximum* reasonable time to consume your project output and *minimum* reasonable times for consumers to otherwise home-roll, use and maintain their own solutions.
@@ -69,10 +73,10 @@ After having good, reasonable data according to the above explanation, you shoul
 1.  Whatever feels good to you.  One intentional side-effect of having a valuation formula is that it  naturally forces measurement of the key points of usage that provide value to consumers.
 Those measurements can be understood and consumed in their raw form to provide you with a gut-feel idea of how valuable is the project.
 
-Some may be concerned about the lack of precision in this  valuation approach.  It's okay for this process to not give  an exact measurement.  It just needs to be accurate enough to accomplish 2 purposes:
+Some may be concerned about the lack of accuracy in this valuation approach.  It's okay for this process to not give an exact measurement.  It just needs to be accurate enough to accomplish 2 purposes:
 
 1.  Give a means to represent the value of what is happening to those that are organizing and funding cross-team efforts.
-1.  Help those involved to know what areas of cross-tem effort are higher priority to pursue based on their value.
+1.  Help those involved to know what areas of cross-team effort are higher priority to pursue based on their value.
 
 In-practice, as long as these valuations are within an order-of-magnitude of reality and one-another, they are sufficiently accurate to fill these purposes.
 They will provide a head-and-shoulders improvement in on-the-ground results over the ad-hoc valuations (and resultant effects) described in the **Problem** section at the beginning of this document.
