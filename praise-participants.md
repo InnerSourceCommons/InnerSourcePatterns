@@ -50,6 +50,10 @@ Make sure that your words stem from the sincere thanks that you feel inside for 
 Keep the level and verbosity of praise appropriate to their level of involvement.
 Overdoing it may feel insincere and mechanical and defeat your purpose in reaching out.
 
+## Related Patterns
+
+* _Just Say Thanks_ (from the book [_Fearless Change_](http://www.fearlesschangepatterns.com/))
+
 ## Known instances
 
 * Nike (multiple projects)
