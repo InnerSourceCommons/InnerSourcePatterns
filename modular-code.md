@@ -11,36 +11,49 @@ Development does not want to spend the extra resources needed to develop modular
 * Time commitments might already have been made for customer deliveries (not changeable).
 
 **Forces:**
-* There is a learning curve to writing code that can be reused.
+* There is a learning curve to writing code that can be reused. Developers might not know how to write modular code. Education might be needed.
 * Extra documentation is required for reusable code.
 * Some companies have a common components group that develops reusable code, but others feel that such components should be developed by those business lines that are using the components and a library of common components could be established.
-* Developers might not know how to write modular code. Education might be needed. 
 * Might be a fear that if not done properly, quality might be impacted.
 * Developers might not have incentive to write modular code (due to their tight schedules and lack of a mandate).
 * You might be dealing with legacy systems (can't be simply refactored or rewritten).
 * Requirements might be different for writing modular code.
 * Architectural constraints might impact modularity.
 * Developers who develop monolithic code bases might lack the perspective of how modularity might improve how they work.
+* If there is frequent turnover of team members, modularization may not be a priority.
+* Level of communication between teams can impact ability/inclination to modularize.
 
 **Resolution:** 
-* Provide incentives to teams to invest in modular code. Modular code is far more reusable. This could work well for large teams when working on modularized projects; team members can focus on their smaller assigned tasks.
+* Provide incentives to teams to invest in modular code: 
+    - Modular code is far more reusable.     
     - Developers could get an opportunity to increase their influence in the organization.
+    - Modular code makes the pathway to open source smoother.
+    - Modular code is easier to work with, especially for larger teams.
+    - Modular projects enable team members to focus on their own smaller assigned tasks.
+    - Modular code makes Agile implementation easier.
+    - Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
 * Select certain "success projects," teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
 * Offer education. Modular code is well-understood; there is a lot of literature in favor of this. 
-* Accept the cost of modularization, build time into the release schedule.
+* Acknowledge and drive acceptance the cost of modularization, build time into the release schedule.
 * Companies moving to use more open source code will appreciate modularity more over time.
-* Modular code is easier to work with, especially for larger teams.
 * Mitigate risk and fear of quality degradation from accepting InnerSource contributions.
 * Establish a checklist of elements to be checked off to classify a component as reusable.
     - There could be requirements on tests, tools and documentation before considering a component as reusable
+    - Introduce refactoring as organic effort and strive for it to become part of the culture. Refactoring leads to more modular code and reduction of technical debt.
 * Establish standards on testing methodology, labeling of repos.
 
 **Resulting Context:** 
 Time is spent making the shared code modular so it can be reused.  
 
+**Known Instances:** 
+Elements of the resolution have been proven by various companies.
+
 **Author:**  
+Tim Yao, Nokia
+Erin Bank, CA Technologies
+Keerthi Surapaneni
 
 **Status:** 
-Donut
+Pattern Idea
 
 
