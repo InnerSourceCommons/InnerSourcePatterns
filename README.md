@@ -28,7 +28,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Overcome Acquisition Based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Overcome Acquisition Based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
-* [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47)
+* [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
 * [Start as Experiment](https://github.com/paypal/InnerSourcePatterns/blob/master/start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
 * [Include Product Owners](https://github.com/paypal/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
 
