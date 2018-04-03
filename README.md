@@ -36,7 +36,7 @@ possible to either deploy the same service in independent environments with sepa
 
 * [Don't Bother Looking](https://github.com/paypal/InnerSourcePatterns/pull/60)
 * [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/pull/61)
-* [Different Repo For Shared Code Than the Product Org Uses In Its Build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
+* [Shared Code Repo Different from Build Repo](https://github.com/paypal/InnerSourceCommons/wiki/Shared-Code-Repo-Different-from-Build-Repo) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [Incentive Alignment](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
 * [Change the Developers Mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
 * [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
