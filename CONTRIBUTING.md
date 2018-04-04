@@ -46,6 +46,12 @@ If you are asked to 'Commit directly...' vs 'Create a new branch...'
 * Only [Trusted Collaborators](/meta/trusted-collaborators.md) (TC's) are asked this; we are adding most contributors as TC's.
 
 
+## Other Tips For Submissions
+
+* Place each sentence on a new line.
+_GitHub_ allows leaving comments on a line-by-line basis.
+Review and comment on the content of submitted text is much easier if there are multiple lines on-which to leave comments.
+Sentences on consecutive lines will be collapsed into a single paragraph (like this one) for the final reader of the content.
 
 # B. Discussing Early Ideas in Issues
 
