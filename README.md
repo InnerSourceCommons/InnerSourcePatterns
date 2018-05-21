@@ -19,7 +19,7 @@ possible to either deploy the same service in independent environments with sepa
 #### Reviewed Pattern Ideas (not yet proven but reviewed)
 
 * [Modular Code](https://github.com/paypal/InnerSourcePatterns/blob/master/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
-* [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/blob/master/poor-naming-conventions.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
+* [Improve Findability](https://github.com/paypal/InnerSourcePatterns/blob/master/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
 
 #### Pattern Drafts (proven, not yet fully reviewed)
 

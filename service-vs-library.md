@@ -66,12 +66,12 @@ Both teams get to know their respective escalation policy and deployment setup,
 potentially identifying improvements for their own setup.
 
 The likelihood that changes are needed and made in the shared source code
-increases, leading to more frequent oportunities to refine, improve and optimise
+increases, leading to more frequent opportunities to refine, improve and optimise
 the implementation.
 
 ## See also
 
-Related to this pattern is the [Thirty day warrenty](https://github.com/paypal/InnerSourcePatterns/blob/master/30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
+Related to this pattern is the [Thirty day warranty](https://github.com/paypal/InnerSourcePatterns/blob/master/30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
 
 ## Known instances
 

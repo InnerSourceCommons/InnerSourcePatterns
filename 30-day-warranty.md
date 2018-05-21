@@ -4,7 +4,7 @@
 
 # Context
 
-Teams depends on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team. The receiving team does not have the resources, knowledge, permission, inclination to write the contributed component.
+Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team. The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component.
 
 - TBD: link to pattern "setting clear expectations for contributing code"
 
