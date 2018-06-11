@@ -61,6 +61,7 @@ Patterns are a way of describing a repeatable, proven solution to a problem with
 * [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU) - We held a webinar 2017-03-16 to live-discuss a donut pattern (go to 24:30 for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](http://www.oreilly.com/pub/e/3884).
 * [Detailed Pattern Background and Examples](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF) -  Get a detailed understanding of why and how to interact with our patterns during this presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016.
 * [Pattern Template File](meta/pattern-template.md) - View a skeleton inner source pattern to get an idea on what goes into a new pattern!
+* [Introduction to InnerSource Patterns (2016 Fall Summit presentation)](https://drive.google.com/open?id=0B7_9iQb93uBQWmYwMFpyaGh4OFU) - *Tim Yao and Padma Sudarsan*
 
 
 # How can you use Inner Source Patterns?
