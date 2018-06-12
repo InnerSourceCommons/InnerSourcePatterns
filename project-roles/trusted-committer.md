@@ -146,7 +146,7 @@ This has been tried and proven successful at Nike and PayPal.
 
 - [Russell Rutledge]
 - [Loren Sanz]
-- Noah Cawley
+- [Noah Cawley]
 - [Jeremy Hicks]
 
 # State
@@ -158,4 +158,5 @@ Published internally at Nike; drafted via pull-request in June of 2018.
 [Russell Rutledge]: https://github.com/rrrutledge
 [Loren Sanz]: https://github.com/mrsanz
 [Jeremy Hicks]: https://github.com/greatestusername
+[Noah Cawley]: https://github.com/utanapishtim
 [praise]: https://github.com/paypal/InnerSourcePatterns/blob/master/praise-participants.md
