@@ -5,7 +5,7 @@ Trusted Comitter
 # Patlet
 
 Many inner-source projects will find themselves in a situation where
-they consistently receive feedback, features, and bug-fixes from a contributor.
+they consistently receive feedback, features, and bug-fixes from contributors.
 In these situations project maintainers seek ways to recognize and reward the
 work of the contributor above and beyond single contributions.
 
@@ -20,6 +20,10 @@ work of the contributor above and beyond single contributions.
   project
   - Project maintainers want to find ways to scale the longevity of the value
   delivered by a project
+  - Project maintainers want to visibly reward frequent contributors and
+  empower them to amplify their value contribution.
+  - Lack of language for recognizing contributions across teams within an
+  organization
 
 # Forces
 
@@ -29,8 +33,6 @@ work of the contributor above and beyond single contributions.
   value
   - Motivated contributors looking to push further inner-sourced projects
   - Maintaining a project of reasonable complexity is taxing for a small team
-  - Lack of language for recognizing contributions across teams within an
-  organization
 
 # Solution
 
