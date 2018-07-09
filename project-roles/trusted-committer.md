@@ -13,13 +13,15 @@ work of the contributor above and beyond single contributions.
 
   - You are the maintainer of a cross-team library, service, or shared resource
   - You receive regular contributions
+  - There are motivated contributors looking to build expertise through
+  inner-sourced projects
 
 # Problem
 
   - Project maintainers want to find ways to scale their ability to support a
   project
-  - Project maintainers want to find ways to scale the longevity of the value
-  delivered by a project
+  - Project maintainers want to find ways to lengthen the value delivered by a
+  project
   - Project maintainers want to visibly reward frequent contributors and
   empower them to amplify their value contribution.
   - Lack of language for recognizing contributions across teams within an
@@ -31,7 +33,6 @@ work of the contributor above and beyond single contributions.
   to accomodate changing business priorities
   - Contributors seek visible artifacts of their contributions demonstrating
   value
-  - Motivated contributors looking to push further inner-sourced projects
   - Maintaining a project of reasonable complexity is taxing for a small team
 
 # Solution
@@ -105,15 +106,16 @@ effort][praise] in making the project successful and set a new date to check-in.
 
 ## Sunsetting a Trusted Committer
 
-There comes a time when removal of a Trusted Committer is necessary, such as:
+There comes a time when removal of a Trusted Committer is necessary, for
+example:
 
 * No longer willing to take part
 * No longer able to perform their duties
 * No longer employed by the company
 
 In each of the above cases a plan for removing access to project resources
-should agreed upon by both parties. This includes their entry in a project’s
-**Trusted Committer** section.
+should agreed upon by both parties. This includes transitioning their entry in
+a project's **Trusted Committer** section to a list of past contributors.
 
 After access is removed it is courteous to [thank the Trusted Committer for
 their participation in a public way][praise]. This ensures clear communication
@@ -142,7 +144,7 @@ This has been tried and proven successful at Nike and PayPal.
 
 # Authors
 
-- Fernando Freire
+- [Fernando Freire]
 
 # Acknowledgements
 
@@ -162,3 +164,4 @@ Published internally at Nike; drafted via pull-request in June of 2018.
 [Jeremy Hicks]: https://github.com/greatestusername
 [Noah Cawley]: https://github.com/utanapishtim
 [praise]: https://github.com/paypal/InnerSourcePatterns/blob/master/praise-participants.md
+[Fernando Freire]: https://github.com/dogonthehorizon
