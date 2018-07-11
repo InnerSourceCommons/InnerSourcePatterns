@@ -40,7 +40,7 @@ work of the contributor above and beyond single contributions.
 ## Defining the Trusted Committer Role for a Project
 
 What a Trusted Committer handles is up to each project and its maintainers.
-Whatever shape your Trusted Committer role takes make sure it's clearly
+Whatever shape your Trusted Committer role takes, make sure it's clearly
 documented somewhere in your project. This sets expectations for new community
 members and outlines the role for future candidates.
 
@@ -53,7 +53,7 @@ in community support.
 
 * A good candidate for a Trusted Committer, is someone who frequently submits
 code, documentation, or other repository changes.  Start by including this
-person on pull requests. If they are actively engaing in pull requests,
+person on pull requests. If they are actively engaging in pull requests,
 consider approaching them about opportunities for further collaboration on the
 project.
 
@@ -114,7 +114,7 @@ example:
 * No longer employed by the company
 
 In each of the above cases a plan for removing access to project resources
-should agreed upon by both parties. This includes transitioning their entry in
+should be agreed upon by both parties. This includes transitioning their entry in
 a project's **Trusted Committer** section to a list of past contributors.
 
 After access is removed it is courteous to [thank the Trusted Committer for
