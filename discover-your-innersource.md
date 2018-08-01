@@ -55,7 +55,7 @@ Make it easy to find the reusable code.
 * Developers are now looking internally for software components
 * Search results are combined (internal and external)
 * Process changes, establishing a common communications channel, and encouraging and rewarding owners of reusable code to use the same search engine can contribute to changing the corporate culture. Transformation begins from the grassroots but requires strategic involvement of thought leaders. 
-* See [Improved Findability](https://github.com/paypal/InnerSourcePatterns/blob/master/poor-naming-conventions.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
+* See [Improved Findability](https://github.com/paypal/InnerSourcePatterns/blob/master/improve-findability.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
 
 ## Status
 Brainstormed pattern idea in progress
