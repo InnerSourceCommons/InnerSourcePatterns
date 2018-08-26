@@ -1,15 +1,11 @@
 # Title
 
-Introducing Metrics in the InnerSource Initiative
+Introducing Metrics in InnerSource
 
 # Context
 
-An organization is applying InnerSource.
-This would like to measure the current status in terms of 'health'
-and performance of the initiative, and if the expected outcomes such as
-an increase in the level of cross-divisional and cross-location collaboration
-are actually taking place.
-
+An organization is planning to apply or this is in the early stages of applying InnerSource. This would like to measure the current status in terms of 'health' and performance of the initiative, and if the expected outcomes such as an increase in the level of cross-divisional and cross-location collaboration are actually taking place.
+This pattern applies to early stages of the initiative or are small in their scope, but they may be mature in their initial process and steps.
 
 
 # Problem
@@ -20,6 +16,17 @@ on development activities.
 
 The organization does not really know where to start measuring
 things or what are the key parameters to measure.
+
+Changes in the top level initiatives may affect the InnerSource program
+as they rely in the good will of some executive from the organization.
+
+You may have a problem justifying the InnerSource effort when there is
+a change in business priorities or business leadership. Then you need 
+something concrete to justify the program. A future problem you're
+guarding against.
+
+If there's a change in the C-level, metrics might be helpful to convince
+them that InnerSource is useful.
 
 
 # Forces
@@ -35,14 +42,16 @@ There is not a culture of software development metrics.
 Metrics are usually misunderstood if people have not received any
 training on those.
 
-Organizations may have unrealistic or premature business
-objectives. Even feeling that InnerSource is a
-silver bullet for their problems.
-
-Organizations collect vanity metrics that do not track business
-objectives' success or failure over time.
+Organizations collect vanity of any other type of metrics that do not
+track business objectives' sucess or failure over time.
 
 Metrics tend to become goals, will subsequently be gamed and thus meaningless.
+
+Merging existing team metrics if another team has a way to measure how teams are doing; these new measurements could potentially conflict.
+
+Some countries in some organizations may face extra complexity when introducing metrics as they may not allow to track individuals.
+
+Tools and how they use them. There might be a learning curve in the discussion about metrics. And perhaps the tools do not support the metrics we're looking for.
 
 # Solution
 
@@ -64,6 +73,15 @@ and medium-term goals.
 
 Bring specific discussions on the metrics to be used avoiding per
 developer granularity or at least anonymizing that info.
+
+Produce a characterization of metrics as this might be helpful for others
+to understand and follow.
+
+* Nearly always InnerSource is not a goal in-and-of itself but a proposal of how to improve some larger problem that the company is having. One class of metrics is around that larger goal (e.g. quality, interrupt-driven work, duplicated code, etc.) and how it is going for the company.
+* Another class of metrics is around how much InnerSourcing is happening. A raw definition of InnerSource based on code submission to a repository not owned by the submitter's team could be measurable in a few ways.
+* A third class of metrics are KPIs that we believe will improve the raw amount of InnerSourcing happening (e.g. mean-time-to-review, automated test run on PR, etc.).
+
+Note: any proposed metric are just examples and not the ones that should be using. Depending on the selection of business goals to track, those will match with specific set of metrics.
 
 
 # Resulting Context
@@ -88,10 +106,15 @@ evolves and help them with their daily work.
 # Authors
 
 - Daniel Izquierdo
+- Tim Yao
+- Clint
+- Russ Rutledge
+- Tom
 
 # Acknowledgement
 
-
+- Georg
+- Bob
 
 # State
 
