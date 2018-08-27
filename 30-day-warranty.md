@@ -4,13 +4,13 @@
 
 # Context
 
-Teams depends on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team. The receiving team does not have the resources, knowledge, permission, inclination to write the contributed component.
+Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team. The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component.
 
 - TBD: link to pattern "setting clear expectations for contributing code"
 
 # Problem
 
-A team developing a component which is used throughout an organization is resisting to accept or rejects contributions (feature requests) and as a result blocks progress or is disrupted by frequent escalations.
+A team develops a component which is used throughout an organization.  This team resists accepting or outright rejects contributions (feature requests).  This behavior blocks progress and leads to frequent disruption from escalations.
 
 # Forces
 
@@ -77,4 +77,4 @@ Drafted at the 2017 Spring InnerSource Summit; reviewed 18 July 2017.
 # Variants
 
 - Ensure cooperation of dependent teams by making them a community by having
-  more than one, meritocratically appointed "Trusted Committers" (TCs) take responsibility.
+  more than one, meritocratically appointed "[Trusted Committers](https://github.com/paypal/InnerSourcePatterns/blob/master/project-roles/trusted-committer.md)" (TCs) take responsibility.

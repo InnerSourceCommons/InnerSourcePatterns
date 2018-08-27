@@ -2,6 +2,12 @@
 
 Introducing Metrics in InnerSource
 
+# Patlet
+
+Involve all stakeholders in designing and interpreting metrics to measure the
+current status in terms of _health_ and performance of the InnerSource 
+initiative.
+
 # Context
 
 An organization is planning to apply or this is in the early stages of applying InnerSource. This would like to measure the current status in terms of 'health' and performance of the initiative, and if the expected outcomes such as an increase in the level of cross-divisional and cross-location collaboration are actually taking place.
@@ -119,3 +125,4 @@ evolves and help them with their daily work.
 # State
 
 Early Idea
+

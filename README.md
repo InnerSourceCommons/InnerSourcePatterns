@@ -11,30 +11,34 @@ The below lists all known patterns. They are grouped into four stages of maturit
 * [Common Requirements](https://github.com/paypal/InnerSourcePatterns/blob/master/common-requirements.md) - *Common code in a shared repository isn't meeting the needs of all the project-teams that want to use it; this is solved through requirements alignment and refactoring.*
 * [Contracted Contributor](https://github.com/paypal/InnerSourcePatterns/blob/master/contracted-contributor.md) - *Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.*
 * [Dedicated Community Leader](https://github.com/paypal/InnerSourcePatterns/blob/master/dedicated-community-leader.md) - *Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative.*
+* [Praise Participants](https://github.com/paypal/InnerSourcePatterns/blob/master/praise-participants.md) - *Thank contributors effectively to engender further engagement from them and to encourage others to contribute*
 * [Review Committee](https://github.com/paypal/InnerSourcePatterns/blob/master/review-committee.md) - *A formal review committee is setup within an org to "officiate" particular inner source projects with resources, etc.*
+* [Service vs. library: It's inner source, not inner deployment](https://github.com/paypal/InnerSourcePatterns/blob/master/service-vs-library.md) - *Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's
+possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.*
 
 #### Reviewed Pattern Ideas (not yet proven but reviewed)
 
 * [Modular Code](https://github.com/paypal/InnerSourcePatterns/blob/master/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
-* [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/blob/master/poor-naming-conventions.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
+* [Improve Findability](https://github.com/paypal/InnerSourcePatterns/blob/master/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
 
 #### Pattern Drafts (proven, not yet fully reviewed)
 
 * [Assisted Compliance](https://github.com/paypal/InnerSourcePatterns/pull/74) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
+* [Cross-Team Project Valuation](https://github.com/paypal/InnerSourcePatterns/blob/master/crossteam-project-valuation.md) - *It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
 * [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them.*
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
 * [Overcome Acquisition Based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Overcome Acquisition Based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
-* [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46)
-* [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47)
-* [Start as Experiment](https://github.com/paypal/InnerSourcePatterns/pull/66) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
+* [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
+* [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
+* [Start as Experiment](https://github.com/paypal/InnerSourcePatterns/blob/master/start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
 * [Include Product Owners](https://github.com/paypal/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
 
 #### Pattern Ideas (not yet proven; brainstormed)
 
 * [Don't Bother Looking](https://github.com/paypal/InnerSourcePatterns/pull/60)
 * [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/pull/61)
-* [Different Repo For Shared Code Than the Product Org Uses In Its Build](https://github.com/paypal/InnerSourceCommons/wiki/Different-repo-for-shared-code-than-the-product-org-uses-in-its-build)
+* [Shared Code Repo Different from Build Repo](https://github.com/paypal/InnerSourceCommons/wiki/Shared-Code-Repo-Different-from-Build-Repo) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [Incentive Alignment](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
 * [Change the Developers Mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
 * [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
@@ -55,8 +59,8 @@ Patterns are a way of describing a repeatable, proven solution to a problem with
 
 * [`What are patterns?` Youtube videos](http://bit.ly/innersource_patterns_videos) - Watch a set of 2-5 min youtube videos explaining Inner Source Patterns
 * [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU) - We held a webinar 2017-03-16 to live-discuss a donut pattern (go to 24:30 for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](http://www.oreilly.com/pub/e/3884).
-* [Detailed Pattern Background and Examples](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) (PDF) -  Get a detailed understanding of why and how to interact with our patterns during this presentation from Tim Yao and Padma Sudarsan from the ISC Fall Summit in 2016.
 * [Pattern Template File](meta/pattern-template.md) - View a skeleton inner source pattern to get an idea on what goes into a new pattern!
+* [Introduction to InnerSource Patterns (2016 Fall Summit presentation)](https://drive.google.com/open?id=0B7_9iQb93uBQWmYwMFpyaGh4OFU) - *Tim Yao and Padma Sudarsan* (PDF). Detailed pattern background and examples -- Get a detailed understanding of why and how to interact with our patterns.
 
 
 # How can you use Inner Source Patterns?
