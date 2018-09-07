@@ -1,6 +1,6 @@
 ## Title 
 
-* Gig Marketplace
+Gig Marketplace
 
 ## Patlet  
 
@@ -16,21 +16,22 @@ Managers have no uniform way of keeping track of or rewarding their employee’s
 
 ## Story
  
-You’ve successfully created an InnerSource program at your company and have buy-in from senior management, middle-management and developers.  However, after nearly a year there have been few actual contributions made to any InnerSource projects outside of the teams that originally created them.  After interviewing all the parties involved the main sticking point seems to be that it is difficult to know the time commitment developers will be asked to make if they choose to get involved in an InnerSource project and how they will personally benefit. There is also no uniform way of advertising what opportunities for contributors exist, what they’ll be asked to do and approximately how long it might take.  Managers are supportive and want their employees to participate but so far have lacked a way accounting for or rewarding their employees’ activities within InnerSource projects.  What can be done to improve this situation for all the parties involved (InnerSource project owners, potential contributors and development managers)? 
+You’ve successfully created an InnerSource program at your company and have buy-in from senior management, middle-management and developers.  However, after nearly a year there have been few actual contributions made to any InnerSource projects outside of the teams that originally created them.  After interviewing all the parties involved the main sticking point seems to be that it is difficult to know the time commitment developers will be asked to make if they choose to get involved in an InnerSource project and how they will personally benefit. There is also no uniform way of advertising what opportunities for contributors exist, what they’ll be asked to do and approximately how long it might take.  Managers are supportive and want their employees to participate but so far have lacked a way of accounting for or rewarding their employees’ activities within InnerSource projects.  What can be done to improve this situation for all the parties involved (InnerSource project owners, potential contributors and development managers)? 
 
 ## Forces
 
-* InnerSource projects at your company are finding it difficult to attract contributors
-* Employees would prefer an easier way to discover what InnerSource opportunities exist and how contributing might benefit them professionally
-* Managers who can't approximate the required time/effort for InnerSource project tasks are less likely to commit their employees to doing them
-
+* Employees have no easy way to discover what InnerSource opportunities exist 
+* Employees don't understand how contributing might benefit them professionally
+* Managers don't understand the time/effort requirements associated with InnerSource project related tasks
 
 ## Context
 
-* InnerSource project owners need to attract contributors to achieve their goal. 
-* Employees desire exposure to activities going on within other areas of the company without leaving their current positions
-* Managers need to plan and account for employees' time commitments
-* Managers and employees both want InnerSource contributions to be rewarded
+#### Prerequisites
+
+* Employees have been provided time by their managers to involve themselves in InnerSource projects
+* Managers require a way for InnerSource contributions to be quantified, tracked and recorded so they can be accounted for and rewarded
+
+Employees wish they could gain exposure to activities going on within other areas of the company without having to leave their current positions. InnerSource projects exist and could provide these experiences but there are two main factors preventing employees from participating. First, is the inability to easily discover what opportunities for contribution exist within ongoing InnerSource projects and to communicate these to their managers.  Second, is the inability of managers to plan and account for their employees' time commitments to these InnerSource project tasks.  As a result InnerSource project owners are finding it difficult to build communities of sufficient size to fulfill their stated goals.
 
 
 ## Solutions
@@ -41,7 +42,7 @@ Employees should be able to create a profile within the application in which the
 
 Each Gig posted by an InnerSource project owner should include the estimated skill and time requirements so those can be easily matched to an available employee and clearly communicated to their direct management. The description should also include a rationale as to how it will benefit the person taking on the task in order to make it as attractive as possible.
 
-A points based system should be created to reward and track an employee’s involvement in a Gig.  For instance, 10 points awarded to the Gig owner for posting a Gig once it is completed and 100 points for a developer who completes a Gig. Points accrued by completing Gigs could then be used as a gamification mechanism and as performance management criteria to garner insight in to the areas of expertise that exist within an organization. 
+A points based system could be created to reward and track an employee’s involvement in a Gig.  For instance, 10 points awarded to the Gig owner for posting a Gig once it is completed and 100 points for a developer who completes a Gig. Points accrued by completing Gigs could then be used as a gamification mechanism and as performance management criteria to garner insight in to the areas of expertise that exist within an organization. 
 
 Those wishing to accept a Gig should first be vetted by the Gig owner to determine that the employee has the prerequisite skills and allotted time from their manager to complete the Gig. 
 
