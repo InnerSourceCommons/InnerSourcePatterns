@@ -1,6 +1,6 @@
 ## Title 
 
-* InnerSource Portal
+InnerSource Portal
 
 ## Patlet
 
