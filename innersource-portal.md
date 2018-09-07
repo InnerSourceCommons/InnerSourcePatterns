@@ -8,14 +8,13 @@ Create an intranet website that indexes all available InnerSource project inform
 
 ## Problem
 
-InnerSource projects at your company are increasing but potential contributors have no easy way of discovering them.
-
 InnerSource project teams are finding it difficult to attract outside contributions.
 
+InnerSource projects at your company are increasing but potential contributors have no easy way of discovering them.
 
 ## Story
 
-You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model, but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.  There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.  What can be done to help all InnerSource projects raise their visibility to as large an audience as possible and attract contributors organization-wide?
+You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.  There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.  What can be done to help all InnerSource projects raise their visibility to as large an audience as possible and attract contributors organization-wide?
 
 ## Forces
 
@@ -26,11 +25,14 @@ You are attempting to establish an InnerSource practice within your organization
 
 ## Context
 
+#### Prerequisites
+
 * Managers have given tacit acceptance that their employees should take part in InnerSource projects
-* InnerSource project owners are seeking a way to increase participation in their projects
 * A shared source control management system is in use which provides programmatic access to the contents of the repositories it hosts
-* The source control management application in use has limited search capabilities
-* There is a department within the organization with the responsibility of promoting InnerSource collaboration 
+* There is a department within your organization with the responsibility of promoting InnerSource collaboration
+
+Your organization is interested in adopting an InnerSource work style and InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.  Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
+ 
 
 ## Solutions
 
