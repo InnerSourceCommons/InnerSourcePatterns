@@ -28,7 +28,7 @@ You’ve successfully created an InnerSource program at your company and have bu
 
 Employees wish they could gain exposure to activities going on within other areas of the company without having to leave their current positions. InnerSource projects exist and could provide these experiences but there are two main factors preventing employees from participating. First, is the inability to easily discover what opportunities for contribution exist within ongoing InnerSource projects and to communicate these to their managers.  Second, is the inability of managers to plan and account for their employees' time commitments to these InnerSource project tasks.  As a result InnerSource project owners are finding it difficult to build communities of sufficient size to fulfill their stated goals.
 
-#### Prerequisites
+### Prerequisites
 
 * Employees have been provided time by their managers to involve themselves in InnerSource projects
 * Managers require a way for InnerSource contributions to be quantified, tracked and recorded so they can be accounted for and rewarded
