@@ -25,14 +25,13 @@ You are attempting to establish an InnerSource practice within your organization
 
 ## Context
 
+Your organization is interested in adopting an InnerSource work style and InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.  Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
+
 #### Prerequisites
 
 * Managers have given tacit acceptance that their employees should take part in InnerSource projects
 * A shared source control management system is in use which provides programmatic access to the contents of the repositories it hosts
 * There is a department within your organization with the responsibility of promoting InnerSource collaboration
-
-Your organization is interested in adopting an InnerSource work style and InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.  Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
- 
 
 ## Solutions
 
