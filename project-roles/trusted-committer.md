@@ -1,6 +1,6 @@
 # Title
 
-Trusted Comitter
+Trusted Committer
 
 # Patlet
 
