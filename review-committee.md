@@ -12,8 +12,8 @@ Managers will perceive the InnerSource working model as a radical departure from
 
 ## Forces
 
- - The more perceived control a manager has over the work in the InnerSource initiative, the more likely it is that he will support the initiative without prior experience.
- - The less experience a manager has with the open source working model the more likely it is that he or she will want to control the risk of the initiative.
+ - The more perceived control a manager has over the work in the InnerSource initiative, the more likely it is that she or he will support the initiative without prior experience.
+ - The less experience a manager has with the open source working model the more likely it is that she or he will want to control the risk of the initiative.
  - The more heavy handed and micro managerial InnerSource initiatives are managed, the less likely it is that the open source working model can be adopted to the required extent. As a result, the benefits of InnerSource will not be realized.
 
 ## Solution
