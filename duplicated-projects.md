@@ -16,7 +16,6 @@ This could apply to move than just inner sourcing situations
 
 ## Context
 Multiple teams (doing inner source or not) are trying to tackle the same problem.
-Where does the problem exist? what are the pre-conditions? **Unchangeable** before the solution goes into place. The content here is often tied to applicability of other readers: "Do I have this same particular situation?"
 Managers want to run the project in their way.
 Manager B gets upset if something Manager A does breaks B's team.
 It's easier to be mean when you're not face-to-face.
