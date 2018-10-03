@@ -24,7 +24,6 @@ e.g. Splunk.
 * People don't want to lose their jobs (or reason for existence).
 * Mangers can be territorial with their project.
 * People rewrite 100% rather than using the 80% that is already there (even though it would be better to inner source).
-
 * Related to the not invented here pattern.
 * Related to the common requirements pattern.
 * It's like buying another company and having duplicate projects.
