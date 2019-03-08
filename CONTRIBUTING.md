@@ -27,7 +27,7 @@ The simplest way to create a pattern is with your browser (see below).
 
 1. Login to GitHub & inside the [patterns web repo](https://github.com/InnerSourceCommons/InnerSourcePatterns), click on the 'Create new file' button
 2. Name the file like this example: "project-management-time-pressures.md"
-3. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your fledgling pattern; it does not need to be complete, as you can add to it later
+3. Use the [pattern template](https://raw.githubusercontent.com/InnerSourceCommons/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your fledgling pattern; it does not need to be complete, as you can add to it later
 4. Enter a commit message
    * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns) below.
 5. Propose this new file and then also create a Pull Request (PR)
