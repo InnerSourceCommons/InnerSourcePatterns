@@ -14,7 +14,7 @@ Adding people off-the-bat encourages more contributions, displays trust, allows 
 If you want to become a Collaborator, @ mention one of the [Admins](#admins) in an Issue.
 
 ## Admins
-There are currently a handful of Github Admins for this repository. They hold the ability to add Committers and modify the repositories nuclear options (delete, rename, etc).
+There are currently a handful of Github Admins for this repository. They hold the ability to add collaborators and modify the repositories nuclear options (delete, rename, etc).
 
 * @nyeates - ask me first
 * @gruetter
