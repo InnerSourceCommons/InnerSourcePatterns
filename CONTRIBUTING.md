@@ -1,10 +1,10 @@
 # How to Contribute
 
-First, checkout our complete list of patterns: [public GitHub](https://github.com/paypal/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed) OR [Google Doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0)
+First, checkout our complete list of patterns: [public GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed) OR [Google Doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0)
 
 We encourage beginners seeking answers to jump in by creating `donut` patterns (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). 
 
-Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). We encourage experts to pad their experience - these are hoped to become part of an Inner Source handbook one day.
+Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). We encourage experts to pad their experience - these are hoped to become part of an Inner Source handbook one day.
 
 We work together via GitHub, WebEx, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns Slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
@@ -25,7 +25,7 @@ The simplest way to create a pattern is with your browser (see below).
 
 <img alt="Creating a new pattern" src="/assets/img/write-new-pattern.png" width="70%">
 
-1. Login to GitHub & inside the [patterns web repo](https://github.com/paypal/InnerSourcePatterns), click on the 'Create new file' button
+1. Login to GitHub & inside the [patterns web repo](https://github.com/InnerSourceCommons/InnerSourcePatterns), click on the 'Create new file' button
 2. Name the file like this example: "project-management-time-pressures.md"
 3. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your fledgling pattern; it does not need to be complete, as you can add to it later
 4. Enter a commit message
@@ -55,11 +55,11 @@ Sentences on consecutive lines will be collapsed into a single paragraph (like t
 
 # B. Discussing Early Ideas in Issues
 
-If you feel that you need extra advice when dealing with patterns, please [open an issue](https://github.com/paypal/InnerSourcePatterns/issues). This process is only needed when contributing early ideas that you are uncertain about. 
+If you feel that you need extra advice when dealing with patterns, please [open an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues). This process is only needed when contributing early ideas that you are uncertain about. 
 
 Here are tips on starting this discussion:
 
-* [Create a new ticket](https://github.com/paypal/InnerSourcePatterns/issues/new), add a concise title, and describe your problem. Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
+* [Create a new ticket](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new), add a concise title, and describe your problem. Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
 * Ask any questions that you are unsure about. Are you unsure if this problem belongs here? Are you unsure on how to frame and explain the problem?
 * [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) `Early Idea`. Labels can be found in the right column settings.
 

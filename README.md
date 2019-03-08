@@ -26,21 +26,21 @@ possible to either deploy the same service in independent environments with sepa
 
 #### Pattern Drafts (proven, not yet fully reviewed)
 
-* [Assisted Compliance](https://github.com/paypal/InnerSourcePatterns/pull/74) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
+* [Assisted Compliance](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/74) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
 * [Cross-Team Project Valuation](crossteam-project-valuation.md) - *It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
 * [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them.*
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
 * [Overcome Acquisition Based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
 * [Overcome Acquisition Based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
-* [Open Source Trumps InnerSource](https://github.com/paypal/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
-* [Overcoming Project Management Time Pressures](https://github.com/paypal/InnerSourcePatterns/pull/47) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
+* [Open Source Trumps InnerSource](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
+* [Overcoming Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
 * [Start as Experiment](start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
-* [Include Product Owners](https://github.com/paypal/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
+* [Include Product Owners](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
 
 #### Pattern Ideas (not yet proven; brainstormed)
 
-* [Don't Bother Looking](https://github.com/paypal/InnerSourcePatterns/pull/60)
-* [Junkyard Styled Inner Sourcing](https://github.com/paypal/InnerSourcePatterns/pull/61)
+* [Don't Bother Looking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60)
+* [Junkyard Styled Inner Sourcing](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/61)
 * [Shared Code Repo Different from Build Repo](https://github.com/paypal/InnerSourceCommons/wiki/Shared-Code-Repo-Different-from-Build-Repo) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [Incentive Alignment](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
 * [Change the Developers Mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
@@ -53,7 +53,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Donut 6: Organizational Mindset Change](https://github.com/paypal/InnerSourceCommons/wiki/Donut-6:-organizational-mindset-change)
 * [Donut 8: Not Invented Here](https://github.com/paypal/InnerSourceCommons/wiki/Donut-8:-Not-invented-here)
 * [Donut: Bad Weather For Liftoff](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Bad-weather-for-liftoff)
-* [Get Contributions Despite Silo Thinking](https://github.com/paypal/InnerSourcePatterns/pull/38)
+* [Get Contributions Despite Silo Thinking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/38)
 
 
 # What are Inner Source Patterns?
@@ -76,7 +76,7 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 [See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
 
-We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). 
+We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). 
 
 We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
