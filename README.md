@@ -1,4 +1,4 @@
-This repository serves as the collection-point, ideation hub, and process behind the [InnerSource Commons'](http://innersourcecommons.org) InnerSource Patterns--a set of proven and reviewed solutions to InnerSource problems. These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource methodologies](http://paypal.github.io/InnerSourceCommons/getting-started/). See below the list for more on what a pattern is, how to use them in your organization, and how to get involved.
+This repository serves as the collection-point, ideation hub, and process behind the [InnerSource Commons'](http://innersourcecommons.org) InnerSource Patterns--a set of proven and reviewed solutions to InnerSource problems. These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource methodologies](http://innersourcecommons.org/getting-started/). See below the list for more on what a pattern is, how to use them in your organization, and how to get involved.
 
 
 # List of Patterns
