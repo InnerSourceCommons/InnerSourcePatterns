@@ -77,4 +77,4 @@ Drafted at the 2017 Spring InnerSource Summit; reviewed 18 July 2017.
 # Variants
 
 - Ensure cooperation of dependent teams by making them a community by having
-  more than one, meritocratically appointed "[Trusted Committers](https://github.com/paypal/InnerSourcePatterns/blob/master/project-roles/trusted-committer.md)" (TCs) take responsibility.
+  more than one, meritocratically appointed "[Trusted Committers](/project-roles/trusted-committer.md)" (TCs) take responsibility.
