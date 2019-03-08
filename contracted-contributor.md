@@ -111,7 +111,7 @@ empowering middle management to sign off on it:
 A formal contracting is also beneficial for contributors and communities:
 
 - With a stable group of contributors, it is more likely that some of them will
-  eventually achieve [Trusted Committer](https://github.com/paypal/InnerSourcePatterns/blob/master/project-roles/trusted-committer.md) status.
+  eventually achieve [Trusted Committer](project-roles/trusted-committer.md) status.
 - A formal contracting provides a basis for resolving conflict related to
   participation in InnerSource activities. Note that mediate will likely be
   successful only for a few companies with a culture condusive to that.
