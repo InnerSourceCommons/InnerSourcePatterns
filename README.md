@@ -87,7 +87,7 @@ The topics below cover information about how we define, operate, and upkeep this
 
 * [Pattern Template](meta/pattern-template.md) - Start a new pattern with a copy of this
 * [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
-* [Trusted Collaborators](meta/trusted-collaborators.md) - Who these people are, what elevated rights they get, and how you can become one
+* [Trusted Committers](meta/trusted-committers.md) - Who these people are, what elevated rights they get, and how you can become one
 * [Publishing](meta/publishing.md) - How we take completed, reviewed, proven patterns and publish them toward an online book
 * [Markdown Info](meta/markdown-info.md) - Markdown is the ascii text format our patterns are written in; this document briefly defines how we use it
 * [Contributing](CONTRIBUTING.md) - How to interact with our group, create your own patterns, or take part in our review-process; Github / Web centric instructions
