@@ -30,8 +30,8 @@ possible to either deploy the same service in independent environments with sepa
 * [Cross-Team Project Valuation](crossteam-project-valuation.md) - *It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
 * [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them.*
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
-* [Overcome Acquisition Based Silos - Developers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
-* [Overcome Acquisition Based Silos - Managers](https://github.com/paypal/InnerSourceCommons/wiki/Overcome-Acquisition-based-Silos)
+* [Overcome Acquisition Based Silos - Developers](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Overcome-Acquisition-based-Silos)
+* [Overcome Acquisition Based Silos - Managers](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Overcome-Acquisition-based-Silos)
 * [Open Source Trumps InnerSource](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
 * [Overcoming Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
 * [Start as Experiment](start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
@@ -41,18 +41,18 @@ possible to either deploy the same service in independent environments with sepa
 
 * [Don't Bother Looking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60)
 * [Junkyard Styled Inner Sourcing](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/61)
-* [Shared Code Repo Different from Build Repo](https://github.com/paypal/InnerSourceCommons/wiki/Shared-Code-Repo-Different-from-Build-Repo) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
-* [Incentive Alignment](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
-* [Change the Developers Mindset](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-change-the-developers-mindset)
-* [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/paypal/InnerSourceCommons/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
+* [Shared Code Repo Different from Build Repo](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Shared-Code-Repo-Different-from-Build-Repo) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
+* [Incentive Alignment](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
+* [Change the Developers Mindset](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Pattern:-change-the-developers-mindset)
+* [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
 
 #### Pattern Donuts (needing a solution)
 
-* [Donut 3: How to Defeat the Hierarchical Constraints](https://github.com/paypal/InnerSourceCommons/wiki/Donut-3%3A-how-to-defeat-the-hierarchical-constraints)
-* [Donut 5: Project Management Time Pressures](https://github.com/paypal/InnerSourceCommons/wiki/Donut-5:-project-management-time-pressures)
-* [Donut 6: Organizational Mindset Change](https://github.com/paypal/InnerSourceCommons/wiki/Donut-6:-organizational-mindset-change)
-* [Donut 8: Not Invented Here](https://github.com/paypal/InnerSourceCommons/wiki/Donut-8:-Not-invented-here)
-* [Donut: Bad Weather For Liftoff](https://github.com/paypal/InnerSourceCommons/wiki/Donut:-Bad-weather-for-liftoff)
+* [Donut 3: How to Defeat the Hierarchical Constraints](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-3%3A-how-to-defeat-the-hierarchical-constraints)
+* [Donut 5: Project Management Time Pressures](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-5:-project-management-time-pressures)
+* [Donut 6: Organizational Mindset Change](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-6:-organizational-mindset-change)
+* [Donut 8: Not Invented Here](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-8:-Not-invented-here)
+* [Donut: Bad Weather For Liftoff](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut:-Bad-weather-for-liftoff)
 * [Get Contributions Despite Silo Thinking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/38)
 
 

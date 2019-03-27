@@ -33,5 +33,5 @@ contains the sources for the GitHub pages website for innersourcecommons.org.
 
 
 [commons]: http://innersourcecommons.org
-[patternsRepo]: https://github.com/paypal/InnerSourcePatterns
-[commonsRepo]: https://github.com/paypal/InnerSourceCommons
+[patternsRepo]: https://github.com/InnerSourceCommons/InnerSourcePatterns
+[commonsRepo]: https://github.com/InnerSourceCommons/innersourcecommons.org
