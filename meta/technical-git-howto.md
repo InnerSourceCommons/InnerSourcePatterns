@@ -10,7 +10,7 @@ There are indeed multiple ways to start a discussion:
 
 New patterns should use, as their base, the [pattern template file](meta/pattern-template.md). 
 
-Please, when starting a new pattern, make sure that it does not already exist. Take a look at some of the [existing patterns in this repository](/#reviewed-patterns-proven-and-reviewed).
+Please, when starting a new pattern, make sure that it does not already exist. Take a look at some of the [existing patterns in this repository](/README.md#reviewed-patterns-proven-and-reviewed).
 
 ## Overview of steps
 
