@@ -32,6 +32,6 @@ I kept "Donut" as I tried a couple meaningful names, but it just sounds too catc
 
 The "Review Steps" refer to what needs to be done NEXT. This keeps reviews on track and knowing what comes next.
 
-The numbering / order helps on Github to visualize and keep reviewers on track. The coloring also helps with visualization. Go check it out live: https://github.com/paypal/InnerSourcePatterns/pulls
+The numbering / order helps on Github to visualize and keep reviewers on track. The coloring also helps with visualization. [Go check it out live](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls)
 
 "Early Idea" tag is for Issues where very initial or place holder ideas can be placed. "Non-Pattern" can be used for meta Pull Requests such as edits to README.md.

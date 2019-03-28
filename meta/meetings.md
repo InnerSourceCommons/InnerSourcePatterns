@@ -2,7 +2,7 @@
 
 Become involved with the people and communications of Inner Source Patterns:
 
-* See our [complete list of patterns](https://github.com/paypal/InnerSourcePatterns/#list-of-patterns) (written, discussed, reviewed so far) 
+* See our [complete list of patterns](/README.md#list-of-patterns) (written, discussed, reviewed so far) 
 * See Action Items for all who are interested in patterns:
   * Add any missing pattern or add new ones anytime
   * Add your name if you want to be on the author team. Mark your name in blue if you want to be the coordinator.
