@@ -8,11 +8,11 @@ Based off the [InnerSource portal](https://github.com/InnerSourceCommons/InnerSo
 
 Allow generation of an official badge for projects intending to be recognised as InnerSource project within your company.
 
-This will help users distiguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that have been made public due to neglegence or other reasons, plus the badge serves as additional marketing for the InnerSource intiative at your company.
+This will help users distiguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that have been made public due to negligence or other reasons, plus the badge serves as additional marketing for the InnerSource intiative at your company.
 
 ## Problem
 
-- Users don't have a mechanism of distiguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that have been made public due to neglegence or other reasons.
+- Users don't have a mechanism of distiguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that have been made public due to negligence or other reasons.
 - Unmaintained or stale InnerSource projects clutter the portal and make it difficult for people to discover active projects, and diminishes the value on the InnerSource portal
 
 ## Context
