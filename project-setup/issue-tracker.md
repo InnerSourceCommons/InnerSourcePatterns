@@ -55,6 +55,10 @@ development but also during the planning phase of new features:
   as a pull request to drill deeper into individual points that still need
   clarification. The resulting document can be used to publish the results in
   other appropriate channels as well as for future reference.
+- Most issue tracker implementations allow for issue templates. Make use of
+  those not only to collect commonly needed information for bug reports but also
+  include hints about what kind of information is needed for the other usage
+  types.
 
 # Resulting Context
 
