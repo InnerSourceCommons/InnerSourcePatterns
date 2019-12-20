@@ -35,7 +35,7 @@ to by anyone in the company:
   likelihood of receiving contributions.
 - Answering questions in those channels means that not only other team members
   can listen in and provide additional information, it also means that other
-  uses with the same question see (or later on find) the previous answer leading
+  users with the same question see (or later on find) the previous answer leading
   to a lower need to repeat explanations.
 - Keeping communication in asynchronous channels allows for participants on
   different schedules - either due to different time zones or due to different
