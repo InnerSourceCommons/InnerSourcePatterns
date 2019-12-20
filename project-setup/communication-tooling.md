@@ -52,7 +52,7 @@ people:
   decision making and progress tracking can happen transparently for all host
   team members but also for downstream users and contributors to follow.
 - The project should have one or more discussion channels that come with less
-  rigid a structure. Typically this will be mailing lists, online fora or even
+  rigid a structure. Typically this will be mailing lists, online forums or even
   archived chat channels. Usually it is enough to start with just one channel
   for the project, if traffic increases too much it's helpful to split
   discussions around project usage from discussions around project development.
