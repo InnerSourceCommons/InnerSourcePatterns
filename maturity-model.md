@@ -61,7 +61,7 @@ PP-3: Roadmaps are shared by default and there is a standard process and homogen
 
 **Decisions**
 
-* DC-0: Decision-makers often withhold data and resources without explanation.
+* DC-0: Decision-makers often intentionally or accidentally withhold data and resources related to project decisions.
 * DC-1: Materials that are part of decision-making practices become available for review after decisions are finalized.
 * DC-2:	People feel like they know about—and are helping to shape—most (but not all) important decisions as those decisions are unfolding. Materials that are part of decision-making practices are available at defined project milestones
 * DC-3: People feel like they are a part of a shared, standard process for collective decision-making that the organization endorses. Materials that are part of decision-making practices are continuously accessible during work processes.
