@@ -29,20 +29,7 @@ answer.
 
 The host team needs to be clear on the benefit of providing company-public,
 archived, searchable, linkable communication channels that are free to subscribe
-to by anyone in the company:
-
-- Others lurking and reading lowers the barrier to get involved raising the
-  likelihood of receiving contributions.
-- Answering questions in those channels means that not only other team members
-  can listen in and provide additional information, it also means that other
-  users with the same question see (or later on find) the previous answer leading
-  to a lower need to repeat explanations.
-- Keeping communication in asynchronous channels allows for participants on
-  different schedules - either due to different time zones or due to different
-  routines - to meaningfully contribute to the project.
-- Using asynchronous communication channels creates a base level of passive
-  documentation that can be referenced again when similar questions come up
-  again.
+to by anyone in the company.
 
 The goal when streamlining communication channels for InnerSource projects
 should be to align communication around topics, not around certain sets of
@@ -71,14 +58,26 @@ personally back to official communication channels.
 
 # Resulting Context
 
-Setting up and consistently using official communication channels helps collect
-passive documentation.
+Setting upt and consistently using official asynchronous communication channels 
+helps create a base level of passive documentation that can be referenced again 
+when similar questions come up again.
 
 With communication happening in the open others can easily follow project
-progress and get active contributing.
+progress and get active contributing. Others lurking and reading lowers the 
+barrier to get involved raising the likelihood of receiving contributions.
 
-With answers being answered in public more people can add their perspective
-leading to a complete picture.
+With questions being answered in public more people can add their perspective
+leading to a complete picture - this includes not only host team members, 
+but also users of the project.
 
-Participation in the project becomes independent from meeting schedules and
-working schedules of different teams.
+Keeping communication in asynchronous channels allows for participants on
+different schedules - either due to different time zones or due to different
+routines, meeting schedules, team routines - to meaningfully contribute to 
+the project.
+
+Answering questions in those channels means that not only other team members
+can listen in and provide additional information, it also means that other
+users with the same question see (or later on find) the previous answer leading
+to a lower need to repeat explanations.
+
+
