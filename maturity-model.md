@@ -135,7 +135,7 @@ The goal with designing contributions patterns needs to keep collaboration in mi
 
 **Sharing Policies**
 
-Having a baseline of shared values makes it easier to work across team boundaries.
+Having a baseline of shared values makes it easier to work across team boundaries. Crossing boundaries becomes easier if a limited set of baseline rules and guidelines apply everywhere and can easily be referenced.
 
 * SP-0: No sharing culture nor written policies.
 * SP-1:	Some members of the organization unite to define values and principles, but are not clearly supported when they do.
