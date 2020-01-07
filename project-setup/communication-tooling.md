@@ -58,7 +58,7 @@ personally back to official communication channels.
 
 # Resulting Context
 
-Setting upt and consistently using official asynchronous communication channels 
+Setting up and consistently using official asynchronous communication channels 
 helps create a base level of passive documentation that can be referenced again 
 when similar questions come up again.
 
