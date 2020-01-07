@@ -96,6 +96,8 @@ When working in host teams mistakes will automatically be widely visible. In ord
 
 For silos to be reduced colleagues need to be comfortable sharing feedback openly. One easy way to support that is to use the same communication principles across hierarchies.
 
+Ideally you will end up with proper communication channels that are known by anyone in the organization - with channels focussed on different goals (announcements, user support, development channels, infra discussions, etc.). Some of the best practices you will establish as your InnerSource projects mature: Adoption of netiquette guidelines, opening a proven set of standard channels (which are being archived, publicly accessible, searchable) for each new InnerSource project.
+
 * CF-0:	There are no processes nor stablished channels. Some members of the organization share materials via private channels or discussions.
 * CF-1: The organization is in the process of establishing internal guidelines and channels for encouraging diverse points of view about company/departmental decisions, so that anyone belonging to the organization can use them. Some members of the organization share decision-making materials unformally using unofficially platforms. Leaders maintain at least one clear and direct channel for organization members to share opinions constructively on some matters relevant to their work.
 * CF-2:	The organization has established internal guidelines and channels, and provides specific resources (training programs, access to content, etc.), for encouraging and soliciting diverse points of view on team or decisions.
