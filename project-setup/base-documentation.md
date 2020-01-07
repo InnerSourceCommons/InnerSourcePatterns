@@ -23,7 +23,7 @@ exactly which colleagues are currently actively maintaining the project.
   get setup and get started.
 - Project members are spending a lot of time answering getting started
   questions.
-- Different teams withing the organization have diverging standards for how to
+- Different teams within the organization have diverging standards for how to
   format source code and which software patterns to use. As a result
   contributions often end up getting re-written to a large part or even
   entirely.
@@ -102,4 +102,3 @@ Europace AG, Paypal Inc.
 # State
 
 Drafted in December 2019.
-
