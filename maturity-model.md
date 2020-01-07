@@ -48,8 +48,8 @@ Ask teams to self assess against the proposed maturity model.
 
 * PP-0: Individuals and teams do not regularly disclose their plans or products to multiple stakeholders. No formal actions exists at the organization.
 * PP-1: Individuals and teams give visibility to their plans or products to multiple stakeholders, before they are started. Shared roadmap.
-* PP-2: Stakeholders can contribute to some plans or products.
-* PP-3: There is an standard process for collective product and plans definition.
+PP-2: There are already shared roadmaps with clear guidelines and contribution rules where stakeholders can provide feedback. However this is not standardized across the organization and not all of the projects provide this info.
+PP-3: Roadmaps are shared by default and there is a standard process and homogeneous way to do this across the organization at the level of each InnerSource project. This contains clear rules to contribute and influence in the roadmap.
 
 
 **Development Process & Tools**
