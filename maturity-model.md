@@ -176,7 +176,8 @@ MP-3: There are clear guidelines, recommendations, and trainings about the use o
 Not only should feature development be owned by InnerSource teams - support and maintenance is also part of the teams core tasks.
 
 * SP-0:	Support given by the core dev or support team. A business contract guaranties the support. There is no knowledge about the product outside the team.
-* SP-2:	There are rules and regulations to formalize the support on the product, given by a dedicated supporting team.
+* SP-1:	There are rules and regulations to formalize the support on the product, given by a dedicated supporting team.
+* SP-2: Support for InnerSource contributions is formalized through InnerSource patterns like [30 day warranty](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/30-day-warranty.md) or [service vs. library](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/service-vs-library.md).
 * SP-3:	There are rules and regulations to formalize the support on the product, given by a mature community.
 
 **Culture**
