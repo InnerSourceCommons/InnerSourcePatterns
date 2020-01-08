@@ -80,6 +80,15 @@ topics:
 * How to submit your modifications back to the project.
 * Some information on which turnaround time to expect for modifications made.
 
+
+There are literally tons of good examples for how to write a README.md and what kind
+of information to include in a CONTRIBUTING.md file in various open source projects. 
+Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), 
+[Open Source Guide from GitHub](https://opensource.guide/) as well as
+the book [Producing Open Source](https://producingoss.com/en/producingoss.html) all
+have valuable information on what kind of information to provide. In addition to that this
+pattern comes with two very basic templates to get you started right away.
+
 # Resulting Context
 
 * The time for contributors to get up to speed is significantly reduced.
