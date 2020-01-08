@@ -23,7 +23,7 @@ exactly which colleagues are currently actively maintaining the project.
   get setup and get started.
 - Project members are spending a lot of time answering getting started
   questions.
-- Different teams withing the organization have diverging standards for how to
+- Different teams within the organization have diverging standards for how to
   format source code and which software patterns to use. As a result
   contributions often end up getting re-written to a large part or even
   entirely.
@@ -80,6 +80,15 @@ topics:
 * How to submit your modifications back to the project.
 * Some information on which turnaround time to expect for modifications made.
 
+
+There are literally tons of good examples for how to write a README.md and what kind
+of information to include in a CONTRIBUTING.md file in various open source projects. 
+Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), 
+[Open Source Guide from GitHub](https://opensource.guide/) as well as
+the book [Producing Open Source](https://producingoss.com/en/producingoss.html) all
+have valuable information on what kind of information to provide. In addition to that this
+pattern comes with two very basic templates to get you started right away.
+
 # Resulting Context
 
 * The time for contributors to get up to speed is significantly reduced.
@@ -102,4 +111,3 @@ Europace AG, Paypal Inc.
 # State
 
 Drafted in December 2019.
-
