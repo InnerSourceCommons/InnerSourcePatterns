@@ -17,6 +17,14 @@ This section should contain brief documentation written for first time users on
 how to get started using the project. Further more detailed documentation can be
 linked to from here.
 
+## Getting help
+
+This section should contain a brief documentation on how to get help for the
+project as a user. This could be as simple as pointing users to the issue
+tracker if this is how your project would like to answer questions. It could
+also point to an archived and searchable chat channel, some archived searchable
+mailing list, some online user forum.
+
 ## Getting involved
 
 This section should include information on how to get in touch with the project:
@@ -33,18 +41,6 @@ the same definition that is only linked to from here. The reason to keep the
 link here is for colleagues who have no or little experience with working in and
 contributing to InnerSource projects to have a direct link back to company wide
 information from the technological projects they need for their daily work.
-
-### How to become a Trusted Committer
-
-This section should make the process for becoming a Trusted Committer explicit
-if that route is open to contributors.
-
-### How to nominate Trusted Committers
-
-This section serves as a reminder to existing and explanation for new Trusted
-Committers detailing how to add others to the host team. Again ideally this
-information is identical for all projects in the organisation so central
-information can be linked to from here. 
 
 ## Contributing
 
@@ -67,6 +63,11 @@ Ideally you also include information on what the preferred process for changes
 looks like for the project: Should contributors first open an issue and submit a
 proposal, or are they welcome to submit changes right away? What is important to
 you when reviewing contributions?
+
+In addition you should outline any design values you want to follow in the
+project. Making those explicit often helps resolve trade-offs more quickly and
+more easily. In addition it helps making changes to otherwise implicit
+assumptions transparent.
 
 Over time you will notice that this section grows substantially. In that case
 think about moving the information to separate files, e.g. a CONTRIBUTING.md and
