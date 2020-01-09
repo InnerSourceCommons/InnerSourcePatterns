@@ -17,6 +17,16 @@ This section should contain brief documentation written for first time users on
 how to get started using the project. Further more detailed documentation can be
 linked to from here.
 
+## Further information
+
+This section can list any or all of the following:
+
+* A list of features, use cases that the software addresses.
+* Information on design principles that are used to resolve trade-offs
+* Links to further user level documentation
+* Answers to frequently asked questions (FAQ), preferably in a format that
+  allows to link to specific questions and their answers for easier reference.
+
 ## Getting help
 
 This section should contain a brief documentation on how to get help for the
