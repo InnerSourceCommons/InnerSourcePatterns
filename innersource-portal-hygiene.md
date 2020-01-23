@@ -21,7 +21,7 @@ Large organisation with lots of public repos, not all necessarily meeting the de
 
 ## Forces
 
-- Mix of managed and unmanged projects makes it difficult to figure out what needs to be in the InnerSource portal
+- Mix of managed and unmanaged projects makes it difficult to figure out what needs to be in the InnerSource portal
 - Repos are made public when they really shouldn't be
 - Repos become stale and never get cleaned up
 
