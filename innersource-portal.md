@@ -1,4 +1,4 @@
-## Title 
+## Title
 
 InnerSource Portal
 
@@ -22,7 +22,6 @@ You are attempting to establish an InnerSource practice within your organization
 * It is difficult for individuals to discover what InnerSource projects exist
 * It is difficult for InnerSource project owners to attract an audience of external contributors
 
-
 ## Context
 
 Your organization is interested in adopting an InnerSource work style and InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.  Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
@@ -35,7 +34,7 @@ Your organization is interested in adopting an InnerSource work style and InnerS
 
 ## Solutions
 
-Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects. 
+Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects.
 
 Visitors to the InnerSource portal should be able to see all available projects as well as search for specific projects based on various criteria such as project name, technologies in use, contributor names, sponsoring business unit etc.  The information displayed via the InnerSource portal should be under the full control of the InnerSource project owners at all times.  Preferably, by sourcing this information directly from a specific data file or meta-data stored in the project repository itself.  Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors names, a brief description and links to the code repository or any supporting documentation.  
 
@@ -43,13 +42,17 @@ A communications campaign promoting the addition of InnerSource data files or me
 
 ## Resulting Context
 
-The InnerSource Portal has enabled InnerSource project owners to advertise their projects to an organization-wide audience.  Due to this increased visibility they are attracting much larger communities of contributors than ever before.  For those looking to get involved in InnerSource projects, the InnerSource portal has allowed them to discover exactly the kind of opportunities they are interested in by searching across all available InnerSource projects simultaneously based on their specific criteria.  Satisfying the needs of both of these audiences has helped establish InnerSource as a viable and attractive option for all areas of the organization to leverage to accomplish things together they could not have separately. 
+The InnerSource Portal has enabled InnerSource project owners to advertise their projects to an organization-wide audience.  Due to this increased visibility they are attracting much larger communities of contributors than ever before.  For those looking to get involved in InnerSource projects, the InnerSource portal has allowed them to discover exactly the kind of opportunities they are interested in by searching across all available InnerSource projects simultaneously based on their specific criteria.  Satisfying the needs of both of these audiences has helped establish InnerSource as a viable and attractive option for all areas of the organization to leverage to accomplish things together they could not have separately.
 
-
-## Known instances
+## Known Instances
 
 * A large financial services organization has used the creation of an InnerSource Portal to provide a mechanism of advertising and discovering InnerSource projects in existence across different business units
 * The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource Gig Marketplace pattern in this context
 
+## Status
+
+Proven
+
 ## Author(s)
+
 * Stephen McCall

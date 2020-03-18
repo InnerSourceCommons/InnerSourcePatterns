@@ -1,22 +1,15 @@
-# Title
+## Title
 
 Trusted Committer
 
-# Patlet
+## Patlet
 
 Many inner-source projects will find themselves in a situation where
 they consistently receive feedback, features, and bug-fixes from contributors.
 In these situations project maintainers seek ways to recognize and reward the
 work of the contributor above and beyond single contributions.
 
-# Context
-
-  - You are the maintainer of a cross-team library, service, or shared resource
-  - You receive regular contributions
-  - There are motivated contributors looking to build expertise through
-  inner-sourced projects
-
-# Problem
+## Problem
 
   - Project maintainers want to find ways to scale their ability to support a
   project
@@ -27,17 +20,24 @@ work of the contributor above and beyond single contributions.
   - Lack of language for recognizing contributions across teams within an
   organization
 
-# Forces
+## Context
+
+  - You are the maintainer of a cross-team library, service, or shared resource
+  - You receive regular contributions
+  - There are motivated contributors looking to build expertise through
+    inner-sourced projects
+
+## Forces
 
   - Over the lifecycle of a project the focus of the maintainers may shift away
-  to accomodate changing business priorities
+  to accommodate changing business priorities
   - Contributors seek visible artifacts of their contributions demonstrating
   value
   - Maintaining a project of reasonable complexity is taxing for a small team
 
-# Solution
+## Solution
 
-## Defining the Trusted Committer Role for a Project
+### Defining the Trusted Committer Role for a Project
 
 What a Trusted Committer handles is up to each project and its maintainers.
 Whatever shape your Trusted Committer role takes, make sure it's clearly
@@ -57,7 +57,7 @@ person on pull requests. If they are actively engaging in pull requests,
 consider approaching them about opportunities for further collaboration on the
 project.
 
-## Formalizing Trusted Committers
+### Formalizing Trusted Committers
 
 The first step is to approach candidates about becoming a Trusted Committer.
 Maintainers should make sure candidates understand the role. To be clear:
@@ -87,7 +87,7 @@ README.  As an example:
 [Trusted Committers]: https://example.com/link/to/your/trusted/committer/documentation.md
 ```
 
-## Maintaining Trusted Committer Relationships
+### Maintaining Trusted Committer Relationships
 
 When a new Trusted Committer is minted it’s a good idea to keep them in the
 loop as you continue to iterate on your project. This can be as simple as
@@ -100,11 +100,11 @@ regular basis. A good cadence is every week, but as the Trusted Committer
 settles in this can drop to every few weeks or so. The purpose of these
 check-ins is to make sure the Trusted Committer feels supported in their new
 role, like a 1:1 with your manager. If things aren’t going well, listen and
-try to understand what is preventing the Trusted Comitter from being successful.
+try to understand what is preventing the Trusted Committer from being successful.
 If things are going well, [thank the Trusted Committer for their continued
 effort][praise] in making the project successful and set a new date to check-in.
 
-## Sunsetting a Trusted Committer
+### Sunsetting a Trusted Committer
 
 There comes a time when removal of a Trusted Committer is necessary, for
 example:
@@ -121,15 +121,15 @@ After access is removed it is courteous to [thank the Trusted Committer for
 their participation in a public way][praise]. This ensures clear communication
 and continuity within the community.
 
-# Resulting Context
+## Resulting Context
 
-## For Contributors
+### For Contributors
 
 Achieving Trusted Committer status for a project is a sign that the contributor
 has demonstrated an improvement to a community project. Recognition for these
 efforts can be used during annual reviews with managers.
 
-## For Maintainers
+### For Maintainers
 
 As a project matures, maintainers can become less familiar with key aspects
 of a project.  Trusted Committers fill in these gaps.  This ensures that all
@@ -138,26 +138,28 @@ aspects of the project are better served over time.
 A healthy set of Trusted Committers ensures that if project maintainers move on
 there is a plan for responsible stewardship.
 
-# Known Instances
+## Known Instances
 
 This has been tried and proven successful at Nike and PayPal.
 
-# Authors
+## Status
+
+Proven
+
+Published internally at Nike; drafted via pull-request in June of 2018.
+
+## Authors
 
 - [Fernando Freire]
 
-# Acknowledgements
+## Acknowledgements
 
 - [Russell Rutledge]
 - [Loren Sanz]
 - [Noah Cawley]
 - [Jeremy Hicks]
 
-# State
-
-Published internally at Nike; drafted via pull-request in June of 2018.
-
-# Variants
+## Variants
 
 [Russell Rutledge]: https://github.com/rrrutledge
 [Loren Sanz]: https://github.com/mrsanz
