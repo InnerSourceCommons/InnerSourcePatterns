@@ -100,7 +100,7 @@ regular basis. A good cadence is every week, but as the Trusted Committer
 settles in this can drop to every few weeks or so. The purpose of these
 check-ins is to make sure the Trusted Committer feels supported in their new
 role, like a 1:1 with your manager. If things aren’t going well, listen and
-try to understand what is preventing the Trusted Comitter from being successful.
+try to understand what is preventing the Trusted Committer from being successful.
 If things are going well, [thank the Trusted Committer for their continued
 effort][praise] in making the project successful and set a new date to check-in.
 
