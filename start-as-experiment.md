@@ -1,20 +1,20 @@
-# Title
+## Title
 
 Start as an Experiment
 
-# Patlet
+## Patlet
 
-Start your InnerSource initiative as a time limited experiment to make it 
-easier for managers unfamiliar with InnerSource to endorse and support the 
+Start your InnerSource initiative as a time limited experiment to make it
+easier for managers unfamiliar with InnerSource to endorse and support the
 initiative.
 
-# Problem
+## Problem
 
-An InnerSource initiative is considered but not started because management is 
-unsure about its outcome and, as a result, is not willing to commit to an 
+An InnerSource initiative is considered but not started because management is
+unsure about its outcome and, as a result, is not willing to commit to an
 investment.
 
-# Context
+## Context
 
 The company is considering to leverage InnerSource to increase the efficiency
 of collaboration on software projects. However, most managers are not familiar
@@ -23,7 +23,7 @@ top-down control style management. The idea of InnerSource is very popular with
 software developers in the company, not the least because many developers use
 or are actively developing Open Source software.
 
-# Forces
+## Forces
 
 - Managers will want to validate the claims of improved collaboration through
   InnerSource before making a long term investment. This usually involves
@@ -40,14 +40,14 @@ or are actively developing Open Source software.
   control related regulations in large corporations with multiple legal
   entities in multiple countries.
 
-# Solution
+## Solution
 
 Declare the InnerSource initiative as a time limited experiment. Define and
 communicate the criteria for projects to join the InnerSource experiment. The
-criteria should be chosen such that they maximize the chances of building a 
+criteria should be chosen such that they maximize the chances of building a
 healthy InnerSource community around the selected InnerSource projects. They
-should also help to ensure that the setting of the projects is such that they 
-can later be used to gain externally valid insights into the effects of 
+should also help to ensure that the setting of the projects is such that they
+can later be used to gain externally valid insights into the effects of
 applying InnerSource. Examples for such criteria are
 
 - Sufficient geographical distribution of developers
@@ -66,7 +66,7 @@ experiment don't provide a direct impact on the companies revenue, consider
 introducing [Cross Team Valuation](crossteam-project-valuation.md) to highlight
 their value contributions.
 
-# Resulting Context
+## Resulting Context
 
 Managers are able to kick start InnerSource for the following reasons:
 
@@ -78,35 +78,35 @@ Managers are able to kick start InnerSource for the following reasons:
 - Even in case of a failure, the setup ensures that the company will learn from
   the experiment.
 - In case of success, the data gathered during the experiment will allow
-  managers to make a longer lasting commitment to InnerSource. 
+  managers to make a longer lasting commitment to InnerSource.
 
 Participants in the InnerSource experiment are now conscious of the fact that
 they have to prove to management that InnerSource yields the promised benefits.
-It will therefore help to focus work on those activites which provide the most
+It will therefore help to focus work on those activities which provide the most
 demonstrable value thus increasing the chances of success.
 
 Finally, starting as an experiment makes it much easier to sidestep regulations
 and forces such as tool and process policies which could decrease the chances
 of success.
 
-# Related Patterns
+## Related Patterns
 
 - _Trial Run_ (from the book [_Fearless
   Change_](http://www.fearlesschangepatterns.com/))
 
-# Known Instances
+## Known Instances
 
 - Robert Bosch GmbH (globally distributed software development)
 
-# Author
+## Status
+
+Proven
+
+## Author
 
 - Georg Grütter (Robert Bosch GmbH)
 
-# Status
-
-Proven Pattern
-
-# Acknowledgements
+## Acknowledgements
 
 - Jason Zink (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)
