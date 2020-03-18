@@ -54,9 +54,13 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 
 * _Just Say Thanks_ (from the book [_Fearless Change_](http://www.fearlesschangepatterns.com/))
 
-## Known instances
+## Known Instances
 
 * Nike (multiple projects)
+
+## Status
+
+Proven
 
 ## Author(s)
 

@@ -15,12 +15,12 @@ A team develops a component which is used throughout an organization.  This team
 # Forces
 
 - There is distrust of contributions due to a past history of cheating: teams
-  submitted half finished contributions and subsequently filed requests for 
+  submitted half finished contributions and subsequently filed requests for
   fixes that make it ready for use in production.
-- If code is contributed from outside the team, the team has the natural 
+- If code is contributed from outside the team, the team has the natural
   suspicion that the other team does not know how to write code that would
   meet the teams expectations.
-- Each team looks first to help its own leaders achieve their own goals. This direction 
+- Each team looks first to help its own leaders achieve their own goals. This direction
   of loyalty can complicate resolution of this problem.
 - There is a natural aversion to taking responsibility for code not written
   by oneself.
@@ -28,14 +28,14 @@ A team develops a component which is used throughout an organization.  This team
   codebase.
 - There is the fear of the contributors not being available for support with
   fixing bugs after the time on contribution.
-- Teams fear contributed code will lead to high(er) maintenance costs but do 
+- Teams fear contributed code will lead to high(er) maintenance costs but do
   not know how to control for that.
-- Receiving teams may fear that teaching others how to contribute code will 
+- Receiving teams may fear that teaching others how to contribute code will
   expose technical debt in their system and that visibility may be damaging.
-- Receiving teams may not believe that they will get acceptable code no 
+- Receiving teams may not believe that they will get acceptable code no
   matter how much mentoring they provide.
-- Either team may not feel confident in measuring risks or certifying that 
-  they are mitigated in a contribution; the system itself is somewhat brittle 
+- Either team may not feel confident in measuring risks or certifying that
+  they are mitigated in a contribution; the system itself is somewhat brittle
   (may not be ways to fully test and catch all problems).
 
 # Solution
@@ -70,7 +70,9 @@ This was tried and proven successful at PayPal.
 - Klaas-Jan Stol
 - Georg Grütter
 
-# State
+# Status
+
+Proven
 
 Drafted at the 2017 Spring InnerSource Summit; reviewed 18 July 2017.
 

@@ -5,7 +5,7 @@ _Dedicated Community Manager_
 alternative:_Dedicated Community Leader_
 
 ## Patlet
-Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative. 
+Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative.
 
 ## Problem
 
@@ -15,7 +15,7 @@ Selecting the wrong persons and/or not providing enough capacity for them risks 
 
 ## Story
 
-Consider the following story. A company wants to start an InnerSource initiative in order to foster collaboration across organizational boundaries. They have decided to start with an experimental phase with limited scope. Management has selected a suitable pilot topic for the first InnerSource community and expects contributions from many business units across the organization. The company has nominated a new hire to head the community for 50 % of his work time, because he was not yet 100 % planned for. After 6 months, the community has received only a few contributions, most of which are from a single business unit. The company replaces the community leader with someone who has a longer history in the company, this time for only 30 % of his time. After another 6 months, the number of contributions has picked up only marginally. The company is no longer convinced that InnerSource helps to achieve their goal of increased, cross divisional collaboration and abandons InnerSource. 
+Consider the following story. A company wants to start an InnerSource initiative in order to foster collaboration across organizational boundaries. They have decided to start with an experimental phase with limited scope. Management has selected a suitable pilot topic for the first InnerSource community and expects contributions from many business units across the organization. The company has nominated a new hire to head the community for 50 % of his work time, because he was not yet 100 % planned for. After 6 months, the community has received only a few contributions, most of which are from a single business unit. The company replaces the community leader with someone who has a longer history in the company, this time for only 30 % of his time. After another 6 months, the number of contributions has picked up only marginally. The company is no longer convinced that InnerSource helps to achieve their goal of increased, cross divisional collaboration and abandons InnerSource.
 
 ## Context
 
@@ -35,12 +35,12 @@ Communication takes up a significant percentage of a community managers daily wo
 
 If a community can not grow fast enough and pick up enough speed, chances are they won't be able to convincingly demonstrate the potential of InnerSource.
 
-If the company selects an experienced project or line manager steeped in traditional management methods to be the community leader, he or she is likely to focus on traditional management topics such as resource allocation, providing structure and reporting channels rather than leading by example through meritocratic principles. This will undermine the credibility of the InnerSource initiative in the eyes of developers. 
+If the company selects an experienced project or line manager steeped in traditional management methods to be the community leader, he or she is likely to focus on traditional management topics such as resource allocation, providing structure and reporting channels rather than leading by example through meritocratic principles. This will undermine the credibility of the InnerSource initiative in the eyes of developers.
 
 ## Solution
 
 Select a community leader who:
-- is experienced in the Open Source working model or similar community based working models, 
+- is experienced in the Open Source working model or similar community based working models,
 - has the required soft-skills to act as a natural leader,
 - leads by example and thus justifies his position in the community meritocracy,
 - is an excellent networker,
@@ -52,7 +52,7 @@ Empower the community leader to dedicate 100 % of his time to community work inc
 
 ## Resulting Context
 
-A community leader with the properties described above will lend a face and embody the companies commitment to InnerSource. It will make it more likely that other associates in his network will follow his lead and contribute to InnerSource. Over time, he or she will be able to build up a stable core team of developers and hence increase the chances of success for the InnerSource project. By convincingly a large enough audience within his company of the potential of InnerSource, he or she will make an important contribution to changing the company culture towards a community culture. 
+A community leader with the properties described above will lend a face and embody the companies commitment to InnerSource. It will make it more likely that other associates in his network will follow his lead and contribute to InnerSource. Over time, he or she will be able to build up a stable core team of developers and hence increase the chances of success for the InnerSource project. By convincingly a large enough audience within his company of the potential of InnerSource, he or she will make an important contribution to changing the company culture towards a community culture.
 
 Having excellent and dedicated community leaders is a precondition for the success of InnerSource. It is, however, not a silver bullet. There are many challenges of InnerSource which are above and beyond what a community leader can tackle, such as budgetary, legal, fiscal or other organizational challenges.
 
@@ -62,7 +62,7 @@ _BIOS at Robert Bosch GmbH_. Note that InnerSource at Bosch was, for the majorit
 
 ## Status
 
-_Reviewed Pattern_
+Proven
 
 ## Authors
 
