@@ -75,7 +75,7 @@ Old Status: Pattern Idea - Draft In Progress
 
 David Marcucci, Nicholas Stahl, Padma Sudarsan, Ryan Bellmore, Erin Bank
 
-## Also see
+## See Also
 
 This pattern was originally created in this wiki and then ported here.
 Original wiki page:
