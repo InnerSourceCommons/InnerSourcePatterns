@@ -41,10 +41,10 @@ possible to either deploy the same service in independent environments with sepa
 
 * [Don't Bother Looking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60)
 * [Junkyard Styled Inner Sourcing](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/61)
-* [Shared Code Repo Different from Build Repo](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Shared-Code-Repo-Different-from-Build-Repo) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
-* [Incentive Alignment](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
-* [Change the Developers Mindset](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Pattern:-change-the-developers-mindset)
-* [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
+* [Shared Code Repo Different from Build Repo](shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
+* [Incentive Alignment](developer-incentive-alignment-for-innersource-contribution.md)
+* [Change the Developers Mindset](change-the-developers-mindset.md)
+* [Share Your Code to Get More Done - Likely Contributors Variant](share-your-code-to-get-more-done.md)
 
 #### Pattern Donuts (needing a solution)
 
