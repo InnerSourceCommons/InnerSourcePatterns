@@ -48,11 +48,11 @@ possible to either deploy the same service in independent environments with sepa
 
 #### Pattern Donuts (needing a solution)
 
-* [Donut 3: How to Defeat the Hierarchical Constraints](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-3%3A-how-to-defeat-the-hierarchical-constraints)
-* [Donut 5: Project Management Time Pressures](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-5:-project-management-time-pressures)
-* [Donut 6: Organizational Mindset Change](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-6:-organizational-mindset-change)
+* [How to Defeat the Hierarchical Constraints](defeat-hierarchical-constraints.md)
+* [Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47)
+* [Organizational Mindset Change](organizational-mindset-change.md)
 * [Donut 8: Not Invented Here](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-8:-Not-invented-here)
-* [Donut: Bad Weather For Liftoff](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut:-Bad-weather-for-liftoff)
+* [Bad Weather For Liftoff](bad-weather-for-liftoff.md)
 * [Get Contributions Despite Silo Thinking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/38)
 
 
@@ -95,6 +95,7 @@ The topics below cover information about how we define, operate, and upkeep this
   * [Meetings](meta/meetings.md) - Become involved with the people and communications of the Inner Source Patterns group
 
 # Related References
+
 * [A pattern language for pattern writing](http://hillside.net/index.php/a-pattern-language-for-pattern-writing), Meszaros and Doble
 
 # Licensing
