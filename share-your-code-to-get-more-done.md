@@ -64,4 +64,4 @@ David Marcucci
 
 This pattern was originally created in this wiki and then ported here.
 Original wiki page:
-https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Shared-Code-Repo-Different-from-Build-Repo
+https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant
