@@ -12,7 +12,7 @@ Praise and thanks are easy, affordable ways to keep contributors and their manag
 A pattern in this area makes it easy to do and ensures that the message comes across clearly and sincerely.
 
 ## Context
-* You are the trusted committer or maintainer on an inner source project.
+* You are the [Trusted Committer](project-roles/trusted-committer.md) or maintainer on an inner source project.
 * You value the community of contributors and want to maintain and grow it.
 
 ## Forces
@@ -50,9 +50,17 @@ Make sure that your words stem from the sincere thanks that you feel inside for 
 Keep the level and verbosity of praise appropriate to their level of involvement.
 Overdoing it may feel insincere and mechanical and defeat your purpose in reaching out.
 
-## Known instances
+## Related Patterns
+
+* _Just Say Thanks_ (from the book [_Fearless Change_](http://www.fearlesschangepatterns.com/))
+
+## Known Instances
 
 * Nike (multiple projects)
+
+## Status
+
+Proven
 
 ## Author(s)
 

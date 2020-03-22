@@ -1,6 +1,6 @@
 # Command-line git steps for creating a new Pattern
 
-If you want to contribute a new pattern, the workflow is done through Branches and Pull Requests (PR's). You can see the available branches on [the branches URL](https://github.com/paypal/InnerSourcePatterns/branches/all) and existing PR's on the [Pull Request page](https://github.com/paypal/InnerSourcePatterns/pulls). Branches are meant to separate content, so that multiple people can work all at once. Pull Requests (PR's) are used to bring discussion/review about a specific inner source pattern. 
+If you want to contribute a new pattern, the workflow is done through Branches and Pull Requests (PR's). You can see the available branches on [the branches URL](https://github.com/InnerSourceCommons/InnerSourcePatterns/branches/all) and existing PR's on the [Pull Request page](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). Branches are meant to separate content, so that multiple people can work all at once. Pull Requests (PR's) are used to bring discussion/review about a specific inner source pattern. 
 
 There are indeed multiple ways to start a discussion:
 
@@ -8,9 +8,9 @@ There are indeed multiple ways to start a discussion:
 * Create an Issue and ask for comments from some of the maintainers. You can mention them using the '@' symbol prior to their github nickname.
 * Add reviewers to the Pull Request on the website - this sends requests to review your work
 
-New patterns should use, as their base, the [pattern template file](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md). 
+New patterns should use, as their base, the [pattern template file](meta/pattern-template.md). 
 
-Please, when starting a new pattern, make sure that it does not already exist. Take a look at some of the [existing patterns in this repository](https://github.com/paypal/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed).
+Please, when starting a new pattern, make sure that it does not already exist. Take a look at some of the [existing patterns in this repository](/README.md#reviewed-patterns-proven-and-reviewed).
 
 ## Overview of steps
 
@@ -24,7 +24,7 @@ The basic steps below can be thought of as *branch*, *commit*, *pull request*, a
 First you need to create a branch (no need to ask for permission!). For this, let's clone the repository:
 
 ```
-$ git clone https://github.com/paypal/InnerSourcePatterns.git
+$ git clone https://github.com/InnerSourceCommons/InnerSourcePatterns.git
 ```
 
 Then you should see a message similar to the following one:
@@ -87,7 +87,7 @@ $ git checkout -b pattern/ewoks-do-not-hunt
 $ touch ewoks-do-not-hunt.md
 ```
 
-You can fill your [markdown](/meta/markdown-info.md) file with the [pattern template text](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) and begin to fill it in with your pattern.
+You can fill your [markdown](meta/markdown-info.md) file with the [pattern template text](meta/pattern-template.md) and begin to fill it in with your pattern.
 
 Once our pattern file is ready to go, we need to add the file to the repo and
 commit that change to our new branch.

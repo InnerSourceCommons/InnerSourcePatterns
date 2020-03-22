@@ -46,7 +46,7 @@ Decouple responsibility for source code from deployment: Both teams work to
 identify exactly where there is overlap and synergies.
 
 Only shared source code is kept as part of the InnerSource project with shared
-responsiblity.
+responsibility.
 
 Decouple configuration and deployment pipelines from actual business logic.
 Establish a second deployment of the service for the second team.
@@ -66,16 +66,20 @@ Both teams get to know their respective escalation policy and deployment setup,
 potentially identifying improvements for their own setup.
 
 The likelihood that changes are needed and made in the shared source code
-increases, leading to more frequent oportunities to refine, improve and optimise
+increases, leading to more frequent opportunities to refine, improve and optimise
 the implementation.
 
 ## See also
 
-Related to this pattern is the [Thirty day warrenty](https://github.com/paypal/InnerSourcePatterns/blob/master/30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
+Related to this pattern is the [Thirty day warranty](30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
 
-## Known instances
+## Known Instances
 
 Europace AG
+
+## Status
+
+Proven
 
 ## Author(s)
 
@@ -84,4 +88,3 @@ Isabel Drost-Fromm
 ## Acknowledgements
 
 Thank you Tobias Gesellchen for review internal to Europace AG.
-

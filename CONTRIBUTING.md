@@ -1,10 +1,10 @@
 # How to Contribute
 
-First, checkout our complete list of patterns: [public GitHub](https://github.com/paypal/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed) OR [Google Doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0)
+First, checkout our complete list of patterns: [public GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed) OR [Google Doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0)
 
 We encourage beginners seeking answers to jump in by creating `donut` patterns (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). 
 
-Anyone can offer reviews and comments for [in-progress patterns](https://github.com/paypal/InnerSourcePatterns/pulls). We encourage experts to pad their experience - these are hoped to become part of an Inner Source handbook one day.
+Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). We encourage experts to pad their experience - these are hoped to become part of an Inner Source handbook one day.
 
 We work together via GitHub, WebEx, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns Slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
@@ -25,9 +25,9 @@ The simplest way to create a pattern is with your browser (see below).
 
 <img alt="Creating a new pattern" src="/assets/img/write-new-pattern.png" width="70%">
 
-1. Login to GitHub & inside the [patterns web repo](https://github.com/paypal/InnerSourcePatterns), click on the 'Create new file' button
+1. Login to GitHub & inside the [patterns web repo](https://github.com/InnerSourceCommons/InnerSourcePatterns), click on the 'Create new file' button
 2. Name the file like this example: "project-management-time-pressures.md"
-3. Use the [pattern template](https://raw.githubusercontent.com/paypal/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your fledgling pattern; it does not need to be complete, as you can add to it later
+3. Use the [pattern template](https://raw.githubusercontent.com/InnerSourceCommons/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your fledgling pattern; it does not need to be complete, as you can add to it later
 4. Enter a commit message
    * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns) below.
 5. Propose this new file and then also create a Pull Request (PR)
@@ -43,17 +43,23 @@ If you are asked to 'Commit directly...' vs 'Create a new branch...'
 
 * Assure you select **'Create a new branch...'** and name the branch like this example: "pattern/project-management-time-pressures". 
 * This occurs when writing a new pattern via the web interface (section A above).
-* Only [Trusted Collaborators](/meta/trusted-collaborators.md) (TC's) are asked this; we are adding most contributors as TC's.
+* Only [Trusted Committers](/meta/trusted-committers.md) (TC's) are asked this; we are adding most contributors as TC's.
 
 
+## Other Tips For Submissions
+
+* Place each sentence on a new line.
+_GitHub_ allows leaving comments on a line-by-line basis.
+Review and comment on the content of submitted text is much easier if there are multiple lines on-which to leave comments.
+Sentences on consecutive lines will be collapsed into a single paragraph (like this one) for the final reader of the content.
 
 # B. Discussing Early Ideas in Issues
 
-If you feel that you need extra advice when dealing with patterns, please [open an issue](https://github.com/paypal/InnerSourcePatterns/issues). This process is only needed when contributing early ideas that you are uncertain about. 
+If you feel that you need extra advice when dealing with patterns, please [open an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues). This process is only needed when contributing early ideas that you are uncertain about. 
 
 Here are tips on starting this discussion:
 
-* [Create a new ticket](https://github.com/paypal/InnerSourcePatterns/issues/new), add a concise title, and describe your problem. Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
+* [Create a new ticket](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new), add a concise title, and describe your problem. Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
 * Ask any questions that you are unsure about. Are you unsure if this problem belongs here? Are you unsure on how to frame and explain the problem?
 * [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) `Early Idea`. Labels can be found in the right column settings.
 
@@ -83,7 +89,7 @@ Below are the procedural steps in our Review process:
 3. Reviewers can now use the PR features to comment on the pattern.
 4. In most cases, we do two reviews, and the PR's labels should reflect `Do 2nd Review` etc.
 5. After reviews are complete, the reviewers or author should Revise and Finalize the pattern, eventually labeling it with  `Accepted`.
-6. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Collaborators](/meta/trusted-collaborators.md) (most authors are by this point) can Merge the PR on Github. This places the .md file into the master branch / root directory.
+6. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Committers](/meta/trusted-committers.md) (most authors are by this point) can Merge the PR on Github. This places the .md file into the master branch / root directory.
 
 ## Completed Patterns
 When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to a Gitbook (PDF), [see our separate Publishing instructions](/meta/publishing.md).

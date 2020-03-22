@@ -1,6 +1,8 @@
-# Trusted Collaborators
+# Trusted Committers
 
-Trusted collaborators/contributors/committers (TC's) are those members of our community who we have explicitly added to our Github repository. These people have elevated rights, allowing them to send in changes directly to branches and to accept Pull Requests.
+Trusted committers/collaborators/contributors (TC's) are those members of our community who we have explicitly added to our Github repository. These people have elevated rights, allowing them to send in changes directly to branches and to accept Pull Requests.
+
+GitHub refers to these accounts as [collaborators](https://help.github.com/en/articles/adding-outside-collaborators-to-repositories-in-your-organization).
 
 We ask that TC's still adhere to the Pull-Request mechanism, unless they are making changes to documentation where it is not realistic that anyone will review, or if there are easy typos/grammar fixes.
 

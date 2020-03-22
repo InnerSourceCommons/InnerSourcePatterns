@@ -25,13 +25,13 @@ contains the sources for the GitHub pages website for innersourcecommons.org.
 # Workflow
 
 1. For each new pattern to be published, a new issue should be created in the [InnerSourcePatterns][patternsRepo] repository
-  * the issue should contain the _name_ of the pattern and a _link_ to the accepted pattern inside of the [InnerSourcePatterns][patternsRepo] repository
+   - the issue should contain the _name_ of the pattern and a _link_ to the accepted pattern inside of the [InnerSourcePatterns][patternsRepo] repository
 2. Assign the issue to someone who can see the process through ex: a Trusted Committers (TC), community leader, or yourself
 3. TBD - we have yet to deal with bringing over a finalized pattern.
-  * whether we convert the pattern into a PDF, or keep it in markdown and where it lands on [InnerSourceCommons][commonsRepo], is yet to be determined
+   - whether we convert the pattern into a PDF, or keep it in markdown and where it lands on [InnerSourceCommons][commonsRepo], is yet to be determined
 
 
 
 [commons]: http://innersourcecommons.org
-[patternsRepo]: https://github.com/paypal/InnerSourcePatterns
-[commonsRepo]: https://github.com/paypal/InnerSourceCommons
+[patternsRepo]: https://github.com/InnerSourceCommons/InnerSourcePatterns
+[commonsRepo]: https://github.com/InnerSourceCommons/innersourcecommons.org
