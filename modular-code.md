@@ -1,19 +1,30 @@
-**Title:** Modular Code
+## Title
 
-**Statement of Problem:** 
+Modular Code
+
+## Patlet
+
+TBD
+
+## Problem
+
 Development does not want to spend the extra resources needed to develop modular components. As a result, shared components are not reused.  
 
-**Context:** 
+## Context
+
 * There is no corporate mandate for modularized code.
-* This is a new product/new code, not a legacy product/code. 
+* This is a new product/new code, not a legacy product/code.
 * There is an available repository for sharing code.
 * Making code modular takes extra effort and time to develop.
 * Time commitments might already have been made for customer deliveries (not changeable).
 
-**Forces:**
-* There is a learning curve to writing code that can be reused. Developers might not know how to write modular code. Education might be needed.
+## Forces
+
+* There is a learning curve to writing code that can be reused.
 * Extra documentation is required for reusable code.
 * Some companies have a common components group that develops reusable code, but others feel that such components should be developed by those business lines that are using the components and a library of common components could be established.
+* Developers might not know how to write modular code. Education might be needed.
+
 * Might be a fear that if not done properly, quality might be impacted.
 * Developers might not have incentive to write modular code (due to their tight schedules and lack of a mandate).
 * You might be dealing with legacy systems (can't be simply refactored or rewritten).
@@ -23,9 +34,9 @@ Development does not want to spend the extra resources needed to develop modular
 * If there is frequent turnover of team members, modularization may not be a priority.
 * Level of communication between teams can impact ability/inclination to modularize.
 
-**Resolution:** 
-* Provide incentives to teams to invest in modular code: 
-    - Modular code is far more reusable.     
+## Solutions
+
+* Provide incentives to teams to invest in modular code. Modular code is far more reusable. This could work well for large teams when working on modularized projects; team members can focus on their smaller assigned tasks.
     - Developers could get an opportunity to increase their influence in the organization.
     - Modular code makes the pathway to open source smoother.
     - Modular code is easier to work with, especially for larger teams.
@@ -42,18 +53,21 @@ Development does not want to spend the extra resources needed to develop modular
     - Introduce refactoring as organic effort and strive for it to become part of the culture. Refactoring leads to more modular code and reduction of technical debt.
 * Establish standards on testing methodology, labeling of repos.
 
-**Resulting Context:** 
+## Resulting Context
+
+Pattern Idea
+=======
 Time is spent making the shared code modular so it can be reused.  
 
-**Known Instances:** 
+## Known Instances
 Elements of the resolution have been proven by various companies.
 
-**Author:**  
+
+## Status
+
+Unproven
+
+## Author  
 Tim Yao, Nokia
 Erin Bank, CA Technologies
 Keerthi Surapaneni
-
-**Status:** 
-Pattern Idea
-
-

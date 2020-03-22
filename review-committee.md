@@ -2,18 +2,22 @@
 
 _Review Committee_ (aka _Cheese Interface_)
 
-## Context
+## Patlet
 
-Company A wants to introduce its first InnerSource initiative. Most managers in company A are not familiar with the Open Source working model and are instead accustomed to hierarchical, top-down control style management.
+_TBD_
 
 ## Problem
 
 Managers will perceive the InnerSource working model as a radical departure from the working models they are accustomed to and have experience with. As a consequence, it is likely that they will either reject or micro manage the InnerSource initiative in order to try to minimize the perceived risk of this change. In both cases, the benefits of InnerSource can not be realized. As a result, InnerSource is subsequently discredited.
 
+## Context
+
+Company A wants to introduce its first InnerSource initiative. Most managers in company A are not familiar with the Open Source working model and are instead accustomed to hierarchical, top-down control style management.
+
 ## Forces
 
- - The more perceived control a manager has over the work in the InnerSource initiative, the more likely it is that he will support the initiative without prior experience.
- - The less experience a manager has with the open source working model the more likely it is that he or she will want to control the risk of the initiative.
+ - The more perceived control a manager has over the work in the InnerSource initiative, the more likely it is that she or he will support the initiative without prior experience.
+ - The less experience a manager has with the open source working model the more likely it is that she or he will want to control the risk of the initiative.
  - The more heavy handed and micro managerial InnerSource initiatives are managed, the less likely it is that the open source working model can be adopted to the required extent. As a result, the benefits of InnerSource will not be realized.
 
 ## Solution
@@ -34,11 +38,13 @@ Managers will perceive the InnerSource working model as a radical departure from
 - Managers apply a tool they are comfortable with to InnerSource in order to get the required amount of information about and control over the inner workings of the InnerSource initiative. This familiarity will make it more likely for them to sign off on the InnerSource initiative and grant the required degree of freedom for InnerSource projects.
 - Developers can still self organize to a sufficient degree. Micro management does not happen because the review committee convenes rather infrequently.
 
-## Known instances
+## Known Instances
 
 BIOS at Robert Bosch GmbH
 
 ## Status
+
+Proven
 
 _Finalized and Reviewed_ as of 8/31/17.
 

@@ -13,7 +13,7 @@
 
 ## Discussion on
 * Comments may appear in the timeline but not with the file once it is edited (github)?
-* https://github.com/paypal/InnerSourcePatterns/pull/60
+* https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60
 * If only X knew what X knew; the internal search engine is bad. No one can find anything because it is difficult to add things  to the search index.
 * We have similar challenges getting data sources pulled into the search engine. PayPal is building a project called Agora to do this and they are planning to open source it.
 * Github Enterprise and npmjs have built-in searches on meta-data. Enterprise that opts into these tooling will get some of that functi
@@ -55,7 +55,7 @@ Make it easy to find the reusable code.
 * Developers are now looking internally for software components
 * Search results are combined (internal and external)
 * Process changes, establishing a common communications channel, and encouraging and rewarding owners of reusable code to use the same search engine can contribute to changing the corporate culture. Transformation begins from the grassroots but requires strategic involvement of thought leaders. 
-* See [Improved Findability](https://github.com/paypal/InnerSourcePatterns/blob/master/poor-naming-conventions.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
+* See [Improved Findability](improve-findability.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
 
 ## Status
 Brainstormed pattern idea in progress
