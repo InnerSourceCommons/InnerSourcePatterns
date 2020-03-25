@@ -40,11 +40,12 @@ possible to either deploy the same service in independent environments with sepa
 #### Pattern Ideas (not yet proven; brainstormed)
 
 * [Don't Bother Looking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60)
-* [Junkyard Styled Inner Sourcing](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/61)
+* [Junkyard Styled Inner Sourcing](junkyard-styled-innersourcing.md)
 * [Shared Code Repo Different from Build Repo](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Shared-Code-Repo-Different-from-Build-Repo) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [Incentive Alignment](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut:-Creating-Developer-Incentive-Alignment-for-InnerSource-Contribution)
 * [Change the Developers Mindset](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Pattern:-change-the-developers-mindset)
 * [Share Your Code to Get More Done - Likely Contributors Variant](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Pattern:-Share-Your-Code-to-Get-More-Done---Likely-Contributors-Variant)
+* [Introducing Metrics in InnerSource](introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
 
 #### Pattern Donuts (needing a solution)
 
@@ -76,7 +77,7 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 [See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
 
-We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). 
+We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls).
 
 We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
@@ -102,4 +103,3 @@ The topics below cover information about how we define, operate, and upkeep this
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
-
