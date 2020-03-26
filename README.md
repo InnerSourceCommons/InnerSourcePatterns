@@ -40,11 +40,12 @@ possible to either deploy the same service in independent environments with sepa
 #### Pattern Ideas (not yet proven; brainstormed)
 
 * [Don't Bother Looking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60)
-* [Junkyard Styled Inner Sourcing](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/61)
+* [Junkyard Styled Inner Sourcing](junkyard-styled-innersourcing.md)
 * [Shared Code Repo Different from Build Repo](shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [Incentive Alignment](developer-incentive-alignment-for-innersource-contribution.md)
 * [Change the Developers Mindset](change-the-developers-mindset.md)
 * [Share Your Code to Get More Done - Likely Contributors Variant](share-your-code-to-get-more-done.md)
+* [Introducing Metrics in InnerSource](introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
 
 #### Pattern Donuts (needing a solution)
 
@@ -87,6 +88,7 @@ The topics below cover information about how we define, operate, and upkeep this
 
 * [Pattern Template](meta/pattern-template.md) - Start a new pattern with a copy of this
 * [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
+* [Pattern System](pattern-system.md) (draft) For a human reader it is not easy to digest a long list of patterns. We are working on labeling and classifying the patterns further. See [Pattern System](pattern-system.md) for our current thoughts.
 * [Trusted Committers](meta/trusted-committers.md) - Who these people are, what elevated rights they get, and how you can become one
 * [Publishing](meta/publishing.md) - How we take completed, reviewed, proven patterns and publish them toward an online book
 * [Markdown Info](meta/markdown-info.md) - Markdown is the ascii text format our patterns are written in; this document briefly defines how we use it
