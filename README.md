@@ -13,7 +13,9 @@ You are already using InnerSource in your company and want to share your ideas a
 
 # Mission Statement
 
-We want to publish an ebook with InnerSource Patterns - a set of proven and reviewed solutions to InnerSource problems. 
+Our mission in this working group
+- Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
+- Continuously publish the most mature patterns as an ebook
  
 
 # List of Patterns
