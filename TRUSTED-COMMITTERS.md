@@ -25,10 +25,10 @@ We follow this process (adapted from [here](https://tech.europace.de/voting-in-n
 1. If none of the existing TCs disagrees with the nomination within 72h, [lazy consensus](https://tech.europace.de/lazy-consensus-vs-explicit-voting/) is reached: The nomination is accepted.
 1. The TC who nominated the candidate informs her/him in private about the nomination and its acceptance. The candidate can decide on whether to accept or reject the offer.
 1. If the candidate accepts the offer, the TC who nominated the candidate, makes sure:
-   * New TC is added to this file.
-   * New TC receives write access to this repository.
+   * New TC is added to this file
+   * New TC receives write access to this repository
    * New TC is added to the #innersource-patterns-tcs channel
-   * New TC is praised on the general InnerSource Commons [mailing list](innersource-commons@googlegroups.com)
+   * New TC is praised on the general InnerSource Commons [mailing list](mailto:innersource-commons@googlegroups.com)
 
 
 ## Admins
