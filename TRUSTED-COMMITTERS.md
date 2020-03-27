@@ -28,7 +28,7 @@ We follow this process (adapted from [here](https://tech.europace.de/voting-in-n
    * New TC is added to this file.
    * New TC receives write access to this repository.
    * New TC is added to the #innersource-patterns-tcs channel
-   * New TC is praised on the general InnerSource Commons [mailing list](innersource-commons@googlegroups.com)
+   * New TC is praised on the general InnerSource Commons [mailing list](mailto:innersource-commons@googlegroups.com)
 
 
 ## Admins
