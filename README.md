@@ -5,7 +5,6 @@ Below you find [what a pattern is][gh-what-are-patterns], a [list of known patte
 You are already using InnerSource in your company and want to share your ideas and experiences with the world? We would love to [welcome your contributions][gh-contribute]!
 
 [isc-website]: http://innersourcecommons.org
-[isc-getting-started]: http://innersourcecommons.org/getting-started/
 [gh-list-of-patterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns#list-of-patterns
 [gh-what-are-patterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns#what-are-inner-source-patterns
 [gh-how-to-use-patterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns#how-can-you-use-inner-source-patterns
