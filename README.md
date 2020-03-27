@@ -15,7 +15,6 @@ You are already using InnerSource in your company and want to share your ideas a
 
 We want to publish an ebook with InnerSource Patterns - a set of proven and reviewed solutions to InnerSource problems. 
  
-The ebook will be published on [innersourcecommons.org][isc-website]. (Disclaimer: We have not published one yet, but we will soon!)
 
 # List of Patterns
 
