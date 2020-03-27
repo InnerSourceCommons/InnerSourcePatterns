@@ -1,4 +1,4 @@
-This repository contains the InnerSource Patterns collected by [innersourcecommons.org][isc-website]. These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource methodologies][isc-getting-started]. 
+This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource][isc-getting-started]. 
 
 Below you find [what a pattern is][gh-what-are-patterns], a [list of known patterns][gh-list-of-patterns], and [how to use these patterns][gh-how-to-use-patterns] in your organization.
 
