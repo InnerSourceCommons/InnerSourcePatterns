@@ -17,7 +17,7 @@ The below lists all known patterns. They are grouped into four stages of maturit
 * [Review Committee](review-committee.md) - *A formal review committee is setup within an org to "officiate" particular inner source projects with resources, etc.*
 * [Service vs. library: It's inner source, not inner deployment](service-vs-library.md) - *Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's
 possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.*
-* [Trusted Committer](TRUSTED-COMMITTERS.md) - *Many inner-source projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
+* [Trusted Committer](project-roles/trusted-committer.md) - *Many inner-source projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
 
 #### Reviewed Pattern Ideas (not yet proven but reviewed)
 
@@ -89,7 +89,7 @@ The topics below cover information about how we define, operate, and upkeep this
 * [Pattern Template](meta/pattern-template.md) - Start a new pattern with a copy of this
 * [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
 * [Pattern System](pattern-system.md) (draft) For a human reader it is not easy to digest a long list of patterns. We are working on labeling and classifying the patterns further. See [Pattern System](pattern-system.md) for our current thoughts.
-* [Trusted Committers](meta/trusted-committers.md) - Who these people are, what elevated rights they get, and how you can become one
+* [Trusted Committers](TRUSTED-COMMITTERS.md) - Who these people are, what elevated rights they get, and how you can become one
 * [Publishing](meta/publishing.md) - How we take completed, reviewed, proven patterns and publish them toward an online book
 * [Markdown Info](meta/markdown-info.md) - Markdown is the ascii text format our patterns are written in; this document briefly defines how we use it
 * [Contributing](CONTRIBUTING.md) - How to interact with our group, create your own patterns, or take part in our review-process; Github / Web centric instructions
