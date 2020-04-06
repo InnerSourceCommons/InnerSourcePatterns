@@ -2,6 +2,10 @@
 
 Issue tracker use cases
 
+# Patlet
+
+The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implemenation discussion, and feature design.
+
 # Context
 
 The InnerSource project tooling is all setup. However the project issue tracker
@@ -79,6 +83,11 @@ development but also during the planning phase of new features:
   the ways of the project long before they have the first need to get involved.
 
 
+# Known Instances
 
+* Europace AG
 
+# Status
+
+Proven
 
