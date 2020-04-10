@@ -33,5 +33,3 @@ We follow this process (adapted from [here](https://tech.europace.de/voting-in-n
 
 ## Admins
 A handful of individuals are currently the technical GitHub Admins for this repository. This includes most members of the InnerSource Commons' #tech-infra team and members of the [InnerSource Commons GitHub Organization](https://github.com/innersourcecommons). However, please channel working group-specific requests through the trusted committers.
-
-## References
