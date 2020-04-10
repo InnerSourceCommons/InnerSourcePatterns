@@ -1,5 +1,21 @@
-This repository serves as the collection-point, ideation hub, and process behind the [InnerSource Commons'](http://innersourcecommons.org) InnerSource Patterns--a set of proven and reviewed solutions to InnerSource problems. These patterns illustrate beneficial activities and behaviors found in [organizations who apply InnerSource methodologies](http://innersourcecommons.org/getting-started/). See below the list for more on what a pattern is, how to use them in your organization, and how to get involved.
+This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them. 
 
+Below you find [what a pattern is][gh-what-are-patterns], a [list of known patterns][gh-list-of-patterns], and [how to use these patterns][gh-how-to-use-patterns] in your organization.
+
+You are already using InnerSource in your company and want to share your ideas and experiences with the world? We would love to [welcome your contributions][gh-contribute]!
+
+[isc-website]: http://innersourcecommons.org
+[gh-list-of-patterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns#list-of-patterns
+[gh-what-are-patterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns#what-are-inner-source-patterns
+[gh-how-to-use-patterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns#how-can-you-use-inner-source-patterns
+[gh-contribute]: https://github.com/InnerSourceCommons/InnerSourcePatterns#how-to-contribute
+
+# Mission Statement
+
+Our mission in this working group
+- Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
+- Continuously publish the most mature patterns as an ebook
+ 
 
 # List of Patterns
 
