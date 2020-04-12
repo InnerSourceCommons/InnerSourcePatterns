@@ -74,5 +74,10 @@ Schlomo Schapiro (DB Systel GmbH)
 
 Sebastian Spier
 
+## References
+
+* FOSSBack 2020 Presentation: [Cornelius Schumacher - Blending Open Source and Corporate Values](https://youtu.be/hikC6U8X_Ec) - watch 27:30 and onwards for details about the InnerSource License
+* [DB Inner Source License][db-inner-source-license]
+
 [db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
