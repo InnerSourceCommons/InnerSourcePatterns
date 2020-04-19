@@ -14,12 +14,12 @@ When two or more companies within a group want to share code with each other, th
 
 Barriers for sharing can lead to silos and duplication of effort in rebuilding similar solutions in multiple parts of the group.
 
-At the time of sharing the source code, it can not be reliably predicted what the value of sharing will be. Hence if the activity of sharing has any significant cost, the companies are unlikely to do it, as they are concerned about the return on investment.
+At the time of sharing the source code, it can not be reliably predicted what the value of sharing will be. If the activity of sharing requires significant effort (i.e. negotiating terms for the usage), the companies are less likely to do it, as they are concerned about the return on investment.
 
 ## Context
 
 - A large group with many companies (subsidiaries) that want to share code. When the group gets larger, the value of this pattern increases.
-- These companies are legally independent units.
+- These companies are legal entities with their own legal rights and obligations.
 - Multiple of these companies/subsidiaries are developing software, and are using services of the other companies. They have a motivation to contribute to each other’s source code.
 - Certain size of developers (crowdsourcing and ecosystem effects of InnerSource)
 
