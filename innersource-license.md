@@ -4,11 +4,13 @@ InnerSource License
 
 ## Patlet
 
-Two companies that belong to the same group want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting. An **InnerSource License** provides a reusable legal framework for the inter-company agreement within the group, which opens up new collaboration options.
+Two companies that belong to the same group want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting.
+
+An **InnerSource License** provides a reusable legal framework for the inter-company agreement within the group, which opens up new collaboration options, and makes the rights and obligations of the involved companies explicit.
 
 ## Problem
 
-When two companies within a group want to share code with each other, they need an agreement about the terms and often a legal contract. Creating such agreements on a per project basis takes effort and creates a barrier for sharing. i.e. a team/company might decide not to share their source code with another company in the group because it seems complicated.
+When two or more companies within a group want to share code with each other, they need an agreement about the terms and often a legal contract. Creating such agreements on a per project basis takes effort and creates a barrier for sharing. i.e. a team/company might decide not to share their source code with another company in the group because it seems complicated.
 
 Barriers for sharing can lead to silos and duplication of effort in rebuilding similar solutions in multiple parts of the group.
 
@@ -16,7 +18,7 @@ At the time of sharing the source code, it can not be reliably predicted what th
 
 ## Context
 
-- A large group with many companies (subsidiaries) that want to share code. (when the group gets larger, the value of this pattern increases)
+- A large group with many companies (subsidiaries) that want to share code. When the group gets larger, the value of this pattern increases.
 - These companies are legally independent units.
 - Multiple of these companies/subsidiaries are developing software, and are using services of the other companies. They have a motivation to contribute to each other’s source code.
 - Certain size of developers (crowdsourcing and ecosystem effects of InnerSource)
