@@ -21,7 +21,7 @@ At the time of sharing the source code, it can not be reliably predicted what th
 - A large group with many companies (subsidiaries) that want to share code. When the group gets larger, the value of this pattern increases.
 - These companies are legal entities with their own legal rights and obligations.
 - Multiple of these companies/subsidiaries are developing software, and are using services of the other companies. They have a motivation to contribute to each other’s source code.
-- Certain size of developers (crowdsourcing and ecosystem effects of InnerSource)
+- A sufficient complexity of the organization and its organizational structure
 
 ## Forces
 
