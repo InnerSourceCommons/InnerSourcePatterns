@@ -1,6 +1,6 @@
 # Contributing to the InnerSource Patterns
 
-The goal of the InnerSource patterns working group is to collect, document, and publish InnerSource best practices. To make the best practices easy to comprehend, evaluate, and apply, we codify them in a specific structure - [the patterns format](). More infos on the working group can be found in our [README.md](https://github.com/InnerSourceCommons/InnerSourcePatterns) file.
+The goal of the InnerSource patterns working group is to collect, document, and publish InnerSource best practices. To make the best practices easy to comprehend, evaluate, and apply, we codify them in a specific structure - [the patterns format](meta/pattern-template.md). More infos on the working group can be found in our [README.md](README.md) file.
 
 For this working group to strive, we welcome your contribution - be it small or huge. 
 
@@ -13,7 +13,7 @@ Please consider contributing in the following ways:
 
 2. **Review & discuss open pull requests.** Even without knowing all the specifics of the patterns working group, your feedback on existing [pull requests](https://github.com/InnerSourceCommons/InnerSourcePatterns/labels/type%20-%20Content%20work) (especially those propising changes to pattern contents) will be valuable to its authors: As somebody who wants to learn more about InnerSource, you can give input from the perspective of a future reader. As somebody with own InnerSource experiences, you can share your experience with the authors.
 
-3. **Contribute a new pattern.** A key contribution you can make is to document an InnerSource best practice you experienced or know about. We defined different quality levels for the contents in this repository: First time contributors should aim for quality levels `1: initial` (for unstructured experience reports or what we call donuts - patterns with missing pieces) and `2: structured` (for best practices adhering with the patterns format and following basic writing style conventions). Our [Contributor Handbook](#) discusses the quality levels in more detail and explains how you can contribute your first pattern.
+3. **Contribute a new pattern.** A key contribution you can make is to document an InnerSource best practice you experienced or know about. We defined different quality levels for the contents in this repository: First time contributors should aim for quality levels `1: initial` (for unstructured experience reports or what we call donuts - patterns with missing pieces) and `2: structured` (for best practices adhering with the patterns format and following basic writing style conventions). Our [Contributor Handbook](meta/contributor-handbook.md) discusses the quality levels in more detail and explains how you can contribute your first pattern.
 
 4. **Be a patterns advocate.** The patterns will become better and cover more topics the more people contribute their perspective and experience. A colleague told you about a novel InnerSource best practice? Please invite her/him to contribute to this repository!
 
@@ -22,9 +22,9 @@ Please consider contributing in the following ways:
 
 We are happy to support you in contributing to the InnerSource patterns. You can reach out to us in the following ways:
 
-1. *Via Slack.* Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
+1. **Via Slack.** Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
 
-2. *During the patterns office hours.* We established a regular cadence of office hours for you to ask questions. You can find out about the next patterns hoffice hours in the calendar at the bottom of [this page](https://innersourcecommons.org/resources/).
+2. **During the patterns office hours.** We established a regular cadence of office hours for you to ask questions. You can find out about the next patterns hoffice hours in the calendar at the bottom of [this page](https://innersourcecommons.org/resources/).
 
 
 ## License of Contributions
