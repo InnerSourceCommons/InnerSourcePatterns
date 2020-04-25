@@ -1,4 +1,4 @@
-This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them. 
+This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them.
 
 Below you find [what a pattern is][gh-what-are-patterns], a [list of known patterns][gh-list-of-patterns], and [how to use these patterns][gh-how-to-use-patterns] in your organization.
 
@@ -15,7 +15,7 @@ You are already using InnerSource in your company and want to share your ideas a
 Our mission in this working group
 - Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
 - Continuously publish the most mature patterns as an ebook
- 
+
 
 # List of Patterns
 
@@ -91,26 +91,12 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 # How to Contribute?
 
-[See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
+See our [CONTRIBUTING.md](CONTRIBUTING.md) for details on getting involved. To learn how we define, operate, and upkeep this collection of patterns, take a look at [Pattern Meta Info][./meta].
 
-We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls).
+We encourage beginners seeking answers to jump in by creating **donuts** (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls).
 
 We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
 
-
-# Pattern Meta Info
-
-The topics below cover information about how we define, operate, and upkeep this collection of patterns.
-
-* [Pattern Template](meta/pattern-template.md) - Start a new pattern with a copy of this
-* [Pattern States](meta/pattern-states.md) - Definitions of the various states and review steps a pattern can be in
-* [Pattern System](pattern-system.md) (draft) For a human reader it is not easy to digest a long list of patterns. We are working on labeling and classifying the patterns further. See [Pattern System](pattern-system.md) for our current thoughts.
-* [Trusted Committers](TRUSTED-COMMITTERS.md) - Who these people are, what elevated rights they get, and how you can become one
-* [Publishing](meta/publishing.md) - How we take completed, reviewed, proven patterns and publish them toward an online book
-* [Markdown Info](meta/markdown-info.md) - Markdown is the ascii text format our patterns are written in; this document briefly defines how we use it
-* [Contributing](CONTRIBUTING.md) - How to interact with our group, create your own patterns, or take part in our review-process; Github / Web centric instructions
-  * [Alternate Command-line steps](meta/technical-git-howto.md) - If you want to contribute a pattern using `git` from the command-line, this is your document
-  * [Meetings](meta/meetings.md) - Become involved with the people and communications of the Inner Source Patterns group
 
 # Related References
 
