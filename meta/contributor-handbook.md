@@ -48,6 +48,7 @@ Patterns of level 2 are stored in the directory `/2-structured`.
 	- N/A
 	
 - Content requirements:
+	- Complies with the [patterns format](pattern-template.md)
 	- Complies with [basic style guide](#) - *Oops! We have not yet developed this*
 	
 	
