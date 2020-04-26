@@ -17,7 +17,7 @@ We defined four maturity levels for patterns: The higher a pattern's maturity le
 
 For the first pattern you contribute, you should aim for maturity levels `1: initial` or `2: structured`. 
 
-If you want to help promoting a pattern one maturity level up, we suggest to first `create an issue` to discuss the matter and see if someone else is working on that already. After that, you can create a pull request with the necessary changes.
+If you want to help promoting a pattern one maturity level up, we suggest to first create an issue to discuss the matter and see if someone else is working on that already. After that, you can create a pull request with the necessary changes.
 
 To achieve a given maturity level a pattern has to satisfy the requirements for that given maturity level and lower levels. The following sections lay out the requirements per maturity level in detail.
 
