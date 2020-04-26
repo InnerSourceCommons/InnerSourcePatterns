@@ -33,7 +33,7 @@ Patterns (or other documents) of level 1 are stored in the directory `/1-initial
 	
 - Content requirements:
 	- The document is readible & comprehensible for other's than the author(s)
-	- The author(s) contribute the contents according to the [license](../LICENSE.md) & are allowed to do so
+	- The author(s) contribute the contents according to the [license](../LICENSE.txt) & are allowed to do so
 	- Thoughts and contents by third parties are quoted / referenced explicitly
 
 	
