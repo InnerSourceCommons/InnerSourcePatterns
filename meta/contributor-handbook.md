@@ -13,7 +13,7 @@ We defined four maturity levels for patterns: The higher a pattern's maturity le
 | 1 | Initial | Contains an initial pattern idea or what we call a donut (a pattern with missing sections). | Not included in any publications | A few days / weeks |
 | 2 | Structured | Contains a complete pattern that it is not properly validated yet (e.g. because it only synthesizes an idea or the experiences from one instead of three organizations). | Included in the patterns catalogue but with a warning | A few days / weeks |
 | 3 | Validated | The pattern is validated (e.g. because three or more instances exists and are synthesized by the pattern) and its writing is of high quality. | Included in the patterns catalogue | One or two months |
-| 4 | Holy | The pattern is validated, its writing is of "text book" quality, and the community agrees it is responsible to use it as teaching material. | Included in the patterns catalogue and patterns book | As long as it takes |
+| 4 | Established | The pattern is validated, its writing is of "text book" quality, and the community agrees it is responsible to use it as teaching material. | Included in the patterns catalogue and patterns book | As long as it takes |
 
 For the first pattern you contribute, you should aim for maturity levels `1: initial` or `2: structured`. 
 
@@ -74,9 +74,9 @@ Patterns of level 3 are stored in the directory `/3-agreed`.
 	- Thorough review by at least two trusted committers
 	
 	
-### Requirements: Level 4 - Polished
+### Requirements: Level 4 - Established
 
-Patterns of level 4 are stored in the directory `/4-polished`.
+Patterns of level 4 are stored in the directory `/4-established`.
 
 - Document types:
 	- Patterns (`pattern-*.md`)
