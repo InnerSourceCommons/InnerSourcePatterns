@@ -91,7 +91,7 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 # How to Contribute?
 
-See our [CONTRIBUTING.md](CONTRIBUTING.md) for details on getting involved. To learn how we define, operate, and upkeep this collection of patterns, take a look at [Pattern Meta Info][./meta].
+See our [CONTRIBUTING.md](CONTRIBUTING.md) for details on getting involved. To learn how we define, operate, and upkeep this collection of patterns, take a look at [Pattern Meta Info](./meta).
 
 We encourage beginners seeking answers to jump in by creating **donuts** (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls).
 
