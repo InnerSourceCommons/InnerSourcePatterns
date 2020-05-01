@@ -30,6 +30,8 @@ At the time of sharing the source code, it can not be reliably predicted what th
 - If any of the companies in the group has a **business model** that depends on proprietary code and accounting of licensing fees within the group
 - **Company culture** that isn’t used to InnerSource collaboration and sharing code. This results in uncertainty about the rights and obligations when using shared code.
 - Freedom over using the software leads to competition, and spread of ownership
+- There are legal contracts in place which cover the sharing of source code. These contracts are not standardized, so they create additional effort in negotiating and understanding for every project. The existing contracts may also not allow sharing source code in an open enough sense to support a true InnerSource approach.
+- Alternatively, there are no legal contracts in place but source code is shared informally. That might create uncertainty in cases where clarity about ownership and rights and obligations is needed.
 
 ## Solutions
 
