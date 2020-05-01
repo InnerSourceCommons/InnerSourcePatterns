@@ -26,7 +26,7 @@ At the time of sharing the source code, it can not be reliably predicted what th
 ## Forces
 
 - **Level of effort** required to write formal agreements, especially if they need to take into account technical, legal, and business perspectives.
-- Enterprises have many **internal regulations,** any agreements have to comply with these regulations, e.g. security, privacy, procurement processes, etc. The volume of regulations can make it difficult to assess whether sharing software between two companies is compliant with these regulations, especially when there is no standard procedure.
+- Large groups of companies (enterprises) have many **internal regulations**, any agreements have to comply with these regulations, e.g. security, privacy, procurement processes, etc. The volume of regulations can make it difficult to assess whether sharing software between two companies is compliant with these regulations, especially when there is no standard procedure.
 - If any of the companies in the group has a **business model** that depends on proprietary code and accounting of licensing fees within the group
 - **Company culture** that isn’t used to InnerSource collaboration and sharing code. This results in uncertainty about the rights and obligations when using shared code.
 - Freedom over using the software leads to competition, and spread of ownership
