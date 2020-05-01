@@ -43,6 +43,10 @@ The License is written as a formal legal document, and can be used as part of co
 
 With the InnerSource License, we have a tool to share code between companies within our group.
 
+The license simplifies the conversations within our group about sharing source code, and is motivating the first companies to do so.
+
+**Note:** The experiment described in **Known Instances** is in an early phase. Therefore a firm **Resulting Context** has not formed yet. In a couple of months the effects of the InnerSource License on this problem space will be more clear, and this section can be updated.
+
 ## Known Instances
 
 DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open-source-like starting point, and then worked out the constraints and additional rules required in their specific company context.
