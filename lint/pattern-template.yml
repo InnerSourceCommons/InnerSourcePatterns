@@ -1,0 +1,6 @@
+default: false # includes/excludes all rules by default
+
+# Custom rules:
+PATTERN-TEMPLATE-RULE-001: true
+PATTERN-TEMPLATE-RULE-002: true
+PATTERN-TEMPLATE-RULE-003: true
