@@ -12,6 +12,6 @@ jobs:
     - name: Lint pattern files (markdown)
       uses: avto-dev/markdown-lint@v1
       with:
-        rules: '/lint/pattern-template.js'
-        config: '/lint/pattern-template.yml'
+        rules: './lint/pattern-template.js'
+        config: './lint/pattern-template.yml'
         args: './defeat-hierarchical-constraints.md'
