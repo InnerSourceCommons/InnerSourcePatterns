@@ -49,7 +49,7 @@ module.exports = [
     }
 },
 {
-    names: ["PATTERN-TEMPLATE-RULE-004"],
+    names: ["PATTERN-TEMPLATE-RULE-003"],
     description: "Mandatory template headlines/sections",
     tags: ["headings", "headers", "pattern-template"],
     function: (params, onError) => {
