@@ -15,7 +15,7 @@ jobs:
         rules: './lint/pattern-template.js'
         config: './lint/pattern-template.yml'
         # ignore-path: './lint/.markdownlintignore'
-        ignore: "[A-Z]*.md"
+        ignore: "+(README|CONTRIBUTING|TRUSTED-COMMITTERS).md"
         args: './*.md'
         # args: './discover-your-innersource.md'
     # - name: Problem Matcher for markdownlint-cli
