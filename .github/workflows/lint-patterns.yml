@@ -14,5 +14,5 @@ jobs:
       with:
         rules: './lint/pattern-template.js'
         config: './lint/pattern-template.yml'
-        ignore : 'README.md TRUSTED-COMMITTERS.md CONTRIBUTING.md'
+        ignore-path : './lint/.markdownlintignore'
         args: './*.md'
