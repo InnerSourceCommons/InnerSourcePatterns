@@ -2,17 +2,27 @@
 
 name: Validate pattern syntax
 
+# on: [push, pull_request]
+# jobs:
+#   validate-pattern-syntax:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Check out code
+#       uses: actions/checkout@v2
+#     - name: Lint pattern files (markdown)
+#       uses: avto-dev/markdown-lint@v1
+#       with:
+#         rules: './lint/pattern-template.js'
+#         config: './lint/pattern-template.yml'
+#         ignore-path : './lint/.markdownlintignore'
+#         args: './*.md'
+
+
 on: [push, pull_request]
 jobs:
-  validate-pattern-syntax:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-    - name: Lint pattern files (markdown)
-      uses: avto-dev/markdown-lint@v1
-      with:
-        rules: './lint/pattern-template.js'
-        config: './lint/pattern-template.yml'
-        ignore-path : './lint/.markdownlintignore'
-        args: './*.md'
+      - uses: actions/checkout@v2
+      - uses: xt0rted/markdownlint-problem-matcher@v1
+      - run: markdownlint -r ./lint/pattern-template.js -c ./lint/pattern-template.yml --ignore-path ./lint/.markdownlintignore discover-your-innersource.md
