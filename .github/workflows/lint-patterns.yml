@@ -14,4 +14,7 @@ jobs:
       with:
         rules: './lint/pattern-template.js'
         config: './lint/pattern-template.yml'
-        args: '-i README.md -i TRUSTED-COMMITTERS.md -i CONTRIBUTING.md *.md'
+        ignore : './README.md'
+        ignore : './TRUSTED-COMMITTERS.md'
+        ignore : './CONTRIBUTING.md'
+        args: './*.md'
