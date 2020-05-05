@@ -50,10 +50,10 @@ module.exports = [
 },
 {
     names: ["PATTERN-TEMPLATE-RULE-003"],
-    description: "Mandatory template headlines/sections",
+    description: "Mandatory template sections",
     tags: ["headings", "headers", "pattern-template"],
     function: (params, onError) => {
-        let headers_count = [];
+        var headers_count = [];
 
         var mandatoryHeadlines = "Title|Patlet|Problem|Context|Forces|Solutions|Resulting Context|Status|Author(s)".split("|");
 
@@ -66,42 +66,37 @@ module.exports = [
             return token.type === "heading_open";
         }).forEach(function forToken(token) {
             if (token.tag === "h2") {
-                let re = new RegExp("^## (.*?)$","m");
+                let re = new RegExp("^## (.*?)\\s*$","m");
                 let matchResult = token.line.match(re);
 
                 if (matchResult != null) {
                   headers_count[matchResult[1]] += 1;
                 }
-
-                // if (matchResult != null && headers_count[matchResult[1]] >= 2) {
-                //     return onError({
-                //         lineNumber: token.lineNumber,
-                //         detail: "Remove duplicated header",
-                //         context: token.line
-                //     });
-                // }
             }
         });
 
         // console.log(headers_count);
 
+        // collect all errors that exist
+        var errorsFound = [];
+
         mandatoryHeadlines.forEach((headline) => {
           if (headers_count[headline] == 0 ) {
             // console.log("ERROR: Missing headline: " + headline);
-            return onError({
-                lineNumber: 1,
-                detail: "Required headline/section is missing",
-                context: headline
-            });
+            errorsFound.push(`Required headline "${headline}" is missing.`);
           }
           if (headers_count[headline] >= 2 ) {
-            return onError({
-                lineNumber: 1,
-                detail: "Duplicate headline/section",
-                context: headline
-            });
+            errorsFound.push(`Duplicate headline "${headline}".`);
           }
         });
+
+        // if any errors were found, raise a linter error
+        if (errorsFound.length > 0) {
+          return onError({
+              lineNumber: 1,
+              detail: errorsFound.join(" ")
+          });
+        }
     }
 }
 ];

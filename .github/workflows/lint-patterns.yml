@@ -1,10 +1,10 @@
 # from: https://github.com/marketplace/actions/markdown-linting-action
 
-name: Lint pattern files (markdown)
+name: Validate pattern syntax
 
 on: [push, pull_request]
 jobs:
-  lint-patterns:
+  validate-pattern-syntax:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
