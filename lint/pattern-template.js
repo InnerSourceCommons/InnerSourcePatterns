@@ -53,15 +53,24 @@ module.exports = [
     description: "Mandatory template sections",
     tags: ["headings", "headers", "pattern-template"],
     function: (params, onError) => {
-        var headers_count = [];
+        var mandatoryHeadlines = {
+          "Title": "Title",
+          "Patlet": "Patlet",
+          "Problem": "Problem",
+          "Context": "Context",
+          "Forces": "Forces",
+          "Solutions": "Solutions?",
+          "Resulting Context": "Resulting Context",
+          "Status": "Status",
+          "Author(s)": "(Author\\(s\\))|(Authors?)"
+        };
 
-        var mandatoryHeadlines = "Title|Patlet|Problem|Context|Forces|Solutions|Resulting Context|Status|Author(s)".split("|");
+        // console.log(mandatoryHeadlines);
 
-        mandatoryHeadlines.forEach((headline) => {
-          headers_count[headline] = 0
-        });
+        var collectedHeadlines = ""
 
-        // count the occurance of all headlines
+        // collect all h2 headlines
+        // (only the headline text itself, removing markdown sytnax and whitespace)
         params.tokens.filter(function filterToken(token) {
             return token.type === "heading_open";
         }).forEach(function forToken(token) {
@@ -70,25 +79,31 @@ module.exports = [
                 let matchResult = token.line.match(re);
 
                 if (matchResult != null) {
-                  headers_count[matchResult[1]] += 1;
+                  collectedHeadlines += matchResult[1] + "\n"
                 }
             }
         });
 
-        // console.log(headers_count);
-
-        // collect all errors that exist
+        // confirm if all `mandatoryHeadlines` exist exactly once in the `collectedHeadlines`
         var errorsFound = [];
 
-        mandatoryHeadlines.forEach((headline) => {
-          if (headers_count[headline] == 0 ) {
-            // console.log("ERROR: Missing headline: " + headline);
+        let headline;
+        for (headline in mandatoryHeadlines){
+          // console.log(headline);
+          let pattern = mandatoryHeadlines[headline];
+          let re = new RegExp(`^${pattern}$`,"gm");
+          let matchResult = collectedHeadlines.match(re);
+
+          // TODO as soon as I use the option 'g' in the regexp, it does not return a full match array anymore
+          if (matchResult != null) {
+              if (matchResult.length >= 2 ) {
+                errorsFound.push(`Duplicate headline "${headline}".`);
+              }
+          }
+          else {
             errorsFound.push(`Required headline "${headline}" is missing.`);
           }
-          if (headers_count[headline] >= 2 ) {
-            errorsFound.push(`Duplicate headline "${headline}".`);
-          }
-        });
+        }
 
         // if any errors were found, raise a linter error
         if (errorsFound.length > 0) {

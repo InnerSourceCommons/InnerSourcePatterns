@@ -14,4 +14,4 @@ jobs:
       with:
         rules: './lint/pattern-template.js'
         config: './lint/pattern-template.yml'
-        args: './defeat-hierarchical-constraints.md'
+        args: '-i README.md -i TRUSTED-COMMITTERS.md -i CONTRIBUTING.md *.md'
