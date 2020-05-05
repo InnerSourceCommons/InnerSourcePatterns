@@ -15,10 +15,11 @@ jobs:
         rules: './lint/pattern-template.js'
         config: './lint/pattern-template.yml'
         # ignore-path: './lint/.markdownlintignore'
-        # args: './*.md'
-        args: './discover-your-innersource.md'
-    - name: Problem Matcher for markdownlint-cli
-      uses: xt0rted/markdownlint-problem-matcher@v1.0.0
+        ignore: "[A-Z]*.md"
+        args: './*.md'
+        # args: './discover-your-innersource.md'
+    # - name: Problem Matcher for markdownlint-cli
+    #   uses: xt0rted/markdownlint-problem-matcher@v1.0.0
 
 # on: [push, pull_request]
 # jobs:
