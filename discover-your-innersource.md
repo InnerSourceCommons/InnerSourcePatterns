@@ -1,5 +1,5 @@
 ## Title
-* Discover Your InnerSource
+Discover Your InnerSource
 
 ## Also Known As
 * Not looking for stuff internally
@@ -18,8 +18,8 @@
 * We have similar challenges getting data sources pulled into the search engine. PayPal is building a project called Agora to do this and they are planning to open source it.
 * Github Enterprise and npmjs have built-in searches on meta-data. Enterprise that opts into these tooling will get some of that functi
 * Software component(s) are available internally but users can't easily find these.
-* This problem is more likely to occur where there are silos in the company (e.g., larger companies; smaller companies may have fewer opportunities for reuse of internally developed software). 
-* The company traditionally has been bad at sharing across silos (people don't have the culture of sharing). 
+* This problem is more likely to occur where there are silos in the company (e.g., larger companies; smaller companies may have fewer opportunities for reuse of internally developed software).
+* The company traditionally has been bad at sharing across silos (people don't have the culture of sharing).
 
 ## Problem
 People don't bother looking for internally developed solutions - they might not find the repo at all or be aware of its existence.
@@ -54,7 +54,7 @@ Make it easy to find the reusable code.
 * Developers looking for code can search for it and find it quickly.
 * Developers are now looking internally for software components
 * Search results are combined (internal and external)
-* Process changes, establishing a common communications channel, and encouraging and rewarding owners of reusable code to use the same search engine can contribute to changing the corporate culture. Transformation begins from the grassroots but requires strategic involvement of thought leaders. 
+* Process changes, establishing a common communications channel, and encouraging and rewarding owners of reusable code to use the same search engine can contribute to changing the corporate culture. Transformation begins from the grassroots but requires strategic involvement of thought leaders.
 * See [Improved Findability](improve-findability.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
 
 ## Status
