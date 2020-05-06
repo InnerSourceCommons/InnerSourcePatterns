@@ -1,18 +1,18 @@
-# Title
+## Title
 
 30 Day Warranty
 
-# Context
+## Context
 
 Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team. The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component.
 
 - TBD: link to pattern "setting clear expectations for contributing code"
 
-# Problem
+## Problem
 
 A team develops a component which is used throughout an organization.  This team resists accepting or outright rejects contributions (feature requests).  This behavior blocks progress and leads to frequent disruption from escalations.
 
-# Forces
+## Forces
 
 - There is distrust of contributions due to a past history of cheating: teams
   submitted half finished contributions and subsequently filed requests for
@@ -38,7 +38,7 @@ A team develops a component which is used throughout an organization.  This team
   they are mitigated in a contribution; the system itself is somewhat brittle
   (may not be ways to fully test and catch all problems).
 
-# Solution
+## Solution
 
 Address the fears of both the receiving and the contributing teams by establishing a 30 day period starting with the time the contributed code goes into production, during which the contributing team consents to provide bug fixes to the receiving team.
 
@@ -48,35 +48,35 @@ Note that the warranty period could be 45, 60, or 100 days too. The duration may
 
 <img alt="30 Day Warranty" src="/assets/img/thirtydaywarranty.jpg" width="70%">
 
-# Resulting Context
+## Resulting Context
 
 - The receiving team is willing to accept contributions and able to share the
   workload of initial adaptations/fixes.
 - Increased transparency and fairness.
 - Keeps escalations from becoming too heavyweight.
 
-# Known Instances
+## Known Instances
 
 This was tried and proven successful at PayPal.
 
-# Authors
+## Authors
 
 - Cedric Williams
 
-# Acknowledgement
+## Acknowledgement
 
 - Dirk-Willem van Gulik
 - Padma Sudarsan
 - Klaas-Jan Stol
 - Georg Grütter
 
-# Status
+## Status
 
 Proven
 
 Drafted at the 2017 Spring InnerSource Summit; reviewed 18 July 2017.
 
-# Variants
+## Variants
 
 - Ensure cooperation of dependent teams by making them a community by having
   more than one, meritocratically appointed "[Trusted Committers](project-roles/trusted-committer.md)" (TCs) take responsibility.
