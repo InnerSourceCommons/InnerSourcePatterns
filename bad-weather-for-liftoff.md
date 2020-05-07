@@ -44,9 +44,3 @@ Donut
 ## Author(s)  
 
 * Georg Grütter, Wyane DuPont, Michael Dorner
-
-## See Also
-
-This pattern was originally created in this wiki and then ported here.
-Original wiki page:
-https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut:-Bad-weather-for-liftoff
