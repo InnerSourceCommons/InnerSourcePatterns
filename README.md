@@ -28,6 +28,7 @@ The below lists all known patterns. They are grouped into four stages of maturit
 * [Contracted Contributor](contracted-contributor.md) - *Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.*
 * [Dedicated Community Leader](dedicated-community-leader.md) - *Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative.*
 * [Gig Marketplace](gig-marketplace.md) - *Establish a marketplace by creating an intranet website that lists specific InnerSource project needs as "Gigs" with explicit time and skill requirements. This will enable managers to better understand their employee’s time commitment and professional benefits thereby increasing the likelihood of garnering approval to make InnerSource contributions.*
+* [InnerSource License](innersource-license.md) - *Two legal entities that belong to the same organization want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting. An **InnerSource License** provides a reusable legal framework for the sharing of source code within the organization. This opens up new collaboration options, and makes the rights and obligations of the involved legal entities explicit.*
 * [InnerSource Portal](innersource-portal.md) - *Create an intranet website that indexes all available InnerSource project information. This will enable potential contributors to more easily learn about projects that might interest them and for InnerSource project owners to attract an outside audience.*
 * [Praise Participants](praise-participants.md) - *Thank contributors effectively to engender further engagement from them and to encourage others to contribute*
 * [Review Committee](review-committee.md) - *A formal review committee is setup within an org to "officiate" particular inner source projects with resources, etc.*
@@ -55,7 +56,7 @@ possible to either deploy the same service in independent environments with sepa
 
 #### Pattern Ideas (not yet proven; brainstormed)
 
-* [Don't Bother Looking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60)
+* [Discover Your InnerSource](discover-your-innersource.md)
 * [Junkyard Styled Inner Sourcing](junkyard-styled-innersourcing.md)
 * [Shared Code Repo Different from Build Repo](shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [Incentive Alignment](developer-incentive-alignment-for-innersource-contribution.md)

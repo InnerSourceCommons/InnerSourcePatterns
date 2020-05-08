@@ -58,7 +58,3 @@ Old status: Pattern Idea
 ## See Also
 
 This pattern has been moved for discussion at https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/39
-
-This pattern was originally created in this wiki and then ported here.
-Original wiki page:
-https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Pattern:-change-the-developers-mindset
