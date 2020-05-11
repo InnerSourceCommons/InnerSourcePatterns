@@ -21,7 +21,7 @@ Change the developers mindset
 * Managers are previous developers, so they like the way they were promoted and they want to proceed in similar ways.
 * Managers restrict what developers can spend time on, perhaps because of KPIs they have to meet and their belief in the best way to meet those.
 * The approach to the InnerSource initiative is top down--it is supported by top management.
-* Different teams within the company decide whether to proceed with InnerSource.
+* Different teams within the company decide whether and how to proceed with InnerSource.
 * No formal training exists.
 * Processes are not clearly defined.
 
@@ -47,3 +47,10 @@ Change the developers mindset
 ## Status  
 Pattern Idea
 
+Unproven
+
+Old status: Pattern Idea
+
+## See Also
+
+This pattern has been moved for discussion at https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/39
