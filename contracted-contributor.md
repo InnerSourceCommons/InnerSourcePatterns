@@ -62,7 +62,7 @@ hours, not during free time.
   which does not benefit his day-to-day work, the more will the workload for
   his teammates in his business unit increase.
 - Individual contributors will likely consider participating in InnerSource
-  as an opportunity to enhance their professional netowrk within the company
+  as an opportunity to enhance their professional network within the company
   and to gain knowledege and experience in the technical area of her
   contributions.
 
@@ -113,7 +113,7 @@ A formal contracting is also beneficial for contributors and communities:
 - With a stable group of contributors, it is more likely that some of them will
   eventually achieve [Trusted Committer](project-roles/trusted-committer.md) status.
 - A formal contracting provides a basis for resolving conflict related to
-  participation in InnerSource activities. Note that mediate will likely be
+  participation in InnerSource activities. Note that mediation will likely be
   successful only for a few companies with a culture condusive to that.
 
 ## Known Instances
