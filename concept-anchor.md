@@ -30,7 +30,7 @@ While the corporation's strategy may involve colocating employees who collaborat
 * *Quality Focus* this is a major point for IS. Because of the expected submission by a variety of teams and individuals, extra care is taken to make sure that the submitted code is screened to be production quality. Comprehensive documentation for submitters, test coverage, CI/CD, static code analysis and other techniques are often used to screen code from strangers in the open source world, these techniques have great benefits for internal teams.
 
 ##### [SCRUM](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)
-To shorten the example and make it more concrete for SCRUM, a popular agile methodology, one could cite the following scenario:
+To shorten the example and make it more concrete for SCRUM, a popular Agile methodology, one could cite the following scenario:
 Team A depends on Team B's code. Team A has a pressing priority for delivery, Team B has their own priorities, none of which is Team A, what to do? Using InnerSource, Team A can put the required code changes in to their own backlog and submit it to Team B, essentially removing block making things more "Agile".
 
 ### DevOps
@@ -38,7 +38,7 @@ There is no fixed definition of DevOps but much of it is focused around integrat
 
 One major concept with DevOps is not to fear change, to be able to remove the risks so that experiments on the system can be comfortably performed.
 
-InnerSource helps in this process by its emphasis on a CI/CD workflow as well as a culture to automate much of the risk management and checks as possible. The more contributors there are, the more eyeballs there are. The more eye balls there are, the more diverse perspectives there are on managing risk. These diverse perspectives help the operations team design for the lowest (and broadest?) common denominator thus improving the overall quality and experience for all.
+InnerSource helps in this process by its emphasis on a CI/CD workflow as well as a culture to automate much of the risk management and checks as possible. The more contributors there are, the more eyeballs there are. The more eye balls there are, the more diverse perspectives there are on managing risk. These diverse perspectives help the operations team design for the lowest and broadest common denominator thus improving the overall quality and experience for all.
 
 ## Resulting Context
 **TBD**
