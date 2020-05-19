@@ -54,6 +54,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Overcoming Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
 * [Start as Experiment](start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
 * [Include Product Owners](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
+* [Provide standard base documentation through a README](project-setup/base-documentation.md)
 
 ### Pattern Ideas (not yet proven; brainstormed)
 

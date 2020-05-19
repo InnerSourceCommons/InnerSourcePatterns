@@ -1,17 +1,16 @@
-# Title
+## Title
 
 Provide standard base documentation through a README
 
-# Context
+## PatLet
 
-A project is to be shared with others as an InnerSource project. In order for
-others to be able to understand what the project is about as well as how to
-contribute, the project needs to provide some base level documentation. So far
-the project is lacking either all documentation or some aspects needed for users
-to try it out in a self-service manner as well as for contributors to get up to
-speed quickly.
+New contributors to an InnerSource project have a hard time figuring out who
+maintains the project, what to work on, and how to contribute. Providing
+documentation in standard files like README.md/CONTRIBUTING.md enables a
+self service process for new contributors, so that they can find the answers to
+the most common questions on their own.
 
-# Problem
+## Problem
 
 A team wants to share either a freshly started or a pre-existing project with
 the wider organization and receive contributions to it. Potential contributors
@@ -20,7 +19,16 @@ channels. They have trouble quickly making a judgment about whether a new
 feature makes sense to be added or not. They have a hard time understanding
 exactly which colleagues are currently actively maintaining the project.
 
-# Forces
+## Context
+
+A project is to be shared with others as an InnerSource project. In order for
+others to be able to understand what the project is about as well as how to
+contribute, the project needs to provide some base level documentation. So far
+the project is lacking either all documentation or some aspects needed for users
+to try it out in a self-service manner as well as for contributors to get up to
+speed quickly.
+
+## Forces
 
 - The project was converted into an InnerSource project only recently. Before,
   users were either only internal or on-boarded in personal face-to-face
@@ -57,7 +65,7 @@ exactly which colleagues are currently actively maintaining the project.
 - Frequent escalations due to extra work and delays due to re-writes lead to a
   big cheese situation.
 
-# Solution
+## Solution
 
 Address the need for clearer documentation for new contributors. The goal when
 creating this documentation should be to make getting started as much a self
@@ -105,10 +113,9 @@ topics:
 * How to submit your modifications back to the project.
 * Some information on which turnaround time to expect for modifications made.
 
-
 There are many of good examples for how to write a README.md and what kind
-of information to include in a CONTRIBUTING.md file in various open source projects. 
-Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), 
+of information to include in a CONTRIBUTING.md file in various open source projects.
+Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a),
 [Open Source Guide from GitHub](https://opensource.guide/) as well as
 the book [Producing Open Source](https://producingoss.com/en/producingoss.html)
 all have valuable information on what kind of information to provide. While
@@ -118,10 +125,13 @@ chapter](https://producingoss.com/en/producingoss.html#starting-from-what-you-ha
 does provide a fairly extensive list of things that fellow host team members,
 users and contributors will need. InnerSource projects likely will not cover all
 of those aspects right from the start, the list itself is helpful for
-inspiration for what one could cover. In addition to that, this pattern comes
-with two very basic templates to get you started right away.
+inspiration for what one could cover.
 
-# Resulting Context
+In addition to that, this pattern comes with two very basic templates to get you
+started right away: [README-template.md](templates/README-template.md) and
+[CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+
+## Resulting Context
 
 * The time for contributors to get up to speed is significantly reduced.
 * Time spent on answering initial questions for Trusted Committers is
@@ -129,17 +139,22 @@ with two very basic templates to get you started right away.
 * Escalations due to misunderstandings and misalignment are significantly
   reduced.
 
-# Known Instances
+## Known Instances
 
 Europace AG, Paypal Inc.
 
-# Authors
+## Authors
 
 * Isabel Drost-Fromm
 
-# Acknoledgements
+## Acknowledgements
 
 
-# State
+## Status
 
 Drafted in December 2019.
+
+## References
+
+* [README-template.md](templates/README-template.md) and
+* [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
