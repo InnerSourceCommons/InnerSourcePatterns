@@ -61,8 +61,8 @@ Metrics when published or discussed should be done so in the aggregate without r
 Produce a characterization of metrics as this might be helpful for others to understand and follow.
 
 * Nearly always InnerSource is not a goal in-and-of itself but a proposal of how to improve some larger problem that the company is having. One class of metrics is around that larger goal (e.g. quality, interrupt-driven work, duplicated code, etc.) and reflects the company's progress towards it.
-* Another class of metrics is around how much InnerSourcing is happening. A raw definition of InnerSource based on the number and frequency of code submissions to a repository not owned by the submitter's team could be measurable in a few ways.
-* A third class of metrics are KPIs that we believe will improve the raw amount of InnerSourcing happening (e.g. mean-time-to-review, number of comments and/or frequency of 'changes requested' on PRs by trusted committers, automated test run on PR, etc.).
+* Another class of metrics is around how much InnerSourcing is happening. A raw definition of InnerSource based on code submissions to a repository not owned by the submitter's team could be measurable in a few ways.
+* A third class of metrics are KPIs that we believe will improve the raw amount of InnerSourcing happening (e.g. mean-time-to-review, automated test runs on PRs, etc.).
 
 Note: The aforementioned metrics are some common examples. They aren't a one-size-fits-all. We expect the business goals of the organization to drive the metric selection process.
 
