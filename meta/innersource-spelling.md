@@ -10,7 +10,7 @@ We encourage you to use the word as a proper noun (like “We use InnerSource in
 
 We favor the spelling **InnerSource**, for the following reasons:
 
-1. That’s the way Tim O’Reilly [spelled it in 2000][opengl_1200] (he was into Perl and camel-case was a thing).
+1. That’s the way Tim O’Reilly [spelled it in 2000][opengl_1200] (he was into Perl and camel-case was a thing). Also see the [Foreword of the Adopting InnerSource book](foreword_AdoptingInnerSource) for more of Tim O’Reilly's own words on the topic. 
 2. If you set up side-by-side Google searches for “Inner Source” and “InnerSource” you will find that you get more hits on the former term, by only 1% of them have anything to do with what we call InnerSource. The latter term will be 100% cogent to your inquiry.
 3. The OSI was [denied trademark on the term “open source”][no-open-source-trademark] because it was made up of two common and unrelated terms. “InnerSource” on the other hand is a new word.
 
@@ -39,4 +39,5 @@ Not so good:
 “We’re InnerSourcing that repo”
 
 [opengl_1200]: https://web.archive.org/web/20180411080939/http://archive.oreilly.com/pub/a/oreilly/ask_tim/2000/opengl_1200.html
+[foreword_AdoptingInnerSource]: https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf
 [no-open-source-trademark]: https://opensource.org/pressreleases/certified-open-source.php
