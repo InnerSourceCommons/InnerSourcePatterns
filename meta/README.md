@@ -11,3 +11,5 @@ The topics below cover information about how we define, operate, and upkeep this
 * [Contributing](../CONTRIBUTING.md) - How to interact with our group, create your own patterns, or take part in our review-process; Github / Web centric instructions
   * [Alternate Command-line steps](./technical-git-howto.md) - If you want to contribute a pattern using `git` from the command-line, this is your document
   * [Meetings](./meetings.md) - Become involved with the people and communications of the Inner Source Patterns group
+* **(incomplete) Writing Guidelines** - To make the writing for our patterns more consistent, we provide some guidelines to help the various authors to keep a consistent voice.
+  * [InnerSource Spelling](./innersource-spelling.md) - Clarifies the mystery around how to spell this. Spoiler: It is **InnerSource**.
