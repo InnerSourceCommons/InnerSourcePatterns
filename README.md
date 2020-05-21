@@ -91,11 +91,7 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 # How to Contribute?
 
-[See our CONTRIBUTING.md for details on getting involved](CONTRIBUTING.md)
-
-We encourage beginners seeking answers to jump in by creating ''donuts'' (problems without solutions). We encourage experts to pad their experience - these are hoped to become part of a book one day. Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls).
-
-We work together via Github, Webex, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
+We welcome your contribution - be it small or huge! To learn more about how you can become a contributor, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 
 # Pattern Meta Info
