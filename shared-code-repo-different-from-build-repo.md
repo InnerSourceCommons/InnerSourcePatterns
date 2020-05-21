@@ -31,9 +31,3 @@ Ideally, overhead is minimized or eliminated. Or integrate the shared code repos
 Unproven
 
 ## Author  
-
-## See Also
-
-This pattern was originally created in this wiki and then ported here.
-Original wiki page:
-https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Shared-Code-Repo-Different-from-Build-Repo

@@ -4,11 +4,11 @@ Trusted committers (TCs) are those members of our working group who have elevate
 
 ## Current Trusted Committers
 
-* @lenucksi
-* @nyeates
-* @gruetter
-* @NewMexicoKid
-* @cewilliams
+* [@lenucksi](https://github.com/lenucksi)
+* [@nyeates](https://github.com/nyeates)
+* [@gruetter](https://github.com/gruetter)
+* [@NewMexicoKid](https://github.com/NewMexicoKid)
+* [@cewilliams](https://github.com/cewilliams)
 
 ## Process for Adding new Trusted Committers
 
@@ -30,6 +30,6 @@ We follow this process (adapted from [here](https://tech.europace.de/voting-in-n
    * New TC is added to the #innersource-patterns-tcs channel
    * New TC is praised in the [#innersource-patterns](https://app.slack.com/client/T04PXKRM0/C2EFRTS6A) channel.
 
-
 ## Admins
+
 A handful of individuals are currently the technical GitHub Admins for this repository. This includes most members of the InnerSource Commons' #tech-infra team and members of the [InnerSource Commons GitHub Organization](https://github.com/innersourcecommons). However, please channel working group-specific requests through the trusted committers.
