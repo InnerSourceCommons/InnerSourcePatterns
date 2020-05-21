@@ -48,8 +48,8 @@ Patterns of level 2 are stored in the directory `/2-structured`.
 	- Patterns (`pattern-*.md`)
 	
 - Validation requirements:
-	- Is partially validated by at least one known instance
-		- Or: pattern warrants to still be included (e.g. because validation is not feasible in the foreseeable future)
+	- Is validated by at least one known instance 
+		- Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
 	
 - Content requirements:
 	- Complies with the [patterns format](pattern-template.md)
@@ -65,7 +65,6 @@ Patterns of level 3 are stored in the directory `/3-agreed`.
 	
 - Validation requirements:
 	- Is validated by at least three known instances
-		- Or: pattern warrants to still be included (e.g. because validation is not feasible in the foreseeable future)
 	- Considers all known instances to the best of working group members' knowledge
 	- Community agreement (via lazy consensus of trusted committers) on correctness of contents
 	
