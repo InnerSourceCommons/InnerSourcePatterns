@@ -2,7 +2,7 @@
 
 name: Link Check on README.md
 
-on: push
+on: [push, pull_request]
 jobs:
   linkChecker:
     runs-on: ubuntu-latest

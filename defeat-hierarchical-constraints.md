@@ -33,9 +33,3 @@ Developers feel empowered to spend at least 20% of their time on inner sourcing
 Donut
 
 ## Author(s)
-
-## See Also
-
-This pattern was originally created in this wiki and then ported here.
-Original wiki page:
-https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-3%3A-how-to-defeat-the-hierarchical-constraints

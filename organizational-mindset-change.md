@@ -35,9 +35,3 @@ All of the company heartily adopts inner sourcing! Cake for everyone!
 Donut
 
 ## Author(s)  
-
-## See Also
-
-This pattern was originally created in this wiki and then ported here.
-Original wiki page:
-https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-6:-organizational-mindset-change
