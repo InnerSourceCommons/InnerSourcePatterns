@@ -9,18 +9,20 @@ For this working group to strive, we welcome your contribution - be it small or 
 
 Please consider contributing in the following ways:
 
-1. **Read & improve existing patterns.** If you want to get started, we encourage you to read through the existing patterns and materials in this repository. Found a misleading phrase or phony grammar? A mistake in the content? Let us know by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new) or directly propose your fix as a pull request.
+1. **Share your thoughts & spark discussion**. A fresh perspective, an intersting thought, or an early novel idea can spark discussions and yield unforeseeable results. We invite you to share your thoughts on InnerSource-related topics at any time by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new), [via Slack, or our patterns office hours](#how-to-get-in-touch).
 
-2. **Review & discuss open pull requests.** Even without knowing all the specifics of the patterns working group, your feedback on existing [pull requests](https://github.com/InnerSourceCommons/InnerSourcePatterns/labels/type%20-%20Content%20work) (especially those propising changes to pattern contents) will be valuable to its authors: As somebody who wants to learn more about InnerSource, you can give input from the perspective of a future reader. As somebody with own InnerSource experiences, you can share your experience with the authors.
+2. **Read & improve existing patterns.** If you want to get started, we encourage you to read through the existing patterns and materials in this repository. Found a misleading phrase or phony grammar? A mistake in the content? Let us know by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new) or directly propose your fix as a pull request.
 
-3. **Contribute a new pattern.** A key contribution you can make is to document an InnerSource best practice you experienced or know about. We defined different maturity levels for the contents in this repository: First time contributors should aim for maturity levels `1: initial` (for unstructured experience reports or what we call donuts - patterns with missing pieces) and `2: structured` (for best practices adhering to the patterns format and following basic writing style conventions). Our [Contributor Handbook](meta/contributor-handbook.md) discusses all this in more detail. You don't feel ready yet to contribute a new pattern? Please start a discussion by  [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new).
+3. **Review open pull requests.** Even without knowing all the specifics of the patterns working group, your feedback on existing [pull requests](https://github.com/InnerSourceCommons/InnerSourcePatterns/labels/type%20-%20Content%20work) (especially those propising changes to pattern contents) will be valuable to its authors: As somebody who wants to learn more about InnerSource, you can give input from the perspective of a future reader. As somebody with own InnerSource experiences, you can share your experience with the authors.
 
-4. **Be a patterns advocate.** The patterns will become better and cover more topics the more people contribute their perspective and experience. A colleague told you about a novel InnerSource best practice? Please invite her/him to contribute to this repository!
+4. **Contribute a new pattern.** A key contribution you can make is to document an InnerSource best practice you experienced or know about. We defined different maturity levels for the contents in this repository: First time contributors should aim for maturity levels `1: initial` (for unstructured experience reports or what we call donuts - patterns with missing pieces) and `2: structured` (for best practices adhering to the patterns format and following basic writing style conventions). Our [Contributor Handbook](meta/contributor-handbook.md) discusses all this in more detail. You don't feel ready yet to contribute a new pattern? Please start a discussion by  [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new).
+
+5. **Be a patterns advocate.** The patterns will become better and cover more topics the more people contribute their perspective and experience. A colleague told you about a novel InnerSource best practice? Please invite her/him to contribute to this repository!
 
 
-## How to get help?
+## How to get in touch?
 
-We are happy to support you in contributing to the InnerSource patterns. You can reach out to us in the following ways:
+We are happy to support you in contributing to the InnerSource patterns or to just chat with you. You can reach out to us in the following ways:
 
 1. **Via Slack.** Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
 
