@@ -56,9 +56,9 @@ Patterns of level 2 are stored in the directory `/2-structured`.
 	- Complies with *basic style guide*(#) - *Oops! We have not yet developed this*
 	
 	
-### Requirements: Level 3 - Agreed
+### Requirements: Level 3 - Validated
 
-Patterns of level 3 are stored in the directory `/3-agreed`.
+Patterns of level 3 are stored in the directory `/3-validated`.
 
 - Document types:
 	- Patterns (`pattern-*.md`)
