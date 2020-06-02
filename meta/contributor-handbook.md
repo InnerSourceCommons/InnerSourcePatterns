@@ -13,7 +13,7 @@ We defined four maturity levels for patterns: The higher a pattern's maturity le
 | 1 | Initial | Contains an initial pattern idea or what we call a donut (a pattern with missing sections). | A few days / weeks |
 | 2 | Structured | Contains a complete pattern that it is not properly validated yet (e.g. because it only synthesizes an idea or the experiences from one instead of three organizations). | A few days / weeks |
 | 3 | Validated | The pattern is validated (e.g. because three or more instances exists and are synthesized by the pattern) and its writing is of high quality. | One or two months |
-| 4 | Established | The pattern is validated, its writing is of "text book" quality, and the community agrees it is responsible to use it as teaching material. | As long as it takes |
+| 4 | Established | The writing of the pattern is of "text book" quality. The community agrees to use this pattern as InnerSource teaching material. | As long as it takes |
 
 For the first pattern you contribute, you should aim for maturity levels `1: initial` or `2: structured`. 
 
