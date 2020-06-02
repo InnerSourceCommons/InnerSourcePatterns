@@ -83,6 +83,5 @@ Patterns of level 4 are stored in the directory `/4-established`.
 	
 - Validation requirements:
 	- Complies with *advanced style guide*(#) - *Oops! We have not yet developed this.*
-	- Community agreement (via lazy consensus of trusted committers) this representing universal truth about InnerSource (using best judgment) and it being responsible to push it out
 	- Is free of conflicts with other InnerSource Commons learning materials and external InnerSource literature or adresses these conflicts explicitly
 	
