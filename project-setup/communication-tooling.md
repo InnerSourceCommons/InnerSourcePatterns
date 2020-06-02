@@ -2,6 +2,13 @@
 
 Communication tooling
 
+# Patlet
+
+An InnerSource project is being used outside the original development team but
+users are having trouble getting help and getting in touch with the project
+team. The idea is to setup and document standard communication tooling that
+allows for discussions to become visible, archived and searchable.
+
 # Context
 
 A team depends on another team's component. It would like to make contributions
@@ -81,3 +88,16 @@ users with the same question see (or later on find) the previous answer leading
 to a lower need to repeat explanations.
 
 
+# Known Instances
+
+Europace AG, Paypal Inc.
+
+# Authors
+
+Isabel Drost-Fromm
+
+# Status
+
+Structured.
+
+Drafted in December 2019.
