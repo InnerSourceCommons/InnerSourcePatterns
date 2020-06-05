@@ -12,8 +12,7 @@ We defined four maturity levels for patterns: The higher a pattern's maturity le
 | ---- | ---- | ---- | ---- |
 | 1 | Initial | Contains an initial pattern idea or what we call a donut (a pattern with missing sections). | A few days / weeks |
 | 2 | Structured | Contains a complete pattern that it is not properly validated yet (e.g. because it only synthesizes an idea or the experiences from one instead of three organizations). | A few days / weeks |
-| 3 | Validated | The pattern is validated (e.g. because three or more instances exists and are synthesized by the pattern) and its writing is of high quality. | One or two months |
-| 4 | Established | The writing of the pattern is of "text book" quality. The community agrees to use this pattern as InnerSource teaching material. | As long as it takes |
+| 3 | Validated | The pattern is validated (e.g. because three or more instances exists and are synthesized by the pattern) and its writing is of high quality. | A few months |
 
 For the first pattern you contribute, you should aim for maturity levels `1: initial` or `2: structured`. 
 
@@ -26,11 +25,6 @@ To achieve a given maturity level a pattern has to satisfy the requirements for 
 
 Patterns (or other documents) of level 1 are stored in the directory `/1-initial`.
 
-- Document types:
-	- Patterns (`pattern-*.md`)
-	- Donuts - patterns without solution or other missing sections (`donut-*.md`)
-	- Tale - unstructured information in any form (`tale-*.md`)
-	
 - Validation requirements:
 	- N/A
 	
@@ -44,9 +38,6 @@ Patterns (or other documents) of level 1 are stored in the directory `/1-initial
 
 Patterns of level 2 are stored in the directory `/2-structured`.
 
-- Document types:
-	- Patterns (`pattern-*.md`)
-	
 - Validation requirements:
 	- Is validated by at least one known instance 
 		- Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
@@ -60,9 +51,6 @@ Patterns of level 2 are stored in the directory `/2-structured`.
 
 Patterns of level 3 are stored in the directory `/3-validated`.
 
-- Document types:
-	- Patterns (`pattern-*.md`)
-	
 - Validation requirements:
 	- Is validated by at least three known instances
 	- Considers all known instances to the best of working group members' knowledge
@@ -72,16 +60,4 @@ Patterns of level 3 are stored in the directory `/3-validated`.
 	- Uses & has no conflicts with working group terminology (defined by glossary / implicit usage) - *Oops! We have not yet developed this.*
 	- Fits & has no conflicts with existing patterns (of this maturity level or higher)
 	- Thorough review by at least two trusted committers
-	
-	
-### Requirements: Level 4 - Established
 
-Patterns of level 4 are stored in the directory `/4-established`.
-
-- Document types:
-	- Patterns (`pattern-*.md`)
-	
-- Validation requirements:
-	- Complies with *advanced style guide*(#) - *Oops! We have not yet developed this.*
-	- Is free of conflicts with other InnerSource Commons learning materials and external InnerSource literature or adresses these conflicts explicitly
-	
