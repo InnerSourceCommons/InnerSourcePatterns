@@ -23,7 +23,7 @@ of trust follows (most to least trusted) as
 3. Contributors
 4. Users
 
-### Tenents of an OSS/ISS Project
+### Tenets of an OSS/ISS Project
 
 #### Code Base
 For a project to be considered OSS/ISS, it's code base must be entirely browsable by the population
