@@ -1,15 +1,15 @@
 # Title
 
-The Definition of an Open Source Software (OSS) or Inner Source Software (ISS) Project.
+The Definition of an Open Source Software (OSS) or InnerSource Software (ISS) Project.
 
 ## Definition(s)
 
 The following are the components are essential for a project to be declared an Open Source Software
-or Inner Source Software project. Note, the distinction between Open Source and Inner Source is merely
+or InnerSource Software project. Note, the distinction between Open Source and InnerSource is merely
 the network topology surrounding the source control management system instance. If the world at large
 can view the code base, the project Open Source. On the other hand if any portion of the project's source 
 code lives on a restricted network topology such that it is not available to be read by the world at 
-large then we deem it Inner Source. 
+large then we deem it InnerSource. 
 
 We will use the term "population" in the following definitions 
 to reference the user base that has readership based upon the respective network topology. Further, we
