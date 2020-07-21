@@ -16,7 +16,7 @@ investment.
 
 ## Context
 
-The company is considering to leverage InnerSource to increase the efficiency
+The company is considering InnerSource to increase the efficiency
 of collaboration on software projects. However, most managers are not familiar
 with the Open Source working model and are instead accustomed to hierarchical,
 top-down control style management. The idea of InnerSource is very popular with
@@ -32,7 +32,7 @@ or are actively developing Open Source software.
   and if many projects are likely to rely on it, a decision to shut it down
   will be very unpopular and therefore hard to make. The perceived resulting
   loss of control might deter some managers to even start with InnerSource.
-- Implementing InnerSource style working models are often a radically departure
+- Implementing InnerSource style working models are often a radical departure
   from previously practiced working models. It is therefore likely, that
   existing, mandatory processes are no longer applicable and that appropriate
   governing processes are missing. The result might be that one has to operate
@@ -43,12 +43,10 @@ or are actively developing Open Source software.
 ## Solution
 
 Declare the InnerSource initiative as a time limited experiment. Define and
-communicate the criteria for projects to join the InnerSource experiment. The
-criteria should be chosen such that they maximize the chances of building a
-healthy InnerSource community around the selected InnerSource projects. They
-should also help to ensure that the setting of the projects is such that they
-can later be used to gain externally valid insights into the effects of
-applying InnerSource. Examples for such criteria are
+communicate the criteria for projects to join the InnerSource experiment. Choose
+criteria that will maximize the chances of building a healthy InnerSource community 
+around the selected InnerSource projects. The criteria, on examination within a project's context, 
+should transparently highlight the benefits of applying InnerSource. Examples for such criteria are
 
 - Sufficient geographical distribution of developers
 - Sufficient departmental mix of developers,
@@ -70,7 +68,7 @@ their value contributions.
 
 Managers are able to kick start InnerSource for the following reasons:
 
-- The experimental setup eases the need of managers to scrutinize the
+- The experimental setup eases the need for managers to scrutinize the
   InnerSource program numbers in the same way that they would for typical
   projects.
 - The possibility of failure of the experiment is understood and accepted. The
@@ -80,8 +78,8 @@ Managers are able to kick start InnerSource for the following reasons:
 - In case of success, the data gathered during the experiment will allow
   managers to make a longer lasting commitment to InnerSource.
 
-Participants in the InnerSource experiment are now conscious of the fact that
-they have to prove to management that InnerSource yields the promised benefits.
+Participants in the InnerSource experiment are now conscious that they have to 
+prove to management that InnerSource yields the promised benefits.
 It will therefore help to focus work on those activities which provide the most
 demonstrable value thus increasing the chances of success.
 
