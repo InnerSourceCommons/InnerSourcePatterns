@@ -68,11 +68,11 @@ possible to either deploy the same service in independent environments with sepa
 
 ### Pattern Donuts (needing a solution)
 
-* [How to Defeat the Hierarchical Constraints](defeat-hierarchical-constraints.md)
+* [How to Defeat the Hierarchical Constraints](patterns/1-initial/defeat-hierarchical-constraints.md)
 * [Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47)
-* [Organizational Mindset Change](organizational-mindset-change.md)
+* [Organizational Mindset Change](patterns/1-initial/organizational-mindset-change.md)
 * [Donut 8: Not Invented Here](https://github.com/InnerSourceCommons/innersourcecommons.org/wiki/Donut-8:-Not-invented-here)
-* [Bad Weather For Liftoff](bad-weather-for-liftoff.md)
+* [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
 * [Get Contributions Despite Silo Thinking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/38)
 
 ## What are InnerSource Patterns?
