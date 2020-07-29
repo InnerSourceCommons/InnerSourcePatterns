@@ -45,16 +45,17 @@ possible to either deploy the same service in independent environments with sepa
 ### Pattern Drafts (proven, not yet fully reviewed)
 
 * [Assisted Compliance](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/74) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
-* [Cross-Team Project Valuation](crossteam-project-valuation.md) - *It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
+* [Cross-Team Project Valuation](patterns/2-structured/crossteam-project-valuation.md) - *It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
 * [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them.*
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
-* [Overcome Acquisition Based Silos - Developers](overcome-acquisition-based-silos-developer.md)
-* [Overcome Acquisition Based Silos - Managers](overcome-acquisition-based-silos-manager.md)
+* [Overcome Acquisition Based Silos - Developers](patterns/2-structured/overcome-acquisition-based-silos-developer.md)
+* [Overcome Acquisition Based Silos - Managers](patterns/2-structured/overcome-acquisition-based-silos-manager.md)
 * [Open Source Trumps InnerSource](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
 * [Overcoming Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
-* [Start as Experiment](start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
+* [Start as Experiment](patterns/2-structured/start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
 * [Include Product Owners](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
-* [Provide standard base documentation through a README](project-setup/base-documentation.md)
+* [Provide standard base documentation through a README](patterns/2-structured/project-setup/base-documentation.md)
+* [Issue tracker use cases](patterns/2-structured/project-setup/issue-tracker.md)
 
 ### Pattern Ideas (not yet proven; brainstormed)
 
