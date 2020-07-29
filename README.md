@@ -58,13 +58,13 @@ possible to either deploy the same service in independent environments with sepa
 
 ### Pattern Ideas (not yet proven; brainstormed)
 
-* [Discover Your InnerSource](patterns/2-structured/discover-your-innersource.md)
-* [Junkyard Styled Inner Sourcing](patterns/2-structured/junkyard-styled-innersourcing.md)
-* [Shared Code Repo Different from Build Repo](patterns/2-structured/shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
-* [Incentive Alignment](patterns/2-structured/developer-incentive-alignment-for-innersource-contribution.md)
-* [Change the Developers Mindset](patterns/2-structured/change-the-developers-mindset.md)
-* [Share Your Code to Get More Done - Likely Contributors Variant](patterns/2-structured/share-your-code-to-get-more-done.md)
-* [Introducing Metrics in InnerSource](patterns/2-structured/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
+* [Discover Your InnerSource](patterns/1-initial/discover-your-innersource.md)
+* [Junkyard Styled Inner Sourcing](patterns/1-initial/junkyard-styled-innersourcing.md)
+* [Shared Code Repo Different from Build Repo](patterns/1-initial/shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
+* [Incentive Alignment](patterns/1-initial/developer-incentive-alignment-for-innersource-contribution.md)
+* [Change the Developers Mindset](patterns/1-initial/change-the-developers-mindset.md)
+* [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
+* [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
 
 ### Pattern Donuts (needing a solution)
 
