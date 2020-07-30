@@ -44,9 +44,10 @@ or are actively developing Open Source software.
 
 Declare the InnerSource initiative as a time limited experiment. Define and
 communicate the criteria for projects to join the InnerSource experiment. Choose
-criteria that will maximize the chances of building a healthy InnerSource community 
-around the selected InnerSource projects. The criteria, on examination within a project's context, 
-should transparently highlight the benefits of applying InnerSource. Examples for such criteria are
+criteria that will maximize the chances of building a healthy A set of criteria is 
+a good one if the insights generated from it within the context of the experiment 
+can intuitively be applied to contexts involving other potential InnerSource projects.
+Examples for such criteria are:
 
 - Sufficient geographical distribution of developers
 - Sufficient departmental mix of developers,
