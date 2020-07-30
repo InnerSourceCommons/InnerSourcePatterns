@@ -20,9 +20,15 @@ Our mission in this working group
 
 ## List of Patterns
 
-The below lists all known patterns. They are grouped into four stages of maturity.
+The below lists all known patterns. They are grouped into three [maturity levels](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/meta/contributor-handbook.md#maturity-levels).
 
-### Reviewed Patterns (proven and reviewed)
+### Validated
+
+*Note: We don't have patterns in this stage yet, but are [actively working on leveling up patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/186) into this maturity.*
+
+### Structured
+
+#### Reviewed Patterns (proven and reviewed)
 
 * [30 Day Warranty](patterns/2-structured/30-day-warranty.md) - *a pattern for getting a reluctant code-owning team to accept code submissions from outside their team.*
 * [Common Requirements](patterns/2-structured/common-requirements.md) - *Common code in a shared repository isn't meeting the needs of all the project-teams that want to use it; this is solved through requirements alignment and refactoring.*
@@ -37,12 +43,7 @@ The below lists all known patterns. They are grouped into four stages of maturit
 possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.*
 * [Trusted Committer](patterns/2-structured/trusted-committer.md) - *Many inner-source projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
 
-### Reviewed Pattern Ideas (not yet proven but reviewed)
-
-* [Modular Code](patterns/1-initial/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
-* [Improve Findability](patterns/1-initial/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
-
-### Pattern Drafts (proven, not yet fully reviewed)
+#### Pattern Drafts (proven, not yet fully reviewed)
 
 * [Assisted Compliance](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/74) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
 * [Cross-Team Project Valuation](patterns/2-structured/crossteam-project-valuation.md) - *It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
@@ -57,7 +58,14 @@ possible to either deploy the same service in independent environments with sepa
 * [Provide standard base documentation through a README](patterns/2-structured/project-setup/base-documentation.md)
 * [Issue tracker use cases](patterns/2-structured/project-setup/issue-tracker.md)
 
-### Pattern Ideas (not yet proven; brainstormed)
+### Initial
+
+#### Reviewed Pattern Ideas (not yet proven but reviewed)
+
+* [Modular Code](patterns/1-initial/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
+* [Improve Findability](patterns/1-initial/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
+
+#### Pattern Ideas (not yet proven; brainstormed)
 
 * [Discover Your InnerSource](patterns/1-initial/discover-your-innersource.md)
 * [Junkyard Styled Inner Sourcing](patterns/1-initial/junkyard-styled-innersourcing.md)
@@ -67,7 +75,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
 
-### Pattern Donuts (needing a solution)
+#### Pattern Donuts (needing a solution)
 
 * [How to Defeat the Hierarchical Constraints](patterns/1-initial/defeat-hierarchical-constraints.md)
 * [Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47)
