@@ -58,7 +58,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Provide standard base documentation through a README](patterns/2-structured/project-setup/base-documentation.md)
 * [Issue tracker use cases](patterns/2-structured/project-setup/issue-tracker.md)
 
-### Initial
+### Maturity Level 1: Initial
 
 #### Reviewed Pattern Ideas (not yet proven but reviewed)
 
