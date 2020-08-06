@@ -26,7 +26,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 
 *Note: We don't have patterns in this stage yet, but are [actively working on leveling up patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/186) into this maturity.*
 
-### Structured
+### Maturity Level 2: Structured
 
 #### Reviewed Patterns (proven and reviewed)
 
