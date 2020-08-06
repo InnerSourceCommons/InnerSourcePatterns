@@ -22,7 +22,7 @@ Our mission in this working group
 
 The below lists all known patterns. They are grouped into three [maturity levels](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/meta/contributor-handbook.md#maturity-levels).
 
-### Validated
+### Maturity Level 3: Validated
 
 *Note: We don't have patterns in this stage yet, but are [actively working on leveling up patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/186) into this maturity.*
 
