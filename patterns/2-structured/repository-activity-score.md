@@ -116,7 +116,7 @@ When proposed to InnerSourceCommons in July 2020, this pattern emerged.
 
 ## Author(s)
 
-[Michael Graf (SAP)](mi.graf@sap.com)
+[Michael Graf (SAP)](mailto:mi.graf@sap.com)
 
 ## Acknowledgements
 
