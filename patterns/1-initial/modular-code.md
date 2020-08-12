@@ -45,7 +45,7 @@ Development does not want to spend the extra resources needed to develop modular
     - Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
 * Select certain "success projects," teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
 * Offer education. Modular code is well-understood; there is a lot of literature in favor of this. 
-* Acknowledge and drive acceptance the cost of modularization, build time into the release schedule.
+* Acknowledge and drive acceptance for the cost of modularization. Build time into the release schedule for this.
 * Companies moving to use more open source code will appreciate modularity more over time.
 * Mitigate risk and fear of quality degradation from accepting InnerSource contributions.
 * Establish a checklist of elements to be checked off to classify a component as reusable.
