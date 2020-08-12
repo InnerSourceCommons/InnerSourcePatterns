@@ -9,7 +9,7 @@ Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a 
 The team that owns the repository doesn't have a CONTRIBUTING.md; the task force needs them to have this to submit bug fixes.
 
 ## Context
-* Teams owning the repository resist compliance-related mandates for having a CONTRIBUTING.md
+* Teams owning the repository are not complying with mandates for having a CONTRIBUTING.md
 * Compliance guys have to do a job; this is made difficult by teams resisting this.
 * Teams are focusing on business value; CONTRIBUTING.md compliance is viewed as not as important.
 * Special task force for security and compliance: developers responsible for fixing these bugs across the company.
