@@ -55,9 +55,7 @@ Development does not want to spend the extra resources needed to develop modular
 
 ## Resulting Context
 
-Pattern Idea
-=======
-Time is spent making the shared code modular so it can be reused.  
+**Pattern Idea**: Time is spent making the shared code modular so it can be reused.  
 
 ## Known Instances
 Elements of the resolution have been proven by various companies.
