@@ -1,9 +1,12 @@
 # Title
 
-Who is using my code?
+Code Consumers
+
+# Patlet
+TBD
 
 # Problem
-There's several reasons why we might want to know who's using our code. We can't do the following:
+There's several reasons why we might want to know who's using (consuming) our code. We can't do the following:
 * notify downstream users/projects of found (fixed?) vulnerabilities
 * audit flow of IP
 * kill off code - knowing where (or if) it is used
@@ -38,6 +41,6 @@ _needs work...?_
 * Raimund Hook (EXFO Inc)
 * Katrina Novakovic (RedHat)
 
-# State
+# Status
 Drafted at the 2019 Spring InnerSource Commons Summit in Galway - 10 April 2019
 
