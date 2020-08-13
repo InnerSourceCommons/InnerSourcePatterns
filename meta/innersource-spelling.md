@@ -26,7 +26,7 @@ For new patterns we stick to the spelling **InnerSource**. Old patterns will be 
 
 Some people have had a hard time with the camel-case term **InnerSource** because they’re not sure how to use it in a sentence grammatically.
 
-We recommend not to turn the term into a verb, but rather using it as a noun our adjective.
+We recommend not to turn the term into a verb, but rather using it as a noun or adjective.
 
 Recommended use:
 
