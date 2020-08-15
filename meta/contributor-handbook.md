@@ -4,7 +4,7 @@ This document lays out a basic guideline of how to write and contribute a new pa
 
 ## Maturity Levels
 
-We defined four maturity levels for patterns: The higher a pattern's maturity level, the more strictly it was validated and the better is its writing.
+We have defined three maturity levels for patterns: The higher a pattern's maturity level, the more strictly it was validated and the better is its writing.
 
 ### In a Nutshell
 
@@ -14,7 +14,7 @@ We defined four maturity levels for patterns: The higher a pattern's maturity le
 | 2 | Structured | Contains a complete pattern that it is not properly validated yet (e.g. because it only synthesizes an idea or the experiences from one instead of three organizations). | A few days / weeks |
 | 3 | Validated | The pattern is validated (e.g. because three or more instances exists and are synthesized by the pattern) and its writing is of high quality. | A few months |
 
-For the first pattern you contribute, you should aim for maturity levels `1: initial` or `2: structured`. 
+For the first pattern you contribute, you should aim for maturity levels `1: Initial` or `2: Structured`. 
 
 If you want to help promoting a pattern one maturity level up, we suggest to first create an issue to discuss the matter and see if someone else is working on that already. After that, you can create a pull request with the necessary changes.
 
@@ -29,7 +29,7 @@ Patterns (or other documents) of level 1 are stored in the directory `/1-initial
 	- N/A
 	
 - Content requirements:
-	- The document is readible & comprehensible for other's than the author(s)
+	- The document is readible & comprehensible for other parties (not just for the author(s))
 	- The author(s) contribute the contents according to the [license](../LICENSE.txt) & are allowed to do so
 	- Thoughts and contents by third parties are quoted / referenced explicitly
 
