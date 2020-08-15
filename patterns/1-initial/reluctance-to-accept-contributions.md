@@ -2,13 +2,17 @@
 
 Reluctance to accept contributions
 
+## Patlet
+
+TBD
+
 ## Problem
 
 The core team that owns a shared asset is reluctant to adopt contributions of contributing business divisions, because this implies adoption of the maintenance responsibility for the contributed software as well, a burden the core team does not want to adopt.
 
 ## Context
 
-An organizational unit (e.g. a business division or development team) is using an InnerSource product (a ‘shared asset’), and finds it is missing a certain feature that they need and would like to integrate into the shared asset. The core team that owns the shared asset is responsible for its design and maintenance. The potentially contributing organizational unit has no champion on the core team. 
+An organizational unit (e.g. a business division or development team) is using an InnerSource product (a ‘shared asset’), and finds it is missing a certain feature that they need and would like to integrate into the shared asset. The core team that owns the shared asset is responsible for its design and maintenance. The potentially contributing organizational unit has no champion on the core team.
 
 ## Forces
 
@@ -18,7 +22,7 @@ An organizational unit (e.g. a business division or development team) is using a
 * The core team is offered a contribution that doesn’t fit with their vision of the shared asset--the contributor doesn’t understand all the intricacies that the core team needs to consider.
 * Contributions are not suitable for the core team to handle, either because of quality problems (e.g. lack of architectural compliance) or that the contribution is too large--the contributor isn’t aware of how to contribute.
 
-## Solution
+## Solutions
 
 Define a clear contribution process for potential contributors.
 
@@ -56,3 +60,9 @@ Klaas-Jan Stol
 * Padma Sudarsan
 * Tim Yao
 * Nick Yeates
+
+## References
+
+Pattern was first created in the gDoc: [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
+
+(this section can be deleted once the conversion from gDoc to markdown is complete)
