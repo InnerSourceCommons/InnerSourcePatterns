@@ -75,6 +75,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Change the Developers Mindset](patterns/1-initial/change-the-developers-mindset.md)
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
+* [Code Consumers](patterns/1-initial/code-consumers.md)
 
 #### Pattern Donuts (needing a solution)
 
