@@ -8,7 +8,7 @@ The core team that owns a shared asset is reluctant to adopt contributions of co
 
 ## Context
 
-An organizational unit (e.g. a business division or development team) is using an inner source product (a ‘shared asset’), and finds it is missing a certain feature that they need and would like to integrate into the shared asset. The core team that owns the shared asset is responsible for its design and maintenance. The potentially contributing organizational unit has no champion on the core team. 
+An organizational unit (e.g. a business division or development team) is using an InnerSource product (a ‘shared asset’), and finds it is missing a certain feature that they need and would like to integrate into the shared asset. The core team that owns the shared asset is responsible for its design and maintenance. The potentially contributing organizational unit has no champion on the core team. 
 
 ## Forces
 
