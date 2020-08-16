@@ -26,7 +26,7 @@ We are happy to support you in contributing to the InnerSource patterns or to ju
 
 1. **Via Slack.** Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
 
-2. **During the patterns office hours.** We established a regular cadence of office hours for you to ask questions. You can find out about the next patterns office hours in the calendar at the bottom of [this page](https://innersourcecommons.org/resources/).
+2. **During the patterns office hours.** We established a regular cadence of office hours for you to ask questions. Find the date of the next patterns office hours [in this calendar](https://innersourcecommons.org/patterns-officehours).
 
 
 ## License of Contributions
