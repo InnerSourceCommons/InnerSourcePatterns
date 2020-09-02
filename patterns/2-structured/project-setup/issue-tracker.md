@@ -1,19 +1,12 @@
-# Title
+## Title
 
 Issue tracker use cases
 
-# Patlet
+## Patlet
 
 The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.
 
-# Context
-
-The InnerSource project tooling is all setup. However the project issue tracker
-is mainly used for sharing progress. In InnerSource projects there are many more
-use cases that an issue tracker can be used for that make remote, asynchronous
-communication easier.
-
-# Problem
+## Problem
 
 A team develops a component that many teams in the organization depend on. It
 uses a standard issue tracker for tracking open bugs and feature requests.
@@ -21,7 +14,14 @@ However the context in each entry is very limited. As a result potential
 contributors have no way of knowing what change exactly each issue is talking
 about.
 
-# Forces
+## Context
+
+The InnerSource project tooling is all setup. However the project issue tracker
+is mainly used for sharing progress. In InnerSource projects there are many more
+use cases that an issue tracker can be used for that make remote, asynchronous
+communication easier.
+
+## Forces
 
 - Contributors would like to understand whether the feature that they are
   missing is already on the roadmap. With a lot of context missing in issues
@@ -38,7 +38,7 @@ about.
   component becomes an exercise in project archaeology and brain picking of people
   who remember what was discussed.
 
-# Solution
+## Solution
 
 Embrace the "written over verbal" philosophy not only for pure software
 development but also during the planning phase of new features:
@@ -64,7 +64,7 @@ development but also during the planning phase of new features:
   include hints about what kind of information is needed for the other usage
   types.
 
-# Resulting Context
+## Resulting Context
 
 - Making more use of the project's issue tracker for communication enables
   external contributors to follow along and make better decisions on what to
@@ -83,10 +83,10 @@ development but also during the planning phase of new features:
   the ways of the project long before they have the first need to get involved.
 
 
-# Known Instances
+## Known Instances
 
 * Europace AG
 
-# Status
+## Status
 
-Proven
+Structured
