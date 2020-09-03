@@ -208,3 +208,24 @@ Teams understand their level of InnerSource adoption.
 Prior to adopting InnerSource as a working model, teams are aware of the
 practices that are expected of them - both in the short term as well as in the
 long term.
+
+## Known Instances
+
+Entelgy, Zylk, Bitergia
+
+## Authors
+
+* Daniel Izquierdo Cortazar
+* Isabel Drost-Fromm
+* Jorge
+* Nerea
+
+## Acknowledgements
+
+## Status
+
+Drafted in September 2019
+
+Currently in status "Structured".
+
+
