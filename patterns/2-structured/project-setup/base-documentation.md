@@ -113,7 +113,7 @@ topics:
 * How to submit your modifications back to the project.
 * Some information on which turnaround time to expect for modifications made.
 
-![Brief picture of README.md and CONTRIBUTING.md content](./assets/base_docs_drawing.pg)
+![Brief picture of README.md and CONTRIBUTING.md content](./assets/base_docs_drawing.png)
 
 
 There are many of good examples for how to write a README.md and what kind
