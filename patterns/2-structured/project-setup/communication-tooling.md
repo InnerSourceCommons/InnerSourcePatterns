@@ -1,21 +1,21 @@
-# Title
+## Title
 
 Communication tooling
 
-# Patlet
+## Patlet
 
 An InnerSource project is being used outside the original development team but
 users are having trouble getting help and getting in touch with the project
 team. The idea is to setup and document standard communication tooling that
 allows for discussions to become visible, archived and searchable.
 
-# Context
+## Context
 
 A team depends on another team's component. It would like to make contributions
 to that component. Even when it happens in writing, communication happens in a
 1-on-1 fashion.
 
-# Problem
+## Problem
 
 A team is open to receiving contributions from downstream users of their
 component. Coordination and communication happens in an ad-hoc fashion though
@@ -23,7 +23,7 @@ leading to incoherent information being shared, delays in answers received,
 contributors pinging multiple host team members before receiving a definitive
 answer.
 
-# Forces
+## Forces
 
 - The host team is interested in receiving contributions and willing to mentor
   contributors.
@@ -32,7 +32,7 @@ answer.
 - Communication channels may be aligned with specific groups that should be
   reached but not by communication purpose.
 
-# Solution
+## Solution
 
 The host team needs to be clear on the benefit of providing company-public,
 archived, searchable, linkable communication channels that are free to subscribe
@@ -63,7 +63,7 @@ All communication channels should be documented in the project README.md The
 host team members need to make an effort to direct questions that they receive
 personally back to official communication channels.
 
-# Resulting Context
+## Resulting Context
 
 Setting up and consistently using official asynchronous communication channels 
 helps create a base level of passive documentation that can be referenced again 
@@ -88,15 +88,15 @@ users with the same question see (or later on find) the previous answer leading
 to a lower need to repeat explanations.
 
 
-# Known Instances
+## Known Instances
 
 Europace AG, Paypal Inc.
 
-# Authors
+## Authors
 
 Isabel Drost-Fromm
 
-# Status
+## Status
 
 Structured.
 
