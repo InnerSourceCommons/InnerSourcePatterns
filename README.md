@@ -61,6 +61,8 @@ possible to either deploy the same service in independent environments with sepa
 
 ### Maturity Level 1: Initial
 
+* [Transparent Cross-Team Decision Making using RFCs](patterns/1-initial/transparent-cross-team-decision-making-using-rfcs.md) - *InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.*
+
 #### Reviewed Pattern Ideas (not yet proven but reviewed)
 
 * [Modular Code](patterns/1-initial/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
