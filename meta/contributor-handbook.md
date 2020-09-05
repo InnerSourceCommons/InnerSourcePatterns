@@ -23,7 +23,7 @@ To achieve a given maturity level a pattern has to satisfy the requirements for 
 
 ### Requirements: Level 1 - Initial
 
-Patterns (or other documents) of level 1 are stored in the directory `/1-initial`.
+Patterns (or other documents) of level 1 are stored in the directory `/patterns/1-initial`.
 
 - Validation requirements:
 	- N/A
@@ -36,7 +36,7 @@ Patterns (or other documents) of level 1 are stored in the directory `/1-initial
 	
 ### Requirements: Level 2 - Structured
 
-Patterns of level 2 are stored in the directory `/2-structured`.
+Patterns of level 2 are stored in the directory `/patterns/2-structured`.
 
 - Validation requirements:
 	- Is validated by at least one known instance 
@@ -49,7 +49,7 @@ Patterns of level 2 are stored in the directory `/2-structured`.
 	
 ### Requirements: Level 3 - Validated
 
-Patterns of level 3 are stored in the directory `/3-validated`.
+Patterns of level 3 are stored in the directory `/patterns/3-validated`.
 
 - Validation requirements:
 	- Is validated by at least three known instances
@@ -60,4 +60,3 @@ Patterns of level 3 are stored in the directory `/3-validated`.
 	- Uses & has no conflicts with working group terminology (defined by glossary / implicit usage) - *Oops! We have not yet developed this.*
 	- Fits & has no conflicts with existing patterns (of this maturity level or higher)
 	- Thorough review by at least two trusted committers
-
