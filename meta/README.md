@@ -3,7 +3,7 @@
 The topics below cover information about how we define, operate, and upkeep this collection of patterns.
 
 * [Pattern Template](./pattern-template.md) - Start a new pattern with a copy of this
-* [Contributor Handbook](./pattern-states.md) - Lays out a basic guideline of how to write and contribute a new pattern, including the 3 maturity levels for patterns.
+* [Contributor Handbook](./contributor-handbook.md) - Lays out a basic guideline of how to write and contribute a new pattern, including the 3 maturity levels for patterns.
 * **(draft)** [Pattern System](./pattern-system.md) - For a human reader it is not easy to digest a long list of patterns. We are working on labeling and classifying the patterns further.
 * [Trusted Committers](../TRUSTED-COMMITTERS.md) - Who these people are, what elevated rights they get, and how you can become one
 * [Markdown Info](./markdown-info.md) - Markdown is the ascii text format our patterns are written in; this document briefly defines how we use it
