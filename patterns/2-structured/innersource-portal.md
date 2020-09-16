@@ -47,12 +47,19 @@ The InnerSource Portal has enabled InnerSource project owners to advertise their
 ## Known Instances
 
 * A large financial services organization has used the creation of an InnerSource Portal to provide a mechanism of advertising and discovering InnerSource projects in existence across different business units
-* SAP promotes InnerSource projects in the InnerSource portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal.  
-* The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource Gig Marketplace pattern in this context
+* SAP promotes InnerSource projects in the InnerSource portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal.
+* Elbit Systems has used this pattern and added gamification on top.
+	* [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
+	* Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
+
+## References
+
+* The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource [Gig Marketplace](./gig-marketplace.md) pattern in this context
 
 ## Status
 
-Proven
+Structured
+(old status: Proven)
 
 ## Author(s)
 
