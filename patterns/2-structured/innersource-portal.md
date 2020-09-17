@@ -51,6 +51,7 @@ The InnerSource Portal has enabled InnerSource project owners to advertise their
 * Elbit Systems has used this pattern and added gamification on top.
 	* [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
 	* Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
+	* The code realizing this platform has been open sourced and is availble here: https://gitlab.com/gilda2
 
 ## References
 
