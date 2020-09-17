@@ -32,4 +32,5 @@
 #### Can't find matching projects
 ##### [Gig market (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/gig-marketplace.md)
 ##### [IS portal (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-portal.md)
+##### [Repository Activity Score (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/repository-activity-score.md)
 ## Scale
