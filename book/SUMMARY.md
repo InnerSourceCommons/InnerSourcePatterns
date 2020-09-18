@@ -13,8 +13,8 @@
 * [Repository Activity Score](../patterns/2-structured/repository-activity-score.md)
 * [Review Committee](../patterns/2-structured/review-committee.md)
 * [Service vs. Library](../patterns/2-structured/service-vs-library.md)
-* [Trusted Committer](../patterns/2-structured/trusted-committer.md) - *Many inner-source projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
+* [Trusted Committer](../patterns/2-structured/trusted-committer.md)
     
-## Appendix
-
-* [Contributor Handbook](../meta/contributor-handbook.md)
+* Appendix
+	* [Contributor Handbook](../meta/contributor-handbook.md)
+	* [Pattern Template](../meta/pattern-template.md)
