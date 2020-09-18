@@ -3,7 +3,17 @@
 ## Patterns
 
 * [30 Day Warranty](../patterns/2-structured/30-day-warranty.md)
-* [Common Requirements](patterns/2-structured/common-requirements.md)
+* [Common Requirements](../patterns/2-structured/common-requirements.md)
+* [Contracted Contributor](../patterns/2-structured/contracted-contributor.md)
+* [Dedicated Community Leader](../patterns/2-structured/dedicated-community-leader.md)
+* [Gig Marketplace](../patterns/2-structured/gig-marketplace.md)
+* [InnerSource License](../patterns/2-structured/innersource-license.md)
+* [InnerSource Portal](../patterns/2-structured/innersource-portal.md)
+* [Praise Participants](../patterns/2-structured/praise-participants.md)
+* [Repository Activity Score](../patterns/2-structured/repository-activity-score.md)
+* [Review Committee](../patterns/2-structured/review-committee.md)
+* [Service vs. Library](../patterns/2-structured/service-vs-library.md)
+* [Trusted Committer](../patterns/2-structured/trusted-committer.md) - *Many inner-source projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
     
 ## Appendix
 
