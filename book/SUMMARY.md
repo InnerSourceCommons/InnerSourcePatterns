@@ -18,6 +18,6 @@
 ## Appendix
 
 * Contributing
-  * [Contributing](../CONTRIBUTING.md)
+  * [How to Contribute](../CONTRIBUTING.md)
 	* [Contributor Handbook](../meta/contributor-handbook.md)
 * [Pattern Template](../meta/pattern-template.md)
