@@ -1,5 +1,4 @@
 ---
-title: InnerSource Portal TEST
 description: Create an intranet website that indexes all available InnerSource project information. This will enable potential contributors to more easily learn about projects that might interest them and for InnerSource project owners to attract an outside audience.
 ---
 

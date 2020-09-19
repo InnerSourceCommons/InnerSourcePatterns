@@ -1,5 +1,5 @@
 root : ./book
 
 structure:
-  readme: ../README.md
+  readme: Introduction.md
   summary: SUMMARY.md

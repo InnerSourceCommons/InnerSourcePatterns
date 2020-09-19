@@ -14,7 +14,10 @@
 * [Review Committee](../patterns/2-structured/review-committee.md)
 * [Service vs. Library](../patterns/2-structured/service-vs-library.md)
 * [Trusted Committer](../patterns/2-structured/trusted-committer.md)
-    
-* Appendix
+
+## Appendix
+
+* Contributing
+  * [Contributing](../CONTRIBUTING.md)
 	* [Contributor Handbook](../meta/contributor-handbook.md)
-	* [Pattern Template](../meta/pattern-template.md)
+* [Pattern Template](../meta/pattern-template.md)
