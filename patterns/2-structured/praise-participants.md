@@ -12,7 +12,7 @@ Praise and thanks are easy, affordable ways to keep contributors and their manag
 A pattern in this area makes it easy to do and ensures that the message comes across clearly and sincerely.
 
 ## Context
-* You are the [Trusted Committer](project-roles/trusted-committer.md) or maintainer on an inner source project.
+* You are the [Trusted Committer](./trusted-committer.md) or maintainer on an inner source project.
 * You value the community of contributors and want to maintain and grow it.
 
 ## Forces
