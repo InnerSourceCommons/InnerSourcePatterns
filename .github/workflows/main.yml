@@ -13,6 +13,6 @@ jobs:
       id: lc
       uses: peter-evans/link-checker@v1
       with:
-        args: -v -d . -x "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com" README.md -r patterns/2-structured/*
+        args: -v -d . -x "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com" README.md -r patterns/2-structured/* -r patterns/3-validated/* -r patterns/1-initial/*
     - name: Fail if there were link errors
       run: exit ${{ steps.lc.outputs.exit_code }}
