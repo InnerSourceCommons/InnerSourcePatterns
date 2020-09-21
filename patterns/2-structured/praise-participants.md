@@ -52,7 +52,7 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 
 ## Related Patterns
 
-* _Just Say Thanks_ (from the book [_Fearless Change_](http://www.fearlesschangepatterns.com/))
+* _Just Say Thanks_ (from the book [_Fearless Change_](https://fearlesschangepatterns.com/))
 
 ## Known Instances
 
