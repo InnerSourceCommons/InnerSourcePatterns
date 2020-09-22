@@ -1,0 +1,26 @@
+name: book-toc-generation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "book"
+
+jobs:
+  book-toc-generation:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6'
+
+    - run: ruby book/generate_toc.rb
+
+    # - uses: stefanzweifel/git-auto-commit-action@v4
+    #   with:
+    #     commit_message: Apply php-cs-fixer changes
