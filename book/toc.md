@@ -1,7 +1,6 @@
 # Table of Contents
 
 * [ToC](toc.md)
-* [Mind Map](../pattern-categorization/innersource-program-mind-map.html)
 
 ## Patterns
 
