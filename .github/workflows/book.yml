@@ -19,7 +19,9 @@ jobs:
       with:
         ruby-version: '2.6'
 
-    - run: ruby book/generate_toc.rb
+    - run: |
+        gem install bundler
+        ruby book/generate_toc.rb
 
     # - uses: stefanzweifel/git-auto-commit-action@v4
     #   with:
