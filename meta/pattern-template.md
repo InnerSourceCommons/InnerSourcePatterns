@@ -33,10 +33,10 @@ Where has this been seen before? Helps to reinforce that this is a REAL pattern 
 
 May mention:
 * A particular business
-* Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...". 
+* Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
 
 ## Status (optional until merging)
-General pattern status is stored in GitHub's Label tagging - see any pull request. Note that this GitHub label tagging becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful. 
+General pattern status is stored in GitHub's Label tagging - see any pull request. Note that this GitHub label tagging becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful.
 
 You might store other related info here, such as review history: "Three of us reviewed this on 2/5/17 and it needs John's expertise before it can go further."
 
@@ -45,3 +45,6 @@ Often, this is yourself; If you need to, find someone in the InnerSource Commons
 
 ## Acknowledgements (optional)
 Include those who assisted in helping with this pattern - both for attribution and for possible future follow up. Though optional, most patterns should list who helped in their creation.
+
+## Alias (optional)
+If this pattern is also known under a different name than what is listed unter **Title**, please list those alternative titles here. e.g. if the pattern is named after the problem it solves, a helpful alias might be one that describes the solution that is applied.
