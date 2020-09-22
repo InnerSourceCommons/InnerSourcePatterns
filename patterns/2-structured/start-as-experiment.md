@@ -44,8 +44,8 @@ or are actively developing Open Source software.
 
 Declare the InnerSource initiative as a time limited experiment. Define and
 communicate the criteria for projects to join the InnerSource experiment. Choose
-criteria that will maximize the chances of building a healthy A set of criteria is 
-a good one if the insights generated from it within the context of the experiment 
+criteria that will maximize the chances of building a healthy A set of criteria is
+a good one if the insights generated from it within the context of the experiment
 can intuitively be applied to contexts involving other potential InnerSource projects.
 Examples for such criteria are:
 
@@ -60,7 +60,7 @@ point to re-evaluate. Also consider establishing a [Review
 Committee](review-committee.md) to increase the chances of management buy-in
 through participation. Depending on company culture, it might be helpful to
 accompany the experiment with appropriate metrics [First Steps With
-Metrics](introducing-metrics-in-innersource.md). If the projects in the
+Metrics](../1-initial/introducing-metrics-in-innersource.md). If the projects in the
 experiment don't provide a direct impact on the companies revenue, consider
 introducing [Cross Team Valuation](crossteam-project-valuation.md) to highlight
 their value contributions.
@@ -79,7 +79,7 @@ Managers are able to kick start InnerSource for the following reasons:
 - In case of success, the data gathered during the experiment will allow
   managers to make a longer lasting commitment to InnerSource.
 
-Participants in the InnerSource experiment are now conscious that they have to 
+Participants in the InnerSource experiment are now conscious that they have to
 prove to management that InnerSource yields the promised benefits.
 It will therefore help to focus work on those activities which provide the most
 demonstrable value thus increasing the chances of success.
@@ -91,7 +91,7 @@ of success.
 ## Related Patterns
 
 - _Trial Run_ (from the book [_Fearless
-  Change_](http://www.fearlesschangepatterns.com/))
+  Change_](https://www.fearlesschangepatterns.com/))
 
 ## Known Instances
 
