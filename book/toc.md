@@ -17,6 +17,11 @@
 * [Service vs. Library](../patterns/2-structured/service-vs-library.md)
 * [Trusted Committer](../patterns/2-structured/trusted-committer.md)
 
+* [Provide standard base documentation through a README](../patterns/2-structured/project-setup/base-documentation.md) -
+* [Communication tooling](../patterns/2-structured/project-setup/communication-tooling.md) - An InnerSource project is being used outside the original development team but users are having trouble getting help and getting in touch with the project team. The idea is to setup and document standard communication tooling that allows for discussions to become visible, archived and searchable.
+* [Issue tracker use cases](../patterns/2-structured/project-setup/issue-tracker.md) - The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.
+
+
 ## Appendix
 
 * Contributing
