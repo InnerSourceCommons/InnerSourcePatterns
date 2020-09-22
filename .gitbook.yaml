@@ -2,4 +2,4 @@ root : ./book
 
 structure:
   readme: Introduction.md
-  summary: SUMMARY.md
+  summary: toc.md
