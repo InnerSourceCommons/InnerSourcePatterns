@@ -6,7 +6,7 @@ require 'pp'
 
 # Extracts the value of the title section from a markdown file
 
-def extract_title(file)
+def extract_section(file, section_title)
   markdown = open(file).readlines().join
   doc = CommonMarker.render_doc(markdown)
 
@@ -17,7 +17,7 @@ def extract_title(file)
   doc.walk do |node|
     if node.type == :header
       node.each do |subnode|
-        if subnode.type == :text and subnode.string_content == "Title"
+        if subnode.type == :text and subnode.string_content == section_title
           title_found = true
         end
       end
@@ -33,7 +33,7 @@ def extract_title(file)
 
   # pp title_nodes
 
-  title = title_nodes.join
+  title = title_nodes.join(" ")
   return title
 
 end
@@ -43,6 +43,7 @@ end
 patterns = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md"]
 
 patterns.each do |file|
-  title = extract_title(file)
-  puts "[#{title}](#{file})"
+  title = extract_section(file, "Title")
+  patlet = extract_section(file, "Patlet")
+  puts "[#{title}](#{file}) - #{patlet}"
 end
