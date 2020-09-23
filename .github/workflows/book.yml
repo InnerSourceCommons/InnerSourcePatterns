@@ -27,6 +27,7 @@ jobs:
 
     - name: generate ToC for the book
       run: |
+        cd book/
         ruby generate_toc.rb
 
     # - uses: stefanzweifel/git-auto-commit-action@v4
