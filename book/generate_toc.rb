@@ -37,25 +37,38 @@ end
 def generate_patterns_overview
   patterns = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md"]
 
-  pattern_overview = []
+  pattern_overview = Hash.new()
 
   patterns.each do |file|
     title = extract_section(file, "Title")
     patlet = extract_section(file, "Patlet")
-    pattern_overview << "[#{title}](#{file}) - #{patlet}"
+    pattern_overview[title] = {
+      :file => file,
+      :patlet => patlet
+    }
   end
 
   pattern_overview
 end
 
+
+# Main block
+
 TOC_TEMPLATE_FILE = "./toc_template.md"
 TOC_FILE = "./toc.md"
 
+## Generate list of patterns and sort them by name
 pattern_overview = generate_patterns_overview()
+pattern_overview = pattern_overview.sort.to_h
 
+toc_snippet = pattern_overview.map{|title, values| "[#{title}](#{values[:file]}) - #{values[:patlet]}"}
+toc_snippet = toc_snippet.join("\n")
+
+## Inject the list of patterns into the ToC template
 new_toc_content = open(TOC_TEMPLATE_FILE).readlines().join()
-new_toc_content = new_toc_content.gsub(/<<PATTERS_HERE>>/,pattern_overview.join("\n"))
+new_toc_content = new_toc_content.gsub(/<<PATTERS_HERE>>/,toc_snippet)
 
+## Write the new ToC to file
 File.write(TOC_FILE, new_toc_content)
 
-puts "Written new ToC for book"
+puts "Written new ToC for book to #{TOC_FILE}"
