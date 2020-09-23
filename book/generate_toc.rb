@@ -61,7 +61,7 @@ TOC_FILE = "./toc.md"
 pattern_overview = generate_patterns_overview()
 pattern_overview = pattern_overview.sort.to_h
 
-toc_snippet = pattern_overview.map{|title, values| "[#{title}](#{values[:file]}) - #{values[:patlet]}"}
+toc_snippet = pattern_overview.map{|title, values| "* [#{title}](#{values[:file]}) - #{values[:patlet]}"}
 toc_snippet = toc_snippet.join("\n")
 
 ## Inject the list of patterns into the ToC template
