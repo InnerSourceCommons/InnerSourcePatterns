@@ -19,17 +19,17 @@ jobs:
       with:
         ruby-version: '2.6'
 
-    - name: install ruby dependencies
+    - name: Install ruby dependencies
       run: |
         cd book/
         gem install bundler
         bundle install
 
-    - name: generate ToC for the book
+    - name: Generate ToC for the book
       run: |
         cd book/
         ruby generate_toc.rb
 
-    # - uses: stefanzweifel/git-auto-commit-action@v4
-    #   with:
-    #     commit_message: Apply php-cs-fixer changes
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Writing new ToC for the book
