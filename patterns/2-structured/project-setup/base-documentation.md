@@ -2,7 +2,7 @@
 
 Provide standard base documentation through a README
 
-## PatLet
+## Patlet
 
 New contributors to an InnerSource project have a hard time figuring out who
 maintains the project, what to work on, and how to contribute. Providing
