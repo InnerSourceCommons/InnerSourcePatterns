@@ -1,6 +1,6 @@
 ## Title
 
-_Review Committee_ (aka _Cheese Interface_)
+Review Committee
 
 ## Patlet
 
@@ -41,6 +41,10 @@ Company A wants to introduce its first InnerSource initiative. Most managers in 
 ## Known Instances
 
 BIOS at Robert Bosch GmbH
+
+## Alias
+
+Cheese Interface
 
 ## Status
 
