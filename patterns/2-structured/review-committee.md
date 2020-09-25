@@ -4,7 +4,7 @@ Review Committee
 
 ## Patlet
 
-_TBD_
+TBD
 
 ## Problem
 
