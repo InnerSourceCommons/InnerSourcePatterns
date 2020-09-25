@@ -35,7 +35,7 @@ def extract_section(file, section_title)
 end
 
 def generate_patterns_overview
-  patterns = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md"]
+  patterns = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md", "../patterns/3-validated/*.md"]
 
   pattern_overview = Hash.new()
 
