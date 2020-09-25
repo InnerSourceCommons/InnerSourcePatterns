@@ -1,10 +1,10 @@
 # Table of Contents
 
-* [ToC](toc.md)
+* [Table of Contents](toc.md)
 
 ## Patterns
 
-* [30 Day Warranty](../patterns/2-structured/30-day-warranty.md) - 
+* [30 Day Warranty](../patterns/2-structured/30-day-warranty.md) - TBD
 * [Common Requirements](../patterns/2-structured/common-requirements.md) - Common code in a shared repository isn't meeting the needs of all the project-teams that want to use it; this is solved through requirements alignment and refactoring.
 * [Communication tooling](../patterns/2-structured/project-setup/communication-tooling.md) - An InnerSource project is being used outside the original development team but users are having trouble getting help and getting in touch with the project team. The idea is to setup and document standard communication tooling that allows for discussions to become visible, archived and searchable.
 * [Contracted Contributor](../patterns/2-structured/contracted-contributor.md) - Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.
@@ -20,7 +20,7 @@
 * [Praise Participants](../patterns/2-structured/praise-participants.md) - After an inner source contribution, it's important to thank the contributor for their time and effort. This pattern gives guidance that not only effectively acknowledges the contribution but also endgenders further engagement from the contributor and others.
 * [Provide standard base documentation through a README](../patterns/2-structured/project-setup/base-documentation.md) - New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like README.md/CONTRIBUTING.md enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.
 * [Repository Activity Score](../patterns/2-structured/repository-activity-score.md) - Potential contributors want to find active InnerSource projects in need of their help. By calculating a repository activity score for each project, a ranked list of projects can be created (e.g. on the  ), so that potential contributors can more easily determine which project they want to contribute to.
-* [Review Committee](../patterns/2-structured/review-committee.md) - 
+* [Review Committee](../patterns/2-structured/review-committee.md) - TBD
 * [Service vs. library: It's inner source, not inner deployment](../patterns/2-structured/service-vs-library.md) - Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.
 * [Start as an Experiment](../patterns/2-structured/start-as-experiment.md) - Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.
 * [Trusted Committer](../patterns/2-structured/trusted-committer.md) - Many inner-source projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.
