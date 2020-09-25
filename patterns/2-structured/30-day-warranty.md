@@ -2,15 +2,19 @@
 
 30 Day Warranty
 
+## Patlet
+
+TBD
+
+## Problem
+
+A team develops a component which is used throughout an organization.  This team resists accepting or outright rejects contributions (feature requests).  This behavior blocks progress and leads to frequent disruption from escalations.
+
 ## Context
 
 Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team. The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component.
 
 - TBD: link to pattern "setting clear expectations for contributing code"
-
-## Problem
-
-A team develops a component which is used throughout an organization.  This team resists accepting or outright rejects contributions (feature requests).  This behavior blocks progress and leads to frequent disruption from escalations.
 
 ## Forces
 
