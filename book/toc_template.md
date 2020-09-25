@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [ToC](toc.md)
+* [Table of Contents](toc.md)
 
 ## Patterns
 
