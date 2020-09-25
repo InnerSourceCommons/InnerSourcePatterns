@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Table of Contents](toc.md)
+* [Table of Contents](./book/toc.md)
 
 ## Patterns
 
@@ -9,6 +9,6 @@
 ## Appendix
 
 * Contributing
-  * [How to Contribute](../CONTRIBUTING.md)
-  * [Contributor Handbook](../meta/contributor-handbook.md)
-* [Pattern Template](../meta/pattern-template.md)
+  * [How to Contribute](./CONTRIBUTING.md)
+  * [Contributor Handbook](./meta/contributor-handbook.md)
+* [Pattern Template](./meta/pattern-template.md)

@@ -1,5 +1,5 @@
-root : ./book
+root : ./
 
 structure:
-  readme: Introduction.md
-  summary: toc.md
+  readme: ./book/Introduction.md
+  summary: ./book/toc.md
