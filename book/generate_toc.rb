@@ -43,7 +43,7 @@ def generate_patterns_overview
     title = extract_section(file, "Title")
     patlet = extract_section(file, "Patlet")
     pattern_overview[title] = {
-      :file => file.gsub(/^\./,""),
+      :file => file.gsub(/^\.\.\//,""),
       :patlet => patlet
     }
   end
