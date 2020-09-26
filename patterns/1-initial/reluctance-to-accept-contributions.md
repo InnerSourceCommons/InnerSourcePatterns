@@ -35,13 +35,19 @@ Define a clear contribution process for potential contributors.
 
 Potential contributors have clear guidance available and process to follow so they know what to consider when preparing contributions. The core team is better able to handle incoming contributions.
 
-## See Also
-
-Support Warranty, Negotiate Contributions, Architecture for Participation, Feature Advocate (Note: these patterns are currently under construction)
-
 ## Known Instances
 
 Philips Healthcare, “Feature Advocate” described in: VK Gurbani et al. (2010) Managing a corporate open source software asset, Communications of the ACM vol. 53(2)
+
+## See Also
+
+* Support Warranty - most likely [30 Day Warranty](../2-structured/30-day-warranty.md)
+* Negotiate Contributions (unknown pattern)
+* Architecture for Participation (unknown pattern)
+* Feature Advocate (unknown pattern)
+
+*Note:* 
+The last 3 patterns above were mentioned to be "under construction" at the time where this pattern was written. Right now we don't know where these patterns are.
 
 ## Status
 
