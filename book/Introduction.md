@@ -3,7 +3,7 @@
 {% hint style="info" %}
 This is an early release of the InnerSource Patterns book.
 You may still find broken link, spelling mistakes, or other errors in this book.
-Please help us to fix them, by reviewing [How to Contribute](../CONTRIBUTING.md).
+Please help us to fix them to produce the best book possible :)
 {% endhint %}
 
 This book contains the most mature InnerSource Patterns collected by the [InnerSource Commons][isc-website].
