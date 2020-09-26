@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Table of Contents](./book/toc.md)
+* [Table of Contents](book/toc.md)
 
 ## Patterns
 
