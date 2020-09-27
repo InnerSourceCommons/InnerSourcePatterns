@@ -1,5 +1,7 @@
 # Introduction
 
+<img src="./innersource-patterns-book-cover.jpg" title="InnerSource Patterns">
+
 {% hint style="info" %}
 This is an early release of the InnerSource Patterns book.
 You may still find broken link, spelling mistakes, or other errors in this book.
