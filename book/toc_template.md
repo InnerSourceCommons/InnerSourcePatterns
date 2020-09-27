@@ -17,3 +17,8 @@
   * [How to Contribute](../CONTRIBUTING.md)
   * [Contributor Handbook](../meta/contributor-handbook.md)
 * [Pattern Template](../meta/pattern-template.md)
+
+## Resources
+
+* [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
+* [InnerSource Commons](http://innersourcecommons.org)
