@@ -1,4 +1,9 @@
 <!--
+Do not edit toc.md directly!!!
+Instead edit toc_template.md
+-->
+
+<!--
   GOTCHA !!!
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
