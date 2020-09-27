@@ -1,4 +1,9 @@
 <!--
+Do not edit toc.md directly!!!
+Instead edit toc_template.md
+-->
+
+<!--
   GOTCHA !!!
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
@@ -32,9 +37,7 @@
 
 ## Appendix
 
-* Contributing
-  * [How to Contribute](../CONTRIBUTING.md)
-  * [Contributor Handbook](../meta/contributor-handbook.md)
+* [Contribute to this book](../book/contribute-to-this-book.md)
 * [Pattern Template](../meta/pattern-template.md)
 
 ## Resources
