@@ -47,8 +47,6 @@ possible to either deploy the same service in independent environments with sepa
 * [Cross-Team Project Valuation](patterns/2-structured/crossteam-project-valuation.md) - *It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
 * [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them.*
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
-* [Overcome Acquisition Based Silos - Developers](patterns/2-structured/overcome-acquisition-based-silos-developer.md)
-* [Overcome Acquisition Based Silos - Managers](patterns/2-structured/overcome-acquisition-based-silos-manager.md)
 * [Open Source Trumps InnerSource](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
 * [Start as Experiment](patterns/2-structured/start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
 * [Include Product Owners](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
@@ -68,6 +66,8 @@ possible to either deploy the same service in independent environments with sepa
 
 #### Pattern Ideas (not yet proven; brainstormed)
 
+* [Overcome Acquisition Based Silos - Developers](patterns/1-initial/overcome-acquisition-based-silos-developer.md)
+* [Overcome Acquisition Based Silos - Managers](patterns/1-initial/overcome-acquisition-based-silos-manager.md)
 * [Discover Your InnerSource](patterns/1-initial/discover-your-innersource.md)
 * [Junkyard Styled Inner Sourcing](patterns/1-initial/junkyard-styled-innersourcing.md)
 * [Shared Code Repo Different from Build Repo](patterns/1-initial/shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
