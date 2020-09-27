@@ -28,7 +28,7 @@ For companies building mostly closed source software, InnerSource can be a great
 
 ## What are InnerSource Patterns?
 
-Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied). 
+Patterns are a way of describing a repeatable, proven solution to a problem with a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context (the situation you are left with after the solution is applied).
 
 In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
@@ -45,7 +45,7 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 ## How to Contribute?
 
-Please refer to: [Contribute to this book](../book/contribute-to-this-book.md)
+Please refer to: [Contribute to this book](./contribute-to-this-book.md)
 
 ## Licensing
 
