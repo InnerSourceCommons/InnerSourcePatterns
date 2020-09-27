@@ -18,9 +18,7 @@ Instead edit toc_template.md
 
 ## Appendix
 
-* Contributing
-  * [How to Contribute](../CONTRIBUTING.md)
-  * [Contributor Handbook](../meta/contributor-handbook.md)
+* [Contribute to this book](../book/contribute-to-this-book.md)
 * [Pattern Template](../meta/pattern-template.md)
 
 ## Resources
