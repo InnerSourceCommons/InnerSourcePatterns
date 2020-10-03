@@ -6,10 +6,12 @@ The files in the `./book` folder contain generator scripts and some extra conten
 
 ## Where is the book published?
 
-We host a **Staging version** of the book at:
-https://innersourcecommons.gitbook.io/innersource-patterns-staging/v/book/
+The latest version of the book for readers/consumers is hosted at [innersourcecommons.gitbook.io/innersource-patterns/v/book/](https://innersourcecommons.gitbook.io/innersource-patterns/v/book/).
 
+*NOTE:*
 The final URL of the book has not been determined yet.
+
+We also have a [Staging version](https://innersourcecommons.gitbook.io/innersource-patterns-staging/v/book/), mostly used by the editors/producers of the book for For testing purposes.
 
 ## Which patterns are published?
 
