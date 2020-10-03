@@ -38,8 +38,8 @@ Instead edit toc_template.md
 * [Contribute to this book](../book/contribute-to-this-book.md)
 * [Pattern Template](../meta/pattern-template.md)
 * Appendix
-  * [README Template]("../patterns/2-structured/project-setup/templates/README-template.md")
-  * [CONTRIBUTING Template]("../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md")
+  * [README Template](../patterns/2-structured/project-setup/templates/README-template.md)
+  * [CONTRIBUTING Template](../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
 
 ## Resources
 
