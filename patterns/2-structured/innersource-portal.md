@@ -47,7 +47,7 @@ The InnerSource Portal has enabled InnerSource project owners to advertise their
 ## Known Instances
 
 * A large financial services organization has used the creation of an InnerSource Portal to provide a mechanism of advertising and discovering InnerSource projects in existence across different business units
-* SAP promotes InnerSource projects in the InnerSource portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal.  
+* SAP promotes InnerSource projects in the InnerSource portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
 * The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource Gig Marketplace pattern in this context
 
 ## Status
