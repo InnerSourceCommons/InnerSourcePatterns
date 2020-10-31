@@ -167,10 +167,10 @@ In order to drive adoption, extrinsic motivators can be used to increase cross t
 
 InnerSource projects need a means for self assessment. Metrics can be one aspect to facilitate this assessment. Also, in organisations with a mature InnerSource adoption level we expect adoption of the method to be tracked based on clear, agreed upon metrics.
 
-MP-0: No existing monitoring policies at any level in the organization.
-MP-1: Metrics are important for certain teams, and they start using them in an isolated way.
-MP-2: There is a strategy at the organizational level with respect to metrics that help to validate specific policies across the organization. This monitoring policy exists at the level of some of the InnerSource projects.
-MP-3: There are clear guidelines, recommendations, and trainings about the use of metrics with certain infrastructure provided by the organization. This works at both levels: InnerSource program to understand the general InnerSource adoption within the organization, and at the level of InnerSource projects.
+* MP-0: No existing monitoring policies at any level in the organization.
+* MP-1: Metrics are important for certain teams, and they start using them in an isolated way.
+* MP-2: There is a strategy at the organizational level with respect to metrics that help to validate specific policies across the organization. This monitoring policy exists at the level of some of the InnerSource projects.
+* MP-3: There are clear guidelines, recommendations, and trainings about the use of metrics with certain infrastructure provided by the organization. This works at both levels: InnerSource program to understand the general InnerSource adoption within the organization, and at the level of InnerSource projects.
 
 **Support and Maintenance**
 
