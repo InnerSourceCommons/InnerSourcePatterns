@@ -3,6 +3,9 @@
 ### Challenge: grow community impact
 #### [Dedicated Community Leader (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/dedicated-community-leader.md)
 ## Adoption
+### Valuation Challenges
+#### How to measure a project's business value
+##### [crossteam project valuation](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/crossteam-project-valuation.md)
 ### Cultural Challenges
 #### Unrecognized effort
 ##### [praise participants (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/praise-participants.md)
@@ -27,10 +30,17 @@
 ##### [modular code (1)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/1-initial/modular-code.md)
 #### hesitant due to unknown
 ##### [start as experiment (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md)
+### Cross Legal Entities Challenges
+#### concern on legal liabilities or cross-company accounting
+##### [innersource license](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-license.md)
 ## Grow
 ### Discovery challenges
 #### Can't find matching projects
 ##### [Gig market (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/gig-marketplace.md)
 ##### [IS portal (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-portal.md)
-##### [Repository Activity Score (2)](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/repository-activity-score.md)
+#### Difficult to find active projects
+##### [repository activity score](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/repository-activity-score.md)
 ## Scale
+### Self education/improvement challenges
+#### Not aware of InnerSource best practices
+##### [maturity model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/maturity-model.md)
