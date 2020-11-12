@@ -1,6 +1,6 @@
 ## Title
 
-Issue tracker use cases
+Issue Tracker Use Cases
 
 ## Patlet
 

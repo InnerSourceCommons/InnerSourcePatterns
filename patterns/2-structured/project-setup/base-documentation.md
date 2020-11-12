@@ -1,6 +1,6 @@
 ## Title
 
-Provide standard base documentation through a README
+Standard Base Documentation
 
 ## Patlet
 
@@ -151,6 +151,10 @@ Europace AG, Paypal Inc.
 * Isabel Drost-Fromm
 
 ## Acknowledgements
+
+## Alias
+
+Provide standard base documentation through a README
 
 
 ## Status

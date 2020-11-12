@@ -1,6 +1,6 @@
 ## Title
 
-Maturity model: Learn about InnerSource best practices
+Maturity Model
 
 ## Patlet
 
@@ -224,6 +224,10 @@ long term.
 * Nerea
 
 ## Acknowledgements
+
+## Alias
+
+Maturity model: Learn about InnerSource best practices
 
 ## Status
 
