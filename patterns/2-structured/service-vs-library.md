@@ -1,5 +1,5 @@
 ## Title
-Service vs. library: It's inner source, not inner deployment
+Service vs. Library
 
 ## Patlet
 Teams in a DevOps environment may be reluctant to work across team boundaries on
@@ -88,3 +88,7 @@ Isabel Drost-Fromm
 ## Acknowledgements
 
 Thank you Tobias Gesellchen for review internal to Europace AG.
+
+## Alias
+
+Service vs. library: It's inner source, not inner deployment
