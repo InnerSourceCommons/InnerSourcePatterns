@@ -12,6 +12,8 @@ Instead edit toc_template.md
 
 * [Table of Contents](../book/toc.md)
 
+<img src="./innersource-program-mind-map.png" title="InnerSource Patterns as a Mind Map">
+
 ## Patterns
 
 <<PATTERS_HERE>>
