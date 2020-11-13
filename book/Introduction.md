@@ -49,6 +49,16 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 Please refer to: [Contribute to this book](./contribute-to-this-book.md)
 
+## Credits
+
+This book is the result of many years of work from countless [Open Source Contributors](https://github.com/InnerSourceCommons/InnerSourcePatterns/graphs/contributors) from around the world. Their willingness to openly share the challenges that they faced in their companies, and how InnerSource has helped them address those challenges, make this book such a valuable resource for others on their InnerSource journey.
+
+We want to specifically mention the InnerSource Patterns Working Group. They have nurtured the quality of the InnerSource Patterns and helped others to contribute. Lastly they also compiled a selection of available patterns into this book.
+
+The title image of this book was created by [Sebastian Spier](https://spier.hu) and adapted from an image by [Tony Hisgett - Alhambra 6](https://www.flickr.com/photos/hisgett/29345405788/), available under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+
+ **Thank you to all contributors! And happy InnerSource Day :)**
+
 ## Licensing
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
