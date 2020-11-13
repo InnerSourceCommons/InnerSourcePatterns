@@ -20,7 +20,7 @@ We publish the patterns that are of maturity **Structured** (Level 2) or **Valid
 ## How does it work?
 
 - `/.gitbook` - Holds basic configuration for the gitbook service. This never needs to be changed.
-- `/book/Introduction.md` - The introduction to our book. This content is what the reader sees first when they open the book. The current content is based on [README.md](../README.md) but we may modify this content even further, as we need to address the readers of the book (rather than the readers of our GitHub repository)
+- `/book/introduction.md` - The introduction to our book. This content is what the reader sees first when they open the book. The current content is based on [README.md](../README.md) but we may modify this content even further, as we need to address the readers of the book (rather than the readers of our GitHub repository)
 - `/book/toc.md` - This is the table of contents (ToC) for the book i.e. it contains all pages and patterns that are part of the book. This file is used to generate the left-hand-side menu in gitbooks.
 - `/book/generate_toc.rb` - Takes patterns of maturity **Structured** and **Validated**, . the ToC for the book using `/book/toc_template.md` as a template. Output is written to `/book/toc.md`. (the generating process runs via a GitHub Action defined in `/.github/workflows/book.yml`)
 
