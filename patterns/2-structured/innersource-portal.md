@@ -49,6 +49,7 @@ The InnerSource Portal has enabled InnerSource project owners to advertise their
 * A large financial services organization has used the creation of an InnerSource Portal to provide a mechanism of advertising and discovering InnerSource projects in existence across different business units
 * SAP promotes InnerSource projects in the InnerSource portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal.  
 * The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource Gig Marketplace pattern in this context
+* American Airlines promotes InnerSource projects via an internal InnerSource Marketplace. Similarly to SAP, projects self-register by adding `innersource` as a Github topic. Projects are searchable and filterable by language, topics, number of open issues, etc.
 
 ## Status
 
