@@ -25,7 +25,7 @@ These considerations led to a first prototype to calculate a repository activity
 
 ## Context
 
-Discovering InnerSource projects can be facilitated with the [InnerSource Portal](innersource-portal.md) and the [Gig Marketplace](gig-marketplace.md) pattern, or by promoting projects on other communication channels and platforms. The activity score defines a default order in which projects are presented to the community. 
+Discovering InnerSource projects can be facilitated with the [InnerSource Portal](innersource-portal.md) and the [Gig Marketplace](gig-marketplace.md) pattern, or by promoting projects on other communication channels and platforms. The activity score defines a default order in which projects are presented to the community.
 
 ## Forces
 
@@ -49,8 +49,8 @@ Projects with contributing guidelines, active participation stats, and issues (p
 All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://developer.github.com/v3/search/#search-repositories) and [GitHub statistics API](https://developer.github.com/v3/repos/statistics/). Other code versioning systems like BitBucket, Gitlab, Gerrit can be integrated as well if a similar API is available.
 
 The code below assumes the variable `repo` contains an entity fetched from the GitHub `search` API and the `participation` object contains an entity from the GitHub `stats/participation` API.
- 
-Manual adjustments according to soft KPIs (see [Forces](#forces)) can be made on top if needed. 
+
+Manual adjustments according to soft KPIs (see [Forces](#forces)) can be made on top if needed.
 
 ``` javascript
 // calculate a virtual InnerSource score from stars, watches, commits, and issues
@@ -99,17 +99,15 @@ Contributors are free to commit a part of their time to InnerSource project. The
 
 Projects can be sorted and presented by repository activity score to give a meaningful order in a portal presenting projects to potential new contributors. The score can be calculated on the fly or in a background job that evaluates all projects on a regular basis and stores a list of results.
 
-A crawler that regularly searches all InnerSource repositories (e.g. tagged with a certain [topic](https://github.com/topics) in GitHub) can be a helpful addition as well. It provides a ranked list of projects that can be used as an input for tools like the [InnerSource Portal](innersource-portal.md), a search engine, or an interactive chat bot. 
+A crawler that regularly searches all InnerSource repositories (e.g. tagged with a certain [topic](https://github.com/topics) in GitHub) can be a helpful addition as well. It provides a ranked list of projects that can be used as an input for tools like the [InnerSource Portal](innersource-portal.md), a search engine, or an interactive chat bot.
 
 ## Rationale
 
-The repository activity score is a simple calculation based on the GitHub API. It can be fully automated and easily adapted to new requirements. 
+The repository activity score is a simple calculation based on the GitHub API. It can be fully automated and easily adapted to new requirements.
 
 ## Known Instances
 
-Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since.
-
-When proposed to InnerSourceCommons in July 2020, this pattern emerged.
+* Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to InnerSourceCommons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
 
 ## Status
 
@@ -123,6 +121,6 @@ Proven
 
 Thank you to the InnerSource Commons Community for lightning-fast advice, and a lot of helpful input to feed this pattern! Especially:
 * Johannes Tigges
-* Sebastian Spier 
-* Maximilian Capraro 
+* Sebastian Spier
+* Maximilian Capraro
 * Tim Yao
