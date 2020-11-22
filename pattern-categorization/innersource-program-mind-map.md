@@ -2,7 +2,7 @@
 ## Begin
 ### [Start as an Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md)
 ### [Dedicated Community Manager](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/dedicated-community-leader.md)
-### Project setup
+### Project Setup
 #### [Standard Base Documentation](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/project-setup/base-documentation.md)
 #### [Communication Tooling](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/project-setup/communication-tooling.md)
 #### [Issue Tracker Use Cases](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/project-setup/issue-tracker.md)
