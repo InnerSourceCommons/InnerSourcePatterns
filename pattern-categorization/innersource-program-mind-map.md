@@ -42,6 +42,6 @@
 #### Difficult to find active projects
 ##### [Repository Activity Score](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/repository-activity-score.md)
 ## Scale
-### Self education/improvement challenges
+### Self Education/Improvement Challenges
 #### Not aware of InnerSource best practices
 ##### [Maturity Model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/maturity-model.md)
