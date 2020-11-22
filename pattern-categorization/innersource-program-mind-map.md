@@ -25,7 +25,7 @@
 ##### [Contracted Contributor](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/contracted-contributor.md)
 #### Rejection of accepting contribution
 ##### [30 Day Warranty](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/30-day-warranty.md)
-#### radical change of management
+#### Radical change of management
 ##### [Review Committee](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/review-committee.md)
 #### Fear of shared support responsibility
 ##### [Service vs. Library](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/service-vs-library.md)
