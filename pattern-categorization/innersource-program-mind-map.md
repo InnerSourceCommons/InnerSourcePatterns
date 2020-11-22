@@ -35,7 +35,7 @@
 #### concern on legal liabilities or cross-company accounting
 ##### [InnerSource License](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-license.md)
 ## Grow
-### Discovery challenges
+### Discovery Challenges
 #### Can't find matching projects
 ##### [Gig Marketplace](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/gig-marketplace.md)
 ##### [InnerSource Portal](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-portal.md)
