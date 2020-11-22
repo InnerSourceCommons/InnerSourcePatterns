@@ -29,7 +29,7 @@
 ##### [Review Committee](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/review-committee.md)
 #### Fear of shared support responsibility
 ##### [Service vs. Library](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/service-vs-library.md)
-#### not enough maintainers to scale
+#### Not enough maintainers to scale
 ##### [Trusted Committer](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/trusted-committer.md)
 ### Cross Legal Entities Challenges
 #### concern on legal liabilities or cross-company accounting
