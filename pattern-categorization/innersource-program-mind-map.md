@@ -44,4 +44,4 @@
 ## Scale
 ### Self education/improvement challenges
 #### Not aware of InnerSource best practices
-##### [Maturity model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/maturity-model.md)
+##### [Maturity Model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/maturity-model.md)
