@@ -32,7 +32,7 @@
 #### Not enough maintainers to scale
 ##### [Trusted Committer](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/trusted-committer.md)
 ### Cross Legal Entities Challenges
-#### concern on legal liabilities or cross-company accounting
+#### Concern on legal liabilities or cross-company accounting
 ##### [InnerSource License](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-license.md)
 ## Grow
 ### Discovery Challenges
