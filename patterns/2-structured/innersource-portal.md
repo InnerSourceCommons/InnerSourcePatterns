@@ -40,6 +40,8 @@ Visitors to the InnerSource portal should be able to see all available projects 
 
 A communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should also be considered in order to bolster the number of projects displayed within the portal.
 
+![Example of an InnerSource Portal](https://github.com/SAP/project-portal-for-innersource/blob/main/overview.png "Example of an InnerSource Portal")
+
 ## Resulting Context
 
 The InnerSource Portal has enabled InnerSource project owners to advertise their projects to an organization-wide audience.  Due to this increased visibility they are attracting much larger communities of contributors than ever before.  For those looking to get involved in InnerSource projects, the InnerSource portal has allowed them to discover exactly the kind of opportunities they are interested in by searching across all available InnerSource projects simultaneously based on their specific criteria.  Satisfying the needs of both of these audiences has helped establish InnerSource as a viable and attractive option for all areas of the organization to leverage to accomplish things together they could not have separately.
