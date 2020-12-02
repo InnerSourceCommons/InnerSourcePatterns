@@ -36,7 +36,7 @@ Your organization is interested in adopting an InnerSource work style and InnerS
 
 Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects. 
 
-A [reference implementation](http://github.com/sap/project-portal-for-InnerSource) for implementing this pattern is available on GitHub and open for contributions. It Lists all InnerSource projects of a company in an interactive and ease to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
+A [reference implementation](http://github.com/sap/project-portal-for-InnerSource) for this pattern is available on GitHub and open for contributions. It lists all InnerSource projects of a company in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
 
 Visitors to the InnerSource portal should be able to see all available projects as well as search for specific projects based on various criteria such as project name, technologies in use, contributor names, sponsoring business unit etc.  The information displayed via the InnerSource portal should be under the full control of the InnerSource project owners at all times.  Preferably, by sourcing this information directly from a specific data file or meta-data stored in the project repository itself.  Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors names, a brief description and links to the code repository or any supporting documentation.  
 
