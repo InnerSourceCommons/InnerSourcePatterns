@@ -4,7 +4,7 @@
 
 {% hint style="info" %}
 This is an early release of the InnerSource Patterns book.
-You may still find broken link, spelling mistakes, or other errors in this book.
+You may still find broken links, spelling mistakes, or other errors in this book.
 Please help us to fix them to produce the best book possible :) Learn here how to [contribute to this book](../book/contribute-to-this-book.md).
 {% endhint %}
 
