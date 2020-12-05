@@ -1,4 +1,4 @@
-name: book-toc-generation
+name: Book ToC Generation
 
 on:
   pull_request:
@@ -25,11 +25,12 @@ jobs:
         gem install bundler
         bundle install
 
-    - name: Generate ToC for the book
+    - name: Generate ToC
       run: |
         cd book/
         ruby generate_toc.rb
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Commit new ToC to book/toc.md
+      uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Writing new ToC for the book
