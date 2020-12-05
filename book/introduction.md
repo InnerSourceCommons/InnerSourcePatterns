@@ -10,7 +10,7 @@ Please help us to fix them to produce the best book possible :). Learn here how 
 
 Welcome to the **InnerSource Patterns book**.
 
-This book contains InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them. We call this reuse format a **pattern**.
+This book contains InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context. We call this format a **pattern**.
 
 These patterns have been collected by the [InnerSource Commons](http://innersourcecommons.org) community over many years. The most mature of these patterns have been published in this book.
 
