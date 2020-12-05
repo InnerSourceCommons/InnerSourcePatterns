@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - "book-creation"
+      - "master"
 
 jobs:
   book-toc-generation:
