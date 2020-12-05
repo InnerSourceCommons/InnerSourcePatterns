@@ -15,8 +15,8 @@ As the sources for the InnerSource Patterns and this book are kept in a reposito
 Here a few ways in which you can contribute:
 
 1. fix spelling, formatting, or other glitches that you notice in this book
-2. improve the content of the existing patterns
-3. contribute new patterns of how you have overcome InnerSource-related challenges in your organization
+2. improve the content of an existing pattern (e.g. by adding a short description of how you are using a pattern as a _Known Instance_)
+3. contribute a new pattern, describing how you have overcome InnerSource-related challenges in your organization
 
 For (1) and (2) above you can simply hit the **Edit on GitHub** link that you see at the top of each page in the book. This will take you straight to the respective file in our GitHub repository, where you can suggest your changes.
 
