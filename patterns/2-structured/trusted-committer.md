@@ -165,5 +165,5 @@ Published internally at Nike; drafted via pull-request in June of 2018.
 [Loren Sanz]: https://github.com/mrsanz
 [Jeremy Hicks]: https://github.com/greatestusername
 [Noah Cawley]: https://github.com/utanapishtim
-[praise]: /praise-participants.md
+[praise]: ./praise-participants.md
 [Fernando Freire]: https://github.com/dogonthehorizon
