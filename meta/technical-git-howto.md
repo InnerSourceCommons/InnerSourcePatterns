@@ -80,11 +80,11 @@ $ git checkout <branchname>
 
 Let's imagine we want to create a new pattern related to the activities of the
 Ewoks - they gave up hunting for some reason. We should choose some initial
-name for this pattern file. We will use 'ewoks-do-not-hunt.md'.
+name for this pattern file. We will use `ewoks-do-not-hunt.md`.
 
 ```
 $ git checkout -b pattern/ewoks-do-not-hunt
-$ touch ewoks-do-not-hunt.md
+$ touch patterns/1-initial/ewoks-do-not-hunt.md
 ```
 
 You can fill your [markdown](markdown-info.md) file with the [pattern template text](pattern-template.md) and begin to fill it in with your pattern.
@@ -93,7 +93,7 @@ Once our pattern file is ready to go, we need to add the file to the repo and
 commit that change to our new branch.
 
 ```
-$ git add ewoks-do-not-hunt.md
+$ git add patterns/1-initial/ewoks-do-not-hunt.md
 $ git commit -m "Inner Source Pattern to deal with Ewoks that do not hunt"
 ```
 
