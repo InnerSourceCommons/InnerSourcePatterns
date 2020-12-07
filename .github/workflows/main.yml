@@ -1,7 +1,7 @@
 # from: https://github.com/marketplace/actions/link-checker
 # link checker used is 'liche': https://github.com/raviqqe/liche
 
-name: Link Check on README.md
+name: Link Check on Patterns and README
 
 on: [push, pull_request]
 jobs:
