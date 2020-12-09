@@ -2,7 +2,7 @@
 
 The goal of the InnerSource patterns working group is to collect, document, and publish InnerSource best practices. To make the best practices easy to comprehend, evaluate, and apply, we codify them in a specific structure - [the patterns format](meta/pattern-template.md). More infos on the working group can be found in our [README.md](README.md) file.
 
-For this working group to strive, we welcome your contribution - be it small or huge. 
+For this working group to strive, we welcome your contribution - be it small or huge.
 
 
 ## How to Contribute?
@@ -26,12 +26,12 @@ We are happy to support you in contributing to the InnerSource patterns or to ju
 
 1. **Via Slack.** Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
 
-2. **During the patterns office hours.** We established a regular cadence of office hours for you to ask questions. You can find out about the next patterns office hours in the calendar at the bottom of [this page](https://innersourcecommons.org/resources/).
+2. **During the patterns office hours.** We established a regular cadence of office hours for you to ask questions. Find the date of the next patterns office hours [in this calendar](https://innersourcecommons.org/patterns-officehours).
 
 
 ## License of Contributions
 
-The contents of this repository are licensed under [CC-BY-SA-4.0](LICENSE.md). By contributing to this repository, you grant us (and everyone else for that matter) the right to use your contribution in accordance with that license.
+The contents of this repository are licensed under [CC-BY-SA-4.0](LICENSE.txt). By contributing to this repository, you grant us (and everyone else for that matter) the right to use your contribution in accordance with that license.
 
 
 ## Code of Conduct

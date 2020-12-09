@@ -1,10 +1,9 @@
 ## Title
 
-_Dedicated Community Manager_
-
-alternative:_Dedicated Community Leader_
+Dedicated Community Manager
 
 ## Patlet
+
 Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative.
 
 ## Problem
@@ -59,6 +58,10 @@ Having excellent and dedicated community leaders is a precondition for the succe
 ## Known Instances
 
 _BIOS at Robert Bosch GmbH_. Note that InnerSource at Bosch was, for the majority, aimed at increasing innovation and to a large degree dealt with internal facing products. This pattern is currently not used at Bosch for lack of funding.
+
+## Alias
+
+Dedicated Community Leader
 
 ## Status
 

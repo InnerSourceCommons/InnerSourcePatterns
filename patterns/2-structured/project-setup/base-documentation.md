@@ -2,7 +2,7 @@
 
 Provide standard base documentation through a README
 
-## PatLet
+## Patlet
 
 New contributors to an InnerSource project have a hard time figuring out who
 maintains the project, what to work on, and how to contribute. Providing
@@ -112,6 +112,9 @@ topics:
   bugs.
 * How to submit your modifications back to the project.
 * Some information on which turnaround time to expect for modifications made.
+
+![Brief picture of README.md and CONTRIBUTING.md content](./assets/base_docs_drawing.png)
+
 
 There are many of good examples for how to write a README.md and what kind
 of information to include in a CONTRIBUTING.md file in various open source projects.
