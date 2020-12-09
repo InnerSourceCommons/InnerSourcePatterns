@@ -2,7 +2,7 @@
 
 The Definition of an InnerSource Software (ISS) Project. We will largely take the ideas that follow
 from the definition of an Open Source Software (OSS) Project. Note, the definition of an OSS Project
-follows from [opensource.com's definition](https://opensource.com/resources/what-open-source). Further,
+follows from [opensource.com's definition](https://opensource.org/osd). Further,
 [RedHat also supplies a defintion of OSS project](https://www.redhat.com/en/topics/open-source/what-is-open-source).
 
 Our goal here is to mimic the [open source way that opensource.com](https://opensource.com/open-source-way)
