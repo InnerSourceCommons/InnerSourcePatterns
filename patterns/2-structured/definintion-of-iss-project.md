@@ -16,7 +16,7 @@ the network topology surrounding the source control management system instance. 
 can view the code base, the project is Open Source. On the other hand if any portion of the project's source 
 code lives on a restricted network topology such that it is not available to be read by the world at 
 large then we deem it InnerSource, and refer to it as "private." Also, most OSS projects contain a 
-[license (list taken from opensource.com)](https://opensource.com/law/13/1/which-open-source-software-license-should-i-use).
+[license (list taken from opensource.com)](https://opensource.org/licenses).
 The licenses are legal parameters that developers and users adhere to for the development and consumption
 of the project. Luckily we need not worry about licensing because we are concerned with "private" repositories.
 
