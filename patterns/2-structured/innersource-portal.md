@@ -42,7 +42,7 @@ Visitors to the InnerSource portal should be able to see all available projects 
 
 A communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should also be considered in order to bolster the number of projects displayed within the portal.
 
-![Example of an InnerSource Portal](https://github.com/SAP/project-portal-for-innersource/blob/main/overview.png "Example of an InnerSource Portal")
+![Example of an InnerSource Portal](https://github.com/SAP/project-portal-for-innersource/blob/main/overview.png?raw=true "Example of an InnerSource Portal")
 
 ## Resulting Context
 
