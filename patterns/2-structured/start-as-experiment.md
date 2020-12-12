@@ -91,7 +91,7 @@ of success.
 ## Related Patterns
 
 - _Trial Run_ (from the book [_Fearless
-  Change_](https://www.fearlesschangepatterns.com/))
+  Change_](https://fearlesschangepatterns.com/))
 
 ## Known Instances
 
