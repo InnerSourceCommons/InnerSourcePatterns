@@ -4,7 +4,7 @@ Trusted committers (TCs) are those members of our working group who have elevate
 
 ## Current Trusted Committers
 
-* [@spier](https://github.com/spiier) (added 2020-12-11)
+* [@spier](https://github.com/spier) (added 2020-12-11)
 * [@lenucksi](https://github.com/lenucksi) (added 2020-04-24)
 * [@nyeates](https://github.com/nyeates) (added 2017-03-02)
 * [@gruetter](https://github.com/gruetter) (added 2017-03-02)
