@@ -68,7 +68,7 @@ Observable positive effects:
 The RFC approach also has risk that we want to call out:
 
 - It doesn’t always work! e.g. some people might still argue against a decision that was already made via an RFC. However having the decision making process in writing is still beneficial in these scenarios, as you can point people to when and why a certain decision was made.
-- Writing up design proposals (architecture, protocols, etc) upfront has an element of upfront waterfall-like design to it that does not fit the iterative development approach that man development teams favor.
+- Writing up design proposals (architecture, protocols, etc) upfront has an element of upfront waterfall-like design to it that does not fit the iterative development approach that many development teams favor. Remember: “Working software over comprehensive documentation” (Agile Manifesto). The RFC process should be as lightweight as possible.
 - An RFC may become big and too unwieldy. This often shows in long comment threads and discussions surrounding it. In those situations we may decide to complement the RFC with synchronous communication such as a working group and in-person meetings. But time is still saved, as people can read the RFC before the meeting rather than having all the information shared during the meeting.
 
 ## Rationale
