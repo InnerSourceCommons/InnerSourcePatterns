@@ -83,6 +83,7 @@ Also for decision making outside of pure software design decisions, transparent 
 
 - **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs][uber].
 - **Europace** - As described in Open Organization: [Setting cross-team standards and best practices in the open][europace].
+- **BBC iPlayer & Sounds** - As presented at the ISC Fall Summit 2020 [Using Internal RFCs to Enhance Collaboration][bbc]
 
 ## Status
 
@@ -103,3 +104,4 @@ Also for decision making outside of pure software design decisions, transparent 
 [europace]: https://github.com/open-organization/open-org-distributed-work-guide/blob/master/drostfromm-remote-first-through-openess.md#setting-cross-team-standards-and-best-practices-in-the-open
 [open-decision-framework]: https://www.redhat.com/en/about/press-releases/red-hat-releases-open-decision-framework-spur-transparent-and-inclusive-leadership
 [innersource-fall-summit-2020]: http://innersourcecommons.org/events/isc-fall-2020/
+[bbc]: https://www.youtube.com/watch?v=U6zlghE0HcE
