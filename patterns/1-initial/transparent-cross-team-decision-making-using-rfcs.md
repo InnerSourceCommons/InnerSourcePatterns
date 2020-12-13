@@ -14,9 +14,13 @@ Discovering such disagreements or misunderstanding late in the process, e.g. onc
 
 For an InnerSource project this situation happens more frequently when the project is maintained by multiple teams in the company i.e. shared ownership.
 
-## Story (optional)
+## Story
 
-**TBD**
+A project, or application made up of multiple projects, is maintained by a number of different teams, with each team owning different areas of the project or application. These teams do make InnerSource contributions to each other's areas, but larger, cross-cutting changes are only ever driven by the teams' technical leads working together, or don't happen at all. This results in most engineers unable to effect large scale, cross-cutting change, reducing innovation and opportunities for collaboration.
+
+By implementing a process and template for RFCs, teams and individuals are empowered to propose large, cross-cutting changes via a transparent decision making process, with consultation across teams done asynchronously. This results in greater innovation, closer collaboration, and more knowledge spread. This is dependent on buy-in from all disciplines at all levels, and an environment of psychological safety so that people can openly propose and debate ideas.
+
+Like with any process, this must be continually improved upon. There may need to be changes to the RFC template or process to ensure it is inclusive, collaborative, and effective.
 
 ## Context
 
