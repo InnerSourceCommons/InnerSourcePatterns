@@ -84,6 +84,7 @@ Also for decision making outside of pure software design decisions, transparent 
 - **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs][uber].
 - **Europace** - As described in Open Organization: [Setting cross-team standards and best practices in the open][europace].
 - **BBC iPlayer & Sounds** - As presented at the ISC Fall Summit 2020 [Using Internal RFCs to Enhance Collaboration][bbc].
+- **Google Design Docs** - As described in this blog post by Malte Ubl [Design Docs at Google][google]
 
 ## Status
 
@@ -96,6 +97,10 @@ Also for decision making outside of pure software design decisions, transparent 
 - Tom Sadler
 - Sebastian Spier
 
+# Alias
+
+- [Design Docs][google]
+
 [requests-for-comments]: https://en.wikipedia.org/wiki/Request_for_Comments
 [30-years-of-rfcs]: https://www.rfc-editor.org/rfc/rfc2555.txt
 [rust]: https://github.com/rust-lang/rfcs
@@ -105,3 +110,4 @@ Also for decision making outside of pure software design decisions, transparent 
 [open-decision-framework]: https://www.redhat.com/en/about/press-releases/red-hat-releases-open-decision-framework-spur-transparent-and-inclusive-leadership
 [innersource-fall-summit-2020]: http://innersourcecommons.org/events/isc-fall-2020/
 [bbc]: https://www.youtube.com/watch?v=U6zlghE0HcE
+[google]: https://www.industrialempathy.com/posts/design-docs-at-google/
