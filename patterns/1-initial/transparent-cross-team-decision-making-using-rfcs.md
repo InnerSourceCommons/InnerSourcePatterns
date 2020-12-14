@@ -97,9 +97,7 @@ Also for decision making outside of pure software design decisions, transparent 
 
 ## Status
 
-**Initial** - Created August/September 2020 in preparation for Tom Sadler’s talk “Using internal RFCs to enhance collaboration” at the [InnerSource Fall Summit 2020][innersource-fall-summit-2020]. This first version was written by Sebastian Spier, after an interview with Tom Sadler.
-
-**(future) Structured** - After the InnerSource Fall Summit 2020 we plan to extend this pattern with additional info based on Tom Sadler’s talk at the summit. With that we want to bring the pattern to maturity “Structured”.
+**Structured**
 
 ## Author(s)
 
@@ -120,6 +118,5 @@ Also for decision making outside of pure software design decisions, transparent 
 [uber]: https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
 [europace]: https://github.com/open-organization/open-org-distributed-work-guide/blob/master/drostfromm-remote-first-through-openess.md#setting-cross-team-standards-and-best-practices-in-the-open
 [open-decision-framework]: https://www.redhat.com/en/about/press-releases/red-hat-releases-open-decision-framework-spur-transparent-and-inclusive-leadership
-[innersource-fall-summit-2020]: http://innersourcecommons.org/events/isc-fall-2020/
 [bbc]: https://www.youtube.com/watch?v=U6zlghE0HcE
 [google]: https://www.industrialempathy.com/posts/design-docs-at-google/
