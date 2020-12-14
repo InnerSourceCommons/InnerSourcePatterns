@@ -67,7 +67,10 @@ Observable positive effects:
 
 - **democratization of the decision making process** for decisions that impact many teams (also offloading team leads from that burden)
 - **a open asynchronous communication method** that works well across multiple teams and geos
-- **terminology alignmen**t e.g. by spelling out our testing terminology such as “what is a system test?”
+- **empowers individuals and teams** to effect large scale change
+- **record of decisions made** for people to refer back to for context
+- **scales impact of experienced engineers** as they can contribute to solutions asynchronously and remotely, rather than needing to be present in a meeting
+- **terminology alignment** e.g. by spelling out our testing terminology such as “what is a system test?”
 - **process alignment** e.g. by spelling out the out-of-hours support process
 - **greater clarity of thought**, as writing an RFC makes the author challenge herself more than they would normally
 
