@@ -47,11 +47,17 @@ Important elements of the solution are:
 
 - a description of when to publish an RFC (and when not to)
 - a template for RFC documents
-- a well known process surrounding RFCs e.g.
-    - how to publish RFC and share it with all stakeholders
+    - should provoke RFC author to consider their proposal from multiple angles
+    - should prompt both high level accessible overview, and detailed in-depth explanation
+- a well known, lightweight process surrounding RFCs e.g.
+    - how to publish RFC and share it with all stakeholders (e.g. Slack, mailing list)
     - how to collect feedback for the RFC
     - how to work in the feedback
-    - how to move the RFC towards a conclusion or decision
+    - how to move the RFC towards a conclusion or decision (e.g. relevant nominated maintainers to sign off)
+    - appropriate tooling chosen (e.g. non-engineers may not have access to source control tools)
+- a commitment to iterate on the RFC template and process
+
+[Rust][rust] is a good Open Source example of RFC template and process, and has been the basis for many other RFC processes.
 
 ## Resulting Context
 
