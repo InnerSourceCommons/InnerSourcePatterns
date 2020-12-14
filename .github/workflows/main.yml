@@ -3,7 +3,8 @@
 
 name: Link Check on Patterns and README
 
-on: [push, pull_request]
+on: push
+
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
