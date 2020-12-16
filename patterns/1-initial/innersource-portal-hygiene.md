@@ -4,7 +4,7 @@ InnerSource Portal - Hygiene
 
 ## Patlet
 
-Based off the [InnerSource portal](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/innersource-portal.md) pattern.
+Based off the [InnerSource portal](../2-structured/innersource-portal.md) pattern.
 
 Allow generation of an official badge for projects intending to be recognised as InnerSource project within your company.
 
