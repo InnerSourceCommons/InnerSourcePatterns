@@ -1,6 +1,6 @@
 ## Title
 
-Communication tooling
+Communication Tooling
 
 ## Patlet
 
@@ -65,21 +65,21 @@ personally back to official communication channels.
 
 ## Resulting Context
 
-Setting up and consistently using official asynchronous communication channels 
-helps create a base level of passive documentation that can be referenced again 
+Setting up and consistently using official asynchronous communication channels
+helps create a base level of passive documentation that can be referenced again
 when similar questions come up again.
 
 With communication happening in the open others can easily follow project
-progress and get active contributing. Others lurking and reading lowers the 
+progress and get active contributing. Others lurking and reading lowers the
 barrier to get involved raising the likelihood of receiving contributions.
 
 With questions being answered in public more people can add their perspective
-leading to a complete picture - this includes not only host team members, 
+leading to a complete picture - this includes not only host team members,
 but also users of the project.
 
 Keeping communication in asynchronous channels allows for participants on
 different schedules - either due to different time zones or due to different
-routines, meeting schedules, team routines - to meaningfully contribute to 
+routines, meeting schedules, team routines - to meaningfully contribute to
 the project.
 
 Answering questions in those channels means that not only other team members
