@@ -4,15 +4,15 @@ InnerSource Portal - Hygiene
 
 ## Patlet
 
-Based off the [InnerSource portal](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/innersource-portal.md) pattern.
+Based off the [InnerSource portal](../2-structured/innersource-portal.md) pattern.
 
 Allow generation of an official badge for projects intending to be recognised as InnerSource project within your company.
 
-This will help users distiguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that - have been made public by mistake, due to negligence or for ease of discoverability ( but do NOT adhere to InnerSource patterns/best practices). Furthermore the badge serves as additional marketing for the InnerSource intiative at your company.
+This will help users distinguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that - have been made public by mistake, due to negligence or for ease of discoverability (but do NOT adhere to InnerSource patterns/best practices). Furthermore the badge serves as additional marketing for the InnerSource initiative at your company.
 
 ## Problem
 
-- Users don't have a mechanism of distiguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that have been made public by mistake, due to negligence or for ease of discoverability ( but do NOT adhere to InnerSource patterns/best practices).
+- Users don't have a mechanism of distinguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that have been made public by mistake, due to negligence or for ease of discoverability (but do NOT adhere to InnerSource patterns/best practices).
 - Unmaintained or stale InnerSource projects clutter the portal and make it difficult for people to discover active projects, and diminishes the value on the InnerSource portal
 
 ## Context
@@ -51,21 +51,27 @@ Once the url is entered some basic checks will be carried out against your repo 
 
 Once all checks have passed the InnerSource portal will generate your very own InnerSource badge, which is basically am image with a random filename. Note this badge is specific to the repo that was being registered. In the background the repo name, badge filename and badge expiry date is stored.
 
-The last step is for users update there repos README.md file to include the badge. This will then allow the InnerSource portal to discover the project and will automatically include it in the portal.
+The last step is for users update there repos `README.md` file to include the badge. This will then allow the InnerSource portal to discover the project and will automatically include it in the portal.
 
 ### InnerSource portal batch jobs
 
 - Remove expired badges.  
 Query InnerSource projects which have an expired badge. Delete badge file causing the badge to not appear in the repos rendered README anymore.
 - Notify projects approaching expiry.  
-Query InnserSource projects which have a badge close to expiration. Send a notification to the InnerSource projects code owners, publish an issue to the repo, publish a message in the InserSource channel on Teams. This should be ample warning to go update the badge.
+Query InnerSource projects which have a badge close to expiration. Send a notification to the InnerSource projects code owners, publish an issue to the repo, publish a message in the InnerSource channel on Teams. This should be ample warning to go update the badge.
 - Bonus: Notify owners of public repos not registered as InnerSource projects yet to either make their repos private or to consider registering their repo as an innerSource project. This isn't entirely related to hygiene of the InnerSource portal rather general hygiene of all repos in your organisations SCM system. Also servers as excellent marketing and awareness generation for your organisations InnerSource initiative.
 
 ## Resulting Context
 
-The autom managed InnerSource portal and badge system has ensured that the InnerSource portal only displays active projects and as result contains less clutter, thus increasing the credibility of the portal and InnerSource project initiative itself. The badges in the repos itself allow people to quickly distinguish an innerSource project from a standard public repo.
+The automatically managed InnerSource portal and badge system has ensured that the InnerSource portal only displays active projects and as result contains less clutter, thus increasing the credibility of the portal and InnerSource project initiative itself. The badges in the repos itself allow people to quickly distinguish an InnerSource project from a standard public repo.
 
 ## Author(s)
 
 - Dinesh Dharmawardena
+
+## Status
+
+**Initial**
+
+Based of PR [#120](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/120) we decided to merge this pattern in a relatively early state, as the upstream had disappeared and we didn't want to loose the content. See further discussions in the PR itself.
 
