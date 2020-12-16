@@ -3,7 +3,11 @@
 
 name: Link Check on Patterns and README
 
-on: push
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
 
 jobs:
   linkChecker:
