@@ -66,6 +66,7 @@ possible to either deploy the same service in independent environments with sepa
 
 #### Pattern Ideas (not yet proven; brainstormed)
 
+* [InnerSource Portal - Hygiene](patterns/1-initial/innersource-portal-hygiene.md) - *Allow generation of an official badge for projects intending to be recognised as InnerSource project within your company.*
 * [Overcome Acquisition Based Silos - Developers](patterns/1-initial/overcome-acquisition-based-silos-developer.md)
 * [Overcome Acquisition Based Silos - Managers](patterns/1-initial/overcome-acquisition-based-silos-manager.md)
 * [Discover Your InnerSource](patterns/1-initial/discover-your-innersource.md)
