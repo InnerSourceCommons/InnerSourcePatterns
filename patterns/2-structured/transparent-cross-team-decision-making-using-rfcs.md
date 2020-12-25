@@ -104,7 +104,7 @@ Also for decision making outside of pure software design decisions, transparent 
 - Tom Sadler
 - Sebastian Spier
 
-# Aliases
+## Aliases
 
 - [Design Docs][google]
 - Architecture Decision Record (ADRs)
