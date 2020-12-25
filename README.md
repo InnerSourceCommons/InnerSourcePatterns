@@ -39,7 +39,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Review Committee](patterns/2-structured/review-committee.md) - *A formal review committee is setup within an org to "officiate" particular inner source projects with resources, etc.*
 * [Service vs. Library](patterns/2-structured/service-vs-library.md) - *Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's
 possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.*
-* [Trusted Committer](patterns/2-structured/trusted-committer.md) - *Many inner-source projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
+* [Trusted Committer](patterns/2-structured/trusted-committer.md) - *Many InnerSource projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
 
 #### Pattern Drafts (proven, not yet fully reviewed)
 
