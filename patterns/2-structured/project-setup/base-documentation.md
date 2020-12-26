@@ -144,7 +144,8 @@ started right away: [README-template.md](templates/README-template.md) and
 
 ## Known Instances
 
-Europace AG, Paypal Inc.
+* Europace AG
+* Paypal Inc.
 
 ## Authors
 
@@ -156,10 +157,10 @@ Europace AG, Paypal Inc.
 
 Provide standard base documentation through a README
 
-
 ## Status
 
-Drafted in December 2019.
+* Structured
+* Drafted in December 2019.
 
 ## References
 

@@ -82,10 +82,13 @@ development but also during the planning phase of new features:
   potential future contributors to lurk, follow along, get comfortable and learn
   the ways of the project long before they have the first need to get involved.
 
-
 ## Known Instances
 
 * Europace AG
+
+## Authors
+
+Isabel Drost-Fromm
 
 ## Status
 
