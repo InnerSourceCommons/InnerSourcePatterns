@@ -51,6 +51,6 @@ Time is spent making the shared code modular so it can be reused.
 
 ## Status
 
-Unproven
+Initial
 
 ## Author  
