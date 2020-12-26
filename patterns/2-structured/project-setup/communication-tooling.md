@@ -98,5 +98,5 @@ Isabel Drost-Fromm
 
 ## Status
 
-* Structured.
+* Structured
 * Drafted in December 2019.

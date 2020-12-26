@@ -34,7 +34,7 @@ Your organization is interested in adopting an InnerSource work style and InnerS
 
 ## Solutions
 
-Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects. 
+Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects.
 
 A [reference implementation](http://github.com/sap/project-portal-for-InnerSource) for this pattern is available on GitHub and open for contributions. It lists all InnerSource projects of a company in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
 
@@ -64,8 +64,8 @@ The InnerSource Portal has enabled InnerSource project owners to advertise their
 
 ## Status
 
-Structured
-(old status: Proven)
+* Structured
+* Old status: Proven
 
 ## Author(s)
 

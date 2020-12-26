@@ -65,7 +65,8 @@ Dedicated Community Leader
 
 ## Status
 
-Proven
+* Structured
+* Old status: Proven
 
 ## Authors
 
