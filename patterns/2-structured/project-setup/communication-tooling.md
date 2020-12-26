@@ -87,10 +87,10 @@ can listen in and provide additional information, it also means that other
 users with the same question see (or later on find) the previous answer leading
 to a lower need to repeat explanations.
 
-
 ## Known Instances
 
-Europace AG, Paypal Inc.
+* Europace AG
+* Paypal Inc.
 
 ## Authors
 
@@ -98,6 +98,5 @@ Isabel Drost-Fromm
 
 ## Status
 
-Structured.
-
-Drafted in December 2019.
+* Structured.
+* Drafted in December 2019.
