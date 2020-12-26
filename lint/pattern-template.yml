@@ -1,4 +1,4 @@
-default: false # includes/excludes all rules by default
+default: false # excludes all default markdownlint rules
 
 # Custom rules:
 PATTERN-TEMPLATE-RULE-001: true
