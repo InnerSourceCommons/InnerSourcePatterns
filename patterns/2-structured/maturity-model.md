@@ -231,6 +231,5 @@ Maturity model: Learn about InnerSource best practices
 
 ## Status
 
-Drafted in September 2019
-
-Currently in status "Structured".
+* Structured
+* Drafted in September 2019

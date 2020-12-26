@@ -1,7 +1,9 @@
 ## Title
+
 Service vs. Library
 
 ## Patlet
+
 Teams in a DevOps environment may be reluctant to work across team boundaries on
 common code bases due to ambiguity over who will be responsible for
 responding to service downtime. The solution is to realize that often it's
@@ -79,7 +81,8 @@ Europace AG
 
 ## Status
 
-Proven
+* Structured
+* Old status: Proven
 
 ## Author(s)
 
