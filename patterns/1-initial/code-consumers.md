@@ -42,5 +42,5 @@ _needs work...?_
 * Katrina Novakovic (RedHat)
 
 # Status
-Drafted at the 2019 Spring InnerSource Commons Summit in Galway - 10 April 2019
-
+* Initial
+* Drafted at the 2019 Spring InnerSource Commons Summit in Galway - 10 April 2019

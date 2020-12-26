@@ -1,6 +1,9 @@
 ## Title
 Discover Your InnerSource
 
+## Patlet
+TBD
+
 ## Also Known As
 * Not looking for stuff internally
 * Don't bother looking
@@ -58,7 +61,8 @@ Make it easy to find the reusable code.
 * See [Improved Findability](improve-findability.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
 
 ## Status
-Brainstormed pattern idea in progress
+* Initial
+* Brainstormed pattern idea in progress
 
 ## Authors
 * Georg Grutter

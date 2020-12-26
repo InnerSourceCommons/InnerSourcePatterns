@@ -2,6 +2,9 @@
 * Junkyard styled inner sourcing
 * Finding but deciding not to use the internal component
 
+## Patlet
+TBD
+
 ## Context
 Two situations:
 
@@ -25,7 +28,9 @@ Two situations:
 * Provide some sort of grading (Alexander marked his patterns with 0, 1 or 2 stars depending upon how convinced he was that it was a good pattern), so that the reader can be aware of what to expect. But how to do that without insulting the contributor? (solution: engage them in the process -- have 2 scores, what they think, and what users think or how many times its been used)
 
 ## Status
-Brainstormed pattern idea in progress
+
+* Initial
+* Brainstormed pattern idea in progress
 
 ## Authors
 * Georg Grutter

@@ -69,9 +69,9 @@ TBD
 
 ## Status  
 
-Unproven
-
-Old status: brainstormed solution
+* Initial
+* Old status: Unproven
+* Old status: brainstormed solution
 
 ## Author   
 
