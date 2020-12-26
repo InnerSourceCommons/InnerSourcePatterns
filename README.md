@@ -72,10 +72,10 @@ possible to either deploy the same service in independent environments with sepa
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 
-#### Pattern Donuts (needing a solution)
+#### Donuts (needing a solution)
 
 * [How to Defeat the Hierarchical Constraints](patterns/1-initial/defeat-hierarchical-constraints.md)
-* [Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47)
+* [Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md)
 * [Organizational Mindset Change](patterns/1-initial/organizational-mindset-change.md)
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
 * [Get Contributions Despite Silo Thinking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/38)
