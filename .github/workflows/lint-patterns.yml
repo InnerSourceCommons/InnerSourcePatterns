@@ -1,6 +1,5 @@
 # from: https://github.com/marketplace/actions/markdown-linting-action
-
-name: Validate pattern syntax
+name: Pattern Syntax Validation
 
 on:
   push:
@@ -9,11 +8,10 @@ on:
   pull_request:
 
 jobs:
-  validate-pattern-syntax:
+  validate:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out code
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
     - name: Problem Matcher for markdownlint-cli
       uses: xt0rted/markdownlint-problem-matcher@v1
     - name: Lint pattern files (markdown)
