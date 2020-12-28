@@ -26,37 +26,37 @@ To achieve a given maturity level a pattern has to satisfy the requirements for 
 Patterns (or other documents) of level 1 are stored in the directory `/patterns/1-initial`.
 
 - Validation requirements:
-	- N/A
-	
+  - N/A
+ 
 - Content requirements:
-	- The document is readible & comprehensible for other parties (not just for the author(s))
-	- The author(s) contribute the contents according to the [license](../LICENSE.txt) & are allowed to do so
-	- Thoughts and contents by third parties are quoted / referenced explicitly
+  - The document is readible & comprehensible for other parties (not just for the author(s))
+  - The author(s) contribute the contents according to the [license](../LICENSE.txt) & are allowed to do so
+  - Thoughts and contents by third parties are quoted / referenced explicitly
 
-	
+ 
 ### Requirements: Level 2 - Structured
 
 Patterns of level 2 are stored in the directory `/patterns/2-structured`.
 
 - Validation requirements:
-	- Is validated by at least one known instance 
-		- Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
-	
+  - Is validated by at least one known instance 
+  - Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
+ 
 - Content requirements:
-	- Complies with the [patterns format](pattern-template.md)
-	- Complies with *basic style guide*(#) - *Oops! We have not yet developed this*
-	
-	
+  - Complies with the [patterns format](pattern-template.md)
+  - Complies with *basic style guide*(#) - *Oops! We have not yet developed this*
+ 
+ 
 ### Requirements: Level 3 - Validated
 
 Patterns of level 3 are stored in the directory `/patterns/3-validated`.
 
 - Validation requirements:
-	- Is validated by at least three known instances
-	- Considers all known instances to the best of working group members' knowledge
-	- Community agreement (via lazy consensus of trusted committers) on correctness of contents
-	
+  - Is validated by at least three known instances
+  - Considers all known instances to the best of working group members' knowledge
+  - Community agreement (via lazy consensus of trusted committers) on correctness of contents
+ 
 - Content requirements:
-	- Uses & has no conflicts with working group terminology (defined by glossary / implicit usage) - *Oops! We have not yet developed this.*
-	- Fits & has no conflicts with existing patterns (of this maturity level or higher)
-	- Thorough review by at least two trusted committers
+  - Uses & has no conflicts with working group terminology (defined by glossary / implicit usage) - *Oops! We have not yet developed this.*
+  - Fits & has no conflicts with existing patterns (of this maturity level or higher)
+  - Thorough review by at least two trusted committers
