@@ -11,6 +11,7 @@ You are already using InnerSource in your company and want to share your ideas a
 ## Mission Statement
 
 Our mission in this working group
+
 - Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
 - Continuously publish the most mature patterns as an ebook
 

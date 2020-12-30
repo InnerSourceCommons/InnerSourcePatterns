@@ -9,6 +9,7 @@ TBD
 # Problem
 
 There's several reasons why we might want to know who's using (consuming) our code. We can't do the following:
+
 * notify downstream users/projects of found (fixed?) vulnerabilities
 * audit flow of IP
 * kill off code - knowing where (or if) it is used
@@ -29,6 +30,7 @@ The act of opening code allows people to use it without letting you know.
 # Solutions
 
 The following are potential solutions that have been proposed to this problem:
+
 * Scan all output artifacts for known signatures (manifests/npm/includes etc)
 * Voluntary disclosure/signup upon installation/using
 * Search for identifiers/markers in source control

@@ -121,6 +121,7 @@ The repository activity score is a simple calculation based on the GitHub API. I
 ## Acknowledgements
 
 Thank you to the InnerSource Commons Community for lightning-fast advice, and a lot of helpful input to feed this pattern! Especially:
+
 * Johannes Tigges
 * Sebastian Spier
 * Maximilian Capraro

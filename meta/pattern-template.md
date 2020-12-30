@@ -43,6 +43,7 @@ Explains why this is the right solution; using totally different words WHY this 
 Where has this been seen before? Helps to reinforce that this is a REAL pattern and that you match the context.
 
 May mention:
+
 * A particular business
 * Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
 
