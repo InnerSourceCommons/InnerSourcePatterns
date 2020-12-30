@@ -237,10 +237,7 @@ potential characterization based on the companies structure?
 - Get Contributions Despite Silo Thinking
 - Contained InnerSource
 
-
 [1] https://es.slideshare.net/jimjag/apachecon-2017-innersource-and-the-apache-way
-
-
 
 ### Russ Rutledge
 
@@ -274,7 +271,6 @@ I like a lot of the other planes suggestions.  Wanted to add one more - the poin
 - Get Contributions Despite Silo Thinking
 - Contained InnerSource
 
-
 ### Ofer Hermoni
 
 tools
@@ -285,5 +281,3 @@ trust
 etc.
 Processes / Methodology
 Coding practices
-
-

@@ -43,4 +43,3 @@ _needs work...?_
 
 # Status
 Drafted at the 2019 Spring InnerSource Commons Summit in Galway - 10 April 2019
-

@@ -20,7 +20,6 @@ If you want to help promoting a pattern one maturity level up, we suggest to fir
 
 To achieve a given maturity level a pattern has to satisfy the requirements for that given maturity level and lower levels. The following sections lay out the requirements per maturity level in detail.
 
-
 ### Requirements: Level 1 - Initial
 
 Patterns (or other documents) of level 1 are stored in the directory `/patterns/1-initial`.
@@ -33,7 +32,6 @@ Patterns (or other documents) of level 1 are stored in the directory `/patterns/
   - The author(s) contribute the contents according to the [license](../LICENSE.txt) & are allowed to do so
   - Thoughts and contents by third parties are quoted / referenced explicitly
 
-
 ### Requirements: Level 2 - Structured
 
 Patterns of level 2 are stored in the directory `/patterns/2-structured`.
@@ -45,7 +43,6 @@ Patterns of level 2 are stored in the directory `/patterns/2-structured`.
 - Content requirements:
   - Complies with the [patterns format](pattern-template.md)
   - Complies with *basic style guide*(#) - *Oops! We have not yet developed this*
-
 
 ### Requirements: Level 3 - Validated
 

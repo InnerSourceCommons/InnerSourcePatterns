@@ -48,7 +48,6 @@ Make it easy to find the reusable code.
 
 ## Known instances
 
-
 ## Resulting Context
 * Internal components are easily visible
 * Developers looking for code can search for it and find it quickly.
