@@ -40,7 +40,7 @@ Patterns of level 2 are stored in the directory `/patterns/2-structured`.
 
 - Validation requirements:
   - Is validated by at least one known instance 
-  - Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
+    - Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
  
 - Content requirements:
   - Complies with the [patterns format](pattern-template.md)
