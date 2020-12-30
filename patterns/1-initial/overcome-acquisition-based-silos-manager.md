@@ -20,8 +20,8 @@ Acquisition(s) resulting in multiple cultural perspectives. Acquired company's M
 - Fear of losing control
 - Have to deal with developer fears
 - Fear of losing developer resources (who work on other projects)
-- Rigid timelines   
-- Politics and egos    
+- Rigid timelines
+- Politics and egos
 - Bi-directional fear/Lack of trust
 - Fear of losing one's job
 - Fear of loss of identity
@@ -38,7 +38,7 @@ Acquisition(s) resulting in multiple cultural perspectives. Acquired company's M
 
 Make the acquired teams feel secure in the new environment by
 
-1. Establish a neutral (well-respected) governance committee _across both companies_ that selects from the different options across these silos to converge and integrate. (_validated_).   
+1. Establish a neutral (well-respected) governance committee _across both companies_ that selects from the different options across these silos to converge and integrate. (_validated_).
 
 2. Come up with rational rules for managing code redundancy as a result of acquisition (_validated_)
  - Joint effort between two teams to bring new software into existing platforms. (_validated_)

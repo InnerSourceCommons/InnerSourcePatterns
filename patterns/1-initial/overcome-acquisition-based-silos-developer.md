@@ -35,7 +35,7 @@ Acquisition(s) resulting in multiple cultural perspectives. Developer is aware a
 
 Make the acquired teams feel secure in the new environment by
 
-1. Establish a neutral (well-respected) governance committee _across both companies_ that selects from the different options across these silos to converge and integrate. (_validated_).   
+1. Establish a neutral (well-respected) governance committee _across both companies_ that selects from the different options across these silos to converge and integrate. (_validated_).
 
 2. Come up with rational rules for managing code redundancy as a result of acquisition (_validated_)
  - Joint effort between two teams to bring new software into existing platforms. (_validated_)

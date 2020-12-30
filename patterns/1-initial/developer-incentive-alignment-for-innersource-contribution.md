@@ -22,7 +22,7 @@ TBD
 * The organization wants to create more alignment between work efforts and external motivation without relying directly on financial rewards or quotas.  
 * The organization is comfortable with a personnel management and/or professional development style that is organic or “bottom-up” as opposed to traditional training or development programs run through HR (even as task management or velocity is managed in a more top-down fashion).
 
-## Forces   
+## Forces
 
 1. Existing attitudes and developer culture
  * Team-centric behaviour is not evident. Developers of all levels tend to focus mostly on their own contributions. When stories are assigned, work is often done ‘locally’ and not pushed up or checked in until the end of the sprint.
@@ -52,9 +52,9 @@ TBD
 * Moving up the ladder requires taking on more responsibility for mentoring, reviewing code, and bringing in contributions
 * Developers may choose not to move up the ladder because of a preference for certain types of contributions ("I like just writing code" vs "I want to have a bigger impact on the team")
 * relevant Skills & experience are associated with advancing titles/roles - Moving up the ladder also requires developing the social skills necessary for mentorship
-* Job Descriptions/Roles can be easily associated/assimilated into employee review systems or other HR programs (comp/bonus structures, etc)     
+* Job Descriptions/Roles can be easily associated/assimilated into employee review systems or other HR programs (comp/bonus structures, etc)
 
-## Resulting Context    
+## Resulting Context
 
 * culture has been shifted from contribution culture to learning culture
 * devs & pms believe time spent mentoring and reviewing is equally, if not more so, valuable to time spent coding
@@ -73,6 +73,6 @@ Unproven
 
 Old status: brainstormed solution
 
-## Author   
+## Author
 
 Jory Burson

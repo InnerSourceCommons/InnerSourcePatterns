@@ -1,8 +1,8 @@
-# InnerSource Pattern System 
+# InnerSource Pattern System
 
 ## About
 
-This document shall serve to define a system with which we organize our 
+This document shall serve to define a system with which we organize our
 patterns using a limited set of classifications.
 
 ## Related Work
@@ -12,14 +12,14 @@ patterns using a limited set of classifications.
 From the Authors of the classic GoF book "Design Patterns":
 
 > Design patterns vary in their granularity and level of abstraction. Because
-> there are many design patterns, we need a way to organize them. 
+> there are many design patterns, we need a way to organize them.
 
 They classify patterns so that they "can refer to families of related patterns."
 The authors also suspect that this classification will make "learning the
 catalog" faster. They Classify patterns according to two criteria: Purpose and
 Scope. They introduce the following classes of purpose in their book:
 
-- Creational, 
+- Creational,
 - Structural and
 - Behavioral.
 
@@ -47,14 +47,14 @@ The second criterion categorizes the problems solved by the patterns:
 
 - _From Mud to Structure_,
 - _Distributed Systems_,
-- _Interactive Systems_, 
+- _Interactive Systems_,
 - _Adaptable Systems_,
 - _Structural Decomposition_,
-- ... 
+- ...
 
 you get the point.
 
-In addition to this, he postulates a number of properties, a pattern system 
+In addition to this, he postulates a number of properties, a pattern system
 must exhibit. According to Buschmann, a pattern system
 
 - should be simple and easy to learn,
@@ -84,17 +84,17 @@ PLoP 2016](http://www.hillside.net/plop/2016/papers/three/26.3.pdf).
 
 ## Candiate Classifications
 
-This section shall serve to collect individual proposals for systems of ISC 
+This section shall serve to collect individual proposals for systems of ISC
 patterns. Contribute away ;)
 
 ### Georg Grütter
 
 I propose we use a classification of the problem, a pattern tries to solve as
-the main criteria for organizing our list of patterns. The following 
+the main criteria for organizing our list of patterns. The following
 classifications come to mind:
 
-- 1. Getting started with InnerSource 
-- 2. Getting sustainable middle management buy-in and support 
+- 1. Getting started with InnerSource
+- 2. Getting sustainable middle management buy-in and support
 - 3. Getting buy-in of developers
 - 4. Fostering contributions
 - 5. Interfacing with traditional, non-InnerSource projects

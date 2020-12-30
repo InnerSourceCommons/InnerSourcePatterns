@@ -46,7 +46,7 @@ Philips Healthcare, “Feature Advocate” described in: VK Gurbani et al. (2010
 * Architecture for Participation (unknown pattern)
 * Feature Advocate (unknown pattern)
 
-*Note:* 
+*Note:*
 The last 3 patterns above were mentioned to be "under construction" at the time where this pattern was written. Right now we don't know where these patterns are.
 
 ## Status
