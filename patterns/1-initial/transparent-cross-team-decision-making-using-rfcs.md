@@ -44,10 +44,10 @@ Important elements of the solution are:
 - a description of when to publish an RFC (and when not to)
 - a template for RFC documents
 - a well known process surrounding RFCs e.g.
-    - how to publish RFC and share it with all stakeholders
-    - how to collect feedback for the RFC
-    - how to work in the feedback
-    - how to move the RFC towards a conclusion or decision
+  - how to publish RFC and share it with all stakeholders
+  - how to collect feedback for the RFC
+  - how to work in the feedback
+  - how to move the RFC towards a conclusion or decision
 
 ## Resulting Context
 

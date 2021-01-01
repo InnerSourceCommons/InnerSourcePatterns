@@ -38,10 +38,10 @@ There is a common process, though, by which you can create a model to calculate 
 Assemble a small team of subject matter experts in your domain.
 Using that team of experts, estimate 4 things about each consumer of your project output:
 
-  * How long does it take them to consume your project output?
-  * How long would it otherwise take them to home-roll the value of your project output for themselves?
-  * What percentage of your project output is actually useful for them?
-  * How much time on an ongoing basis (ideally per-use) would they otherwise spend maintaining their home-rolled solution?
+* How long does it take them to consume your project output?
+* How long would it otherwise take them to home-roll the value of your project output for themselves?
+* What percentage of your project output is actually useful for them?
+* How much time on an ongoing basis (ideally per-use) would they otherwise spend maintaining their home-rolled solution?
 
 When making these estimations, it's impossible to know with high accuracy _exactly_ how long any activities take.  That's not your goal.
 Rather than exactness, you should strive to _**set a worst-case bound**_ on these estimates.

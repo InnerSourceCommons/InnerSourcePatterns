@@ -34,7 +34,7 @@ Development does not want to spend the extra resources needed to develop modular
 ## Solutions
 
 * Provide incentives to teams to invest in modular code. Modular code is far more reusable. This could work well for large teams when working on modularized projects; team members can focus on their smaller assigned tasks.
-    - Developers could get an opportunity to increase their influence in the organization.
+  - Developers could get an opportunity to increase their influence in the organization.
 * Select certain "success projects," teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
 * Offer education. Modular code is well-understood; there is a lot of literature in favor of this.
 * Accept the cost of modularization, build time into the release schedule.
@@ -42,7 +42,7 @@ Development does not want to spend the extra resources needed to develop modular
 * Modular code is easier to work with, especially for larger teams.
 * Mitigate risk and fear of quality degradation from accepting InnerSource contributions.
 * Establish a checklist of elements to be checked off to classify a component as reusable.
-    - There could be requirements on tests, tools and documentation before considering a component as reusable
+  - There could be requirements on tests, tools and documentation before considering a component as reusable
 * Establish standards on testing methodology, labeling of repos.
 
 ## Resulting Context
