@@ -99,7 +99,8 @@ of success.
 
 ## Status
 
-Proven
+* Structured
+* Old status: Proven
 
 ## Author
 

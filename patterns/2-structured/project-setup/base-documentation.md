@@ -1,12 +1,12 @@
 ## Title
 
-Provide standard base documentation through a README
+Standard Base Documentation
 
 ## Patlet
 
 New contributors to an InnerSource project have a hard time figuring out who
 maintains the project, what to work on, and how to contribute. Providing
-documentation in standard files like README.md/CONTRIBUTING.md enables a
+documentation in standard files like `README.md`/`CONTRIBUTING.md` enables a
 self service process for new contributors, so that they can find the answers to
 the most common questions on their own.
 
@@ -30,40 +30,15 @@ speed quickly.
 
 ## Forces
 
-- The project was converted into an InnerSource project only recently. Before,
-  users were either only internal or on-boarded in personal face-to-face
-  sessions.  Equally, people working on the project went through personal
-  on-boarding sessions which do not scale with growing numbers of contributors or
-  remote contributors. As a result, self service documentation is lacking.
-- The project was newly created as an InnerSource project. However the host team
-  lacks experience with InnerSource. As a result they need guidance on which
-  information to include in their documentation, where to put that documentation
-  so others can find it and which types of readers to address in their
-  documentation.
-- The project was converted into an InnerSource project only recently, the host
-  team has limited experience with InnerSource. As a result, existing
-  documentation addresses a lot of technical aspects. It does not cover
-  communication, coordination, information needed to facilitate transparent
-  planning.
-- The project was converted into an InnerSource project only recently. As a
-  result, a lot of implicit knowledge that exists within the team is neither
-  written down nor obvious to contributors.
-- A lack of documentation leads to potential contributors taking a long time to
-  get setup and get started. Producing documentation (and keeping it up to date)
-  requires a time investment. Even if the host team relies on contributors to
-  help with lacking documentation, those contributions still need time to review.
-- Project members are spending a lot of time answering getting started
-  questions. Maintaining a comprehensive database of what could be considered
-  support questions requires a lot of time and effort though.
-- Different teams within the organization have diverging standards for how to
-  format source code and which software patterns to use. As a result
-  contributions often end up getting re-written to a large part or even
-  entirely. Standardizing all of that and enforcing the standard often
-  would require a lot of time and work.
-- The added work for repeated explanations and re-writes diminishes the
-  usefulness of the InnerSource approach.
-- Frequent escalations due to extra work and delays due to re-writes lead to a
-  big cheese situation.
+- The project was converted into an InnerSource project only recently. Before, users were either only internal or on-boarded in personal face-to-face sessions. Equally, people working on the project went through personal on-boarding sessions which do not scale with growing numbers of contributors or remote contributors. As a result, self service documentation is lacking.
+- The project was newly created as an InnerSource project. However the host team lacks experience with InnerSource. As a result they need guidance on which information to include in their documentation, where to put that documentation so others can find it and which types of readers to address in their documentation.
+- The project was converted into an InnerSource project only recently, the host team has limited experience with InnerSource. As a result, existing documentation addresses a lot of technical aspects. It does not cover communication, coordination, information needed to facilitate transparent planning.
+- The project was converted into an InnerSource project only recently. As a result, a lot of implicit knowledge that exists within the team is neither written down nor obvious to contributors.
+- A lack of documentation leads to potential contributors taking a long time to get setup and get started. Producing documentation (and keeping it up to date) requires a time investment. Even if the host team relies on contributors to help with lacking documentation, those contributions still need time to review.
+- Project members are spending a lot of time answering getting started questions. Maintaining a comprehensive database of what could be considered support questions requires a lot of time and effort though.
+- Different teams within the organization have diverging standards for how to format source code and which software patterns to use. As a result contributions often end up getting re-written to a large part or even entirely. Standardizing all of that and enforcing the standard often would require a lot of time and work.
+- The added work for repeated explanations and re-writes diminishes the usefulness of the InnerSource approach.
+- Frequent escalations due to extra work and delays due to re-writes lead to a big cheese situation.
 
 ## Solution
 
@@ -72,52 +47,40 @@ creating this documentation should be to make getting started as much a self
 service process as possible with frequently asked questions answered in standard
 documentation format.
 
-If it does not yet exist, create a **README.md** for your project. It should
+### README.md
+
+If it does not yet exist, create a `README.md` for your project. It should
 contain:
 
-* The [mission of the
-  project](https://producingoss.com/en/producingoss.html#mission-statement) in
-  as a concise format as possible. It should answer what the project's purpose
-  is and enable contributors to make a good first guess whether a suggested
-  feature will likely be in scope for the project, or not.
-* A "Getting Started" section for downstream users of the project. It should
-  explain how to setup/ integrate the project artifacts as well as an
-  explanation of some of the first typical steps for first time users.
+* The [mission of the project](https://producingoss.com/en/producingoss.html#mission-statement) in as a concise format as possible. It should answer what the project's purpose is and enable contributors to make a good first guess whether a suggested feature will likely be in scope for the project, or not.
+* A "Getting Started" section for downstream users of the project. It should explain how to setup/ integrate the project artifacts as well as an explanation of some of the first typical steps for first time users.
 * Deeper documentation for project users - or a link to that.
-* Documentation needed for making modifications to the project - or a link to
-  that.
+* Documentation needed for making modifications to the project - or a link to that.
 * Documentation on how to contribute to the project - or a link to that.
-* A "Getting involved" section that explains which public, archived, linkable
-  communication channels the project uses. This should include a link to the
-  project issue tracker, but also to any further discussion media used.
-* A "Who we are" section explaining who the Trusted Committers behind the
-  project are - with an explanation that instead of contacting these people
-  privately the public communication channels above should be used for
-  communication.
-* An explanation of what the criteria are for the project to turn contributors
-  into Trusted Committers - if that path exists.
+* A "Getting involved" section that explains which public, archived, linkable communication channels the project uses. This should include a link to the project issue tracker, but also to any further discussion media used.
+* A "Who we are" section explaining who the [Trusted Committers](../trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
+* An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists.
+
+### CONTRIBUTING.md
 
 If the explanation of the steps to make a contribution are too involved, create
-a separate **CONTRIBUTING.md** document. This document should answer frequently
+a separate `CONTRIBUTING.md` document. This document should answer frequently
 asked questions that contributors have asked in the past. There is no need to
 provide a comprehensive book up front. Rather, share information that has proven
 needed by contributors. Likely it will touch upon one or more of the following
 topics:
 
 * How to checkout the project source code from version control.
-* How to make modifications to the project (potentially including information on
-  coding guidelines.)
+* How to make modifications to the project (potentially including information on coding guidelines).
 * How to build the project.
-* How to run tests to make sure the above modifications aren't introducing new
-  bugs.
+* How to run tests to make sure the above modifications aren't introducing new bugs.
 * How to submit your modifications back to the project.
 * Some information on which turnaround time to expect for modifications made.
 
 ![Brief picture of README.md and CONTRIBUTING.md content](./assets/base_docs_drawing.png)
 
-
-There are many of good examples for how to write a README.md and what kind
-of information to include in a CONTRIBUTING.md file in various open source projects.
+There are many of good examples for how to write a `README.md` and what kind
+of information to include in a `CONTRIBUTING.md` file in various open source projects.
 Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a),
 [Open Source Guide from GitHub](https://opensource.guide/) as well as
 the book [Producing Open Source](https://producingoss.com/en/producingoss.html)
@@ -137,25 +100,26 @@ started right away: [README-template.md](templates/README-template.md) and
 ## Resulting Context
 
 * The time for contributors to get up to speed is significantly reduced.
-* Time spent on answering initial questions for Trusted Committers is
-  significantly reduced leaving them more time to work on other tasks.
-* Escalations due to misunderstandings and misalignment are significantly
-  reduced.
+* Time spent on answering initial questions for [Trusted Committers](../trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
+* Escalations due to misunderstandings and misalignment are significantly reduced.
 
 ## Known Instances
 
-Europace AG, Paypal Inc.
+* Europace AG
+* Paypal Inc.
 
 ## Authors
 
 * Isabel Drost-Fromm
 
-## Acknowledgements
+## Alias
 
+Provide standard base documentation through a README
 
 ## Status
 
-Drafted in December 2019.
+* Structured
+* Drafted in December 2019.
 
 ## References
 

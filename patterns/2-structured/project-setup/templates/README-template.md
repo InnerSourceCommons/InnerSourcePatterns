@@ -7,9 +7,7 @@ project. The goal is to state what you are planning to work on and help external
 contributors understand roughly which types of features will likely be welcome
 for this project.
 
-See also [mission statement
-chapter](https://producingoss.com/en/producingoss.html#mission-statement) in
-Producing Open Source Software.
+See also [mission statement chapter](https://producingoss.com/en/producingoss.html#mission-statement) in Producing Open Source Software.
 
 ## Getting Started
 
@@ -21,11 +19,10 @@ linked to from here.
 
 This section can list any or all of the following:
 
-* A list of features, use cases that the software addresses.
-* Information on design principles that are used to resolve trade-offs
-* Links to further user level documentation
-* Answers to frequently asked questions (FAQ), preferably in a format that
-  allows to link to specific questions and their answers for easier reference.
+- A list of features, use cases that the software addresses.
+- Information on design principles that are used to resolve trade-offs
+- Links to further user level documentation
+- Answers to frequently asked questions (FAQ), preferably in a format that allows to link to specific questions and their answers for easier reference.
 
 ## Getting help
 
@@ -60,13 +57,9 @@ topics below will be covered. Focus on what differs in your project from
 standard setup and what previous contributors found hard to understand.
 
 - Finding the source code.
-- Finding a list of issues that your project needs help with - these can be
-  both, technical and non-technical issues. Typically you will keep those in an
-  issue tracker accessible to contributors.
-- Links to further documentation e.g. about the architecture of the project,
-  general coding conventions, testing conventions...
-- For technical contributions: Making changes, building the project and testing
-  your changes.
+- Finding a list of issues that your project needs help with - these can be both, technical and non-technical issues. Typically you will keep those in an issue tracker accessible to contributors.
+- Links to further documentation e.g. about the architecture of the project, general coding conventions, testing conventions...
+- For technical contributions: Making changes, building the project and testing your changes.
 - Submitting your changes back to the project.
 
 Ideally you also include information on what the preferred process for changes
@@ -80,5 +73,4 @@ more easily. In addition it helps making changes to otherwise implicit
 assumptions transparent.
 
 Over time you will notice that this section grows substantially. In that case
-think about moving the information to separate files, e.g. a CONTRIBUTING.md and
-TESTING.md 
+think about moving the information to separate files, e.g. a `CONTRIBUTING.md` and `TESTING.md`.
