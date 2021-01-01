@@ -35,15 +35,15 @@ For non-trivial contributions (all code contributions and also significant time 
 
 1. Call out the person by name in any chat location (e.g. _Slack_) where you organize your project activity.  Let everyone know what they did and thank them publicly.  Example:
 
-> Everyone @here give a high-five to @andrew.clegg for updating the _rcs-viewer_ to the latest version of the _hebo-client_ (https://github.com/rcs/rcs-viewer/pull/81).
-Thanks for helping keep this library up-to-date, Andy!
+    > Everyone @here give a high-five to @andrew.clegg for updating the _rcs-viewer_ to the latest version of the _hebo-client_ (https://github.com/rcs/rcs-viewer/pull/81).
+    > Thanks for helping keep this library up-to-date, Andy!
 
 2. Send an email to them and their manager (cc'd) privately thanking them for the contribution.
 For code contributions often-times you can just forward the merge notification mail.  Example:
 
-> Hi, Andy, I want to thank you again for making this update.
-It may have been a small amount of time, but it's attention like this from each person that make the RCS project work for all of us.
-Thanks for solving your own problem in a way that also makes the _rcs-viewer_ better for everyone.
+    > Hi, Andy, I want to thank you again for making this update.
+    > It may have been a small amount of time, but it's attention like this from each person that make the RCS project work for all of us.
+    > Thanks for solving your own problem in a way that also makes the _rcs-viewer_ better for everyone.
 
 ## Resulting Context
 

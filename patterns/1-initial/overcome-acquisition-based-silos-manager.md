@@ -42,14 +42,14 @@ Make the acquired teams feel secure in the new environment by
 
 2. Come up with rational rules for managing code redundancy as a result of acquisition (_validated_)
 
- - Joint effort between two teams to bring new software into existing platforms. (_validated_)
- - If allowable/controllable, initial software selection not tied to job security. (_not validated_)
- - Same ground rules as above for determining tooling platforms. (_validated_)
+    - Joint effort between two teams to bring new software into existing platforms. (_validated_)
+    - If allowable/controllable, initial software selection not tied to job security. (_not validated_)
+    - Same ground rules as above for determining tooling platforms. (_validated_)
 
 3. Giving developers and middle management good on-boarding training and mentoring with InnerSourcing as part of it. (_not validated_)
 
- - Clear guidance on how to bring their software onto existing platform. (_not validated_)
- - Definition of roles including Contributor and Trusted Committer. (_not validated_)
+    - Clear guidance on how to bring their software onto existing platform. (_not validated_)
+    - Definition of roles including Contributor and Trusted Committer. (_not validated_)
 
 4. Make it clear that there are career advancement opportunities that come along with actively participating as well as with being a Trusted Committer. (_validated_)
 
@@ -57,8 +57,8 @@ Make the acquired teams feel secure in the new environment by
 
 6. Minimum commitment for face to face engagement between the two teams.
 
- - can be representative team from acquiring company meet with team.
- - potential Trusted committers from acquired company can meet with parent company.
+    - can be representative team from acquiring company meet with team.
+    - potential Trusted committers from acquired company can meet with parent company.
 
 ## Resulting Context
 

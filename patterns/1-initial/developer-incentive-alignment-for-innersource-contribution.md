@@ -26,21 +26,21 @@ TBD
 
 1. Existing attitudes and developer culture
 
- * Team-centric behaviour is not evident. Developers of all levels tend to focus mostly on their own contributions. When stories are assigned, work is often done ‘locally’ and not pushed up or checked in until the end of the sprint.
- * Asking developers to push code early and often is met with extreme resistance, accusations of micro-management, or claims that such a practice would slow velocity.
- * Existing practice commonly leads to duplicated work, missed requirements, or frequent gaps in the software or process.
+    * Team-centric behaviour is not evident. Developers of all levels tend to focus mostly on their own contributions. When stories are assigned, work is often done ‘locally’ and not pushed up or checked in until the end of the sprint.
+    * Asking developers to push code early and often is met with extreme resistance, accusations of micro-management, or claims that such a practice would slow velocity.
+    * Existing practice commonly leads to duplicated work, missed requirements, or frequent gaps in the software or process.
 
 2. Need to retain developer talent
 
- * Managers focus heavily on tasks or velocity for developers rather than providing mentorship. Developers view helping or mentoring others as the job of Management, or something “I don’t get paid to do.” Career progression, or other ‘upward mobility paths’ (to receive a raise, for example) are not clearly identified in the organization.
- * Existing job descriptions, promotion tracks or compensation bands are opaque or hard to get from the organization’s HR department, resulting in a mixed understanding of job responsibilities. This puts additional pressure on performance review or improvement plans because HR, developers and managers don’t have shared a shared understanding of roles or expectations.
- * 'Home growing' developer talent - encouraging career growth within the company - is far cheaper for organizations in the long run than hiring from outside. Studies show employee retention increases as new opportunities, challenges, and paths for learning are introduced.
+    * Managers focus heavily on tasks or velocity for developers rather than providing mentorship. Developers view helping or mentoring others as the job of Management, or something “I don’t get paid to do.” Career progression, or other ‘upward mobility paths’ (to receive a raise, for example) are not clearly identified in the organization.
+    * Existing job descriptions, promotion tracks or compensation bands are opaque or hard to get from the organization’s HR department, resulting in a mixed understanding of job responsibilities. This puts additional pressure on performance review or improvement plans because HR, developers and managers don’t have shared a shared understanding of roles or expectations.
+    * 'Home growing' developer talent - encouraging career growth within the company - is far cheaper for organizations in the long run than hiring from outside. Studies show employee retention increases as new opportunities, challenges, and paths for learning are introduced.
 
 3. Maintaining the product development lifecycle
 
- * Keeping the status quo is encouraged or reinforced with existing product/project management processes and expectations. Developers and managers are reticent to make changes for fear of putting deadlines or product/business unit goals at risk (note that these often have financial implications for the company and individual). Working on one’s own individual contributions is seen as doing one’s part to protect this lifecycle; efforts outside one’s own individual contributions is seen as disruptive.
- * Product/Business unit pressures
- * HR - existing resource allocation plans & patterns
+    * Keeping the status quo is encouraged or reinforced with existing product/project management processes and expectations. Developers and managers are reticent to make changes for fear of putting deadlines or product/business unit goals at risk (note that these often have financial implications for the company and individual). Working on one’s own individual contributions is seen as doing one’s part to protect this lifecycle; efforts outside one’s own individual contributions is seen as disruptive.
+    * Product/Business unit pressures
+    * HR - existing resource allocation plans & patterns
 
 ## Sketch (optional)  
 
