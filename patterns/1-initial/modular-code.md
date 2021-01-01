@@ -63,7 +63,7 @@ Elements of the resolution have been proven by various companies.
 
 ## Status
 
-Unproven
+Initial
 
 ## Author  
 Tim Yao, Nokia
