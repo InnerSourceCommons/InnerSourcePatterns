@@ -93,14 +93,14 @@ and 100% allocated to the home business unit projects
 
 ## Status
 
-* Initial
+- Initial
 
 ## Authors
 
-* Diogo Fregonese (Robert Bosch GmbH)
-* Georg Gruetter (Robert Bosch GmbH)
-* Robert Hansel (Robert Bosch GmbH)
-* Nick Yeates
+- Diogo Fregonese (Robert Bosch GmbH)
+- Georg Gruetter (Robert Bosch GmbH)
+- Robert Hansel (Robert Bosch GmbH)
+- Nick Yeates
 
 ## Alias
 

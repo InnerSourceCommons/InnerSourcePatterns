@@ -57,8 +57,8 @@ None known as of yet---this is a pattern idea until it is proven.
 
 ## Status
 
-* Initial  
-* Brainstormed pattern idea reviewed 2017-03-11.
+- Initial  
+- Brainstormed pattern idea reviewed 2017-03-11.
 
 ## Authors
 

@@ -44,8 +44,8 @@ Where has this been seen before? Helps to reinforce that this is a REAL pattern 
 
 May mention:
 
-* A particular business
-* Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
+- A particular business
+- Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
 
 ## Status (optional until merging)
 

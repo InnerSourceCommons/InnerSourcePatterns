@@ -24,14 +24,14 @@ Employees wish they could gain exposure to activities going on within other area
 
 ## Forces
 
-* Employees have no easy way to discover what InnerSource opportunities exist
-* Employees don't understand how contributing might benefit them professionally
-* Managers don't understand the time/effort requirements associated with InnerSource project related tasks
+- Employees have no easy way to discover what InnerSource opportunities exist
+- Employees don't understand how contributing might benefit them professionally
+- Managers don't understand the time/effort requirements associated with InnerSource project related tasks
 
 ### Prerequisites
 
-* Employees have been provided time by their managers to involve themselves in InnerSource projects
-* Managers require a way for InnerSource contributions to be quantified, tracked and recorded so they can be accounted for and rewarded
+- Employees have been provided time by their managers to involve themselves in InnerSource projects
+- Managers require a way for InnerSource contributions to be quantified, tracked and recorded so they can be accounted for and rewarded
 
 ## Solutions
 
@@ -59,16 +59,16 @@ When used in combination with the InnerSource Portal pattern, the Gig Marketplac
 
 ## Known Instances
 
-* A large financial services organization has used the creation of an InnerSource Gig Marketplace website to foster their InnerSource program.
-* SAP implemented the Gig Marketplace pattern - a new InnerSource program was added to the internal job platform where positions and similar offerings can be posted.
-* The Gig Marketplace pattern has been proven to work extremely well with the associated InnerSource Portal pattern in this context.  The InnerSource Portal increases awareness of specific projects currently underway while the Gig Marketplace advertises tasks of a certain type available to be worked on within those projects.
+- A large financial services organization has used the creation of an InnerSource Gig Marketplace website to foster their InnerSource program.
+- SAP implemented the Gig Marketplace pattern - a new InnerSource program was added to the internal job platform where positions and similar offerings can be posted.
+- The Gig Marketplace pattern has been proven to work extremely well with the associated InnerSource Portal pattern in this context.  The InnerSource Portal increases awareness of specific projects currently underway while the Gig Marketplace advertises tasks of a certain type available to be worked on within those projects.
 
 ## Status
 
-* Structured
-* Old status: Proven
+- Structured
+- Old status: Proven
 
 ## Author(s)
 
-* Stephen McCall
-* Shreyans Dugar
+- Stephen McCall
+- Shreyans Dugar

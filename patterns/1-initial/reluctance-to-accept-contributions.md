@@ -16,20 +16,20 @@ An organizational unit (e.g. a business division or development team) is using a
 
 ## Forces
 
-* The core team is responsible for maintenance, and therefore accepting contributions implies accepting the maintenance burden of new contributions. The core team is reluctant to take on this burden.
-* The unit that uses the asset requires the feature to be implemented for their product, but it is not clear where or how the feature “fits”--and thus they have difficulty implementing it because they lack knowledge of the shared asset.
-* Contributors that are not part of the core team do not have the same knowledge as the core team has about the shared asset.
-* The core team is offered a contribution that doesn’t fit with their vision of the shared asset--the contributor doesn’t understand all the intricacies that the core team needs to consider.
-* Contributions are not suitable for the core team to handle, either because of quality problems (e.g. lack of architectural compliance) or that the contribution is too large--the contributor isn’t aware of how to contribute.
+- The core team is responsible for maintenance, and therefore accepting contributions implies accepting the maintenance burden of new contributions. The core team is reluctant to take on this burden.
+- The unit that uses the asset requires the feature to be implemented for their product, but it is not clear where or how the feature “fits”--and thus they have difficulty implementing it because they lack knowledge of the shared asset.
+- Contributors that are not part of the core team do not have the same knowledge as the core team has about the shared asset.
+- The core team is offered a contribution that doesn’t fit with their vision of the shared asset--the contributor doesn’t understand all the intricacies that the core team needs to consider.
+- Contributions are not suitable for the core team to handle, either because of quality problems (e.g. lack of architectural compliance) or that the contribution is too large--the contributor isn’t aware of how to contribute.
 
 ## Solutions
 
 Define a clear contribution process for potential contributors.
 
-* Implement a “support warranty” of limited time duration (e.g. 30 days) during which the contributor fixes any issues that the core team finds.
-* Define clear contribution guidelines that define a set of expectations of contributions.
-* Define a contribution workflow that describes submission, review, and acceptance steps, and which specifies how contributions can be tested.
-* Provide training through tutorials, documentation, and one-on-one guidance.
+- Implement a “support warranty” of limited time duration (e.g. 30 days) during which the contributor fixes any issues that the core team finds.
+- Define clear contribution guidelines that define a set of expectations of contributions.
+- Define a contribution workflow that describes submission, review, and acceptance steps, and which specifies how contributions can be tested.
+- Provide training through tutorials, documentation, and one-on-one guidance.
 
 ## Resulting Context
 
@@ -41,10 +41,10 @@ Philips Healthcare, “Feature Advocate” described in: VK Gurbani et al. (2010
 
 ## See Also
 
-* Support Warranty - most likely [30 Day Warranty](../2-structured/30-day-warranty.md)
-* Negotiate Contributions (unknown pattern)
-* Architecture for Participation (unknown pattern)
-* Feature Advocate (unknown pattern)
+- Support Warranty - most likely [30 Day Warranty](../2-structured/30-day-warranty.md)
+- Negotiate Contributions (unknown pattern)
+- Architecture for Participation (unknown pattern)
+- Feature Advocate (unknown pattern)
 
 *Note:*
 The last 3 patterns above were mentioned to be "under construction" at the time where this pattern was written. Right now we don't know where these patterns are.
@@ -60,12 +60,12 @@ Klaas-Jan Stol
 
 ## Acknowledgments
 
-* Georg Grütter
-* Bob Hanmer
-* Udo Preiss
-* Padma Sudarsan
-* Tim Yao
-* Nick Yeates
+- Georg Grütter
+- Bob Hanmer
+- Udo Preiss
+- Padma Sudarsan
+- Tim Yao
+- Nick Yeates
 
 ## References
 

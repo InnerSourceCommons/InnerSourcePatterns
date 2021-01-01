@@ -123,8 +123,8 @@ A formal contracting is also beneficial for contributors and communities:
 
 ## Status
 
-* Structured
-* Old status: Proven
+- Structured
+- Old status: Proven
 
 ## Author
 

@@ -43,4 +43,4 @@ Donut
 
 ## Author(s)  
 
-* Georg Grütter, Wyane DuPont, Michael Dorner
+- Georg Grütter, Wyane DuPont, Michael Dorner

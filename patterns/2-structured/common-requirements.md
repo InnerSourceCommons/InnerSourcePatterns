@@ -52,8 +52,8 @@ TBD
 
 ## Status
 
-* Structured
-* Old status: Proven
+- Structured
+- Old status: Proven
 
 ## Author
 

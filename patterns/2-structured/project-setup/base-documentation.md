@@ -52,14 +52,14 @@ documentation format.
 If it does not yet exist, create a `README.md` for your project. It should
 contain:
 
-* The [mission of the project](https://producingoss.com/en/producingoss.html#mission-statement) in as a concise format as possible. It should answer what the project's purpose is and enable contributors to make a good first guess whether a suggested feature will likely be in scope for the project, or not.
-* A "Getting Started" section for downstream users of the project. It should explain how to setup/ integrate the project artifacts as well as an explanation of some of the first typical steps for first time users.
-* Deeper documentation for project users - or a link to that.
-* Documentation needed for making modifications to the project - or a link to that.
-* Documentation on how to contribute to the project - or a link to that.
-* A "Getting involved" section that explains which public, archived, linkable communication channels the project uses. This should include a link to the project issue tracker, but also to any further discussion media used.
-* A "Who we are" section explaining who the [Trusted Committers](../trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
-* An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists.
+- The [mission of the project](https://producingoss.com/en/producingoss.html#mission-statement) in as a concise format as possible. It should answer what the project's purpose is and enable contributors to make a good first guess whether a suggested feature will likely be in scope for the project, or not.
+- A "Getting Started" section for downstream users of the project. It should explain how to setup/ integrate the project artifacts as well as an explanation of some of the first typical steps for first time users.
+- Deeper documentation for project users - or a link to that.
+- Documentation needed for making modifications to the project - or a link to that.
+- Documentation on how to contribute to the project - or a link to that.
+- A "Getting involved" section that explains which public, archived, linkable communication channels the project uses. This should include a link to the project issue tracker, but also to any further discussion media used.
+- A "Who we are" section explaining who the [Trusted Committers](../trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
+- An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists.
 
 ### CONTRIBUTING.md
 
@@ -70,12 +70,12 @@ provide a comprehensive book up front. Rather, share information that has proven
 needed by contributors. Likely it will touch upon one or more of the following
 topics:
 
-* How to checkout the project source code from version control.
-* How to make modifications to the project (potentially including information on coding guidelines).
-* How to build the project.
-* How to run tests to make sure the above modifications aren't introducing new bugs.
-* How to submit your modifications back to the project.
-* Some information on which turnaround time to expect for modifications made.
+- How to checkout the project source code from version control.
+- How to make modifications to the project (potentially including information on coding guidelines).
+- How to build the project.
+- How to run tests to make sure the above modifications aren't introducing new bugs.
+- How to submit your modifications back to the project.
+- Some information on which turnaround time to expect for modifications made.
 
 ![Brief picture of README.md and CONTRIBUTING.md content](./assets/base_docs_drawing.png)
 
@@ -99,18 +99,18 @@ started right away: [README-template.md](templates/README-template.md) and
 
 ## Resulting Context
 
-* The time for contributors to get up to speed is significantly reduced.
-* Time spent on answering initial questions for [Trusted Committers](../trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
-* Escalations due to misunderstandings and misalignment are significantly reduced.
+- The time for contributors to get up to speed is significantly reduced.
+- Time spent on answering initial questions for [Trusted Committers](../trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
+- Escalations due to misunderstandings and misalignment are significantly reduced.
 
 ## Known Instances
 
-* Europace AG
-* Paypal Inc.
+- Europace AG
+- Paypal Inc.
 
 ## Authors
 
-* Isabel Drost-Fromm
+- Isabel Drost-Fromm
 
 ## Alias
 
@@ -118,10 +118,10 @@ Provide standard base documentation through a README
 
 ## Status
 
-* Structured
-* Drafted in December 2019.
+- Structured
+- Drafted in December 2019.
 
 ## References
 
-* [README-template.md](templates/README-template.md) and
-* [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+- [README-template.md](templates/README-template.md) and
+- [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)

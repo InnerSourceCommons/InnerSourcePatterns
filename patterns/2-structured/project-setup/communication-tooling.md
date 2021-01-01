@@ -76,8 +76,8 @@ to a lower need to repeat explanations.
 
 ## Known Instances
 
-* Europace AG
-* Paypal Inc.
+- Europace AG
+- Paypal Inc.
 
 ## Authors
 
@@ -85,5 +85,5 @@ Isabel Drost-Fromm
 
 ## Status
 
-* Structured
-* Drafted in December 2019.
+- Structured
+- Drafted in December 2019.

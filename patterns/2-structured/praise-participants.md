@@ -16,14 +16,14 @@ A pattern in this area makes it easy to do and ensures that the message comes ac
 
 ## Context
 
-* You are the [Trusted Committer](./trusted-committer.md) or maintainer on an inner source project.
-* You value the community of contributors and want to maintain and grow it.
+- You are the [Trusted Committer](./trusted-committer.md) or maintainer on an inner source project.
+- You value the community of contributors and want to maintain and grow it.
 
 ## Forces
 
-* You are busy, which makes it easy to forget some of the soft touches like praise and thanks.
-* You may not be someone that is comfortable in social situations or good with words.
-* Peer recognition is very important to job satisfaction and career development.
+- You are busy, which makes it easy to forget some of the soft touches like praise and thanks.
+- You may not be someone that is comfortable in social situations or good with words.
+- Peer recognition is very important to job satisfaction and career development.
 
 ## Solutions
 
@@ -59,22 +59,22 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 
 ## Related Patterns
 
-* _Just Say Thanks_ (from the book [_Fearless Change_](https://fearlesschangepatterns.com/))
+- _Just Say Thanks_ (from the book [_Fearless Change_](https://fearlesschangepatterns.com/))
 
 ## Known Instances
 
-* Nike (multiple projects)
+- Nike (multiple projects)
 
 ## Status
 
-* Structured
-* Old status: Proven
+- Structured
+- Old status: Proven
 
 ## Author(s)
 
-* Russ Rutledge
+- Russ Rutledge
 
 ## Acknowledgements
 
-* [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real".
-* [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of a "qualified" thank you.
+- [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real".
+- [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of a "qualified" thank you.

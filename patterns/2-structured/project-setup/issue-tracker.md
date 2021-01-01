@@ -49,7 +49,7 @@ development but also during the planning phase of new features:
 
 ## Known Instances
 
-* Europace AG
+- Europace AG
 
 ## Authors
 

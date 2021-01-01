@@ -32,12 +32,12 @@ These patterns are already publicly available in the [InnerSource Patterns][Inne
 
 We think there are a couple of good reasons to publish the InnerSource patterns as a gitbook:
 
-* (consumers) have something that is “nicer” to read than things on GitHub
-* (consumers) have stable URLs for patterns i.e. even if the files move in the folder structure in the repo, the URL of the pattern stay the same
-* (consumers) export book as PDF and read on other devices
-* (producers) a motivation for pattern authors (and all contributors) to level up patterns from 1-initial, as only 2-structured and 3-validated are published in the book
-* (producers) a motivation for us to introduce more specific quality guidelines for level 2+3, so that we can be even more proud of the content in the book :)
-* (producers) learn which patterns are most interesting for readers (e.g. through Google Analytics)
+- (consumers) have something that is “nicer” to read than things on GitHub
+- (consumers) have stable URLs for patterns i.e. even if the files move in the folder structure in the repo, the URL of the pattern stay the same
+- (consumers) export book as PDF and read on other devices
+- (producers) a motivation for pattern authors (and all contributors) to level up patterns from 1-initial, as only 2-structured and 3-validated are published in the book
+- (producers) a motivation for us to introduce more specific quality guidelines for level 2+3, so that we can be even more proud of the content in the book :)
+- (producers) learn which patterns are most interesting for readers (e.g. through Google Analytics)
 
 [InnerSourcePatterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns
 [book_production]: https://innersourcecommons.gitbook.io/innersource-patterns/

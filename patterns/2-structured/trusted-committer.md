@@ -47,11 +47,11 @@ members and outlines the role for future candidates.
 Below we've provided a few guidelines for what Trusted Committers can be
 invited to do:
 
-* If a candidate participates often in community channels (e.g. Slack, JIRA
+- If a candidate participates often in community channels (e.g. Slack, JIRA
 issue triaging, etc.) then becoming a Trusted Committer formalizes their role
 in community support.
 
-* A good candidate for a Trusted Committer, is someone who frequently submits
+- A good candidate for a Trusted Committer, is someone who frequently submits
 code, documentation, or other repository changes.  Start by including this
 person on pull requests. If they are actively engaging in pull requests,
 consider approaching them about opportunities for further collaboration on the
@@ -109,9 +109,9 @@ effort][praise] in making the project successful and set a new date to check-in.
 There comes a time when removal of a Trusted Committer is necessary, for
 example:
 
-* No longer willing to take part
-* No longer able to perform their duties
-* No longer employed by the company
+- No longer willing to take part
+- No longer able to perform their duties
+- No longer employed by the company
 
 In each of the above cases a plan for removing access to project resources
 should be agreed upon by both parties. This includes transitioning their entry in

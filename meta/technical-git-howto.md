@@ -4,9 +4,9 @@ If you want to contribute a new pattern, the workflow is done through Branches a
 
 There are indeed multiple ways to start a discussion:
 
-* Send a Pull Request for your branch and the maintainers will receive a notification.
-* Create an Issue and ask for comments from some of the maintainers. You can mention them using the '@' symbol prior to their github nickname.
-* Add reviewers to the Pull Request on the website - this sends requests to review your work
+- Send a Pull Request for your branch and the maintainers will receive a notification.
+- Create an Issue and ask for comments from some of the maintainers. You can mention them using the '@' symbol prior to their github nickname.
+- Add reviewers to the Pull Request on the website - this sends requests to review your work
 
 New patterns should use, as their base, the [pattern template file](pattern-template.md).
 

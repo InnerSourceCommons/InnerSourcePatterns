@@ -137,11 +137,11 @@ patterns into:
 Another plane that would be useful is the plane of type of InnerSource.
 InnerSource programs can be structured to accomplish different goals: e.g.,
 
-* P: Product Development
-* T: Tools Development
-* I: Innovation (Proof of concepts, demos)
-* S: Shared components development
-* C: Culture
+- P: Product Development
+- T: Tools Development
+- I: Innovation (Proof of concepts, demos)
+- S: Shared components development
+- C: Culture
 
 Each of these programs have some unique characteristics. E.g., sometimes in
 Product Development, the open source characteristic of voluntariness has to be
@@ -189,12 +189,12 @@ goal.
 Another option would be to use the principles defined by Jim Jagielski in his
 talk "InnerSource 101 and The Apache Way"[1] as a way to characterize patterns:
 
-* Culture
-* Communication
-* Transparency
-* Collaboration
-* Community
-* Meritocracy
+- Culture
+- Communication
+- Transparency
+- Collaboration
+- Community
+- Meritocracy
 
 And in addition, this would have some ortogonal techniques to work on building
 a proper transparency (for instance) that could go from the infrastructure to
@@ -208,12 +208,12 @@ process of letting developers work on their own and still give control to
 middle management and business roles. Would it make sense to have another
 potential characterization based on the companies structure?
 
-* IT/DevTeams
-* Marketing
-* Management
-* Legal
-* Business
-* Financial
+- IT/DevTeams
+- Marketing
+- Management
+- Legal
+- Business
+- Financial
 
 #### Test run
 
@@ -244,11 +244,11 @@ potential characterization based on the companies structure?
 
 I like a lot of the other planes suggestions.  Wanted to add one more - the point in the lifecycle of the InnerSource project.  Does this pattern apply to:
 
-* Pre-launch (prepration to launch) an InnerSource project?
-* Launch (initial kick-off)?
-* Initial growth?
-* Broad adoption?
-* End-of-life?
+- Pre-launch (prepration to launch) an InnerSource project?
+- Launch (initial kick-off)?
+- Initial growth?
+- Broad adoption?
+- End-of-life?
 
 #### Test run
 

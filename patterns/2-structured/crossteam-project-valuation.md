@@ -9,8 +9,8 @@ Here's a data-driven way to represent your project that both articulates its val
 
 ## Context
 
-* You are responsible for a cross-team that serves as a platform for others in the company.
-* The cross-team project does not deliver any direct value for company revenue.
+- You are responsible for a cross-team that serves as a platform for others in the company.
+- The cross-team project does not deliver any direct value for company revenue.
 
 ## Problem
 
@@ -19,9 +19,9 @@ As a result, it is easy and common to either pursue projects that does not provi
 
 ## Forces
 
-* Projects need to show value (objective or subjective) to company leadership in order to be funded.
-* Cross-team project value is dispersed across multiple end business units.
-* Due to this dispersal, cross-team project value is difficult to measure directly.
+- Projects need to show value (objective or subjective) to company leadership in order to be funded.
+- Cross-team project value is dispersed across multiple end business units.
+- Due to this dispersal, cross-team project value is difficult to measure directly.
 
 ## Solution
 
@@ -38,10 +38,10 @@ There is a common process, though, by which you can create a model to calculate 
 Assemble a small team of subject matter experts in your domain.
 Using that team of experts, estimate 4 things about each consumer of your project output:
 
-* How long does it take them to consume your project output?
-* How long would it otherwise take them to home-roll the value of your project output for themselves?
-* What percentage of your project output is actually useful for them?
-* How much time on an ongoing basis (ideally per-use) would they otherwise spend maintaining their home-rolled solution?
+- How long does it take them to consume your project output?
+- How long would it otherwise take them to home-roll the value of your project output for themselves?
+- What percentage of your project output is actually useful for them?
+- How much time on an ongoing basis (ideally per-use) would they otherwise spend maintaining their home-rolled solution?
 
 When making these estimations, it's impossible to know with high accuracy _exactly_ how long any activities take.  That's not your goal.
 Rather than exactness, you should strive to _**set a worst-case bound**_ on these estimates.
@@ -84,24 +84,24 @@ They will provide a head-and-shoulders improvement in on-the-ground results over
 
 ## Resulting Context
 
-* Data-driven means to discuss the value and funding of the cross-team project with leadership.
-* Key metrics around the cross-team project instrumented in raw form.
-* Defining how the cross-team project provides value tends to lead to it actually producing greater value for the company.
-* Generally-successful project and "buzz" around it.
+- Data-driven means to discuss the value and funding of the cross-team project with leadership.
+- Key metrics around the cross-team project instrumented in raw form.
+- Defining how the cross-team project provides value tends to lead to it actually producing greater value for the company.
+- Generally-successful project and "buzz" around it.
 
 ## Known Instances
 
-* Nike
+- Nike
 
 ## Authors
 
-* Russ Rutledge
+- Russ Rutledge
 
 ## Acknowledgement
 
-* Jeremiah Wright for teaching me to think about cross-team projects as an internal business dealing in the currency of developer time.
+- Jeremiah Wright for teaching me to think about cross-team projects as an internal business dealing in the currency of developer time.
 
 ## Status
 
-* Structured
-* Old status: Proven in multiple domains.
+- Structured
+- Old status: Proven in multiple domains.

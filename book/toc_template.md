@@ -10,7 +10,7 @@ Instead edit toc_template.md
 
 # Table of Contents
 
-* [Table of Contents](../book/toc.md)
+- [Table of Contents](../book/toc.md)
 
 <img src="./innersource-program-mind-map.png" title="InnerSource Patterns as a Mind Map">
 
@@ -20,13 +20,13 @@ Instead edit toc_template.md
 
 ## Appendix
 
-* [Contribute to this book](../book/contribute-to-this-book.md)
-* [Pattern Template](../meta/pattern-template.md)
-* Extras
-  * [README Template](../patterns/2-structured/project-setup/templates/README-template.md)
-  * [CONTRIBUTING Template](../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
+- [Contribute to this book](../book/contribute-to-this-book.md)
+- [Pattern Template](../meta/pattern-template.md)
+- Extras
+  - [README Template](../patterns/2-structured/project-setup/templates/README-template.md)
+  - [CONTRIBUTING Template](../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
 
 ## Resources
 
-* [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
-* [InnerSource Commons](http://innersourcecommons.org)
+- [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
+- [InnerSource Commons](http://innersourcecommons.org)
