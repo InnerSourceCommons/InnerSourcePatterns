@@ -54,7 +54,6 @@ InnerSource project benefit from planning being transparent across the organizat
 * PP-2: There are already shared roadmaps with clear guidelines and contribution rules where stakeholders can provide feedback. However this is not standardized across the organization and not all of the projects provide this info.
 * PP-3: Roadmaps are shared by default and there is a standard process and homogeneous way to do this across the organization at the level of each InnerSource project. This contains clear rules to contribute and influence in the roadmap.
 
-
 **Development Process & Tools**
 
 InnerSource projects thrive when contributors become active and participate. As a result, making contribution easier should be balanced with pure technical goals.
@@ -198,7 +197,6 @@ InnerSource comes with explicit roles. While in early stages some patterns may b
 * RO-1: Occasionally some individuals and teams contribute to other projects. These are technical contributions, where the user/contributor role is seen. For some teams, it can be identified at least one member being a technical reference, who explains the development process to other development team members. He/she could be a candidate for covering the trusted committer role.
 * RO-2: An InnerSource Officer role is in charge for governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for dev team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
 * RO-3: Evangelists are moving inside organization, to let others know about the current work, what InnerSource does and how to do it, and help others to understand and become part of the initiative. Non technical contributors appear.
-
 
 ## Resulting Context
 

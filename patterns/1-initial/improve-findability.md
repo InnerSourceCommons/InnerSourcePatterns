@@ -31,6 +31,7 @@ Historically, the company does not have a culture of sharing code across silos.
 ## Solution
 
 To help improve findability for inner source projects:
+
 - Provide guidelines for applying clear, meaningful naming conventions to projects, and reinforce the importance of avoiding cryptic code names.
 - Include keywords in project descriptions.
 - Apply tagging to repositories (validated).

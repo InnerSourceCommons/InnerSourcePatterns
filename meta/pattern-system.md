@@ -1,8 +1,8 @@
-# InnerSource Pattern System 
+# InnerSource Pattern System
 
 ## About
 
-This document shall serve to define a system with which we organize our 
+This document shall serve to define a system with which we organize our
 patterns using a limited set of classifications.
 
 ## Related Work
@@ -12,14 +12,14 @@ patterns using a limited set of classifications.
 From the Authors of the classic GoF book "Design Patterns":
 
 > Design patterns vary in their granularity and level of abstraction. Because
-> there are many design patterns, we need a way to organize them. 
+> there are many design patterns, we need a way to organize them.
 
 They classify patterns so that they "can refer to families of related patterns."
 The authors also suspect that this classification will make "learning the
 catalog" faster. They Classify patterns according to two criteria: Purpose and
 Scope. They introduce the following classes of purpose in their book:
 
-- Creational, 
+- Creational,
 - Structural and
 - Behavioral.
 
@@ -47,14 +47,14 @@ The second criterion categorizes the problems solved by the patterns:
 
 - _From Mud to Structure_,
 - _Distributed Systems_,
-- _Interactive Systems_, 
+- _Interactive Systems_,
 - _Adaptable Systems_,
 - _Structural Decomposition_,
-- ... 
+- ...
 
 you get the point.
 
-In addition to this, he postulates a number of properties, a pattern system 
+In addition to this, he postulates a number of properties, a pattern system
 must exhibit. According to Buschmann, a pattern system
 
 - should be simple and easy to learn,
@@ -79,22 +79,23 @@ our InnerSource pattern system.
 Takashi Iba has published an article in the ACM Digital Library from PLoP 2016:
 [A pattern language for creating pattern languages: 364 patterns for pattern
 mining, writing, and symbolizing](https://dl.acm.org/citation.cfm?id=3158175&CFID=831673585&CFTOKEN=74341142&qualifier=LU1011674)
+
 - for those without ACM DL access, there is [an earlier draft of the paper from
 PLoP 2016](http://www.hillside.net/plop/2016/papers/three/26.3.pdf).
 
 ## Candiate Classifications
 
-This section shall serve to collect individual proposals for systems of ISC 
+This section shall serve to collect individual proposals for systems of ISC
 patterns. Contribute away ;)
 
 ### Georg Grütter
 
 I propose we use a classification of the problem, a pattern tries to solve as
-the main criteria for organizing our list of patterns. The following 
+the main criteria for organizing our list of patterns. The following
 classifications come to mind:
 
-- 1. Getting started with InnerSource 
-- 2. Getting sustainable middle management buy-in and support 
+- 1. Getting started with InnerSource
+- 2. Getting sustainable middle management buy-in and support
 - 3. Getting buy-in of developers
 - 4. Fostering contributions
 - 5. Interfacing with traditional, non-InnerSource projects
@@ -237,14 +238,12 @@ potential characterization based on the companies structure?
 - Get Contributions Despite Silo Thinking
 - Contained InnerSource
 
-
 [1] https://es.slideshare.net/jimjag/apachecon-2017-innersource-and-the-apache-way
-
-
 
 ### Russ Rutledge
 
 I like a lot of the other planes suggestions.  Wanted to add one more - the point in the lifecycle of the InnerSource project.  Does this pattern apply to:
+
 * Pre-launch (prepration to launch) an InnerSource project?
 * Launch (initial kick-off)?
 * Initial growth?
@@ -274,7 +273,6 @@ I like a lot of the other planes suggestions.  Wanted to add one more - the poin
 - Get Contributions Despite Silo Thinking
 - Contained InnerSource
 
-
 ### Ofer Hermoni
 
 tools
@@ -285,5 +283,3 @@ trust
 etc.
 Processes / Methodology
 Coding practices
-
-
