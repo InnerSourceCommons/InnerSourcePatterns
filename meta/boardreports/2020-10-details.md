@@ -1,7 +1,7 @@
 # InnerSource Patterns WG - Report for governance meeting 2020-10
 
 **Details Section**
- 
+
 ## Project Activity - Describe the overall activity in the project over the past quarter.
 
 Here are some more detailed numbers as mentioned in short-form.
@@ -10,10 +10,10 @@ Here are some more detailed numbers as mentioned in short-form.
 
 #### Entirely new & merged: 5
 
-- RFCs #204 @tsadler1988 @spier @mainec 
+- RFCs #204 @tsadler1988 @spier @mainec
 - InnerSource Activity Score @michadelic SAP #189 @newmexicokid @spier
 - InnerSource License #147
-- Pattern Overview Mindmap: @feiwan2000 (very popular!) 
+- Pattern Overview Mindmap: @feiwan2000 (very popular!)
 - Europace sponsored: Mechanics and tooling recommendations #124, #123 #121 @mainec @rrutledge @martinklewitz @newmexicokid @sjn
 
 #### Entirely new & open: 2
@@ -29,7 +29,7 @@ Here are some more detailed numbers as mentioned in short-form.
 
 #### Progress on existing PRs: 8
 
-- #95 (almost done, @gruetter), #46 (#216, @gruetter) #120 #84 #78 #74 #71 #64 
+- #95 (almost done, @gruetter), #46 (#216, @gruetter) #120 #84 #78 #74 #71 #64
 
 ### Technical contributions: about 8
 
@@ -39,7 +39,7 @@ Here are some more detailed numbers as mentioned in short-form.
 
 ### Cleanup, Fixing & Migration: a lot
 
-- Fixing countless typos, broken links and inconsistent templates/documentation: @spier 
+- Fixing countless typos, broken links and inconsistent templates/documentation: @spier
 - Spelling, typos, examples #176, #175 @jpatrao
 - Typos, small improvements @stingrayza, @michadelic @funzinator
 

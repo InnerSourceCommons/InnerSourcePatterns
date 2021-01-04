@@ -29,7 +29,7 @@ If there's a change in the C-level, metrics might be helpful to convince them th
 
 People do not like to be tracked or measured.
 
-There is no canonical monitoring infrastructure for the software development process. Furthermore, such infrastructure is hard to build 
+There is no canonical monitoring infrastructure for the software development process. Furthermore, such infrastructure is hard to build
 or to get funding for.
 
 There is not a culture of software development metrics.
@@ -65,7 +65,6 @@ Produce a characterization of metrics as this might be helpful for others to und
 * A third class of metrics are KPIs that we believe will improve the raw amount of InnerSourcing happening (e.g. mean-time-to-review, automated test runs on PRs, etc.).
 
 Note: The aforementioned metrics are some common examples. They aren't a one-size-fits-all. We expect the business goals of the organization to drive the metric selection process.
-
 
 ## Resulting Context
 

@@ -18,7 +18,6 @@ Please, when starting a new pattern, make sure that it does not already exist. T
 
 The basic steps below can be thought of as *branch*, *commit*, *pull request*, and *review*.
 
-
 ## How do you create a branch?
 
 First you need to create a branch (no need to ask for permission!). For this, let's clone the repository:
