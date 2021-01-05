@@ -1,4 +1,4 @@
-## Title
+## Concept Anchor Pattern
 Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean
 
 ## Patlet
@@ -19,10 +19,13 @@ These organizations might have an existing strategy, such as Agile, Lean, or Dev
 
 ## Solutions
 ### Agile
+
+These are ideas for solutions to the problem that have not been tested yet. This is still a Donut pattern without Solution, and without any Known Instances.
+
 There are several approaches that can be taken in the context of Agile depending on who's listening. The following main concepts are from [Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development)
 * *Incremental and evolutionary processes* - Submitting pull requests for early feedback, or creating an issue for early stakeholder discussion aids this process, allowing ideas to be shaped and defined in the very early conceptual stages, thus being able to nourish good ideas and filter out unfeasible ideas before there are any significant costs associated with them.
-* *Efficient and face-to-face communication* - Many enterprises still implement collaboration models centered around face to face collaboration with teams being colocated. It is possible that management may view the "If it isn't written down and announced on the mailing list, it didn't happen" cultural norm of IS as unnecessary.
-However, one can highlight benefits to corporations from implementing IS practices.
+* *Efficient and face-to-face communication* - Many enterprises still implement collaboration models centered around face to face collaboration with teams being colocated. It is possible that management may view the "If it isn't written down and announced on the mailing list, it didn't happen" cultural norm of IS as unnecessary. For IS to work, having communications written down is crucial.
+One can highlight benefits to corporations from implementing IS practices.
 a) Business continuity in managing "Key man risk"
 When key people depart, the knowledge does not go out of the door with them. Robust documentation including decision records/RFCs and the like capture the rationale for important project design decisions and are key to continued productivity of new employees within the scrum team.
 b) Fostering productivity
