@@ -78,7 +78,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md)
 * [Organizational Mindset Change](patterns/1-initial/organizational-mindset-change.md)
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
-* [Get Contributions Despite Silo Thinking](patterns/1-initial/get-contributor-despite-silo.md)
+* [Incentive mechanisms to foster voluntary contribution](patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md) 
 
 ## What are InnerSource Patterns?
 

@@ -102,4 +102,6 @@ and 100% allocated to the home business unit projects
 * Robert Hansel (Robert Bosch GmbH)
 * Nick Yeates
 
-## Acknowledgements
+## Alias
+
+Get Contributions Despite Silo Thinking
