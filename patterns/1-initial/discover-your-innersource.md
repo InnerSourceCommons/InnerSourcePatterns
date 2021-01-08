@@ -65,7 +65,7 @@ Make it easy to find the reusable code.
 * Brainstormed pattern idea in progress
 
 ## Authors
-* Georg Grutter
+* Georg Gruetter
 * Erin Bank
 * Padma Sudarsan
 * Tim Yao
