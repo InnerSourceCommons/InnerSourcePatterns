@@ -39,7 +39,7 @@ def extract_text(node)
   section_nodes = []
   if node.type == :softbreak
     section_nodes << " "
-  elsif node.type == :text
+  elsif node.type == :text or node.type == :code
     section_nodes << node.string_content
   else
     node.each do |subnode|

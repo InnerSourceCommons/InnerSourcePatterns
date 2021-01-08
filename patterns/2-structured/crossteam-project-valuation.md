@@ -7,23 +7,23 @@ Cross-Team Project Valuation
 It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue.
 Here's a data-driven way to represent your project that both articulates its value and amplifies it.
 
-# Context
+## Context
 
 * You are responsible for a cross-team that serves as a platform for others in the company.
 * The cross-team project does not deliver any direct value for company revenue.
 
-# Problem
+## Problem
 
 Cross-team projects can potentially have a very large impact on the company yet are difficult to represent in a data-driven fashion.
 As a result, it is easy and common to either pursue projects that does not provide real value or to underfund what would otherwise produce great value.
 
-# Forces
+## Forces
 
 * Projects need to show value (objective or subjective) to company leadership in order to be funded.
 * Cross-team project value is dispersed across multiple end business units.
 * Due to this dispersal, cross-team project value is difficult to measure directly.
 
-# Solution
+## Solution
 
 Set in place a pattern and model of how to value cross-team projects.
 Such models give us the tool that we need to focus and amplify high-value collaboration for the company.
@@ -37,6 +37,7 @@ There is a common process, though, by which you can create a model to calculate 
 
 Assemble a small team of subject matter experts in your domain.
 Using that team of experts, estimate 4 things about each consumer of your project output:
+
   * How long does it take them to consume your project output?
   * How long would it otherwise take them to home-roll the value of your project output for themselves?
   * What percentage of your project output is actually useful for them?
@@ -81,25 +82,26 @@ Some may be concerned about the lack of accuracy in this valuation approach.  It
 In-practice, as long as these valuations are within an order-of-magnitude of reality and one-another, they are sufficiently accurate to fill these purposes.
 They will provide a head-and-shoulders improvement in on-the-ground results over the ad-hoc valuations (and resultant effects) described in the **Problem** section at the beginning of this document.
 
-# Resulting Context
+## Resulting Context
 
 * Data-driven means to discuss the value and funding of the cross-team project with leadership.
 * Key metrics around the cross-team project instrumented in raw form.
 * Defining how the cross-team project provides value tends to lead to it actually producing greater value for the company.
 * Generally-successful project and "buzz" around it.
 
-# Known Instances
+## Known Instances
 
 * Nike
 
-# Authors
+## Authors
 
 * Russ Rutledge
 
-# Acknowledgement
+## Acknowledgement
 
 * Jeremiah Wright for teaching me to think about cross-team projects as an internal business dealing in the currency of developer time.
 
-# State
+## Status
 
-Proven in multiple domains.
+* Structured
+* Old status: Proven in multiple domains.

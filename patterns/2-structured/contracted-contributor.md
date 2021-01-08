@@ -3,6 +3,7 @@
 Contracted Contributor
 
 ## Patlet
+
 Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.
 
 ## Problem
@@ -122,7 +123,8 @@ A formal contracting is also beneficial for contributors and communities:
 
 ## Status
 
-Proven
+* Structured
+* Old status: Proven
 
 ## Author
 

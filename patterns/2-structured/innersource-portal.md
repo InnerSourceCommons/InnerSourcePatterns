@@ -34,7 +34,7 @@ Your organization is interested in adopting an InnerSource work style and InnerS
 
 ## Solutions
 
-Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects. 
+Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects.
 
 A [reference implementation](http://github.com/sap/project-portal-for-InnerSource) for this pattern is available on GitHub and open for contributions. It lists all InnerSource projects of a company in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
 
@@ -53,9 +53,9 @@ The InnerSource Portal has enabled InnerSource project owners to advertise their
 * A large financial services organization has used the creation of an InnerSource Portal to provide a mechanism of advertising and discovering InnerSource projects in existence across different business units
 * SAP promotes InnerSource projects in the InnerSource portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6). It's codebase is published as a [reference implementation](http://github.com/sap/project-portal-for-InnerSource) and open for contributions.
 * Elbit Systems has used this pattern and added gamification on top.
-	* [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
-	* Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
-	* The code realizing this platform has been open sourced and is available here: https://gitlab.com/gilda2
+  * [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
+  * Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
+  * The code realizing this platform has been open sourced and is available here: https://gitlab.com/gilda2
 * American Airlines promotes InnerSource projects via an [internal InnerSource Marketplace](https://tech.aa.com/2020-10-30-innersource/). Similarly to SAP, projects self-register by adding `innersource` as a GitHub topic. Projects are searchable and filterable by language, topics, number of open issues, etc.
 
 ## References
@@ -64,8 +64,8 @@ The InnerSource Portal has enabled InnerSource project owners to advertise their
 
 ## Status
 
-Structured
-(old status: Proven)
+* Structured
+* Old status: Proven
 
 ## Author(s)
 

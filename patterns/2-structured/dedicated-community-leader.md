@@ -39,6 +39,7 @@ If the company selects an experienced project or line manager steeped in traditi
 ## Solution
 
 Select a community leader who:
+
 - is experienced in the Open Source working model or similar community based working models,
 - has the required soft-skills to act as a natural leader,
 - leads by example and thus justifies his position in the community meritocracy,
@@ -65,7 +66,8 @@ Dedicated Community Leader
 
 ## Status
 
-Proven
+* Structured
+* Old status: Proven
 
 ## Authors
 
