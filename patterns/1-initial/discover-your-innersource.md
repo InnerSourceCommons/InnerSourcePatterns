@@ -2,6 +2,10 @@
 
 Discover Your InnerSource
 
+## Patlet
+
+TBD
+
 ## Also Known As
 
 * Not looking for stuff internally
@@ -53,7 +57,7 @@ Make it easy to find the reusable code.
 * Encourage (and reward) owners of reusable code to use the same search engine to continually search for products that are candidates for use and adoption of the reusable code but not currently doing so.
 * Consider creating a marketplace for marketing InnerSource programs (management can use this mechanism to know which InnerSource projects to fund, but seeing how the marketplace reacts).
 
-## Known instances
+## Known Instances
 
 ## Resulting Context
 
@@ -66,11 +70,12 @@ Make it easy to find the reusable code.
 
 ## Status
 
-Brainstormed pattern idea in progress
+* Initial
+* Brainstormed pattern idea in progress
 
 ## Authors
 
-* Georg Grutter
+* Georg Gruetter
 * Erin Bank
 * Padma Sudarsan
 * Tim Yao

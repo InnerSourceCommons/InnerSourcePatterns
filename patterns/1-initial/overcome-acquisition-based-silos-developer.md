@@ -70,9 +70,9 @@ Partially validated. Validated means this has been seen to work in similar scena
 
 ## Status
 
-Unproven (not reviewed)
-
-Old Status: Pattern Idea - Draft In Progress
+* Initial
+* Old Status: Unproven (not reviewed)
+* Old Status: Pattern Idea - Draft In Progress
 
 ## Author
 
