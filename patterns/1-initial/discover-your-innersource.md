@@ -3,6 +3,7 @@
 Discover Your InnerSource
 
 ## Patlet
+
 TBD
 
 ## Also Known As
