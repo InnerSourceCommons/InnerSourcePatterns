@@ -62,7 +62,7 @@ None known as of yet---this is a pattern idea until it is proven.
 
 ## Authors
 
-- Georg Grutter (Robert Bosch GmbH)
+- Georg Gruetter (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)
 - Erin Bank (CA Technologies)
 - Padma Sudarsan (Nokia)
