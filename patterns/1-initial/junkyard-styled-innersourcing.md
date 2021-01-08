@@ -33,7 +33,7 @@ Two situations:
 * Brainstormed pattern idea in progress
 
 ## Authors
-* Georg Grutter
+* Georg Gruetter
 * Erin Bank
 * Padma Sudarsan
 * Tim Yao
