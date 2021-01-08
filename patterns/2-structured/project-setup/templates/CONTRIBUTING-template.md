@@ -48,4 +48,4 @@ if that route is open to contributors.
 This section serves as a reminder to existing and explanation for new Trusted
 Committers detailing how to add others to the host team. Again ideally this
 information is identical for all projects in the organisation so central
-information can be linked to from here. 
+information can be linked to from here.

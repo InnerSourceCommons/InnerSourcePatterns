@@ -51,10 +51,11 @@ TBD
 
 ## Status
 
-Unproven
-
-Old status: Pattern Idea
+* Initial
+* Old status: Unproven
+* Old status: Pattern Idea
 
 ## See Also
 
-This pattern has been moved for discussion at https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/39
+This pattern has been moved for discussion at
+https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/63

@@ -37,6 +37,7 @@ There is a common process, though, by which you can create a model to calculate 
 
 Assemble a small team of subject matter experts in your domain.
 Using that team of experts, estimate 4 things about each consumer of your project output:
+
   * How long does it take them to consume your project output?
   * How long would it otherwise take them to home-roll the value of your project output for themselves?
   * What percentage of your project output is actually useful for them?

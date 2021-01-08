@@ -4,7 +4,6 @@ The goal of the InnerSource patterns working group is to collect, document, and 
 
 For this working group to strive, we welcome your contribution - be it small or huge.
 
-
 ## How to Contribute?
 
 Please consider contributing in the following ways:
@@ -19,7 +18,6 @@ Please consider contributing in the following ways:
 
 5. **Be a patterns advocate.** The patterns will become better and cover more topics the more people contribute their perspective and experience. A colleague told you about a novel InnerSource best practice? Please invite her/him to contribute to this repository!
 
-
 ## How to get in touch?
 
 We are happy to support you in contributing to the InnerSource patterns or to just chat with you. You can reach out to us in the following ways:
@@ -28,11 +26,9 @@ We are happy to support you in contributing to the InnerSource patterns or to ju
 
 2. **During the patterns office hours.** We established a regular cadence of office hours for you to ask questions. Find the date of the next patterns office hours [in this calendar](https://innersourcecommons.org/patterns-officehours).
 
-
 ## License of Contributions
 
 The contents of this repository are licensed under [CC-BY-SA-4.0](LICENSE.txt). By contributing to this repository, you grant us (and everyone else for that matter) the right to use your contribution in accordance with that license.
-
 
 ## Code of Conduct
 

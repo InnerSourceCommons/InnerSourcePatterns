@@ -11,6 +11,7 @@ You are already using InnerSource in your company and want to share your ideas a
 ## Mission Statement
 
 Our mission in this working group
+
 - Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
 - Continuously publish the most mature patterns as an ebook
 
@@ -57,33 +58,29 @@ possible to either deploy the same service in independent environments with sepa
 
 ### Maturity Level 1: Initial
 
-#### Reviewed Pattern Ideas (not yet proven but reviewed)
-
+* [Transparent Cross-Team Decision Making using RFCs](patterns/1-initial/transparent-cross-team-decision-making-using-rfcs.md) - *InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.*
 * [Modular Code](patterns/1-initial/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
 * [Improve Findability](patterns/1-initial/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
 * [Overcoming Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
-
-#### Pattern Ideas (not yet proven; brainstormed)
-
+* [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
+* [Shared Code Repo Different from Build Repo](patterns/1-initial/shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [InnerSource Portal - Hygiene](patterns/1-initial/innersource-portal-hygiene.md) - *Allow generation of an official badge for projects intending to be recognised as InnerSource project within your company.*
 * [Overcome Acquisition Based Silos - Developers](patterns/1-initial/overcome-acquisition-based-silos-developer.md)
 * [Overcome Acquisition Based Silos - Managers](patterns/1-initial/overcome-acquisition-based-silos-manager.md)
 * [Discover Your InnerSource](patterns/1-initial/discover-your-innersource.md)
 * [Junkyard Styled Inner Sourcing](patterns/1-initial/junkyard-styled-innersourcing.md)
-* [Shared Code Repo Different from Build Repo](patterns/1-initial/shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [Incentive Alignment](patterns/1-initial/developer-incentive-alignment-for-innersource-contribution.md)
 * [Change the Developers Mindset](patterns/1-initial/change-the-developers-mindset.md)
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
-* [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 
-#### Pattern Donuts (needing a solution)
+#### Donuts (needing a solution)
 
 * [How to Defeat the Hierarchical Constraints](patterns/1-initial/defeat-hierarchical-constraints.md)
-* [Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47)
+* [Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md)
 * [Organizational Mindset Change](patterns/1-initial/organizational-mindset-change.md)
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
-* [Get Contributions Despite Silo Thinking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/38)
+* [Incentive mechanisms to foster voluntary contribution](patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md)
 
 ## What are InnerSource Patterns?
 
