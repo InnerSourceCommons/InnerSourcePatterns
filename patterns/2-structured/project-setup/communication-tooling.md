@@ -9,6 +9,8 @@ users are having trouble getting help and getting in touch with the project
 team. The idea is to setup and document standard communication tooling that
 allows for discussions to become visible, archived and searchable.
 
+Test
+
 ## Context
 
 A team depends on another team's component. It would like to make contributions
