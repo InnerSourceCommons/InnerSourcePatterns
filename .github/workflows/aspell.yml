@@ -1,4 +1,3 @@
-# from: https://github.com/marketplace/actions/markdown-linting-action
 name: Spell Check
 
 on:
@@ -15,5 +14,5 @@ jobs:
     - name: spell-check
       uses: reitermarkus/aspell@master
       with:
-        files: ReadMe.md
+        files: README.md
         args: --lang=en_GB --mode=markdown
