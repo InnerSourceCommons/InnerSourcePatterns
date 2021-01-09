@@ -1,0 +1,19 @@
+# from: https://github.com/marketplace/actions/markdown-linting-action
+name: Spell Check
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+
+jobs:
+  spell-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: spell-check
+      uses: reitermarkus/aspell@master
+      with:
+        files: ReadMe.md
+        args: --lang=en_GB --mode=markdown
