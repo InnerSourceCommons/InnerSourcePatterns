@@ -10,10 +10,16 @@ You are already using InnerSource in your company and want to share your ideas a
 
 ## Mission Statement
 
+<img align="right" src="book/innersource-patterns-book-cover.jpg" width="50%">
+
 Our mission in this working group
 
 - Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
 - Continuously publish the most mature patterns as an ebook
+
+## The book
+
+We publish the most mature InnerSource Patterns at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/). With "most mature" in this context we mean level 2+3 patterns, as shown below.
 
 ## List of Patterns
 
