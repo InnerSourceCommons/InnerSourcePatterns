@@ -1,9 +1,11 @@
 # InnerSource Patterns
 
-<a href="https://innersourcecommons.gitbook.io/innersource-patterns/">
-<img align="right" src="book/innersource-patterns-book-cover.jpg" width="35%"></a>
+<a href="https://innersourcecommons.gitbook.io/innersource-patterns/" target="_blank">
+<img align="right" src="book/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" width="30%"></a>
 
 This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them.
+
+If you are here for the first time, we recommend you start by reading our most mature Patterns, published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/).
 
 Below you find [what a pattern is](#what-are-innersource-patterns), a [list of known patterns](#list-of-patterns), and [how to use these patterns](#how-can-you-use-innersource-patterns) in your organization.
 
@@ -17,10 +19,6 @@ Our mission in this working group
 
 - Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
 - Continuously publish the most mature patterns as an ebook at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/)
-
-## The book
-
-We publish the most mature InnerSource Patterns at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/). With "most mature" in this context we mean level 2+3 patterns, as shown below.
 
 ## List of Patterns
 
