@@ -11,8 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: spell-check
-      uses: reitermarkus/aspell@master
-      with:
-        files: README.md
-        args: --lang=en_GB --mode=markdown
+    # - name: spell-check
+    #   uses: reitermarkus/aspell@master
+    #   with:
+    #     files: README.md
+    #     args: --lang=en_GB --mode=markdown
+    - name: Spellcheck
+      uses: rojopolis/spellcheck-github-actions@0.5.0
