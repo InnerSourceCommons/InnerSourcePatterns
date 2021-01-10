@@ -1,6 +1,9 @@
 # Command-line git steps for creating a new Pattern
 
-If you want to contribute a new pattern, the workflow is done through Branches and Pull Requests (PR's). You can see the available branches on [the branches URL](https://github.com/InnerSourceCommons/InnerSourcePatterns/branches/all) and existing PR's on the [Pull Request page](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). Branches are meant to separate content, so that multiple people can work all at once. Pull Requests (PR's) are used to bring discussion/review about a specific InnerSource pattern.
+If you want to contribute a new pattern, the workflow is support by these important concepts:
+
+* [Branches](https://github.com/InnerSourceCommons/InnerSourcePatterns/branches/all) are meant to separate content, so that multiple people can work all at once.
+* [Pull Requests](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls) (PR's) are used for discussion/review of a specific InnerSource pattern.
 
 There are multiple ways to start a discussion:
 
@@ -86,7 +89,7 @@ $ git checkout -b pattern/ewoks-do-not-hunt
 $ touch patterns/1-initial/ewoks-do-not-hunt.md
 ```
 
-You can fill your [markdown](markdown-info.md) file with the [pattern template text](pattern-template.md) and begin to fill it in with your pattern.
+We then fill our [markdown](markdown-info.md) file with the [pattern template text](pattern-template.md) and start to write our pattern.
 
 Once our pattern file is ready to go, we need to add the file to the repo and
 commit that change to our new branch.
@@ -96,7 +99,7 @@ $ git add patterns/1-initial/ewoks-do-not-hunt.md
 $ git commit -m "Inner Source Pattern to deal with Ewoks that do not hunt"
 ```
 
-And we should finally upload that branch and file to the server.
+And finally we upload that branch and file to the server.
 
 ```
 $ git push origin pattern/ewoks-do-not-hunt
