@@ -1,6 +1,11 @@
 # InnerSource Patterns
 
+<a href="https://innersourcecommons.gitbook.io/innersource-patterns/">
+<img align="right" src="book/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" width="30%"></a>
+
 This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them.
+
+If you are here for the first time, you may start by reading our most mature patterns, published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/).
 
 Below you find [what a pattern is](#what-are-innersource-patterns), a [list of known patterns](#list-of-patterns), and [how to use these patterns](#how-can-you-use-innersource-patterns) in your organization.
 
