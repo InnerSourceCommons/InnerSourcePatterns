@@ -96,7 +96,7 @@ commit that change to our new branch.
 
 ```
 $ git add patterns/1-initial/ewoks-do-not-hunt.md
-$ git commit -m "Inner Source Pattern to deal with Ewoks that do not hunt"
+$ git commit -m "InnerSource Pattern to deal with Ewoks that do not hunt"
 ```
 
 And finally we upload that branch and file to the server.
