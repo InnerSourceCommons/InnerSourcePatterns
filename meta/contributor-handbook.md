@@ -31,6 +31,10 @@ Patterns (or other documents) of level 1 are stored in the directory `/patterns/
   - The document is readible & comprehensible for other parties (not just for the author(s))
   - The author(s) contribute the contents according to the [license](../LICENSE.txt) & are allowed to do so
   - Thoughts and contents by third parties are quoted / referenced explicitly
+  - The markdown of the pattern complies with [Check: Markdownlint](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3AMarkdownlint)
+
+- Artifacts:
+	- The patterns are stored as markdown files in `/patterns/1-initial`
 
 ### Requirements: Level 2 - Structured
 
@@ -41,8 +45,15 @@ Patterns of level 2 are stored in the directory `/patterns/2-structured`.
     - Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
 
 - Content requirements:
-  - Complies with the [patterns format](pattern-template.md)
+  - Complies with the format described in the [Pattern  Template](pattern-template.md) - validated in parts by [Check: Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Pattern+Syntax+Validation%22)
   - Complies with *basic style guide*(#) - *Oops! We have not yet developed this*
+  - Title and file name of the pattern follow the *basic style guide*(#) - *Oops! We have not yet developed this*
+  - The pattern references other patterns of this level or higher where appropriate
+  - Links from the pattern to outside resources are working and are referencing a trusted resource - validated in parts by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Link+Check+on+Patterns+and+README%22)
+
+- Artifacts:
+	- The patterns are stored as markdown files in `/patterns/2-structured`
+	- The patterns are published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/) - supported by automation via [Book ToC Generation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Book+ToC+Generation%22)
 
 ### Requirements: Level 3 - Validated
 
@@ -56,4 +67,9 @@ Patterns of level 3 are stored in the directory `/patterns/3-validated`.
 - Content requirements:
   - Uses & has no conflicts with working group terminology (defined by glossary / implicit usage) - *Oops! We have not yet developed this.*
   - Fits & has no conflicts with existing patterns (of this maturity level or higher)
-  - Thorough review by at least two trusted committers
+  - Thorough review by at least two [trusted committers](../TRUSTED-COMMITTERS.md)
+  - Spell Checking passes - *Oops! We have not yet developed this*
+
+- Artifacts:
+	- The patterns are stored as markdown files in `/patterns/3-validated`
+	- The patterns are published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/) - supported by automation via [Book ToC Generation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Book+ToC+Generation%22)
