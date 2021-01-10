@@ -71,5 +71,5 @@ Patterns of level 3 are stored in the directory `/patterns/3-validated`.
   - Spell Checking passes - *Oops! We have not yet developed this*
 
 - Artifacts:
-- The patterns are stored as markdown files in `/patterns/3-validated`
+  - The patterns are stored as markdown files in `/patterns/3-validated`
   - The patterns are published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/) - supported by automation via [Book ToC Generation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Book+ToC+Generation%22)
