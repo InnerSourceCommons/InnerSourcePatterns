@@ -1,16 +1,16 @@
 # Command-line git steps for creating a new Pattern
 
-If you want to contribute a new pattern, the workflow is done through Branches and Pull Requests (PR's). You can see the available branches on [the branches URL](https://github.com/InnerSourceCommons/InnerSourcePatterns/branches/all) and existing PR's on the [Pull Request page](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). Branches are meant to separate content, so that multiple people can work all at once. Pull Requests (PR's) are used to bring discussion/review about a specific inner source pattern.
+If you want to contribute a new pattern, the workflow is done through Branches and Pull Requests (PR's). You can see the available branches on [the branches URL](https://github.com/InnerSourceCommons/InnerSourcePatterns/branches/all) and existing PR's on the [Pull Request page](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). Branches are meant to separate content, so that multiple people can work all at once. Pull Requests (PR's) are used to bring discussion/review about a specific InnerSource pattern.
 
-There are indeed multiple ways to start a discussion:
+There are multiple ways to start a discussion:
 
 * Send a Pull Request for your branch and the maintainers will receive a notification.
-* Create an Issue and ask for comments from some of the maintainers. You can mention them using the '@' symbol prior to their github nickname.
+* Create an [Issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) and ask for comments from some of the maintainers. You can mention them using the '@' symbol prior to their github nickname.
 * Add reviewers to the Pull Request on the website - this sends requests to review your work
 
 New patterns should use, as their base, the [pattern template file](pattern-template.md).
 
-Please, when starting a new pattern, make sure that it does not already exist. Take a look at some of the [existing patterns in this repository](/README.md#reviewed-patterns-proven-and-reviewed).
+Please, when starting a new pattern, make sure that it does not already exist. Take a look at some of the [existing patterns in this repository](/README.md#list-of-patterns).
 
 ## Overview of steps
 
