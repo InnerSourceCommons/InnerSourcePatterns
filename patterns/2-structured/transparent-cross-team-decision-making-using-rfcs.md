@@ -107,8 +107,7 @@ Also for decision making outside of pure software design decisions, transparent 
 ## Aliases
 
 - [Design Docs][google]
-- Architecture Decision Record (ADRs)
-    - Not necessarily a direct alias, as they can sometimes be used very differently e.g. RFCs for seeking input and building consensus, ADRs for recording decisions and implementation detail
+- Architecture Decision Record (ADRs) - Not necessarily a direct alias, as they can sometimes be used very differently e.g. RFCs for seeking input and building consensus, ADRs for recording decisions and implementation detail
 
 [requests-for-comments]: https://en.wikipedia.org/wiki/Request_for_Comments
 [30-years-of-rfcs]: https://www.rfc-editor.org/rfc/rfc2555.txt
