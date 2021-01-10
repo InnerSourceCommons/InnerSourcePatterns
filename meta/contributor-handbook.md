@@ -34,7 +34,7 @@ Patterns (or other documents) of level 1 are stored in the directory `/patterns/
   - The markdown of the pattern complies with [Check: Markdownlint](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3AMarkdownlint)
 
 - Artifacts:
-	- The patterns are stored as markdown files in `/patterns/1-initial`
+  - The patterns are stored as markdown files in `/patterns/1-initial`
 
 ### Requirements: Level 2 - Structured
 
@@ -52,8 +52,8 @@ Patterns of level 2 are stored in the directory `/patterns/2-structured`.
   - Links from the pattern to outside resources are working and are referencing a trusted resource - validated in parts by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Link+Check+on+Patterns+and+README%22)
 
 - Artifacts:
-	- The patterns are stored as markdown files in `/patterns/2-structured`
-	- The patterns are published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/) - supported by automation via [Book ToC Generation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Book+ToC+Generation%22)
+  - The patterns are stored as markdown files in `/patterns/2-structured`
+  - The patterns are published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/) - supported by automation via [Book ToC Generation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Book+ToC+Generation%22)
 
 ### Requirements: Level 3 - Validated
 
@@ -71,5 +71,5 @@ Patterns of level 3 are stored in the directory `/patterns/3-validated`.
   - Spell Checking passes - *Oops! We have not yet developed this*
 
 - Artifacts:
-	- The patterns are stored as markdown files in `/patterns/3-validated`
-	- The patterns are published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/) - supported by automation via [Book ToC Generation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Book+ToC+Generation%22)
+- The patterns are stored as markdown files in `/patterns/3-validated`
+  - The patterns are published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/) - supported by automation via [Book ToC Generation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Book+ToC+Generation%22)
