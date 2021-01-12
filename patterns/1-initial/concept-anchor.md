@@ -7,6 +7,7 @@ Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean
 Those wanting to bring InnerSource to organizations have difficulty starting a discussion with management. This can sometimes be made easier by anchoring InnerSource to more well known concepts such as Agile / DevOps / Lean.
 
 ## Problem
+
 Often InnerSource is a term that's novel to organizations, making it often difficult to start a conversation with management about adopting InnerSource.
 
 ## Context
