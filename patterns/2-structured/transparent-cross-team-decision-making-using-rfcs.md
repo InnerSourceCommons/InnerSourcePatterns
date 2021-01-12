@@ -90,9 +90,9 @@ Also for decision making outside of pure software design decisions, transparent 
 
 ## Known Instances
 
-- **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs][uber].
-- **Europace** - As described in Open Organization: [Setting cross-team standards and best practices in the open][europace].
 - **BBC iPlayer & Sounds** - As presented at the ISC Fall Summit 2020 [Using Internal RFCs to Enhance Collaboration][bbc].
+- **Europace** - As described in Open Organization: [Setting cross-team standards and best practices in the open][europace].
+- **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs][uber].
 - **Google Design Docs** - As described in this blog post by Malte Ubl [Design Docs at Google][google]
 
 ## Status
