@@ -1,4 +1,8 @@
-## Concept Anchor Pattern
+## Title
+
+Concept Anchor Pattern
+
+## Alias
 
 Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean
 
