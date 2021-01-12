@@ -62,6 +62,7 @@ InnerSource helps in this process by its emphasis on a CI/CD workflow as well as
 Donut
 
 ## Author(s)
+
 * Mishari A. Muqbil (Zymple)
 
 ## Acknowledgements
