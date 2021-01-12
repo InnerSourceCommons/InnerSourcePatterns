@@ -3,6 +3,7 @@
 Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean
 
 ## Patlet
+
 Those wanting to bring InnerSource to organizations have difficulty starting a discussion with management. This can sometimes be made easier by anchoring InnerSource to more well known concepts such as Agile / DevOps / Lean.
 
 ## Problem
