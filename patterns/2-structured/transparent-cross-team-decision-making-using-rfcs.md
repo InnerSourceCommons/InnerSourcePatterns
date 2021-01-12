@@ -58,6 +58,7 @@ Important elements of the solution are:
 - a commitment to iterate on the RFC template and process
 
 ### Examples/templates
+
 - [Rust][rust] is a good Open Source example of RFC template and process, and has been the basis for many other RFC processes.
 - [Genericised BBC iPlayer & Sounds RFC template](templates/rfc.md), originally based on the [Rust][rust] template
 
