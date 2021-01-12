@@ -54,6 +54,7 @@ One major concept with DevOps is not to fear change, to be able to remove the ri
 InnerSource helps in this process by its emphasis on a CI/CD workflow as well as a culture to automate much of the risk management and checks as possible. The more contributors there are, the more eyeballs there are. The more eye balls there are, the more diverse perspectives there are on managing risk. These diverse perspectives help the operations team design for the lowest and broadest common denominator thus improving the overall quality and experience for all.
 
 ## Resulting Context
+
 **TBD**
 
 ## Status
