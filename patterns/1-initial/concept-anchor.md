@@ -26,6 +26,7 @@ These organizations might have an existing strategy, such as Agile, Lean, or Dev
 
 ### Agile
 
+
 These are ideas for solutions to the problem that have not been tested yet. This is still a Donut pattern without Solution, and without any Known Instances.
 
 There are several approaches that can be taken in the context of Agile depending on who's listening. The following main concepts are from [Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development)
