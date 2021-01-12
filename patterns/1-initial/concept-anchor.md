@@ -40,7 +40,8 @@ b) Fostering productivity
 While the corporation's strategy may involve colocating employees who collaborate with each other regularly, it may still be a global corporation. Robust CI/CD and documentation facilitates collaboration and productivity across time zones and geographical locations. It eliminates barriers between teams and the production environment.
 * *Quality Focus* this is a major point for IS. Because of the expected submission by a variety of teams and individuals, extra care is taken to make sure that the submitted code is screened to be production quality. Comprehensive documentation for submitters, test coverage, CI/CD, static code analysis and other techniques are often used to screen code from strangers in the open source world, these techniques have great benefits for internal teams.
 
-##### [SCRUM](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)
+#### [SCRUM](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)
+
 To shorten the example and make it more concrete for SCRUM, a popular Agile methodology, one could cite the following scenario:
 Team A depends on Team B's code. Team A has a pressing priority for delivery, Team B has their own priorities, none of which is Team A, what to do? Using InnerSource, Team A can put the required code changes in to their own backlog and submit it to Team B, essentially removing block making things more "Agile".
 
