@@ -23,6 +23,7 @@ These organizations might have an existing strategy, such as Agile, Lean, or Dev
 * Agile/DevOps/Lean have already been heavily marketed and are commonly discussed terms in corporations, conferences, magazines etc.
 
 ## Solutions
+
 ### Agile
 
 These are ideas for solutions to the problem that have not been tested yet. This is still a Donut pattern without Solution, and without any Known Instances.
