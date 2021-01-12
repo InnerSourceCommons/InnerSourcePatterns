@@ -66,6 +66,7 @@ Donut
 * Mishari A. Muqbil (Zymple)
 
 ## Acknowledgements
+
 * Fei Wan
 * Sebastian Spier
 * Danese Cooper
