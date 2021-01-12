@@ -1,4 +1,5 @@
 ## Concept Anchor Pattern
+
 Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean
 
 ## Patlet
