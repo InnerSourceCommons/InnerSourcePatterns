@@ -77,6 +77,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Change the Developers Mindset](patterns/1-initial/change-the-developers-mindset.md)
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Code Consumers](patterns/1-initial/code-consumers.md)
+* [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
 
 #### Donuts (needing a solution)
 
