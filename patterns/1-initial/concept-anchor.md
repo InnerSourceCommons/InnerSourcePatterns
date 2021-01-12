@@ -17,6 +17,7 @@ An individual sees an opportunity for InnerSource to make an impact within an or
 These organizations might have an existing strategy, such as Agile, Lean, or DevOps transformation. To gain mindshare, it might be useful to start with these existing, well known concepts and build InnerSource on top of these concepts.
 
 ## Forces
+
 * Management are reluctant to talk to you unless you can tie projects in to an existing corporate strategy.
 * Starting to explain InnerSource may be difficult unless one starts with a point decision makers are familiar with.
 * Agile/DevOps/Lean have already been heavily marketed and are commonly discussed terms in corporations, conferences, magazines etc.
