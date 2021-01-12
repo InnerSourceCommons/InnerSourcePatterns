@@ -67,7 +67,6 @@ A few examples of what this can include are:
 This section is intended to encourage you as an author to think about the lessons from other places, provide readers of your RFC with a fuller picture.
 If there is no prior art, that is fine - your ideas are interesting to us whether they are brand new or if it is an adaptation from other places.
 
-
 ## Unresolved questions
 - What parts of the design do you expect to resolve through the RFC process before this gets merged?
 - What parts of the design do you expect to resolve through the implementation of this feature before stabilization?
