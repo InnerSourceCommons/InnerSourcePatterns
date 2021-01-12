@@ -1,6 +1,6 @@
 ## Title
 
-Concept Anchor Pattern
+Concept Anchor
 
 ## Alias
 
