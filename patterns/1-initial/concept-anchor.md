@@ -39,6 +39,7 @@ To shorten the example and make it more concrete for SCRUM, a popular Agile meth
 Team A depends on Team B's code. Team A has a pressing priority for delivery, Team B has their own priorities, none of which is Team A, what to do? Using InnerSource, Team A can put the required code changes in to their own backlog and submit it to Team B, essentially removing block making things more "Agile".
 
 ### DevOps
+
 There is no fixed definition of DevOps but much of it is focused around integrating Software Development and other dependencies such as Operations (auxiliary support such as servers, security etc.) and other business to reduce time required to deliver value. So where Agile focuses on the actual software development, DevOps is seen to incorporate all the other areas involving delivery.
 
 One major concept with DevOps is not to fear change, to be able to remove the risks so that experiments on the system can be comfortably performed.
