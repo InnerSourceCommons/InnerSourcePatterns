@@ -2,7 +2,7 @@
 
 A markdown file is a plain ASCII text file that is meant to be easy to read in plaintext, while also being pretty once rendered.
 
-It is similar to the format that many wiki's have. As an example, you can see [this rendered pattern](../dedicated-community-leader.md) of ours also [in plain text](/../../raw/master/dedicated-community-leader.md). You can do this for any markdown file by clicking the ``Raw`` button when viewing a file online.
+It is similar to the format that many wiki's have. As an example, you can see [this rendered pattern](../patterns/2-structured/dedicated-community-leader.md) of ours also [in plain text](/../../raw/master/patterns/2-structured/dedicated-community-leader.md). You can do this for any markdown file by clicking the ``Raw`` button when viewing a file online.
 
 The ASCII is marked up in a standard format. Here are two cheatsheets for that format:
 

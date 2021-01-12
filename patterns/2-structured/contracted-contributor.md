@@ -1,8 +1,9 @@
 ## Title
 
-_Contracted Contributor_
+Contracted Contributor
 
 ## Patlet
+
 Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.
 
 ## Problem
@@ -111,7 +112,7 @@ empowering middle management to sign off on it:
 A formal contracting is also beneficial for contributors and communities:
 
 - With a stable group of contributors, it is more likely that some of them will
-  eventually achieve [Trusted Committer](project-roles/trusted-committer.md) status.
+  eventually achieve [Trusted Committer](./trusted-committer.md) status.
 - A formal contracting provides a basis for resolving conflict related to
   participation in InnerSource activities. Note that mediation will likely be
   successful only for a few companies with a culture condusive to that.
@@ -122,7 +123,8 @@ A formal contracting is also beneficial for contributors and communities:
 
 ## Status
 
-Proven
+* Structured
+* Old status: Proven
 
 ## Author
 

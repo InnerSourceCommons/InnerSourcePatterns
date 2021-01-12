@@ -96,6 +96,6 @@ Also for decision making outside of pure software design decisions, transparent 
 [rust]: https://github.com/rust-lang/rfcs
 [zeromq]: https://rfc.zeromq.org
 [uber]: https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
-[europace]: https://github.com/open-organization/open-org-distributed-work-guide/blob/master/drostfromm_remote-first-through-openess.md#setting-cross-team-standards-and-best-practices-in-the-open
+[europace]: https://github.com/open-organization/open-org-distributed-work-guide/blob/master/drostfromm-remote-first-through-openess.md#setting-cross-team-standards-and-best-practices-in-the-open
 [open-decision-framework]: https://www.redhat.com/en/about/press-releases/red-hat-releases-open-decision-framework-spur-transparent-and-inclusive-leadership
 [innersource-fall-summit-2020]: http://innersourcecommons.org/events/isc-fall-2020/

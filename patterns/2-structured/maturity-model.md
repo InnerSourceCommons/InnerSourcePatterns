@@ -1,6 +1,6 @@
 ## Title
 
-Maturity model: Learn about InnerSource best practices
+Maturity Model
 
 ## Patlet
 
@@ -54,7 +54,6 @@ InnerSource project benefit from planning being transparent across the organizat
 * PP-2: There are already shared roadmaps with clear guidelines and contribution rules where stakeholders can provide feedback. However this is not standardized across the organization and not all of the projects provide this info.
 * PP-3: Roadmaps are shared by default and there is a standard process and homogeneous way to do this across the organization at the level of each InnerSource project. This contains clear rules to contribute and influence in the roadmap.
 
-
 **Development Process & Tools**
 
 InnerSource projects thrive when contributors become active and participate. As a result, making contribution easier should be balanced with pure technical goals.
@@ -75,16 +74,16 @@ In order to motivate colleagues to contribute work outside of their core team th
 
 **Helpful Resources**
 
-In order to attract contributors helpful supporing material needs to be easily accessible.
+In order to attract contributors helpful supporting material needs to be easily accessible.
 
 * RS-0: Individuals and teams neither contribute to nor draw upon a shared repository of knowledge.
 * RS-1: Individuals and teams release project materials for review internally, after they've finished their work. Individuals and teams share resources, but in disconnected, fragmented, or individualized/siloed systems or repositories. Individuals and teams share resources, but there is no commonly expressed or shared understanding of the criteria used to determine whether information is sensitive or not. Do not "share thinking on others".
 * RS-2: Individuals and teams make project-related materials accessible to some members of project teams according to clearly defined and shared formats and/or protocols. Individuals and teams withhold sensitive data and resources, provide limited details, context, and scope.
-* RS-3: Individuals and teams make project-related materials broadly accessible to the organization—and possibly outside the organization as well—according to clearly defined and shared formats and/or protocols. Individuals and teams who must withold sensitive data and resources are clear about what they're not sharing, and others understand why those materials are not available to them.
+* RS-3: Individuals and teams make project-related materials broadly accessible to the organization—and possibly outside the organization as well—according to clearly defined and shared formats and/or protocols. Individuals and teams who must withhold sensitive data and resources are clear about what they're not sharing, and others understand why those materials are not available to them.
 
 **Stories**
 
-When working in host teams mistakes will automatically be widely visible. In order keep contribution levels up, corporate culture needs to celebrate failure as an oportunity for growth and learning.
+When working in host teams mistakes will automatically be widely visible. In order keep contribution levels up, corporate culture needs to celebrate failure as an opportunity for growth and learning.
 
 * ST-0: Individuals and teams don't share neither successes nor failures for others to learn from.
 * ST-1: Individuals and teams are comfortable sharing stories about successes, but not about failures.
@@ -99,10 +98,10 @@ For silos to be reduced colleagues need to be comfortable sharing feedback openl
 
 Ideally you will end up with proper communication channels that are known by anyone in the organization - with channels focussed on different goals (announcements, user support, development channels, infra discussions, etc.). Some of the best practices you will establish as your InnerSource projects mature: Adoption of netiquette guidelines, opening a proven set of standard channels (which are being archived, publicly accessible, searchable) for each new InnerSource project.
 
-* CF-0: There are no processes nor stablished channels. Some members of the organization share materials via private channels or discussions.
-* CF-1: The organization is in the process of establishing internal guidelines and channels for encouraging diverse points of view about company/departmental decisions, so that anyone belonging to the organization can use them. Some members of the organization share decision-making materials unformally using unofficially platforms. Leaders maintain at least one clear and direct channel for organization members to share opinions constructively on some matters relevant to their work.
+* CF-0: There are no processes nor established channels. Some members of the organization share materials via private channels or discussions.
+* CF-1: The organization is in the process of establishing internal guidelines and channels for encouraging diverse points of view about company/departmental decisions, so that anyone belonging to the organization can use them. Some members of the organization share decision-making materials informally using unofficial platforms. Leaders maintain at least one clear and direct channel for organization members to share opinions constructively on some matters relevant to their work.
 * CF-2: The organization has established internal guidelines and channels, and provides specific resources (training programs, access to content, etc.), for encouraging and soliciting diverse points of view on team or decisions.
-* CF-3: Members of the organization share decision-making materials on officially sanctioned platforms 	Members of the organization share materials openly via multiple channels and methods for feedback.
+* CF-3: Members of the organization share decision-making materials on officially sanctioned platforms Members of the organization share materials openly via multiple channels and methods for feedback.
 Leaders use those channels themselves, openly encourage others to use them, and maintain team-facing or public-facing records of the feedback they've received and/or the actions they've taken to address this feedback.
 
 **Leadership**
@@ -167,10 +166,10 @@ In order to drive adoption, extrinsic motivators can be used to increase cross t
 
 InnerSource projects need a means for self assessment. Metrics can be one aspect to facilitate this assessment. Also, in organisations with a mature InnerSource adoption level we expect adoption of the method to be tracked based on clear, agreed upon metrics.
 
-MP-0: No existing monitoring policies at any level in the organization.
-MP-1: Metrics are important for certain teams, and they start using them in an isolated way.
-MP-2: There is a strategy at the organizational level with respect to metrics that help to validate specific policies across the organization. This monitoring policy exists at the level of some of the InnerSource projects.
-MP-3: There are clear guidelines, recommendations, and trainings about the use of metrics with certain infrastructure provided by the organization. This works at both levels: InnerSource program to understand the general InnerSource adoption within the organization, and at the level of InnerSource projects.
+* MP-0: No existing monitoring policies at any level in the organization.
+* MP-1: Metrics are important for certain teams, and they start using them in an isolated way.
+* MP-2: There is a strategy at the organizational level with respect to metrics that help to validate specific policies across the organization. This monitoring policy exists at the level of some of the InnerSource projects.
+* MP-3: There are clear guidelines, recommendations, and trainings about the use of metrics with certain infrastructure provided by the organization. This works at both levels: InnerSource program to understand the general InnerSource adoption within the organization, and at the level of InnerSource projects.
 
 **Support and Maintenance**
 
@@ -192,13 +191,12 @@ There are multiple levels moving towards a collaborative culture.
 
 **InnerSource Roles**
 
-InnerSource comes with explicit roles. While in early stages some patterns may be useable without adopting those roles, communicating withing projects using explicit role titles becomes easier.
+InnerSource comes with explicit roles. While in early stages some patterns may be useable without adopting those roles, communicating within projects using explicit role titles becomes easier.
 
 * RO-0: There are no specific roles helping InnerSource adoption. Only common development roles are present: developer, analyst, tester, etc.
-* RO-1: Occasionally some individuals and teams contribute to other projects. These are technical contributions, where the user/contributor role is seen. For some teams, it can be identified at least one member being a technical reference, who explains the development process to other development team members. He/she could be a candidate for covering the trusted commiter role.
-* RO-2: An InnerSource Officer role is in charge for governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for dev team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. 	Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
+* RO-1: Occasionally some individuals and teams contribute to other projects. These are technical contributions, where the user/contributor role is seen. For some teams, it can be identified at least one member being a technical reference, who explains the development process to other development team members. He/she could be a candidate for covering the trusted committer role.
+* RO-2: An InnerSource Officer role is in charge for governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for dev team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
 * RO-3: Evangelists are moving inside organization, to let others know about the current work, what InnerSource does and how to do it, and help others to understand and become part of the initiative. Non technical contributors appear.
-
 
 ## Resulting Context
 
@@ -225,8 +223,11 @@ long term.
 
 ## Acknowledgements
 
+## Alias
+
+Maturity model: Learn about InnerSource best practices
+
 ## Status
 
-Drafted in September 2019
-
-Currently in status "Structured".
+* Structured
+* Drafted in September 2019
