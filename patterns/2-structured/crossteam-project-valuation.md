@@ -33,7 +33,7 @@ Ascribing value to a cross-team effort is an exercise in quantifying _how much m
 The exact delta in productivity will vary by domain and project.
 There is a common process, though, by which you can create a model to calculate it.
 
-## Explanation
+### Explanation
 
 Assemble a small team of subject matter experts in your domain.
 Using that team of experts, estimate 4 things about each consumer of your project output:
@@ -51,7 +51,7 @@ Specifically, you should estimate a *maximum* reasonable time to consume your pr
 One note about cost of "rolling your own solution" (home-roll).  The cost to home-roll a solution is NOT necessarily (very unlikely, in fact) the same as the cost of making a shared solution.
 Oftentimes for the same functionality the modularity and quality involved in building a cross-team, shared solution makes it a noticeably higher investment than a quick, hardcoded implementation used just once.
 
-## Formula
+### Formula
 
 Once you have your worst-case bounds you can value your cross-team project output during a given time frame via the simple formula:
 
@@ -63,7 +63,7 @@ Once you have your worst-case bounds you can value your cross-team project outpu
 [Count of New Onboardings] * ([Cost to Home-Roll] * [Percent Useful Functionality] - [Cost to Onboard]) + [Count of Usages] * [Maintenance Cost Per Use]
 ```
 
-## Commentary
+### Commentary
 
 Despite the trappings of rigor, this process does not yield an exact way to measure cross-team project output.
 In-practice, though, it does give a framework by which you can make a sound decision at how to fund this work.
@@ -72,6 +72,7 @@ After having good, reasonable data according to the above explanation, you shoul
 1. The raw hours saved by the formula above.  Since we're all sure that the formula will produce a number that is below the true number of hours saved, you can have confidence that funding the project up to that point is a sure win for you.
 1. The amount of time that it takes to support inner sourced contributions to cross-team projects.  Since the contributor would likely have done the work anyway in a one-off fashion, it is worth it to fund the time it takes to faciliate their work going into a shared location.
 1. Whatever feels good to you.  One intentional side-effect of having a valuation formula is that it  naturally forces measurement of the key points of usage that provide value to consumers.
+
 Those measurements can be understood and consumed in their raw form to provide you with a gut-feel idea of how valuable is the project.
 
 Some may be concerned about the lack of accuracy in this valuation approach.  It's okay for this process to not give an exact measurement.  It just needs to be accurate enough to accomplish 2 purposes:
