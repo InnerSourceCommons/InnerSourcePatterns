@@ -3,6 +3,10 @@
 * Junkyard styled inner sourcing
 * Finding but deciding not to use the internal component
 
+## Patlet
+
+TBD
+
 ## Context
 
 Two situations:
@@ -31,11 +35,12 @@ Two situations:
 
 ## Status
 
-Brainstormed pattern idea in progress
+* Initial
+* Brainstormed pattern idea in progress
 
 ## Authors
 
-* Georg Grutter
+* Georg Gruetter
 * Erin Bank
 * Padma Sudarsan
 * Tim Yao

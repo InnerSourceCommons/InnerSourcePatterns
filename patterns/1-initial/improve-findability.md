@@ -57,13 +57,12 @@ None known as of yet---this is a pattern idea until it is proven.
 
 ## Status
 
-Unproven
-
-Brainstormed pattern idea reviewed 2017-03-11.
+* Initial  
+* Brainstormed pattern idea reviewed 2017-03-11.
 
 ## Authors
 
-- Georg Grutter (Robert Bosch GmbH)
+- Georg Gruetter (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)
 - Erin Bank (CA Technologies)
 - Padma Sudarsan (Nokia)

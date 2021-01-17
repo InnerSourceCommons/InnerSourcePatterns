@@ -34,7 +34,7 @@ Teams sharing InnerSource learnings run into misunderstandings as they are not
 aware of their respective level of InnerSource adoption.
 
 Teams believe that "it's all about migrating to a shared software development
-forge".
+[forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
 
 Teams are not aware of best practices that would help them solve issues that
 they run into in their daily doing.
@@ -83,7 +83,7 @@ In order to attract contributors helpful supporting material needs to be easily 
 
 **Stories**
 
-When working in host teams mistakes will automatically be widely visible. In order keep contribution levels up, corporate culture needs to celebrate failure as an oportunity for growth and learning.
+When working in host teams mistakes will automatically be widely visible. In order keep contribution levels up, corporate culture needs to celebrate failure as an opportunity for growth and learning.
 
 * ST-0: Individuals and teams don't share neither successes nor failures for others to learn from.
 * ST-1: Individuals and teams are comfortable sharing stories about successes, but not about failures.
@@ -98,7 +98,7 @@ For silos to be reduced colleagues need to be comfortable sharing feedback openl
 
 Ideally you will end up with proper communication channels that are known by anyone in the organization - with channels focussed on different goals (announcements, user support, development channels, infra discussions, etc.). Some of the best practices you will establish as your InnerSource projects mature: Adoption of netiquette guidelines, opening a proven set of standard channels (which are being archived, publicly accessible, searchable) for each new InnerSource project.
 
-* CF-0: There are no processes nor stablished channels. Some members of the organization share materials via private channels or discussions.
+* CF-0: There are no processes nor established channels. Some members of the organization share materials via private channels or discussions.
 * CF-1: The organization is in the process of establishing internal guidelines and channels for encouraging diverse points of view about company/departmental decisions, so that anyone belonging to the organization can use them. Some members of the organization share decision-making materials informally using unofficial platforms. Leaders maintain at least one clear and direct channel for organization members to share opinions constructively on some matters relevant to their work.
 * CF-2: The organization has established internal guidelines and channels, and provides specific resources (training programs, access to content, etc.), for encouraging and soliciting diverse points of view on team or decisions.
 * CF-3: Members of the organization share decision-making materials on officially sanctioned platforms Members of the organization share materials openly via multiple channels and methods for feedback.
