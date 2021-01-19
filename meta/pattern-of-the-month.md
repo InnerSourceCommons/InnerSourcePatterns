@@ -9,11 +9,14 @@ With the **‌Pattern of the Month** we are putting the focus on one of the exis
 ## How could that work?
 
 * Each month we pick on new **pattern of the month**. This can be a pattern of any [maturity level](contributor-handbook.md).
-* We advertise for that pattern of the month on various channels:
+* We advertise for the pattern of the month on various channels:
     * twitter
     * linkedin
     * #innersource-patterns slack channel (maybe in #general as well)
     * we ask the Marketing Working Group to help us with this
+* We moderate discussions about the pattern:
+    * **Q&A sessions** (async) in #innersource-patterns (Slack)
+    * **Video conferences** (live) with people who know the pattern well (the authors and contributors) to help describe nuances of the pattern and to help the audience determine what additional tweaks might make the pattern work in their context.
 * We ask the community for contributions:
     * Discuss the pattern and ask questions about it #innersource-patterns (Slack).
     * Fix spelling, formatting, or other glitches that you notice in the pattern.
