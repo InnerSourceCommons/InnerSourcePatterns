@@ -58,7 +58,6 @@ Examples of building blocks:
   on the project direction. Everyone has an equal say in who else to add to this
   group.
 
-
 ## Resulting Context
 
 Teams can adopt InnerSource best practices in a step-by-step way. By documenting
@@ -71,4 +70,3 @@ TBD
 ## Status
 
 Early draft
-
