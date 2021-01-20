@@ -57,6 +57,7 @@ possible to either deploy the same service in independent environments with sepa
 * [Include Product Owners](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
 * [Provide standard base documentation through a README](patterns/2-structured/project-setup/base-documentation.md) - *New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like README.md/CONTRIBUTING.md enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.*
 * [Issue tracker use cases](patterns/2-structured/project-setup/issue-tracker.md) - *The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.*
+* [Governance Levels](patterns/1-initial/governance-levels.md) - *There are projects in multiple stages of InnerSource adoption. Contributors get confused when working with projects that are at different stages.*
 
 ### Maturity Level 1: Initial
 
