@@ -1,8 +1,8 @@
 # Pattern of the Month
 
-We are constantly improving the [InnerSourcePatterns repo](https://github.com/InnerSourceCommons/InnerSourcePatterns), by asking the community to contribute their experience t0 existing patterns, as well as contributing entirely new patterns.
+We are constantly improving the [InnerSourcePatterns repo](https://github.com/InnerSourceCommons/InnerSourcePatterns), by asking the community to contribute their experience to existing patterns, and create entirely new patterns.
 
-However with more than 40 patterns in various maturity levels in our repo, it can be hard for new people to figure out where to get started.
+However with 40+ patterns in various maturity levels, it can be hard for new people to figure out where to get started.
 
 With the **‌Pattern of the Month** we are putting the focus on one of the existing pattern at a time, allowing the community to learn more about this one pattern together.
 
