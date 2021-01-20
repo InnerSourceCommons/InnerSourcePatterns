@@ -30,7 +30,6 @@ long discussions, escalations and time lost on clarifications.
 - Writing detailed guidelines into each contributions file leads to a lot of
   text that is hard to understand for engineers.
 
-
 ## Solution
 
 Establish standardised building blocks which can be used by projects to signify
@@ -72,5 +71,4 @@ TBD
 ## Status
 
 Early draft
-
 
