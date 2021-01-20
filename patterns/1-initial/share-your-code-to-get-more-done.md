@@ -52,9 +52,9 @@ TBD
 
 ## Status
 
-Unproven
-
-Old status: Idea
+* Initial
+* Old status: Unproven
+* Old status: Idea
 
 ## Author
 

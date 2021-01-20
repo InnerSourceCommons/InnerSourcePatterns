@@ -1,8 +1,14 @@
 # from: https://github.com/marketplace/actions/link-checker
+# link checker used is 'liche': https://github.com/raviqqe/liche
 
-name: Link Check on README.md
+name: Link Check on Patterns and README
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
@@ -12,6 +18,6 @@ jobs:
       id: lc
       uses: peter-evans/link-checker@v1
       with:
-        args: -v -d . -x "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com" README.md
+        args: -v -d . -x "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com|https://github.com/rcs/rcs-viewer/pull/81|fearlesschangepatterns.com" README.md patterns/ -r
     - name: Fail if there were link errors
       run: exit ${{ steps.lc.outputs.exit_code }}

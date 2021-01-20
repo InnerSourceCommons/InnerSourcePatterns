@@ -19,13 +19,13 @@ It can be used to sort projects according to their activity level.
 
 When InnerSource is practiced for a long time or scales beyond a certain number of projects (let's say 50 to give a meaningful threshold) it is hard to find the currently most popular and active InnerSource projects. Projects that exist for a long time are well-known but may no longer be very active. Fairly new projects on the other hand don't have a reputation or an active community yet.
 
-A list of InnerSource projects should not be considered a static resource, but an exciting place to discover and explore new and active projects, just like a news page listing the most interesting topics of the day first. Thus it is beneficial when the order of the projects is regularly updated and changes according to the project's popularity and activity.   
+A list of InnerSource projects should not be considered a static resource, but an exciting place to discover and explore new and active projects, just like a news page listing the most interesting topics of the day first. Thus it is beneficial when the order of the projects is regularly updated and changes according to the project's popularity and activity.
 
 These considerations led to a first prototype to calculate a repository activity score, which worked surprisingly well and determines an ever-changing order of projects according to their activity.
 
 ## Context
 
-Discovering InnerSource projects can be facilitated with the [InnerSource Portal](innersource-portal.md) and the [Gig Marketplace](gig-marketplace.md) pattern, or by promoting projects on other communication channels and platforms. The activity score defines a default order in which projects are presented to the community. 
+Discovering InnerSource projects can be facilitated with the [InnerSource Portal](innersource-portal.md) and the [Gig Marketplace](gig-marketplace.md) pattern, or by promoting projects on other communication channels and platforms. The activity score defines a default order in which projects are presented to the community.
 
 ## Forces
 
@@ -49,15 +49,16 @@ Projects with contributing guidelines, active participation stats, and issues (p
 All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://developer.github.com/v3/search/#search-repositories) and [GitHub statistics API](https://developer.github.com/v3/repos/statistics/). Other code versioning systems like BitBucket, Gitlab, Gerrit can be integrated as well if a similar API is available.
 
 The code below assumes the variable `repo` contains an entity fetched from the GitHub `search` API and the `participation` object contains an entity from the GitHub `stats/participation` API.
- 
-Manual adjustments according to soft KPIs (see [Forces](#forces)) can be made on top if needed. 
+
+Manual adjustments according to soft KPIs (see [Forces](#forces)) can be made on top if needed.
 
 ``` javascript
 // calculate a virtual InnerSource score from stars, watches, commits, and issues
 function calculateScore(repo) {
-    // weighting:
-    // forks and watches count most, then stars, add some little score for open issues, too
-    let iScore = 1 + repo["forks_count"] * 5 + repo["watchers_count"] + repo["stargazers_count"] / 3 + repo["open_issues_count"] / 5;
+    // initial score is 50 to give active repos with low GitHub KPIs (forks, watchers, stars) a better starting point
+    let iScore = 50;
+    // weighting: forks and watches count most, then stars, add some little score for open issues, too
+    iScore += repo["forks_count"] * 5 + repo["watchers_count"] + repo["stargazers_count"] / 3 + repo["open_issues_count"] / 5;
     let iDaysSinceLastUpdate = (new Date().getTime() - new Date(repo.updated_at).getTime()) / 1000 / 86400;
     // updated in last 3 months: adds a bonus multiplier between 0..1 to overall score (1 = updated today, 0 = updated more than 100 days ago)
     iScore = iScore * (1 + (100 - Math.min(iDaysSinceLastUpdate, 100)) / 100);
@@ -76,14 +77,16 @@ function calculateScore(repo) {
     iBoost *= (365 - Math.min(iDaysSinceCreation, 365)) / 365;
     // add boost to score
     iScore += iBoost;
+    // give projects with a meaningful description a static boost of 50
+    iScore += (repo["_InnerSourceMetadata"]["description"].length > 30 || repo["_InnerSourceMetadata"] && repo["_InnerSourceMetadata"]["motivation"].length > 30 ? 50 : 0);
     // give projects with contribution guidelines (CONTRIBUTING.md) file a static boost of 100
     iScore += (repo["_InnerSourceMetadata"] && repo["_InnerSourceMetadata"]["guidelines"] ? 100 : 0);
     // build in a logarithmic scale for very active projects (open ended but stabilizing around 5000)
     if (iScore > 3000) {
         iScore = 3000 + Math.log(iScore) * 100;
     }
-    // final score is a rounded value starting from 0
-    iScore = Math.round(iScore - 1);
+    // final score is a rounded value starting from 0 (subtract the initial value)
+    iScore = Math.round(iScore - 50);
     // add score to metadata on the fly
     repo._InnerSourceMetadata.score = iScore;
     return iScore;
@@ -96,21 +99,20 @@ Contributors are free to commit a part of their time to InnerSource project. The
 
 Projects can be sorted and presented by repository activity score to give a meaningful order in a portal presenting projects to potential new contributors. The score can be calculated on the fly or in a background job that evaluates all projects on a regular basis and stores a list of results.
 
-A crawler that regularly searches all InnerSource repositories (e.g. tagged with a certain [topic](https://github.com/topics) in GitHub) can be a helpful addition as well. It provides a ranked list of projects that can be used as an input for tools like the [InnerSource Portal](innersource-portal.md), a search engine, or an interactive chat bot. 
+A crawler that regularly searches all InnerSource repositories (e.g. tagged with a certain [topic](https://github.com/topics) in GitHub) can be a helpful addition as well. It provides a ranked list of projects that can be used as an input for tools like the [InnerSource Portal](innersource-portal.md), a search engine, or an interactive chat bot.
 
 ## Rationale
 
-The repository activity score is a simple calculation based on the GitHub API. It can be fully automated and easily adapted to new requirements. 
+The repository activity score is a simple calculation based on the GitHub API. It can be fully automated and easily adapted to new requirements.
 
 ## Known Instances
 
-Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since.
-
-When proposed to InnerSourceCommons in July 2020, this pattern emerged.
+* Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to InnerSourceCommons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
 
 ## Status
 
-Proven
+* Structured
+* Old status: Proven
 
 ## Author(s)
 
@@ -119,7 +121,8 @@ Proven
 ## Acknowledgements
 
 Thank you to the InnerSource Commons Community for lightning-fast advice, and a lot of helpful input to feed this pattern! Especially:
+
 * Johannes Tigges
-* Sebastian Spier 
-* Maximilian Capraro 
+* Sebastian Spier
+* Maximilian Capraro
 * Tim Yao

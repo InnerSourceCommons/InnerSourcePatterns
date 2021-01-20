@@ -2,15 +2,19 @@
 
 30 Day Warranty
 
+## Patlet
+
+When accepting contributions from outside of your own team, there is a natural aversion to taking responsibility for code not written by the team itself. Through the 30 Day Warranty the contributing team consents to provide bug fixes to the receiving team, which will increase the level of trust between both teams and makes it more likely that contributions get accepted.
+
+## Problem
+
+A team develops a component which is used throughout an organization.  This team resists accepting or outright rejects contributions (feature requests).  This behavior blocks progress and leads to frequent disruption from escalations.
+
 ## Context
 
 Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team. The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component.
 
 - TBD: link to pattern "setting clear expectations for contributing code"
-
-## Problem
-
-A team develops a component which is used throughout an organization.  This team resists accepting or outright rejects contributions (feature requests).  This behavior blocks progress and leads to frequent disruption from escalations.
 
 ## Forces
 
@@ -72,11 +76,11 @@ This was tried and proven successful at PayPal.
 
 ## Status
 
-Proven
-
-Drafted at the 2017 Spring InnerSource Summit; reviewed 18 July 2017.
+* Structured
+* Old status: Proven
+* Drafted at the 2017 Spring InnerSource Summit; reviewed 18 July 2017.
 
 ## Variants
 
 - Ensure cooperation of dependent teams by making them a community by having
-  more than one, meritocratically appointed "[Trusted Committers](project-roles/trusted-committer.md)" (TCs) take responsibility.
+  more than one, meritocratically appointed "[Trusted Committers](./trusted-committer.md)" (TCs) take responsibility.

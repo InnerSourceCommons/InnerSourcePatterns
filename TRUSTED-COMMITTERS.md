@@ -4,11 +4,12 @@ Trusted committers (TCs) are those members of our working group who have elevate
 
 ## Current Trusted Committers
 
-* [@lenucksi](https://github.com/lenucksi)
-* [@nyeates](https://github.com/nyeates)
-* [@gruetter](https://github.com/gruetter)
-* [@NewMexicoKid](https://github.com/NewMexicoKid)
-* [@cewilliams](https://github.com/cewilliams)
+* [@spier](https://github.com/spier) (added 2020-12-11)
+* [@lenucksi](https://github.com/lenucksi) (added 2020-04-24)
+* [@nyeates](https://github.com/nyeates) (added 2017-03-02)
+* [@gruetter](https://github.com/gruetter) (added 2017-03-02)
+* [@NewMexicoKid](https://github.com/NewMexicoKid) (added 2017-03-02)
+* [@cewilliams](https://github.com/cewilliams) (added 2017-03-02)
 
 ## Process for Adding new Trusted Committers
 
@@ -25,7 +26,8 @@ We follow this process (adapted from [here](https://tech.europace.de/voting-in-n
 1. If none of the existing TCs disagrees with the nomination within 72h, [lazy consensus](https://tech.europace.de/lazy-consensus-vs-explicit-voting/) is reached: The nomination is accepted.
 1. The TC who nominated the candidate informs her/him in private about the nomination and its acceptance. The candidate can decide on whether to accept or reject the offer.
 1. If the candidate accepts the offer, the TC who nominated the candidate, makes sure:
-   * New TC is added to this file
+   * New TC is added to this file (`TRUSTED-COMMITTERS.md`)
+   * New TC is added to `.github/CODEOWNERS`, so that they get notified about new PRs automatically
    * New TC receives write access to this repository
    * New TC is added to the #innersource-patterns-tcs channel
    * New TC is praised in the [#innersource-patterns](https://app.slack.com/client/T04PXKRM0/C2EFRTS6A) channel.
