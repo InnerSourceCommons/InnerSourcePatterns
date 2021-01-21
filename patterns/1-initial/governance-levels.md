@@ -69,4 +69,4 @@ TBD
 
 ## Status
 
-Early draft
+Initial (Early draft)
