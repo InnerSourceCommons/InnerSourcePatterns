@@ -38,7 +38,7 @@ used in contributing files.
 
 Examples of building blocks:
 
-* Bug reports and issues welcome: People outside the core development team are
+* **Bug reports and issues welcome**: People outside the core development team are
   welcome to read the code. They can submit feature requests and bug reports for
   things they would like to see changed.
 
