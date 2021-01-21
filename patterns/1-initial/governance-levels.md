@@ -48,7 +48,7 @@ Examples of building blocks:
   they can be accepted or communicate clearly why the proposed change cannot be
   made.
 
-* Shared write access: In addition to the above people outside the core
+* **Shared write access**: In addition to the above people outside the core
   development team may gain write access to the source repository. Influence on
   roadmap decisions as well as influence on who else gains write access is
   restricted to the core development team.
