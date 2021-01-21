@@ -1,6 +1,6 @@
 ## Title
 
-Transparent governance levels
+Transparent Governance Levels
 
 ## Context
 
