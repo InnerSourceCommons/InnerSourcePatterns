@@ -53,7 +53,7 @@ Examples of building blocks:
   roadmap decisions as well as influence on who else gains write access is
   restricted to the core development team.
 
-* Shared ownership: Members of different teams collaborate on the project as
+* **Shared ownership**: Members of different teams collaborate on the project as
   equal peers. Everyone has the ability to merge code. Everyone has an equal say
   on the project direction. Everyone has an equal say in who else to add to this
   group.
