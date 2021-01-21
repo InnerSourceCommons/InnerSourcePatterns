@@ -42,7 +42,7 @@ Examples of building blocks:
   welcome to read the code. They can submit feature requests and bug reports for
   things they would like to see changed.
 
-* Contributions welcome: People outside the core development team may use the
+* **Contributions welcome**: People outside the core development team may use the
   code, make modifications and feed those modifications back into the projects.
   Trusted committers are willing to mentor those contributions to a state where
   they can be accepted or communicate clearly why the proposed change cannot be
