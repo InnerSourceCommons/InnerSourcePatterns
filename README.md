@@ -76,7 +76,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 * [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
 * [Reluctance to Receive Contributions](patterns/1-initial/reluctance-to-accept-contributions.md) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them. Summary pattern that lays out four children patterns with three to be defined.*
-* [Include Product Owners](patterns/1-initial/include-product-owners.md) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with InnerSource projects.*
+* [Include Product Owners](patterns/1-initial/include-product-owners.md) - *Engaging and educating Product Owners about InnerSource can help them modify their actions (e.g., in the space of KPIs) to help InnerSource collaboration work better.*
 
 #### Donuts (needing a solution)
 
