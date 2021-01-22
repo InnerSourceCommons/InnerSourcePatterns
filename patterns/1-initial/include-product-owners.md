@@ -4,7 +4,7 @@ Include Product Owners
 
 ## Patlet
 
-TBD
+Engaging and educating Product Owners about InnerSource can help them modify their actions (e.g., in the space of KPIs) to help InnerSource collaboration work better.
 
 ## Problem
 
