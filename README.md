@@ -54,7 +54,6 @@ The below lists all known patterns. They are grouped into three [maturity levels
 
 #### Pattern Drafts (proven, not yet fully reviewed)
 
-* [Assisted Compliance](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/74) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
 * [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
 * [Open Source Trumps InnerSource](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
 
@@ -77,6 +76,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
 * [Reluctance to Receive Contributions](patterns/1-initial/reluctance-to-accept-contributions.md) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them. Summary pattern that lays out four children patterns with three to be defined.*
 * [Include Product Owners](patterns/1-initial/include-product-owners.md) - *Engaging and educating Product Owners about InnerSource can help them modify their actions (e.g., in the space of KPIs) to help InnerSource collaboration work better.*
+* [Assisted Compliance](patterns/1-initial/assisted_compliance.md) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
 
 #### Donuts (needing a solution)
 
