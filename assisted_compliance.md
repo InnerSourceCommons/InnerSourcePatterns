@@ -13,7 +13,6 @@ The team that owns the repository doesn't have a CONTRIBUTING.md; the task force
 * Compliance guys have to do a job; this is made difficult by teams resisting this.
 * Teams are focusing on business value; CONTRIBUTING.md compliance is viewed as not as important.
 * Special task force for security and compliance: developers responsible for fixing these bugs across the company.
-* You have to do these fixes.
 * Negotiations are being held but they are slow and little progress is made.
 * The task force is discovering the needed information for a CONTRIBUTING.md as they investigate the problem.
 * There is a checklist for being InnerSource compliant.
