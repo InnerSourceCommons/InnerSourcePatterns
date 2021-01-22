@@ -1,11 +1,6 @@
 ## Title
 
-Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request
-
-### Alternate titles
-
-* Let us help you be compliant
-* Assisted compliance
+Assisted Compliance
 
 ## Problem
 
@@ -41,6 +36,11 @@ The team that owns the repository doesn't have a CONTRIBUTING.md; the task force
 * Many projects pop up without governance; the first chance to interact with them is to help them setup their README.md and be compliant.
 
 ## Known instances
+
+## Alias
+
+* Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request
+* Let us help you be compliant
 
 ## Authors
 
