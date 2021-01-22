@@ -2,6 +2,10 @@
 
 Assisted Compliance
 
+## Patlet
+
+TBD
+
 ## Problem
 
 The team that owns the repository doesn't have a CONTRIBUTING.md; the task force needs them to have this to submit bug fixes.
@@ -30,12 +34,18 @@ The team that owns the repository doesn't have a CONTRIBUTING.md; the task force
 * "Let us help you be compliant"
 * You could do an audit to assess the state of compliance. Bots could be used to check compliance; and the state of compliance could show up in an internal portal.
 
-## Resulting context
+## Resulting Context
 
 * Contributors become InnerSource champions; they both teach and guide those through the process in a gentler fashion than it would have been done before.
 * Many projects pop up without governance; the first chance to interact with them is to help them setup their README.md and be compliant.
 
-## Known instances
+## Known Instances
+
+TBD
+
+## Status
+
+Initial
 
 ## Alias
 
