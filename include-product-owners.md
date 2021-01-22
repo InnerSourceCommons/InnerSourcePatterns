@@ -8,8 +8,7 @@ TBD
 
 ## Problem
 
-Key Performance Indicators (KPIs) for Product Owners are primarily product focused and don't consider areas such as collaborative development.
-Impact: Lower level of engagement with InnerSource.  
+Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with InnerSource projects.
 
 ## Forces
 
