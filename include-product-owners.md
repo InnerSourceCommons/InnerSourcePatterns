@@ -62,7 +62,8 @@ Impact: Lower level of engagement with InnerSource.
 
 ## Status
 
-TBD
+* Initial
+* Created at the Spring Summit 2017 in Geneva, Switzerland
 
 ## Authors
 
