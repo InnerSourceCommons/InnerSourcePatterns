@@ -26,7 +26,7 @@ Impact: Lower level of engagement with InnerSource.
 * Motivation: Some are motivated to contribute because it is the only way that their desired feature will make it into the codebase.
 * Lack of motivation: If Developers don't see what's in it for them to contribute, they might not be highly motivated to help.
 
-## Contexts
+## Context
 
 * Teams and individuals are not rewarded for software component reuse.
 * Motivations of the product(s) are not aligned with the InnerSource initiative.
@@ -62,7 +62,7 @@ Impact: Lower level of engagement with InnerSource.
 
 ## Status
 
-* Initial
+* Initial (still missing Patlet and at least one Known Instance)
 * Created at the Spring Summit 2017 in Geneva, Switzerland
 
 ## Authors
