@@ -24,7 +24,7 @@ The team that owns the repository doesn't have a CONTRIBUTING.md; the task force
 * Making documents part of the repo skeleton might be "rubber stamping"; better to have teams own this. So too much automation in this case is bad.
 
 ## Solution
-* Rather than asking the resisting team to do the changes, they create the documentation (in addition to negotiations)
+* Rather than asking the resisting team to do the changes, the policing task force that discovers the lack of compliance create the documentation (in addition to negotiations)
 * Taking the contributor perspective (contributors are motivated). They are writing the CONTRIBUTING.md documentation for those teams resistant to doing the fixes, doing this as pull requests. The discussion is then documented in the pull request. The resisting development teams then just correct mistakes.
 * "Let us help you be compliant"
 * You could do an audit to assess the state of compliance. Bots could be used to check compliance; and the state of compliance could show up in an internal portal.
