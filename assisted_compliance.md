@@ -38,6 +38,7 @@ The team that owns the repository doesn't have a CONTRIBUTING.md; the task force
 
 * Contributors become InnerSource champions; they both teach and guide those through the process in a gentler fashion than it would have been done before.
 * Many projects pop up without governance; the first chance to interact with them is to help them setup their README.md and be compliant.
+* We increase the overall compliance and the chance of getting more contributions from the outside. This ultimately helps the team in question to get more work done.
 
 ## Known Instances
 
