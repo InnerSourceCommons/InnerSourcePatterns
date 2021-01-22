@@ -1,0 +1,35 @@
+name: Book ToC Generation
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  book-toc-generation:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6'
+
+    - name: Install ruby dependencies
+      run: |
+        cd book/
+        gem install bundler
+        bundle install
+
+    - name: Generate ToC
+      run: |
+        cd book/
+        ruby generate_toc.rb
+
+    - name: Commit new ToC to book/toc.md
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Writing new ToC for the book
