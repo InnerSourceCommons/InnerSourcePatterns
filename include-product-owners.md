@@ -8,8 +8,8 @@ TBD
 
 ## Problem
 
-Key Performance Indicators (KPIs) for Product Owners are primarily product focused and don't consider areas such as  collaborative development.
-Impact: Lower level of engagement with innersource.  
+Key Performance Indicators (KPIs) for Product Owners are primarily product focused and don't consider areas such as collaborative development.
+Impact: Lower level of engagement with InnerSource.  
 
 ## Forces
 
@@ -18,7 +18,7 @@ Impact: Lower level of engagement with innersource.
 * Product Owners may not be as focused on the longer-term benefits of InnerSource because many of their own metrics and goals are shorter lived.
 * Product Owners may not be aware of the benefits of InnerSource
 * Employees desire to grow their own circle of influence, which leads them to limited sharing of their own resources.
-* Some people lack understanding of the up-front impact and cost of InnerSource in terms of resources, because they are more focused on the efficiences that it can provide.
+* Some people lack understanding of the up-front impact and cost of InnerSource in terms of resources, because they are more focused on the efficiencies that it can provide.
 * Product Owners might not use Development tools and may therefore lack the opportunity to find out about inner source offerings and opportunities for collaboration and reuse.
 * Fear of loss of control.
 * Resistance to allow people to join and contribute.
@@ -37,7 +37,7 @@ Impact: Lower level of engagement with innersource.
 
 ## Solution
 
-* Talk with the Product Owners to understand their priorities. Prepare for this dicussion by understanding their user stories, backlog, and roadmap if possible.
+* Talk with the Product Owners to understand their priorities. Prepare for this discussion by understanding their user stories, backlog, and roadmap if possible.
 * Ensure that Product Owners are aware of the benefits of InnerSource that they might care about most, including:
     - Reuse. Teams can avoid writing new software from scratch because they can leverage and/or existing code.
     - Savings of time and money. It may cost more for a team other than the original team to write it, but it costs less than   writing it from scratch.
