@@ -12,7 +12,7 @@ confusion and frustration when teams collaborate across team boundaries.
 ## Problem
 
 For two projects InnerSource best practices have been adopted. Project A
-has a shared ownership model with Trusted Committers from multiple teams.
+has a shared ownership model with [Trusted Committers](../2-structured/trusted-committer.md) from multiple teams.
 Project B is fully owned by one team, only contributions are coming from
 multiple teams. New contributors to either project are regularly confused about
 the level of influence they can gain to the respective project. This leads to
