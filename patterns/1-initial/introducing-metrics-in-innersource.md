@@ -29,7 +29,7 @@ If there's a change in the C-level, metrics might be helpful to convince them th
 
 People do not like to be tracked or measured.
 
-There is no canonical monitoring infrastructure for the software development process. Furthermore, such infrastructure is hard to build 
+There is no canonical monitoring infrastructure for the software development process. Furthermore, such infrastructure is hard to build
 or to get funding for.
 
 There is not a culture of software development metrics.
@@ -66,7 +66,6 @@ Produce a characterization of metrics as this might be helpful for others to und
 
 Note: The aforementioned metrics are some common examples. They aren't a one-size-fits-all. We expect the business goals of the organization to drive the metric selection process.
 
-
 ## Resulting Context
 
 The organization builds a monitoring and reporting infrastructure for the metrics that flow directly from its business goals.
@@ -79,7 +78,7 @@ Continued monitoring of these metrics will help middle management and developers
 
 ## State
 
-Unproven
+Initial
 
 ## Authors
 

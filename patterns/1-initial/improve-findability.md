@@ -31,6 +31,7 @@ Historically, the company does not have a culture of sharing code across silos.
 ## Solution
 
 To help improve findability for inner source projects:
+
 - Provide guidelines for applying clear, meaningful naming conventions to projects, and reinforce the importance of avoiding cryptic code names.
 - Include keywords in project descriptions.
 - Apply tagging to repositories (validated).
@@ -56,13 +57,12 @@ None known as of yet---this is a pattern idea until it is proven.
 
 ## Status
 
-Unproven
-
-Brainstormed pattern idea reviewed 2017-03-11.
+* Initial  
+* Brainstormed pattern idea reviewed 2017-03-11.
 
 ## Authors
 
-- Georg Grutter (Robert Bosch GmbH)
+- Georg Gruetter (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)
 - Erin Bank (CA Technologies)
 - Padma Sudarsan (Nokia)

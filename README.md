@@ -1,6 +1,11 @@
 # InnerSource Patterns
 
+<a href="https://innersourcecommons.gitbook.io/innersource-patterns/">
+<img align="right" src="book/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" width="30%"></a>
+
 This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them.
+
+If you are here for the first time, you may start by reading our most mature patterns, published at [innersourcecommons.gitbook.io/innersource-patterns](https://innersourcecommons.gitbook.io/innersource-patterns/).
 
 Below you find [what a pattern is](#what-are-innersource-patterns), a [list of known patterns](#list-of-patterns), and [how to use these patterns](#how-can-you-use-innersource-patterns) in your organization.
 
@@ -11,6 +16,7 @@ You are already using InnerSource in your company and want to share your ideas a
 ## Mission Statement
 
 Our mission in this working group
+
 - Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
 - Continuously publish the most mature patterns as an ebook
 
@@ -37,54 +43,48 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Praise Participants](patterns/2-structured/praise-participants.md) - *Thank contributors effectively to engender further engagement from them and to encourage others to contribute*
 * [Repository Activity Score](patterns/2-structured/repository-activity-score.md) - *The repository activity score is a numeric value that represents the (GitHub) activity of an InnerSource project.*
 * [Review Committee](patterns/2-structured/review-committee.md) - *The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarise themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.*
-* [Service vs. Library](patterns/2-structured/service-vs-library.md) - *Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's
-possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.*
+* [Service vs. Library](patterns/2-structured/service-vs-library.md) - *Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.*
 * [Trusted Committer](patterns/2-structured/trusted-committer.md) - *Many inner-source projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
-
-#### Pattern Drafts (proven, not yet fully reviewed)
-
-* [Assisted Compliance](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/74) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
-* [Cross-Team Project Valuation](patterns/2-structured/crossteam-project-valuation.md) - *It's hard to sell the value of cross-team, inner sourced projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
-* [Reluctance to Receive Contributions](patterns/1-initial/reluctance-to-accept-contributions.md) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them.*
-* [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
-* [Open Source Trumps InnerSource](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
-* [Start as Experiment](patterns/2-structured/start-as-experiment.md) - *An inner source initiative is considered but not started, because management is unsure about its outcome and therefore unwilling to commit to the investment.*
-* [Include Product Owners](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/71) - *Key Performance Indicators (KPIs) for Product Owners are primarily product focused, and don't consider areas such as collaborative development. This results in a lower level of engagement with inner source projects.*
 * [Standard Base Documentation](patterns/2-structured/project-setup/base-documentation.md) - *New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like README.md/CONTRIBUTING.md enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.*
 * [Issue Tracker Use Cases](patterns/2-structured/project-setup/issue-tracker.md) - *The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.*
 * [Communication Tooling](patterns/2-structured/project-setup/communication-tooling.md) - *An InnerSource project is being used outside the original development team but users are having trouble getting help and getting in touch with the project team. The idea is to setup and document standard communication tooling that allows for discussions to become visible, archived and searchable.*
+* [Cross-Team Project Valuation](patterns/2-structured/crossteam-project-valuation.md) - *It's hard to sell the value of cross-team InnerSource projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
+* [Transparent Cross-Team Decision Making using RFCs](patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md) - *InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.*
+* [Start as an Experiment](patterns/2-structured/start-as-experiment.md) - *Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.*
+
+#### Pattern Drafts (proven, not yet fully reviewed)
+
+* [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
+* [Open Source Trumps InnerSource](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46) - *People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.*
 
 ### Maturity Level 1: Initial
-
-* [Transparent Cross-Team Decision Making using RFCs](patterns/1-initial/transparent-cross-team-decision-making-using-rfcs.md) - *InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.*
-
-#### Reviewed Pattern Ideas (not yet proven but reviewed)
 
 * [Modular Code](patterns/1-initial/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
 * [Improve Findability](patterns/1-initial/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
 * [Overcoming Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
-
-#### Pattern Ideas (not yet proven; brainstormed)
-
+* [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
+* [Shared Code Repo Different from Build Repo](patterns/1-initial/shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [InnerSource Portal - Hygiene](patterns/1-initial/innersource-portal-hygiene.md) - *Allow generation of an official badge for projects intending to be recognised as InnerSource project within your company.*
 * [Overcome Acquisition Based Silos - Developers](patterns/1-initial/overcome-acquisition-based-silos-developer.md)
 * [Overcome Acquisition Based Silos - Managers](patterns/1-initial/overcome-acquisition-based-silos-manager.md)
 * [Discover Your InnerSource](patterns/1-initial/discover-your-innersource.md)
 * [Junkyard Styled Inner Sourcing](patterns/1-initial/junkyard-styled-innersourcing.md)
-* [Shared Code Repo Different from Build Repo](patterns/1-initial/shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
 * [Incentive Alignment](patterns/1-initial/developer-incentive-alignment-for-innersource-contribution.md)
 * [Change the Developers Mindset](patterns/1-initial/change-the-developers-mindset.md)
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
-* [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
 * [Code Consumers](patterns/1-initial/code-consumers.md)
+* [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
+* [Reluctance to Receive Contributions](patterns/1-initial/reluctance-to-accept-contributions.md) - *Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them. Summary pattern that lays out four children patterns with three to be defined.*
+* [Include Product Owners](patterns/1-initial/include-product-owners.md) - *Engaging and educating Product Owners about InnerSource can help them modify their actions (e.g., in the space of KPIs) to help InnerSource collaboration work better.*
+* [Assisted Compliance](patterns/1-initial/assisted_compliance.md) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
 
-#### Pattern Donuts (needing a solution)
+#### Donuts (needing a solution)
 
 * [How to Defeat the Hierarchical Constraints](patterns/1-initial/defeat-hierarchical-constraints.md)
-* [Project Management Time Pressures](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/47)
+* [Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md)
 * [Organizational Mindset Change](patterns/1-initial/organizational-mindset-change.md)
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
-* [Get Contributions Despite Silo Thinking](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/38)
+* [Incentive mechanisms to foster voluntary contribution](patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md)
 
 ## What are InnerSource Patterns?
 

@@ -19,7 +19,7 @@ It can be used to sort projects according to their activity level.
 
 When InnerSource is practiced for a long time or scales beyond a certain number of projects (let's say 50 to give a meaningful threshold) it is hard to find the currently most popular and active InnerSource projects. Projects that exist for a long time are well-known but may no longer be very active. Fairly new projects on the other hand don't have a reputation or an active community yet.
 
-A list of InnerSource projects should not be considered a static resource, but an exciting place to discover and explore new and active projects, just like a news page listing the most interesting topics of the day first. Thus it is beneficial when the order of the projects is regularly updated and changes according to the project's popularity and activity.   
+A list of InnerSource projects should not be considered a static resource, but an exciting place to discover and explore new and active projects, just like a news page listing the most interesting topics of the day first. Thus it is beneficial when the order of the projects is regularly updated and changes according to the project's popularity and activity.
 
 These considerations led to a first prototype to calculate a repository activity score, which worked surprisingly well and determines an ever-changing order of projects according to their activity.
 
@@ -111,7 +111,8 @@ The repository activity score is a simple calculation based on the GitHub API. I
 
 ## Status
 
-Proven
+* Structured
+* Old status: Proven
 
 ## Author(s)
 
@@ -120,6 +121,7 @@ Proven
 ## Acknowledgements
 
 Thank you to the InnerSource Commons Community for lightning-fast advice, and a lot of helpful input to feed this pattern! Especially:
+
 * Johannes Tigges
 * Sebastian Spier
 * Maximilian Capraro
