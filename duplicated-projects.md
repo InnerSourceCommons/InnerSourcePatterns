@@ -5,7 +5,7 @@ Duplicated Projects
 Forthcoming ...
 
 ## Problem
-* Multiple teams are doing inner source, but they don't want to work together.
+* Multiple teams are doing InnerSource, but they don't want to work together.
 * Multiple teams are working on the same product.  How do they merge?
 
 ## Story (Optional)
