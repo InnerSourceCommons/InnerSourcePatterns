@@ -18,7 +18,6 @@ Please, when starting a new pattern, make sure that it does not already exist. T
 
 The basic steps below can be thought of as *branch*, *commit*, *pull request*, and *review*.
 
-
 ## How do you create a branch?
 
 First you need to create a branch (no need to ask for permission!). For this, let's clone the repository:
@@ -94,7 +93,7 @@ commit that change to our new branch.
 
 ```
 $ git add patterns/1-initial/ewoks-do-not-hunt.md
-$ git commit -m "Inner Source Pattern to deal with Ewoks that do not hunt"
+$ git commit -m "InnerSource Pattern to deal with Ewoks that do not hunt"
 ```
 
 And we should finally upload that branch and file to the server.

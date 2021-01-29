@@ -40,19 +40,18 @@ Company A wants to introduce its first InnerSource initiative. Most managers in 
 
 ## Known Instances
 
-BIOS at Robert Bosch GmbH
-
-## Alias
-
-Cheese Interface
+* BIOS at Robert Bosch GmbH
 
 ## Status
 
-Proven
-
-_Finalized and Reviewed_ as of 8/31/17.
+* Structured
+* _Finalized and Reviewed_ as of 8/31/17.
 
 ## Authors
 
 - Georg Grütter, Robert Bosch GmbH
 - Diogo Fregonese, Robert Bosch GmbH
+
+## Alias
+
+Cheese Interface

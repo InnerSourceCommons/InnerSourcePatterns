@@ -35,7 +35,7 @@ Employees wish they could gain exposure to activities going on within other area
 
 ## Solutions
 
-Create a “Gig” based intranet site where individuals can advertise their skills and areas of interest and InnerSource project owners can advertise opportunities for collaboration.   
+Create a “Gig” based intranet site where individuals can advertise their skills and areas of interest and InnerSource project owners can advertise opportunities for collaboration.
 
 Employees should be able to create a profile within the application in which they can list their skills and areas of interest.  The system should leverage this information by proactively informing individuals (via email or some other means) when a Gig is posted that matches one or more of those criteria.
 
