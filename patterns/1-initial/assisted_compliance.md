@@ -62,3 +62,10 @@ Initial
 
 * Erin Bank
 * Tim Yao
+
+## References
+
+For anyone starting further work on this pattern, e.g. to level it up to the next maturity, there are some interesting discussions from the time when this pattern was created.
+
+* Idea to generalize this pattern to include files such as `SUPPORT.md` and `CODE_OF_CONDUCT.md` - see [conversation](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/74#issuecomment-715498921)
+* Idea for tooling to automatically generate files such as `CONTRIBUTING.md` - see [conversation](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/74#discussion_r168596722).
