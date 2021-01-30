@@ -85,6 +85,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Organizational Mindset Change](patterns/1-initial/organizational-mindset-change.md)
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
 * [Incentive mechanisms to foster voluntary contribution](patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md)
+* [Overcoming the Not invented Here Mindset](/patterns/1-initial/not-invented-here.md)
 
 ## What are InnerSource Patterns?
 
