@@ -29,7 +29,7 @@ e.g. Splunk.
 
 * People don't want to lose their jobs (or reason for existence).
 * Mangers can be territorial with their project.
-* People rewrite 100% rather than using the 80% that is already there (even though it would be better to inner source).
+* People rewrite 100% rather than using the 80% that is already there (even though it would be better to InnerSource).
 * Related to the not invented here pattern.
 * Related to the common requirements pattern.
 * It's like buying another company and having duplicate projects.
@@ -40,7 +40,7 @@ e.g. Splunk.
 * An open and transparent process CI/CD, requirements backlog, deployment, etc.
 * Anyone participates in the process in the same way.
 * Project lead is assisted by the former managers.
-* Move away from (benevolent) dictator (e.g. eng. manager?).  Could this be hard to acheive?
+* Move away from (benevolent) dictator (e.g. eng. manager?).  Could this be hard to achieve?
 * Experience has shown that if people are in the same room then things tend to go better.  Not so much by email/phone.  You are nicer if you see the people.
 
 ## Resulting Context
