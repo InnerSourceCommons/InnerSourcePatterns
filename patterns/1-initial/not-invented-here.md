@@ -9,6 +9,7 @@ Overcoming the Not invented Here Mindset
 "Not Invented Here" mindset exists and has the following impact: Duplicative development, Cost, Redundancy, Missed opportunities for knowledge transfer, Slower time to market/bottlenecks, Quality impact (potential to miss out on leveraging superior technology), excessive ownership culture, lowered morale that can lead to talent retention issue.
 
 Notes:
+
 * Is the cost of adoption / integration of code from outside a reason for "Not Invented Here" rather than a peer issue?
 * from Daniel to everyone: adoption/integration/understanding
 * from Tom to everyone: Is there the concept of defined anti-patterns within ISC?
@@ -90,14 +91,14 @@ Companies with software developers :) We suppose that this may also be a more co
 * DSM video [Open Innovation: Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs): Discusses the shift from strict NIH to empowering the "Proudly Found Elsewhere" approach.
     * "It pays to look outside ones area (open innovation). The open Innovation funnel has permeable walls-->greater chance of success, greater speed."
 
-Provide template to use for code submission requirements. (Must include testing. Many companies have built-in, automated testing. Documented communication) For both host and contributors. Requires/assumes compliance.
-Mentorship (requirements can be informed via tracking above results)
-Talking is good /relationship building
-Finding incentives to drive IS behavior (incentives and measures can vary at a team level)
-Shift to a "profoundly found elsewhere" culture
-Demonstrate organizational interest in outside opinions
-Identify influencers who agree to be early adopters - set the stage for others
-Contributability is a mark of quality
+* Provide template to use for code submission requirements. (Must include testing. Many companies have built-in, automated testing. Documented communication) For both host and contributors. Requires/assumes compliance.
+* Mentorship (requirements can be informed via tracking above results)
+* Talking is good /relationship building
+* Finding incentives to drive InnerSource behavior (incentives and measures can vary at a team level)
+* Shift to a "profoundly found elsewhere" culture
+* Demonstrate organizational interest in outside opinions
+* Identify influencers who agree to be early adopters - set the stage for others
+* Contributability is a mark of quality
 
 ## Desired Resulting Context
 
