@@ -10,7 +10,7 @@ Overcoming the Not invented Here Mindset
 
 Notes:
 * Is the cost of adoption / integration of code from outside a reason for "Not Invented Here" rather than a peer issue?
-* from Daniel to everyone: adoption/integration/understanding 
+* from Daniel to everyone: adoption/integration/understanding
 * from Tom to everyone: Is there the concept of defined anti-patterns within ISC?
 * from Tom to everyone: It might be better to define it from the other side
 * from Tim Yao to everyone: Very true, Tom. Anti-patterns can be effective. We don't have any in the ISC yet, though.
@@ -33,7 +33,7 @@ Company x has a software system available. A User Group realized that a common p
 *Where does the problem exist? what are the pre-conditions?*
 
 * Traditional development teams lack experience and knowledge of community engagement.
-* Company has deeply silo-ed engineering teams 
+* Company has deeply silo-ed engineering teams
 * Excess of ownership culture.
 * Little to no history using open source.
 * Company has mature/entrenched engineering cultures.
@@ -58,9 +58,9 @@ Companies with software developers :) We suppose that this may also be a more co
 * Concern that contributions from non-team members might be of inferior quality.
 * Concerns related to time constraints. Project Managers need to to deliver the project in alignment with schedule commitments.
 * Belief that learning and implementing something new will take away from the prime directive.
-* No incentive to contribute or even consume because it is counter to their KPIs. 
+* No incentive to contribute or even consume because it is counter to their KPIs.
 * Software may not be modular/designed for reuse. Team writing the code is not positioned to accept InnerSource contributions.
-* Fear of losing control. 
+* Fear of losing control.
 * Security can be a problem.
 
 * Teams tightly control their processes/engagement models
@@ -72,22 +72,22 @@ Companies with software developers :) We suppose that this may also be a more co
 * Perceived value of accepting contributions that have narrow impact
 
 - Team egos
-- Individual egos 
+- Individual egos
 - The obvious benefit of what the solution could bring
 - Optics challenges - teams being judged for bringing in software from outside the walls
 - What metrics are being measured
-- Reward system 
+- Reward system
 
 ## Solutions
 
 *Verified resolutions and possible resolutions to the problem*
 
-* [Going deep into the not-invented-here syndrome](http://blog.hypeinnovation.com/the-not-invented-here-syndrome) touches on this topic, describing a prescription for overcoming the "Not Invented Here" mindset: 
+* [Going deep into the not-invented-here syndrome](http://blog.hypeinnovation.com/the-not-invented-here-syndrome) touches on this topic, describing a prescription for overcoming the "Not Invented Here" mindset:
     * Acknowledge that the "Not Invented Here" mindset (NIH) exists
     * Assess the impact of NIH on your innovation efforts. For example, have you missed opportunities?
     * Build in explicit incentives to overcome NIH
     * Engage people outside of the organization in strategy/evaluation phases for fresh perspectives
-* DSM video [Open Innovation: Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs): Discusses the shift from strict NIH to empowering the "Proudly Found Elsewhere" approach. 
+* DSM video [Open Innovation: Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs): Discusses the shift from strict NIH to empowering the "Proudly Found Elsewhere" approach.
     * "It pays to look outside ones area (open innovation). The open Innovation funnel has permeable walls-->greater chance of success, greater speed."
 
 Provide template to use for code submission requirements. (Must include testing. Many companies have built-in, automated testing. Documented communication) For both host and contributors. Requires/assumes compliance.
@@ -103,7 +103,7 @@ Contributability is a mark of quality
 
 *What is the situation after the problem has been solved?*
 
-* Developers search for and leverage existing options as opposed to rewriting. This results in: 
+* Developers search for and leverage existing options as opposed to rewriting. This results in:
     * increased efficiency
     * increased reuse
     * higher levels of developer satisfaction
@@ -124,9 +124,9 @@ Contributability is a mark of quality
 * Padma Sudarsan, Nokia
 * Georg Gruetter, Bosch
 * Ofer Hermoni
-* Rob Mulcahy 
-* Max Capraro 
-* Jory Burson 
+* Rob Mulcahy
+* Max Capraro
+* Jory Burson
 * John McDonough
 * Shola
 * Becky - name only
@@ -137,5 +137,3 @@ Contributability is a mark of quality
 
 * Oana-Maria Pop, Hype Innovation Blog: [Does Your Organization Have the Not Invented Here Syndrome?](http://blog.hypeinnovation.com/the-not-invented-here-syndrome)
 * DSM, Open Innovation: [Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs)
-
-
