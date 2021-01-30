@@ -3,7 +3,7 @@ Open Source trumps InnerSource
 
 ## Patlet
 
-People find the InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with the open source component.
+People find an InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with an equivalent open source component.
 
 ## Statement of Problem
 * People find the InnerSource project but, even if the InnerSource component meets their needs better than the respective open source component, they choose the open source component over the InnerSource component.
