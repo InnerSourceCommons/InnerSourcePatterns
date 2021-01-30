@@ -50,8 +50,7 @@ e.g. Splunk.
 
 ## Status
 
-* Unproven
-* Draft
+* Initial
 
 ## Author(s)
 
