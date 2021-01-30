@@ -13,7 +13,7 @@ Forthcoming ...
 
 ## Story
 
-e.g. Splunk. 
+e.g. Splunk.
 
 * 4 unique products have significant overlap.  Discovered after inner sourcing.
 * This could apply to more than just InnerSource situations
