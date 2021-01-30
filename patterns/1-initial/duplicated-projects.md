@@ -56,4 +56,3 @@ e.g. Splunk.
 ## Author(s)
 
 ## Acknowledgements
-
