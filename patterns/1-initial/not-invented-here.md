@@ -2,17 +2,19 @@
 
 Overcoming the Not invented Here Mindset
 
+## Patlet
+
 ## Problem
 
 "Not Invented Here" mindset exists and has the following impact: Duplicative development, Cost, Redundancy, Missed opportunities for knowledge transfer, Slower time to market/bottlenecks, Quality impact (potential to miss out on leveraging superior technology), excessive ownership culture, lowered morale that can lead to talent retention issue.
 
 Notes:
-Is the cost of adoption / integration of code from outside a reason for "Not Invented Here" rather than a peer issue?
-from Daniel to everyone: adoption/integration/understanding 
-from Tom to everyone: Is there the concept of defined anti-patterns within ISC?
-from Tom  to everyone: It might be better to define it from the other side
-from Tim Yao to everyone: Very true, Tom. Anti-patterns can be effective. We don't have any in the ISC yet, though.
-from Daniel to everyone:
+* Is the cost of adoption / integration of code from outside a reason for "Not Invented Here" rather than a peer issue?
+* from Daniel to everyone: adoption/integration/understanding 
+* from Tom to everyone: Is there the concept of defined anti-patterns within ISC?
+* from Tom to everyone: It might be better to define it from the other side
+* from Tim Yao to everyone: Very true, Tom. Anti-patterns can be effective. We don't have any in the ISC yet, though.
+* from Daniel to everyone:
 
 Following items should move into sub-patterns:
 High quality solutions are being rejected due to the "Not Invented Here" mindset. Engineers and their managers are choosing to rewrite the same functionality even though an alternative exists.
@@ -20,25 +22,25 @@ Notes: Not invented here can inject itself into many situations. It's a mindset.
 
 Team or community is resistant to accept contributions from external contributors. Note: Split this based on use case: org-wide dysfunction vs team-level
 
-## Patlet
-Concise 1-2 sentance description of the problem and solution. Readers may quickly review dozens of these patlets to discover and browse the larger library of patterns. From http://wiki.c2.com/?PatLet
+## Story
 
-
-## Story (Optional)
 Team agrees that one or more stories could be helpful here, to illustrate the problem.
 
 Company x has a software system available. A User Group realized that a common problem needed to be solved connected to that system. If there were failures during connecting time, need to retry. A library was created. Maintainers of the system looked at the library and rewrote it instead of leveraging the library that was written by another team. They assessed the library to be sub-par. The user group who wrote the library believes that it was not a quality issue that caused them to rewrite it, but that they rewrote it because they wanted to do it their way.
 
 ## Context
+
 *Where does the problem exist? what are the pre-conditions?*
+
 * Traditional development teams lack experience and knowledge of community engagement.
 * Company has deeply silo-ed engineering teams 
 * Excess of ownership culture.
 * Little to no history using open source.
 * Company has mature/entrenched engineering cultures.
 * There is focus on intra-team cohesion and collaboration as opposed to cross-team collaboration
-* You can't predict where the next contrib is coming from (might be a force?)
+* You can't predict where the next contribution is coming from (might be a force?)
 * Historical culture of silos, lack of cross-domain collaboration
+
 Acknowledge that no matter what you do, some won't read contrib files
 Acknowledge that no matter what you do, conflicting business goals/measures may result in dis-incentive to engage
 Individuals fear being made replaceable
@@ -47,15 +49,17 @@ Fear of increased support load in general
 Companies with software developers :) We suppose that this may also be a more common problem among deeply silo-ed engineering teams and/or in companies with more mature/entrenched engineering cultures.
 
 ## Forces
+
 *What makes the problem difficult? What are the trade-offs? These are constraints that can be changed at a cost.*
+
 * Lack of trust. Limited opportunities to build relationships and trust with Developers outside of their particular area.
 * Strong egos (team or individual).
 * Unwillingness or reluctance to work with others.
 * Concern that contributions from non-team members might be of inferior quality.
-* Concerns related to time constraints. Project Managers need to to deliver the project in alignment with schedule committments.
+* Concerns related to time constraints. Project Managers need to to deliver the project in alignment with schedule commitments.
 * Belief that learning and implementing something new will take away from the prime directive.
 * No incentive to contribute or even consume because it is counter to their KPIs. 
-* Software may not be modular/designed for reuse. Team writing the code is not positioned to accept innersource contributions.
+* Software may not be modular/designed for reuse. Team writing the code is not positioned to accept InnerSource contributions.
 * Fear of losing control. 
 * Security can be a problem.
 
@@ -74,18 +78,17 @@ Companies with software developers :) We suppose that this may also be a more co
 - What metrics are being measured
 - Reward system 
 
-
-## Sketch (optional)
-visual illustration
-
 ## Solutions
+
 *Verified resolutions and possible resolutions to the problem*
-* [Blog article from Oana-Maria Pop on going deep into the not-invented-here syndrome](http://blog.hypeinnovation.com/the-not-invented-here-syndrome) touches on this topic, describing a prescription for overcoming the "Not Invented Here" mindset: 
-    - "Acknowledge that the "Not Invented Here" mindset (NIH) exists
-    - Assess the impact of NIH on your innovation efforts. For example, have you missed opportunities?
-    - Build in explicit incentives to overcome NIH
-    - engage people outside of the organization in strategy/evaluation phases for fresh perspectives"
-* DMS video [Open Innovation: Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs): Discusses the shift from strict NIH to empowering the "Proudly Found Elsewhere" approach. "It pays to look outside ones area (open innovation). The open Innovation funnel has permeable walls-->greater chance of success, greater speed."
+
+* [Going deep into the not-invented-here syndrome](http://blog.hypeinnovation.com/the-not-invented-here-syndrome) touches on this topic, describing a prescription for overcoming the "Not Invented Here" mindset: 
+    * Acknowledge that the "Not Invented Here" mindset (NIH) exists
+    * Assess the impact of NIH on your innovation efforts. For example, have you missed opportunities?
+    * Build in explicit incentives to overcome NIH
+    * Engage people outside of the organization in strategy/evaluation phases for fresh perspectives
+* DSM video [Open Innovation: Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs): Discusses the shift from strict NIH to empowering the "Proudly Found Elsewhere" approach. 
+    * "It pays to look outside ones area (open innovation). The open Innovation funnel has permeable walls-->greater chance of success, greater speed."
 
 Provide template to use for code submission requirements. (Must include testing. Many companies have built-in, automated testing. Documented communication) For both host and contributors. Requires/assumes compliance.
 Mentorship (requirements can be informed via tracking above results)
@@ -96,35 +99,43 @@ Demonstrate organizational interest in outside opinions
 Identify influencers who agree to be early adopters - set the stage for others
 Contributability is a mark of quality
 
-
 ## Desired Resulting Context
-What is the situation after the problem has been solved?
-Developers search for and leverage existing options as opposed to rewriting. This results in: increased efficiency, increased reuse, higher levels of developer satisfaction, increased speed to market.
 
-## Rationale (optional)  
+*What is the situation after the problem has been solved?*
 
-## Known instances (optional)  
+* Developers search for and leverage existing options as opposed to rewriting. This results in: 
+    * increased efficiency
+    * increased reuse
+    * higher levels of developer satisfaction
+    * increased speed to market
+* Developers interact with code and products produced by others with the same trust and engagement as those that they themselves have produced.
+
+## Known Instances
 
 ## Status  
-Brainstormed solution (not proven)
+
+* Initial
+* Brainstormed solution (not proven)
 
 ## Author(s)
-Erin Bank, CA Technologies
-Tim Yao, Nokia
-Padma Sudarsan, Nokia
-Georg Gruetter, Bosch
-Ofer Hermoni
-Rob Mulcahy 
-Max Capraro 
-Jory Burson 
-John McDonough
-Shola
-Becky - name only
-Russ - name only
-Nick
 
-## Acknowledgements (optional)
-Oana-Maria Pop, Hype Innovation Blog: Going deep into the not-invented-here syndrome (http://blog.hypeinnovation.com/the-not-invented-here-syndrome)
-DMS, video Open Innovation: Proudly Found Elsewhere(https://www.youtube.com/watch?v=jNNz9poyKJs)
+* Erin Bank, CA Technologies
+* Tim Yao, Nokia
+* Padma Sudarsan, Nokia
+* Georg Gruetter, Bosch
+* Ofer Hermoni
+* Rob Mulcahy 
+* Max Capraro 
+* Jory Burson 
+* John McDonough
+* Shola
+* Becky - name only
+* Russ - name only
+* Nick
+
+## Acknowledgements
+
+* Oana-Maria Pop, Hype Innovation Blog: [Does Your Organization Have the Not Invented Here Syndrome?](http://blog.hypeinnovation.com/the-not-invented-here-syndrome)
+* DSM, Open Innovation: [Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs)
 
 
