@@ -12,7 +12,7 @@ Forthcoming ...
 e.g. Splunk. 
 
 * 4 unique products have significant overlap.  Discovered after inner sourcing.
-* This could apply to move than just inner sourcing situations
+* This could apply to more than just InnerSource situations
 
 ## Context
 * Multiple teams (doing inner source or not) are trying to tackle the same problem.
