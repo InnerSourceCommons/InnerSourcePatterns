@@ -134,7 +134,7 @@ Companies with software developers :) We suppose that this may also be a more co
 * Russ - name only
 * Nick
 
-## Acknowledgements
+## References
 
 * Oana-Maria Pop, Hype Innovation Blog: [Does Your Organization Have the Not Invented Here Syndrome?](http://blog.hypeinnovation.com/the-not-invented-here-syndrome)
 * DSM, Open Innovation: [Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs)
