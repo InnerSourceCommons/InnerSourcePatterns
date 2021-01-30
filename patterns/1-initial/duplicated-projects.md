@@ -9,13 +9,13 @@ Forthcoming ...
 ## Problem
 
 * Multiple teams are doing InnerSource, but they don't want to work together.
-* Multiple teams are working on the same product.  How do they merge?
+* Multiple teams are working on the same product. How do they merge?
 
 ## Story
 
 e.g. Splunk.
 
-* 4 unique products have significant overlap.  Discovered after inner sourcing.
+* 4 unique products have significant overlap. Discovered after opening them up as InnerSource projects.
 * This could apply to more than just InnerSource situations
 
 ## Context
