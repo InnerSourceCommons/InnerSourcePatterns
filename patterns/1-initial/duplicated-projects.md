@@ -30,8 +30,8 @@ e.g. Splunk.
 * People don't want to lose their jobs (or reason for existence).
 * Mangers can be territorial with their project.
 * People rewrite 100% rather than using the 80% that is already there (even though it would be better to InnerSource).
-* Related to the not invented here pattern.
-* Related to the common requirements pattern.
+* Related to the [Not Invented Here](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/64) pattern.
+* Related to the [Common Requirements](../2-structured/common-requirements.md) pattern.
 * It's like buying another company and having duplicate projects.
 
 ## Solutions
