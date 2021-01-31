@@ -6,7 +6,7 @@ Open Source trumps InnerSource
 
 Developers disregard InnerSource projects because they consider open source projects to be superior. Introducing a required evaluation of InnerSource projects before choosing an open source project increases the likelihood of the InnerSource projects to be adopted.
 
-## Statement of Problem
+## Problem
 
 People find the InnerSource project but, even if the InnerSource component meets their needs better than the respective open source component, they choose the open source component over the InnerSource component.
 
@@ -43,6 +43,10 @@ See figure 1 in https://drive.google.com/open?id=0B7_9iQb93uBQNlJ0YU5wWmpWYUU
 * Developers select the best component regardless of whether it is open source or internally developed (InnerSource). They do so with full knowledge of the InnerSource component, its capabilities, and reasons why it is recommended.
 * By doing so, InnerSource components end up being more widely and consistently used within the company.
 
+## Known Instances
+
+TBD
+
 ## Status
 
 Initial
@@ -54,3 +58,4 @@ Initial
 * Georg Gruetter (Robert Bosch GmbH)
 * Russ Rutledge
 * Johannes Tigges
+* Sebastian Spier
