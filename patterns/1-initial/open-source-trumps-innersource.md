@@ -19,8 +19,8 @@ People find an InnerSource project but, after all things are considered, even if
 
 ## Forces
 
-* There is a perception that the open source components are of higher quality and more reusable than the InnerSource components.
-* The channels to get any needed changes are more established with open source (GitHub) than with internal components (GitHub Enterprise, Bitbucket, GitLab, Gerrit - possibly multiple installations in one company).
+* There is a perception that the open source components are of higher quality and more reusable than the InnerSource components. This is caused by the common belief that open source always means many more developers and users and therefore higher quality. This is sometimes the case in open source but not always!
+* The channels to get needed changes done are more established with open source (GitHub) than with internal components (GitHub Enterprise, Bitbucket, GitLab, Gerrit - possibly multiple installations in one company).
 * Open source should be voluntary; mandating people to use internally developed software goes against open source principles.
 * Internally developed components are potentially more suitable for corporate use if they are designed with that in mind.
 * Using corporate licensed InnerSource components instead of using open source components with strong copyleft license avoids having to disclose IP
@@ -34,9 +34,8 @@ See figure 1 in https://drive.google.com/open?id=0B7_9iQb93uBQNlJ0YU5wWmpWYUU
 ## Solutions
 
 * Corporate governance mandates that internally developed components are to be evaluated before open source component are selected.
-* Make it easier to find the internal component (See [InnerSource Portal](../2-structured/innersource-portal.md)).
-* Provide an internal instance of GitHub Enterprise or a well publicized external GitHub organization repo to allow employees to easily find internally developed solutions.
-Assign maintainers to make sure proper open source processes are being followed within the leading repos.
+* Make it easier to find relevant InnerSource components (see [InnerSource Portal](../2-structured/innersource-portal.md)).
+* Assign maintainers to make sure proper open source processes are being followed within the leading repos.
 * Increase the attractiveness of InnerSource components by providing “value add” services for them, such as automated CI/CD services, IaaS/PaaS, NPM organization/server linkages, ChatOps, etc.
 
 ## Resulting Context
@@ -50,4 +49,8 @@ Initial
 
 ## Author
 
-As told to Padma Sudarsan, 2016-09-30
+* As told to Padma Sudarsan, 2016-09-30
+* Tim Yao
+* Georg Gruetter (Robert Bosch GmbH)
+* Russ Rutledge
+* Johannes Tigges
