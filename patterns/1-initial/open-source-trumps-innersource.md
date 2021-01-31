@@ -4,11 +4,11 @@ Open Source trumps InnerSource
 
 ## Patlet
 
-People find an InnerSource project but, after all things are considered, even if the InnerSource component meets their needs, they still go with an equivalent open source component.
+Developers disregard InnerSource projects because they consider open source projects to be superior. Introducing a required evaluation of InnerSource projects before choosing an open source project increases the likelihood of the InnerSource projects to be adopted.
 
 ## Statement of Problem
 
-* People find the InnerSource project but, even if the InnerSource component meets their needs better than the respective open source component, they choose the open source component over the InnerSource component.
+People find the InnerSource project but, even if the InnerSource component meets their needs better than the respective open source component, they choose the open source component over the InnerSource component.
 
 ## Context
 
