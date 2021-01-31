@@ -34,7 +34,7 @@ See figure 1 in https://drive.google.com/open?id=0B7_9iQb93uBQNlJ0YU5wWmpWYUU
 ## Solutions
 
 * Corporate governance mandates that internally developed components are to be evaluated before open source component are selected.
-* Make it easier to find the internal component (See [InnerSource Portal](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-portal.md)).
+* Make it easier to find the internal component (See [InnerSource Portal](../2-structured/innersource-portal.md)).
 * Provide an internal instance of GitHub Enterprise or a well publicized external GitHub organization repo to allow employees to easily find internally developed solutions.
 Assign maintainers to make sure proper open source processes are being followed within the leading repos.
 * Increase the attractiveness of InnerSource components by providing “value add” services for them, such as automated CI/CD services, IaaS/PaaS, NPM organization/server linkages, ChatOps, etc.
