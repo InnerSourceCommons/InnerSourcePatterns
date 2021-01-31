@@ -24,7 +24,7 @@ People find the InnerSource project but, even if the InnerSource component meets
 * Open source should be voluntary; mandating people to use internally developed software goes against open source principles.
 * Internally developed components are potentially more suitable for corporate use if they are designed with that in mind.
 * Using corporate licensed InnerSource components instead of using open source components with strong copyleft license avoids having to disclose IP
-* It can be hard to find stuff in github (especially if names are cryptic and keywords aren't used). See [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/pull/59).
+* It can be hard to find relevant projects in GitHub (especially if names are cryptic and keywords aren't used). See [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/pull/59).
 * The consistent use of internally developed components potentially reduces the diversity of the internal software landscape compared to a situation where every business line chooses their own, favourite open source component.
 
 ## Sketch
