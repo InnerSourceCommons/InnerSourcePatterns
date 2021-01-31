@@ -41,7 +41,8 @@ Assign maintainers to make sure proper open source processes are being followed 
 
 ## Resulting Context
 
-Developers select the best component regardless of whether it is open source or internally developed, but they do so with full knowledge of the inner source component, its capabilities, and reasons why it is recommended. Internally developed software components are then more widely and consistently used within the company.
+* Developers select the best component regardless of whether it is open source or internally developed (InnerSource). They do so with full knowledge of the InnerSource component, its capabilities, and reasons why it is recommended.
+* By doing so, InnerSource components end up being more widely and consistently used within the company.
 
 ## Status
 
