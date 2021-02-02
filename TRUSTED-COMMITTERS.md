@@ -6,10 +6,15 @@ Trusted committers (TCs) are those members of our working group who have elevate
 
 * [@spier](https://github.com/spier) (added 2020-12-11)
 * [@lenucksi](https://github.com/lenucksi) (added 2020-04-24)
-* [@nyeates](https://github.com/nyeates) (added 2017-03-02)
-* [@gruetter](https://github.com/gruetter) (added 2017-03-02)
 * [@NewMexicoKid](https://github.com/NewMexicoKid) (added 2017-03-02)
 * [@cewilliams](https://github.com/cewilliams) (added 2017-03-02)
+
+## Hall of Fame (aka Alumni)
+
+While Trusted Committers are in principal appointed for lifetime, it does happen that the interests or priorities of a TC change and they don't have enough time any more to contribute to the project. In those cases we ask them if we should move them to our Hall of Fame. Doing so allows us to appropriately thank them for all of their fantastic contributions. Of course they can always start contributing again in the future and go back to being Trusted Committers.
+
+* [@gruetter](https://github.com/gruetter) (added 2017-03-02)
+* [@nyeates](https://github.com/nyeates) (added 2017-03-02)
 
 ## Process for Adding new Trusted Committers
 
