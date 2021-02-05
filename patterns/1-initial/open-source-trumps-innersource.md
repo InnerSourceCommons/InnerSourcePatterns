@@ -65,3 +65,4 @@ Initial
 ## References
 
 * Some interesting conversation threads from the time when this pattern was created can be found in [this PR](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46/).
+* [Commodification of Industrial Software: A Case for Open Source](https://www.semanticscholar.org/paper/Commodification-of-Industrial-Software%3A-A-Case-for-Linden-Lundell/54d6cb77a86e292ff1845eb910c1a1f258e6cee3), F. Linden, B. Lundell, P. Marttiin, Published 2009, Engineering, Computer Science, IEEE Software
