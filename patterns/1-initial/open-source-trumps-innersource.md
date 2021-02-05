@@ -29,7 +29,9 @@ People find the InnerSource project but, even if the InnerSource component meets
 
 ## Sketch
 
-See figure 1 in https://drive.google.com/open?id=0B7_9iQb93uBQNlJ0YU5wWmpWYUU
+![The landscape of effective and efficient software development](/assets/img/landscape-of-effective-and-efficient-software-development.png "The landscape of effective and efficient software development")
+
+**Source:** [Commodification of Industrial Software: A Case for Open Source](https://www.semanticscholar.org/paper/Commodification-of-Industrial-Software%3A-A-Case-for-Linden-Lundell/54d6cb77a86e292ff1845eb910c1a1f258e6cee3), F. Linden, B. Lundell, P. Marttiin, Published 2009, Engineering, Computer Science, IEEE Software
 
 ## Solutions
 
@@ -59,3 +61,7 @@ Initial
 * Russ Rutledge
 * Johannes Tigges
 * Sebastian Spier
+
+## References
+
+* Some interesting conversation threads from the time when this pattern was created can be found in [this PR](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/46/).
