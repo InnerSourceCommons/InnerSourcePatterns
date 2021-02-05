@@ -54,8 +54,6 @@ The below lists all known patterns. They are grouped into three [maturity levels
 
 #### Pattern Drafts (proven, not yet fully reviewed)
 
-* [What Before How or Services Documentation](https://docs.google.com/document/d/1_N1wsQeDusfIcNy-O2ZXenY3PL7ZbvkUDRZxGUuegZw/edit?usp=drive_web) - *A lack of common understanding between different management tiers creates funding barriers and increases the risk that solutions will not deliver required business outcomes.*
-
 ### Maturity Level 1: Initial
 
 * [Modular Code](patterns/1-initial/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
@@ -77,6 +75,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Include Product Owners](patterns/1-initial/include-product-owners.md) - *Engaging and educating Product Owners about InnerSource can help them modify their actions (e.g., in the space of KPIs) to help InnerSource collaboration work better.*
 * [Assisted Compliance](patterns/1-initial/assisted_compliance.md) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
 * [Open Source Trumps InnerSource](patterns/1-initial/open-source-trumps-innersource.md) - *Developers disregard InnerSource projects because they consider open source projects to be superior. Introducing a required evaluation of InnerSource projects before choosing an open source project increases the likelihood of the InnerSource projects to be adopted.*
+* [Transparent Governance Levels](patterns/1-initial/governance-levels.md) - *There are projects in multiple stages of InnerSource adoption. Contributors get confused when working with projects that are at different stages.*
 
 #### Donuts (needing a solution)
 
@@ -85,6 +84,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Organizational Mindset Change](patterns/1-initial/organizational-mindset-change.md)
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
 * [Incentive mechanisms to foster voluntary contribution](patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md)
+* [Duplicated Projects](patterns/1-initial/duplicated-projects.md)
 
 ## What are InnerSource Patterns?
 
