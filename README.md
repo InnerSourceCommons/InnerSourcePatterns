@@ -30,8 +30,6 @@ The below lists all known patterns. They are grouped into three [maturity levels
 
 ### Maturity Level 2: Structured
 
-#### Reviewed Patterns (proven and reviewed)
-
 * [30 Day Warranty](patterns/2-structured/30-day-warranty.md) - *a pattern for getting a reluctant code-owning team to accept code submissions from outside their team.*
 * [Common Requirements](patterns/2-structured/common-requirements.md) - *Common code in a shared repository isn't meeting the needs of all the project-teams that want to use it; this is solved through requirements alignment and refactoring.*
 * [Contracted Contributor](patterns/2-structured/contracted-contributor.md) - *Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.*
@@ -51,8 +49,6 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Cross-Team Project Valuation](patterns/2-structured/crossteam-project-valuation.md) - *It's hard to sell the value of cross-team InnerSource projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
 * [Transparent Cross-Team Decision Making using RFCs](patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md) - *InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.*
 * [Start as an Experiment](patterns/2-structured/start-as-experiment.md) - *Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.*
-
-#### Pattern Drafts (proven, not yet fully reviewed)
 
 ### Maturity Level 1: Initial
 
