@@ -1,8 +1,10 @@
 ## Title
 
-Overcoming the Not invented Here Mindset
+Overcoming the Not-Invented-Here Mindset
 
 ## Patlet
+
+TBD
 
 ## Problem
 
@@ -31,8 +33,6 @@ Company x has a software system available. A User Group realized that a common p
 
 ## Context
 
-*Where does the problem exist? what are the pre-conditions?*
-
 * Traditional development teams lack experience and knowledge of community engagement.
 * Company has deeply silo-ed engineering teams
 * Excess of ownership culture.
@@ -50,8 +50,6 @@ Fear of increased support load in general
 Companies with software developers :) We suppose that this may also be a more common problem among deeply silo-ed engineering teams and/or in companies with more mature/entrenched engineering cultures.
 
 ## Forces
-
-*What makes the problem difficult? What are the trade-offs? These are constraints that can be changed at a cost.*
 
 * Lack of trust. Limited opportunities to build relationships and trust with Developers outside of their particular area.
 * Strong egos (team or individual).
@@ -81,8 +79,6 @@ Companies with software developers :) We suppose that this may also be a more co
 
 ## Solutions
 
-*Verified resolutions and possible resolutions to the problem*
-
 * [Going deep into the not-invented-here syndrome](http://blog.hypeinnovation.com/the-not-invented-here-syndrome) touches on this topic, describing a prescription for overcoming the "Not Invented Here" mindset:
     * Acknowledge that the "Not Invented Here" mindset (NIH) exists
     * Assess the impact of NIH on your innovation efforts. For example, have you missed opportunities?
@@ -100,9 +96,7 @@ Companies with software developers :) We suppose that this may also be a more co
 * Identify influencers who agree to be early adopters - set the stage for others
 * Contributability is a mark of quality
 
-## Desired Resulting Context
-
-*What is the situation after the problem has been solved?*
+## Resulting Context
 
 * Developers search for and leverage existing options as opposed to rewriting. This results in:
     * increased efficiency
@@ -112,6 +106,8 @@ Companies with software developers :) We suppose that this may also be a more co
 * Developers interact with code and products produced by others with the same trust and engagement as those that they themselves have produced.
 
 ## Known Instances
+
+TBD
 
 ## Status  
 
