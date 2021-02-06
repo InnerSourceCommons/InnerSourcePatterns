@@ -64,6 +64,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Junkyard Styled Inner Sourcing](patterns/1-initial/junkyard-styled-innersourcing.md)
 * [Incentive Alignment](patterns/1-initial/developer-incentive-alignment-for-innersource-contribution.md)
 * [Change the Developers Mindset](patterns/1-initial/change-the-developers-mindset.md)
+* [Change the Middle-Management Mindset](patterns/1-initial/change-the-middle-management-mindset.md)
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 * [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
