@@ -26,14 +26,14 @@ Traditional development practices do not work as effectively for cross divisiona
 
 The BUs involved in the development of the new product each dedicate development resources to develop the new product, apply the InnerSource working model and adopt InnerSource tooling to facilitate collaborative development but limit the scope of InnerSource practices to the project. No effort will be spent on facilitating and managing contributions from outside of the project.
 
-The application of InnerSource is _contained_ to the project. The project may but is not required to share the developed artefacts outside of the project.
+The application of InnerSource is _contained_ to the project. The project may share the developed artifacts outside the project but is not required to do so.
 
 ## Resulting Context
 
 _Contained InnerSource_ effectively allows and facilitates the
 development collaboration of multiple BUs where existing traditional development infrastructure and processes would not have worked efficiently.
 
-Product development can be successfully completed. Even though _full scale InnerSource_ was not implemented and the full benefits from InnerSource practices, such as exemplary documentation which facilitates reuse beyond the project context, are not realized, the projects success still lends credibility to the concept of InnerSource.
+Product development can be successfully completed. Even though _Full Scale InnerSource_ was not implemented and the full benefits from InnerSource practices, such as exemplary documentation which facilitates reuse beyond the project context, are not realized, the project's success still achieves several benefits that wouldn't have been possible through traditional development. In addition, it lends credibility to the concept of InnerSource.
 
 ## Known Instances
 
