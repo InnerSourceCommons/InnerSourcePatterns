@@ -53,6 +53,7 @@ TBD
 Empowering TC's as representatives on behalf of their teams propagates ownership of the overall InnerSource strategy as it deploys and evolves in an organization and ensures that a baseline level of governance and standardization occurs.
 
 May mention:
+
 - A large, highly regulated, financial organization is planning to implement a TC Steering Group to provide broad guidelines and guard rails as part of their InnerSource initiative.
 
 ## Author(s)
