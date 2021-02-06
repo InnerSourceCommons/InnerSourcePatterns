@@ -4,7 +4,7 @@ InnerSource Guidance Group
 
 ## Patlet
 
-A company may require a mechanism to set broad governance and behavioral guidelines as part of the rollout and sustaining needs of an InnerSource initiative.
+A highly divergent set of development standards in different teams can slow down collaboration betweens these teams. A InnerSource Guidance Group that establishes broad governance and behavioral guidelines can help to reduce these frictions.
 
 ## Problem
 
