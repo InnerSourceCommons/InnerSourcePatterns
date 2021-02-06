@@ -24,18 +24,20 @@ As an example, the breadth of languages used within an engineering and operation
 
 ## Forces
 
-- Separate engineering and development teams establish development standards that may be highly divergent from other teams which limits the ability to collaborate.
-- As people move between teams, or responsibility for specific initiatives change over time, the ability of the organization to adapt to variant team norms results in decreased development velocity.
+- Separate engineering and development teams establish development standards that may be highly divergent from other teams. (Effect: This limits the ability to collaborate.)
+- People move between teams, and responsibility for specific initiatives change over time. (Effect: The ability of the organization to adapt to variant team norms results in decreased development velocity.)
 
 ## Solutions
 
-Recognize that Trusted Committers are both **situational leaders** and **subject matter experts** representing their team and establish a governance model with a “committee” attended and chaired by Trusted Committers chartered with establishing company and/or organizational guidelines.
+Recognize that Trusted Committers are both **situational leaders** and **subject matter experts** representing their team. Establish an InnerSource Guidance Group as a “committee” attended and chaired by Trusted Committers. Charter this InnerSource Guidance Group with establishing company and/or organizational guidelines.
 
-- The “committee” is scheduled periodically as necessary by the TC’s – twice a week, once a month, quarterly, etc.
+- The “committee” is scheduled periodically as necessary by the Trusted Committers – twice a week, once a month, quarterly, etc.
 - The goal is to establish general direction, or a highway, while leaving freedom for individual teams to adapt to local needs, or side streets
 - Trusted Committers establish organization guidelines that become templates for [Contribution Agreements](../2-structured/project-setup/base-documentation.md)
-- Trusted Committers collaborate on and refine guidelines asynchronously via passive documentation and the establishment of organizational patterns
-- The TC “committee” is responsible for communicating general guidelines to upper management
+- Trusted Committers collaborate on and refine guidelines asynchronously via passive documentation and the establishment of organizational patterns. 
+    - This guideline definition project itself can be run as an InnerSource project, accepting contributions from anywhere in the organization. 
+    - By running this as a collaborative documentation project, it can role-model and verify the behaviors that they want to promote for other InnerSource projects as well.
+- The InnerSource Guidance Group is responsible for communicating general guidelines to upper management
 - This also ensures that teams and functional groups have a recurring touchpoint with other team and functional groups – establishing trust and insight into the overall organizational needs and requirements
 
 ## Resulting Context
