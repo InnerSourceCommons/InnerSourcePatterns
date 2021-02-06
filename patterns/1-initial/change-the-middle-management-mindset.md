@@ -1,8 +1,9 @@
 ## Title
-* Changing the middle-management mindset
+
+Changing the Middle-Management Mindset
 
 ## Problem
-* Key problem: the willingness to allocate resources 
+* Key problem: the willingness to allocate resources
 * Embedded accountability problem: they can't account for the time they spend and put it in their objectives. Need some metric to make it clear it is worthwhile. Has to become a KPI for them.
 
 ## Context
@@ -24,16 +25,16 @@
 * Educational component: propensity is to blame evil middle-management; they may not know how it works and need to understand it. What benefit they will have for having their people
 * Managers are afraid of having people stolen from them, of having priorities that aren't theirs, of becoming irrelevant.
 * Managers might fear that this will become the wild west (we're the only ones who really care)
-* How to manage priorities in such a bazaar? 
+* How to manage priorities in such a bazaar?
 * Middle-management lacks understanding of what IS implies
 * Middle-management has the ability to learn about IS (formalized training)
 
 ## Solution
 * OKR = objective key result - bigger picture. The best tool ever to get serious traction across business organizations. We are one team; creating durable teams horizontally across BUs. Tie middle-management into the OKRs; they can tie these into their L2s they write (WAgile: quarterly we do big planning sessions, L2s are a quarterly goal).  Epic for a year, L2 for a quarter.
-* Similarly we have goals cascaded down from management levels. Really high level goals have no bearing on daily work of low level developers, but they have traceability to the highest. If you can have IS high level goals cascaded down, you could justify the time. 
+* Similarly we have goals cascaded down from management levels. Really high level goals have no bearing on daily work of low level developers, but they have traceability to the highest. If you can have IS high level goals cascaded down, you could justify the time.
 * Can't get the buzz for IS, but can get buzz for reuse and collaboration (and can measure and show these). Defining the EOL processes. Have incorporated these into the End of Life processes. Majority of the EOLs are due to redundancy. Can counter Middle-Management fear. Fear that they will go away; we clearly define what pieces are theirs to see if there are ways to put competing solutions together. We can EOL something and reuse/collaborate and stop wasting resources. Plays really well to management.
 
-* Find Trusted Evangelists - 
+* Find Trusted Evangelists -
 * Performance management needs to include IS
 * OKR/cascading KPIs (proven solution, known to work)
     - OKR are bigger picture than KPIs (defined measurement)
@@ -50,7 +51,7 @@
     - We had globalization teams responsible for countries; had constraints (compliance) for each country. Those teams are always good about IS. But for some reason they went away (restructuring).
 
 * Architectural solutions
-    - Microservices architecture: creates incentive organizationally for people to collaborate. If a bug occurs, then it creates a problem for the users. 
+    - Microservices architecture: creates incentive organizationally for people to collaborate. If a bug occurs, then it creates a problem for the users.
         - but it might be violating an SLA if the bug isn't being fixed
         - the problem comes with feature requests or affects design (going beyond bug fixes)
     - Developing platforms is an ideal IS use case (hackathon to build applications on top)
