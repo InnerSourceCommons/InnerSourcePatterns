@@ -1,95 +1,35 @@
-# How to Contribute
+# Contributing to the InnerSource Patterns
 
-First, checkout our complete list of patterns: [public GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns#reviewed-patterns-proven-and-reviewed) OR [Google Doc](https://docs.google.com/spreadsheets/d/17KPZdCoquTnYSj03pX4v2vn8lrSYO_6HK20u1cwaLPg/edit#gid=0)
+The goal of the InnerSource patterns working group is to collect, document, and publish InnerSource best practices. To make the best practices easy to comprehend, evaluate, and apply, we codify them in a specific structure - [the patterns format](meta/pattern-template.md). More infos on the working group can be found in our [README.md](README.md) file.
 
-We encourage beginners seeking answers to jump in by creating `donut` patterns (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try). 
+For this working group to strive, we welcome your contribution - be it small or huge.
 
-Anyone can offer reviews and comments for [in-progress patterns](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). We encourage experts to pad their experience - these are hoped to become part of an Inner Source handbook one day.
+## How to Contribute?
 
-We work together via GitHub, WebEx, Slack, etc. Do not hesitate to join the [#innersourcecommons](https://isc-inviter.herokuapp.com/) or #innersource-patterns Slack channels and ask to be included in the [patterns meetings](/meta/meetings.md) (there is an email list).
+Please consider contributing in the following ways:
 
-Select one of the following ways to contribute, to learn our workflow:
+1. **Share your thoughts & spark discussion**. A fresh perspective, an interesting thought, or an early novel idea can spark discussions and yield unforeseeable results. We invite you to share your thoughts on InnerSource-related topics at any time by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new), [via Slack, or our patterns office hours](#how-to-get-in-touch).
 
-* A. [Write a new pattern](#a-writing-a-new-pattern)
-* B. [Discuss/Record early ideas](#b-discussing-early-ideas-in-issues)
-* C. [Review existing patterns](#c-interacting-with-patterns-reviews)
-* D. [Take part in our Meetings and Roles](/meta/meetings.md) <-- link to separate doc
+2. **Read & improve existing patterns.** If you want to get started, we encourage you to read through the existing patterns and materials in this repository. Found a misleading phrase or phony grammar? A mistake in the content? Let us know by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new) or directly propose your fix as a pull request.
 
+3. **Review open pull requests.** Even without knowing all the specifics of the patterns working group, your feedback on existing [pull requests](https://github.com/InnerSourceCommons/InnerSourcePatterns/labels/type%20-%20Content%20work) (especially those propising changes to pattern contents) will be valuable to its authors: As somebody who wants to learn more about InnerSource, you can give input from the perspective of a future reader. As somebody with own InnerSource experiences, you can share your experience with the authors.
 
-# A. Writing a New Pattern
+4. **Contribute a new pattern.** A key contribution you can make is to document an InnerSource best practice you experienced or know about. We defined different maturity levels for the contents in this repository: First time contributors should aim for maturity levels `1: initial` (for unstructured experience reports or what we call donuts - patterns with missing pieces) and `2: structured` (for best practices adhering to the patterns format and following basic writing style conventions). Our [Contributor Handbook](meta/contributor-handbook.md) discusses all this in more detail. You don't feel ready yet to contribute a new pattern? Please start a discussion by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new).
 
-The below steps can be used to create a new pattern. The use-case here is that you have an idea or problem in your head and can confidently fill out the barest of pattern fields (Solution doesn't need to be known). If you are unsure your idea is ready for this, [discuss it in an issue first](#b-discussing-early-ideas-in-issues).
+5. **Be a patterns advocate.** The patterns will become better and cover more topics the more people contribute their perspective and experience. A colleague told you about a novel InnerSource best practice? Please invite her/him to contribute to this repository!
 
-The simplest way to create a pattern is with your browser (see below).  
-[Like the command-line better? See here for alternate instructions.](/meta/technical-git-howto.md)
+## How to get in touch?
 
-<img alt="Creating a new pattern" src="/assets/img/write-new-pattern.png" width="70%">
+We are happy to support you in contributing to the InnerSource patterns or to just chat with you. You can reach out to us in the following ways:
 
-1. Login to GitHub & inside the [patterns web repo](https://github.com/InnerSourceCommons/InnerSourcePatterns), click on the 'Create new file' button
-2. Name the file like this example: "project-management-time-pressures.md"
-3. Use the [pattern template](https://raw.githubusercontent.com/InnerSourceCommons/InnerSourcePatterns/master/meta/pattern-template.md) to create your new [markdown](/meta/markdown-info.md) file with the description of your fledgling pattern; it does not need to be complete, as you can add to it later
-4. Enter a commit message
-   * If you are asked to 'Commit directly' vs 'Create a new branch', see [branching details](#use-branches-when-creating-new-patterns) below.
-5. Propose this new file and then also create a Pull Request (PR)
+1. **Via Slack.** Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
 
-You're done! This creates a separate branch and creates a Pull Request (PR) all in one fell swoop! PR's are the mechanism we use for our Review process. See next steps in [Interacting with Pattern Reviews](#c-interacting-with-patterns-reviews).
+2. **During the patterns office hours.** We established a regular cadence of office hours for you to ask questions. Find the date of the next patterns office hours [in this calendar](https://innersourcecommons.org/patterns-officehours).
 
+## License of Contributions
 
-## Use Branches When Creating New Patterns
-We develop new patterns in branches with the naming convention:  
-`pattern/<title-of-pattern-here>`.
+The contents of this repository are licensed under [CC-BY-SA-4.0](LICENSE.txt). By contributing to this repository, you grant us (and everyone else for that matter) the right to use your contribution in accordance with that license.
 
-If you are asked to 'Commit directly...' vs 'Create a new branch...'
+## Code of Conduct
 
-* Assure you select **'Create a new branch...'** and name the branch like this example: "pattern/project-management-time-pressures". 
-* This occurs when writing a new pattern via the web interface (section A above).
-* Only [Trusted Committers](/meta/trusted-committers.md) (TC's) are asked this; we are adding most contributors as TC's.
-
-
-## Other Tips For Submissions
-
-* Place each sentence on a new line.
-_GitHub_ allows leaving comments on a line-by-line basis.
-Review and comment on the content of submitted text is much easier if there are multiple lines on-which to leave comments.
-Sentences on consecutive lines will be collapsed into a single paragraph (like this one) for the final reader of the content.
-
-# B. Discussing Early Ideas in Issues
-
-If you feel that you need extra advice when dealing with patterns, please [open an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues). This process is only needed when contributing early ideas that you are uncertain about. 
-
-Here are tips on starting this discussion:
-
-* [Create a new ticket](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new), add a concise title, and describe your problem. Think about the context of your problem and your expected output. Where do you see this problem most? What is the setup of your business and organization? Do you have opinions/ideas on what causes or leads-to the problem?
-* Ask any questions that you are unsure about. Are you unsure if this problem belongs here? Are you unsure on how to frame and explain the problem?
-* [Apply the label](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) `Early Idea`. Labels can be found in the right column settings.
-
-After this process, it is our turn to drive you through the pattern creation process. We will help to land your idea and check if there are existing similar patterns.
-
-
-
-# C. Interacting with Patterns Reviews
-
-A pattern is said to be "in-review" or being "Reviewed" when we have a Pull Request with some amount of Pattern detail filled out. We then communally review, and comment-on, and OK these "in-review" patterns. Usually, we first look for a pattern with all the fields filled out, and then go through TWO peer-reviews.
-
-## Editing a pattern that is in-review
-Go ahead, edit away - we can always go back - and we encourage action over discussion.
-
-<img alt="How to edit an existing pattern" src="/assets/img/edit-existing-pattern.png" width="70%">
-
-## Reviewing a pattern
-FIXME Explain how to add review comments and accepting a review. Basically, this is all done through Githubs web GUI around Pull Requests.
-
-FIXME Give tips for good reviews. We have done both interspersed comments, or pattern-wide advise. Be constructive. If you can fix the problem, [edit the PR](#editing-a-pattern-that-is-in-review) instead of leaving a comment.
-
-## Our Review Process
-Below are the procedural steps in our Review process:
-
-1. Decide which Maturity level your pattern is in: `Donut (Lacks solution)`, `Unproven`, or `Proven`; these all describe what state the *Solution* is in.
-2. Decide which Review Step you are in: Usually `Incomplete` or `Do 1st Review`
-3. Reviewers can now use the PR features to comment on the pattern.
-4. In most cases, we do two reviews, and the PR's labels should reflect `Do 2nd Review` etc.
-5. After reviews are complete, the reviewers or author should Revise and Finalize the pattern, eventually labeling it with  `Accepted`.
-6. Once a pattern is `Accepted` by the reviewers, one of the [Trusted Committers](/meta/trusted-committers.md) (most authors are by this point) can Merge the PR on Github. This places the .md file into the master branch / root directory.
-
-## Completed Patterns
-When completed patterns (reviewed and accepted) are ready to be published from this InnerSourcePatterns repo to a Gitbook (PDF), [see our separate Publishing instructions](/meta/publishing.md).
+We do not yet have a fully formalized code of conduct yet. We expect all contributors to treat each other respectfully and help us to keep this community free of harassment and discrimination.
