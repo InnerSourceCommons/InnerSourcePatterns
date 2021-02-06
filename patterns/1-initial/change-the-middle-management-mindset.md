@@ -2,11 +2,17 @@
 
 Changing the Middle-Management Mindset
 
+## Patlet
+
+TBD
+
 ## Problem
+
 * Key problem: the willingness to allocate resources
 * Embedded accountability problem: they can't account for the time they spend and put it in their objectives. Need some metric to make it clear it is worthwhile. Has to become a KPI for them.
 
 ## Context
+
 * top down InnerSource support. Embedded in their objectives? Trickling down? Top level management has determined a new KPI around InnerSource and it is cascaded down to middle-management? No.
     - a vacuum between top down support and the objectives for developers
     - top down support but no one knows what that means
@@ -20,7 +26,12 @@ Changing the Middle-Management Mindset
 * Not yet having a majority microservices architecture is not a factor.
 * For code changes beyond bug fixes
 
+## Sketch
+
+![How to help Middle Managers actively support InnerSource projects involving their people](http://teiru.net/images/middle_management_sketch_img_2257.jpg)
+
 ## Forces
+
 * Organizational goals rarely happen with Middle-Management; they write their own goals (or their bosses do); otherwise incentivization happens through budget. Centralized incentivization is very difficult (their other goals will suffer). KPIs tied to people's bottom line can be effective.
 * Educational component: propensity is to blame evil middle-management; they may not know how it works and need to understand it. What benefit they will have for having their people
 * Managers are afraid of having people stolen from them, of having priorities that aren't theirs, of becoming irrelevant.
@@ -30,6 +41,7 @@ Changing the Middle-Management Mindset
 * Middle-management has the ability to learn about IS (formalized training)
 
 ## Solution
+
 * OKR = objective key result - bigger picture. The best tool ever to get serious traction across business organizations. We are one team; creating durable teams horizontally across BUs. Tie middle-management into the OKRs; they can tie these into their L2s they write (WAgile: quarterly we do big planning sessions, L2s are a quarterly goal).  Epic for a year, L2 for a quarter.
 * Similarly we have goals cascaded down from management levels. Really high level goals have no bearing on daily work of low level developers, but they have traceability to the highest. If you can have IS high level goals cascaded down, you could justify the time.
 * Can't get the buzz for IS, but can get buzz for reuse and collaboration (and can measure and show these). Defining the EOL processes. Have incorporated these into the End of Life processes. Majority of the EOLs are due to redundancy. Can counter Middle-Management fear. Fear that they will go away; we clearly define what pieces are theirs to see if there are ways to put competing solutions together. We can EOL something and reuse/collaborate and stop wasting resources. Plays really well to management.
@@ -61,6 +73,7 @@ Changing the Middle-Management Mindset
 * Empowering Middle Management - IS readiness checklist; Middle Management should partner with their developers. What are the opportunities out there. Can we come up with justification for you to spend any time on this (how does this tie together with our KPIs)
 
 ## Resulting Context
+
 * **Support for IS is automatic, standard and expected from Middle Management.**
 * More measurement is required; measurement becomes more sophisticated (easier to measure your own stuff; harder to measure others). Keeping track of time spent in projects.
 * Better training for Middle Management in negotiation and facilitation will be needed.
@@ -68,11 +81,14 @@ Changing the Middle-Management Mindset
 
 ## Known Instances
 
+TBD
 
-## Sketch
-![How to help Middle Managers actively support InnerSource projects involving their people](http://teiru.net/images/middle_management_sketch_img_2257.jpg)
+## Status
+
+Initial
 
 ## Authors
+
 * Silona Bonewald
 * Max Capraro, FAU
 * Sarah Doire, CH Robinson
