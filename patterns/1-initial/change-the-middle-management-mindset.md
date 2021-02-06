@@ -38,7 +38,6 @@ The InnerSource program does not live up to its expectations because middle mana
 
 ![How to help Middle Managers actively support InnerSource projects involving their people](http://teiru.net/images/middle_management_sketch_img_2257.jpg)
 
-
 ## Solution
 
 * [Objectives and key results (OKR)](https://en.wikipedia.org/wiki/OKR) - bigger picture. The best tool ever to get serious traction across business organizations. We are one team; creating durable teams horizontally across Business Units (BUs). Tie middle-management into the OKRs; they can tie these into the quarterly goal (L2s) they write.
