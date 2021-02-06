@@ -4,7 +4,7 @@ Contained InnerSource
 
 ## Patlet
 
-Apply InnerSource methods to facilitate collaboration in a cross divisional 
+Apply InnerSource methods to facilitate collaboration in a cross divisional
 project but don't invest in soliciting contributions from outside of that
 project.
 
@@ -58,12 +58,15 @@ practices, such as exemplary documentation which facilitates reuse beyond the
 project context, are not realized, the projects success still lends credibility
 to the concept of InnerSource.
 
-## Known instances
+## Known Instances
+
 * Large Company
 
 ## Status  
-* DRAFT pattern (in progress)
+
+* Initial
 
 ## Author
+
 * Tim Yao
 * Georg Grütter
