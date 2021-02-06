@@ -1,5 +1,17 @@
 ## Title
+
 Change the developers mindset
+
+## Patlet
+
+TBD
+
+## Problem  
+
+* How do you change developer mindset? It's difficult to push developers to do things.
+* Developers are resisting the change, they are in their comfort zone and it's hard to get them to go out of it.
+* Developer organization's maturity is high, so people are used to being in some hierarchy/rules.
+* Developers are formed in agile, the shift from agile is difficult.
 
 ## Context
 
@@ -9,13 +21,6 @@ Change the developers mindset
 * There's already a successful InnerSource group in the early stages.
 * Code visibility is product dependent.
 
-## Problem  
-
-* How do you change developer mindset? It's difficult to push developers to do things.
-* Developers are resisting the change, they are in their comfort zone and it's hard to get them to go out of it.
-* Developer organization's maturity is high, so people are used to being in some hierarchy/rules.
-* Developers are formed in agile, the shift from agile is difficult.
-
 ## Forces  
 
 * Managers are previous developers, so they like the way they were promoted and they want to proceed in similar ways.
@@ -24,8 +29,6 @@ Change the developers mindset
 * Different teams within the company decide whether and how to proceed with InnerSource.
 * No formal training exists.
 * Processes are not clearly defined.
-
-## Sketch (optional)
 
 ## Solution  
 
@@ -40,12 +43,11 @@ Change the developers mindset
 * Software from several InnerSource projects is used across the several development teams.
 * There is improved collaboration within the same developer team (mentorship and so on).
 
-## Rationale (optional)
+## Known Instances
 
-## Known instances (optional)
+TBD
 
 ## Status  
-Pattern Idea
 
 * Initial
 * Old status: Unproven
