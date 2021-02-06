@@ -8,7 +8,7 @@ A company may require a mechanism to set broad governance and behavioral guideli
 
 ## Problem
 
-Without a set of organizational standards, Trusted Committers, and individual teams, are free to set their own standards, which is a step in the right direction.  
+Without a set of organizational standards, [Trusted Committers](../2-structured/trusted-committer.md), and individual teams, are free to set their own standards, which is a step in the right direction.  
 
 However, team standards could be highly variant and further diverge over time as they evolve and adapt to new needs and forces.  This can lead to confusion and frustration as contributors submit code across team and functional boundaries. 
 
@@ -29,11 +29,11 @@ As an example, the breadth of languages used within an engineering and operation
 
 ## Solutions
 
-Recognize that Trusted Committers are both situational leaders and subject matter experts representing their team and establish a governance model with a “committee” attended and chaired by Trusted Committers chartered with establishing company and/or organizational guidelines.
+Recognize that Trusted Committers are both **situational leaders** and **subject matter experts** representing their team and establish a governance model with a “committee” attended and chaired by Trusted Committers chartered with establishing company and/or organizational guidelines.
 
 - The “committee” is scheduled periodically as necessary by the TC’s – twice a week, once a month, quarterly, etc.
 - The goal is to establish general direction, or a highway, while leaving freedom for individual teams to adapt to local needs, or side streets
-- Trusted Committers establish organization guidelines that become templates for Contribution Agreements
+- Trusted Committers establish organization guidelines that become templates for [Contribution Agreements](../2-structured/project-setup/base-documentation.md)
 - Trusted Committers collaborate on and refine guidelines asynchronously via passive documentation and the establishment of organizational patterns
 - The TC “committee” is responsible for communicating general guidelines to upper management
 - This also ensures that teams and functional groups have a recurring touchpoint with other team and functional groups – establishing trust and insight into the overall organizational needs and requirements
@@ -46,12 +46,12 @@ TBD
 
 TBD
 
-## Rationale (optional)
+## Rationale
 
 Empowering TC's as representatives on behalf of their teams propagates ownership of the overall InnerSource strategy as it deploys and evolves in an organization and ensures that a baseline level of governance and standardization occurs.
 
 May mention:
-- A large, highly regulated, financial organization is planning to implement a TC Steering Group to provide broad guidlines and guard rails as part of their InnerSource initiative.
+- A large, highly regulated, financial organization is planning to implement a TC Steering Group to provide broad guidelines and guard rails as part of their InnerSource initiative.
 
 ## Author(s)
 
