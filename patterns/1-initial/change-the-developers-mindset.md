@@ -53,4 +53,4 @@ TBD
 
 ## See Also
 
-* For further improvements of this pattern, please als review these [comments from the ISC Fall Summit 2017](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/63#pullrequestreview-67393334).
+* For improving this pattern even further, please also review these [comments from the ISC Fall Summit 2017](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/63#pullrequestreview-67393334).
