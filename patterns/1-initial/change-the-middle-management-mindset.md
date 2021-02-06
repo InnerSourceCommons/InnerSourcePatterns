@@ -10,8 +10,6 @@ TBD
 
 The InnerSource program does not live up to its expectations because middle management is reluctant to allocate resources to it. Expectations of the program are faster go-to-market, increased quality, reduced duplicative development, better integration capabilities, and increased developer satisfaction.
 
-In addition to the key problem above, there is an embedded accountability problem: middle managers cannot account for the time they spend and put it in their objectives. Need some metric to make it clear it is worthwhile. Has to become a KPI for them.
-
 ## Context
 
 * Top down InnerSource support. Embedded in their objectives? Trickling down? Top level management has determined a new KPI around InnerSource and it is cascaded down to middle-management? No.
@@ -24,12 +22,9 @@ In addition to the key problem above, there is an embedded accountability proble
 * Middle-management to support the InnerSource program but higher-priority items keep getting in the way
 * Middle-management would rather duplicate than reuse and collaborate; rewriting the fast and easy way is prioritized over participating in a reusable collaboration.
 
-## Sketch
-
-![How to help Middle Managers actively support InnerSource projects involving their people](http://teiru.net/images/middle_management_sketch_img_2257.jpg)
-
 ## Forces
 
+* Embedded accountability problem: middle managers cannot account for the time they spend and put it in their objectives. Need some metric to make it clear it is worthwhile. Has to become a KPI for them.
 * Organizational goals rarely happen with Middle-Management; they write their own goals (or their bosses do); otherwise incentivization happens through budget. Centralized incentivization is very difficult (their other goals will suffer). KPIs tied to people's bottom line can be effective.
 * Educational component: propensity is to blame evil middle-management; they may not know how it works and need to understand it. What benefit they will have for having their people involved in InnerSource?
 * Managers are afraid of having people stolen from them, of having priorities that aren't theirs, of becoming irrelevant.
@@ -37,12 +32,18 @@ In addition to the key problem above, there is an embedded accountability proble
 * How to manage priorities in such a bazaar?
 * Middle-management lacks understanding of what InnerSource implies
 * Middle-management has the ability to learn about InnerSource (formalized training)
+* Middle-management has a perceived loss of control, as with InnerSource it is less clear to them what the developers are working on.
+
+## Sketch
+
+![How to help Middle Managers actively support InnerSource projects involving their people](http://teiru.net/images/middle_management_sketch_img_2257.jpg)
+
 
 ## Solution
 
 * [Objectives and key results (OKR)](https://en.wikipedia.org/wiki/OKR) - bigger picture. The best tool ever to get serious traction across business organizations. We are one team; creating durable teams horizontally across Business Units (BUs). Tie middle-management into the OKRs; they can tie these into the quarterly goal (L2s) they write.
   * *Editor note: Unclear sentence here* => (WAgile: quarterly we do big planning sessions, L2s are a quarterly goal).  Epic for a year, L2 for a quarter.
-* Similarly we have goals cascaded down from management levels. Really high level goals have no bearing on daily work of low level developers, but they have traceability to the highest. If you can have InnerSource high level goals cascaded down, you could justify the time.
+* Similarly we have goals cascaded down from management levels. Really high level goals have no bearing on daily work of low level developers, but they have traceability to the highest. If you can have InnerSource high level goals cascaded down, you could justify the time. For this to work it is essential that those InnerSource goals don't conflict with existing goals but rather supplement and at best support them.
 * Can't get the buzz for InnerSource, but can get buzz for reuse and collaboration (and can measure and show these). Defining the EOL processes. Have incorporated these into the End of Life processes. Majority of the EOLs are due to redundancy. Can counter Middle-Management fear. Fear that they will go away; we clearly define what pieces are theirs to see if there are ways to put competing solutions together. We can EOL something and reuse/collaborate and stop wasting resources. Plays really well to management.
 
 * Find Trusted Evangelists
@@ -72,6 +73,15 @@ In addition to the key problem above, there is an embedded accountability proble
 * Empowering Middle Management - InnerSource readiness checklist; Middle Management should partner with their developers. What are the opportunities out there. Can we come up with justification for you to spend any time on this (how does this tie together with our KPIs)
 
 * If the organzation is doing Agile development, during release planning, time and resources for InnerSource practices should be built into sprints.
+
+* **1 step back, 3 steps forward** (aka "the tax"): If my team contributes, what's the tax (in terms of time/resources)?
+  * Finding opportunities for contribution
+  * Making the component reusable (if applicable)
+  * Supporting your contribution (if applicable)
+  * Aligning on engagement between teams
+  * Code submission, reviews & revision
+  * Documented communication w/consumers or host
+  * Learning new practices and tools/skills (if applicable)
 
 ## Resulting Context
 
