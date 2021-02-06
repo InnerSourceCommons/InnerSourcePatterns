@@ -14,7 +14,7 @@ Traditional development practices do not work as effectively for cross
 divisional projects as do InnerSource style practices. However, Management
 does not support adopting InnerSource practices because it regards efforts for
 soliciting and facilitating contributions from outside of the project as
-detrimental for the required efficiency. 
+detrimental for the required efficiency.
 
 ## Context
 
@@ -22,7 +22,7 @@ detrimental for the required efficiency.
   business units are involved in the development of this product
 * There is not one single BU which has the required resources or knowledge
   to do the development on its own.
-* An InnerSource program and required tools exist. 
+* An InnerSource program and required tools exist.
 * The InnerSource program advocates using the full spectrum of InnerSource
   practices (_Full Scale InnerSource_).
 
@@ -31,9 +31,9 @@ detrimental for the required efficiency.
 * The product's importance to company revenue and the committed feature content
   and dates require a development paradigm that provides known, stable
   development resources (headcount).
-* _Full scale InnerSource_ includes substantial effort for soliciting and 
-   managing contributions as well as onboarding new contributors, which is 
-   hard to plan for and my have some effect on the ability to control the 
+* _Full scale InnerSource_ includes substantial effort for soliciting and
+   managing contributions as well as onboarding new contributors, which is
+   hard to plan for and my have some effect on the ability to control the
    timeline for completion and deployment.
 
 ## Solution
@@ -67,4 +67,3 @@ to the concept of InnerSource.
 ## Author
 * Tim Yao
 * Georg Grütter
-
