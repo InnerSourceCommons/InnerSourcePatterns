@@ -1,6 +1,6 @@
 ## Title
 
-Changing the Middle-Management Mindset
+Change the Middle-Management Mindset
 
 ## Patlet
 
