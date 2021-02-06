@@ -10,13 +10,13 @@ A highly divergent set of development standards in different teams can slow down
 
 Without a set of organizational standards, [Trusted Committers](../2-structured/trusted-committer.md), and individual teams, are free to set their own standards, which is a step in the right direction.  
 
-However, team standards could be highly variant and further diverge over time as they evolve and adapt to new needs and forces.  This can lead to confusion and frustration as contributors submit code across team and functional boundaries. 
+However, team standards could be highly variant and further diverge over time as they evolve and adapt to new needs and forces.  This can lead to confusion and frustration as contributors submit code across team and functional boundaries.
 
 The business is interested in establishing a set of agreed-upon standard operating procedures that guide teams, while still providing sufficient autonomy to meet the parochial needs of individual teams.
 
 ## Context
 
-A company is planning to introduce InnerSource as a strategic initiative. They are faced with reforming and steering the behavior of developers and engineers toward a common goal.  In general functional groups and teams within the company adhere to a broad spectrum of standards regarding tools, development languages, collaboration models, engagement models, documentation models, etc. 
+A company is planning to introduce InnerSource as a strategic initiative. They are faced with reforming and steering the behavior of developers and engineers toward a common goal.  In general functional groups and teams within the company adhere to a broad spectrum of standards regarding tools, development languages, collaboration models, engagement models, documentation models, etc.
 
 The company recognizes the value of the Trusted Committer role as a situational leader for a team that sets and enforces team standards, code contribution standards, contribution agreements, PR management, etc. however the company is interested in establishing organizational guidelines as well that steer and focus Trusted Committers and the teams they represent.
 
@@ -34,8 +34,8 @@ Recognize that Trusted Committers are both **situational leaders** and **subject
 - The “committee” is scheduled periodically as necessary by the Trusted Committers – twice a week, once a month, quarterly, etc.
 - The goal is to establish general direction, or a highway, while leaving freedom for individual teams to adapt to local needs, or side streets
 - Trusted Committers establish organization guidelines that become templates for [Contribution Agreements](../2-structured/project-setup/base-documentation.md)
-- Trusted Committers collaborate on and refine guidelines asynchronously via passive documentation and the establishment of organizational patterns. 
-    - This guideline definition project itself can be run as an InnerSource project, accepting contributions from anywhere in the organization. 
+- Trusted Committers collaborate on and refine guidelines asynchronously via passive documentation and the establishment of organizational patterns.
+    - This guideline definition project itself can be run as an InnerSource project, accepting contributions from anywhere in the organization.
     - By running this as a collaborative documentation project, it can role-model and verify the behaviors that they want to promote for other InnerSource projects as well.
 - The InnerSource Guidance Group is responsible for communicating general guidelines to upper management
 - This also ensures that teams and functional groups have a recurring touchpoint with other team and functional groups – establishing trust and insight into the overall organizational needs and requirements
@@ -44,7 +44,7 @@ Recognize that Trusted Committers are both **situational leaders** and **subject
 
 TBD
 
-## Known Instances 
+## Known Instances
 
 TBD
 
@@ -62,4 +62,3 @@ May mention:
 ## Acknowledgements
 
 - Tim Yao
-
