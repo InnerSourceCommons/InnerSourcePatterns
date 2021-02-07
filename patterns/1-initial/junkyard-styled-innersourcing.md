@@ -35,8 +35,7 @@ Two situations:
 
 ## Status
 
-* Initial
-* Brainstormed pattern idea in progress
+* Initial (brainstormed solution)
 
 ## Authors
 

@@ -61,7 +61,7 @@ Key Performance Indicators (KPIs) for Product Owners are primarily product focus
 
 ## Status
 
-* Initial (still missing Patlet and at least one Known Instance)
+* Initial
 * Created at the Spring Summit 2017 in Geneva, Switzerland
 
 ## Authors

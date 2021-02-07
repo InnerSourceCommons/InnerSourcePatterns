@@ -2,8 +2,6 @@
 
 Share Your Code to Get More Done
 
-Old title: Share Your Code to Get More Done - Likely Contributors Variant
-
 ## Patlet
 
 TBD
@@ -46,9 +44,9 @@ TBD
 * People from outside the traditional silo are contributing successfully
 * More development is getting done per period (sprint)
 
-## Rationale (optional)
+## Known Instances
 
-## Known instances (optional)
+TBD
 
 ## Status
 
@@ -59,3 +57,7 @@ TBD
 ## Author
 
 David Marcucci
+
+## Alias
+
+Old title: Share Your Code to Get More Done - Likely Contributors Variant

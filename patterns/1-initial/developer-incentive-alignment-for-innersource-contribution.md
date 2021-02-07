@@ -66,15 +66,13 @@ TBD
 * devs take on professional mentorship responsibilities for their peers rather than leaving it to non-technical management
 * career progression clearly identified & understood by engs and management
 
-## Rationale (optional)  
+## Known Instances
 
-## Known Instances (optional)  
+TBD
 
 ## Status  
 
-* Initial
-* Old status: Unproven
-* Old status: brainstormed solution
+* Initial (brainstormed solution)
 
 ## Author
 
