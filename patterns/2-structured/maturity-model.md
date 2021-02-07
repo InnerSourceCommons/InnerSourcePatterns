@@ -214,6 +214,11 @@ long term.
 * Zylk
 * Bitergia
 
+## Status
+
+* Structured
+* Drafted in September 2019
+
 ## Authors
 
 * Daniel Izquierdo Cortazar
@@ -221,13 +226,6 @@ long term.
 * Jorge
 * Nerea
 
-## Acknowledgements
-
 ## Alias
 
 Maturity model: Learn about InnerSource best practices
-
-## Status
-
-* Structured
-* Drafted in September 2019

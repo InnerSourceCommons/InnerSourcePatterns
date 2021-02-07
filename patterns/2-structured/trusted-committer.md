@@ -11,22 +11,22 @@ work of the contributor above and beyond single contributions.
 
 ## Problem
 
-  - Project maintainers want to find ways to scale their ability to support a project
-  - Project maintainers want to find ways to lengthen the value delivered by a project
-  - Project maintainers want to visibly reward frequent contributors and empower them to amplify their value contribution.
-  - Lack of language for recognizing contributions across teams within an organization
+- Project maintainers want to find ways to scale their ability to support a project
+- Project maintainers want to find ways to lengthen the value delivered by a project
+- Project maintainers want to visibly reward frequent contributors and empower them to amplify their value contribution.
+- Lack of language for recognizing contributions across teams within an organization
 
 ## Context
 
-  - You are the maintainer of a cross-team library, service, or shared resource
-  - You receive regular contributions
-  - There are motivated contributors looking to build expertise through InnerSource projects
+- You are the maintainer of a cross-team library, service, or shared resource
+- You receive regular contributions
+- There are motivated contributors looking to build expertise through InnerSource projects
 
 ## Forces
 
-  - Over the lifecycle of a project the focus of the maintainers may shift away to accommodate changing business priorities
-  - Contributors seek visible artifacts of their contributions demonstrating value
-  - Maintaining a project of reasonable complexity is taxing for a small team
+- Over the lifecycle of a project the focus of the maintainers may shift away to accommodate changing business priorities
+- Contributors seek visible artifacts of their contributions demonstrating value
+- Maintaining a project of reasonable complexity is taxing for a small team
 
 ## Solution
 

@@ -68,7 +68,6 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 ## Status
 
 * Structured
-* Old status: Proven
 
 ## Author(s)
 

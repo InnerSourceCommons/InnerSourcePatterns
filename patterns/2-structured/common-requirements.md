@@ -53,8 +53,8 @@ TBD
 ## Status
 
 * Structured
-* Old status: Proven
+* Drafted Aug 2016
 
 ## Author
 
-Robert Hanmer, 22 Aug 2016, 20 Sept 2016  
+Robert Hanmer 

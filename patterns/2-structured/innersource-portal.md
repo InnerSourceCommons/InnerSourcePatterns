@@ -65,7 +65,6 @@ The InnerSource Portal has enabled InnerSource project owners to advertise their
 ## Status
 
 * Structured
-* Old status: Proven
 
 ## Author(s)
 

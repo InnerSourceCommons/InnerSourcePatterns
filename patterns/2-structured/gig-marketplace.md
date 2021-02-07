@@ -66,7 +66,6 @@ When used in combination with the InnerSource Portal pattern, the Gig Marketplac
 ## Status
 
 * Structured
-* Old status: Proven
 
 ## Author(s)
 
