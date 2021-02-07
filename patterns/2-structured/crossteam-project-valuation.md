@@ -70,7 +70,7 @@ In-practice, though, it does give a framework by which you can make a sound deci
 After having good, reasonable data according to the above explanation, you should fund dedicated development hours toward running the project up to _**at least**_ of the lesser of the following three levels:
 
 1. The raw hours saved by the formula above.  Since we're all sure that the formula will produce a number that is below the true number of hours saved, you can have confidence that funding the project up to that point is a sure win for you.
-1. The amount of time that it takes to support inner sourced contributions to cross-team projects.  Since the contributor would likely have done the work anyway in a one-off fashion, it is worth it to fund the time it takes to faciliate their work going into a shared location.
+1. The amount of time that it takes to support inner sourced contributions to cross-team projects.  Since the contributor would likely have done the work anyway in a one-off fashion, it is worth it to fund the time it takes to facilitate their work going into a shared location.
 1. Whatever feels good to you.  One intentional side-effect of having a valuation formula is that it  naturally forces measurement of the key points of usage that provide value to consumers.
 
 Those measurements can be understood and consumed in their raw form to provide you with a gut-feel idea of how valuable is the project.
@@ -94,6 +94,11 @@ They will provide a head-and-shoulders improvement in on-the-ground results over
 
 * Nike
 
+## Status
+
+* Structured
+* Old status: Proven in multiple domains.
+
 ## Authors
 
 * Russ Rutledge
@@ -101,8 +106,3 @@ They will provide a head-and-shoulders improvement in on-the-ground results over
 ## Acknowledgement
 
 * Jeremiah Wright for teaching me to think about cross-team projects as an internal business dealing in the currency of developer time.
-
-## Status
-
-* Structured
-* Old status: Proven in multiple domains.

@@ -69,6 +69,5 @@ The automatically managed InnerSource portal and badge system has ensured that t
 
 ## Status
 
-**Initial**
-
-Based of PR [#120](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/120) we decided to merge this pattern in a relatively early state, as the upstream had disappeared and we didn't want to loose the content. See further discussions in the PR itself.
+* Initial
+* Based of PR [#120](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/120) we decided to merge this pattern in a relatively early state, as the upstream had disappeared and we didn't want to loose the content. See further discussions in the PR itself.

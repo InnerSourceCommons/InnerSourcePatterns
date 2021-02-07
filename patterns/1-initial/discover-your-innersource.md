@@ -59,6 +59,8 @@ Make it easy to find the reusable code.
 
 ## Known Instances
 
+TBD
+
 ## Resulting Context
 
 * Internal components are easily visible
@@ -70,8 +72,7 @@ Make it easy to find the reusable code.
 
 ## Status
 
-* Initial
-* Brainstormed pattern idea in progress
+* Initial (brainstormed solution)
 
 ## Authors
 

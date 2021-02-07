@@ -82,7 +82,6 @@ Europace AG
 ## Status
 
 * Structured
-* Old status: Proven
 
 ## Author(s)
 
