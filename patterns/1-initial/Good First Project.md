@@ -12,7 +12,6 @@ While any project has the potential to benefit from being developed in InnerSour
 
 ## Story (optional)
 
-
 ## Context
 
 An organization is starting or is in the early phase of InnerSource adoption, with a lot of skepticism about whether or not it'll work, and selecting an inappropriate pilot project might lead to failure of the entire initiative. Otherwise, a team is planning to start an InnerSource project but they they do not know how prepared they are and if the project they are putting forward is appropriate or not.
@@ -21,10 +20,9 @@ An organization is starting or is in the early phase of InnerSource adoption, wi
 
 - Lack of knowledge about which projects stand to benefit the most from InnerSource development.
 - The team might think they are prepared for InnerSource, but might not have an idea about what challenges lie ahead and how prepared they actually are.
-- Unsure if the processes around the project are conducive to InnerSource style development. 
+- Unsure if the processes around the project are conducive to InnerSource style development.
 
 ## Sketch (optional)
-
 
 ## Solutions
 
@@ -42,12 +40,9 @@ The _fitness score_ of a project can be used as an indication about its suitabil
 The two most important works in this context are by [Klaas-Jan Stol and Brian Fitzgerald](https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf?sequence=2) and [Silona Bonewald](https://innersourcecommons.org/assets/files/InnerSourceChecklist.pdf).
 In their work, _Stol and Fitzgerald_ presented a set of nine key factors that are important for organizations to consider when adopting inner source. However, that model looked at an organization as a whole, and while a number of organizational characteristics are applicable to an individual project, some aspects are not, and some project characteristics are unaccounted for in the model. _Silona Bonewald_, on the other hand, presented a near-exhaustive checklist about different aspects to consider while adopting InnerSource at an organization. However, not all of them are applicable while considering an individual project. Ideas from the two works described earlier are combined in framing the pattern presented here.
 
-
 ## Known Instances (optional)
 
-
 ## Status (optional until merging)
-
 
 ## Author(s) (optional)
 
@@ -56,7 +51,6 @@ Tapajit Dey, Brian Fitzgerald
 ## Acknowledgements (optional)
 
 Willem Jiang from Huawei for the feedback and Translation.
-
 
 ## Alias (optional)
 
