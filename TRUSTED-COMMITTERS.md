@@ -1,6 +1,12 @@
 # Trusted Committers
 
-Trusted committers (TCs) are those members of our working group who have elevated rights and direct write access to this repository. *TCs act as stewards of the working group and community. They aim to make consensus-based decisions in the best interest of the working group.* They also act as the guardians of this repository: TCs react to, referee, and give feedback about incoming contributions.
+Trusted Committers (TCs) are those members of our working group who have elevated rights and direct write access to this repository.
+
+> Trusted Committers act as stewards of the working group and community. They aim to make consensus-based decisions in the best interest of the working group. 
+
+They also act as the guardians of this repository: TCs react to, referee, and give feedback about incoming contributions.
+
+For further information about the concept, also see the [Trusted Committer Pattern](patterns/2-structured/trusted-committer.md).
 
 ## Current Trusted Committers
 
@@ -11,7 +17,11 @@ Trusted committers (TCs) are those members of our working group who have elevate
 
 ## Hall of Fame (aka Alumni)
 
-While Trusted Committers are in principle appointed for lifetime, it does happen that the interests or priorities of a TC change and they don't have enough time any more to contribute to the project. In those cases we ask them if we should move them to our Hall of Fame. Doing so allows us to appropriately thank them for all of their fantastic contributions. Of course they can always start contributing again in the future and go back to being Trusted Committers.
+While Trusted Committers are in principle appointed for lifetime, interests or priorities of a TC can change and they might not have enough time any more to contribute to the project. 
+
+In those cases we ask them if we should move them to the Hall of Fame. Doing so allows us to appropriately thank them for all of their fantastic contributions. When doing so we also remove them from `.github/CODEOWNERS`, so that reviews of Pull Requests aren't assigned to them anymore, and GitHub notifications are reduced. That increases the clarity for the community who to expect feedback from when creating PRs.
+
+The alumni in the Hall of Fame can of course always start contributing again in the future and go back to being Trusted Committers if they want to.
 
 * [@gruetter](https://github.com/gruetter) (added 2017-03-02)
 * [@nyeates](https://github.com/nyeates) (added 2017-03-02)
@@ -39,4 +49,6 @@ We follow this process (adapted from [here](https://tech.europace.de/voting-in-n
 
 ## Admins
 
-A handful of individuals are currently the technical GitHub Admins for this repository. This includes most members of the InnerSource Commons' #tech-infra team and members of the [InnerSource Commons GitHub Organization](https://github.com/innersourcecommons). However, please channel working group-specific requests through the trusted committers.
+A handful of individuals are currently the technical GitHub Admins for this repository. This includes most members of the InnerSource Commons' #tech-infra team and members of the [InnerSource Commons GitHub Organization](https://github.com/innersourcecommons). 
+
+However, please channel working group-specific requests through the trusted committers.
