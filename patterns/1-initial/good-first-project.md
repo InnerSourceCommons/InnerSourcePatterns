@@ -32,6 +32,8 @@ Moreover, while previous works focused on the criteria for readiness for InnerSo
 
 ## Solutions
 
+This pattern presents a framework (_Project-Process-People_ model) and an _accompanying tool_ as one specific implementation of the framework for identifying the _fitness_ of an InnerSource project. The framework is based on prior work by [Klaas-Jan Stol and Brian Fitzgerald](https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf?sequence=2) and [Silona Bonewald](https://innersourcecommons.org/assets/files/InnerSourceChecklist.pdf), and should help facilitate the identification of the most appropriate candidate InnerSource projects and the assessment of InnerSource-readiness of candidate projects.
+
 Based on the two previous works mentioned earlier (see [Rationale](#rationale-optional)), we hypothesize that the _fitness_ of a project can be measured by assessing whether the project has the necessary qualities to attract enough developers to build a community around it, that the tools and processes allow for collaborative development, and that the project maintainers are ready to face the challenges of InnerSource style development. We label this as the  _Project-Process-People model_. We suggest two sub-factors within each which overall provides __six__ dimensions to measure the fitness of candidate projects.
 
 ### List of the major factors and the sub-factors
