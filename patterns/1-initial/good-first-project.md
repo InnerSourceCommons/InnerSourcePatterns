@@ -16,7 +16,9 @@ Moreover, while previous works focused on the criteria for readiness for InnerSo
 
 ## Context
 
-An organization is starting or is in the early phase of InnerSource adoption, with a lot of skepticism about whether or not it'll work, and selecting an inappropriate pilot project might lead to failure of the entire initiative (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern). Otherwise, a team might be planning to start an InnerSource project but they do not know how prepared they are and if the project they are putting forward is appropriate or not.
+- An organization is starting or is in the early phase of InnerSource adoption, with a lot of skepticism about whether or not it'll work.
+- Selecting an inappropriate pilot project might lead to failure of the entire initiative (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern). 
+- Otherwise, a team might be planning to start an InnerSource project but they do not know how prepared they are and if the project they are putting forward is appropriate or not.
 
 ## Forces
 
