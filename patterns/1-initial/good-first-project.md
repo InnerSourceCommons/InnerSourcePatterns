@@ -75,6 +75,7 @@ _Silona Bonewald_, on the other hand, presented a near-exhaustive checklist abou
 
 Willem Jiang from Huawei for the feedback and Translation.
 
-## Alias (optional)
+## Alias
 
-InnerSource Project fitness; InnerSource-Readiness of a project
+* InnerSource Project fitness
+* InnerSource-Readiness of a project
