@@ -36,7 +36,7 @@ This pattern presents a framework (_Project-Process-People_ model) and an _accom
 
 Based on the two previous works mentioned earlier (see [Rationale](#rationale-optional)), we hypothesize that the _fitness_ of a project can be measured by assessing whether the project has the necessary qualities to attract enough developers to build a community around it, that the tools and processes allow for collaborative development, and that the project maintainers are ready to face the challenges of InnerSource style development. We label this as the  _Project-Process-People model_. We suggest two sub-factors within each which overall provides __six__ dimensions to measure the fitness of candidate projects.
 
-### List of the major factors and the sub-factors
+### List of factors to assess InnerSource Fitness
 
 1. __Project Compatibility__
     - _Seed Product_ -> Do the project characteristics make it suitable for InnerSource style development?
