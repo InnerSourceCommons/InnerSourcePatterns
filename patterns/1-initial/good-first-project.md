@@ -4,7 +4,7 @@ Good First Project
 
 ## Patlet
 
-This pattern presents a framework (_Project-Process-People_ model) and an _accompanying tool_ as one specific implementation of the framework for identifying the _fitness_ of an InnerSource project. The framework is based on prior work by [Klaas-Jan Stol and Brian Fitzgerald](https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf?sequence=2) and [Silona Bonewald](https://innersourcecommons.org/assets/files/InnerSourceChecklist.pdf), and should help facilitate the identification of the most appropriate candidate InnerSource projects and the assessment of InnerSource-readiness of candidate projects.
+An InnerSource program has been launched at an organization, and to get off to a successful start it requires some good first projects that lend themselves to InnerSource-style development. Assessing the InnerSource Fitness of the candidate projects can help to select projects that have the potential to help demonstrate the power of InnerSource.
 
 ## Problem
 
