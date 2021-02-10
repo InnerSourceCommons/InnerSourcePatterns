@@ -8,7 +8,9 @@ An InnerSource program has been launched at an organization, and to get off to a
 
 ## Problem
 
-While any project has the potential to benefit from being developed in InnerSource style, some are more suitable candidates than others. While starting with InnerSource, especially when trying to convince the skeptics about the utility of InnerSource (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern) it is important to be able to select the more appropriate projects to have a best chance of success.
+When launching an InnerSource program, it is essential to convince the skeptics about the utility of InnerSource (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern). 
+
+While any project has the potential to benefit from being developed in InnerSource style, some are more suitable candidates than others. But how do you find the most appropriate projects that have the best chance to be successful as InnerSource projects?
 
 Moreover, while previous works focused on the criteria for readiness for InnerSource adoption at an organizational level, there seems to be no concise and actionable guideline for InnerSource-readiness for individual projects.
 
