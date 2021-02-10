@@ -8,7 +8,7 @@ An InnerSource program has been launched at an organization, and to get off to a
 
 ## Problem
 
-When launching an InnerSource program, it is essential to convince the skeptics about the utility of InnerSource (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern). 
+When launching an InnerSource program, it is essential to convince the skeptics about the utility of InnerSource (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern).
 
 While any project has the potential to benefit from being developed in InnerSource style, some are more suitable candidates than others. But how do you find the most appropriate projects that have the best chance to be successful as InnerSource projects?
 
@@ -19,14 +19,14 @@ Moreover, while previous works focused on the criteria for readiness for InnerSo
 ## Context
 
 - An organization is starting or is in the early phase of InnerSource adoption, with a lot of skepticism about whether or not it'll work.
-- Selecting an inappropriate pilot project might lead to failure of the entire initiative (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern). 
+- Selecting an inappropriate pilot project might lead to failure of the entire initiative (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern).
 - Otherwise, a team might be planning to start an InnerSource project but they do not know how prepared they are and if the project they are putting forward is appropriate or not.
 
 ## Forces
 
 - Lack of knowledge about which projects stand to benefit the most from InnerSource development.
 - The team might think they are prepared for InnerSource, but might not have an idea about what challenges lie ahead and how prepared they actually are.
-- Unsure if the processes around the project are conducive to InnerSource style development.
+- Unsure if the tools used by the project and the organizational processes are conducive to InnerSource style development.
 
 ## Sketch (optional)
 
