@@ -62,7 +62,9 @@ _Silona Bonewald_, on the other hand, presented a near-exhaustive checklist abou
 
 ## Known Instances (optional)
 
-## Status (optional until merging)
+## Status
+
+* Initial
 
 ## Author(s) (optional)
 
