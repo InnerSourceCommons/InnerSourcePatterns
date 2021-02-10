@@ -71,7 +71,7 @@ _Silona Bonewald_, on the other hand, presented a near-exhaustive checklist abou
 * Tapajit Dey
 * Brian Fitzgerald
 
-## Acknowledgements (optional)
+## Acknowledgements
 
 Willem Jiang from Huawei for the feedback and Translation.
 
