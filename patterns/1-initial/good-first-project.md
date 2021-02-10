@@ -58,6 +58,7 @@ The questionnaire presented in the tool also serves as a de-facto guide as to wh
 ## Rationale
 
 The two most important works in this context are by [Klaas-Jan Stol and Brian Fitzgerald](https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf?sequence=2) and [Silona Bonewald](https://innersourcecommons.org/assets/files/InnerSourceChecklist.pdf).
+
 In their work, _Stol and Fitzgerald_ presented a set of nine key factors that are important for organizations to consider when adopting inner source. However, that model looked at an organization as a whole, and while a number of organizational characteristics are applicable to an individual project, some aspects are not, and some project characteristics are unaccounted for in the model. They presented three main factors: Software Product, Practices and Tools, People and Management, and three sub-factors on each of them.
 
 _Silona Bonewald_, on the other hand, presented a near-exhaustive checklist about different aspects to consider while adopting InnerSource at an organization. However, not all of them are applicable while considering an individual project. Ideas from the two works described earlier are combined in framing the pattern presented here.
