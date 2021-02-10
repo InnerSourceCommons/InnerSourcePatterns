@@ -14,8 +14,6 @@ While any project has the potential to benefit from being developed in InnerSour
 
 Moreover, while previous works focused on the criteria for readiness for InnerSource adoption at an organizational level, there seems to be no concise and actionable guideline for InnerSource-readiness for individual projects.
 
-## Story (optional)
-
 ## Context
 
 - An organization is starting or is in the early phase of InnerSource adoption, with a lot of skepticism about whether or not it'll work.
