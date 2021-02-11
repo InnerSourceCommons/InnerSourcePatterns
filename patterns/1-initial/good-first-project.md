@@ -53,7 +53,7 @@ The tool is written in __R__, and can be run from the [GitHub repository](https:
 
 In general, application of the framework should help assess the InnerSource-readiness of individual projects.
 
-The _fitness score_ of a project can be used as an indication about its suitability for InnerSource style development, which can help in selecting the most appropriate candidate project(s).
+The _fitness score_ of a project can be used as an indication about its suitability for InnerSource style development, which can help in selecting the most appropriate candidate projects. By choosing projects with higher chances of InnerSource success, you also increase the chances of the overall InnerSource program to be successful.
 
 The questionnaire presented in the tool also serves as a de-facto guide as to which aspects need attention for making a project better suited for InnerSource style development.
 
