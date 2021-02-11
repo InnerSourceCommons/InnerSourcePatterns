@@ -50,7 +50,7 @@ The [InnerSource Project Fitness Tracker](https://github.com/tapjdey/InnerSource
 
 ## Resulting Context
 
-In general, application of the framework should help assess the InnerSource-readiness of individual projects.
+Using the framework helps to assess the InnerSource-readiness of individual projects.
 
 The _fitness score_ of a project can be used as an indication about its suitability for InnerSource style development, which can help in selecting the most appropriate candidate projects. By choosing projects with higher chances of InnerSource success, you also increase the chances of the overall InnerSource program to be successful.
 
