@@ -46,8 +46,9 @@ Based on previous work, we hypothesize that the _fitness_ of a project can be me
     - _Team Readiness for InnerSource_ -> Are the team members aware of and ready for the challenges of maintaining an InnerSource project?
     - _Management Support_ -> Is the management willing to support the developers working on the project and the initiative in general?
 
-As one specific implementation of the pattern, we present a tool for estimating the _fitness_ of a candidate project along the six dimensions, and also present an an aggregate score which is a weighted sum of the scores for the dimensions (weights are determined by how many people voted a characteristic as important in the [2020 InnerSource Survey](https://tapjdey.github.io/InnerSource_Survey_2020/index.html)).
-The tool is written in __R__, and can be run from the [GitHub repository](https://github.com/tapjdey/InnerSource_Project_Fitness) (recommended - instructions in the repository) or from an [online instance](https://tapjdey.shinyapps.io/InnerSource_Fitness_Checker/). The tool is available in Chinese and English (language can be changed on the fly).
+## Reference Implementation
+
+The [InnerSource Project Fitness Tracker](https://github.com/tapjdey/InnerSource_Project_Fitness) is one specific implementation of this pattern. It helps estimating the _fitness_ of a candidate project along the six dimensions explained above, and presents an aggregate score which is the weighted sum of the scores for these dimensions. (As an side: Weights are determined by how many people considered a characteristic important in the [InnerSource Survey 2020](https://tapjdey.github.io/InnerSource_Survey_2020/index.html)).
 
 ## Resulting Context
 
