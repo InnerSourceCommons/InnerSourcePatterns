@@ -8,7 +8,7 @@ An InnerSource program has been launched at an organization, and to get off to a
 
 ## Problem
 
-When launching an InnerSource program, it is essential to convince the skeptics about the utility of InnerSource (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern).
+When launching an InnerSource program, it is essential to convince the skeptics about the utility of InnerSource (see the [Start as Experiment](../2-structured/start-as-experiment.md) pattern).
 
 While any project has the potential to benefit from being developed in InnerSource style, some are more suitable candidates than others. But how do you find the  projects that have the best chance to succeed as InnerSource projects?
 
