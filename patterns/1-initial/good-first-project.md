@@ -48,7 +48,8 @@ We hypothesize that the _fitness_ of a project can be measured by examining the 
 
 The [InnerSource Project Fitness Tracker](https://github.com/tapjdey/InnerSource_Project_Fitness) is one specific implementation of this pattern. It helps estimating the _fitness_ of a candidate project along the six dimensions explained above, and presents an aggregate score which is the weighted sum of the scores for these dimensions. (As an side: Weights are determined by how many people considered a characteristic important in the [InnerSource Survey 2020](https://tapjdey.github.io/InnerSource_Survey_2020/index.html)).
 
-Take a look at a [demo video](https://imgur.com/a/wO4EyJj) showing the operation of the tool mentioned above.
+This [demo video](https://imgur.com/a/wO4EyJj) shows the operation of the tool mentioned above.
+
 ## Resulting Context
 
 Using the framework helps to assess the InnerSource-readiness of individual projects.
