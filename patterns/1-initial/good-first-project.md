@@ -4,15 +4,15 @@ Good First Project
 
 ## Patlet
 
-An InnerSource program has been launched at an organization, and to get off to a successful start it requires some good first projects that lend themselves to InnerSource-style development. Assessing the InnerSource Fitness of the candidate projects can help to select projects that have the potential to help demonstrate the power of InnerSource.
+An InnerSource program has been launched at an organization, and to get off to a successful start it requires some good first projects that lend themselves to InnerSource-style development. Assessing the InnerSource-readiness (fitness) of the candidate projects can help in selecting projects that have the potential to help demonstrate the power of InnerSource.
 
 ## Problem
 
 When launching an InnerSource program, it is essential to convince the skeptics about the utility of InnerSource (see the [Start as Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md) pattern).
 
-While any project has the potential to benefit from being developed in InnerSource style, some are more suitable candidates than others. But how do you find the most appropriate projects that have the best chance to be successful as InnerSource projects?
+While any project has the potential to benefit from being developed in InnerSource style, some are more suitable candidates than others. But how do you find the  projects that have the best chance to succeed as InnerSource projects?
 
-Moreover, while previous works focused on the criteria for readiness for InnerSource adoption at an organizational level, there seems to be no concise and actionable guideline for InnerSource-readiness for individual projects.
+Moreover, while previous works focused on the criteria for readiness for InnerSource adoption at an organizational level, there seems to be no concise and actionable guideline for assessing the InnerSource-readiness for individual projects.
 
 ## Context
 
@@ -25,8 +25,6 @@ Moreover, while previous works focused on the criteria for readiness for InnerSo
 - Lack of knowledge about which projects stand to benefit the most from InnerSource development.
 - The team might think they are prepared for InnerSource, but might not have an idea about what challenges lie ahead and how prepared they actually are.
 - Unsure if the tools used by the project and the organizational processes are conducive to InnerSource style development.
-
-## Sketch (optional)
 
 ## Solutions
 
@@ -65,6 +63,10 @@ The two most important works in this context are by [Klaas-Jan Stol and Brian Fi
 In their work, _Stol and Fitzgerald_ presented a set of nine key factors that are important for organizations to consider when adopting inner source. However, that model looked at an organization as a whole, and while a number of organizational characteristics are applicable to an individual project, some aspects are not, and some project characteristics are unaccounted for in the model. They presented three main factors: Software Product, Practices and Tools, People and Management, and three sub-factors on each of them.
 
 _Silona Bonewald_, on the other hand, presented a near-exhaustive checklist about different aspects to consider while adopting InnerSource at an organization. However, not all of them are applicable while considering an individual project. Ideas from the two works described earlier are combined in framing the pattern presented here.
+
+## Demo
+
+A demo video showing the operation of the above-mentioned tool with a specific implementation of the proposed model is available [here](https://imgur.com/a/wO4EyJj).
 
 ## Known Instances
 
