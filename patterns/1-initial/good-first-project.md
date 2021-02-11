@@ -66,7 +66,9 @@ In their work, _Stol and Fitzgerald_ presented a set of nine key factors that ar
 
 _Silona Bonewald_, on the other hand, presented a near-exhaustive checklist about different aspects to consider while adopting InnerSource at an organization. However, not all of them are applicable while considering an individual project. Ideas from the two works described earlier are combined in framing the pattern presented here.
 
-## Known Instances (optional)
+## Known Instances
+
+TBD
 
 ## Status
 
