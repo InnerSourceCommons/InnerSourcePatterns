@@ -78,7 +78,7 @@ _Silona Bonewald_, on the other hand, presented a near-exhaustive checklist abou
 
 ## Acknowledgements
 
-Willem Jiang from Huawei for the feedback and Translation.
+Willem Jiang from Huawei for the feedback on the tool and translation to Chinese.
 
 ## Alias
 
