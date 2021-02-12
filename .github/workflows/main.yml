@@ -15,8 +15,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Link Checker
-      uses: lycheeverse/lychee-action@v1
       id: lc
+      uses: peter-evans/link-checker@v1
       with:
         args: -v -d . -x "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com|https://github.com/rcs/rcs-viewer/pull/81|fearlesschangepatterns.com" README.md patterns/ -r
     - name: Fail if there were link errors
