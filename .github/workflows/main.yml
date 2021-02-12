@@ -18,6 +18,6 @@ jobs:
       uses: lycheeverse/lychee-action@v1
       id: lc
       with:
-        args: -v -d . -x "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com|https://github.com/rcs/rcs-viewer/pull/81|fearlesschangepatterns.com" README.md patterns/ -r
+        args: -v -b . --exclude "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com|https://github.com/rcs/rcs-viewer/pull/81|fearlesschangepatterns.com" README.md patterns/**/*.md
     - name: Fail if there were link errors
       run: exit ${{ steps.lc.outputs.exit_code }}
