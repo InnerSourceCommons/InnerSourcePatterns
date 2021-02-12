@@ -147,8 +147,6 @@ This has been tried and proven successful at:
 - [Noah Cawley]
 - [Jeremy Hicks]
 
-## Variants
-
 [Russell Rutledge]: https://github.com/rrrutledge
 [Loren Sanz]: https://github.com/mrsanz
 [Jeremy Hicks]: https://github.com/greatestusername
