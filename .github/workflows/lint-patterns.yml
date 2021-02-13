@@ -1,0 +1,28 @@
+# from: https://github.com/marketplace/actions/markdown-linting-action
+name: Pattern Syntax Validation
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+    paths:
+      - ".github/workflows/lint-patterns.yml"
+      - "lint/*"
+      - "patterns/2-structured/*.md"
+      - "patterns/2-structured/project-setup/*.md"
+      - "patterns/3-validated/*.md"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Problem Matcher for markdownlint-cli
+      uses: xt0rted/markdownlint-problem-matcher@v1
+    - name: Lint pattern files (markdown)
+      uses: avto-dev/markdown-lint@v1
+      with:
+        rules: './lint/pattern-template.js'
+        config: './lint/pattern-template.yml'
+        args: 'patterns/2-structured/*.md patterns/2-structured/project-setup/*.md patterns/3-validated/*.md'
