@@ -23,15 +23,15 @@ Development does not want to spend the extra resources needed to develop modular
 * There is a learning curve to writing code that can be reused.
 * Extra documentation is required for reusable code.
 * Some companies have a common components group that develops reusable code, but others feel that such components should be developed by those business lines that are using the components and a library of common components could be established.
-* Developers might not know how to write modular code. Education might be needed.
+* Developers might not know how to write modular code.
 
 * Might be a fear that if not done properly, quality might be impacted.
-* Developers might not have incentive to write modular code (due to their tight schedules and lack of a mandate).
+* Developers might have no incentive to write modular code (due to their tight schedules and lack of a mandate).
+* If there is frequent turnover of team members, modularization may not be a priority.
 * You might be dealing with legacy systems (can't be simply refactored or rewritten).
 * Requirements might be different for writing modular code.
 * Architectural constraints might impact modularity.
 * Developers who develop monolithic code bases might lack the perspective of how modularity might improve how they work.
-* If there is frequent turnover of team members, modularization may not be a priority.
 * Level of communication between teams can impact ability/inclination to modularize.
 
 ## Solutions
