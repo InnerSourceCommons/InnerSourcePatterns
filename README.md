@@ -73,7 +73,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Assisted Compliance](patterns/1-initial/assisted_compliance.md) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
 * [Open Source Trumps InnerSource](patterns/1-initial/open-source-trumps-innersource.md) - *Developers disregard InnerSource projects because they consider open source projects to be superior. Introducing a required evaluation of InnerSource projects before choosing an open source project increases the likelihood of the InnerSource projects to be adopted.*
 * [Transparent Governance Levels](patterns/1-initial/governance-levels.md) - *There are projects in multiple stages of InnerSource adoption. Contributors get confused when working with projects that are at different stages.*
-* [Contained InnerSource](patterns/1-initial/contained-innersource.md) - *Apply InnerSource methods to facilitate collaboration in a cross divisional project but don't invest in soliciting contributions from outside of that project.*
+* [Contained InnerSource](patterns/1-initial/contained-innersource.md) - *Apply InnerSource methods to facilitate collaboration in a cross-divisional project but don't invest in soliciting contributions from outside of that project.*
 * [Good First Project](patterns/1-initial/good-first-project.md) - *An InnerSource program has been launched at an organization, and to get off to a successful start it requires some good first projects that lend themselves to InnerSource-style development. Assessing the InnerSource-readiness (fitness) of the candidate projects can help in selecting projects that have the potential to help demonstrate the power of InnerSource.*
 
 #### Donuts (needing a solution)
