@@ -72,6 +72,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Assisted Compliance](patterns/1-initial/assisted_compliance.md) - *Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request.*
 * [Open Source Trumps InnerSource](patterns/1-initial/open-source-trumps-innersource.md) - *Developers disregard InnerSource projects because they consider open source projects to be superior. Introducing a required evaluation of InnerSource projects before choosing an open source project increases the likelihood of the InnerSource projects to be adopted.*
 * [Transparent Governance Levels](patterns/1-initial/governance-levels.md) - *There are projects in multiple stages of InnerSource adoption. Contributors get confused when working with projects that are at different stages.*
+* [InnerSource Guidance Group](patterns/1-initial/innersource-guidance-group.md) - *A highly divergent set of development standards in different teams can slow down collaboration betweens these teams. A InnerSource Guidance Group that establishes broad governance and behavioral guidelines can help to reduce these frictions.*
 
 #### Donuts (needing a solution)
 
