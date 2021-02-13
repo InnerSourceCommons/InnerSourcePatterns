@@ -58,11 +58,11 @@ InnerSource helps in this process by its emphasis on a CI/CD workflow as well as
 
 ## Resulting Context
 
-**TBD**
+TBD
 
 ## Status
 
-Donut
+* Initial (Donut)
 
 ## Author(s)
 

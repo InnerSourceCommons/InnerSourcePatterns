@@ -51,8 +51,9 @@ The last 3 patterns above were mentioned to be "under construction" at the time 
 
 ## Status
 
-11 Oct 2016 - First draft
-13 Apr - Reviewed & Revised
+* Initial
+* 11 Oct 2016 - First draft
+* 13 Apr - Reviewed & Revised
 
 ## Author
 
