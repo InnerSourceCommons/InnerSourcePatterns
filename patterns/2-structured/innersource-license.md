@@ -68,11 +68,8 @@ It is worth mentioning that so far the software shared under this InnerSource li
 
 ## Status
 
-Proven
-
-The experiment listed under **Known Instances** is running since 02/2020.
-
-The initial experience shows first positive effects but more experience is needed to fully evaluate the pattern.
+* Structured
+* The experiment listed under **Known Instances** is running since 02/2020. The initial experience shows first positive effects but more experience is needed to fully evaluate the pattern.
 
 ## Author(s)
 

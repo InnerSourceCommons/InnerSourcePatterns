@@ -30,6 +30,6 @@ Developers feel empowered to spend at least 20% of their time on inner sourcing
 
 ## Status
 
-Donut
+* Initial (Donut)
 
 ## Author(s)

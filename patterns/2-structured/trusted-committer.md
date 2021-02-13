@@ -4,36 +4,29 @@ Trusted Committer
 
 ## Patlet
 
-Many inner-source projects will find themselves in a situation where
+Many InnerSource projects will find themselves in a situation where
 they consistently receive feedback, features, and bug-fixes from contributors.
 In these situations project maintainers seek ways to recognize and reward the
 work of the contributor above and beyond single contributions.
 
 ## Problem
 
-  - Project maintainers want to find ways to scale their ability to support a
-  project
-  - Project maintainers want to find ways to lengthen the value delivered by a
-  project
-  - Project maintainers want to visibly reward frequent contributors and
-  empower them to amplify their value contribution.
-  - Lack of language for recognizing contributions across teams within an
-  organization
+- Project maintainers want to find ways to scale their ability to support a project
+- Project maintainers want to find ways to lengthen the value delivered by a project
+- Project maintainers want to visibly reward frequent contributors and empower them to amplify their value contribution.
+- Lack of language for recognizing contributions across teams within an organization
 
 ## Context
 
-  - You are the maintainer of a cross-team library, service, or shared resource
-  - You receive regular contributions
-  - There are motivated contributors looking to build expertise through
-    inner-sourced projects
+- You are the maintainer of a cross-team library, service, or shared resource
+- You receive regular contributions
+- There are motivated contributors looking to build expertise through InnerSource projects
 
 ## Forces
 
-  - Over the lifecycle of a project the focus of the maintainers may shift away
-  to accommodate changing business priorities
-  - Contributors seek visible artifacts of their contributions demonstrating
-  value
-  - Maintaining a project of reasonable complexity is taxing for a small team
+- Over the lifecycle of a project the focus of the maintainers may shift away to accommodate changing business priorities
+- Contributors seek visible artifacts of their contributions demonstrating value
+- Maintaining a project of reasonable complexity is taxing for a small team
 
 ## Solution
 
@@ -47,15 +40,8 @@ members and outlines the role for future candidates.
 Below we've provided a few guidelines for what Trusted Committers can be
 invited to do:
 
-* If a candidate participates often in community channels (e.g. Slack, JIRA
-issue triaging, etc.) then becoming a Trusted Committer formalizes their role
-in community support.
-
-* A good candidate for a Trusted Committer, is someone who frequently submits
-code, documentation, or other repository changes.  Start by including this
-person on pull requests. If they are actively engaging in pull requests,
-consider approaching them about opportunities for further collaboration on the
-project.
+* If a candidate participates often in community channels (e.g. Slack, JIRA issue triaging, etc.) then becoming a Trusted Committer formalizes their role in community support.
+* A good candidate for a Trusted Committer, is someone who frequently submits code, documentation, or other repository changes.  Start by including this person on pull requests. If they are actively engaging in pull requests, consider approaching them about opportunities for further collaboration on the project.
 
 ### Formalizing Trusted Committers
 
@@ -140,13 +126,15 @@ there is a plan for responsible stewardship.
 
 ## Known Instances
 
-This has been tried and proven successful at Nike and PayPal.
+This has been tried and proven successful at:
+
+- Nike
+- PayPal
 
 ## Status
 
-Proven
-
-Published internally at Nike; drafted via pull-request in June of 2018.
+- Structured
+- Published internally at Nike; drafted via pull-request in June of 2018.
 
 ## Authors
 
@@ -159,11 +147,9 @@ Published internally at Nike; drafted via pull-request in June of 2018.
 - [Noah Cawley]
 - [Jeremy Hicks]
 
-## Variants
-
 [Russell Rutledge]: https://github.com/rrrutledge
 [Loren Sanz]: https://github.com/mrsanz
 [Jeremy Hicks]: https://github.com/greatestusername
 [Noah Cawley]: https://github.com/utanapishtim
-[praise]: /praise-participants.md
+[praise]: ./praise-participants.md
 [Fernando Freire]: https://github.com/dogonthehorizon

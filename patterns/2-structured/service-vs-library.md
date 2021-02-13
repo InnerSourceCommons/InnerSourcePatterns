@@ -1,7 +1,9 @@
 ## Title
-Service vs. library: It's inner source, not inner deployment
+
+Service vs. Library
 
 ## Patlet
+
 Teams in a DevOps environment may be reluctant to work across team boundaries on
 common code bases due to ambiguity over who will be responsible for
 responding to service downtime. The solution is to realize that often it's
@@ -79,7 +81,7 @@ Europace AG
 
 ## Status
 
-Proven
+* Structured
 
 ## Author(s)
 
@@ -88,3 +90,7 @@ Isabel Drost-Fromm
 ## Acknowledgements
 
 Thank you Tobias Gesellchen for review internal to Europace AG.
+
+## Alias
+
+Service vs. library: It's inner source, not inner deployment

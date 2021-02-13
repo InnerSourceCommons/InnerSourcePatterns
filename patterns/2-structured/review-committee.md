@@ -1,10 +1,10 @@
 ## Title
 
-_Review Committee_ (aka _Cheese Interface_)
+Review Committee
 
 ## Patlet
 
-_TBD_
+The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarise themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.
 
 ## Problem
 
@@ -40,15 +40,18 @@ Company A wants to introduce its first InnerSource initiative. Most managers in 
 
 ## Known Instances
 
-BIOS at Robert Bosch GmbH
+* BIOS at Robert Bosch GmbH
 
 ## Status
 
-Proven
-
-_Finalized and Reviewed_ as of 8/31/17.
+* Structured
+* _Finalized and Reviewed_ as of 8/31/17.
 
 ## Authors
 
 - Georg Grütter, Robert Bosch GmbH
 - Diogo Fregonese, Robert Bosch GmbH
+
+## Alias
+
+Cheese Interface
