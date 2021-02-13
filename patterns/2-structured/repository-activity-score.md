@@ -112,7 +112,6 @@ The repository activity score is a simple calculation based on the GitHub API. I
 ## Status
 
 * Structured
-* Old status: Proven
 
 ## Author(s)
 

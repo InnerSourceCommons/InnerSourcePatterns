@@ -77,7 +77,6 @@ This was tried and proven successful at PayPal.
 ## Status
 
 * Structured
-* Old status: Proven
 * Drafted at the 2017 Spring InnerSource Summit; reviewed 18 July 2017.
 
 ## Variants

@@ -4,7 +4,7 @@ Duplicated Projects
 
 ## Patlet
 
-Forthcoming ...
+TBD
 
 ## Problem
 
@@ -51,7 +51,3 @@ e.g. Splunk.
 ## Status
 
 * Initial
-
-## Author(s)
-
-## Acknowledgements
