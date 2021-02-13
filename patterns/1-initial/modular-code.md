@@ -4,11 +4,11 @@ Modular Code
 
 ## Patlet
 
-TBD
+The lack of modularization in the software architecture prevents reuseability, and with that the ability to reap the benefits of InnerSource. By helping the teams to understand the benefits of modularization, and making time to work towards that goal, more InnerSource collaboration can happen and the software architecture overall can be improved.
 
 ## Problem
 
-Development does not want to spend the extra resources needed to develop modular components. As a result, shared components are not reused.  
+Engineering does not want to spend the extra resources needed to develop modular components. This applies to managers and developers alike. As a result, shared components are not reused, which prevents the InnerSource culture from flourishing.
 
 ## Context
 
