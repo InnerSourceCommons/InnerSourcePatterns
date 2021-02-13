@@ -44,7 +44,7 @@ Development does not want to spend the extra resources needed to develop modular
     - Modular code makes Agile implementation easier.
     - Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
 * Select certain "success projects," teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
-* Offer education. Modular code is well-understood; there is a lot of literature in favor of this. 
+* Offer education. Modular code is well-understood; there is a lot of literature in favor of this.
 * Acknowledge and drive acceptance for the cost of modularization. Build time into the release schedule for this.
 * Companies moving to use more open source code will appreciate modularity more over time.
 * Mitigate risk and fear of quality degradation from accepting InnerSource contributions.
@@ -58,14 +58,15 @@ Development does not want to spend the extra resources needed to develop modular
 **Pattern Idea**: Time is spent making the shared code modular so it can be reused.  
 
 ## Known Instances
-Elements of the resolution have been proven by various companies.
 
+Elements of the resolution have been proven by various companies.
 
 ## Status
 
 Initial
 
 ## Author  
-Tim Yao, Nokia
-Erin Bank, CA Technologies
-Keerthi Surapaneni
+
+* Tim Yao, Nokia
+* Erin Bank, CA Technologies
+* Keerthi Surapaneni
