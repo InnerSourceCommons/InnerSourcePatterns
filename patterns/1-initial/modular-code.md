@@ -65,7 +65,7 @@ Elements of the resolution have been proven by various companies.
 
 Initial
 
-## Author  
+## Authors  
 
 * Tim Yao, Nokia
 * Erin Bank, CA Technologies
