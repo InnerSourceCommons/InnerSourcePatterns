@@ -44,8 +44,8 @@ Patterns of level 1 are stored in the directory [/patterns/1-initial](../pattern
 
 - Content requirements:
   - Complies with the format described in the [Pattern  Template](pattern-template.md) - validated in parts by [Check: Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Pattern+Syntax+Validation%22)
-  - Complies with *basic style guide*(#) - *Oops! We have not yet developed this*
-  - The title of the pattern is concise and chosen based on either the problem or the solution outlined in the pattern. The file name is the same as the title. For further details follow the *basic style guide*(#) - *Oops! We have not yet developed this*
+  - Complies with *basic style guide* - *Oops! We have not yet developed this*
+  - The title of the pattern is concise and chosen based on either the problem or the solution outlined in the pattern. The file name is the same as the title. For further details follow the *basic style guide* - *Oops! We have not yet developed this*
   - The pattern references other patterns of this level or higher where appropriate (including links to the pattern)
   - Links from the pattern to outside resources are working and are referencing a trusted resource - validated in parts by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Link+Check+on+Patterns+and+README%22)
 
