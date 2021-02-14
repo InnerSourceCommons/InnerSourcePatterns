@@ -8,12 +8,12 @@ If you want to contribute a new pattern, the workflow is support by these import
 There are multiple ways to start a discussion:
 
 * Send a Pull Request for your branch and the maintainers will receive a notification.
-* Create an [Issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) and ask for comments from some of the maintainers. You can mention them using the '@' symbol prior to their github nickname.
+* Create an [Issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) and ask for comments from some of the [Trusted Committers](../TRUSTED-COMMITTERS.md). You can mention them using the '@' symbol prior to their GitHub username.
 * Add reviewers to the Pull Request on the website - this sends requests to review your work
 
-New patterns should use, as their base, the [pattern template file](pattern-template.md).
+New patterns should use the [pattern template file](pattern-template.md) as their starting point.
 
-Please, when starting a new pattern, make sure that it does not already exist. Take a look at some of the [existing patterns in this repository](/README.md#list-of-patterns).
+When starting a new pattern, make sure that it does not already exist. Take a look at the [existing patterns in this repository](/README.md#list-of-patterns).
 
 ## Overview of steps
 
