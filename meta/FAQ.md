@@ -18,3 +18,4 @@ This is a list of frequently asked questions about InnerSource Patterns.
 ## I'd like to consult with the InnerSource Patterns community; do I need to have participating members sign NDAs?
 
 * The vast majority of InnerSource Patterns meetings and all conversations in the InnerSource Commons [Slack](https://isc-inviter.herokuapp.com/) are held under the [Chatham House Rule](https://www.chathamhouse.org/chatham-house-rule) that should provide sufficient protection to enable a productive discussion.
+* To answer the question directly: No, you don't have to get NDAs signed :)
