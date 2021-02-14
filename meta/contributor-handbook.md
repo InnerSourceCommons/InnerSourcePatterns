@@ -39,7 +39,7 @@ Patterns of level 1 are stored in the directory [/patterns/1-initial](../pattern
 ### Requirements: Level 2 - Structured
 
 - Validation requirements:
-  - Is validated by at least one known instance
+  - Is validated by at least 1 (one) known instance
     - Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
 
 - Content requirements:
@@ -55,10 +55,8 @@ Patterns of level 1 are stored in the directory [/patterns/1-initial](../pattern
 
 ### Requirements: Level 3 - Validated
 
-Patterns of level 3 are stored in the directory [/patterns/3-validated](../patterns/3-validated/).
-
 - Validation requirements:
-  - Is validated by at least three known instances
+  - Is validated by at least 3 (three) known instances
   - Considers all known instances to the best knowledge of the working group
   - Community agreement (via lazy consensus of trusted committers) on correctness of contents
 
