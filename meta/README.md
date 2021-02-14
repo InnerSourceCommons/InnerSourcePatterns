@@ -2,8 +2,8 @@
 
 The topics below cover information about how we define, operate, and upkeep this collection of patterns.
 
-* [Contributing](../CONTRIBUTING.md) - How to interact with our group, create your own patterns, or take part in our review-process; Github / Web centric instructions
-  * [Alternate Command-line steps](./technical-git-howto.md) - If you want to contribute a pattern using `git` from the command-line, this is your document
+* [Contributing](../CONTRIBUTING.md) - How to interact with our group, create your own patterns, or take part in our review-process; GitHub / Web centric instructions
+  * [Alternate Command-line steps](./technical-git-howto.md) - Contribute a pattern using `git` from the command-line
 * [Contributor Handbook](./contributor-handbook.md) - Lays out a basic guideline of how to write and contribute a new pattern, including the 3 maturity levels for patterns.
 * [Pattern Template](./pattern-template.md) - Start a new pattern with a copy of this
 * [FAQ](./FAQ.md) - Frequently asked questions about InnerSource Patterns
