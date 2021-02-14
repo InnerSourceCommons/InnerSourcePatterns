@@ -7,9 +7,9 @@ If you want to contribute a new pattern, the workflow is support by these import
 
 There are multiple ways to start a discussion:
 
-* Send a Pull Request for your branch and the maintainers will receive a notification.
+* Fork the repo, create a branch, and then send a Pull Request for your branch. The maintainers will receive a notification about this automatically.
 * Create an [Issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) and ask for comments from some of the [Trusted Committers](../TRUSTED-COMMITTERS.md). You can mention them using the '@' symbol prior to their GitHub username.
-* Add reviewers to the Pull Request on the website - this sends requests to review your work
+* Add reviewers to your Pull Request in GitHub - this sends requests to review your work
 
 New patterns should use the [pattern template file](pattern-template.md) as their starting point.
 
@@ -23,10 +23,14 @@ The basic steps below can be thought of as *branch*, *commit*, *pull request*, a
 
 ## How do you create a branch?
 
-First you need to create a branch (no need to ask for permission!). For this, let's clone the repository:
+First you need to create a branch (no need to ask for permission!).
+
+For this, [create a fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) of this repository.
+
+Then create a [local clone of your fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#step-2-create-a-local-clone-of-your-fork).
 
 ```
-$ git clone https://github.com/InnerSourceCommons/InnerSourcePatterns.git
+$ git clone https://github.com/YOUR-USERNAME/InnerSourcePatterns.git
 ```
 
 Then you should see a message similar to the following one:
