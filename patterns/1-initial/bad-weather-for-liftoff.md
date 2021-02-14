@@ -25,22 +25,24 @@ TBD
 - There is a natural tendency to pick low hanging fruits (e. g. tooling) and stop there.
 - For InnerSource to blossom, a critical mass of experienced developers which can walk the talk is required.
 
-## Sketch (optional)
-
 ## Solution
 
 TBD
 
 ## Resulting Context
 
-## Rationale (optional)
+TBD
 
-## Known Instances (optional)
+## Known Instances
+
+TBD
 
 ## Status
 
-Donut
+* Initial (Donut)
 
 ## Author(s)  
 
-* Georg Grütter, Wyane DuPont, Michael Dorner
+* Georg Grütter
+* Wyane DuPont
+* Michael Dorner

@@ -32,6 +32,4 @@ All of the company heartily adopts inner sourcing! Cake for everyone!
 
 ## Status
 
-Donut
-
-## Author(s)  
+* Initial (Donut)
