@@ -8,7 +8,7 @@ You may still find broken links, spelling mistakes, or other errors in this book
 Please help us to fix them to produce the best book possible :). Learn how to [contribute to this book](../book/contribute-to-this-book.md).
 {% endhint %}
 
-Welcome to the **InnerSource Patterns book**.
+Welcome to the **InnerSource Patterns Book**.
 
 This book contains InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context. We call this format a **pattern**.
 
@@ -26,7 +26,7 @@ We define InnerSource as:
 
 InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release.
 
-For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.
+For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage and scale internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.
 
 ## What are InnerSource Patterns?
 
