@@ -37,7 +37,7 @@ Potential contributors have clear guidance available and process to follow so th
 
 ## Known Instances
 
-Philips Healthcare, “Feature Advocate” described in: VK Gurbani et al. (2010) Managing a corporate open source software asset, Communications of the ACM vol. 53(2)
+Philips Healthcare, “Feature Advocate” described in: VK Gurbani et al. (2010) Managing a corporate open-source software asset, Communications of the ACM vol. 53(2)
 
 ## See Also
 

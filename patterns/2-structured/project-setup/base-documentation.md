@@ -80,7 +80,7 @@ topics:
 ![Brief picture of README.md and CONTRIBUTING.md content](./assets/base_docs_drawing.png)
 
 There are many of good examples for how to write a `README.md` and what kind
-of information to include in a `CONTRIBUTING.md` file in various open source projects.
+of information to include in a `CONTRIBUTING.md` file in various open-source projects.
 Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a),
 [Open Source Guide from GitHub](https://opensource.guide/) as well as
 the book [Producing Open Source](https://producingoss.com/en/producingoss.html)

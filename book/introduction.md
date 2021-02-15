@@ -22,11 +22,11 @@ If you are using InnerSource in your company already and want to contribute your
 
 We define InnerSource as:
 
-> The use of open source principles and practices for software development within the confines of an organisation.
+> The use of open-source principles and practices for software development within the confines of an organisation.
 
-InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release.
+InnerSource takes the lessons learned from developing open-source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world-class open-source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release.
 
-For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage and scale internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open source world.
+For companies building mostly closed source software, InnerSource can be a great tool to help break down silos, encourage and scale internal collaboration, accelerate new engineer on-boarding, and identify opportunities to contribute software back to the open-source world.
 
 ## What are InnerSource Patterns?
 
