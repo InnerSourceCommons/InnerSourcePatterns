@@ -105,7 +105,7 @@ started right away: [README-template.md](templates/README-template.md) and
 
 ## Known Instances
 
-* Europace AG
+* Europace AG - See blog post [InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
 * Paypal Inc.
 
 ## Authors
