@@ -49,7 +49,7 @@ development but also during the planning phase of new features:
 
 ## Known Instances
 
-* Europace AG - See blog post [Issue Use Cases](https://tech.europace.de/post/using-issues-for-asking-questions-and-tracking-work/) 
+* Europace AG - See blog post [Issue Use Cases](https://tech.europace.de/post/using-issues-for-asking-questions-and-tracking-work/)
 
 ## Authors
 
