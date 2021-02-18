@@ -3,8 +3,7 @@
 <img src="./innersource-patterns-book-cover.jpg" title="InnerSource Patterns">
 
 {% hint style="info" %}
-This is an early release of the InnerSource Patterns book.
-You may still find broken links, spelling mistakes, or other errors in this book.
+You are reading an early release of the InnerSource Patterns book, and may still find broken links, spelling mistakes, or other errors in this book.
 Please help us to fix them to produce the best book possible :). Learn how to [contribute to this book](../book/contribute-to-this-book.md).
 {% endhint %}
 
@@ -12,11 +11,11 @@ Welcome to the **InnerSource Patterns Book**.
 
 This book contains InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context. We call this format a **pattern**.
 
-These patterns have been collected by the [InnerSource Commons](http://innersourcecommons.org) community over many years. The most mature patterns have been published in this book. Mature in this context means that each pattern has been reviewed by members of the community, and has at least one known instance where this pattern has been used.
+The [InnerSource Commons](http://innersourcecommons.org) has collected these patterns over many years, publishing the most mature patterns in this book, where members of the community reviews each pattern, with at least one known instance of pattern use.
 
 In this introduction we explain [what InnerSource is](#what-is-innersource), [what a pattern is](#what-are-innersource-patterns), and [how to use these patterns](#how-can-you-use-innersource-patterns) in your organization.
 
-If you are using InnerSource in your company already and want to contribute your experiences to this book we would love to [welcome your contributions](../book/contribute-to-this-book.md)!
+If you are using InnerSource in your company already and want to contribute your experiences to this book, we would love to [welcome your contributions](../book/contribute-to-this-book.md)!
 
 ## What is InnerSource?
 
@@ -30,7 +29,7 @@ For companies building mostly closed source software, InnerSource can be a great
 
 ## What are InnerSource Patterns?
 
-Patterns are a way of describing a repeatable, proven solution to a problem within a context. They follow a simple form that helps people wanting to implement the solution to understand the constraints on the problem, the forces that must be balanced and the resulting context - the situation created by applying the solution.
+Patterns are a way of describing a repeatable, proven solution to a problem within a context. Patterns follow a simple form that assists you during implementation of a solution to understand the constraints of the problem, understand the forces you need to balance, and the resulting context - the situation created by applying the solution.
 
 In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
@@ -41,9 +40,9 @@ In inner sourcing, patterns can provide a way for the InnerSource Commons partic
 
 ## How can you use InnerSource Patterns?
 
-Patterns must be used in a thoughtful manner. They cannot be blindly applied. In most cases, you will need to adapt the given solution to your own situation; but the information given in the pattern, defining the context (immovable constraints) and forces (constraints that can be changed and balanced against each other), should help you do this. Note that you will also need to determine if there are additional constraints (company context and company forces) that apply to your particular company/organization that must be added to the pattern (as a kind of filter). These additional constraints may require additional solution steps to be applied.
+Patterns must be used thoughtfully. They cannot be indiscriminately applied. In most cases, you will need to adapt the given solution to your situation; but the information given in the pattern, defining the context (immovable constraints) and forces (constraints that can be changed and balanced against each other), should help you do this. Note that you will also need to determine if there are additional constraints (company context and company forces) that apply to your particular company/organization that must be added to the pattern (as a kind of filter). These additional constraints may require additional solution steps to be applied.
 
-The pattern form is useful for describing proven solutions but it can also be used for *brainstorming new solutions* where patterns are not yet established. This is, because the anatomy of a pattern provides a frame for thinking about a problem in a structured manner. You could also create a *donut pattern* (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
+The pattern form is useful for describing proven solutions but it can also be used for *brainstorming new solutions* where patterns are not yet established. This is because the anatomy of a pattern provides a framework for thinking about a problem in a structured manner. You could also create a *donut pattern* (filling in the problem, context, forces, and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
 
 ## How to Contribute?
 
