@@ -37,7 +37,7 @@ work of the contributor above and beyond single contributions.
 
 What a Trusted Committer handles is up to each project and its maintainers. Ensure you document within the project the scope of your Trusted Committer role. Clear documentation sets expectations for new community members and establishes the role for future candidates.
 
-The following are a few guidelines for identifying potential a Trusted Committer:
+The following are a few guidelines for identifying a potential Trusted Committer:
 
 * An active participant in community channels (e.g., Slack, JIRA issue triaging, etc.) becomes a Trusted Committer, thereby formalizing their role in community support.
 * Someone who frequently submits code, documentation, or other repository changes.  Start by including this person on pull requests. If they are actively engaging in pull requests, consider approaching them about opportunities for further collaboration on the project.
@@ -45,11 +45,10 @@ The following are a few guidelines for identifying potential a Trusted Committer
 ### Formalizing Trusted Committers
 
 The first step is to approach candidates about becoming a Trusted Committer.
-Maintainers should make sure candidates understand the role. To be clear:
-there is no expectation that candidates will accept the role. Each candidate
-should figure out if they have the bandwidth to get involved.
+Maintainers should educate candidates on the role of a Trusted Committer. There is no expectation that candidates will accept the role of Trusted Committer. Each candidate
+should assess if they have the available bandwidth to take on the responsibilities.
 
-When a candidate accepts the role it is up to the project maintainers to
+When a candidate accepts the role, it is up to the project maintainers to
 publicly recognize the transition from user to Trusted Committer. It is also a
 good idea to add their name to a Trusted Committers section in your project's
 README.  As an example:
@@ -74,50 +73,49 @@ README.  As an example:
 
 ### Maintaining Trusted Committer Relationships
 
-When a new Trusted Committer is minted it’s a good idea to keep them in the
-loop as you continue to iterate on your project. This can be as simple as
-inviting them to your project channel or as involved as including them in your
+Once you formalize a new Trusted Committer, it is a good idea to keep them in the
+loop as you continue to iterate on your project. Keeping them in the loop can be as
+simple as inviting them to your project channel or as involved as including them in your
 planning sessions. More opportunities for involvement gives Trusted Committers
 a path to Maintainer if they so desire.
 
-Besides keeping Trusted Committers informed it’s a good idea to check in on a
-regular basis. A good cadence is every week, but as the Trusted Committer
-settles in this can drop to every few weeks or so. The purpose of these
-check-ins is to make sure the Trusted Committer feels supported in their new
-role, like a 1:1 with your manager. If things aren’t going well, listen and
-try to understand what is preventing the Trusted Committer from being successful.
-If things are going well, [thank the Trusted Committer for their continued
-effort][praise] in making the project successful and set a new date to check-in.
+Besides keeping Trusted Committers informed, it is good to check in on a
+regular basis. A suggested cadence is to start with every week before gradually
+progressing to every few weeks. The purpose of these check-ins is to make sure the
+Trusted Committer feels supported in their new role. Analogous to a 1:1 with your
+manager, if there are any issues, listen and empathize to try and understand
+what is preventing the Trusted Committer from being successful. Always
+[thank the Trusted Committer for their continued effort][praise] in making the project successful and set a new date to check-in.
 
 ### Sunsetting a Trusted Committer
 
-There comes a time when removal of a Trusted Committer is necessary, for
-example:
+There are times which necessitate removing a Trusted Committer, such as if the Trusted
+Committer:
 
 * No longer willing to take part
 * No longer able to perform their duties
 * No longer employed by the company
 
-In each of the above cases a plan for removing access to project resources
-should be agreed upon by both parties. This includes transitioning their entry in
-a project's **Trusted Committer** section to a list of past contributors.
+A plan for removing access to project resources should be agreed upon by both parties,
+including transitioning their entry in a project's **Trusted Committer** section to a
+list of past contributors.
 
-After access is removed it is courteous to [thank the Trusted Committer for
-their participation in a public way][praise]. This ensures clear communication
-and continuity within the community.
+Upon removing access, [thank the Trusted Committer for
+their participation publicly][praise]. Public acknowledgment ensures clear
+communication of transition and continuity within the community.
 
 ## Resulting Context
 
 ### For Contributors
 
-Achieving Trusted Committer status for a project is a sign that the contributor
-has demonstrated an improvement to a community project. Recognition for these
+Achieving Trusted Committer status for a project demonstrates initiative in
+contributing to the community project. Recognition for these
 efforts can be used during annual reviews with managers.
 
 ### For Maintainers
 
 As a project matures, maintainers can become less familiar with key aspects
-of a project.  Trusted Committers fill in these gaps.  This ensures that all
+of a project. Trusted Committers fill in these gaps, ensuring that all
 aspects of the project are better served over time.
 
 A healthy set of Trusted Committers ensures that if project maintainers move on
@@ -145,7 +143,9 @@ This has been tried and proven successful at:
 - [Loren Sanz]
 - [Noah Cawley]
 - [Jeremy Hicks]
+- [Doron Katz]
 
+[Doron Katz]: https://github.com/doronkatz
 [Russell Rutledge]: https://github.com/rrrutledge
 [Loren Sanz]: https://github.com/mrsanz
 [Jeremy Hicks]: https://github.com/greatestusername
