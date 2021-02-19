@@ -11,7 +11,7 @@ Welcome to the **InnerSource Patterns Book**.
 
 This book contains InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and apply them in your context. We call this format a **pattern**.
 
-The [InnerSource Commons](http://innersourcecommons.org) has collected these patterns over many years, publishing the most mature patterns in this book, where members of the community reviews each pattern, with at least one known instance of pattern use.
+The [InnerSource Commons](http://innersourcecommons.org) has collected these patterns over many years, publishing the most mature patterns in this book, where members of the community review each pattern, with at least one known instance of pattern use.
 
 In this introduction we explain [what InnerSource is](#what-is-innersource), [what a pattern is](#what-are-innersource-patterns), and [how to use these patterns](#how-can-you-use-innersource-patterns) in your organization.
 
