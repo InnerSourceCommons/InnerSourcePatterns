@@ -31,7 +31,7 @@ For companies building mostly closed source software, InnerSource can be a great
 
 Patterns are a way of describing a repeatable, proven solution to a problem within a context. Patterns follow a simple form that assists you during implementation of a solution to understand the constraints of the problem, understand the forces you need to balance, and the resulting context - the situation created by applying the solution.
 
-In inner sourcing, patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of inner sourcing. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
+Patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of InnerSource. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
 * [`What are patterns?` Youtube videos](http://bit.ly/innersource_patterns_videos) - Watch a set of 2-5 min youtube videos explaining InnerSource Patterns
 * [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU) - We held a webinar 2017-03-16 to live-discuss a donut pattern (go to 24:30 for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](http://www.oreilly.com/pub/e/3884).
