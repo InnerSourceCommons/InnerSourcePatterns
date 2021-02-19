@@ -6,7 +6,7 @@ Trusted Committer
 
 Many InnerSource projects will find themselves in a situation where
 they consistently receive feedback, features, and bug-fixes from contributors.
-In these situations project maintainers seek ways to recognize and reward the
+In these situations, project maintainers seek ways to recognize and reward the
 work of the contributor above and beyond single contributions.
 
 ## Problem
@@ -24,7 +24,7 @@ work of the contributor above and beyond single contributions.
 
 ## Forces
 
-- Over the lifecycle of a project the focus of the maintainers may shift away to accommodate changing business priorities
+- Over the lifecycle of a project, the focus of the maintainers may shift away to accommodate changing business priorities
 - Contributors seek visible artifacts of their contributions demonstrating value
 - Maintaining a project of reasonable complexity is taxing for a small team
 
@@ -32,16 +32,12 @@ work of the contributor above and beyond single contributions.
 
 ### Defining the Trusted Committer Role for a Project
 
-What a Trusted Committer handles is up to each project and its maintainers.
-Whatever shape your Trusted Committer role takes, make sure it's clearly
-documented somewhere in your project. This sets expectations for new community
-members and outlines the role for future candidates.
+What a Trusted Committer handles is up to each project and its maintainers. Ensure you document within the project the scope of your Trusted Committer role. Clear documentation sets expectations for new community members and establishes the role for future candidates.
 
-Below we've provided a few guidelines for what Trusted Committers can be
-invited to do:
+The following are a few guidelines for identifying potential a Trusted Committer:
 
-* If a candidate participates often in community channels (e.g. Slack, JIRA issue triaging, etc.) then becoming a Trusted Committer formalizes their role in community support.
-* A good candidate for a Trusted Committer, is someone who frequently submits code, documentation, or other repository changes.  Start by including this person on pull requests. If they are actively engaging in pull requests, consider approaching them about opportunities for further collaboration on the project.
+* An active participant in community channels (e.g., Slack, JIRA issue triaging, etc.) becomes a Trusted Committer, thereby formalizing their role in community support.
+* Someone who frequently submits code, documentation, or other repository changes.  Start by including this person on pull requests. If they are actively engaging in pull requests, consider approaching them about opportunities for further collaboration on the project.
 
 ### Formalizing Trusted Committers
 
