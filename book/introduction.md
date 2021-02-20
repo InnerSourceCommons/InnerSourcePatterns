@@ -3,7 +3,7 @@
 <img src="./innersource-patterns-book-cover.jpg" title="InnerSource Patterns">
 
 {% hint style="info" %}
-You are reading an early release of the InnerSource Patterns book, and may still find broken links, spelling mistakes, or other errors in this book.
+You are reading an early release of the InnerSource Patterns book and may still find broken links, spelling mistakes, or other errors in this book.
 Please help us to fix them to produce the best book possible :). Learn how to [contribute to this book](../book/contribute-to-this-book.md).
 {% endhint %}
 
@@ -21,7 +21,7 @@ If you are using InnerSource in your company already and want to contribute your
 
 We define InnerSource as:
 
-> The use of open source principles and practices for software development within the confines of an organisation.
+> The use of open source principles and practices for software development within the confines of an organization.
 
 InnerSource takes the lessons learned from developing open source software and applies them to the way companies develop software internally. As developers have become accustomed to working on world-class open source software, there is a strong desire to bring those practices back inside the firewall and apply them to software that companies may be reluctant to release.
 
@@ -29,9 +29,9 @@ For companies building mostly closed source software, InnerSource can be a great
 
 ## What are InnerSource Patterns?
 
-Patterns are a way of describing a repeatable, proven solution to a problem within a context. Patterns follow a simple form that assists you during implementation of a solution to understand the constraints of the problem, understand the forces you need to balance, and the resulting context - the situation created by applying the solution.
+Patterns are a way of describing a repeatable, proven solution to a problem within a context. Patterns follow a simple form that assists you during the implementation of a solution to understand the constraints of the problem, understand the forces you need to balance, and the resulting context - the situation created by applying the solution.
 
-Patterns can provide a way for the InnerSource Commons participants to concisely share information with each other, improving the practice of InnerSource. Each of the patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
+Patterns can provide a way for the InnerSource Commons participants to concisely share information, improving the practice of InnerSource. Patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
 * [`What are patterns?` Youtube videos](http://bit.ly/innersource_patterns_videos) - Watch a set of 2-5 min youtube videos explaining InnerSource Patterns
 * [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU) - We held a webinar 2017-03-16 to live-discuss a donut pattern (go to 24:30 for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](http://www.oreilly.com/pub/e/3884).
@@ -45,6 +45,7 @@ Patterns must be used thoughtfully. They cannot be indiscriminately applied. In 
 The pattern form is useful for describing proven solutions but it can also be used for *brainstorming new solutions* where patterns are not yet established. This is because the anatomy of a pattern provides a framework for thinking about a problem in a structured manner. You could also create a *donut pattern* (filling in the problem, context, forces, and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
 
 The pattern form is useful for describing proven solutions but it can also be used for *brainstorming new solutions* where patterns are not yet established. This is because the anatomy of a pattern provides a framework for thinking about a problem in a structured manner. You could also create a *donut pattern* (filling in the problem, context, forces, and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
+
 ## How to Contribute?
 
 Please refer to: [Contribute to this book](./contribute-to-this-book.md)
@@ -53,7 +54,7 @@ Please refer to: [Contribute to this book](./contribute-to-this-book.md)
 
 This book is the result of many years of work from countless [Open Source Contributors](https://github.com/InnerSourceCommons/InnerSourcePatterns/graphs/contributors) from around the world. Their willingness to openly share the challenges that they faced in their companies, and how InnerSource has helped them address those challenges, make this book such a valuable resource for others on their InnerSource journey.
 
-We want to specifically mention the InnerSource Patterns Working Group. They have nurtured the quality of the InnerSource Patterns and helped others to contribute. Lastly they also compiled a selection of available patterns into this book.
+We want to specifically mention the InnerSource Patterns Working Group. They have nurtured the quality of the InnerSource Patterns and helped others to contribute. Lastly, they also compiled a selection of available patterns into this book.
 
 The title image of this book was created by [Sebastian Spier](https://spier.hu) and adapted from an image by [Tony Hisgett - Alhambra 6](https://www.flickr.com/photos/hisgett/29345405788/), available under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
 
