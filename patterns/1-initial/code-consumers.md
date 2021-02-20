@@ -18,7 +18,7 @@ There's several reasons why we might want to know who's using (consuming) our co
 
 # Context
 
-This is a general issue that affects potentially all InnerSource (and open-source!) projects.
+This is a general issue that affects potentially all InnerSource (and open source!) projects.
 The act of opening code allows people to use it without letting you know.
 
 # Forces

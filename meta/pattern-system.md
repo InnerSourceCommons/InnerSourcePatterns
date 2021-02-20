@@ -144,7 +144,7 @@ InnerSource programs can be structured to accomplish different goals: e.g.,
 * C: Culture
 
 Each of these programs have some unique characteristics. E.g., sometimes in
-Product Development, the open-source characteristic of voluntariness has to be
+Product Development, the open source characteristic of voluntariness has to be
 sacrificed to ensure that sufficient development resources are dedicated to
 meet customer commitments and schedules. Similarly, there might be a need to
 limit code visibility/transparency for certain very proprietary products while

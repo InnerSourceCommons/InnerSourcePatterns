@@ -2,9 +2,9 @@
 
 You want to help us make this book better? That is awesome!
 
-The InnerSource Patterns book itself is an open-source project, and welcomes any form of contribution. Nothing is too small!
+The InnerSource Patterns book itself is an open source project, and welcomes any form of contribution. Nothing is too small!
 
-If you have never made a contribution to an open-source project before, know that the InnerSource Patterns community is group of friendly people and with that a safe place to try it out :)
+If you have never made a contribution to an open source project before, know that the InnerSource Patterns community is group of friendly people and with that a safe place to try it out :)
 
 ## Before you get started
 

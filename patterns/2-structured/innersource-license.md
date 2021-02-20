@@ -51,7 +51,7 @@ The license simplifies the conversations within our organization about sharing s
 
 ## Known Instances
 
-DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open-source-like starting point, and then worked out the constraints and additional rules required in their specific organizational context.
+DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open source-like starting point, and then worked out the constraints and additional rules required in their specific organizational context.
 
 The first legal entities (companies) within the DB AG are using their InnerSource License.
 
@@ -87,5 +87,5 @@ It is worth mentioning that so far the software shared under this InnerSource li
 - **organization** - An umbrella for multiple legal entities. (synonyms: group, enterprise) (e.g. Lufthansa)
 - **legal entity** - An entity that has its own legal rights and obligations (synonyms: company, subsidiary) (e.g. Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)
 
-[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
+[db-inner-source-license]: https://github.com/dbsystel/open source-policies/blob/master/DB-Inner-Source-License.md
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12

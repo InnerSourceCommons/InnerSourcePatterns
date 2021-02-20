@@ -67,7 +67,7 @@ The InnerSource program does not live up to its expectations because middle mana
         - the problem comes with feature requests or affects design (going beyond bug fixes)
     - Developing platforms is an ideal InnerSource use case (hackathon to build applications on top)
     - SW Architects have to have an InnerSource mentality and work together.
-        - newer companies with open-source developers have that mindset
+        - newer companies with open source developers have that mindset
 
 * Empowering Middle Management - InnerSource readiness checklist; Middle Management should partner with their developers. What are the opportunities out there. Can we come up with justification for you to spend any time on this (how does this tie together with our KPIs)
 

@@ -4,11 +4,11 @@ Open Source trumps InnerSource
 
 ## Patlet
 
-Developers disregard InnerSource projects because they consider open-source projects to be superior. Introducing a required evaluation of InnerSource projects before choosing an open-source project increases the likelihood of the InnerSource projects to be adopted.
+Developers disregard InnerSource projects because they consider open source projects to be superior. Introducing a required evaluation of InnerSource projects before choosing an open source project increases the likelihood of the InnerSource projects to be adopted.
 
 ## Problem
 
-People find the InnerSource project but, even if the InnerSource component meets their needs better than the respective open-source component, they choose the open-source component over the InnerSource component.
+People find the InnerSource project but, even if the InnerSource component meets their needs better than the respective open source component, they choose the open source component over the InnerSource component.
 
 ## Context
 
@@ -19,13 +19,13 @@ People find the InnerSource project but, even if the InnerSource component meets
 
 ## Forces
 
-* There is a perception that the open-source components are of higher quality and more reusable than the InnerSource components. This is caused by the common belief that open-source always means many more developers and users and therefore higher quality. This is sometimes the case in open-source but not always!
-* The channels to get needed changes done are more established with open-source (GitHub) than with internal components (GitHub Enterprise, Bitbucket, GitLab, Gerrit - possibly multiple installations in one company).
-* Open source should be voluntary; mandating people to use internally developed software goes against open-source principles.
+* There is a perception that the open source components are of higher quality and more reusable than the InnerSource components. This is caused by the common belief that open source always means many more developers and users and therefore higher quality. This is sometimes the case in open source but not always!
+* The channels to get needed changes done are more established with open source (GitHub) than with internal components (GitHub Enterprise, Bitbucket, GitLab, Gerrit - possibly multiple installations in one company).
+* Open source should be voluntary; mandating people to use internally developed software goes against open source principles.
 * Internally developed components are potentially more suitable for corporate use if they are designed with that in mind.
-* Using corporate licensed InnerSource components instead of using open-source components with strong copyleft license avoids having to disclose IP
+* Using corporate licensed InnerSource components instead of using open source components with strong copyleft license avoids having to disclose IP
 * It can be hard to find relevant projects in GitHub (especially if names are cryptic and keywords aren't used). See [Poor Naming Conventions](https://github.com/paypal/InnerSourcePatterns/pull/59).
-* The consistent use of internally developed components potentially reduces the diversity of the internal software landscape compared to a situation where every business line chooses their own, favourite open-source component.
+* The consistent use of internally developed components potentially reduces the diversity of the internal software landscape compared to a situation where every business line chooses their own, favourite open source component.
 
 ## Sketch
 
@@ -35,14 +35,14 @@ People find the InnerSource project but, even if the InnerSource component meets
 
 ## Solutions
 
-* Corporate governance mandates that internally developed components are to be evaluated before open-source component are selected.
+* Corporate governance mandates that internally developed components are to be evaluated before open source component are selected.
 * Make it easier to find relevant InnerSource components (see [InnerSource Portal](../2-structured/innersource-portal.md)).
-* Assign maintainers to make sure proper open-source processes are being followed within the leading repos.
+* Assign maintainers to make sure proper open source processes are being followed within the leading repos.
 * Increase the attractiveness of InnerSource components by providing “value add” services for them, such as automated CI/CD services, IaaS/PaaS, NPM organization/server linkages, ChatOps, etc.
 
 ## Resulting Context
 
-* Developers select the best component regardless of whether it is open-source or internally developed (InnerSource). They do so with full knowledge of the InnerSource component, its capabilities, and reasons why it is recommended.
+* Developers select the best component regardless of whether it is open source or internally developed (InnerSource). They do so with full knowledge of the InnerSource component, its capabilities, and reasons why it is recommended.
 * By doing so, InnerSource components end up being more widely and consistently used within the company.
 
 ## Known Instances
