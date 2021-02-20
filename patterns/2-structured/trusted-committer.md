@@ -39,7 +39,7 @@ What a Trusted Committer handles is up to each project and its maintainers. Ensu
 
 The following are a few guidelines for identifying a potential Trusted Committer:
 
-* An active participant in community channels (e.g., Slack, JIRA issue triaging, etc.) becomes a Trusted Committer, thereby formalizing their role in community support.
+* An active participant in community channels (Slack, JIRA issue triaging, etc.) becomes a Trusted Committer, thereby formalizing their role in community support.
 * Someone who frequently submits code, documentation, or other repository changes.  Start by including this person on pull requests. If they are actively engaging in pull requests, consider approaching them about opportunities for further collaboration on the project.
 
 ### Formalizing Trusted Committers
