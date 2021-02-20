@@ -14,7 +14,7 @@ work of the contributor above and beyond single contributions.
 - Project maintainers want to find ways to scale their ability to support a project
 - Project maintainers want to find ways to lengthen the value delivered by a project
 - Project maintainers want to visibly reward frequent contributors and empower them to amplify their value contribution.
-- Lack of mechanism for recognizing contributions across teams within an organization
+- Lack of mechanism and language for recognizing contributions across teams within an organization
 
 ## Context
 
