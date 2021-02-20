@@ -87,5 +87,5 @@ It is worth mentioning that so far the software shared under this InnerSource li
 - **organization** - An umbrella for multiple legal entities. (synonyms: group, enterprise) (e.g. Lufthansa)
 - **legal entity** - An entity that has its own legal rights and obligations (synonyms: company, subsidiary) (e.g. Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)
 
-[db-inner-source-license]: https://github.com/dbsystel/open source-policies/blob/master/DB-Inner-Source-License.md
+[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
