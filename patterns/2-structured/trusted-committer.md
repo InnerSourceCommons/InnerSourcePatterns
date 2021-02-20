@@ -90,7 +90,7 @@ what is preventing the Trusted Committer from being successful. Always
 ### Sunsetting a Trusted Committer
 
 There are times which necessitate removing a Trusted Committer, such as if the Trusted
-Committer:
+Committer is:
 
 * No longer willing to take part
 * No longer able to perform their duties
