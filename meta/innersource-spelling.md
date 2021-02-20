@@ -12,7 +12,7 @@ We favor the spelling **InnerSource**, for the following reasons:
 
 1. That’s the way Tim O’Reilly [spelled it in 2000][opengl_1200] (he was into Perl and camel-case was a thing). Also see the [Foreword of the Adopting InnerSource book][foreword_AdoptingInnerSource] for more of Tim O’Reilly's own words on the topic.
 2. If you set up side-by-side Google searches for “Inner Source” and “InnerSource” you will find that you get more hits on the former term, by only 1% of them have anything to do with what we call InnerSource. The latter term will be 100% cogent to your inquiry.
-3. The OSI was [denied trademark on the term “open source”][no-open source-trademark] because it was made up of two common and unrelated terms. “InnerSource” on the other hand is a new word.
+3. The OSI was [denied trademark on the term “open source”][no-open-source-trademark] because it was made up of two common and unrelated terms. “InnerSource” on the other hand is a new word.
 
 ## But the spelling isn't even consistent in the InnerSource Patterns repo!
 
