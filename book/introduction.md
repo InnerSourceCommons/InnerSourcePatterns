@@ -3,7 +3,7 @@
 <img src="./innersource-patterns-book-cover.jpg" title="InnerSource Patterns">
 
 {% hint style="info" %}
-You are reading an early release of the InnerSource Patterns book and may still find broken links, spelling mistakes, or other errors in this book.
+You are reading an early release of the InnerSource Patterns book and may still find broken links, spelling mistakes, or other errors.
 Please help us to fix them to produce the best book possible :). Learn how to [contribute to this book](../book/contribute-to-this-book.md).
 {% endhint %}
 
