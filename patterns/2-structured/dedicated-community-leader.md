@@ -1,6 +1,6 @@
 ## Title
 
-Dedicated Community Manager
+Dedicated Community Leader
 
 ## Patlet
 
@@ -8,7 +8,7 @@ Select people with both communications and technical skills to lead the communit
 
 ## Problem
 
-How do you ensure that a new InnerSource initiative has the right [community manager](http://www.artofcommunityonline.org/) to grow it's impact?
+How do you ensure that a new InnerSource initiative has the right [community leader](http://www.artofcommunityonline.org/) to grow it's impact?
 
 Selecting the wrong persons and/or not providing enough capacity for them risks wasted effort and ultimately the failure of a new InnerSource initiative.
 
@@ -30,7 +30,7 @@ If a company does not significantly invest in the initial InnerSource community 
 
 The value contribution of InnerSource projects will not be obvious for many managers which are steeped in traditional project management methods. Those managers are less likely to assign one of their top people, who are usually in high demand by non InnerSource-projects, to an InnerSource project for a significant percentage of their work time.
 
-Communication takes up a significant percentage of a community managers daily work. At the same time, he or she will likely also have to spearhead the initial development, too. In the face of limited capacity, inexperienced leaders will tend to focus on development and neglect communication. The barrier for potential contributors to make their first contribution and to commit to the community will be much higher if the community leader is hard to reach or is slow to respond to feedback and questions for lack of time. Furthermore, technically inexperienced leaders will most likely have a harder time to attract and retain highly experienced contributors than a top performer with a high degree of visibility within a company would have.
+Communication takes up a significant percentage of a community leader's daily work. At the same time, he or she will likely also have to spearhead the initial development, too. In the face of limited capacity, inexperienced leaders will tend to focus on development and neglect communication. The barrier for potential contributors to make their first contribution and to commit to the community will be much higher if the community leader is hard to reach or is slow to respond to feedback and questions for lack of time. Furthermore, technically inexperienced leaders will most likely have a harder time to attract and retain highly experienced contributors than a top performer with a high degree of visibility within a company would have.
 
 If a community can not grow fast enough and pick up enough speed, chances are they won't be able to convincingly demonstrate the potential of InnerSource.
 
@@ -62,7 +62,7 @@ _BIOS at Robert Bosch GmbH_. Note that InnerSource at Bosch was, for the majorit
 
 ## Alias
 
-Dedicated Community Leader
+Dedicated Community Manager
 
 ## Status
 
