@@ -18,7 +18,7 @@ This runs the risk of top level management abandoning the InnerSource idea.
 ## Context
 
 A large corporation has started an InnerSource initiative. Major goals for the
-initiative are to increase the efficiency of distributed software develoment
+initiative are to increase the efficiency of distributed software development
 and to foster innovation by allowing every associate to voluntarily
 contribute to InnerSource projects, regardless of topic and business unit.
 
@@ -29,8 +29,7 @@ capacity for community leaders and are largely giving autonomy as for how the
 budget is spent. They are also limiting the breadth and duration of the
 initiative and partake in periodic reviews until there is proof that it yields
 the expected results (see [Review Committee](review-committee.md)).  Top level
-management has announced their support for InnerSource on various company
-internal meetings.
+management has announced their support for InnerSource on various company-internal meetings.
 
 However, top level management has not yet empowered or incentivised mid-level
 managers to allow or even motivate their employees to participate in
@@ -49,7 +48,7 @@ hours, not during free time.
 - The less transparency and control a line manager has of work done by one of her subordinates, the less likely is she to allow her to contribute.
 - The less formally work in InnerSource is managed and organised, the less likely a line manager who is accustomed to formal processes is to sign off on one of her employees contributing to InnerSource.
 - The more time an associate spends on contributions to an InnerSource project which does not benefit his day-to-day work, the more will the workload for his teammates in his business unit increase.
-- Individual contributors will likely consider participating in InnerSource as an opportunity to enhance their professional network within the company and to gain knowledege and experience in the technical area of her contributions.
+- Individual contributors will likely consider participating in InnerSource as an opportunity to enhance their professional network within the company and to gain knowledge and experience in the technical area of her contributions.
 
 ## Solution
 
@@ -59,7 +58,7 @@ ISGO reimburse business units who contracted contributors for the contracted
 time.
 
 - The contracting specifies a maximum percentage of the associates work time in InnerSource.
-- The contracting clearly states that work in the contributor's business unit takes precendence over work in InnerSource.
+- The contracting clearly states that work in the contributor's business unit takes precedence over work in InnerSource.
 - The contracting states that it is not required to work in InnerSource for the maximum percentage specified in the contract.
 - The contracting is signed by the contributor, the contributor's line manager, the governance office and the [Dedicated Community Leader](dedicated-community-leader.md) of the community the contributor will be contributing to.
 - The governance office offers to mediate between the contributor and her line manager in case of conflict regarding the time for contributions.
@@ -80,7 +79,7 @@ empowering middle management to sign off on it:
 A formal contracting is also beneficial for contributors and communities:
 
 - With a stable group of contributors, it is more likely that some of them will eventually achieve [Trusted Committer](./trusted-committer.md) status.
-- A formal contracting provides a basis for resolving conflict related to participation in InnerSource activities. Note that mediation will likely be successful only for a few companies with a culture condusive to that.
+- A formal contracting provides a basis for resolving conflict related to participation in InnerSource activities. Note that mediation will likely be successful only for a few companies with a culture conducive to that.
 
 ## Known Instances
 
