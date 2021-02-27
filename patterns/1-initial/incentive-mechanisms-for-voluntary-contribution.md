@@ -30,7 +30,7 @@ InnerSource project.
 
 As a result, the total number of contributors remained restricted to the core team and the
 project cannot build a community of developers. Furthermore, contributions mostly originated
-in the same business unit the [Dedicated Community Leader](../2-structured/dedicated-community-leader.md) 
+in the same business unit the [Dedicated Community Leader](../2-structured/dedicated-community-leader.md)
 belonged to. Innovation did not happen in the expected scale. Top management is no longer
 convinced that InnerSource yields the expected benefits and abandons the initiative altogether.
 
