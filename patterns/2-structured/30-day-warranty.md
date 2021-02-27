@@ -12,9 +12,9 @@ A team develops a component which is used throughout an organization.  This team
 
 ## Context
 
-Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team. The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component.
-
-- TBD: link to pattern "setting clear expectations for contributing code"
+- Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team.
+- The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component.
+- The receiving team has not [set clear expectations](./project-setup/base-documentation.md) (e.g. via a `CONTRIBUTING.md`) under which circumstances it will accept contributed code.
 
 ## Forces
 
