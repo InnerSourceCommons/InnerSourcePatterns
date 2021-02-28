@@ -6,10 +6,7 @@ The files in the `./book` folder contain generator scripts and some extra conten
 
 ## Where is the book published?
 
-The most up-to-date version of the book is available for readers/consumers at [innersourcecommons.gitbook.io/innersource-patterns/][book_production].
-
-*NOTE:*
-The final URL of the book has not been determined yet.
+The most up-to-date version of the book is available for readers/consumers at [patterns.innersourcecommons.org][book_production].
 
 We also have a [Staging version][book_staging], used by the editors/producers of the book for testing purposes.
 
@@ -40,5 +37,5 @@ We think there are a couple of good reasons to publish the InnerSource patterns 
 * (producers) learn which patterns are most interesting for readers (e.g. through Google Analytics)
 
 [InnerSourcePatterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns
-[book_production]: https://innersourcecommons.gitbook.io/innersource-patterns/
+[book_production]: https://patterns.innersourcecommons.org
 [book_staging]: https://innersourcecommons.gitbook.io/innersource-patterns-staging/v/book/
