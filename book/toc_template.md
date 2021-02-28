@@ -14,7 +14,7 @@ Instead edit toc_template.md
 
 <img src="./innersource-program-mind-map.png" title="InnerSource Patterns as a Mind Map">
 
-## Patterns
+## Patterns <a id="p"></a>
 
 <<PATTERS_HERE>>
 
