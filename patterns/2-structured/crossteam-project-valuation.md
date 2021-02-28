@@ -97,7 +97,7 @@ They will provide a head-and-shoulders improvement in on-the-ground results over
 ## Status
 
 * Structured
-* Old status: Proven in multiple domains.
+* Proven in multiple domains.
 
 ## Authors
 
