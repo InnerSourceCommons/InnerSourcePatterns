@@ -1,4 +1,4 @@
-# [InnerSource Program](https://innersourcecommons.gitbook.io/innersource-patterns/v/book/toc)
+# [InnerSource Program](https://patterns.innersourcecommons.org/toc)
 
 ## Begin
 
