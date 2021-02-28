@@ -21,7 +21,7 @@ The `./book` folder contains generator scripts and some extra content required t
 - `/book/generate_toc.rb` - Takes patterns of maturity **Structured** and **Validated**, extracts title and patlet, and injects this info into `/book/toc_template.md`. The output is written to `/book/toc.md`.
 - `.github/workflows/book.yml` - A GitHub Action that triggers the execution of `/book/generate_toc.rb`.
 - `/book/introduction.md` - The introduction to our book. This content is what the reader sees first when they open the book. The current content is based on [README.md](../README.md). We may need to modify this content even further, to address the readers of the book more specifically, rather than the readers of our GitHub repository.
-- `/book/contribute-to-this-book.md` - Information about how to contribute to this book.
+- `/book/contribute.md` - Information about how to contribute to this book.
 
 ## Objectives of the book
 

@@ -4,7 +4,7 @@
 
 {% hint style="info" %}
 You are reading an early release of the InnerSource Patterns book and may still find broken links, spelling mistakes, or other errors.
-Please help us to fix them to produce the best book possible :). Learn how to [contribute to this book](../book/contribute-to-this-book.md).
+Please help us to fix them to produce the best book possible :). Learn how to [contribute to this book](../book/contribute.md).
 {% endhint %}
 
 Welcome to the **InnerSource Patterns Book**.
@@ -15,7 +15,7 @@ The [InnerSource Commons](http://innersourcecommons.org) has collected these pat
 
 In this introduction we explain [what InnerSource is](#what-is-innersource), [what a pattern is](#what-are-innersource-patterns), and [how to use these patterns](#how-can-you-use-innersource-patterns) in your organization.
 
-If you are using InnerSource in your company already and want to contribute your experiences to this book, we would love to [welcome your contributions](../book/contribute-to-this-book.md)!
+If you are using InnerSource in your company already and want to contribute your experiences to this book, we would love to [welcome your contributions](../book/contribute.md)!
 
 ## What is InnerSource?
 
@@ -48,7 +48,7 @@ The pattern form is useful for describing proven solutions but it can also be us
 
 ## How to Contribute?
 
-Please refer to: [Contribute to this book](./contribute-to-this-book.md)
+Please refer to: [Contribute to this book](./contribute.md)
 
 ## Credits
 
