@@ -13,8 +13,7 @@ A team develops a component which is used throughout an organization.  This team
 ## Context
 
 - Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team.
-- The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component.
-- The receiving team has not [set clear expectations](./project-setup/base-documentation.md) (e.g. via a `CONTRIBUTING.md`) under which circumstances it will accept contributed code.
+- The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component/feature themselves.
 
 ## Forces
 
@@ -31,11 +30,11 @@ A team develops a component which is used throughout an organization.  This team
 
 ## Solution
 
-Address the fears of both the receiving and the contributing teams by establishing a 30 day period starting with the time the contributed code goes into production, during which the contributing team consents to provide bug fixes to the receiving team.
-
-Provide clear contribution guidelines spelling out the expectations of the receiving team and the contributing team.
+Address the fears of both the receiving and the contributing teams by establishing a **30 day warranty period** starting with the time the contributed code goes into production. During this warranty period the contributing team consents to provide bug fixes to the receiving team.
 
 Note that the warranty period could be 45, 60, or 100 days too. The duration may vary based upon the constraints of the project, the software life cycle of the project, commitments to customers, and other factors.
+
+In addition it helps to provide clear [contribution guidelines](./project-setup/base-documentation.md), spelling out the expectations of the receiving team and the contributing team.
 
 <img alt="30 Day Warranty" src="/assets/img/thirtydaywarranty.jpg" width="70%">
 
