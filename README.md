@@ -53,7 +53,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 ### Maturity Level 1: Initial
 
 * [Modular Code](patterns/1-initial/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
-* [Improve Findability](patterns/1-initial/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding inner source solutions and a reduction in code reuse.*
+* [Improve Findability](patterns/1-initial/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding InnerSource solutions and a reduction in code reuse.*
 * [Overcoming Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
 * [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
 * [Shared Code Repo Different from Build Repo](patterns/1-initial/shared-code-repo-different-from-build-repo.md) - *Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.*
