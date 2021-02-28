@@ -73,7 +73,7 @@ the implementation.
 
 ## See also
 
-Related to this pattern is the [Thirty day warranty](30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
+Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
 
 ## Known Instances
 
