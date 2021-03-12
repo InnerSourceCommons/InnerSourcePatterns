@@ -1,16 +1,19 @@
 # Command-line git steps for creating a new Pattern
 
-If you want to contribute a new pattern, the workflow is done through Branches and Pull Requests (PR's). You can see the available branches on [the branches URL](https://github.com/InnerSourceCommons/InnerSourcePatterns/branches/all) and existing PR's on the [Pull Request page](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls). Branches are meant to separate content, so that multiple people can work all at once. Pull Requests (PR's) are used to bring discussion/review about a specific inner source pattern.
+If you want to contribute a new pattern, the workflow is support by these important concepts:
 
-There are indeed multiple ways to start a discussion:
+* [Branches](https://github.com/InnerSourceCommons/InnerSourcePatterns/branches/all) are meant to separate content, so that multiple people can work all at once.
+* [Pull Requests](https://github.com/InnerSourceCommons/InnerSourcePatterns/pulls) (PR's) are used for discussion/review of a specific InnerSource pattern.
 
-* Send a Pull Request for your branch and the maintainers will receive a notification.
-* Create an Issue and ask for comments from some of the maintainers. You can mention them using the '@' symbol prior to their github nickname.
-* Add reviewers to the Pull Request on the website - this sends requests to review your work
+There are multiple ways to start a discussion:
 
-New patterns should use, as their base, the [pattern template file](pattern-template.md).
+* Fork the repo, create a branch, and then send a Pull Request for your branch. The maintainers will receive a notification about this automatically.
+* Create an [Issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) and ask for comments from some of the [Trusted Committers](../TRUSTED-COMMITTERS.md). You can mention them using the '@' symbol prior to their GitHub username.
+* Add reviewers to your Pull Request in GitHub - this sends requests to review your work
 
-Please, when starting a new pattern, make sure that it does not already exist. Take a look at some of the [existing patterns in this repository](/README.md#reviewed-patterns-proven-and-reviewed).
+New patterns should use the [pattern template file](pattern-template.md) as their starting point.
+
+When starting a new pattern, make sure that it does not already exist. Take a look at the [existing patterns in this repository](/README.md#list-of-patterns).
 
 ## Overview of steps
 
@@ -20,10 +23,14 @@ The basic steps below can be thought of as *branch*, *commit*, *pull request*, a
 
 ## How do you create a branch?
 
-First you need to create a branch (no need to ask for permission!). For this, let's clone the repository:
+First you need to create a branch (no need to ask for permission!).
+
+For this, [create a fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) of this repository.
+
+Then create a [local clone of your fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#step-2-create-a-local-clone-of-your-fork).
 
 ```
-$ git clone https://github.com/InnerSourceCommons/InnerSourcePatterns.git
+$ git clone https://github.com/YOUR-USERNAME/InnerSourcePatterns.git
 ```
 
 Then you should see a message similar to the following one:
@@ -86,17 +93,17 @@ $ git checkout -b pattern/ewoks-do-not-hunt
 $ touch patterns/1-initial/ewoks-do-not-hunt.md
 ```
 
-You can fill your [markdown](markdown-info.md) file with the [pattern template text](pattern-template.md) and begin to fill it in with your pattern.
+We then fill our [markdown](markdown-info.md) file with the [pattern template text](pattern-template.md) and start to write our pattern.
 
 Once our pattern file is ready to go, we need to add the file to the repo and
 commit that change to our new branch.
 
 ```
 $ git add patterns/1-initial/ewoks-do-not-hunt.md
-$ git commit -m "Inner Source Pattern to deal with Ewoks that do not hunt"
+$ git commit -m "InnerSource Pattern to deal with Ewoks that do not hunt"
 ```
 
-And we should finally upload that branch and file to the server.
+And finally we upload that branch and file to the server.
 
 ```
 $ git push origin pattern/ewoks-do-not-hunt

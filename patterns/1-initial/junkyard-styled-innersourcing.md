@@ -3,12 +3,16 @@
 * Junkyard styled inner sourcing
 * Finding but deciding not to use the internal component
 
+## Patlet
+
+TBD
+
 ## Context
 
 Two situations:
 
 * SW component not designed for reuse because the schedule was too tight and did not allow for the extra effort needed
-* Did not have the knowledge or training to create components that can b reused.
+* Did not have the knowledge or training to create components that can be reused.
 
 ## Problem
 
@@ -31,11 +35,11 @@ Two situations:
 
 ## Status
 
-Brainstormed pattern idea in progress
+* Initial (brainstormed solution)
 
 ## Authors
 
-* Georg Grutter
+* Georg Gruetter
 * Erin Bank
 * Padma Sudarsan
 * Tim Yao

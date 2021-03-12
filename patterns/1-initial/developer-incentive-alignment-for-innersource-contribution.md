@@ -8,7 +8,7 @@ TBD
 
 ## Problem
 
-* The organization needs to adopt a more collaborative, open-source like workstyle, but its developers are not properly incentivized or extrinsically motivated to participate in the company’s InnerSource processes.
+* The organization needs to adopt a more collaborative, open source like workstyle, but its developers are not properly incentivized or extrinsically motivated to participate in the company’s InnerSource processes.
 * There is a prevailing attitude in the developer culture that helping or contributing to others' success and learning is a “time sink” or "not my job."
 * Credit and kudos are not consistently shared with developers who help or contribute to others' success.
 * Prevailing developer culture is such that many believe the way up the organizational ladder - via increases in title or compensation - depends on one’s performance on quantitative metrics such as lines of code output, deadlines met, ownership of product releases or updates, and so forth.  
@@ -66,15 +66,13 @@ TBD
 * devs take on professional mentorship responsibilities for their peers rather than leaving it to non-technical management
 * career progression clearly identified & understood by engs and management
 
-## Rationale (optional)  
+## Known Instances
 
-## Known Instances (optional)  
+TBD
 
 ## Status  
 
-Unproven
-
-Old status: brainstormed solution
+* Initial (brainstormed solution)
 
 ## Author
 

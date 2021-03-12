@@ -4,7 +4,7 @@ Repo for Shared Code Different from Repo the Product Org Uses in its Build
 
 ## Patlet
 
-TBD
+Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.
 
 ## Problem
 
@@ -26,8 +26,10 @@ Continuous integration, not only to with testing but also in production (aligns 
 
 Ideally, overhead is minimized or eliminated. Or integrate the shared code repository in the production build.  
 
+## Known Instances
+
+TBD
+
 ## Status
 
-Unproven
-
-## Author  
+Initial

@@ -11,16 +11,16 @@ Instead edit toc_template.md
 # Table of Contents
 
 * [Table of Contents](../book/toc.md)
+* [Contribute to this book](../book/contribute.md)
 
 <img src="./innersource-program-mind-map.png" title="InnerSource Patterns as a Mind Map">
 
-## Patterns
+## Patterns <a id="p"></a>
 
 <<PATTERS_HERE>>
 
 ## Appendix
 
-* [Contribute to this book](../book/contribute-to-this-book.md)
 * [Pattern Template](../meta/pattern-template.md)
 * Extras
   * [README Template](../patterns/2-structured/project-setup/templates/README-template.md)

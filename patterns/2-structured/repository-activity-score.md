@@ -4,7 +4,7 @@ Repository Activity Score
 
 ## Patlet
 
-Potential contributors want to find active InnerSource projects in need of their help. By calculating a repository activity score for each project, a ranked list of projects can be created (e.g. on the [InnerSource portal](innersource-portal.md)), so that potential contributors can more easily determine which project they want to contribute to.
+Potential contributors want to find active InnerSource projects in need of their help. By calculating a repository activity score for each project, a ranked list of projects can be created (e.g. on the [InnerSource Portal](innersource-portal.md)), so that potential contributors can more easily determine which project they want to contribute to.
 
 ## Problem
 
@@ -112,7 +112,6 @@ The repository activity score is a simple calculation based on the GitHub API. I
 ## Status
 
 * Structured
-* Old status: Proven
 
 ## Author(s)
 

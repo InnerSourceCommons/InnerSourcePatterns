@@ -56,7 +56,7 @@ Consider a third party that is seen as a neutral player to produce such metrics.
 
 Have specific training on the topic of metrics and good practices to use them. An example is to have a methodology to follow metrics such as the Goal-Question-Metric approach or the Objectives-KeyResults one. On the other hand, try to reflect the short-term and medium-term goals in the metrics to be used.
 
-Metrics when published or discussed should be done so in the aggregate without refering to specific people.
+Metrics when published or discussed should be done so in the aggregate without referring to specific people.
 
 Produce a characterization of metrics as this might be helpful for others to understand and follow.
 
@@ -70,15 +70,17 @@ Note: The aforementioned metrics are some common examples. They aren't a one-siz
 
 The organization builds a monitoring and reporting infrastructure for the metrics that flow directly from its business goals.
 
-Those metrics will provide visibility into the current situation of the project to the C-level executives. By comparing the metric measurements before applying inner source and to the metric measurements after applying the inner source initiative, it is possible to guage the effectiveness of the inner source initiave.
+Those metrics will provide visibility into the current situation of the project to the C-level executives. By comparing the metric measurements before applying InnerSource and to the metric measurements after applying the InnerSource initiative, it is possible to gauge the effectiveness of the InnerSource initiative.
 
 Continued monitoring of these metrics will help middle management and developers understand how the initiative evolves and will help them with their daily work.
 
 ## Known Instances
 
-## State
+TBD
 
-Unproven
+## Status
+
+Initial
 
 ## Authors
 

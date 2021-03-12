@@ -39,11 +39,11 @@ The following are potential solutions that have been proposed to this problem:
 
 # Resulting Context
 
-_needs work..?_
+TBD
 
 # Known Instances
 
-_needs work...?_
+TBD
 
 # Authors
 
@@ -53,4 +53,5 @@ _needs work...?_
 
 # Status
 
-Drafted at the 2019 Spring InnerSource Commons Summit in Galway - 10 April 2019
+* Initial
+* Drafted at the 2019 Spring InnerSource Commons Summit in Galway - 10 April 2019

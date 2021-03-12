@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "master"
+      - "book-staging"
 
 jobs:
   book-toc-generation:

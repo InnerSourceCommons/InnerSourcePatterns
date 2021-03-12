@@ -51,7 +51,7 @@ The license simplifies the conversations within our organization about sharing s
 
 ## Known Instances
 
-DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open-source-like starting point, and then worked out the constraints and additional rules required in their specific organizational context.
+DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open source like starting point, and then worked out the constraints and additional rules required in their specific organizational context.
 
 The first legal entities (companies) within the DB AG are using their InnerSource License.
 
@@ -69,7 +69,6 @@ It is worth mentioning that so far the software shared under this InnerSource li
 ## Status
 
 * Structured
-* Old status: Proven
 * The experiment listed under **Known Instances** is running since 02/2020. The initial experience shows first positive effects but more experience is needed to fully evaluate the pattern.
 
 ## Author(s)
