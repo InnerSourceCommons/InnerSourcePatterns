@@ -6,7 +6,7 @@ Communication Tooling
 
 An InnerSource project is being used outside the original development team but
 users are having trouble getting help and getting in touch with the project
-team. The idea is to setup and document standard communication tooling that
+team. The idea is to set up and document standard communication tooling that
 allows for discussions to become visible, archived and searchable.
 
 Test
@@ -20,7 +20,7 @@ to that component. Even when it happens in writing, communication happens in a
 ## Problem
 
 A team is open to receiving contributions from downstream users of their
-component. Coordination and communication happens in an ad-hoc fashion though
+component. Coordination and communication happens in an ad-hoc fashion through
 leading to incoherent information being shared, delays in answers received,
 contributors pinging multiple host team members before receiving a definitive
 answer.
@@ -41,9 +41,9 @@ The goal when streamlining communication channels for InnerSource projects
 should be to align communication around topics, not around certain sets of
 people:
 
-- The project should have it's own issue tracker where structured communication, decision making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow.
-- The project should have one or more discussion channels that come with less rigid a structure. Typically this will be mailing lists, online forums or even archived chat channels. Usually it is enough to start with just one channel for the project, if traffic increases too much it's helpful to split discussions around project usage from discussions around project development.
-- In addition the project should have one private channel where sensitive communication can happen between [Trusted Committers](../trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
+- The project should have its own issue tracker where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow.
+- The project should have one or more discussion channels that come with less rigid a structure. Typically, this will be mailing lists, online forums or even archived chat channels. Usually it is enough to start with just one channel for the project, if traffic increases too much it's helpful to split discussions about project usage from discussions about project development.
+- In addition, the project should have one private channel where sensitive communication can happen between [Trusted Committers](../trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
 
 While communication can happen outside of written channels, as much information
 as possible should be brought back to the asynchronous channels.
@@ -71,9 +71,9 @@ different schedules - either due to different time zones or due to different
 routines, meeting schedules, team routines - to meaningfully contribute to
 the project.
 
-Answering questions in those channels means that not only other team members
+Answering questions in those channels' means that not only other team members
 can listen in and provide additional information, it also means that other
-users with the same question see (or later on find) the previous answer leading
+users with the same question see (or later find) the previous answer leading
 to a lower need to repeat explanations.
 
 ## Known Instances
