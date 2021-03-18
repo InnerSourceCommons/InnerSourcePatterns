@@ -5,17 +5,17 @@ Maturity Model
 ## Patlet
 
 Teams have started adopting InnerSource. The practice is spreading to multiple
-departments. Understanding of what constitutes an InnerSource project are wide
-spread though. The solution is to provide a maturity model to allow for teams to
-go through a self check and discover patterns and practices that they are not
-yet aware of.
+departments. However, the understanding of what constitutes an InnerSource 
+project is not widespread. The solution is to provide a maturity model to allow 
+for teams to go through a self check and discover patterns and practices that 
+they are not yet aware of.
 
 ## Problem
 
 When InnerSource adoption in an enterprise starts to increase, individual
-mentoring of each project through one evangelist becomes unfeasible. Also more
+mentoring of each project through one evangelist becomes unfeasible. Also, more
 and more people are gaining at least a basic understanding of what it means to
-work in an InnerSource project. Looking at all InnerSource projects though the
+work in an InnerSource project. Looking at all InnerSource projects through the
 depth of understanding for the concept will diverge. Teams may not be aware of
 proven patterns that would help them move to the next level and solve issues and
 pain points that they are dealing with.

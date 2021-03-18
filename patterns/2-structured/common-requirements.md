@@ -44,7 +44,7 @@ This might require negotiating requirements changes with the customer.  The chan
 A related pattern (to be written) is a circular story-writing exercise reported at one company employing Inner Sourcing.  
 The developers write a story to solve a problem in one way.  
 
-The program managers rewrite the story to better express their needs---keeping the essence the same. By the time it returns to developers though they don't recognize it as what they wanted to do in the first place and so balk at implementing it.  The solution to this pattern is to have more seats around the planning table so that story modifications are understood across the project not just in the developer or program manager camps.
+The program managers rewrite the story to better express their needs---keeping the essence the same. By the time it returns to developers through they don't recognize it as what they wanted to do in the first place and so balk at implementing it.  The solution to this pattern is to have more seats around the planning table so that story modifications are understood across the project not just in the developer or program manager camps.
 
 ## Known Instances
 
