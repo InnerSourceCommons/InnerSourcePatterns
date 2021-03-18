@@ -32,7 +32,7 @@ the expected results (see [Review Committee](review-committee.md)).  Top level
 management has announced their support for InnerSource on various company
 internal meetings.
 
-However, top-level management has not yet empowered or incentivised mid-level
+However, top-level management has not yet empowered or incentivized mid-level
 managers to allow or even motivate their employees to participate in
 cross-divisional InnerSource activities. In addition to that, the capacity of
 every associate is usually allocated to non InnerSource projects for 100 % of
