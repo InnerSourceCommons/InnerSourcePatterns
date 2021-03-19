@@ -1,6 +1,6 @@
 ## Title
 
-Source Code Inventory
+Enterprise level source code inventory to drive business value and catalyze InnerSource
 
 ## Patlet
 
