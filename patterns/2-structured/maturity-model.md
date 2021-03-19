@@ -15,7 +15,7 @@ yet aware of.
 When InnerSource adoption in an enterprise starts to increase, individual
 mentoring of each project through one evangelist becomes unfeasible. Also, more
 and more people are gaining at least a basic understanding of what it means to
-work in an InnerSource project. Looking at all InnerSource projects through the
+work in an InnerSource project. Looking at all InnerSource projects though the
 depth of understanding for the concept will diverge. Teams may not be aware of
 proven patterns that would help them move to the next level and solve issues and
 pain points that they are dealing with.
