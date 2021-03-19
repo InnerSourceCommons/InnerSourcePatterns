@@ -36,8 +36,7 @@ development but also during the planning phase of new features:
 - For bugs, planned features and feature ideas create separate issues. In each of those include as much information as possible so that potential external contributors are able to understand the context. Ideally, in particular for easier changes, include enough information for external contributors to support the host team by implementing the functionality in question.
 - Potentially use the issue tracker as a channel to ask questions. This is in particular helpful if you are lacking other communication sources to tackle user questions.
 - Make use of tags and categories in order to distinguish issues used for different purposes.
-- For starting a brain storming session asynchronously, open an issue for gathering ideas. When discussion is starting to calm down, summarize the points identified in this issue in a separate document. Post that for review as a pull request to drill deeper into individual points that still need clarification. The resulting document can be used to publish the results in other appropriate channels
-as well as for future reference.
+- For starting a brainstorming session asynchronously, open an issue for gathering ideas. When discussion is starting to calm down, summarize the points identified in this issue in a separate document. Post that for review as a pull request to drill deeper into individual points that still need clarification. The resulting document can be used to publish the results in other appropriate channels as well as for future reference.
 - Most issue tracker implementations allow for issue templates. Make use of those not only to collect commonly needed information for bug reports but also include hints about what kind of information is needed for the other usage types.
 
 ## Resulting Context
