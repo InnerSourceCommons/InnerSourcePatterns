@@ -23,7 +23,7 @@ communication easier.
 
 ## Forces
 
-- Contributors would like to understand whether the feature that they are missing is already on the roadmap. With a lot of context missing in issues through it is impossible to decide whether existing issues match the contributing team's needs.
+- Contributors would like to understand whether the feature that they are missing is already on the roadmap. With a lot of context missing in issues though it is impossible to decide whether existing issues match the contributing team's needs.
 - As a result a lot of duplicate issues are being opened that the host team has to deal with.
 - As context in open issues is so limited contributors are unable to help the host team by implementing some easier issues that are open already. As a result a lot of work remains in the hands of the host team.
 - With a strong focus on verbal communication it is impossible to discern after a couple months or years why a certain feature was being chosen for implementation. As a result refactorings, in particular simplifying the component becomes an exercise in project archaeology and brain picking of people who remember what was discussed.
