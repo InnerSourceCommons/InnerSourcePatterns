@@ -18,7 +18,6 @@ The software they are working on has been evolving for a long time. Engineers wo
 
 One component is in widespread use but ownership is unclear.
 
-
 # Forces
 
 Ownership of one component is unclear.
@@ -26,7 +25,6 @@ Ownership of one component is unclear.
 There are too many teams dependent on the component to pull everyone into one single meeting to discuss ownership.
 
 There may be people dependent on the module that are not yet known.
-
 
 # Solution
 
@@ -44,8 +42,6 @@ The entire decision process backing the result is transparent and can be influen
 
 There is a proven way to adjust the setup in the future.
 
-
 # Status
 
 Initial (early draft)
-
