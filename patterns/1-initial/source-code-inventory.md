@@ -8,7 +8,10 @@ Enterprises manage software, in particular source code as key company asset, wit
 
 ## Problem
 
-What is the problem - crisp definition of the problem. Short description, usually not more than a couple sentences, that describes what the issues and challenges are. Be careful not to morph into information found in other sections below.
+* InnerSource stakeholders do not value source code at the same level of others Enterprise assets.
+* Business Units want to select the right InnerSource projects to maximize outcome.
+* InnerSource Program wants to support the right projects among all the potential candidates.
+* There is no good consolidation of all source code and exploit of business value is ad-hoc.
 
 ## Story (optional)
 
@@ -18,9 +21,23 @@ Sometimes there is a story that helps people understand the pattern better.
 
 Where does the problem exist? What are the pre-conditions? **Unchangeable** before the solution goes into place. The content here is often tied to the applicability of the pattern for other readers: "Do I have this same particular situation?"
 
+* You work on a complex organization under continuous change (e.g., new acquisitions, changing business priorities...)
+* You cannot find all source code touched, shared and consumed within your organization.
+* You do not have a clear policy on default sharing level when creating a new project (e.g., Open, Inner or Closed Source)
+* You cannot scan significant parts of your organization's source code looking for duplication, similarity, code smells...
+* You do not know the ratios of open source, inner source and closed source.
+* You cannot measure the diversity of contributions and resulting value for a given project.
+* You cannot identify and optimize tech stack diversity.
+* You cannot identify technical debt and determine the priorities for retirement (e.g., dead APIs/source).
+
 ## Forces
 
 What makes the problem difficult? What are the trade-offs? These are constraints that **can be changed** at a cost. The solution might change one or more of these forces in order to solve the problem, while also in-turn changing the context.
+
+* Fragmentation of source code hosting systems in your organization.
+* Ad-hoc source code strategies scattered across your organization.
+* Continuously changing map of the relationships between: projects, repositories, products, tech stacks, domains, solutions, platforms, services, components, sub-systems, people, authors, teams, external repositories.
+* Diverse of software culture of different teams across your organization (e.g., more open to collaboration, more siloed...).
 
 ## Sketch (optional)
 
