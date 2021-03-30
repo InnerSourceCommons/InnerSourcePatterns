@@ -45,7 +45,26 @@ visual illustration
 
 ## Solutions
 
-Verified resolutions and possible resolutions to the problem.
+### Set up an Enterprise level live source code inventory
+
+* Unambiguous, complete, inexpensive, up-to-date, actionable inventory of all source code of your organization
+* Combination of manual and automated input data sources to a single source of truth including an API for custom extension
+* Key meta-data about each repository:
+  * Business Unit and Project
+  * URL
+  * Version control system (e.g., GIT, SVN...)
+  * Hosting vendor (e.g., GitHub, Gitlab...) and hosting type (e.g., on-prem, private cloud, public cloud...)
+  * Sharing level (e.g., Open Source, InnerSource, Closed Source)
+* Visualization in place to list all assets with options to filter based on meta-data
+
+### Define a source code strategy Framework
+
+* It will help parts of the organization to move from accidental to intentional source code strategy including an explicit definition of your strategy for:
+  * Inventory
+  * Consumption
+  * Contribution
+  * Ecosystem
+* Example of such a framework: [https://github.com/trieshard/source-strategy-assessment/blob/master/framework.md](https://github.com/trieshard/source-strategy-assessment/blob/master/framework.md)
 
 ## Resulting Context
 
