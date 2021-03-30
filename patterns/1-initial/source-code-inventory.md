@@ -71,24 +71,22 @@ Enterprises manage software, in particular source code as key company asset, wit
 * We can identify and optimize tech stack diversity.
 * We can create awareness and culture shift on certain organizations as needed (e.g., ratio of Open and InnerSource below average)
 
-## Rationale (optional)
+## Rationale
 
 It creates a dynamic and extendable single source of truth for repositories to capture, visualize and act on source code repositories across your organization. That helps to create awareness and focus efforts on the right direction. The source code maturity framework helps teams to understand the value of intentional explicit policies on how to manage source code. It helps to create both continuous improvement cycles and references within your organization of what others are doing.
 
-## Known Instances (optional)
+## Known Instances
 
-This is under deployment and test at scale at:
+This is under test at scale at:
 
 * Philips
 
-## Status (optional until merging)
+## Status
 
 * Initial
 
-## Author(s) (optional)
+## Author(s)
 
 * [David Terol](https://github.com/dterol23)
 
-## Acknowledgements (optional)
-
-Include those who assisted in helping with this pattern - both for attribution and for possible future follow up. Though optional, most patterns should list who helped in their creation.
+## Acknowledgements (TBD)
