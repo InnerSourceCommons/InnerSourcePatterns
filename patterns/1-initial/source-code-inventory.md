@@ -89,6 +89,8 @@ What is the situation after the problem has been solved? The original context is
 
 Explains why this is the right solution; using totally different words WHY this solution balances these forces and this context to solve this problem. Can expand on what-if's or theories.
 
+It creates a dynamic and extendable single source of truth for repositories to capture, visualize and act on source code repositories across your organization. That helps to create awareness and focus efforts on the right direction. The source code maturity framework helps teams to understand the value of intentional explicit policies on how to manage source code. It helps to create both continuous improvement cycles and references within your organization of what others are doing.
+
 ## Known Instances (optional)
 
 Where has this been seen before? Helps to reinforce that this is a REAL pattern and that you match the context.
