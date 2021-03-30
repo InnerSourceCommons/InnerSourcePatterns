@@ -56,6 +56,7 @@ visual illustration
   * Hosting vendor (e.g., GitHub, Gitlab...) and hosting type (e.g., on-prem, private cloud, public cloud...)
   * Sharing level (e.g., Open Source, InnerSource, Closed Source)
 * Visualization in place to list all assets with options to filter based on meta-data
+* Enable access to automated scanning tools
 
 ### Define a source code strategy Framework
 
@@ -69,6 +70,20 @@ visual illustration
 ## Resulting Context
 
 What is the situation after the problem has been solved? The original context is changed indirectly by way of the solution. Often this section can include discussion of the next possible Patterns/problems introduced. This section can be short in content - the solution may not introduce new problems or change much context.
+
+### For Business and Project maintainers
+
+* We have an explicit policy on source code strategy (e.g., where to create new repository or how to select the right sharing level)
+* We can find all source code touched, shared and consumed within our Business or Project and take actions on them as needed.
+* We can measure the diversity of contributions and resulting business value for our project.
+* We can identify technical debt and determine the priorities for retirement (e.g., dead APIs/source).
+
+### For InnerSource governance
+
+* We can scan significant parts of our Enterprise's source code looking for opportunities of reuse, duplication, similarity, code smells...
+* We know the ratios of open source, inner source and closed source within the Enterprise so we can steer as needed.
+* We can identify and optimize tech stack diversity.
+* We can create awareness and culture shift on certain organizations as needed (e.g., ratio of Open and InnerSource below average)
 
 ## Rationale (optional)
 
