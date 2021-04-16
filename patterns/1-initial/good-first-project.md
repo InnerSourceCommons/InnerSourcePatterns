@@ -28,7 +28,7 @@ Moreover, while previous works focused on the criteria for readiness for InnerSo
 
 ## Solutions
 
-This pattern presents a framework (_Project-Process-People_ model) and an _accompanying tool_ as one specific implementation of the framework for identifying the _fitness_ of an InnerSource project. The framework is based on prior work by [Klaas-Jan Stol and Brian Fitzgerald](https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf) and [Silona Bonewald](https://innersourcecommons.org/assets/files/InnerSourceChecklist.pdf), and helps to find promising candidate InnerSource projects by assessing their InnerSource-readiness.
+This pattern presents a framework (_Project-Process-People_ model) and an _accompanying tool_ as one specific implementation of the framework for identifying the _fitness_ of an InnerSource project. The framework is based on prior work by [Klaas-Jan Stol and Brian Fitzgerald](https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf) and [Silona Bonewald](https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/), and helps to find promising candidate InnerSource projects by assessing their InnerSource-readiness.
 
 We hypothesize that the _fitness_ of a project can be measured by examining the characteristics of the project, the tools used and the organizational practices, and the readiness of the team in-charge, which we call the  _Project-Process-People model_. We suggest two sub-factors within each which overall provides __six__ dimensions to measure the fitness of candidate projects.
 
@@ -60,7 +60,7 @@ The questionnaire presented in the tool also serves as a de-facto guide as to wh
 
 ## Rationale
 
-The two most important works in this context are by [Klaas-Jan Stol and Brian Fitzgerald](https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf) and [Silona Bonewald](https://innersourcecommons.org/assets/files/InnerSourceChecklist.pdf).
+The two most important works in this context are by [Klaas-Jan Stol and Brian Fitzgerald](https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf) and [Silona Bonewald](https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/).
 
 In their work, _Stol and Fitzgerald_ presented a set of nine key factors that are important for organizations to consider when adopting inner source. However, that model looked at an organization as a whole, and while a number of organizational characteristics are applicable to an individual project, some aspects are not, and some project characteristics are unaccounted for in the model. They presented three main factors: Software Product, Practices and Tools, People and Management, and three sub-factors on each of them.
 

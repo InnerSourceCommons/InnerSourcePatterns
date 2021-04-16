@@ -44,8 +44,6 @@ Patterns must be used thoughtfully. They cannot be indiscriminately applied. In 
 
 The pattern form is useful for describing proven solutions but it can also be used for *brainstorming new solutions* where patterns are not yet established. This is because the anatomy of a pattern provides a framework for thinking about a problem in a structured manner. You could also create a *donut pattern* (filling in the problem, context, forces, and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
 
-The pattern form is useful for describing proven solutions but it can also be used for *brainstorming new solutions* where patterns are not yet established. This is because the anatomy of a pattern provides a framework for thinking about a problem in a structured manner. You could also create a *donut pattern* (filling in the problem, context, forces, and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
-
 ## How to Contribute?
 
 Please refer to: [Contribute to this book](./contribute.md)
