@@ -88,6 +88,6 @@ This is under test at scale at:
 ## Author(s)
 
 * [David Terol](https://github.com/dterol23)
-* [Simao Williams](me@simaos.net)
+* [Simao Williams](mailto://me@simaos.net)
 
 ## Acknowledgements (TBD)
