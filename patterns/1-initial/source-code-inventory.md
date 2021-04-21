@@ -92,8 +92,8 @@ This is under test at scale at:
 
 ## References
 
-- Organization and Legal Entity terms as defined in [InnerSource License Pattern Glossary](../2-structured/innersource-license.md#glossary))
-- Explore aligned deployment of this pattern in combination with the [InnerSource Portal pattern](../2-structured/innersource-portal.md).
+* Organization and Legal Entity terms as defined in [InnerSource License Pattern Glossary](../2-structured/innersource-license.md#glossary))
+* Explore aligned deployment of this pattern in combination with the [InnerSource Portal pattern](../2-structured/innersource-portal.md).
 
 ## Status
 
