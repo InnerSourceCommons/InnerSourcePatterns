@@ -4,7 +4,7 @@ Unified source code inventory
 
 ## Patlet
 
-Organizations sometimes may manage software, in particular source code as key company asset, with less rigorousness than other IT hardware inventories which may diminish the opportunities to maximize business value and control liability cost. An Organization level source code inventory can also exploit opportunities to identify and support potential valuable InnerSource assets.
+In a large organization with different legal entities is often hard to get full visibility into all software assets, in particular all source code. This situation reduces the opportunities to increase business value and keep liability costs, such as software maintenance, under control across the organization as a whole. An organization level source code inventory addresses these issues while exploiting opportunities to identify and support valuable InnerSource assets.
 
 ## Problem
 
