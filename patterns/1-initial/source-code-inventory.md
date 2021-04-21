@@ -99,4 +99,6 @@ This is under test at scale at:
 * [David Terol](https://github.com/dterol23)
 * [Simao Williams](mailto://me@simaos.net)
 
-## Acknowledgements (TBD)
+## Acknowledgements
+
+* [Sebastian Spier](https://github.com/spier)
