@@ -17,9 +17,9 @@ Organizations sometimes may manage software, in particular source code as key co
 
 * You work on Legal Entity within a complex Organization under continuous change (e.g., new acquisitions or changing business priorities).
 * You cannot find all source code touched, shared and consumed within the Organization.
-* You do not have a clear policy on default sharing level when creating a new project (e.g., Open, Inner or Closed Source).
+* You do not have a clear policy on default sharing level when creating a new project (e.g., Open Source, InnerSource or Closed Source).
 * You cannot scan significant parts of the Organization's source code looking for duplication, similarity or code smells.
-* You do not know the existing ratios of open source, inner source and closed source and their trend.
+* You do not know the existing ratios of Open Source, innerSource and Closed Source and their trend.
 * You cannot measure the diversity of contributions and resulting value for a given project.
 * You cannot identify and optimize tech stack diversity.
 * You cannot identify technical debt and determine the priorities for retirement (e.g., dead APIs/source).
@@ -67,9 +67,9 @@ Organizations sometimes may manage software, in particular source code as key co
 ### For InnerSource governance
 
 * We can scan significant parts of our Organization's source code looking for opportunities of reuse, duplication, similarity or code smells.
-* We know the ratios of Open, Inner and Closed Source within the Organization so we can steer as needed.
+* We know the ratios of Open Source, InnerSource and Closed Source within the Organization so we can steer as needed.
 * We can identify and optimize tech stack diversity.
-* We can create awareness and culture shift on certain Legal Entities as needed (e.g., ratio of Open and InnerSource below average)
+* We can create awareness and culture shift on certain Legal Entities as needed (e.g., ratio of Open Source and InnerSource below average)
 
 ## Rationale
 
