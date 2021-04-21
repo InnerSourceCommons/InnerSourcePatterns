@@ -45,6 +45,10 @@ In a large organization with different legal entities is often hard to get full 
 * Visualization in place to list all assets with options to filter based on meta-data
 * Enable access to automated source code static analysis tools (e.g., identify duplicated or similar code, flag code smells, benchmark test coverage).
 
+Mockup dashboard             |  Mockup questionnaire
+:-------------------------:|:-------------------------:
+![Mockup dashboard](../../assets/img/source-code-inventory-mockup-dashboard.png)  |  ![Mockup questionnaire](../../assets/img/source-code-inventory-mockup-questionnaire.png)
+
 ### Define a Source Code Strategy Assessment Framework
 
 * Help to define a source code strategy including an explicit definition of policies at Organization and Legal Entity levels for:
