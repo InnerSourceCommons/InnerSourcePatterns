@@ -45,7 +45,7 @@ Organizations sometimes may manage software, in particular source code as key co
 * Visualization in place to list all assets with options to filter based on meta-data
 * Enable access to automated scanning tools
 
-### Define a source code strategy Framework
+### Define a Source Code Strategy Assessment Framework
 
 * Help to define a source code strategy including an explicit definition of policies at Organization and Legal Entity levels for:
   * Inventory
@@ -73,7 +73,7 @@ Organizations sometimes may manage software, in particular source code as key co
 
 ## Rationale
 
-It creates a dynamic and extendable single source of truth for repositories to capture, visualize and act on source code repositories across the Organization. That helps to create awareness and focus efforts on the right direction. The source code maturity framework helps teams to understand the value of intentional explicit policies on how to manage source code. It helps to create both continuous improvement cycles and references within the Organization of what others are doing.
+It creates a dynamic and extendable single source of truth for repositories to capture, visualize and act on source code repositories across the Organization. That helps to create awareness and focus efforts on the right direction. The Source Code Strategy Assessment Framework helps teams to understand the value of intentional explicit policies on how to manage source code. It helps to create both continuous improvement cycles and references within the Organization of what others are doing.
 
 ## Known Instances
 
