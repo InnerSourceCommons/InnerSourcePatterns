@@ -1,6 +1,6 @@
 ## Title
 
-Unified source code inventory 
+Unified source code inventory
 
 ## Patlet
 
