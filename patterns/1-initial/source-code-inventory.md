@@ -8,10 +8,15 @@ In a large organization with different legal entities is often hard to get full 
 
 ## Problem
 
-* Some InnerSource stakeholders do not value source code at the same level of other Enterprise assets.
-* Organizations within the Enterprise want to select the right InnerSource projects to maximize outcome.
-* The InnerSource Program wants to support the right projects among all the potential candidates.
-* There is no good consolidation of all source code and exploiting business value is ad-hoc.
+Given situations when InnerSource stakeholders do not value source code at the same level as other organization's assets; when source code strategies are ad-hoc and different among legal entities with little consolidation at organization level; then it becomes harder both to select and support the right InnerSource project candidates as well as maximize business value of such a key asset.
+
+Can you get consistent answers within the organization to questions like?
+
+* How would you find all source code touched by anyone in your legal entity?
+* How would you find out who else can also access each of the above?
+* For new source code, what is your default level of access?
+* How would you know nothing is missing from your inventory?
+* What valuable insights or actions have you gained from your inventory?
 
 ## Context
 
