@@ -10,7 +10,7 @@ Enterprises sometimes may manage software, in particular source code as key comp
 
 * Some InnerSource stakeholders do not value source code at the same level of other Enterprise assets.
 * Organizations within the Enterprise want to select the right InnerSource projects to maximize outcome.
-* InnerSource Program wants to support the right projects among all the potential candidates.
+* The InnerSource Program wants to support the right projects among all the potential candidates.
 * There is no good consolidation of all source code and exploiting business value is ad-hoc.
 
 ## Context
