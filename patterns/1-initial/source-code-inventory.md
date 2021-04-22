@@ -8,7 +8,7 @@ In a large organization with different legal entities is often hard to get full 
 
 ## Problem
 
-Given situations when InnerSource stakeholders do not value source code at the same level as other organization's assets; when source code strategies are ad-hoc and different among legal entities with little consolidation at organization level; then it becomes harder both to select and support the right InnerSource project candidates as well as maximize business value of such a key asset.
+Given situations when InnerSource stakeholders do not value source code at the same level as other organization's assets; when source code strategies are ad-hoc and different among legal entities with little consolidation at organization-level; then it becomes harder both to select and support the right InnerSource project candidates as well as maximize business value of such a key asset.
 
 Can you get consistent answers within the organization to questions like?
 
@@ -38,7 +38,7 @@ Can you get consistent answers within the organization to questions like?
 
 ## Solutions
 
-### Set up an Organization level live source code inventory
+### Set up an organization-level live source code inventory
 
 * Combination of manual and automated input data sources to a single source of truth including an API for custom extension
 * Key meta-data about each repository:
