@@ -38,7 +38,7 @@ Can you get consistent answers within the organization to questions like?
 
 ## Solutions
 
-### Set up an organization-level live source code inventory
+### Set up an organization-level source code inventory live dashboard
 
 * Combination of manual and automated input data sources to a single source of truth including an API for custom extension
 * Key meta-data about each repository:
