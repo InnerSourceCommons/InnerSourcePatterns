@@ -40,7 +40,8 @@ Can you get consistent answers within the organization to questions like?
 
 ### Set up an organization-level source code inventory live dashboard
 
-* Combination of manual and automated input data sources to a single source of truth including an API for custom extension
+* Combination of manual and automated input data sources to a single source of truth
+* API available to add new data sources and extend coverage of the source code repository
 * Key meta-data about each repository:
   * Legal Entity
   * URL
