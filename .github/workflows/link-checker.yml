@@ -6,7 +6,7 @@ name: Link Check on Patterns and README
 on:
   push:
     branches:
-      - "master"
+      - "main"
   pull_request:
 
 jobs:
