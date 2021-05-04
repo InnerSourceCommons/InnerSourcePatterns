@@ -38,7 +38,6 @@ open source best practices into the organisation.
 On a daily basis teams trying to follow InnerSource best practices have a hard
 time deciding if what they are doing is inline with general InnerSource values.
 
-
 ## Solution
 
 Those involved with the InnerSource initiative in the organisation need to
@@ -148,6 +147,5 @@ Europace AG
 ## Status
 
 draft
-
 
 
