@@ -138,7 +138,6 @@ The organisation development practices move closer to open source projects thus
 making it easier for organisation members to participate in open source
 projects.
 
-
 ## Known Instances
 
 Europace AG
@@ -146,4 +145,3 @@ Europace AG
 ## Status
 
 draft
-
