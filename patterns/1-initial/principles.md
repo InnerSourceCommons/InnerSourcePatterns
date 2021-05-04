@@ -1,6 +1,6 @@
 ## Title
 
-_Explicit InnerSource principles_
+Explicit InnerSource Principles
 
 ## Patlet
 
