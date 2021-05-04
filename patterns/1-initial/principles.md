@@ -62,7 +62,6 @@ that others have addressed by following InnerSource best practices:
 * To increase success of new hires.
 * To build actionable documentation.
 
-
 ### Provide clear InnerSource principles
 
 Once teams understand which problems InnerSource will help them address the next
@@ -147,5 +146,4 @@ Europace AG
 ## Status
 
 draft
-
 
