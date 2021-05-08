@@ -22,7 +22,7 @@ module.exports = [
 {
     names: ["PATTERN-TEMPLATE-RULE-002"],
     description: "Mandatory template sections",
-    information: "https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md",
+    information: new URL("https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md"),
     tags: ["headings", "headers", "pattern-template"],
     function: (params, onError) => {
         // A list of all mandatory headlines.
