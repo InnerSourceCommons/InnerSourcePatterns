@@ -21,38 +21,11 @@ module.exports = [
 },
 {
     names: ["PATTERN-TEMPLATE-RULE-002"],
-    description: "Standard Headlines",
-    tags: ["headings", "headers", "pattern-template"],
-    function: (params, onError) => {
-        var allowedHeadlines = "Title|Patlet|Problem|Story|Context|Forces|Solutions|Resulting Context|Known Instances|Status|Author(s)|Acknowledgements";
-        var re = new RegExp(`^## (${allowedHeadlines.replace(/(?=[\(\)])/g, '\\')})\\s*$`,"m");
-        // console.log(re);
-
-        params.tokens.filter(function filterToken(token) {
-            return token.type === "heading_open";
-        }).forEach(function forToken(token) {
-            if (token.tag === "h2") {
-                if (re.test(token.line)) {
-                    return;
-                }
-                // if (/^## ()$/m.test(token.line)) {
-                //     return;
-                // }
-
-                return onError({
-                    lineNumber: token.lineNumber,
-                    detail: "Allowed types are: " + allowedHeadlines.replace(/\|/g, ', '),
-                    context: token.line
-                });
-            }
-        });
-    }
-},
-{
-    names: ["PATTERN-TEMPLATE-RULE-003"],
     description: "Mandatory template sections",
     tags: ["headings", "headers", "pattern-template"],
     function: (params, onError) => {
+        // describes a list of mandatory headlines.
+        // headline name (from template): regexp of all permitted headline spellings
         var mandatoryHeadlines = {
           "Title": "Title",
           "Patlet": "Patlet",
@@ -68,8 +41,8 @@ module.exports = [
 
         var collectedHeadlines = ""
 
-        // collect all h2 headlines
-        // (only the headline text itself, removing markdown sytnax and whitespace)
+        // Collect all h2 (##) headlines.
+        // Only the headline text, removing markdown and whitespaces.
         params.tokens.filter(function filterToken(token) {
             return token.type === "heading_open";
         }).forEach(function forToken(token) {
@@ -83,7 +56,7 @@ module.exports = [
             }
         });
 
-        // confirm if all `mandatoryHeadlines` exist exactly once in the `collectedHeadlines`
+        // confirm if all `mandatoryHeadlines` exist and exist exactly once in the `collectedHeadlines`
         var errorsFound = [];
 
         let headline;
