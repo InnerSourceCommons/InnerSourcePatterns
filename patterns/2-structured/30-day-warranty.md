@@ -2,7 +2,7 @@
 
 30 Day Warranty
 
-## Patlet
+## Patletasdf
 
 When accepting contributions from outside of your own team, there is a natural aversion to taking responsibility for code not written by the team itself. Through the 30 Day Warranty the contributing team consents to provide bug fixes to the receiving team, which will increase the level of trust between both teams and makes it more likely that contributions get accepted.
 
