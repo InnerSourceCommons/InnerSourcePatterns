@@ -53,7 +53,7 @@ Thanks for solving your own problem in a way that also makes the _rcs-viewer_ be
 
 Feedback like this leaves the contributor with a fantastic feeling and ready to come back for more.
 Combining **both** forms of thanks gives them recognition in front of their peers (breadth) and in front of their direct manager (depth).
-There's a subtle encouragement for those peers in chat to consider contributing themselves and for that manager to look for appropriate circumstances to encourage their other direct reports doing the same.
+There's a subtle encouragement for those peers in chat to consider contributing themselves and for that manager to look for appropriate circumstances to encourage their other direct reports to do the same.
 Additionally, awareness of the inner source project spreads to the manager, who may have previously not known of the team's use and involvement with it.
 
 One caveat - keep it real.
