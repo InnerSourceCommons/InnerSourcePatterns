@@ -42,29 +42,13 @@ hours, not during free time.
 
 ## Forces
 
-- Managers are held responsible for the results of their business units.
-Letting their staff participate in InnerSource activities which might spend
-time making contributions outside of their business unit effectively reduces
-the capacity of his or her unit. This will likely make it harder for the
-managers to reach or exceed their goals.
-- Line managers and HR will, by default, judge the performance of their
-subordinates against their business units goals, which might not be aligned
-with the goals of the InnerSource community.
-- The less executive air cover a line manager perceives he has, the less likely
-is he or she to have his or her staff participate in InnerSource activities
-which contribute to another business unit.
-- The less transparency and control a line manager has of work done by one of
-her subordinates, the less likely is she to allow her to contribute.
-- The less formally work in InnerSource is managed and organised, the less
-likely a line manager who is accustomed to formal processes is to sign off on
-one of her employees contributing to InnerSource.
-- The more time an associate spends on contributions to an InnerSource project
-which does not benefit his day-to-day work, the more will the workload for
-his teammates in his business unit increase.
-- Individual contributors will likely consider participating in InnerSource
-as an opportunity to enhance their professional network within the company
-and to gain knowledge and experience in the technical area of her
-contributions.
+- Managers are held responsible for the results of their business units. Letting their staff participate in InnerSource activities which might spend time making contributions outside of their business unit effectively reduces the capacity of his or her unit. This will likely make it harder for the managers to reach or exceed their goals.
+- Line managers and HR will, by default, judge the performance of their subordinates against their business units goals, which might not be aligned with the goals of the InnerSource community.
+- The less executive air cover a line manager perceives he has, the less likely is he or she to have his or her staff participate in InnerSource activities which contribute to another business unit.
+- The less transparency and control a line manager has of work done by one of her subordinates, the less likely is she to allow her to contribute.
+- The less formally work in InnerSource is managed and organised, the less likely a line manager who is accustomed to formal processes is to sign off on one of her employees contributing to InnerSource.
+- The more time an associate spends on contributions to an InnerSource project which does not benefit his day-to-day work, the more will the workload for his teammates in his business unit increase.
+- Individual contributors will likely consider participating in InnerSource as an opportunity to enhance their professional network within the company and to gain knowledge and experience in the technical area of her contributions.
 
 ## Solution
 
@@ -73,19 +57,12 @@ centrally funded and steered InnerSource governance office (ISGO). Have the
 ISGO reimburse business units who contracted contributors for the contracted
 time.
 
-- The contracting specifies a maximum percentage of the associates work time in
-InnerSource.
-- The contracting clearly states that work in the contributor's business unit
-takes precedence over work in InnerSource.
-- The contracting states that it is not required to work in InnerSource for the
-maximum percentage specified in the contract.
-- The contracting is signed by the contributor, the contributor's line manager,
-the governance office and the [Dedicated Community Leader](dedicated-community-leader.md) of the community the contributor will be contributing to.
-- The governance office offers to mediate between the contributor and her line
-manager in case of conflict regarding the time for contributions.
-- The [Dedicated Community Leader](dedicated-community-leader.md) participates
-in or provides input for performance reviews of contributors contracted for
-more than 20 %.
+- The contracting specifies a maximum percentage of the associates work time in InnerSource.
+- The contracting clearly states that work in the contributor's business unit takes precedence over work in InnerSource.
+- The contracting states that it is not required to work in InnerSource for the maximum percentage specified in the contract.
+- The contracting is signed by the contributor, the contributor's line manager, the governance office and the [Dedicated Community Leader](dedicated-community-leader.md) of the community the contributor will be contributing to.
+- The governance office offers to mediate between the contributor and her line manager in case of conflict regarding the time for contributions.
+- The [Dedicated Community Leader](dedicated-community-leader.md) participates in or provides input for performance reviews of contributors contracted for more than 20 %.
 
 <img alt="Contracted Contributor" src="/assets/img/contracted-contributor.png" width="70%">
 
@@ -101,11 +78,8 @@ empowering middle management to sign off on it:
 
 A formal contracting is also beneficial for contributors and communities:
 
-- With a stable group of contributors, it is more likely that some of them will
-eventually achieve [Trusted Committer](./trusted-committer.md) status.
-- A formal contracting provides a basis for resolving conflict related to
-participation in InnerSource activities. Note that mediation will likely be
-successful only for a few companies with a culture conducive to that.
+- With a stable group of contributors, it is more likely that some of them will eventually achieve [Trusted Committer](./trusted-committer.md) status.
+- A formal contracting provides a basis for resolving conflict related to participation in InnerSource activities. Note that mediation will likely be successful only for a few companies with a culture conducive to that.
 
 ## Known Instances
 
