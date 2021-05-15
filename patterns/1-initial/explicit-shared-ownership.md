@@ -12,11 +12,11 @@ An organisation is already using InnerSource best practices in several teams. Th
 
 # Context
 
-Teams are working independently but are providing one common platform as a service.
+- Teams are working independently but are providing one common platform as a service.
 
-The software they are working on has been evolving for a long time. Engineers working on sub-modules have changed over time.
+- The software they are working on has been evolving for a long time. Engineers working on sub-modules have changed over time.
 
-One component is in widespread use but ownership is unclear.
+- One component is in widespread use but ownership is unclear.
 
 # Forces
 
