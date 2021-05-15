@@ -1,6 +1,6 @@
 # Title
 
-Explicit shared ownership
+Explicit Shared Ownership
 
 # Patlet
 
