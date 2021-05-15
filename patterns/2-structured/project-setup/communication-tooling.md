@@ -71,7 +71,7 @@ different schedules - either due to different time zones or due to different
 routines, meeting schedules, team routines - to meaningfully contribute to
 the project.
 
-Answering questions in those channels' means that not only other team members
+Answering questions in those channels means that not only other team members
 can listen in and provide additional information, it also means that other
 users with the same question see (or later find) the previous answer leading
 to a lower need to repeat explanations.
