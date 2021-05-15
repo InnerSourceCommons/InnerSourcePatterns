@@ -38,7 +38,7 @@ There is an initial team of Trusted Committers committed to the component.
 
 Expectations related to collaboration are transparent for everyone involved going forward.
 
-The entire decision process backing the result is transparent and can be influenced by those affected leading to higher buy-in for the final result. Also the argument leading to the final decisions are accessible for those new to the project.
+The entire decision process backing the result is transparent and can be influenced by those affected, leading to higher buy-in for the final result. Also the argument leading to the final decisions are accessible for those new to the project.
 
 There is a proven way to adjust the setup in the future.
 
