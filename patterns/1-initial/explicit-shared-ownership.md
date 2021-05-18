@@ -29,6 +29,7 @@ Ownership of one component is unclear.
 There are too many teams dependent on the component to pull everyone into one single meeting to discuss ownership.
 
 There may be people dependent on the module that are not yet known.
+There often is fear around maintenance efforts arising from unwanted attribution to the project
 
 # Solution
 
