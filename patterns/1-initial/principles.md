@@ -14,11 +14,14 @@ important principles of InnerSource get published widely.
 The organisation is trying to roll out InnerSource at a larger scale. The
 initiative started among open source enthusiasts. The goal is now to get buy-in
 from people that are lacking open source experience. For that audience the typical
-slogan of "applying open source best practices" is not longer sufficient to
+slogan of "applying open source best practices" is no longer sufficient to
 transport the message of what InnerSource is, which problems it solves and which
-tools it uses for solving these issues.
+tools it uses for solving these issues. As a result InnerSource adoption in the 
+organisation slows down. Teams develop diverging ideas of what the goals of InnerSource
+is about and how to best implement it leading to confusion when contributors
+are starting to cross team boundaries. 
 
-## Context
+## Story
 
 Early experiments in an organisation have shown that open source collaboration
 best practices can be beneficial. The goal now is to move the initiative to
@@ -40,8 +43,7 @@ time deciding if what they are doing is inline with general InnerSource values.
 
 ## Solution
 
-Those involved with the InnerSource initiative in the organisation need to
-understand two perspectives:
+Those that should adopt InnerSource need to understand two perspectives:
 
 ### Why does the organisation want to adopt InnerSource?
 
@@ -91,14 +93,7 @@ everyone. As a result a culture must be established in which mistakes are
 opportunities for learning instead of failure that should be avoided at all
 cost.
 
-4. Allow written advise to accrete in a persistent, searchable archive
-
-All project communication, in particular decisions taken and discussions leading
-up to those decisions need to be archived. It must be possible to reference
-communication via stable URLs. Previous communication needs to be stored in a
-way that can easily be searched.
-
-5. Written over verbal communication
+4. Written over verbal communication
 
 For projects that span multiple teams, potentially on diverging meeting
 schedules, it needs to be possible to collaborate asynchronously. The goal for
@@ -109,6 +104,13 @@ happens through synchronous communication, arguments discussed need to be made
 transparent in the written channel - decisions should be finalized only there.
 As a side effect this leads to passive base documentation that is very valuable
 for any newcomer to the project.
+
+5. Allow written advise to accumulate in a persistent, searchable archive
+
+All project communication, in particular decisions taken and discussions leading
+up to those decisions need to be archived. It must be possible to reference
+communication via stable URLs. Previous communication needs to be stored in a
+way that can easily be searched.
 
 Two caveats though:
 
