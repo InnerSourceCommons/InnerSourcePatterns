@@ -4,7 +4,7 @@ Explicit Shared Ownership
 
 # Patlet
 
-In a software system there is a component that several teams depend on. Initially developed by a handful of people it has long outgrown it's orignal use-case. Original authors are no longer capable of taking full ownership of that component. Development happens organically. Often there is confusion as to who should make changes, who needs to approve changes. Making ownership explicit, sharing that ownership across dependent teams, making expected behaviour explicit helps remove ambiguity. Writing those learnings down means that it can be changed according to the same process that is used to change the software.
+A software component that several teams depend on has grown to the point where owners are no longer capable of taking full ownership. There is confusion who to involve for changes. Sharing ownership explicitly and making expected behaviour visible removes ambiguity. Writing a contributions document creates a natural way to evolve ownership.
 
 # Problem
 
