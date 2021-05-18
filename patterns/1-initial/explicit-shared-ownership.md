@@ -8,7 +8,11 @@ A software component that several teams depend on has grown to the point where o
 
 # Problem
 
-An organisation is already using InnerSource best practices in several teams. The architecture of the software offered has grown organically. Talking about code ownership and accountability teams notice that there is a component that is in a worrying state: Developed by an original team of authors it has grown it's userbase way beyond what the original team can handle. From time to time others step up to help out, however there is no formal process established. As a result conflicts arise around who should do the work, who should decide on project direction. Simply forking the component would lead to a lot of duplication and wasted effort. As a result teams are looking for a less intrusive solution to the issue.
+An organisation is already using InnerSource best practices in several teams. The architecture of the software offered has grown organically. 
+
+While talking about code ownership and accountability, teams notice that there is a component that is in a worrying state: Developed by an original team of authors it has grown it's userbase way beyond what the original team can handle. From time to time others step up to help out, however there is no formal process established. As a result, conflicts arise around who should do the work, and who should decide on project direction. 
+
+Simply forking the component would lead to a lot of duplication and wasted effort. Therefore the involved teams are looking for a less intrusive solution to the issue.
 
 # Context
 
