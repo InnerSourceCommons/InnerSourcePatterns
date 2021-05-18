@@ -5,16 +5,16 @@ Explicit InnerSource Principles
 ## Patlet
 
 InnerSource as a term is circulating among employees. The usual explanation of
-"applying Open Source best practices inside an organisation" does not work well
-though with people lacking an Open Source background. As a remedy the most
+"applying open source best practices inside an organisation" does not work well
+though with people lacking an open source background. As a remedy the most
 important principles of InnerSource get published widely.
 
 ## Problem
 
 The organisation is trying to roll out InnerSource at a larger scale. The
-initiative started among Open Source enthusiasts. The goal is now to get buy-in
-from people that are lacking Open Source experience. For that audience the typical
-slogan of "applying Open Source best practices" is not longer sufficient to
+initiative started among open source enthusiasts. The goal is now to get buy-in
+from people that are lacking open source experience. For that audience the typical
+slogan of "applying open source best practices" is not longer sufficient to
 transport the message of what InnerSource is, which problems it solves and which
 tools it uses for solving these issues.
 
