@@ -16,7 +16,7 @@ initiative started among open source enthusiasts. The goal is now to get buy-in
 from people that are lacking open source experience. For that audience the typical
 slogan of "applying open source best practices" is no longer sufficient to
 transport the message of what InnerSource is, which problems it solves and which
-tools it uses for solving these issues. As a result InnerSource adoption in the 
+tools it uses for solving these issues. As a result InnerSource adoption in the
 organisation slows down. Teams develop diverging ideas of what the goals of InnerSource
 is about and how to best implement it leading to confusion when contributors
 are starting to cross team boundaries. 
