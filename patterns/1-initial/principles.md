@@ -145,7 +145,7 @@ projects.
 
 ## Known Instances
 
-* Europace AG (see also [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (German))
+* Europace AG - see also [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (German)
 
 ## Status
 
