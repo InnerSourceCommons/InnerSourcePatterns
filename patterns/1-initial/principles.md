@@ -74,26 +74,26 @@ step is to explain which principles help address these challenges.
 Based on basic open source development principles the following guidelines 
 have been proven successful:
 
-1. Code must be transparently hosted within the organisation
+(1) Code must be transparently hosted within the organisation
 
 Source code, documentation, data relevant for project development must be
 available and easy to find for anyone in the organisation.
 
-2. Contributions over feature requests
+(2) Contributions over feature requests
 
 All stakeholders of a project act as potential contributors and are being
 treated and supported as such. Contributions remain suggestions instead of
 requirements. Coordination before a contribution helps avoid wasted effort.
 Projects provide contribution guidelines to avoid friction.
 
-3. Mistakes are opportunities for learning
+(3) Mistakes are opportunities for learning
 
 With work visible across the entire organisation any mistake is visible to
 everyone. As a result a culture must be established in which mistakes are
 opportunities for learning instead of failure that should be avoided at all
 cost.
 
-4. Written over verbal communication
+(4) Written over verbal communication
 
 For projects that span multiple teams, potentially on diverging meeting
 schedules, it needs to be possible to collaborate asynchronously. The goal for
@@ -105,7 +105,7 @@ transparent in the written channel - decisions should be finalized only there.
 As a side effect this leads to passive base documentation that is very valuable
 for any newcomer to the project.
 
-5. Allow written advise to accumulate in a persistent, searchable archive
+(5) Allow written advise to accumulate in a persistent, searchable archive
 
 All project communication, in particular decisions taken and discussions leading
 up to those decisions need to be archived. It must be possible to reference
@@ -121,7 +121,7 @@ to collect structured documentation though.
 the entire organisation: People related discussions as well as security related
 discussions are sensitive and should not be held in public.
 
-6. Reward Trusted Committership
+(6) Reward Trusted Committership
 
 All contributions (e.g. source code, documentation, bug reports, input to
 discussions, user support, marketing) are welcome and are being rewarded. 
