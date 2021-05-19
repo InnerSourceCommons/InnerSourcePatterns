@@ -50,9 +50,9 @@ Those that should adopt InnerSource need to understand two perspectives:
 In the past InnerSource has proven to be successful to solve several issues
 commonly found in organisations. Instead of going for generalizations, try to
 exactly identify the solutions that match the challenges of your organisation -
-preferably with those affected by the change you want to see. 
+preferably with those affected by the change you want to see.
 
-Some challenges that others have addressed by following InnerSource 
+Some challenges that others have addressed by following InnerSource
 best practices:
 
 * Reduce development silos caused by excessive ownership culture.
@@ -69,9 +69,9 @@ best practices:
 ### Provide clear InnerSource principles
 
 Once teams understand which problems InnerSource will help them address, the next
-step is to explain which principles help address these challenges. 
+step is to explain which principles help address these challenges.
 
-Based on basic open source development principles the following guidelines 
+Based on basic open source development principles the following guidelines
 have been proven successful:
 
 (1) Code must be transparently hosted within the organisation
