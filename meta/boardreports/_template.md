@@ -23,7 +23,7 @@ Describe the overall activity in the project over the past quarter.
 
 In the Patterns Working Group we interpret the term **Committer** here in the sense of [Trusted Committer](../../TRUSTED-COMMITTERS.md).
 
-A healthy project should survive the departure of any single contributor or employer of contributors. To achieve that it needs a sufficient amount of committer diversity. 
+A healthy project should survive the departure of any single contributor or employer of contributors. To achieve that it needs a sufficient amount of committer diversity.
 
 How do you make sure that people from all regions on the globe can participate in your project without having to be awake at midnight their local time?
 
