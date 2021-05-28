@@ -35,7 +35,7 @@ There often is fear around maintenance efforts arising from unwanted attribution
 
 Use the issue/ pull-request mechanics that work so well for code modifications to modify the way the component is developed:
 
-A volunteer creates an issue in the component's repository highlighting the apparent unclarity or even lack of ownership. Subsequently a volunteer (can be the same person) creates a suggestion for how the project should be developed going forward including a list of initial [Trusted Committers](../2-structured/trusted-committer.md). This suggestion is posted to the project's documentation (e.g. it's `README.md` file) as a pull request. This pull request is left open and shared with all people affected by the change. Feedback can be given and integrated asynchronously. Development of the final state is transparent for everyone.
+A volunteer creates an issue in the component's repository highlighting the apparent unclarity or even lack of ownership. Subsequently a volunteer (can be the same person) creates a suggestion for how the project should be developed going forward including a proposed list of initial [Trusted Committers](../2-structured/trusted-committer.md). This suggestion is posted to the project's documentation (e.g. it's `README.md` file) as a pull request. This pull request is left open and shared with all people affected by the change. Feedback can be given and integrated asynchronously. Development of the final state is transparent for everyone.
 
 # Resulting Context
 
