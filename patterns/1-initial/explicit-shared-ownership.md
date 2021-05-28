@@ -39,7 +39,7 @@ A volunteer creates an issue in the component's repository highlighting the appa
 
 # Resulting Context
 
-There is an initial team of Trusted Committers committed to the component.
+There is an initial team of [Trusted Committers](../2-structured/trusted-committer.md) committed to the component.
 
 Expectations related to collaboration are transparent for everyone involved going forward e.g. by creating [base documentation in CONTRIBUTING.md](../2-structured/project-setup/base-documentation.md).
 
