@@ -19,7 +19,7 @@ transport the message of what InnerSource is, which problems it solves and which
 tools it uses for solving these issues. As a result InnerSource adoption in the
 organisation slows down. Teams develop diverging ideas of what the goals of InnerSource
 is about and how to best implement it leading to confusion when contributors
-are starting to cross team boundaries. 
+are starting to cross team boundaries.
 
 ## Story
 
