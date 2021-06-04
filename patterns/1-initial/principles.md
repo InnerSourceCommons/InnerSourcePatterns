@@ -124,7 +124,7 @@ discussions are sensitive and should not be held in public.
 (6) Reward Trusted Committership
 
 All contributions (e.g. source code, documentation, bug reports, input to
-discussions, user support, marketing) are welcome and are being rewarded. 
+discussions, user support, marketing) are welcome and are being rewarded.
 Those showing support for the project are being invited as
 [Trusted Committers](../2-structured/trusted-committer.md). All Trusted Committers of a project are published.
 
