@@ -24,7 +24,7 @@ are starting to cross team boundaries.
 ## Story
 
 Early experiments in an organisation have shown that open source collaboration
-best practices can be beneficial. The goal now is to move the initiative to
+best practices can be beneficial. The next step now is to move the initiative to
 teams and individuals lacking a deep background in open source.
 
 The goal now is to clearly communicate the goals of the InnerSource initiative
