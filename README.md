@@ -67,6 +67,12 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Good First Project](patterns/1-initial/good-first-project.md) - *An InnerSource program has been launched at an organization, and to get off to a successful start it requires some good first projects that lend themselves to InnerSource-style development. Assessing the InnerSource-readiness (fitness) of the candidate projects can help in selecting projects that have the potential to help demonstrate the power of InnerSource.*
 * [InnerSource Guidance Group](patterns/1-initial/innersource-guidance-group.md) - *A highly divergent set of development standards in different teams can slow down collaboration betweens these teams. A InnerSource Guidance Group that establishes broad governance and behavioral guidelines can help to reduce these frictions.*
 * [Unified Source Code Inventory](patterns/1-initial/source-code-inventory.md) - *In a large organization with different legal entities is often hard to get full visibility into all software assets, in particular all source code. This situation reduces the opportunities to increase business value and keep liability costs, such as software maintenance, under control across the organization as a whole. An organization-level source code inventory addresses these issues while exploiting opportunities to identify and support valuable InnerSource assets.*
+* [Explicit Shared Ownership](patterns/1-initial/explicit-shared-ownership.md) - *A software component that several teams depend on has grown to the point where owners are no longer capable of taking full ownership. There is confusion who to involve for changes. Sharing ownership explicitly and making expected behaviour visible removes ambiguity. Writing a contributions document creates a natural way to evolve ownership.*
+
+<!--
+NOTE: The 'Initial' Patterns below don't even have a Patlet yet, which is essential for readers to quickly browse our patterns.
+This is why we keep these patterns at the bottom of the list. 
+-->
 * [Overcome Acquisition Based Silos - Developers](patterns/1-initial/overcome-acquisition-based-silos-developer.md)
 * [Overcome Acquisition Based Silos - Managers](patterns/1-initial/overcome-acquisition-based-silos-manager.md)
 * [Discover Your InnerSource](patterns/1-initial/discover-your-innersource.md)
