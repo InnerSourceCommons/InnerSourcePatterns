@@ -77,6 +77,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 * [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
+* [Standarized Release Process](patterns/1-initial/release-process.md)
 
 #### Donuts (needing a solution)
 
