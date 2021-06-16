@@ -16,7 +16,7 @@ The common code in the shared repository doesn't have a published artifact or pu
 It is common practice in Open Source projects to have releases, with release notes documenting breaking changes,
 new features, etc along with either a published binary or link to a Docker image. This practice may not be as
 transparent or well documented/visible for InnerSource projects, modules, etc. Providing robust release notes
-along with a published artifact that is the result of a clearly document and visible release process builds trust and confidence in your project.
+along with a published artifact that is the result of a clearly documented and visible release process builds trust and confidence in your project.
 
 ## Forces
 
