@@ -22,7 +22,7 @@ along with a published artifact that is the result of a clearly document and vis
 
 - Difficult for organizations that don't have a central CI/CD system
 - Adds the burden of publishing release notes
-- No internal location to host artifacts
+- Becomes more difficult if the organization does not provide an internal location to host artifacts
 
 ## Solution
 
