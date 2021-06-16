@@ -1,6 +1,6 @@
 ## Title
 
-Standard Release Process/Published Artifacts
+Standard Release Process and Published Artifacts
 
 ## Patlet
 
