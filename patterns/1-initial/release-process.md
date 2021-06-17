@@ -48,6 +48,4 @@ David Grizzanti
 
 ## Status
 
-Initial
-
-* Consider splitting "Published Artifacts" into its own pattern (TBD)
+**Initial** - FYI we are considering splitting "Published Artifacts" into its own pattern
