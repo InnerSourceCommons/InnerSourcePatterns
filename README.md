@@ -86,7 +86,6 @@ This is why we keep these patterns at the bottom of the list.
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 * [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
 
-
 #### Donuts (needing a solution)
 
 * [How to Defeat the Hierarchical Constraints](patterns/1-initial/defeat-hierarchical-constraints.md)
