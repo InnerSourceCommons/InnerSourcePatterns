@@ -77,7 +77,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 * [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
-* [Standarized Release Process](patterns/1-initial/release-process.md)
+* [Standarized Release Process](patterns/1-initial/release-process.md) - *Teams may be reluctant to use InnerSource projects that they are unfamiliar with when there is no clear release process apparent in the repository. Providing clear release notes and a published artifact (binary, docker image, jar, etc) gives people confidence you are publishing a quality product.*
 
 #### Donuts (needing a solution)
 
