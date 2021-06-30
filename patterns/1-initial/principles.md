@@ -48,14 +48,21 @@ time deciding if what they are doing is inline with general InnerSource values.
 
 ## Solution
 
-Those that should adopt InnerSource need to understand two perspectives:
+Those driving the InnerSource initiative in the organisation need to help the teams and individuals that are lacking a deep background in open source, and therefore have a less intuitive understanding of InnerSource.
+
+Clarity should be provided around these two areas:
 
 ### Why does the organisation want to adopt InnerSource?
 
 In the past InnerSource has proven to be successful to solve several issues
-commonly found in organisations. Instead of going for generalizations, try to
-exactly identify the solutions that match the challenges of your organisation -
-preferably with those affected by the change you want to see.
+commonly found in organisations. 
+
+However which organizational challenges does your organization hope to improve
+upon using InnerSource?
+
+Instead of going for generalizations, try to exactly identify the solutions
+that match the challenges of your organisation - preferably with those affected
+by the change you want to see.
 
 Some challenges that others have addressed by following InnerSource
 best practices:
@@ -63,7 +70,7 @@ best practices:
 * Reduce development silos caused by excessive ownership culture.
 * Increase innovation speed by reducing time spent solving similar issues by
   fostering healthy code reuse.
-* Increase development speed by better cross team collaboration.
+* Increase development speed by better cross-team collaboration.
 * Solve project/ team dependencies beyond "wait it out" and "build workarounds",
   thereby reducing engineering bottlenecks.
 * Increase quality.
@@ -71,10 +78,10 @@ best practices:
 * To increase success of new hires.
 * To build actionable documentation.
 
-### Provide clear InnerSource principles
+### Which InnerSource principles will help to address these challenges?
 
-Once teams understand which problems InnerSource will help them address, the next
-step is to explain which principles help address these challenges.
+Once teams understand which problems InnerSource will help them address, the
+next step is to explain which principles help address these challenges.
 
 Based on basic open source development principles the following guidelines
 have been proven successful:
