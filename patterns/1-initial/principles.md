@@ -4,10 +4,10 @@ Explicit InnerSource Principles
 
 ## Patlet
 
-InnerSource as a term is circulating among employees. The usual explanation of
-"applying open source best practices inside an organisation" does not work well
-though with people lacking an open source background. As a remedy the most
-important principles of InnerSource get published widely.
+The usual InnerSource explanation of "applying open source best practices 
+inside an organisation" does not work well with people lacking an 
+open source background. As a remedy the most important principles of 
+InnerSource get published widely.
 
 ## Problem
 
