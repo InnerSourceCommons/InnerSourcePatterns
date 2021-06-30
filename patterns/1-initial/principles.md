@@ -30,6 +30,11 @@ teams and individuals lacking a deep background in open source.
 The goal now is to clearly communicate the goals of the InnerSource initiative
 as well as a clear path towards achieving these goals.
 
+## Context
+
+* InnerSource as a term is circulating among employees.
+* The initiative started among open source enthusiasts. 
+
 ## Forces
 
 * Teams have trouble communicating exactly what the important aspects of
