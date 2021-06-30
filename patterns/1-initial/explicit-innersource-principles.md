@@ -4,9 +4,9 @@ Explicit InnerSource Principles
 
 ## Patlet
 
-The usual InnerSource explanation of "applying open source best practices 
-inside an organisation" does not work well with people lacking an 
-open source background. As a remedy the most important principles of 
+The usual InnerSource explanation of "applying open source best practices
+inside an organisation" does not work well with people lacking an
+open source background. As a remedy the most important principles of
 InnerSource get published widely.
 
 ## Problem
@@ -33,7 +33,7 @@ as well as a clear path towards achieving these goals.
 ## Context
 
 * InnerSource as a term is circulating among employees.
-* The initiative started among open source enthusiasts. 
+* The initiative started among open source enthusiasts.
 
 ## Forces
 
@@ -55,7 +55,7 @@ Clarity should be provided around these two areas:
 ### Why does the organisation want to adopt InnerSource?
 
 In the past InnerSource has proven to be successful to solve several issues
-commonly found in organisations. 
+commonly found in organisations.
 
 However which organizational challenges does your organization hope to improve
 upon using InnerSource?
