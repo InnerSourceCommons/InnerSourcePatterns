@@ -191,7 +191,7 @@ There are multiple levels moving towards a collaborative culture.
 
 **InnerSource Roles**
 
-InnerSource comes with explicit roles. While in early stages some patterns may be usable without adopting those roles, communicating within projects using explicit role titles becomes easier.
+InnerSource comes with explicit roles. While in early stages some patterns may be useable without adopting those roles, communicating within projects using explicit role titles becomes easier.
 
 * RO-0: There are no specific roles helping InnerSource adoption. Only common development roles are present: developer, analyst, tester, etc.
 * RO-1: Occasionally some individuals and teams contribute to other projects. These are technical contributions, where the user/contributor role is seen. For some teams, it can be identified at least one member being a technical reference, who explains the development process to other development team members. He/she could be a candidate for covering the trusted committer role.
