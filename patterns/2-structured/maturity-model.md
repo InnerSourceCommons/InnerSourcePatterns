@@ -6,7 +6,7 @@ Maturity Model
 
 Teams have started adopting InnerSource. The practice is spreading to multiple
 departments. However, the understanding of what constitutes an InnerSource project
-is not widespread. The solution is to provide a maturity model to allow for teams to
+varies. The solution is to provide a maturity model to allow for teams to
 go through a self check and discover patterns and practices that they are not
 yet aware of.
 
