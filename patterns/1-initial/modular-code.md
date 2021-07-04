@@ -39,7 +39,7 @@ Engineering does not want to spend the extra resources needed to develop modular
 * Provide incentives to teams to invest in modular code. Modular code is far more reusable. This could work well for large teams when working on modularized projects; team members can focus on their smaller assigned tasks.
     - Developers could get an opportunity to increase their influence in the organization.
     - Modular code makes the pathway to open source smoother.
-    - Modular code facilitates division of labour (as required for work in larger teams, or as an Open Source project)
+    - Modular code facilitates division of labour (as required for work in larger teams, or as an open source project)
     - Modular projects enable team members to focus on their own smaller assigned tasks.
     - Modular code makes Agile implementation easier.
     - Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
