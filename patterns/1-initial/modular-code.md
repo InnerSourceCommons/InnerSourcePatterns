@@ -8,7 +8,7 @@ The lack of modularization in the software architecture prevents reuseability, a
 
 ## Problem
 
-Engineering does not want to spend the extra resources needed to develop modular components. This applies to managers and developers alike. As a result, shared components are not reused, which prevents the InnerSource culture from flourishing.
+Engineering does not want to spend the extra resources needed to develop modular components. This applies to managers and developers alike. As a result, fewer components end up being reused, leading to duplication of work.
 
 ## Context
 
