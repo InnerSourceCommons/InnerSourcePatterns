@@ -223,6 +223,8 @@ long term.
 
 ## Acknowledgements
 
+* Alexander Andrade (special thanks for the spelling fixes)
+
 ## Alias
 
 Maturity model: Learn about InnerSource best practices
