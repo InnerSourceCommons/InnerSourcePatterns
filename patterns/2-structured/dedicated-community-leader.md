@@ -52,7 +52,7 @@ Empower the community leader to dedicate 100 % of his time to community work inc
 
 ## Resulting Context
 
-A community leader with the properties described above will lend a face and embody the company's commitment to InnerSource. It will make it more likely that other associates in his network will follow his lead and contribute to InnerSource. Over time, he or she will be able to build up a stable core team of developers and hence increase the chances of success for the InnerSource project. By convincingly a large enough audience within his company of the potential of InnerSource, he or she will make an important contribution to changing the company culture towards a community culture.
+A community leader with the properties described above will lend a face and embody the company's commitment to InnerSource. It will make it more likely that other associates in his network will follow his lead and contribute to InnerSource. Over time, he or she will be able to build up a stable core team of developers and hence increase the chances of success for the InnerSource project. By convincing a large enough audience within his company of the potential of InnerSource, he or she will make an important contribution to changing the company culture towards a community culture.
 
 Having excellent and dedicated community leaders is a precondition for the success of InnerSource. It is, however, not a silver bullet. There are many challenges of InnerSource which are above and beyond what a community leader can tackle, such as budgetary, legal, fiscal or other organizational challenges.
 
