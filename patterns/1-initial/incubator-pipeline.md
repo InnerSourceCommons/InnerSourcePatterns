@@ -59,7 +59,8 @@ Incubation pipelines allow participants to view code as potential and improving 
 
 Being implemented at U.S. Bank.
 
-## Status (optional until merging)
+## Status
+
 Initial draft for review.
 
 ## Author(s) (optional)
