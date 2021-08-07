@@ -27,6 +27,7 @@ These teams are held to meet certain standards (e.g., UI teams ensure all compon
 However, the shared code library team does not want engineers to “roll their own” solutions either. But the user-teams may have needs not met by the shared library team’s code. Since they are engineers, they’ll want to create or find their own solutions. Doing that threatens the shared library team and creates multiple solutions. Whereas that’s sometimes okay, in some cases companies want to use InnerSource to maintain consistency without stifling innovation.  
 
 ## Forces
+
 If the shared library team insists that they alone are the exclusive source of approved code, they limit the company output to the shared library team’s capacity. If the needs exceed the capacity, everyone suffers. However, if the shared library team cannot prevent other teams from creating their own solutions, they lose their role as a standards-setting team and simply become a team that provides technology that only some teams use.
 
 For the customers of the shared library team’s code, they too face a challenge. The library provided may be insufficient. They’ll need some other solution. But breaking rank will cause downstream tension when it comes time to merge their rogue code with the approved code. They want to follow the company protocols, but they also need to deploy their products.
