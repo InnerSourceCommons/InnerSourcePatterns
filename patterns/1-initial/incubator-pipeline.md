@@ -36,6 +36,7 @@ For the customers of the shared library team’s code, they too face a challenge
 None yet
 
 ## Solutions
+
 The shared library team provides an incubator pipeline for their (internal engineering) customers to use. Customer teams who need to augment the shared library can do so by petitioning to enter the incubator pipeline. Additionally, central teams can request contributions into the incubation pipeline. The shared library team maintains an acceptance criterion to get into the pipeline. This may include some demonstration that at least one other team would find the contribution useful, that the contribution could (perhaps with some additional engineering work) be enhanced to conform to the shared library standard. **In other words, no code should enter the incubation pipeline that we know cannot exit it.**
 
 Once in the incubation pipeline, the shared library team and contributing teams can select a support agreement that enables teams to use the incubating code, but to understand that its support is less than a top-level component in the library. It is a second-class citizen that is on the way to becoming a first-class citizen.
