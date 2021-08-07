@@ -16,6 +16,7 @@ The team managing the shared code library needs a way to allow InnerSource contr
 See https://www.linkedin.com/pulse/culture-behaviors-innersource-three-part-blog-series-3-gil-yehuda/ for the conceptual inspiration. (This may be replaced with a direct story from the dev team who implemented this pattern. Watch this space.)
 
 ## Context
+
 We find the pattern to be useful when there’s a team at a company that is responsible for creating code assets that other engineering teams at the company must consume. For example: 
 1.	the team that creates the centrally approved library of UI components, 
 1.	the team that builds the build pipelines and installation scripts, 
