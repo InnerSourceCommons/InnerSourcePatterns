@@ -63,7 +63,8 @@ Being implemented at U.S. Bank.
 
 Initial draft for review.
 
-## Author(s) (optional)
+## Author(s)
+
 * Bryn Sharpe
 * Gil Yehuda
 
