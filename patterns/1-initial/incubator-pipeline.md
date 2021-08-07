@@ -44,6 +44,7 @@ Once in the incubation pipeline, the shared library team and contributing teams 
 Exiting the incubation pipeline means the code is a first-class citizen and member of the shared library. In this case, the shared library team may not have created the code, and may not have enhanced the code. But they will be willing to support the code as if they created it because it meets the criteria they set for their own code. It is possible that a component fails to graduate the pipeline. In that case, the component would be retired out of the incubation pipeline.
 
 ## Resulting Context
+
 When a customer-team needs code that the shared library team does not have, they have a path to success. They can create and propose a solution to be included in the incubator pipeline. (They might find an open source solution too.) This does not pose a threat to the shared library team. In fact, it allows the shared library team to grow their library at a faster rate while maintaining quality control by staging the contribution. 
 
 Moreover, by defining an incubation process, the shared library team clarifies their criteria for inclusion into the library. This helps new members of their team too. In fact, this allows any engineer who can meet the criteria to become a "member of their team" even if only for a component or two.
