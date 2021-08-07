@@ -22,7 +22,7 @@ We find the pattern to be useful when there’s a team at a company that is resp
 
 1. the team that creates the centrally approved library of UI components,
 1. the team that builds the build pipelines and installation scripts,
-1.	the team that builds microservice template code, etc. 
+1. the team that builds microservice template code, etc.
 
 These teams are held to meet certain standards (e.g., UI teams ensure all components comply with accessibility standards, can be themed and placed on the UI grid in a manner consistent with other components and company requirements; pipeline and install scripts might require certain boilerplate code for compliance logging or security controls, etc.).
 
