@@ -68,7 +68,8 @@ Initial draft for review.
 * Bryn Sharpe
 * Gil Yehuda
 
-## Acknowledgements (optional)
+## Acknowledgements
+
 * Kevin Bongers
 * Anton Fernando
 * Levi Geinert
