@@ -34,6 +34,7 @@ If the shared library team insists that they alone are the exclusive source of a
 For the customers of the shared library team’s code, they too face a challenge. The library provided may be insufficient. They’ll need some other solution. But breaking rank will cause downstream tension when it comes time to merge their rogue code with the approved code. They want to follow the company protocols, but they also need to deploy their products.
 
 ## Sketch (optional)
+
 None yet
 
 ## Solutions
