@@ -3,6 +3,7 @@
 Incubator Pipeline
 
 ## Patlet
+
 A team maintains a shared code library that other internal engineers need to use. The other engineers want to make improvements or use their own code. Leveraging an incubator model, the shared library team can establish a lower bar to enter the incubator pipeline and a higher bar to exit the pipeline and become a top-level unit in the library.
 
 ## Problem
