@@ -12,7 +12,8 @@ A team charged to maintain a shared library is responsible for the quality of th
 
 The team managing the shared code library needs a way to allow InnerSource contributions to their supported library of components but also to distinguish between contributions that are up to the standard, or that are on their way to the standard.
 
-## Story (optional)
+## Story
+
 See https://www.linkedin.com/pulse/culture-behaviors-innersource-three-part-blog-series-3-gil-yehuda/ for the conceptual inspiration. (This may be replaced with a direct story from the dev team who implemented this pattern. Watch this space.)
 
 ## Context
