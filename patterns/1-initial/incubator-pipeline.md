@@ -8,7 +8,7 @@ A team maintains a shared code library that other internal engineers need to use
 
 ## Problem
 
-A team charged to maintain a shared library is responsible for the quality of the components in the library. If you offer them code from another team, they face the dilemma that the other team’s code might not meet their requirements, and it’s unclear if they’ll be able to support that code. If other teams can’t offer code, they may be reluctant to use the shared code, or they may be forced to use inadequate code from the central team, causing issues for their product. 
+A team charged to maintain a shared library is responsible for the quality of the components in the library. If you offer them code from another team, they face the dilemma that the other team’s code might not meet their requirements, and it’s unclear if they’ll be able to support that code. If other teams can’t offer code, they may be reluctant to use the shared code, or they may be forced to use inadequate code from the central team, causing issues for their product.
 
 The team managing the shared code library needs a way to allow InnerSource contributions to their supported library of components but also to distinguish between contributions that are up to the standard, or that are on their way to the standard.
 
