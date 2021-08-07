@@ -55,7 +55,8 @@ Moreover, by defining an incubation process, the shared library team clarifies t
 
 Incubation pipelines allow participants to view code as potential and improving assets. Too often, people see code as being good enough or not good enough. In reality, code can become better. Formally putting code in an incubation status sends the message that the code is not yet good enough but is getting there.
 
-## Known Instances (optional)
+## Known Instances
+
 Being implemented at U.S. Bank.
 
 ## Status (optional until merging)
