@@ -51,7 +51,8 @@ When a customer-team needs code that the shared library team does not have, they
 
 Moreover, by defining an incubation process, the shared library team clarifies their criteria for inclusion into the library. This helps new members of their team too. In fact, this allows any engineer who can meet the criteria to become a "member of their team" even if only for a component or two.
 
-## Rationale (optional)
+## Rationale
+
 Incubation pipelines allow participants to view code as potential and improving assets. Too often, people see code as being good enough or not good enough. In reality, code can become better. Formally putting code in an incubation status sends the message that the code is not yet good enough but is getting there.
 
 ## Known Instances (optional)
