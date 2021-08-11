@@ -6,7 +6,7 @@ Now how do we make it easier for readers to discover the patterns that can help 
 
 ## InnerSource Program Mind Map
 
-This first categorization effort uses a mind map to categorize patterns based on the different phases of an InnerSource Program, and the challenges that might appear in the respective phases. See [innersource-program-mind-map.html](innersource-program-mind-map.html). Note that this is still in incomplete visualization i.e. it does not contain all of our patterns.
+This first categorization effort uses a mind map to categorize patterns based on the different phases of an InnerSource Program, and the challenges that might appear in the respective phases. See [innersource-program-mind-map.html](innersource-program-mind-map.html). Note that this is still an incomplete visualization i.e. it does not contain all of our patterns.
 
 To add new patterns to the mind map, edit the source file `innersource-program-mind-map.md`, and then regenerate the visualization like this:
 
