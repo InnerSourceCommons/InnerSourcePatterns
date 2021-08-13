@@ -11,7 +11,7 @@ Instead edit toc_template.md
 # Table of Contents
 
 * [Table of Contents](../book/toc.md)
-* [Explore Patterns[](../book/explore-patterns.md)
+* [Explore Patterns](../book/explore-patterns.md)
 * [Contribute to this book](../book/contribute.md)
 
 <img src="./innersource-program-mind-map.png" title="InnerSource Patterns as a Mind Map">
