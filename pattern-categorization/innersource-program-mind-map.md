@@ -4,7 +4,7 @@
 
 ### [Start as an Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md)
 
-### [Dedicated Community Manager](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/dedicated-community-leader.md)
+### [Dedicated Community Leader](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/dedicated-community-leader.md)
 
 ### Project Setup
 
