@@ -8,17 +8,17 @@
 
 ##### [Start as an Experiment](https://patterns.innersourcecommons.org/p/start-as-experiment)
 
-#### Lack of credibility of the InnerSource program
+#### Slow community growth hinders InnerSource
 
 ##### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 
 ### Project Setup
 
-#### What is the project about and who maintains it
+#### Quickly assessing projects of different teams is hard
 
 ##### [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
 
-#### Getting help and contacting the project team
+#### Difficulties in requesting support and contacting the project team
 
 ##### [Communication Tooling](https://patterns.innersourcecommons.org/p/communication-tooling)
 
