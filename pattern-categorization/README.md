@@ -8,6 +8,15 @@ Now how do we make it easier for readers to discover the patterns that can help 
 
 This first categorization effort uses a mind map to categorize patterns based on the different phases of an InnerSource Program, and the challenges that might appear in the respective phases. See [innersource-program-mind-map.html](innersource-program-mind-map.html). Note that this is still an incomplete visualization i.e. it does not contain all of our patterns.
 
+In the mind map you will see patterns categorized from left to right in increasing levels of detail .
+
+The logic for these levels is:
+- level 0: the InnerSource program itself (as the root)
+- level 1: phase of an InnerSource Program
+- level 2: problem category
+- level 3: specific problem occurring in an InnerSource context
+- level 4: pattern (solution to the problem)
+
 To add new patterns to the mind map, edit the source file `innersource-program-mind-map.md`, and then regenerate the visualization like this:
 
 ```
