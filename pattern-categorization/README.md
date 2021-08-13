@@ -15,6 +15,8 @@ npm install markmap-lib -g
 markmap innersource-program-mind-map.md
 ```
 
+Once this is done please replace `book/innersource-program-mind-map.png` with an updated version of this mind map.
+
 ## Future Ideas for Categorization
 
 We have some other ideas for categories by which the InnerSource Patterns could be grouped.
