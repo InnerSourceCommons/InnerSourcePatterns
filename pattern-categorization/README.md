@@ -15,7 +15,7 @@ npm install markmap-lib -g
 markmap innersource-program-mind-map.md
 ```
 
-Once this is done please replace `book/innersource-program-mind-map.png` with an updated version of this mind map.
+Once this is done please replace `book/innersource-program-mind-map.jpg` with an updated version of this mind map.
 
 ## Future Ideas for Categorization
 
