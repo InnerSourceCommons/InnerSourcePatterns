@@ -2,17 +2,29 @@
 
 ## Begin
 
-### [Start as an Experiment](https://patterns.innersourcecommons.org/p/start-as-experiment)
+### Program Setup
 
-### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
+#### Management hesitates to invest in InnerSource
+
+##### [Start as an Experiment](https://patterns.innersourcecommons.org/p/start-as-experiment)
+
+#### Lack of credibility of the InnerSource program
+
+##### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 
 ### Project Setup
 
-#### [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
+#### What is the project about and who maintains it
 
-#### [Communication Tooling](https://patterns.innersourcecommons.org/p/communication-tooling)
+##### [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
 
-#### [Issue Tracker Use Cases](https://patterns.innersourcecommons.org/p/issue-tracker)
+#### Getting help and contacting the project team
+
+##### [Communication Tooling](https://patterns.innersourcecommons.org/p/communication-tooling)
+
+#### Intransparent roadmap and direction of the project
+
+##### [Issue Tracker Use Cases](https://patterns.innersourcecommons.org/p/issue-tracker)
 
 ## Adoption
 
@@ -61,6 +73,10 @@
 #### Not enough maintainers to scale
 
 ##### [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)
+
+#### Difficult cross-team coordination
+
+##### [Transparent Cross-Team Decision Making using RFCs](https://patterns.innersourcecommons.org/p/transparent-cross-team-decision-making-using-rfcs)
 
 ### Cross Legal Entities Challenges
 
