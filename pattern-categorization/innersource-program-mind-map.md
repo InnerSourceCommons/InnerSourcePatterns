@@ -14,11 +14,11 @@
 
 ### Project Setup
 
-#### Quickly assessing projects of different teams is hard
+#### Hard to assess a project quickly
 
 ##### [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
 
-#### Difficulties in requesting support and contacting the project team
+#### Ad-hoc communication hinders project growth
 
 ##### [Communication Tooling](https://patterns.innersourcecommons.org/p/communication-tooling)
 
