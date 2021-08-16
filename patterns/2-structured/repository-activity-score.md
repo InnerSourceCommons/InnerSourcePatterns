@@ -58,7 +58,10 @@ function calculateScore(repo) {
     // initial score is 50 to give active repos with low GitHub KPIs (forks, watchers, stars) a better starting point
     let iScore = 50;
     // weighting: forks and watches count most, then stars, add some little score for open issues, too
-    iScore += repo.forks_count * 5 + (repo.subscribers_count ? repo.subscribers_count : 0) + repo.stargazers_count / 3 + repo.open_issues_count / 5;
+    iScore += repo.forks_count * 5;
+    iScore += (repo.subscribers_count ? repo.subscribers_count : 0);
+    iScore += repo.stargazers_count / 3;
+    iScore += repo.open_issues_count / 5;
     let iDaysSinceLastUpdate = (new Date().getTime() - new Date(repo.updated_at).getTime()) / 1000 / 86400;
     // updated in last 3 months: adds a bonus multiplier between 0..1 to overall score (1 = updated today, 0 = updated more than 100 days ago)
     iScore = iScore * (1 + (100 - Math.min(iDaysSinceLastUpdate, 100)) / 100);
