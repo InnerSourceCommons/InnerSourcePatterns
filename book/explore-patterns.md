@@ -6,7 +6,7 @@ Now how to make it easy for readers to discover the patterns that can help them 
 
 For this purpose we provide this mind map. It **categorizes patterns based on the different phases of an InnerSource Program**, and the challenges that might appear in the respective phases.
 
-<img src="./innersource-program-mind-map.jpg" title="InnerSource Patterns as a Mind Map">
+<img src="./innersource-program-mind-map.png" title="InnerSource Patterns as a Mind Map">
 
 ## Improve this Mind Map
 
