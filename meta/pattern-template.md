@@ -71,9 +71,9 @@ You might store other related info here, such as review history: "Three of us re
 
 ## Author(s) (optional)
 
-Often, this is yourself;
-If you need to, find someone in the InnerSource Commons to be the nominal author (As Told To);
-Could also be no-one if you do not want to take on authorship (common with a donut looking for a solution)
+Often, this is yourself.
+If you need to, find someone in the InnerSource Commons to be the nominal author (As Told To).
+Could also be no-one if you do not want to take on authorship (common with a donut looking for a solution).
 
 ## Acknowledgements (optional)
 
