@@ -10,7 +10,7 @@ From http://wiki.c2.com/?PatLet
 
 ## Problem
 
-What is the problem - crisp definition of the problem
+What is the problem - crisp definition of the problem.
 Short description, usually not more than a couple sentences, that describes what the issues and challenges are.
 Be careful not to morph into information found in other sections below.
 
