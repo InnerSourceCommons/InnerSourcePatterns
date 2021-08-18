@@ -67,6 +67,7 @@ The core team doesn't have its own business agenda that determines its contibuti
 They decide what to contribute based on what will most help others to use and contribute to the project.
 
 A good way to continually remind the core team of this goal is to have them report regularly on:
+
 * number of active teams using the project
 * number of off-team contributions to the project.
 
