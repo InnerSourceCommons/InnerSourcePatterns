@@ -87,6 +87,10 @@ The core team fills those gaps and greases the wheels so that the contribution e
 
 Nike implented this pattern to manage the InnerSource effort around its reusable CI/CD pipelines.
 
+## Status
+
+Structured
+
 ## Author
 
 [Russell R. Rutledge](https://github.com/rrrutledge)
