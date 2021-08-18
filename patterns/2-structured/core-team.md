@@ -47,7 +47,9 @@ Form a core team whose job it is to maintain the project in a state so that othe
 This core team does the work that is necessary for a healthy usage and contribution ecosystem.
 This critical work tends to not be prioritized as a contribution.
 Catogories of this type of work include communication, local environment, and devops infrastructure.
+
 Here are some specific examples:
+
 * Production bugs.
 * Documentation.
 * Onboarding tutorials and examples.
