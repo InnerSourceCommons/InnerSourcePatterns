@@ -66,9 +66,10 @@ While the [Trusted Committer] role focuses mostly on facilitating others' contri
 The core team doesn't have its own business agenda that determines its contibutions.
 They decide what to contribute based on what will most help others to use and contribute to the project.
 
-A good way to continually remind the core team of this goal is to have them report regularly on
+A good way to continually remind the core team of this goal is to have them report regularly on:
 * number of active teams using the project
 * number of off-team contributions to the project.
+
 Continual focus on these metrics will naturally drive the core team to prioritize generally the right work to create a thriving InnerSource ecosystem around the project.
 
 ## Resulting Context
