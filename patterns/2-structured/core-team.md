@@ -4,8 +4,7 @@ Core Team
 
 ## Patlet
 
-Is your InnerSource project difficult for people to work with,
-yet no one is interested in making it better?
+Is your InnerSource project difficult for people to work with, yet no one is interested in improving it?
 Establish a core team to take care of those fundamental items so that contributors can focus on adding features that provide value to them.
 
 ## Problem
@@ -77,44 +76,15 @@ Continual focus on these metrics and effort to help them improve will naturally 
 
 ## Rationale
 
-Separating out a core team and tasking them in this way 
+Separating out a core team and tasking them in this way helps to fill the gaps that a successful project needs yet are left behind by contributors that are pursuing their own agenda only.
+The core team fills the gaps and greases the wheels so that the contribution ecosystem remains healthy.
 
-Explains why this is the right solution; using totally different words WHY this solution balances these forces and this context to solve this problem.
-Can expand on what-if's or theories.
+## Known Instances
 
-## Known Instances (optional)
+Nike implented this pattern to manage the InnerSource effort around its reusable CI/CD pipelines.
 
-Where has this been seen before?
-Helps to reinforce that this is a REAL pattern and that you match the context.
+## Author
 
-May mention:
-
-* A particular business
-* Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
-
-## Status (optional until merging)
-
-General pattern status is stored in GitHub's Label tagging - see any pull request.
-Note that this GitHub label tagging becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful.
-
-You might store other related info here, such as review history: "Three of us reviewed this on 2/5/17 and it needs John's expertise before it can go further."
-
-## Author(s) (optional)
-
-Often, this is yourself;
-If you need to, find someone in the InnerSource Commons to be the nominal author (As Told To);
-Could also be no-one if you do not want to take on authorship (common with a donut looking for a solution)
-
-## Acknowledgements (optional)
-
-Include those who assisted in helping with this pattern - both for attribution and for possible future follow up.
-Though optional, most patterns should list who helped in their creation.
-
-## Alias (optional)
-
-If this pattern is also known under a different name than what is listed unter **Title**, please list those alternative titles here.
-e.g. if the pattern is named after the problem it solves, a helpful alias might be one that describes the solution that is applied.
-
+[Russell R. Rutledge](https://github.com/rrrutledge)
 
 [Trusted Committers]: https://patterns.innersourcecommons.org/p/trusted-committer
-[Trusted Committer]: https://patterns.innersourcecommons.org/p/trusted-committer
