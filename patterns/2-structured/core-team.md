@@ -4,8 +4,9 @@ Core Team
 
 ## Patlet
 
-Is your InnerSource project difficult for people to work with, yet no one is interested in improving it?
-Establish a core team to take care of the project's fundamental items so that contributors are enabled to add and use the features that provide value to their scenarios.
+Even when an InnerSource project is widely needed, contributions and usage may be stymied because the project is difficult to work with.
+Establish a core team that is dedicated to take care of the project's fundamental items.
+Their work enables contributors to add and use the features that provide value to their scenarios.
 
 ## Problem
 
@@ -26,14 +27,15 @@ Some possible causes:
 There's a central project that everyone depends on.
 What a great candidate for InnerSource!
 Unfortunately, the project has grown organically, with various contributions and additions slapped on haphazardly.
-Now it's an icky, black morass of code that no one understands and everyone is afraid to touch.
-It's clearly due for an overhaul, but even though everyone needs that and wants it, no one takes the time to work on it.
+Now it's an icky, thick morass of code that no one understands and everyone is afraid to touch.
+It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.), but even though everyone needs and wants that work, no one takes the time to do it.
 
 ## Context
 
-* Many teams use the project.
+* Many teams need the project.
 * Significant tech debt.
 * Slow adoption and iteration on the project.
+* Nobody is taking reponsibility for the project and contribution ecosystem as a whole.
 
 ## Forces
 
@@ -43,8 +45,7 @@ It's clearly due for an overhaul, but even though everyone needs that and wants 
 
 ## Solution
 
-Form a core team whose job it is to maintain the project in a state so that others can easily onboard and contribute to it.
-This core team does the work that is necessary for a healthy usage and contribution ecosystem.
+Form a core team whose job it is to maintain this project in a state so that others can easily onboard and contribute to it.This core team does the work that is necessary for a healthy usage and contribution ecosystem.
 This critical work tends to not be prioritized as a contribution.
 Catogories of this type of work include communication, local environment, and devops infrastructure.
 
@@ -63,6 +64,10 @@ Here are some specific examples:
 
 Each of these items is very important to a healthy product ecosystem, yet is unlikely to be prioritized as a contribution.
 
+The core team may be composed of a small number of people on a full-time or a part-time basis.
+The choice depends on the amount of work needed, the availibility of resources, and the culture of the organization.
+The most important consideration is to form the team in a way that allows the organization to empower and hold them accountable in the same way as any other team.
+
 Due to their central role, core team members should nearly always fill the role of [Trusted Committers] as well.
 While the [Trusted Committer] role focuses mostly on facilitating others' contribution and use of the project, a core team member regularly contributes to the project as well.
 The core team doesn't have its own business agenda that determines its contibutions.
@@ -77,8 +82,8 @@ Continual focus on these metrics will naturally drive the core team to prioritiz
 
 ## Resulting Context
 
-* Many teams use and contribute to the project.
 * It is easy to use and contribute to the project.
+* Many teams use and contribute to the project.
 * Core team has their success defined in terms of others' interaction with and response to their project.
 
 ## Rationale
