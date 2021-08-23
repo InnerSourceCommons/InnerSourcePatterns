@@ -69,10 +69,10 @@ The core team may be composed of a small number of people on a full-time or a pa
 The choice depends on the amount of work needed, the availibility of resources, and the culture of the organization.
 The most important consideration is to form the team in a way that allows the organization to empower and hold them accountable in the same way as any other team.
 
-Due to their central role, core team members should nearly always fill the role of [Trusted Committers] as well.
-While the [Trusted Committer] role focuses mostly on facilitating others' contribution and use of the project, a core team member regularly contributes to the project as well.
+Due to their central role, core team members should nearly always fill the role of [Trusted Committers][tc] as well.
+While the [Trusted Committer][tc] role focuses mostly on facilitating others' contribution and use of the project, a core team member regularly contributes to the project as well.
 The core team doesn't have its own business agenda that determines its contibutions.
-They decide what to contribute based on what will most help others to use and contribute to the project.
+They decide what to contribute based on what will help others most to use and contribute to the project.
 
 A good way to continually remind the core team of this goal is to have them report regularly on:
 
@@ -104,5 +104,4 @@ Structured
 
 [Russell R. Rutledge](https://github.com/rrrutledge)
 
-[Trusted Committers]: https://innersourcecommons.org/learn/learning-path/trusted-committer/
-[Trusted Committer]: https://innersourcecommons.org/learn/learning-path/trusted-committer/
+[tc]: https://innersourcecommons.org/learn/learning-path/trusted-committer/
