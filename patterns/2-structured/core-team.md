@@ -94,7 +94,7 @@ The core team fills those gaps and greases the wheels so that the contribution e
 
 ## Known Instances
 
-Nike implented this pattern to manage the InnerSource effort around its reusable CI/CD pipelines.
+Nike implemented this pattern to manage the InnerSource effort around its reusable CI/CD pipelines.
 
 ## Status
 
