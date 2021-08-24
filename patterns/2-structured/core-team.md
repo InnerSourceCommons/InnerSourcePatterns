@@ -66,7 +66,7 @@ Here are some specific examples:
 Each of these items is very important to a healthy product ecosystem, yet is unlikely to be prioritized as a contribution.
 
 The core team may be composed of a small number of people on a full-time or a part-time basis.
-The choice depends on the amount of work needed, the availibility of resources, and the culture of the organization.
+The choice depends on the amount of work needed, the availability of resources, and the culture of the organization.
 The most important consideration is to form the team in a way that allows the organization to empower and hold them accountable in the same way as any other team.
 
 Due to their central role, core team members should nearly always fill the role of [Trusted Committers][tc] as well.
