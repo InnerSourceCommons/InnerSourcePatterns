@@ -48,7 +48,7 @@ It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.
 Form a core team whose job it is to maintain this project in a state so that others can easily onboard and contribute to it.
 This core team does the work that is necessary for a healthy usage and contribution ecosystem.
 This critical work tends to not be prioritized as a contribution.
-Catogories of this type of work include communication, local environment, and devops infrastructure.
+Categories of this type of work include communication, local environment, and DevOps infrastructure.
 
 Here are some specific examples:
 
