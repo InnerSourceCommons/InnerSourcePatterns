@@ -71,7 +71,7 @@ The most important consideration is to form the team in a way that allows the or
 
 Due to their central role, core team members should nearly always fill the role of [Trusted Committers][tc] as well.
 While the [Trusted Committer][tc] role focuses mostly on facilitating others' contribution and use of the project, a core team member regularly contributes to the project as well.
-The core team doesn't have its own business agenda that determines its contibutions.
+The core team doesn't have its own business agenda that determines its contributions.
 They decide what to contribute based on what will help others most to use and contribute to the project.
 
 A good way to continually remind the core team of this goal is to have them report regularly on:
