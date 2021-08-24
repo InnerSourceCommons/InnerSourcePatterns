@@ -33,7 +33,7 @@ It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.
 ## Context
 
 * Many teams need the project.
-* Significant tech debt.
+* The project has significant tech debt.
 * Slow adoption and iteration on the project.
 * Nobody is taking reponsibility for the project and contribution ecosystem as a whole.
 
