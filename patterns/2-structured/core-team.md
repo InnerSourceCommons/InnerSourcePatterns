@@ -4,7 +4,7 @@ Core Team
 
 ## Patlet
 
-Even when an InnerSource project is widely needed, contributions and usage may be stymied because the project is difficult to work with.
+Even when an InnerSource project is widely needed, contributions and usage may be hindered because the project is difficult to work with.
 Establish a core team that is dedicated to take care of the project's fundamental items.
 Their work enables contributors to add and use the features that provide value to their scenarios.
 
@@ -35,7 +35,7 @@ It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.
 * Many teams need the project.
 * The project has significant tech debt.
 * Slow adoption and iteration on the project.
-* Nobody is taking reponsibility for the project and contribution ecosystem as a whole.
+* There is not a owner or maintainer who takes reponsibility for the project and contribution ecosystem as a whole.
 
 ## Forces
 
@@ -52,16 +52,16 @@ Categories of this type of work include communication, local environment, and De
 
 Here are some specific examples:
 
-* Production bugs.
-* Documentation.
-* Onboarding tutorials and examples.
-* Automated testing.
-* CI/CD.
-* Local environment.
-* Modularization.
-* Versioning.
-* Monitoring.
-* Trailblazing new classes/categories of features.
+* Production bugs
+* Documentation
+* Onboarding tutorials and examples
+* Automated testing
+* CI/CD
+* Local environment
+* Modularization
+* Versioning
+* Monitoring
+* Trailblazing new classes/categories of features
 
 Each of these items is very important to a healthy product ecosystem, yet is unlikely to be prioritized as a contribution.
 
@@ -72,7 +72,7 @@ The most important consideration is to form the team in a way that allows the or
 Due to their central role, core team members should nearly always fill the role of [Trusted Committers][tc] as well.
 While the [Trusted Committer][tc] role focuses mostly on facilitating others' contribution and use of the project, a core team member regularly contributes to the project as well.
 The core team doesn't have its own business agenda that determines its contributions.
-They decide what to contribute based on what will help others most to use and contribute to the project.
+They decide what to work on based on what will help others most to use and contribute to the project.
 
 A good way to continually remind the core team of this goal is to have them report regularly on:
 
