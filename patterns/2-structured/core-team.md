@@ -28,7 +28,7 @@ There's a central project that everyone depends on.
 What a great candidate for InnerSource!
 Unfortunately, the project has grown organically, with various contributions and additions slapped on haphazardly.
 Now it's an icky, thick morass of code that no one understands and everyone is afraid to touch.
-It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.), but even though everyone needs and wants that work, no one takes the time to do it.
+It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.), but even though everyone needs and wants that work to happen, no one takes the time to do it.
 
 ## Context
 
