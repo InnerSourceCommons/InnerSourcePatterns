@@ -39,8 +39,7 @@ It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.
 
 ## Forces
 
-* Everyone is busy.
-* Each contributing team prioritizes work that results in an immediate payoff for that team.
+* Every contributing team is busy, and therefore prioritizes work that results in an immediate payoff for themselves.
 * As the project grows the natural trend is for it to become more difficult to use and to modify.
 
 ## Solution
