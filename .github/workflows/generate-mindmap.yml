@@ -18,5 +18,10 @@ jobs:
       uses: swinton/screenshot-website@v1.x
       with:
         source: pattern-categorization/innersource-program-mind-map.html
-        destination: screenshot.png
+        destination: innersource-program-mind-map.png
+        path: pattern-categorization/
         full-page: true
+    - name: Commit screenshot
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Re-creating screenshot
