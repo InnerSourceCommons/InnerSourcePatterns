@@ -1,0 +1,22 @@
+name: Generate Mindmap
+
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    # paths:
+    #   - ".github/workflows/generate-mindmap.yml"
+    #   - "pattern-categorization/innersource-program-mind-map.html"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Screenshot Website
+      uses: swinton/screenshot-website@v1.x
+      with:
+        source: pattern-categorization/innersource-program-mind-map.html
+        destination: screenshot.png
+        full-page: true
