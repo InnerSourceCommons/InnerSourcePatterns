@@ -62,16 +62,19 @@ function calculateScore(repo) {
     iScore += (repo.subscribers_count ? repo.subscribers_count : 0);
     iScore += repo.stargazers_count / 3;
     iScore += repo.open_issues_count / 5;
-    let iDaysSinceLastUpdate = (new Date().getTime() - new Date(repo.updated_at).getTime()) / 1000 / 86400;
+
     // updated in last 3 months: adds a bonus multiplier between 0..1 to overall score (1 = updated today, 0 = updated more than 100 days ago)
-    iScore = iScore * (1 + (100 - Math.min(iDaysSinceLastUpdate, 100)) / 100);
+    let iDaysSinceLastUpdate = (new Date().getTime() - new Date(repo.updated_at).getTime()) / 1000 / 86400;
+    iScore = iScore * ((100 - Math.min(iDaysSinceLastUpdate, 100)) / 100);
+
     // evaluate participation stats for the previous  3 months
     repo._InnerSourceMetadata = repo._InnerSourceMetadata || {};
     if (repo._InnerSourceMetadata.participation) {
         // average commits: adds a bonus multiplier between 0..1 to overall score (1 = >10 commits per week, 0 = less than 3 commits per week)
-        let iAverageCommitsPerWeek = repo._InnerSourceMetadata.participation.slice(13).reduce((a, b) => a + b) / 13;
-        iScore = iScore * (1 + (Math.min(Math.max(iAverageCommitsPerWeek - 3, 0), 7)) / 7);
+        let iAverageCommitsPerWeek = repo._InnerSourceMetadata.participation.slice(repo._InnerSourceMetadata.participation.length - 13).reduce((a, b) => a + b) / 13;
+        iScore = iScore * ((Math.min(Math.max(iAverageCommitsPerWeek - 3, 0), 7)) / 7);
     }
+
     // boost calculation:
     // all repositories updated in the previous year will receive a boost of maximum 1000 declining by days since last update
     let iBoost = (1000 - Math.min(iDaysSinceLastUpdate, 365) * 2.74);
@@ -92,6 +95,7 @@ function calculateScore(repo) {
     iScore = Math.round(iScore - 50);
     // add score to metadata on the fly
     repo._InnerSourceMetadata.score = iScore;
+
     return iScore;
 }
 ```
