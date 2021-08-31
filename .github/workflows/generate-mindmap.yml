@@ -18,7 +18,6 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 12.x
-        cache: 'npm'
     - name: Run Markmap
       run: |
         npm install -g markmap-cli
@@ -32,8 +31,8 @@ jobs:
         full-page: false
     - name: Copy Screenshot
       run: cp ${{ steps.screenshot-generator.outputs.path }} pattern-categorization/
-    # - name: Compress PNG
-    #   run: optipng pattern-categorization/innersource-program-mind-map.png
+    - name: Compress PNG
+      run: optipng pattern-categorization/innersource-program-mind-map.png
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
