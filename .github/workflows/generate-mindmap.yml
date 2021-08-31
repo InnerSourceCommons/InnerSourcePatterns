@@ -20,7 +20,7 @@ jobs:
         node-version: 12.x
         cache: 'npm'
         cache-dependency-path: pattern-categorization/package-lock.json
-    - name: Install dependencies
+    - name: Install Node.js dependencies
       run: |
         cd pattern-categorization/
         npm install
