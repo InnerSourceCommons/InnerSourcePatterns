@@ -14,16 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Screenshot Website
+    - name: Screenshot Markmap Website
       id: screenshot-generator
       uses: swinton/screenshot-website@v1.x
       with:
         source: pattern-categorization/innersource-program-mind-map.html
         destination: innersource-program-mind-map.png
         full-page: true
-    - name: log-some
-      run: echo "${{ steps.screenshot-generator.outputs.path }}"
-    # - name: Commit screenshot
-    #   uses: stefanzweifel/git-auto-commit-action@v4
-    #   with:
-    #     commit_message: Re-creating screenshot
+    - name: Copy Screenshot
+      run: cp ${{ steps.screenshot-generator.outputs.path }} pattern-categorization/
+    - name: Commit Screenshot
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Re-creating screenshot
