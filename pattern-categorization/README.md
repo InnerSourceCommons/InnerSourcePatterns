@@ -21,7 +21,7 @@ The logic for these levels is:
 To add new patterns to the mind map, edit the source file `innersource-program-mind-map.md`, and then regenerate the visualization like this:
 
 ```
-npm install markmap-lib -g
+npm install -g markmap-cli
 markmap innersource-program-mind-map.md
 ```
 
