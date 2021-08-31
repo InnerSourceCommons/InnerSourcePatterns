@@ -10,10 +10,18 @@ on:
     #   - "pattern-categorization/innersource-program-mind-map.html"
 
 jobs:
-  validate:
+  generate-mindmap:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Run Markmap
+      run: |
+        npm install -g markmap-lib
+        markmap pattern-categorization/innersource-program-mind-map.md -o pattern-categorization/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
       uses: swinton/screenshot-website@v1.x
@@ -23,7 +31,7 @@ jobs:
         full-page: true
     - name: Copy Screenshot
       run: cp ${{ steps.screenshot-generator.outputs.path }} pattern-categorization/
-    - name: Commit Screenshot
+    - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Re-creating screenshot
+        commit_message: Re-creating markmap and screenshot
