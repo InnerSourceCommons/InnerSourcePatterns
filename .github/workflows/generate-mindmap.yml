@@ -18,9 +18,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
+        cache: 'npm'
+      run: npm install -g markmap-cli
     - name: Run Markmap
       run: |
-        npm install -g markmap-cli
         markmap --no-toolbar pattern-categorization/innersource-program-mind-map.md -o pattern-categorization/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
