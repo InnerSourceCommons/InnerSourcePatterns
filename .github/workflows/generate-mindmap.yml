@@ -32,7 +32,9 @@ jobs:
     - name: Copy Screenshot
       run: cp ${{ steps.screenshot-generator.outputs.path }} pattern-categorization/
     - name: Compress PNG
-      run: optipng pattern-categorization/innersource-program-mind-map.png
+      run: |
+      sudo apt-get install optipng
+      optipng pattern-categorization/innersource-program-mind-map.png
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
