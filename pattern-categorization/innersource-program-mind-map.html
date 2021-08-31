@@ -16,23 +16,11 @@
   height: 100vh;
 }
 </style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.6/dist/style.min.css">
+
 </head>
 <body>
 <svg id="mindmap"></svg>
-<script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.6"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.6/dist/index.umd.min.js"></script><script>(r => {
-          setTimeout(r);
-        })(() => {
-  const {
-    markmap,
-    mm
-  } = window;
-  const toolbar = new markmap.Toolbar();
-  toolbar.attach(mm);
-  const el = toolbar.render();
-  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
-  document.body.append(el);
-})</script><script>((getMarkmap, getOptions, data) => {
+<script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.6"></script><script>((getMarkmap, getOptions, data) => {
         const {
           Markmap
         } = getMarkmap();
