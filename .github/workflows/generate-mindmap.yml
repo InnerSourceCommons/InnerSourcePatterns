@@ -7,7 +7,7 @@ on:
   pull_request:
     # paths:
     #   - ".github/workflows/generate-mindmap.yml"
-    #   - "pattern-categorization/innersource-program-mind-map.html"
+    #   - "pattern-categorization/innersource-program-mind-map.md"
 
 jobs:
   generate-mindmap:
@@ -28,7 +28,7 @@ jobs:
       with:
         source: pattern-categorization/innersource-program-mind-map.html
         destination: innersource-program-mind-map.png
-        full-page: true
+        full-page: false
     - name: Copy Screenshot
       run: cp ${{ steps.screenshot-generator.outputs.path }} pattern-categorization/
     - name: Commit Changes
