@@ -21,7 +21,9 @@ jobs:
         cache: 'npm'
         cache-dependency-path: pattern-categorization/package-lock.json
     - name: Install dependencies
-      run: npm install
+      run: |
+        cd pattern-categorization/
+        npm install
     - name: Run Markmap
       run: |
         cd pattern-categorization/
