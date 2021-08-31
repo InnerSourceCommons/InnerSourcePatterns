@@ -21,7 +21,7 @@ jobs:
     - name: Run Markmap
       run: |
         npm install -g markmap-cli
-        markmap pattern-categorization/innersource-program-mind-map.md -o pattern-categorization/innersource-program-mind-map.html
+        markmap --no-toolbar pattern-categorization/innersource-program-mind-map.md -o pattern-categorization/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
       uses: swinton/screenshot-website@v1.x
