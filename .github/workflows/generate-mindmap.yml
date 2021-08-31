@@ -19,9 +19,9 @@ jobs:
       with:
         node-version: 12.x
         cache: 'npm'
-      run: npm install -g markmap-cli
     - name: Run Markmap
       run: |
+        npm install -g markmap-cli
         markmap --no-toolbar pattern-categorization/innersource-program-mind-map.md -o pattern-categorization/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
@@ -32,6 +32,8 @@ jobs:
         full-page: false
     - name: Copy Screenshot
       run: cp ${{ steps.screenshot-generator.outputs.path }} pattern-categorization/
+    # - name: Compress PNG
+    #   run: optipng pattern-categorization/innersource-program-mind-map.png
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
