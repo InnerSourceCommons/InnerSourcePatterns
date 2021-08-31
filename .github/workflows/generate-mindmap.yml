@@ -39,7 +39,8 @@ jobs:
       run: cp ${{ steps.screenshot-generator.outputs.path }} pattern-categorization/
     - name: Compress PNG
       run: |
-        npx optipng pattern-categorization/innersource-program-mind-map.png
+        cd pattern-categorization
+        npx optipng innersource-program-mind-map.png
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
