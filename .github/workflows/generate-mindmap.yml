@@ -20,7 +20,7 @@ jobs:
         node-version: 12.x
     - name: Run Markmap
       run: |
-        npm install markmap-lib -g
+        npm install -g markmap-cli
         markmap pattern-categorization/innersource-program-mind-map.md -o pattern-categorization/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
