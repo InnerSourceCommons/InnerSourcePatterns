@@ -40,7 +40,7 @@ jobs:
     - name: Reduce Screenshot Size (PNG)
       run: |
         cd pattern-categorization
-        npx optipng ${{ steps.screenshot-generator.outputs.path }}
+        npx optipng innersource-program-mind-map.png
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
