@@ -34,6 +34,10 @@
 
 ##### [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
 
+#### Is it great?
+
+##### [Say yes pattern](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
+
 ### Cultural Challenges
 
 #### Unrecognized effort
