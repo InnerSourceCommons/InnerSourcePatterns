@@ -84,7 +84,7 @@ Continual focus on these metrics will naturally drive the core team to prioritiz
 
 experiment
 
-<img alt="some text" src="../../assets/img/core-team.svg" width="1420" height="480" />
+![Responsibilities of Core Team and InnerSource Contributors](../../assets/img/core-team.png)
 
 ## Resulting Context
 
