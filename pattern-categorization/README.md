@@ -1,7 +1,5 @@
 # Pattern Categorization
 
-test
-
 We see more and more patterns being contributed by the InnerSource community. That is awesome!
 
 Now how do we make it easier for readers to discover the patterns that can help them in their particular situation?
