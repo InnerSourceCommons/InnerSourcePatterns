@@ -4,6 +4,10 @@
 
 ### Program Setup
 
+#### New Program problem
+
+##### [just-fix-it pattern](https://patterns.innersourcecommons.org/p/start-as-experiment)
+
 #### Management hesitates to invest in InnerSource
 
 ##### [Start as an Experiment](https://patterns.innersourcecommons.org/p/start-as-experiment)
