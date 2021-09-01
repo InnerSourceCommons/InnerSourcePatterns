@@ -80,10 +80,6 @@ A good way to continually remind the core team of this goal is to have them repo
 
 Continual focus on these metrics will naturally drive the core team to prioritize generally the right work to create a thriving InnerSource ecosystem around the project.
 
-![Responsibilities of Core Team and InnerSource Contributors](../../assets/img/core-team.svg)
-
-experiment
-
 ![Responsibilities of Core Team and InnerSource Contributors](../../assets/img/core-team.png)
 
 ## Resulting Context
