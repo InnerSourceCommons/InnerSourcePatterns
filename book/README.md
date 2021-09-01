@@ -22,6 +22,7 @@ The `./book` folder contains generator scripts and some extra content required t
 - `.github/workflows/book.yml` - A GitHub Action that triggers the execution of `/book/generate_toc.rb`.
 - `/book/introduction.md` - The introduction to our book. This content is what the reader sees first when they open the book. The current content is based on [README.md](../README.md). We may need to modify this content even further, to address the readers of the book more specifically, rather than the readers of our GitHub repository.
 - `/book/contribute.md` - Information about how to contribute to this book.
+- `/book/explore-patterns.md` - Dedicated page in the book that highlights the mind map of all patterns.
 
 ## Objectives of the book
 
