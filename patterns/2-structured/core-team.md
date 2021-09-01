@@ -42,6 +42,8 @@ It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.
 * Every contributing team is busy, and therefore prioritizes work that results in an immediate payoff for themselves.
 * As the project grows the natural trend is for it to become more difficult to use and to modify.
 
+![Responsibilities of Core Team and InnerSource Contributors](../../assets/img/core-team.svg)
+
 ## Solution
 
 Form a core team whose job it is to maintain this project in a state so that others can easily onboard and contribute to it.
