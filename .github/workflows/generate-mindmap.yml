@@ -35,11 +35,7 @@ jobs:
         source: pattern-categorization/innersource-program-mind-map.html
         destination: innersource-program-mind-map.png
         full-page: false
-        inset:
-          top: 40
-          right: 0
-          bottom: 40
-          left: 0
+        inset: 40
     - name: Compress PNG
       run: |
         cd pattern-categorization
