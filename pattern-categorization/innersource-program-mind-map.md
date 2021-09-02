@@ -52,6 +52,10 @@
 
 ##### [Service vs. Library](https://patterns.innersourcecommons.org/p/service-vs-library)
 
+#### Project is difficult to contribute to and use
+
+##### [Core Team](https://patterns.innersourcecommons.org/p/core-team)
+
 ### Organizational Challenges
 
 #### Discouragement of contributing resource
@@ -77,6 +81,10 @@
 #### Difficult cross-team coordination
 
 ##### [Transparent Cross-Team Decision Making using RFCs](https://patterns.innersourcecommons.org/p/transparent-cross-team-decision-making-using-rfcs)
+
+#### Project without an owner/maintainer
+
+##### [Core Team](https://patterns.innersourcecommons.org/p/core-team)
 
 ### Cross Legal Entities Challenges
 
