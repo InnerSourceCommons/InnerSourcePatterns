@@ -75,6 +75,7 @@ Note: The aforementioned metrics are some common examples. They aren't a one-siz
 | Improve quality | # of automated test runs on PRs<br># of issues created from external contributors |
 | Innovation |  |
 | Others | # of repositories using InnerSource components (managed contributing guidelines, assigned TCs)<br>Days of host's responsiveness on the issues/PRs created by external contributors |
+
 ## Resulting Context
 
 The organization builds a monitoring and reporting infrastructure for the metrics that flow directly from its business goals.
