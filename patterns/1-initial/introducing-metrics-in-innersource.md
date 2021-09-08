@@ -64,7 +64,18 @@ Produce a characterization of metrics as this might be helpful for others to und
 * Another class of metrics is around how much InnerSourcing is happening. A raw definition of InnerSource based on code submissions to a repository not owned by the submitter's team could be measurable in a few ways.
 * A third class of metrics are KPIs that we believe will improve the raw amount of InnerSourcing happening (e.g. mean-time-to-review, automated test runs on PRs, etc.).
 
-Note: The aforementioned metrics are some common examples. They aren't a one-size-fits-all. We expect the business goals of the organization to drive the metric selection process.
+Note: The aforementioned metrics are some common examples. They aren't a one-size-fits-all. We expect the business goals of the organization to drive the metric selection process. Below is the list consolidating some metrics candidates by business goals.
+| Business Goals | Metric Candidates |
+|---|---|
+| Remove silos and bottlenecks | # of PRs from external contributors<br># of PRs from external contributors that are merged<br># of outside collaborators<br># of issues created from external contributors<br># of reviews from external contributors |
+| Knowledge sharing | # of clone or forks from external guests<br># of visits from external guests (proposed by Jack) |
+| Creating reusable software | # of submodule usage<br># of code reuse across projects<br># of clone or forks from external guests |
+| Increase development speed | Time to market<br>Mean-time-to-review |
+| Employee satisfication& talent retention |  |
+| Improve quality | # of automated test runs on PRs<br># of issues created from external contributors |
+| Innovation |  |
+| Others | # of repositories using InnerSource components (managed contributing guidelines, assigned TCs)<br>Days of host's responsiveness on the issues/PRs created by external contributors |
+
 
 ## Resulting Context
 
@@ -89,8 +100,11 @@ Initial
 - Clint
 - Russ Rutledge
 - Tom
+- Jack Yang
 
 ## Acknowledgement
 
 - Georg
 - Bob
+- Aaron Steward
+- Willson Mar
