@@ -71,7 +71,7 @@ The list below consolidates some metrics candidates, grouped by business goals.
 | Business Goals | Metric Candidates |
 |---|---|
 | Remove silos and bottlenecks | # of PRs from external contributors<br># of PRs from external contributors that are merged<br># of outside collaborators<br># of issues created from external contributors<br># of reviews from external contributors |
-| Knowledge sharing | # of clone or forks from external guests<br># of visits from external guests (proposed by Jack) |
+| Knowledge sharing | # of clone or forks from external guests<br># of visits from external guests |
 | Creating reusable software | # of submodule usage<br># of code reuse across projects<br># of clone or forks from external guests |
 | Increase development speed | Time to market<br>Mean-time-to-review |
 | Employee satisfication& talent retention |  |
