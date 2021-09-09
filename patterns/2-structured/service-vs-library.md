@@ -42,19 +42,23 @@ do not affect their own downstream customers.
 Severity levels for the same types of errors may be different across team
 boundaries due to different SLA definitions per team/customer relationship.
 
+Teams may have different security or regulatory constraints governing their deployments.
+
 ## Solutions
 
 Decouple responsibility for source code from deployment: Both teams work to
 identify exactly where there is overlap and synergies.
 
 Only shared source code is kept as part of the InnerSource project with shared
-responsibility.
+responsibility. Test and release packaging should be included in the shared source to allow shared change validation.
 
 Decouple configuration and deployment pipelines from actual business logic.
 Establish a second deployment of the service for the second team.
 
 Treat the common base as a library that is used by both teams with shared code
 ownership.
+
+Deployment configurations can be included as separate projects in your InnerSource portfolio to allow teams to discuss/collaborate or a new team to copy.
 
 ## Resulting Context
 
@@ -71,6 +75,8 @@ The likelihood that changes are needed and made in the shared source code
 increases, leading to more frequent opportunities to refine, improve and optimise
 the implementation.
 
+Encourages incremental operational standardisation in release packaging, telemetry, health/readiness endpoints in the shared code.
+
 ## See also
 
 Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
@@ -79,6 +85,8 @@ Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern tha
 
 Europace AG
 
+Flutter Entertainment: typical InnerSource application has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artefact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skillsets in different areas of the business.
+
 ## Status
 
 * Structured
@@ -86,6 +94,7 @@ Europace AG
 ## Author(s)
 
 Isabel Drost-Fromm
+Rob Tuley
 
 ## Acknowledgements
 
