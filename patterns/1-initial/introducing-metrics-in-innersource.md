@@ -108,5 +108,5 @@ Initial
 
 - Georg
 - Bob
-- [Aaron Steward](https://github.com/a-a-ron/innersource-template-pluralsight/tree/master/metrics)
+- [Aaron Stewart](https://github.com/a-a-ron/innersource-template-pluralsight/tree/master/metrics)
 - Wilson Mar
