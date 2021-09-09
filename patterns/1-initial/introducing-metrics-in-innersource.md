@@ -106,4 +106,4 @@ Initial
 - Georg
 - Bob
 - Aaron Steward
-- Willson Mar
+- Wilson Mar
