@@ -14,7 +14,7 @@ Organisations are littered with repositories that don't have README files, or ar
 
 A *Software Project Scoring Grid*, as presented in this pattern, provides a guided pathway from "new project" to a "mature, well maintained, inner source project". By grading areas such as Readme, Contribution Guidelines, Licensing, Pull Requests, and Continuous Integration; a scoring grid can objectively highlight positive and negative aspects of a project, and provide tangible guidance to engineering teams on how to make their repositories more InnerSource friendly.
 
-## Story (optional)
+## Story
 
 Company A, well established engineering department, with departmental standards - over 200 repositories used by 100 or so engineers, teams were asked to self-score on code quality - this led to an expanded definition of "What good looks like" for a software project under ownership and maintenance within the department. This expanded definition used InnerSource guidance to produce a scoring grid that InnerSource advocates could use to share and promote best practice across community members.
 
