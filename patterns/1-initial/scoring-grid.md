@@ -4,7 +4,7 @@ Software Project Scoring Grid
 
 ## Patlet
 
-Objectively improve the quality of code repositories across an organisation by introducing a Scoring Grid, which can be used to grade the state of existing code bases against InnerSource best practice. 
+Objectively improve the quality of code repositories across an organisation by introducing a Scoring Grid, which can be used to grade the state of existing code bases against InnerSource best practice.
 
 By providing a grading system, the Scoring Grid can lay out a path that engineers can follow to develop greenfield projects into mature InnerSource communities with strong ownership through incremental improvement and rescoring.
 
@@ -18,7 +18,7 @@ A *Software Project Scoring Grid*, as presented in this pattern, provides a guid
 
 Company A, well established engineering department, with departmental standards - over 200 repositories used by 100 or so engineers, teams were asked to self-score on code quality - this led to an expanded definition of "What good looks like" for a software project under ownership and maintenance within the department. This expanded definition used InnerSource guidance to produce a scoring grid that InnerSource advocates could use to share and promote best practice across community members.
 
-After several years I left Company A to join Company B, in my first week I saw numerous and obvious errors in README files, poor code quality, weak ownership, out of date build and release information. I craved a public version of the InnerSource grid used at Company A and decided to create my own grid based on measures important to me; highlighting all the bad, and good aspects of software development as a method to inspire and encourage change within the engineering function of my new company. This grid was rapidly highlighted and shared by Engineering Managers to different teams, and became a useful conversation tool for "What does good look like?". 
+After several years I left Company A to join Company B, in my first week I saw numerous and obvious errors in README files, poor code quality, weak ownership, out of date build and release information. I craved a public version of the InnerSource grid used at Company A and decided to create my own grid based on measures important to me; highlighting all the bad, and good aspects of software development as a method to inspire and encourage change within the engineering function of my new company. This grid was rapidly highlighted and shared by Engineering Managers to different teams, and became a useful conversation tool for "What does good look like?".
 
 At Company B, we then tried to go the next step, and are trying to use automated measures outlined in our Scoring Grid to score the 600+ repositories at our organisation, by providing nightly feedback in an interactive dashboard, so that teams and engineering managers can improve the maintainability and health of their projects.
 
@@ -32,7 +32,7 @@ Where does the problem exist?
 
 What are the pre-conditions?
 
-- A large number of poorly maintained, legacy, or "abandonned" code bases 
+- A large number of poorly maintained, legacy, or "abandonned" code bases
 - Teams are unhappy working on a codebase, expending lots of manual effort running complex commands, and following tribal release knowledge - i.e. they don't have highly automated, well documented, high confidence, release processes
 - A measure of "mounting tech debt"
 
@@ -42,7 +42,7 @@ What are the pre-conditions?
 - No standards for "What does good look like?"
 - Product management asking to go faster
 
-It takes time to introduce a scoring grid, do the scoring, and prioritise improvements, but the benefits should be self-evident in prioritising improvements that reduce the delivery time of all future work. 
+It takes time to introduce a scoring grid, do the scoring, and prioritise improvements, but the benefits should be self-evident in prioritising improvements that reduce the delivery time of all future work.
 
 Not everyone will agree with the measures used in the scoring grid, but this can be a conversation starter about "What does good look like?" leading to a shared vision - written out explicitly - which will help move teams to action.
 
@@ -50,7 +50,7 @@ By agreeing to and communicating a Scoring Grid; the engineering management is p
 
 ## Solutions
 
-Example Scoring Grid for Company B (Introduced January 2021) - should be applicable for any Open Source, Inner Source, or private repository using Git tools that support CODEOWNERS, PRs, and PR Templates. Feel free to re-grade based on your company's best practice, or add additional areas based on weak points. Example grading areas might include CODE QUALITY, TESTING, CODE COVERAGE, TEST STRATEGY. 
+Example Scoring Grid for Company B (Introduced January 2021) - should be applicable for any Open Source, Inner Source, or private repository using Git tools that support CODEOWNERS, PRs, and PR Templates. Feel free to re-grade based on your company's best practice, or add additional areas based on weak points. Example grading areas might include CODE QUALITY, TESTING, CODE COVERAGE, TEST STRATEGY.
 
 |      Area / Grade      |                                                                           Grade F                                                                          |                                                                   Grade C                                                                  |                                                                 Grade B                                                                 |                                                                                                  Grade A                                                                                                  |
 |:----------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -75,7 +75,7 @@ Make time for teams to action improvements; ideally make the work part of their 
 - Implicit understanding of "What good looks like?" at the repository / project level
 - Improved perception of Engineering Leadership from Engineers
 - Incremental prioritisation of tech debt aimed at improving the quality of code and code bases
-- Possible automation of scoring grid; applied daily/nightly to all codebases 
+- Possible automation of scoring grid; applied daily/nightly to all codebases
 - Possible "competitive ranking" of code bases, leading to rewards for following best practice
 
 ## Known Instances
@@ -91,7 +91,7 @@ Initial Draft - waiting on review / public commentary
 
 >General pattern status is stored in GitHub's Label tagging - see any pull request.
 Note that this GitHub label tagging becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful.
-
+>
 >You might store other related info here, such as review history: "Three of us reviewed this on 2/5/17 and it needs expertise before it can go further."
 
 ## Author(s)
