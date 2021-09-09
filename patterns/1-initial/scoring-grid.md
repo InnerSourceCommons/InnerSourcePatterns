@@ -44,7 +44,7 @@ What are the pre-conditions?
 
 It takes time to introduce a scoring grid, do the scoring, and prioritise improvements, but the benefits should be self-evident in prioritising improvements that reduce the delivery time of all future work. 
 
-Not everyone will agree with the measured used in the scoring grid, but they at least can be a conversation starter about "What does good look like?" and its that shared vision - written out explicitly - which will help move teams to action.
+Not everyone will agree with the measures used in the scoring grid, but they at least can be a conversation starter about "What does good look like?" and its that shared vision - written out explicitly - which will help move teams to action.
 
 By agreeing to, and communicating, a Scoring Grid the engineering management is providing leadership and guidance to all engineers by tacitly saying "these things matter", "it's your responsibility to improve along this path".
 
