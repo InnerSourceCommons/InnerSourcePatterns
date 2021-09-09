@@ -64,7 +64,10 @@ Produce a characterization of metrics as this might be helpful for others to und
 * Another class of metrics is around how much InnerSourcing is happening. A raw definition of InnerSource based on code submissions to a repository not owned by the submitter's team could be measurable in a few ways.
 * A third class of metrics are KPIs that we believe will improve the raw amount of InnerSourcing happening (e.g. mean-time-to-review, automated test runs on PRs, etc.).
 
-Note: The aforementioned metrics are some common examples. They aren't a one-size-fits-all. We expect the business goals of the organization to drive the metric selection process. Below is the list consolidating some metrics candidates by business goals.
+_Note:_ The aforementioned metrics are some common examples. They aren't a one-size-fits-all. We expect the business goals of the organization to drive the metric selection process. 
+
+The list below consolidates some metrics candidates, grouped by business goals.
+
 | Business Goals | Metric Candidates |
 |---|---|
 | Remove silos and bottlenecks | # of PRs from external contributors<br># of PRs from external contributors that are merged<br># of outside collaborators<br># of issues created from external contributors<br># of reviews from external contributors |
