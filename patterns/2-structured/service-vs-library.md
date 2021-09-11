@@ -74,7 +74,7 @@ The likelihood that changes are needed and made in the shared source code
 increases, leading to more frequent opportunities to refine, improve and optimise
 the implementation.
 
-Encourages incremental operational standardisation in release packaging, telemetry, health/readiness endpoints in the shared code.
+Encourages incremental operational standardisation in release packaging, telemetry, health/readiness endpoints and so on as the teams realise they can more efficiently maintain this in the shared code if they agree on standard conventions.
 
 ## See also
 
