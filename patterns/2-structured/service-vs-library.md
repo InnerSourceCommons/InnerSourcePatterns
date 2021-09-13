@@ -24,7 +24,7 @@ reluctant to join forces even if there is significant overlap in requirements.
 ## Context
 
 * Teams are working in a micro-services environment.
-* They are organised in full functional DevOps teams: Each team is responsible for their contributions end-to-end, including maintenance, on-call and customer support.
+* They are organised in fully functional DevOps teams: Each team is responsible for their contributions end-to-end, including maintenance, on-call and customer support.
 * A team is tasked with providing a service to their downstream customers that is fairly similar to an existing service built by another team.
 
 ## Forces
@@ -73,7 +73,7 @@ Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern tha
 ## Known Instances
 
 * Europace AG
-* Flutter Entertainment: A [Flutter InnerSource application](https://innersource.flutter.com/start/setup-ci/) has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artefact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skillsets in different areas of the business.
+* Flutter Entertainment: A [Flutter InnerSource application](https://innersource.flutter.com/start/setup-ci/) has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artefact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skill sets in different areas of the business.
 
 ## Status
 
