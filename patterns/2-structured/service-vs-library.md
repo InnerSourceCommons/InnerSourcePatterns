@@ -49,7 +49,7 @@ Teams may have different security or regulatory constraints governing their depl
 Decouple responsibility for source code from deployment: Both teams work to
 identify exactly where there is overlap and synergies.
 
-Only shared source code is kept as part of the InnerSource project with shared responsibility. The shared source should be coherent in that it includes all testing code (including integration tests if available) and as much of the CI pipeline as is possible to make contribution validation easier. 
+Only shared source code is kept as part of the InnerSource project with shared responsibility. The shared source should be coherent in that it includes all testing code (including integration tests if available) and as much of the CI pipeline as is possible to make contribution validation easier.
 
 Decouple configuration and deployment pipelines from actual business logic.
 Establish a second deployment of the service for the second team.
