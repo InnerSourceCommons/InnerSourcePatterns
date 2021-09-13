@@ -23,26 +23,16 @@ reluctant to join forces even if there is significant overlap in requirements.
 
 ## Context
 
-Teams are working in a micro-services environment.
-
-They are organised in full functional DevOps teams: Each team is responsible for
-their contributions end-to-end, including maintenance, on-call and customer
-support.
-
-A team is tasked with providing a service to their downstream customers that is
-fairly similar to an existing service built by another team.
+* Teams are working in a micro-services environment.
+* They are organised in full functional DevOps teams: Each team is responsible for their contributions end-to-end, including maintenance, on-call and customer support.
+* A team is tasked with providing a service to their downstream customers that is fairly similar to an existing service built by another team.
 
 ## Forces
 
-Organisational escalation paths may be different for each of the teams.
-
-Members of each team may be unwilling to answer on-call support for errors that
-do not affect their own downstream customers.
-
-Severity levels for the same types of errors may be different across team
-boundaries due to different SLA definitions per team/customer relationship.
-
-Teams may have different security or regulatory constraints governing their deployments.
+* Organisational escalation paths may be different for each of the teams.
+* Members of each team may be unwilling to answer on-call support for errors that do not affect their own downstream customers.
+* Severity levels for the same types of errors may be different across team boundaries due to different SLA definitions per team/customer relationship.
+* Teams may have different security or regulatory constraints governing their deployments.
 
 ## Solutions
 
