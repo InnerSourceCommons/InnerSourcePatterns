@@ -4,7 +4,7 @@ Transparent Governance Levels
 
 ## Patlet
 
-Several groups are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to usefully describe a set of working practices without confusion. 
+Several groups are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to usefully describe a set of working practices without confusion.
 
 Estabilishing a more accurate internal language that is understood across all teams allows everyone to communicate intent or set expectations efficiently and without ambiguity.
 
