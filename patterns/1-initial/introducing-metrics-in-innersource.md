@@ -10,7 +10,7 @@ Involve all stakeholders in designing and interpreting metrics to measure the cu
 
 An organization that is planning to apply or is in the early stages of applying InnerSource would like to measure the 'health' and performance of the initiative i.e. Is there an increase in cross-divisional and cross-location collaboration?
 
-This pattern applies very widely from IS initiatives in their infancy stages to small or large scale IS initiatives that are already mature in their initial process and steps.
+This pattern applies very widely from InnerSource initiatives in their infancy stages to small or large scale InnerSource initiatives that are already mature in their initial process and steps.
 
 ## Context
 
