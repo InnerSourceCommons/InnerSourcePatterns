@@ -52,6 +52,8 @@ Produce a characterization of metrics as this might be helpful for others to und
 
 _Note:_ The aforementioned metrics are some common examples. They aren't a one-size-fits-all. We expect the business goals of the organization to drive the metric selection process.
 
+### Metrics Candidates
+
 The list below consolidates some metrics candidates, grouped by business goals.
 
 | Business Goals | Metric Candidates |
