@@ -87,6 +87,3 @@ Initial
 * Jennifer Skov
 * John Yopp
 
-## Alias (optional)
-
-none
