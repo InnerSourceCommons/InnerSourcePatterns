@@ -64,7 +64,7 @@ Being implemented at U.S. Bank.
 
 ## Status
 
-Initial draft for review.
+Initial
 
 ## Author(s)
 
