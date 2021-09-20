@@ -6,45 +6,31 @@ Introducing Metrics in InnerSource
 
 Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of _health_ and performance of the InnerSource initiative.
 
-## Context
+## Problem
 
 An organization that is planning to apply or is in the early stages of applying InnerSource would like to measure the 'health' and performance of the initiative i.e. Is there an increase in cross-divisional and cross-location collaboration?
 
 This pattern applies very widely from IS initiatives in their infancy stages to small or large scale IS initiatives that are already mature in their initial process and steps.
 
-## Problem
+## Context
 
-This organization may already have qualitative feedback from the involved teams, but desire more objective information focused
-on development activities.
-
-The organization does not really know where to start measuring things or what are the key parameters to measure.
-
-Changes in the top level initiatives may affect the InnerSource program as they rely on the good will of some executive from the organization.
-
-You may have a problem justifying the InnerSource effort when there is a change in business priorities or business leadership. Then you need something concrete to justify the program. A future problem you're guarding against.
-
-If there's a change in the C-level, metrics might be helpful to convince them that InnerSource is useful.
+* This organization may already have qualitative feedback from the involved teams, but desire more objective information focused on development activities.
+* The organization does not really know where to start measuring things or what are the key parameters to measure.
+* Changes in the top level initiatives may affect the InnerSource program as they rely on the good will of some executive from the organization.
+* You may have a problem justifying the InnerSource effort when there is a change in business priorities or business leadership. Then you need something concrete to justify the program. A future problem you're guarding against.
+* If there's a change in the C-level, metrics might be helpful to convince them that InnerSource is useful.
 
 ## Forces
 
-People do not like to be tracked or measured.
-
-There is no canonical monitoring infrastructure for the software development process. Furthermore, such infrastructure is hard to build
-or to get funding for.
-
-There is not a culture of software development metrics.
-
-Metrics can be misunderstood especially if people have not received any training on the same.
-
-Organizations collect vanity of any other type of metrics that do not track business objectives' success or failure over time.
-
-Metrics tend to become goals, will subsequently be gamed and thus meaningless.
-
-There is potential conflict in reconciling metrics on team effectiveness or productivity if teams within the organization have different versions of them.
-
-Some organizations in some countries may face extra complexity when introducing metrics as the countries may not allow tracking individuals.
-
-There might be a learning curve in the discussion about metrics. And perhaps the tools do not support the IS metrics we're looking for .
+* People do not like to be tracked or measured.
+* There is no canonical monitoring infrastructure for the software development process. Furthermore, such infrastructure is hard to build or to get funding for.
+* There is not a culture of software development metrics.
+* Metrics can be misunderstood especially if people have not received any training on the same.
+* Organizations collect vanity of any other type of metrics that do not track business objectives' success or failure over time.
+* Metrics tend to become goals, will subsequently be gamed and thus meaningless.
+* There is potential conflict in reconciling metrics on team effectiveness or productivity if teams within the organization have different versions of them.
+* Some organizations in some countries may face extra complexity when introducing metrics as the countries may not allow tracking individuals.
+* There might be a learning curve in the discussion about metrics. And perhaps the tools do not support the InnerSource metrics we are looking for.
 
 ## Solution
 
