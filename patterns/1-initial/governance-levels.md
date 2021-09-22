@@ -20,6 +20,10 @@ For two projects InnerSource best practices have been adopted. Project A has a s
 
 Project C is currently closed source and used only by team 1. Team 2 want to use project C and the leadership of the two teams negotiates options which include InnerSource practices. Agreement takes longer than expected because the "InnerSource" term did not describe a target state that could be agreed without ambiguity, and the teams had to document bespoke sub-options for their leadership to consider before a decision could be made.
 
+## Context
+
+InnerSource concepts are estabilished within an organisation with multiple projects and teams adopting InnerSource patterns and practices. Internal InnerSource practices are not prescribed in detail and teams/projects have the autonomy to optimise for their local circumstances.
+
 ## Forces
 
 - Projects adopt different InnerSource patterns and practices to optimise for their context.
