@@ -6,7 +6,7 @@ Transparent Governance Levels
 
 Several teams are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to usefully describe a set of working practices without confusion.
 
-Estabilishing a more accurate internal language that is understood across all teams allows anyone to communicate intent or set expectations efficiently without ambiguity.
+Estabilishing a more accurate common language that is understood across all teams allows anyone to communicate intent or set expectations efficiently without ambiguity.
 
 ## Problem
 
@@ -22,7 +22,7 @@ Project C is currently closed source and used only by team 1. Team 2 want to use
 
 ## Context
 
-InnerSource concepts are estabilished within an organisation with multiple projects and teams adopting InnerSource patterns and practices. Internal InnerSource practices are not prescribed in detail and teams/projects have the autonomy to optimise for their local circumstances.
+InnerSource concepts are estabilished within an organisation with multiple projects and teams adopting InnerSource. Internal InnerSource practices are not prescribed in detail and teams/projects have the autonomy to optimise for their local circumstances.
 
 ## Forces
 
@@ -33,36 +33,31 @@ InnerSource concepts are estabilished within an organisation with multiple proje
 
 ## Solution
 
-Establish standardised building blocks which can be used by projects to signify
-how much influence they are willing to share. Those building blocks can then be
-used in contributing files.
+The solution is to create a universally understood language to describe standard building blocks for InnerSource in your organisation:
 
-Examples of building blocks:
+1. Identify the common recurring InnerSource operating models that exist in your teams and projects.
+2. Document them in detail, and give each a distinctive name.
+3. Promote the use of these names to describe projects until the name's meaning is understood across the whole organisation.
 
-- **Bug reports and issues welcome**: People outside the core development team are
-  welcome to read the code. They can submit feature requests and bug reports for
-  things they would like to see changed.
+Examples of common InnerSource operating models (1) are:
 
-- **Contributions welcome**: People outside the core development team may use the
-  code, make modifications and feed those modifications back into the projects.
-  Trusted committers are willing to mentor those contributions to a state where
-  they can be accepted or communicate clearly why the proposed change cannot be
-  made.
+- **Bug Reports and Issues Welcome**: People outside the core development team may use the code. They can submit feature requests and bug reports for things they would like to see changed.
+- **Contributions Welcome**: People outside the core development team may use the code. They can also make modifications and submit them to core team for inclusion.
+- **Shared Ownership**: Members of different teams collaborate on the project as equal peers. Everyone has the ability to merge code. Everyone has an equal say on the project direction. Everyone has an equal say in who else to add to this group.
 
-- **Shared write access**: In addition to the above people outside the core
-  development team may gain write access to the source repository. Influence on
-  roadmap decisions as well as influence on who else gains write access is
-  restricted to the core development team.
+Examples of promoting the names (3) are:
 
-- **Shared ownership**: Members of different teams collaborate on the project as
-  equal peers. Everyone has the ability to merge code. Everyone has an equal say
-  on the project direction. Everyone has an equal say in who else to add to this
-  group.
+- Using the names within project documentation and contributing guides.
+- Labelling projects with the names in an [InnerSource Portal](../2-structured/innersource-portal.md).
+- Presenting the names as a menu of adoption options for new InnerSource projects.
+- Including the names and models in any internal InnerSource training or promotion.
 
 ## Resulting Context
 
 Teams can adopt InnerSource best practices in a step-by-step way. By documenting
 individual steps contributor confusion is avoided.
+
+also results in increasing standardisation as the names are used as a menu
 
 ## Known Instances
 
