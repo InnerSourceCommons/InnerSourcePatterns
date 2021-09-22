@@ -6,7 +6,7 @@ Transparent Governance Levels
 
 Several teams are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to usefully describe a set of working practices without confusion.
 
-Estabilishing a more accurate internal language that is understood across all teams allows everyone to communicate intent or set expectations efficiently and without ambiguity.
+Estabilishing a more accurate internal language that is understood across all teams allows anyone to communicate intent or set expectations efficiently without ambiguity.
 
 ## Problem
 
@@ -22,15 +22,10 @@ Project C is currently closed source and used only by team 1. Team 2 want to use
 
 ## Forces
 
-- For project A shared ownership works well, members coming from multiple teams
-  are working together.
-- For project B the backing team would like to retain a certain level of
-  ownership and control. Sharing ownership with other Trusted Committers outside
-  of the original team is not an option.
-- Contributors want clarity on the level of influence they can gain in an
-  InnerSource project they are involved with.
-- Writing detailed guidelines into each contributions file leads to a lot of
-  text that is hard to understand for engineers.
+- Projects adopt different InnerSource patterns and practices to optimise for their context.
+- Contributors want clarity on the level of influence they can gain in an InnerSource project they are involved with.
+- Leaders want clarity on InnerSource project intentions to understand the expected cost and benefits.
+- Writing a detailed description of a set of InnerSource practices requires significant effort to write and to read.
 
 ## Solution
 
@@ -40,22 +35,22 @@ used in contributing files.
 
 Examples of building blocks:
 
-* **Bug reports and issues welcome**: People outside the core development team are
+- **Bug reports and issues welcome**: People outside the core development team are
   welcome to read the code. They can submit feature requests and bug reports for
   things they would like to see changed.
 
-* **Contributions welcome**: People outside the core development team may use the
+- **Contributions welcome**: People outside the core development team may use the
   code, make modifications and feed those modifications back into the projects.
   Trusted committers are willing to mentor those contributions to a state where
   they can be accepted or communicate clearly why the proposed change cannot be
   made.
 
-* **Shared write access**: In addition to the above people outside the core
+- **Shared write access**: In addition to the above people outside the core
   development team may gain write access to the source repository. Influence on
   roadmap decisions as well as influence on who else gains write access is
   restricted to the core development team.
 
-* **Shared ownership**: Members of different teams collaborate on the project as
+- **Shared ownership**: Members of different teams collaborate on the project as
   equal peers. Everyone has the ability to merge code. Everyone has an equal say
   on the project direction. Everyone has an equal say in who else to add to this
   group.
