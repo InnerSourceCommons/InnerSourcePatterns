@@ -50,3 +50,7 @@ There is a proven way to adjust the setup in the future.
 # Status
 
 Initial (early draft)
+
+## Authors
+
+* Isabel Drost-Fromm
