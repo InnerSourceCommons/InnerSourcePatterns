@@ -4,7 +4,7 @@ Unified Source Code Inventory
 
 ## Patlet
 
-Large organization with many legal entities often don't have visibility into all of their software assets (repositories), limiting their ability to increase businesses value and control liability costs holistically. 
+Large organization with many legal entities often don't have visibility into all of their software assets (repositories), limiting their ability to increase businesses value and control liability costs holistically.
 A unified source code inventory at organization-level addresses these issues, while exploiting opportunities to identify and support valuable InnerSource assets.
 
 ## Problem
