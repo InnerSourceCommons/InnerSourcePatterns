@@ -20,21 +20,21 @@ Can you get consistent answers within the organization to questions like?
 
 ## Context
 
-* You work on Legal Entity within a complex Organization under continuous change (e.g., new acquisitions or changing business priorities).
+* You work on Legal Entity within a complex Organization under continuous change (e.g. new acquisitions or changing business priorities).
 * You cannot find all source code touched, shared and consumed within the Organization.
-* You do not have a clear policy on default sharing level when creating a new project (e.g., Open Source, InnerSource or Closed Source).
+* You do not have a clear policy on default sharing level when creating a new project (e.g. Open Source, InnerSource or Closed Source).
 * You cannot scan significant parts of the Organization's source code looking for duplication, similarity or code smells.
 * You do not know the existing ratios of Open Source, innerSource and Closed Source and their trend.
 * You cannot measure the diversity of contributions and resulting value for a given project.
 * You cannot identify and optimize tech stack diversity.
-* You cannot identify technical debt and determine the priorities for retirement (e.g., dead APIs/source).
+* You cannot identify technical debt and determine the priorities for retirement (e.g. dead APIs/source).
 
 ## Forces
 
 * Fragmentation of source code hosting systems in the organization.
 * Ad-hoc source code strategies scattered across the different Legal Entities in the organization.
 * Continuously changing map of the relationships between: projects, repositories, products, tech stacks, domains, solutions, platforms, services, components, sub-systems, people, authors, teams, external repositories.
-* Diverse software culture of teams across the organization (e.g., more open to collaboration or more siloed).
+* Diverse software culture of teams across the organization (e.g. more open to collaboration or more siloed).
 
 ## Solutions
 
@@ -45,12 +45,12 @@ Can you get consistent answers within the organization to questions like?
 * Key meta-data about each repository:
   * Legal Entity
   * URL
-  * Version control system (e.g., GIT or SVN).
-  * Hosting vendor (e.g., GitHub, Gitlab or BitBucket) 
-  * Hosting type (e.g., on-prem, private cloud or public cloud).
-  * Sharing level (e.g., Open Source, InnerSource, Closed Source).
+  * Version control system (e.g. GIT or SVN)
+  * Hosting vendor (e.g. GitHub, Gitlab or BitBucket) 
+  * Hosting type (e.g. on-prem, private cloud or public cloud)
+  * Sharing level (e.g. Open Source, InnerSource, Closed Source)
 * Visualization in place to list all assets with options to filter based on meta-data
-* Enable access to automated source code static analysis tools (e.g., identify duplicated or similar code, flag code smells, benchmark test coverage).
+* Enable access to automated source code static analysis tools (e.g. identify duplicated or similar code, flag code smells, benchmark test coverage).
 
 Mockup dashboard             |  Mockup questionnaire
 :-------------------------:|:-------------------------:
@@ -70,17 +70,17 @@ Mockup dashboard             |  Mockup questionnaire
 
 ### For the Organization, Legal Entity and Project maintainers
 
-* We have explicit policies at Organization and Legal Entity level on source code strategy (e.g., where to create new repository or how to select the right sharing level).
+* We have explicit policies at Organization and Legal Entity level on source code strategy (e.g. where to create new repository or how to select the right sharing level).
 * We can find all source code touched, shared and consumed within the Organization or Legal Entity and take actions as needed.
 * We can measure the diversity of contributions and resulting business value for our project.
-* We can identify technical debt and determine the priorities for retirement (e.g., dead APIs/source).
+* We can identify technical debt and determine the priorities for retirement (e.g. dead APIs/source).
 
 ### For InnerSource governance
 
 * We can scan significant parts of our Organization's source code looking for opportunities of reuse, duplication, similarity or code smells.
 * We know the ratios of Open Source, InnerSource and Closed Source within the Organization so we can steer as needed.
 * We can identify and optimize tech stack diversity.
-* We can create awareness and culture shift on certain Legal Entities as needed (e.g., ratio of Open Source and InnerSource below average).
+* We can create awareness and culture shift on certain Legal Entities as needed (e.g. ratio of Open Source and InnerSource below average).
 
 ## Rationale
 
