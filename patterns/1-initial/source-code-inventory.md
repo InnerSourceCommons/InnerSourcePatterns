@@ -84,7 +84,9 @@ Mockup dashboard             |  Mockup questionnaire
 
 ## Rationale
 
-It creates a dynamic and extendable single source of truth for repositories to capture, visualize and act on source code repositories across the Organization. That helps to create awareness and focus efforts on the right direction. The Source Code Strategy Assessment Framework helps teams to understand the value of intentional explicit policies on how to manage source code. It helps to create both continuous improvement cycles and references within the Organization of what others are doing.
+It creates a dynamic and extendable single source of truth for repositories to capture, visualize and act on source code repositories across the Organization. That helps to create awareness and focus efforts on the right direction. 
+
+The Source Code Strategy Assessment Framework helps teams to understand the value of intentional explicit policies on how to manage source code. It helps to create both continuous improvement cycles and references within the Organization of what others are doing.
 
 ## Known Instances
 
