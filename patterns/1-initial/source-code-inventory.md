@@ -46,7 +46,7 @@ Can you get consistent answers within the Organization to questions like:
   * Legal Entity
   * URL
   * Version control system (e.g. GIT or SVN)
-  * Hosting vendor (e.g. GitHub, Gitlab or BitBucket) 
+  * Hosting vendor (e.g. GitHub, Gitlab or BitBucket)
   * Hosting type (e.g. on-prem, private cloud or public cloud)
   * Sharing level (e.g. Open Source, InnerSource, Closed Source)
 * Visualization in place to list all assets with options to filter based on meta-data
@@ -84,7 +84,7 @@ Mockup dashboard             |  Mockup questionnaire
 
 ## Rationale
 
-It creates a dynamic and extendable single source of truth for repositories to capture, visualize and act on source code repositories across the Organization. That helps to create awareness and focus efforts on the right direction. 
+It creates a dynamic and extendable single source of truth for repositories to capture, visualize and act on source code repositories across the Organization. That helps to create awareness and focus efforts on the right direction.
 
 The Source Code Strategy Assessment Framework helps teams to understand the value of intentional explicit policies on how to manage source code. It helps to create both continuous improvement cycles and references within the Organization of what others are doing.
 
