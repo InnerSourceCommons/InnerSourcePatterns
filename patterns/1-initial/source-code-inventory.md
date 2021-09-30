@@ -46,7 +46,8 @@ Can you get consistent answers within the organization to questions like?
   * Legal Entity
   * URL
   * Version control system (e.g., GIT or SVN).
-  * Hosting vendor (e.g., GitHub, Gitlab or BitBucket) and hosting type (e.g., on-prem, private cloud or public cloud).
+  * Hosting vendor (e.g., GitHub, Gitlab or BitBucket) 
+  * Hosting type (e.g., on-prem, private cloud or public cloud).
   * Sharing level (e.g., Open Source, InnerSource, Closed Source).
 * Visualization in place to list all assets with options to filter based on meta-data
 * Enable access to automated source code static analysis tools (e.g., identify duplicated or similar code, flag code smells, benchmark test coverage).
