@@ -92,7 +92,7 @@ It creates a dynamic and extendable single source of truth for repositories to c
 
 ## References
 
-* Organization and Legal Entity terms as defined in [InnerSource License Pattern Glossary](../2-structured/innersource-license.md#glossary).
+* Organization and Legal Entity terms as defined in the [InnerSource License Pattern - Glossary](../2-structured/innersource-license.md#glossary).
 * Explore using this pattern in combination with the [InnerSource Portal](../2-structured/innersource-portal.md) pattern.
 
 ## Status
