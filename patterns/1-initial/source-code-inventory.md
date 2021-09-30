@@ -88,9 +88,7 @@ It creates a dynamic and extendable single source of truth for repositories to c
 
 ## Known Instances
 
-This is under test at scale at:
-
-* Philips
+* Philips (under test at scale)
 
 ## References
 
