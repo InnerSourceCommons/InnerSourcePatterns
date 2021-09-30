@@ -8,9 +8,9 @@ In a large organization with different legal entities is often hard to get full 
 
 ## Problem
 
-Given situations when InnerSource stakeholders do not value source code at the same level as other organization's assets; when source code strategies are ad-hoc and different among legal entities with little consolidation at organization-level; then it becomes harder both to select and support the right InnerSource project candidates as well as maximize business value of such a key asset.
+Given situations when InnerSource stakeholders do not value source code at the same level as other Organization's assets; when source code strategies are ad-hoc and different among legal entities with little consolidation at Organization-level; then it becomes harder both to select and support the right InnerSource project candidates as well as maximize business value of such a key asset.
 
-Can you get consistent answers within the organization to questions like?
+Can you get consistent answers within the Organization to questions like?
 
 * How would you find all source code touched by anyone in your legal entity?
 * How would you find out who else can also access each of the above?
@@ -31,14 +31,14 @@ Can you get consistent answers within the organization to questions like?
 
 ## Forces
 
-* Fragmentation of source code hosting systems in the organization.
-* Ad-hoc source code strategies scattered across the different Legal Entities in the organization.
+* Fragmentation of source code hosting systems in the Organization.
+* Ad-hoc source code strategies scattered across the different Legal Entities in the Organization.
 * Continuously changing map of the relationships between: projects, repositories, products, tech stacks, domains, solutions, platforms, services, components, sub-systems, people, authors, teams, external repositories.
-* Diverse software culture of teams across the organization (e.g. more open to collaboration or more siloed).
+* Diverse software culture of teams across the Organization (e.g. more open to collaboration or more siloed).
 
 ## Solutions
 
-### Set up an organization-level source code inventory live dashboard
+### Set up an Organization-level source code inventory live dashboard
 
 * Combination of manual and automated input data sources to a single source of truth
 * API available to add new data sources and extend coverage of the source code repository
