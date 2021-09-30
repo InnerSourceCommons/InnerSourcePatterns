@@ -10,7 +10,7 @@ In a large organization with different legal entities is often hard to get full 
 
 Given situations when InnerSource stakeholders do not value source code at the same level as other Organization's assets; when source code strategies are ad-hoc and different among legal entities with little consolidation at Organization-level; then it becomes harder both to select and support the right InnerSource project candidates as well as maximize business value of such a key asset.
 
-Can you get consistent answers within the Organization to questions like?
+Can you get consistent answers within the Organization to questions like:
 
 * How would you find all source code touched by anyone in your legal entity?
 * How would you find out who else can also access each of the above?
