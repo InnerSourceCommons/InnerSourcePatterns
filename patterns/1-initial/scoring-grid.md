@@ -108,7 +108,7 @@ Note that this GitHub label tagging becomes less visible once the pattern is fin
 ## Related Patterns
 
 - [Maturity Model](../2-structured/maturity-model.md)
-- Source Code Inventory
+- [Unified  Source Code Inventory](../1-initial/source-code-inventory.md)
 - Good First Project
 - Change the Developer's Mindset
 - [Change the Middle Management Mindset](../1-initial/change-the-middle-management-mindset.md)
