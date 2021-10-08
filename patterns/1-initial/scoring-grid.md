@@ -111,4 +111,4 @@ Note that this GitHub label tagging becomes less visible once the pattern is fin
 - Source Code Inventory
 - Good First Project
 - Change the Developer's Mindset
-- Change the Middle Management Mindset
+- [Change the Middle Management Mindset](../1-initial/change-the-middle-management-mindset.md)
