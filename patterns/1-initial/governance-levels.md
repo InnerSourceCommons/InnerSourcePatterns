@@ -36,7 +36,7 @@ InnerSource concepts are estabilished within an organisation with multiple proje
 The solution is to create a universally understood language to describe standard building blocks for InnerSource in your organisation:
 
 1. Identify the common recurring InnerSource operating models that exist in your teams and projects.
-2. Document them in detail, and give each a distinctive name.
+2. Document each model in detail, and give each a distinctive name.
 3. Promote the use of these names to describe projects until the name's meaning is understood across the whole organisation.
 
 Examples of common InnerSource operating models (1) are:
@@ -54,10 +54,10 @@ Examples of promoting the names (3) are:
 
 ## Resulting Context
 
-Teams can adopt InnerSource best practices in a step-by-step way. By documenting
-individual steps contributor confusion is avoided.
-
-also results in increasing standardisation as the names are used as a menu
+- Cross team communication occurs efficiently without confusion using terms that are universally understood and centrally documented.
+- Organisation leaders understand the nuances within practising InnerSource and make better informed and more precise decisions that are easier to communicate.
+- Increased standardisation of InnerSource practices within the organisation as the named and documented building blocks are used by teams as a menu for adoption.
+- Teams can adopt InnerSource best practices in a step-by-step way which makes adoption easier and less intimidating.
 
 ## Known Instances
 
@@ -65,8 +65,9 @@ TBD
 
 ## Status
 
-Initial (Early draft)
+Initial
 
 ## Authors
 
-* Isabel Drost-Fromm
+- Isabel Drost-Fromm
+- Rob Tuley
