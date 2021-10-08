@@ -66,3 +66,7 @@ TBD
 ## Status
 
 Initial (Early draft)
+
+## Authors
+
+* Isabel Drost-Fromm

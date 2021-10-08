@@ -162,3 +162,7 @@ projects.
 ## Status
 
 Initial
+
+## Authors
+
+* Isabel Drost-Fromm
