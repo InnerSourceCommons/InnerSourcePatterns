@@ -107,7 +107,7 @@ Note that this GitHub label tagging becomes less visible once the pattern is fin
 
 ## Related Patterns
 
-- InnerSource Maturity Model
+- [Maturity Model](../2-structured/maturity-model.md)
 - Source Code Inventory
 - Good First Project
 - Change the Developer's Mindset
