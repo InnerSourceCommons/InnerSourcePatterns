@@ -110,5 +110,5 @@ Note that this GitHub label tagging becomes less visible once the pattern is fin
 - [Maturity Model](../2-structured/maturity-model.md)
 - [Unified  Source Code Inventory](../1-initial/source-code-inventory.md)
 - [Good First Project](../1-initial/good-first-project.md)
-- Change the Developer's Mindset
+- [Change the Developer's Mindset](../1-initial/change-the-developers-mindset.md)
 - [Change the Middle Management Mindset](../1-initial/change-the-middle-management-mindset.md)
