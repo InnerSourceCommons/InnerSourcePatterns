@@ -63,7 +63,6 @@ have a document that you can share with individuals following your trail.
 Write down solutions to any problems you find along the way and share those
 written solutions with people following your trail.
 
-
 ### Steps for reaching early adopters/ visionaries
 
 * Share results and learnings form retrospectives of InnerSource pilots.
