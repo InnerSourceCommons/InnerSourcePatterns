@@ -98,3 +98,20 @@ than external statements.
 ### Steps for lagers
 
 * Incorporate InnerSource into career competencies description.
+
+## Resulting context
+
+* The InnerSource initiative can reach teams with various innovation
+preferences.
+* Overall InnerSource adoption improves.
+* Friction between teams decreases due to a common understanding.
+
+## Known Instances
+
+TBD
+
+## Status
+
+Initial
+
+
