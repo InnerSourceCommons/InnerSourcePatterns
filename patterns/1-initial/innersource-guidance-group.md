@@ -46,7 +46,7 @@ TBD
 
 ## Known Instances
 
-- A large, highly regulated, financial organization is planning to implement a TC Steering Group to provide broad guidelines and guard rails as part of their InnerSource initiative.
+- A large, highly regulated, financial organization is planning to implement a Trusted Committer Steering Group to provide broad guidelines and guard rails as part of their InnerSource initiative.
 
 ## Rationale
 
