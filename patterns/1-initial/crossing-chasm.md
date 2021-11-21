@@ -11,7 +11,7 @@ stages of the innovation curve.
 
 ## Problem
 
-Often InnerSource programs [start as experiments](add link here). From there
+Often InnerSource programs [start as experiments](../2-structured/start-as-experiment.md). From there
 reaching early adopters and visionaries typically is easy. However the methods
 used to reach these innovation friendly associates typically stop working when
 trying to scale the initiative to pragmatists, conservatives or even sceptics.
