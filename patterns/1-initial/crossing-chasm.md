@@ -69,7 +69,7 @@ written solutions with people following your trail.
 * Share external material (bonus points if that is material that colleagues
 created earlier: talks, blog articles, book chapters, magazine articles, videos
 etc.)
-* Co-createa document of shared [InnerSource principles](add link here).
+* Co-create a document of shared [InnerSource principles](explicit-innersource-principles.md).
 
 ### Steps for pragmatists
 
