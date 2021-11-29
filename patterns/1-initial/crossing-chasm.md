@@ -94,7 +94,7 @@ coffee kitchen or whatever the digital alternative is for your company.)
 * Pull in external expertise - sometimes in house expertise counts much less
 than external statements.
 
-### Steps for lagers
+### Steps for laggards
 
 * Incorporate InnerSource into career competencies description.
 
