@@ -4,7 +4,7 @@ Overcoming the Not-Invented-Here Mindset
 
 ## Patlet
 
-TBD
+Perfectly good solutions are being rejected because of "Not Invented Here" (NIH). Engineers and their managers will choose to implement functionality themselves first, even if an alternative exists. A shift towards a culture of "Proudly Found Elsewhere" can help reduce the negative impact of NIH.
 
 ## Problem
 
