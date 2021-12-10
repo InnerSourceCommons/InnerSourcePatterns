@@ -176,7 +176,7 @@ principles:
   intrinsically motivated, not because their manager told them so.
 - **Self-Determination**: BIOS-Communities are free to choose what to work on,
   when they work and what tools and processes they use to work.
-- **Meritocracy**: Power is vested in BIOS project members based ontheir merits,
+- **Meritocracy**: Power is vested in BIOS project members based on their merits,
   that is, based on the quality and quantity of their contributions.
 
 <img alt="BIOS Principles" src="/assets/img/bios-principles.png">
