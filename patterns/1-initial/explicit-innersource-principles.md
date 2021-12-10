@@ -157,7 +157,29 @@ projects.
 
 ## Known Instances
 
-* Europace AG - see also [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (German)
+### Europace AG
+
+The InnerSource principles listed in the Solution above are mostly based on Europace's experience. For more details see [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (in German).
+
+### Robert Bosch GmbH
+
+Fostering collaboration, learning and innovation is the main focus of the Bosch
+InnerSource initiative (BIOS). To that end, they applied the following
+principles:
+
+- **Openness**: We lower the barriers for entry into BIOS communities as much as we can.
+- **Transparency**: We are radically transparent and share our work products, our communication, and our decision making with all associates in the company.
+- **Voluntariness**: The decision to join and contribute to a BIOS community is left to each associate. Associates should work within BIOS because they are intrinsically motivated, not because their manager told them so.
+- **Self-Determination**: BIOS communities are free to choose what to work on, when they work and what tools and processes they use to work.
+- **Meritocracy**: Power is vested in BIOS project members based on their merits, that is, based on the quality and quantity of their contributions.
+
+<img alt="BIOS Principles" src="/assets/img/bios-principles.png">
+
+The principles _Openness_, _Transparency_ and _Voluntariness_ helped grow
+diverse communities of intrinsically motivated associates. _Meritocracy_ has
+proven to be an effective motivation for making great contributions.
+_Self-Determination_ allowed the communities to use their limited time for
+contributions in the most effective and efficient way.
 
 ## Status
 
@@ -166,3 +188,4 @@ Initial
 ## Authors
 
 * Isabel Drost-Fromm
+* Georg Grütter
