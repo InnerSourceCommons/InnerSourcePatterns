@@ -23,38 +23,31 @@ reluctant to join forces even if there is significant overlap in requirements.
 
 ## Context
 
-Teams are working in a micro-services environment.
-
-They are organised in full functional DevOps teams: Each team is responsible for
-their contributions end-to-end, including maintenance, on-call and customer
-support.
-
-A team is tasked with providing a service to their downstream customers that is
-fairly similar to an existing service built by another team.
+* Teams are working in a micro-services environment.
+* They are organised in fully functional DevOps teams: Each team is responsible for their contributions end-to-end, including maintenance, on-call and customer support.
+* A team is tasked with providing a service to their downstream customers that is fairly similar to an existing service built by another team.
 
 ## Forces
 
-Organisational escalation paths may be different for each of the teams.
-
-Members of each team may be unwilling to answer on-call support for errors that
-do not affect their own downstream customers.
-
-Severity levels for the same types of errors may be different across team
-boundaries due to different SLA definitions per team/customer relationship.
+* Organisational escalation paths may be different for each of the teams.
+* Members of each team may be unwilling to answer on-call support for errors that do not affect their own downstream customers.
+* Severity levels for the same types of errors may be different across team boundaries due to different SLA definitions per team/customer relationship.
+* Teams may have different security or regulatory constraints governing their deployments.
 
 ## Solutions
 
 Decouple responsibility for source code from deployment: Both teams work to
 identify exactly where there is overlap and synergies.
 
-Only shared source code is kept as part of the InnerSource project with shared
-responsibility.
+Only shared source code is kept as part of the InnerSource project with shared responsibility. The shared source should be coherent in that it includes all testing code (including integration tests if available) and as much of the CI pipeline as is possible to make contribution validation easier.
 
 Decouple configuration and deployment pipelines from actual business logic.
 Establish a second deployment of the service for the second team.
 
 Treat the common base as a library that is used by both teams with shared code
 ownership.
+
+Deployment configurations can be included as separate projects in your InnerSource portfolio to allow teams to discuss/collaborate or a new team to copy them.
 
 ## Resulting Context
 
@@ -71,13 +64,16 @@ The likelihood that changes are needed and made in the shared source code
 increases, leading to more frequent opportunities to refine, improve and optimise
 the implementation.
 
+Encourages incremental operational standardisation in release packaging, telemetry, health/readiness endpoints and so on as the teams realise they can more efficiently maintain this in the shared code if they agree on standard conventions.
+
 ## See also
 
-Related to this pattern is the [Thirty day warranty](30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
+Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
 
 ## Known Instances
 
-Europace AG
+* Europace AG
+* Flutter Entertainment: A [Flutter InnerSource application](https://innersource.flutter.com/start/setup-ci/) has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artefact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skill sets in different areas of the business.
 
 ## Status
 
@@ -85,7 +81,8 @@ Europace AG
 
 ## Author(s)
 
-Isabel Drost-Fromm
+* Isabel Drost-Fromm
+* Rob Tuley
 
 ## Acknowledgements
 

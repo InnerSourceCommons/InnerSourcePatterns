@@ -5,7 +5,7 @@ Praise Participants
 ## Patlet
 
 After an inner source contribution, it's important to thank the contributor for their time and effort.
-This pattern gives guidance that not only effectively acknowledges the contribution but also endgenders further engagement from the contributor and others.
+This pattern gives guidance that not only effectively acknowledges the contribution but also engenders further engagement from the contributor and others.
 
 ## Problem
 
@@ -21,7 +21,7 @@ A pattern in this area makes it easy to do and ensures that the message comes ac
 
 ## Forces
 
-* You are busy, which makes it easy to forget some of the soft touches like praise and thanks.
+* You are busy, which makes it easy to forget some soft touches like praise and thanks.
 * You may not be someone that is comfortable in social situations or good with words.
 * Peer recognition is very important to job satisfaction and career development.
 
@@ -31,15 +31,19 @@ It feels good to anyone to be recognized by others.
 In a professional setting, increased recognition is also an avenue to increased influence and growth.
 Any time someone gives to your inner source project, recognize them with a sincere and qualified "thank you".
 
-For non-trivial contributions (all code contributions and also significant time contributions), say thank you via the following mechanisms:
+For non-trivial contributions (all code contributions and significant time contributions), say thank you via the following mechanisms:
 
-1. Call out the person by name in any chat location (e.g. _Slack_) where you organize your project activity.  Let everyone know what they did and thank them publicly.  Example:
+(1) Call out the person by name in any chat location (e.g. _Slack_) where you organize your project activity.  Let everyone know what they did and thank them publicly.  
+
+Example:
 
 > Everyone @here give a high-five to @andrew.clegg for updating the _rcs-viewer_ to the latest version of the _hebo-client_ (https://github.com/rcs/rcs-viewer/pull/81).
 Thanks for helping keep this library up-to-date, Andy!
 
-2. Send an email to them and their manager (cc'd) privately thanking them for the contribution.
-For code contributions often-times you can just forward the merge notification mail.  Example:
+(2) Email them and their manager (cc'd) privately thanking them for the contribution.
+For code contributions often-times you can just forward the merge notification mail.
+
+Example:
 
 > Hi, Andy, I want to thank you again for making this update.
 It may have been a small amount of time, but it's attention like this from each person that make the RCS project work for all of us.

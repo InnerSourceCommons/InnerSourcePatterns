@@ -6,8 +6,11 @@ name: Link Check on Patterns and README
 on:
   push:
     branches:
-      - "master"
+      - "main"
   pull_request:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '30 8 * * *'
 
 jobs:
   linkChecker:

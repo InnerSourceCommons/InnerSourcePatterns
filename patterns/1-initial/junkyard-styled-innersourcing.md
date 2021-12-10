@@ -12,7 +12,7 @@ TBD
 Two situations:
 
 * SW component not designed for reuse because the schedule was too tight and did not allow for the extra effort needed
-* Did not have the knowledge or training to create components that can b reused.
+* Did not have the knowledge or training to create components that can be reused.
 
 ## Problem
 

@@ -31,7 +31,7 @@ Such models give us the tool that we need to focus and amplify high-value collab
 The core of all cross-team project value is the idea that we can get more done together than apart.
 Ascribing value to a cross-team effort is an exercise in quantifying _how much more_ is getting done together.
 The exact delta in productivity will vary by domain and project.
-There is a common process, though, by which you can create a model to calculate it.
+There is a common process, by which you can create a model to calculate it.
 
 ### Explanation
 
@@ -66,12 +66,12 @@ Once you have your worst-case bounds you can value your cross-team project outpu
 ### Commentary
 
 Despite the trappings of rigor, this process does not yield an exact way to measure cross-team project output.
-In-practice, though, it does give a framework by which you can make a sound decision at how to fund this work.
+In-practice, however, it does give a framework by which you can make a sound decision at how to fund this work.
 After having good, reasonable data according to the above explanation, you should fund dedicated development hours toward running the project up to _**at least**_ of the lesser of the following three levels:
 
 1. The raw hours saved by the formula above.  Since we're all sure that the formula will produce a number that is below the true number of hours saved, you can have confidence that funding the project up to that point is a sure win for you.
 1. The amount of time that it takes to support inner sourced contributions to cross-team projects.  Since the contributor would likely have done the work anyway in a one-off fashion, it is worth it to fund the time it takes to facilitate their work going into a shared location.
-1. Whatever feels good to you.  One intentional side-effect of having a valuation formula is that it  naturally forces measurement of the key points of usage that provide value to consumers.
+1. Whatever feels good to you.  One intentional side effect of having a valuation formula is that it naturally forces measurement of the key points of usage that provide value to consumers.
 
 Those measurements can be understood and consumed in their raw form to provide you with a gut-feel idea of how valuable is the project.
 
@@ -97,7 +97,7 @@ They will provide a head-and-shoulders improvement in on-the-ground results over
 ## Status
 
 * Structured
-* Old status: Proven in multiple domains.
+* Proven in multiple domains.
 
 ## Authors
 
