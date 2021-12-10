@@ -159,7 +159,7 @@ projects.
 
 ### Europace AG
 
-- see also [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (German)
+The InnerSource principles listed in the Solution above are mostly based on Europace's experience. For more details see [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (in German).
 
 ### Robert Bosch GmbH
 
