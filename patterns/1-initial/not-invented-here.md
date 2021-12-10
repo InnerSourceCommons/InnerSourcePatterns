@@ -111,8 +111,7 @@ TBD
 
 ## Status  
 
-* Initial
-* Brainstormed solution (not proven)
+* Initial (PR from [16 Mar 2017](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/64))
 
 ## Author(s)
 
