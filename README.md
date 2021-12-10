@@ -120,9 +120,7 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 We welcome your contribution - be it small or huge! To learn more about how you can become a contributor, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-
 ## Licensing
-
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
