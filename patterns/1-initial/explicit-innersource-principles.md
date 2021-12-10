@@ -167,17 +167,11 @@ Fostering collaboration, learning and innovation is the main focus of the Bosch
 InnerSource initiative (BIOS). To that end, they applied the following
 principles:
 
-- **Openness**: We lower the barriers for entry into BIOS communities as much
-  as we can.
-- **Transparency**: We are radically transparent and share our work products,
-  our communication, and our decision making with all associates in the company.
-- **Voluntariness**: The decision to join and contribute to a BIOS community is
-  left to each associate. Associates should work within BIOS because they are
-  intrinsically motivated, not because their manager told them so.
-- **Self-Determination**: BIOS-Communities are free to choose what to work on,
-  when they work and what tools and processes they use to work.
-- **Meritocracy**: Power is vested in BIOS project members based on their merits,
-  that is, based on the quality and quantity of their contributions.
+- **Openness**: We lower the barriers for entry into BIOS communities as much as we can.
+- **Transparency**: We are radically transparent and share our work products, our communication, and our decision making with all associates in the company.
+- **Voluntariness**: The decision to join and contribute to a BIOS community is left to each associate. Associates should work within BIOS because they are intrinsically motivated, not because their manager told them so.
+- **Self-Determination**: BIOS-Communities are free to choose what to work on, when they work and what tools and processes they use to work.
+- **Meritocracy**: Power is vested in BIOS project members based on their merits, that is, based on the quality and quantity of their contributions.
 
 <img alt="BIOS Principles" src="/assets/img/bios-principles.png">
 
