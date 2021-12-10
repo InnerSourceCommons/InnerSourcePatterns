@@ -6,12 +6,28 @@ Now how do we make it easier for readers to discover the patterns that can help 
 
 ## InnerSource Program Mind Map
 
-This first categorization effort uses a mind map to categorize patterns based on the different phases of an InnerSource Program, and the challenges that might appear in the respective phases. See [innersource-program-mind-map.html](innersource-program-mind-map.html). Note that this is still in incomplete visualization i.e. it does not contain all of our patterns.
+This first categorization effort uses a mind map to categorize patterns based on the different phases of an InnerSource Program, and the challenges that might appear in the respective phases. See [innersource-program-mind-map.html](innersource-program-mind-map.html). Note that this mind map contains only the patterns that are published in our book (i.e. Level 2-Structured and higher).
 
-To add new patterns to the mind map, edit the source file `innersource-program-mind-map.md`, and then regenerate the visualization like this:
+In the mind map you will see patterns categorized from left to right in increasing levels of detail.
+
+The logic for these levels is (from left to right):
+
+- level 0: the InnerSource program itself (as the root)
+- level 1: phase of an InnerSource Program
+- level 2: problem category
+- level 3: specific problem occurring in an InnerSource context
+- level 4: pattern (solution to the problem)
+
+## Adding a Pattern to the Mind Map
+
+To add new patterns to the mind map, edit the file [innersource-program-mind-map.md](innersource-program-mind-map.md). Also see the explanation of the different levels in the mind map above.
+
+Then create a PR with your changes. This triggers an [action](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/generate-mindmap.yml) that generates the mind map in HTML and PNG format, and adds those to your PR.
+
+To test your changes locally, you can also generate the mind map yourself like this:
 
 ```
-npm install markmap-lib -g
+npm install -g markmap-cli
 markmap innersource-program-mind-map.md
 ```
 
@@ -19,9 +35,9 @@ markmap innersource-program-mind-map.md
 
 We have some other ideas for categories by which the InnerSource Patterns could be grouped.
 
-One is **management and empowerment**. Some patterns help to manage, govern, mitigate risk. Some other patterns help to empower, attract, build communities. This categorization can help others to quickly find the group of patterns that fit their needs.
-
-Another angle is **single project vs organization**. Some patterns are applicable to single project, while others are organizational effort. For people working on specific initiative, single project level patterns might be more interesting. For people working on scaling InnerSource, organizational patterns are important.
+* **Single Project vs Organization** - Some patterns are applicable to single project, while others are organizational effort. For people working on specific initiative, single project level patterns might be more interesting. For people working on scaling InnerSource, organizational patterns are important.
+* **InnerSource Adoption Obstacles** - The [2020 State of InnerSource Research](https://innersourcecommons.org/documents/surveys/State.of.InnerSource.Report.2020.pdf) identifies various obstacles for InnerSource adoption (see page 25). We could identify the patterns that help address each of these obstacles.
+* **Management and Empowerment** - Some patterns help to manage, govern, mitigate risk. Some other patterns help to empower, attract, build communities. This categorization can help others to quickly find the group of patterns that fit their needs.
 
 ## References
 

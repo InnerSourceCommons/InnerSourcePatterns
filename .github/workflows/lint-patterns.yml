@@ -4,7 +4,7 @@ name: Pattern Syntax Validation
 on:
   push:
     branches:
-      - "master"
+      - "main"
   pull_request:
     paths:
       - ".github/workflows/lint-patterns.yml"

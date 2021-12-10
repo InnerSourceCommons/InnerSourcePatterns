@@ -8,54 +8,49 @@ TBD
 
 ## Problem  
 
-* Change developer mindset, it's difficult to push developers to do things.
-* Developers are resisting the change, they are in their comfort zone and it's hard to go out.
-* Developer organizations maturity is high, so people are used to being in some hierarchy/rules
-* Developers are formed in agile, the shift from agile is difficult
+* How do you change developer mindset? It's difficult to push developers to do things.
+* Developers are resisting the change, they are in their comfort zone and it's hard to get them to go out of it.
+* Developer organization's maturity is high, so people are used to being in some hierarchy/rules.
+* Developers are formed in Agile, the shift from Agile is difficult.
 
 ## Context
 
-* Top-down inner source support
-* 3k population of developers
-* Middle Management  is not supporting inner source
-* There's already a successful group in the early stages
-* Code visibility is product dependent
+* Top-down InnerSource support exists.
+* 3k population of developers.
+* Middle management is not supporting InnerSource.
+* There is already a successful InnerSource group in the early stages.
+* Code visibility is product dependent.
 
 ## Forces  
 
-* Manager are previous developers, so they like the way they were promoted and they want to proceed in similar ways
-* Manager restrict where developers can spend time on
-* Top-down approach to the inner source
-* Different teams within the company have to decide to proceed with inner source
-* No formal training
-* Processes are not clear
-
-## Sketch (optional)
+* Managers are previous developers, so they like the way they were promoted and they want to proceed in similar ways.
+* Managers restrict what developers can spend time on, perhaps because of KPIs they have to meet and their belief in the best way to meet those.
+* The approach to the InnerSource initiative is top down - it is supported by top management.
+* Different teams within the company decide whether and how to proceed with InnerSource.
+* No formal training exists.
+* Processes are not clearly defined.
 
 ## Solution  
 
-* Showing reward/recognition of the developer team
-* Formalize training
-* Clarify more processes
-* Give middle management specific objectives to make inner source successful
-* Listen to manager complaints and fears and count on them
+* Show reward/recognition of the developer team that is engaged in InnerSource.
+* Formalize training.
+* Clarify more processes.
+* Give middle management specific objectives to make InnerSource successful.
+* Listen to manager complaints and fears and counter them.
 
 ## Resulting Context
 
-* Use of the several projects across the several development teams
-* Collaboration within the same developer team (mentorship and so on)
+* Software from several InnerSource projects is used across the several development teams.
+* There is improved collaboration within the same developer team (mentorship and so on).
 
-## Rationale (optional)
+## Known Instances
 
-## Known Instances (optional)
+TBD
 
-## Status
+## Status  
 
 * Initial
-* Old status: Unproven
-* Old status: Pattern Idea
 
 ## See Also
 
-This pattern has been moved for discussion at
-https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/63
+* For improving this pattern even further, please also review these [comments from the ISC Fall Summit 2017](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/63#pullrequestreview-67393334).

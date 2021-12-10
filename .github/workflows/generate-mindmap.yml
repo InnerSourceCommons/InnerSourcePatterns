@@ -1,0 +1,45 @@
+name: Generate Mindmap
+
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    paths:
+      - ".github/workflows/generate-mindmap.yml"
+      - "pattern-categorization/innersource-program-mind-map.md"
+
+defaults:
+  run:
+    working-directory: pattern-categorization
+
+jobs:
+  generate-mindmap:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 12.x
+        cache: 'npm'
+        cache-dependency-path: pattern-categorization/package-lock.json
+    - name: Install Node.js dependencies
+      run: npm install
+    - name: Run Markmap
+      run: npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
+    - name: Screenshot Markmap Website
+      id: screenshot-generator
+      uses: swinton/screenshot-website@v1.x
+      with:
+        source: pattern-categorization/innersource-program-mind-map.html
+        destination: innersource-program-mind-map.png
+        full-page: false
+    - name: Copy Screenshot
+      run: cp ${{ steps.screenshot-generator.outputs.path }} .
+    - name: Reduce Screenshot Size (PNG)
+      run: npx optipng innersource-program-mind-map.png
+    - name: Commit Changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Re-creating markmap and screenshot

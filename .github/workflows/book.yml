@@ -3,7 +3,8 @@ name: Book ToC Generation
 on:
   push:
     branches:
-      - "master"
+      - "main"
+      - "book-staging"
 
 jobs:
   book-toc-generation:

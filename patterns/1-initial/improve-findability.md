@@ -2,18 +2,13 @@
 
 Improve Findability
 
-## Also Known As
-
-- Badly Named Piles
-- Poor Naming Conventions
-
 ## Patlet
 
-TBD
+People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding InnerSource solutions and a reduction in code reuse.
 
 ## Problem
 
-People can't find the internally developed solutions that they need due to poor naming conventions.
+People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding InnerSource solutions and a reduction in code reuse.
 
 ## Context
 
@@ -36,14 +31,14 @@ To help improve findability for inner source projects:
 - Include keywords in project descriptions.
 - Apply tagging to repositories (validated).
 - Use labels where possible.
-- If possible, pull repository names, descriptions, and README.md files into the search engine (not the code itself).
+- If possible, pull repository names, descriptions, and `README.md` files into the search engine (not the code itself).
 - Instate a concierge service (guide) to help product people find stuff. (This approach might not scale, but could be helpful at the beginning of a program.)
 
 <img alt="Poor naming conventions" src="/assets/img/poornamingconventions.jpg" width="70%">
 
 ## Known Instances
 
-None known as of yet---this is a pattern idea until it is proven.
+None known as of yet - this is a pattern idea until it is proven.
 
 ## Desired Resulting Context
 
@@ -67,3 +62,8 @@ None known as of yet---this is a pattern idea until it is proven.
 - Erin Bank (CA Technologies)
 - Padma Sudarsan (Nokia)
 - Tim Yao (Nokia)
+
+## Also Known As
+
+- Badly Named Piles
+- Poor Naming Conventions
