@@ -71,6 +71,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Unified Source Code Inventory](patterns/1-initial/source-code-inventory.md) - *In a large organization with different legal entities is often hard to get full visibility into all software assets, in particular all source code. This situation reduces the opportunities to increase business value and keep liability costs, such as software maintenance, under control across the organization as a whole. An organization-level source code inventory addresses these issues while exploiting opportunities to identify and support valuable InnerSource assets.*
 * [Explicit Shared Ownership](patterns/1-initial/explicit-shared-ownership.md) - *A software component that several teams depend on has grown to the point where owners are no longer capable of taking full ownership. There is confusion who to involve for changes. Sharing ownership explicitly and making expected behaviour visible removes ambiguity. Writing a contributions document creates a natural way to evolve ownership.*
 * [Standarized Release Process](patterns/1-initial/release-process.md) - *Teams may be reluctant to use InnerSource projects that they are unfamiliar with when there is no clear release process apparent in the repository. Providing clear release notes and a published artifact (binary, docker image, jar, etc) gives people confidence you are publishing a quality product.*
+* [Overcoming the Not-Invented-Here Mindset](/patterns/1-initial/not-invented-here.md) - Perfectly good solutions are being rejected because of "Not Invented Here" (NIH). Engineers and their managers will choose to implement functionality themselves first, even if an alternative exists. A shift towards a culture of "Proudly Found Elsewhere" can help reduce the negative impact of NIH.
 
 <!--
 NOTE: The 'Initial' Patterns below don't even have a Patlet yet, which is essential for readers to quickly browse our patterns.
@@ -87,6 +88,7 @@ This is why we keep these patterns at the bottom of the list.
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 * [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
+* [Culture Change through Hiring](patterns/1-initial/cultural-change-through-hiring.md)
 
 #### Donuts (needing a solution)
 
