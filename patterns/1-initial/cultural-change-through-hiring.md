@@ -33,7 +33,6 @@ The problem is made harder by a lack of collaboration between Engineering and th
 
 * Engineering and HR make a concerted effort to identify the skills that they want to recruit for in new employees and train the existing staff in
 * A handful of key-hires need to be identified, to act as evangelists for the InnerSource way of working
-* ...
 
 ## Resulting Context
 
