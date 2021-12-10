@@ -39,6 +39,10 @@ The problem is made harder by a lack of collaboration between Engineering and th
 * InnerSource intentionally looped in during all HR interactions.
 * Engineering is looping in HR both in recruiting and retention phase of employee engagement.
 
+## Status
+
+Initial (Extracted from [this issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/37) and associated PR)
+
 ## Appendix
 
 These are notes from the old pattern that we can work into the pattern structure above, if possible. Otherwise we will delete these when the PR gets merged.
