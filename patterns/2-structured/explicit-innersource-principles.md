@@ -142,18 +142,10 @@ Those showing support for the project are being invited as
 
 ## Resulting Context
 
-* Organisation members understand which challenges they can address by
-applying InnerSource best practices.
-
-* Organisation members lacking prior open source experience understand the basic
-values and principles of InnerSource projects.
-
-* Organisation members lacking prior open source experience are able to check
-their daily doing against a set of common established values.
-
-* The organisation's development practices become more similar to open source projects thus
-making it easier for organisation members to participate in open source
-projects.
+* Organisation members understand which challenges they can address by applying InnerSource best practices.
+* Organisation members lacking prior open source experience understand the basic values and principles of InnerSource projects.
+* Organisation members lacking prior open source experience are able to check their daily doing against a set of common established values.
+* The organisation's development practices become more similar to open source projects thus making it easier for organisation members to participate in open source projects.
 
 ## Known Instances
 
