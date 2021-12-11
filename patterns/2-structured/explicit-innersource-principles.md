@@ -126,12 +126,8 @@ way that can easily be searched.
 
 Two caveats though:
 
-1. This does not replace structured documentation. It can serve as a starting point
-to collect structured documentation though.
-
-2. There are exceptions to the rule of everything being written and accessible to
-the entire organisation: People related discussions as well as security related
-discussions are sensitive and should not be held in public.
+1. This does not replace structured documentation. It can serve as a starting point to collect structured documentation though.
+2. There are exceptions to the rule of everything being written and accessible to the entire organisation: People related discussions as well as security related discussions are sensitive and should not be held in public.
 
 (6) Reward Trusted Committership
 
