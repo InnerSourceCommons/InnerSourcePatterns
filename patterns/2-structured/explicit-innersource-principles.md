@@ -37,14 +37,9 @@ as well as a clear path towards achieving these goals.
 
 ## Forces
 
-* Teams have trouble communicating exactly what the important aspects of
-InnerSource are.
-
-* People lacking open source experience fail to understand what it means to bring
-open source best practices into the organisation.
-
-* On a daily basis teams trying to follow InnerSource best practices have a hard
-time deciding if what they are doing is inline with general InnerSource values.
+* Teams have trouble communicating exactly what the important aspects of InnerSource are.
+* People lacking open source experience fail to understand what it means to bring open source best practices into the organisation.
+* On a daily basis teams trying to follow InnerSource best practices have a hard time deciding if what they are doing is inline with general InnerSource values.
 
 ## Solution
 
