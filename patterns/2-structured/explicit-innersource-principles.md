@@ -173,7 +173,7 @@ principles:
 - **Self-Determination**: BIOS communities are free to choose what to work on, when they work and what tools and processes they use to work.
 - **Meritocracy**: Power is vested in BIOS project members based on their merits, that is, based on the quality and quantity of their contributions.
 
-<img alt="BIOS Principles" src="/assets/img/bios-principles.png">
+![BIOS Principles](../../assets/img/bios-principles.png)
 
 The principles _Openness_, _Transparency_ and _Voluntariness_ helped grow
 diverse communities of intrinsically motivated associates. _Meritocracy_ has
@@ -183,7 +183,7 @@ contributions in the most effective and efficient way.
 
 ## Status
 
-Initial
+Structured
 
 ## Authors
 
