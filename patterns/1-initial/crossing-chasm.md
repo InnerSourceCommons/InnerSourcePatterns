@@ -45,7 +45,7 @@ collaborative way of working.
 
 ## Solution
 
-The [InnerSource guidance group](add link here) should make different offers for
+The [InnerSource guidance group](../1-initial/innersource-guidance-group.md) should make different offers for
 mastering InnerSource depending on where on the innovation scale employees are:
 
 ### Steps for reaching innovators
