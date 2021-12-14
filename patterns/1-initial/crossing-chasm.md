@@ -111,3 +111,9 @@ TBD
 ## Status
 
 Initial
+
+## References
+
+- Book: [Crossing the Chasm](https://www.goodreads.com/book/show/61329.Crossing_the_Chasm) - Geoffrey A. Moore, Regis McKenna
+- [Making InnerSource & Developer Experience Real at one of Canada's Top 5 Banks](https://youtu.be/QbJ4VFk8DwA?t=549) - GitHub Universe 2021 - Anthony Vacca 
+
