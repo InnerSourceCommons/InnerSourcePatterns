@@ -77,8 +77,7 @@ etc.)
 * Establish local experts on topics in the teams you want to reach.
 * Provide an InnerSource strategy that is backed by higher level management.
 * Provide InnerSource cheat sheet in particular for those new to the company.
-* Provide teams with a self check to scale the initiative (see [InnerSource
-maturity model](add link here).
+* Provide teams with a self check to scale the initiative (see [Maturity Model](../2-structured/maturity-model.md).
 
 ### Steps for reaching conservatives
 
