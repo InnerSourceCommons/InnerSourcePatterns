@@ -71,6 +71,7 @@ Clare Dillon (v.0 assuming others will add themselves in this section as we fles
 Particular thanks to Gil Yehuda for raising the issue  in the InnerSource Slack channel and Derek Murawsky for sharing his approach.
 
 This pattern was extracted from a conversation on the topic held with the following folks:
+
 - Brittany Istenes
 - Clare Dillon
 - Cristina Coffey
