@@ -42,7 +42,7 @@ At the outset of any new project, ensure terms of the contract and Statement of 
 Specific examples include:
 
 - Role Definitions: At the beginning of every project, contractors are explicitly assigned roles such as Admin, Contributor, Reader or InnerSource roles such Trusted Committer / Contributor.
-- Specific InnerSource Goals and/or time to be allocated to InnerSource initiative: e.g. Allocated time to reviewing PRs from outside the team; response time goals to respond to PRs from others. 
+- Specific InnerSource Goals and/or time to be allocated to InnerSource initiative: e.g. Allocated time to reviewing PRs from outside the team; response time goals to respond to PRs from others.
 - Specific guidelines on decision-making processes to decide how SOW may change as a result of PRs that come during the implementation of the project.
 
 (Derek Murawsky will hopefully have more info/details/examples to add there)
@@ -51,8 +51,8 @@ Implicit in these new terms is a move away from a rigid SOW with a hard deadline
 
 ## Resulting Context
 
-This patlet can help re-define standard contract terms with software development vendors. When implemented, it gives individual contractors permission and guarantees reward for engaging in the InnerSource process. 
-The end result should also be more sustainable code for the contracting organization. 
+This patlet can help re-define standard contract terms with software development vendors. When implemented, it gives individual contractors permission and guarantees reward for engaging in the InnerSource process.
+The end result should also be more sustainable code for the contracting organization.
 
 ## Known Instances (optional)
 
