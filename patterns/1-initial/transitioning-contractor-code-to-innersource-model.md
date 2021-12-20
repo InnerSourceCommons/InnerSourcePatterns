@@ -59,6 +59,7 @@ TBD
 ## Author(s)
 
 Clare Dillon (v.0 assuming others will add themselves in this section as we flesh it out).
+Zack Koppert
 
 ## Acknowledgements
 
