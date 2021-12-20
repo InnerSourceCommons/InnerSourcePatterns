@@ -60,7 +60,7 @@ TBD
 
 Clare Dillon (v.0 assuming others will add themselves in this section as we flesh it out).
 
-## Acknowledgements (optional)
+## Acknowledgements
 
 Particular thanks to Zack Koppert for sharing his experiences in this area and to Gil Yehuda for raising the issue in the InnerSource Slack channel.
 
