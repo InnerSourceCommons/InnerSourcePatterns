@@ -48,7 +48,7 @@ It is noted that this practice can work very well where there is a high trust re
 
 This particular pattern does not attempt to change the initial behavior of the contract development team (in terms of their potential lack of engagement with the InnerSource process). However, the end result is that the project does become part of the InnerSourced projects for the company after the fact.
 
-## Known Instances (optional)
+## Known Instances
 
 GitHub has seen this approach work with their US government agency customers.
 
