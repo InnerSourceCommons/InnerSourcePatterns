@@ -56,7 +56,7 @@ GitHub has seen this approach work with their US government agency customers.
 
 TBD
 
-## Author(s) (optional)
+## Author(s)
 
 Clare Dillon (v.0 assuming others will add themselves in this section as we flesh it out).
 
