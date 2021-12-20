@@ -50,7 +50,7 @@ This particular pattern does not attempt to change the initial behavior of the c
 
 ## Known Instances (optional)
 
-GitHub has seen this approach work with their government customers. Zack Koppert can add details as appropriate.
+GitHub has seen this approach work with their US government agency customers.
 
 ## Status (optional until merging)
 
