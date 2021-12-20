@@ -73,4 +73,3 @@ This pattern was extracted from a conversation on the topic held with the follow
 - Derek Murawsky
 - Gil Yehuda
 - Zack Koppert
-
