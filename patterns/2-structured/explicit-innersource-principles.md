@@ -1,6 +1,6 @@
 ## Title
 
-Explicit InnerSource Principles
+Document your Guiding Principles
 
 ## Patlet
 
@@ -146,3 +146,7 @@ Structured
 
 * Isabel Drost-Fromm
 * Georg Grütter
+
+## Alias
+
+Explicit InnerSource Principles
