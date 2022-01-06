@@ -13,7 +13,7 @@ In the mind map you will see patterns categorized from left to right in increasi
 The logic for these levels is (from left to right):
 
 - level 0: the InnerSource program itself (as the root)
-- level 1: phase of an InnerSource Program
+- level 1: phase of an InnerSource Program (begin/adopt/grow/scale)
 - level 2: problem category
 - level 3: specific problem occurring in an InnerSource context
 - level 4: pattern (solution to the problem)

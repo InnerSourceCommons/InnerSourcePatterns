@@ -30,7 +30,7 @@
 
 ##### [Issue Tracker Use Cases](https://patterns.innersourcecommons.org/p/issue-tracker)
 
-## Adoption
+## Adopt
 
 ### Valuation Challenges
 
