@@ -5,7 +5,7 @@ Document your Guiding Principles
 ## Patlet
 
 The usual InnerSource explanation of "applying open source best practices inside an organisation" does not work well with people lacking an open source background.
-As a remedy the most important principles of InnerSource get published widely.
+As a remedy the most important principles of InnerSource get documented and published widely.
 
 ## Problem
 
