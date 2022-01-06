@@ -118,6 +118,6 @@
 
 ##### [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)
 
-#### InnerSource principles are not intuitive for everybody
+#### Lack of open source knowledge
 
 ##### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)
