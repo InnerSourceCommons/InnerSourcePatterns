@@ -4,7 +4,7 @@
   "description": "Generate mindmap of the patterns in our book, using markmap.",
   "dependencies": {
     "markmap-cli": "^0.5.4",
-    "optipng-bin": "^8.4.0"
+    "optipng-bin": "^8.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
