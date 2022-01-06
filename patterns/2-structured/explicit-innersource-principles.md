@@ -136,8 +136,7 @@ To that end, they applied the following principles:
 
 The principles _Openness_, _Transparency_ and _Voluntariness_ helped grow diverse communities of intrinsically motivated associates.
 _Meritocracy_ has proven to be an effective motivation for making great contributions.
-_Self-Determination_ allowed the communities to use their limited time for
-contributions in the most effective and efficient way.
+_Self-Determination_ allowed the communities to use their limited time for contributions in the most effective and efficient way.
 
 ## Status
 
