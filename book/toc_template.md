@@ -1,14 +1,14 @@
+# Table of Contents
+
 <!--
 Do not edit toc.md directly!!!
 Instead edit toc_template.md
 -->
 
 <!--
-  GOTCHA !!!
+  NOTE:
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
-
-# Table of Contents
 
 * [Introduction](../book/introduction.md)
 * [Table of Contents](../book/toc.md)
