@@ -10,6 +10,7 @@ Instead edit toc_template.md
 
 # Table of Contents
 
+* [Introduction](../book/introduction.md)
 * [Table of Contents](../book/toc.md)
 * [Explore Patterns](../book/explore-patterns.md)
 * [Contribute to this book](../book/contribute.md)
