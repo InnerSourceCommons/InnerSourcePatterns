@@ -14,7 +14,7 @@ Instead edit toc_template.md
 * [Explore Patterns](../book/explore-patterns.md)
 * [Contribute to this book](../book/contribute.md)
 
-<img src="../pattern-categorization/innersource-program-mind-map.png" title="InnerSource Patterns as a Mind Map">
+![Mind Map of InnerSource Patterns](../pattern-categorization/innersource-program-mind-map.png)
 
 ## Patterns <a id="p"></a>
 
