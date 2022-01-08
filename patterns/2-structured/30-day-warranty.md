@@ -36,7 +36,7 @@ Note that the warranty period could be 45, 60, or 100 days too. The duration may
 
 In addition it helps to provide clear [contribution guidelines](./project-setup/base-documentation.md), spelling out the expectations of the receiving team and the contributing team.
 
-<img alt="30 Day Warranty" src="/assets/img/thirtydaywarranty.jpg" width="70%">
+![30 Day Warranty](../../assets/img/thirtydaywarranty.jpg)
 
 ## Resulting Context
 

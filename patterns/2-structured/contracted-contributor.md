@@ -64,7 +64,7 @@ time.
 - The governance office offers to mediate between the contributor and her line manager in case of conflict regarding the time for contributions.
 - The [Dedicated Community Leader](dedicated-community-leader.md) participates in or provides input for performance reviews of contributors contracted for more than 20 %.
 
-<img alt="Contracted Contributor" src="/assets/img/contracted-contributor.png" width="70%">
+![Contracted Contributor](../../assets/img/contracted-contributor.png)
 
 ## Resulting Context
 
