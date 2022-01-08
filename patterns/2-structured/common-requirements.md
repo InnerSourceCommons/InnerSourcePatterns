@@ -35,7 +35,7 @@ Additionally, take advantage of customers expecting the supplier to help elucida
 
 In the example presented above, the supplier helps both customers realize that they want the same thing, and it will save everyone effort (and money) if they agree to accept the result in the same format.
 
-<img alt="Common Requirements" src="/assets/img/CommonReqtsv2.jpg">
+![Common Requirements](../../assets/img/CommonReqtsv2.jpg)
 
 ## Resulting Context
 
