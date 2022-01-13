@@ -47,7 +47,7 @@ Some helpful practices are:
 - Form an InnerSource task force with representatives of Security, Engineering, and the ISPO to align on the goals of InnerSource adoption.
 - Start with a limited scope to lower the potential security impact caused by the adoption.
 - List the security concerns and figure out mitigation plans together within the task force.
-- Clearly define the different sharing levels of repositories that you want to use in your organization (*Note: A more elaborate model is described under **Extension: An Additional Sharing Level*****)**:
+- Clearly define the different sharing levels of repositories that you want to use in your organization *(Note: A more elaborate model is described under **Extension: An Additional Sharing Level**)*:
     - **PUBLIC** - open source: accessible for all SW developers in the world
     - **SHARED** - inner source: accessible for all SW developers in the company
     - **CLOSED** - closed source: only accessible to named individuals in the company
@@ -82,7 +82,7 @@ Build up agreed security requirement of InnerSource like:
 - Business critical algorithms may not be placed in SHARED repositories.
 - Code from SHARED repositories will not be distributed directly to Production.
 - Leveraging secrets scanning tools to scan the target repositories (including code, test cases, and helper scripts) for confidential data such as accounts, passwords, access tokens, keys, and other sensitive data.
-- Keep repositories CLOSED, but expose metadata about the projects (i.e. through an [InnerSource Portal][innersource-portal]), and create some kind of access request workflow. This way you could still give people access to the code, but not open it to everyone by default. (*Note: The full model is described under **Extension: An Additional Sharing Level*****)**
+- Keep repositories CLOSED, but expose metadata about the projects (i.e. through an [InnerSource Portal][innersource-portal]), and create some kind of access request workflow. This way you could still give people access to the code, but not open it to everyone by default. *(Note: The full model is described under **Extension: An Additional Sharing Level**)*
 
 ### Extension: An Additional Sharing Level
 
@@ -121,8 +121,7 @@ Most importantly, the changes implemented through this pattern lead to more code
 - Increased security awareness in engineering teams
 - Increased collaboration between ISPO, Engineering and Security teams
 - More code will be shared between teams, closed source is no longer the obvious default
-
-Concrete implementation of security practices, potentially (partially) automated.
+- Concrete implementation of security practices, potentially (partially) automated.
 
 # Known Instances
 
