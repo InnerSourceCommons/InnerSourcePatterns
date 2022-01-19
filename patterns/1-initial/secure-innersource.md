@@ -68,7 +68,7 @@ Following are some common concerns that many organizations may have, and how to 
     - regular rotation of access token
     - 2FA authentication enforced
     - encourage the use of signed commits
-- Monitoring the source code management system for suspicious access e.g.:
+- Monitoring the source code management system for suspicious access, e.g.:
     - access from new accounts or new devices
     - downloading source code from new devices
     - downloading a great amount of source code in the monitoring period.
