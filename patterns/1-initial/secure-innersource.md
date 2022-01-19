@@ -58,15 +58,10 @@ How to allow for a greater amount of SHARED code in the organizations depends a 
 
 Following are some practices that have proven to be helpful in reducing security concerns and allowing for a greater amount of SHARED code.
 
-### Split out the 'secret sauce' into separate repos
-
-Separate highly specific, differentiating code (the 'secret sauce') from code that is considered commodity in the company (e.g. infrastructure, platform, and UI components).
-By placing them in separate repositories, you increase your chances of offering the commodity code as SHARED repos, while the 'secret sauce' may stay CLOSED.
-
-### Security measures or policies to prevent malicious access to shared repositories (and reduce the impact of the same)
+### Security Training and SCM Setup
 
 - Employee training about security awareness and individual responsibility
-- Enhanced security measures on source code management system such as:
+- Enhanced security measures or policies on source code management (SCM) system to prevent malicious access to shared repositories and reduce the impact of the same:
     - Eliminate anonymous access to source code (all users must be logged in to your Source Code Management tool), log the access to repositories
     - regular review by organization owners on created repositories and granted permission to organization members.
     - Set up [Single Sign-On][single-sign-on] against your organization’s identity provider. This will automatically revoke access in case somebody leaves the organization.
@@ -77,6 +72,11 @@ By placing them in separate repositories, you increase your chances of offering 
     - access from new accounts or new devices
     - downloading source code from new devices
     - downloading a great amount of source code in the monitoring period.
+
+### Split out the 'secret sauce' into separate repos
+
+Separate highly specific, differentiating code (the 'secret sauce') from code that is considered commodity in the company (e.g. infrastructure, platform, and UI components).
+By placing them in separate repositories, you increase your chances of offering the commodity code as SHARED repos, while the 'secret sauce' may stay CLOSED.
 
 ### Prevent sensitive information in shared repositories
 
