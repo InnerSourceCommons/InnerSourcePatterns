@@ -30,7 +30,7 @@ Restricting access typically reduces the risk of these things from happening, bu
 - Good security practice is to minimize access, following the [principle of least privilege][principle-of-least-privilege].
 - The Security Team is more familiar with security principles at conceptual level than security practices at operation level. Some of the security policy is good at concept but hard to execute at operation level.
 - Engineering Teams focus more on service/product development or knowledge sharing than on measures for data protection. While it is easy for Engineering Teams to decide to close or open the repository, they are usually not willing to spend time on judging how to reach a balance between both. Or to refactor their code in order to be able to share more.
-- No one-fit-all guideline or rules to judge what data or process is secured or not. That much depends on data sensitivity and overall security policy/infrastructure.
+- No one-fit-all guideline or rules to judge what data or process is to be secured or not. That much depends on data sensitivity and overall security policy/infrastructure.
 
 # Solutions
 
