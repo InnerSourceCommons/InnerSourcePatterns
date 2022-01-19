@@ -4,7 +4,7 @@ Secure InnerSource
 
 # Patlet
 
-A collaborative InnerSource practice in a company benefits from a maximum level of shared source code, to allow participants from outside of the core team to contribute and re-use. In contrast to that, a functioning security practice demands to give the users the last amount of access to perform their job. By implementing various security measures and defining multiple sharing levels for different types of code, sharing and collaboration can be facilitated while minimizing the risks of code-leak and malicious code injection.
+A collaborative InnerSource practice in a company benefits from a maximum level of shared source code, to allow participants from outside of the core team to contribute and re-use. In contrast to that, a common security practice is to give users the least amount of access they need to perform their job. By implementing various security measures and defining multiple sharing levels for different types of code, sharing and collaboration can be facilitated while minimizing the risks of code-leak and malicious code injection.
 
 # Problem
 
