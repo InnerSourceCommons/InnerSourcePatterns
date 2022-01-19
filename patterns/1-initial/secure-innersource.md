@@ -8,7 +8,7 @@ A collaborative InnerSource practice in a company benefits from a maximum level 
 
 # Problem
 
-A successful InnerSource program needs openness and transparency (e.g. access to code, issues, documentation, and roadmap), while good security practice is to minimize access, following the [principle of least privilege][principle-of-least-privilege]. How to balance and implement these seemingly contradicting requirements?
+A successful InnerSource program needs openness and transparency (e.g. access to code, issues, documentation, and roadmap), while good security practice is to minimize access, following the [principle of least privilege][principle-of-least-privilege]. How to balance and address these seemingly contradicting requirements?
 
 # Story
 
