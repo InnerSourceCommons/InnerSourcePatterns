@@ -106,7 +106,6 @@ Notes:
 
 # Resulting Context
 
-*What is the situation after the problem has been solved? The original context is changed indirectly by way of the solution. Often this section can include discussion of the next possible Patterns/problems introduced. This section can be short in content - the solution may not introduce new problems or change much context.*
 
 Many times the InnerSource adoption in an organization will [start as an experiment][start-as-an-experiment], with a small number of SHARED repositories.
 
