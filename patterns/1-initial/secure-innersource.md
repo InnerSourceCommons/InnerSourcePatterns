@@ -40,7 +40,7 @@ After that they can decide as a group how to drive the execution of the specific
 
 ## Setup
 
-Start by bringing the Security Team, Engineering Teams and ISPO together, to discuss the goals of the InnerSource initiative, as well as any security concerns.
+Start by bringing (representatives from) Engineering, Security, Legal, and the ISPO together, to discuss the goals of the InnerSource initiative, as well as any security concerns.
 
 Some helpful practices are:
 
