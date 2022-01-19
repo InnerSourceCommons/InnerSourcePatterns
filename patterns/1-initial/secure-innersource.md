@@ -77,7 +77,7 @@ Following are some common concerns that many organizations may have, and how to 
 
 Build up agreed security requirement of InnerSource, such as:
 
-- No hard-coded usernames and/or passwords.
+- No hard-coded usernames, passwords or other access/security tokens in a repository.
 - Repo does not contain client information.
 - Business critical algorithms may not be placed in SHARED repositories.
 - Code from SHARED repositories will not be distributed directly to Production.
