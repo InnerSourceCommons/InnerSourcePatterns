@@ -136,6 +136,10 @@ Most importantly, the changes implemented through this pattern lead to more code
 - Jack Yang
 - Sebastian Spier
 
+# Acknowledgements
+
+- Conley Rogers
+
 # Alias
 
 - Secure InnerSource
