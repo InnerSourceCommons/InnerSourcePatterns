@@ -112,6 +112,8 @@ Many times the InnerSource adoption in an organization will [start as an experim
 
 If the task force (and with that Security and Legal) collaborate in this early phase already, they can make joint experiences with how security-related issues can be identified and addressed. This also allows the Security Teams to build up more confidence on InnerSource from a security angle.
 
+The defined sharing levels for repositories provide guidance on what sharing level to use for what type of repository content. The increased security awareness of the engineers and more secure setup of the source code management systems increases overall software development security.
+
 With the increased confidence and lessons learned from this experiment, the task force faces less pushback when rolling out InnerSource to more repositories.
 
 Most importantly, the changes implemented through this pattern lead to more code being shared between teams, and closed source will no longer be the obvious default.
