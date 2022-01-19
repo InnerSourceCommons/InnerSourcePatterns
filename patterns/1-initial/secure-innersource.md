@@ -111,7 +111,7 @@ Repositories with RESTRICTED sharing level are included in the [central catalog]
 
 # Resulting Context
 
-Many times the InnerSource adoption in an organization will [start as an experiment][start-as-an-experiment], with a small number of SHARED repositories.
+InnerSource adoption in an organization will often [start as an experiment][start-as-an-experiment], with a small number of SHARED repositories.
 
 If the task force (and with that Security and Legal) collaborate in this early phase already, they can make joint experiences with how security-related issues can be identified and addressed. This also allows the Security Teams to build up more confidence on InnerSource from a security angle.
 
