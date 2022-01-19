@@ -90,7 +90,7 @@ In some cases, introducing additional sharing levels might be appropriate. Use c
 
 And given 'findability' is also important, adding the additional level that facilitates findability, but still provides a light-weight gate seems to be a good way out to steer projects out of closed source.
 
-As concrete example, which allows repositories to be discovered, even though there is no company-wide access, consider the following sharing levels:
+As a concrete example, which allows repositories to be discovered, even though there is no company-wide access, consider the following sharing levels:
 
 - **PUBLIC** - open source: findable and accessible for all SW developers in the world
 - **INTERNAL** - inner source: findable and accessible for all SW developers in the company
