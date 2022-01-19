@@ -110,7 +110,7 @@ Notes:
 
 Many times the InnerSource adoption in an organization will [start as an experiment][start-as-an-experiment], with a small number of SHARED repositories.
 
-If the task force (and with that the Security Team) collaborate in this early phase already, they can make joint experiences with how security-related issues can be identified and addressed. This also allows the Security Teams to build up more confidence on InnerSource from a security angle.
+If the task force (and with that Security and Legal) collaborate in this early phase already, they can make joint experiences with how security-related issues can be identified and addressed. This also allows the Security Teams to build up more confidence on InnerSource from a security angle.
 
 With the increased confidence and lessons learned from this experiment, the task force faces less pushback when rolling out InnerSource to more repositories.
 
