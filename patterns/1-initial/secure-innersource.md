@@ -12,7 +12,7 @@ A successful InnerSource program needs openness and transparency (e.g. access to
 
 # Story
 
-Most companies developing proprietary software will have source code that they do not want to leave the company, as this would harm their business. Think what would happen when the major competitors would have access to their latest features and would know what they are working on next. Even when the source code management system is not compromised from the outside, malicious employees or interns could leak code to the competition. Or think about gaining access to sensitive systems and services using credentials that are hard-coded in source code. Or injection of malicious code into a product’s codebase.
+Most companies developing proprietary software will have source code that they do not want to leave the company, as this may harm their business. Think what would happen when the major competitors would have access to their latest features and would know what they are working on next. Even when the source code management system is not compromised from the outside, malicious employees or interns could leak code to the competition. Or think about gaining access to sensitive systems and services using credentials that are hard-coded in source code. Or injection of malicious code into a product’s codebase.
 
 Restricting access typically reduces the risk of these things from happening, but at the same time hampers collaboration and re-use.
 
