@@ -118,12 +118,6 @@ With the increased confidence and lessons learned from this experiment, the task
 
 Most importantly, the changes implemented through this pattern lead to more code being shared between teams, and closed source will no longer be the obvious default.
 
-- Definition of sharing levels for repositories, with accompanying guidance of which level to use for what type of repository contents.
-- Increased InnerSource awareness in Security team
-- Increased security awareness in engineering teams
-- Increased collaboration between ISPO, Engineering and Security teams
-- More code will be shared between teams, closed source is no longer the obvious default
-- Concrete implementation of security practices, potentially (partially) automated.
 
 # Known Instances
 
