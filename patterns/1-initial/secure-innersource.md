@@ -116,7 +116,6 @@ With the increased confidence and lessons learned from this experiment, the task
 
 Most importantly, the changes implemented through this pattern lead to more code being shared between teams, and closed source will no longer be the obvious default.
 
-
 # Known Instances
 
 * Philips
