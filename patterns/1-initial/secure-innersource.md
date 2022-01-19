@@ -81,7 +81,7 @@ Build up agreed security requirement of InnerSource, such as:
 - No client information in a repository.
 - Business critical algorithms may not be placed in SHARED repositories.
 - Code from SHARED repositories will not be distributed directly to Production.
-- Leveraging secrets scanning tools to scan the target repositories (including code, test cases, and helper scripts) for confidential data such as accounts, passwords, access tokens, keys, and other sensitive data.
+- Leverage secrets scanning tools to scan the target repositories (including code, test cases, and helper scripts) for confidential data such as accounts, passwords, access tokens, keys, and other sensitive data.
 - Keep repositories CLOSED, but expose metadata about the projects (i.e. through an [InnerSource Portal][innersource-portal]), and create some kind of access request workflow. This way you could still give people access to the code, but not open it to everyone by default. *(Note: The full model is described under **Extension: An Additional Sharing Level**)*
 
 ### Extension: An Additional Sharing Level
