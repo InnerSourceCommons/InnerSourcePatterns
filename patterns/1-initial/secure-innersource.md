@@ -97,7 +97,7 @@ As a concrete example, which allows repositories to be discovered, even though t
 - **RESTRICTED** - restricted source: findable for all SW developers in the company, low-friction process to gain full access.
 - **CLOSED** - closed source: only accessible to named individuals and not findable via the search engine for other SW developers in the company.
 
-Repositories with RESTRICTED sharing level are included in the [central catalog][innersource-portal] and/or fed into the central search mechanism, together with their `README.md` and some meta information. Their content, however, is not accessible without following a light-weight access request process. This can for example be contacting one of the code owners or some other request mechanism described in the `README.md` file.
+Repositories with RESTRICTED sharing level are included in the [central catalog][innersource-portal] and/or fed into the central search mechanism, together with their `README.md` and some meta information. Their full content however, is not accessible without following a light-weight access request process. This can for example be contacting one of the code owners or some other request mechanism described in the `README.md` file.
 
 Notes:
 
