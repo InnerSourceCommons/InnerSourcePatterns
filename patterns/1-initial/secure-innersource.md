@@ -99,10 +99,10 @@ As a concrete example, which allows repositories to be discovered, even though t
 
 Repositories with RESTRICTED sharing level are included in the [central catalog][innersource-portal] and/or fed into the central search mechanism, together with their `README.md` and some meta information. Their full content however, is not accessible without following a light-weight access request process. This can for example be contacting one of the code owners or some other request mechanism described in the `README.md` file.
 
-Notes:
+*Notes:*
 
-- This will likely have an impact on contributions due to the additional step to access the code.
-- It is feasible to use a tool that automatically adds the `README.md` and some other meta-data to an internal repository in GitHub, allowing the GitHub search feature to include this data in the search results.
+- RESTRICTED repos will likely get fewer contributions due to the additional step to access the code. Where possible, INTERNAL repos should be preferred.
+- It is possible to use a tool that automatically adds the `README.md` and some other metadata to an internal repository in GitHub, allowing the GitHub search feature to include this data in the search results.
 
 # Resulting Context
 
