@@ -125,6 +125,7 @@ Most importantly, the changes implemented through this pattern lead to more code
 
 # Known Instances
 
+* Philips
 TBD
 
 # Status
