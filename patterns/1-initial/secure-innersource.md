@@ -136,6 +136,10 @@ TBD
 - Jack Yang
 - Sebastian Spier
 
+# Alias
+
+- Secure InnerSource
+
 [principle-of-least-privilege]: https://en.wikipedia.org/wiki/Principle_of_least_privilege
 [single-sign-on]: https://en.wikipedia.org/wiki/Single_sign-on
 [export-control]: https://en.wikipedia.org/wiki/Export_control
