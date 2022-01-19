@@ -48,8 +48,8 @@ Some helpful practices are:
 - Start with a limited scope to lower the potential security impact caused by the adoption.
 - List the security concerns and figure out mitigation plans together within the task force.
 - Clearly define the different sharing levels of repositories that you want to use in your organization *(Note: A more elaborate model is described under **Extension: An Additional Sharing Level**)*:
-    - **PUBLIC** - open source: accessible for all SW developers in the world
-    - **SHARED** - inner source: accessible for all SW developers in the company
+    - **PUBLIC** - open source: accessible for all software developers in the world
+    - **SHARED** - inner source: accessible for all software developers in the company
     - **CLOSED** - closed source: only accessible to named individuals in the company
 
 ## Execution
@@ -97,10 +97,10 @@ And given discoverability is also important, adding the additional level that fa
 
 As a concrete example, which allows repositories to be discovered, even though there is no company-wide access, consider the following sharing levels:
 
-- **PUBLIC** - open source: findable and accessible for all SW developers in the world
-- **INTERNAL** - inner source: findable and accessible for all SW developers in the company
-- **RESTRICTED** - restricted source: findable for all SW developers in the company, low-friction process to gain full access.
-- **CLOSED** - closed source: only accessible to named individuals and not findable via the search engine for other SW developers in the company.
+- **PUBLIC** - open source: findable and accessible for all software developers in the world
+- **INTERNAL** - inner source: findable and accessible for all software developers in the company
+- **RESTRICTED** - restricted source: findable for all software developers in the company, low-friction process to gain full access.
+- **CLOSED** - closed source: only accessible to named individuals and not findable via the search engine for other software developers in the company.
 
 Repositories with RESTRICTED sharing level are included in the [central catalog][innersource-portal] and/or fed into the central search mechanism, together with their `README.md` and some meta information. Their full content however, is not accessible without following a light-weight access request process. This can for example be contacting one of the code owners or some other request mechanism described in the `README.md` file.
 
