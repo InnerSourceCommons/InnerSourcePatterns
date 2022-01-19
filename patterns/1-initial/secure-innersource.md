@@ -44,7 +44,7 @@ Start by bringing (representatives from) Engineering, Security, Legal, and the I
 
 Some helpful practices are:
 
-- Form an InnerSource task force with representatives of Security, Engineering, and the ISPO to align on the goals of InnerSource adoption.
+- Form an InnerSource task force with representatives from Security, Legal, Engineering, and the ISPO to align on the goals of InnerSource adoption.
 - Start with a limited scope to lower the potential security impact caused by the adoption.
 - List the security concerns and figure out mitigation plans together within the task force.
 - Clearly define the different sharing levels of repositories that you want to use in your organization *(Note: A more elaborate model is described under **Extension: An Additional Sharing Level**)*:
