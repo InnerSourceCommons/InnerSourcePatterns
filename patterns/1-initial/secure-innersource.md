@@ -75,7 +75,7 @@ Following are some common concerns that many organizations may have, and how to 
 
 ### Prevent sensitive information in shared repositories
 
-Build up agreed security requirement of InnerSource like:
+Build up agreed security requirement of InnerSource, such as:
 
 - No hard-coded usernames and/or passwords.
 - Repo does not contain client information.
