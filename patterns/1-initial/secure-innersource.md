@@ -60,7 +60,7 @@ Following are some practices that have proven to be helpful in reducing security
 
 ### Split out the 'secret sauce' into separate repos
 
-Separate highly specific, differentiating code (the 'secret sauce') from code that is considered commodity in the company (e.g. infrastructure, platform, and UI components). 
+Separate highly specific, differentiating code (the 'secret sauce') from code that is considered commodity in the company (e.g. infrastructure, platform, and UI components).
 By placing them in separate repositories, you increase your chances of offering the commodity code as SHARED repos, while the 'secret sauce' may stay CLOSED.
 
 ### Security measures or policies to prevent malicious access to shared repositories (and reduce the impact of the same)
