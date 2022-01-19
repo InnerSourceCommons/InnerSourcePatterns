@@ -54,7 +54,7 @@ Some helpful practices are:
 
 ## Execution
 
-How to allow for a greater amount of SHARED repositories in the organizations depends a lot on the specific business domain, related regulations, and concerns identified in the initial meetings of the InnerSource task force as mentioned above.
+How to allow for a greater amount of SHARED code in the organizations depends a lot on the specific business domain, related regulations, and concerns identified in the initial meetings of the InnerSource task force as mentioned above.
 
 The following lists some common concerns that many organizations may have, and how to address them.
 
