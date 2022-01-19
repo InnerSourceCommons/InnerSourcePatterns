@@ -56,7 +56,12 @@ Some helpful practices are:
 
 How to allow for a greater amount of SHARED code in the organizations depends a lot on the specific business domain, related regulations, and concerns identified in the initial meetings of the InnerSource task force as mentioned above.
 
-Following are some common concerns that many organizations may have, and how to address them.
+Following are some practices that have proven to be helpful in reducing security concerns and allowing for a greater amount of SHARED code.
+
+### Split out the 'secret sauce' into separate repos
+
+Separate highly specific, differentiating code (the 'secret sauce') from code that is considered commodity in the company (e.g. infrastructure, platform, and UI components). 
+By placing them in separate repositories, you increase your chances of offering the commodity code as SHARED repos, while the 'secret sauce' may stay CLOSED.
 
 ### Security measures or policies to prevent malicious access to shared repositories (and reduce the impact of the same)
 
