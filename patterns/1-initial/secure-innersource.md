@@ -13,7 +13,9 @@ A successful InnerSource program needs openness and transparency (e.g. access to
 
 # Story
 
-Most companies developing proprietary software will have source code that they do not want to leave the company, as this may harm their business. Think what would happen when the major competitors would have access to their latest features and would know what they are working on next. Even when the source code management system is not compromised from the outside, malicious employees or interns could leak code to the competition. Or think about gaining access to sensitive systems and services using credentials that are hard-coded in source code. Or injection of malicious code into a product’s codebase.
+Most companies developing proprietary software will have source code that they do not want to leave the company, as this may harm their business. Think what would happen when the major competitors would have access to their latest features and would know what they are working on next. 
+
+Even when the source code management system is not compromised from the outside, malicious employees or interns could leak code to the competition. Or think about gaining access to sensitive systems and services using credentials that are hard-coded in source code. Or injection of malicious code into a product’s codebase.
 
 Restricting access typically reduces the risk of these things from happening, but at the same time hampers collaboration and re-use.
 
@@ -21,7 +23,7 @@ Restricting access typically reduces the risk of these things from happening, bu
 
 - The organization has an InnerSource Program Office (ISPO), or a similar group, steering the success of the InnerSource initiative in the organization. One of their goals is to stimulate maximum openness and transparency in the organization.
 - The organization has a Security Team constraining unnecessary data access to prevent the organization from data-leakage and malicious code injection.
-- The Security Team, ISPO, and engineering teams are not regularly talking with each other.
+- The Security Team, ISPO, and Engineering teams are not regularly talking with each other.
 - "Closed Source" is the default in the organization when creating new repositories, i.e. only the team owning/maintaining the code has access to the given repo.
 - "Shared Source" within the organization isn’t common practice. Organizational teams aren’t familiar with what code or information should or shouldn’t be placed in shared repositories.
 
@@ -35,7 +37,7 @@ Restricting access typically reduces the risk of these things from happening, bu
 
 # Solutions
 
-To reduce the misalignment and possible misunderstanding between the teams involved, it is key to bring everybody together so that they are able to express their goals and concerns, and to develop shared language together.
+To reduce the misalignment and possible misunderstanding between the teams involved, it is key to bring everybody together so that they can express their goals and concerns, and develop shared language together.
 
 After that they can decide as a group how to drive the execution of the specific goals, and what to do to reduce the risks that were identified.
 
