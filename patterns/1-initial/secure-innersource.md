@@ -4,7 +4,8 @@ Secure InnerSource
 
 # Patlet
 
-A collaborative InnerSource practice in a company benefits from a maximum level of shared source code, to allow participants from outside of the core team to contribute and re-use. In contrast to that, a common security practice is to give users the least amount of access they need to perform their job. By implementing various security measures and defining multiple sharing levels for different types of code, sharing and collaboration can be facilitated while minimizing the risks of code-leak and malicious code injection.
+While InnerSource flourishes in environments with a high degree of shared code, Security/Legal prefers the limitation of source code access to only those that need it.
+By making Security/Legal part of the team, introducing explicit sharing levels, and defining what qualifies as sensitive information, code sharing can be facilitated while minimizing the associated risks.
 
 # Problem
 
