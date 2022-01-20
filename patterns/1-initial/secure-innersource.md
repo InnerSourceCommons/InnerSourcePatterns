@@ -13,7 +13,7 @@ A successful InnerSource program needs openness and transparency (e.g. access to
 
 # Story
 
-Most companies developing proprietary software will have source code that they do not want to leave the company, as this may harm their business. Think what would happen when the major competitors would have access to their latest features and would know what they are working on next. 
+Most organizations developing proprietary software will have source code that they do not want to leave the organization, as this may harm their business. Think what would happen when the major competitors would have access to their latest features and would know what they are working on next. 
 
 Even when the source code management system is not compromised from the outside, malicious employees or interns could leak code to the competition. Or think about gaining access to sensitive systems and services using credentials that are hard-coded in source code. Or injection of malicious code into a product’s codebase.
 
@@ -52,8 +52,8 @@ Some helpful practices are:
 - List the security concerns and figure out mitigation plans together within the task force.
 - Clearly define the different sharing levels of repositories that you want to use in your organization *(Note: A more elaborate model is described under **Extension: An Additional Sharing Level**)*:
     - **PUBLIC** - open source: accessible for all software developers in the world
-    - **SHARED** - inner source: accessible for all software developers in the company
-    - **CLOSED** - closed source: only accessible to named individuals in the company
+    - **SHARED** - inner source: accessible for all software developers in the organization
+    - **CLOSED** - closed source: only accessible to named individuals in the organization
 
 ## Execution
 
@@ -78,7 +78,7 @@ Following are some practices that have proven to be helpful in reducing security
 
 ### Split out the 'secret sauce' into separate repos
 
-Separate highly specific, differentiating code (the 'secret sauce') from code that is considered commodity in the company (e.g. infrastructure, platform, and UI components).
+Separate highly specific, differentiating code (the 'secret sauce') from code that is considered commodity in the organization (e.g. infrastructure, platform, and UI components).
 By placing them in separate repositories, you increase your chances of offering the commodity code as SHARED repos, while the 'secret sauce' may stay CLOSED.
 
 ### Prevent sensitive information in shared repositories
@@ -94,16 +94,16 @@ Build up agreed security requirement of InnerSource, such as:
 
 ### Extension: An Additional Sharing Level
 
-In some cases, introducing additional sharing levels might be appropriate. Use cases include semi-sensitive code that can be shared with larger groups of people, but for example not with all interns and contractors. Or not with people with certain nationalities or working in a specific country, in order to comply with [export control][export-control] regulations. Or legacy repositories that are not (yet) ready to be made available as SHARED. Without the additional level, (too) many repositories will end up as CLOSED in an existing organization, as all businesses will considering their code 'special', requiring extra protection and/or 'not ready for opening up company wide yet (e.g. hard-coded secrets, but also technical debt, lacking documentation).
+In some cases, introducing additional sharing levels might be appropriate. Use cases include semi-sensitive code that can be shared with larger groups of people, but for example not with all interns and contractors. Or not with people with certain nationalities or working in a specific country, in order to comply with [export control][export-control] regulations. Or legacy repositories that are not (yet) ready to be made available as SHARED. Without the additional level, (too) many repositories will end up as CLOSED in an existing organization, as all businesses will considering their code 'special', requiring extra protection and/or 'not ready' for opening up organization-wide yet (e.g. hard-coded secrets, but also technical debt, lacking documentation).
 
 And given discoverability is also important, adding the additional level that facilitates discoverability, but still provides a light-weight access gate could be an appropriate way to prevent too many CLOSED repositories.
 
-As a concrete example, which allows repositories to be discovered, even though there is no company-wide access, consider the following sharing levels:
+As a concrete example, which allows repositories to be discovered, even though there is no organization-wide access, consider the following sharing levels:
 
 - **PUBLIC** - open source: findable and accessible for all software developers in the world
-- **INTERNAL** - inner source: findable and accessible for all software developers in the company
-- **RESTRICTED** - restricted source: findable for all software developers in the company, low-friction process to gain full access.
-- **CLOSED** - closed source: only accessible to named individuals and not findable via the search engine for other software developers in the company.
+- **INTERNAL** - inner source: findable and accessible for all software developers in the organization
+- **RESTRICTED** - restricted source: findable for all software developers in the organization, low-friction process to gain full access.
+- **CLOSED** - closed source: only accessible to named individuals and not findable via the search engine for other software developers in the organization.
 
 Repositories with RESTRICTED sharing level are included in the [central catalog][innersource-portal] and/or fed into the central search mechanism, together with their `README.md` and some meta information. Their full content however, is not accessible without following a light-weight access request process. This can for example be contacting one of the code owners or some other request mechanism described in the `README.md` file.
 
