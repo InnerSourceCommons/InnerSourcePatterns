@@ -13,7 +13,7 @@ A successful InnerSource program needs openness and transparency (e.g. access to
 
 # Story
 
-Most organizations developing proprietary software will have source code that they do not want to leave the organization, as this may harm their business. Think what would happen when the major competitors would have access to their latest features and would know what they are working on next. 
+Most organizations developing proprietary software will have source code that they do not want to leave the organization, as this may harm their business. Think what would happen when the major competitors would have access to their latest features and would know what they are working on next.
 
 Even when the source code management system is not compromised from the outside, malicious employees or interns could leak code to the competition. Or think about gaining access to sensitive systems and services using credentials that are hard-coded in source code. Or injection of malicious code into a product’s codebase.
 
@@ -94,7 +94,13 @@ Build up agreed security requirement of InnerSource, such as:
 
 ### Extension: An Additional Sharing Level
 
-In some cases, introducing additional sharing levels might be appropriate. Use cases include semi-sensitive code that can be shared with larger groups of people, but for example not with all interns and contractors. Or not with people with certain nationalities or working in a specific country, in order to comply with [export control][export-control] regulations. Or legacy repositories that are not (yet) ready to be made available as SHARED. Without the additional level, (too) many repositories will end up as CLOSED in an existing organization, as all businesses will considering their code 'special', requiring extra protection and/or 'not ready' for opening up organization-wide yet (e.g. hard-coded secrets, but also technical debt, lacking documentation).
+In some cases, introducing additional sharing levels might be appropriate. Use cases include:
+
+- semi-sensitive code that can be shared with larger groups of people, but for example not with all interns and contractors. 
+- Or not with people with certain nationalities or working in a specific country, in order to comply with [export control][export-control] regulations. 
+- Or legacy repositories that are not (yet) ready to be made available as SHARED. 
+
+Without the additional sharing levels, (too) many repositories will end up as CLOSED in an existing organization, as all businesses will considering their code 'special', requiring extra protection and/or 'not ready' for opening up organization-wide yet (e.g. hard-coded secrets, but also technical debt, lacking documentation).
 
 And given discoverability is also important, adding the additional level that facilitates discoverability, but still provides a light-weight access gate could be an appropriate way to prevent too many CLOSED repositories.
 
