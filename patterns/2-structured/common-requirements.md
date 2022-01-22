@@ -35,16 +35,17 @@ Additionally, take advantage of customers expecting the supplier to help elucida
 
 In the example presented above, the supplier helps both customers realize that they want the same thing, and it will save everyone effort (and money) if they agree to accept the result in the same format.
 
-<img alt="Common Requirements" src="/assets/img/CommonReqtsv2.jpg">
+![Common Requirements](../../assets/img/CommonReqtsv2.jpg)
 
 ## Resulting Context
 
 This might require negotiating requirements changes with the customer.  The changes might also require involvement by the sales teams and product managers to get alignment on the requirements.  The customer might need incentives, such as discounts, to agree to the changes.
 
-A related pattern (to be written) is a circular story-writing exercise reported at one company employing Inner Sourcing.  
-The developers write a story to solve a problem in one way.  
+A related pattern [pattern to be written] is a circular story-writing exercise reported at one company employing InnerSource.  
 
-The program managers rewrite the story to better express their needs---keeping the essence the same. By the time it returns to developers though they don't recognize it as what they wanted to do in the first place and so balk at implementing it.  The solution to this pattern is to have more seats around the planning table so that story modifications are understood across the project not just in the developer or program manager camps.
+* The developers write a story to solve a problem in one way.  
+* The program managers rewrite the story to better express their needs - keeping the essence the same. By the time it returns to developers though they don't recognize it as what they wanted to do in the first place and so balk at implementing it.  
+* The solution to this pattern is to have more seats around the planning table so that story modifications are understood across the project not just in the developer or program manager camps.
 
 ## Known Instances
 
@@ -53,8 +54,8 @@ TBD
 ## Status
 
 * Structured
-* Old status: Proven
+* Drafted Aug 2016
 
 ## Author
 
-Robert Hanmer, 22 Aug 2016, 20 Sept 2016  
+Robert Hanmer

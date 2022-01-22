@@ -1,72 +1,100 @@
-# [InnerSource Program](https://innersourcecommons.gitbook.io/innersource-patterns/v/book/toc)
+# [InnerSource Program](https://patterns.innersourcecommons.org/toc)
 
 ## Begin
 
-### [Start as an Experiment](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/start-as-experiment.md)
+### Program Setup
 
-### [Dedicated Community Manager](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/dedicated-community-leader.md)
+#### Management hesitates to invest in InnerSource
+
+##### [Start as an Experiment](https://patterns.innersourcecommons.org/p/start-as-experiment)
+
+#### Slow community growth hinders InnerSource
+
+##### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
+
+#### InnerSource principles are not intuitive for everybody
+
+##### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)
 
 ### Project Setup
 
-#### [Standard Base Documentation](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/project-setup/base-documentation.md)
+#### Hard to assess a project quickly
 
-#### [Communication Tooling](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/project-setup/communication-tooling.md)
+##### [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
 
-#### [Issue Tracker Use Cases](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/project-setup/issue-tracker.md)
+#### Ad-hoc communication hinders project growth
 
-## Adoption
+##### [Communication Tooling](https://patterns.innersourcecommons.org/p/communication-tooling)
+
+#### Intransparent roadmap and direction of the project
+
+##### [Issue Tracker Use Cases](https://patterns.innersourcecommons.org/p/issue-tracker)
+
+## Adopt
 
 ### Valuation Challenges
 
 #### How to measure a project's business value
 
-##### [Cross-Team Project Valuation](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/crossteam-project-valuation.md)
+##### [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
 
 ### Cultural Challenges
 
 #### Unrecognized effort
 
-##### [Praise Participants](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/praise-participants.md)
+##### [Praise Participants](https://patterns.innersourcecommons.org/p/praise-participants)
 
-##### [Trusted Committer](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/trusted-committer.md)
+##### [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)
 
 ### Technical Challenges
 
 #### Not meeting everyone's needs
 
-##### [Common Requirements](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/common-requirements.md)
+##### [Common Requirements](https://patterns.innersourcecommons.org/p/common-requirements)
 
 #### Fear of shared support responsibility
 
-##### [Service vs. Library](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/service-vs-library.md)
+##### [Service vs. Library](https://patterns.innersourcecommons.org/p/service-vs-library)
+
+#### Project is difficult to contribute to and use
+
+##### [Core Team](https://patterns.innersourcecommons.org/p/core-team)
 
 ### Organizational Challenges
 
 #### Discouragement of contributing resource
 
-##### [Contracted Contributor](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/contracted-contributor.md)
+##### [Contracted Contributor](https://patterns.innersourcecommons.org/p/contracted-contributor)
 
 #### Rejection of accepting contribution
 
-##### [30 Day Warranty](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/30-day-warranty.md)
+##### [30 Day Warranty](https://patterns.innersourcecommons.org/p/30-day-warranty)
 
 #### Radical change of management
 
-##### [Review Committee](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/review-committee.md)
+##### [Review Committee](https://patterns.innersourcecommons.org/p/review-committee)
 
 #### Fear of shared support responsibility
 
-##### [Service vs. Library](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/service-vs-library.md)
+##### [Service vs. Library](https://patterns.innersourcecommons.org/p/service-vs-library)
 
 #### Not enough maintainers to scale
 
-##### [Trusted Committer](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/trusted-committer.md)
+##### [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)
+
+#### Difficult cross-team coordination
+
+##### [Transparent Cross-Team Decision Making using RFCs](https://patterns.innersourcecommons.org/p/transparent-cross-team-decision-making-using-rfcs)
+
+#### Project without an owner/maintainer
+
+##### [Core Team](https://patterns.innersourcecommons.org/p/core-team)
 
 ### Cross Legal Entities Challenges
 
 #### Concern on legal liabilities or cross-company accounting
 
-##### [InnerSource License](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-license.md)
+##### [InnerSource License](https://patterns.innersourcecommons.org/p/innersource-license)
 
 ## Grow
 
@@ -74,13 +102,13 @@
 
 #### Can't find matching projects
 
-##### [Gig Marketplace](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/gig-marketplace.md)
+##### [Gig Marketplace](https://patterns.innersourcecommons.org/p/gig-marketplace)
 
-##### [InnerSource Portal](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/innersource-portal.md)
+##### [InnerSource Portal](https://patterns.innersourcecommons.org/p/innersource-portal)
 
 #### Difficult to find active projects
 
-##### [Repository Activity Score](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/repository-activity-score.md)
+##### [Repository Activity Score](https://patterns.innersourcecommons.org/p/repository-activity-score)
 
 ## Scale
 
@@ -88,4 +116,8 @@
 
 #### Not aware of InnerSource best practices
 
-##### [Maturity Model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/patterns/2-structured/maturity-model.md)
+##### [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)
+
+#### Lack of open source knowledge
+
+##### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)
