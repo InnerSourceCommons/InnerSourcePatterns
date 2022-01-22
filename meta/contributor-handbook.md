@@ -43,8 +43,8 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
 - Content requirements:
   - Complies with the format described in the [Pattern  Template](pattern-template.md) - validated in parts by [Check: Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Pattern+Syntax+Validation%22)
   - Complies with [Pattern Style Guide](pattern-style-guide.md)
-  - The title of the pattern is **memorable**, **concise**, and **descriptive** of what the pattern is about. For further details follow [Naming Patterns](pattern-style-guide.md#naming-patterns)
-  - The pattern references other patterns of this level or higher where appropriate (including links to the pattern)
+  - The title of the pattern is **memorable**, **concise**, and **descriptive** of what the pattern is about. For further tips see [Naming Patterns](pattern-style-guide.md#naming-patterns).
+  - Where appropriate this pattern links to other patterns of this level or higher.
   - Links from the pattern to outside resources are working and are referencing a trusted resource - whether links are working is verified by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Link+Check+on+Patterns+and+README%22)
 
 - Artifacts:
@@ -59,7 +59,7 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
   - Community agreement (via lazy consensus of trusted committers) on correctness of contents
 
 - Content requirements:
-  - Provides a visual/sketch that helps to illustrate the problem and/or the solution of the pattern. The visual also helps to make the pattern more memorable.
+  - Provides a visual/sketch that helps to illustrate the problem and/or the solution of the pattern. The visual also helps to make the pattern more memorable. Visuals are stored in [assets/img](../assets/img/).
   - Uses & has no conflicts with working group terminology (defined by [Glossary](pattern-style-guide.md#glossary) / implicit usage)
   - Fits & has no conflicts with existing patterns (of this maturity level)
   - Thorough review by at least two [trusted committers](../TRUSTED-COMMITTERS.md)
@@ -68,7 +68,7 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
 - Artifacts:
   - The patterns are stored as markdown files in [/patterns/3-validated][patterns-validated].
   - The patterns are published at [patterns.innersourcecommons.org][book] - supported by automation via [Book ToC Generation][book-toc-automation]
-  
+
 [patterns-initial]: ../patterns/1-initial/
 [patterns-structured]: ../patterns/2-structured/
 [patterns-validated]: ../patterns/3-validated/
