@@ -96,9 +96,9 @@ Build up agreed security requirement of InnerSource, such as:
 
 In some cases, introducing additional sharing levels might be appropriate. Use cases include:
 
-- semi-sensitive code that can be shared with larger groups of people, but for example not with all interns and contractors. 
-- Or not with people with certain nationalities or working in a specific country, in order to comply with [export control][export-control] regulations. 
-- Or legacy repositories that are not (yet) ready to be made available as SHARED. 
+- semi-sensitive code that can be shared with larger groups of people, but for example not with all interns and contractors.
+- Or not with people with certain nationalities or working in a specific country, in order to comply with [export control][export-control] regulations.
+- Or legacy repositories that are not (yet) ready to be made available as SHARED.
 
 Without the additional sharing levels, (too) many repositories will end up as CLOSED in an existing organization, as all businesses will considering their code 'special', requiring extra protection and/or 'not ready' for opening up organization-wide yet (e.g. hard-coded secrets, but also technical debt, lacking documentation).
 
