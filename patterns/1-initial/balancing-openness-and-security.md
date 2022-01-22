@@ -1,6 +1,6 @@
 # Title
 
-Secure InnerSource
+Balancing Openness and Security
 
 # Patlet
 
@@ -151,6 +151,8 @@ Most importantly, the changes implemented through this pattern lead to more code
 
 # Alias
 
+- Secure Discoverability
+- Secure Code Sharing
 - Secure InnerSource
 
 [principle-of-least-privilege]: https://en.wikipedia.org/wiki/Principle_of_least_privilege
