@@ -42,10 +42,10 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
 
 - Content requirements:
   - Complies with the format described in the [Pattern  Template](pattern-template.md) - validated in parts by [Check: Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Pattern+Syntax+Validation%22)
-  - Complies with *basic style guide* - *Oops! We have not yet developed this*
-  - The title of the pattern is concise and chosen based on either the problem or the solution outlined in the pattern. The file name is the same as the title. For further details follow the *basic style guide* - *Oops! We have not yet developed this*
+  - Complies with [Pattern Style Guide][pattern-style-guide.md]
+  - The title of the pattern is **memorable**, **concise**, and **descriptive** of what the pattern is about. For further details follow [Naming Patterns][pattern-style-guide.md#naming-patterns]
   - The pattern references other patterns of this level or higher where appropriate (including links to the pattern)
-  - Links from the pattern to outside resources are working and are referencing a trusted resource - validated in parts by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Link+Check+on+Patterns+and+README%22)
+  - Links from the pattern to outside resources are working and are referencing a trusted resource - whether links are working is verified by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Link+Check+on+Patterns+and+README%22)
 
 - Artifacts:
   - The patterns are stored as markdown files in [/patterns/2-structured][patterns-structured].
@@ -59,7 +59,8 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
   - Community agreement (via lazy consensus of trusted committers) on correctness of contents
 
 - Content requirements:
-  - Uses & has no conflicts with working group terminology (defined by glossary / implicit usage) - *Oops! We have not yet developed this.*
+  - Provides a visual/sketch that helps to illustrate the problem and/or the solution of the pattern. The visual also helps to make the pattern more memorable.
+  - Uses & has no conflicts with working group terminology (defined by [Glossary][pattern-style-guide.md#glossary] / implicit usage)
   - Fits & has no conflicts with existing patterns (of this maturity level)
   - Thorough review by at least two [trusted committers](../TRUSTED-COMMITTERS.md)
   - Spell Checking passes - *Oops! We have not yet developed this*
