@@ -118,6 +118,25 @@ Repositories with RESTRICTED sharing level are included in the [central catalog]
 - RESTRICTED repos will likely get fewer contributions due to the additional step to access the code. Where possible, INTERNAL repos should be preferred.
 - It is possible to use a tool that automatically adds the `README.md` and some other metadata to an internal repository in GitHub, allowing the GitHub search feature to include this data in the search results.
 
+# Sketch
+
+```
+Example Repository Sharing Levels
+
+
+┌──────┐
+│PUBLIC│  ───►  open source: accessible for all software developers in the world
+└──────┘
+
+┌──────┐
+│SHARED│  ───►  inner source: accessible for all software developers in the organization
+└──────┘
+
+┌──────┐
+│CLOSED│  ───►  closed source: only accessible to named individuals in the organization
+└──────┘
+```
+
 # Resulting Context
 
 InnerSource adoption in an organization will often [start as an experiment][start-as-an-experiment], with a small number of SHARED repositories.
