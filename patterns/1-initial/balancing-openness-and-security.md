@@ -174,6 +174,19 @@ Most importantly, the changes implemented through this pattern lead to more code
 - Secure Code Sharing
 - Secure InnerSource
 
+# Notes (internal)
+
+*These notes are meant for internal use within the InnerSource Commons Patterns Working Group only.*
+
+To level up this pattern to a higher maturity level, please consider the following modifications:
+
+- adding short descriptions of the way that the orgs in the Known Instances are using this pattern
+- identify further Known Instances 
+    - e.g. RBC - for reference see [Making InnerSource & Developer Experience Real at one of Canada's Top 5 Banks](https://www.youtube.com/watch?v=QbJ4VFk8DwA) - by Anthony Vacca
+- creating a Sketch that supports the main focus of this pattern (the current ASCII Diagram with the "Example Repository Sharing Levels" is mostly a placeholder)
+- The current Story section isn't really a story. Consider working this into the Problem section, and using a story that some of the Known Instances (orgs) can share.
+- Possibly renaming the pattern, if the extended content of this pattern makes that a new title more suitable.
+
 [principle-of-least-privilege]: https://en.wikipedia.org/wiki/Principle_of_least_privilege
 [single-sign-on]: https://en.wikipedia.org/wiki/Single_sign-on
 [export-control]: https://en.wikipedia.org/wiki/Export_control
