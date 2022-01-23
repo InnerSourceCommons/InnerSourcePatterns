@@ -29,7 +29,7 @@ Project C is currently closed source and used only by team 1. Team 2 want to use
 ## Forces
 
 - Projects adopt different InnerSource patterns and practices to optimise for their context.
-- Contributors want clarity on the level of influence they can gain in an InnerSource project they are involved with.
+- Users want clarity on the level of influence they can gain in an InnerSource project when deciding whether or how to use it.
 - Leaders want clarity on InnerSource project intentions to understand the expected cost and benefits.
 - Writing a detailed description of a set of InnerSource practices requires significant effort.
 
