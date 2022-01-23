@@ -67,7 +67,7 @@ Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutte
 
 ## Status
 
-Initial
+Structured
 
 ## Authors
 
