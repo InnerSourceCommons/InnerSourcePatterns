@@ -49,7 +49,7 @@ Examples of common InnerSource operating models (1) are:
 
 Examples of promoting the names (3) are:
 
-- Using the names within project documentation and contributing guides.
+- Using the names within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/project-setup/base-documentation.md)).
 - Labelling projects with the names in an [InnerSource Portal](../2-structured/innersource-portal.md).
 - Presenting the names as a menu of adoption options for new InnerSource projects.
 - Including the names and models in any internal InnerSource training or promotion.
