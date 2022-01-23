@@ -31,7 +31,4 @@ For the full story behind this see [InnerSource Spelling](innersource-spelling.m
 
 ## Glossary
 
-*Note that his glossary is far from complete. If you see terms that are used frequently in our patterns and should be defined in this glossary, please add them.*
-
-- **organization** - An umbrella for multiple legal entities. (synonyms: group, enterprise) (e.g. Lufthansa)
-- **legal entity** - An entity that has its own legal rights and obligations (synonyms: company, subsidiary) (e.g. Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)
+See [Glossary](glossary.md).

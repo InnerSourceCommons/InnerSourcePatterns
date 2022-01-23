@@ -60,7 +60,7 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
 
 - Content requirements:
   - Provides a visual/sketch that helps to illustrate the problem and/or the solution of the pattern. The visual also helps to make the pattern more memorable. Visuals are stored in [assets/img](../assets/img/).
-  - Uses & has no conflicts with working group terminology (defined by [Glossary](pattern-style-guide.md#glossary) / implicit usage)
+  - Uses & has no conflicts with working group terminology (defined by [Glossary](glossary.md) / implicit usage)
   - Fits & has no conflicts with existing patterns (of this maturity level)
   - Thorough review by at least two [trusted committers](../TRUSTED-COMMITTERS.md)
   - Spell Checking passes - *Oops! We have not yet developed this*
