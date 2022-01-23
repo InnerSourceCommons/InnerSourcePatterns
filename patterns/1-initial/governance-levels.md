@@ -63,7 +63,7 @@ Examples of promoting the names (3) are:
 
 ## Known Instances
 
-Flutter Entertainment define an "[Inner Source Pyramid](https://innersource.flutter.com/how/)" to describe 3 different InnerSource models: Readable Source, Guest Contributions and Maintainers in Multiple Teams. Each name is centrally documented. The use of these names is encouraged via repeated usage, direct training and categorisation of each InnerSource project.
+Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutter.com/how/) to describe 3 different InnerSource operating models: Readable Source, Guest Contributions and Maintainers in Multiple Teams. Each name is centrally documented. The use of these names is encouraged via repeated usage, direct training and categorisation of each InnerSource project.
 
 ## Status
 
