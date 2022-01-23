@@ -22,7 +22,9 @@ Project C is currently closed source and used only by team 1. Team 2 want to use
 
 ## Context
 
-InnerSource concepts are estabilished within an organisation with multiple projects and teams adopting InnerSource. Internal InnerSource practices are not prescribed in detail and teams/projects have the autonomy to optimise for their local circumstances.
+- InnerSource concepts are established within an organisation with multiple projects and teams adopting InnerSource. 
+- Internal InnerSource practices are not prescribed in detail.
+- Teams/projects have the autonomy to optimise for their local circumstances.
 
 ## Forces
 
