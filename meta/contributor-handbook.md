@@ -29,7 +29,7 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
   - The pattern is readable & comprehensible for others (not just for the authors)
   - The authors contribute the contents according to the [license](../LICENSE.txt) & are allowed to do so
   - Thoughts and contents by third parties are quoted / referenced explicitly
-  - The markdown of the pattern complies with [Check: Markdownlint](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3AMarkdownlint)
+  - The markdown of the pattern complies with [Check: Markdownlint](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/markdownlint.yml)
 
 - Artifacts:
   - The patterns are stored as markdown files in [/patterns/1-initial][patterns-initial].
@@ -41,11 +41,12 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
     - Alternatively: key elements of the pattern have been validated in separate contexts and, in consequence, it is justified to believe the full solution will function
 
 - Content requirements:
-  - Complies with the format described in the [Pattern  Template](pattern-template.md) - validated in parts by [Check: Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Pattern+Syntax+Validation%22)
-  - Complies with [Pattern Style Guide](pattern-style-guide.md)
+  - Uses the format described in the [Pattern  Template](pattern-template.md) - validated in parts by [Check: Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml)
+  - Follows the [Pattern Style Guide](pattern-style-guide.md)
   - The title of the pattern is **memorable**, **concise**, and **descriptive** of what the pattern is about. For further tips see [Naming Patterns](pattern-style-guide.md#naming-patterns).
-  - Where appropriate this pattern links to other patterns of this level or higher.
-  - Links from the pattern to outside resources are working and are referencing a trusted resource - whether links are working is verified by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Link+Check+on+Patterns+and+README%22)
+  - The pattern links to related patterns of this level or higher.
+  - Links from the pattern to outside resources are working and are referencing a trusted resource - whether links are working is verified by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml)
+  - The pattern is added to at least one phase of the [InnerSource Program Mind Map](../pattern-categorization/README.md).
 
 - Artifacts:
   - The patterns are stored as markdown files in [/patterns/2-structured][patterns-structured].
@@ -73,4 +74,4 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
 [patterns-structured]: ../patterns/2-structured/
 [patterns-validated]: ../patterns/3-validated/
 [book]: https://patterns.innersourcecommons.org
-[book-toc-automation]: https://github.com/InnerSourceCommons/InnerSourcePatterns/actions?query=workflow%3A%22Book+ToC+Generation%22
+[book-toc-automation]: https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/book.yml
