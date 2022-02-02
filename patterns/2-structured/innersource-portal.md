@@ -45,7 +45,7 @@ Key properties of the portal are:
 * Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors names, a brief description and links to the code repository or any supporting documentation.  
 * (optional) While most organizations will choose to make their portal only available on their intranet, some organizations have opted to make their portal available on the public internet. The latter can be interesting for organizations that want to show additional information about their InnerSource approach in their portal e.g. for branding and recruitment purposes.
 
-A communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should also be considered in order to bolster the number of projects displayed within the portal.
+When launching the portal, a communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should be considered, to bolster the number of projects displayed within the portal.
 
 A [reference implementation](https://github.com/SAP/project-portal-for-innersource) for this pattern is available on GitHub and open for contributions. It lists all InnerSource projects of a company in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
 
