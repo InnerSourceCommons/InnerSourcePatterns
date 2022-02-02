@@ -43,6 +43,7 @@ Key properties of the portal are:
 * Visitors to the InnerSource Portal should be able to see all available projects as well as search for specific projects based on various criteria such as project name, technologies in use, contributor names, sponsoring business unit etc.  
 * The information displayed via the InnerSource Portal should be under the full control of the InnerSource project owners at all times.  Preferably, by sourcing this information directly from a specific data file or meta-data stored in the project repository itself.  
 * Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors names, a brief description and links to the code repository or any supporting documentation.  
+* (optional) While most organizations will choose to make their portal only available on their intranet, some organizations have opted to make their portal available on the public internet. The latter can be interesting for organizations that want to show additional information about their InnerSource approach in their portal e.g. for branding and recruitment purposes.
 
 A communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should also be considered in order to bolster the number of projects displayed within the portal.
 
