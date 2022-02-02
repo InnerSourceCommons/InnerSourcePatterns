@@ -14,7 +14,11 @@ InnerSource projects at your company are increasing but potential contributors h
 
 ## Story
 
-You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.  There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.  What can be done to help all InnerSource projects raise their visibility to as large an audience as possible and attract contributors organization-wide?
+You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.  
+
+There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.  
+
+What can be done to help all InnerSource projects raise their visibility to as large an audience as possible and attract contributors organization-wide?
 
 ## Context
 
