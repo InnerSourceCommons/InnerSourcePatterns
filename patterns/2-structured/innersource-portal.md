@@ -16,15 +16,15 @@ InnerSource projects at your company are increasing but potential contributors h
 
 You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.  There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.  What can be done to help all InnerSource projects raise their visibility to as large an audience as possible and attract contributors organization-wide?
 
+## Context
+
+Your organization is interested in adopting an InnerSource work style and InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.  Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
+
 ## Forces
 
 * The full potential for separate engineering teams to partner on shared challenges is not being realized
 * It is difficult for individuals to discover what InnerSource projects exist
 * It is difficult for InnerSource project owners to attract an audience of external contributors
-
-## Context
-
-Your organization is interested in adopting an InnerSource work style and InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.  Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
 
 ### Prerequisites
 
