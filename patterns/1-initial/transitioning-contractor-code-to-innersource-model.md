@@ -15,7 +15,7 @@ Contractor developers are often not motivated (through forces described below) t
 This problem exists where an organization either:
 
 - out-sources the development of a well defined project or
-- engagages external firms for staff augmentation and has mixed teams of permanent employees with a large percentage of contract staff. This issue may occur less often in a mixed team where InnerSource principles and ways of working are already established within the organization, but the forces described below are still often at play.
+- engages external firms for staff augmentation and has mixed teams of permanent employees with a large percentage of contract staff. This issue may occur less often in a mixed team where InnerSource principles and ways of working are already established within the organization, but the forces described below are still often at play.
 
 ## Forces
 
