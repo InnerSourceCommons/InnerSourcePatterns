@@ -4,7 +4,7 @@ InnerSource Portal
 
 ## Patlet
 
-Potential contributors have no easy way to discover InnerSource projects that are interested in. By creating an intranet website that indexes all available InnerSource project information you enable contributors to more easily learn about projects that might interest them and InnerSource project owners to attract an outside audience.
+Potential contributors cannot easily discover InnerSource projects that they are interested in. By creating an intranet website that indexes all available InnerSource project information you enable contributors to learn about projects that might interest them and InnerSource project owners to attract an outside audience.
 
 ## Problem
 
