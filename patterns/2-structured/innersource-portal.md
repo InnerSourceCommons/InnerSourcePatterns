@@ -24,6 +24,7 @@ What can be done to help all InnerSource projects raise their visibility to as l
 
 * Your organization is interested in adopting an InnerSource work style.
 * InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.
+* InnerSource projects at your organization are increasing.
 * Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
 
 ### Prerequisites
