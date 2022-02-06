@@ -52,7 +52,7 @@ Key properties of the portal are:
 
 When launching the portal, a communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should be considered, to bolster the number of projects displayed within the portal.
 
-A [reference implementation](https://github.com/SAP/project-portal-for-innersource) for this pattern is available on GitHub and open for contributions. It lists all InnerSource projects of an organization in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
+A [reference implementation](https://github.com/SAP/project-portal-for-innersource) of an InnerSource portal is available on GitHub and open for contributions. It lists all InnerSource projects of an organization in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
 
 ![Example of an InnerSource Portal](https://raw.githubusercontent.com/SAP/project-portal-for-innersource/main/docs/overview.png "Example of an InnerSource Portal")
 
