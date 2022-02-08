@@ -46,7 +46,7 @@ Using that team of experts, estimate 4 things about each consumer of your projec
 When making these estimations, it's impossible to know with high accuracy _exactly_ how long any activities take.  That's not your goal.
 Rather than exactness, you should strive to _**set a worst-case bound**_ on these estimates.
 The idea is for the group of experts to be able to say to each other, "We don't know exactly how long it would take, but we can all agree it's _at least_ this much."
-Specifically, you should estimate a *maximum* reasonable time to consume your project output and *minimum* reasonable times for consumers to otherwise home-roll, use and maintain their own solutions.
+Specifically, you should estimate a _maximum_ reasonable time to consume your project output and _minimum_ reasonable times for consumers to otherwise home-roll, use and maintain their own solutions.
 
 One note about cost of "rolling your own solution" (home-roll).  The cost to home-roll a solution is NOT necessarily (very unlikely, in fact) the same as the cost of making a shared solution.
 Oftentimes for the same functionality the modularity and quality involved in building a cross-team, shared solution makes it a noticeably higher investment than a quick, hardcoded implementation used just once.
