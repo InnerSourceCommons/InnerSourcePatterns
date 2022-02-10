@@ -54,7 +54,6 @@ A related pattern [pattern to be written] is a circular story-writing exercise r
 ## Status
 
 * Structured
-* Drafted Aug 2016
 
 ## Author
 
