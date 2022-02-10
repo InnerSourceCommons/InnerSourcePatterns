@@ -49,7 +49,7 @@ A related pattern [pattern to be written] is a circular story-writing exercise r
 
 ## Known Instances
 
-TBD
+* Large telecom provider
 
 ## Status
 
