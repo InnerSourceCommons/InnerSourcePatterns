@@ -26,7 +26,7 @@ The common code in the shared repository isn't meeting the needs of all the proj
 The project that made the code available has one set of needs. Its needs are similar to what some of the receiving organization wants, but not quite the same.
 Requirements on code should be derivable from real customer needs.  
 
-The needs of different customers are generally quite similar; however they might be expressed differently or weighted differently between customers. An example might be how some customers want some result presented in one way while others want it presented in the reverse order---it's simple to do the translation between them, but requires additional coding for one of the cases and the as a result the module that computes the result can't be reused by both customers.
+The needs of different customers are generally quite similar; however they might be expressed differently or weighted differently between customers. An example might be how some customers want some result presented in one way while others want it presented in the reverse order. It is simple to do the translation between them, but requires additional coding for one of the cases and as a result the module that computes the result can't be reused by both customers.
 
 Many customers want the supplier to help them know what they need. The company has many “Systems Engineers” writing requirements for the products.  These requirements are supposed to be a distillation of customer needs to guide development of the product.
 Reusing code is an important goal to save the company time and money.  
