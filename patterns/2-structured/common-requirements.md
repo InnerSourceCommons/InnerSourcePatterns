@@ -35,8 +35,8 @@ Reusing code is an important goal to save the company time and money.
 
 There are two aspects to solving this problem which should be done in parallel:
 
-- Align the requirements of the projects so that the code that meets the requirements for one project also meets the needs for the other projects.
-- Refactor the code into smaller pieces for which the many using projects can agree upon requirements.
+1. Align the requirements of the projects so that the code that meets the requirements for one project also meets the needs for the other projects.
+2. Refactor the code into smaller pieces for which the many using projects can agree upon requirements.
 
 Additionally, take advantage of customers expecting the supplier to help elucidate requirements. Bring about the alignment of requirements during the customer negotiations and influence the customers requirements rather than changing the component.
 
