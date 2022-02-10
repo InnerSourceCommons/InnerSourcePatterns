@@ -59,3 +59,10 @@ A related pattern [pattern to be written] is a circular story-writing exercise r
 ## Author
 
 Robert Hanmer
+
+## Acknowledgements
+
+* Manrique Lopez
+* Daniel Izquierdo
+* Tim Yao
+* Sebastian Spier
