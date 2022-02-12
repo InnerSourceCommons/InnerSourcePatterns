@@ -84,3 +84,10 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 ## Author(s)
 
 * Stephen McCall
+
+## Acknowledgements
+
+* Shelly Nizri
+* Melinda Malmgren
+* Michael Graf
+* Jesus Alonso
