@@ -90,4 +90,4 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 * Shelly Nizri
 * Melinda Malmgren
 * Michael Graf
-* Jesus Alonso
+* Jesús Alonso Gutierrez
