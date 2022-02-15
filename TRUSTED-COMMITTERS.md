@@ -10,6 +10,7 @@ For further information about the concept, also see the [Trusted Committer Patte
 
 ## Current Trusted Committers
 
+* [@robtuley](https://github.com/robtuley) (added 2022-02-15)
 * [@spier](https://github.com/spier) (added 2020-12-11)
 * [@lenucksi](https://github.com/lenucksi) (added 2020-04-24)
 * [@NewMexicoKid](https://github.com/NewMexicoKid) (added 2017-03-02)
