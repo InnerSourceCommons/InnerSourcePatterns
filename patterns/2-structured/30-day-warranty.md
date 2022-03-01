@@ -46,7 +46,8 @@ In addition it helps to provide clear [contribution guidelines](./project-setup/
 
 ## Known Instances
 
-This was tried and proven successful at PayPal.
+- This was tried and proven successful at PayPal.
+- GitHub internally uses this pattern with a modified warranty timeline of 6 weeks.
 
 ## Authors
 
