@@ -48,6 +48,7 @@ In addition it helps to provide clear [contribution guidelines](./project-setup/
 
 - This was tried and proven successful at PayPal.
 - GitHub internally uses this pattern with a modified warranty timeline of 6 weeks.
+- Microsoft recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
 
 ## Authors
 
