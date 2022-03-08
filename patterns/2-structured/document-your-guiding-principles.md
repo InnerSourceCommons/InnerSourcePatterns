@@ -122,12 +122,15 @@ The InnerSource principles listed in the Solution above are mostly based on Euro
 For more details see [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (in German).
 
 ### GitHub
+
 InnerSource Principles at GitHub
 
 #### Background
+
 Often at GitHub we work in a model where teams contribute features to areas outside their area of responsibility. Common examples include sales engineering contributing features to unblock a sale, Special Projects contributing urgently needed, high impact features across the product, and a team working across multiple areas to deliver a feature.
 
 #### Principles
+
 Overall the principles outlined in this doc are to avoid increasing tech debt and support burden for the owning team. Oftentimes help is being lent to a team because they are behind due to support and maintenance costs in their area of responsibility and they do not have bandwidth to contribute to the feature. Any new features done by another team that add to that support burden or tech debt means even less time for the owning team to work on new features, so we want to make sure they are done right.
 
 At the same time, we strive to be a company where engineers freely work across boundaries, and business priorities often require that we contribute to areas outside our core areas of ownership. 
@@ -157,6 +160,7 @@ With that in mind, here are principles we agree on:
   - Documentation updated
 
 #### Engagement
+
 A typical engagement model at GitHub looks like this: 
 - Get approval on the feature set and rollout plan from the product owner.
 - Get approval on engineering design, including addressing the non-functional requirements (telemetry, test coverage, multi-environment testing and support) from the engineering owner (typically engineering manager and director).
