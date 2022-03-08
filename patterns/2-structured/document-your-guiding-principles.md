@@ -150,7 +150,7 @@ With that in mind, here are principles we agree on:
   - Plan time to address customer feedback (features and bugs)
 - Build features in the right way (do not accrue tech debt)
   - Agree on requirements and solution with Product and Engineering teams
-  - Proper architecture and design 
+  - Proper architecture and design
   - Make sure data is stored properly to avoid later data migrations.
   - Appropriate telemetry is in place
   - Appropriate test coverage is in place
@@ -161,7 +161,7 @@ With that in mind, here are principles we agree on:
 
 #### Engagement
 
-We use an engagement model because we like to lay out what concrete steps can be taken. A typical engagement model at GitHub looks like this: 
+We use an engagement model because we like to lay out what concrete steps can be taken. A typical engagement model at GitHub looks like this:
 
 - Get approval on the feature set and rollout plan from the product owner.
 - Get approval on engineering design, including addressing the non-functional requirements (telemetry, test coverage, multi-environment testing and support) from the engineering owner (typically engineering manager and director).
