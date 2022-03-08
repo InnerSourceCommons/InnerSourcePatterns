@@ -133,7 +133,7 @@ Often at GitHub we work in a model where teams contribute features to areas outs
 
 Overall the principles outlined in this doc are to avoid increasing tech debt and support burden for the owning team. Oftentimes help is being lent to a team because they are behind due to support and maintenance costs in their area of responsibility and they do not have bandwidth to contribute to the feature. Any new features done by another team that add to that support burden or tech debt means even less time for the owning team to work on new features, so we want to make sure they are done right.
 
-At the same time, we strive to be a company where engineers freely work across boundaries, and business priorities often require that we contribute to areas outside our core areas of ownership. 
+At the same time, we strive to be a company where engineers freely work across boundaries, and business priorities often require that we contribute to areas outside our core areas of ownership.
 
 A good summary of the principles is to leave the area in as good as or better shape than you found it.
 
@@ -161,7 +161,8 @@ With that in mind, here are principles we agree on:
 
 #### Engagement
 
-A typical engagement model at GitHub looks like this: 
+We use an engagement model because we like to lay out what concrete steps can be taken. A typical engagement model at GitHub looks like this: 
+
 - Get approval on the feature set and rollout plan from the product owner.
 - Get approval on engineering design, including addressing the non-functional requirements (telemetry, test coverage, multi-environment testing and support) from the engineering owner (typically engineering manager and director).
 - Do code reviews along the way, along with reviewing any new or changed requirements.
