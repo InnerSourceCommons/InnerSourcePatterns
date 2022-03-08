@@ -39,7 +39,7 @@ as well as a clear path towards achieving these goals.
 
 Those driving the InnerSource initiative in the organisation need to help the teams and individuals that are lacking a deep background in open source, and therefore have a less intuitive understanding of InnerSource.
 
-Clarity should be provided around these two areas:
+Clarity and documentation should be provided around these two areas:
 
 ### Why does the organisation want to adopt InnerSource?
 
@@ -120,6 +120,47 @@ All Trusted Committers of a project are published.
 
 The InnerSource principles listed in the Solution above are mostly based on Europace's experience.
 For more details see [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (in German).
+
+### GitHub
+InnerSource Principles at GitHub
+
+#### Background
+Often at GitHub we work in a model where teams contribute features to areas outside their area of responsibility. Common examples include sales engineering contributing features to unblock a sale, Special Projects contributing urgently needed, high impact features across the product, and a team working across multiple areas to deliver a feature.
+
+#### Principles
+Overall the principles outlined in this doc are to avoid increasing tech debt and support burden for the owning team. Oftentimes help is being lent to a team because they are behind due to support and maintenance costs in their area of responsibility and they do not have bandwidth to contribute to the feature. Any new features done by another team that add to that support burden or tech debt means even less time for the owning team to work on new features, so we want to make sure they are done right.
+
+At the same time, we strive to be a company where engineers freely work across boundaries, and business priorities often require that we contribute to areas outside our core areas of ownership. 
+
+A good summary of the principles is to leave the area in as good as or better shape than you found it.
+
+With that in mind, here are principles we agree on:
+
+- Avoid minimum viable products (MVP) that accrue feature debt. It is ok to ship an MVP to get customer feedback, but the contributing team must be committed to finishing the feature set. Examples include:
+  - Commitment to go beyond MVP to a solution that will satisfy most customers.
+  - Full support for administration of new features (e.g. support in the settings UI vs. just doing a command line).
+  - Surface features in both the UI and API vs. only deliver an API (or vice versa)
+  - Ensuring features work in cloud and local server environments.
+- Support the feature work up to and beyond its deployment to production
+  - Coordinate incremental rollout
+  - Handle support tickets
+  - Plan time to address customer feedback (features and bugs)
+- Build features in the right way (do not accrue tech debt)
+  - Agree on requirements and solution with Product and Engineering teams
+  - Proper architecture and design 
+  - Make sure data is stored properly to avoid later data migrations.
+  - Appropriate telemetry is in place
+  - Appropriate test coverage is in place
+  - Supported on cloud and local production environments
+    - Including setup, configuration, backup / restore, migrations, etc.
+  - Bugs fixed
+  - Documentation updated
+
+#### Engagement
+A typical engagement model at GitHub looks like this: 
+- Get approval on the feature set and rollout plan from the product owner.
+- Get approval on engineering design, including addressing the non-functional requirements (telemetry, test coverage, multi-environment testing and support) from the engineering owner (typically engineering manager and director).
+- Do code reviews along the way, along with reviewing any new or changed requirements.
 
 ### Robert Bosch GmbH
 
