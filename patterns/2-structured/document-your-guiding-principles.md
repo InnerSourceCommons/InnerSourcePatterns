@@ -165,7 +165,9 @@ With that in mind, here are principles we agree on:
 
 #### Engagement
 
-We use an engagement model because we like to lay out what concrete steps can be taken. A typical engagement model at GitHub looks like this:
+We use an engagement model because we like to lay out what concrete steps can be taken by a team when contributing features to areas outside their area of responsibility
+
+A typical engagement model at GitHub looks like this:
 
 - Get approval on the feature set and rollout plan from the product owner.
 - Get approval on engineering design, including addressing the non-functional requirements (telemetry, test coverage, multi-environment testing and support) from the engineering owner (typically engineering manager and director).
