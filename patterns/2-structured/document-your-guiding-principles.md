@@ -125,7 +125,7 @@ For more details see [Europace InnerSource Prinzipien](https://tech.europace.de/
 
 InnerSource Principles at GitHub
 
-#### Background
+#### Purpose
 
 Often at GitHub we work in a model where teams contribute features to areas outside their area of responsibility. Common examples include sales engineering contributing features to unblock a sale, Special Projects contributing urgently needed, high impact features across the product, and a team working across multiple areas to deliver a feature.
 
