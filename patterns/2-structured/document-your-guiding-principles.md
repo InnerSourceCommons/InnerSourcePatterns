@@ -39,7 +39,12 @@ as well as a clear path towards achieving these goals.
 
 Those driving the InnerSource initiative in the organisation need to help the teams and individuals that are lacking a deep background in open source, and therefore have a less intuitive understanding of InnerSource.
 
-Clarity and documentation should be provided around these two areas:
+Clarity should be provided to teams and individuals by documenting these two areas:
+
+1. **Purpose** - Why does the organisation want to adopt InnerSource?
+2. **Principles** - Which InnerSource principles will help to address these challenges?
+
+The following sections provide more details in both of these, meant as possible starting points to document them for your organization. 
 
 ### Why does the organisation want to adopt InnerSource?
 
