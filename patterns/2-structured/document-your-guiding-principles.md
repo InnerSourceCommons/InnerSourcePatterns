@@ -154,8 +154,7 @@ With that in mind, here are principles we agree on:
   - Make sure data is stored properly to avoid later data migrations.
   - Appropriate telemetry is in place
   - Appropriate test coverage is in place
-  - Supported on cloud and local production environments
-    - Including setup, configuration, backup / restore, migrations, etc.
+  - Supported on cloud and local production environments (including setup, configuration, backup / restore, migrations, etc.)
   - Bugs fixed
   - Documentation updated
 
