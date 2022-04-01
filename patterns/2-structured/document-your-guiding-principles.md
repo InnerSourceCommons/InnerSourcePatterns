@@ -202,9 +202,9 @@ Structured
 * Isabel Drost-Fromm
 * Georg Grütter
 
-## Acknowledgements 
+## Acknowledgements
 
-* Zack Koppert - for sharng GitHub's approach in the Known Intances
+* Zack Koppert - for sharing GitHub's approach in the Known Intances
 
 ## Alias
 
