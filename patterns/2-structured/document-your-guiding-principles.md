@@ -163,7 +163,7 @@ With that in mind, here are principles we agree on:
 
 #### Engagement
 
-We use an engagement model because we like to lay out what concrete steps can be taken by a team when contributing features to areas outside their area of responsibility
+We use an engagement model because we like to lay out what concrete steps can be taken by a team when contributing features to areas outside their area of responsibility.
 
 A typical engagement model at GitHub looks like this:
 
