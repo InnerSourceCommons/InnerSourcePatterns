@@ -173,8 +173,13 @@ A typical engagement model at GitHub looks like this:
 
 ### Robert Bosch GmbH
 
+#### Purpose
+
 Fostering collaboration, learning and innovation is the main focus of the Bosch InnerSource initiative (BIOS).
-To that end, they applied the following principles:
+
+#### Principles
+
+To that end, Bosch applied the following principles:
 
 - **Openness**: We lower the barriers for entry into BIOS communities as much as we can.
 - **Transparency**: We are radically transparent and share our work products, our communication, and our decision making with all associates in the company.
@@ -196,6 +201,10 @@ Structured
 
 * Isabel Drost-Fromm
 * Georg Grütter
+
+## Acknowledgements
+
+* Zack Koppert - for sharing GitHub's approach in the Known Intances
 
 ## Alias
 
