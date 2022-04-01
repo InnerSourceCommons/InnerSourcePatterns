@@ -44,7 +44,7 @@ Clarity should be provided to teams and individuals by documenting these two are
 1. **Purpose** - Why does the organisation want to adopt InnerSource?
 2. **Principles** - Which InnerSource principles will help to address these challenges?
 
-The following sections provide more details in both of these, meant as possible starting points to document them for your organization.
+The following sections provide more details about both of these, meant as possible starting points to document them for your organization.
 
 ### Why does the organisation want to adopt InnerSource?
 
