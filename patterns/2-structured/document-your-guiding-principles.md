@@ -204,7 +204,7 @@ Structured
 
 ## Acknowledgements
 
-* Zack Koppert - for sharing GitHub's approach in the Known Intances
+* Zack Koppert - for sharing GitHub's approach in the Known Instances
 
 ## Alias
 
