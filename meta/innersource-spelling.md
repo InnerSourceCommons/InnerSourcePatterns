@@ -32,6 +32,7 @@ Recommended use:
 
 > “We use InnerSource in that repo.”<br/>
 “We use InnerSource methods in that repo.”<br/>
+“We follow InnerSource development methods in that repo.”<br/>
 “We published the repository as InnerSource.”
 
 Not so good:
