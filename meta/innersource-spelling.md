@@ -30,13 +30,14 @@ We recommend not to turn the term into a verb, but rather using it as a noun or 
 
 Recommended use:
 
-“We published the repository as InnerSource.”
-or
-“We published the repository under an InnerSource license.”
+- “We use InnerSource in that repo.”
+- “We use InnerSource methods in that repo.”
+- “We published the repository as InnerSource.”
+- “We published the repository under an InnerSource license.”
 
 Not so good:
 
-“We’re InnerSourcing that repo”
+- “We’re InnerSourcing that repo.”
 
 [opengl_1200]: https://web.archive.org/web/20180411080939/http://archive.oreilly.com/pub/a/oreilly/ask_tim/2000/opengl_1200.html
 [foreword_AdoptingInnerSource]: https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf
