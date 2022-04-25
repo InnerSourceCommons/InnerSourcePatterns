@@ -37,7 +37,7 @@ Like with any process, this must be continually improved upon. There may need to
 
 ## Sketch
 
-**TBD**
+![RFC process used at Uber's BaseUI project (open source example)](../../assets/img/rfc-process-uber-baseui.png)
 
 ## Solutions
 
