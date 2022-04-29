@@ -23,7 +23,7 @@ When the shared code is in a separate repository, any use of it could result in 
 * Continuous integration, not only for testing but also in production (aligns with DevOps). 
 * Known marker that shows the code hasn't been modified. 
 * Improved communication between teams. 
-* Accountability when you screw up; hold people accountable. 
+* Accountability when you screw up; hold people accountable.
 * Publish good stats about the negative implications of errors and processes for making this everyone's problem.
 
 ## Resulting Context
