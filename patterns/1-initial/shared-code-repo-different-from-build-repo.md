@@ -20,7 +20,7 @@ When the shared code is in a separate repository, any use of it could result in 
 
 ## Solution
 
-* Continuous integration, not only for testing but also in production (aligns with DevOps). 
+* Continuous integration, not only for testing but also in production (aligns with DevOps).
 * Known marker that shows the code hasn't been modified. 
 * Improved communication between teams.
 * Accountability when you screw up; hold people accountable.
