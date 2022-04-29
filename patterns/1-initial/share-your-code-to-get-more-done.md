@@ -8,8 +8,8 @@ TBD
 
 ## Problem
 
-* Developers do not realize that they can get more done by taking advantage of Inner Sourcing
-* Developers continue to work in their silo or alone and never take the time invest in moving to Inner Sourcing
+* Developers do not realize that they can get more done by taking advantage of InnerSource
+* Developers continue to work in their silo or alone and never take the time invest in moving to InnerSource
 * Project Teams need a compelling reason to invest some time to make the change
 
 ## Context
@@ -22,25 +22,25 @@ TBD
 
 ## Forces
 
-* Developers have no extra time to shift to Inner Sourcing
-* Management has not prioritized a shift to Inner Sourcing
+* Developers have no extra time to shift to InnerSource
+* Management has not prioritized a shift to InnerSource
 * Adding staff to get the work done using traditional methods is not possible
-* The value of Inner Sourcing is not included in the project plan
+* The value of InnerSource is not included in the project plan
 
 ## Sketch (optional)
 
 ## Solution
 
-* Leverage existing case studies and collateral from Inner Source Commons to educate management on the value of investing in Inner Sourcing.
-* Work with planning team to document an alternative project plan with some inner sourcing activities and estimated benefits from realistic expected participation
-* Move the product code to an Inner Source compatible solution and open the code
+* Leverage existing case studies and collateral from InnerSource Commons to educate management on the value of investing in InnerSource.
+* Work with planning team to document an alternative project plan with some InnerSource activities and estimated benefits from realistic expected participation
+* Move the product code to an InnerSource compatible solution and open the code
 * Assign a portion of the developers time to work as reviewers to ensure inner sourcing activities are successful
 * Recruit potential contributors and inform them of the availability of the opportunity to participate
 * Align incentives to participation for both existing developers and contributors to encourage behavior
 
 ## Resulting Context
 
-* Development previously done in a silo is on the inner source system
+* Development previously done in a silo is on the InnerSource system
 * People from outside the traditional silo are contributing successfully
 * More development is getting done per period (sprint)
 
