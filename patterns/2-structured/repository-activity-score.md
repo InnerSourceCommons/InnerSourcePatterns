@@ -46,7 +46,7 @@ The repository activity score is a numeric value that represents the (GitHub) ac
 In addition, it considers activity parameters like last update and creation date of the repo to give young projects with a lot of traction a boost.
 Projects with contributing guidelines, active participation stats, and issues (public backlog) receive a higher ranking as well.
 
-All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://docs.github.com/en/rest/reference/search#search-repositories) and [GitHub statistics API](https://docs.github.com/en/rest/reference/metrics#statistics). Other code versioning systems like BitBucket, Gitlab, Gerrit can be integrated as well if a similar API is available.
+All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://docs.github.com/en/rest/search#search-repositories) and [GitHub statistics API](https://docs.github.com/en/rest/metrics/statistics). Other code versioning systems like BitBucket, Gitlab, Gerrit can be integrated as well if a similar API is available.
 
 The code below assumes the variable `repo` contains an entity fetched from the GitHub `search` API and the `participation` object contains an entity from the GitHub `stats/participation` API.
 
