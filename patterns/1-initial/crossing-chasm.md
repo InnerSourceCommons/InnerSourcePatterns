@@ -85,19 +85,19 @@ etc.)
 hires.
 * Integrate any tooling and any experiments you have run into established
 company structures (e.g. GitHub/ GitLab instances are under a regular plan,
-accounts are easy to create and integrated with e.g. coporate single sign on
+accounts are easy to create and integrated with e.g. corporate single sign-on
 solutions, in-house support can provide help for these tools).
 * Provide low effort opportunities for learning (e.g. put little riddles in your
 coffee kitchen or whatever the digital alternative is for your company.)
 * Ship bite sized learning pieces to inboxes.
-* Pull in external expertise - sometimes in house expertise counts much less
+* Pull in external expertise - sometimes in-house expertise counts much less
 than external statements.
 
 ### Steps for laggards
 
 * Incorporate InnerSource into career competencies description.
 
-## Resulting context
+## Resulting Context
 
 * The InnerSource initiative can reach teams with various innovation
 preferences.
