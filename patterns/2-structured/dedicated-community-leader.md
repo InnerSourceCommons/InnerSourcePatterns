@@ -8,7 +8,7 @@ Select people with both communications and technical skills to lead the communit
 
 ## Problem
 
-How do you ensure that a new InnerSource initiative has the right [community leader](http://www.artofcommunityonline.org/) to grow it's impact?
+How do you ensure that a new InnerSource initiative has the right [community leader](http://www.artofcommunityonline.org/) to grow its impact?
 
 Selecting the wrong persons and/or not providing enough capacity for them risks wasted effort and ultimately the failure of a new InnerSource initiative.
 
