@@ -33,8 +33,8 @@ Instead edit toc_template.md
 * [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)
 
-
 ## Translation<a id="p"></a>
+
 * Japanese
   * [イントロダクション](../translation/japanese/introduction.md)
   * [パターンの一覧](../translation/japanese/explore-patterns.md)
