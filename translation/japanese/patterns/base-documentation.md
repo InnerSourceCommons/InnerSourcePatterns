@@ -4,67 +4,67 @@ Standard Base Documentation
 
 ## Patlet
 
-New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like `README.md`/`CONTRIBUTING.md` enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.
+InnerSource プロジェクトへの新しい貢献者は、誰がプロジェクトを維持し、何に取り組み、どのように貢献すればよいかを理解するのに苦労しています。`README.md`/`CONTRIBUTING.md` のような標準ファイルでドキュメントを提供することで、新しい貢献者のためのセルフサービスプロセスを可能にし、最も一般的な質問に対する答えを自分自身で見つけることができるようにします。
 
 ## Problem
 
-A team wants to share either a freshly started or a pre-existing project with the wider organization and receive contributions to it. Potential contributors often are lost: They are failing to identify the team's preferred communication channels. They have trouble quickly making a judgment about whether a new feature makes sense to be added or not. They have a hard time understanding exactly which colleagues are currently actively maintaining the project.
+あるチームは、新しく始めたプロジェクトや既存のプロジェクトをより広い組織で共有し、それに対する貢献を受けたいと考えています。潜在的な貢献者は、しばしば迷ってしまいます。チームの好ましいコミュニケーションチャネルを特定できない。新しい機能が追加されることに意味があるのかどうか、すぐに判断できない。現在、どの同僚が活発にプロジェクトをメンテナンスしているのかを正確に理解するのに苦労している。
 
 ## Context
 
-A project is to be shared with others as an InnerSource project. In order for others to be able to understand what the project is about as well as how to contribute, the project needs to provide some base level documentation. So far the project is lacking either all documentation or some aspects needed for users to try it out in a self-service manner as well as for contributors to get up to speed quickly.
+プロジェクトは、InnerSourceプロジェクトとして他の人と共有されることになります。他の人がプロジェクトが何であるか、また、どのように貢献するかを理解できるようにするために、プロジェクトはいくつかの基本的なレベルのドキュメントを提供する必要があります。これまでのところ、プロジェクトは、すべてのドキュメントまたはユーザーがセルフサービス方式でそれを試してみるだけでなく、貢献者が迅速にスピードアップするために必要ないくつかの側面のいずれかが不足しています。
 
 ## Forces
 
-* The project was converted into an InnerSource project only recently. Before, users were either only internal or on-boarded in personal face-to-face sessions. Equally, people working on the project went through personal on-boarding sessions which do not scale with growing numbers of contributors or remote contributors. As a result, self service documentation is lacking.
-* The project was newly created as an InnerSource project. However the host team lacks experience with InnerSource. As a result they need guidance on which information to include in their documentation, where to put that documentation so others can find it and which types of readers to address in their documentation.
-* The project was converted into an InnerSource project only recently, the host team has limited experience with InnerSource. As a result, existing documentation addresses a lot of technical aspects. It does not cover communication, coordination, information needed to facilitate transparent planning.
-* The project was converted into an InnerSource project only recently. As a result, a lot of implicit knowledge that exists within the team is neither written down nor obvious to contributors.
-* A lack of documentation leads to potential contributors taking a long time to get setup and get started. Producing documentation (and keeping it up to date) requires a time investment. Even if the host team relies on contributors to help with lacking documentation, those contributions still need time to review.
-* Project members are spending a lot of time answering getting started questions. Maintaining a comprehensive database of what could be considered support questions requires a lot of time and effort though.
-* Different teams within the organization have diverging standards for how to format source code and which software patterns to use. As a result contributions often end up getting re-written to a large part or even entirely. Standardizing all of that and enforcing the standard often would require a lot of time and work.
-* The added work for repeated explanations and re-writes diminishes the usefulness of the InnerSource approach.
-* Frequent escalations due to extra work and delays due to re-writes lead to a big cheese situation.
+* このプロジェクトがInnerSourceのプロジェクトになったのは、つい最近のことです。以前は、ユーザーは社内のみ、または個人的な対面セッションでオンボーディングされていました。同様に、プロジェクトで働く人々は、貢献者やリモート貢献者の数の増加に伴いスケールしない個人的なオンボーディングセッションを通過しました。その結果、セルフサービスの文書が不足しています。
+* プロジェクトは、InnerSourceプロジェクトとして新しく作成されました。しかし、ホストチームは、InnerSourceの経験を欠いている。その結果、彼らは彼らのドキュメントに含めるためにどのような情報についての指導を必要とし、どこに他の人がそれを見つけることができるように、そのドキュメントと彼らのドキュメントで対処するために読者の種類を配置することができます。
+* このプロジェクトは、つい最近InnerSourceプロジェクトに変換された、ホストチームは、InnerSourceと限られた経験を持っています。その結果、既存のドキュメントは、技術的な側面の多くに対応しています。それはコミュニケーション、調整、透明性の高い計画を促進するために必要な情報をカバーしていません。
+* プロジェクトは、わずか最近InnerSourceのプロジェクトに変換されました。その結果、チーム内に存在する多くの暗黙の知識は、書き留められることもなく、貢献者にも明らかではありません。
+* ドキュメントの欠如は、潜在的な貢献者がセットアップと開始するのに長い時間がかかることにつながります。ドキュメントを作成する（そしてそれを最新に保つ）には、時間的な投資が必要です。たとえホストチームが足りないドキュメントを寄稿者に頼ったとしても、それらの寄稿はレビューする時間を必要とします。
+* プロジェクト・メンバーは、使い始めの質問に答えるために多くの時間を費やしています。しかし、サポートに関する質問の包括的なデータベースを維持することは、多くの時間と労力を必要とします。
+* ソースコードのフォーマットやソフトウェアのパターンについて、組織内の異なるチームが異なる基準を持っている。その結果、コントリビューションはしばしば、大部分または全体が書き直されてしまうこともあります。そのすべてを標準化し、その標準を頻繁に実施するには、多くの時間と労力が必要です。
+* このように、説明と書き直しを繰り返す作業は、InnerSourceアプローチの有用性を低下させる。
+* 余分な仕事と書き直しのための遅延による頻繁なエスカレーションは、ビッグチーズの状況につながる。
 
 ## Solution
 
-Address the need for clearer documentation for new contributors. The goal when creating this documentation should be to make getting started as much a self service process as possible with frequently asked questions answered in standard documentation format.
+新しい貢献者のために、より明確なドキュメントの必要性に取り組む。このドキュメントを作成する際の目標は、よくある質問に標準的なドキュメント形式で回答することで、可能な限りセルフサービスのプロセスを開始できるようにすることである。
 
 ### README.md
 
-If it does not yet exist, create a `README.md` for your project. It should contain:
+まだ存在しない場合は、あなたのプロジェクトのために `README.md` を作成してください。それには以下の内容が含まれていなければなりません。
 
-* The [mission of the project](https://producingoss.com/en/producingoss.html#mission-statement) in as a concise format as possible. It should answer what the project's purpose is and enable contributors to make a good first guess whether a suggested feature will likely be in scope for the project, or not.
-* A "Getting Started" section for downstream users of the project. It should explain how to setup/ integrate the project artifacts as well as an explanation of some of the first typical steps for first time users.
-* Deeper documentation for project users - or a link to that.
-* Documentation needed for making modifications to the project - or a link to that.
-* Documentation on how to contribute to the project - or a link to that.
-* A "Getting involved" section that explains which public, archived, linkable communication channels the project uses. This should include a link to the project issue tracker, but also to any further discussion media used.
-* A "Who we are" section explaining who the [Trusted Committers](../../../patterns/2-structured/trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
-* An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists.
+* [プロジェクトの使命](https://producingoss.com/en/producingoss.html#mission-statement) できるだけ簡潔な形式にしてください。これは、プロジェクトの目的が何であるかに答え、提案された機能がプロジェクトの範囲内にあるかどうかを、貢献者が最初に推測できるようにする必要があります。
+* プロジェクトの下流ユーザーのための「Getting Started」セクション。プロジェクトの成果物をどのようにセットアップし、統合するかを説明し、初めてのユーザーのための最初の典型的なステップの説明も必要です。
+* プロジェクトユーザーのための詳細なドキュメント - またはそれへのリンク。
+* プロジェクトを修正するために必要なドキュメント - またはそれへのリンク。
+* プロジェクトに貢献する方法に関するドキュメント - またはそれへのリンク。
+* プロジェクトがどの公開、アーカイブ、リンク可能なコミュニケーションチャネルを使用しているかを説明する「Getting involved」セクション。これには、プロジェクトの課題追跡システムへのリンクだけでなく、使用されているその他の議論メディアへのリンクも含まれるべきです。
+* 「Who we are」セクションは、プロジェクトを支える[Trusted Committers](../../patterns/2-structured/trusted-committer.md) が誰であるかを説明し、これらの人々と個人的に連絡を取る代わりに、上記の一般向けのコミュニケーションチャンネルがコミュニケーションのために使用されるべきであるという説明を含んでいます。
+* 貢献者を Trusted Committers にするためのプロジェクトの基準が何であるかについての説明 - そのパスが存在する場合。
 
 ### CONTRIBUTING.md
 
-If the explanation of the steps to make a contribution are too involved, create a separate `CONTRIBUTING.md` document. This document should answer frequently asked questions that contributors have asked in the past. There is no need to provide a comprehensive book up front. Rather, share information that has proven needed by contributors. Likely it will touch upon one or more of the following topics:
+コントリビューションを行うための手順の説明が複雑すぎる場合は、`CONTRIBUTING.md`というドキュメントを別に作成します。この文書では、コントリビューターが過去によく聞かれた質問に答えるようにします。前もって包括的な本を提供する必要はありません。むしろ、寄稿者が必要としていることが証明された情報を共有しましょう。おそらく、以下のトピックのうちの1つ以上に触れることになるでしょう。
 
-* How to checkout the project source code from version control.
-* How to make modifications to the project (potentially including information on coding guidelines).
-* How to build the project.
-* How to run tests to make sure the above modifications aren't introducing new bugs.
-* How to submit your modifications back to the project.
-* Some information on which turnaround time to expect for modifications made.
+* プロジェクトのソースコードをバージョン管理からチェックアウトする方法。
+* プロジェクトに変更を加える方法（コーディングガイドラインに関する情報を含む可能性があります）。
+* プロジェクトをビルドする方法。
+* 上記の修正が新しいバグを引き起こしていないことを確認するためのテストの実行方法。
+* プロジェクトにあなたの修正を提出する方法。
+* 修正が行われた場合、どのようなターンアラウンドタイムを期待するかについてのいくつかの情報。
 
 ![Brief picture of README.md and CONTRIBUTING.md content](../../../patterns/2-structured/project-setup/assets/base\_docs\_drawing.png)
 
-There are many of good examples for how to write a `README.md` and what kind of information to include in a `CONTRIBUTING.md` file in various open source projects. Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), [Open Source Guide from GitHub](https://opensource.guide/) as well as the book [Producing Open Source](https://producingoss.com/en/producingoss.html) all have valuable information on what kind of information to provide. While Producing Open Source does not have a chapter on writing a good README per se, the [Getting Started chapter](https://producingoss.com/en/producingoss.html#starting-from-what-you-have) does provide a fairly extensive list of things that fellow host team members, users and contributors will need. InnerSource projects likely will not cover all of those aspects right from the start, the list itself is helpful for inspiration for what one could cover.
+様々なオープンソースプロジェクトにおいて、 `README.md` の書き方や、 `CONTRIBUTING.md` ファイルにどのような情報を含めるべきかについての良い例がたくさんあります。How to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), [Open Source Guide from GitHub](https://opensource.guide/) や書籍 [Producing Open Source](https://producingoss.com/en/producingoss.html) などのページには、どのような情報を提供すべきなのかについての貴重な情報が掲載されています。Producing Open Sourceには、良いREADMEを書くための章はありませんが、[Getting Started chapter](https://producingoss.com/en/producingoss.html#starting-from-what-you-have) には、ホストチームのメンバー、ユーザー、貢献者が必要とするもののかなり広範なリストがあります。InnerSourceのプロジェクトは、おそらく最初からこれらの側面のすべてをカバーするわけではありませんが、リスト自体は、1つがカバーできるもののためのインスピレーションのために有用である。
 
-In addition to that, this pattern comes with two very basic templates to get you started right away: [README-template.md](../../../patterns/2-structured/project-setup/templates/README-template.md) and [CONTRIBUTING-template.md](../../../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
+さらに、このパターンには、すぐに始められるように、2つの非常に基本的なテンプレートが付属しています。[README-template.md](../../../patterns/2-structured/project-setup/templates/README-template.md) と [CONTRIBUTING-template.md](../../../.../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md) です。
 
 ## Resulting Context
 
-* The time for contributors to get up to speed is significantly reduced.
-* Time spent on answering initial questions for [Trusted Committers](../../../patterns/2-structured/trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
-* Escalations due to misunderstandings and misalignment are significantly reduced.
+* 貢献者がスピードアップするための時間が大幅に短縮されます。
+* Trusted Committers] (../../patterns/2-structured/trusted-committer.md) の最初の質問に答える時間が大幅に短縮され、他の作業に時間を割くことができるようになった。
+* 誤解やミスアライメントによるエスカレーションが大幅に減少します。
 
 ## Known Instances
 
@@ -77,7 +77,7 @@ In addition to that, this pattern comes with two very basic templates to get you
 
 ## Alias
 
-Provide standard base documentation through a README
+READMEによる標準的なベースドキュメントの提供
 
 ## Status
 

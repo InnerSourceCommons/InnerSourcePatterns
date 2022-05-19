@@ -1,65 +1,65 @@
 ## Title
 
-Praise Participants
+賛美の参加者
 
 ## Patlet
 
-After an inner source contribution, it's important to thank the contributor for their time and effort.
-This pattern gives guidance that not only effectively acknowledges the contribution but also engenders further engagement from the contributor and others.
+インナーソースの貢献の後、その時間と努力に対して貢献者に感謝することは重要です。
+このパターンは、貢献を効果的に認めるだけでなく、貢献者や他の人たちのさらなる関与を引き出すためのガイダンスを提供します。
 
 ## Problem
 
-How can we properly express our gratitude to a contributor for their inner source contribution to a project?
-It can be easy to forget to do so or not know the words or medium to use for adequate effect and sincerity.
-Praise and thanks are easy, affordable ways to keep contributors and their managers motivated and excited to continue.
-A pattern in this area makes it easy to do and ensures that the message comes across clearly and sincerely.
+プロジェクトに貢献してくれたインナーソースの貢献者に対して、どのように感謝の気持ちを表せばいいのでしょうか?
+感謝の気持ちを伝えることを忘れてしまったり、適切な効果や誠意を示すための言葉や媒体を知らなかったりしがちです。
+賞賛と感謝は、貢献者とそのマネージャーのモチベーションを維持し、継続することに興奮するための簡単で手頃な方法です。
+この分野のパターンがあれば、簡単に実行でき、メッセージが明確かつ誠実に伝わるようになります。
 
 ## Context
 
-* You are the [Trusted Committer](./trusted-committer.md) or maintainer on an inner source project.
-* You value the community of contributors and want to maintain and grow it.
+* あなたはインナーソースプロジェクトの [Trusted Committer](./trusted-committer.md) あるいはメンテナーです。
+* あなたは、貢献者のコミュニティを大切にし、それを維持・発展させたいと考えています。
 
 ## Forces
 
-* You are busy, which makes it easy to forget some soft touches like praise and thanks.
-* You may not be someone that is comfortable in social situations or good with words.
-* Peer recognition is very important to job satisfaction and career development.
+* あなたは忙しいので、賞賛や感謝のようなソフトタッチを忘れがちです。
+* あなたは、社交的な状況や言葉遣いが得意な人ではないかもしれません。
+* 仕事への満足度やキャリア開発には、仲間からの評価が非常に重要です。
 
 ## Solutions
 
-It feels good to anyone to be recognized by others.
-In a professional setting, increased recognition is also an avenue to increased influence and growth.
-Any time someone gives to your inner source project, recognize them with a sincere and qualified "thank you".
+他人から認められることは、誰にとっても気持ちの良いことです。
+プロフェッショナルな場では、認知度の向上は、影響力や成長への道筋にもなります。
+誰かがあなたのインナーソースプロジェクトに貢献したときはいつでも、誠実で適格な「ありがとう」の言葉でその人を認めてあげてください。
 
-For non-trivial contributions (all code contributions and significant time contributions), say thank you via the following mechanisms:
+自明でない貢献（すべてのコード貢献と重要な時間的貢献）に対しては、以下のメカニズムでお礼を言いましょう。
 
-(1) Call out the person by name in any chat location (e.g. _Slack_) where you organize your project activity.  Let everyone know what they did and thank them publicly.  
-
-Example:
-
-> Everyone @here give a high-five to @andrew.clegg for updating the _rcs-viewer_ to the latest version of the _hebo-client_ (https://github.com/rcs/rcs-viewer/pull/81).
-Thanks for helping keep this library up-to-date, Andy!
-
-(2) Email them and their manager (cc'd) privately thanking them for the contribution.
-For code contributions often-times you can just forward the merge notification mail.
+(1) あなたがプロジェクト活動を組織しているチャットの場所 (例: _Slack_) で、その人の名前を呼びます。 その人が何をしたかを皆に知らせ、公に感謝する。 
 
 Example:
 
-> Hi, Andy, I want to thank you again for making this update.
-It may have been a small amount of time, but it's attention like this from each person that make the RCS project work for all of us.
-Thanks for solving your own problem in a way that also makes the _rcs-viewer_ better for everyone.
+> みんな @andrew.clegg が _rcs-viewer_ を _hebo-client_ の最新版 (https://github.com/rcs/rcs-viewer/pull/81) に更新してくれたことにハイタッチしてください。
+このライブラリを最新に保つのを手伝ってくれてありがとう、Andy!
+
+(2) 彼らとそのマネージャー(cc'd)に、個人的にお礼のメールを送ります。
+コードのコントリビューションでは、しばしばマージ通知メールを転送するだけでよい場合があります。
+
+Example:
+
+> こんにちは、アンディ。このアップデートを作ってくれて本当にありがとう。
+わずかな時間だったかもしれませんが、このような各人の配慮があるからこそ、RCSプロジェクトは私たち全員のために機能しているのです。
+自分自身の問題を解決することで、_rcs-viewer_をより良いものにすることができ、ありがとうございました。
 
 ## Resulting Context
 
-Feedback like this leaves the contributor with a fantastic feeling and ready to come back for more.
-Combining **both** forms of thanks gives them recognition in front of their peers (breadth) and in front of their direct manager (depth).
-There's a subtle encouragement for those peers in chat to consider contributing themselves and for that manager to look for appropriate circumstances to encourage their other direct reports to do the same.
-Additionally, awareness of the inner source project spreads to the manager, who may have previously not known of the team's use and involvement with it.
+このようなフィードバックは、貢献者に素晴らしい気持ちを残し、また戻ってくる準備ができています。
+両方の感謝の言葉を組み合わせることで、仲間の前でも（幅）、直属の上司の前でも（深さ）認めてもらうことができます。
+また、その上司は、他の直属の部下に同じことをするよう促す適切な状況を探します。
+さらに、インナーソースプロジェクトの意識は、以前はチームの使用とそれとの関わりを知らなかったかもしれないマネージャーにも広がります。
 
-One caveat - keep it real.
-Make sure that your words stem from the sincere thanks that you feel inside for what they've done.
-Keep the level and verbosity of praise appropriate to their level of involvement.
-Overdoing it may feel insincere and mechanical and defeat your purpose in reaching out.
+一つ注意点があります。
+あなたの言葉は、彼らがしてくれたことに対して、あなたが心の中で感じている心からの感謝からきていることを確認してください。
+褒め言葉も、その人のレベルに合わせて冗長になりすぎないようにしましょう。
+やり過ぎると、不誠実で機械的な印象を与え、せっかく声をかけた意味がなくなってしまいます。
 
 ## Related Patterns
 

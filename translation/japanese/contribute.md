@@ -1,28 +1,28 @@
-# Contribute to this book
+# この本に貢献する
 
-You want to make this book better? That is awesome!
+この本をもっと良くしたいですか？それは素晴らしいことです!
 
-The InnerSource Patterns book itself is an [open source project](https://github.com/InnerSourceCommons/InnerSourcePatterns), and welcomes any form of contribution. Nothing is too small!
+InnerSourceパターンブック自体は[オープンソースプロジェクト](https://github.com/InnerSourceCommons/InnerSourcePatterns)であり、貢献の任意のフォームを歓迎します。何も小さすぎることはありません!
 
-No matter if you want to help us fix grammar/spelling, improve the design, or contribute entirely new patterns based on the InnerSource experiences that you have made at your workplace. We love all of that! :)
+あなたは私たちが文法/スペルを修正するのに役立ちたい、デザインを改善する、またはあなたがあなたの職場で行われたInnerSourceの経験に基づいて、まったく新しいパターンを貢献するかどうかに関係なく. 我々は、そのすべてを愛する! :)
 
-If you have never made a contribution to an open source project before, know that the InnerSource Patterns community is group of friendly people and with that a safe place to try it out.
+あなたが前にオープンソースプロジェクトに貢献したことがない場合は、InnerSourceパターンのコミュニティはフレンドリーな人々のグループであり、それを試してみるために安全な場所と知っています。
 
-## Before you get started
+## あなたが始める前に
 
-The sources for the InnerSource Patterns and this book are kept in a repository on GitHub. Therefore you will need a GitHub user account to make edits and suggestions to this book. If you don't have one yet, head over to [github.com](https://github.com) and create an account for free.
+InnerSourceパターンとこの本のソースは、GitHub上のリポジトリに保管されています。したがって、この本の編集や提案を行うには、GitHubのユーザーアカウントが必要です。もしまだ持っていないなら、[github.com](https://github.com)に向かい、無料でアカウントを作成してください。
 
-## Different ways to contribute
+## 貢献するさまざまな方法
 
-Here a few ways in which you can contribute:
+ここでは、あなたが貢献できるいくつかの方法を紹介します。
 
-1. fix spelling, formatting, or other glitches that you notice in this book
-2. improve the content of an existing pattern (e.g. by adding a short description of how you are using a pattern as a _Known Instance_)
-3. contribute a new pattern, describing how you have overcome InnerSource-related challenges in your organization
+1. この本で気づいたスペルや書式などの不具合を修正する。
+2. 既存のパターンの内容を改善する (たとえば、_Known Instance_ としてパターンをどのように使用しているかについての短い説明を追加する)
+3. 新しいパターンを投稿し、あなたの組織でInnerSource関連の課題をどのように克服したかを説明する。
 
-For (1) and (2) above you can simply hit the **Edit on GitHub** link that you see at the top of each page in this book. This will take you straight to the respective file in our GitHub repository, where you can suggest your changes.
+上記の(1)と(2)については、本書の各ページの上部にある**Edit on GitHub**というリンクを押すだけでよいのです。このリンクからGitHubリポジトリの各ファイルに直接アクセスでき、そこで変更を提案することができます。
 
-For (3) you need to clone the [InnerSourcePatterns](https://github.com/InnerSourceCommons/InnerSourcePatterns) repository, and add a new file with your suggested pattern. When making such larger contributions to this book please review our [CONTRIBUTING.md](../../CONTRIBUTING.md) and also our [Contributor Handbook](../../meta/contributor-handbook.md).
+(3) については、[InnerSourcePatterns](https://github.com/InnerSourceCommons/InnerSourcePatterns) リポジトリをクローンし、あなたの提案するパターンを新しいファイルに追加する必要があります。このような大きな貢献をする場合は、私たちの [CONTRIBUTING.md](../../CONTRIBUTING.md) と [Contributor Handbook](../../meta/contributor-handbook.md) を確認してください。
 
 ## License of Contributions
 

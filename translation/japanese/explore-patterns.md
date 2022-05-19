@@ -1,18 +1,18 @@
-# Explore Patterns
+# パターンを探る
 
-More and more patterns are contributed to this book by the InnerSource Commons community. That is awesome!
+InnerSource Commonsのコミュニティから、どんどんパターンが寄稿されています。それは素晴らしいことです!
 
-Now how to make it easy for readers to discover the patterns that can help them in their particular situation?
+今、どのように読者が彼らの特定の状況でそれらを助けることができるパターンを発見するためにそれを容易にするために？
 
-For this purpose we provide this mind map. It **categorizes patterns based on the different phases of an InnerSource Program**, and the challenges that might appear in the respective phases.
+この目的のために我々はこのマインドマップを提供します。これは、インナーソースプログラムの様々なフェーズ**と、それぞれのフェーズで現れるかもしれない課題に基づいてパターンを**分類しています。
 
-![Mind Map of InnerSource Patterns](../../pattern-categorization/innersource-program-mind-map.png)
+![インナーソースパターンのマインドマップ](../../pattern-categorization/innersource-program-mind-map.png)
 
-## Improve this Mind Map
+## このマインドマップを改善する
 
-If you notice anything in this mind map that looks wrong, please [open an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues), describing the problem and the fix that should be made.
+もしこのマインドマップで何かおかしいと感じたら、[open an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) に問題点と修正すべき点を書いてください。
 
-Further if you have other ideas for improving the discoverability of these patterns, or want to make this mind map better, review the documentation of our [Pattern Categorization](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md) approach, and also check how to [contribute to this book](../../book/contribute.md).
+さらに、これらのパターンの発見力を向上させるための他のアイデアがある場合、またはこのマインドマップをより良くしたい場合は、我々の[パターン分類](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)のアプローチのドキュメントを確認し、[この本への貢献](../../book/contribute.md)の方法も確認してみてください。
 
 ## References
 

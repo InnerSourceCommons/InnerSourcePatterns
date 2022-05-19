@@ -4,63 +4,63 @@ InnerSource Portal
 
 ## Patlet
 
-Potential contributors cannot easily discover InnerSource projects that they are interested in. By creating an intranet website that indexes all available InnerSource project information you enable contributors to learn about projects that might interest them and InnerSource project owners to attract an outside audience.
+潜在的な貢献者は、彼らが興味を持っているInnerSourceプロジェクトを簡単に見つけることができません。すべての利用可能なInnerSourceプロジェクトの情報をインデックス化するイントラネットのウェブサイトを作成することにより、あなたは貢献者が彼らに興味があるかもしれないプロジェクトについて学ぶことができ、InnerSourceプロジェクトの所有者は、外部の聴衆を引き付けることができます。
 
 ## Problem
 
-InnerSource project teams are finding it difficult to attract outside contributions.
+InnerSourceプロジェクトチームは、外部からの貢献を集めることが困難であることを発見しています。
 
-InnerSource projects at your organization are increasing but potential contributors have no easy way of discovering them.
+あなたの組織のInnerSourceプロジェクトは増加しているが、潜在的な貢献者は、それらを発見するための簡単な方法がありません。
 
 ## Story
 
-You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.  
+あなたは、組織内のInnerSourceの練習を確立しようとしています。 あなたは、いくつかのプロジェクトがInnerSourceモデルを使用して実行されていることを知っているが、それらの存在は、他の従業員との口コミ、電子メールまたはサイドバーの会話を介してのみ伝達されています。 結果としてInnerSourceプロジェクトの所有者は、それが困難な貢献者を引き付けるために見つけるされています。 
 
-There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.  
+彼らは簡単にすべての進行中のInnerSourceプロジェクトを発見することができますアクセスするために組織全体の従業員のための単一の、共有リソースはありません。 これは、深刻なすべてのInnerSourceプロジェクトの成長の可能性を制限しています。 
 
-What can be done to help all InnerSource projects raise their visibility to as large an audience as possible and attract contributors organization-wide?
+すべてのInnerSourceプロジェクトは、できるだけ多くの観客に彼らの可視性を高め、組織全体の貢献者を引き付けるために何ができるのでしょうか？
 
 ## Context
 
-* Your organization is interested in adopting an InnerSource work style.
-* InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.
-* InnerSource projects at your organization are increasing.
-* Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
+* あなたの組織は、InnerSourceワークスタイルを採用することに興味を持っています。
+* InnerSourceプロジェクトの所有者は、彼らのプロジェクトに観客を引き付けるための方法を探しています。しかし、彼らは潜在的な貢献者に広告を出すことができるそれらを介して利用可能な通信チャネルによって制限されています。
+* あなたの組織でInnerSourceプロジェクトが増加している。
+* この問題をさらに深刻にしているのは、使用されている共有ソース管理アプリケーションの検索機能が非常に限られているため、InnerSourceプロジェクトを探す開発者でさえ、その場所を特定するのに苦労しているという事実です。
 
 ### Prerequisites
 
-* Managers have given tacit acceptance that their employees should take part in InnerSource projects
-* A shared source control management system is in use which provides programmatic access to the contents of the repositories it hosts
-* There is a department within your organization with the responsibility of promoting InnerSource collaboration
+* 管理者は、従業員がInnerSourceプロジェクトに参加することを暗黙の了解として与えています。
+* 共有ソース管理システムは、それがホストするリポジトリの内容へのプログラムによるアクセスを提供し、使用されています。
+* InnerSourceのコラボレーションを促進するための責任を持つ組織内の部門があります。
 
 ## Forces
 
-* The full potential for separate engineering teams to partner on shared challenges is not being realized
-* It is difficult for individuals to discover what InnerSource projects exist
-* It is difficult for InnerSource project owners to attract an audience of external contributors
+* 別々のエンジニアリングチームが、共通の課題に対してパートナーとして取り組むことの可能性が十分に発揮されていない。
+* InnerSourceプロジェクトが存在することを個人が発見することは困難である。
+* それはInnerSourceプロジェクトの所有者が外部の貢献者の聴衆を引き付けることが困難である。
 
 ## Solutions
 
-Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects.
+InnerSourceプロジェクトの所有者が簡単に彼らのプロジェクトの可用性を宣伝することができますInnerSourceポータルイントラネットウェブサイトを作成します。
 
-Key properties of the portal are:
+ポータルの主要なプロパティは次のとおりです。
 
-* Visitors to the InnerSource Portal should be able to see all available projects as well as search for specific projects based on various criteria such as project name, technologies in use, contributor names, sponsoring business unit etc.  
-* The information displayed via the InnerSource Portal should be under the full control of the InnerSource project owners at all times.  Preferably, by sourcing this information directly from a specific data file or meta-data stored in the project repository itself.  
-* Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors names, a brief description and links to the code repository or any supporting documentation.  
-* (optional) While most organizations will choose to make their portal only available on their intranet, some organizations have opted to make their portal available on the public internet. The latter can be interesting for organizations that want to show additional information about their InnerSource approach in their portal e.g. for branding and recruitment purposes.
+* InnerSourceポータルへの訪問者は、すべての利用可能なプロジェクトを見るだけでなく、プロジェクト名、使用中の技術、貢献者名、スポンサー事業部などの様々な条件に基づいて、特定のプロジェクトを検索することができるようにする必要があります。 
+* InnerSourceポータルを通じて表示される情報は、常にInnerSourceプロジェクトの所有者の完全な制御下にある必要があります。 好ましくは、プロジェクトリポジトリ自体に格納されている特定のデータファイルまたはメタデータから直接この情報をソーシングすることによって、。 
+* プロジェクトの所有者は、プロジェクト名、信頼できる貢献者の名前、簡単な説明とコードリポジトリまたは任意のサポート文書へのリンクを含むそれらのデータファイル内のプロジェクトに関するすべての関連情報を含める必要があります。 
+* （オプション）ほとんどの組織は、ポータルをイントラネットでのみ利用できるようにすることを選択しますが、いくつかの組織は、ポータルを公共のインターネット上で利用できるようにすることを選択しました。後者は、例えばブランディングや採用の目的で、ポータルにインナーソースのアプローチに関する追加情報を表示したい組織にとって興味深いものになるでしょう。
 
-When launching the portal, a communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should be considered, to bolster the number of projects displayed within the portal.
+ポータルを立ち上げる際には、ポータル内に表示されるプロジェクトの数を増やすために、InnerSourceのデータファイルやコードリポジトリへのメタデータの追加を促進するコミュニケーションキャンペーンを検討する必要があります。
 
-A [reference implementation](https://github.com/SAP/project-portal-for-innersource) of an InnerSource portal is available on GitHub and open for contributions. It lists all InnerSource projects of an organization in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
+InnerSourceポータルの[参考実装](https://github.com/SAP/project-portal-for-innersource)はGitHub上で公開されており、コントリビューションを受け付けています。これは、インタラクティブで使いやすい方法で、組織のすべてのInnerSourceプロジェクトを一覧表示します。プロジェクトはGitHubの専用トピックを使って自己登録し、追加のメタデータを提供することができます。
 
-![Example of an InnerSource Portal](../../assets/img/portal-overview.png "Example of an InnerSource Portal")
+[InnerSourceポータルの例](../../assets/img/portal-overview.png "Example of an InnerSource Portal")
 
 ## Resulting Context
 
-* The InnerSource Portal has enabled InnerSource project owners to advertise their projects to an organization-wide audience.  Due to this increased visibility they are attracting much larger communities of contributors than ever before.
-* For those looking to get involved in InnerSource projects, the InnerSource Portal has allowed them to discover exactly the kind of opportunities they are interested in by searching across all available InnerSource projects simultaneously based on their specific criteria.
-* Satisfying the needs of both of these audiences has helped establish InnerSource as a viable and attractive option for all areas of the organization to leverage to accomplish things together they could not have separately.
+* InnerSourceポータルは、InnerSourceプロジェクトの所有者が組織全体の聴衆に自分のプロジェクトを宣伝することが可能になりました。 この増加した可視性のために、彼らはこれまで以上に貢献者のはるかに大きなコミュニティを魅了しています。
+* InnerSourceプロジェクトに参加したい人のために、InnerSourceポータルは、彼らが特定の条件に基づいて同時にすべての利用可能なInnerSourceプロジェクトを横断検索することによって、彼らが興味を持っている機会の種類を正確に発見することを可能にしました。
+* これらの両方のニーズを満たすことで、InnerSourceは、組織のすべての領域が、別々に持っていなかったものを一緒に達成するために活用するための実行可能で魅力的なオプションとして確立するのに役立っています。
 
 ## Known Instances
 

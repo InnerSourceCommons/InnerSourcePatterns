@@ -1,51 +1,51 @@
 ## Title
 
-Start as an Experiment
+実験として始める
 
 ## Patlet
 
-Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.
+InnerSourceの取り組みを期間限定の実験として開始することで、InnerSourceに馴染みのない管理職が賛同し、取り組みをサポートしやすくします。
 
 ## Problem
 
-An InnerSource initiative is considered but not started because management is unsure about its outcome and, as a result, is not willing to commit to an investment.
+InnerSourceイニシアチブは、経営陣がその結果について不明であり、その結果、投資にコミットすることを望んでいないので、検討されているが、開始されていません。
 
 ## Context
 
-The company is considering InnerSource to increase the efficiency of collaboration on software projects. However, most managers are not familiar with the Open Source working model and are instead accustomed to hierarchical, top-down control style management. The idea of InnerSource is very popular with software developers in the company, not the least because many developers use or are actively developing Open Source software.
+会社は、ソフトウェアプロジェクトにおけるコラボレーションの効率を高めるために、InnerSourceを検討している。しかし、ほとんどの管理者は、オープンソースの作業モデルに精通しておらず、代わりに階層的な、トップダウンの制御スタイルの管理に慣れている。InnerSourceのアイデアは、社内のソフトウェア開発者に非常に人気があり、少なくとも多くの開発者がオープンソースソフトウェアを使用しているか、積極的に開発しているためです。
 
 ## Forces
 
-- Managers will want to validate the claims of improved collaboration through InnerSource before making a long term investment. This usually involves measuring the improvements.
-- If the InnerSource initiative will likely have a huge uptake among developers and if many projects are likely to rely on it, a decision to shut it down will be very unpopular and therefore hard to make. The perceived resulting loss of control might deter some managers to even start with InnerSource.
-- Implementing InnerSource style working models are often a radical departure from previously practiced working models. It is therefore likely, that existing, mandatory processes are no longer applicable and that appropriate governing processes are missing. The result might be that one has to operate in a regulatory, sometimes legal no-mans land. Examples are tax and export control related regulations in large corporations with multiple legal entities in multiple countries.
+- マネージャーは、長期的な投資を行う前に、InnerSourceを通じて改善されたコラボレーションの主張を検証したいと思うでしょう。これは通常、改善を測定することが含まれます。
+- InnerSourceイニシアチブは、おそらく開発者の間で巨大なアップセットを持つことになり、多くのプロジェクトがそれに依存する可能性がある場合、それをシャットダウンする決定は非常に不人気で、したがって行うのは難しいでしょう。コントロールの認識結果損失はあってもInnerSourceで開始するためにいくつかのマネージャーを阻止するかもしれません。
+- InnerSourceスタイルの作業モデルを実装することは、しばしば以前に実践されている作業モデルから抜本的な出発です。それは、したがって、既存の、必須のプロセスは、もはや適用されないと適切な統治プロセスが欠落していること、可能性があります。その結果、規制、時には法的規制のない場所で活動しなければならなくなるかもしれません。例えば、複数の国に複数の法人を持つ大企業では、税務や輸出管理関連の規制がその例です。
 
 ## Solution
 
-Declare the InnerSource initiative as a time limited experiment. Define and communicate the criteria for projects to join the InnerSource experiment. Choose criteria that will maximize the chances of building a healthy community. A set of criteria is a good one if the insights generated from it within the context of the experiment can intuitively be applied to contexts involving other potential InnerSource projects.
+InnerSourceイニシアチブを期間限定の実験として宣言する。InnerSource実験に参加するためのプロジェクトの基準を定義し、伝える。健全なコミュニティを構築する機会を最大化するような基準を選択する。実験のコンテキスト内でそこから生成された洞察は、直感的に他の潜在的なInnerSourceプロジェクトを含むコンテキストに適用することができる場合、基準のセットは良いものです。
 
-Examples for such criteria are:
+そのような基準のための例としては、次のとおりです。
 
-- Sufficient geographical distribution of developers
-- Sufficient departmental mix of developers
-- Openness of communication within community
-- Career path based on merit within community
-- Democratic decision making within community
+- 開発者の十分な地理的分布
+- 開発者の十分な部門間比率
+- コミュニティ内のコミュニケーションの開放性
+- コミュニティ内での実力に応じたキャリアパス
+- コミュニティ内での民主的な意思決定
 
-Consider designating the end of the experiment a _pivot_, _change_ or _pause_ point to re-evaluate. Also consider establishing a [Review Committee](review-committee.md) to increase the chances of management buy-in through participation. Depending on company culture, it might be helpful to accompany the experiment with appropriate metrics [First Steps With Metrics](../1-initial/introducing-metrics-in-innersource.md). If the projects in the experiment don't provide a direct impact on the companies revenue, consider introducing [Cross-Team Project Valuation](crossteam-project-valuation.md) to highlight their value contributions.
+実験の終わりを、_pivot_、_change_、_pause_のいずれかに指定し、再評価を行うことを検討する。また、参加を通じて経営陣の賛同を得る可能性を高めるために、[レビュー委員会](review-committee.md)を設置することを検討する。企業文化にもよりますが、実験に適切なメトリクスを伴うと便利です [First Steps With Metrics](../1-initial/introducing-metrics-in-innersource.md). 実験のプロジェクトが企業の収益に直接的な影響を与えない場合、その価値貢献を強調するために[Cross-Team Project Valuation](crossteam-project-valuation.md) を導入することを検討する。
 
 ## Resulting Context
 
-Managers are able to kick start InnerSource for the following reasons:
+マネージャーは、次の理由でInnerSourceをキックスタートさせることができます。
 
-- The experimental setup eases the need for managers to scrutinize the InnerSource program numbers in the same way that they would for typical projects.
-- The possibility of failure of the experiment is understood and accepted. The personal risk for the supporting managers is minimized.
-- Even in case of a failure, the setup ensures that the company will learn from the experiment.
-- In case of success, the data gathered during the experiment will allow managers to make a longer lasting commitment to InnerSource.
+- 実験的なセットアップは、彼らが典型的なプロジェクトの場合と同じようにInnerSourceのプログラム番号を精査するために管理者の必要性を緩和します。
+- 実験の失敗の可能性が理解され、受け入れられている。サポートマネージャの個人的なリスクは最小限に抑えられます。
+- 失敗の場合でも、セットアップは、同社が実験から学ぶことを保証します。
+- 成功の場合には、実験中に収集したデータは、管理者がInnerSourceに長期的なコミットメントを行うことができるようになります。
 
-Participants in the InnerSource experiment are now conscious that they have to prove to management that InnerSource yields the promised benefits. It will therefore help to focus work on those activities which provide the most demonstrable value thus increasing the chances of success.
+InnerSourceの実験の参加者は、彼らがInnerSourceは約束された利点をもたらすことを経営陣に証明しなければならないことを意識しています。したがって、それはこのように成功の可能性を高める最も実証可能な価値を提供し、それらの活動に作業を集中するのに役立ちます。
 
-Finally, starting as an experiment makes it much easier to sidestep regulations and forces such as tool and process policies which could decrease the chances of success.
+最後に、実験として開始すると、成功の可能性を減少させる可能性があるツールやプロセスポリシーなどの規制や力を横取りすることがはるかに容易になります。
 
 ## Related Patterns
 

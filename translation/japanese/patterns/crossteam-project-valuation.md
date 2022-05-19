@@ -4,56 +4,56 @@ Cross-Team Project Valuation
 
 ## Patlet
 
-It's hard to sell the value of cross-team InnerSource projects that don't provide a direct impact on company revenue.
-Here's a data-driven way to represent your project that both articulates its value and amplifies it.
+それは会社の収益に直接的な影響を提供していないクロスチームのInnerSourceプロジェクトの価値を販売することは困難である。
+ここでは、その価値を明確にし、それを増幅する両方のプロジェクトを表現するためのデータ駆動型の方法です。
 
 ## Context
 
-* You are responsible for a cross-team that serves as a platform for others in the company.
-* The cross-team project does not deliver any direct value for company revenue.
+* 社内他部門のプラットフォームとなるクロスチームの責任者です。
+* クロスチームのプロジェクトは、会社の収益に直接的に価値を提供するものではありません。
 
 ## Problem
 
-Cross-team projects can potentially have a very large impact on the company yet are difficult to represent in a data-driven fashion.
-As a result, it is easy and common to either pursue projects that does not provide real value or to underfund what would otherwise produce great value.
+チーム横断的なプロジェクトは、会社に非常に大きな影響を与える可能性がありますが、データに基づいた形で表現することは困難です。
+その結果、真の価値を提供しないプロジェクトを追求したり、本来なら大きな価値を生み出すはずのプロジェクトに資金が不足してしまうことがよくあるのです。
 
 ## Forces
 
-* Projects need to show value (objective or subjective) to company leadership in order to be funded.
-* Cross-team project value is dispersed across multiple end business units.
-* Due to this dispersal, cross-team project value is difficult to measure directly.
+* プロジェクトは、資金を得るために会社のリーダーシップに価値（客観的または主観的）を示す必要があります。
+* チーム横断的なプロジェクトの価値は、複数の最終事業部門に分散している。
+* このように分散しているため、クロスチーム・プロジェクトの価値を直接測定することは困難である。
 
 ## Solution
 
-Set in place a pattern and model of how to value cross-team projects.
-Such models give us the tool that we need to focus and amplify high-value collaboration for the company.
+クロスチーム・プロジェクトの価値を高める方法について、パターンやモデルを設定する。
+このようなモデルは、企業にとって価値の高いコラボレーションに焦点を当て、それを増幅させるために必要なツールを与えてくれます。
 
-The core of all cross-team project value is the idea that we can get more done together than apart.
-Ascribing value to a cross-team effort is an exercise in quantifying _how much more_ is getting done together.
-The exact delta in productivity will vary by domain and project.
-There is a common process, by which you can create a model to calculate it.
+クロスチーム・プロジェクトの価値の核心は、「離れているより一緒にいる方がより多くのことを成し遂げられる」という考え方にあります。
+クロスチームでの取り組みに価値を見出すことは、一緒に行うことでどれだけ多くのことを成し遂げられるかを定量化することです。
+生産性の正確な差は、分野やプロジェクトによって異なる。
+それを計算するためのモデルを作成するための、共通のプロセスがある。
 
 ### Explanation
 
-Assemble a small team of subject matter experts in your domain.
-Using that team of experts, estimate 4 things about each consumer of your project output:
+あなたの分野の専門家からなる小規模なチームを結成してください。
+その専門家チームを用いて、あなたのプロジェクトのアウトプットの各消費者について、4つのことを推定してください。
 
-* How long does it take them to consume your project output?
-* How long would it otherwise take them to home-roll the value of your project output for themselves?
-* What percentage of your project output is actually useful for them?
-* How much time on an ongoing basis (ideally per-use) would they otherwise spend maintaining their home-rolled solution?
+* あなたのプロジェクトの成果を消費するのにかかる時間はどれくらいですか？
+プロジェクト・アウトプットを消費するのにかかる時間 * プロジェクト・アウトプットの価値を自分のものにするのにかかる時間
+* あなたのプロジェクトの出力の何パーセントが、彼らにとって実際に有用ですか？
+* 自社で開発したソリューションを維持するために、継続的に（理想的には使用ごとに）どれだけの時間を費やすことになるでしょうか。
 
-When making these estimations, it's impossible to know with high accuracy _exactly_ how long any activities take.  That's not your goal.
-Rather than exactness, you should strive to _**set a worst-case bound**_ on these estimates.
-The idea is for the group of experts to be able to say to each other, "We don't know exactly how long it would take, but we can all agree it's _at least_ this much."
-Specifically, you should estimate a _maximum_ reasonable time to consume your project output and _minimum_ reasonable times for consumers to otherwise home-roll, use and maintain their own solutions.
+このような見積もりを行う場合、どの活動にどれくらいの時間がかかるかを正確に知ることは不可能です。 それはあなたの目標ではありません。
+正確さよりも、見積もりにおけるワーストケースの境界を設定することに努めなければなりません。
+つまり、専門家集団がお互いに「正確な時間はわからないが、少なくともこれくらいはかかると思う」と言い合えるようにすることです。
+具体的には、プロジェクトの成果を消費するための最大合理的な時間と、それ以外に消費者が独自のソリューションを自作し、使用し、維持するための最小合理的な時間を見積もる必要があります。
 
-One note about cost of "rolling your own solution" (home-roll).  The cost to home-roll a solution is NOT necessarily (very unlikely, in fact) the same as the cost of making a shared solution.
-Oftentimes for the same functionality the modularity and quality involved in building a cross-team, shared solution makes it a noticeably higher investment than a quick, hardcoded implementation used just once.
+独自のソリューションを展開する」(home-roll)ためのコストについて、一つ注意点があります。 ソリューションのホームロールにかかるコストは、共有ソリューションの作成コストと同じとは限りません (実際には、その可能性は非常に低いのですが)。
+同じ機能であれば、チーム横断的な共有ソリューションの構築に必要なモジュール性と品質により、一度だけ使用する迅速でハードコードされた実装よりも明らかに高い投資となることがよくあるのです。
 
 ### Formula
 
-Once you have your worst-case bounds you can value your cross-team project output during a given time frame via the simple formula:
+ワーストケースを設定すると、単純な計算式でチーム横断的なプロジェクトのアウトプットを評価することができます。
 
 ```
 [Time Saved] - [Time Invested]
@@ -65,30 +65,30 @@ Once you have your worst-case bounds you can value your cross-team project outpu
 
 ### Commentary
 
-Despite the trappings of rigor, this process does not yield an exact way to measure cross-team project output.
-In-practice, however, it does give a framework by which you can make a sound decision at how to fund this work.
-After having good, reasonable data according to the above explanation, you should fund dedicated development hours toward running the project up to _**at least**_ of the lesser of the following three levels:
+このプロセスは、厳密さを装っていますが、チーム横断的なプロジェクトの成果を正確に測定する方法を提供するものではありません。
+しかし、実際には、この作業に対する資金をどのように調達するかを適切に判断するための枠組みを提供する。
+上記の説明に従って妥当なデータを入手したら、次の3つのレベルのうち、少なくとも**小さい方のレベルまでプロジェクトを運営するために、専用の開発時間を確保する必要があります。
 
-1. The raw hours saved by the formula above.  Since we're all sure that the formula will produce a number that is below the true number of hours saved, you can have confidence that funding the project up to that point is a sure win for you.
-1. The amount of time that it takes to support inner sourced contributions to cross-team projects.  Since the contributor would likely have done the work anyway in a one-off fashion, it is worth it to fund the time it takes to facilitate their work going into a shared location.
-1. Whatever feels good to you.  One intentional side effect of having a valuation formula is that it naturally forces measurement of the key points of usage that provide value to consumers.
+1. 上の計算式で節約できた生の時間。 この計算式が真の節約時間数を下回る数字を出すことは確実なので、その時点までのプロジェクトに資金を提供することは、あなたにとって確実な勝利であると確信することができます。
+1. クロスチーム・プロジェクトに対するインナーソースの貢献をサポートするために必要な時間。 貢献者は、おそらく単発でその作業を行ったと思われるので、その作業が共有される場所に行くのを促進するために必要な時間を資金提供する価値がある。
+1. あなたにとって気持ちの良いものなら何でも。 評価式を持つことの意図的な副次的効果として、消費者に価値を提供する使用法の重要ポイントの測定を自然に強制することが挙げられます。
 
-Those measurements can be understood and consumed in their raw form to provide you with a gut-feel idea of how valuable is the project.
+それらの測定値を生のまま理解し、消費することで、そのプロジェクトがどの程度の価値を持つものなのかを直感的に理解することができます。
 
-Some may be concerned about the lack of accuracy in this valuation approach.  It's okay for this process to not give an exact measurement.  It just needs to be accurate enough to accomplish 2 purposes:
+この評価手法の精度の低さを懸念される方もいらっしゃるかもしれません。 このプロセスでは、正確な測定値が得られなくてもかまいません。 ただ、2つの目的を達成するのに十分な精度が必要なのです。
 
-1. Give a means to represent the value of what is happening to those that are organizing and funding cross-team efforts.
-1. Help those involved to know what areas of cross-team effort are higher priority to pursue based on their value.
+1. チーム横断的な取り組みを組織し、資金を提供している人たちに、今起きていることの価値を表す手段を提供する。
+1. クロスチーム活動のどの分野が、その価値に基づいて追求すべき優先順位が高いかを、関係者が知ることができるようにする。
 
-In-practice, as long as these valuations are within an order-of-magnitude of reality and one-another, they are sufficiently accurate to fill these purposes.
-They will provide a head-and-shoulders improvement in on-the-ground results over the ad-hoc valuations (and resultant effects) described in the **Problem** section at the beginning of this document.
+実際には、これらの評価が現実と互いに1桁以内の誤差である限り、これらの目的を満たすのに十分な精度を有しています。
+この文書冒頭の「**問題点**」で述べた場当たり的な評価（とその結果生じる効果）に比べて、現場での結果は頭一つ抜きん出たものになるでしょう。
 
 ## Resulting Context
 
-* Data-driven means to discuss the value and funding of the cross-team project with leadership.
-* Key metrics around the cross-team project instrumented in raw form.
-* Defining how the cross-team project provides value tends to lead to it actually producing greater value for the company.
-* Generally-successful project and "buzz" around it.
+* クロスチーム・プロジェクトの価値と資金調達について、リーダーシップと議論するためのデータ駆動型手段。
+* クロスチーム・プロジェクトに関する主要な指標を生の形で計測する。
+* クロスチーム・プロジェクトがどのように価値を提供するかを定義することは、それが実際に会社のためにより大きな価値を生み出すことにつながる傾向があります。
+* 一般的に成功したプロジェクトとその周りの「話題性」。
 
 ## Known Instances
 
@@ -105,4 +105,4 @@ They will provide a head-and-shoulders improvement in on-the-ground results over
 
 ## Acknowledgement
 
-* Jeremiah Wright for teaching me to think about cross-team projects as an internal business dealing in the currency of developer time.
+* ジェレマイア・ライトは、チーム横断のプロジェクトを、開発者の時間という通貨を扱う社内ビジネスとして考えるよう教えてくれました。

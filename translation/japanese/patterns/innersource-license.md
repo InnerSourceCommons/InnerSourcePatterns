@@ -4,72 +4,72 @@ InnerSource License
 
 ## Patlet
 
-Two legal entities that belong to the same organization want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting.
+同じ組織に属する2つの法人は、ソフトウェアのソースコードを互いに共有したいが、法的責任や会社間の会計処理の観点からの影響を懸念している。
 
-An **InnerSource License** provides a reusable legal framework for the sharing of source code within the organization. This opens up new collaboration options, and makes the rights and obligations of the involved legal entities explicit.
+**インナーソースライセンス**は、組織内でソースコードを共有するための再利用可能な法的枠組みを提供します。これにより、新しいコラボレーションの選択肢が広がり、関係する法人の権利と義務が明確になります。
 
 ## Problem
 
-When two or more legal entities within an organization want to share code with each other, they need an agreement about the terms and often a legal contract. Creating such agreements on a per project basis takes effort and creates a barrier for sharing. i.e. a team within a legal entity might decide not to share their source code with another legal entity in the organization because it seems complicated.
+組織内の2つ以上の法人が互いにコードを共有しようとする場合、条件についての合意が必要であり、多くの場合、法的な契約が必要である。プロジェクトごとにこのような契約を結ぶには労力がかかり、共有の障壁となる。たとえば、ある法人のチームは、複雑そうだからという理由で、組織内の別の法人とソースコードを共有しないことに決めるかもしれない。
 
-Barriers for sharing can lead to silos and duplication of effort in rebuilding similar solutions in multiple parts of the organization.
+共有の障壁は、組織内の複数の部分で類似のソリューションを再構築する際のサイロ化や労力の重複につながる可能性があります。
 
-At the time of sharing the source code, it can not be reliably predicted what the value of sharing will be. If the activity of sharing requires significant effort (i.e. negotiating terms for the usage), the legal entities are less likely to do it, as they are concerned about the return on investment.
+ソースコードを共有する時点では、共有の価値がどうなるかを確実に予測することができない。共有という活動に多大な労力（使用条件の交渉など）を要する場合、法人は投資対効果を気にするため、それを行う可能性は低くなります。
 
 ## Context
 
-- A large organization with many legal entities (subsidiaries) that want to share code. When the organization gets larger, the value of this pattern increases.
-- As per definition, the legal entities have their own legal rights and obligations.
-- Multiple of these legal entities are developing software, and are using services of the other legal entities. They have a motivation to contribute to each other’s source code.
-- A sufficient complexity of the organization and its organizational structure
+- コードを共有したい多くの法人（子会社）を持つ大組織。組織が大きくなると、このパターンの価値が高くなる。
+- 定義によると、法人は独自の法的権利と義務を持っている。
+- これらの法人のうち、複数の法人がソフトウェアを開発し、他の法人のサービスを利用している。互いのソースコードに貢献する動機がある。
+- 組織とその組織構造が十分に複雑である。
 
 ## Forces
 
-- **Level of effort** required to write formal agreements, especially if they need to take into account technical, legal, and business perspectives.
-- A large organization (consisting of many legal entities) has many **internal regulations**. Any new agreements that are made have to comply with these regulations, e.g. security, privacy, procurement processes, etc. The volume of regulations can make it difficult to assess whether sharing software between two legal entities is compliant with these regulations, especially when there is no standard procedure.
-- If any of the legal entities in the organization has a **business model** that depends on proprietary code and accounting of licensing fees within the organization
-- **Company culture** that isn’t used to InnerSource collaboration and sharing code. This results in uncertainty about the rights and obligations when using shared code.
-- Freedom over using the software leads to competition, and spread of ownership
-- There are legal contracts in place which cover the sharing of source code. These contracts are not standardized, so they create additional effort in negotiating and understanding for every project. The existing contracts may also not allow sharing source code in an open enough sense to support a true InnerSource approach.
-- Alternatively, there are no legal contracts in place but source code is shared informally. That might create uncertainty in cases where clarity about ownership and rights and obligations is needed.
+- 特に、技術、法律、ビジネスの観点を考慮する必要がある場合、正式な契約書を書くのに必要な**労力のレベル**。
+- 大きな組織（多くの法人から成る）には、多くの**内部規制**がある。新たに締結される契約は、セキュリティ、プライバシー、調達プロセスなど、これらの規制に準拠しなければなりません。規制が多いため、特に標準的な手順がない場合、2つの法人間でソフトウェアを共有することがこれらの規制に準拠しているかどうかを評価することが困難になる場合があります。
+- 組織内のいずれかの法人が、独占的なコードと組織内のライセンス料の会計処理に依存する **ビジネスモデル** を有している場合
+- InnerSourceのコラボレーションと共有コードに使用されていない**企業文化**。これは、共有コードを使用する場合の権利と義務についての不確実性をもたらす。
+- ソフトウェアを使用する上の自由は、競争、および所有権の普及につながる
+- ソースコードの共有をカバーする法的な契約は存在します。これらの契約は標準化されていないため、プロジェクトごとに交渉と理解のための追加的な労力が発生する。また、既存の契約では、真のインナーソースのアプローチをサポートするために十分オープンな意味でのソースコードの共有ができない場合があります。
+- あるいは、法的な契約は存在しないが、ソースコードは非公式に共有されている場合もあります。その場合、所有権や権利・義務の明確化が必要なケースで、不確実性が生じるかもしれません。
 
 ## Solutions
 
-Creating an **InnerSource License** customized to the needs of the organization in question (and their legal entities). This license needs to be generic enough to be applied to the most important inter-company relationships.
+対象組織（およびその法人）のニーズに合わせてカスタマイズした **InnerSource License** を作成する。このライセンスは、最も重要な企業間関係に適用できるような汎用的なものである必要があります。
 
-It is important to write the InnerSource License such that it truly allows for OpenSource-like collaborations across the boundaries of the involved legal entities. Therefore the 4 freedoms of free software should be integrated into the license.
+InnerSourceライセンスは、関係する法的実体の境界を越えて、本当にオープンソースのような共同作業を可能にするように書くことが重要です。したがって、フリーソフトウェアの4つの自由は、ライセンスに統合されるべきです。
 
-The License is written as a formal legal document, and can be used as part of contracts between the legal entities to govern the code sharing agreements.
+このライセンスは正式な法的文書として書かれており、コード共有契約を管理するために法人間の契約の一部として使用することができます。
 
 ## Resulting Context
 
-With the InnerSource License, we have a tool to share code between legal entities within our organization.
+InnerSourceライセンスにより、私たちは組織内の法人間でコードを共有するためのツールを手に入れました。
 
-The license simplifies the conversations within our organization about sharing source code, and is motivating the first legal entities to do so.
+このライセンスは、ソースコードの共有に関するわたしたちの組織内の会話を単純化し、そうする最初の法的主体を動機づけています。
 
-**Note:** The experiment described in **Known Instances** is in an early phase. Therefore a firm **Resulting Context** has not formed yet. In a couple of months the effects of the InnerSource License on this problem space will be more clear, and this section can be updated.
+**注：**既知のインスタンスで説明されている実験は初期段階にあります。したがって、しっかりとした**結果コンテキスト**はまだ形成されていない。数ヶ月後には、この問題空間に対するInnerSource Licenseの効果がより明確になり、このセクションは更新されるでしょう。
 
 ## Known Instances
 
-DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open source like starting point, and then worked out the constraints and additional rules required in their specific organizational context.
+DB Systelは彼ら自身のInnerSource Licenseを作りました、[DB Inner Source License][db-inner-source-license] をご覧ください。彼らは、オープンソースのような出発点を提供する[EUPL][eupl]を使用し、その後、彼らの特定の組織のコンテキストに必要な制約と追加のルールを作り出しました。
 
-The first legal entities (companies) within the DB AG are using their InnerSource License.
+DB AGの中で最初の法人（企業）は、このInnerSource Licenseを使用しています。
 
-One positive effect that is already showing is that it simplifies the conversation, especially if some of the involved parties don’t know the InnerSource concept that well yet. Licenses are a well-known concept, therefore having an InnerSource License is a great discussion starter.
+すでに現れているポジティブな効果の1つは、特に関係者の中にまだInnerSourceのコンセプトをよく知らない人がいる場合、会話がシンプルになることです。ライセンスはよく知られた概念なので、InnerSourceライセンスがあることは、議論のきっかけになります。
 
-The experiments are also uncovering that there are further collaboration challenges that need to be solved in order to lead to a true InnerSource contribution and collaboration model.
+この実験では、真のInnerSourceの貢献とコラボレーションモデルにつながるために解決しなければならない、さらなるコラボレーションの課題があることも明らかになりました。
 
-The mentioned collaboration challenges include:
+その課題とは、以下のようなものです。
 
-- making InnerSource licensed projects discoverable
-- building communities for collaboration on projects, just like in Open Source
+- InnerSourceのライセンスプロジェクトを発見できるようにする
+- オープンソースのように、プロジェクトでコラボレーションするためのコミュニティを構築すること。
 
-It is worth mentioning that so far the software shared under this InnerSource license is mostly tooling, infrastructure, and tools lower in the stack.
+これまでのところ、このInnerSourceライセンスの下で共有されるソフトウェアは、ほとんどがツール、インフラ、およびスタックの下位にあるツールであることは言及に値します。
 
 ## Status
 
-* Structured
-* The experiment listed under **Known Instances** is running since 02/2020. The initial experience shows first positive effects but more experience is needed to fully evaluate the pattern.
+* 構造化
+* 既知のインスタンス**に記載されている実験は、2020年2月から実施されています。最初の経験では、最初のポジティブな効果を示しているが、パターンを完全に評価するためには、より多くの経験が必要である。
 
 ## Author(s)
 

@@ -1,56 +1,56 @@
 ## Title
 
-Repository Activity Score
+リポジトリアクティビティスコア
 
 ## Patlet
 
-Potential contributors want to find active InnerSource projects in need of their help. By calculating a repository activity score for each project, a ranked list of projects can be created (e.g. on the [InnerSource Portal](innersource-portal.md)), so that potential contributors can more easily determine which project they want to contribute to.
+潜在的な貢献者は、彼らの助けを必要とするアクティブなInnerSourceプロジェクトを見つけたいと思っています。各プロジェクトのリポジトリ活動スコアを計算することで、プロジェクトのランク付けされたリストを作成することができます（例：[InnerSource Portal](innersource-portal.md) ）、そのため、潜在的貢献者は、彼らが貢献したいプロジェクトをより簡単に決定できます。
 
 ## Problem
 
-**In which order** shall InnerSource projects be presented? Typical ranking KPIs like *GitHub Stars*, *Number of Forks*, *Number of Commits*, *Lines of Code*,  *Last Update* aren't sufficient to concisely indicate the activity of a project.
+**InnerSourceのプロジェクトはどのような順番で表示されるのでしょうか？GitHub Stars*, *Number of Forks*, *Number of Commits*, *Lines of Code*, *Last Update* などの典型的なランキング KPI は、プロジェクトの活動状況を簡潔に示すには十分ではありません。
 
-Active projects with a lot of traction, but also fairly new and enthusiastic projects that are in need of new contributors should be ranked higher than matured projects with little activity or in maintenance mode.
+活発なプロジェクトはもちろん、新しい貢献者を必要としているかなり新しく熱心なプロジェクトも、成熟したプロジェクトで活動が少ないものやメンテナンス中のものよりも上位にランクされるべきです。
 
-A new metric derived from several KPIs is needed to define a reliable and versatile score for a project's activity level.
-It can be used to sort projects according to their activity level.
+プロジェクトの活動レベルについて、信頼性が高く汎用性のあるスコアを定義するために、いくつかのKPIから派生した新しい評価指標が必要である。
+この指標は、プロジェクトの活動レベルに応じて、プロジェクトを分類するために使用される。
 
 ## Story
 
-When InnerSource is practiced for a long time or scales beyond a certain number of projects (let's say 50 to give a meaningful threshold) it is hard to find the currently most popular and active InnerSource projects. Projects that exist for a long time are well-known but may no longer be very active. Fairly new projects on the other hand don't have a reputation or an active community yet.
+InnerSourceが長い間実践されているか、プロジェクトの特定の数（意味のある閾値を与えるために50としましょう）を超えてスケールしている場合、それは現在最も人気のあるとアクティブInnerSourceプロジェクトを見つけることは困難である。長い間存在するプロジェクトはよく知られていますが、もはや非常にアクティブではないかもしれません。一方、かなり新しいプロジェクトは、まだ評判や活発なコミュニティを持っていません。
 
-A list of InnerSource projects should not be considered a static resource, but an exciting place to discover and explore new and active projects, just like a news page listing the most interesting topics of the day first. Thus it is beneficial when the order of the projects is regularly updated and changes according to the project's popularity and activity.
+InnerSource プロジェクトのリストは、静的なリソースと考えるべきではありませんが、ちょうどその日の最も興味深いトピックを最初にリストするニュースページのように、新しいアクティブなプロジェクトを発見し探索するためのエキサイティングな場所です。したがって、プロジェクトの順序が定期的に更新され、プロジェクトの人気と活動に応じて変更された場合、それは有益である。
 
-These considerations led to a first prototype to calculate a repository activity score, which worked surprisingly well and determines an ever-changing order of projects according to their activity.
+このプロトタイプは驚くほどうまく機能し、プロジェクトの活動状況に応じて常に変化する順序を決定します。
 
 ## Context
 
-Discovering InnerSource projects can be facilitated with the [InnerSource Portal](innersource-portal.md) and the [Gig Marketplace](gig-marketplace.md) pattern, or by promoting projects on other communication channels and platforms. The activity score defines a default order in which projects are presented to the community.
+InnerSourceプロジェクトの発見は、[InnerSource Portal](innersource-portal.md) と [Gig Marketplace](gig-marketplace.md) パターンで促進されるか、他のコミュニケーションチャンネルやプラットフォームでプロジェクトを促進することで可能になります。活動スコアは、プロジェクトがコミュニティに提示されるデフォルトの順序を定義しています。
 
 ## Forces
 
-Automated KPIs that can be fetched by querying the GitHub API are only part of the truth. What about code quality, the availability of good documentation, or an active and helping community that makes the project a fun place to contribute?
+GitHub API で取得できる自動化された KPI は、真実の一部でしかありません。コードの品質や優れたドキュメントの有無、活発で助け合うコミュニティなど、そのプロジェクトが楽しく貢献できる場所であるかどうかはどうでしょうか。
 
-Such "soft" KPIs would have to be manually or semi-automatically added to the calculation and the resulting score. If tools exist that provide more context for the repository, like a code coverage reporting, they can easily be worked in.
+このような「ソフトな」KPIは、手動または半自動で計算と結果のスコアに追加する必要があります。もし、コードカバレッジレポートのような、リポジトリにより多くのコンテキストを提供するツールがあれば、簡単に取り入れることができます。
 
 ## Sketch
 
-![Ecosystem for the Repository Activity Score](../../assets/img/repository_activity_score.png)
+リポジトリ活性度スコアのエコシステム](../../assets/img/repository_activity_score.png)
 
-A centralized approach for calculating and applying the repository activity score. For more details, see [Resulting Context](#resulting-context)
+リポジトリ活性度スコアの計算と適用を一元化したもの。詳しくは、【結果コンテキスト】(#resulting-context)をご覧ください。
 
 ## Solutions
 
-The repository activity score is a numeric value that represents the (GitHub) activity of an InnerSource project. It is derived automatically from repository statistics like GitHub stars, watches, and forks and may be enriched with KPIs from other tools or manual evaluations.
+リポジトリ活性度スコアは、InnerSourceプロジェクトの（GitHub）活性度を表す数値です。GitHubスター、ウォッチ、フォークなどのリポジトリ統計から自動的に導き出され、他のツールからのKPIや手動評価でリッチ化されることもあります。
 
-In addition, it considers activity parameters like last update and creation date of the repo to give young projects with a lot of traction a boost.
-Projects with contributing guidelines, active participation stats, and issues (public backlog) receive a higher ranking as well.
+さらに、最終更新日やレポの作成日などの活動パラメータを考慮し、多くのトラクションを持つ若いプロジェクトに活力を与えます。
+貢献ガイドライン、積極的な参加統計、課題（公開バックログ）を持つプロジェクトも、より高いランキングを受け取ります。
 
-All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://docs.github.com/en/rest/search#search-repositories) and [GitHub statistics API](https://docs.github.com/en/rest/metrics/statistics). Other code versioning systems like BitBucket, Gitlab, Gerrit can be integrated as well if a similar API is available.
+これらはすべて、[GitHub search API](https://docs.github.com/en/rest/search#search-repositories) と [GitHub statistics API](https://docs.github.com/en/rest/metrics/statistics) の結果セットを使って自動的に取得・計算することが可能です。BitBucket、Gitlab、Gerritのような他のコード・バージョニング・システムも、同様のAPIがあれば統合することが可能です。
 
-The code below assumes the variable `repo` contains an entity fetched from the GitHub `search` API and the `participation` object contains an entity from the GitHub `stats/participation` API.
+以下のコードでは、変数 `repo` に GitHub `search` API から取得したエンティティを、`Participation` オブジェクトに GitHub `stats/participation` API から取得したエンティティを格納していると仮定しています。
 
-Manual adjustments according to soft KPIs (see [Forces](#forces)) can be made on top if needed.
+必要であれば、ソフトKPI（ [Forces](#forces) を参照）に従って手動で調整することもできます。
 
 ``` javascript
 // calculate a virtual InnerSource score from stars, watches, commits, and issues
@@ -102,19 +102,19 @@ function calculateScore(repo) {
 
 ## Resulting Context
 
-Contributors are free to commit a part of their time to InnerSource project. They may choose to contribute to a project that they depend on for the work in their regular team anyways. However they may also choose to contribute to something completely different, based on their interests and personal development goals.
+貢献者は、InnerSourceプロジェクトに自分の時間の一部をコミットするために自由である。彼らはとにかく彼らの通常のチームでの作業のために依存しているプロジェクトに貢献することを選択することがあります。しかし、彼らはまた、彼らの興味や個人的な開発目標に基づいて、完全に異なるものに貢献することを選択することができます。
 
-Projects can be sorted and presented by repository activity score to give a meaningful order in a portal presenting projects to potential new contributors. The score can be calculated on the fly or in a background job that evaluates all projects on a regular basis and stores a list of results.
+プロジェクトは、リポジトリ活動スコアでソートして表示することができ、新しい貢献者の候補にプロジェクトを提示するポータルで意味のある順序を与えることができます。スコアはその場で計算することもできますし、定期的にすべてのプロジェクトを評価し、結果のリストを保存するバックグラウンドジョブで計算することもできます。
 
-A crawler that regularly searches all InnerSource repositories (e.g. tagged with a certain [topic](https://github.com/topics) in GitHub) can be a helpful addition as well. It provides a ranked list of projects that can be used as an input for tools like the [InnerSource Portal](innersource-portal.md), a search engine, or an interactive chat bot.
+定期的にすべてのInnerSourceリポジトリ（例：GitHubで特定の[topic](https://github.com/topics)でタグ付けされたもの）を検索するクローラーも有用な追加機能になりえます。これは、[InnerSource Portal](innersource-portal.md) のようなツール、検索エンジン、または対話型チャットボットの入力として使用できるプロジェクトのランク付けされたリストを提供するものです。
 
 ## Rationale
 
-The repository activity score is a simple calculation based on the GitHub API. It can be fully automated and easily adapted to new requirements.
+リポジトリ活性度スコアは、GitHub API に基づくシンプルな計算です。完全に自動化することができ、新しい要件にも簡単に対応することができます。
 
 ## Known Instances
 
-* Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to InnerSourceCommons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
+* SAPのInnerSourceプロジェクトポータルで、InnerSourceプロジェクトのデフォルトの順序を定義するために使用されます。2020年7月に初めて作成され、それ以来、頻繁に微調整や更新が行われている。2020年7月にInnerSourceCommonsに提案したところ、このパターンが出現した。また、[Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6) もご参照ください。
 
 ## Status
 

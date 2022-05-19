@@ -1,61 +1,61 @@
 ## Title
 
-Transparent Cross-Team Decision Making using RFCs
+RFCを用いたチーム横断的な意思決定の透明化
 
 ## Patlet
 
-InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.
+高い参加率を達成し、関係者全員にとって最良の意思決定を行いたいInnerSourceプロジェクトは、ソフトウェアのライフサイクル全体を通して参加型のシステムを構築する方法を見つける必要があります。内部のRFC（Requests for Comments）ドキュメントを公開することで、設計プロセスの早い段階から議論を行うことができ、関係者全員が高いコミットメントを持ってソリューションを構築できる可能性が高まります。
 
 ## Problem
 
-For an InnerSource project to be healthy, it needs a substantial amount of contributors. These contributors (or teams) maybe have different requirements for the given project. e.g. they may want to add features to the project that are not compatible with one another or lead to an unhealthy bloat in the architecture.
+InnerSourceプロジェクトが健全であるためには、相当な数の貢献者が必要です。例えば、互いに互換性のない機能をプロジェクトに追加したり、アーキテクチャを不健全に肥大化させたりする可能性があります。
 
-Discovering such disagreements or misunderstanding late in the process, e.g. once the software has already been built, is very costly. These disagreements may lead to frustrations by all parties involved, and can even be disruptive to the health of the collaboration culture in the project. A common situation where such a disagreement surfaces is a change request (pull request) which is open for a very long time because the author of the change request and the maintainers of the project essentially don’t agree that the proposed change should be made at all.
+このような意見の相違や誤解をプロセスの後半で発見することは、例えば、ソフトウェアがすでに構築された後では、非常にコストがかかる。このような意見の相違は、関係者全員のフラストレーションにつながり、プロジェクトにおけるコラボレーション文化の健全性を損なう可能性さえある。このような不一致が表面化する一般的な状況は、変更要求の作成者とプロジェクトのメンテナが、提案された変更が全くなされるべきでないことに本質的に同意しないため、非常に長い間オープンになっている変更要求（プルリクエスト）です。
 
-For an InnerSource project this situation happens more frequently when the project is maintained by multiple teams in the company i.e. shared ownership.
+InnerSourceプロジェクトでは、プロジェクトが社内の複数のチームによってメンテナンスされている場合、この状況はより頻繁に発生します。
 
 ## Story
 
-A project, or application made up of multiple projects, is maintained by a number of different teams, with each team owning different areas of the project or application. These teams do make InnerSource contributions to each other's areas, but larger, cross-cutting changes are only ever driven by the teams' technical leads working together, or don't happen at all. This results in most engineers unable to effect large scale, cross-cutting change, reducing innovation and opportunities for collaboration.
+プロジェクト、または複数のプロジェクトで構成されるアプリケーションは、各チームがプロジェクトまたはアプリケーションのさまざまな領域を所有している、いくつかの異なるチームによって維持されます。これらのチームはお互いの領域に対してInnerSourceの貢献をしていますが、より大きな横断的な変更は、各チームのテクニカルリーダーが協力して行うか、まったく行われません。その結果、ほとんどのエンジニアは大規模で横断的な変更を行うことができず、イノベーションとコラボレーションの機会が減少してしまいます。
 
-By implementing a process and template for RFCs, teams and individuals are empowered to propose large, cross-cutting changes via a transparent decision making process, with consultation across teams done asynchronously. This results in greater innovation, closer collaboration, and more knowledge spread. This is dependent on buy-in from all disciplines at all levels, and an environment of psychological safety so that people can openly propose and debate ideas.
+RFCのプロセスとテンプレートを導入することで、チームや個人は、透明性のある意思決定プロセスを通じて、大規模で横断的な変更を提案する権限を与えられ、チーム間で非同期的に協議が行われます。その結果、イノベーションが促進され、コラボレーションが緊密になり、知識がより広まることになります。このためには、あらゆるレベルのあらゆる分野から賛同を得ること、そして、人々がオープンにアイデアを提案し、議論できるような心理的安全性の高い環境を整えることが必要です。
 
-Like with any process, this must be continually improved upon. There may need to be changes to the RFC template or process to ensure it is inclusive, collaborative, and effective.
+どのようなプロセスでもそうですが、これは継続的に改善されなければなりません。RFCのテンプレートやプロセスを変更して、包括的、協調的、かつ効果的なものにする必要があるかもしれません。
 
 ## Context
 
-- shared ownership by many teams of an InnerSource project
-- overarching design decisions cannot be made from a central body all the time (e.g. a group of architects) as they have neither enough time, nor sufficient domain-specific knowledge to make good decisions in all the cases
-- various types of users have input on the direction that a certain project is taking. Such user may be: Developers, Product Owners, Product Managers, etc
-- decisions need to be made in a asynchronous fashion, at least partly, as it isn’t feasible to call frequent synchronous meetings with all participants
-- there is a desire to document the decisions made, i.e. making sure that they are made in writing, rather than just verbally
+- InnerSourceプロジェクトは多くのチームによって共有されています。
+- 建築家グループは十分な時間がなく、またすべてのケースで適切な判断を下すのに十分なドメイン固有の知識もないため、包括的な設計上の決定を常に中央の組織（建築家のグループなど）から行うことはできない。
+- あるプロジェクトの方向性については、さまざまなタイプのユーザーが意見を述べます。そのようなユーザーは以下の通りです。開発者、プロダクトオーナー、プロダクトマネージャーなど。
+- 参加者全員と頻繁に同期ミーティングを開くことが不可能なため、少なくとも部分的には非同期で意思決定を行う必要がある。
+- 決定事項を文書化したい、つまり口頭だけでなく文書で確認したい。
 
-## Forces
+# Forces
 
-- most of the times, the involved parties want to make a decision fairly quickly (e.g. the up-front design time is fairly limited)
-- writing things down (without already implementing things) is often a new skill for many of the people involved
+- ほとんどの場合、関係者はかなり迅速に決定を下したい（例：先行設計の時間がかなり制限される）。
+- 関係者の多くにとって、（すでに実装されていない）物事を書き留めることは新しいスキルであることが多い。
 
 ## Sketch
 
-![RFC process used at Uber's BaseUI project (open source example)](../../assets/img/rfc-process-uber-baseui.png)
+![RFC process used at Uber's BaseUI project (open source example)](../../../assets/img/rfc-process-uber-baseui.png)
 
 ## Solutions
 
-We chose an RFC-like process for increasing the transparency of our cross-team decision making process (also see [Requests for Comments][requests-for-comments]).
+私たちは、チーム横断的な意思決定プロセスの透明性を高めるために、RFC的なプロセスを選択しました（[Requests for Comments][requests-for-comments]もご参照ください）。
 
-Important elements of the solution are:
+このソリューションの重要な要素は以下の通りです。
 
-- a description of when to publish an RFC (and when not to)
-- a template for RFC documents
-    - should provoke RFC author to consider their proposal from multiple angles
-    - should prompt both high level accessible overview, and detailed in-depth explanation
-- a well known, lightweight process surrounding RFCs e.g.
-    - how to publish RFC and share it with all stakeholders (e.g. Slack, mailing list)
-    - how to collect feedback for the RFC
-    - how to work in the feedback
-    - how to move the RFC towards a conclusion or decision (e.g. relevant nominated maintainers to sign off)
-    - appropriate tooling chosen (e.g. non-engineers may not have access to source control tools)
-- a commitment to iterate on the RFC template and process
+- RFCを発行する場合(および発行しない場合)の説明
+- RFC文書のテンプレート
+    - RFCの作成者に、自分の提案を多角的に検討するよう促すこと。
+    - ハイレベルでアクセスしやすい概要と、詳細で深い説明の両方を促すこと。
+- RFCを取り巻くよく知られた軽量なプロセス。
+    - RFCを公開し、すべての関係者と共有する方法 (例: Slack、メーリングリスト)
+    - RFCに対するフィードバックをどのように収集するか
+    - どのようにフィードバックを取り込むか
+    - RFCを結論や決定に向けてどのように進めるか（例：関連する指名されたメンテナがサインオフすること）
+    - 適切なツールの選択 (例: 非エンジニアはソースコントロールツールにアクセスできないかもしれません)
+- RFCのテンプレートとプロセスを繰り返し使用することを約束すること
 
 ### Examples/Templates
 
@@ -64,24 +64,24 @@ Important elements of the solution are:
 
 ## Resulting Context
 
-Implementing an RFC-like process has proven to be valuable, as it makes the cross-team decision making process more transparent for everybody, allowing for all voices to be heard.
+RFCのようなプロセスを導入することで、チーム横断的な意思決定プロセスがより透明化され、すべての人の声を聞くことができるようになり、価値があることが証明されました。
 
-Observable positive effects:
+観察可能なポジティブな効果
 
-- **democratization of the decision making process** for decisions that impact many teams (also offloading team leads from that burden)
-- **a open asynchronous communication method** that works well across multiple teams and geos
-- **empowers individuals and teams** to effect large scale change
-- **record of decisions made** for people to refer back to for context
-- **scales impact of experienced engineers** as they can contribute to solutions asynchronously and remotely, rather than needing to be present in a meeting
-- **terminology alignment** e.g. by spelling out our testing terminology such as “what is a system test?”
-- **process alignment** e.g. by spelling out the out-of-hours support process
-- **greater clarity of thought**, as writing an RFC makes the author challenge herself more than they would normally
+- 多くのチームに影響を与える意思決定プロセスの民主化**（チームリーダーの負担も軽減される）
+- 複数のチームと地域をまたいでうまく機能する、オープンな非同期コミュニケーション方法**。
+- 個人とチーム**に大規模な変化をもたらす力を与える
+- 決定事項の記録**は、人々が文脈を参照するために参照することができます。
+- 経験豊富なエンジニアは、会議に出席する必要がなく、非同期かつ遠隔で解決策に貢献できるため、その影響力を拡大することができます。
+- 用語の整合性** 例えば、"システムテストとは何か "といったテスト用語を明確にすることである。
+- プロセスの整合性** 例：時間外サポートプロセスの明示
+- RFCを書くことで、著者は通常よりも自分自身に挑戦することになるので、**思考がより明確になる**。
 
-The RFC approach also has risk that we want to call out:
+RFCのアプローチには、私たちが指摘したいリスクもあります。
 
-- It doesn’t always work! e.g. some people might still argue against a decision that was already made via an RFC. However having the decision making process in writing is still beneficial in these scenarios, as you can point people to when and why a certain decision was made.
-- Writing up design proposals (architecture, protocols, etc) upfront has an element of waterfall-like design that does not fit the iterative development approach that many development teams favor. Remember: “Working software over comprehensive documentation” ([Agile Manifesto](https://agilemanifesto.org/)). The RFC process should be as lightweight as possible.
-- An RFC may become big and too unwieldy. This often shows in long comment threads and discussions surrounding it. In those situations we may decide to complement the RFC with synchronous communication such as a working group and in-person meetings. But time is still saved, as people can read the RFC before the meeting rather than having all the information shared during the meeting.
+- 例えば、RFCで決定されたことに異議を唱える人がいるかもしれません。しかし、意思決定のプロセスを文書化することは、このようなシナリオにおいても有益です。なぜなら、ある決定がいつ、なぜなされたかを人々に示すことができるからです。
+- 設計案（アーキテクチャ、プロトコルなど）を前もって書き上げることは、滝のような設計の要素があり、多くの開発チームが好む反復的な開発アプローチには適さない。覚えておいてください: 「包括的な文書よりも実用的なソフトウェア」([Agile Manifesto](https://agilemanifesto.org/))。RFCプロセスは可能な限り軽量であるべきです。
+- RFCは大きくなりすぎて扱いにくくなる可能性があります。これはしばしば、長いコメントスレッドやそれを取り巻く議論に表れます。そのような状況では、ワーキンググループや直接のミーティングのような同期的なコミュニケーションでRFCを補完することを決定することがあります。しかし、ミーティング中にすべての情報を共有するのではなく、ミーティングの前にRFCを読むことができるので、時間はまだ節約されています。
 
 ## Rationale
 

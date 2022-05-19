@@ -4,55 +4,57 @@ Common Requirements
 
 ## Patlet
 
-Common code in a shared repository isn't meeting the needs of all the project-teams that want to use it; this is solved through requirements alignment and refactoring.
+共有リポジトリにある共通のコードは、それを使いたいすべてのプロジェクトチームのニーズを満たしていません。これは、要件の調整とリファクタリングによって解決されます。
 
 ## Problem
 
-The common code in the shared repository isn't meeting the needs of all the projects that want to use it.  
+共有リポジトリにある共通コードは、それを使いたいすべてのプロジェクトのニーズを満たしていない。 
 
 ## Context
 
-* Many projects are trying to use common code.  There is a shared repository that all the projects access.
-* Someone (or some project) wrote the code in the first place and contributed it to the repository.
-* The common code is a small percentage of the overall deliverable from any of the projects.
-* Each project has its own delivery schedule, set of deliverables and customers.
-* This pattern applies in either of these situations:
-    * there is a **Strong Code Owner** i.e. all changes to the shared repository have to be approved by the repo owner
-    * there is **weak code ownership** i.e. no one really owns the code
-    * there is **no Benevolent Sponsor** i.e. no organization or executive is providing resources to organize the common code in an InnerSource fashion
+* 多くのプロジェクトが共通のコードを使おうとしている。 すべてのプロジェクトがアクセスする共有リポジトリがある。
+* 誰かが（またはどこかのプロジェクトが）最初にコードを書き、リポジトリに寄稿した。
+* 共通コードは、どのプロジェクトからの成果物全体から見ても、わずかな割合である。
+* 各プロジェクトには、それぞれ独自の納期、成果物、顧客がある。
+* このパターンは、これらの状況のいずれにも当てはまります。
+    * **強力なコード所有者** すなわち、共有リポジトリへのすべての変更は、リポジトリの所有者によって承認されなければならない。
+    * **弱いコードオーナー** すなわち、誰も本当にコードを所有していない。
+    * **ベネヴォレント・スポンサー** が **いない**。 つまり、InnerSource方式で共通コードを整理するためのリソースを提供する組織や幹部がいない。
+
+
 
 ## Forces
 
-The project that made the code available has one set of needs. Its needs are similar to what some of the receiving organization wants, but not quite the same.
-Requirements on code should be derivable from real customer needs.  
+コードを利用可能にしたプロジェクトには、1つのニーズがあります。そのニーズは、受け手の組織の一部が望んでいるものと似ていますが、まったく同じではありません。
+コードに関する要件は、実際の顧客のニーズから導き出される必要があります。 
 
-The needs of different customers are generally quite similar; however they might be expressed differently or weighted differently between customers. An example might be how some customers want some result presented in one way while others want it presented in the reverse order. It is simple to do the translation between them, but requires additional coding for one of the cases and as a result the module that computes the result can't be reused by both customers.
+異なる顧客のニーズは一般的に非常によく似ていますが、顧客によって表現が異なったり、重みが異なったりする場合があります。例えば、ある顧客はある方法で結果を表示してほしいが、他の顧客は逆の順序で表示してほしいというようなことです。両者の翻訳を行うのは簡単だが、一方のケースで追加のコーディングが必要となり、その結果、結果を計算するモジュールを両方の顧客で再利用することができない。
 
-Many customers want the supplier to help them know what they need. The company has many “Systems Engineers” writing requirements for the products.  These requirements are supposed to be a distillation of customer needs to guide development of the product.
-Reusing code is an important goal to save the company time and money.  
+多くの顧客は、サプライヤーが必要なものを知るための手助けを望んでいる。この会社では、多くの「システムエンジニア」が製品の要求事項を書いている。 これらの要件は、製品の開発を導くために顧客のニーズを抽出したものであるはずだ。
+コードの再利用は、会社の時間とお金を節約するための重要な目標である。 
 
 ## Solution
 
-There are two aspects to solving this problem which should be done in parallel:
+この問題を解決するには、2つの側面があり、並行して行う必要があります。
 
-1. Align the requirements of the projects so that the code that meets the requirements for one project also meets the needs for the other projects.
-2. Refactor the code into smaller pieces for which the many using projects can agree upon requirements.
+1. あるプロジェクトの要件を満たすコードが、他のプロジェクトのニーズも満たすように、各プロジェクトの要件を揃える。
+2. コードをリファクタリングして、多くの使用プロジェクトが要件に合意できるような小さな断片にする。
 
-Additionally, take advantage of customers expecting the supplier to help elucidate requirements. Bring about the alignment of requirements during the customer negotiations and influence the customers requirements rather than changing the component.
+さらに、顧客がサプライヤに要求事項の解明を期待していることを利用する。顧客との交渉の中で要件のすり合わせを行い、コンポーネントを変更するのではなく、顧客の要件に影響を与える。
 
-In the example presented above, the supplier helps both customers realize that they want the same thing, and it will save everyone effort (and money) if they agree to accept the result in the same format.
+上記の例では、サプライヤーは、両方の顧客が同じものを求めていることを理解し、同じフォーマットで結果を受け入れることに同意すれば、全員の労力（および費用）を節約することができる。
 
 ![Common Requirements](../../assets/img/CommonReqtsv2.jpg)
 
 ## Resulting Context
 
-This might require negotiating requirements changes with the customer.  The changes might also require involvement by the sales teams and product managers to get alignment on the requirements.  The customer might need incentives, such as discounts, to agree to the changes.
+そのためには、顧客と要件の変更について交渉する必要があるかもしれない。 また、営業チームやプロダクトマネージャーを巻き込んで、要件のすり合わせを行う必要があるかもしれない。 顧客は、変更に同意するために、割引などのインセンティブを必要とするかもしれない。
 
-A related challenge (and possible new pattern) is a circular story-writing exercise reported at one company employing InnerSource. In short:
+関連する課題（および新しいパターンの可能性）として、InnerSourceを採用しているある企業で報告された循環型ストーリーライティングの演習がある。簡単に言えば
 
-* The developers write a story to solve a problem in one way.  
-* The program managers rewrite the story to better express their needs - keeping the essence the same. By the time it returns to developers though they don't recognize it as what they wanted to do in the first place and so balk at implementing it.  
-* The solution to this pattern is to have more seats around the planning table so that story modifications are understood across the project, not just in the developer or program manager camps.
+* 開発者は、ある方法で問題を解決するためにストーリーを書く。 
+* プログラムマネージャーは、より良い彼らのニーズを表現するためにストーリーを書き換える - エッセンスは同じままである。しかし、開発者のもとに戻ってきたときには、それが自分たちのやりたかったことだと認識されておらず、そのため、実装に躊躇してしまう。 
+* このパターンの解決策は、開発者やプログラムマネージャーの陣営だけでなく、プロジェクト全体でストーリーの修正が理解されるように、プランニングテーブルの周りに多くの席を設けることである。
 
 ## Known Instances
 

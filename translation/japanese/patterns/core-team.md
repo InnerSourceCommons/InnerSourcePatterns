@@ -4,98 +4,99 @@ Core Team
 
 ## Patlet
 
-Even when an InnerSource project is widely needed, contributions and usage may be hindered because the project is difficult to work with.
-Establish a core team that is dedicated to take care of the project's fundamental items.
-Their work enables contributors to add and use the features that provide value to their scenarios.
+InnerSourceプロジェクトが広く必要とされていても、プロジェクトが難しいために貢献や活用に支障をきたす場合があります。
+プロジェクトの基本的な項目を専門に担当するコアチームを設立してください。
+彼らの作業により、貢献者は自分のシナリオに価値をもたらす機能を追加し、使用することができます。
 
 ## Problem
 
-* It is difficult to contribute to the project.
-This could be due to things like:
-  * Can't run the project locally.
-  * Poor documentation.
-  * Convoluted code.
-  * Inadequate testing.
-* It is difficult to use the project.
-Some possible causes:
-  * Poor documentation (again).
-  * Frequent bugs.
-  * Unintuitive setup.
+* プロジェクトに貢献することが困難である。
+これは以下のようなことが原因である可能性があります。
+  * ローカルでプロジェクトを実行できない。
+  * 貧しい文書。
+  * 複雑なコード。
+  * 不適切なテスト。
+* プロジェクトを使用することが困難である。
+考えられる原因
+  * 貧しい文書（再び）。
+  * 頻繁に発生するバグ。
+  * 直感的でない設定。
+
 
 ## Story
 
-There's a central project that everyone depends on.
-What a great candidate for InnerSource!
-Unfortunately, the project has grown organically, with various contributions and additions slapped on haphazardly.
-Now it's an icky, thick morass of code that no one understands and everyone is afraid to touch.
-It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.), but even though everyone needs and wants that work to happen, no one takes the time to do it.
+誰もが依存する中心的なプロジェクトがあります。
+InnerSourceのための素晴らしい候補が何ですか？
+残念ながら、プロジェクトは有機的に成長し、様々な貢献と追加を無造作に叩きつけてきました。
+今、それは誰も理解していないと誰もが触れることを恐れているコードの不気味な、厚い泥沼です。
+明らかにオーバーホール（リファクタリング、テスト、文書化など）を行うべきなのに、誰もがその作業を必要とし、望んでいるにもかかわらず、誰もそのための時間を取らないのです。
 
 ## Context
 
-* Many teams need the project.
-* The project has significant tech debt.
-* Slow adoption and iteration on the project.
-* There is not a owner or maintainer who takes reponsibility for the project and contribution ecosystem as a whole.
+* 多くのチームがそのプロジェクトを必要としている。
+* プロジェクトは大きな技術的負債を抱えている。
+* プロジェクトの採用やイテレーションが遅い。
+* プロジェクトと貢献のエコシステム全体に対して責任を持つオーナーやメンテナがいない。
 
 ## Forces
 
-* Every contributing team is busy, and therefore prioritizes work that results in an immediate payoff for themselves.
-* As the project grows the natural trend is for it to become more difficult to use and to modify.
+* 貢献するチームは皆忙しいので、自分たちにすぐに利益が出る仕事を優先する。
+* プロジェクトが成長するにつれ、使用や変更が難しくなるのは当然の傾向です。
 
 ## Solution
 
-Form a core team whose job it is to maintain this project in a state so that others can easily onboard and contribute to it.
-This core team does the work that is necessary for a healthy usage and contribution ecosystem.
-This critical work tends to not be prioritized as a contribution.
-Categories of this type of work include communication, local environment, and DevOps infrastructure.
+他の人が簡単に参加でき、貢献できるようにこのプロジェクトを維持することを仕事とするコアチームを形成します。
+このコアチームは、健全な利用や貢献のエコシステムに必要な作業を行います。
+この重要な仕事は、貢献として優先されない傾向があります。
+この種の作業のカテゴリには、コミュニケーション、ローカル環境、DevOpsインフラストラクチャが含まれます。
 
-Here are some specific examples:
+以下はその具体例です。
 
-* Production bugs
-* Documentation
-* Onboarding tutorials and examples
-* Automated testing
+* 生産に関するバグ
+* ドキュメンテーション
+* オンボーディングのチュートリアルと例
+* 自動化されたテスト
 * CI/CD
-* Local environment
-* Modularization
-* Versioning
-* Monitoring
-* Trailblazing new classes/categories of features
+* ローカル環境
+* モジュール化
+* バージョン管理
+* モニタリング
+* 新しいクラス/カテゴリの機能の開拓
 
-Each of these items is very important to a healthy product ecosystem, yet is unlikely to be prioritized as a contribution.
+これらの各項目は、健全な製品エコシステムにとって非常に重要ですが、貢献として優先されることはまずありません。
 
-The core team may be composed of a small number of people on a full-time or a part-time basis.
-The choice depends on the amount of work needed, the availability of resources, and the culture of the organization.
-The most important consideration is to form the team in a way that allows the organization to empower and hold them accountable in the same way as any other team.
+コアチームは、少人数のフルタイムまたはパートタイムで構成されることがあります。
+その選択は、必要な作業量、リソースの利用可能性、組織の文化に依存します。
+最も重要な考慮点は、組織が他のチームと同じように権限を与え、責任を負わせることができるようにチームを編成することです。
 
-Due to their central role, core team members should nearly always fill the role of **Trusted Committers** as well (for more on that concept see [Learning Path][tc-learning-path] and [Pattern][tc-pattern]).
-While the Trusted Committer role focuses mostly on facilitating others' contribution and use of the project, a core team member regularly contributes to the project as well.
-The core team doesn't have its own business agenda that determines its contributions.
-They decide what to work on based on what will help others most to use and contribute to the project.
+その中心的な役割のために、コアチームのメンバーはほぼ常に**信頼されるコミッター**の役割も果たすべきです（この概念については、[Learning Path][tc-learning-path]と [Pattern][tc-pattern] をご覧ください）。
+信頼されたコミッターの役割は、他の人がプロジェクトに貢献したり利用したりするのを促進することに主に焦点を当てていますが、コアチームのメンバーも同様にプロジェクトに定期的に貢献しています。
+コアチームには、貢献を決定するような独自のビジネスアジェンダはありません。
+他のメンバーがプロジェクトを利用し、貢献するために何が最も役に立つかを考えて、取り組むべきことを決めます。
 
-A good way to continually remind the core team of this goal is to have them report regularly on:
+コアチームにこの目標を常に意識させるには、定期的に報告させるのがよいでしょう。
 
-* number of active teams using the project
-* number of off-team contributions to the project.
+* プロジェクトを使用しているアクティブなチームの数
+* プロジェクトを利用しているアクティブなチームの数 * プロジェクトへのチーム外からの貢献の数
 
-Continual focus on these metrics will naturally drive the core team to prioritize generally the right work to create a thriving InnerSource ecosystem around the project.
+これらの指標に継続的に注目することで、コアチームは自然に、プロジェクトの周りに繁栄するInnerSourceエコシステムを作るために、一般的に正しい作業を優先させるようになります。
 
 ![Responsibilities of Core Team and InnerSource Contributors](../../assets/img/core-team.png)
 
 ## Resulting Context
 
-* It is easy to use and contribute to the project.
-* Many teams use and contribute to the project.
-* Core team has their success defined in terms of others' interaction with and response to their project.
+* プロジェクトに貢献することが容易である。
+* 多くのチームがこのプロジェクトを利用し、貢献している。
+* コアチームは、自分たちのプロジェクトに対する他の人々の相互作用と反応の観点から、自分たちの成功を定義している。
 
 ## Rationale
 
-Separating out a core team and tasking them in this way helps to fill the gaps that a successful project needs yet are left behind by contributors that are pursuing their own agenda only.
-The core team fills those gaps and greases the wheels so that the contribution ecosystem remains healthy.
+コアチームを分離し、このようにタスクを与えることで、プロジェクトを成功させるために必要なギャップを埋めることができます。
+コアチームはそのギャップを埋め、貢献のエコシステムが健全であるよう、歯車に油を差します。
 
 ## Known Instances
 
-Nike implemented this pattern to manage the InnerSource effort around its reusable CI/CD pipelines.
+Nikeは、再利用可能なCI/CDパイプラインを中心としたInnerSourceの取り組みを管理するためにこのパターンを導入しました。
 
 ## Status
 

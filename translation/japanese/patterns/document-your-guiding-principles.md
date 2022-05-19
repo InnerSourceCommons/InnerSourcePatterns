@@ -4,194 +4,197 @@ Document your Guiding Principles
 
 ## Patlet
 
-The usual InnerSource explanation of "applying open source best practices inside an organisation" does not work well with people lacking an open source background.
-As a remedy the most important principles of InnerSource get documented and published widely.
+オープンソースのベストプラクティスを組織内に適用する "という通常のInnerSourceの説明は、オープンソースのバックグラウンドがない人々にはうまく機能しません。
+救済策として、InnerSourceの最も重要な原則は、広く文書化され、公開されます。
 
 ## Problem
 
-The organisation is trying to roll out InnerSource at a larger scale.
-The initiative started among open source enthusiasts.
-The goal is now to get buy-in from people that are lacking open source experience.
-For that audience the typical slogan of "applying open source best practices" is no longer sufficient to transport the message of what InnerSource is, which problems it solves and which tools it uses for solving these issues.
-As a result InnerSource adoption in the organisation slows down.
-Teams develop diverging ideas of what the goals of InnerSource is about and how to best implement it leading to confusion when contributors are starting to cross team boundaries.
+この組織は、InnerSourceをより大規模に展開しようとしている。
+この取り組みは、オープンソースの愛好家の間で始まりました。
+目標は今、オープンソースの経験がない人たちから賛同を得ることです。
+その観客のために "オープンソースのベストプラクティスを適用する "という典型的なスローガンは、それが解決し、それがこれらの問題を解決するためにどのツールを使用して、InnerSourceとは何かのメッセージを輸送するためにもはや十分ではありません。
+その結果、組織内のInnerSourceの採用が遅くなります。
+チームはInnerSourceの目標が約あるかの発散アイデアを開発し、どのように貢献者がチームの境界を横断し始めているときに混乱につながるそれを実装するのが最善です。
 
 ## Story
 
-Early experiments in an organisation have shown that open source collaboration best practices can be beneficial.
-The next step now is to move the initiative to teams and individuals lacking a deep background in open source.
+ある組織での初期の実験では、オープンソースコラボレーションのベストプラクティスが有益であることが示されました。
+次のステップは、オープンソースの深いバックグラウンドがないチームや個人にイニシアティブを移すことです。
 
-The goal now is to clearly communicate the goals of the InnerSource initiative
-as well as a clear path towards achieving these goals.
+今の目標は、InnerSourceイニシアチブの目標、およびこれらの目標を達成するための明確な道筋を明確に伝えることです。
+の目標と、その達成に向けた明確な道筋を明確に伝えることです。
 
 ## Context
 
-* InnerSource as a term is circulating among employees.
-* The initiative started among open source enthusiasts.
+* インナーソースという言葉が社員の間で流布している。
+* オープンソースの愛好家の間で始まった取り組みです。
 
 ## Forces
 
-* Teams have trouble communicating exactly what the important aspects of InnerSource are.
-* People lacking open source experience fail to understand what it means to bring open source best practices into the organisation.
-* On a daily basis teams trying to follow InnerSource best practices have a hard time deciding if what they are doing is inline with general InnerSource values.
+* チームは、InnerSourceの重要な側面が何であるかを正確に伝えるのに苦労しています。
+* オープンソースの経験が不足している人々は、それが組織にオープンソースのベストプラクティスをもたらすことを意味するのか理解するために失敗します。
+* 日常的にInnerSourceのベストプラクティスに従おうとするチームは、彼らがやっていることは、一般的なInnerSourceの値と一致しているかどうかを決定するのに苦労しています。
 
 ## Solution
 
-Those driving the InnerSource initiative in the organisation need to help the teams and individuals that are lacking a deep background in open source, and therefore have a less intuitive understanding of InnerSource.
+組織内でInnerSourceの取り組みを推進する人は、オープンソースの深い背景を持たず、InnerSourceを直感的に理解できていないチームや個人を支援する必要があります。
 
-Clarity should be provided to teams and individuals by documenting these two areas:
+この2つの分野を文書化することで、チームや個人に対して明確な情報を提供する必要があります。
 
-1. **Purpose** - Why does the organisation want to adopt InnerSource?
-2. **Principles** - Which InnerSource principles will help to address these challenges?
+1. **目的** - なぜ組織はInnerSourceを採用したいのでしょうか？
+2. **原則** - どのInnerSourceの原則は、これらの課題に対処するのに役立ちますか？
 
-The following sections provide more details about both of these, meant as possible starting points to document them for your organization.
+以下のセクションでは、この2つの詳細について説明し、あなたの組織のためにそれらを文書化するための出発点となる可能性があることを意味します。
 
 ### Why does the organisation want to adopt InnerSource?
 
-In the past InnerSource has proven to be successful to solve several issues commonly found in organisations.
+過去にInnerSourceは、一般的に組織で見つかったいくつかの問題を解決するために成功することが証明されています。
 
-However which organizational challenges does your organization hope to improve upon using InnerSource?
+しかし、どの組織の課題は、あなたの組織は、InnerSourceを使用してに改善することを望んでいますか？
 
-Instead of going for generalizations, try to exactly identify the solutions that match the challenges of your organisation - preferably with those affected by the change you want to see.
+代わりに一般化のために行くのでは、正確にあなたの組織の課題に一致するソリューションを識別しようとする - あなたが見たい変更の影響を受ける人々と好ましくは、。
 
-Some challenges that others have addressed by following InnerSource best practices:
+他の人がInnerSourceのベストプラクティスに従うことによって対処しているいくつかの課題。
 
-* Reduce development silos caused by excessive ownership culture.
-* Increase innovation speed by reducing time spent solving similar issues by fostering healthy code reuse.
-* Increase development speed by better cross-team collaboration.
-* Solve project/ team dependencies beyond "wait it out" and "build workarounds", thereby reducing engineering bottlenecks.
-* Increase quality.
-* Increase employee happiness.
-* To increase success of new hires.
-* To build actionable documentation.
+* 過度な所有権文化によって引き起こされる開発のサイロを削減する。
+* 健全なコードの再利用を促進することにより、類似の問題の解決に費やす時間を短縮し、イノベーションの速度を向上させる。
+* より良いクロスチームのコラボレーションによって開発速度を向上させる。
+* プロジェクトやチームの依存関係を「待つ」「回避策を講じる」以上の方法で解決し、エンジニアリングのボトルネックを軽減する。
+* 品質を向上させる。
+* 従業員の幸福度を高める。
+* 新入社員の成功率を上げる。
+* 実用的なドキュメントを構築する。
 
 ### Which InnerSource principles will help to address these challenges?
 
-Once teams understand which problems InnerSource will help them address, the next step is to explain which principles help address these challenges.
+一度チームはInnerSourceがどのような問題に対処するのに役立つかを理解すると、次のステップは、これらの課題に対処するのに役立つ原則を説明することです。
 
-Based on basic open source development principles the following guidelines have been proven successful:
+基本的なオープンソース開発の原則に基づき、以下のガイドラインが成功することが証明されています。
 
-(1) Code must be transparently hosted within the organisation
+(1) コードは、組織内で透明性を持ってホストされなければならない
 
-Source code, documentation, data relevant for project development must be available and easy to find for anyone in the organisation.
+ソースコード、ドキュメント、プロジェクト開発に関連するデータは、組織内の誰もが利用でき、簡単に見つけることができるようにする必要があります。
 
-(2) Contributions over feature requests
+(2)機能要求よりも貢献
 
-All stakeholders of a project act as potential contributors and are being treated and supported as such.
-Contributions remain suggestions instead of requirements.
-Coordination before a contribution helps avoid wasted effort.
-Projects provide contribution guidelines to avoid friction.
+プロジェクトのすべてのステークホルダーは潜在的な貢献者として扱われ、サポートされます。
+コントリビューションは要求ではなく、提案にとどめる。
+コントリビューション前の調整により、無駄な労力を省くことができます。
+プロジェクトは摩擦を避けるためにコントリビューションガイドラインを提供します。
 
-(3) Mistakes are opportunities for learning
+(3) 間違いは学習の機会である
 
-With work visible across the entire organisation any mistake is visible to everyone.
-As a result a culture must be established in which mistakes are opportunities for learning instead of failure that should be avoided at all cost.
+組織全体で仕事が見えるため、ミスは誰にでも見える。
+そのため、失敗は絶対に避けなければならないものではなく、失敗は学習の機会であるという文化を確立する必要があります。
 
-(4) Written over verbal communication
+(4) 口頭より文字で伝える
 
-For projects that span multiple teams, potentially on diverging meeting schedules, it needs to be possible to collaborate asynchronously.
-The goal for InnerSource projects is to recruit new contributors.
-For that, potential future contributors need to be able to follow the project progress on a self serve basis with a very low barrier to entry.
-If project relevant communication happens through synchronous communication, arguments discussed need to be made transparent in the written channel - decisions should be finalized only there.
-As a side effect this leads to passive base documentation that is very valuable for any newcomer to the project.
+複数のチームにまたがるプロジェクトでは、会議のスケジュールが異なる可能性があるため、非同期でのコラボレーションが可能であることが必要です。
+InnerSourceのプロジェクトのゴールは、新しい貢献者を募ることです。
+そのために、潜在的な将来の貢献者は、エントリへの非常に低い障壁とセルフサービスベースでプロジェクトの進捗状況を追跡することができる必要があります。
+プロジェクトに関連する通信が同期通信を介して行われる場合、議論された議論は、書面チャネルで透明化する必要があります - 意思決定はそこだけ最終的に決定されるべきである。
+副次的な効果として、これはプロジェクトに新しく参加する人にとって非常に価値のある受動的な基本文書につながる。
 
-(5) Allow written advise to accumulate in a persistent, searchable archive
+(5) 書かれたアドバイスが検索可能なアーカイブに蓄積されるようにする。
 
-All project communication, in particular decisions taken and discussions leading up to those decisions need to be archived.
-It must be possible to reference communication via stable URLs.
-Previous communication needs to be stored in a way that can easily be searched.
+プロジェクトのコミュニケーション、特に決定事項や決定に至るまでの議論はすべてアーカイブされる必要があります。
+コミュニケーションは、安定したURLで参照できるようにする。
+過去のコミュニケーションは、簡単に検索できる方法で保存する必要がある。
 
-Two caveats though:
+ただし、2つの注意点があります。
 
-1. This does not replace structured documentation. It can serve as a starting point to collect structured documentation though.
-2. There are exceptions to the rule of everything being written and accessible to the entire organisation: People related discussions as well as security related discussions are sensitive and should not be held in public.
+1. これは構造化された文書に代わるものではありません。しかし、構造化されたドキュメントを収集するための出発点にはなりえます。
+2. すべてを文書化し、組織全体がアクセスできるようにするというルールには、例外があります。人に関する議論やセキュリティに関する議論は機密事項であり、人前で行うべきではありません。
 
-(6) Reward Trusted Committership
+(6) 信頼されるコミットメントへの報奨
 
-All contributions (e.g. source code, documentation, bug reports, input to discussions, user support, marketing) are welcome and are being rewarded.
-Those showing support for the project are being invited as [Trusted Committers](../2-structured/trusted-committer.md).
-All Trusted Committers of a project are published.
+すべての貢献（ソースコード、ドキュメント、バグレポート、議論へのインプット、ユーザーサポート、マーケティングなど）を歓迎し、それに報いる。
+プロジェクトに賛同する人は、[Trusted Committers](・・・/2-structured/trusted-committer.md)として招待されています。
+プロジェクトのTrusted Committersはすべて公開されます。
 
 ## Resulting Context
 
-* Organisation members understand which challenges they can address by applying InnerSource best practices.
-* Organisation members lacking prior open source experience understand the basic values and principles of InnerSource projects.
-* Organisation members lacking prior open source experience are able to check their daily doing against a set of common established values.
-* The organisation's development practices become more similar to open source projects thus making it easier for organisation members to participate in open source projects.
+* 組織のメンバーは、InnerSourceのベストプラクティスを適用することによって対処することができますどのような課題を理解しています。
+* オープンソースの経験がないメンバーは、InnerSourceプロジェクトの基本的な価値観や原則を理解することができます。
+* オープンソース未経験のメンバーが、日々の業務を共通の価値観に照らして確認することができるようになる。
+* 組織の開発手法がオープンソースプロジェクトと類似しているため、組織のメンバーがオープンソースプロジェクトに参加しやすくなる。
 
 ## Known Instances
 
 ### Europace AG
 
-The InnerSource principles listed in the Solution above are mostly based on Europace's experience.
-For more details see [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (in German).
+上記のソリューションに記載されているInnerSourceの原則は、ほとんどがEuropaceの経験に基づいています。
+詳細は[Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/)(ドイツ語)をご覧ください。
 
 ### GitHub
 
 #### Purpose
 
-Often at GitHub we work in a model where teams contribute features to areas outside their area of responsibility. Common examples include sales engineering contributing features to unblock a sale, Special Projects contributing urgently needed, high impact features across the product, and a team working across multiple areas to deliver a feature.
+GitHubではしばしば、チームが自分の担当外の領域に機能を提供するモデルで作業します。よくある例としては、セールスエンジニアリングがセールスを阻止するために機能を提供したり、スペシャルプロジェクトが緊急に必要でインパクトの強い機能をプロダクト全体に提供したり、チームが複数のエリアにまたがって機能を提供したりすることです。
 
 #### Principles
 
-Overall the principles outlined in this doc are to avoid increasing tech debt and support burden for the owning team. Oftentimes help is being lent to a team because they are behind due to support and maintenance costs in their area of responsibility and they do not have bandwidth to contribute to the feature. Any new features done by another team that add to that support burden or tech debt means even less time for the owning team to work on new features, so we want to make sure they are done right.
+この文書で説明されている原則は、全体として、所有するチームの技術的負債とサポートの負担を増加させないようにすることです。しばしば、あるチームにヘルプが貸与されるのは、そのチームの責任範囲におけるサポートやメンテナンスのコストが原因で遅れており、その機能に貢献するためのバンド幅がないためです。このようなサポートや技術的な負担を増やすような新機能が他のチームによって作られると、そのチームが新機能に取り組む時間がさらに少なくなってしまうため、私たちは新機能が正しく作られていることを確認したいと思います。
 
-At the same time, we strive to be a company where engineers freely work across boundaries, and business priorities often require that we contribute to areas outside our core areas of ownership.
+同時に、私たちはエンジニアが自由に境界を越えて働ける会社でありたいと考えています。また、ビジネスプロフェッショナルは、しばしば私たちのコアな所有領域以外の領域に貢献することを求めます。
 
-A good summary of the principles is to leave the area in as good as or better shape than you found it.
+原則をうまくまとめると、その領域を自分が見つけたときと同じかそれ以上の状態で残すことです。
 
-With that in mind, here are principles we agree on:
+このことを念頭に置いて、私たちが同意する原則を以下に示します。
 
-- Avoid minimum viable products (MVP) that accrue feature debt. It is ok to ship an MVP to get customer feedback, but the contributing team must be committed to finishing the feature set. Examples include:
-  - Commitment to go beyond MVP to a solution that will satisfy most customers.
-  - Full support for administration of new features (e.g. support in the settings UI vs. just doing a command line).
-  - Surface features in both the UI and API vs. only deliver an API (or vice versa)
-  - Ensuring features work in cloud and local server environments.
-- Support the feature work up to and beyond its deployment to production
-  - Coordinate incremental rollout
-  - Handle support tickets
-  - Plan time to address customer feedback (features and bugs)
-- Build features in the right way (do not accrue tech debt)
-  - Agree on requirements and solution with Product and Engineering teams
-  - Proper architecture and design
-  - Make sure data is stored properly to avoid later data migrations.
-  - Appropriate telemetry is in place
-  - Appropriate test coverage is in place
-  - Supported on cloud and local production environments (including setup, configuration, backup / restore, migrations, etc.)
-  - Bugs fixed
-  - Documentation updated
+- 機能負債を抱えるようなMVP（Minimum Viable Product）は避ける。顧客からのフィードバックを得るためにMVPを出荷することは構いませんが、貢献するチームはその機能セットを完成させることを約束しなければなりません。例えば、以下のようなことです。
+  - MVPを越えて、ほとんどの顧客を満足させるソリューションにするためのコミットメント。
+  - 新機能の管理を完全にサポートすること（例：設定UIでのサポートと、コマンドラインでの操作だけ）。
+  - UIとAPIの両方で機能を表面化させる vs. APIのみを提供する（またはその逆）。
+  - クラウドとローカルサーバ環境での機能確保。
+- 本番環境へのデプロイまで、そしてそれ以降も機能作業をサポートする。
+  - インクリメンタルなロールアウトの調整
+  - サポートチケットの処理
+  - 顧客からのフィードバック（機能やバグ）に対応するための時間を計画する
+- 正しい方法で機能を構築する（技術的負債を作らない）
+  - 製品チームおよびエンジニアリングチームとの要件およびソリューションの合意
+  - 適切なアーキテクチャと設計
+  - 後のデータ移行を避けるために、データが適切に保存されていることを確認する。
+  - 適切な遠隔測定が行われていること
+  - 適切なテストカバレッジが確保されている
+  - クラウドおよびローカルの本番環境でサポートされている（セットアップ、設定、バックアップ/リストア、マイグレーションなどを含む）
+  - バグの修正
+  - ドキュメントの更新
 
 #### Engagement
 
-We use an engagement model because we like to lay out what concrete steps can be taken by a team when contributing features to areas outside their area of responsibility.
+私たちがエンゲージメントモデルを使うのは、チームが自分の担当外の領域に機能を提供する際に、どのような具体的な手順を踏めばよいかを示すためです。
 
-A typical engagement model at GitHub looks like this:
+GitHub での典型的な関わり方としては、次のようなものがあります。
 
-- Get approval on the feature set and rollout plan from the product owner.
-- Get approval on engineering design, including addressing the non-functional requirements (telemetry, test coverage, multi-environment testing and support) from the engineering owner (typically engineering manager and director).
-- Do code reviews along the way, along with reviewing any new or changed requirements.
+- プロダクトオーナーから機能セットとロールアウトプランの承認を得る。
+- エンジニアリングオーナー（通常はエンジニアリングマネージャーとディレクター）から、非機能要件（テレメトリー、テストカバレッジ、マルチ環境テストとサポート）への対応を含むエンジニアリングデザインの承認を得る。
+- 新規または変更された要件のレビューとともに、コードレビューを実施する。
+
 
 ### Robert Bosch GmbH
 
 #### Purpose
 
-Fostering collaboration, learning and innovation is the main focus of the Bosch InnerSource initiative (BIOS).
+ボッシュ・インナーソース・イニシアチブ（BIOS）は、コラボレーション、学習、イノベーションを促進することに主眼を置いています。
 
 #### Principles
 
-To that end, Bosch applied the following principles:
+そのために、ボッシュは以下の原則を適用しました。
 
-- **Openness**: We lower the barriers for entry into BIOS communities as much as we can.
-- **Transparency**: We are radically transparent and share our work products, our communication, and our decision making with all associates in the company.
-- **Voluntariness**: The decision to join and contribute to a BIOS community is left to each associate. Associates should work within BIOS because they are intrinsically motivated, not because their manager told them so.
-- **Self-Determination**: BIOS communities are free to choose what to work on, when they work and what tools and processes they use to work.
-- **Meritocracy**: Power is vested in BIOS project members based on their merits, that is, based on the quality and quantity of their contributions.
+- **オープン性**: BIOSコミュニティへの参入障壁を可能な限り低くします。
+- **透明性**: 私たちは、徹底的に透明性を高め、仕事上の成果物、コミュニケーション、意思決定を社内の全社員と共有します。
+- **Voluntariness**: BIOSコミュニティに参加し、貢献するかどうかの判断は、各アソシエイトに任されています。アソシエイトは、上司に言われたからではなく、内発的な動機でBIOSの中で働くべきである。
+- **自己決定**: BIOSコミュニティは、何に取り組むか、いつ取り組むか、どのようなツールやプロセスを使って取り組むかを自由に選択することができます。
+- **実力主義**: BIOSプロジェクト メンバーには、そのメリットに基づいて、つまり、貢献の質と量に基づいて権力が付与される。
 
-![BIOS Principles](../../assets/img/bios-principles.png)
 
-The principles _Openness_, _Transparency_ and _Voluntariness_ helped grow diverse communities of intrinsically motivated associates.
-_Meritocracy_ has proven to be an effective motivation for making great contributions.
-_Self-Determination_ allowed the communities to use their limited time for contributions in the most effective and efficient way.
+![BIOS Principles](../../../assets/img/bios-principles.png)
+
+開放性、透明性、自発性という原則は、内発的な動機づけを持つ多様な仲間のコミュニティを育てるのに役立った。
+実力主義は、大きな貢献をするための効果的な動機付けであることが証明されました。
+自己決定は、コミュニティが限られた時間を最も効果的かつ効率的に貢献のために使うことを可能にしました。
+
 
 ## Status
 

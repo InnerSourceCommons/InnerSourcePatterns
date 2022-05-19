@@ -4,47 +4,47 @@ Communication Tooling
 
 ## Patlet
 
-An InnerSource project is being used outside the original development team but users are having trouble getting help and getting in touch with the project team. The idea is to set up and document standard communication tooling that allows for discussions to become visible, archived and searchable.
+InnerSourceのプロジェクトは、元の開発チームの外で使用されていますが、ユーザーはヘルプを得たり、プロジェクトチームと連絡を取るのに苦労しています。このアイデアは、ディスカッションが可視化され、アーカイブされ、検索可能になることを可能にする標準的なコミュニケーションツールを設定し、文書化することです。
 
 ## Context
 
-A team depends on another team's component. It would like to make contributions to that component. Even when it happens in writing, communication happens in a 1-on-1 fashion.
+あるチームが他のチームのコンポーネントに依存している。その部品に貢献したい。文章であっても、コミュニケーションは1対1で行われる。
 
 ## Problem
 
-A team is open to receiving contributions from downstream users of their component. Coordination and communication happens in an ad-hoc fashion though leading to incoherent information being shared, delays in answers received, contributors pinging multiple host team members before receiving a definitive answer.
+チームは、そのコンポーネントのダウンストリームユーザーからの貢献を受け入れることができます。しかし、調整とコミュニケーションはアドホックな方法で行われ、支離滅裂な情報が共有されたり、回答が遅れたり、貢献者が明確な回答を受け取る前に複数のホストチームのメンバーに問い合わせをしたりすることがあります。
 
 ## Forces
 
-* The host team is interested in receiving contributions and willing to mentor contributors.
-* Teams have a strong verbal communication culture and are inexperienced with setting up project specific asynchronous communication channels.
-* Communication channels may be aligned with specific groups that should be reached but not by communication purpose.
+* ホストチームは、コントリビューションを受けることに関心があり、コントリビューターを指導する意思がある。
+* チームは口頭でのコミュニケーション文化が強く、プロジェクト特有の非同期コミュニケーションチャネルの設定に経験が浅い。
+* コミュニケーションチャネルは、到達すべき特定のグループと連携しているかもしれないが、コミュニケーションの目的によって連携しているわけではない。
 
 ## Solution
 
-The host team needs to be clear on the benefit of providing company-public, archived, searchable, linkable communication channels that are free to subscribe to by anyone in the company.
+ホストチームは、社内で公開され、アーカイブされ、検索可能で、リンク可能なコミュニケーション・チャネルを提供することの利点を明確にする必要があります。
 
-The goal when streamlining communication channels for InnerSource projects should be to align communication around topics, not around certain sets of people:
+InnerSourceプロジェクトのコミュニケーション・チャンネルを合理化する際のゴールは、特定の人々の周りではなく、トピックの周りのコミュニケーションを調整することです。
 
-* The project should have its own issue tracker where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow.
-* The project should have one or more discussion channels that come with less rigid a structure. Typically, this will be mailing lists, online forums or even archived chat channels. Usually it is enough to start with just one channel for the project, if traffic increases too much it's helpful to split discussions about project usage from discussions about project development.
-* In addition, the project should have one private channel where sensitive communication can happen between [Trusted Committers](../../../patterns/2-structured/trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
+* プロジェクトは、ホストチームのメンバーだけでなく、下流のユーザーやコントリビューターもフォローできるように、構造化されたコミュニケーション、意思決定、進捗追跡が透過的に行われる独自の課題トラッカーを持っている必要があります。
+* プロジェクトは、あまり厳密でない構造を持つ1つ以上のディスカッションチャンネルを持つべきです。一般的に、これはメーリングリスト、オンラインフォーラム、あるいはアーカイブされたチャットチャンネルになります。通常、プロジェクトのためのチャンネルは1つで十分ですが、トラフィックが増えすぎた場合は、プロジェクトの使用に関する議論とプロジェクトの開発に関する議論を分けることが有用です。
+* さらに、プロジェクトは [Trusted Committers] (../../patterns/2-structured/trusted-committer.md) の間で機密のやりとりができるプライベートチャンネルを一つ持つべきです - たとえば、ホストチームにさらに Trusted Committers を追加するなどです。このチャンネルは、デフォルトではオープンで非常に稀な状況下でのみ非公開になるように、細心の注意を払って使用されるべきです。
 
-While communication can happen outside of written channels, as much information as possible should be brought back to the asynchronous channels.
+文書化されたチャンネル以外でもコミュニケーションは可能ですが、できるだけ多くの情報を非同期チャンネルに持ち帰るべきです。
 
-All communication channels should be documented in the project `README.md`. The host team members need to make an effort to direct questions that they receive personally back to official communication channels.
+すべてのコミュニケーション・チャンネルはプロジェクトの `README.md` で文書化されるべきです。ホストチームのメンバーは、個人的に受けた質問を公式のコミュニケーション・チャンネルに戻すよう努力する必要があります。
 
 ## Resulting Context
 
-Setting up and consistently using official asynchronous communication channels helps create a base level of passive documentation that can be referenced again when similar questions come up again.
+公式の非同期コミュニケーションチャネルを設定し、一貫して使用することで、同じような質問が再び出てきたときに参照できる、基本的なレベルの受動的な文書を作成することができます。
 
-With communication happening in the open others can easily follow project progress and get active contributing. Others lurking and reading lowers the barrier to get involved raising the likelihood of receiving contributions.
+コミュニケーションがオープンに行われることで、他の人も簡単にプロジェクトの進捗を追うことができ、積極的に貢献することができます。また、他の参加者が潜んで読んでいることで、参加するための障壁が低くなり、コントリビューションを受ける可能性が高くなります。
 
-With questions being answered in public more people can add their perspective leading to a complete picture - this includes not only host team members, but also users of the project.
+質問に対する回答が公開されることで、より多くの人が自分の視点を追加し、全体像を把握することができます。これは、ホストチームのメンバーだけでなく、プロジェクトのユーザーも含まれます。
 
-Keeping communication in asynchronous channels allows for participants on different schedules - either due to different time zones or due to different routines, meeting schedules, team routines - to meaningfully contribute to the project.
+非同期チャネルでコミュニケーションをとることで、タイムゾーンや会議のスケジュール、チームのルーチンなど、異なるスケジュールの参加者がプロジェクトに有意義に貢献することができます。
 
-Answering questions in those channels means that not only other team members can listen in and provide additional information, it also means that other users with the same question see (or later find) the previous answer leading to a lower need to repeat explanations.
+このようなチャンネルで質問に答えることは、他のチームメンバーがそれを聞いて追加情報を提供できるだけでなく、同じ質問をした他のユーザーが前回の回答を見る（または後で見つける）ことで、説明を繰り返す必要性を低くすることを意味します。
 
 ## Known Instances
 
