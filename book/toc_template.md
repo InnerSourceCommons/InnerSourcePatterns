@@ -32,3 +32,9 @@ Instead edit toc_template.md
 
 * [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)
+
+
+## Translation (Japanese) <a id="p"></a>
+
+* Patterns
+<<TRANSLATION_HERE>>
