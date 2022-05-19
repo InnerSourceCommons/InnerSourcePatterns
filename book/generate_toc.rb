@@ -86,7 +86,7 @@ new_toc_content = new_toc_content.gsub(/<<PATTERS_HERE>>/,toc_snippet)
 
 ## Generate list of patterns in Japanese and sort them by name
 patterns_jp = Dir["../translation/japanese/patterns/*.md"]
-pattern_overview_jp = generate_patterns_overview(patterns)
+pattern_overview_jp = generate_patterns_overview(patterns_jp)
 pattern_overview_jp = pattern_overview_jp.sort.to_h
 
 toc_snippet_jp = pattern_overview_jp.map{|title, values| "    * [#{title}](#{values[:file]}) - #{values[:patlet]}"}
