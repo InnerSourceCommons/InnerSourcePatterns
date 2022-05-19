@@ -89,7 +89,7 @@ patterns_jp = Dir["../translation/japanese/patterns/*.md"]
 pattern_overview_jp = generate_patterns_overview(patterns)
 pattern_overview_jp = pattern_overview_jp.sort.to_h
 
-toc_snippet_jp = pattern_overview_jp.map{|title, values| "  * [#{title}](#{values[:file]}) - #{values[:patlet]}"}
+toc_snippet_jp = pattern_overview_jp.map{|title, values| "    * [#{title}](#{values[:file]}) - #{values[:patlet]}"}
 toc_snippet_jp = toc_snippet_jp.join("\n")
 
 ## Inject the list of patterns in Japanese into the ToC template
