@@ -1,22 +1,21 @@
-# Repository Activity Score
-
-### Title
+## Title
 
 Repository Activity Score
 
-### Patlet
+## Patlet
 
-Potential contributors want to find active InnerSource projects in need of their help. By calculating a repository activity score for each project, a ranked list of projects can be created (e.g. on the [InnerSource Portal](../../../patterns/2-structured/innersource-portal.md)), so that potential contributors can more easily determine which project they want to contribute to.
+Potential contributors want to find active InnerSource projects in need of their help. By calculating a repository activity score for each project, a ranked list of projects can be created (e.g. on the [InnerSource Portal](innersource-portal.md)), so that potential contributors can more easily determine which project they want to contribute to.
 
-### Problem
+## Problem
 
-**In which order** shall InnerSource projects be presented? Typical ranking KPIs like _GitHub Stars_, _Number of Forks_, _Number of Commits_, _Lines of Code_, _Last Update_ aren't sufficient to concisely indicate the activity of a project.
+**In which order** shall InnerSource projects be presented? Typical ranking KPIs like *GitHub Stars*, *Number of Forks*, *Number of Commits*, *Lines of Code*,  *Last Update* aren't sufficient to concisely indicate the activity of a project.
 
 Active projects with a lot of traction, but also fairly new and enthusiastic projects that are in need of new contributors should be ranked higher than matured projects with little activity or in maintenance mode.
 
-A new metric derived from several KPIs is needed to define a reliable and versatile score for a project's activity level. It can be used to sort projects according to their activity level.
+A new metric derived from several KPIs is needed to define a reliable and versatile score for a project's activity level.
+It can be used to sort projects according to their activity level.
 
-### Story
+## Story
 
 When InnerSource is practiced for a long time or scales beyond a certain number of projects (let's say 50 to give a meaningful threshold) it is hard to find the currently most popular and active InnerSource projects. Projects that exist for a long time are well-known but may no longer be very active. Fairly new projects on the other hand don't have a reputation or an active community yet.
 
@@ -24,35 +23,36 @@ A list of InnerSource projects should not be considered a static resource, but a
 
 These considerations led to a first prototype to calculate a repository activity score, which worked surprisingly well and determines an ever-changing order of projects according to their activity.
 
-### Context
+## Context
 
-Discovering InnerSource projects can be facilitated with the [InnerSource Portal](../../../patterns/2-structured/innersource-portal.md) and the [Gig Marketplace](../../../patterns/2-structured/gig-marketplace.md) pattern, or by promoting projects on other communication channels and platforms. The activity score defines a default order in which projects are presented to the community.
+Discovering InnerSource projects can be facilitated with the [InnerSource Portal](innersource-portal.md) and the [Gig Marketplace](gig-marketplace.md) pattern, or by promoting projects on other communication channels and platforms. The activity score defines a default order in which projects are presented to the community.
 
-### Forces
+## Forces
 
 Automated KPIs that can be fetched by querying the GitHub API are only part of the truth. What about code quality, the availability of good documentation, or an active and helping community that makes the project a fun place to contribute?
 
 Such "soft" KPIs would have to be manually or semi-automatically added to the calculation and the resulting score. If tools exist that provide more context for the repository, like a code coverage reporting, they can easily be worked in.
 
-### Sketch
+## Sketch
 
-![Ecosystem for the Repository Activity Score](../../../assets/img/repository\_activity\_score.png)
+![Ecosystem for the Repository Activity Score](../../assets/img/repository_activity_score.png)
 
-A centralized approach for calculating and applying the repository activity score. For more details, see [Resulting Context](repository-activity-score.md#resulting-context)
+A centralized approach for calculating and applying the repository activity score. For more details, see [Resulting Context](#resulting-context)
 
-### Solutions
+## Solutions
 
 The repository activity score is a numeric value that represents the (GitHub) activity of an InnerSource project. It is derived automatically from repository statistics like GitHub stars, watches, and forks and may be enriched with KPIs from other tools or manual evaluations.
 
-In addition, it considers activity parameters like last update and creation date of the repo to give young projects with a lot of traction a boost. Projects with contributing guidelines, active participation stats, and issues (public backlog) receive a higher ranking as well.
+In addition, it considers activity parameters like last update and creation date of the repo to give young projects with a lot of traction a boost.
+Projects with contributing guidelines, active participation stats, and issues (public backlog) receive a higher ranking as well.
 
 All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://docs.github.com/en/rest/search#search-repositories) and [GitHub statistics API](https://docs.github.com/en/rest/metrics/statistics). Other code versioning systems like BitBucket, Gitlab, Gerrit can be integrated as well if a similar API is available.
 
 The code below assumes the variable `repo` contains an entity fetched from the GitHub `search` API and the `participation` object contains an entity from the GitHub `stats/participation` API.
 
-Manual adjustments according to soft KPIs (see [Forces](repository-activity-score.md#forces)) can be made on top if needed.
+Manual adjustments according to soft KPIs (see [Forces](#forces)) can be made on top if needed.
 
-```javascript
+``` javascript
 // calculate a virtual InnerSource score from stars, watches, commits, and issues
 function calculateScore(repo) {
     // initial score is 50 to give active repos with low GitHub KPIs (forks, watchers, stars) a better starting point
@@ -100,31 +100,31 @@ function calculateScore(repo) {
 }
 ```
 
-### Resulting Context
+## Resulting Context
 
 Contributors are free to commit a part of their time to InnerSource project. They may choose to contribute to a project that they depend on for the work in their regular team anyways. However they may also choose to contribute to something completely different, based on their interests and personal development goals.
 
 Projects can be sorted and presented by repository activity score to give a meaningful order in a portal presenting projects to potential new contributors. The score can be calculated on the fly or in a background job that evaluates all projects on a regular basis and stores a list of results.
 
-A crawler that regularly searches all InnerSource repositories (e.g. tagged with a certain [topic](https://github.com/topics) in GitHub) can be a helpful addition as well. It provides a ranked list of projects that can be used as an input for tools like the [InnerSource Portal](../../../patterns/2-structured/innersource-portal.md), a search engine, or an interactive chat bot.
+A crawler that regularly searches all InnerSource repositories (e.g. tagged with a certain [topic](https://github.com/topics) in GitHub) can be a helpful addition as well. It provides a ranked list of projects that can be used as an input for tools like the [InnerSource Portal](innersource-portal.md), a search engine, or an interactive chat bot.
 
-### Rationale
+## Rationale
 
 The repository activity score is a simple calculation based on the GitHub API. It can be fully automated and easily adapted to new requirements.
 
-### Known Instances
+## Known Instances
 
-* Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to InnerSourceCommons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo\&list=PLCH-i0B0otNQZQt\_QzGR9Il\_kE4C6cQRy\&index=6).
+* Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to InnerSourceCommons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
 
-### Status
+## Status
 
 * Structured
 
-### Author(s)
+## Author(s)
 
 [Michael Graf (SAP)](mailto:mi.graf@sap.com)
 
-### Acknowledgements
+## Acknowledgements
 
 Thank you to the InnerSource Commons Community for lightning-fast advice, and a lot of helpful input to feed this pattern! Especially:
 
