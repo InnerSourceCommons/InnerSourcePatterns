@@ -4,61 +4,62 @@ Dedicated Community Leader
 
 ## Patlet
 
-Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative.
+InnerSourceの取り組みを成功させるために、コミュニケーションとテクニカルの両方のスキルを持つ人をコミュニティのリーダーとして選ぶ。
 
 ## Problem
 
-How do you ensure that a new InnerSource initiative has the right [community leader](http://www.artofcommunityonline.org/) to grow its impact?
+新しいInnerSourceのイニシアチブがその影響を拡大するために適切な[コミュニティリーダー](http://www.artofcommunityonline.org/)を持っていることを確認するにはどうすればよいですか？
 
-Selecting the wrong persons and/or not providing enough capacity for them risks wasted effort and ultimately the failure of a new InnerSource initiative.
+間違った人を選択し、および/またはそれらのために十分な能力を提供しないことは、無駄な努力と、最終的に新しいInnerSourceイニシアチブの失敗を危険にさらす。
 
 ## Story
 
-Consider the following story. A company wants to start an InnerSource initiative in order to foster collaboration across organizational boundaries. They have decided to start with an experimental phase with limited scope. Management has selected a suitable pilot topic for the first InnerSource community and expects contributions from many business units across the organization. The company has nominated a new hire to head the community for 50 % of his work time, because he was not yet 100 % planned for. After 6 months, the community has received only a few contributions, most of which are from a single business unit. The company replaces the community leader with someone who has a longer history in the company, this time for only 30 % of his time. After another 6 months, the number of contributions has picked up only marginally. The company is no longer convinced that InnerSource helps to achieve their goal of increased, cross divisional collaboration and abandons InnerSource.
+次のようなストーリーを考えてみましょう。ある企業が、組織の境界を越えたコラボレーションを促進するために、InnerSourceイニシアチブを始めたいと考えています。彼らは、範囲を限定した実験的な段階から始めることを決定しました。経営陣は、最初のInnerSourceコミュニティに適したパイロットトピックを選択し、組織全体の多くのビジネスユニットからの貢献を期待しています。同社は、まだ100％予定されていなかったため、新入社員を業務時間の50％のコミュニティの責任者に指名しました。6 か月後、コミュニティにはわずかな貢献しかなく、そのほとんどは 1 つのビジネス ユニットからのものでした。そこで、コミュニティリーダーを社歴の長い人物に代え、今度は30%の時間しか割かないようにした。さらに6ヶ月後、投稿数はわずかに増加したのみであった。同社は、InnerSourceが部門を超えたコラボレーションの増加という目標を達成するのに役立つと確信できなくなり、InnerSourceを放棄しました。
 
 ## Context
 
-- The company is a large and old company. It has no prior experience in Open Source or other, community based working models. The company culture is best characterized as a classical top-down management style - it is generally at odds with community culture.
-- While there are supporters and a sponsor in top level management, middle management in the company is not yet sold on InnerSource.
-- Management was not convinced to provide more than a limited budget to fund a part time community leader, only.
-- The initially selected community leader has little or no prior experience with the Open Source working model.
-- The initially selected developer community leader does not have an extensive network within the company.
+- この会社は大企業で古い会社です。オープンソースやその他のコミュニティベースのワークモデルの経験がない。企業文化は古典的なトップダウン経営スタイルとして最もよく特徴づけられています - それは一般的にコミュニティ文化とは相反するものです。
+- トップレベルの支持者とスポンサーがいる一方で、会社の中間管理職はまだInnerSourceに販売されていません。
+- 経営陣は、唯一のパートタイムのコミュニティリーダーに資金を供給するために限られた予算よりも多くを提供するために説得されませんでした。
+- 最初に選択したコミュニティリーダーは、オープンソースの作業モデルでほとんど、または全く以前の経験を持っています。
+- 最初に選ばれた開発者コミュニティリーダーは、社内の広範なネットワークを持っていない。
 
 ## Forces
 
-If a company does not significantly invest in the initial InnerSource community in terms of budget and capacity for InnerSource, the credibility of its commitment to InnerSource might be perceived as questionable. A common impulse of a company with a traditional management culture to a project or initiative not performing as expected will be to replace its leader. Doing that without involving the community and following meritocratic principles will further undermine the company's commitment to InnerSource by highlighting the friction between the current company culture and the target culture - a community culture.
+もし、企業がInnerSourceの予算と容量の面で初期のInnerSourceコミュニティに大幅に投資していない場合、InnerSourceへのコミットメントの信頼性は疑わしいと認識されるかもしれません。期待通りに実行されていないプロジェクトやイニシアチブに対する伝統的な管理文化を持つ企業の一般的な衝動は、そのリーダーを交換することであろう。コミュニティを巻き込み、実力主義の原則に従わずにそれを行うことは、現在の企業文化とターゲット文化であるコミュニティ文化の間の摩擦を強調することによって、InnerSourceに対する企業のコミットメントをさらに弱体化させるでしょう。
 
-The value contribution of InnerSource projects will not be obvious for many managers which are steeped in traditional project management methods. Those managers are less likely to assign one of their top people, who are usually in high demand by non InnerSource-projects, to an InnerSource project for a significant percentage of their work time.
+InnerSourceプロジェクトの価値貢献は、伝統的なプロジェクト管理手法に染まっている多くの管理者にとって明白ではないでしょう。これらのマネージャーは、彼らの作業時間のかなりの割合のためのInnerSourceプロジェクトに、通常、非InnerSource-プロジェクトによって高い需要がある彼らのトップの人々のいずれかを割り当てる可能性が低くなります。
 
-Communication takes up a significant percentage of a community leader's daily work. At the same time, he or she will likely also have to spearhead the initial development, too. In the face of limited capacity, inexperienced leaders will tend to focus on development and neglect communication. The barrier for potential contributors to make their first contribution and to commit to the community will be much higher if the community leader is hard to reach or is slow to respond to feedback and questions for lack of time. Furthermore, technically inexperienced leaders will most likely have a harder time to attract and retain highly experienced contributors than a top performer with a high degree of visibility within a company would have.
+コミュニケーションは、コミュニティリーダーの毎日の仕事のかなりの割合を占めています。同時に、彼または彼女はおそらく、あまりにも、初期の開発の先頭に立つ必要があります。限られた時間の中で、経験の浅いリーダーは開発に注力し、コミュニケーションをおろそかにしがちです。また、コミュニティリーダーが、連絡が取りにくい、時間がないなどの理由でフィードバックや質問への対応が遅い場合、潜在的な貢献者が最初の貢献を行い、コミュニティに参加するための障壁はより高くなります。さらに、技術的に未熟なリーダーは、企業内で高い知名度を持つトップパフォーマーよりも、経験豊富な貢献者を引き付け、維持することが難しい可能性が高いでしょう。
 
-If a community can not grow fast enough and pick up enough speed, chances are they won't be able to convincingly demonstrate the potential of InnerSource.
+もしコミュニティが十分に速く成長し、十分な速度を得ることができなければ、チャンスは、彼らが説得力を持ってInnerSourceの可能性を示すことができないでしょう。
 
-If the company selects an experienced project or line manager steeped in traditional management methods to be the community leader, he or she is likely to focus on traditional management topics such as resource allocation, providing structure and reporting channels rather than leading by example through meritocratic principles. This will undermine the credibility of the InnerSource initiative in the eyes of developers.
+もし会社が伝統的な管理手法に染まった経験豊富なプロジェクトマネージャーやラインマネージャーをコミュニティのリーダーに選んだ場合、その人は実力主義で模範を示すよりも、リソース配分、構造の提供、報告ルートといった伝統的な管理テーマに焦点を当てる可能性が高いでしょう。これは、開発者の目から見たInnerSourceイニシアチブの信頼性を損ねることになります。
 
 ## Solution
 
-Select a community leader who:
+以下のようなコミュニティリーダーを選択する。
 
-- is experienced in the Open Source working model or similar community based working models,
-- has the required soft-skills to act as a natural leader,
-- leads by example and thus justifies his position in the community meritocracy,
-- is an excellent networker,
-- inspires community members,
-- can communicate effectively to both executive management and developers and
-- is able to handle the managerial aspects of community work.
+- オープンソースの作業モデル、または類似のコミュニティベースの作業モデルの経験がある。
+- 自然なリーダーとして活動するために必要なソフトスキルを持っている。
+- 模範を示して指導し、コミュニティの実力主義において自分の立場を正当化することができる。
+- 優れたネットワーカーであること。
+- コミュニティーのメンバーにインスピレーションを与えることができる。
+- 経営陣と開発者の両方に効果的にコミュニケーションをとることができる。
+- コミュニティ活動の経営的な面を扱うことができる。
 
-Empower the community leader to dedicate 100 % of his time to community work including communication and development. Inform management of the need to be sensitive to the views of the community when engendering a change in community management. Ideally, empower the community to nominate a community leader themselves.
+コミュニティリーダーには、コミュニケーションや開発など、自分の時間の100％をコミュニティ活動に捧げることができるよう、権限を与える。コミュニティ運営に変化をもたらす際には、コミュニティの意見に耳を傾ける必要があることを経営陣に伝える。理想的には、コミュニティが自らコミュニティリーダーを指名できるようにすることです。
 
 ## Resulting Context
 
-A community leader with the properties described above will lend a face and embody the company's commitment to InnerSource. It will make it more likely that other associates in his network will follow his lead and contribute to InnerSource. Over time, he or she will be able to build up a stable core team of developers and hence increase the chances of success for the InnerSource project. By convincing a large enough audience within his company of the potential of InnerSource, he or she will make an important contribution to changing the company culture towards a community culture.
+上記のプロパティを持つコミュニティのリーダーは、顔を貸すとInnerSourceに会社のコミットメントを体現しています。それは、彼のネットワーク内の他の仲間が彼のリードに従うとInnerSourceに貢献する可能性が高くなります。時間が経つにつれて、彼または彼女は、開発者の安定したコアチームを構築することができ、したがって、InnerSourceプロジェクトの成功の可能性を高めることができます。InnerSourceの可能性について、社内の十分な数の聴衆を納得させることによって、彼または彼女は、コミュニティ文化に向けて企業文化を変えるために重要な貢献をするでしょう。
 
-Having excellent and dedicated community leaders is a precondition for the success of InnerSource. It is, however, not a silver bullet. There are many challenges of InnerSource which are above and beyond what a community leader can tackle, such as budgetary, legal, fiscal or other organizational challenges.
+優秀で熱心なコミュニティ・リーダーを持つことは、InnerSourceを成功させるための前提条件である。しかし、それは銀の弾丸ではありません。InnerSourceには、予算、法律、財政、あるいはその他の組織的な課題など、コミュニティ・リーダーが取り組める以上の課題がたくさんあります。
 
 ## Known Instances
 
-_BIOS at Robert Bosch GmbH_. Note that InnerSource at Bosch was, for the majority, aimed at increasing innovation and to a large degree dealt with internal facing products. This pattern is currently not used at Bosch for lack of funding.
+_Robert Bosch GmbHのBIOS_。Bosch社のInnerSourceは、大半の場合、イノベーションを高めることを目的としており、かなりの程度、内部向けの製品を扱っていたことに注意してください。このパターンは、資金不足のため、現在Bosch社では使われていない。
+
 
 ## Alias
 

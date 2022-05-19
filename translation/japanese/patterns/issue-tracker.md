@@ -4,40 +4,40 @@ Issue Tracker Use Cases
 
 ## Patlet
 
-The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.
+InnerSourceのホストチームは、計画や進捗だけでなく、変更の背景も透明化できていません。これは、プロジェクトの課題トラッカーのユースケースを増やし、ブレーンストーミング、実装の議論、機能設計にも使えるようにすることで解決されます。
 
 ## Problem
 
-A team develops a component that many teams in the organization depend on. It uses a standard issue tracker for tracking open bugs and feature requests. However, the context in each entry is very limited. As a result potential contributors have no way of knowing what change exactly each issue is talking about.
+あるチームが、組織内の多くのチームが依存するコンポーネントを開発しています。このチームは、未解決のバグや機能要求を追跡するために、標準的な課題追跡システムを使用しています。しかし、各エントリのコンテキストは非常に限られています。その結果、潜在的な貢献者は、各課題がまさにどのような変更について話しているのかを知る術がありません。
 
 ## Context
 
-The InnerSource project tooling is all setup. However, the project issue tracker is mainly used for sharing progress. In InnerSource projects there are many more use cases that an issue tracker can be used for that make remote, asynchronous communication easier.
+InnerSourceのプロジェクトツールはすべてセットアップされています。しかし、プロジェクトの課題追跡システムは、主に進捗の共有のために使用されます。InnerSourceプロジェクトでは、リモートでの非同期通信を容易にするために、課題トラッカーが使用できるユースケースは他にもたくさんあります。
 
 ## Forces
 
-* Contributors would like to understand whether the feature that they are missing is already on the roadmap. With a lot of context missing in issues though it is impossible to decide whether existing issues match the contributing team's needs.
-* As a result a lot of duplicate issues are being opened that the host team has to deal with.
-* As context in open issues is so limited contributors are unable to help the host team by implementing some easier issues that are open already. As a result a lot of work remains in the hands of the host team.
-* With a strong focus on verbal communication it is impossible to discern after a couple months or years why a certain feature was being chosen for implementation. As a result refactorings, in particular simplifying the component becomes an exercise in project archaeology and brain picking of people who remember what was discussed.
+* コントリビューターは、自分たちが必要としている機能がすでにロードマップにあるかどうかを理解したいと思っています。しかし、課題には多くの文脈が欠落しており、既存の課題が寄稿者のニーズに合致しているかどうかを判断することは不可能です。
+* その結果、多くの重複した課題がオープンされ、ホストチームがそれに対処しなければならなくなります。
+* オープンな課題のコンテキストは非常に限られているため、寄稿者はすでにオープンになっている簡単な課題を実装して、ホストチームを助けることができない。その結果、多くの作業がホストチームの手に委ねられることになります。
+* 口頭でのコミュニケーションに重点を置いているため、数ヶ月後や数年後に、なぜある機能が実装に選ばれたのかを見極めることができない。その結果、リファクタリング、特にコンポーネントの簡略化は、プロジェクト考古学のエクササイズとなり、議論されたことを覚えている人たちの脳を摘み取ることになる。
 
 ## Solution
 
-Embrace the "written over verbal" philosophy not only for pure software development but also during the planning phase of new features:
+純粋なソフトウェア開発だけでなく、新機能の企画段階でも「言葉より文字」の哲学を受け入れましょう。
 
-* For bugs, planned features and feature ideas create separate issues. In each of those include as much information as possible so that potential external contributors are able to understand the context. Ideally, in particular for easier changes, include enough information for external contributors to support the host team by implementing the functionality in question.
-* Potentially use the issue tracker as a channel to ask questions. This is in particular helpful if you are lacking other communication sources to tackle user questions.
-* Make use of tags and categories in order to distinguish issues used for different purposes.
-* For starting a brainstorming session asynchronously, open an issue for gathering ideas. When discussion is starting to calm down, summarize the points identified in this issue in a separate document. Post that for review as a pull request to drill deeper into individual points that still need clarification. The resulting document can be used to publish the results in other appropriate channels as well as for future reference.
-* Most issue tracker implementations allow for issue templates. Make use of those not only to collect commonly needed information for bug reports but also include hints about what kind of information is needed for the other usage types.
+* バグ、計画された機能、機能のアイデアについては、それぞれ別の課題を作成する。それぞれの課題には、外部の潜在的な貢献者が文脈を理解できるように、可能な限り多くの情報を含める。理想的には、特に簡単な変更については、外部の貢献者が問題の機能を実装することでホストチームをサポートできるよう、十分な情報を含めることです。
+* 質問するためのチャンネルとして、課題追跡システムを利用することもできます。これは、ユーザーの質問に取り組むための他のコミュニケーション源が不足している場合に、特に有用です。
+* 異なる目的で使用される課題を区別するために、タグやカテゴリーを使用します。
+* 非同期でブレーンストーミングを始めるには、アイデアを集めるために課題を開きます。議論が落ち着いてきたら、この課題で指摘されたことを別の文書にまとめます。それをプルリクエストとして投稿し、まだ説明が必要な個々のポイントについて掘り下げます。出来上がった文書は、他の適切なチャンネルで結果を公表したり、将来の参考資料として使用することができます。
+* ほとんどの課題追跡システムで、課題のテンプレートを作成することができます。バグレポートに必要な情報を集めるだけでなく、他の用途でどのような情報が必要なのかのヒントも含めて活用しましょう。
 
 ## Resulting Context
 
-* Making more use of the project's issue tracker for communication enables external contributors to follow along and make better decisions on what to contribute.
-* A focus on structured written communication enables host team members to participate remotely.
-* Consistently communicating in writing means that passive documentation on project decisions accumulates as a by-product instead of needing added attention.
-* Consistently using public communication channels leads to more humans following a discussion. This means that there are more knowledgeable humans that can answer questions, chime in on open issues, or point out flaws in planned features that would otherwise be found only much later.
-* Moving discussions to a public discussion medium creates an opportunity for potential future contributors to lurk, follow along, get comfortable and learn the ways of the project long before they have the first need to get involved.
+* プロジェクトの課題追跡システム（イシュー・トラッカー）をコミュニケーションに活用することで、外部のコントリビューターがプロジェクトの動向を把握し、何をコントリビュートすべきかをより的確に判断することができるようになりました。
+* 文書によるコミュニケーションに重点を置くことで、ホストチームのメンバーが遠隔地から参加できるようになった。
+* 常に文書でコミュニケーションすることで、プロジェクトの決定事項に関する受動的な文書が副産物として蓄積され、特別な注意を必要としない。
+* 公開のコミュニケーションチャネルを常に使用することで、より多くの人間が議論に参加するようになる。これは、質問に答えたり、未解決の問題について発言したり、さもなければずっと後になって発見されるような計画された機能の欠陥を指摘できる、より知識のある人間がいることを意味します。
+* ディスカッションを公開の場に移すことで、将来貢献者になる可能性のある人々が、参加する必要が生じるずっと前に、潜んで、一緒にフォローし、快適に過ごし、プロジェクトのやり方を学ぶ機会を作ることができるのです。
 
 ## Known Instances
 

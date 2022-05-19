@@ -1,70 +1,51 @@
 ## Title
 
-Service vs. Library
+サービス vs. ライブラリー
 
 ## Patlet
 
-Teams in a DevOps environment may be reluctant to work across team boundaries on
-common code bases due to ambiguity over who will be responsible for
-responding to service downtime. The solution is to realize that often it's
-possible to either deploy the same service in independent environments with
-separate escalation chains in the event of service downtime or factor a lot of
-shared code out into one library and collaborate on that.
+DevOps環境のチームは、サービスのダウンタイムに誰が対応するのかが曖昧なため、チームの境界を越えて共通のコードベースで作業することに消極的かもしれません。解決策としては、同じサービスを独立した環境で展開し、サービスダウン時のエスカレーションを別々に行うか、多くの共有コードを1つのライブラリにまとめて、その上でコラボレーションすることが可能な場合が多いことを認識することです。
 
 ## Problem
 
-When teams are working in a DevOps environment developers are responsible for a
-feature end-to-end: From the customer down to deployment, maintenance and
-support. This poses a challenge when working across team boundaries: Escalation
-chains may not be the same for errors happening in either team. Coupling
-source code and deployment leaves the teams with the question of who is
-responsible for on-call support in the event of errors. As a result teams are
-reluctant to join forces even if there is significant overlap in requirements.
+DevOps環境で作業しているチームは、開発者が機能のエンドツーエンドに責任を持ちます。顧客からデプロイメント、メンテナンス、サポートに至るまでです。これは、チームの境界を越えて作業する際に課題となります。エスカレーションチェーンは、どちらのチームでも発生するエラーに対して同じであるとは限りません。ソースコードとデプロイメントを結合すると、エラーが発生した場合に誰がオンコールサポートの責任を負うのかという疑問がチームに残ります。その結果、要件に大きな重複がある場合でも、チームは協力し合うことに消極的になる。
 
 ## Context
 
-* Teams are working in a micro-services environment.
-* They are organised in fully functional DevOps teams: Each team is responsible for their contributions end-to-end, including maintenance, on-call and customer support.
-* A team is tasked with providing a service to their downstream customers that is fairly similar to an existing service built by another team.
+* チームはマイクロサービス環境で働いている。
+* 完全に機能する DevOps チームに編成されている。各チームは、メンテナンス、オンコール、カスタマーサポートを含むエンドツーエンドの貢献に責任がある。
+* あるチームは、他のチームが構築した既存のサービスとよく似たサービスを下流の顧客に提供することを任務としている。
 
 ## Forces
 
-* Organisational escalation paths may be different for each of the teams.
-* Members of each team may be unwilling to answer on-call support for errors that do not affect their own downstream customers.
-* Severity levels for the same types of errors may be different across team boundaries due to different SLA definitions per team/customer relationship.
-* Teams may have different security or regulatory constraints governing their deployments.
+* 組織的なエスカレーション経路は、各チームで異なる可能性がある。
+* 各チームのメンバーは、自分たちの下流顧客に影響を与えないエ ラーについてはオンコールサポートに応じない可能性がある。
+* 同じ種類のエラーでも、チームや顧客との関係によって SLA の定義が異なるため、深刻度レベルが異なる場合がある。
+* チームによって、セキュリティや規制の制約が異なる場合がある。
 
 ## Solutions
 
-Decouple responsibility for source code from deployment: Both teams work to
-identify exactly where there is overlap and synergies.
+ソースコードとデプロイの責任を切り離す。両チームは、重複する部分や相乗効果がある部分を正確に特定するよう努力する。
 
-Only shared source code is kept as part of the InnerSource project with shared responsibility. The shared source should be coherent in that it includes all testing code (including integration tests if available) and as much of the CI pipeline as is possible to make contribution validation easier.
+共有されたソースコードのみが、InnerSourceプロジェクトの一部として、共有された責任で保持されます。共有ソースは、すべてのテストコード（可能であれば統合テストを含む）と、貢献の検証を容易にするために可能な限りCIパイプラインを含むという点で、首尾一貫している必要があります。
 
-Decouple configuration and deployment pipelines from actual business logic.
-Establish a second deployment of the service for the second team.
+設定とデプロイのパイプラインを、実際のビジネスロジックから切り離す。 2番目のチーム用に、サービスの2番目のデプロイメントを確立する。
 
-Treat the common base as a library that is used by both teams with shared code
-ownership.
+共通基盤を、両チームで使用するライブラリとして扱い、コードの所有権を共有する。
 
-Deployment configurations can be included as separate projects in your InnerSource portfolio to allow teams to discuss/collaborate or a new team to copy them.
+デプロイメント設定は、InnerSourceポートフォリオに別のプロジェクトとして含めることができ、チームが議論/コラボレーションしたり、新しいチームがそれをコピーしたりできるようにすることができます。
 
 ## Resulting Context
 
-Teams are willing to collaborate, benefitting from sharing the work of
-implementing the business logic.
+チームは、ビジネスロジックを実装する作業を共有することで恩恵を受け、コラボレーションすることを望んでいます。
 
-A service that originally was built specifically to work in one environment is
-converted into a more general solution based on a specific business requirement.
+元々ある環境で動作するように特別に作られたサービスが、特定のビジネス要件に基づいて、より一般的なソリューションに変換されます。
 
-Both teams get to know their respective escalation policy and deployment setup,
-potentially identifying improvements for their own setup.
+両チームは、それぞれのエスカレーションポリシーと展開設定を知ることができ、自分たちの設定に対する改善点を見出すことができる可能性がある。
 
-The likelihood that changes are needed and made in the shared source code
-increases, leading to more frequent opportunities to refine, improve and optimise
-the implementation.
+共有されたソースコードに変更が必要な可能性が高まり、実装を改良、改善、最適化する機会がより頻繁に発生するようになる。
 
-Encourages incremental operational standardisation in release packaging, telemetry, health/readiness endpoints and so on as the teams realise they can more efficiently maintain this in the shared code if they agree on standard conventions.
+リリースのパッケージング、遠隔測定、ヘルス/レディネス エンドポイントなど、運用の標準化を段階的に進めることができるようになります。
 
 ## See also
 
@@ -72,8 +53,8 @@ Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern tha
 
 ## Known Instances
 
-* Europace AG
-* Flutter Entertainment: A [Flutter InnerSource application](https://innersource.flutter.com/start/setup-ci/) has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artefact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skill sets in different areas of the business.
+* ユーロスペース AG
+* Flutter Entertainment: Flutter InnerSourceアプリケーション](https://innersource.flutter.com/start/setup-ci/)は、チーム横断的に貢献する共有コード「サービス」リポジトリと、共有リリース成果物をビルドして公開するCIパイプラインを備えています。各チームは独自のデプロイメントを定義する "デプロイメント設定 "リポジトリを持っています。これは、ビジネスのさまざまな領域におけるさまざまな規制要件、サービスおよびインシデント管理の実践、インフラストラクチャのスキルセットによって駆動されます。
 
 ## Status
 

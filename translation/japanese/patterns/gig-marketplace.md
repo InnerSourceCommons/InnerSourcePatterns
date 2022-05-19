@@ -4,64 +4,64 @@ Gig Marketplace
 
 ## Patlet  
 
-Establish a marketplace by creating an intranet website that lists specific InnerSource project needs as "Gigs" with explicit time and skill requirements.  This will enable managers to better understand their employee’s time commitment and professional benefits thereby increasing the likelihood of garnering approval to make InnerSource contributions.
+マネージャーと従業員のどちらも、彼らはInnerSourceプロジェクトに関与して得ることから利益を得るかもしれない方法を理解しています。  それは従業員のために彼らはInnerSourceプロジェクトにする必要がありますどのような時間のコミットメントを彼らの経営にcomamunicateすることは困難である。
 
 ## Problem
 
-Neither managers nor employees understand how they might benefit from getting involved in an InnerSource project.
+マネージャーと従業員のどちらも、彼らはInnerSourceプロジェクトに関与して得ることから利益を得るかもしれない方法を理解しています。
 
-It is difficult for employees to communicate to their management what commitment of time they will need to make to an InnerSource project.  
+それは従業員のために彼らはInnerSourceプロジェクトにする必要がありますどのような時間のコミットメントを彼らの経営に伝えることは困難である。 
 
-Managers have no uniform way of keeping track of or rewarding their employee’s involvement in InnerSource projects.
+マネージャーは、InnerSourceプロジェクトに従業員の関与を追跡したり、報酬を与えるの均一な方法がありません。
 
 ## Story
 
-You’ve successfully created an InnerSource program at your company and have buy-in from senior management, middle-management and developers.  However, after nearly a year there have been few actual contributions made to any InnerSource projects outside of the teams that originally created them.  After interviewing all the parties involved the main sticking point seems to be that it is difficult to know the time commitment developers will be asked to make if they choose to get involved in an InnerSource project and how they will personally benefit. There is also no uniform way of advertising what opportunities for contributors exist, what they’ll be asked to do and approximately how long it might take.  Managers are supportive and want their employees to participate but so far have lacked a way of accounting for or rewarding their employees’ activities within InnerSource projects.  What can be done to improve this situation for all the parties involved (InnerSource project owners, potential contributors and development managers)?
+あなたは、会社でInnerSourceプログラムを成功させ、上級管理職、中間管理職、開発者から賛同を得ています。 しかし、約1年後、最初にそれらを作成したチーム以外の任意のInnerSourceプロジェクトに行われた実際の貢献はほとんどありませんされています。 関係者にヒアリングしたところ、InnerSourceプロジェクトに参加する場合、開発者がどの程度の時間を割く必要があるのか、また、個人的にどのようなメリットがあるのかが分かりにくいことが主な原因であると思われます。また、貢献者のためのどのような機会が存在し、彼らは何をするように求められますと、それがかかるかもしれないおおよその時間を宣伝するための統一された方法はありません。 管理職は協力的で、従業員が参加することを望んでいますが、これまでのところ、InnerSourceプロジェクト内の従業員の活動のための会計処理や報酬の方法が欠けている。 すべての関係者（InnerSourceプロジェクトの所有者、潜在的な貢献者と開発マネージャ）のためにこの状況を改善するために何ができるのでしょうか？
 
 ## Context
 
-Employees wish they could gain exposure to activities going on within other areas of the company without having to leave their current positions. InnerSource projects exist and could provide these experiences but there are two main factors preventing employees from participating. First, is the inability to easily discover what opportunities for contribution exist within ongoing InnerSource projects and to communicate these to their managers.  Second, is the inability of managers to plan and account for their employees' time commitments to these InnerSource project tasks.  As a result InnerSource project owners are finding it difficult to build communities of sufficient size to fulfill their stated goals.
+従業員は、現在のポジションを離れることなく、会社の他の領域で行われている活動に触れることができればと願っています。しかし、InnerSourceのプロジェクトには、社員の参加を阻む2つの要因があります。まず、現在進行中のInnerSourceプロジェクトにどのような貢献の機会があるのかを容易に発見し、上司に伝えることができないこと。 第二に、これらのInnerSourceプロジェクトのタスクに彼らの従業員の時間のコミットメントを計画し、説明するために、マネージャの無力である。 その結果、InnerSourceプロジェクトのオーナーは、彼らの目標を達成するために十分な規模のコミュニティを構築することが困難であることが分かっています。
 
 ## Forces
 
-* Employees have no easy way to discover what InnerSource opportunities exist
-* Employees don't understand how contributing might benefit them professionally
-* Managers don't understand the time/effort requirements associated with InnerSource project related tasks
+* 従業員は、InnerSourceの機会が存在するものを発見するための簡単な方法を持っていない
+* 従業員は、貢献が専門的にそれらを利益かもしれない方法を理解していません。
+* 管理者は、InnerSourceプロジェクトに関連するタスクに関連する時間/労力の要件を理解していません。
 
 ### Prerequisites
 
-* Employees have been provided time by their managers to involve themselves in InnerSource projects
-* Managers require a way for InnerSource contributions to be quantified, tracked and recorded so they can be accounted for and rewarded
+* 従業員はInnerSourceプロジェクトに自分自身を巻き込むために彼らの上司によって時間を提供されています。
+* 彼らは説明し、報酬を得ることができるように、マネージャーは、定量化、追跡、記録されるInnerSourceの貢献のための方法を必要とします。
 
 ## Solutions
 
-Create a “Gig” based intranet site where individuals can advertise their skills and areas of interest and InnerSource project owners can advertise opportunities for collaboration.
+個人が自分のスキルや興味のある分野を宣伝することができ、InnerSourceプロジェクトの所有者がコラボレーションのための機会を宣伝することができます "ギグ "ベースのイントラネットサイトを作成します。
 
-Employees should be able to create a profile within the application in which they can list their skills and areas of interest.  The system should leverage this information by proactively informing individuals (via email or some other means) when a Gig is posted that matches one or more of those criteria.
+従業員は、自分のスキルや興味のある分野をリストアップすることができるアプリケーション内でプロフィールを作成できるようにする必要があります。 システムは、これらの基準の1つ以上に一致するGigが投稿されたときに（電子メールまたは他の手段によって）個人にプロアクティブに通知することによって、この情報を活用する必要があります。
 
-Each Gig posted by an InnerSource project owner should include the estimated skill and time requirements so those can be easily matched to an available employee and clearly communicated to their direct management. The description should also include a rationale as to how it will benefit the person taking on the task in order to make it as attractive as possible.
+インナーソースのプロジェクト・オーナーが投稿する各Gigには、スキルや時間の要件が含まれており、利用可能な従業員と容易にマッチングでき、直属の上司に明確に伝えられるようになっていなければなりません。説明はまた、それが可能な限り魅力的なようにするために、タスクを引き受ける人にどのように役立つかについての理論的根拠を含める必要があります。
 
-A points based system could be created to reward and track an employee’s involvement in a Gig.  For instance, 10 points awarded to the Gig owner for posting a Gig once it is completed and 100 points for a developer who completes a Gig. Points accrued by completing Gigs could then be used as a gamification mechanism and as performance management criteria to garner insight in to the areas of expertise that exist within an organization.
+従業員のGigへの関与を評価し、追跡するために、ポイントベースのシステムを作成することができます。 例えば、完成したギグを投稿するとギグのオーナーに10ポイント、ギグを完成させた開発者には100ポイントを付与する。Gigを完了することで得られるポイントは、ゲーミフィケーションの仕組みとして、また、組織内に存在する専門分野を把握するためのパフォーマンス管理の基準として利用することができます。
 
-Those wishing to accept a Gig should first be vetted by the Gig owner to determine that the employee has the prerequisite skills and allotted time from their manager to complete the Gig.
+Gigを受けたい人は、まずGigの所有者が、その従業員がGigを完了するために必要なスキルと割り当てられた時間を有しているかどうかを判断する必要があります。
 
-The transparency of contributions made via Gigs can help a contributor build (or detract from) her reputation thereby creating a greater likelihood that the quality of the contribution will be high.  Completion of Gigs can also act as proof of expertise in a particular area.  
+Gigを通じた貢献の透明性は、貢献者の評判を高め（あるいは下げ）、貢献の質が高くなる可能性を高めるのに役立ちます。 また、Gigを完成させることで、その分野の専門性を証明することができます。 
 
-The nature of Gigs posted to the marketplace can include both hard and soft skills such as organizing a group event, writing a report or requests for mentorship etc.
+マーケットプレイスに投稿されるギグの内容は、グループイベントの運営、レポートの作成、メンターへの依頼など、ハードスキル、ソフトスキルの両方を含むことができます。
 
-The creation of the Gig Marketplace should ideally be taken on by a team within an organization with the responsibilities to provide company-wide infrastructure and capabilities.
+ギグマーケットプレイスの構築は、全社的なインフラと機能を提供する責任を持つ組織内のチームによって行われることが理想的です。
 
 ## Resulting Context
 
-The InnerSource Gig Marketplace has vastly increased the number of InnerSource projects as well as the number of employees involved in them. The self-directed nature of the Gig Marketplace has enhanced job satisfaction amongst employees by allowing them a level of choice in the work they perform and with whom they can partner across the company.  Employees understand exactly what they are signing up for and what they can expect from the experience. Managers are better able to estimate and track their employee’s time commitments with respect to InnerSource projects, recognize their individual efforts and use the completion of Gigs as a way of validating their specific skillsets.  Managers are also able to leverage any existing downtime their employees may be experiencing by allowing them to pivot to work available in the Gig Marketplace.  The data generated by the interactions within the Gig Marketplace is also helping to drive hiring and training decisions across all departments.
+InnerSource Gig Marketplaceは、InnerSourceのプロジェクトの数だけでなく、それに関わる従業員の数も大幅に増加させました。ギグマーケットプレイスの自主的な性質は、彼らが行う仕事と、彼らは会社全体でパートナーにできる人のレベルの選択肢を可能にすることによって、従業員の仕事の満足度を高めています。 従業員は、自分が何にサインアップし、その経験から何を期待できるかを正確に理解しています。管理者は、より良いInnerSourceプロジェクトに関して、従業員の時間のコミットメントを推定し、追跡することができ、彼らの個々の努力を認識し、それらの特定のスキルセットを検証する方法として、ギグの完了を使用しています。 管理者はまた、従業員がギグマーケットプレイスで利用可能な仕事にピボットできるようにすることで、従業員が経験しているかもしれない既存のダウンタイムを活用することができます。 ギグマーケットプレイスでのやり取りによって生成されたデータは、すべての部署で雇用とトレーニングの決定を促進するのにも役立っています。
 
-When used in combination with the InnerSource Portal pattern, the Gig Marketplace provides a finer level of context and detail in addition to the links to the code repositories and documentation for the project to which the Gig relates.
+InnerSource Portalパターンと組み合わせて使用すると、Gig Marketplaceは、Gigが関連するプロジェクトのコードリポジトリとドキュメントへのリンクに加えて、より細かいレベルのコンテキストと詳細を提供します。
 
 ## Known Instances
 
-* A large financial services organization has used the creation of an InnerSource Gig Marketplace website to foster their InnerSource program.
-* SAP implemented the Gig Marketplace pattern - a new InnerSource program was added to the internal job platform where positions and similar offerings can be posted.
-* The Gig Marketplace pattern has been proven to work extremely well with the associated [InnerSource Portal](./innersource-portal.md) pattern in this context.  The InnerSource Portal increases awareness of specific projects currently underway while the Gig Marketplace advertises tasks of a certain type available to be worked on within those projects.
+* 大規模な金融サービス組織は、彼らのInnerSourceプログラムを育成するためにInnerSource Gig Marketplaceのウェブサイトの作成を使用しました。
+* SAPはギグマーケットプレイスパターンを実装 - 新しいInnerSourceプログラムは、ポジションと同様の提供を掲載することができ、内部のジョブプラットフォームに追加されました。
+* Gig Marketplaceパターンは、このコンテキストで関連する[InnerSource Portal](./innersource-portal.md)パターンと非常によく機能することが証明されている。 InnerSource Portalは、現在進行中の特定のプロジェクトの認知度を高め、Gig Marketplaceは、それらのプロジェクト内で作業可能な特定のタイプのタスクを広告します。
 
 ## Status
 

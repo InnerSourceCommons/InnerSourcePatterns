@@ -1,42 +1,42 @@
 ## Title
 
-Review Committee
+審査委員会
 
 ## Patlet
 
-The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarise themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.
+InnerSourceの作業モデルは、同様に開発者と管理者のための、より伝統的なアプローチからの抜本的な出発です。InnerSourceイニシアチブとそれに参加するビジネスユニットのすべてのシニアマネージャの間のインタフェースとしてレビュー委員会を確立することにより、後者は、マイクロマネジメントを助長することなく、監視と制御の一定レベルを与えるように、イニシアチブに精通し、それをサポートする可能性が高くなります。
 
 ## Problem
 
-Managers will perceive the InnerSource working model as a radical departure from the working models they are accustomed to and have experience with. As a consequence, it is likely that they will either reject or micro manage the InnerSource initiative in order to try to minimize the perceived risk of this change. In both cases, the benefits of InnerSource can not be realized. As a result, InnerSource is subsequently discredited.
+管理職は、インナーソースの作業モデルを、彼らが慣れ親しんできた作業モデルからの根本的な逸脱として認識することになるでしょう。その結果、彼らはこの変化の知覚リスクを最小限にしようとするために、InnerSourceイニシアチブを拒否またはマイクロマネジメントする可能性があります。どちらの場合も、InnerSourceの利点を実現することはできません。その結果、InnerSourceは、その後信用されています。
 
 ## Context
 
-Company A wants to introduce its first InnerSource initiative. Most managers in company A are not familiar with the Open Source working model and are instead accustomed to hierarchical, top-down control style management.
+A社は、最初のInnerSourceの取り組みを導入したいと考えています。A社のほとんどのマネージャーは、オープンソースの作業モデルに慣れておらず、代わりに階層的な、トップダウンのコントロールスタイルの管理に慣れている。
 
 ## Forces
 
- - The more perceived control a manager has over the work in the InnerSource initiative, the more likely it is that she or he will support the initiative without prior experience.
- - The less experience a manager has with the open source working model the more likely it is that she or he will want to control the risk of the initiative.
- - The more heavy handed and micro managerial InnerSource initiatives are managed, the less likely it is that the open source working model can be adopted to the required extent. As a result, the benefits of InnerSource will not be realized.
+ - マネージャーは、InnerSourceイニシアチブの作業に対してより多くの知覚されたコントロールを持っている、それは彼または彼女が以前の経験なしでイニシアチブをサポートする可能性が高くなります。
+ - オープンソースの作業モデルに関する経験が少ないほど、マネジャーはイニシアチブのリスクをコントロールしたいと考える可能性が高くなります。
+ - より重い手とマイクロ管理InnerSourceの取り組みが管理されている、それが可能性が低いオープンソースの作業モデルが必要な範囲に採用することができることです。その結果、InnerSourceの利点は実現されないでしょう。
 
 ## Solution
 
-- Establish a review committee comprised of senior managers of all business units which participate in the InnerSource initiative.
-- The review committee members are given the authority to decide as a group which InnerSource projects will receive support in general and funding in particular.
-- Applicants can be elected by review committee members before meetings to present their proposed InnerSource project during review committee meetings for consideration.
-- Leaders of InnerSource projects currently funded by the review committee are obliged to report on the status of their project during every review committee meeting.
-- Review committee members are obliged to provide constructive feedback to both new applicants and current project leaders during review committee meetings.
-- Every InnerSource project is to be given the chance to react to feedback received on one session of the review committee until the next session in order to avoid shutting down the project prematurely.
-- An InnerSource project leader can also present the motion to be shut down on its own initiative on a review committee. The review committee then has to decide whether or not the business units using the software need to be given time to put measures in place to ensure that development and/or maintenance of the codebase continues until an alternative solution to development by the InnerSource community is found (if business relevant or mission critical).
-- The review committee should convene regularly. A cadence of two meetings per year has proven successful.
+- InnerSourceイニシアティブに参加するすべてのビジネスユニットのシニアマネージャーで構成されるレビュー委員会を設立する。
+- 審査委員会メンバーには、どのInnerSourceプロジェクトが一般的な支援を受け、特に資金援助を受けるかをグループとして決定する権限が与えられている。
+- 申請者は、会議の前に審査委員によって選出され、審査のために審査委員会の会議で彼らの提案するInnerSourceプロジェクトを提示することができます。
+- 現在、審査委員会が資金を提供しているInnerSourceプロジェクトのリーダーは、毎回の審査委員会でプロジェクトの状況について報告することが義務付けられています。
+- 審査委員は、審査委員会において、新規申請者と現在のプロジェクト・リーダーの両方に対して建設的なフィードバックを行う義務があります。
+- すべてのInnerSourceプロジェクトは、プロジェクトの早期終了を避けるために、審査委員会のあるセッションで受け取ったフィードバックに対して、次のセッションまで反応する機会を与えられることになっています。
+- InnerSourceプロジェクトのリーダーは、レビュー委員会で自発的に停止させるための動議を提示することもできます。レビュー委員会は、次に、ソフトウェアを使用するビジネスユニットが、InnerSourceコミュニティによる開発の代替ソリューションが見つかるまで、コードベースの開発および／またはメンテナンスを継続するための手段を講じる時間を与える必要があるかどうかを決定しなければなりません（ビジネス関連またはミッションクリティカルである場合）。
+- レビュー委員会は、定期的に開催されるべきである。年に2回のペースで開催するのが効果的であることが証明されています。
 
-![Review Committee Sketch](../../assets/img/review-committee-sketch.jpg)
+[レビュー委員会スケッチ](../../assets/img/review-committee-sketch.jpg)
 
 ## Resulting Context
 
-- Managers apply a tool they are comfortable with to InnerSource in order to get the required amount of information about and control over the inner workings of the InnerSource initiative. This familiarity will make it more likely for them to sign off on the InnerSource initiative and grant the required degree of freedom for InnerSource projects.
-- Developers can still self organize to a sufficient degree. Micro management does not happen because the review committee convenes rather infrequently.
+- マネージャーは、彼らがInnerSourceに慣れているツールを適用し、InnerSourceイニシアチブの内部動作に関する情報とコントロールの必要量を取得するために。この精通は、彼らがInnerSourceイニシアチブに署名し、InnerSourceプロジェクトのための自由度の必要な学位を付与する可能性が高くなります。
+- 開発者は、今でも十分な程度に自己組織化することができます。レビュー委員会が頻繁に開催されないため、マイクロマネジメントは起こりません。
 
 ## Known Instances
 

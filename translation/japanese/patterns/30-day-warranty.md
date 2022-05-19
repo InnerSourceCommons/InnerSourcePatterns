@@ -4,51 +4,52 @@
 
 ## Patlet
 
-When accepting contributions from outside of your own team, there is a natural aversion to taking responsibility for code not written by the team itself. Through the 30 Day Warranty the contributing team consents to provide bug fixes to the receiving team, which will increase the level of trust between both teams and makes it more likely that contributions get accepted.
+自分のチーム以外からのコントリビューションを受け入れる場合、チーム自身が書いたものではないコードに責任を持つことに自然な抵抗があります。30日保証を利用することで、コントリビューターチームは、受け取ったチームにバグフィックスを提供することを承諾することになり、両チーム間の信頼度が高まり、コントリビューターが受け入れられる可能性が高くなります。
 
 ## Problem
 
-A team develops a component which is used throughout an organization.  This team resists accepting or outright rejects contributions (feature requests).  This behavior blocks progress and leads to frequent disruption from escalations.
+あるチームが、組織全体で使用されるコンポーネントを開発している。 このチームは、貢献（機能要求）を受け入れることに抵抗したり、完全に拒否したりする。 この行動は、進捗を妨げ、エスカレーションによる頻繁な混乱につながる。
 
 ## Context
 
-- Teams depend on another team accepting their contributions so that a component produced by the receiving team can be used by the contributing team.
-- The receiving team does not have the resources, knowledge, permission, and/or inclination to write the contributed component/feature themselves.
+- チームは、受け取ったチームが作成したコンポーネントを貢献したチームが使用できるように、他のチームがその貢献を受け入れるかどうかに依存します。
+- 受け取る側のチームは、貢献したコンポーネントや機能を自分たちで書くためのリソース、知識、許可、および/または意欲を持っていない。
 
 ## Forces
 
-- There is distrust of contributions due to a past history of cheating: teams submitted half finished contributions and subsequently filed requests for fixes that make it ready for use in production.
-- If code is contributed from outside the team, the team has the natural suspicion that the other team does not know how to write code that would meet the teams expectations.
-- Each team looks first to help its own leaders achieve their own goals. This direction of loyalty can complicate resolution of this problem.
-- There is a natural aversion to taking responsibility for code not written by oneself.
-- Contributed needs to be heavily rewritten before being accepted into the codebase.
-- There is the fear of the contributors not being available for support with fixing bugs after the time on contribution.
-- Teams fear contributed code will lead to high(er) maintenance costs but do not know how to control for that.
-- Receiving teams may fear that teaching others how to contribute code will expose technical debt in their system and that visibility may be damaging.
-- Receiving teams may not believe that they will get acceptable code no matter how much mentoring they provide.
-- Either team may not feel confident in measuring risks or certifying that they are mitigated in a contribution; the system itself is somewhat brittle (may not be ways to fully test and catch all problems).
+- 過去に不正行為があったため、貢献に対する不信感がある：チームは中途半端に完成した貢献を提出し、その後、本番で使えるようにするための修正要求を提出した。
+- チーム外からコードを提供された場合、他のチームはチームの期待に応えるようなコードの書き方を知らないのではないかという当然の疑念を持つ。
+- 各チームは、自分のリーダーが自分の目標を達成するのを助けることを第一に考えます。この忠誠心の方向性が、この問題の解決を複雑にすることがある。
+- 自分で書いていないコードに責任を持つことに自然な嫌悪感がある。
+- コントリビューターは、コードベースに受け入れられる前に大きく書き直す必要がある。
+- 貢献した後、バグを修正するためのサポートが受けられなくなるのではないかという懸念がある。
+- 寄贈されたコードが高いメンテナンスコストにつながることを恐れているが、それをどのようにコントロールすればよいのかわからない。
+- 受け入れ側のチームは、他の人にコードを提供する方法を教えることで、自分たちのシステムの技術的負債が露呈し、それが見えることで損害が生じることを恐れている可能性がある。
+- 受け入れ側のチームは、いくら指導しても受け入れられるコードが得られるとは思っていないかもしれない。
+- どちらのチームも、リスクを測定したり、貢献によってリスクが軽減されたことを証明することに自信がないかもしれない。
+
 
 ## Solution
 
-Address the fears of both the receiving and the contributing teams by establishing a **30 day warranty period** starting with the time the contributed code goes into production. During this warranty period the contributing team consents to provide bug fixes to the receiving team.
+貢献したコードが本番稼動した時点から **30日間の保証期間** を設けることで、受け取り側と貢献した側の双方の不安に対処する。この保証期間中、寄贈チームは受領チームにバグフィックスを提供することに同意します。
 
-Note that the warranty period could be 45, 60, or 100 days too. The duration may vary based upon the constraints of the project, the software life cycle of the project, commitments to customers, and other factors.
+なお、保証期間は45日、60日、100日のいずれでもかまいません。この期間は、プロジェクトの制約、プロジェクトのソフトウェアライフサイクル、顧客との約束、その他の要因に基づいて変化する可能性があります。
 
-In addition it helps to provide clear [contribution guidelines](./project-setup/base-documentation.md), spelling out the expectations of the receiving team and the contributing team.
+さらに、受け取り側のチームと貢献する側のチームの期待値を明記した、明確な[貢献のガイドライン](./project-setup/base-documentation.md)を提供することも役に立ちます。
 
-![30 Day Warranty](../../assets/img/thirtydaywarranty.jpg)
+![30 Day Warranty](../../../assets/img/thirtydaywarranty.jpg)
 
 ## Resulting Context
 
-- The receiving team is willing to accept contributions and able to share the workload of initial adaptations/fixes.
-- Increased transparency and fairness.
-- Keeps escalations from becoming too heavyweight.
+- 受信側のチームが貢献を受け入れ、初期適応/修正の作業負担を分担することができる。
+- 透明性と公平性が高まる。
+- エスカレーションが重荷になりすぎないようにする。
 
 ## Known Instances
 
-- This was tried and proven successful at PayPal.
-- GitHub internally uses this pattern with a modified warranty timeline of 6 weeks.
-- Microsoft recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
+- これはPayPalで試みられ、成功したことが証明されています。
+- GitHubは社内でこのパターンを使っており、6週間という修正された保証タイムラインを使っています。
+- Microsoftはこのパターンを原則として推奨している。チームは自分たちのニーズと自信に見合った具体的な時間目標を設定する。
 
 ## Authors
 
@@ -68,4 +69,4 @@ In addition it helps to provide clear [contribution guidelines](./project-setup/
 
 ## Variants
 
-- Ensure cooperation of dependent teams by making them a community by having more than one, meritocratically appointed "[Trusted Committers](./trusted-committer.md)" (TCs) take responsibility.
+- 複数の、実力主義的に任命された "[Trusted Committers](./trusted-committer.md)"（TC）が責任を持つことで、依存するチームの協力をコミュニティ化することで保証する。

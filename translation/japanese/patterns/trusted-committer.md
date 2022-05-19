@@ -1,57 +1,57 @@
 ## Title
 
-Trusted Committer
+信頼できるコミッター
 
 ## Patlet
 
-Many InnerSource projects will find themselves in a situation where
-they consistently receive feedback, features, and bug-fixes from contributors.
-In these situations, project maintainers seek ways to recognize and reward the
-work of the contributor above and beyond single contributions.
+多くのInnerSourceプロジェクトは、以下のような状況に陥ります。
+彼らは一貫して貢献者からフィードバック、機能、およびバグフィックスを受け取ります。
+このような状況で、プロジェクトのメンテナは、単一の貢献以上に貢献者の仕事を認識し、報酬を与える方法を模索します。
+このような状況において、プロジェクトメンテナは、単一の貢献以上の貢献者の仕事を認識し、それに報いる方法を探します。
 
 ## Problem
 
-- Project maintainers want to find ways to scale their ability to support a project
-- Project maintainers want to find ways to lengthen the value delivered by a project
-- Project maintainers want to visibly reward frequent contributors and empower them to amplify their value contribution.
-- Lack of mechanism and language for recognizing contributions across teams within an organization
+- プロジェクトメンテナーは、プロジェクトをサポートする能力を拡張する方法を見つけたい
+- プロジェクトメンテナーは、プロジェクトが提供する価値を長くする方法を探したい
+- プロジェクトメンテナは、頻繁に貢献する人に目に見える形で報い、彼らの価値 貢献を増幅させる力を与えたいと考えている。
+- 組織内のチーム間の貢献を認識するための仕組みや言語がない
 
 ## Context
 
-- You are the maintainer of a cross-team library, service, or shared resource
-- You receive regular contributions
-- You receive regular feature requests
-- You receive regular bug-fix requests
-- There are motivated contributors looking to build expertise through InnerSource projects
+- あなたは、チーム横断的なライブラリ、サービス、または共有リソースのメンテナです。
+- 定期的にコントリビューションを受ける
+- 定期的に機能リクエストを受ける
+- 定期的にバグフィックス依頼がある
+- InnerSourceプロジェクトを通じて専門知識を身につけようとする意欲的な貢献者がいる。
 
 ## Forces
 
-- Over the lifecycle of a project, the focus of the maintainers may shift away to accommodate changing business priorities
-- Contributors seek visible recognition of their contributions, demonstrating value
-- Maintaining a project of reasonable complexity is taxing for a small team
-- Developing project features at scale is taxing for a small team
+- プロジェクトのライフサイクルの間に、メンテナーの焦点は、変化するビジネスプロフェッショナルに対応するために離れてシフトすることがあります。
+- 貢献者は、自分たちの貢献が目に見える形で認められ、価値を実証することを求めます。
+- 小規模なチームにとって、それなりに複雑なプロジェクトを維持するのは負担が大きい
+- プロジェクトの機能を大規模に開発することは、小規模なチームにとって負担となる
 
 ## Solution
 
-### Defining the Trusted Committer Role for a Project
+### プロジェクトの信頼されるコミッターの役割を定義する
 
-What a Trusted Committer handles is up to each project and its maintainers. Ensure you document within the project the scope of your Trusted Committer role. Clear documentation sets expectations for new community members and establishes the role for future candidates.
+Trusted Committer が何を担当するかは、各プロジェクトとそのメンテナ次第です。Trusted Committer の役割の範囲について、プロジェクト内で文書化することを忘れないようにしましょう。明確な文書化によって、新しいコミュニティのメンバーに対する期待値を設定し、将来の候補者のために役割を確立します。
 
-The following are a few guidelines for identifying a potential Trusted Committer:
+Trusted Committer の候補者を特定するためのガイドラインは以下のとおりです。
 
-* An active participant in community channels (Slack, JIRA issue triaging, etc.) becomes a Trusted Committer, thereby formalizing their role in community support.
-* Someone who frequently submits code, documentation, or other repository changes.  Start by including this person on pull requests. If they are actively engaging in pull requests, consider approaching them about opportunities for further collaboration on the project.
+* コミュニティチャンネル（Slack、JIRA issue triaging など）に積極的に参加している人は Trusted Committer になり、コミュニティサポートにおける役割を正式に決定することができます。
+* コード、ドキュメント、その他のリポジトリの変更を頻繁に提出する人。 この人物をプルリクエストに参加させることから始めましょう。この人が積極的にプルリクエストに参加している場合、プロジェクトでのさらなる協力の機会についてアプローチすることを検討してください。
 
-### Formalizing Trusted Committers
+### 信頼できるコミッターを正式に認定する
 
-The first step is to approach candidates about becoming a Trusted Committer.
-Maintainers should educate candidates on the role of a Trusted Committer. There is no expectation that candidates will accept the role of Trusted Committer. Each candidate
-should assess if they have the available bandwidth to take on the responsibilities.
+最初のステップは、Trusted Committer になることについて候補者にアプローチすることです。
+メンテナーは候補者に Trusted Committer の役割について教育する必要があります。候補者が Trusted Committer の役割を引き受けることを期待することはありません。各候補者は
+候補者は、自分がその責任を果たすために利用可能な帯域を持っているかどうかを判断する必要があります。
 
-When a candidate accepts the role, it is up to the project maintainers to
-publicly recognize the transition from user to Trusted Committer. It is also a
-good idea to add their name to a Trusted Committers section in your project's
-README.  As an example:
+候補者がその役割を引き受けた場合、プロジェクトのメンテナーは以下のことを行う必要があります。
+ユーザーから Trusted Committer への移行を公的に認めることです。また
+また、プロジェクトの README にある Trusted Committers セクションに彼らの名前を追加するのも良いアイデアです。
+に追加するのもよいでしょう。 例として
 
 ```markdown
 # project-name
@@ -73,57 +73,39 @@ README.  As an example:
 
 ### Maintaining Trusted Committer Relationships
 
-Once you formalize a new Trusted Committer, it is a good idea to keep them in the
-loop as you continue to iterate on your project. Keeping them in the loop can be as
-simple as inviting them to your project channel or as involved as including them in your
-planning sessions. More opportunities for involvement gives Trusted Committers
-a path to Maintainer if they so desire.
+Trusted Committer を正式に決めたら、 その人たちをプロジェクトの輪の中に入れておくとよいでしょう。プロジェクトの輪を保つには、プロジェクトチャンネルに招待するといった簡単なものから、企画セッションに参加させるといったものまであります。参加する機会を増やすことで、Trusted Committers が望めば Maintainer になる道も開けます。
 
-Besides keeping Trusted Committers informed, it is good to check in on a
-regular basis. A suggested cadence is to start with every week before gradually
-progressing to every few weeks. The purpose of these check-ins is to make sure the
-Trusted Committer feels supported in their new role. Analogous to a 1:1 with your
-manager, if there are any issues, listen and empathize to try and understand
-what is preventing the Trusted Committer from being successful. Always
-[thank the Trusted Committer for their continued effort][praise] in making the project successful and set a new date to check-in.
+信頼されたコミッターに情報を提供するだけでなく、定期的にチェックするのもよいでしょう。最初は一週間に一度、そして徐々に数週間に一度のペースを推奨します。これらのチェックインの目的は、Trusted Committer が新しい役割においてサポートされていると感じられるようにすることです。上司との1:1の会話と同じように、何か問題があれば、耳を傾け、共感して、トラステッドコミッターが成功するのを妨げているものを理解しようとします。プロジェクトを成功に導くために、常にトラスト・コミッターの継続的な努力に感謝し][賞賛し]、新しいチェックインの日付を設定すること。
 
 ### Sunsetting a Trusted Committer
 
-There are times which necessitate removing a Trusted Committer, such as if the Trusted
-Committer is:
+Trusted Committer が以下のような場合、Trusted Committer を削除しなければならないことがあります。
 
-* No longer willing to take part
-* No longer able to perform their duties
-* No longer employed by the company
+* 参加する意思がない
+* 職務を遂行することができなくなった
+* 会社に雇用されていない
 
-A plan for removing access to project resources should be agreed upon by both parties,
-including transitioning their entry in a project's **Trusted Committer** section to a
-list of past contributors.
+プロジェクトのリソースへのアクセス権を削除する計画については、両者で合意しておく必要があります。
+プロジェクトの **Trusted Committer** セクションにあるエントリーを過去の貢献者のリストに移行することも含めて、両者が合意する必要があります。
+過去の貢献者のリストに移行する。
 
-Upon removing access, [thank the Trusted Committer for
-their participation publicly][praise]. Public acknowledgment ensures clear
-communication of transition and continuity within the community.
+アクセス権を削除する際には、[Trusted Committerの参加に公に感謝する][賞賛する]。公に謝辞を述べることで、コミュニティ内での移行と継続性を明確に伝えることができます。
 
 ## Resulting Context
 
 ### For Contributors
 
-Achieving Trusted Committer status for a project demonstrates initiative in
-contributing to the community project. Recognition for these
-efforts can be used during annual reviews with managers.
+プロジェクトの Trusted Committer ステータスを取得することは、コミュニティプロジェクトに貢献するイニシアチブを示すことになります。このような努力は、上司との年次レビューで評価されることがあります。
 
 ### For Maintainers
 
-As a project matures, maintainers can become less familiar with key aspects
-of a project. Trusted Committers fill in these gaps, ensuring that all
-aspects of the project are better served over time.
+プロジェクトが成熟するにつれて、メンテナはプロジェクトの重要な側面をあまりよく知らなくなることがあります。Trusted Committers はそのようなギャップを埋め、プロジェクトのあらゆる側面でより良いサービスを提供できるようにします。
 
-A healthy set of Trusted Committers ensures that if project maintainers move on
-there is a plan for responsible stewardship.
+健全な Trusted Committers の集団は、メンテナンス担当者が異動した場合にも責任あるスチュワードシップのための計画があることを保証します。
 
 ## Known Instances
 
-This has been tried and proven successful at:
+これは試行錯誤の結果、以下の企業で成功します
 
 - Nike
 - PayPal
