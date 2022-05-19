@@ -1,34 +1,49 @@
-# Maturity Model
-
-### Title
+## Title
 
 Maturity Model
 
-### Patlet
+## Patlet
 
-Teams have started adopting InnerSource. The practice is spreading to multiple departments. However, the understanding of what constitutes an InnerSource project varies. The solution is to provide a maturity model to allow for teams to go through a self check and discover patterns and practices that they are not yet aware of.
+Teams have started adopting InnerSource. The practice is spreading to multiple
+departments. However, the understanding of what constitutes an InnerSource
+project varies. The solution is to provide a maturity model to allow for teams
+to go through a self check and discover patterns and practices that they are not
+yet aware of.
 
-### Problem
+## Problem
 
-When InnerSource adoption in an enterprise starts to increase, individual mentoring of each project through one evangelist becomes unfeasible. Also, more and more people are gaining at least a basic understanding of what it means to work in an InnerSource project. Looking at all InnerSource projects though the depth of understanding for the concept will diverge. Teams may not be aware of proven patterns that would help them move to the next level and solve issues and pain points that they are dealing with.
+When InnerSource adoption in an enterprise starts to increase, individual
+mentoring of each project through one evangelist becomes unfeasible. Also, more
+and more people are gaining at least a basic understanding of what it means to
+work in an InnerSource project. Looking at all InnerSource projects though the
+depth of understanding for the concept will diverge. Teams may not be aware of
+proven patterns that would help them move to the next level and solve issues and
+pain points that they are dealing with.
 
-### Context
+## Context
 
-Several teams have started adopting InnerSource practices. The exact level of understanding of the practice diverges between teams. The exact problems teams run into diverge depending on the context and working environment of each team. As a result the definition of what are important best practices in an InnerSource project differs depending on each team.
+Several teams have started adopting InnerSource practices. The exact level of
+understanding of the practice diverges between teams. The exact problems teams
+run into diverge depending on the context and working environment of each team.
+As a result the definition of what are important best practices in an
+InnerSource project differs depending on each team.
 
-### Forces
+## Forces
 
-Teams sharing InnerSource learnings run into misunderstandings as they are not aware of their respective level of InnerSource adoption.
+Teams sharing InnerSource learnings run into misunderstandings as they are not
+aware of their respective level of InnerSource adoption.
 
-Teams believe that "it's all about migrating to a shared software development [forge](https://en.wikipedia.org/wiki/Forge\_\(software\))" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
+Teams believe that "it's all about migrating to a shared software development
+[forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
 
-Teams are not aware of best practices that would help them solve issues that they run into in their daily doing.
+Teams are not aware of best practices that would help them solve issues that
+they run into in their daily doing.
 
-### Solution
+## Solution
 
 Ask teams to self assess against the proposed maturity model.
 
-#### Transparency
+### Transparency
 
 **Plans & Products**
 
@@ -75,7 +90,7 @@ When working in host teams mistakes will automatically be widely visible. In ord
 * ST-2: Individuals and teams are comfortable sharing stories of successes and failures during retrospectives and reviews.
 * ST-3: Individuals and teams are comfortable sharing stories of successes and failures, and learn from failures according to formal protocols.
 
-#### Collaboration
+### Collaboration
 
 **Channels for Providing Feedback**
 
@@ -86,7 +101,8 @@ Ideally you will end up with proper communication channels that are known by any
 * CF-0: There are no processes nor established channels. Some members of the organization share materials via private channels or discussions.
 * CF-1: The organization is in the process of establishing internal guidelines and channels for encouraging diverse points of view about company/departmental decisions, so that anyone belonging to the organization can use them. Some members of the organization share decision-making materials informally using unofficial platforms. Leaders maintain at least one clear and direct channel for organization members to share opinions constructively on some matters relevant to their work.
 * CF-2: The organization has established internal guidelines and channels, and provides specific resources (training programs, access to content, etc.), for encouraging and soliciting diverse points of view on team or decisions.
-* CF-3: Members of the organization share decision-making materials on officially sanctioned platforms Members of the organization share materials openly via multiple channels and methods for feedback. Leaders use those channels themselves, openly encourage others to use them, and maintain team-facing or public-facing records of the feedback they've received and/or the actions they've taken to address this feedback.
+* CF-3: Members of the organization share decision-making materials on officially sanctioned platforms Members of the organization share materials openly via multiple channels and methods for feedback.
+Leaders use those channels themselves, openly encourage others to use them, and maintain team-facing or public-facing records of the feedback they've received and/or the actions they've taken to address this feedback.
 
 **Leadership**
 
@@ -115,7 +131,7 @@ The goal with designing contributions patterns needs to keep collaboration in mi
 * CB-2: Members of the organization and teams actively seek opportunities to collaborate. Teams routinely discuss, revisit and debate the outcomes of their collaborative efforts, and make these outcomes available by default.
 * CB-3: Members of the organization collaborate both internally and externally in ways that benefit all involved. Teams routinely discuss, revisit and debate the outcomes of their collaborative efforts, and share their learnings outside the organization, and make these outcomes externally available by default.
 
-#### Community
+### Community
 
 **Sharing Policies**
 
@@ -135,7 +151,7 @@ One of the possible reasons for introducing InnerSource into organisations can b
 * PA-2: Members of the organization feel comfortable sharing their thoughts and opinions without fear of retribution. Leaders demonstrate dedication to the organization's shared values.
 * PA-3: The organization is proactive in telling members that it benefits from their contributions; as such, members demonstrate shared consciousness and empowered execution, and feel a sense of responsibility to the community. Leaders understand that they grow by helping others grow, and they mentor junior members of the organization.
 
-#### Governance
+### Governance
 
 **Rewards**
 
@@ -161,7 +177,7 @@ Not only should feature development be owned by InnerSource teams - support and 
 
 * SM-0: Support given by the core dev or support team. A business contract guaranties the support. There is no knowledge about the product outside the team.
 * SM-1: There are rules and regulations to formalize the support on the product, given by a dedicated supporting team.
-* SM-2: Support for InnerSource contributions is formalized through InnerSource patterns like [30 Day Warranty](../../../patterns/2-structured/30-day-warranty.md) or [Service vs. Library](../../../patterns/2-structured/service-vs-library.md).
+* SM-2: Support for InnerSource contributions is formalized through InnerSource patterns like [30 Day Warranty](./30-day-warranty.md) or [Service vs. Library](./service-vs-library.md).
 * SM-3: There are rules and regulations to formalize the support on the product, given by a mature community.
 
 **Culture**
@@ -182,36 +198,38 @@ InnerSource comes with explicit roles. While in early stages some patterns may b
 * RO-2: An InnerSource Officer role is in charge of governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for dev team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
 * RO-3: Evangelists are moving inside organization, to let others know about the current work, what InnerSource does and how to do it, and help others to understand and become part of the initiative. Non technical contributors appear.
 
-### Resulting Context
+## Resulting Context
 
 All teams are aware of available best practices.
 
 Teams understand their level of InnerSource adoption.
 
-Prior to adopting InnerSource as a working model, teams are aware of the practices that are expected of them - both in the short term and in the long term.
+Prior to adopting InnerSource as a working model, teams are aware of the
+practices that are expected of them - both in the short term and in the
+long term.
 
-### Known Instances
+## Known Instances
 
 * Entelgy
 * Zylk
 * Bitergia
 
-### Authors
+## Authors
 
 * Daniel Izquierdo Cortazar
 * Isabel Drost-Fromm
 * Jorge
 * Nerea
 
-### Acknowledgements
+## Acknowledgements
 
 * Alexander Andrade (special thanks for the spelling fixes)
 
-### Alias
+## Alias
 
 Maturity model: Learn about InnerSource best practices
 
-### Status
+## Status
 
 * Structured
 * Drafted in September 2019

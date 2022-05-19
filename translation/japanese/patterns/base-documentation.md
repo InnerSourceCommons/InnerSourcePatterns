@@ -1,22 +1,20 @@
-# Standard Base Documentation
-
-### Title
+## Title
 
 Standard Base Documentation
 
-### Patlet
+## Patlet
 
 New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like `README.md`/`CONTRIBUTING.md` enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.
 
-### Problem
+## Problem
 
 A team wants to share either a freshly started or a pre-existing project with the wider organization and receive contributions to it. Potential contributors often are lost: They are failing to identify the team's preferred communication channels. They have trouble quickly making a judgment about whether a new feature makes sense to be added or not. They have a hard time understanding exactly which colleagues are currently actively maintaining the project.
 
-### Context
+## Context
 
 A project is to be shared with others as an InnerSource project. In order for others to be able to understand what the project is about as well as how to contribute, the project needs to provide some base level documentation. So far the project is lacking either all documentation or some aspects needed for users to try it out in a self-service manner as well as for contributors to get up to speed quickly.
 
-### Forces
+## Forces
 
 * The project was converted into an InnerSource project only recently. Before, users were either only internal or on-boarded in personal face-to-face sessions. Equally, people working on the project went through personal on-boarding sessions which do not scale with growing numbers of contributors or remote contributors. As a result, self service documentation is lacking.
 * The project was newly created as an InnerSource project. However the host team lacks experience with InnerSource. As a result they need guidance on which information to include in their documentation, where to put that documentation so others can find it and which types of readers to address in their documentation.
@@ -28,11 +26,11 @@ A project is to be shared with others as an InnerSource project. In order for ot
 * The added work for repeated explanations and re-writes diminishes the usefulness of the InnerSource approach.
 * Frequent escalations due to extra work and delays due to re-writes lead to a big cheese situation.
 
-### Solution
+## Solution
 
 Address the need for clearer documentation for new contributors. The goal when creating this documentation should be to make getting started as much a self service process as possible with frequently asked questions answered in standard documentation format.
 
-#### README.md
+### README.md
 
 If it does not yet exist, create a `README.md` for your project. It should contain:
 
@@ -45,7 +43,7 @@ If it does not yet exist, create a `README.md` for your project. It should conta
 * A "Who we are" section explaining who the [Trusted Committers](../../../patterns/2-structured/trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
 * An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists.
 
-#### CONTRIBUTING.md
+### CONTRIBUTING.md
 
 If the explanation of the steps to make a contribution are too involved, create a separate `CONTRIBUTING.md` document. This document should answer frequently asked questions that contributors have asked in the past. There is no need to provide a comprehensive book up front. Rather, share information that has proven needed by contributors. Likely it will touch upon one or more of the following topics:
 
@@ -62,31 +60,31 @@ There are many of good examples for how to write a `README.md` and what kind of 
 
 In addition to that, this pattern comes with two very basic templates to get you started right away: [README-template.md](../../../patterns/2-structured/project-setup/templates/README-template.md) and [CONTRIBUTING-template.md](../../../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
 
-### Resulting Context
+## Resulting Context
 
 * The time for contributors to get up to speed is significantly reduced.
 * Time spent on answering initial questions for [Trusted Committers](../../../patterns/2-structured/trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
 * Escalations due to misunderstandings and misalignment are significantly reduced.
 
-### Known Instances
+## Known Instances
 
 * Europace AG - See blog post [InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
 * Paypal Inc.
 
-### Authors
+## Authors
 
 * Isabel Drost-Fromm
 
-### Alias
+## Alias
 
 Provide standard base documentation through a README
 
-### Status
+## Status
 
 * Structured
 * Drafted in December 2019.
 
-### References
+## References
 
 * [README-template.md](../../../patterns/2-structured/project-setup/templates/README-template.md) and
 * [CONTRIBUTING-template.md](../../../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
