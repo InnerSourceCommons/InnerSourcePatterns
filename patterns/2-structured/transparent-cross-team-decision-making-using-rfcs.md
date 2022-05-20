@@ -97,7 +97,7 @@ Also for decision making outside of pure software design decisions, transparent 
 - **Europace** - As described in Open Organization: [Setting cross-team standards and best practices in the open][europace].
 - **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via RFCs: Writing Things Down][uber].
 - **Google Design Docs** - As described in this blog post by Malte Ubl [Design Docs at Google][google]
-- **DAZN** - One way that DAZN makes technical decisions is via RFCs. RFCs are used for decisions that apply to engineering-wide processes only! The RFCs live in a GitHub repository, and technical standards are then gradually adopted within our tools and by our engineers in the company. An RFC can be raised by any engineer, and voted on by all engineers. If upvotes exceed downvotes, the RFC is adopted. It’s worth noting, that the RFC voting process hasn’t yet been “stress-tested” by any contentious decisions. - As described in this blog post by Lou Bichard: [Building A DX Team: Lessons Learned][dazn]
+- **DAZN** - One way that DAZN makes technical decisions is via RFCs. RFCs are used for decisions that apply to engineering-wide processes only! The RFCs live in a GitHub repository, and technical standards are then gradually adopted within their tools and by their engineers. An RFC can be raised by any engineer, and voted on by all engineers. If upvotes exceed downvotes, the RFC is adopted. It’s worth noting, that the RFC voting process hasn’t yet been “stress-tested” by any contentious decisions. - As described in this blog post by Lou Bichard: [Building A DX Team: Lessons Learned][dazn]
 
 ## Status
 
