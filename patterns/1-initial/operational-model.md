@@ -63,7 +63,6 @@ If applied, this model brings more transparency to any of the decision making pr
 * Igor Zubiaurre
 * Daniel Izquierdo Cortázar
 
-
 ## Acknowledgements (optional)
 
 ## Alias (optional)
