@@ -36,9 +36,9 @@ The following is an example of a tentative pattern solution related to this. Exi
 
 The proposed solution is a simplified version of a Software Development Lifecycle. This pattern works on three main areas for the software development life cycle that are:
 
-a) Inception where the idea is discussed and specified (e.g., as user story),
-b) Build where the developer collaboration takes place with other developers, where the user story is translated into code, and
-c) usage as the moment in time the software is producing value at the final end users even in other business units or departments.
+1. Inception where the idea is discussed and specified (e.g., as user story),
+2. Build where the developer collaboration takes place with other developers, where the user story is translated into code, and
+3. Usage as the moment in time the software is producing value at the final end users even in other business units or departments.
 
 These three main areas should at the same time comply with the InnerSource principles (transparency, collaboration, community, etc.).
 
