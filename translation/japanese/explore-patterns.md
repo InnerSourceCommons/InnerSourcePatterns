@@ -1,19 +1,18 @@
 # パターンを探る
 
-InnerSource Commonsのコミュニティから、どんどんパターンが寄稿されています。それは素晴らしいことです!
+とても素晴らしいことに、インナーソース・コモンズのコミュニティから、どんどんパターンが寄稿されています！
 
-今、どのように読者が彼らの特定の状況でそれらを助けることができるパターンを発見するためにそれを容易にするために？
+さて、ではどのように特定の自分の状況に役立つパターンを読者は簡単に見つけられるでしょうか？そこで私たちはこのマインドマップを提供します。
+このマインドマップは、**インナーソースのさまざまなフェーズと、それぞれのフェーズで現れる可能性のある課題に基づいてパターンを分類しています。**
 
-この目的のために我々はこのマインドマップを提供します。これは、インナーソースプログラムの様々なフェーズ**と、それぞれのフェーズで現れるかもしれない課題に基づいてパターンを**分類しています。
-
-![インナーソースパターンのマインドマップ](../../pattern-categorization/innersource-program-mind-map.png)
+![インナーソース・パターンのマインドマップ](../../pattern-categorization/innersource-program-mind-map.png)
 
 ## このマインドマップを改善する
 
-もしこのマインドマップで何かおかしいと感じたら、[open an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) に問題点と修正すべき点を書いてください。
+もし、このマインドマップを何かおかしいと感じた場合、その問題点と修正すべき点を記述した[イシューを作成](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues)してください。
 
-さらに、これらのパターンの発見力を向上させるための他のアイデアがある場合、またはこのマインドマップをより良くしたい場合は、我々の[パターン分類](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)のアプローチのドキュメントを確認し、[この本への貢献](../../book/contribute.md)の方法も確認してみてください。
+さらに、これらのパターンの発見性を向上させるための他のアイデアや、このマインドマップをより良くしたい場合は、[パターン分類](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)アプローチのドキュメントを確認し、[この本への貢献](../../book/contribute.md)の方法も確認してみてください。
 
 ## References
 
-The idea for categorizing patterns like this is loosely based a description in [Thoughts on an InnerSource Pattern Language](https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view) by Tim Yao, Bob Hanmer and Padma Sudarsan (2018). For specifics see slide 15 in that slide deck.
+このようにパターンを分類するアイデアは、Tim Yao さん、Bob Hanmer さん、Padma Sudarsanshi さんによる[Thoughts on an InnerSource Pattern Language](https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view) (2018) の記述を大まかに元にしています。具体的な内容はそのスライドデックの15ページ目をご覧ください。
