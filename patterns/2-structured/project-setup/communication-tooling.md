@@ -4,8 +4,8 @@ Communication Tooling
 
 ## Patlet
 
-An InnerSource project is being used outside the original development team but users are having trouble getting help and getting in touch with the project team.
-The idea is to set up and document standard communication tooling that allows for discussions to become visible, archived and searchable.
+The users of an InnerSource project have trouble getting help and getting in touch with the project team.
+By consistently using asynchronous communication tooling, the project makes discussions visible, archived and searchable, leading to an improved level of support for users.
 
 ## Problem
 
