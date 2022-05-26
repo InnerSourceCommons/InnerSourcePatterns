@@ -34,14 +34,15 @@ archived, searchable, linkable communication channels that anyone in the company
 
 The goal when streamlining communication channels for InnerSource projects
 should be to align communication around topics, not around certain sets of
-people:
+people.
 
-- The project should have its own issue tracker where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow.
-- The project should have one or more discussion channels that come with less rigid a structure. Typically, this will be mailing lists, online forums or even archived chat channels. Usually it is enough to start with just one channel for the project, if traffic increases too much it's helpful to split discussions about project usage from discussions about project development.
-- In addition, the project should have one private channel where sensitive communication can happen between [Trusted Committers](../trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
+A project should set up the following communication tooling:
 
-While communication can happen outside of written channels, as much information
-as possible should be brought back to the asynchronous channels.
+1. **a dedicated issue tracker** where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow.
+2. **one or more public discussion channels** that come with less rigid a structure. Typically, this will be mailing lists, online forums or even archived chat channels. Usually it is enough to start with just one channel for the project. If traffic increases too much it is helpful to split discussions about project usage from discussions about project development.
+3. **a private channel** where communication about sensitive topics can happen between [Trusted Committers](../trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
+
+While communication can happen outside of those written channels, as much information as possible should be brought back to the asynchronous channels.
 
 All communication channels should be documented in the project `README.md`. The
 host team members need to make an effort to direct questions that they receive
