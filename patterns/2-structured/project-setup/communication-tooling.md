@@ -46,7 +46,7 @@ While communication can happen outside of those written channels, as much inform
 
 All communication channels should be documented in the project `README.md`. For more details on the use of this file see [Standard Base Documentation](./base-documentation.md).
 
-The host team members need to make an effort to direct questions that they receive personally back to official communication channels.
+The host team members need to make an effort to direct questions that they receive personally (e.g. via email or private chat messages) back to official communication channels.
 
 ## Resulting Context
 
