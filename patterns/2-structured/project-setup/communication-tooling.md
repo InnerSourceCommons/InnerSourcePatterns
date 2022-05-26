@@ -9,12 +9,6 @@ users are having trouble getting help and getting in touch with the project
 team. The idea is to set up and document standard communication tooling that
 allows for discussions to become visible, archived and searchable.
 
-## Context
-
-A team depends on another team's component. It would like to make contributions
-to that component. Even when it happens in writing, communication happens in a
-1-on-1 fashion.
-
 ## Problem
 
 A team is open to receiving contributions from downstream users of their
@@ -22,6 +16,12 @@ component. Coordination and communication happens in an ad-hoc fashion though
 leading to incoherent information being shared, delays in answers received,
 contributors pinging multiple host team members before receiving a definitive
 answer.
+
+## Context
+
+A team depends on another team's component. It would like to make contributions
+to that component. Even when it happens in writing, communication happens in a
+1-on-1 fashion.
 
 ## Forces
 
