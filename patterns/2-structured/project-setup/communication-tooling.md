@@ -38,15 +38,15 @@ people.
 
 A project should set up the following communication tooling:
 
-1. **a dedicated issue tracker** where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow.
+1. **a dedicated issue tracker** where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow. (For even for applications of the issue tracker see [Issue Tracker Use Cases](./issue-tracker.md)).
 2. **one or more public discussion channels** that come with less rigid a structure. Typically, this will be mailing lists, online forums or even archived chat channels. Usually it is enough to start with just one channel for the project. If traffic increases too much it is helpful to split discussions about project usage from discussions about project development.
 3. **a private channel** where communication about sensitive topics can happen between [Trusted Committers](../trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
 
 While communication can happen outside of those written channels, as much information as possible should be brought back to the asynchronous channels.
 
-All communication channels should be documented in the project `README.md`. The
-host team members need to make an effort to direct questions that they receive
-personally back to official communication channels.
+All communication channels should be documented in the project `README.md`. For more details on the use of this file see [Standard Base Documentation](./base-documentation.md).
+
+The host team members need to make an effort to direct questions that they receive personally back to official communication channels.
 
 ## Resulting Context
 
