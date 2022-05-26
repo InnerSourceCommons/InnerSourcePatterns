@@ -30,8 +30,7 @@ to that component. Even when it happens in writing, communication happens in a
 ## Solution
 
 The host team needs to be clear on the benefit of providing company-public,
-archived, searchable, linkable communication channels that are free to subscribe
-to by anyone in the company.
+archived, searchable, linkable communication channels that anyone in the company can subscribe to.
 
 The goal when streamlining communication channels for InnerSource projects
 should be to align communication around topics, not around certain sets of
