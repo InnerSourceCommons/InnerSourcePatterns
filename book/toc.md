@@ -60,7 +60,7 @@ Instead edit toc_template.md
   * [パターンの一覧](../translation/japanese/explore-patterns.md)
   * [この本へのコントリビューション](../translation/japanese/contribute.md)
   * Patterns
-    * [30 Day Warranty](../translation/japanese/patterns/30-day-warranty.md) - 自分のチーム以外からのコントリビューションを受け入れる場合、チーム自身が書いたものではないコードに責任を持つことに自然な抵抗があります。30日保証を利用することで、コントリビューターチームは、受け取ったチームにバグフィックスを提供することを承諾することになり、両チーム間の信頼度が高まり、コントリビューターが受け入れられる可能性が高くなります。
+    * [](../translation/japanese/patterns/30-day-warranty.md) - 
     * [Common Requirements](../translation/japanese/patterns/common-requirements.md) - 共有リポジトリにある共通のコードは、それを使いたいすべてのプロジェクトチームのニーズを満たしていません。これは、要件の調整とリファクタリングによって解決されます。
     * [Communication Tooling](../translation/japanese/patterns/communication-tooling.md) - InnerSourceのプロジェクトは、元の開発チームの外で使用されていますが、ユーザーはヘルプを得たり、プロジェクトチームと連絡を取るのに苦労しています。このアイデアは、ディスカッションが可視化され、アーカイブされ、検索可能になることを可能にする標準的なコミュニケーションツールを設定し、文書化することです。
     * [Contracted Contributor](../translation/japanese/patterns/contracted-contributor.md) - InnerSourceに貢献したいアソシエイツは、彼らのライン管理によってそうすることから落胆しています。救済は、正式な契約や協定によって提供されています。
