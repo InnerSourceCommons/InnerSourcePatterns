@@ -27,7 +27,7 @@ Customer deadlines and delivery commitments for feature content do not change.
 
 ✔️ Crowd-based testing and debugging saves time (and improves quality)
 
-✔️ The collaboration and synergy of inner sourcing can generate new, innovative features  .
+✔️ The collaboration and synergy of inner sourcing can generate new, innovative features 
 
 ✔️ Test Driven Development could mitigate some of the above forces
 
