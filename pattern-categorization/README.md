@@ -26,9 +26,11 @@ Then create a PR with your changes. This triggers an [action](https://github.com
 
 To test your changes locally, you can also generate the mind map yourself like this:
 
+We are using `node 12.x` at the moment.
+
 ```
 npm install -g markmap-cli
-markmap innersource-program-mind-map.md
+npx markmap --no-toolbar innersource-program-mind-map.md
 ```
 
 ## Future Ideas for Categorization
