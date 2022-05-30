@@ -6,21 +6,21 @@
 
 InnerSourceの取り組みを期間限定の実験として開始することで、InnerSourceに馴染みのない管理職が賛同し、取り組みをサポートしやすくします。
 
-## Problem
+## 問題
 
 InnerSourceイニシアチブは、経営陣がその結果について不明であり、その結果、投資にコミットすることを望んでいないので、検討されているが、開始されていません。
 
-## Context
+## 状況
 
 会社は、ソフトウェアプロジェクトにおけるコラボレーションの効率を高めるために、InnerSourceを検討している。しかし、ほとんどの管理者は、オープンソースの作業モデルに精通しておらず、代わりに階層的な、トップダウンの制御スタイルの管理に慣れている。InnerSourceのアイデアは、社内のソフトウェア開発者に非常に人気があり、少なくとも多くの開発者がオープンソースソフトウェアを使用しているか、積極的に開発しているためです。
 
-## Forces
+## ブロッカーと成りうるちから (Forces)
 
 - マネージャーは、長期的な投資を行う前に、InnerSourceを通じて改善されたコラボレーションの主張を検証したいと思うでしょう。これは通常、改善を測定することが含まれます。
 - InnerSourceイニシアチブは、おそらく開発者の間で巨大なアップセットを持つことになり、多くのプロジェクトがそれに依存する可能性がある場合、それをシャットダウンする決定は非常に不人気で、したがって行うのは難しいでしょう。コントロールの認識結果損失はあってもInnerSourceで開始するためにいくつかのマネージャーを阻止するかもしれません。
 - InnerSourceスタイルの作業モデルを実装することは、しばしば以前に実践されている作業モデルから抜本的な出発です。それは、したがって、既存の、必須のプロセスは、もはや適用されないと適切な統治プロセスが欠落していること、可能性があります。その結果、規制、時には法的規制のない場所で活動しなければならなくなるかもしれません。例えば、複数の国に複数の法人を持つ大企業では、税務や輸出管理関連の規制がその例です。
 
-## Solution
+## ソリューション
 
 InnerSourceイニシアチブを期間限定の実験として宣言する。InnerSource実験に参加するためのプロジェクトの基準を定義し、伝える。健全なコミュニティを構築する機会を最大化するような基準を選択する。実験のコンテキスト内でそこから生成された洞察は、直感的に他の潜在的なInnerSourceプロジェクトを含むコンテキストに適用することができる場合、基準のセットは良いものです。
 
@@ -34,7 +34,7 @@ InnerSourceイニシアチブを期間限定の実験として宣言する。Inn
 
 実験の終わりを、_pivot_、_change_、_pause_のいずれかに指定し、再評価を行うことを検討する。また、参加を通じて経営陣の賛同を得る可能性を高めるために、[レビュー委員会](review-committee.md)を設置することを検討する。企業文化にもよりますが、実験に適切なメトリクスを伴うと便利です [First Steps With Metrics](../1-initial/introducing-metrics-in-innersource.md). 実験のプロジェクトが企業の収益に直接的な影響を与えない場合、その価値貢献を強調するために[Cross-Team Project Valuation](crossteam-project-valuation.md) を導入することを検討する。
 
-## Resulting Context
+## 結果の状況
 
 マネージャーは、次の理由でInnerSourceをキックスタートさせることができます。
 
@@ -51,19 +51,19 @@ InnerSourceの実験の参加者は、彼らがInnerSourceは約束された利�
 
 - _Trial Run_ (from the book [Fearless Change](https://fearlesschangepatterns.com/))
 
-## Known Instances
+## 事例
 
 - Robert Bosch GmbH (globally distributed software development)
 
-## Status
+## ステータス
 
 * Structured
 
-## Author
+## 著者
 
 - Georg Grütter (Robert Bosch GmbH)
 
-## Acknowledgements
+## 謝辞
 
 - Jason Zink (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)

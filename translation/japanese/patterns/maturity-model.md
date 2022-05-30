@@ -10,7 +10,7 @@ project varies. The solution is to provide a maturity model to allow for teams
 to go through a self check and discover patterns and practices that they are not
 yet aware of.
 
-## Problem
+## 問題
 
 When InnerSource adoption in an enterprise starts to increase, individual
 mentoring of each project through one evangelist becomes unfeasible. Also, more
@@ -20,7 +20,7 @@ depth of understanding for the concept will diverge. Teams may not be aware of
 proven patterns that would help them move to the next level and solve issues and
 pain points that they are dealing with.
 
-## Context
+## 状況
 
 Several teams have started adopting InnerSource practices. The exact level of
 understanding of the practice diverges between teams. The exact problems teams
@@ -28,7 +28,7 @@ run into diverge depending on the context and working environment of each team.
 As a result the definition of what are important best practices in an
 InnerSource project differs depending on each team.
 
-## Forces
+## ブロッカーと成りうるちから (Forces)
 
 Teams sharing InnerSource learnings run into misunderstandings as they are not
 aware of their respective level of InnerSource adoption.
@@ -39,7 +39,7 @@ Teams believe that "it's all about migrating to a shared software development
 Teams are not aware of best practices that would help them solve issues that
 they run into in their daily doing.
 
-## Solution
+## ソリューション
 
 Ask teams to self assess against the proposed maturity model.
 
@@ -198,7 +198,7 @@ InnerSource comes with explicit roles. While in early stages some patterns may b
 * RO-2: An InnerSource Officer role is in charge of governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for dev team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
 * RO-3: Evangelists are moving inside organization, to let others know about the current work, what InnerSource does and how to do it, and help others to understand and become part of the initiative. Non technical contributors appear.
 
-## Resulting Context
+## 結果の状況
 
 All teams are aware of available best practices.
 
@@ -208,28 +208,28 @@ Prior to adopting InnerSource as a working model, teams are aware of the
 practices that are expected of them - both in the short term and in the
 long term.
 
-## Known Instances
+## 事例
 
 * Entelgy
 * Zylk
 * Bitergia
 
-## Authors
+## 著者
 
 * Daniel Izquierdo Cortazar
 * Isabel Drost-Fromm
 * Jorge
 * Nerea
 
-## Acknowledgements
+## 謝辞
 
 * Alexander Andrade (special thanks for the spelling fixes)
 
-## Alias
+## その他の呼び方
 
 Maturity model: Learn about InnerSource best practices
 
-## Status
+## ステータス
 
 * Structured
 * Drafted in September 2019

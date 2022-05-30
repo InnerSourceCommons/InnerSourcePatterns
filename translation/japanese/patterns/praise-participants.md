@@ -7,25 +7,25 @@
 インナーソースの貢献の後、その時間と努力に対して貢献者に感謝することは重要です。
 このパターンは、貢献を効果的に認めるだけでなく、貢献者や他の人たちのさらなる関与を引き出すためのガイダンスを提供します。
 
-## Problem
+## 問題
 
 プロジェクトに貢献してくれたインナーソースの貢献者に対して、どのように感謝の気持ちを表せばいいのでしょうか?
 感謝の気持ちを伝えることを忘れてしまったり、適切な効果や誠意を示すための言葉や媒体を知らなかったりしがちです。
 賞賛と感謝は、貢献者とそのマネージャーのモチベーションを維持し、継続することに興奮するための簡単で手頃な方法です。
 この分野のパターンがあれば、簡単に実行でき、メッセージが明確かつ誠実に伝わるようになります。
 
-## Context
+## 状況
 
 * あなたはインナーソースプロジェクトの [Trusted Committer](./trusted-committer.md) あるいはメンテナーです。
 * あなたは、貢献者のコミュニティを大切にし、それを維持・発展させたいと考えています。
 
-## Forces
+## ブロッカーと成りうるちから (Forces)
 
 * あなたは忙しいので、賞賛や感謝のようなソフトタッチを忘れがちです。
 * あなたは、社交的な状況や言葉遣いが得意な人ではないかもしれません。
 * 仕事への満足度やキャリア開発には、仲間からの評価が非常に重要です。
 
-## Solutions
+## ソリューション
 
 他人から認められることは、誰にとっても気持ちの良いことです。
 プロフェッショナルな場では、認知度の向上は、影響力や成長への道筋にもなります。
@@ -49,7 +49,7 @@ Example:
 わずかな時間だったかもしれませんが、このような各人の配慮があるからこそ、RCSプロジェクトは私たち全員のために機能しているのです。
 自分自身の問題を解決することで、_rcs-viewer_をより良いものにすることができ、ありがとうございました。
 
-## Resulting Context
+## 結果の状況
 
 このようなフィードバックは、貢献者に素晴らしい気持ちを残し、また戻ってくる準備ができています。
 両方の感謝の言葉を組み合わせることで、仲間の前でも（幅）、直属の上司の前でも（深さ）認めてもらうことができます。
@@ -65,19 +65,19 @@ Example:
 
 * _Just Say Thanks_ (from the book [_Fearless Change_](https://fearlesschangepatterns.com/))
 
-## Known Instances
+## 事例
 
 * Nike (multiple projects)
 
-## Status
+## ステータス
 
 * Structured
 
-## Author(s)
+## 著者(s)
 
 * Russ Rutledge
 
-## Acknowledgements
+## 謝辞
 
 * [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real".
 * [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of a "qualified" thank you.
