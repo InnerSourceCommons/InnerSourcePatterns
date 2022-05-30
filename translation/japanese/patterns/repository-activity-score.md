@@ -6,7 +6,7 @@
 
 潜在的な貢献者は、彼らの助けを必要とするアクティブなInnerSourceプロジェクトを見つけたいと思っています。各プロジェクトのリポジトリ活動スコアを計算することで、プロジェクトのランク付けされたリストを作成することができます（例：[InnerSource Portal](innersource-portal.md) ）、そのため、潜在的貢献者は、彼らが貢献したいプロジェクトをより簡単に決定できます。
 
-## Problem
+## 問題
 
 **InnerSourceのプロジェクトはどのような順番で表示されるのでしょうか？GitHub Stars*, *Number of Forks*, *Number of Commits*, *Lines of Code*, *Last Update* などの典型的なランキング KPI は、プロジェクトの活動状況を簡潔に示すには十分ではありません。
 
@@ -15,7 +15,7 @@
 プロジェクトの活動レベルについて、信頼性が高く汎用性のあるスコアを定義するために、いくつかのKPIから派生した新しい評価指標が必要である。
 この指標は、プロジェクトの活動レベルに応じて、プロジェクトを分類するために使用される。
 
-## Story
+## 物語
 
 InnerSourceが長い間実践されているか、プロジェクトの特定の数（意味のある閾値を与えるために50としましょう）を超えてスケールしている場合、それは現在最も人気のあるとアクティブInnerSourceプロジェクトを見つけることは困難である。長い間存在するプロジェクトはよく知られていますが、もはや非常にアクティブではないかもしれません。一方、かなり新しいプロジェクトは、まだ評判や活発なコミュニティを持っていません。
 
@@ -23,23 +23,23 @@ InnerSource プロジェクトのリストは、静的なリソースと考え�
 
 このプロトタイプは驚くほどうまく機能し、プロジェクトの活動状況に応じて常に変化する順序を決定します。
 
-## Context
+## 状況
 
 InnerSourceプロジェクトの発見は、[InnerSource Portal](innersource-portal.md) と [Gig Marketplace](gig-marketplace.md) パターンで促進されるか、他のコミュニケーションチャンネルやプラットフォームでプロジェクトを促進することで可能になります。活動スコアは、プロジェクトがコミュニティに提示されるデフォルトの順序を定義しています。
 
-## Forces
+## ブロッカーと成りうるちから (Forces)
 
 GitHub API で取得できる自動化された KPI は、真実の一部でしかありません。コードの品質や優れたドキュメントの有無、活発で助け合うコミュニティなど、そのプロジェクトが楽しく貢献できる場所であるかどうかはどうでしょうか。
 
 このような「ソフトな」KPIは、手動または半自動で計算と結果のスコアに追加する必要があります。もし、コードカバレッジレポートのような、リポジトリにより多くのコンテキストを提供するツールがあれば、簡単に取り入れることができます。
 
-## Sketch
+## スケッチ
 
 リポジトリ活性度スコアのエコシステム](../../assets/img/repository_activity_score.png)
 
 リポジトリ活性度スコアの計算と適用を一元化したもの。詳しくは、【結果コンテキスト】(#resulting-context)をご覧ください。
 
-## Solutions
+## ソリューション
 
 リポジトリ活性度スコアは、InnerSourceプロジェクトの（GitHub）活性度を表す数値です。GitHubスター、ウォッチ、フォークなどのリポジトリ統計から自動的に導き出され、他のツールからのKPIや手動評価でリッチ化されることもあります。
 
@@ -100,7 +100,7 @@ function calculateScore(repo) {
 }
 ```
 
-## Resulting Context
+## 結果の状況
 
 貢献者は、InnerSourceプロジェクトに自分の時間の一部をコミットするために自由である。彼らはとにかく彼らの通常のチームでの作業のために依存しているプロジェクトに貢献することを選択することがあります。しかし、彼らはまた、彼らの興味や個人的な開発目標に基づいて、完全に異なるものに貢献することを選択することができます。
 
@@ -112,19 +112,19 @@ function calculateScore(repo) {
 
 リポジトリ活性度スコアは、GitHub API に基づくシンプルな計算です。完全に自動化することができ、新しい要件にも簡単に対応することができます。
 
-## Known Instances
+## 事例
 
 * SAPのInnerSourceプロジェクトポータルで、InnerSourceプロジェクトのデフォルトの順序を定義するために使用されます。2020年7月に初めて作成され、それ以来、頻繁に微調整や更新が行われている。2020年7月にInnerSourceCommonsに提案したところ、このパターンが出現した。また、[Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6) もご参照ください。
 
-## Status
+## ステータス
 
 * Structured
 
-## Author(s)
+## 著者(s)
 
 [Michael Graf (SAP)](mailto:mi.graf@sap.com)
 
-## Acknowledgements
+## 謝辞
 
 Thank you to the InnerSource Commons Community for lightning-fast advice, and a lot of helpful input to feed this pattern! Especially:
 

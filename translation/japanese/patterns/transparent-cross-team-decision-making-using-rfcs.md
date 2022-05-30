@@ -6,7 +6,7 @@ RFCを用いたチーム横断的な意思決定の透明化
 
 高い参加率を達成し、関係者全員にとって最良の意思決定を行いたいInnerSourceプロジェクトは、ソフトウェアのライフサイクル全体を通して参加型のシステムを構築する方法を見つける必要があります。内部のRFC（Requests for Comments）ドキュメントを公開することで、設計プロセスの早い段階から議論を行うことができ、関係者全員が高いコミットメントを持ってソリューションを構築できる可能性が高まります。
 
-## Problem
+## 問題
 
 InnerSourceプロジェクトが健全であるためには、相当な数の貢献者が必要です。例えば、互いに互換性のない機能をプロジェクトに追加したり、アーキテクチャを不健全に肥大化させたりする可能性があります。
 
@@ -14,7 +14,7 @@ InnerSourceプロジェクトが健全であるためには、相当な数の貢
 
 InnerSourceプロジェクトでは、プロジェクトが社内の複数のチームによってメンテナンスされている場合、この状況はより頻繁に発生します。
 
-## Story
+## 物語
 
 プロジェクト、または複数のプロジェクトで構成されるアプリケーションは、各チームがプロジェクトまたはアプリケーションのさまざまな領域を所有している、いくつかの異なるチームによって維持されます。これらのチームはお互いの領域に対してInnerSourceの貢献をしていますが、より大きな横断的な変更は、各チームのテクニカルリーダーが協力して行うか、まったく行われません。その結果、ほとんどのエンジニアは大規模で横断的な変更を行うことができず、イノベーションとコラボレーションの機会が減少してしまいます。
 
@@ -22,7 +22,7 @@ RFCのプロセスとテンプレートを導入することで、チームや�
 
 どのようなプロセスでもそうですが、これは継続的に改善されなければなりません。RFCのテンプレートやプロセスを変更して、包括的、協調的、かつ効果的なものにする必要があるかもしれません。
 
-## Context
+## 状況
 
 - InnerSourceプロジェクトは多くのチームによって共有されています。
 - 建築家グループは十分な時間がなく、またすべてのケースで適切な判断を下すのに十分なドメイン固有の知識もないため、包括的な設計上の決定を常に中央の組織（建築家のグループなど）から行うことはできない。
@@ -35,11 +35,11 @@ RFCのプロセスとテンプレートを導入することで、チームや�
 - ほとんどの場合、関係者はかなり迅速に決定を下したい（例：先行設計の時間がかなり制限される）。
 - 関係者の多くにとって、（すでに実装されていない）物事を書き留めることは新しいスキルであることが多い。
 
-## Sketch
+## スケッチ
 
 ![RFC process used at Uber's BaseUI project (open source example)](../../../assets/img/rfc-process-uber-baseui.png)
 
-## Solutions
+## ソリューション
 
 私たちは、チーム横断的な意思決定プロセスの透明性を高めるために、RFC的なプロセスを選択しました（[Requests for Comments][requests-for-comments]もご参照ください）。
 
@@ -62,7 +62,7 @@ RFCのプロセスとテンプレートを導入することで、チームや�
 - [Rust][rust] is a good Open Source example of RFC template and process, and has been the basis for many other RFC processes.
 - [Genericised BBC iPlayer & Sounds RFC template](templates/rfc.md), originally based on the [Rust][rust] template
 
-## Resulting Context
+## 結果の状況
 
 RFCのようなプロセスを導入することで、チーム横断的な意思決定プロセスがより透明化され、すべての人の声を聞くことができるようになり、価値があることが証明されました。
 
@@ -91,23 +91,23 @@ In the context of InnerSource, other companies have shared their experiences wit
 
 Also for decision making outside of pure software design decisions, transparent decision making models can be effective e.g. when working towards an Open Organization. For an example see Red Hat’s [Open Decision Framework][open-decision-framework] (released publicly on June 7, 2016).
 
-## Known Instances
+## 事例
 
 - **BBC iPlayer & Sounds** - As presented at the ISC Fall Summit 2020 [Using Internal RFCs to Enhance Collaboration][bbc].
 - **Europace** - As described in Open Organization: [Setting cross-team standards and best practices in the open][europace].
 - **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via RFCs: Writing Things Down][uber].
 - **Google Design Docs** - As described in this blog post by Malte Ubl [Design Docs at Google][google]
 
-## Status
+## ステータス
 
 Structured
 
-## Author(s)
+## 著者(s)
 
 - Tom Sadler
 - Sebastian Spier
 
-## Aliases
+## その他の呼び方es
 
 - [Design Docs][google]
 - Architecture Decision Record (ADRs) - Not necessarily a direct alias, as they can sometimes be used very differently e.g. RFCs for seeking input and building consensus, ADRs for recording decisions and implementation detail
