@@ -32,7 +32,7 @@ InnerSourceイニシアチブを期間限定の実験として宣言する。Inn
 - コミュニティ内での実力に応じたキャリアパス
 - コミュニティ内での民主的な意思決定
 
-実験の終わりを、_pivot_、_change_、_pause_のいずれかに指定し、再評価を行うことを検討する。また、参加を通じて経営陣の賛同を得る可能性を高めるために、[レビュー委員会](review-committee.md)を設置することを検討する。企業文化にもよりますが、実験に適切なメトリクスを伴うと便利です [First Steps With Metrics](../1-initial/introducing-metrics-in-innersource.md). 実験のプロジェクトが企業の収益に直接的な影響を与えない場合、その価値貢献を強調するために[Cross-Team Project Valuation](crossteam-project-valuation.md) を導入することを検討する。
+実験の終わりを、_pivot_、_change_、_pause_のいずれかに指定し、再評価を行うことを検討する。また、参加を通じて経営陣の賛同を得る可能性を高めるために、[レビュー委員会](review-committee.md)を設置することを検討する。企業文化にもよりますが、実験に適切なメトリクスを伴うと便利です [First Steps With Metrics](../1-initial/introducing-metrics-in-innersource.md). 実験のプロジェクトが企業の収益に直接的な影響を与えない場合、その価値コントリビューションを強調するために[Cross-Team Project Valuation](crossteam-project-valuation.md) を導入することを検討する。
 
 ## 結果の状況
 
