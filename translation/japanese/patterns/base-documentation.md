@@ -59,15 +59,6 @@
 ![Brief picture of README.md and CONTRIBUTING.md content](../../../patterns/2-structured/project-setup/assets/base\_docs\_drawing.png)
 
 
-README.mdの書き方やCONTRIBUTING.mdにどのような情報を含めるべきかについては、さまざまなオープンソースプロジェクトで良い例が多く見受けられます。
-
-
-Page like how to write a readme that rocks, Open Source Guide from GitHub as well as the book "Producing Open Source" all have valuable information on what kind of information to provide.
-
-How to write a readme that rocks, Open Source Guide from GitHub, the book Producing Open Source などのページには、どのような情報を提供すべきなのかについての貴重な情報が掲載されています。Producing Open Sourceには、良いREADMEを書くための章はありませんが、Getting Startedの章では、ホストチームのメンバー、ユーザー、貢献者が必要とする、かなり広範囲なリストが提供されています。InnerSourceプロジェクトは、おそらく最初からそれらの側面のすべてをカバーすることはありません、リスト自体は1つがカバーすることができるもののためのインスピレーションのために便利です。
-それに加えて、このパターンには、すぐに始められるように、2つの非常に基本的なテンプレートが付属しています。README-template.mdとCONTRIBUTING-template.mdです。
-
-
 様々なオープンソースプロジェクトにおいて、 `README.md` の書き方や、 `CONTRIBUTING.md` ファイルにどのような情報を含めるべきかについての良い例がたくさんあります。[How to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), [Open Source Guide from GitHub](https://opensource.guide/) や書籍 [Producing Open Source](https://producingoss.com/en/producingoss.html)などのページには、どのような情報を提供すべきなのかについての貴重な情報が掲載されています。Producing Open Source には、良い README を書くための章はありませんが、[Getting Started chapter](https://producingoss.com/en/producingoss.html#starting-from-what-you-have) には、ホストチームのメンバー、ユーザー、コントリビューターが必要とするもののかなり広範なリストがあります。インナーソースのプロジェクトは、おそらく最初からこれらの側面のすべてをカバーする必要がはありませんが、リスト自体は README.md がカバーできるものを想起するために有効です。
 このパターンには、すぐに始められるように、2つの非常に基本的なテンプレートが付属しています。[README-template.md](../templates/README-template.md) と [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md) をご参照ください
 
