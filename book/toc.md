@@ -65,7 +65,6 @@ Instead edit toc_template.md
     * [Communication Tooling](../translation/japanese/patterns/communication-tooling.md) - InnerSourceのプロジェクトは、元の開発チームの外で使用されていますが、ユーザーはヘルプを得たり、プロジェクトチームと連絡を取るのに苦労しています。このアイデアは、ディスカッションが可視化され、アーカイブされ、検索可能になることを可能にする標準的なコミュニケーションツールを設定し、文書化することです。
     * [Contracted Contributor](../translation/japanese/patterns/contracted-contributor.md) - InnerSourceにコントリビュートしたいアソシエイツは、彼らのライン管理によってそうすることから落胆しています。救済は、正式な契約や協定によって提供されています。
     * [Cross-Team Project Valuation](../translation/japanese/patterns/crossteam-project-valuation.md) - それは会社の収益に直接的な影響を提供していないクロスチームのInnerSourceプロジェクトの価値を販売することは困難である。 ここでは、その価値を明確にし、それを増幅する両方のプロジェクトを表現するためのデータ駆動型の方法です。
-    * [Dedicated Community Leader](../translation/japanese/patterns/dedicated-community-leader.md) - InnerSourceの取り組みを成功させるために、コミュニケーションとテクニカルの両方のスキルを持つ人をコミュニティのリーダーとして選ぶ。
     * [Document your Guiding Principles](../translation/japanese/patterns/document-your-guiding-principles.md) - オープンソースのベストプラクティスを組織内に適用する "という通常のInnerSourceの説明は、オープンソースのバックグラウンドがない人々にはうまく機能しません。 救済策として、InnerSourceの最も重要な原則は、広く文書化され、公開されます。
     * [Gig Marketplace](../translation/japanese/patterns/gig-marketplace.md) - マネージャーと従業員のどちらも、彼らはInnerSourceプロジェクトに関与して得ることから利益を得るかもしれない方法を理解しています。  それは従業員のために彼らはInnerSourceプロジェクトにする必要がありますどのような時間のコミットメントを彼らの経営にcomamunicateすることは困難である。
     * [InnerSource License](../translation/japanese/patterns/innersource-license.md) - 同じ組織に属する2つの法人は、ソフトウェアのソースコードを互いに共有したいが、法的責任や会社間の会計処理の観点からの影響を懸念している。
@@ -80,4 +79,5 @@ Instead edit toc_template.md
     * [信頼されたコミッター - Trusted Committer](../translation/japanese/patterns/trusted-committer.md) - 多くのInnerSourceプロジェクトは、コントリビューターからフィードバック、機能、バグフィックスを一貫して受け取る状況にあります。このような状況で、プロジェクトのメンテナーは、単一のコントリビューションを越えてコントリビューターの仕事を認識し、報酬を与える方法を模索します。
     * [実験として始める](../translation/japanese/patterns/start-as-experiment.md) - InnerSourceの取り組みを期間限定の実験として開始することで、InnerSourceに馴染みのない管理職が賛同し、取り組みをサポートしやすくします。
     * [審査委員会](../translation/japanese/patterns/review-committee.md) - InnerSourceの作業モデルは、同様に開発者と管理者のための、より伝統的なアプローチからの抜本的な出発です。InnerSourceイニシアチブとそれに参加するビジネスユニットのすべてのシニアマネージャの間のインタフェースとしてレビュー委員会を確立することにより、後者は、マイクロマネジメントを助長することなく、監視と制御の一定レベルを与えるように、イニシアチブに精通し、それをサポートする可能性が高くなります。
+    * [献身的なコミュニティリーダー - Dedicated Community Leader](../translation/japanese/patterns/dedicated-community-leader.md) - インナーソースの取り組みを成功させるために、コミュニケーションとテクニカルの両方のスキルを持つ人をコミュニティのリーダーとして選ぶ。
     * [賛美の参加者](../translation/japanese/patterns/praise-participants.md) - インナーソースのコントリビューションの後、その時間と努力に対してコントリビューターに感謝することは重要です。 このパターンは、コントリビューションを効果的に認めるだけでなく、コントリビューターや他の人たちのさらなる関与を引き出すためのガイダンスを提供します。
