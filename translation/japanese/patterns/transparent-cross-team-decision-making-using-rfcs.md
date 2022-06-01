@@ -14,7 +14,7 @@ InnerSourceプロジェクトが健全であるためには、相当な数のコ
 
 InnerSourceプロジェクトでは、プロジェクトが社内の複数のチームによってメンテナンスされている場合、この状況はより頻繁に発生します。
 
-## 物語
+## ケーススタディ
 
 プロジェクト、または複数のプロジェクトで構成されるアプリケーションは、各チームがプロジェクトまたはアプリケーションのさまざまな領域を所有している、いくつかの異なるチームによって維持されます。これらのチームはお互いの領域に対してInnerSourceのコントリビューションをしていますが、より大きな横断的な変更は、各チームのテクニカルリーダーが協力して行うか、まったく行われません。その結果、ほとんどのエンジニアは大規模で横断的な変更を行うことができず、イノベーションとコラボレーションの機会が減少してしまいます。
 
@@ -83,7 +83,7 @@ RFCのアプローチには、私たちが指摘したいリスクもありま�
 - 設計案（アーキテクチャ、プロトコルなど）を前もって書き上げることは、滝のような設計の要素があり、多くの開発チームが好む反復的な開発アプローチには適さない。覚えておいてください: 「包括的な文書よりも実用的なソフトウェア」([Agile Manifesto](https://agilemanifesto.org/))。RFCプロセスは可能な限り軽量であるべきです。
 - RFCは大きくなりすぎて扱いにくくなる可能性があります。これはしばしば、長いコメントスレッドやそれを取り巻く議論に表れます。そのような状況では、ワーキンググループや直接のミーティングのような同期的なコミュニケーションでRFCを補完することを決定することがあります。しかし、ミーティング中にすべての情報を共有するのではなく、ミーティングの前にRFCを読むことができるので、時間はまだ節約されています。
 
-## Rationale
+## 理論的解釈
 
 RFCs haven proven themselves in the Open Source world for many years. This is true both for the Internet as a whole where RFCs have been instrumental in developing standards (e.g. see [30 Years of RFCs][30-years-of-rfcs]), as well for other Open Source projects that have adapted this method to promote transparent decision making in their community (e.g. [RUST][rust], [ZeroMQ][zeromq]).
 
