@@ -28,7 +28,7 @@ run into diverge depending on the context and working environment of each team.
 As a result the definition of what are important best practices in an
 InnerSource project differs depending on each team.
 
-## ブロッカーと成りうるちから (Forces)
+## ブロッカーとなりうるちから  (Forces)
 
 Teams sharing InnerSource learnings run into misunderstandings as they are not
 aware of their respective level of InnerSource adoption.
