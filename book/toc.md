@@ -61,7 +61,6 @@ Instead edit toc_template.md
   * [この本へのコントリビューション](../translation/japanese/contribute.md)
   * Patterns
     * [30日の保証期間](../translation/japanese/patterns/30-day-warranty.md) - 自分のチーム以外からのコントリビューションを受け入れる場合、チームが書いていないコードの責任を持つことに抵抗があることは自然なことでしょう。 「30日の保証期間」プラクティスを利用すると、コードにコントリビュートしたチームはコードを受け取ったチームに対してバグフィックスを提供することを承諾することになります。 そうすることで、両チーム間の信頼度が高まり、コントリビューションが受け入れられる可能性が高くなります。
-    * [Common Requirements](../translation/japanese/patterns/common-requirements.md) - 共有リポジトリにある共通のコードは、それを使いたいすべてのプロジェクトチームのニーズを満たしていません。これは、要件の調整とリファクタリングによって解決されます。
     * [Communication Tooling](../translation/japanese/patterns/communication-tooling.md) - InnerSourceのプロジェクトは、元の開発チームの外で使用されていますが、ユーザーはヘルプを得たり、プロジェクトチームと連絡を取るのに苦労しています。このアイデアは、ディスカッションが可視化され、アーカイブされ、検索可能になることを可能にする標準的なコミュニケーションツールを設定し、文書化することです。
     * [Contracted Contributor](../translation/japanese/patterns/contracted-contributor.md) - InnerSourceにコントリビュートしたいアソシエイツは、彼らのライン管理によってそうすることから落胆しています。救済は、正式な契約や協定によって提供されています。
     * [Cross-Team Project Valuation](../translation/japanese/patterns/crossteam-project-valuation.md) - それは会社の収益に直接的な影響を提供していないクロスチームのInnerSourceプロジェクトの価値を販売することは困難である。 ここでは、その価値を明確にし、それを増幅する両方のプロジェクトを表現するためのデータ駆動型の方法です。
@@ -77,6 +76,7 @@ Instead edit toc_template.md
     * [リポジトリアクティビティスコア](../translation/japanese/patterns/repository-activity-score.md) - 潜在的なコントリビューターは、彼らの助けを必要とするアクティブなInnerSourceプロジェクトを見つけたいと思っています。各プロジェクトのリポジトリ活動スコアを計算することで、プロジェクトのランク付けされたリストを作成することができます（例：InnerSource Portal ）、そのため、潜在的コントリビューターは、彼らがコントリビュートしたいプロジェクトをより簡単に決定できます。
     * [レビュー委員会](../translation/japanese/patterns/review-committee.md) - インナーソースの作業モデルは、開発者と管理者のための、より伝統的なアプローチからの抜本的な変革です。インナーソースイニシアチブとそれに参加するビジネスユニットのすべてのシニアマネージャの間のインタフェースとしてレビュー委員会を確立することにより、マイクロマネジメントを助長することなく、監視と制御の一定レベルを与えるように、イニシアチブに慣れ親しみ、それをサポートできるようになる可能性が高くなります。
     * [信頼されたコミッター - Trusted Committer](../translation/japanese/patterns/trusted-committer.md) - 多くのInnerSourceプロジェクトは、コントリビューターからフィードバック、機能、バグフィックスを一貫して受け取る状況にあります。このような状況で、プロジェクトのメンテナーは、単一のコントリビューションを越えてコントリビューターの仕事を認識し、報酬を与える方法を模索します。
+    * [共通要件](../translation/japanese/patterns/common-requirements.md) - 共有リポジトリにある共通のコードは、それを使いたいすべてのプロジェクトチームのニーズを満たしていません。これは、要件の調整とリファクタリングによって解決されます。
     * [基本原則ガイダンスの文書化](../translation/japanese/patterns/document-your-guiding-principles.md) - 「オープンソースのベストプラクティスを組織内に適用する」という通常のインナーソースの説明は、オープンソースのバックグラウンドがない人々にはうまく機能しません。 解決策として、インナーソースの最も重要な原則を文書化し広く公開しましょう。
     * [実験として始める](../translation/japanese/patterns/start-as-experiment.md) - InnerSourceの取り組みを期間限定の実験として開始することで、InnerSourceに馴染みのない管理職が賛同し、取り組みをサポートしやすくします。
     * [献身的なコミュニティリーダー - Dedicated Community Leader](../translation/japanese/patterns/dedicated-community-leader.md) - インナーソースの取り組みを成功させるために、コミュニケーションとテクニカルの両方のスキルを持つ人をコミュニティのリーダーとして選ぶ。
