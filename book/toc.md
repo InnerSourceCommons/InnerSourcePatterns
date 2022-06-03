@@ -78,6 +78,6 @@ Instead edit toc_template.md
     * [信頼されたコミッター - Trusted Committer](../translation/japanese/patterns/trusted-committer.md) - 多くのInnerSourceプロジェクトは、コントリビューターからフィードバック、機能、バグフィックスを一貫して受け取る状況にあります。このような状況で、プロジェクトのメンテナーは、単一のコントリビューションを越えてコントリビューターの仕事を認識し、報酬を与える方法を模索します。
     * [共通要件](../translation/japanese/patterns/common-requirements.md) - 共有リポジトリにある共通のコードは、それを使いたいすべてのプロジェクトチームのニーズを満たしていません。これは、要件の調整とリファクタリングによって解決されます。
     * [基本原則ガイダンスの文書化](../translation/japanese/patterns/document-your-guiding-principles.md) - 「オープンソースのベストプラクティスを組織内に適用する」という通常のインナーソースの説明は、オープンソースのバックグラウンドがない人々にはうまく機能しません。 解決策として、インナーソースの最も重要な原則を文書化し広く公開しましょう。
-    * [実験として始める](../translation/japanese/patterns/start-as-experiment.md) - InnerSourceの取り組みを期間限定の実験として開始することで、InnerSourceに馴染みのない管理職が賛同し、取り組みをサポートしやすくします。
+    * [実験として始める](../translation/japanese/patterns/start-as-experiment.md) - インナーソースイニシアチブを期間限定の実験として開始し、インナーソースに慣れていないマネージャーがイニシアチブを承認およびサポートしやすくします。
     * [献身的なコミュニティリーダー - Dedicated Community Leader](../translation/japanese/patterns/dedicated-community-leader.md) - インナーソースの取り組みを成功させるために、コミュニケーションとテクニカルの両方のスキルを持つ人をコミュニティのリーダーとして選ぶ。
     * [賛美の参加者](../translation/japanese/patterns/praise-participants.md) - インナーソースのコントリビューションの後、その時間と努力に対してコントリビューターに感謝することは重要です。 このパターンは、コントリビューションを効果的に認めるだけでなく、コントリビューターや他の人たちのさらなる関与を引き出すためのガイダンスを提供します。
