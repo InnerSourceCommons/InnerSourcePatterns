@@ -39,5 +39,5 @@ Instead edit toc_template.md
   * [イントロダクション](../translation/japanese/introduction.md)
   * [パターンの一覧](../translation/japanese/explore-patterns.md)
   * [この本へのコントリビューション](../translation/japanese/contribute.md)
-  * Patterns
+  * パターン
 <<TRANSLATION_HERE>>
