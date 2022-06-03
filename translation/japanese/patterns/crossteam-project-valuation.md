@@ -96,3 +96,6 @@
 ## Acknowledgement
 
 * Jeremiah Wright さんは、クロスチーム・プロジェクトを、開発者の時間という"通貨"を扱う社内ビジネスとして考えるように教えてくれました。
+
+## 翻訳の履歴
+- **2022-06-03** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

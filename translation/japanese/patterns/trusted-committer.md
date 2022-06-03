@@ -122,3 +122,6 @@
 [Noah Cawley]: https://github.com/utanapishtim
 [praise]: ./praise-participants.md
 [Fernando Freire]: https://github.com/dogonthehorizon
+
+## 翻訳の履歴
+- **2022-05-30** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

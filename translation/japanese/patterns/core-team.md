@@ -88,3 +88,6 @@ Structured
 
 [tc-learning-path]: https://innersourcecommons.org/ja/learn/learning-path/trusted-committer/
 [tc-pattern]: ./trusted-committer.md
+
+## 翻訳の履歴
+- **2022-06-01** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

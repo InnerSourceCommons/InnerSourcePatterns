@@ -73,3 +73,6 @@ Robert Hanmer
 * Daniel Izquierdo
 * Tim Yao
 * Sebastian Spier
+
+## 翻訳の履歴
+- **2022-06-02** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
