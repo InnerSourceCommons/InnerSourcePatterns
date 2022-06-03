@@ -1,212 +1,194 @@
 ## Title
 
-Maturity Model
+成熟度モデル
 
 ## Patlet
 
-Teams have started adopting InnerSource. The practice is spreading to multiple
-departments. However, the understanding of what constitutes an InnerSource
-project varies. The solution is to provide a maturity model to allow for teams
-to go through a self check and discover patterns and practices that they are not
-yet aware of.
+チームはインナーソースを採用し始めました。このプラクティスは、複数の部門に広がっています。しかし、インナーソースプロジェクトを構成する概念への理解は様々です。解決策は、チームがセルフチェックを経て、まだ気づいていないパターンやプラクティスを発見できるよう、成熟度モデルを提供することです。
 
 ## 問題
 
-When InnerSource adoption in an enterprise starts to increase, individual
-mentoring of each project through one evangelist becomes unfeasible. Also, more
-and more people are gaining at least a basic understanding of what it means to
-work in an InnerSource project. Looking at all InnerSource projects though the
-depth of understanding for the concept will diverge. Teams may not be aware of
-proven patterns that would help them move to the next level and solve issues and
-pain points that they are dealing with.
+企業におけるインナーソースの導入が進み始めると、一人のエバンジェリストを通じて各プロジェクトを個別に指導することは不可能になります。また、インナーソースプロジェクトで働くことの意味について、少なくとも基本的な理解を深めている人が増えてきています。すべてのインナーソースプロジェクトを見てみると、コンセプトに対する理解の深さは異なります。チームは、彼らが次のレベルに移動し、彼らが扱っている問題やペインのポイントを解決するのに役立つだろう実績のあるパターンを認識していない可能性があります。
 
 ## 状況
 
-Several teams have started adopting InnerSource practices. The exact level of
-understanding of the practice diverges between teams. The exact problems teams
-run into diverge depending on the context and working environment of each team.
-As a result the definition of what are important best practices in an
-InnerSource project differs depending on each team.
+いくつかのチームがインナーソースのプラクティスを採用し始めています。プラクティスの正確な理解度は、チームによって異なります。また、各チームが直面する問題も、各チームの状況や作業環境に応じて異なります。その結果、インナーソースプロジェクトにおける重要なベストプラクティスの定義は、各チームによって異なっています。
 
 ## ブロッカーとなりうるちから  (Forces)
 
-Teams sharing InnerSource learnings run into misunderstandings as they are not
-aware of their respective level of InnerSource adoption.
+インナーソースのラーニングを共有するチームは、インナーソース採用の各レベルを認識していません。そのため誤解につながることがあります。
 
-Teams believe that "it's all about migrating to a shared software development
-[forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
+チームは、「ソフトウェアの[共有プラットフォーム(フォージ)](https://en.wikipedia.org/wiki/Forge_%28software%29)への移行がすべてだ」と考えています（GitLab、GitHub、Bitbucketがそのようなフォージのよく知られた例です）。
 
-Teams are not aware of best practices that would help them solve issues that
-they run into in their daily doing.
+チームは、日々の業務で遭遇する問題を解決するためのベストプラクティスを知りません。
 
 ## ソリューション
 
-Ask teams to self assess against the proposed maturity model.
+提案された成熟度モデルに照らして、チームに自己評価をしてもらいましょう。
 
-### Transparency
+### 透明性
 
-**Plans & Products**
+**プランとプロダクト (PP)**
 
-InnerSource project benefit from planning being transparent across the organization by enabling stakeholders to better understand decisions and influence them in a way that can be followed by others.
+インナーソースプロジェクトは、ステークホルダーが決定をよりよく理解し、他の人が従うことができる方法で決定に影響を与えることができるようにすることで、組織全体で透明性のある計画を立てることができ、そのことから恩恵を受けます。
 
-* PP-0: Individuals and teams do not regularly disclose their plans or products to multiple stakeholders. No formal actions exists at the organization.
-* PP-1: Individuals and teams give visibility to their plans or products to multiple stakeholders, before they are started. Shared roadmap.
-* PP-2: There are already shared roadmaps with clear guidelines and contribution rules where stakeholders can provide feedback. However, this is not standardized across the organization and not all of the projects provide this info.
-* PP-3: Roadmaps are shared by default and there is a standard process and homogeneous way to do this across the organization at the level of each InnerSource project. This contains clear rules to contribute and influence in the roadmap.
+* PP-0: 個人やチームが、複数のステークホルダーに対して定期的にプランやプロダクトを開示していません。組織内に正式なアクションが存在しません。
+* PP-1: 個人やチームは、プランやプロダクトが開始される前に、複数のステークホルダーにたいして可視化します。またロードマップは共有されています。
+* PP-2: 明確なガイドラインと貢献ルールを持つ共有ロードマップが既に存在し、ステークホルダーがフィードバックを提供できます。しかし、これは組織全体で標準化されておらず、すべてのプロジェクトがこの情報を提供しているわけではありません。
+* PP-3: ロードマップはデフォルトで共有され、各インナーソースプロジェクトのレベルで、組織全体でこれを行うための標準的なプロセスとスタンダードな方法があります。これには、ロードマップにコントリビュートして影響を与えるための明確なルールが含まれています。
 
-**Development Process & Tools**
+**開発プロセスとツール (DP)**
 
-InnerSource projects thrive when contributors become active and participate. As a result, making contribution easier should be balanced with pure technical goals.
+インナーソースプロジェクトは、コントリビューターがアクティブになって参加するときに成長します。 結果として、コントリビューションを容易にすることは、純粋な技術的目標とバランスを取る必要があります。
+* DP-0：各チームが独自の開発プロセスやツールに従っています。 しかしそれらは、開発チームの外部で知識や成果物を共有するように設定されていません。開発チームはサイロ化されています。
+* DP-1: 開発チームは、内部で共有リポジトリを使用します。しかし一部のチームは、企業標準ではないCIツールを使用して、独自のCIプロセスを開発しています。コードレビューのプロセスは定義されていませんが、プロジェクトチーム内部で行っているところもあります。
+* DP-2: 組織は、集合知のための共有リポジトリを後援し、推進しています。チームによっては、企業の定めたCIツールを使って、独自のCIプロセスを開発しています。CIの環境があるり、またコードレビュープロセスが定義されており、いくつかのプロジェクトで使用されています。コードレビューが外部のチームメンバによって行われることもあります。
+* DP-3: ほとんどのチームが、企業が定めたCIツールを使って独自のCIプロセスを開発しています。CI環境はあり、コードレビュープロセスが定義され利用されています。コードレビューがチーム内外のメンバーによって行われています。
 
-* DP-0: Each team follows its own development process and tools. They are not defined to share knowledge and artifacts outside development team. Siloed development teams.
-* DP-1: Development teams use shared code repositories, internally. Some teams develop their own CI process, using non corporate or standard CI tools. There is no code review process defined, although some projects teams do it internally.
-* DP-2: The organization sponsors and promotes a shared repository for collective knowledge. Some teams develop their own CI process, using corporate CI tools. There are CI environments. Code review process defined, and used by some projects. Sometimes code review is done by outside team members.
-* DP-3: Most teams develop their own CI process, using corporate CI tools. There are CI environments. Code review process defined, and used. Code review is done by both, internal and external team members.
+**意思決定(DC)**
 
-**Decisions**
+同僚にコアチーム以外の仕事へのコントリビューション意欲を持たせるためには、ホストプロジェクトの意思決定プロセスを可視化し、さらに自分たちの声が聞き入れられ評価されていると感じてもらうことが重要です。
 
-In order to motivate colleagues to contribute work outside of their core team they need visibility into the decision-making process of the host project - but also feel that their voices are being heard and valued.
+* DC-0: 意思決定者はしばしば、プロジェクトの決定に関連するデータや資料を意図的または偶発的に非公開にすることがあります。
+* DC-1: 意思決定プロセスの一部である資料は、意思決定が確定した後に閲覧できるようになります。
+* DC-2: メンバーは、重要な意思決定のほとんど(すべてではない)について知っており、その意思決定の形成に役立っていると感じています。 意思決定の実践の一部となる資料が、プロジェクトの節目節目で利用できるようになっています。
+* DC-3: メンバーは、組織が承認する集合的な意思決定のための共有された標準プロセスの一部であると感じています。意思決定プロセスの一部である資料は、プロセス中に継続的にアクセス可能になっています。
 
-* DC-0: Decision-makers often intentionally or accidentally withhold data and resources related to project decisions.
-* DC-1: Materials that are part of decision-making practices become available for review after decisions are finalized.
-* DC-2: People feel like they know about—and are helping to shape—most (but not all) important decisions as those decisions are unfolding. Materials that are part of decision-making practices are available at defined project milestones.
-* DC-3: People feel like they are a part of a shared, standard process for collective decision-making that the organization endorses. Materials that are part of decision-making practices are continuously accessible during work processes.
+**役立つリソース**
+コントリビューターを引きつけるために、役立つサポート資料に簡単にアクセスできる必要があります。
 
-**Helpful Resources**
+* RS-0: 個人およびチームは、ナレッジに関する共有リポジトリにコントリビュートしたり、それを利用したりすることはありません。
+* RS-1: 個人およびチームは、作業が終了した後、内部でレビューするためにプロジェクト資料をリリースします。個人とチームはリソースを共有しますが、それは切断された、断片化された、または個別化/サイロ化されたシステムまたはリポジトリにあります。 個人とチームはリソースを共有しますが、情報が機密であるかどうかを判断するために使用される基準について、一般的に表現され共有されているものはありません。「他人と考えを共有する」こともしていません。
+* RS-2: 個人およびチームは、明確に定義および共有された形式および/またはプロトコルに従って、プロジェクトチームの一部のメンバーがプロジェクト関連の資料にアクセスできるようにします。個人およびチームは、機密データおよびリソースを差し控え、限定された詳細、コンテキスト、および範囲を提供します。
+* RS-3: 個人およびチームは、明確に定義および共有された形式および/またはプロトコルに従って、プロジェクト関連の資料を組織に広くアクセスできるようにします。機密データやリソースを差し控えなければならない個人やチームは、共有しないものについて明確に知っており、他の人はそれらの資料が利用できない理由を理解しています。
 
-In order to attract contributors helpful supporting material needs to be easily accessible.
+**ストーリー**
+ホストチームの中で働くと、ミスが自動的に目立ってしまうようになります。そのため、失敗を成長の機会としてとらえる企業文化が必要です。
 
-* RS-0: Individuals and teams neither contribute to nor draw upon a shared repository of knowledge.
-* RS-1: Individuals and teams release project materials for review internally, after they've finished their work. Individuals and teams share resources, but in disconnected, fragmented, or individualized/siloed systems or repositories. Individuals and teams share resources, but there is no commonly expressed or shared understanding of the criteria used to determine whether information is sensitive or not. Do not "share thinking on others".
-* RS-2: Individuals and teams make project-related materials accessible to some members of project teams according to clearly defined and shared formats and/or protocols. Individuals and teams withhold sensitive data and resources, provide limited details, context, and scope.
-* RS-3: Individuals and teams make project-related materials broadly accessible to the organization—and possibly outside the organization as well—according to clearly defined and shared formats and/or protocols. Individuals and teams who must withhold sensitive data and resources are clear about what they're not sharing, and others understand why those materials are not available to them.
+* ST-0: 学習の目的でも、成功や失敗を他者が学ぶために共有しません。
+* ST-1: 成功体験は共有しやすい一方で、失敗体験は共有していません。
+* ST-2: 個人とチームは、レトロスペクティブやレビューの際に、成功や失敗のストーリーを共有することに抵抗はありません。
+* ST-3: 個人とチームは、成功や失敗のストーリーを共有することに抵抗がなく、正式なプロトコルに従って失敗から学ぶことができます。
 
-**Stories**
+### コラボレーション
 
-When working in host teams mistakes will automatically be widely visible. In order keep contribution levels up, corporate culture needs to celebrate failure as an opportunity for growth and learning.
+**フィードバックのためのチャネル**
 
-* ST-0: Individuals and teams do not share successes or failures for others to learn.
-* ST-1: Individuals and teams are comfortable sharing stories about successes, but not about failures.
-* ST-2: Individuals and teams are comfortable sharing stories of successes and failures during retrospectives and reviews.
-* ST-3: Individuals and teams are comfortable sharing stories of successes and failures, and learn from failures according to formal protocols.
+サイロをなくすには、同僚がオープンにフィードバックを共有することに対する抵抗をなくす必要があります。それをサポートする簡単な方法のひとつは、階層を越えて同じコミュニケーション原則を使用することです。
 
-### Collaboration
+理想的には、組織の誰もが知っている適切なコミュニケーション・チャネルを持つことになります。チャネルは、異なるターゲット(お知らせ、ユーザーサポート、開発チャネル、インフラ・ディスカッシ	ョンなど)に焦点を当てます。
+インナーソースプロジェクトが成熟するにつれて確立するベストプラクティスには以下のようなものがあります。
+* ネチケットガイドラインの採用
+* 新しいインナーソースプロジェクトごとに実証済みの（アーカイブされ、一般にアクセス可能で、検索可能な）標準チャネルの開設
 
-**Channels for Providing Feedback**
+* CF-0: プロセスも確立されたチャネルもありません。組織の一部のメンバーは、プライベートチャネルまたはディスカッションを介して資料を共有しています。
+* CF-1: 組織は、組織に属する誰もがそれらを使用できるように、会社/部門の決定に関する多様な視点を奨励するための内部ガイドラインとチャネルを確立する過程にあります。 一方で組織の一部のメンバーは、非公式のプラットフォームを使用して非公式に意思決定資料を共有しています。リーダーは、組織のメンバーが自分の仕事に関連するいくつかの問題について建設的に意見を共有するための、少なくともひとつの明確で直接的なチャネルを維持しています。
+* CF-2: 組織は内部ガイドラインとチャネルを確立し、チームまたは決定に関する多様な視点を奨励および要請するための特定のリソース（トレーニングプログラム、コンテンツへのアクセスなど）を提供しています。
+* CF-3: 組織のメンバーは、公式に認可されたプラットフォームで意思決定資料を共有します。組織のメンバーは、フィードバックのための複数のチャネルと方法を介して資料をオープンに共有します。リーダーはそれらのチャネルを自分で使用し、他の人にそれらを使用するように公に奨励し、受け取ったフィードバックやこのフィードバックに対処するために取った行動のチーム向けまたは公開向けの記録を維持します。
 
-For silos to be reduced colleagues need to be comfortable sharing feedback openly. One easy way to support that is to use the same communication principles across hierarchies.
+**リーダーシップ**
 
-Ideally you will end up with proper communication channels that are known by anyone in the organization - with channels focussed on different goals (announcements, user support, development channels, infra discussions, etc.). Some of the best practices you will establish as your InnerSource projects mature: Adoption of netiquette guidelines, opening a proven set of standard channels (which are being archived, publicly accessible, searchable) for each new InnerSource project.
+インナーソースプロジェクトは、従業員が直属のラインマネージャーの直接の影響を受けないプロジェクトにコントリビュートすることを奨励しています。これには信頼の文化が必要です。
 
-* CF-0: There are no processes nor established channels. Some members of the organization share materials via private channels or discussions.
-* CF-1: The organization is in the process of establishing internal guidelines and channels for encouraging diverse points of view about company/departmental decisions, so that anyone belonging to the organization can use them. Some members of the organization share decision-making materials informally using unofficial platforms. Leaders maintain at least one clear and direct channel for organization members to share opinions constructively on some matters relevant to their work.
-* CF-2: The organization has established internal guidelines and channels, and provides specific resources (training programs, access to content, etc.), for encouraging and soliciting diverse points of view on team or decisions.
-* CF-3: Members of the organization share decision-making materials on officially sanctioned platforms Members of the organization share materials openly via multiple channels and methods for feedback.
-Leaders use those channels themselves, openly encourage others to use them, and maintain team-facing or public-facing records of the feedback they've received and/or the actions they've taken to address this feedback.
+* LS-0: 高度に階層化された組織内の命令系統とコントロールのカルチャーがあります。
+* LS-1: 一部のリーダーは、フィードバックを受け取り、メンバーが安全にフィードバックを提供できる環境を構築することに積極的です。
+* LS-2: 組織のほとんどのリーダーは、フィードバックを受け取り、メンバーが安全にフィードバックを提供できる環境を作ることに積極的です。しかしリーダーは、すべてのメンバーが権限を与えられ、共有できるようになったかどうかを理解することに消極的です。組織は、リーダーが対話のなかに存在しない声を積極的に求めて含めることを奨励しています。
+* LS-3: メンバーは、自分の仕事に関連する問題や情熱を持っている問題について建設的に意見を共有できるようになり、力を与えられたと感じています。
 
-**Leadership**
+**組織的、そして機能的な構造**
 
-InnerSource projects encourage employees to contribute to projects outside of the direct influence of their direct line manager. This needs a culture of trust.
+インナーソースが純粋なコーディングレベルを離れ、コミュニティやワーキンググループレベルに入ると、直接的なコードコラボレーションが不可能な場合でも、サイロを減らす可能性があります。
 
-* LS-0: Command & control culture, within a highly hierarchical organization.
-* LS-1: Some leaders are open to receiving feedback and creating an environment where people feel safe providing it.
-* LS-2: Most leaders in the organization are open to receiving feedback and creating an environment where people feel safe providing it. Leaders show passivity about understanding whether all members feel empowered and enabled to share. Organization encourages leaders to actively seek voices not present in dialog out for inclusion.
-* LS-3: Members feel empowered and enabled to share opinions constructively on any matter relevant to their work or about which they feel passionate.
+* OF-0: ワーキンググループでは、メンバーやスキルセットが固定される傾向にあります、
+* OF-1: 機能横断的なチームは存在するものの、チームの役割が不明確で、ガバナンス体制が曖昧であることが多いです。
+* OF-2: 機能横断的なチームが一般的であり、チームはその役割と目標を公表しています。
+* OF-3: 機能横断的なチームは一般的であり、その活動は組織内に広く知られ、その結果、組織は協業のためのベストプラクティスを推進しています。
 
-**Organizational and Functional Structure**
+**コントリビューション**
 
-When InnerSource leaves the pure coding level and enters the community and working group level, there is potential for reducing silos even where direct code collaboration is not possible.
+コントリビューションパターンを設計する際の目標が、サイロを減らすことである場合、コラボレーションを念頭に置く必要があります。
 
-* OF-0: Working groups tend to be static in terms of membership and skill sets.
-* OF-1: Cross-functional teams exist, but team roles are often unclear and governance structures are vague.
-* OF-2: Cross-functional teams are common, and teams post their roles and goals publicly.
-* OF-3: Cross-functional teams are common and make their activities known broadly to the organization; in turn, the organization promotes best practices for working together.
+* CB-0: 完全にサイロ化されており、チーム外でのコラボレーションはありません。コラボレーションはクロスファンクショナルチームによるものがいくつかあります。
+* CB-1: 組織のメンバーとチームは協力していますが、「難しすぎる」とよく言われます。 チームは、コラボレーションの結果をめったに再評価しません。
+* CB-2: 組織のメンバーとチームは、積極的に協力する機会を求めています。チームは、共同作業の結果について定期的に話し合い、再評価し、議論し、これらの結果をデフォルトで利用できるようにします。
+* CB-3: 組織のメンバーは、関係者全員に利益をもたらす方法で、内部と外部の両方で協力します。 チームは共同作業の結果について定期的に話し合い、再評価し、議論し、組織外で学んだことを共有し、これらの結果をデフォルトで外部で利用できるようにします。
 
-**Contribution**
+### コミュニティ
 
-The goal with designing contributions patterns needs to keep collaboration in mind if it's to reduce silos.
+**共有ポリシー**
 
-* CB-0: Completely siloed, no collaboration outside the teams. Just some collaborations due to cross-functional teams.
-* CB-1: Members of the organization and teams collaborate but frequently say it's "too difficult". Teams infrequently revisit the outcomes of their collaborations.
-* CB-2: Members of the organization and teams actively seek opportunities to collaborate. Teams routinely discuss, revisit and debate the outcomes of their collaborative efforts, and make these outcomes available by default.
-* CB-3: Members of the organization collaborate both internally and externally in ways that benefit all involved. Teams routinely discuss, revisit and debate the outcomes of their collaborative efforts, and share their learnings outside the organization, and make these outcomes externally available by default.
+共有値に関するベースラインがあると、チームの境界を越えて作業しやすくなります。限られたベースラインルールとガイドラインのセットがどこにでも適用され、簡単に参照できる場合は、境界を越えることが容易になります。
 
-### Community
+* SP-0: 共有する文化もドキュメント化されたポリシーもありません。
+* SP-1: 組織の一部のメンバーは、価値観や原則を定義するために団結するものの、その際に明確に支持されることはありません。
+* SP-2: 組織のメンバーは、ミッションステートメントや行動規範などの共有ビジョンと合意をまとめてドキュメント化し、簡単にアクセスできるようにし、頻繁に参照します。 オンボーディング資料とオリエンテーションの慣例は、新しいメンバーが組織がコントリビューションからどのように利益を得るかを理解するのに役立ちます。
+* SP-3: 共有された価値観と原則は、組織のメンバー間で意思決定、コンフリクトの解決、および評価プロセスに情報を提供します。メンバーは、これらの価値観と原則を口頭とドキュメントの両方の形式で一貫して参照します。
 
-**Sharing Policies**
+**組織の一員であると実感できる**
 
-Having a baseline of shared values makes it easier to work across team boundaries. Crossing boundaries becomes easier if a limited set of baseline rules and guidelines apply everywhere and can easily be referenced.
+インナーソースを組織に導入する理由のひとつとして、エンゲージメントの向上が考えられます。このポイントでは、インナーソースを採用している間にエンゲージメントがどのように変化しているかを追跡します。
 
-* SP-0: No sharing culture nor written policies.
-* SP-1: Some members of the organization unite to define values and principles, but are not clearly supported when they do.
-* SP-2: Members of the organization collectively document shared visions and agreements like mission statements and codes of conduct, make them easily accessible, and reference them often. Onboarding materials and orientation rituals provide adequate context for helping new members understand how the organization will benefit from their contributions.
-* SP-3: Shared values and principles inform decision-making, conflict resolution, and assessment processes among members of the organization, who reference these values and principles consistently in both verbal and written formats.
+* PA-0: エンゲージメントが低く、コラボレーションがなく、人々は他の人と共有することに抵抗を感じます。
+* PA-1: 組織のメンバーは、報復を恐れることなく自分の考えや意見を共有することに抵抗を感じませんが、それはあくまでも慣れ親しんだ領域でのみです。ただしメンバーは、最高のアイデアが勝ち、コントリビューションとコミットメントの実績を持つ人々にリーダーシップの責任が生じることを理解しています。
+* PA-2: 組織のメンバーは、報復を恐れることなく、自分の考えや意見を快適に共有できます。リーダーは、組織の共有価値への献身を示します。
+* PA-3: 組織はメンバーにコントリビューションの恩恵を受けていることを積極的に伝えています。このように、メンバーは共有された意識と権限を与えられた実行を示し、コミュニティへの責任感を感じます。リーダーは、他の人の成長を支援することで成長することを理解し、組織のジュニアメンバーを指導します。
 
-**Feel part of the Organization**
+### ガバナンス
 
-One of the possible reasons for introducing InnerSource into organisations can be increased engagement. This point tracks how engagement is changing while adopting InnerSource.
+**リワード**
 
-* PA-0: Low engagement, no collaboration and people do not feel comfortable sharing with others.
-* PA-1: Members of the organization feel comfortable sharing their thoughts and opinions without fear of retribution, but only in familiar domains. People understand that the best ideas win, and leadership responsibilities accrue to people with histories of contribution and commitment.
-* PA-2: Members of the organization feel comfortable sharing their thoughts and opinions without fear of retribution. Leaders demonstrate dedication to the organization's shared values.
-* PA-3: The organization is proactive in telling members that it benefits from their contributions; as such, members demonstrate shared consciousness and empowered execution, and feel a sense of responsibility to the community. Leaders understand that they grow by helping others grow, and they mentor junior members of the organization.
+チーム横断的なコラボレーションを促進するために、外発的モチベーションを利用することができます。
 
-### Governance
+* RW-0: 報酬が設定されていません。
+* RW-1: リーダーは例外的なコラボレーションに対して報酬を与えるよう奨励されていますが、方針やプロセスは確立されていません。
+* RW-2: 開発者チーム以外のコラボレーションに報酬を与えるための標準的なプロセスが確立されています。チームリーダーや役員会が報酬を決定しています。
+* RW-3: 報奨は組織から提案されるだけでなく、コミュニティがより価値のある報奨を定義することができます。コミュニティが責任を持って報酬を決定しています。
 
-**Rewards**
+**モニタリングポリシー**
 
-In order to drive adoption, extrinsic motivators can be used to increase cross team collaboration.
+インナーソースのプロジェクトは、自己を評価のための手段を必要とします。メトリクスは、この評価を容易にするための一つです。またインナーソースの導入レベルが成熟している組織では、明確で合意された測定基準に基づいて、この手法の導入が追跡されることが期待されています。
 
-* RW-0: No rewards.
-* RW-1: Leaders are encouraged to reward exceptional collaborations, but there are no policies or processes established.
-* RW-2: Standard processes are established to reward collaborations outside the developers' teams. Team leaders or boards decide who has to be rewarded.
-* RW-3: Rewards are not only proposed by the organization, but the communities are able to define their more valuable rewards. The community is responsible to decide who has to be rewarded.
+* MP-0: 組織内のどのレベルにおいても、既存の監視ポリシーがありません。
+* MP-1: メトリクスは特定のチームにとって重要であり、独立した方法でそれらは使用が始まっています。
+* MP-2: 組織全体で特定の方針を検証するのに役立つ測定基準に関して、組織レベルでの戦略があります。このモニタリング方針は、いくつかのインナーソースプロジェクトのレベルでも存在します。
+* MP-3：組織が提供する特定のインフラストラクチャでのメトリックの使用に関する明確なガイドライン、推奨事項、およびトレーニングがあります。これは組織内での一般的なインナーソース採用を理解するためのインナーソースプログラムと、インナーソースプロジェクトの2つのレベルで機能します。
 
-**Monitoring Policies**
+**サポートとメンテナンス**
 
-InnerSource projects need a means for self assessment. Metrics can be one aspect to facilitate this assessment. Also, in organisations with a mature InnerSource adoption level we expect adoption of the method to be tracked based on clear, agreed upon metrics.
+インナーソースチームは機能開発のみを担当するのではなく、サポートとメンテナンスもチームのコアタスクの一部です。
 
-* MP-0: No existing monitoring policies at any level in the organization.
-* MP-1: Metrics are important for certain teams, and they start using them in an isolated way.
-* MP-2: There is a strategy at the organizational level with respect to metrics that help to validate specific policies across the organization. This monitoring policy exists at the level of some InnerSource projects.
-* MP-3: There are clear guidelines, recommendations, and trainings about the use of metrics with certain infrastructure provided by the organization. This works at both levels: InnerSource program to understand the general InnerSource adoption within the organization, and at the level of InnerSource projects.
+* SM-0: コア開発者またはサポートチームによるサポートが存在します。ビジネスサイドはサポートを保証します。チーム外には製品についての知識がありません。
+* SM-1: 専任のサポートチームによってサポートが提供されます。製品のサポートを形式化するための規則と規制があります。
+* SM-2: インナーソースコントリビューションのサポートは、[30日の保証期間](./30-day-warranty.md)や[ライブラリよりもサービス](./service-vs-library.md)などのインナーソースパターンによって形式化されています。
+* SM-3: 成熟したコミュニティによって提供される、製品のサポートを形式化するための規則と規制があります。
 
-**Support and Maintenance**
+**カルチャー**
 
-Not only should feature development be owned by InnerSource teams - support and maintenance is also part of the teams core tasks.
 
-* SM-0: Support given by the core dev or support team. A business contract guaranties the support. There is no knowledge about the product outside the team.
-* SM-1: There are rules and regulations to formalize the support on the product, given by a dedicated supporting team.
-* SM-2: Support for InnerSource contributions is formalized through InnerSource patterns like [30 Day Warranty](./30-day-warranty.md) or [Service vs. Library](./service-vs-library.md).
-* SM-3: There are rules and regulations to formalize the support on the product, given by a mature community.
+協調的な文化に対する複数のレベルがあります。
 
-**Culture**
+* CL-0: サイロ - チームは独立して機能しますが、単独でも機能します。
+* CL-1: リアクティブ - チームは独立して動きますが、うまくいかない依存関係に対応する方法を知っています。
+* CL-2: コントリビューション - チームはコントリビュートすることで依存関係の改善を積極的に支援します。
+* CL-3: アクティビスト - チームは積極的に助けを求め、メンタリングをし、新しいコントリビューターを募集します。
 
-There are multiple levels moving towards a collaborative culture.
+**インナーソースにおける役割**
 
-* CL-0: Silos - teams work independently but also in isolation.
-* CL-1: Reactive - teams work independently, but know how to react to flaws in dependencies.
-* CL-2: Contributive - teams actively help improve their dependencies by contributing.
-* CL-3: Activist - teams actively seek help, mentor and recruit new contributors.
+インナーソースにはいくつかの明示的な役割があります。初期の段階では、これらの役割を採用しなくても一部のパターンを使用できる場合がありますが、明示的な役割のタイトルを使用してプロジェクト内でコミュニケーションする方が簡単になります。
 
-**InnerSource Roles**
-
-InnerSource comes with explicit roles. While in early stages some patterns may be useable without adopting those roles, communicating within projects using explicit role titles becomes easier.
-
-* RO-0: There are no specific roles helping InnerSource adoption. Only common development roles are present: developer, analyst, tester, etc.
-* RO-1: Occasionally some individuals and teams contribute to other projects. These are technical contributions, where the user/contributor role is seen. For some teams, it can be identified at least one member being a technical reference, who explains the development process to other development team members. He/she could be a candidate for covering the trusted committer role.
-* RO-2: An InnerSource Officer role is in charge of governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for dev team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
-* RO-3: Evangelists are moving inside organization, to let others know about the current work, what InnerSource does and how to do it, and help others to understand and become part of the initiative. Non technical contributors appear.
+* RO-0: インナーソースの採用を支援する特定の役割はありません。開発者、アナリスト、テスターなど一般的な開発の役割のみが存在します。
+* RO-1: 時折、一部の個人やチームが他のプロジェクトにコントリビュートします。これらは技術的なコントリビューションであり、ユーザー/コントリビューターの役割が見られます。 チームによっては、少なくとも一人のメンバーが、他の開発チームのメンバーに開発プロセスを説明する技術的なリファレンスであることが確認されています。このメンバーは信頼されたコミッターの役割をカバーするための候補者となりえます。
+* RO-2: 「インナーソースオフィス」が存在します。このオフィサーの役割は、プロセスなどを含むガバナンスとサポートを担当します。教育のニーズを特定し、これが組織に確実に提供されるようにします。 またインナーソースプロジェクトへの取り組みにおいて組織を主導および指導します。 これはインナーソースのビジョンとロードマップを定義する、最初の正式なステップです。そして「信頼されたコミッター」の役割は開発チームのメンバーだけでなく、外部のコントリビューターにとっての連絡先/参照先にもなっています。コミュニティにコントリビュートする方法を説明する標準的なプロセスがあり、コントリビューターの役割が存在します。またもう一つの役割として「データサイエンティスト」が存在します。この役割はインナーソースの成長を測定するために必要な、インナーソースアクティビティの履歴管理を担当します。信頼されたコミッターの役割がより技術的な役割に進化していくと、「コミュニティマネージャー」の役割が生まれてきます。コミュニティマネージャーはコミュニティの活性化を担当し、新しい開発者/ユーザー（コントリビューター/コミュニティメンバー）を引き付けて維持する主な責任を負います。
+* RO-3: 「エバンジェリスト」は組織内を移動し、現在の作業、インナーソースの機能とその方法を他の人に知らせ、他の人がイニシアチブを理解して参加できるように支援します。この段階では「非技術的なコントリビューター」の存在も出現します。
 
 ## 結果の状況
 
-All teams are aware of available best practices.
+すべてのチームが、利用可能なベストプラクティスを認識しています。
 
-Teams understand their level of InnerSource adoption.
+チームは、インナーソースの採用のレベルを理解しています。
 
-Prior to adopting InnerSource as a working model, teams are aware of the
-practices that are expected of them - both in the short term and in the
-long term.
+作業モデルとしてインナーソースを採用する前に、チームは短期的にも長期的にも、チームに期待されるプラクティスを認識しています。
+
 
 ## 事例
 
@@ -223,13 +205,16 @@ long term.
 
 ## 謝辞
 
-* Alexander Andrade (special thanks for the spelling fixes)
+* Alexander Andrade (スペルの修正に特に感謝します)
 
 ## その他の呼び方
 
-Maturity model: Learn about InnerSource best practices
+成熟度モデル: インナーソースのベストプラクティスについて学ぶ
 
 ## ステータス
 
 * Structured
 * Drafted in September 2019
+
+## 翻訳の履歴
+- **2022-06-03** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
