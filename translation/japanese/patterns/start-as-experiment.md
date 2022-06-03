@@ -71,3 +71,6 @@
 - Russ Rutledge (Nike)
 - Tim Yao (Nokia)
 - Clint Cain (Optum)
+
+## 翻訳の履歴
+- **2022-06-03** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

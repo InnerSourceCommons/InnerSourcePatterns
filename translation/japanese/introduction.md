@@ -72,3 +72,6 @@
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 インナーソース・パターンは [InnerSourceCommons.org](http://innersourcecommons.org) によりライセンスされ、[Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) ライセンスで提供されています。
+
+## 翻訳の履歴
+- **2022-05-23** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

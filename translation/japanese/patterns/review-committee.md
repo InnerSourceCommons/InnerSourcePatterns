@@ -56,3 +56,6 @@ A社は、最初のインナーソースの取り組みを導入したいと考�
 ## その他の呼び方
 
 Cheese Interface
+
+## 翻訳の履歴
+- **2022-06-02** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

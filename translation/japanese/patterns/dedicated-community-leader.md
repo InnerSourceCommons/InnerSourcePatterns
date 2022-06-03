@@ -84,3 +84,6 @@ Dedicated Community Manager
 
 - **2016-11-06** - 1st review
 - **2017-04-06** - 2nd review
+
+## 翻訳の履歴
+- **2022-06-01** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

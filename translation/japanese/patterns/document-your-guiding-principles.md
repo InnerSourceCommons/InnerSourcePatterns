@@ -185,3 +185,6 @@ Structured
 ## その他の呼び方
 
 インナーソース減速の明示 - Explicit InnerSource Principles
+
+## 翻訳の履歴
+- **2022-06-02** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
