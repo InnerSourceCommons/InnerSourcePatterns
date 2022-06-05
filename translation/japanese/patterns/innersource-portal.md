@@ -75,7 +75,7 @@ InnerSourceポータルの[参考実装](https://github.com/SAP/project-portal-f
 
 ![Santander InnerSource Portal](../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
 
-## References
+## リファレンス
 
 * The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource [Gig Marketplace](./gig-marketplace.md) pattern in this context
 

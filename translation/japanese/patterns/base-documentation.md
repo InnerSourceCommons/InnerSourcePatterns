@@ -86,7 +86,7 @@ Provide standard base documentation through a README
 * Structured
 * Drafted in December 2019.
 
-## References
+## リファレンス
 
 * [README-template.md](../templates/README-template.md) and
 * [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)

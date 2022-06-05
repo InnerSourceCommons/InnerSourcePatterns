@@ -13,7 +13,7 @@
 
 さらに、これらのパターンの発見性を向上させるための他のアイデアや、このマインドマップをより良くしたい場合は、[パターン分類](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)アプローチのドキュメントを確認し、[この本へのコントリビューション](../../book/contribute.md)の方法も確認してみてください。
 
-## References
+## リファレンス
 
 このようにパターンを分類するアイデアは、Tim Yao さん、Bob Hanmer さん、Padma Sudarsanshi さんによる[Thoughts on an InnerSource Pattern Language](https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view) (2018) の記述を大まかに元にしています。具体的な内容はそのスライドデックの15ページ目をご覧ください。
 
