@@ -75,3 +75,6 @@ Tobias Gesellchenさん、Europace AGの内部レビューをありがとうご�
 ## その他の呼び方
 
 サービス対ライブラリ: インナーデプロイメントではなくインナー**ソース**
+
+## 翻訳の履歴
+- **2022-06-06** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
