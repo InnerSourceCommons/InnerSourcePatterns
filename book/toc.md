@@ -61,7 +61,6 @@ Instead edit toc_template.md
   * [この本へのコントリビューション](../translation/japanese/contribute.md)
   * パターン
     * [30日の保証期間](../translation/japanese/patterns/30-day-warranty.md) - 自分のチーム以外からのコントリビューションを受け入れる場合、チームが書いていないコードの責任を持つことに抵抗があることは自然なことでしょう。 「30日の保証期間」プラクティスを利用すると、コードにコントリビュートしたチームはコードを受け取ったチームに対してバグフィックスを提供することを承諾することになります。 そうすることで、両チーム間の信頼度が高まり、コントリビューションが受け入れられる可能性が高くなります。
-    * [Contracted Contributor](../translation/japanese/patterns/contracted-contributor.md) - InnerSourceにコントリビュートしたいアソシエイツは、彼らのライン管理によってそうすることから落胆しています。救済は、正式な契約や協定によって提供されています。
     * [Gig Marketplace](../translation/japanese/patterns/gig-marketplace.md) - マネージャーと従業員のどちらも、彼らはInnerSourceプロジェクトに関与して得ることから利益を得るかもしれない方法を理解しています。  それは従業員のために彼らはInnerSourceプロジェクトにする必要がありますどのような時間のコミットメントを彼らの経営にcomamunicateすることは困難である。
     * [InnerSource Portal](../translation/japanese/patterns/innersource-portal.md) - 潜在的なコントリビューターは、彼らが興味を持っているInnerSourceプロジェクトを簡単に見つけることができません。すべての利用可能なInnerSourceプロジェクトの情報をインデックス化するイントラネットのウェブサイトを作成することにより、あなたはコントリビューターが彼らに興味があるかもしれないプロジェクトについて学ぶことができ、InnerSourceプロジェクトの所有者は、外部の聴衆を引き付けることができます。
     * [Issue Tracker Use Cases](../translation/japanese/patterns/issue-tracker.md) - InnerSourceのホストチームは、計画や進捗だけでなく、変更の背景も透明化できていません。これは、プロジェクトの課題トラッカーのユースケースを増やし、ブレーンストーミング、実装の議論、機能設計にも使えるようにすることで解決されます。
@@ -77,6 +76,7 @@ Instead edit toc_template.md
     * [信頼されたコミッター - Trusted Committer](../translation/japanese/patterns/trusted-committer.md) - 多くのInnerSourceプロジェクトは、コントリビューターからフィードバック、機能、バグフィックスを一貫して受け取る状況にあります。このような状況で、プロジェクトのメンテナーは、単一のコントリビューションを越えてコントリビューターの仕事を認識し、報酬を与える方法を模索します。
     * [共通要件](../translation/japanese/patterns/common-requirements.md) - 共有リポジトリにある共通のコードは、それを使いたいすべてのプロジェクトチームのニーズを満たしていません。これは、要件の調整とリファクタリングによって解決されます。
     * [基本原則ガイダンスの文書化](../translation/japanese/patterns/document-your-guiding-principles.md) - 「オープンソースのベストプラクティスを組織内に適用する」という通常のインナーソースの説明は、オープンソースのバックグラウンドがない人々にはうまく機能しません。 解決策として、インナーソースの最も重要な原則を文書化し広く公開しましょう。
+    * [契約コントリビューター](../translation/japanese/patterns/contracted-contributor.md) - インナーソースにコントリビュートしたい社員がいますが、彼らの直属の上司はその活動に抵抗を示しています。正式な契約と合意をすることによって救済することができるかもしれません。
     * [実験として始める](../translation/japanese/patterns/start-as-experiment.md) - インナーソースイニシアチブを期間限定の実験として開始し、インナーソースに慣れていないマネージャーがイニシアチブを承認およびサポートしやすくします。
     * [成熟度モデル](../translation/japanese/patterns/maturity-model.md) - チームはインナーソースを採用し始めました。このプラクティスは、複数の部門に広がっています。しかし、インナーソースプロジェクトを構成する概念への理解は様々です。解決策は、チームがセルフチェックを経て、まだ気づいていないパターンやプラクティスを発見できるよう、成熟度モデルを提供することです。
     * [献身的なコミュニティリーダー - Dedicated Community Leader](../translation/japanese/patterns/dedicated-community-leader.md) - インナーソースの取り組みを成功させるために、コミュニケーションとテクニカルの両方のスキルを持つ人をコミュニティのリーダーとして選ぶ。
