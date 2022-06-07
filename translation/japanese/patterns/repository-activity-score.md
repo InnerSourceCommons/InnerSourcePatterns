@@ -120,7 +120,7 @@ function calculateScore(repo) {
 
 * Structured
 
-## 著者(s)
+## # 著者
 
 [Michael Graf (SAP)](mailto:mi.graf@sap.com)
 
