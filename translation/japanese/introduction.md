@@ -1,6 +1,6 @@
 # イントロダクション
 
-![](../../book/innersource-patterns-book-cover.jpg)
+![book-cover](../../book/innersource-patterns-book-cover.jpg)
 
 {% hint style="info" %}
 あなたが読んでいるインナーソースパターンは初期のリリースフェイズです。リンクが壊れていたりスペルミスやエラーがある可能性があります。できる限りベストな本を作成するために是非修正にご協力ください。[本へのコントリビューション](./contribute.md)はこちらをご参照ください。
@@ -56,6 +56,7 @@
 [この本にコントリビュートするには](./contribute.md)
 
 ## クレジット
+
 この本は、世界中の無数の[オープンソースコントリビューター](https://github.com/InnerSourceCommons/InnerSourcePatterns/graphs/contributors)の方々による長年のワークの結果です。
 
 この本は、彼らの会社で直面した課題を率直に共有することや、どのようにそのチャレンジに InnerSource が役立ったかをオープンに共有ことに対する彼らの意欲によって素晴らしいものになっています。インナーソースの旅を始めようとしている方々にとって、とても貴重なリソースになるでしょう。
@@ -66,7 +67,6 @@
 
 **コントリビューターのみなさま、ありがとうございます！そして、良いインナーソースの日をお送りください😃**
 
-
 ## ライセンス
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
@@ -74,4 +74,5 @@
 インナーソース・パターンは [InnerSourceCommons.org](http://innersourcecommons.org) によりライセンスされ、[Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) ライセンスで提供されています。
 
 ## 翻訳の履歴
+
 - **2022-05-23** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

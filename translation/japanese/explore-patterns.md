@@ -18,4 +18,5 @@
 このようにパターンを分類するアイデアは、Tim Yao さん、Bob Hanmer さん、Padma Sudarsanshi さんによる[Thoughts on an InnerSource Pattern Language](https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view) (2018) の記述を大まかに元にしています。具体的な内容はそのスライドデックの15ページ目をご覧ください。
 
 ## 翻訳の履歴
+
 - **2022-05-23** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

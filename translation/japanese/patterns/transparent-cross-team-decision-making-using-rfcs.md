@@ -122,6 +122,6 @@ Structured
 [bbc]: https://www.youtube.com/watch?v=U6zlghE0HcE
 [google]: https://www.industrialempathy.com/posts/design-docs-at-google/
 
-
 ## 翻訳の履歴
+
 - **2022-06-07** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

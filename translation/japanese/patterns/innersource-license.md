@@ -70,7 +70,6 @@ DB 社の中で最初の法人(企業) は、このインナーソース ライ�
 
 ## ステータス
 
-
 * Structured
 * **事例**に記載されている実験は、2020年2月から実施されています。最初の経験では、最初のポジティブな効果を示していますが、パターンを完全に評価するためには、より多くの経験が必要になります。
 
@@ -94,5 +93,5 @@ DB 社の中で最初の法人(企業) は、このインナーソース ライ�
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
 ## 翻訳の履歴
-- **2022-06-05** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
 
+- **2022-06-05** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

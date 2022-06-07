@@ -86,7 +86,7 @@
 - **2017-05-09** - rework
 - **2017-09-08** - second review, final rework and merged
 - **2021-02-27** - fixing issues with display of the pattern in the book
- 
-## 翻訳の履歴
-- **2022-06-06** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
 
+## 翻訳の履歴
+
+- **2022-06-06** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

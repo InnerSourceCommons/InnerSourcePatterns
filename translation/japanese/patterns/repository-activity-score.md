@@ -126,7 +126,7 @@ function calculateScore(repo) {
 
 ## 謝辞
 
-InnerSource Commons Community の迅速なアドバイス、そしてこのパターンを養うための多くの有益な意見に感謝します! 
+InnerSource Commons Community の迅速なアドバイス、そしてこのパターンを養うための多くの有益な意見に感謝します!
 
 * Johannes Tigges
 * Sebastian Spier
@@ -134,4 +134,5 @@ InnerSource Commons Community の迅速なアドバイス、そしてこのパ�
 * Tim Yao
 
 ## 翻訳の履歴
+
 - **2022-06-07** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
