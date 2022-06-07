@@ -61,5 +61,5 @@ Isabel Drost-Fromm
 * Drafted in December 2019.
 
 ## 翻訳の履歴
-- **2022-06-06** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
 
+- **2022-06-06** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)

@@ -92,4 +92,5 @@ Provide standard base documentation through a README
 * [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
 
 ## 翻訳の履歴
+
 - **2022-06-01** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
