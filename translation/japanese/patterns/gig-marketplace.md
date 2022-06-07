@@ -69,7 +69,7 @@
 
 * Structured
 
-## 著者(s)
+## # 著者
 
 * Stephen McCall
 * Shreyans Dugar
