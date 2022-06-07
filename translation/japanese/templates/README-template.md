@@ -49,6 +49,3 @@ Producing Open Source Software の [Mission Statement Chapter](https://producing
 さらに、プロジェクトで守りたい設計の価値観についても概要を説明しておく必要があります。これらを明示することで、トレードオフをより早く、より簡単に解決できることがよくあります。さらに、暗黙の前提に対する変更を透明化するのにも役立ちます。
 
 時間が経つにつれて、このセクションがかなり大きくなっていることに気がつくと思います。その場合は、例えば `CONTRIBUTING.md` と `TESTING.md` のように、情報を別のファイルに移動することを考えてみてください。
-
-## 翻訳の履歴
-- **2022-06-01** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
