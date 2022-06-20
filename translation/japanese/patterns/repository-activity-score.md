@@ -87,7 +87,7 @@ function calculateScore(repo) {
     iScore += (repo.description?.length > 30 || repo._InnerSourceMetadata.motivation?.length > 30 ? 50 : 0);
     // 貢献ガイドライン(CONTRIBUTING.md)ファイルを持つプロジェクトに、100の加算点を固定して加える。
     iScore += (repo._InnerSourceMetadata.guidelines ? 100 : 0);
-    // build in a logarithmic scale for very active projects (open ended but stabilizing around 5000)
+    // 非常に活発なプロジェクトは、対数スケールで構成する（発散的だが5000前後で安定する）
     if (iScore > 3000) {
         iScore = 3000 + Math.log(iScore) * 100;
     }
