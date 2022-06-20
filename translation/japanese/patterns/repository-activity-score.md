@@ -91,7 +91,7 @@ function calculateScore(repo) {
     if (iScore > 3000) {
         iScore = 3000 + Math.log(iScore) * 100;
     }
-    // final score is a rounded value starting from 0 (subtract the initial value)
+    // 最終スコアは0から始まる四捨五入された整数とする（初期値を差し引いた値）
     iScore = Math.round(iScore - 50);
     // add score to metadata on the fly
     repo._InnerSourceMetadata.score = iScore;
