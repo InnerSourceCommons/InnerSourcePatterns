@@ -85,7 +85,7 @@ function calculateScore(repo) {
     iScore += iBoost;
     // give projects with a meaningful description a static boost of 50
     iScore += (repo.description?.length > 30 || repo._InnerSourceMetadata.motivation?.length > 30 ? 50 : 0);
-    // give projects with contribution guidelines (CONTRIBUTING.md) file a static boost of 100
+    // 貢献ガイドライン(CONTRIBUTING.md)ファイルを持つプロジェクトに、100の加算点を固定して加える。
     iScore += (repo._InnerSourceMetadata.guidelines ? 100 : 0);
     // build in a logarithmic scale for very active projects (open ended but stabilizing around 5000)
     if (iScore > 3000) {
