@@ -53,7 +53,7 @@ GitHub API で取得できる自動化された KPI は、全ての事柄のう�
 必要であれば、ソフトKPI([組織に働く力学](#組織に働く力学)を参照)に従って手動で調整することもできます。
 
 ``` javascript
-// calculate a virtual InnerSource score from stars, watches, commits, and issues
+// スター数、ウォッチ数、コミット数、およびイシュー数から仮想のInnerSourceスコアを計算します。
 function calculateScore(repo) {
     // initial score is 50 to give active repos with low GitHub KPIs (forks, watchers, stars) a better starting point
     let iScore = 50;
