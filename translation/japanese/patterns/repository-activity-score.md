@@ -63,7 +63,7 @@ function calculateScore(repo) {
     iScore += repo.stargazers_count / 3;
     iScore += repo.open_issues_count / 5;
 
-    // updated in last 3 months: adds a bonus multiplier between 0..1 to overall score (1 = updated today, 0 = updated more than 100 days ago)
+    // 過去3ヶ月以内に更新されたもの：総合スコアに0～1の乗数を加える（1＝本日更新、0＝100日以上前に更新されたもの）
     let iDaysSinceLastUpdate = (new Date().getTime() - new Date(repo.updated_at).getTime()) / 1000 / 86400;
     iScore = iScore * ((1 + (100 - Math.min(iDaysSinceLastUpdate, 100))) / 100);
 
