@@ -57,7 +57,7 @@ GitHub API で取得できる自動化された KPI は、全ての事柄のう�
 function calculateScore(repo) {
     // 初期スコアは 50 にします。GitHub の KPI (フォーク数、ウォッチャ数、スター数) が低い、アクティブなレポジトリをより良いスタート地点にするためです。
     let iScore = 50;
-    // weighting: forks and watches count most, then stars, add some little score for open issues, too
+    // 重み付け：フォーク数とウォッチ数で最もポイント付けし、次にスター数でポイント付け。オープンなイシューの数でも若干のスコアを加える。
     iScore += repo.forks_count * 5;
     iScore += (repo.subscribers_count ? repo.subscribers_count : 0);
     iScore += repo.stargazers_count / 3;
