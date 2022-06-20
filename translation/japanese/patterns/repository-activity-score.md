@@ -93,7 +93,7 @@ function calculateScore(repo) {
     }
     // 最終スコアは0から始まる四捨五入された整数とする（初期値を差し引いた値）
     iScore = Math.round(iScore - 50);
-    // add score to metadata on the fly
+    // メタデータにスコアを直接追加する
     repo._InnerSourceMetadata.score = iScore;
 
     return iScore;
