@@ -1,19 +1,22 @@
-# Explore Patterns
+# パターンを探る
 
-More and more patterns are contributed to this book by the InnerSource Commons community. That is awesome!
+とても素晴らしいことに、インナーソース・コモンズのコミュニティから、どんどんパターンが寄稿されています！
 
-Now how to make it easy for readers to discover the patterns that can help them in their particular situation?
+さて、ではどのように特定の自分の状況に役立つパターンを読者は簡単に見つけられるでしょうか？
+そこで私たちはこのマインドマップを提供します。このマインドマップは、**インナーソースプログラムのさまざまなフェーズと、それぞれのフェーズで現れる可能性のある課題に基づいてパターンを分類しています。**
 
-For this purpose we provide this mind map. It **categorizes patterns based on the different phases of an InnerSource Program**, and the challenges that might appear in the respective phases.
+![インナーソース・パターンのマインドマップ](../pattern-categorization/innersource-program-mind-map.png)
 
-![Mind Map of InnerSource Patterns](../pattern-categorization/innersource-program-mind-map.png)
+## このマインドマップを改善する
 
-## Improve this Mind Map
+もし、このマインドマップを何かおかしいと感じた場合、その問題点と修正すべき点を記述した[イシューを作成](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues)してください。
 
-If you notice anything in this mind map that looks wrong, please [open an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues), describing the problem and the fix that should be made.
+さらに、これらのパターンの発見性を向上させるための他のアイデアや、このマインドマップをより良くしたい場合は、[パターン分類](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)アプローチのドキュメントを確認し、[この本へのコントリビューション](contribute.md)の方法も確認してみてください。
 
-Further if you have other ideas for improving the discoverability of these patterns, or want to make this mind map better, review the documentation of our [Pattern Categorization](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md) approach, and also check how to [contribute to this book](contribute.md).
+## リファレンス
 
-## References
+このようにパターンを分類するアイデアは、Tim Yao さん、Bob Hanmer さん、Padma Sudarsanshi さんによる[Thoughts on an InnerSource Pattern Language](https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view) (2018) の記述を大まかに元にしています。具体的な内容はそのスライドデックの15ページ目をご覧ください。
 
-The idea for categorizing patterns like this is loosely based a description in [Thoughts on an InnerSource Pattern Language](https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view) by Tim Yao, Bob Hanmer and Padma Sudarsan (2018). For specifics see slide 15 in that slide deck.
+## 翻訳の履歴
+
+- **2022-05-23** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
