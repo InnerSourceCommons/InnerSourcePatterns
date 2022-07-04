@@ -51,19 +51,10 @@ Instead edit toc_template.md
 
 * [Pattern Template](../meta/pattern-template.md)
 * Extras
-  * [README Template](../patterns/2-structured/project-setup/templates/README-template.md)
-  * [CONTRIBUTING Template](../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
+  * [README Template](../translation/japanese/templates/README-template.md)
+  * [CONTRIBUTING Template](../translation/japanese/templates/CONTRIBUTING-template.md)
 
 ## Resources
 
 * [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)
-
-## Translation<a id="p"></a>
-
-<!-- * Japanese
-  * [イントロダクション](../translation/japanese/introduction.md)
-  * [パターンの一覧](../translation/japanese/explore-patterns.md)
-  * [この本へのコントリビューション](../translation/japanese/contribute.md)
-  * パターン
- -->
