@@ -10,16 +10,22 @@ Instead edit toc_template.md
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
 
-* [Introduction](../book/introduction.md)
+<!-- * [Introduction](../book/introduction.md)
 * [Table of Contents](../book/toc.md)
 * [Explore Patterns](../book/explore-patterns.md)
-* [Contribute to this book](../book/contribute.md)
+* [Contribute to this book](../book/contribute.md) -->
+
+* [イントロダクション](../translation/japanese/introduction.md)
+* [Table of Contents](../book/toc.md)
+* [パターンの一覧](../translation/japanese/explore-patterns.md)
+* [この本へのコントリビューション](../translation/japanese/contribute.md)
+
 
 ![Mind Map of InnerSource Patterns](../pattern-categorization/innersource-program-mind-map.png)
 
 ## Patterns <a id="p"></a>
 
-<<PATTERS_HERE>>
+<<TRANSLATION_HERE>>
 
 ## Appendix
 
@@ -35,9 +41,9 @@ Instead edit toc_template.md
 
 ## Translation<a id="p"></a>
 
-* Japanese
+<!-- * Japanese
   * [イントロダクション](../translation/japanese/introduction.md)
   * [パターンの一覧](../translation/japanese/explore-patterns.md)
   * [この本へのコントリビューション](../translation/japanese/contribute.md)
   * パターン
-<<TRANSLATION_HERE>>
+ -->
