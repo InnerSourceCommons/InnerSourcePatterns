@@ -6,6 +6,7 @@ on:
       - "main"
       - "book-staging"
       - "japanese-translation-v1"
+      - "translation-japanese"
 
 jobs:
   book-toc-generation:
