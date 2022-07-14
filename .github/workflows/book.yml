@@ -31,7 +31,7 @@ jobs:
       run: |
         echo "Running on branch: $GITHUB_REF_NAME"
         cd book/
-        ruby generate_toc.rb
+        ruby generate_toc.rb $GITHUB_REF_NAME
 
     - name: Commit new ToC to book/toc.md
       uses: stefanzweifel/git-auto-commit-action@v4

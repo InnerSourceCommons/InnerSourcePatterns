@@ -68,8 +68,14 @@ end
 
 # Main block
 
+## Determine the language for which the book is generated, based on the branch name passed to this script
+GENERATED_LANGUAGE = (ARGV[0] == "translation-japanese") ? "jp" : "en"
+
+## Files to be used
 TOC_TEMPLATE_FILE = "./toc_template.md"
 TOC_FILE = "./toc.md"
+
+puts "Generatign ToC for language: #{GENERATED_LANGUAGE}"
 
 # Generate list of patterns and sort them by name
 # patterns = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md", "../patterns/3-validated/*.md"]
