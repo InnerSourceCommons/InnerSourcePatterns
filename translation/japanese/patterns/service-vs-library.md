@@ -77,3 +77,4 @@ Tobias Gesellchenさん、Europace AGの内部レビューをありがとうご�
 ## 翻訳の履歴
 
 - **2022-06-06** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
+- **2022-06-13** - レビュー [@kanazawazawa](https://github.com/kanazawazawa)

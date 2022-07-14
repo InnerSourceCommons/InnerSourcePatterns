@@ -95,3 +95,4 @@ DB 社の中で最初の法人(企業) は、このインナーソース ライ�
 ## 翻訳の履歴
 
 - **2022-06-05** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
+- **2022-06-13** - レビュー [@kanazawazawa](https://github.com/kanazawazawa)
