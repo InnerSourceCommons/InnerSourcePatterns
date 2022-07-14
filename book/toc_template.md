@@ -1,4 +1,4 @@
-# Table of Contents
+# 目次
 
 <!--
 Do not edit toc.md directly!!!
@@ -11,24 +11,24 @@ Instead edit toc_template.md
 -->
 
 * [イントロダクション](../book/introduction.md)
-* [Table of Contents](../book/toc.md)
+* [目次](../book/toc.md)
 * [パターンの一覧](../book/explore-patterns.md)
 * [この本へのコントリビューション](../book/contribute.md)
 
-![Mind Map of InnerSource Patterns](../pattern-categorization/innersource-program-mind-map.png)
+![インナーソースパターンのマインドマップ](../pattern-categorization/innersource-program-mind-map.png)
 
-## Patterns <a id="p"></a>
+## パターン<a id="p"></a>
 
 <<PATTERS_HERE>>
 
-## Appendix
+## 付録
 
-* [Pattern Template](../meta/pattern-template.md)
-* Extras
-  * [README Template](../translation/japanese/templates/README-template.md)
-  * [CONTRIBUTING Template](../translation/japanese/templates/CONTRIBUTING-template.md)
+* [パターンテンプレート](../meta/pattern-template.md)
+* その他
+  * [README テンプレート](../translation/japanese/templates/README-template.md)
+  * [CONTRIBUTING テンプレート](../translation/japanese/templates/CONTRIBUTING-template.md)
 
-## Resources
+## リソース
 
-* [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
+* [GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)
