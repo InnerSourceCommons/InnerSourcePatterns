@@ -1,4 +1,4 @@
-# Table of Contents
+# 目次
 
 <!--
 Do not edit toc.md directly!!!
@@ -11,13 +11,13 @@ Instead edit toc_template.md
 -->
 
 * [イントロダクション](../book/introduction.md)
-* [Table of Contents](../book/toc.md)
+* [目次](../book/toc.md)
 * [パターンの一覧](../book/explore-patterns.md)
 * [この本へのコントリビューション](../book/contribute.md)
 
-![Mind Map of InnerSource Patterns](../pattern-categorization/innersource-program-mind-map.png)
+![インナーソースパターンのマインドマップ](../pattern-categorization/innersource-program-mind-map.png)
 
-## Patterns <a id="p"></a>
+## パターン<a id="p"></a>
 
 * [30日の保証期間](../translation/japanese/patterns/30-day-warranty.md) - 自分のチーム以外からのコントリビューションを受け入れる場合、チームが書いていないコードの責任を持つことに抵抗があることは自然なことでしょう。 「30日の保証期間」プラクティスを利用すると、コードにコントリビュートしたチームはコードを受け取ったチームに対してバグフィックスを提供することを承諾することになります。 そうすることで、両チーム間の信頼度が高まり、コントリビューションが受け入れられる可能性が高くなります。
 * [RFCを用いたチーム横断的な意思決定の透明化](../translation/japanese/patterns/transparent-cross-team-decision-making-using-rfcs.md) - 高い参加率を達成し、関係者全員にとって最良の意思決定を行いたいインナーソースプロジェクトは、ソフトウェアのライフサイクル全体を通して参加型のシステムを構築する方法を見つける必要があります。内部のRFC(Requests for Comments)ドキュメントを公開することで、設計プロセスの早い段階から議論を行うことができ、関係者全員が高いコミットメントを持ってソリューションを構築できる可能性が高まります。
@@ -41,14 +41,14 @@ Instead edit toc_template.md
 * [成熟度モデル](../translation/japanese/patterns/maturity-model.md) - チームはインナーソースを採用し始めました。このプラクティスは、複数の部門に広がっています。しかし、インナーソースプロジェクトを構成する概念への理解は様々です。解決策は、チームがセルフチェックを経て、まだ気づいていないパターンやプラクティスを発見できるよう、成熟度モデルを提供することです。
 * [献身的なコミュニティリーダー - Dedicated Community Leader](../translation/japanese/patterns/dedicated-community-leader.md) - インナーソースの取り組みを成功させるために、コミュニケーションとテクニカルの両方のスキルを持つ人をコミュニティのリーダーとして選ぶ。
 
-## Appendix
+## 付録
 
-* [Pattern Template](../meta/pattern-template.md)
-* Extras
-  * [README Template](../translation/japanese/templates/README-template.md)
-  * [CONTRIBUTING Template](../translation/japanese/templates/CONTRIBUTING-template.md)
+* [パターンテンプレート](../meta/pattern-template.md)
+* その他
+  * [README テンプレート](../translation/japanese/templates/README-template.md)
+  * [CONTRIBUTING テンプレート](../translation/japanese/templates/CONTRIBUTING-template.md)
 
-## Resources
+## リソース
 
-* [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
+* [GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)
