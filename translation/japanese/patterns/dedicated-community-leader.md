@@ -88,3 +88,4 @@ Dedicated Community Manager
 ## 翻訳の履歴
 
 - **2022-06-01** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
+- **2022-06-21** - レビュー [@hirotakatoya](https://github.com/hirotakatoya)

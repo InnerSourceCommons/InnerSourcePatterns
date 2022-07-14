@@ -187,3 +187,4 @@ Structured
 ## 翻訳の履歴
 
 - **2022-06-02** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
+- **2022-06-13** - レビュー [@kanazawazawa](https://github.com/kanazawazawa)
