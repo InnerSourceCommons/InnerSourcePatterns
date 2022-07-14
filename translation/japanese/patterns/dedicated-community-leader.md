@@ -1,6 +1,6 @@
 ## Title
 
-献身的なコミュニティリーダー - Dedicated Community Leader
+正式なコミュニティリーダー
 
 ## Patlet
 
