@@ -30,7 +30,7 @@ jobs:
     - name: Generate ToC
       run: |
         echo "Running on branch: $GITHUB_REF_NAME"
-        cd book/
+        cd book/scripts/
         ruby generate_toc.rb $GITHUB_REF_NAME
 
     - name: Commit new ToC to book/toc.md
