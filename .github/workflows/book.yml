@@ -23,7 +23,7 @@ jobs:
 
     - name: Install ruby dependencies
       run: |
-        cd book/
+        cd book/scripts/
         gem install bundler
         bundle install
 
