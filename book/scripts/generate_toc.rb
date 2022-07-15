@@ -67,11 +67,11 @@ end
 
 # Main block
 
-## Determine the language for which the book is generated, based on the branch name passed to this script
-GENERATED_LANGUAGE = (ARGV[0] == "translation-japanese") ? "jp" : "en"
+## 2-letter language code of the book to-be-generated is passed into this script.
+BOOK_LANGUAGE = ARGV[0]
 
 ## Files to be used for the different languages
-if (GENERATED_LANGUAGE == "jp")
+if (BOOK_LANGUAGE == "jp")
   TOC_TEMPLATE_FILE = "../jp/toc_template.md"
   TOC_FILE = "../jp/toc.md"
   PATTERNS = Dir["../../translation/japanese/patterns/*.md"]

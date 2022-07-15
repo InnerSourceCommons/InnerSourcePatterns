@@ -12,53 +12,44 @@ jobs:
   book-toc-generation:
     runs-on: ubuntu-latest
 
-    # if: github.ref_name == 'translation_japanese'
-    # env: 
-    #   LANGUAGE: jp
-
-    # if: github.ref_name == 'translation_english'
-    # env:
-    #   LANGUAGE: en
-
     steps:
 
-    - name: Determine book language 
+    - name: Determine book language
       run: |
         [[ "$GITHUB_REF_NAME" == "translation-japanese" ]] && book_language="jp" || book_language="en"
         echo "BOOK_LANGUAGE=$book_language" >> $GITHUB_ENV
 
-    - name: Quick test
-      run: |
-        echo "Running on branch: $GITHUB_REF_NAME"
-        echo "Language extracted: ${{ env.BOOK_LANGUAGE }}"
-        echo "Language extracted (diff): $BOOK_LANGUAGE"
-        echo "Nice job Sebastian" >> $GITHUB_STEP_SUMMARY
-
-    # - uses: actions/checkout@v2
-    #   with:
-    #     ref: ${{ github.head_ref }}
-
-    # - uses: actions/setup-ruby@v1
-    #   with:
-    #     ruby-version: '2.6'
-    #     # Try this again another time: https://github.com/ruby/setup-ruby#caching-bundle-install-automatically
-    #     # working-directory: 'book/scripts/'
-    #     # bundler-cache: true
-
-    # - name: Install ruby dependencies
-    #   run: |
-    #     cd book/scripts/
-    #     gem install bundler
-    #     bundle install
-
-    # - name: Generate ToC
+    # - name: Quick test
     #   run: |
     #     echo "Running on branch: $GITHUB_REF_NAME"
     #     echo "Language extracted: ${{ env.BOOK_LANGUAGE }}"
-    #     cd book/scripts/
-    #     ruby generate_toc.rb $GITHUB_REF_NAME
+    #     echo "Language extracted (diff): $BOOK_LANGUAGE"
+    #     echo "Nice job Sebastian" >> $GITHUB_STEP_SUMMARY
 
-    # - name: Commit new ToC to book/toc.md
-    #   uses: stefanzweifel/git-auto-commit-action@v4
-    #   with:
-    #     commit_message: Writing new ToC for the book
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6'
+        # Try this again another time: https://github.com/ruby/setup-ruby#caching-bundle-install-automatically
+        # working-directory: 'book/scripts/'
+        # bundler-cache: true
+
+    - name: Install ruby dependencies
+      run: |
+        cd book/scripts/
+        gem install bundler
+        bundle install
+
+    - name: Generate ToC
+      run: |
+        cd book/scripts/
+        ruby generate_toc.rb $BOOK_LANGUAGE 
+        echo "Generaed book for: $BOOK_LANGUAGE >> $GITHUB_STEP_SUMMARY
+
+    - name: Commit new ToC to book/toc.md
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Writing new ToC for the book
