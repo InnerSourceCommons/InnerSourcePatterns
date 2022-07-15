@@ -31,6 +31,7 @@ jobs:
       run: |
         echo "Running on branch: $GITHUB_REF_NAME"
         echo "Language extracted: ${{ env.BOOK_LANGUAGE }}"
+        echo "Language extracted (diff): $BOOK_LANGUAGE"
         echo "Nice job Sebastian" >> $GITHUB_STEP_SUMMARY
 
     # - uses: actions/checkout@v2
