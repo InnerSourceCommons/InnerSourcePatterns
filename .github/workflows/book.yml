@@ -27,31 +27,36 @@ jobs:
         [[ "$GITHUB_REF_NAME" == "translation-japanese" ]] && book_language="jp" || book_language="en"
         echo "{BOOK_LANGUAGE}={book_language}" >> $GITHUB_ENV
 
-    - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.head_ref }}
-
-    - uses: actions/setup-ruby@v1
-      with:
-        ruby-version: '2.6'
-        # Try this again another time: https://github.com/ruby/setup-ruby#caching-bundle-install-automatically
-        # working-directory: 'book/scripts/'
-        # bundler-cache: true
-
-    - name: Install ruby dependencies
-      run: |
-        cd book/scripts/
-        gem install bundler
-        bundle install
-
-    - name: Generate ToC
+    - name: Quick test
       run: |
         echo "Running on branch: $GITHUB_REF_NAME"
-        echo "Language extracted: $BOOK_LANGUAGE"
-        cd book/scripts/
-        ruby generate_toc.rb $GITHUB_REF_NAME
+        echo "Language extracted: ${{ env.BOOK_LANGUAGE }}"
 
-    - name: Commit new ToC to book/toc.md
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Writing new ToC for the book
+    # - uses: actions/checkout@v2
+    #   with:
+    #     ref: ${{ github.head_ref }}
+
+    # - uses: actions/setup-ruby@v1
+    #   with:
+    #     ruby-version: '2.6'
+    #     # Try this again another time: https://github.com/ruby/setup-ruby#caching-bundle-install-automatically
+    #     # working-directory: 'book/scripts/'
+    #     # bundler-cache: true
+
+    # - name: Install ruby dependencies
+    #   run: |
+    #     cd book/scripts/
+    #     gem install bundler
+    #     bundle install
+
+    # - name: Generate ToC
+    #   run: |
+    #     echo "Running on branch: $GITHUB_REF_NAME"
+    #     echo "Language extracted: ${{ env.BOOK_LANGUAGE }}"
+    #     cd book/scripts/
+    #     ruby generate_toc.rb $GITHUB_REF_NAME
+
+    # - name: Commit new ToC to book/toc.md
+    #   uses: stefanzweifel/git-auto-commit-action@v4
+    #   with:
+    #     commit_message: Writing new ToC for the book
