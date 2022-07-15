@@ -1,5 +1,5 @@
 root : ./
 
 structure:
-  readme: book/introduction.md
-  summary: book/toc.md
+  readme: book/jp/introduction.md
+  summary: book/jp/toc.md
