@@ -51,7 +51,7 @@ jobs:
 
     - name: Copy .gitbook.yml to root
       run: |
-        cp book/$BOOK_LANGUAGE/.gitbook.yml .
+        cp book/$BOOK_LANGUAGE/.gitbook.yaml .
 
     - name: Commit new ToC to book/toc.md
       uses: stefanzweifel/git-auto-commit-action@v4
