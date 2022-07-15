@@ -30,7 +30,7 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
 
-    - uses: actions/setup-ruby@v1
+    - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '2.6'
         # Try this again another time: https://github.com/ruby/setup-ruby#caching-bundle-install-automatically
@@ -47,7 +47,7 @@ jobs:
       run: |
         cd book/scripts/
         ruby generate_toc.rb $BOOK_LANGUAGE 
-        echo "Generaed book for: $BOOK_LANGUAGE >> $GITHUB_STEP_SUMMARY
+        echo "Generated book for: $BOOK_LANGUAGE" >> $GITHUB_STEP_SUMMARY
 
     - name: Commit new ToC to book/toc.md
       uses: stefanzweifel/git-auto-commit-action@v4
