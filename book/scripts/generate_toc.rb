@@ -49,7 +49,6 @@ def extract_text(node)
   return section_nodes
 end
 
-
 def generate_patterns_overview(patterns)
   pattern_overview = Hash.new()
 
@@ -71,21 +70,21 @@ end
 ## Determine the language for which the book is generated, based on the branch name passed to this script
 GENERATED_LANGUAGE = (ARGV[0] == "translation-japanese") ? "jp" : "en"
 
-## Files to be used
+## Files to be used for the different languages
 if (GENERATED_LANGUAGE == "jp")
   TOC_TEMPLATE_FILE = "../jp/toc_template.md"
   TOC_FILE = "../jp/toc.md"
+  PATTERNS = Dir["../../translation/japanese/patterns/*.md"]
 else 
   TOC_TEMPLATE_FILE = "../en/toc_template.md"
   TOC_FILE = "../en/toc.md"  
 end
 
-puts "Generatign ToC for language: #{GENERATED_LANGUAGE}"
+puts "Generating ToC for language: #{GENERATED_LANGUAGE}"
 
 # Generate list of patterns and sort them by name
 # patterns = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md", "../patterns/3-validated/*.md"]
-patterns = Dir["../../translation/japanese/patterns/*.md"]
-pattern_overview = generate_patterns_overview(patterns)
+pattern_overview = generate_patterns_overview(PATTERNS)
 pattern_overview = pattern_overview.sort.to_h
 
 toc_snippet = pattern_overview.map{|title, values| "* [#{title}](#{values[:file]}) - #{values[:patlet]}"}
