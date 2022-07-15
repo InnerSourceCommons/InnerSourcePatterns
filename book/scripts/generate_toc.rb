@@ -69,6 +69,7 @@ end
 
 ## 2-letter language code of the book to-be-generated is passed into this script.
 BOOK_LANGUAGE = ARGV[0]
+puts "Generating ToC for language: #{BOOK_LANGUAGE}"
 
 ## Files to be used for the different languages
 if (BOOK_LANGUAGE == "jp")
@@ -80,8 +81,6 @@ else
   TOC_FILE = "../en/toc.md"  
   PATTERNS = Dir["../../patterns/2-structured/*.md","../../patterns/2-structured/project-setup/*.md", "../../patterns/3-validated/*.md"]
 end
-
-puts "Generating ToC for language: #{GENERATED_LANGUAGE}"
 
 # Generate list of patterns and sort them by name
 pattern_overview = generate_patterns_overview(PATTERNS)
@@ -97,4 +96,4 @@ new_toc_content = new_toc_content.gsub(/<<PATTERS_HERE>>/,toc_snippet)
 ## Write the new ToC to file
 File.write(TOC_FILE, new_toc_content)
 
-puts "Written new ToC for #{GENERATED_LANGUAGE} book to #{TOC_FILE}"
+puts "Written new ToC for #{BOOK_LANGUAGE} book to #{TOC_FILE}"
