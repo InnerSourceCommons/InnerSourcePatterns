@@ -49,6 +49,10 @@ jobs:
         ruby generate_toc.rb $BOOK_LANGUAGE 
         echo "Generated book for: $BOOK_LANGUAGE" >> $GITHUB_STEP_SUMMARY
 
+    - name: Copy .gitbook.yml to root
+      run: |
+        cp book/$BOOK_LANGUAGE/.gitbook.yml .
+
     - name: Commit new ToC to book/toc.md
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
