@@ -10,12 +10,12 @@ Instead edit toc_template.md
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
 
-* [イントロダクション](../book/introduction.md)
-* [目次](../book/toc.md)
-* [パターンの一覧](../book/explore-patterns.md)
-* [この本へのコントリビューション](../book/contribute.md)
+* [イントロダクション](./introduction.md)
+* [目次](./toc.md)
+* [パターンの一覧](./explore-patterns.md)
+* [この本へのコントリビューション](./contribute.md)
 
-![インナーソースパターンのマインドマップ](../pattern-categorization/innersource-program-mind-map.png)
+![インナーソースパターンのマインドマップ](../../pattern-categorization/innersource-program-mind-map.png)
 
 ## パターン<a id="p"></a>
 
@@ -23,10 +23,10 @@ Instead edit toc_template.md
 
 ## 付録
 
-* [パターンテンプレート](../meta/pattern-template.md)
+* [パターンテンプレート](../../meta/pattern-template.md)
 * その他
-  * [README テンプレート](../translation/japanese/templates/README-template.md)
-  * [CONTRIBUTING テンプレート](../translation/japanese/templates/CONTRIBUTING-template.md)
+  * [README テンプレート](../../translation/japanese/templates/README-template.md)
+  * [CONTRIBUTING テンプレート](../../translation/japanese/templates/CONTRIBUTING-template.md)
 
 ## リソース
 
