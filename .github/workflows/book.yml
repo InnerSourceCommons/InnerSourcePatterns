@@ -25,12 +25,13 @@ jobs:
     - name: Determine book language 
       run: |
         [[ "$GITHUB_REF_NAME" == "translation-japanese" ]] && book_language="jp" || book_language="en"
-        echo "{BOOK_LANGUAGE}={book_language}" >> $GITHUB_ENV
+        echo "BOOK_LANGUAGE=book_language" >> $GITHUB_ENV
 
     - name: Quick test
       run: |
         echo "Running on branch: $GITHUB_REF_NAME"
         echo "Language extracted: ${{ env.BOOK_LANGUAGE }}"
+        echo "Nice job Sebastian" >> $GITHUB_STEP_SUMMARY
 
     # - uses: actions/checkout@v2
     #   with:
