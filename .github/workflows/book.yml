@@ -25,7 +25,7 @@ jobs:
     - name: Determine book language 
       run: |
         [[ "$GITHUB_REF_NAME" == "translation-japanese" ]] && book_language="jp" || book_language="en"
-        echo "BOOK_LANGUAGE=book_language" >> $GITHUB_ENV
+        echo "BOOK_LANGUAGE=$book_language" >> $GITHUB_ENV
 
     - name: Quick test
       run: |
