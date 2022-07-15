@@ -34,14 +34,14 @@ jobs:
       with:
         ruby-version: '2.6'
         # Try this again another time: https://github.com/ruby/setup-ruby#caching-bundle-install-automatically
-        # working-directory: 'book/scripts/'
-        # bundler-cache: true
+        working-directory: 'book/scripts/'
+        bundler-cache: true
 
-    - name: Install ruby dependencies
-      run: |
-        cd book/scripts/
-        gem install bundler
-        bundle install
+    # - name: Install ruby dependencies
+    #   run: |
+    #     cd book/scripts/
+    #     gem install bundler
+    #     bundle install
 
     - name: Generate ToC
       run: |
