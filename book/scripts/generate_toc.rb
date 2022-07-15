@@ -72,14 +72,19 @@ end
 GENERATED_LANGUAGE = (ARGV[0] == "translation-japanese") ? "jp" : "en"
 
 ## Files to be used
-TOC_TEMPLATE_FILE = "./toc_template.md"
-TOC_FILE = "./toc.md"
+if (GENERATED_LANGUAGE == "jp")
+  TOC_TEMPLATE_FILE = "../jp/toc_template.md"
+  TOC_FILE = "../jp/toc.md"
+else 
+  TOC_TEMPLATE_FILE = "../en/toc_template.md"
+  TOC_FILE = "../en/toc.md"  
+end
 
 puts "Generatign ToC for language: #{GENERATED_LANGUAGE}"
 
 # Generate list of patterns and sort them by name
 # patterns = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md", "../patterns/3-validated/*.md"]
-patterns = Dir["../translation/japanese/patterns/*.md"]
+patterns = Dir["../../translation/japanese/patterns/*.md"]
 pattern_overview = generate_patterns_overview(patterns)
 pattern_overview = pattern_overview.sort.to_h
 
