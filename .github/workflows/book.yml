@@ -12,10 +12,11 @@ jobs:
   book-toc-generation:
     runs-on: ubuntu-latest
 
-    env:
-      if: github.ref_name == 'translation_japanese'
+    if: github.ref_name == 'translation_japanese'
+    env: 
       LANGUAGE: jp
-      if: github.ref_name == 'translation_english'
+    if: github.ref_name == 'translation_english'
+    env:
       LANGUAGE: en
 
     steps:
