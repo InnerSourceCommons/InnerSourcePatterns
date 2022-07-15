@@ -13,19 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-    - name: Determine book language
-      run: |
-        [[ "$GITHUB_REF_NAME" == "translation-japanese" ]] && book_language="jp" || book_language="en"
-        echo "BOOK_LANGUAGE=$book_language" >> $GITHUB_ENV
-
-    # - name: Quick test
-    #   run: |
-    #     echo "Running on branch: $GITHUB_REF_NAME"
-    #     echo "Language extracted: ${{ env.BOOK_LANGUAGE }}"
-    #     echo "Language extracted (diff): $BOOK_LANGUAGE"
-    #     echo "Nice job Sebastian" >> $GITHUB_STEP_SUMMARY
-
     - uses: actions/checkout@v3
       with:
         ref: ${{ github.head_ref }}
@@ -33,15 +20,13 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '2.6'
-        # Try this again another time: https://github.com/ruby/setup-ruby#caching-bundle-install-automatically
         working-directory: 'book/scripts/'
         bundler-cache: true
 
-    # - name: Install ruby dependencies
-    #   run: |
-    #     cd book/scripts/
-    #     gem install bundler
-    #     bundle install
+    - name: Determine book language
+      run: |
+        [[ "$GITHUB_REF_NAME" == "translation-japanese" ]] && book_language="jp" || book_language="en"
+        echo "BOOK_LANGUAGE=$book_language" >> $GITHUB_ENV
 
     - name: Generate ToC
       run: |
