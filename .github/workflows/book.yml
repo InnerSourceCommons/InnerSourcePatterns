@@ -53,7 +53,7 @@ jobs:
       run: |
         cp book/$BOOK_LANGUAGE/.gitbook.yaml .
 
-    - name: Commit new ToC to book/toc.md
+    - name: Commit updated files for the book
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Writing new ToC for the book
+        commit_message: Writing updated files for the book
