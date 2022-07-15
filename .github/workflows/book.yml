@@ -12,6 +12,12 @@ jobs:
   book-toc-generation:
     runs-on: ubuntu-latest
 
+    env:
+      if: github.ref_name == 'translation_japanese'
+      LANGUAGE: jp
+      if: github.ref_name == 'translation_english'
+      LANGUAGE: en
+
     steps:
     - uses: actions/checkout@v2
       with:
@@ -30,6 +36,7 @@ jobs:
     - name: Generate ToC
       run: |
         echo "Running on branch: $GITHUB_REF_NAME"
+        echo "Language extracted: $LANGUAGE"
         cd book/scripts/
         ruby generate_toc.rb $GITHUB_REF_NAME
 
