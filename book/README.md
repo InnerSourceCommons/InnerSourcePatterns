@@ -16,8 +16,6 @@ The book contains patterns of maturity **Structured** (Level 2) or **Validated**
 
 The `/book` folder contains generator scripts and extra content required to create the gitbook.
 
-The book is generated in multiple languages. The extra content for each language is located in language-specific  folders such as `/book/en` and `/book/jp`.
-
 The below outlines the function of the main files used in the gitbook generation:
 
 - `.github/workflows/book.yml` - A GitHub Action that triggers all scripts required to generate the book.
@@ -26,6 +24,15 @@ The below outlines the function of the main files used in the gitbook generation
 - `/book/en/introduction.md` - The introduction to our book. This is what the reader sees first when they open the book. *Note:* The current content is based on [README.md](../README.md). We may need to modify this content even further, to address the readers of the book more specifically, rather than the readers of our GitHub repository.
 - `/book/en/contribute.md` - Information about how to contribute to this book.
 - `/book/en/explore-patterns.md` - A page in the book that highlights the mind map of all patterns.
+
+The book is generated in multiple languages. The extra content for each language is located in language-specific  folders such as `/book/en` and `/book/jp`.
+
+### Triggering the book generation
+
+Depending on which branch a change is merged into, a different book is generated:
+
+* changes merged to `main` branch: triggers the book generation for the **English** book.
+* changes merged to `translation-japanese` branch: triggers the book generation for the **Japanese** book.
 
 ## Objectives of the book
 
