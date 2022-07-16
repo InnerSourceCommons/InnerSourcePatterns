@@ -1,4 +1,4 @@
-name: Book ToC Generation
+name: Gitbook Generation
 
 on:
   push:
