@@ -5,7 +5,7 @@ on:
     branches:
       - "main"
       - "book-staging"
-      - "translation-japanese"
+      - "book-jp"
 
 jobs:
   book-toc-generation:
