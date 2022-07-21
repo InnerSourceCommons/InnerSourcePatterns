@@ -16,23 +16,30 @@ The book contains patterns of maturity **Structured** (Level 2) or **Validated**
 
 The `/book` folder contains generator scripts and extra content required to create the gitbook.
 
-The below outlines the function of the main files used in the gitbook generation:
-
-- `.github/workflows/book.yml` - A GitHub Action that triggers all scripts required to generate the book.
+- `.github/workflows/book.yml` - A GitHub Action that triggers scripts to generate the book.
 - `/book/scripts/generate_toc.rb` - This script generates the table of contents (ToC) for the book. It takes patterns of maturity **Structured** and **Validated**, extracts title and patlet, and injects this info into `/book/en/toc_template.md`. The output is written to `/book/en/toc.md`. The ToC is what you see on the left-hand-side menu in the gitbook.
 - `/book/en/.gitbook.yaml` - Holds basic configuration for the gitbook service. This file is copied to the root of the repo, if the English book is generated.
-- `/book/en/introduction.md` - The introduction to our book. This is what the reader sees first when they open the book. *Note:* The current content is based on [README.md](../README.md). We may need to modify this content even further, to address the readers of the book more specifically, rather than the readers of our GitHub repository.
+- `/book/en/introduction.md` - The introduction to our book. This is what the reader sees first when they open the book. *Note:* The current content is based on [README.md](../README.md).
 - `/book/en/contribute.md` - Information about how to contribute to this book.
-- `/book/en/explore-patterns.md` - A page in the book that highlights the mind map of all patterns.
+- `/book/en/explore-patterns.md` - Show the mind map of all patterns. Allows readers to link to the mind map directly.
+- patterns content:
+  - The English patterns are in `/patterns`
+  - The translated patterns (e.g. for Japanese) are in `/translation/japanese`
 
-The book is generated in multiple languages. The extra content for each language is located in language-specific  folders such as `/book/en` and `/book/jp`.
+The book is generated in multiple languages.
+
+The descriptions above are for the English book. You find the language specific content in `/book/en`.
+
+For other languages (e.g. for Japanese), the content is mirrored and translated to folders like  `/book/jp`.
 
 ### Triggering the book generation
 
-Depending on which branch a change is merged into, a different book is generated:
+The book is generated in multiple languages.
+
+Depending on which **branch** a change is merged into, a different book is generated:
 
 * changes merged to `main` branch: triggers the book generation for the **English** book.
-* changes merged to `translation-japanese` branch: triggers the book generation for the **Japanese** book.
+* changes merged to `book-jp` branch: triggers the book generation for the **Japanese** book.
 
 ## Objectives of the book
 
