@@ -60,7 +60,7 @@ RFCを用いたチーム横断的な意思決定の透明化
 ### Examples/Templates
 
 - [Rust][rust] は RFC テンプレートとプロセスの優れたオープンソース例であり、他の多くの RFC プロセスの基礎となっています。
-- [一般化された BBC iPlayer & Sounds RFC テンプレート](templates/rfc.md) (元々はRustテンプレートに基づいています)
+- [一般化された BBC iPlayer & Sounds RFC テンプレート](../../../patterns/2-structured//templates/rfc.md) (元々はRustテンプレートに基づいています)
 
 ## 結果の状況
 
