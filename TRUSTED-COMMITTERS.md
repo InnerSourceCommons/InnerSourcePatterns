@@ -34,7 +34,7 @@ We work based on trust: Our goal is to add most people who contributed a sizeabl
 
 We follow this process:
 
-1. Any trusted committer (TC) can step forward and nominate a new TC in the private Slack channel #innersource-patterns-tcs. The TC should provide the following information:
+1. Any trusted committer (TC) can nominate a new TC in the private Slack channel `#innersource-patterns-tcs`. The TC should provide the following information:
    * Name of the candidate
    * Reason for candidate
    * Github handle of the candidate
@@ -43,7 +43,7 @@ We follow this process:
 3. If none of the existing TCs disagrees with the nomination within 72h, [lazy consensus](https://tech.europace.de/lazy-consensus-vs-explicit-voting/) is reached: The nomination is accepted.
 4. The TC who nominated the candidate informs her/him in private about the nomination and its acceptance. The candidate can decide on whether to accept or reject the offer.
 5. If the candidate accepts the offer, the TC who nominated the candidate, makes sure:
-   1. New TC receives write access to this repository (this needs to happen first, so that step 5.3 works)
+   1. New TC receives write access to this repository (this needs to happen first, so that step 5.iii works)
    2. New TC is added to this file (`TRUSTED-COMMITTERS.md`)
    3. New TC is added to `.github/CODEOWNERS`, so that they get notified about new PRs automatically
    4. New TC is added to the `#innersource-patterns-tcs` channel
