@@ -11,7 +11,7 @@
 
 もし、このマインドマップを何かおかしいと感じた場合、その問題点と修正すべき点を記述した[イシューを作成](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues)してください。
 
-さらに、これらのパターンの発見性を向上させるための他のアイデアや、このマインドマップをより良くしたい場合は、[パターン分類](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)アプローチのドキュメントを確認し、[この本へのコントリビューション](contribute.md)の方法も確認してみてください。
+さらに、これらのパターンの発見性を向上させるための他のアイデアや、このマインドマップをより良くしたい場合は、[パターン分類](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)アプローチのドキュメントを確認し、[この本へのコントリビューション](../../book/contribute.md)の方法も確認してみてください。
 
 ## リファレンス
 
@@ -20,3 +20,4 @@
 ## 翻訳の履歴
 
 - **2022-05-23** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
+- **2022-06-15** - レビュー [@johtani](https://github.com/johtani)
