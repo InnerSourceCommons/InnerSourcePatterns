@@ -39,15 +39,15 @@ We follow this process:
    * Reason for candidate
    * Github handle of the candidate
    * Slack handle of the candidate
-1. Every TC can raise concerns or second the nomination in the #innersource-patterns-tcs channel.
-1. If none of the existing TCs disagrees with the nomination within 72h, [lazy consensus](https://tech.europace.de/lazy-consensus-vs-explicit-voting/) is reached: The nomination is accepted.
-1. The TC who nominated the candidate informs her/him in private about the nomination and its acceptance. The candidate can decide on whether to accept or reject the offer.
-1. If the candidate accepts the offer, the TC who nominated the candidate, makes sure:
-   * New TC is added to this file (`TRUSTED-COMMITTERS.md`)
-   * New TC is added to `.github/CODEOWNERS`, so that they get notified about new PRs automatically
-   * New TC receives write access to this repository
-   * New TC is added to the `#innersource-patterns-tcs` channel
-   * New TC is praised in the [#innersource-patterns](https://app.slack.com/client/T04PXKRM0/C2EFRTS6A) channel.
+2. Every TC can raise concerns or second the nomination in the #innersource-patterns-tcs channel.
+3. If none of the existing TCs disagrees with the nomination within 72h, [lazy consensus](https://tech.europace.de/lazy-consensus-vs-explicit-voting/) is reached: The nomination is accepted.
+4. The TC who nominated the candidate informs her/him in private about the nomination and its acceptance. The candidate can decide on whether to accept or reject the offer.
+5. If the candidate accepts the offer, the TC who nominated the candidate, makes sure:
+   1. New TC receives write access to this repository (this needs to happen first, so that step 5.3 works)
+   2. New TC is added to this file (`TRUSTED-COMMITTERS.md`)
+   3. New TC is added to `.github/CODEOWNERS`, so that they get notified about new PRs automatically
+   4. New TC is added to the `#innersource-patterns-tcs` channel
+   5. New TC is praised in the [#innersource-patterns](https://app.slack.com/client/T04PXKRM0/C2EFRTS6A) channel.
 
 ## Admins
 
