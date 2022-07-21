@@ -10,6 +10,10 @@
 # review when someone opens a pull request.
 *       @lenucksi @NewMexicoKid @cewilliams @spier @robtuley
 
+# Trying out folder-specific CODEOWNERS permissions, by example of our Japanese book
+/translation/   @yuhattor
+/book/          @yuhattor
+
 # Order is important; the last matching pattern takes the most
 # precedence. When someone opens a pull request that only
 # modifies JS files, only @js-owner and not the global
