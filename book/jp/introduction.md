@@ -13,7 +13,7 @@
 
 [インナーソース](http://innersourcecommons.org) は、長年にわたってこれらのパターンを収集し、この本で最も成熟したパターンを公開しています。また、コミュニティのメンバーが、少なくとも一つの事例をもって、それぞれのパターンをレビューしています。
 
-このイントロダクションでは、[インナーソースとは何か](introduction.md#what-is-innersource)、[パターンとは何か](introduction.md#what-are-innersource-patterns)、そしてあなたの組織における[これらのパターンの使い方](introduction.md#how-can-you-use-innersource-patterns) について説明します。
+このイントロダクションでは、[インナーソースとは何か](#innssutohaka)、[パターンとは何か](#innssupatntohaka)、そしてあなたの組織における[これらのパターンの使い方](#donoyouniinnssupatnwouka) について説明します。
 
 もしあなたが既に会社でインナーソースを使っていて、その経験を本書に提供したいのであれば、ぜひ[本書へのコントリビューション](./contribute.md)をよろしくお願いします！
 
