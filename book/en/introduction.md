@@ -1,6 +1,6 @@
 # Introduction
 
-<img src="./innersource-patterns-book-cover.jpg" title="InnerSource Patterns">
+![InnerSource Patterns book](../../book/innersource-patterns-book-cover.jpg)
 
 {% hint style="info" %}
 You are reading an early release of the InnerSource Patterns book and may still find broken links, spelling mistakes, or other errors.

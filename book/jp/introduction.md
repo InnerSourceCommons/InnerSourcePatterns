@@ -1,6 +1,6 @@
 # イントロダクション
 
-![book-cover](../../book/innersource-patterns-book-cover.jpg)
+![InnerSource Patterns book](../../book/innersource-patterns-book-cover.jpg)
 
 {% hint style="info" %}
 あなたが読んでいるインナーソースパターンは初期のリリースフェイズです。リンクが壊れていたりスペルミスやエラーがある可能性があります。
