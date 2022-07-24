@@ -22,10 +22,10 @@ Here a few ways in which you can contribute:
 
 For (1) and (2) above you can simply hit the **Edit on GitHub** link that you see at the top of each page in this book. This will take you straight to the respective file in our GitHub repository, where you can suggest your changes.
 
-For (3) you need to clone the [InnerSourcePatterns][repo] repository, and add a new file with your suggested pattern. When making such larger contributions to this book please review our [CONTRIBUTING.md](../CONTRIBUTING.md) and also our [Contributor Handbook](../meta/contributor-handbook.md).
+For (3) you need to clone the [InnerSourcePatterns][repo] repository, and add a new file with your suggested pattern. When making such larger contributions to this book please review our [CONTRIBUTING.md](../../CONTRIBUTING.md) and also our [Contributor Handbook](../../meta/contributor-handbook.md).
 
 ## License of Contributions
 
-The contents of this repository are licensed under [CC-BY-SA-4.0](../LICENSE.txt). By contributing to this repository, you grant us (and everyone else for that matter) the right to use your contribution in accordance with that license.
+The contents of this repository are licensed under [CC-BY-SA-4.0](../../LICENSE.txt). By contributing to this repository, you grant us (and everyone else for that matter) the right to use your contribution in accordance with that license.
 
 [repo]: https://github.com/InnerSourceCommons/InnerSourcePatterns

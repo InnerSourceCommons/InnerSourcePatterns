@@ -10,12 +10,12 @@ Instead edit toc_template.md
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
 
-* [Introduction](../book/introduction.md)
-* [Table of Contents](../book/toc.md)
-* [Explore Patterns](../book/explore-patterns.md)
-* [Contribute to this book](../book/contribute.md)
+* [Introduction](./introduction.md)
+* [Table of Contents](./toc.md)
+* [Explore Patterns](./explore-patterns.md)
+* [Contribute to this book](./contribute.md)
 
-![Mind Map of InnerSource Patterns](../pattern-categorization/innersource-program-mind-map.png)
+![Mind Map of InnerSource Patterns](../../pattern-categorization/innersource-program-mind-map.png)
 
 ## Patterns <a id="p"></a>
 
@@ -43,10 +43,10 @@ Instead edit toc_template.md
 
 ## Appendix
 
-* [Pattern Template](../meta/pattern-template.md)
+* [Pattern Template](../../meta/pattern-template.md)
 * Extras
-  * [README Template](../patterns/2-structured/project-setup/templates/README-template.md)
-  * [CONTRIBUTING Template](../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
+  * [README Template](../../patterns/2-structured/project-setup/templates/README-template.md)
+  * [CONTRIBUTING Template](../../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
 
 ## Resources
 
