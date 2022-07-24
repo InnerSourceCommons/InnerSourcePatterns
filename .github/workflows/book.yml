@@ -6,6 +6,7 @@ on:
       - "main"
       - "book-staging"
       - "book-jp"
+      - "book-en"
 
 jobs:
   book-toc-generation:

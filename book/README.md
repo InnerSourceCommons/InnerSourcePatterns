@@ -57,4 +57,4 @@ There are a couple of good reasons to publish the InnerSource patterns as a gitb
 
 [InnerSourcePatterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns
 [book_production]: https://patterns.innersourcecommons.org
-[book_staging]: https://innersourcecommons.gitbook.io/innersource-patterns-staging/v/book-staging/
+[book_staging]: https://innersourcecommons.gitbook.io/innersource-patterns-staging/
