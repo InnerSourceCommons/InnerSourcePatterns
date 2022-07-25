@@ -33,11 +33,11 @@ The translation should begin by creating a `book-<YOUR_LANGUAGE>` branch to work
 
 There are a few things you should prepare before starting a translation project.
 
-- ```/translation/<YOUR_LANGUAGE>/patterns/```
-- ```/translation/<YOUR_LANGUAGE>/templates/```
-- ```/translation/<YOUR_LANGUAGE>/README.md```
+- `/translation/<YOUR_LANGUAGE>/patterns/`
+- `/translation/<YOUR_LANGUAGE>/templates/`
+- `/translation/<YOUR_LANGUAGE>/README.md`
 
-However, since git does not create empty folders, it is better to create directories accordingly or add ```.keep``` files to keep folders.
+However, since git does not create empty folders, it is better to create directories accordingly or add `.keep` files to keep folders.
 
 ### Translation Quality and Review Process
 
@@ -45,4 +45,4 @@ However, since git does not create empty folders, it is better to create directo
 
 ### Publishing Translations
 
-The books currently available are in English and Japanese. Trusted Committers in this repository will also be onboarded during the translation process. When you complete a translation under ```/translation/<YOUR_LANGUAGE>/```, a GitHub Actions pipeline will run to generate the output for publication in the gitbook. The detailed process is described in [/book/README.md](/book/README.md). Please refer to it.
+The books currently available are in English and Japanese. Trusted Committers in this repository will also be onboarded during the translation process. When you complete a translation under `/translation/<YOUR_LANGUAGE>/`, a GitHub Actions pipeline will run to generate the output for publication in the gitbook. The detailed process is described in [/book/README.md](/book/README.md). Please refer to it.
