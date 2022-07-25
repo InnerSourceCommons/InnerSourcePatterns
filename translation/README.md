@@ -27,7 +27,9 @@ Please note that this document contains recommendations, aimed at removing barri
 
 ### How to Start Translating a New Language
 
-That is awesome! We welcome your passion. When implementing InnerSource practices in your region, there can be language barriers. There is great value in getting people in your organization to understand InnerSource in their own language. The translation should begin by creating a ```book-<YOUR_LANGUAGE>``` branch to work on. It is a good idea to name the branch after the abbreviation of the language. Currently, ```book-en``` is used for the English version and ```book-jp``` for the Japanese version.
+That is awesome! We welcome your passion. When implementing InnerSource practices in your region, there can be language barriers. There is great value in getting people in your organization to understand InnerSource in their own language. 
+
+The translation should begin by creating a `book-<YOUR_LANGUAGE>` branch to work on. Please name the branch after the abbreviation of the language e.g. `book-jp` is used for the Japanese version.
 
 There are a few things you should prepare before starting a translation project.
 
