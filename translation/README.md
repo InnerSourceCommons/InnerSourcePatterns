@@ -4,7 +4,7 @@ If you would like to contribute to the InnerSource Patterns translation, great! 
 
 First, please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for basic contribution instructions.
 
-This document covers basic translation principles, how you can contribute, and the review process. 
+This document covers basic translation principles, how you can contribute, and the review process.
 
 Please note that this document contains recommendations, aimed at removing barriers for new contributors to the translation process. If you see something missing, please feel free to make suggestions.
 
@@ -27,7 +27,7 @@ Please note that this document contains recommendations, aimed at removing barri
 
 ### How to Start Translating a New Language
 
-That is awesome! We welcome your passion. When implementing InnerSource practices in your region, there can be language barriers. There is great value in getting people in your organization to understand InnerSource in their own language. 
+That is awesome! We welcome your passion. When implementing InnerSource practices in your region, there can be language barriers. There is great value in getting people in your organization to understand InnerSource in their own language.
 
 The translation should begin by creating a `book-<YOUR_LANGUAGE>` branch to work on. Please name the branch after the abbreviation of the language e.g. `book-jp` is used for the Japanese version.
 
