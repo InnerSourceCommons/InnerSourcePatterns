@@ -7,7 +7,7 @@ on:
       - "book-*"
 
 jobs:
-  book-toc-generation:
+  gitbook-generation:
     runs-on: ubuntu-latest
 
     steps:
