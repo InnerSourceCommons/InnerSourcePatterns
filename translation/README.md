@@ -1,12 +1,16 @@
 # Translation Process and Recommendations
 
 If you would like to contribute to the InnerSource Patterns translation, great! We would love to work with you!
+
 First, please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for basic contribution instructions.
-This document covers basic translation principles, how you can contribute, and the review process. Please note that the content of this document is recommendations, mainly aimed at removing barriers for new contributors to the translation process. If you see something missing, please feel free to make suggestions.
+
+This document covers basic translation principles, how you can contribute, and the review process. 
+
+Please note that this document contains recommendations, aimed at removing barriers for new contributors to the translation process. If you see something missing, please feel free to make suggestions.
 
 ## The Translation Principles and Recommendation
 
-- The target of the translation is structured patterns. You can find them at ```/patterns/2-structured/```, and only structured patterns are available in Gitbook.
+- The target of the translation are structured patterns. Find them in folder [/patterns/2-structured/](../patterns/2-structured/). Only structured patterns will be published in Gitbook.
 - English is recommended for commit messages. If you are merged into a branch, your commit messages will be seen by members all over the world. This will make it easier for global members to find your activities and will also accelerate collaboration.
 - Regarding Pull Requests and Issues, it is a good idea to use English, at least for the title and the purpose statement in the preface. Contributions in your language and accompanying discussions may be useful for other translation projects in the future.
 - Each country has its own cultural and historical background and different contexts. There is no need to discuss language-specific nuances and difficult linguistic expressions in English in your review. Especially if it is a local community of several people translating together, please prioritize the ease of translation in that community.
@@ -19,7 +23,7 @@ This document covers basic translation principles, how you can contribute, and t
 
 ### How to translate new InnerSource Patterns
 
-- Please copy the file ```/patterns/2-structured/<file>.md``` to ```/translation/<language>/patterns/<file>.md``` and start translation.
+- Please copy the file `/patterns/2-structured/<file>.md` to `/translation/<language>/patterns/<file>.md` and start translation.
 
 ### How to Start Translating a New Language
 
