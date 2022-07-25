@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - "main"
-      - "book-staging"
-      - "book-jp"
-      - "book-en"
+      - "book-*"
 
 jobs:
   book-toc-generation:
