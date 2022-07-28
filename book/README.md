@@ -1,36 +1,42 @@
 # How to generate the InnerSource Patterns gitbook
 
-Whenever changes to the [InnerSource Patterns][InnerSourcePatterns] GitHub repository are made, a new version of our InnerSource Patterns book is published at [patterns.innersourcecommons.org][book_production].
+Whenever changes to the [InnerSource Patterns GitHub repository][InnerSourcePatterns] are made, a new version of the InnerSource Patterns book is published at [patterns.innersourcecommons.org][book_production].
 
 ## Where is the book published?
 
-The most up-to-date version of the book is available for readers at [patterns.innersourcecommons.org][book_production].
+The latest version of the book is available for readers at [patterns.innersourcecommons.org][book_production].
 
-We also have a [Staging version][book_staging], used by the editors/producers of the book for testing purposes. If you want to make any structural changes to the book, please send a PR to merge your changes into the `book-staging` branch. That way we can test your changes on the Staging version first, before they go live.
+We also have a [Staging version][book_staging], used by the editors/producers of the book for testing purposes. If you want to make structural changes to the book, please contact us via a GitHub issue first.
 
 ## Which patterns are published?
 
-The book contains patterns of maturity **Structured** (Level 2) or **Validated** (Level 3). **Initial** (Level 1) patterns are not published in the book, because those are still subject to a lot of change, and have likely not even proven to work yet. For more on these maturity levels see the [Contributor Handbook](../meta/contributor-handbook.md).
+The book contains patterns of maturity **Structured** (Level 2) or **Validated** (Level 3).
 
-## How does it work?
+**Initial** (Level 1) patterns are not published in the book. Those are still subject to a lot of change, and have likely not even proven to work yet. For more on these maturity levels see the [Contributor Handbook](../meta/contributor-handbook.md).
+
+## How does it work technically?
+
+We use the [gitbook.com](https://www.gitbook.com) service to host our book.
 
 The `/book` folder contains generator scripts and extra content required to create the gitbook.
 
 - `.github/workflows/book.yml` - A GitHub Action that triggers scripts to generate the book.
-- `/book/scripts/generate_toc.rb` - This script generates the table of contents (ToC) for the book. It takes patterns of maturity **Structured** and **Validated**, extracts title and patlet, and injects this info into `/book/en/toc_template.md`. The output is written to `/book/en/toc.md`. The ToC is what you see on the left-hand-side menu in the gitbook.
+- `/book/scripts/generate_toc.rb` - Generates the table of contents (ToC) for the book. It takes patterns of maturity **Structured** and **Validated**, extracts title and patlet, and injects this info into `/book/en/toc_template.md`. The output is written to `/book/en/toc.md`. The ToC is what you see on the left-hand-side menu in the gitbook.
 - `/book/en/.gitbook.yaml` - Holds basic configuration for the gitbook service. This file is copied to the root of the repo, if the English book is generated.
 - `/book/en/introduction.md` - The introduction to our book. This is what the reader sees first when they open the book. *Note:* The current content is based on [README.md](../README.md).
-- `/book/en/contribute.md` - Information about how to contribute to this book.
-- `/book/en/explore-patterns.md` - Show the mind map of all patterns. Allows readers to link to the mind map directly.
+- `/book/en/contribute.md` - Explains how to contribute to this book.
+- `/book/en/explore-patterns.md` - Shows the mind map of all patterns. Allows readers to link to the mind map directly.
 - patterns content:
   - The English patterns are in `/patterns`
   - The translated patterns (e.g. for Japanese) are in `/translation/japanese`
 
 The book is generated in multiple languages.
 
-The descriptions above are for the English book. You find the language specific content in `/book/en`.
+The descriptions above are for the English book. You find the English content in `/book/en`.
 
 For other languages (e.g. for Japanese), the content is mirrored and translated to folders like  `/book/jp`.
+
+For more on the translation process see [these translation instructions](../translation/README.md).
 
 ### Triggering the book generation
 
