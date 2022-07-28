@@ -45,14 +45,14 @@ However, since git does not create empty folders, it is better to create directo
 
 ### Translation Quality and Review Process
 
-We consider it best practice to have **at least one native speaker** review the translation. 
+We consider it best practice to have **at least one native speaker** review the translation.
 
 In particular, for special terms, such as "Trusted Committer", please review not only for grammatical correctness but also for appropriateness. If you find a term or expression difficult to understand, please don't hesitate to ask.
 
 ### Publishing Translations
 
-The books currently available are in English and Japanese. 
+The books currently available are in English and Japanese.
 
-Trusted Committers in this repository will also be onboarded during the translation process. 
+Trusted Committers in this repository will also be onboarded during the translation process.
 
 When you complete a translation under `/translation/<YOUR_LANGUAGE>/`, a GitHub Actions pipeline will run to generate the output for publication in the gitbook. The process is described in detail in [/book/README.md](/book/README.md).
