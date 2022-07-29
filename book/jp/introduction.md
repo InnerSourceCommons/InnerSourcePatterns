@@ -1,6 +1,6 @@
 # イントロダクション
 
-![InnerSource Patterns book](../../book/innersource-patterns-book-cover.jpg)
+![InnerSource Patterns book](innersource-patterns-book-cover.jpg)
 
 {% hint style="info" %}
 あなたが読んでいるインナーソースパターンは初期のリリースフェイズです。リンクが壊れていたりスペルミスやエラーがある可能性があります。
@@ -35,7 +35,7 @@
 
 パターンは、インナーソース・コモンズ の参加者が情報を簡潔に共有し、インナーソースのプラクティスを磨く方法を提供しており、タイトル、問題提起、状況、フォース、ソリューションを主要なセクションとして分けて構成してあります。
 
-* [`パターンとは何か` Youtube ビデオ](http://bit.ly/innersource\_patterns\_videos) - インナーソースパターンを説明する2-5分のyoutubeビデオのセットをご覧ください
+* [`パターンとは何か` Youtube ビデオ](http://bit.ly/innersource_patterns_videos) - インナーソースパターンを説明する2-5分のyoutubeビデオのセットをご覧ください
 * [パターンディスカッション ウェビナー](https://youtu.be/i-0IVhfRVFU) - 2017年3月16日にウェビナーを開催し、ドーナツパターンをライブディスカッションしました（ディスカッションは24:30から）。これは、私たちが行うレビュープロセスの実例です。
 * 合わせてこちらもご覧下さい [2017年6月1日 インナーソースパターンに関する O'Reilly ウェビナー](http://www.oreilly.com/pub/e/3884).
 * [パターンテンプレート](../../meta/pattern-template.md) - インナーソースパターンの概略を見て、新しいパターンの中身を知ることができます
