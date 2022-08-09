@@ -21,10 +21,10 @@ Instead edit toc_template.md
 
 <<PATTERS_HERE>>
 
-## 付録
+## 付録<a id="appendix"></a>
 
 * [パターンテンプレート](../../meta/pattern-template.md)
-* その他
+* その他<a id="extras"></a>
   * [README テンプレート](../../translation/japanese/templates/README-template.md)
   * [CONTRIBUTING テンプレート](../../translation/japanese/templates/CONTRIBUTING-template.md)
 
