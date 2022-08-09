@@ -41,10 +41,10 @@ Instead edit toc_template.md
 * [成熟度モデル](../../translation/japanese/patterns/maturity-model.md) - チームはインナーソースを採用し始めました。このプラクティスは、複数の部門に広がっています。しかし、インナーソースプロジェクトを構成する概念への理解は様々です。解決策は、チームがセルフチェックを経て、まだ気づいていないパターンやプラクティスを発見できるよう、成熟度モデルを提供することです。
 * [正式なコミュニティリーダー](../../translation/japanese/patterns/dedicated-community-leader.md) - インナーソースの取り組みを成功させるために、コミュニケーションとテクニカルの両方のスキルを持つ人をコミュニティのリーダーとして選ぶ。
 
-## 付録
+## 付録<a id="appendix"></a>
 
 * [パターンテンプレート](../../meta/pattern-template.md)
-* その他
+* その他<a id="extras"></a>
   * [README テンプレート](../../translation/japanese/templates/README-template.md)
   * [CONTRIBUTING テンプレート](../../translation/japanese/templates/CONTRIBUTING-template.md)
 
