@@ -1,3 +1,5 @@
+[![Check Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml)
+
 # InnerSource Patterns
 
 <a href="https://patterns.innersourcecommons.org">
