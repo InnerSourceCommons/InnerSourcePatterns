@@ -1,7 +1,7 @@
 # from: https://github.com/lycheeverse/lychee-action
 # link checker used is 'lychee': https://github.com/lycheeverse/lychee
 
-name: Link Check on Patterns and README
+name: Link Check
 
 on:
   push:
