@@ -1,5 +1,5 @@
-# from: https://github.com/marketplace/actions/link-checker
-# link checker used is 'liche': https://github.com/raviqqe/liche
+# from: https://github.com/lycheeverse/lychee-action
+# link checker used is 'lychee': https://github.com/lycheeverse/lychee
 
 name: Link Check on Patterns and README
 
@@ -16,14 +16,6 @@ jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
-    # - uses: actions/checkout@v2
-    # - name: Link Checker
-    #   id: lc
-    #   uses: peter-evans/link-checker@v1
-    #   with:
-    #     args: -v -d . -x "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com|https://github.com/rcs/rcs-viewer/pull/81|fearlesschangepatterns.com|https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf|https://docs.github.com/en/rest/metrics/statistics|https://docs.github.com/en/rest/search#search-repositories" README.md patterns/ book/ translation/ -r
-    # - name: Fail if there were link errors
-    #   run: exit ${{ steps.lc.outputs.exit_code }}
       - uses: actions/checkout@v3
 
       - name: Restore lychee cache
