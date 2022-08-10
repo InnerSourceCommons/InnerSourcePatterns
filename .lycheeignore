@@ -1,0 +1,4 @@
+# These links are ignored by our link checker https://github.com/lycheeverse/lychee
+# The file allows you to list multiple regular expressions for exclusion (one pattern per line).
+https://example.com/link/to/your/trusted/committer/documentation.md
+https://github.com/rcs/rcs-viewer/pull/81
