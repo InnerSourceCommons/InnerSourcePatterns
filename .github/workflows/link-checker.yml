@@ -24,8 +24,6 @@ jobs:
     #     args: -v -d . -x "http://creativecommons.org/licenses|https://isc-inviter.herokuapp.com|https://github.com/rcs/rcs-viewer/pull/81|fearlesschangepatterns.com|https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf|https://docs.github.com/en/rest/metrics/statistics|https://docs.github.com/en/rest/search#search-repositories" README.md patterns/ book/ translation/ -r
     # - name: Fail if there were link errors
     #   run: exit ${{ steps.lc.outputs.exit_code }}
-
-    steps:
       - uses: actions/checkout@v3
 
       - name: Link Checker
