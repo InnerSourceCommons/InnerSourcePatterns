@@ -30,5 +30,6 @@ jobs:
         with:
           args: --verbose --no-progress --cache --max-cache-age 1d README.md patterns/ book/ translation/
           fail: true
+          jobSummary: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
