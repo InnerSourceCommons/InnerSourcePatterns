@@ -26,8 +26,7 @@ That allows you to get feedback from the other Trusted Committers (and potential
 
 ## Submitting the report
 
-Once you have finalized your report:
-Submit your report via a PR to the [last foundation agenda file](https://github.com/InnerSourceCommons/foundation/blob/master/board/meeting)[^1].
+Once your report is ready, submit it to the Board via a PR to the [last Board meeting agenda file](https://github.com/InnerSourceCommons/foundation/blob/master/board/meeting)[^1].
 
-[^1]: You need to be a Member of the foundation to access this. Please ask other Trusted Committers of the Patterns WG group for help.
+[^1]: To access this repo, you need to be a Member of the Foundation. Please ask other Trusted Committers of the Patterns WG group for help.
 [^2]: While we have a [report template](_template.md), we are not using that at the moment.
