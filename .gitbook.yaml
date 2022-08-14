@@ -1,5 +1,5 @@
-root : ./
+root : ./translation/japanese/
 
 structure:
-  readme: book/jp/introduction.md
-  summary: book/jp/toc.md
+  readme: ../../book/jp/introduction.md
+  summary: ../../book/jp/toc.md

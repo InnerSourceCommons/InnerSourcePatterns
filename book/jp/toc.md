@@ -44,9 +44,9 @@ Instead edit toc_template.md
 ## 付録<a id="appendix"></a>
 
 * [パターンテンプレート](../../meta/pattern-template.md)
-* その他<a id="extras"></a>
-  * [README テンプレート](../../translation/japanese/templates/README-template.md)
-  * [CONTRIBUTING テンプレート](../../translation/japanese/templates/CONTRIBUTING-template.md)
+* その他
+  * [README テンプレート](../../translation/japanese/appendix/extras/README-template.md)
+  * [CONTRIBUTING テンプレート](../../translation/japanese/appendix/extras/CONTRIBUTING-template.md)
 
 ## リソース
 
