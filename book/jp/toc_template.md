@@ -21,7 +21,7 @@ Instead edit toc_template.md
 
 <<PATTERS_HERE>>
 
-## 付録
+## 付録<a id="appendix"></a>
 
 * [パターンテンプレート](../../meta/pattern-template.md)
 * その他
