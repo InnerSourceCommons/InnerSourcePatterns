@@ -27,7 +27,7 @@ As the number of new feature contributions to a mature InnerSource repository ra
 
 ## Solutions
 
-Allowing extensions/plugins to high-scale inner-source codebases or libraries can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic. Extensions provide a filter for new capabilities that may eventually move into the core of the project. Extensions also act as an incubation and community hardening environment, allowing for much of that hardening to happen organically rather than in a costly review process.
+Allowing extensions/plugins to high-scale InnerSource codebases or libraries can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic. Extensions provide a filter for new capabilities that may eventually move into the core of the project. Extensions also act as an incubation and community hardening environment, allowing for much of that hardening to happen organically rather than in a costly review process.
 
 In order for the extensions model to be successful, there are few architectural considerations to keep in mind:
 
