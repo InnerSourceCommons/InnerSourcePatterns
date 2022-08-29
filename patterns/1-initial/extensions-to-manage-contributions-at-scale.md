@@ -68,7 +68,7 @@ Following the principles outlined above ensures that:
 
 ## Known Instances
 
-IBM Corporation has adopted this solution to scale inner-source AI applications.
+IBM Corporation has adopted this solution to scale InnerSource AI applications.
 
 ## Status
 
