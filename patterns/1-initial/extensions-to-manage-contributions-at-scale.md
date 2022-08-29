@@ -31,13 +31,13 @@ Allowing extensions/plugins to high-scale inner-source codebases or libraries ca
 
 In order for the extensions model to be successful, there are few architectural considerations to keep in mind:
 1. <b>Easy to create:</b> To obtain community participation, extensions need to be easy to create. 
-- Create Github templates for extensions to allow addition of new features in new repositories, retaining the same modular structure as the primary repository, with the framework to package and release extensions.
-   - Ensure that as the primary repository changes, the template(s) are well-maintained.
-- Add example extension(s) developed from the template, which project developers can reference to understand how to write a well-patterned extension.
-- Loosen the requirements for contributors to create extensions by bypassing reviews to allow for faster release or experimentation.
+   - Create Github templates for extensions to allow addition of new features in new repositories, retaining the same modular structure as the primary repository, with the framework to package and release extensions.
+      - Ensure that as the primary repository changes, the template(s) are well-maintained.
+   - Add example extension(s) developed from the template, which project developers can reference to understand how to write a well-patterned extension.
+   - Loosen the requirements for contributors to create extensions by bypassing reviews to allow for faster release or experimentation.
 2. <b>Loose coupling:</b> Having modular components that contain functionality can allow loose coupling, where changes to extensions do not impact the quality of the main codebase or other extensions.
 3. <b>Dependency management:</b>  Each extension should be careful to pin the version range of the primary repository that it is built against (the same way it would any other dependency) and should be careful in its use of other dependencies that shadow dependencies of the primary repository such that the versions it chooses for those dependencies are compatible with the primary repository versions selected. Any conflicts with primary repository will be caught in the test framework for the extension.
-4. <b>Testing strategy:</b> How to test extensions both individually and in combination?
+4. <b>Testing strategy:</b> How to test extensions both individually and in combination?
    - <b>Testing extension individually:</b> Extensions template will provide a test framework to be used by the extension developers to test the capability added. This can include a framework for unit tests, runtime performance and quality tests.
    - <b>Testing extension in combination with primary repository:</b> Extension developers have a well-patterned method for testing their extension against specific versions of the primary repository without involvement from the primary repository's maintainers.
    - <b>Testing extension in combination with other extensions:</b> Providing a test framework for this scenario could result in being excessive especially if there are a large number of extensions that are still being explored by users and unlikely to be all used in combination. If a user runs into conflicts while using extensions in combination (which should be unlikely with sufficient loose coupling), the user can raise an issue to the respective extension owners who will sort it out. As an extension reaches later phases of the lifecycle and gets merged into the primary repository, it would be tested in combination with rest of library and any dependency conflicts will have to be resolved at the time.
@@ -58,7 +58,7 @@ Following the principles outlined above ensures that: 
 
 ## Resulting Context
 
-- The project is able to scale with the addition of new features, without adding maintenance overhead on the primary project repository.
+- The project is able to scale with the addition of new features, without adding a maintenance overhead on the primary project repository.
 - Faster release of new features and experimental features for the community to explore, encouraging innovation and experimentation.
 - A post problem that can be introduced - what happens if an extension could not complete full lifecycle ? 
     - If an extension is not adopted over a period of time and could not build a community around it to support maintenance, it would be up to the extension owner to continue maintaining it for however long they want to. If an extension is left unmaintained, it would be unpublished.
@@ -74,6 +74,6 @@ TBD
 
 ## Author(s) 
 
-Sukriti Sharma, IBM
-Alexander Brooks, IBM
-Gabe Goodhart, IBM
+- Sukriti Sharma, IBM  
+- Alexander Brooks, IBM  
+- Gabe Goodhart, IBM  
