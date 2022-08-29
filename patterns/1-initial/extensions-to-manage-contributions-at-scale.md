@@ -8,7 +8,7 @@ TBD
 
 ## Problem
 
-As the number of new feature contributions to a mature inner-source repository rapidly increases, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping repositories well maintained?
+As the number of new feature contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping repositories well maintained?
 
 ## Context
 
