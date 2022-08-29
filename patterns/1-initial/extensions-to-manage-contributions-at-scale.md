@@ -12,7 +12,7 @@ As the number of new feature contributions to a mature InnerSource repository ra
 
 ## Context
 
-- More employees are contributing to strategic inner-source codebases, some of which are scaling rapidly with new feature contributions. This is adding a huge code review backlog on a smaller group of maintainers, resulting in maintainer burnout as well as slowing down release of new capabilities.
+- More employees are contributing to strategic InnerSource codebases, some of which are scaling rapidly with new feature contributions. This is adding a huge code review backlog on a smaller group of maintainers, resulting in maintainer burnout as well as slowing down release of new capabilities.
 - Adding an excessive number of capabilities and code to repositories is making them difficult to maintain.
 - here is a growing backlog of new features and ideas for the products which have scaled.
 - The pattern applies in either scenario:
