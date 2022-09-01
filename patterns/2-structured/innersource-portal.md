@@ -75,6 +75,8 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 
 ![Santander InnerSource Portal](../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
 
+* **Airbus** deployed the [SAP portal](https://github.com/SAP/project-portal-for-innersource) with minor modifications to match Airbus graphical identity. In addition, the [Python crawler](https://github.com/zkoppert/innersource-crawler) was patched to work with GitHub Enterprise instances.
+
 ## References
 
 * The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource [Gig Marketplace](./gig-marketplace.md) pattern in this context
