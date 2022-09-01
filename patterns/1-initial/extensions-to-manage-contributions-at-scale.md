@@ -4,7 +4,7 @@ Extensions to Manage Contributions at Scale
 
 ## Patlet
 
-An InnerSource project is receiving too many contributions, making maintenance difficult and resulting in a large code review backlog or premature rejection of new feature contributions. By offering an extension mechanism outside of the core project, the maintainers enable contributors to extend project capabilities with minimal code, thus encouraging innovation and experimentation. This would reduce the maintenance overhead on the core project, allowing it to contain only the strategic features that have been widely adopted, tested and validated. It would also ensure faster release of new features to the community, reducing the cost to harden a feature until it has proven its utility.
+An InnerSource project is receiving too many contributions, making maintenance difficult and resulting in a large code review backlog or premature rejection of new feature contributions. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.
 
 ## Problem
 
@@ -12,7 +12,8 @@ As the number of new feature contributions to a mature InnerSource repository ra
 
 ## Context
 
-- More employees are contributing to a strategic InnerSource codebase, which is scaling rapidly with new feature contributions. This is adding a huge code review backlog on a smaller group of maintainers, resulting in maintainer burnout as well as slowing down release of new capabilities.
+- More employees are contributing to a strategic InnerSource codebase, which is scaling rapidly with new feature contributions. This is adding a huge code review burden on a smaller group of maintainers, resulting in a backlog of feature contributions as well as slowing down release of new capabilities.
+- With the high volume of new capabilities being added, the organization is investing large amounts of time on code review cycles to harden the capabilities before release.  Not all of these capabilities gain adoption as they may not serve an internal use case.
 - Adding an excessive number of capabilities and code to the strategic repository is making it difficult to maintain.
 - As the maintainers cannot keep up with feedback to the contributors and code reviews anymore it creates a growing backlog of new features and ideas for the project which has scaled.
 - The pattern applies in either scenario:
@@ -57,13 +58,14 @@ Following the principles outlined above ensures that:
 - The addition of the extensions pattern with easy to use templates enables developers to add new features to a project's ecosystem without requiring them to write large amounts of boilerplate code.
 - Extensions are discoverable in a repeatable manner to all users of the primary project; just because code doesn't live in the main repository yet does not mean it is not valuable.
 - The maintainer burden is reduced until an extension has demonstrated that it fills an important gap in the primary project.
-- The core library abstractions can be a starting point for innovative developers rather than a target for later porting, thus reducing the overall burden of developing novel features for the library.
+- The core project's common code (e.g. base classes and utility functions) can be a starting point for new development that extends project's domain. This avoids the need to port innovative work after-the-fact, thus reducing the overall burden of developing novel features for the project.
 - Developers are more likely to contribute and stay involved in maintenance and building communities for their codebase, which is also good for the health of the overall project ecosystem.
 
 ## Resulting Context
 
 - The project is able to scale with the addition of new features, without adding a maintenance overhead on the primary project repository.
 - Faster release of new features and experimental features for the community to explore, encouraging innovation and experimentation.
+- Reduced the costly code review and feature hardening process until the feature is able to prove its utility. This has cost savings benefits for the organization.
 - A post problem that can be introduced - what happens if an extension can not complete the full lifecycle?
    - If an extension is not adopted over a period of time and could not build a community around it to support maintenance, it would be up to the extension owner to continue maintaining it for however long they want to. If an extension is left unmaintained, it would be unpublished.
    - If an extension developer is unable to further maintain their project, and other developers in the community want to continue supporting it, they may maintain the extension going forward.
