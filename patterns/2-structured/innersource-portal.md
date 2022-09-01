@@ -74,6 +74,7 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 * **Banco Santander** has created a public portal called [Santander ONE Europe InnerSource Community](https://innersourceportal.santander.com/) to support and increase InnerSource adoption. In addition to the catalog of projects the portal includes relevant content such as documentation, way of working, news, and events.
 
 ![Santander InnerSource Portal](../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
+* **Airbus** deployed the [SAP portal](https://github.com/SAP/project-portal-for-innersource) with minor modifications to match Airbus graphical identity. In addition, the [Python crawler](https://github.com/zkoppert/innersource-crawler) was patched to work with GitHub Enterprise instances.
 
 ## References
 
