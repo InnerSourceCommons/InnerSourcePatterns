@@ -4,8 +4,7 @@ Extensions to Manage Contributions at Scale
 
 ## Patlet
 
-An InnerSource project is receiving too many contributions, making maintenance difficult and resulting in a large code review backlog or premature rejection of new feature contributions. 
-By offering an extension mechanism outside of the core project, the maintainers enable contributors to extend project capabilities with minimal code, thus encouraging innovation and experimentation. This would reduce the maintenance overhead on the core project, allowing it to contain only the strategic features that have been widely adopted, tested and validated. It would also ensure faster release of new features to the community, reducing the cost to harden a feature until it has proven its utility.
+An InnerSource project is receiving too many contributions, making maintenance difficult and resulting in a large code review backlog or premature rejection of new feature contributions. By offering an extension mechanism outside of the core project, the maintainers enable contributors to extend project capabilities with minimal code, thus encouraging innovation and experimentation. This would reduce the maintenance overhead on the core project, allowing it to contain only the strategic features that have been widely adopted, tested and validated. It would also ensure faster release of new features to the community, reducing the cost to harden a feature until it has proven its utility.
 
 ## Problem
 
@@ -28,7 +27,7 @@ As the number of new feature contributions to a mature InnerSource repository ra
 
 ## Solutions
 
-Allowing extensions/plugins to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic. 
+Allowing extensions/plugins to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
 
 Extensions provide a filter for new capabilities that may eventually move into the core of the project. Extensions also act as an incubation and community hardening environment, allowing for much of that hardening to happen organically rather than in a costly review process.
 
