@@ -36,7 +36,8 @@ In order for the extensions model to be successful, there are few architectural 
 
 1. **Easy to create:** To obtain community participation, extensions need to be easy to create.
    - Create a repository template that extensions should use as a starting point. This allows the extensions to add their new features in new repositories, separate from the core project. The template should provide the same modular structure as the primary repository, and include the framework to package and release extensions.
-      - Ensure that as the primary repository changes, the template(s) are well-maintained.
+      - Ensure that as the primary repository changes, the template(s) are well-maintained. The primary repository maintainers are responsible for updating the template(s) to ensure it is compatible with the main project. Following good versioning conventions, e.g., [semver](https://semver.org/), makes this easier to follow.
+      - It is further recommended that the primary repository maintainers provide guidance on how to update extensions based on older versions of the template as newer versions are released.
    - Add example extension(s) developed from the template, which project developers can reference to understand how to write a well-patterned extension.
    - Loosen the requirements for contributors to create extensions by bypassing reviews to allow for faster release or experimentation.
 2. **Loose coupling:** Having modular components that contain functionality can allow loose coupling, where changes to extensions do not impact the quality of the main codebase or other extensions.
