@@ -28,7 +28,7 @@ The `/book` folder contains generator scripts and extra content required to crea
 - `/book/en/explore-patterns.md` - Shows the mind map of all patterns. Allows readers to link to the mind map directly.
 - patterns content:
   - The English patterns are in `/patterns`
-  - The translated patterns (e.g. for Japanese) are in `/translation/japanese`
+  - The translated patterns (e.g. for Japanese) are in `/translation/jp`
 
 The book is generated in multiple languages.
 

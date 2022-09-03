@@ -24,16 +24,18 @@ Please note that this document contains recommendations, aimed at removing barri
 
 ### Translating a new InnerSource Patterns
 
-- Please copy the file `/patterns/2-structured/<file>.md` to `/translation/<language>/patterns/<file>.md` and start translation.
+- Copy the pattern that you want to translate from `/patterns/2-structured/<file>.md` to `/translation/<YOUR_LANGUAGE>/patterns/<file>.md`.[^1] Make sure to keep the file name the same.
+- Then start your translation in that new file.
 - Once you are ready, send us a Pull Request.
 
 ### Starting the Translation of a New Language
 
 That is awesome! We welcome your passion. When implementing InnerSource practices in your region, there can be language barriers. There is great value in getting people in your organization to understand InnerSource in their own language.
 
-Before starting a new translation please talk to us in Slack (in the `#innersource-patterns` channel). Alternatively you can also open an issue on this GitHub repo and we can have an async conversation about your translation project.
+Before starting a new translation please talk to us in Slack (in the `#innersource-patterns` channel). Alternatively open an issue on this GitHub repo to start an async conversation about your translation project.
 
-The translation should begin by creating a `book-<YOUR_LANGUAGE>` branch to work on. Please name the branch after the abbreviation of the language e.g. `book-jp` is used for the Japanese version.
+The translation should begin by creating a `book-<YOUR_LANGUAGE>` branch to work on.[^1]
+e.g. `book-jp` is used for the Japanese translation.
 
 There are a few things you should prepare before starting a translation project.
 
@@ -56,3 +58,5 @@ The books currently available are in English and Japanese.
 Trusted Committers in this repository will also be onboarded during the translation process.
 
 When you complete a translation under `/translation/<YOUR_LANGUAGE>/`, a GitHub Actions pipeline will run to generate the output for publication in the gitbook. The process is described in detail in [/book/README.md](/book/README.md).
+
+[^1]: Replace `<YOUR_LANGUAGE>` with the 2-letter language code for your language.
