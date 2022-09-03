@@ -25,8 +25,8 @@ Instead edit toc_template.md
 
 * [パターンテンプレート](../../meta/pattern-template.md)
 * その他
-  * [README テンプレート](../../translation/japanese/templates/README-template.md)
-  * [CONTRIBUTING テンプレート](../../translation/japanese/templates/CONTRIBUTING-template.md)
+  * [README テンプレート](../../translation/jp/templates/README-template.md)
+  * [CONTRIBUTING テンプレート](../../translation/jp/templates/CONTRIBUTING-template.md)
 
 ## リソース
 
