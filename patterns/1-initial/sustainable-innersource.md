@@ -1,0 +1,81 @@
+## Title
+
+Sustainable InnerSource Programme
+
+## Patlet
+
+I've started an InnerSource programme - what next? How do I ensure InnerSource remains a part of how we create software in the long term.
+
+## Problem
+
+Given an InnerSource programme and/or community has been started within your organisation, you are unsure how to scale and/or ensure that InnerSource remains part of culture and best practice in the long term. You are worried that key people will move on to new roles, momentum will be lost and silently die, or future leaders will stop supporting InnerSource.
+
+## Context
+
+* The problem exists in fledgling InnerSource programmes/communities
+* You do not have full time support from an InnerSource or Open Source Programme Office (ISPO/OSPO)
+* You may be reliant on key people to keep InnerSource going
+* There is no clear vision on
+
+
+**TODO:**
+
+## Forces
+
+What makes the problem difficult?
+What are the trade-offs?
+These are constraints that **can be changed** at a cost.
+The solution might change one or more of these forces in order to solve the problem, while also in-turn changing the context.
+
+## Sketch (optional)
+
+visual illustration
+
+## Solutions
+
+Verified resolutions and possible resolutions to the problem.
+
+## Resulting Context
+
+What is the situation after the problem has been solved?
+The original context is changed indirectly by way of the solution.
+Often this section can include discussion of the next possible Patterns/problems introduced.
+This section can be short in content - the solution may not introduce new problems or change much context.
+
+## Rationale (optional)
+
+Explains why this is the right solution; using totally different words WHY this solution balances these forces and this context to solve this problem.
+Can expand on what-if's or theories.
+
+## Known Instances (optional)
+
+Where has this been seen before?
+Helps to reinforce that this is a REAL pattern and that you match the context.
+
+May mention:
+
+* A particular business
+* Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
+
+## Status (optional until merging)
+
+General pattern status is stored in GitHub's Label tagging - see any pull request.
+Note that this GitHub label tagging becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful.
+
+You might store other related info here, such as review history: "Three of us reviewed this on 2/5/17 and it needs John's expertise before it can go further."
+
+## Author(s) (optional)
+
+Often, this is yourself.
+If you need to, find someone in the InnerSource Commons to be the nominal author (As Told To).
+Could also be no-one if you do not want to take on authorship (common with a donut looking for a solution).
+
+## Acknowledgements (optional)
+
+Include those who assisted in helping with this pattern - both for attribution and for possible future follow up.
+Though optional, most patterns should list who helped in their creation.
+
+## Alias (optional)
+
+If this pattern is also known under a different name than what is listed unter **Title**, please list those alternative titles here.
+e.g. if the pattern is named after the problem it solves, a helpful alias might be one that describes the solution that is applied.
