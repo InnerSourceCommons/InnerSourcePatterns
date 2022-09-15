@@ -1,6 +1,0 @@
-root : ./
-
-structure:
-  readme: book/jp/introduction.md
-  summary: book/jp/toc.md
-  
