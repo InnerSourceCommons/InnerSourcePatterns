@@ -63,7 +63,7 @@ The list below consolidates some metrics candidates, grouped by business goals.
 | Creating reusable software | # of submodule usage<br># of code reuse across projects<br># of clone or forks from external guests |
 | Increase development speed | Time to market<br>Mean-time-to-review |
 | Employee satisfaction & talent retention |  |
-| Improve quality | # of automated test runs on PRs<br># of issues created from external contributors |
+| Improve quality | # of automated test runs on PRs<br># of issues created from external contributors<br>Rework rate |
 | Innovation |  |
 | Others | # of repositories using InnerSource components (managed contributing guidelines, assigned TCs)<br>Days of host's responsiveness on the issues/PRs created by external contributors |
 
