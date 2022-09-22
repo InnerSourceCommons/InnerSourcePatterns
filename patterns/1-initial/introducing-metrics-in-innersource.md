@@ -62,7 +62,7 @@ The list below consolidates some metrics candidates, grouped by business goals.
 | Knowledge sharing | # of clone or forks from external guests<br># of visits from external guests |
 | Creating reusable software | # of submodule usage<br># of code reuse across projects<br># of clone or forks from external guests |
 | Increase development speed | Time to market<br>Mean-time-to-review |
-| Employee satisfaction & talent retention | eNPS score<br>attrition rate | 
+| Employee satisfaction & talent retention | eNPS score<br>attrition rate |
 | Improve quality | # of automated test runs on PRs<br># of issues created from external contributors |
 | Innovation |  |
 | Others | # of repositories using InnerSource components (managed contributing guidelines, assigned TCs)<br>Days of host's responsiveness on the issues/PRs created by external contributors |
