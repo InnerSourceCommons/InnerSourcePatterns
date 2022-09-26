@@ -45,8 +45,16 @@ While the corporation's strategy may involve colocating employees who collaborat
 
 #### [Modern Agile](https://modernagile.org)
 
-The four principles of "Modern Agile" have an excellent connection between the culture of agility and the InnerSource practices.
+The four principles of "Modern Agile" can be connected easily to the goals of InnerSource practices.
 
+For example: 
+
+* **Make People Awesome**: A significant advantage of InnerSource is to promote team collaboration. The collaboration process positively exposes people, allowing everyone to know their contributions, thus encouraging them to contribute more and get recognized for it.
+* **Make Safety A Prerequisite**: Open and transparent collaboration promoted by InnerSource is a great way to encourage and demonstrate that collaboration is discussed respectfully and aimed at promoting learning.
+* **Experiment & Learn Rapidly**: Experimentation and learning are in the essence of the open source model and naturally are a fundamental part of the InnerSource. Fast development, good documentation, code reuse, and team collaboration promote experimentation and quick learning.
+* **Deliver Value Continuously**: This is a consequence of the three previous principles, and all the InnerSource work philosophy supports it.
+
+_Note: The above is just an illustration of how to explain this connection. It is by no means the only way to tie these two concepts together._
 #### [SCRUM](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)
 
 To shorten the example and make it more concrete for SCRUM, a popular Agile methodology, one could cite the following scenario:
