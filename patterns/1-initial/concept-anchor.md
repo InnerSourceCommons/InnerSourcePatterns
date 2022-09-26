@@ -55,6 +55,7 @@ For example:
 * **Deliver Value Continuously**: This is a consequence of the three previous principles, and all the InnerSource work philosophy supports it.
 
 _Note: The above is just an illustration of how to explain this connection. It is by no means the only way to tie these two concepts together._
+
 #### [SCRUM](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)
 
 To shorten the example and make it more concrete for SCRUM, a popular Agile methodology, one could cite the following scenario:
