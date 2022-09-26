@@ -47,7 +47,7 @@ While the corporation's strategy may involve colocating employees who collaborat
 
 The four principles of "Modern Agile" can be connected easily to the goals of InnerSource practices.
 
-For example: 
+For example:
 
 * **Make People Awesome**: A significant advantage of InnerSource is to promote team collaboration. The collaboration process positively exposes people, allowing everyone to know their contributions, thus encouraging them to contribute more and get recognized for it.
 * **Make Safety A Prerequisite**: Open and transparent collaboration promoted by InnerSource is a great way to encourage and demonstrate that collaboration is discussed respectfully and aimed at promoting learning.
