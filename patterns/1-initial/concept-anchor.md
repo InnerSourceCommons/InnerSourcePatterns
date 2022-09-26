@@ -54,7 +54,7 @@ For example:
 * **Experiment & Learn Rapidly**: Experimentation and learning are in the essence of the open source model and naturally are a fundamental part of the InnerSource. Fast development, good documentation, code reuse, and team collaboration promote experimentation and quick learning.
 * **Deliver Value Continuously**: This is a consequence of the three previous principles, and all the InnerSource work philosophy supports it.
 
-_Note: The above is just an illustration of how to explain this connection. It is by no means the only way to tie these two concepts together._
+*Note: The above is just an illustration of how to explain this connection. It is by no means the only way to tie these two concepts together.*
 
 #### [SCRUM](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)
 
