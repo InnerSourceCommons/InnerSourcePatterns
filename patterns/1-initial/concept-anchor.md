@@ -43,6 +43,19 @@ b) Fostering productivity
 While the corporation's strategy may involve colocating employees who collaborate with each other regularly, it may still be a global corporation. Robust CI/CD and documentation facilitates collaboration and productivity across time zones and geographical locations. It eliminates barriers between teams and the production environment.
 * *Quality Focus* this is a major point for IS. Because of the expected submission by a variety of teams and individuals, extra care is taken to make sure that the submitted code is screened to be production quality. Comprehensive documentation for submitters, test coverage, CI/CD, static code analysis and other techniques are often used to screen code from strangers in the open source world, these techniques have great benefits for internal teams.
 
+#### [Modern Agile](https://modernagile.org)
+
+The four principles of "Modern Agile" can be connected easily to the goals of InnerSource practices.
+
+For example:
+
+* **Make People Awesome**: A significant advantage of InnerSource is to promote team collaboration. The collaboration process positively exposes people, allowing everyone to know their contributions, thus encouraging them to contribute more and get recognized for it.
+* **Make Safety A Prerequisite**: Open and transparent collaboration promoted by InnerSource is a great way to encourage and demonstrate that collaboration is discussed respectfully and aimed at promoting learning.
+* **Experiment & Learn Rapidly**: Experimentation and learning are in the essence of the open source model and naturally are a fundamental part of the InnerSource. Fast development, good documentation, code reuse, and team collaboration promote experimentation and quick learning.
+* **Deliver Value Continuously**: This is a consequence of the three previous principles, and all the InnerSource work philosophy supports it.
+
+*Note: The above is just an illustration of how to explain this connection. It is by no means the only way to tie these two concepts together.*
+
 #### [SCRUM](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)
 
 To shorten the example and make it more concrete for SCRUM, a popular Agile methodology, one could cite the following scenario:
