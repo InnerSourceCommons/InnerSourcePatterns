@@ -8,24 +8,27 @@ I've started an InnerSource programme - what next? How do I ensure InnerSource r
 
 ## Problem
 
-Given an InnerSource programme and/or community has been started within your organisation, you are unsure how to scale and/or ensure that InnerSource remains part of culture and best practice in the long term. You are worried that key people will move on to new roles, momentum will be lost and silently die, or future leaders will stop supporting InnerSource.
+Given an InnerSource programme and/or community has been started within your organisation, you are unsure how to scale and/or sustain to ensure that InnerSource remains part of culture and best practice in the long term. When scaling and sustaining an innersource programme fail, it leads to problems including unusable projects/products, an unengaged community, and loss of support from leadership. 
 
 ## Context
+
+* You are worried that key people will move on to new roles, momentum will be lost and silently die, or future leaders will stop supporting InnerSource.
+* You are an individual or organization who is concerned with the fragile state and future of highly-used and impactful innersource projects.[1] https://sustainoss.org/assets/pdf/SustainOSS-west-2017-report.pdf
+* The quantity and quality of innersource projects at your organization are changing.  
+
+## Forces
 
 * The problem exists in fledgling InnerSource programmes/communities
 * You do not have full time support from an InnerSource or Open Source Programme Office (ISPO/OSPO)
 * You may be reliant on key people to keep InnerSource going
 * There is no clear vision on
 
+## Solutions
+
+* Start an ISPO: strategy, resources, buy-in 
+
 
 **TODO:**
-
-## Forces
-
-What makes the problem difficult?
-What are the trade-offs?
-These are constraints that **can be changed** at a cost.
-The solution might change one or more of these forces in order to solve the problem, while also in-turn changing the context.
 
 ## Sketch (optional)
 
