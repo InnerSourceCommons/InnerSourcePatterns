@@ -130,4 +130,4 @@ Provide standard base documentation through a README
 
 ## Credits
 
-[Web illustrations](https://storyset.com/web) and [People illustrations](https://storyset.com/people) by Storyset
+[Web](https://storyset.com/web) and [People](https://storyset.com/people) illustrations by Storyset
