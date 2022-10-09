@@ -51,8 +51,7 @@ The host team members need to make an effort to direct questions that they recei
 ## Resulting Context
 
 Setting up and consistently using official asynchronous communication channels
-helps create a base level of passive documentation that can be referenced again
-when similar questions come up again.
+helps create a base level of [passive documentation](https://www.oreilly.com/library/view/understanding-the-innersource/9781491986899/ch04.html) that can be referenced again when similar questions come up again.
 
 With communication happening in the open others can easily follow project
 progress and get active contributing. Others lurking and reading lowers the
