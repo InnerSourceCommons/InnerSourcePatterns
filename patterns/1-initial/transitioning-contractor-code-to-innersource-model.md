@@ -42,7 +42,14 @@ It could also be noted that the contractor motivations in this instance is almos
 At the outset of the project, clearly define:
 
 - That the code will be made visible by default.
-- How the project will be transitioned to an InnerSource project. (Zack can add more explicit details here)
+- That the architecture of the code should be modular and ready for component reuse.
+- How the project will be transitioned to an InnerSource project. This could be similar to a transition of ownership plan for an open source project which should include: 
+  - Identification of new a maintainer team
+  - An announcement to stakeholders regarding the transition
+  - Written documentation describing functionality, architecture, and common processes like releasing, patching, deploying, testing, etc.
+  - A prescribed number of hours on the contract set aside for the contractor to meet with the identified long term maintainer (normally from the company who hired the contractor) for an overview of responsibilities and Q & A.
+  - (untested) A 30 day warranty pattern could be applied and so the contractor would provide 30 days of direct transition support to the new maintainers
+
 
 It is noted that this practice can work very well where there is a high trust relationship between the contracting team and the contractors. Perhaps they have worked closely together before, or have a pre-existing relationship. Further patterns that explore how to build trust between teams might enhance this pattern.
 
