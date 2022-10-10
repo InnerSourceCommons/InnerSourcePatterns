@@ -50,7 +50,6 @@ At the outset of the project, clearly define:
   - A prescribed number of hours on the contract set aside for the contractor to meet with the identified long term maintainer (normally from the company who hired the contractor) for an overview of responsibilities and Q & A.
   - (untested) A 30 day warranty pattern could be applied and so the contractor would provide 30 days of direct transition support to the new maintainers
 
-
 It is noted that this practice can work very well where there is a high trust relationship between the contracting team and the contractors. Perhaps they have worked closely together before, or have a pre-existing relationship. Further patterns that explore how to build trust between teams might enhance this pattern.
 
 ## Resulting Context
