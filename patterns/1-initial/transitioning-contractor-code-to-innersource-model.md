@@ -4,7 +4,7 @@ Transitioning Contractor Code to InnerSource Model
 
 ## Patlet
 
-Contract developers are often not motivated to engage in InnerSource activities, which may be beyond the scope of their contract. This patlet describes how you can focus on transitioning the contractor project after the fact to an InnerSource project by setting expectations for specific InnerSource-related deliverables as part of the overall project delivery.
+Contract developers are often not motivated to engage in InnerSource activities, which may be beyond the scope of their contract. This pattern describes how you can focus on transitioning the contractor project after the fact to an InnerSource project by setting expectations for specific InnerSource-related deliverables as part of the overall project delivery.
 
 ## Problem
 
