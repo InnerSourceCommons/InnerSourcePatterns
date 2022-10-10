@@ -4,7 +4,7 @@ Transitioning Contractor Code to InnerSource Model
 
 ## Patlet
 
-Contract developers are often not motivated to engage in InnerSource activities, which may be beyond the scope of their contract. This patlet describes how you can focus on transitioning the contractor project after the fact to an InnerSource project.
+Contract developers are often not motivated to engage in InnerSource activities, which may be beyond the scope of their contract. This patlet describes how you can focus on transitioning the contractor project after the fact to an InnerSource project by setting expectations for specific InnerSource-related deliverables as part of the overall project delivery.
 
 ## Problem
 
@@ -35,7 +35,7 @@ It should be noted that the above scenario is indirectly impacted by:
 - Pressures to reduce contractor costs during procurement
 - Ability to tie contributions to payment at a granular level.
 
-It could also be noted that the contractor motivations in this instance is almost like a more extreme instance of the oft-reported organizational/budgetary constraints that might exist for some internal business units. (Not sure if this is relevant, but it does seem to be an extreme case of what is reported as common objections even in internal teams).
+It could also be noted that the contractor motivations in this instance is almost like a more extreme instance of the often reported organizational/budgetary constraints that might exist for some internal business units. 
 
 ## Solutions
 
@@ -66,7 +66,7 @@ Initial
 
 ## Author(s)
 
-- Clare Dillon (v.0 assuming others will add themselves in this section as we flesh it out).
+- Clare Dillon 
 - Zack Koppert
 
 ## Acknowledgements
