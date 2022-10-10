@@ -35,7 +35,7 @@ It should be noted that the above scenario is indirectly impacted by:
 - Pressures to reduce contractor costs during procurement
 - Ability to tie contributions to payment at a granular level.
 
-It could also be noted that the contractor motivations in this instance is almost like a more extreme instance of the often reported organizational/budgetary constraints that might exist for some internal business units. 
+It could also be noted that the contractor motivations in this instance is almost like a more extreme instance of the often reported organizational/budgetary constraints that might exist for some internal business units.
 
 ## Solutions
 
