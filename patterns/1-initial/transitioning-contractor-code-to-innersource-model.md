@@ -43,7 +43,7 @@ At the outset of the project, clearly define:
 
 - That the code will be made visible by default.
 - That the architecture of the code should be modular and ready for component reuse.
-- How the project will be transitioned to an InnerSource project. This could be similar to a transition of ownership plan for an open source project which should include: 
+- How the project will be transitioned to an InnerSource project. This could be similar to a transition of ownership plan for an open source project which should include:
   - Identification of new a maintainer team
   - An announcement to stakeholders regarding the transition
   - Written documentation describing functionality, architecture, and common processes like releasing, patching, deploying, testing, etc.
