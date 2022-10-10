@@ -25,7 +25,7 @@ Contractor Motivation and Constraints:
 - Concern that accepting code from other parts of the business might introduce security risks, scope creep or other issues that would subsequently have to be resolved by the contract team.
 - Concern that accepting PRs from other parts of the company may “muddy the waters” when it comes to assessing what parts of the project were completed/delivered by the contracted developers.
 - Contractors may have concerns about loss of control over the projects technical details if other teams are contributing significantly.
-Even when motivations align (a project can be completed faster or with higher quality by engaging in InnerSource) contractors might still be unclear if they can because it is not explicitly listed as allowed in the contract terms.
+- Even when motivations align (a project can be completed faster or with higher quality by engaging in InnerSource) contractors might still be unclear if they can because it is not explicitly listed as allowed in the contract terms.
 
 All of the above can mean that even if an individual contract developer wants to engage in InnerSource, there are system-level constraints pushing them not to.
 
