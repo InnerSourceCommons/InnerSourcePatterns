@@ -66,7 +66,7 @@ Initial
 
 ## Author(s)
 
-- Clare Dillon 
+- Clare Dillon
 - Zack Koppert
 
 ## Acknowledgements
