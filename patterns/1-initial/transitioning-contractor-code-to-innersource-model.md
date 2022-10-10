@@ -41,7 +41,7 @@ It could also be noted that the contractor motivations in this instance is almos
 
 At the outset of the project, clearly define:
 
-- That the code will be made visible by default.
+- That the code will be made visible by default to all developers within the organization.
 - That the architecture of the code should be modular and ready for component reuse.
 - How the project will be transitioned to an InnerSource project. This could be similar to a transition of ownership plan for an open source project which should include:
   - Identification of new a maintainer team
