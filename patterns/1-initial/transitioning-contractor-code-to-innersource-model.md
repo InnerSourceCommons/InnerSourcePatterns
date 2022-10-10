@@ -23,7 +23,7 @@ Contractor Motivation and Constraints:
 
 - Contracts with third-party developers tend to be focused on delivering an end result in the fastest possible fashion. As a result, all InnerSource activities (e.g. responding to third-party PRs) are considered to be distractions or something that will “slow down” delivery.
 - Concern that accepting code from other parts of the business might introduce security risks, scope creep or other issues that would subsequently have to be resolved by the contract team.
-- Above and beyond the idea that InnerSource may slow down the project, there is often an additional concern that accepting PRs from other parts of the company may “muddy the waters” when it comes to assessing what parts of the project were completed/delivered by the contracted developers.
+- Concern that accepting PRs from other parts of the company may “muddy the waters” when it comes to assessing what parts of the project were completed/delivered by the contracted developers.
 - Contractors may have concerns about loss of control over the projects technical details if other teams are contributing significantly.
 Even when motivations align (a project can be completed faster or with higher quality by engaging in InnerSource) contractors might still be unclear if they can because it is not explicitly listed as allowed in the contract terms.
 
