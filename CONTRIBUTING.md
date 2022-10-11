@@ -9,7 +9,7 @@ For this working group to thrive, we welcome your contribution - be it small or 
 Please consider contributing to the InnerSource Patterns.
 Here some suggestions on how you can contribute.
 
-1. **Share your thoughts & spark discussion**: A fresh perspective, an interesting thought, or an early novel idea can spark discussions and yield unforeseeable results. We invite you to share your thoughts on InnerSource-related topics at any time by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new), [via Slack, or our patterns office hours](#how-to-get-in-touch).
+1. **Share your thoughts & spark discussion**: A fresh perspective, an interesting thought, or an early novel idea can spark discussions and yield unforeseeable results. We invite you to share your thoughts on InnerSource-related topics at any time by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new) or [via Slack](#how-to-get-in-touch).
 
 2. **Read & improve existing patterns**: If you want to get started, we encourage you to read through the existing patterns and materials in this repository. Found a misleading phrase or phony grammar? A mistake in the content? Let us know by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new) or directly propose your fix as a pull request.
 
