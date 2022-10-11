@@ -28,6 +28,7 @@ Here some suggestions on how you can contribute.
 We are happy to support you in contributing to the InnerSource patterns or to just chat with you.
 
 You can best reach out to us **via Slack**:
+
 Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
 
 ## License of Contributions
