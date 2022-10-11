@@ -25,11 +25,10 @@ Here some suggestions on how you can contribute.
 
 ## How to get in touch?
 
-We are happy to support you in contributing to the InnerSource patterns or to just chat with you. You can reach out to us in the following ways:
+We are happy to support you in contributing to the InnerSource patterns or to just chat with you.
 
-1. **Via Slack.** Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
-
-2. **During the patterns office hours.** We established a regular cadence of office hours for you to ask questions. Find the date of the next patterns office hours [in this calendar](https://innersourcecommons.org/patterns-officehours).
+You can best reach out to us **via Slack**:
+Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/) and enter the `#innersource-patterns` channel there.
 
 ## License of Contributions
 
