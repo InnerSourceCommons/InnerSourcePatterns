@@ -1,3 +1,5 @@
+# This link check is run on all content files once per day.
+
 # from: https://github.com/lycheeverse/lychee-action
 # link checker used is 'lychee': https://github.com/lycheeverse/lychee
 
