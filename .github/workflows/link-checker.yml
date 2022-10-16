@@ -1,16 +1,14 @@
+# This link check is run on all content files once per day.
+
 # from: https://github.com/lycheeverse/lychee-action
 # link checker used is 'lychee': https://github.com/lycheeverse/lychee
 
 name: Link Check
 
 on:
-  push:
-    branches:
-      - "main"
-  pull_request:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '30 8 * * *'
+    - cron:  '30 8 * * 5'
 
 jobs:
   linkChecker:
