@@ -33,7 +33,7 @@ Our mission
 
 ### Maturity Level 2: Structured
 
-* [30 Day Warranty](patterns/2-structured/30-day-warranty.md) - *When accepting contributions from outside of your own team, there is a natural aversion to taking responsibility for code not written by the team itself. Through the 30 Day Warranty, the contributing team consents to provide bug fixes to the receiving team, which will improve the level of trust between both teams and increase the likelihood of contributions getting accepted.
+* [30 Day Warranty](patterns/2-structured/30-day-warranty.md) - *When accepting contributions from outside of your own team, there is a natural aversion to taking responsibility for code not written by the team itself. Through the 30 Day Warranty the contributing team consents to provide bug fixes to the receiving team, which will increase the level of trust between both teams and makes it more likely that contributions get accepted.*
 * [Common Requirements](patterns/2-structured/common-requirements.md) - *Common code in a shared repository isn't meeting the needs of all the project-teams that want to use it; this is solved through requirements alignment and refactoring.*
 * [Contracted Contributor](patterns/2-structured/contracted-contributor.md) - *Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.*
 * [Dedicated Community Leader](patterns/2-structured/dedicated-community-leader.md) - *Select people with communications and technical skills lead the communities to ensure success in starting an InnerSource initiative.*
