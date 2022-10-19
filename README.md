@@ -21,7 +21,7 @@ Are you already using InnerSource in your company? If you would like to share yo
 Our mission
 
 - Collect and document best practices on how to do InnerSource - in the form of patterns
-- Continue to publish ebooks with the most mature patterns 
+* Publish the most mature patterns as an ebook
 
 ## List of Patterns
 
