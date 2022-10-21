@@ -60,7 +60,6 @@ Examples of building blocks:
 
 ![image](https://user-images.githubusercontent.com/70953/197144534-42dafb93-9d2d-46d1-a1f2-e7a70e593f6c.png)
 
-
 ## Resulting Context
 
 Teams can adopt InnerSource best practices in a step-by-step way. By documenting
