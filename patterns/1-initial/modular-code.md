@@ -43,11 +43,6 @@ The lack of modularization in the software architecture prevents reuseability, a
 
 * Provide incentives to teams to invest in modular code. Modular code is far more reusable. This could work well for large teams when working on modularized projects; team members can focus on their smaller assigned tasks.
     - Developers could get an opportunity to increase their influence in the organization.
-    - Modular code makes the pathway to open source smoother.
-    - Modular code facilitates division of labour (as required for work in larger teams, or as an open source project)
-    - Modular projects enable team members to focus on their own smaller assigned tasks.
-    - Modular code makes Agile implementation easier.
-    - Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
 * Select certain "success projects," teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
 * Offer education. Modular code is well-understood; there is a lot of literature in favor of this.
 * Acknowledge and drive acceptance for the cost of modularization. Build time into the release schedule for this.
@@ -60,8 +55,10 @@ The lack of modularization in the software architecture prevents reuseability, a
 
 ## Resulting Context
 
-**Pattern Idea**: Time is spent making the shared code modular so it can be reused.  
-
+* Modular code facilitates division of paralell labour (as required for work in larger teams, or as an open source project). Modular projects enable team members to focus on their own smaller assigned tasks.
+* Modular code makes Agile implementation easier.
+* Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
+* Modular code makes the pathway to InnerSource and open source smoother.
 ## Known Instances
 
 Elements of the resolution have been proven by various companies.
