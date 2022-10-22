@@ -24,6 +24,7 @@ The lack of modularization in the software architecture prevents reuseability, a
 * The value of modularity is nearly invisible for end users.
 
 ## Forces
+
 * Against:
   * Developers who develop monolithic code bases might lack the perspective of how modularity might improve how they work.
   * Developers might not know how to write modular code.
@@ -43,6 +44,7 @@ The lack of modularization in the software architecture prevents reuseability, a
 
 Modular code is far more reusable. Decoupling functionality into smaller narrow-focused modules eases
 and therefore promotes external contributions and onboarding of newcomers.
+
 * Offer education.
   * On why: Lack of modularity is technical debt. It increases costs but hides them by shifting these into the future.
   * On how: Modular code is well-understood; there is a lot of literature in favor of this.
@@ -66,6 +68,7 @@ and therefore promotes external contributions and onboarding of newcomers.
 * Modular code makes Agile implementation easier.
 * Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
 * Modular code makes the pathway to InnerSource and open source smoother.
+
 ## Known Instances
 
 Elements of the resolution have been proven by various companies.
