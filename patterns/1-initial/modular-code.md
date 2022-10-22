@@ -41,17 +41,15 @@ The lack of modularization in the software architecture prevents reuseability, a
 
 ## Solutions
 
-* Provide incentives to teams to invest in modular code. Modular code is far more reusable. This could work well for large teams when working on modularized projects; team members can focus on their smaller assigned tasks.
-    - Developers could get an opportunity to increase their influence in the organization.
-* Select certain "success projects," teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
+Modular code is far more reusable. Decoupling functionality into smaller narrow-focused modules eases
+and therefore promotes external contributions and onboarding of newcomers.
 * Offer education. Modular code is well-understood; there is a lot of literature in favor of this.
-* Acknowledge and drive acceptance for the cost of modularization. Build time into the release schedule for this.
-* Companies moving to use more open source code will appreciate modularity more over time.
-* Mitigate risk and fear of quality degradation from accepting InnerSource contributions.
+  * Select certain "success projects," teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
+* Introduce refactoring as organic effort and strive for it to become part of the culture.
+  * Acknowledge and drive acceptance for the investion of modularization. Build time into the release schedule for this.
 * Establish a checklist of elements to be checked off to classify a component as reusable.
-    - There could be requirements on tests, tools and documentation before considering a component as reusable
-    - Introduce refactoring as organic effort and strive for it to become part of the culture. Refactoring leads to more modular code and reduction of technical debt.
-* Establish standards on testing methodology, labeling of repos.
+  - There could be requirements on tests, tools and documentation before considering a component as reusable.
+  - Establish standards on testing methodology, labeling of repos.
 
 ## Resulting Context
 
