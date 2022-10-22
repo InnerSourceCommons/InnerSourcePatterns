@@ -8,7 +8,11 @@ The lack of modularization in the software architecture prevents reuseability, a
 
 ## Problem
 
-Engineering does not want to spend the extra resources needed to develop modular components. This applies to managers and developers alike. As a result, fewer components end up being reused, leading to duplication of work.
+* With rare exceptions, monolythinc code is difficult to contribute to.
+* The value of modularity is nearly invisible for end users.
+* The same functionality is reimplemented redundantly causing
+  * Waste of unneeded re-design and re-development
+  * Duplicated mainteinance effort
 
 ## Context
 
