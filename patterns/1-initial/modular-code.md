@@ -9,18 +9,19 @@ The lack of modularization in the software architecture prevents reuseability, a
 ## Problem
 
 * With rare exceptions, monolythinc code is difficult to contribute to.
-* The value of modularity is nearly invisible for end users.
 * The same functionality is reimplemented redundantly causing
   * Waste of unneeded re-design and re-development
   * Duplicated mainteinance effort
 
 ## Context
 
-* There is no corporate mandate for modularized code.
-* This is a new product/new code, not a legacy product/code.
+* There might be potentially reusable functionality buried in monolythic code.
+  Legacy code tends to be less modular than new one.
 * There is an available repository for sharing code.
-* Making code modular takes extra effort and time to develop.
+* Source code can be a useful as documentation on small enough pieces.
+* Documentation needed for getting started using a small piece of code is easy to write.
 * Time commitments might already have been made for customer deliveries (not changeable).
+* The value of modularity is nearly invisible for end users.
 
 ## Forces
 
