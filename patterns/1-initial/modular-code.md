@@ -43,13 +43,21 @@ The lack of modularization in the software architecture prevents reuseability, a
 
 Modular code is far more reusable. Decoupling functionality into smaller narrow-focused modules eases
 and therefore promotes external contributions and onboarding of newcomers.
-* Offer education. Modular code is well-understood; there is a lot of literature in favor of this.
+* Offer education.
+  * Modular code is well-understood; there is a lot of literature in favor of this.
   * Select certain "success projects," teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
 * Introduce refactoring as organic effort and strive for it to become part of the culture.
   * Acknowledge and drive acceptance for the investion of modularization. Build time into the release schedule for this.
-* Establish a checklist of elements to be checked off to classify a component as reusable.
-  - There could be requirements on tests, tools and documentation before considering a component as reusable.
-  - Establish standards on testing methodology, labeling of repos.
+* Search for modularizable functionalities:
+  * Identify common functionalities and code blocks with potential for profitable modularity.
+  * Establish a checklist of elements to be checked off to classify a component as reusable.
+    There could be requirements on tests, tools and documentation before considering a component as reusable.
+    Establish standards on testing methodology, labeling of repos.
+* Eat the elephant in small bites. Break modularization down into baby steps, like
+  1. find internal would-be customers. Better ask them over guessing on your own.
+  1. define decoupling scope and prefferred decoupling methods,
+  1. develop automated testing protection
+  1. document usage of modules.
 
 ## Resulting Context
 
