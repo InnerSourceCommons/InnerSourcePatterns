@@ -24,20 +24,20 @@ The lack of modularization in the software architecture prevents reuseability, a
 * The value of modularity is nearly invisible for end users.
 
 ## Forces
-
-* There is a learning curve to writing code that can be reused.
-* Extra documentation is required for reusable code.
-* Some companies have a common components group that develops reusable code, but others feel that such components should be developed by those business lines that are using the components and a library of common components could be established.
-* Developers might not know how to write modular code.
-
-* Might be a fear that if not done properly, quality might be impacted.
-* Developers might have no incentive to write modular code (due to their tight schedules and lack of a mandate).
-* If there is frequent turnover of team members, modularization may not be a priority.
-* You might be dealing with legacy systems (can't be simply refactored or rewritten).
-* Requirements might be different for writing modular code.
-* Architectural constraints might impact modularity.
-* Developers who develop monolithic code bases might lack the perspective of how modularity might improve how they work.
-* Level of communication between teams can impact ability/inclination to modularize.
+* Against:
+  * Developers who develop monolithic code bases might lack the perspective of how modularity might improve how they work.
+  * Developers might not know how to write modular code.
+  * You might be dealing with legacy systems. Might be a fear that if not done properly, quality might be impacted.
+  * Architectural constraints might impact modularity.
+  * The value of modularity is nearly invisible for end users.
+* In favour:
+  * Modularization mitigates risk and fear of quality degradation from accepting InnerSource contributions.
+  * Companies moving to use more open source code will appreciate modularity more over time.
+  * Code protected through reliable automated testing offers a chance for newcomers to safely have an impact by refactoring. Modularization is a powerful goal for refactoring. And refactoring usually drags additional benefits.
+  * Frequent turnover of team members speaks for modularization, as it helps newcomers to learn about the system at smaller bits.
+* Neutral / Two-folded:
+  * Some companies have a common components group that develops reusable code, but others feel that such components should be developed by those business lines that are using the components and a library of common components could be established.
+  * Level of communication between teams can impact ability/inclination to modularize.
 
 ## Solutions
 
