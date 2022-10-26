@@ -43,6 +43,8 @@ This section can be short in content - the solution may not introduce new proble
 
 ## Rationale (optional)
 
+**to-be-done**
+
 Explains why this is the right solution; using totally different words WHY this solution balances these forces and this context to solve this problem.
 Can expand on what-if's or theories.
 
