@@ -34,6 +34,8 @@ Given an InnerSource programme and/or community has been started within your org
 
 ## Resulting Context
 
+**to-be-done**
+
 What is the situation after the problem has been solved?
 The original context is changed indirectly by way of the solution.
 Often this section can include discussion of the next possible Patterns/problems introduced.
