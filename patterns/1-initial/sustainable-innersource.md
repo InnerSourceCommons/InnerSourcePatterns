@@ -32,14 +32,6 @@ Given an InnerSource programme and/or community has been started within your org
 * Training
 * InnerSource libraries that are critical to business success
 
-## Sketch (optional)
-
-visual illustration
-
-## Solutions
-
-Verified resolutions and possible resolutions to the problem.
-
 ## Resulting Context
 
 What is the situation after the problem has been solved?
