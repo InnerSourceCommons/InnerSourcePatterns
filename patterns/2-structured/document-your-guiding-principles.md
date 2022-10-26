@@ -95,9 +95,9 @@ For that, potential future contributors need to be able to follow the project pr
 If project relevant communication happens through synchronous communication, arguments discussed need to be made transparent in the written channel - decisions should be finalized only there.
 As a side effect this leads to passive base documentation that is very valuable for any newcomer to the project.
 
-(5) Allow written advise to accumulate in a persistent, searchable archive
+(5) Allow written advice to accumulate in a persistent, searchable archive
 
-All project communication, in particular decisions taken and discussions leading up to those decisions need to be archived.
+All project communication, in particular decisions taken and discussions leading up to those decisions, need to be archived.
 It must be possible to reference communication via stable URLs.
 Previous communication needs to be stored in a way that can easily be searched.
 
@@ -116,7 +116,7 @@ All Trusted Committers of a project are published.
 
 * Organisation members understand which challenges they can address by applying InnerSource best practices.
 * Organisation members lacking prior open source experience understand the basic values and principles of InnerSource projects.
-* Organisation members lacking prior open source experience are able to check their daily doing against a set of common established values.
+* Organisation members lacking prior open source experience are able to check their daily activities against a set of common established values.
 * The organisation's development practices become more similar to open source projects thus making it easier for organisation members to participate in open source projects.
 
 ## Known Instances

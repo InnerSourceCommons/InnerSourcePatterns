@@ -57,4 +57,4 @@ However, please channel working group-specific requests through the trusted comm
 
 ## References
 
-* Our trusted committer process was inspired by [this](https://tech.europace.de/voting-in-new-trusted-committers/).
+Our trusted committer process was inspired by [this](https://tech.europace.de/voting-in-new-trusted-committers/).
