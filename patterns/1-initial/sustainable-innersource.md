@@ -65,10 +65,8 @@ May mention:
 
 Initial (Donut)
 
-## Author(s) 
+## Author(s)
 
 Tom Sadler
-Chan Voong 
-We welcome any authors who would like to contribute. 
-
-
+Chan Voong
+We welcome any authors who would like to contribute.
