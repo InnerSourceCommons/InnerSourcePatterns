@@ -23,16 +23,16 @@ reluctant to join forces even if there is significant overlap in requirements.
 
 ## Context
 
-* Teams are working in a micro-services environment.
-* They are organised in fully functional DevOps teams: Each team is responsible for their contributions end-to-end, including maintenance, on-call and customer support.
-* A team is tasked with providing a service to their downstream customers that is fairly similar to an existing service built by another team.
+- Teams are working in a micro-services environment.
+- They are organised in fully functional DevOps teams: Each team is responsible for their contributions end-to-end, including maintenance, on-call and customer support.
+- A team is tasked with providing a service to their downstream customers that is fairly similar to an existing service built by another team.
 
 ## Forces
 
-* Organisational escalation paths may be different for each of the teams.
-* Members of each team may be unwilling to answer on-call support for errors that do not affect their own downstream customers.
-* Severity levels for the same types of errors may be different across team boundaries due to different SLA definitions per team/customer relationship.
-* Teams may have different security or regulatory constraints governing their deployments.
+- Organisational escalation paths may be different for each of the teams.
+- Members of each team may be unwilling to answer on-call support for errors that do not affect their own downstream customers.
+- Severity levels for the same types of errors may be different across team boundaries due to different SLA definitions per team/customer relationship.
+- Teams may have different security or regulatory constraints governing their deployments.
 
 ## Solutions
 
@@ -72,17 +72,17 @@ Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern tha
 
 ## Known Instances
 
-* Europace AG
-* Flutter Entertainment: A [Flutter InnerSource application](https://innersource.flutter.com/start/setup-ci/) has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artefact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skill sets in different areas of the business.
+- Europace AG
+- Flutter Entertainment: A [Flutter InnerSource application](https://innersource.flutter.com/sdlc/) has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artefact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skill sets in different areas of the business.
 
 ## Status
 
-* Structured
+- Structured
 
 ## Author(s)
 
-* Isabel Drost-Fromm
-* Rob Tuley
+- Isabel Drost-Fromm
+- Rob Tuley
 
 ## Acknowledgements
 
