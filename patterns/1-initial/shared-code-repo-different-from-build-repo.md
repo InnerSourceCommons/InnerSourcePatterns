@@ -16,7 +16,7 @@ Shared code is kept in an accessible repository that is different from SCMs used
 
 ## Forces
 
-When the shared code is in a separate repository, any use of it could result in forking modifications, leading to complications later when the source is changed by the owning organization. When starting an InnerSource program, it is possible there are many SCM systems in use; and, frequently, a new SCM is used for the InnerSource program. Migrating from one SCM to another is not trivial. Since the using organization has a copy, they might not be aware of changes to the shared code. It is difficult and expensive for the using organization to change their automated build process to use a foreign repo.
+When the shared code is in a separate repository, any use of it could result in forking modifications, leading to complications later when the source is changed by the owning organization. When starting an InnerSource program, it is possible there are many source control management systems ([SCM](https://en.wikipedia.org/wiki/Version_control)) in use; and, frequently, a new SCM is used for the InnerSource program. Migrating from one SCM to another is not trivial. Since the using organization has a copy, they might not be aware of changes to the shared code. It is difficult and expensive for the using organization to change their automated build process to use a foreign repo.
 
 ## Solution
 
