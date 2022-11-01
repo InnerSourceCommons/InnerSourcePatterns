@@ -25,7 +25,7 @@ jobs:
 
       - name: Filter markdown files only
         run: |
-          md_files=`find ${{ steps.changed-files.outputs.all_changed_files }} -maxdepth 0 -name "*.md"`
+          md_files=`find ${{ steps.changed-files.outputs.all_changed_files }} -maxdepth 0 -name "*.md" | tr '\n' ' '`
           echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
 
       - name: Restore lychee cache
