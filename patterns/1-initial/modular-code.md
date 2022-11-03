@@ -61,6 +61,7 @@ and therefore promotes external contributions and onboarding of newcomers.
   1. define decoupling scope and prefferred decoupling methods,
   1. develop automated testing protection
   1. document usage of modules.
+* More information and techniques are available from the book Working Effectively with Legacy Code by Michael Feathers and Refactoring: Improving the Design of Existing Code by Martin Fowler
 
 ## Resulting Context
 
