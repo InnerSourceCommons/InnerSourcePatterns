@@ -85,8 +85,6 @@ NOTE: The 'Initial' Patterns below don't have a Patlet yet, which is essential f
 This is why we keep these patterns at the bottom of the list.
 -->
 
-change something
-
 * [Overcome Acquisition Based Silos - Developers](patterns/1-initial/overcome-acquisition-based-silos-developer.md)
 * [Overcome Acquisition Based Silos - Managers](patterns/1-initial/overcome-acquisition-based-silos-manager.md)
 * [Discover Your InnerSource](patterns/1-initial/discover-your-innersource.md)
