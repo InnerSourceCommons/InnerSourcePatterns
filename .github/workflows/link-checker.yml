@@ -24,7 +24,7 @@ jobs:
           restore-keys: cache-lychee-
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.1
+        uses: lycheeverse/lychee-action@v1.5.2
         with:
           args: --verbose --no-progress --cache --max-cache-age 1d README.md patterns/ book/ translation/
           fail: true
