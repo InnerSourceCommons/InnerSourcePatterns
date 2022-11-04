@@ -39,7 +39,7 @@ jobs:
         name: Link Checker
         uses: lycheeverse/lychee-action@v1.5.2
         with:
-          args: --verbose --no-progress --cache --max-cache-age 1d $MARKDOWN_FILES
+          args: --verbose --no-progress --exclude-mail --cache --max-cache-age 1d $MARKDOWN_FILES
           fail: true
           jobSummary: true
         env:
