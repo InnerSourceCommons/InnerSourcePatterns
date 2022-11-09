@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Slack
+    url: https://innersourcecommons-inviter.herokuapp.com
+    about: Join our Community on Slack for help and a casual chat.
+  - name: Patterns Book
+    url: https://patterns.innersourcecommons.org
+    about: Read our most mature patterns here.
