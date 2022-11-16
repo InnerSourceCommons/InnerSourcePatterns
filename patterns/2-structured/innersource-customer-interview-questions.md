@@ -1,4 +1,4 @@
-## **Title**
+## Title
 
 InnerSource Customer Interview Questions
 
