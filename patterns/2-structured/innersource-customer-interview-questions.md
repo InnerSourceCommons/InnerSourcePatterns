@@ -54,7 +54,7 @@ Create a customer interview to evaluate team needs and convey to your user what 
 * **Processes**
     * What new processes would make your team more successful? This is any process you may want if there were no limitations. What processes or structures do you wish were in place?
     * Are there any current processes in place that hinder performance?
-* **Who else should we be talking to? **
+* **Who else should we be talking to?**
 
  
 ## **Resulting Context**
