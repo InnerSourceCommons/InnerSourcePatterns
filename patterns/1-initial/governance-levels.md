@@ -51,7 +51,7 @@ Examples of common InnerSource operating models (1) are:
 - **Contributions Welcome**: People outside the core development team may use the code. They can also make modifications and submit them to core team for inclusion.
 - **Shared Ownership**: Members of different teams collaborate on the project as equal peers. Everyone has the ability to merge code. Everyone has an equal say on the project direction. Everyone has an equal say in who else to add to this group.
 
-Examples of promoting the names (3) are:
+Examples of promoting the model names (3) are:
 
 - Using the names within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/project-setup/base-documentation.md)).
 - Labelling projects with the names in an [InnerSource Portal](../2-structured/innersource-portal.md).
