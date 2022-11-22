@@ -35,7 +35,11 @@ Project C is currently closed source and used only by team 1. Team 2 want to use
 
 ## Solution
 
-The solution is to create a universally understood language to describe standard building blocks for InnerSource in your organisation:
+The solution is to create a universally understood language to describe the InnerSource operating models that are used in your organisation. 
+
+We define **InnerSource operating model** as a description of how much influence the core development team of a project ist willing to share with contributing teams. Or in other terms, the level of influence a contributing team can gain in the respective project.
+
+The shared language for these InnerSource operating models can be established with these steps:
 
 1. Identify the common recurring InnerSource operating models that exist in your teams and projects.
 2. Document each model in detail, and give each a distinctive name.
