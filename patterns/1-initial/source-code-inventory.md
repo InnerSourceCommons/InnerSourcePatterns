@@ -105,7 +105,7 @@ The Source Code Strategy Assessment Framework helps teams to understand the valu
 ## Author(s)
 
 * [David Terol](https://github.com/dterol23)
-* [Simao Williams](mailto://me@simaos.net)
+* [Simao Williams](mailto:me@simaos.net)
 
 ## Acknowledgements
 

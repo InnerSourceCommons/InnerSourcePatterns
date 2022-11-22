@@ -1,7 +1,11 @@
+[![Check Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml)
+[![Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml)
+[![Join our Slack!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=slack&label=slack)](https://innersourcecommons-inviter.herokuapp.com)
+
 # InnerSource Patterns
 
 <a href="https://patterns.innersourcecommons.org">
-<img align="right" src="book/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" width="30%"></a>
+<img align="right" src="book/en/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" width="30%"></a>
 
 This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them.
 
@@ -9,20 +13,20 @@ If you are here for the first time, you may start by reading our most mature pat
 
 Below you find [what a pattern is](#what-are-innersource-patterns), a [list of known patterns](#list-of-patterns), and [how to use these patterns](#how-can-you-use-innersource-patterns) in your organization.
 
-You are already using InnerSource in your company and want to share your ideas and experiences with the world? We would love to [welcome your contributions](#how-to-contribute)!
+Are you already using InnerSource in your company? If you would like to share your experiences with the world, we would love to [welcome your contributions](#how-to-contribute)!
 
 [isc-website]: http://innersourcecommons.org
 
 ## Mission Statement
 
-Our mission in this working group
+Our mission
 
-- Collect and document agreed upon best practices of how to do InnerSource - in the form of patterns
-- Continuously publish the most mature patterns as an ebook
+- Collect and document best practices on how to do InnerSource - in the form of patterns
+- Publish the most mature patterns as an ebook
 
 ## List of Patterns
 
-The below lists all known patterns. They are grouped into three [maturity levels](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/master/meta/contributor-handbook.md#maturity-levels).
+ All known patterns (grouped into three [maturity levels](./meta/contributor-handbook.md#maturity-levels)) are as follows:
 
 ### Maturity Level 3: Validated
 
@@ -37,7 +41,7 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Gig Marketplace](patterns/2-structured/gig-marketplace.md) - *Establish a marketplace by creating an intranet website that lists specific InnerSource project needs as "Gigs" with explicit time and skill requirements. This will enable managers to better understand their employee’s time commitment and professional benefits thereby increasing the likelihood of garnering approval to make InnerSource contributions.*
 * [Maturity Model](patterns/2-structured/maturity-model.md) - *Teams have started adopting InnerSource. The practice is spreading to multiple departments. Understanding of what constitutes an InnerSource project are wide spread though. The solution is to provide a maturity model to allow for teams to go through a self check and discover patterns and practices that they are not yet aware of.*
 * [InnerSource License](patterns/2-structured/innersource-license.md) - *Two legal entities that belong to the same organization want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting. An InnerSource License provides a reusable legal framework for the sharing of source code within the organization. This opens up new collaboration options, and makes the rights and obligations of the involved legal entities explicit.*
-* [InnerSource Portal](patterns/2-structured/innersource-portal.md) - *Create an intranet website that indexes all available InnerSource project information. This will enable potential contributors to more easily learn about projects that might interest them and for InnerSource project owners to attract an outside audience.*
+* [InnerSource Portal](patterns/2-structured/innersource-portal.md) - *Potential contributors cannot easily discover InnerSource projects that they are interested in. By creating an intranet website that indexes all available InnerSource project information you enable contributors to learn about projects that might interest them and InnerSource project owners to attract an outside audience.*
 * [Praise Participants](patterns/2-structured/praise-participants.md) - *Thank contributors effectively to engender further engagement from them and to encourage others to contribute*
 * [Repository Activity Score](patterns/2-structured/repository-activity-score.md) - *The repository activity score is a numeric value that represents the (GitHub) activity of an InnerSource project.*
 * [Review Committee](patterns/2-structured/review-committee.md) - *The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarise themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.*
@@ -50,10 +54,11 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Transparent Cross-Team Decision Making using RFCs](patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md) - *InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.*
 * [Start as an Experiment](patterns/2-structured/start-as-experiment.md) - *Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.*
 * [Core Team](patterns/2-structured/core-team.md) - *Even when an InnerSource project is widely needed, contributions and usage may be hindered because the project is difficult to work with. Establish a core team that is dedicated to take care of the project's fundamental items. Their work enables contributors to add and use the features that provide value to their scenarios.*
+* [Document your Guiding Principles](patterns/2-structured/document-your-guiding-principles.md) - *The usual InnerSource explanation of "applying open source best practices inside an organisation" does not work well with people lacking an open source background. As a remedy the most important principles of InnerSource get documented and published widely.*
 
 ### Maturity Level 1: Initial
 
-* [Modular Code](patterns/1-initial/modular-code.md) - *Management does not want to spend the extra resources needed to develop modular components and make them available in a visible repository for others to use.*
+* [Modular Code](patterns/1-initial/modular-code.md) - *The lack of modularization in the software architecture prevents reuseability, and with that the ability to reap the benefits of InnerSource. By helping the teams to understand the benefits of modularization, and making time to work towards that goal, more InnerSource collaboration can happen and the software architecture overall can be improved.*
 * [Improve Findability](patterns/1-initial/improve-findability.md) - *People can't find the internally developed solutions that they need due to poor naming conventions. This causes frustration in finding InnerSource solutions and a reduction in code reuse.*
 * [Overcoming Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md) - *Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.*
 * [Introducing Metrics in InnerSource](patterns/1-initial/introducing-metrics-in-innersource.md) - *Involve all stakeholders in designing and interpreting metrics to measure the current status in terms of health and performance of the InnerSource initiative.*
@@ -70,10 +75,14 @@ The below lists all known patterns. They are grouped into three [maturity levels
 * [Unified Source Code Inventory](patterns/1-initial/source-code-inventory.md) - *In a large organization with different legal entities is often hard to get full visibility into all software assets, in particular all source code. This situation reduces the opportunities to increase business value and keep liability costs, such as software maintenance, under control across the organization as a whole. An organization-level source code inventory addresses these issues while exploiting opportunities to identify and support valuable InnerSource assets.*
 * [Explicit Shared Ownership](patterns/1-initial/explicit-shared-ownership.md) - *A software component that several teams depend on has grown to the point where owners are no longer capable of taking full ownership. There is confusion who to involve for changes. Sharing ownership explicitly and making expected behaviour visible removes ambiguity. Writing a contributions document creates a natural way to evolve ownership.*
 * [Standarized Release Process](patterns/1-initial/release-process.md) - *Teams may be reluctant to use InnerSource projects that they are unfamiliar with when there is no clear release process apparent in the repository. Providing clear release notes and a published artifact (binary, docker image, jar, etc) gives people confidence you are publishing a quality product.*
-* [Explicit InnerSource Principles](patterns/1-initial/explicit-innersource-principles.md) - *The usual InnerSource explanation of "applying open source best practices inside an organisation" does not work well with people lacking an open source background. As a remedy the most important principles of InnerSource get published widely.*
+* [Overcoming the Not-Invented-Here Mindset](/patterns/1-initial/not-invented-here.md) - *Perfectly good solutions are being rejected because of "Not Invented Here" (NIH). Engineers and their managers will choose to implement functionality themselves first, even if an alternative exists. A shift towards a culture of "Proudly Found Elsewhere" can help reduce the negative impact of NIH.*
+* [Balancing Openness and Security](/patterns/1-initial/balancing-openness-and-security.md) - *While InnerSource flourishes in environments with a high degree of shared code, Security/Legal prefers the limitation of source code access to only those that need it. By making Security/Legal part of the team, introducing explicit sharing levels and security policies for shared repositories, as well as defining what qualifies as sensitive information, code sharing can be facilitated while minimizing the associated risks.*
+* [Crossing the InnerSource Chasm](/patterns/1-initial/crossing-chasm.md) - *Early InnerSource experiments have been successful. Methods that were successful convincing early teams stop working though when scaling the initiative. This chasm can be crossed by using different methods to reach people at different stages of the innovation curve.*
+* [Extensions to Manage Contributions at Scale](/patterns/1-initial/extensions-to-manage-contributions-at-scale.md) - *An InnerSource project is receiving too many contributions, making maintenance difficult and resulting in a large code review backlog or premature rejection of new feature contributions. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.*
+* [Transitioning Contractor Code to InnerSource Model](/patterns/1-initial/transitioning-contractor-code-to-innersource-model.md) - *Contract developers are often not motivated to engage in InnerSource activities, which may be beyond the scope of their contract. This pattern describes how you can focus on transitioning the contractor project after the fact to an InnerSource project by setting expectations for specific InnerSource-related deliverables as part of the overall project delivery.*
 
 <!--
-NOTE: The 'Initial' Patterns below don't even have a Patlet yet, which is essential for readers to quickly browse our patterns.
+NOTE: The 'Initial' Patterns below don't have a Patlet yet, which is essential for readers to quickly browse our patterns.
 This is why we keep these patterns at the bottom of the list.
 -->
 
@@ -87,6 +96,7 @@ This is why we keep these patterns at the bottom of the list.
 * [Share Your Code to Get More Done - Likely Contributors Variant](patterns/1-initial/share-your-code-to-get-more-done.md)
 * [Code Consumers](patterns/1-initial/code-consumers.md)
 * [Explaining InnerSource to Management by anchoring it to Agile / DevOps / Lean](patterns/1-initial/concept-anchor.md)
+* [Culture Change through Hiring](patterns/1-initial/cultural-change-through-hiring.md)
 
 #### Donuts (needing a solution)
 
@@ -104,16 +114,16 @@ Patterns are a way of describing a repeatable, proven solution to a problem with
 Patterns can provide a way for the InnerSource Commons participants to concisely share information, improving the practice of InnerSource. Patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
 * [What are patterns?](https://bit.ly/innersource_patterns_videos) - Watch a set of 2-5 min videos explaining InnerSource Patterns
-* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU?t=1479) - We held a webinar 2017-03-16 to live-discuss a donut pattern (go to [24:40](https://youtu.be/i-0IVhfRVFU?t=1479) for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](http://www.oreilly.com/pub/e/3884).
+* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU?t=1479) - We held a webinar 2017-03-16 to have a live discussion on a donut pattern (go to [24:40](https://youtu.be/i-0IVhfRVFU?t=1479) for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](http://www.oreilly.com/pub/e/3884).
 * [Pattern Template File](meta/pattern-template.md) - View a skeleton InnerSource pattern to get an idea on what goes into a new pattern!
 * [Introduction to InnerSource Patterns (2016 Fall Summit)](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) - *Tim Yao and Padma Sudarsan* (PDF). Detailed pattern background and examples -- Get a detailed understanding of why and how to interact with our patterns. Also see the [Introduction to InnerSource Patterns (2017 Fall Summit)](https://drive.google.com/open?id=0B7_9iQb93uBQWmYwMFpyaGh4OFU) *Tim Yao and Bob Hanmer* (PDF).
 * A scientific look at how to write patterns: [A pattern language for pattern writing](http://hillside.net/index.php/a-pattern-language-for-pattern-writing), Meszaros and Doble
 
 ## How can you use InnerSource Patterns?
 
-Patterns must be used in a thoughtful manner. They cannot be blindly applied. In most cases, you will need to adapt the given solution to your own situation; but the information given in the pattern, defining the context (immovable constraints) and forces (constraints that can be changed and balanced against each other), should help you do this. Note that you will also need to determine if there are additional constraints (company context and company forces) that apply to your particular company/organization that must be added to the pattern (as a kind of filter). These additional constraints may require additional solution steps to be applied.
+Patterns must be used in a thoughtful manner. They cannot be blindly applied. In most cases, you will need to adapt the given solution to your own situation. However, the information found in the pattern, and defining the context (immovable constraints) and forces (constraints that can be changed and balanced against each other), will help you adapt. In addition, you need to determine if there are further constraints (company context and company forces) that apply to your company/organization that must be added to the pattern. These additional constraints may require additional solution steps to be applied.
 
-The pattern form is useful for describing proven patterns but it can also be used for *brainstorming solutions* where patterns are not yet established, since the form gives a structured way for thinking about a problem. You could also create a *donut pattern* (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
+The pattern form is useful for describing proven patterns but it can also be used for *brainstorming solutions* where patterns have not yet been established, since the form provides a structured way of thinking about a problem. You could also create a *donut pattern* (filling in the problem, context, forces and resulting context fields but leaving the solution blank) as a way of asking the InnerSource Commons community for help (to find a proven solution or to brainstorm things to try).
 
 ## How to Contribute?
 

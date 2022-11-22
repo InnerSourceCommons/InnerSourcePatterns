@@ -12,6 +12,10 @@
 
 ##### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 
+#### InnerSource principles are not intuitive for everybody
+
+##### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)
+
 ### Project Setup
 
 #### Hard to assess a project quickly
@@ -26,7 +30,7 @@
 
 ##### [Issue Tracker Use Cases](https://patterns.innersourcecommons.org/p/issue-tracker)
 
-## Adoption
+## Adopt
 
 ### Valuation Challenges
 
@@ -113,3 +117,7 @@
 #### Not aware of InnerSource best practices
 
 ##### [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)
+
+#### Lack of open source knowledge
+
+##### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)

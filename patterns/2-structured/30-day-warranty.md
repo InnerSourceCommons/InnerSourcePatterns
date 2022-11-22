@@ -18,10 +18,10 @@ A team develops a component which is used throughout an organization.  This team
 ## Forces
 
 - There is distrust of contributions due to a past history of cheating: teams submitted half finished contributions and subsequently filed requests for fixes that make it ready for use in production.
-- If code is contributed from outside the team, the team has the natural suspicion that the other team does not know how to write code that would meet the teams expectations.
+- If code is contributed from outside the team, the team has the natural suspicion that the other team does not know how to write code that would meet the receiving team's expectations.
 - Each team looks first to help its own leaders achieve their own goals. This direction of loyalty can complicate resolution of this problem.
 - There is a natural aversion to taking responsibility for code not written by oneself.
-- Contributed needs to be heavily rewritten before being accepted into the codebase.
+- Contributed code needs to be heavily rewritten before being accepted into the codebase.
 - There is the fear of the contributors not being available for support with fixing bugs after the time on contribution.
 - Teams fear contributed code will lead to high(er) maintenance costs but do not know how to control for that.
 - Receiving teams may fear that teaching others how to contribute code will expose technical debt in their system and that visibility may be damaging.
@@ -36,7 +36,7 @@ Note that the warranty period could be 45, 60, or 100 days too. The duration may
 
 In addition it helps to provide clear [contribution guidelines](./project-setup/base-documentation.md), spelling out the expectations of the receiving team and the contributing team.
 
-<img alt="30 Day Warranty" src="/assets/img/thirtydaywarranty.jpg" width="70%">
+![30 Day Warranty](../../assets/img/thirtydaywarranty.jpg)
 
 ## Resulting Context
 
@@ -46,7 +46,9 @@ In addition it helps to provide clear [contribution guidelines](./project-setup/
 
 ## Known Instances
 
-This was tried and proven successful at PayPal.
+- This was tried and proven successful at PayPal.
+- GitHub internally uses this pattern with a modified warranty timeline of 6 weeks.
+- Microsoft recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
 
 ## Authors
 

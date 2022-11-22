@@ -9,6 +9,9 @@ The topics below cover information about how we define, operate, and upkeep this
 * [FAQ](./FAQ.md) - Frequently asked questions about InnerSource Patterns
 * [Trusted Committers](../TRUSTED-COMMITTERS.md) - Who these people are, what elevated rights they get, and how you can become one
 * [Markdown Info](./markdown-info.md) - Markdown is the ascii text format our patterns are written in; this document briefly defines how we use it
+* [Style Guide](./pattern-style-guide.md) - Recommended conventions to use when writing patterns
+* [Glossary](./glossary.md) - Defines essential terms that are commonly used when writing new patterns.
+* [Board Reports](./boardreports) - The Patterns Working Group submits a report to the Board of the InnerSource Commons Foundation on a quarterly basis. This folder contains all reports that the Patterns Working Group has created.
 
 ## Unfinished documentation
 

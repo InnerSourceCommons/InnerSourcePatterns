@@ -10,6 +10,8 @@ For further information about the concept, also see the [Trusted Committer Patte
 
 ## Current Trusted Committers
 
+* [@yuhattor](https://github.com/yuhattor) (added 2022-07-21)
+* [@robtuley](https://github.com/robtuley) (added 2022-02-15)
 * [@spier](https://github.com/spier) (added 2020-12-11)
 * [@lenucksi](https://github.com/lenucksi) (added 2020-04-24)
 * [@NewMexicoKid](https://github.com/NewMexicoKid) (added 2017-03-02)
@@ -30,25 +32,29 @@ The alumni in the Hall of Fame can of course always start contributing again in 
 
 We work based on trust: Our goal is to add most people who contributed a sizeable change - quick and early.
 
-We follow this process (adapted from [here](https://tech.europace.de/voting-in-new-trusted-committers/)):
+We follow this process:
 
-1. Any trusted committer (TC) can step forward and nominate a new TC in the private Slack channel #innersource-patterns-tcs. The TC should provide the following information:
+1. Any trusted committer (TC) can nominate a new TC in the private Slack channel `#innersource-patterns-tcs`. The TC should provide the following information:
    * Name of the candidate
    * Reason for candidate
    * Github handle of the candidate
    * Slack handle of the candidate
-1. Every TC can raise concerns or second the nomination in the #innersource-patterns-tcs channel.
-1. If none of the existing TCs disagrees with the nomination within 72h, [lazy consensus](https://tech.europace.de/lazy-consensus-vs-explicit-voting/) is reached: The nomination is accepted.
-1. The TC who nominated the candidate informs her/him in private about the nomination and its acceptance. The candidate can decide on whether to accept or reject the offer.
-1. If the candidate accepts the offer, the TC who nominated the candidate, makes sure:
-   * New TC is added to this file (`TRUSTED-COMMITTERS.md`)
-   * New TC is added to `.github/CODEOWNERS`, so that they get notified about new PRs automatically
-   * New TC receives write access to this repository
-   * New TC is added to the #innersource-patterns-tcs channel
-   * New TC is praised in the [#innersource-patterns](https://app.slack.com/client/T04PXKRM0/C2EFRTS6A) channel.
+2. Every TC can raise concerns or second the nomination in the #innersource-patterns-tcs channel.
+3. If none of the existing TCs disagrees with the nomination within 72h, [lazy consensus](https://tech.europace.de/lazy-consensus-vs-explicit-voting/) is reached: The nomination is accepted.
+4. The TC who nominated the candidate informs her/him in private about the nomination and its acceptance. The candidate can decide on whether to accept or reject the offer.
+5. If the candidate accepts the offer, the TC who nominated the candidate, makes sure:
+   1. New TC receives write access to this repository (this needs to happen first, so that step 5.iii works)
+   2. New TC is added to this file (`TRUSTED-COMMITTERS.md`)
+   3. New TC is added to `.github/CODEOWNERS`, so that they get notified about new PRs automatically
+   4. New TC is added to the `#innersource-patterns-tcs` channel
+   5. New TC is praised in the [#innersource-patterns](https://app.slack.com/client/T04PXKRM0/C2EFRTS6A) channel.
 
 ## Admins
 
 A handful of individuals are currently the technical GitHub Admins for this repository. This includes most members of the InnerSource Commons' #tech-infra team and members of the [InnerSource Commons GitHub Organization](https://github.com/innersourcecommons).
 
 However, please channel working group-specific requests through the trusted committers.
+
+## References
+
+Our trusted committer process was inspired by [this](https://tech.europace.de/voting-in-new-trusted-committers/).

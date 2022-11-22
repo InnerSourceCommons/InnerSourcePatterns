@@ -37,7 +37,7 @@ Like with any process, this must be continually improved upon. There may need to
 
 ## Sketch
 
-**TBD**
+![RFC process used at Uber's BaseUI project (open source example)](../../assets/img/rfc-process-uber-baseui.png)
 
 ## Solutions
 
@@ -95,8 +95,9 @@ Also for decision making outside of pure software design decisions, transparent 
 
 - **BBC iPlayer & Sounds** - As presented at the ISC Fall Summit 2020 [Using Internal RFCs to Enhance Collaboration][bbc].
 - **Europace** - As described in Open Organization: [Setting cross-team standards and best practices in the open][europace].
-- **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs][uber].
+- **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via RFCs: Writing Things Down][uber].
 - **Google Design Docs** - As described in this blog post by Malte Ubl [Design Docs at Google][google]
+- **DAZN** (10/2021) - One way that DAZN makes technical decisions is via RFCs. RFCs are used for decisions that apply to engineering-wide processes only! The RFCs live in a GitHub repository, and technical standards are then gradually adopted within their tools and by their engineers. An RFC can be raised by any engineer, and voted on by all engineers. If upvotes exceed downvotes, the RFC is adopted. It’s worth noting, that the RFC voting process hasn’t yet been “stress-tested” by any contentious decisions. - As described in this blog post by Lou Bichard: [Building A DX Team: Lessons Learned][dazn]
 
 ## Status
 
@@ -121,3 +122,4 @@ Structured
 [open-decision-framework]: https://www.redhat.com/en/about/press-releases/red-hat-releases-open-decision-framework-spur-transparent-and-inclusive-leadership
 [bbc]: https://www.youtube.com/watch?v=U6zlghE0HcE
 [google]: https://www.industrialempathy.com/posts/design-docs-at-google/
+[dazn]: https://medium.com/dazn-tech/building-a-dx-team-lessons-learned-4a66446088bc

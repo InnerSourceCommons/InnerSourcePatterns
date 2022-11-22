@@ -4,11 +4,11 @@ Modular Code
 
 ## Patlet
 
-TBD
+The lack of modularization in the software architecture prevents reuseability, and with that the ability to reap the benefits of InnerSource. By helping the teams to understand the benefits of modularization, and making time to work towards that goal, more InnerSource collaboration can happen and the software architecture overall can be improved.
 
 ## Problem
 
-Development does not want to spend the extra resources needed to develop modular components. As a result, shared components are not reused.  
+Engineering does not want to spend the extra resources needed to develop modular components. This applies to managers and developers alike. As a result, fewer components end up being reused, leading to duplication of work.
 
 ## Context
 
@@ -39,7 +39,7 @@ Development does not want to spend the extra resources needed to develop modular
 * Provide incentives to teams to invest in modular code. Modular code is far more reusable. This could work well for large teams when working on modularized projects; team members can focus on their smaller assigned tasks.
     - Developers could get an opportunity to increase their influence in the organization.
     - Modular code makes the pathway to open source smoother.
-    - Modular code facilitates division of labour (as required for work in larger teams, or as an Open Source project)
+    - Modular code facilitates division of labour (as required for work in larger teams, or as an open source project)
     - Modular projects enable team members to focus on their own smaller assigned tasks.
     - Modular code makes Agile implementation easier.
     - Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.

@@ -8,6 +8,7 @@ on:
     paths:
       - ".github/workflows/generate-mindmap.yml"
       - "pattern-categorization/innersource-program-mind-map.md"
+      - "pattern-categorization/package.json"
 
 defaults:
   run:
@@ -17,11 +18,11 @@ jobs:
   generate-mindmap:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Use Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-        node-version: 12.x
+        node-version: 16
         cache: 'npm'
         cache-dependency-path: pattern-categorization/package-lock.json
     - name: Install Node.js dependencies

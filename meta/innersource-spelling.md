@@ -2,7 +2,7 @@
 
 We recommend the spelling **InnerSource**.
 
-We encourage you to use the word as a proper noun (like “We use InnerSource in that repo”) wherever possible. We discourage the use of verb forms of the word (like “We’re inner-sourcing that repo”).
+We encourage you to use the word as a proper noun (like “We use InnerSource in that repo.”) wherever possible. We discourage the use of verb forms of the word (like “We’re InnerSourcing that repo”).
 
 ## Full story - Why we care about the spelling
 
@@ -30,14 +30,15 @@ We recommend not to turn the term into a verb, but rather using it as a noun or 
 
 Recommended use:
 
-“We use InnerSource in that repo”
-or
-“We use InnerSource methods in that repo”
+> “We use InnerSource in that repo.”<br/>
+“We use InnerSource methods in that repo.”<br/>
+“We follow InnerSource development methods in that repo.”<br/>
+“We published the repository as InnerSource.”
 
 Not so good:
 
-“We’re InnerSourcing that repo”
+> “We’re InnerSourcing that repo.”
 
 [opengl_1200]: https://web.archive.org/web/20180411080939/http://archive.oreilly.com/pub/a/oreilly/ask_tim/2000/opengl_1200.html
-[foreword_AdoptingInnerSource]: https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf
+[foreword_AdoptingInnerSource]: https://innersourcecommons.org/documents/books/AdoptingInnerSource.pdf
 [no-open-source-trademark]: https://opensource.org/pressreleases/certified-open-source.php
