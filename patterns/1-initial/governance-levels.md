@@ -14,11 +14,27 @@ Several teams are using InnerSource practices. However the degree to which they 
 
 The result is confusion and frustration when teams collaborate as the expectation of what InnerSource means in practice is different in each team. This confusion also affects strategy planning and decisions on future InnerSource intent as the term is too vague which leads to long discussions and time lost on clarifications.
 
-## Story
+## Stories
 
-For two projects InnerSource best practices have been adopted. Project A has a shared ownership model with [Trusted Committers](../2-structured/trusted-committer.md) from multiple teams. Project B is fully owned by one team with contributions from multiple teams. New users of either project are regularly confused about the level of influence they can gain in the respective project. This leads to long discussions, escalations and time lost on clarifications.
+### Example of Confusion
+
+For two projects InnerSource best practices have been adopted. Project A has a shared ownership model with [Trusted Committers](../2-structured/trusted-committer.md) from multiple teams. Project B is fully owned by one team with contributions from other teams. New users of either project are regularly confused about the level of influence they can gain in the respective project. This leads to long discussions, escalations and time lost on clarifications.
+
+### Example of Delayed Decision
 
 Project C is currently closed source and used only by team 1. Team 2 want to use project C and the leadership of the two teams negotiates options which include InnerSource practices. Agreement takes longer than expected because the "InnerSource" term did not describe a target state that could be agreed without ambiguity, and the teams had to document bespoke options for their leadership to consider before a decision could be made.
+
+### Examples from Open Source
+
+Like "InnerSource", Open Source is also a broad term. 
+
+There are projects on GitHub, published purely for the pleasure of the author with no intention of long term maintenance, not intention to fix bugs submitted by users. This would be the equivalent of "Bug Reports and Issues Welcome" - you can report the bug, but its on the owner to find the time to fix it.
+
+There are projects where the roadmap is created in-house, hidden from public view. Where commit rights come and go with the contract of the employees of one company (e.g. MongoDB, Elastic, Tensorflow). Users are welcome to submit patches, they will even be mentored through. All development happens in the open, but control and strategy is never shared. This would be the equivalent of stage "Contributions Welcome".
+
+There are projects that share write access, but do not share the power to decide who gets write access next. This applies to everyone who is only a committer at an Apache project. There are projects that are fully shared across multiple independent organisations (e.g. k8s, any Apache project) - those would be "Shared Ownership".
+
+The same levels make sense inside of organisations.
 
 ## Context
 
