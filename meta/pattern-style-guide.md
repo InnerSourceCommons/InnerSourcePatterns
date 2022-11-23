@@ -19,7 +19,8 @@ Some suggestions on how to achieve this:
 And some technicalities:
 
 - We use titlecase for Patterns e.g. "Document your Guiding Principles"
-- The file name of your markdown file should be the same as the title, and only use lowercase and hyphens (e.g. `document-your-guiding-principles.md`) - note that the file name will also show up as the last part of the URL when your pattern is published to our online book
+- The name of your markdown file should be the same as the title, and only use lowercase and hyphens (e.g. `document-your-guiding-principles.md`).
+- This file name will also show up as the last part of the URL when your pattern is published to our online book e.g. `https://patterns.innersourcecommons.org/p/document-your-guiding-principles`.
 
 ## InnerSource Spelling
 
