@@ -26,7 +26,7 @@ Project C is currently closed source and used only by team 1. Team 2 want to use
 
 ### Examples from Open Source
 
-Like "InnerSource", Open Source is also a broad term. 
+Like "InnerSource", Open Source is also a broad term.
 
 There are projects on GitHub, published purely for the pleasure of the author with no intention of long term maintenance, not intention to fix bugs submitted by users. This would be the equivalent of "Bug Reports and Issues Welcome" - you can report the bug, but its on the owner to find the time to fix it.
 
