@@ -14,11 +14,7 @@ The team managing the shared code library needs a way to allow InnerSource contr
 
 ## Story
 
-See [Culture, Behaviors, and InnerSource. A three-part blog series. 3 of 3](https://www.linkedin.com/pulse/culture-behaviors-innersource-three-part-blog-series-3-gil-yehuda/) for the conceptual inspiration for this pattern. 
-
-### Open Source Inspiration
-
-When describing the pattern, I was inspired by things like the Apache Software Foundation's incubator, as well as Linux Foundation's sandbox/incubator processes used in CNCF, CDF, and other open source foundations. Those help entire projects get into the foundation. In my open source work, I've found those to be very successful. They helped me raise the bar on projects that wanted to get more visibility by getting them into an incubator. Many of those projects graduated and are very successful today, in open source. This pattern here is like a smaller fractal of that pattern -- to help components get into an open source library.
+See [Culture, Behaviors, and InnerSource. A three-part blog series. 3 of 3](https://www.linkedin.com/pulse/culture-behaviors-innersource-three-part-blog-series-3-gil-yehuda/) for the conceptual inspiration for this pattern.
 
 ## Context
 
@@ -59,6 +55,8 @@ Moreover, by defining an incubation process, the shared library team clarifies t
 ## Rationale
 
 Incubation pipelines allow participants to view code as potential and improving assets. Too often, people see code as being good enough or not good enough. In reality, code can become better. Formally putting code in an incubation status sends the message that the code is not yet good enough but is getting there.
+
+This pattern was inspired by things like the Apache Software Foundation's incubator, as well as Linux Foundation's sandbox/incubator processes used in CNCF, CDF, and other open source foundations. Those help entire projects get into the foundation. They help raise the bar on projects that wanted to get more visibility by getting them into an incubator. Many of those projects graduated and are very successful today, in open source. This pattern here is like a smaller fractal of that pattern -- to help components get into an open source library.
 
 ## Known Instances
 
