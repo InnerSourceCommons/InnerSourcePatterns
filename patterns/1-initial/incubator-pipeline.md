@@ -40,21 +40,21 @@ None yet
 
 ## Solutions
 
-The shared library team provides an incubator pipeline for their (internal engineering) customers to use. Customer teams who need to augment the shared library can do so by petitioning to enter the incubator pipeline. Additionally, central teams can request contributions into the incubation pipeline. The shared library team maintains an acceptance criterion to get into the pipeline. This may include some demonstration that at least one other team would find the contribution useful, that the contribution could (perhaps with some additional engineering work) be enhanced to conform to the shared library standard. **In other words, no code should enter the incubation pipeline that we know cannot exit it.**
+The shared library team provides an incubator pipeline for their (internal engineering) customers to use. Customer teams who need to augment the shared library can do so by petitioning to enter the incubator pipeline. Additionally, central teams can request contributions into the incubator pipeline. The shared library team maintains an acceptance criterion to get into the pipeline. This may include some demonstration that at least one other team would find the contribution useful, that the contribution could (perhaps with some additional engineering work) be enhanced to conform to the shared library standard. **In other words, no code should enter the incubator pipeline that we know cannot exit it.**
 
-Once in the incubation pipeline, the shared library team and contributing teams can select a support agreement that enables teams to use the incubating code, but to understand that its support is less than a top-level component in the library. It is a second-class citizen that is on the way to becoming a first-class citizen.
+Once in the incubator pipeline, the shared library team and contributing teams can select a support agreement that enables teams to use the incubating code, but to understand that its support is less than a top-level component in the library. It is a second-class citizen that is on the way to becoming a first-class citizen.
 
-Exiting the incubation pipeline means the code is a first-class citizen and member of the shared library. In this case, the shared library team may not have created the code, and may not have enhanced the code. But they will be willing to support the code as if they created it because it meets the criteria they set for their own code. It is possible that a component fails to graduate the pipeline. In that case, the component would be retired out of the incubation pipeline.
+Exiting the incubator pipeline means the code is a first-class citizen and member of the shared library. In this case, the shared library team may not have created the code, and may not have enhanced the code. But they will be willing to support the code as if they created it because it meets the criteria they set for their own code. It is possible that a component fails to graduate the pipeline. In that case, the component would be retired out of the incubator pipeline.
 
 ## Resulting Context
 
 When a customer-team needs code that the shared library team does not have, they have a path to success. They can create and propose a solution to be included in the incubator pipeline. (They might find an open source solution too.) This does not pose a threat to the shared library team. In fact, it allows the shared library team to grow their library at a faster rate while maintaining quality control by staging the contribution.
 
-Moreover, by defining an incubation process, the shared library team clarifies their criteria for inclusion into the library. This helps new members of their team too. In fact, this allows any engineer who can meet the criteria to become a "member of their team" even if only for a component or two.
+Moreover, by defining an incubator process, the shared library team clarifies their criteria for inclusion into the library. This helps new members of their team too. In fact, this allows any engineer who can meet the criteria to become a "member of their team" even if only for a component or two.
 
 ## Rationale
 
-Incubation pipelines allow participants to view code as potential and improving assets. Too often, people see code as being good enough or not good enough. In reality, code can become better. Formally putting code in an incubation status sends the message that the code is not yet good enough but is getting there.
+Incubator pipelines allow participants to view code as potential and improving assets. Too often, people see code as being good enough or not good enough. In reality, code can become better. Formally putting code in an incubator status sends the message that the code is not yet good enough but is getting there.
 
 This pattern was inspired by things like the Apache Software Foundation's incubator, as well as Linux Foundation's sandbox/incubator processes used in CNCF, CDF, and other open source foundations. Those help entire projects get into the foundation. They help raise the bar on projects that wanted to get more visibility by getting them into an incubator. Many of those projects graduated and are very successful today, in open source. This pattern here is like a smaller fractal of that pattern -- to help components get into an open source library.
 
