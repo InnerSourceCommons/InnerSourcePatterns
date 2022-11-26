@@ -14,7 +14,7 @@ The team managing the shared code library needs a way to allow InnerSource contr
 
 ## Story
 
-See [Culture, Behaviors, and InnerSource. A three-part blog series. 3 of 3](https://www.linkedin.com/pulse/culture-behaviors-innersource-three-part-blog-series-3-gil-yehuda/) for the conceptual inspiration for this pattern. 
+See [Culture, Behaviors, and InnerSource. A three-part blog series. 3 of 3](https://www.linkedin.com/pulse/culture-behaviors-innersource-three-part-blog-series-3-gil-yehuda/) for the conceptual inspiration for this pattern.
 
 _Note: This may be replaced with a direct story from the dev team who implemented this pattern. Watch this space._
 
@@ -86,4 +86,3 @@ Initial
 * John Sibo
 * Jennifer Skov
 * John Yopp
-
