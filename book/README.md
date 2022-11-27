@@ -28,13 +28,15 @@ The `/book` folder contains generator scripts and extra content required to crea
 - `/book/en/explore-patterns.md` - Shows the mind map of all patterns. Allows readers to link to the mind map directly.
 - patterns content:
   - The English patterns are in `/patterns`
-  - The translated patterns (e.g. for Japanese) are in `/translation/japanese`
+  - The translated patterns (e.g. for Japanese) are in `/translation/ja`
 
 The book is generated in multiple languages.
 
 The descriptions above are for the English book. You find the English content in `/book/en`.
 
-For other languages (e.g. for Japanese), the content is mirrored and translated to folders like  `/book/jp`.
+For other languages (e.g. for Japanese), the content is mirrored and translated to folders like  `/book/ja`.
+
+For more on the translation process see [these translation instructions](../translation/README.md).
 
 For more on the translation process see [these translation instructions](../translation/README.md).
 
@@ -45,7 +47,7 @@ The book is generated in multiple languages.
 Depending on which **branch** a change is merged into, a different book is generated:
 
 * changes merged to `main` branch: triggers the book generation for the **English** book.
-* changes merged to `book-jp` branch: triggers the book generation for the **Japanese** book.
+* changes merged to `book-ja` branch: triggers the book generation for the **Japanese** book.
 
 ## Objectives of the book
 

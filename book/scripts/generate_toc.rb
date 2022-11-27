@@ -72,10 +72,10 @@ BOOK_LANGUAGE = ARGV[0]
 puts "Generating ToC for language: #{BOOK_LANGUAGE}"
 
 ## Files to be used for the different languages
-if (BOOK_LANGUAGE == "jp")
-  TOC_TEMPLATE_FILE = "../jp/toc_template.md"
-  TOC_FILE = "../jp/toc.md"
-  PATTERNS = Dir["../../translation/japanese/patterns/*.md"]
+if (BOOK_LANGUAGE == "ja")
+  TOC_TEMPLATE_FILE = "../ja/toc_template.md"
+  TOC_FILE = "../ja/toc.md"
+  PATTERNS = Dir["../../translation/ja/patterns/*.md"]
 else 
   TOC_TEMPLATE_FILE = "../en/toc_template.md"
   TOC_FILE = "../en/toc.md"  

@@ -1,0 +1,46 @@
+# This link check is run on all PRs but just for the files that were changed/added in the PR itself.
+# Otherwise we had it too often that PR authors would see a failing link check that had nothing to do with their PR.
+
+name: Link Check PR
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v32
+
+      - name: Filter markdown files only
+        run: |
+          md_files=`find ${{ steps.changed-files.outputs.all_changed_files }} -maxdepth 0 -name "*.md" | tr '\n' ' '`
+          echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
+
+      - name: Restore lychee cache
+        uses: actions/cache@v3
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - if: ${{ env.MARKDOWN_FILES != '' }}
+        name: Link Checker
+        uses: lycheeverse/lychee-action@v1.5.2
+        with:
+          args: --verbose --no-progress --exclude-mail --cache --max-cache-age 1d $MARKDOWN_FILES
+          fail: true
+          jobSummary: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

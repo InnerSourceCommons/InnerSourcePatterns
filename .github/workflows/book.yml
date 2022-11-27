@@ -23,7 +23,7 @@ jobs:
 
     - name: Determine book language
       run: |
-        [[ "$GITHUB_REF_NAME" == "book-jp" ]] && book_language="jp" || book_language="en"
+        [[ "$GITHUB_REF_NAME" =~ ^book-ja.*$ ]] && book_language="ja" || book_language="en"
         echo "BOOK_LANGUAGE=$book_language" >> $GITHUB_ENV
 
     - name: Generate ToC
