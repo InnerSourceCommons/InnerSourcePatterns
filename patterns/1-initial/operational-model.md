@@ -28,7 +28,6 @@ As InnerSource brings a more transparent and collaborative way of working, all e
 
 As the software production chain involves roles with different goals, the InnerSource way of working has to be taken up by everyone involved in the software production chain. For example, business related people as Product Owners may be reluctant to move into a more collaborative and transparent way of producing software. And this reluctance may occur with other roles as well.
 
-
 ## Sketch (optional)
 
 The following is an example of a tentative pattern solution related to this. Existing patterns are now part of this discussion for the software development life cycle.
