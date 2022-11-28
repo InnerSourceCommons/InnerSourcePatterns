@@ -1,6 +1,6 @@
 ## Title
 
-InnerSource Operational Model
+An InnerSource Lifecycle Model
 
 ## Patlet
 
@@ -10,21 +10,24 @@ InnerSource is key across all of the software production chain. This includes fr
 
 InnerSource is typically focused on letting developers work together. There are several patterns focused on specific roles as the Trusted Committer or from a more organization level as the Review Committee. However, it is still not clear how all of this works together.
 
-This pattern aims at providing an overview to management and Chief level of how the software life cycle may be in a more InnerSource way with the goal of having a place where InnerSource principles may apply to the several people involved: from Product Owners to Contributors.
+This pattern aims at providing an overview to management and Chief level of how the software life cycle may be managed in a more InnerSource way with the goal of having a place where InnerSource principles may apply to the several people involved: from Product Owners to Contributors.
 
-This may be seen as well as the glue for other patterns willing to make sense from a development lifecycle perspective.
+This may help provide a helpful framework for connecting patterns to help practitioners make better sense of InnerSource from a development lifecycle perspective.
 
 ## Story (optional)
 
 ## Context
 
-The content here is often tied to the applicability of the pattern for other readers: "Do I have this same particular situation?"
+Visitors to InnerSource patterns may often wonder about the applicability of a given pattern to their own situation.
 
 The problem initially exists at the management level where the several business units are defining their needs, tuning the product, and suggesting next steps. A general overview of this process and key moments in the chain where they can influence (e.g., POs discussions) are part of this.
 
+As InnerSource brings a more transparent and collaborative way of working, all existing processes at any level should move into that direction. How to create paths for collaboration across silos and how this software lifecycle looks like.
+
 ## Forces
 
-As the software production chain involves roles with different goals, this way of working has to be part of everyone involved. Business related people as Product Owners may be reluctant to move into a more collaborative and transparent way of producing software. And this may happen with others as well.
+As the software production chain involves roles with different goals, the InnerSource way of working has to be taken up by everyone involved in the software production chain. For example, business related people as Product Owners may be reluctant to move into a more collaborative and transparent way of producing software. And this reluctance may occur with other roles as well.
+
 
 ## Sketch (optional)
 
