@@ -15,19 +15,20 @@ As the number of new feature contributions to a mature InnerSource repository ra
 There is a strategic project that aims to collect the best innovations within a domain space to one common stack, promoting reuse of a common infrastructure and ensuring a standard user experience. Through InnerSource, various teams in the organization that work within the domain space get an opportunity to collaborate and contribute their innovations to the common codebase, which also offers more opportunities for their work to get adopted. However, a large number of contributions in parallel from several developers is making maintenance of the codebase difficult. This is adding a huge burden on the core team of maintainers who assume ownership over the code quality standards and enable the community through various forms of communication.
 
 Maintainers are burnt out due to:
+
 - Everlasting backlog of pull requests that need to be reviewed.
-- Job Dissatisfaction : Majority of time spent in reviewing code or providing support makes it difficult for maintainers to contribute code themselves or have any time for innovation, making them unhappy. 
+- Job Dissatisfaction: Majority of time spent in reviewing code or providing support makes it difficult for maintainers to contribute code themselves or have any time for innovation, making them unhappy.
 - Less feeling of accomplishment: Not all pain results in gain. A lot of time is spent in hardening every contribution for production use through review cycles and giving feedback. Whereas, only a fraction of the new capabilities added solve immediate use cases and gain adoption by users.
 - Time consuming releases: Adding more features to the codebase results in long runnning tests before every release of the project, slowing down the overall process.
 
-A lot of time and investment is going behind releasing a new feature idea to the community of users for exploration. 
+A lot of time and investment is going behind releasing a new feature idea to the community of users for exploration.
 
 ## Context
 
-- A strategic InnerSource codebase is scaling rapidly with new feature contributions from several employees. 
+- A strategic InnerSource codebase is scaling rapidly with new feature contributions from several employees.
 - Due to a lesser number of reviewers, there is a growing backlog of pull requests and new contributions. This is slowing down release of new feature ideas to community.
 - Quality of the codebase is no longer maintained and user experience is adversely impacted.
-- Maintainers of the codebase are burdened and cannot keep up with the influx of contributions and increased community support. 
+- Maintainers of the codebase are burdened and cannot keep up with the influx of contributions and increased community support.
 - There are more features being contributed than gaining adoption by users. Not all ideas are serving internal use cases, but addition of features is adding to the maintenance overhead.
 - Organization is investing heavily in hardening of new feature contributions to retain quality standards before the ideas are explored by the community.
 - The pattern applies in either scenario:
