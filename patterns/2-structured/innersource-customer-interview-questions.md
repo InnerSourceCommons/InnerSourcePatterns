@@ -57,7 +57,7 @@ After reaching out to team leaders and finding out what their needs are, showing
 
 Working through these questions helps build trust and establish relationships with users. It helps contextualize InnerSource and how it applies to their individual teams. Building these relationships helps evaluate users and their teams for InnerSource readiness. Discussing these questions helps frame the benefits of InnerSource in a way that users can understand without making it a sales pitch.
 
-By using this pattern you will gain information that will help you build a plan and  move to your next step: [Pattern: Good First Project](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/good-first-project.md)
+By using this pattern you will gain information that will help you build a plan and  move to your next step: [Pattern: Good First Project](../1-initial/good-first-project.md)
 
 ## Known Instances
 
