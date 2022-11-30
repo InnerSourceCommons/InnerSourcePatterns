@@ -36,7 +36,6 @@
 
 此外，提供明确的[贡献指南](./project-setup/base-documentation.md)，阐明接收团队和贡献团队的期望，也是有帮助的。
 
-
 ![30 Day Warranty](../../../assets/img/thirtydaywarranty.jpg)
 
 ## 结果 Resulting Context
@@ -72,4 +71,5 @@
 - 确保相互由依赖关系团队的合作，让他们成为一个社区，由一个以上的、以择优任命的"[trusted-committer](./trusted-committer.md)"（TCs）负责。
 
 ## 翻译
+
 @WillemJiang 姜宁
