@@ -3,7 +3,7 @@
 InnerSource Customer Interview Questions
 
 
-## **Patlet**
+## Patlet
 
 An organization has decided to create an InnerSource program and need a place to start. Using a customer interview will help evaluate InnerSource pain points across the organization.
 
