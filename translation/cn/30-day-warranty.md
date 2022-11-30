@@ -34,7 +34,7 @@
 
 请注意，保证期也可以是45、60或100天。持续时间可以根据项目的限制、项目的软件生命周期、对客户的承诺和其他因素而变化。
 
-此外，提供明确的[贡献指南](./project-setup/b-documentation.md)，阐明接收团队和贡献团队的期望，也是有帮助的。
+此外，提供明确的[贡献指南](./project-setup/base-documentation.md)，阐明接收团队和贡献团队的期望，也是有帮助的。
 
 
 ![30 Day Warranty](../../../assets/img/thirtydaywarranty.jpg)
