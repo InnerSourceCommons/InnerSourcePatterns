@@ -7,7 +7,6 @@ InnerSource Customer Interview Questions
 
 An organization has decided to create an InnerSource program and need a place to start. Using a customer interview will help evaluate InnerSource pain points across the organization.
 
-
 ## **Problem**
 
 InnerSource can address a number of areas that impact collaboration. The problem is determining what organizational pain points to address first. People want every pain point that InnerSource can address, solved fast. Evaluating team needs can be ambiguous if the conversation is not structured around an InnerSource framework. 
