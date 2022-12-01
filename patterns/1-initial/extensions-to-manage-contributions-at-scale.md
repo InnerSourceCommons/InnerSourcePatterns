@@ -19,7 +19,7 @@ Maintainers are burnt out due to:
 - Everlasting backlog of pull requests that need to be reviewed.
 - Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
 - Perceived lack of accomplishment: Only a fraction of the new capabilities added gain adoption by users.
-- Time consuming releases: Adding more features to the codebase results in long runnning tests.
+- Time consuming releases: More features in the codebase results in long running tests.
 
 A lot of time and investment is going behind releasing a new feature idea to the community of users for exploration.
 
