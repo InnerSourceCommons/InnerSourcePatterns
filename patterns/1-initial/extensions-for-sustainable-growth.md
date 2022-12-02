@@ -1,6 +1,6 @@
 ## Title
 
-Extensions to Manage Contributions at Scale
+Extensions for Sustainable Growth
 
 ## Patlet
 
@@ -10,14 +10,30 @@ An InnerSource project is receiving too many contributions, making maintenance d
 
 As the number of new feature contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
 
+## Story
+
+There is a strategic project that aims to collect the best innovations within a domain space to one common stack, promoting reuse of a common infrastructure and ensuring a standard user experience. Through InnerSource, various teams in the organization that work within the domain space get an opportunity to collaborate and contribute their innovations to the common codebase, which also offers more opportunities for their work to get adopted. However, a large number of contributions in parallel from several developers is making maintenance of the codebase difficult. This is adding a huge burden on the core team of maintainers who assume ownership over the code quality standards and enable the community through various forms of communication.
+
+Maintainers are burnt out due to:
+
+- Everlasting backlog of pull requests that need to be reviewed.
+- Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
+- Perceived lack of accomplishment: Only a fraction of the new capabilities added gain adoption by users.
+- Time consuming releases: More features in the codebase results in long running tests.
+- Increase in maintenance activities: More bugs raised as new capabilities are added.
+
+A lot of time and investment is going behind releasing a new feature idea to the community of users for exploration.
+
 ## Context
 
-- More employees are contributing to a strategic InnerSource codebase, which is scaling rapidly with new feature contributions. This is adding a huge code review burden on a smaller group of maintainers, resulting in a backlog of feature contributions as well as slowing down release of new capabilities.
-- With the high volume of new capabilities being added, the organization is investing large amounts of time on code review cycles to harden the capabilities before release.  Not all of these capabilities gain adoption as they may not serve an internal use case.
-- Adding an excessive number of capabilities and code to the strategic repository is making it difficult to maintain.
-- As the maintainers cannot keep up with feedback to the contributors and code reviews anymore it creates a growing backlog of new features and ideas for the project which has scaled.
+- A strategic InnerSource codebase is scaling rapidly with new feature contributions from several employees.
+- The ratio of reviewers to contributions results in a growing backlog of pull requests. This is slowing down release of new feature ideas to community.
+- Quality of the codebase is no longer maintained and user experience is adversely impacted.
+- Maintainers of the codebase are burdened and cannot keep up with the influx of contributions and increased community support.
+- There are more features being contributed than gaining adoption by users. Not all ideas are serving internal use cases, but addition of features is adding to the maintenance overhead.
+- Organization is investing heavily in hardening of new feature contributions to retain quality standards before the ideas are explored by the community.
 - The pattern applies in either scenario:
-   - Maintainers find themselves rejecting new feature ideas to narrow down the scope of the products. This is hampering innovation in the community and restricting further expansion.
+   - Maintainers find themselves rejecting new feature ideas to narrow down the scope of the project. This is hampering innovation in the community and restricting further expansion.
    - To reduce backlog, new features are getting released without thorough documentation, hardening, or testing, creating a poor user experience. This is also bloating the size of the codebase, adding a huge dependency graph and making it difficult to maintain.
 
 ## Forces
@@ -28,7 +44,7 @@ As the number of new feature contributions to a mature InnerSource repository ra
 
 ## Solutions
 
-Allowing extensions/plugins to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
+Allowing [extensions/plugins](https://en.wikipedia.org/wiki/Extensibility) to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
 
 Extensions provide a filter for new capabilities that may eventually move into the core of the project. Extensions also act as an incubation and community hardening environment, allowing for much of that hardening to happen organically rather than in a costly review process.
 
