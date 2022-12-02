@@ -1,6 +1,6 @@
 ## Title
 
-Extensions to Manage Contributions at Scale
+Extensions for Sustainable Growth
 
 ## Patlet
 
@@ -20,6 +20,7 @@ Maintainers are burnt out due to:
 - Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
 - Perceived lack of accomplishment: Only a fraction of the new capabilities added gain adoption by users.
 - Time consuming releases: More features in the codebase results in long running tests.
+- Increase in maintenance activities: More bugs raised as new capabilities are added.
 
 A lot of time and investment is going behind releasing a new feature idea to the community of users for exploration.
 
@@ -43,7 +44,7 @@ A lot of time and investment is going behind releasing a new feature idea to the
 
 ## Solutions
 
-Allowing extensions/plugins to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
+Allowing [extensions/plugins](https://en.wikipedia.org/wiki/Extensibility) to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
 
 Extensions provide a filter for new capabilities that may eventually move into the core of the project. Extensions also act as an incubation and community hardening environment, allowing for much of that hardening to happen organically rather than in a costly review process.
 
