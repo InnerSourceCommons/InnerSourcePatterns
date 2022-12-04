@@ -12,11 +12,9 @@ Data is necessary to understand how the initiative is evolving, and if this is e
 
 ## Forces
 
-Against:
-Reluctancy of the teams to be measured.
+Against: Reluctancy of the teams to be measured.
 
-In favor:
-Upper management needs metrics to understand how the initiative is working
+In favor: Upper management needs metrics to understand how the initiative is working
 
 ## Solutions
 
