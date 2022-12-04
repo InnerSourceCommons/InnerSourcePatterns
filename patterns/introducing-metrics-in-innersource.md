@@ -31,6 +31,7 @@ Santander Bank
 ## Status 
 
 Structured
+
 Published internally in Santander Bank; drafted via pull-request in December of 2022
 
 ## Authors
@@ -42,3 +43,4 @@ Addie Girouard
 ## Acknowledgements 
 
 Igor Zubiaurre
+
