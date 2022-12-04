@@ -12,8 +12,9 @@ Data is necessary to understand how the initiative is evolving, and if this is e
 
 ## Forces
 
-Against: 
+Against:
 Reluctancy of the teams to be measured.
+
 In favor:
 Upper management needs metrics to understand how the initiative is working
 
@@ -22,6 +23,7 @@ Upper management needs metrics to understand how the initiative is working
 Work on a common metrics strategy. List the metrics at the level of teams (avoid individual tracking) and bring everyone into this conversation. Everyone should understand why a given metric is important and how this is measured across teams with specific documentation.
 
 ## Resulting Context
+
 There is a generic metrics strategy in place. Teams understand this is needed and they add their own point of view to this.
 
 ## Known Instances 
