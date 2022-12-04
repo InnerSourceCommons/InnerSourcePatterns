@@ -24,7 +24,7 @@ Work on a common metrics strategy. List the metrics at the level of teams (avoid
 
 There is a generic metrics strategy in place. Teams understand this is needed and they add their own point of view to this.
 
-## Known Instances 
+## Known Instances  
 
 Santander Bank
 
