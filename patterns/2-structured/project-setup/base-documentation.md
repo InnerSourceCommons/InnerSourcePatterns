@@ -109,6 +109,7 @@ started right away: [README-template.md](templates/README-template.md) and
 
 * Europace AG - See blog post [InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
 * Paypal Inc.
+* Mercado Libre - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBNUTING, CODING_GUIDELINES, etc).
 
 ## Authors
 
