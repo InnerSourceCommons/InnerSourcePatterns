@@ -8,7 +8,7 @@ An InnerSource project is receiving too many contributions, making maintenance d
 
 ## Problem
 
-As the number of contributions to a mature InnerSource repository rapidly increase, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
+As the number of contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
 
 ## Story
 
@@ -18,7 +18,7 @@ Project maintainers are burnt out due to:
 
 - Everlasting backlog of pull requests that need to be reviewed.
 - Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
-- Perceived lack of accomplishment: There are more features being contributed than gaining adoption by users.
+- Perceived lack of accomplishment: Not all contributed features have adequate user demand and result in consequent adoption.
 - Time consuming releases: More features in the codebase results in long running tests.
 - Increase in maintenance activities: More bugs raised as new capabilities are added.
 
