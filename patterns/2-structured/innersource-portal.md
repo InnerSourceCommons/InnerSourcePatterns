@@ -77,6 +77,8 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 
 * **Airbus** deployed the [SAP portal](https://github.com/SAP/project-portal-for-innersource) with minor modifications to match Airbus graphical identity. In addition, the [Python crawler](https://github.com/zkoppert/innersource-crawler) was patched to work with GitHub Enterprise instances.
 
+* **Mercado Libre** use an instance of the [SAP portal](https://github.com/SAP/project-portal-for-innersource) to discover existing InnerSource projects within the organization.
+
 ## References
 
 * The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource [Gig Marketplace](./gig-marketplace.md) pattern in this context
