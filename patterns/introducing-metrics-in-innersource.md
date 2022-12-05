@@ -28,7 +28,7 @@ There is a generic metrics strategy in place. Teams understand this is needed an
 
 Santander Bank
 
-## Status 
+## Status
 
 Structured
 
