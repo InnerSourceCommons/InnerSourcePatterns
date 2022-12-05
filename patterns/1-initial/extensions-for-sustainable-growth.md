@@ -8,26 +8,26 @@ An InnerSource project is receiving too many contributions, making maintenance d
 
 ## Problem
 
-As the number of new feature contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
+As the number of contributions to a mature InnerSource repository rapidly increase, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
 
 ## Story
 
-There is a strategic project that aims to collect the best innovations within a domain space to one common stack, promoting reuse of a common infrastructure and ensuring a standard user experience. Through InnerSource, various teams in the organization that work within the domain space get an opportunity to collaborate and contribute their innovations to the common codebase, which also offers more opportunities for their work to get adopted. However, a large number of contributions in parallel from several developers is making maintenance of the codebase difficult. This is adding a huge burden on the core team of maintainers who assume ownership over the code quality standards and enable the community through various forms of communication.
+There is a strategic project that aims to collect the best innovations within a domain space to one common stack, allowing reuse of a common infrastructure and providing a standard user experience. Through InnerSource, various teams in the organization that work within the domain space get an opportunity to collaborate and contribute their innovations to the common codebase. However, a large number of contributions in parallel from several developers is making maintenance of the codebase difficult. This is adding a huge burden on the project maintainers who assume ownership over the code quality standards and enable the community through various forms of communication.
 
-Maintainers are burnt out due to:
+Project maintainers are burnt out due to:
 
 - Everlasting backlog of pull requests that need to be reviewed.
 - Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
-- Perceived lack of accomplishment: Only a fraction of the new capabilities added gain adoption by users.
+- Perceived lack of accomplishment: There are more features being contributed than gaining adoption by users.
 - Time consuming releases: More features in the codebase results in long running tests.
 - Increase in maintenance activities: More bugs raised as new capabilities are added.
 
-A lot of time and investment is going behind releasing a new feature idea to the community of users for exploration.
+A lot of time and investment is spent on maturing every new feature contribution, before potential users even get an opportunity to explore the features for their use cases.
 
 ## Context
 
 - A strategic InnerSource codebase is scaling rapidly with new feature contributions from several employees.
-- The ratio of reviewers to contributions results in a growing backlog of pull requests. This is slowing down release of new feature ideas to community.
+- The ratio of reviewers to contributions results in a growing backlog of pull requests. This is slowing down release of new features to the community.
 - Quality of the codebase is no longer maintained and user experience is adversely impacted.
 - Maintainers of the codebase are burdened and cannot keep up with the influx of contributions and increased community support.
 - There are more features being contributed than gaining adoption by users. Not all ideas are serving internal use cases, but addition of features is adding to the maintenance overhead.
@@ -70,9 +70,11 @@ In order for the extensions model to be successful, there are few architectural 
    - Create criteria for when an extension can be ported to the primary repository, such as adoption of the extension by internal products and demand for the feature.
    - Porting process of the extension to the primary repository will follow more stringent code review guidelines as set by library maintainers.
 
+![Project extensions](../../assets/img/extensions-for-sustainable-growth.png)
+
 Following the principles outlined above ensures that:
 
-- The addition of the extensions pattern with easy to use templates enables developers to add new features to a project's ecosystem without requiring them to write large amounts of boilerplate code.
+- The addition of the extensions pattern with easy to use templates enables developers to add new features to a project's ecosystem without requiring them to write large amounts of [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) code.
 - Extensions are discoverable in a repeatable manner to all users of the primary project; just because code doesn't live in the main repository yet does not mean it is not valuable.
 - The maintainer burden is reduced until an extension has demonstrated that it fills an important gap in the primary project.
 - The core project's common code (e.g. base classes and utility functions) can be a starting point for new development that extends project's domain. This avoids the need to port innovative work after-the-fact, thus reducing the overall burden of developing novel features for the project.
@@ -80,7 +82,7 @@ Following the principles outlined above ensures that:
 
 ## Resulting Context
 
-- The project is able to scale with the addition of new features, without adding a maintenance overhead on the primary project repository.
+- The project is able to scale with the addition of new features, without adding maintenance overhead on the primary project repository.
 - Faster release of new features and experimental features for the community to explore, encouraging innovation and experimentation.
 - Reduced the costly code review and feature hardening process until the feature is able to prove its utility. This has cost savings benefits for the organization.
 - A post problem that can be introduced - what happens if an extension can not complete the full lifecycle?
