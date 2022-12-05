@@ -4,7 +4,8 @@ InnerSource Customer Interview Questions
 
 ## Patlet
 
-An organization has decided to create an InnerSource program and need a place to start. Using a customer interview will help evaluate InnerSource pain points across the organization.
+An organization has decided to create an InnerSource program but are unsure which issues they should address first.
+Using a customer interview will help evaluate pain points across the organization, to prioritize the areas where InnerSource will have the biggest positive impact.
 
 ## Problem
 
