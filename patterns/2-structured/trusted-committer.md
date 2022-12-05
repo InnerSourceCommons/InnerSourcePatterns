@@ -131,7 +131,6 @@ This has been tried and proven successful at:
 
 ![image](https://user-images.githubusercontent.com/58035419/205659124-9fc7796d-3ee5-49b9-8c8c-1c7d24fa0488.png)
 
-
 ## Status
 
 - Structured
