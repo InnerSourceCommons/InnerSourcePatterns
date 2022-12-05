@@ -129,7 +129,7 @@ This has been tried and proven successful at:
 - PayPal
 - Mercado Libre - adds a section in the `CONTRIBUTING.md` file to inform who the Trusted Committers are.
 
-![image](https://user-images.githubusercontent.com/58035419/205659124-9fc7796d-3ee5-49b9-8c8c-1c7d24fa0488.png)
+![Trusted Committer section](../../assets/img/mercadolibre-trusted-committers.png "Trusted Committer section")
 
 ## Status
 
