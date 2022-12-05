@@ -10,7 +10,8 @@ Using a customer interview will help evaluate pain points across the organizatio
 ## Problem
 
 InnerSource can address a number of areas that impact collaboration. The problem is:
-* Determining what organizational pain points to address first. People want every pain point that InnerSource can address, solved fast. 
+
+* Determining what organizational pain points to address first. People want every pain point that InnerSource can address, solved fast.
 * Evaluating team needs can be ambiguous if the conversation is not structured around an InnerSource framework.
 
 ## Context
