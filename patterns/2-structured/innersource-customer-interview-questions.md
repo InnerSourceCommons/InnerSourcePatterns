@@ -63,7 +63,7 @@ By using this pattern you will gain information that will help you build a plan 
 
 Where has this been seen before? Helps to reinforce that this is a REAL pattern and that you match the context.
 
-* Indeed
+* Indeed - see reference [InnerSource Sleuth: Identifying Your Pain Points - Katie Schueths (Indeed) - IS Summit 2022](https://www.youtube.com/watch?v=Et7-DzdY2yw)
 
 ## Status
 
