@@ -45,4 +45,5 @@ Published internally in Santander Bank; drafted via pull-request in December of 
 
 ## Acknowledgements
 
-Igor Zubiaurre
+* Igor Zubiaurre
+
