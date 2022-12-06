@@ -4,7 +4,7 @@ Time Constraints Hamper InnerSource Progress
 
 ## Patlet
 
-TBD
+Project management believes timeline pressure and commitments on feature content does not allow for developers to spend the time needed to develop shareable code and provide support.
 
 ## Problem
 
