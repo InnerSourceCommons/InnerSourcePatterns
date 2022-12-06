@@ -3,6 +3,7 @@
 Unreachable Communication Channels
 
 ## Patlet
+
 Communications channels require explicit access requests that leave the organization silo-ed. A public portal was created to build transparency for InnerSource practice, process, and impact. 
 
 ## Problem
