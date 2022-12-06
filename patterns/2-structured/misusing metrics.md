@@ -34,8 +34,8 @@ Santander Bank
 
 ## Status
 
-Structured
-Published internally in Santander Bank; drafted via pull-request in December of 2022
+* Structured
+* Published internally in Santander Bank; drafted via pull-request in December of 2022
 
 ## Authors
 
