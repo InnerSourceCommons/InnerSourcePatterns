@@ -4,7 +4,7 @@ Unreachable Communication Channels
 
 ## Patlet
 
-Communications channels require explicit access requests that leave the organization silo-ed. A public portal was created to build transparency for InnerSource practice, process, and impact. 
+Communications channels require explicit access requests that leave the organization silo-ed. A public portal was created to build transparency for InnerSource practice, process, and impact.
 
 ## Problem
 
@@ -31,11 +31,11 @@ The solution was to provide a central point where participants can find and team
 
 Anyone in the InnerSource region (country, Europe, world level) has full transparency on the existing projects and they have read access by default. This process has to be transparent and as easy as possible to lower the barriers to contribution. The desired situation is that once you are within the firewall of the organization, you have full access to any project.
 
-## Known Instances 
+## Known Instances
 
 Santander Bank
 
-## Status 
+## Status
 
 Structured
 Published internally in Santander Bank; drafted via pull-request in December of 2022
@@ -46,6 +46,6 @@ Alberto Pérez García-Plaza
 Daniel Izquierdo Cortázar
 Addie Girouard
 
-## Acknowledgements 
+## Acknowledgements
 
 Igor Zubiaurre
