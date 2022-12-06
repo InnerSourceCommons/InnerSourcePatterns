@@ -103,7 +103,6 @@ This is why we keep these patterns at the bottom of the list.
 #### Donuts (needing a solution)
 
 * [How to Defeat the Hierarchical Constraints](patterns/1-initial/defeat-hierarchical-constraints.md)
-* [Project Management Time Pressures](patterns/1-initial/overcoming-project-management-time-pressures.md)
 * [Organizational Mindset Change](patterns/1-initial/organizational-mindset-change.md)
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
 * [Incentive mechanisms to foster voluntary contribution](patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md)
