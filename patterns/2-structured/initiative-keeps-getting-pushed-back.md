@@ -32,7 +32,7 @@ Step by step, InnerSource strategies and processes are added to the daily work o
 
 Santander Bank
 
-## Status 
+## Status
 
 Structured
 Published internally in Santander Bank; drafted via pull-request in December of 2022
