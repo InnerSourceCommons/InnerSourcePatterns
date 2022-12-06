@@ -10,11 +10,15 @@ Launching an InnerSource initiative may fail due to business pressures taking fi
 
 InnerSource initiative changes are perceived as a good and desirable thing, but to be applied in the future. As a consequence of tight deadlines this future never comes and teams, in the best case, ends up around the {Low Level Micro Management} pattern.
 
+## Context
+
+* ???
+
 ## Forces
 
-Business priorities take up all the development time 
-Teams lack the agency to enact desired initiatives
-Needing to do all at once prevents small progress to be made 
+* Business priorities take up all the development time
+* Teams lack the agency to enact desired initiatives
+* Needing to do all at once prevents small progress to be made
 
 ## Solutions
 
@@ -22,9 +26,9 @@ Work on each InnerSource area step by step. Do not try to fix everything at the 
 
 ## Resulting Context
 
-Step by step, InnerSource strategies and processes are added to the daily work of the projects. 
+Step by step, InnerSource strategies and processes are added to the daily work of the projects.
 
-## Known Instances 
+## Known Instances
 
 Santander Bank
 
@@ -39,6 +43,6 @@ Alberto Pérez García-Plaza
 Daniel Izquierdo Cortázar
 Addie Girouard
 
-## Acknowledgements 
+## Acknowledgements
 
 Igor Zubiaurre
