@@ -4,7 +4,7 @@ Misusing Metrics
 
 ## Patlet
 
-Metrics can be misused causing friction across teams. In these situations, create a sense of ownership within teams on how to use the data, avoiding comparisons, and begin measuring progress with deltas. 
+Metrics can be misused causing friction across teams. In these situations, create a sense of ownership within teams on how to use the data, avoiding comparisons, and begin measuring progress with deltas.
 
 ## Problem
 
@@ -16,9 +16,9 @@ There is often a competitive spirit within development teams. In these situation
 
 ## Forces
 
-Individuals or teams may not understand the purpose of the metrics being used
-Individuals or teams may feel threatened by how the metrics are being used
-Leadership doesn’t understand how to utilize the metrics in a healthy way 
+* Individuals or teams may not understand the purpose of the metrics being used
+* Individuals or teams may feel threatened by how the metrics are being used
+* Leadership doesn’t understand how to utilize the metrics in a healthy way
 
 ## Solutions
 
@@ -28,11 +28,11 @@ Get a team internal agreement about the metrics that make sense in that specific
 
 Everyone being tracked and ongoing tracking are aligned into the existing and needed metrics. These metrics are publicly documented and anyone can learn from them. An existing set of metrics are part of the usual work of the teams with the goal of improving efficiency.
 
-## Known Instances 
+## Known Instances
 
 Santander Bank
 
-## Status 
+## Status
 
 Structured
 Published internally in Santander Bank; drafted via pull-request in December of 2022
@@ -43,6 +43,6 @@ Alberto Pérez García-Plaza
 Daniel Izquierdo Cortázar
 Addie Girouard
 
-## Acknowledgements 
+## Acknowledgements
 
 Igor Zubiaurre
