@@ -1,9 +1,10 @@
 ## Title
+
 Business Time Pressures
 
 ## Patlet
 
-Development releases can become pressurized by business causing needed steps to be dropped in favor of delivery. Continuous release cycle is upheld to ensure code quality and new requests are moved into next development phases. 
+Development releases can become pressurized by business causing needed steps to be dropped in favor of delivery. Continuous release cycle is upheld to ensure code quality and new requests are moved into next development phases.
 
 ## Problem
 
@@ -12,6 +13,10 @@ No proper code review in place. -> Middle Managers & Dev InnerSource Learning Pa
 No proper testing in place. Testing is done during delivery to PRE in some cases. Delivery is delayed because errors are detected late. -> Late Delivery pattern
 No time scheduled to tackle the previous two points. -> PO, Middle Managers & Dev InnerSource Learning Path
 PO jumps over scheduled things to add new features. -> PO InnerSource Learning Path.
+
+## Context
+
+* ???
 
 ## Forces
 
@@ -29,11 +34,11 @@ Allocate time for a proper code review process, based on a commonly established 
 
 New requirements are naturally moved into next development phases. Development teams are not forced to add late functionalities as there is a continuous release cycle.
 
-## Known Instances 
+## Known Instances
 
 Santander Bank
 
-## Status 
+## Status
 
 Structured
 Published internally in Santander Bank; drafted via pull-request in December of 2022
@@ -44,7 +49,7 @@ Alberto Pérez García-Plaza
 Daniel Izquierdo Cortázar
 Addie Girouard
 
-## Acknowledgements 
+## Acknowledgements
 
 Igor Zubiaurre
 
