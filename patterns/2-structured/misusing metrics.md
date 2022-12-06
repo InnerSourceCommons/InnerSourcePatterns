@@ -39,9 +39,9 @@ Published internally in Santander Bank; drafted via pull-request in December of 
 
 ## Authors
 
-Alberto Pérez García-Plaza
-Daniel Izquierdo Cortázar
-Addie Girouard
+* Alberto Pérez García-Plaza
+* Daniel Izquierdo Cortázar
+* Addie Girouard
 
 ## Acknowledgements
 
