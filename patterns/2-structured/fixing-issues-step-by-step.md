@@ -23,11 +23,11 @@ When planning new steps, set the way that step is successful if compared to othe
 
 Expectations are aligned and realistic in terms of the improvement path of the organization. A continuous improvement is required and understood.
 
-## Known Instances 
+## Known Instances
 
 Santander Bank
 
-## Status 
+## Status
 
 Structured
 Published internally in Santander Bank; drafted via pull-request in December of 2022
@@ -38,6 +38,6 @@ Alberto Pérez García-Plaza
 Daniel Izquierdo Cortázar
 Addie Girouard
 
-## Acknowledgements 
+## Acknowledgements
 
 Igor Zubiaurre
