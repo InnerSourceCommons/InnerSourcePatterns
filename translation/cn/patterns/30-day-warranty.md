@@ -26,7 +26,7 @@
 - 团队担心贡献的代码会导致高额的维护成本，并担心如何控制这些维护成本。
 - 接收团队可能会担心，教别人如何贡献代码会暴露他们系统中的技术债务，并引发其他的伤害。
 - 接收团队可能不相信，无论他们提供何种程度的指导，都能得到可接受的代码。
-- Either team may not feel confident in measuring risks or certifying that they are mitigated in a contribution; the system itself is somewhat brittle (may not be ways to fully test and catch all problems). 大家对衡量风险或证明风险在贡献中得到缓解缺乏信心；系统本身的脆弱性（可能没有办法完全测试和捕捉所有问题）。
+- 大家对衡量风险或证明风险在贡献中得到缓解缺乏信心；系统本身的脆弱性（可能没有办法完全测试和捕捉所有问题）。
 
 ## 解决方案
 
@@ -38,11 +38,11 @@
 
 ![30 Day Warranty](../../../assets/img/thirtydaywarranty.jpg)
 
-## 结果 Resulting Context
+## 结果
 
 - 接收团队愿意接受贡献，并能分担初步改编/修复的工作量。
 - 增加透明度和公平性。
-- Keeps escalations from becoming too heavyweight. 使维护工作不至于变得过于沉重。
+- 使得维护工作不至于变得过于沉重。
 
 ## 已知实例
 
@@ -63,13 +63,13 @@
 
 ## 状态
 
-* Structured
-* Drafted at the 2017 Spring InnerSource Summit; reviewed 18 July 2017.
+* 结构化
+* 在2017年春季内源峰会上起草；2017年7月18日审查。
 
 ## 变体
 
 - 确保相互由依赖关系团队的合作，让他们成为一个社区，由一个以上的、以择优任命的"[trusted-committer](./trusted-committer.md)"（TCs）负责。
 
-## 翻译
+## 翻译校对
 
-[姜宁](https://github.com/willemjiang)
+* 翻译[姜宁](https://github.com/willemjiang)
