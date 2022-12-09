@@ -79,7 +79,7 @@ DB AG内部的第一批法律实体（公司）正在使用他们的内源许可
 
 ## 参考
 
-- FOSSBack 2020演讲。[Cornelius Schumacher - Blending Open Source and Corporate Values](https://youtu.be/hikC6U8X_Ec) - 请看27:30及以后的内容，了解有关内源 License的细节。
+- FOSSBack 2020演讲。[Cornelius Schumacher - Blending Open Source and Corporate Values](https://youtu.be/hikC6U8X_Ec) - 请看27:30及以后的内容，了解有关内源许可的细节。
 - [DB Inner Source License][db-inner-source-license]
 
 ## 词汇表
