@@ -1,74 +1,79 @@
-## Title
+## 标题
 
-Common Requirements
+共同的需求
 
 ## Patlet
 
-Common code in a shared repository isn't meeting the needs of all the project-teams that want to use it; this is solved through requirements alignment and refactoring.
+共享代码库中的通用代码不能满足所有想要使用它的项目团队的需要；这一点可以通过需求调整和重构来解决。
 
-## Problem
+## 问题
 
-The common code in the shared repository isn't meeting the needs of all the projects that want to use it.  
+共享代码库中的通用代码并不能满足所有想要使用它的项目的需求。  
 
-## Context
+## 上下文
 
-* Many projects are trying to use common code.  There is a shared repository that all the projects access.
-* Someone (or some project) wrote the code in the first place and contributed it to the repository.
-* The common code is a small percentage of the overall deliverable from any of the projects.
-* Each project has its own delivery schedule, set of deliverables and customers.
-* This pattern applies in either of these situations:
-    * there is a **Strong Code Owner** i.e. all changes to the shared repository have to be approved by the repo owner
-    * there is **weak code ownership** i.e. no one really owns the code
-    * there is **no Benevolent Sponsor** i.e. no organization or executive is providing resources to organize the common code in an InnerSource fashion
+* 许多项目都在尝试使用共同的代码。 有一个所有项目都能访问的共享代码仓库。
+* 有人（或某些项目）首先写了代码，并把它提交到了共享代码仓库。
+* 通用代码在任何一个项目的总体交付物中只占很小的比例。
+* 每个项目都有自己的交付时间表，一组交付物和客户。
+* 这种模式适用于以下任何一种情况：
+    * 有一个**强的代码所有者**，即所有对共享库的修改都必须得到共享库所有者的批准。
+    *有**弱的代码所有权**，即没有人真正拥有这些代码。
+    **没有仁慈的赞助者**，即没有组织或行政人员提供资源，以InnerSource的方式组织公共代码。
 
-## Forces
+## 约束
 
-The project that made the code available has one set of needs. Its needs are similar to what some of the receiving organization wants, but not quite the same.
-Requirements on code should be derivable from real customer needs.  
+项目的开发团队为了满足一组需求实现了代码。这些需求与一些代码的使用组织的需求相似，但不完全相同。
+对代码的要求应该是可以从真实的客户需求中推导出来的。
 
-The needs of different customers are generally quite similar; however they might be expressed differently or weighted differently between customers. An example might be how some customers want some result presented in one way while others want it presented in the reverse order. It is simple to do the translation between them, but requires additional coding for one of the cases and as a result the module that computes the result can't be reused by both customers.
+不同客户的需求通常是非常相似的；然而，他们可能表达的方式不同，或者客户之间表达的轻重缓急不同。一个例子是，有些客户希望某些结果以一种方式呈现，而其他客户则希望以相反的顺序呈现。在他们之间进行转换很简单，但需要对其中一种情况进行额外的编码，结果是计算结果的模块不能被两个客户重复使用。
 
-Many customers want the supplier to help them know what they need. The company has many “Systems Engineers” writing requirements for the products.  These requirements are supposed to be a distillation of customer needs to guide development of the product.
-Reusing code is an important goal to save the company time and money.  
+许多客户希望供应商能帮助他们了解自己的需求。公司有很多 "系统工程师 "为产品写需求。 这些需求应该是对客户需求的提炼，以指导产品的开发。
+重用代码是一个重要的目标，就是节省公司的时间和金钱。
 
-## Solution
+## 解决方案
 
-There are two aspects to solving this problem which should be done in parallel:
+解决这个问题有两个方面，应该同时进行。
 
-1. Align the requirements of the projects so that the code that meets the requirements for one project also meets the needs for the other projects.
-2. Refactor the code into smaller pieces for which the many using projects can agree upon requirements.
+1. 统一项目的要求，使满足一个项目要求的代码也满足其他项目的需要。
+2. 将代码重构为更小的模块，使许多使用项目能在需求上达成一致。
 
-Additionally, take advantage of customers expecting the supplier to help elucidate requirements. Bring about the alignment of requirements during the customer negotiations and influence the customers requirements rather than changing the component.
+此外，利用客户期望供应商帮助阐明需求的优势。在与客户的谈判中实现需求的一致性，影响客户的需求，而不是改变组件。
 
-In the example presented above, the supplier helps both customers realize that they want the same thing, and it will save everyone effort (and money) if they agree to accept the result in the same format.
+在上面的例子中，供应商帮助两个客户认识到他们想要同样的东西，如果他们同意接受相同格式的结果，这将节省每个人的努力（和金钱）。
 
-![Common Requirements](../../../assets/img/CommonReqtsv2.jpg)
+![共同需求](../../../assets/img/CommonReqtsv2.jpg)
 
-## Resulting Context
+## 结果上下文
 
-This might require negotiating requirements changes with the customer.  The changes might also require involvement by the sales teams and product managers to get alignment on the requirements.  The customer might need incentives, such as discounts, to agree to the changes.
+这可能需要与客户协商需求的变化。 这些变化可能还需要销售团队和产品经理的参与，以获得需求上的一致性。 客户可能需要激励措施，如折扣，以同意这些变化。
 
-A related challenge (and possible new pattern) is a circular story-writing exercise reported at one company employing InnerSource. In short:
+一个相关的挑战（和可能的新模式）是在一家采用InnerSource的公司报告的循环故事写作练习。简而言之：
 
-* The developers write a story to solve a problem in one way.  
-* The program managers rewrite the story to better express their needs - keeping the essence the same. By the time it returns to developers though they don't recognize it as what they wanted to do in the first place and so balk at implementing it.  
-* The solution to this pattern is to have more seats around the planning table so that story modifications are understood across the project, not just in the developer or program manager camps.
+* 开发人员独立写一个故事来解决一个问题。
+* 项目经理重写故事以更好地表达他们的需求--保持本质不变。当故事回到开发人员手中时，他们并不能认识到这是他们最初想做的事情，因此在实施时逡巡不前。
+* 解决这种模式的方法是在计划表上有更多的参与者，这样故事的修改就会在整个项目中得到理解，而不仅仅是在开发人员或项目经理的阵营中的人。
 
-## Known Instances
+## 已知实例
 
-* Large telecom provider
+* 大型电信提供商
 
-## Status
+## 状态
 
-* Structured
+* 结构化
 
-## Author
+## 作者
 
 Robert Hanmer
 
-## Acknowledgements
+## 致谢
 
 * Manrique Lopez
 * Daniel Izquierdo
 * Tim Yao
 * Sebastian Spier
+
+## 翻译校对
+
+* 翻译[姜宁](https://github.com/willemjiang)
+* 校对[龙文选](https://github.com/hncslwx)
