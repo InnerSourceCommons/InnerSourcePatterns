@@ -1,89 +1,69 @@
-## Title
+## 标题
 
-Communication Tooling
+交流工具
 
 ## Patlet
 
-An InnerSource project is being used outside the original development team but
-users are having trouble getting help and getting in touch with the project
-team. The idea is to set up and document standard communication tooling that
-allows for discussions to become visible, archived and searchable.
+一个InnerSource项目正在原始开发团队之外使用，但用户在寻求帮助和与项目团队联系时遇到困难。
+我们的想法是建立和记录标准的通信工具，使讨论变得可见、存档和可搜索。
 
-## Context
+## 上下文
 
-A team depends on another team's component. It would like to make contributions
-to that component. Even when it happens in writing, communication happens in a
-1-on-1 fashion.
+一个团队依赖于另一个团队的组件。它希望对该组件做出贡献。
+即使是书面形式的沟通，也是1对1的方式进行的。
 
-## Problem
+## 问题
 
-A team is open to receiving contributions from downstream users of their
-component. Coordination and communication happens in an ad-hoc fashion though
-leading to incoherent information being shared, delays in answers received,
-contributors pinging multiple host team members before receiving a definitive
-answer.
+一个团队愿意接受来来自于下游的他们的组件用户的贡献。
+由于协调和沟通是以一种点对点的方式进行的，导致了信息共享的不连贯性，收到答复的延迟，贡献者于是在收到明确的答复前会呼叫多个东道主团队成员。
 
-## Forces
+## 约束
 
-- The host team is interested in receiving contributions and willing to mentor contributors.
-- Teams have a strong verbal communication culture and are inexperienced with setting up project specific asynchronous communication channels.
-- Communication channels may be aligned with specific groups that should be reached but not by communication purpose.
+- 东道主团队有兴趣接受贡献，并愿意指导贡献者。
+- 团队有很强的口头沟通文化，在建立项目特定的异步沟通渠道方面缺乏经验。
+- 沟通渠道可能与应该接触到的特定群体使用习惯相一致，但不是以沟通目标进行选择的。
 
-## Solution
+## 解决方案
 
-The host team needs to be clear on the benefit of providing company-public,
-archived, searchable, linkable communication channels that are free to subscribe
-to by anyone in the company.
+东道主团队需要明确提供公司公开的、存档的、可搜索的、可链接的沟通渠道的好处，公司内部的任何人都可以免费订阅信息。
 
-The goal when streamlining communication channels for InnerSource projects
-should be to align communication around topics, not around certain sets of
-people:
+在精简 InnerSource 项目的沟通渠道时，目标应该是围绕主题进行沟通，而不是围绕某些人。
 
-- The project should have its own issue tracker where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow.
-- The project should have one or more discussion channels that come with less rigid a structure. Typically, this will be mailing lists, online forums or even archived chat channels. Usually it is enough to start with just one channel for the project, if traffic increases too much it's helpful to split discussions about project usage from discussions about project development.
-- In addition, the project should have one private channel where sensitive communication can happen between [Trusted Committers](../trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
+- 项目应该有自己的问题跟踪器，东道主团队成员采用公开透明的方式进行结构化的沟通、决策和进度跟踪需求，同时也鼓励下游的用户和贡献者遵循同样的原则进行沟通。
+- 该项目应该有一个或多个结构不太严格的讨论渠道。通常情况下，这将是邮件列表、在线论坛甚至是存档的聊天频道。通常情况下，项目开始时只有一个频道就足够了，如果流量增加太多，把关于项目使用的讨论和关于项目开发的讨论分开是有帮助的。
+- 此外，项目应该有一个私人频道，可以在[Trusted Committer](./trusted-committer.md)之间进行敏感的交流--例如，将更多的Trusted Committer加入到东道主团队中。这个渠道的使用应该非常谨慎，因为沟通默认为公开的，只有在非常罕见的情况下才会保持私密。
 
-While communication can happen outside of written channels, as much information
-as possible should be brought back to the asynchronous channels.
+虽然沟通可以发生在书面渠道之外，但尽可能多的信息应该被带回异步渠道。
 
-All communication channels should be documented in the project `README.md`. The
-host team members need to make an effort to direct questions that they receive
-personally back to official communication channels.
+所有的通信渠道都应该在项目的`README.md`中进行记录。东道主团队成员需要努力将他们个人收到的问题带回官方沟通渠道。
 
-## Resulting Context
+## 结果上下文
 
-Setting up and consistently using official asynchronous communication channels
-helps create a base level of passive documentation that can be referenced again
-when similar questions come up again.
+建立并持续使用官方的异步交流渠道，有助于建立一个基础的被动文档，当类似的问题再次出现时可以再次参考。
 
-With communication happening in the open others can easily follow project
-progress and get active contributing. Others lurking and reading lowers the
-barrier to get involved raising the likelihood of receiving contributions.
+随着交流的公开化，其他人可以很容易地关注项目的进展，并积极做出贡献。其他人的聆听和阅读降低了参与的门槛，提高了获得贡献的可能性。
 
-With questions being answered in public more people can add their perspective
-leading to a complete picture - this includes not only host team members,
-but also users of the project.
+随着问题被公开回答，更多的人可以加入他们的观点，从而形成一个完整的画面--这不仅包括东道主团队成员，也包括项目的用户。
 
-Keeping communication in asynchronous channels allows for participants on
-different schedules - either due to different time zones or due to different
-routines, meeting schedules, team routines - to meaningfully contribute to
-the project.
+在异步渠道中保持交流，可以让不同时间段的参与者--无论是由于不同时区，还是由于不同的作息时间、会议时间、团队作息时间--对项目做出有意义的贡献。
 
-Answering questions in those channels means that not only other team members
-can listen in and provide additional information, it also means that other
-users with the same question see (or later find) the previous answer leading
-to a lower need to repeat explanations.
+在这些渠道中回答问题，不仅意味着其他团队成员可以倾听并提供额外的信息，也意味着有相同问题的其他用户可以看到（或后来找到）之前的答案，从而降低重复解释的需要。
 
-## Known Instances
+## 已知实例
 
 * Europace AG
 * Paypal Inc.
 
-## Authors
+## 作者
 
 Isabel Drost-Fromm
 
-## Status
+## 状态
 
-* Structured
-* Drafted in December 2019.
+* 结构化
+* 于2019年12月起草。
+
+## 翻译校对
+
+* 翻译 [姜宁]: https://github.com/willemjiang
+* 校对[龙文选](https://github.com/hncslwx)
