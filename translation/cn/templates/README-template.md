@@ -1,76 +1,57 @@
-# Insert the name of your project here
+# 在这里填写项目的名称
 
-## Mission
+## 项目使命
 
-This should contain a brief (3-5 sentences) description of the mission of your
-project. The goal is to state what you are planning to work on and help external
-contributors understand roughly which types of features will likely be welcome
-for this project.
+这里应该包含一个关于你的项目使命的简短描述（3-5句话）。其目的是说明项目打算做什么，并帮助外部的贡献者大致了解项目的哪些类型的功能可能会受到欢迎。
 
-See also [mission statement chapter](https://producingoss.com/en/producingoss.html#mission-statement) in Producing Open Source Software.
+参见《生产开源软件》中的[使命宣言篇]（https://producingoss.com/en/producingoss.html#mission-statement）。
 
-## Getting Started
+## 快速入门
 
-This section should contain brief documentation written for first time users on
-how to get started using the project. Further more detailed documentation can be
-linked to from here.
+这一部分应该包含为第一次使用的用户编写的关于如何开始使用这个项目的简短文档。其它的详细信息文档可以通过链接的方式加入这个小节。
 
-## Further information
+## 更多信息
 
-This section can list any or all of the following:
+这一部分可以列出以下任何或全部内容。
 
-- A list of features, use cases that the software addresses.
-- Information on design principles that are used to resolve trade-offs
-- Links to further user level documentation
-- Answers to frequently asked questions (FAQ), preferably in a format that allows to link to specific questions and their answers for easier reference.
+- 软件所涉及的功能、用例的清单。
+- 用于解决权衡问题的设计原则的信息
+- 用户级文档的链接
+- 常见问题（FAQ）的答案，最好是可以链接到具体问题及其答案的格式，以方便参考。
 
-## Getting help
+## 获取帮助
 
-This section should contain a brief documentation on how to get help for the
-project as a user. This could be as simple as pointing users to the issue
-tracker if this is how your project would like to answer questions. It could
-also point to an archived and searchable chat channel, some archived searchable
-mailing list, some online user forum.
+这一部分应该包含一个简短的文档，让用户了解如何获得项目的帮助。
+文档可以很简单，如果你的项目想要回答问题的话，可以把用户指向问题追踪链接。
+它也可以指向一个存档和可搜索的聊天频道，或者存档的可搜索邮件列表，或者在线用户论坛。
 
-## Getting involved
+## 参与项目
 
-This section should include information on how to get in touch with the project:
-Typically this will contain links to archived, searchable and linkable
-communication channels.
+这一部分应该包括如何与该项目取得联系的信息。通常，这将包含存档的、可搜索的和可链接的沟通渠道的链接。
 
-## Who we are
+## 关于我们
 
-This is a good place to give credit to Trusted Committers of the project.
+这是一个给项目的 Trusted Committer 以荣誉的好地方。
 
-It's also a good place to include information on what being a Trusted Committer
-means for this project - although ideally all projects in an organisation use
-the same definition that is only linked to from here. The reason to keep the
-link here is for colleagues who have no or little experience with working in and
-contributing to InnerSource projects to have a direct link back to company wide
-information from the technological projects they need for their daily work.
+这里可以包括作为一个 Trusted Committer 人对这个项目意味着什么的信息--尽管理想情况下，
+一个组织中的所有项目都使用相同的定义，而这里提供的只是指向这个定义的链接。在这里保留链接的原因是为了让那些没有或很少
+在 InnerSource 项目中工作和贡献经验的同事能够直接从他们日常工作中需要的技术项目链接中获取到公司范围内的信息。
 
-## Contributing
+## 贡献指南
 
-This section should document (or link to documentation) on all things that a
-first time contributor needs to know to get started. Typically not all of the
-topics below will be covered. Focus on what differs in your project from
-standard setup and what previous contributors found hard to understand.
+这一部分应该记录（或链接到文档）所有第一次贡献者需要知道的事情，以便更好开展工作。通常情况下，文档中不会包含下面的所有主题。
+文档描述的重点是你的项目中与标准设置不同的地方，以及以前的贡献者认为难以理解的地方。
 
-- Finding the source code.
-- Finding a list of issues that your project needs help with - these can be both, technical and non-technical issues. Typically you will keep those in an issue tracker accessible to contributors.
-- Links to further documentation e.g. about the architecture of the project, general coding conventions, testing conventions...
-- For technical contributions: Making changes, building the project and testing your changes.
-- Submitting your changes back to the project.
+- 如何获取源代码。
+- 如何找到你的项目需要帮助的问题清单--这些问题既可以是技术性的，也可以是非技术性的。一般来说，你会把这些问题放在问题跟踪器中，供贡献者访问。
+- 链接到更多的文件，例如关于项目的结构、一般的编码风格、测试惯例......。
+- 对于技术贡献。进行代码修改，构建项目并测试你的修改。
+- 将你的修改提交给项目。
 
-Ideally you also include information on what the preferred process for changes
-looks like for the project: Should contributors first open an issue and submit a
-proposal, or are they welcome to submit changes right away? What is important to
-you when reviewing contributions?
+理想情况下，你还应该包括关于项目的首选开发流程的信息。贡献者应该先打开一个issue并提交修改提案，还是欢迎他们立即提交修改？
+在检视贡献时，什么对你来说是重要的？
 
-In addition you should outline any design values you want to follow in the
-project. Making those explicit often helps resolve trade-offs more quickly and
-more easily. In addition it helps making changes to otherwise implicit
-assumptions transparent.
+此外，你应该概述你希望在项目中遵循的任何设计原则。将这些原则明确化往往有助于更快、更容易地解决权衡问题解决方案。
+此外，它还有助于使原本隐含的假设变得透明。
 
-Over time you will notice that this section grows substantially. In that case
-think about moving the information to separate files, e.g. a `CONTRIBUTING.md` and `TESTING.md`.
+随着时间的推移，你会注意到这一节会有很大的增长。在这种情况下，可以考虑将这些信息转移到不同的文件中，例如，`CONTRIBUTING.md'和`TESTING.md'。
