@@ -1,91 +1,96 @@
-## Title
+## 标题
 
-InnerSource License
+内源 许可证
 
 ## Patlet
 
-Two legal entities that belong to the same organization want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting.
+属于同一组织的两个法律实体希望彼此共享软件源代码，但他们担心在法律责任或跨公司会计方面的影响。
 
-An **InnerSource License** provides a reusable legal framework for the sharing of source code within the organization. This opens up new collaboration options, and makes the rights and obligations of the involved legal entities explicit.
+“**内源许可证**”为组织内的源代码共享提供了一个可复用的法律框架。它提供了新的合作选择，并明确了参与的法律实体的权力和义务。
 
-## Problem
+## 问题
 
-When two or more legal entities within an organization want to share code with each other, they need an agreement about the terms and often a legal contract. Creating such agreements on a per project basis takes effort and creates a barrier for sharing. i.e. a team within a legal entity might decide not to share their source code with another legal entity in the organization because it seems complicated.
+当一个组织中的两个或更多的法律实体想要互相分享代码时，他们需要一个关于条款的协议，通常是一个法律合同。在每个项目的基础上创建此类协议需要付出努力并会对共享创造障碍。例如，一个法律实体内的团队可能决定不与组织内的另一个法律实体分享他们的源代码，因为这看起来很复杂。
 
-Barriers for sharing can lead to silos and duplication of effort in rebuilding similar solutions in multiple parts of the organization.
+共享的障碍会导致在组织内多个实体重建类似的解决方案时出现独自开发和重复劳动的现象。
 
-At the time of sharing the source code, it can not be reliably predicted what the value of sharing will be. If the activity of sharing requires significant effort (i.e. negotiating terms for the usage), the legal entities are less likely to do it, as they are concerned about the return on investment.
+在共享源代码时，可能无法可靠地预测共享的价值。如果共享活动需要付出巨大的努力（例如，对源代码使用的条款进行持续谈判），则法律实体不太可能这样做，因为他们关心投资的回报。
 
-## Context
+## 背景
 
-- A large organization with many legal entities (subsidiaries) that want to share code. When the organization gets larger, the value of this pattern increases.
-- As per definition, the legal entities have their own legal rights and obligations.
-- Multiple of these legal entities are developing software, and are using services of the other legal entities. They have a motivation to contribute to each other’s source code.
-- A sufficient complexity of the organization and its organizational structure
+- 大型组织内有许多想要共享代码的法律实体（子公司）。当组织变大时，共享模式的价值会增加。
+- 按照定义，法律实体有自己的法律权利和义务。
+- 这些法律实体中有多个实体正在开发软件，并正在使用其他法律实体的服务。他们有动力为彼此的源代码做出贡献。
+- 该组织及其组织结构足够复杂
+  
+## 约束
 
-## Forces
+- 撰写正式协议所需的**努力程度**，特别是如果他们需要考虑技术、法律和商业角度。
+- 一个大型组织（由许多法律实体组成）有许多**内部规定**。任何新签订的协议都必须遵守这些规定，例如安全、隐私、采购流程等。规定的数量会导致难以评估两个法律实体之间共享软件是否符合这些规定，尤其是在没有标准程序的情况下。
+- 如果组织中的任何一个法律实体有一个**商业模式**依赖专有代码和组织内许可费用的核算。
+- **公司文化**不习惯于内源协作和共享代码。这导致了在使用共享代码时权利和义务的不确定性。
+- 使用软件的自由导致了竞争以及所有权的分散。
+- 有一些法律合同，涵盖了源代码的共享。这些合同并不是标准化的，所以它们为每个项目的谈判和理解带来了额外的负担。现有的合同也可能不允许在足够开放的意义上共享源代码，以支持真正的内源方法。
+- 或者，没有法律合同，但源代码被非正式地共享。在需要明确所有权和权利义务的情况下，这可能会造成不确定性。
+  
+## 解决方案
 
-- **Level of effort** required to write formal agreements, especially if they need to take into account technical, legal, and business perspectives.
-- A large organization (consisting of many legal entities) has many **internal regulations**. Any new agreements that are made have to comply with these regulations, e.g. security, privacy, procurement processes, etc. The volume of regulations can make it difficult to assess whether sharing software between two legal entities is compliant with these regulations, especially when there is no standard procedure.
-- If any of the legal entities in the organization has a **business model** that depends on proprietary code and accounting of licensing fees within the organization
-- **Company culture** that isn’t used to InnerSource collaboration and sharing code. This results in uncertainty about the rights and obligations when using shared code.
-- Freedom over using the software leads to competition, and spread of ownership
-- There are legal contracts in place which cover the sharing of source code. These contracts are not standardized, so they create additional effort in negotiating and understanding for every project. The existing contracts may also not allow sharing source code in an open enough sense to support a true InnerSource approach.
-- Alternatively, there are no legal contracts in place but source code is shared informally. That might create uncertainty in cases where clarity about ownership and rights and obligations is needed.
+创建一个根据有关组织（及其法律实体）的需要定制的**内源许可证**。这个许可证需要有足够的通用性，可以应用于最重要的公司间关系。
 
-## Solutions
+重要的是，撰写内源许可证，要真正允许类似开源的合作跨越相关法律实体的边界进行。因此，自由软件的4项自由应当被融入许可证中。
 
-Creating an **InnerSource License** customized to the needs of the organization in question (and their legal entities). This license needs to be generic enough to be applied to the most important inter-company relationships.
+许可证按正式的法律文件撰写，并作为法律实体之间的合同的一部分来管理代码共享协议。
 
-It is important to write the InnerSource License such that it truly allows for OpenSource-like collaborations across the boundaries of the involved legal entities. Therefore the 4 freedoms of free software should be integrated into the license.
+## 结果
 
-The License is written as a formal legal document, and can be used as part of contracts between the legal entities to govern the code sharing agreements.
+有了内源许可证，我们就有了一个在组织内的法律实体之间分享代码的工具。
 
-## Resulting Context
+该许可证简化了我们组织内部关于共享源代码的对话，并推动第一批法律实体这样做。
 
-With the InnerSource License, we have a tool to share code between legal entities within our organization.
+**注意：** **已知实例** 中描述的实验还处于早期阶段。因此，一个可靠的 **结果** 还没有形成。几个月后，内源许可证对这一问题空间的影响将更加清晰，本节也将更新。
 
-The license simplifies the conversations within our organization about sharing source code, and is motivating the first legal entities to do so.
+## 已知实例
 
-**Note:** The experiment described in **Known Instances** is in an early phase. Therefore a firm **Resulting Context** has not formed yet. In a couple of months the effects of the InnerSource License on this problem space will be more clear, and this section can be updated.
+DB Systel创建了他们自己的内源 许可协议，见[DB Inner Source License][db-inner-source-license]。他们使用了[EUPL][eupl]是因为它提供了一个类似于开源的起点，然后在他们特定的组织环境中制定了所需的约束和附加规则。
 
-## Known Instances
+DB AG内部的第一批法律实体（公司）正在使用他们的内源许可证。
 
-DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open source like starting point, and then worked out the constraints and additional rules required in their specific organizational context.
+一个已经显示出来的积极效果是，它简化了对话，特别是当一些参与方还不太了解内源的概念时。许可证是一个众所周知的概念，因此拥有一个内源许可证是一个很好的讨论起点。
 
-The first legal entities (companies) within the DB AG are using their InnerSource License.
+实验还发现，为了实现真正的内源贡献和合作模式，还有更多的合作挑战需要解决。
 
-One positive effect that is already showing is that it simplifies the conversation, especially if some of the involved parties don’t know the InnerSource concept that well yet. Licenses are a well-known concept, therefore having an InnerSource License is a great discussion starter.
+所提到的合作挑战包括：
 
-The experiments are also uncovering that there are further collaboration challenges that need to be solved in order to lead to a true InnerSource contribution and collaboration model.
+- 让大家能够找到适用内源许可的项目
+- 像在开源中一样建立项目合作的社群。
 
-The mentioned collaboration challenges include:
+值得一提的是，到目前为止，在这个内源许可下分享的软件主要是工程工具、基础设施和底层的工具。
 
-- making InnerSource licensed projects discoverable
-- building communities for collaboration on projects, just like in Open Source
+## 状态
 
-It is worth mentioning that so far the software shared under this InnerSource license is mostly tooling, infrastructure, and tools lower in the stack.
+* 结构化
+* 在**已知实例**下所列的实验自2020年2月开始运行。初步的经验显示了第一个积极的效果，但需要更多的经验来全面评估该模式。
 
-## Status
-
-* Structured
-* The experiment listed under **Known Instances** is running since 02/2020. The initial experience shows first positive effects but more experience is needed to fully evaluate the pattern.
-
-## Author(s)
+## 作者
 
 - Cornelius Schumacher (DB Systel GmbH)
 - Schlomo Schapiro (DB Systel GmbH)
 - Sebastian Spier
 
-## References
+## 参考
 
-- FOSSBack 2020 Presentation: [Cornelius Schumacher - Blending Open Source and Corporate Values](https://youtu.be/hikC6U8X_Ec) - watch 27:30 and onwards for details about the InnerSource License
+- FOSSBack 2020演讲。[Cornelius Schumacher - Blending Open Source and Corporate Values](https://youtu.be/hikC6U8X_Ec) - 请看27:30及以后的内容，了解有关内源 License的细节。
 - [DB Inner Source License][db-inner-source-license]
 
-## Glossary
+## 词汇表
 
-- **organization** - An umbrella for multiple legal entities. (synonyms: group, enterprise) (e.g. Lufthansa)
-- **legal entity** - An entity that has its own legal rights and obligations (synonyms: company, subsidiary) (e.g. Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)
+- **组织** - 多个法律实体的综合体。(同义词：集团、企业）（如汉莎航空）。
+- **法律实体** - 拥有自身的法律权利和义务的实体（同义词：公司，子公司）（例如汉莎系统有限公司，汉莎工业解决方案TS有限公司，...）
 
 [db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+
+## 翻译校对
+
+- 翻译[姜宁](https://github.com/willemjiang)
+- 校对[孙振华](https://github.com/sunzhh02)
