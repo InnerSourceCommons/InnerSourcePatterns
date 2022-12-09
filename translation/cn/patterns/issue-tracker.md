@@ -1,60 +1,60 @@
-## Title
+## 标题
 
-Issue Tracker Use Cases
+问题追踪器使用案例
 
 ## Patlet
 
-The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.
+InnerSource 东道主团队不仅没有使计划和进展，而且也没有将变化背景信息变透明。这可以通过增加项目问题跟踪器的使用案例来解决，它也可以为头脑风暴、实施讨论和功能设计服务。
 
-## Problem
+## 问题
 
-A team develops a component that many teams in the organization depend on. It
-uses a standard issue tracker for tracking open bugs and feature requests.
-However, the context in each entry is very limited. As a result potential
-contributors have no way of knowing what change exactly each issue is talking
-about.
+一个团队开发了组织中许多团队都依赖的组件。
+它使用一个标准的问题跟踪器来跟踪开放的错误报告和功能请求。
+然而，每个条目的上下文是非常有限的。因此，潜在的贡献者没有办法知道每个问题到底是在谈论什么变化。
 
-## Context
+## 上下文
 
-The InnerSource project tooling is all setup. However, the project issue tracker
-is mainly used for sharing progress. In InnerSource projects there are many more
-use cases that an issue tracker can be used for that make remote, asynchronous
-communication easier.
+InnerSource 项目的工具都已经设置好了。然而，一般的项目问题跟踪器主要用于分享项目进度。
+在 InnerSource 项目中，问题跟踪器则可以用于更多的用例追踪，使远程、异步的沟通更容易。
 
-## Forces
+## 约束
 
-- Contributors would like to understand whether the feature that they are missing is already on the roadmap. With a lot of context missing in issues though it is impossible to decide whether existing issues match the contributing team's needs.
-- As a result a lot of duplicate issues are being opened that the host team has to deal with.
-- As context in open issues is so limited contributors are unable to help the host team by implementing some easier issues that are open already. As a result a lot of work remains in the hands of the host team.
-- With a strong focus on verbal communication it is impossible to discern after a couple months or years why a certain feature was being chosen for implementation. As a result refactorings, in particular simplifying the component becomes an exercise in project archaeology and brain picking of people who remember what was discussed.
+- 贡献者希望了解他们所需的功能是否已经安排在路线图上。但由于问题中缺少大量的上下文，因此不可能决定现有问题是否符合贡献者的需求。
+- 因此，很多重复的问题被打开，核心维护团队不得不处理。
+- 由于开放问题中的上下文是如此有限，贡献者无法通过实施一些已经开放的更容易的问题来帮助核心维护团队。因此，大量的工作仍然在东道主团队的手中。
+- 由于强烈关注口头交流，在几个月或几年后，不可能辨别出为什么某个功能会被选中实施。因此，重构，特别是简化组件的工作，就成了项目考古学和寻找谁还记得讨论过什么的脑力练习。
 
-## Solution
+## 解决方案
 
-Embrace the "written over verbal" philosophy not only for pure software
-development but also during the planning phase of new features:
+拥抱 "书面胜于口头 "的理念，不仅是在纯粹的软件开发中，而且在新功能的规划阶段也是如此。
 
-- For bugs, planned features and feature ideas create separate issues. In each of those include as much information as possible so that potential external contributors are able to understand the context. Ideally, in particular for easier changes, include enough information for external contributors to support the host team by implementing the functionality in question.
-- Potentially use the issue tracker as a channel to ask questions. This is in particular helpful if you are lacking other communication sources to tackle user questions.
-- Make use of tags and categories in order to distinguish issues used for different purposes.
-- For starting a brainstorming session asynchronously, open an issue for gathering ideas. When discussion is starting to calm down, summarize the points identified in this issue in a separate document. Post that for review as a pull request to drill deeper into individual points that still need clarification. The resulting document can be used to publish the results in other appropriate channels as well as for future reference.
-- Most issue tracker implementations allow for issue templates. Make use of those not only to collect commonly needed information for bug reports but also include hints about what kind of information is needed for the other usage types.
+- 对于bug，计划中的功能和功能想法都会产生单独的问题。在每一个问题中包括尽可能多的信息，以便潜在的外部贡献者能够理解其背景。理想情况下，特别是对于比较容易的变化，包括足够的信息，以便外部贡献者通过实现相关的功能来支持东道主团队。
+- 尽可能使用问题跟踪器作为提问的渠道。如果你缺乏其他的沟通渠道来解决用户的问题，这尤其有帮助。
+- 利用标签和类别，以区分用于不同目的的问题。
+- 对于异步开始的头脑风暴会议，打开一个问题来收集想法。当讨论开始平静下来时，在一个单独的文件中总结这个问题中已经确定的要点。在相关的拉动请求（代码实现）发布出来，以深入研究仍然需要澄清的个别要点，以供代码评审使用。由此产生的文件可以用来在其他适当的渠道发布结果，并供未来参考。
+- 大多数问题跟踪器的实现都提供了问题模板。利用这些模板，不仅可以收集bug报告的常用信息，还可以包括其他使用类型所需的信息提示。
 
-## Resulting Context
+## 结果上下文
 
-- Making more use of the project's issue tracker for communication enables external contributors to follow along and make better decisions on what to contribute.
-- A focus on structured written communication enables host team members to participate remotely.
-- Consistently communicating in writing means that passive documentation on project decisions accumulates as a by-product instead of needing added attention.
-- Consistently using public communication channels leads to more humans following a discussion. This means that there are more knowledgeable humans that can answer questions, chime in on open issues, or point out flaws in planned features that would otherwise be found only much later.
-- Moving discussions to a public discussion medium creates an opportunity for potential future contributors to lurk, follow along, get comfortable and learn the ways of the project long before they have the first need to get involved.
+- 更多地利用项目的问题跟踪器进行交流，使外部贡献者能够跟上，并对贡献什么内容做出更好的。
+- 注重结构化的书面交流使东道主团队成员能够远程参与。
+- 始终以书面形式进行沟通意味着关于项目决策的被动文件会作为副产品积累起来，而不是需要增加关注。
+- 始终如一地使用公共交流渠道，导致更多的人关注讨论。这意味着有更多知识渊博的人可以回答问题，在开放的问题上插话，或者指出计划中的功能的缺陷，否则这些缺陷会在很久以后才被发现。
+- 将讨论转移到公共讨论媒介上，为未来的潜在贡献者创造了一个机会，让他们在第一次需要参与之前就能聆听、跟随、适应和了解项目的运作方式。
 
-## Known Instances
+## 已知实例
 
-* Europace AG - See blog post [Issue Use Cases](https://tech.europace.de/post/using-issues-for-asking-questions-and-tracking-work/)
+* Europace AG - 请看博文 [Issue Use Cases](https://tech.europace.de/post/using-issues-for-asking-questions-and-tracking-work/)
 
-## Authors
+## 作者
 
 Isabel Drost-Fromm
 
-## Status
+## 状态
 
-Structured
+结构化
+
+## 翻译校对
+
+* 翻译[姜宁](https://github.com/willemjiang)
+* 校对[龙文选](https://github.com/hncslwx)
