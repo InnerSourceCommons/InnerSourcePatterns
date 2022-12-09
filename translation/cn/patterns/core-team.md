@@ -1,110 +1,116 @@
-## Title
+## 标题
 
-Core Team
+核心团队
 
 ## Patlet
 
-Even when an InnerSource project is widely needed, contributions and usage may be hindered because the project is difficult to work with.
-Establish a core team that is dedicated to take care of the project's fundamental items.
-Their work enables contributors to add and use the features that provide value to their scenarios.
+即使一个InnerSource项目被广泛应用，但也可能因为项目难以协作而阻碍项目的贡献和使用。
+建立一个核心团队，专门负责处理项目的基本事务。
+他们的工作可以确保贡献者能够增加和使用满足他们自己使用场景需要的特性。
 
-## Problem
+## 问题
 
-* It is difficult to contribute to the project.
-This could be due to things like:
-  * Can't run the project locally.
-  * Poor documentation.
-  * Convoluted code.
-  * Inadequate testing.
-* It is difficult to use the project.
-Some possible causes:
-  * Poor documentation (again).
-  * Frequent bugs.
-  * Unintuitive setup.
+* 很难为项目做出贡献。
+  这可能是由于以下情况：
+  * 不能在本地运行该项目。
+  * 糟糕的文档。
+  * 复杂的代码。
+  * 测试不充分。
+* 难以使用该项目。
+  一些可能的原因：
+  * 糟糕的文档（再次）。
+  * 频繁的bug。
+  * 不直观的设置。
 
-## Story
+## 故事
 
-There's a central project that everyone depends on.
-What a great candidate for InnerSource!
-Unfortunately, the project has grown organically, with various contributions and additions slapped on haphazardly.
-Now it's an icky, thick morass of code that no one understands and everyone is afraid to touch.
-It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.), but even though everyone needs and wants that work to happen, no one takes the time to do it.
+有一个人人都依赖的中心项目。
+这是一个多么好的 InnerSource 候选项目啊！
+不幸的是，这个项目是自然发展起来的，各种贡献和补充功能都是胡乱地加进去的。
+现在，它是一个恶心的、厚厚的代码泥潭，没有人理解，每个人都不敢去碰。
+很明显，它应该进行一次大修（例如，重构、测试、文档等），但尽管每个人都需要并希望这项工作发生，却没有人投入时间和精力来完成这些事。
 
-## Context
+## 上下文
 
-* Many teams need the project.
-* The project has significant tech debt.
-* Slow adoption and iteration on the project.
-* There is not a owner or maintainer who takes reponsibility for the project and contribution ecosystem as a whole.
+许多团队需要这个项目。
 
-## Forces
+* 该项目有大量的技术债务。
+* 与团队项目到适配和项目自身的迭代速度比较缓慢。
+* 没有一个负责者或维护者对项目和项目贡献生态负责。
 
-* Every contributing team is busy, and therefore prioritizes work that results in an immediate payoff for themselves.
-* As the project grows the natural trend is for it to become more difficult to use and to modify.
+## 约束
 
-## Solution
+* 每个作出贡献的团队都很忙，因此优先考虑那些能给自己带来直接回报的工作。
+* 随着项目发展，项目变得越来越难使用和修改是一个普遍的趋势。
 
-Form a core team whose job it is to maintain this project in a state so that others can easily onboard and contribute to it.
-This core team does the work that is necessary for a healthy usage and contribution ecosystem.
-This critical work tends to not be prioritized as a contribution.
-Categories of this type of work include communication, local environment, and DevOps infrastructure.
+## 解决方案
 
-Here are some specific examples:
+组建一个核心团队，他们的工作是进行项目的维护，以便其他人可以很容易地加入到项目中并为其做出贡献。
+这个核心团队做的工作对于建立一个健康的使用和贡献的项目生态系统是非常必要的。
+这种关键的工作往往不会被常规到贡献所关注。
+这类工作的类别包括项目沟通、本地环境适配和DevOps基础设施搭建。
 
-* Production bugs
-* Documentation
-* Onboarding tutorials and examples
-* Automated testing
+下面是一些具体的例子。
+
+* 产品Bug
+* 文档
+* 入门教程和示例
+* 自动化测试
 * CI/CD
-* Local environment
-* Modularization
-* Versioning
-* Monitoring
-* Trailblazing new classes/categories of features
+* 本地环境适配
+* 模块化
+* 版本管理
+* 监测
+* 开拓新的类别/功能类别
 
-Each of these items is very important to a healthy product ecosystem, yet is unlikely to be prioritized as a contribution.
+上面的每一个条目对一个健康的产品生态都是非常重要的，但是却不太可能被优先考虑。
 
-The core team may be composed of a small number of people on a full-time or a part-time basis.
-The choice depends on the amount of work needed, the availability of resources, and the culture of the organization.
-The most important consideration is to form the team in a way that allows the organization to empower and hold them accountable in the same way as any other team.
+核心团可以由少数的全职或者兼职的人组成。
+这种选择取决于所需的工作量、资源的可用性和组织的文化。
+最重要的是，和其他团队一样，赋予他们权利，让他们承担责任，通过这样的方式形成一个核心团队。
 
-Due to their central role, core team members should nearly always fill the role of **Trusted Committers** as well (for more on that concept see [Learning Path][tc-learning-path] and [Pattern][tc-pattern]).
-While the Trusted Committer role focuses mostly on facilitating others' contribution and use of the project, a core team member regularly contributes to the project as well.
-The core team doesn't have its own business agenda that determines its contributions.
-They decide what to work on based on what will help others most to use and contribute to the project.
+由于他们的核心作用，核心团队成员几乎都应该充当 **Trusted Committer** 的角色（关于这个概念的更多信息，请参见[学习路径][tc-learning-path]和[模式][tc-pattern]）。
+虽然受 Trusted Committer 的角色主要侧重于帮助他人对项目的贡献和使用，但核心团队成员也会定期对项目做出贡献。
+核心团队并没有自己的商业目标来驱动其贡献。
+他们根据什么最能帮助他人使用和贡献项目来决定工作内容。
 
-A good way to continually remind the core team of this goal is to have them report regularly on:
+不断提醒核心团队这一目标的一个好方法是让他们定期报告。
 
-* number of active teams using the project
-* number of off-team contributions to the project.
+* 使用本项目的活跃团队的数量
+* 对项目做出贡献的非团队人数。
 
-Continual focus on these metrics will naturally drive the core team to prioritize generally the right work to create a thriving InnerSource ecosystem around the project.
+持续关注这些指标会自然驱使核心团队优先考虑正确的工作，从而围绕项目创建一个繁荣的InnerSource生态系统。
 
-![Responsibilities of Core Team and InnerSource Contributors](../../assets/img/core-team.png)
+核心团队和 InnerSource 贡献者的职责](../../../assets/img/core-team.png)
 
-## Resulting Context
+## 结果上下文
 
-* It is easy to use and contribute to the project.
-* Many teams use and contribute to the project.
-* Core team has their success defined in terms of others' interaction with and response to their project.
+* 它提升了项目的使用性并降低了项目贡献难度。
+* 许多团队使用该项目并为其做出贡献。
+* 他人对项目的交互和反馈是衡量核心团队做得好与坏的标准。
 
-## Rationale
+## 理论依据
 
-Separating out a core team and tasking them in this way helps to fill the gaps that a successful project needs yet are left behind by contributors that are pursuing their own agenda only.
-The core team fills those gaps and greases the wheels so that the contribution ecosystem remains healthy.
+项目贡献者都只关注自己业务，而不太关心项目的后续的发展，组建一个核心团队，并给他们分配维护项目任务，可以弥补这样的缺陷。
+核心团队弥补了这种缺陷，扮演了团队润滑剂的角色，促使项目贡献生态保持健康发展。
 
-## Known Instances
+## 已知实例
 
-* **Nike** implemented this pattern to manage the InnerSource effort around its reusable CI/CD pipelines.
-* **WellSky** established a Core Team for a key project. This allowed them to scale their InnerSource contributions to that project significantly - see [Wide-Scaled InnerSource with a Core Team](https://www.youtube.com/watch?v=kgxexjYdhIc).
+* 围绕其可重用的CI/CD流水线，*Nike**实施了这种模式来管理其InnerSource工作。*实施了这种模式，
+* **WellSky**为一个关键项目建立了一个核心团队。这使他们能够显著扩大对该项目的InnerSource贡献--见[具有核心团队的广泛应用规模的InnerSource]（https://www.youtube.com/watch?v=kgxexjYdhIc）。
 
-## Status
+## 状态
 
-Structured
+结构化
 
-## Author
+## 作者
 
 [Russell R. Rutledge](https://github.com/rrrutledge)
 
+## 翻译校对
+
+* 翻译[姜宁](https://github.com/willemjiang)
+* 校对[曾江云](https://github.com/skw0rm)
+
 [tc-learning-path]: https://innersourcecommons.org/learn/learning-path/trusted-committer/
-[tc-pattern]: ../2-structured/trusted-committer.md
+[tc-pattern]: ./trusted-committer.md
