@@ -1,93 +1,84 @@
-## Title
+## 标题
 
-Service vs. Library
+服务 vs. 库
 
 ## Patlet
 
-Teams in a DevOps environment may be reluctant to work across team boundaries on
-common code bases due to ambiguity over who will be responsible for
-responding to service downtime. The solution is to realize that often it's
-possible to either deploy the same service in independent environments with
-separate escalation chains in the event of service downtime or factor a lot of
-shared code out into one library and collaborate on that.
+由于对服务宕机责任的模糊不清，DevOps团队都不太愿意基于公共代码进行跨团队工作。
+解决办法是让大家认识到通常情况下：要么在独立的环境中部署相同的服务，在服务宕机时有独立的问题处理兜底机制；要么将大量的共享代码纳入一个库，大家在此基础上进行协作。
 
-## Problem
+## 问题
 
-When teams are working in a DevOps environment developers are responsible for a
-feature end-to-end: From the customer down to deployment, maintenance and
-support. This poses a challenge when working across team boundaries: Escalation
-chains may not be the same for errors happening in either team. Coupling
-source code and deployment leaves the teams with the question of who is
-responsible for on-call support in the event of errors. As a result teams are
-reluctant to join forces even if there is significant overlap in requirements.
+当团队在DevOps环境中工作时，开发人员负责一个功能的端到端：从服务客户到软件部署、从维护和支持。
+这也给跨团队工作带来了挑战：对于发生在任何一个团队的错误，问题处理流程可能是不一样的。
+源代码和部署的耦合给团队留下了这样的问题，在发生错误时，谁负责及时解决问题。
+因此，即使在需求上有很大的重叠，团队也不愿意联合起来进行协作。
 
-## Context
+## 上下文
 
-* Teams are working in a micro-services environment.
-* They are organised in fully functional DevOps teams: Each team is responsible for their contributions end-to-end, including maintenance, on-call and customer support.
-* A team is tasked with providing a service to their downstream customers that is fairly similar to an existing service built by another team.
+* 团队在一个微服务环境中工作。
+* 大家是按照功能齐全的DevOps团队进行组织。每个团队负责他们端到端的贡献，包括维护服务、及时处理问题和客户支持。
+* 一个团队的任务是向下游客户提供一个由其他团队构建的和现有服务类似的服务。
+  
+## 约束
 
-## Forces
+* 组织上的问题升级支持路径对每个团队来说可能是不同的。
+* 每个团队的成员对于不影响自己下游客户的错误的线上问题并不愿意提供支持。
+* 由于每个团队/客户关系的SLA定义不同，同一类型的错误的严重程度在团队之间可能不同。
+* 团队可能有不同的安全或监管约束来管理他们的部署。
 
-* Organisational escalation paths may be different for each of the teams.
-* Members of each team may be unwilling to answer on-call support for errors that do not affect their own downstream customers.
-* Severity levels for the same types of errors may be different across team boundaries due to different SLA definitions per team/customer relationship.
-* Teams may have different security or regulatory constraints governing their deployments.
+## 解决方案
 
-## Solutions
+将源代码的责任与部署脱钩：两个团队都致力于准确识别重叠内容并进行协同。
 
-Decouple responsibility for source code from deployment: Both teams work to
-identify exactly where there is overlap and synergies.
+只有共享的源代码被保留成为InnerSource项目的一部分，大家分担责任。共享源代码应该是连贯的，它包括所有的测试代码（如果有的话，包括集成测试）和尽可能多的持续集成管道，以使得贡献验证更容易。
 
-Only shared source code is kept as part of the InnerSource project with shared responsibility. The shared source should be coherent in that it includes all testing code (including integration tests if available) and as much of the CI pipeline as is possible to make contribution validation easier.
+将配置和部署管道与实际业务逻辑解耦。为新的团队建立新的服务部署。
 
-Decouple configuration and deployment pipelines from actual business logic.
-Establish a second deployment of the service for the second team.
+将团队间共用的内容以库（不是直接使用代码）的方式进行使用，并共享代码所有权（通过协商的方式进行修改）。
 
-Treat the common base as a library that is used by both teams with shared code
-ownership.
+部署配置的内容可以作为单独的项目列入InnerSource项目中，以允许团队讨论/协作或新团队复制这些配置代码。
 
-Deployment configurations can be included as separate projects in your InnerSource portfolio to allow teams to discuss/collaborate or a new team to copy them.
+## 实施结果
 
-## Resulting Context
+团队开始愿意合作，并从分享实现业务逻辑的工作中获益。
 
-Teams are willing to collaborate, benefitting from sharing the work of
-implementing the business logic.
+一个原本专门为单一环境工作的服务，被转换成一个基于特定业务需求的更为通用的解决方案。
 
-A service that originally was built specifically to work in one environment is
-converted into a more general solution based on a specific business requirement.
+两个团队都了解他们各自的升级政策和部署设置，有可能为他们自己的设置找出改进。
 
-Both teams get to know their respective escalation policy and deployment setup,
-potentially identifying improvements for their own setup.
+需要对共享源代码进行修改的可能性增加，导致更频繁的机会来完善、改进和优化实施。
 
-The likelihood that changes are needed and made in the shared source code
-increases, leading to more frequent opportunities to refine, improve and optimise
-the implementation.
+鼓励在发布包装、遥测、健康/准备就绪端点等方面逐步实现操作标准化，因为团队意识到，如果他们同意贯彻这些标准，就能更有效地在共享代码中维护这一点。
 
-Encourages incremental operational standardisation in release packaging, telemetry, health/readiness endpoints and so on as the teams realise they can more efficiently maintain this in the shared code if they agree on standard conventions.
+## 参见
 
-## See also
+与这种模式相关的是[30天保证](30-day-warranty.md)模式，它采取了不同的方法来解决上述的约束问题。
 
-Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern that takes a different approach to solving the forces described above.
-
-## Known Instances
+## 已知实例
 
 * Europace AG
-* Flutter Entertainment: A [Flutter InnerSource application](https://innersource.flutter.com/sdlc/) has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artefact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skill sets in different areas of the business.
+* Flutter 娱乐公司。一个[Flutter InnerSource应用程序](https://innersource.flutter.com/sdlc/)有一个共享的代码 "服务 "库，有跨团队的贡献和持续集成到流水线来构建和发布一个共享的发布工件。
+  每个采用的团队有一个 "部署配置 "库，定义他们自己的部署。这样方案满足了不同的监管要求、服务和事件管理实践以及不同业务领域的基础设施技能的需求。
 
-## Status
+## 状态
 
 * Structured
 
-## Author(s)
+## 作者
 
 * Isabel Drost-Fromm
 * Rob Tuley
 
-## Acknowledgements
+## 致谢
 
-Thank you Tobias Gesellchen for review internal to Europace AG.
+感谢Tobias Gesellchen在Europace AG 的内部评审。
 
-## Alias
+## 别名
 
-Service vs. library: It's inner source, not inner deployment
+服务 vs. 库: 这是内源，不是内部部署
+
+## 翻译校对
+
+- 翻译 [姜宁](https://github.com/willemjiang)
+- 校对 [曾江云](https://github.com/skw0rm )
