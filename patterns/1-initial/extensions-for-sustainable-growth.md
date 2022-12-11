@@ -4,11 +4,11 @@ Extensions for Sustainable Growth
 
 ## Patlet
 
-An InnerSource project is receiving too many contributions, making maintenance difficult and resulting in a large code review backlog or premature rejection of new feature contributions. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.
+An InnerSource project is receiving too many contributions, making maintenance difficult. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.
 
 ## Problem
 
-As the number of contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
+As the number of contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. This results in a large code review backlog or premature rejection of new feature contributions. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
 
 ## Story
 
@@ -70,7 +70,7 @@ In order for the extensions model to be successful, there are few architectural 
    - Create criteria for when an extension can be ported to the primary repository, such as adoption of the extension by internal products and demand for the feature.
    - Porting process of the extension to the primary repository will follow more stringent code review guidelines as set by library maintainers.
 
-![Project extensions](../../assets/img/extensions-for-sustainable-growth.png)
+![Project extensions](../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
 Following the principles outlined above ensures that:
 
@@ -91,7 +91,7 @@ Following the principles outlined above ensures that:
 
 ## Known Instances
 
-**IBM Corporation** has adopted this solution to scale InnerSource AI libraries. Using extensions, developers are able to extend AI libraries with more algorithms and share their innovations with the community. The core libraries only contain strategic algorithms that have been adopted and validated, keeping them easier to maintain as we scale contributions.
+**IBM Corporation** has adopted this solution to scale [InnerSource AI libraries](https://youtu.be/Lz-tIc2cyRM). Using extensions, developers are able to extend AI libraries with more algorithms and share their innovations with the community. The core libraries only contain strategic algorithms that have been adopted and validated, keeping them easier to maintain as we scale contributions.
 
 ## Status
 
