@@ -1,117 +1,122 @@
-## Title
+## 标题
 
-Transparent Cross-Team Decision Making using RFCs
+利用RFC进行透明的跨团队决策
 
 ## Patlet
 
-InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.
+内源项目如果想实现高参与率，并为每个参与者做出最好的决定，就需要想办法在整个软件生命周期中建立易于参与式的环境。发布内部征求意见稿（RFC）文件，可以在设计过程的早期就进行讨论，并促进在参与各方在高参与度下建立解决方案的机会。
 
-## Problem
+## 问题
 
-For an InnerSource project to be healthy, it needs a substantial amount of contributors. These contributors (or teams) maybe have different requirements for the given project. e.g. they may want to add features to the project that are not compatible with one another or lead to an unhealthy bloat in the architecture.
+为了使内源项目健康发展，它持续需要大量的贡献者。这些贡献者（或团队）可能对给定的项目有不同的要求。例如，他们可能想在项目中添加彼此不兼容的功能，或导致架构的不健康的膨胀。
 
-Discovering such disagreements or misunderstanding late in the process, e.g. once the software has already been built, is very costly. These disagreements may lead to frustrations by all parties involved, and can even be disruptive to the health of the collaboration culture in the project. A common situation where such a disagreement surfaces is a change request (pull request) which is open for a very long time because the author of the change request and the maintainers of the project essentially don’t agree that the proposed change should be made at all.
+在过程的后期发现这种分歧或误解，例如，一旦软件已经建成，就会付出很大的代价。这些分歧可能会导致所有参与方的挫败感，甚至会破坏项目中合作文化的健康。常见的分歧是，一个变更请求（pull request）被搁置了很久，因为变更请求的作者和项目的维护者基本上都不同意进行拟议的变更。
 
-For an InnerSource project this situation happens more frequently when the project is maintained by multiple teams in the company i.e. shared ownership.
+对于内源项目来说，当项目由公司内的多个团队一同维护时，这种情况更经常发生，即共享所有权。
 
-## Story
+## 故事
 
-A project, or application made up of multiple projects, is maintained by a number of different teams, with each team owning different areas of the project or application. These teams do make InnerSource contributions to each other's areas, but larger, cross-cutting changes are only ever driven by the teams' technical leads working together, or don't happen at all. This results in most engineers unable to effect large scale, cross-cutting change, reducing innovation and opportunities for collaboration.
+一个项目，或由多个项目组成的应用程序，由许多不同的团队维护，每个团队负责不同的项目或应用程序的不同领域。这些团队确实对彼此的领域做出了内源的贡献，但更大的、跨领域的变化只由团队的技术负责人共同推动，或者根本就没有发生。这导致大多数工程师无法实现大规模、跨领域的变革，减少了创新和合作的机会。
 
-By implementing a process and template for RFCs, teams and individuals are empowered to propose large, cross-cutting changes via a transparent decision making process, with consultation across teams done asynchronously. This results in greater innovation, closer collaboration, and more knowledge spread. This is dependent on buy-in from all disciplines at all levels, and an environment of psychological safety so that people can openly propose and debate ideas.
+通过实施RFCs的流程和模板，团队和个人被授权通过一个透明的决策过程提出大型的、跨领域的变化，并在各团队之间进行异步磋商。这促进了更大的创新，更紧密的合作，以及更多的知识传播。这有赖于各层级的所有专家的认同，以及一个心理安全的环境，以便人们可以公开提出和辩论想法。
 
-Like with any process, this must be continually improved upon. There may need to be changes to the RFC template or process to ensure it is inclusive, collaborative, and effective.
+像任何过程一样，这必须被不断地改进。可能需要对RFC模板或流程进行修改，以确保其具有包容性、协作性和有效性。
 
-## Context
+## 背景
 
-- shared ownership by many teams of an InnerSource project
-- overarching design decisions cannot be made from a central body all the time (e.g. a group of architects) as they have neither enough time, nor sufficient domain-specific knowledge to make good decisions in all the cases
-- various types of users have input on the direction that a certain project is taking. Such user may be: Developers, Product Owners, Product Managers, etc
-- decisions need to be made in a asynchronous fashion, at least partly, as it isn’t feasible to call frequent synchronous meetings with all participants
-- there is a desire to document the decisions made, i.e. making sure that they are made in writing, rather than just verbally
+- 一个内源项目由许多团队共同拥有。
+- 最重要的设计决策不可能一直由一个中央机构（例如一组架构师）做出，因为他们既没有足够的时间，也没有足够的特定领域的知识来在所有情况下做出好的决策。
+- 各种类型的用户对某个项目的发展方向有意见。这样的用户可能是：开发人员、产品负责人、产品经理等。
+- 决策需要以异步的方式做出，至少部分是这样，因为经常召集所有参与者的同步会议是不可行的
+- 希望记录所做的决定，即确保这些决定是书面的，而不仅仅是口头的。
 
-## Forces
+## 约束
 
-- most of the times, the involved parties want to make a decision fairly quickly (e.g. the up-front design time is fairly limited)
-- writing things down (without already implementing things) is often a new skill for many of the people involved
+- 大多数时候，相关各方都希望能很快做出决定（例如，前期的设计时间相当有限）
+- 对许多参与的人来说，把事情写下来（在没有实施的情况下）往往是一种新的技能。
+  
+## 素描
 
-## Sketch
+![在Uber的BaseUI项目中使用的RFC流程（开放源码的例子）](../../../assets/img/rfc-process-uber-baseui.png)
 
-![RFC process used at Uber's BaseUI project (open source example)](../../assets/img/rfc-process-uber-baseui.png)
+## 解决方案
 
-## Solutions
+我们选择了一个类似于RFC的程序来增加我们跨团队决策过程的透明度（也见[请求评论][requests-for-comments]）。
 
-We chose an RFC-like process for increasing the transparency of our cross-team decision making process (also see [Requests for Comments][requests-for-comments]).
+该方案的重要内容有：
 
-Important elements of the solution are:
+- 关于何时发布RFC（以及何时不发布）的描述
+- 一个RFC文件的模板
+    - 应该促使RFC作者从多个角度考虑他们的建议
+    - 既要提示高层视角的概述，又要提示详细的深入解释
+- 一个众所周知的、围绕RFC的轻量级过程，例如
+    - 如何发布RFC并与所有利益相关者分享（如Slack、邮件列表）。
+    - 如何收集对RFC的反馈
+    - 如何在反馈中工作
+    - 如何将RFC推向一个结论或决定（例如，相关的指定维护者签字）。
+    - 选择适当的工具（例如，非开发人员可能无法使用源代码控制工具）。
+- 承诺对RFC模板和流程进行迭代
 
-- a description of when to publish an RFC (and when not to)
-- a template for RFC documents
-    - should provoke RFC author to consider their proposal from multiple angles
-    - should prompt both high level accessible overview, and detailed in-depth explanation
-- a well known, lightweight process surrounding RFCs e.g.
-    - how to publish RFC and share it with all stakeholders (e.g. Slack, mailing list)
-    - how to collect feedback for the RFC
-    - how to work in the feedback
-    - how to move the RFC towards a conclusion or decision (e.g. relevant nominated maintainers to sign off)
-    - appropriate tooling chosen (e.g. non-engineers may not have access to source control tools)
-- a commitment to iterate on the RFC template and process
+### 示例/模版
 
-### Examples/Templates
+- [Rust][rust]是一个很好的RFC模板和流程的开源例子，也是许多其他RFC流程的基础。
+- [通用化的BBC iPlayer & Sounds RFC模板](../templates/rfc.md)，最初基于[Rust][rust]模板
 
-- [Rust][rust] is a good Open Source example of RFC template and process, and has been the basis for many other RFC processes.
-- [Genericised BBC iPlayer & Sounds RFC template](templates/rfc.md), originally based on the [Rust][rust] template
+## 结果
 
-## Resulting Context
+实施类似于RFC的流程被证明是有价值的，因为它使跨团队的决策过程对每个人来说都更加透明，使所有的声音都能被听到。
 
-Implementing an RFC-like process has proven to be valuable, as it makes the cross-team decision making process more transparent for everybody, allowing for all voices to be heard.
+可观察到的积极效果。
 
-Observable positive effects:
+- 决策过程的民主化，**影响到许多团队的决策（同时也减轻了团队负责人的负担）。
+- 一个开放的异步沟通方法**，在多个团队和地区都能很好地运作。
+- **赋予个人和团队**大规模变革的能力
+- **记录所做的决定**供人们参考，以了解情况
+- **扩大有经验的工程师的影响**，因为他们可以通过异步和远程方式为解决方案做出贡献，而不需要在会议上出现。
+- 例如，通过阐明我们的测试术语，如 "什么是系统测试"，来实现术语的统一。
+- 流程的统一**，例如，明确说明下班后的支持流程。
+- 更清晰的思路**，因为写RFC使作者比平时更多的挑战自己。
 
-- **democratization of the decision making process** for decisions that impact many teams (also offloading team leads from that burden)
-- **a open asynchronous communication method** that works well across multiple teams and geos
-- **empowers individuals and teams** to effect large scale change
-- **record of decisions made** for people to refer back to for context
-- **scales impact of experienced engineers** as they can contribute to solutions asynchronously and remotely, rather than needing to be present in a meeting
-- **terminology alignment** e.g. by spelling out our testing terminology such as “what is a system test?”
-- **process alignment** e.g. by spelling out the out-of-hours support process
-- **greater clarity of thought**, as writing an RFC makes the author challenge herself more than they would normally
+RFC方法也有我们想要指出的风险。
 
-The RFC approach also has risk that we want to call out:
+- 它并不总是有效的！例如，有些人可能仍然反对已经通过RFC做出的决定。然而，在这些情况下，将决策过程写成文字仍然是有益的，因为你可以指出人们是在什么时候和为什么做出某个决定的。
+- 将设计方案（架构、协议等）写在前面，有一种瀑布式的设计元素，不适合许多开发团队喜欢的迭代式开发方法。记住："工作的软件胜过全面的文档"（[敏捷宣言](https://agilemanifesto.org/)）。RFC过程应该尽可能的轻巧。
+- 一个RFC可能会变得很大，太不方便了。这往往表现在冗长的评论和围绕RFC的讨论。在这种情况下，我们可能会决定用同步交流的方式来补充RFC，比如工作小组和面对面的会议。但时间仍然可以节省，因为人们可以在会议之前阅读RFC，而不是在会议期间分享所有的信息。
 
-- It doesn’t always work! e.g. some people might still argue against a decision that was already made via an RFC. However having the decision making process in writing is still beneficial in these scenarios, as you can point people to when and why a certain decision was made.
-- Writing up design proposals (architecture, protocols, etc) upfront has an element of waterfall-like design that does not fit the iterative development approach that many development teams favor. Remember: “Working software over comprehensive documentation” ([Agile Manifesto](https://agilemanifesto.org/)). The RFC process should be as lightweight as possible.
-- An RFC may become big and too unwieldy. This often shows in long comment threads and discussions surrounding it. In those situations we may decide to complement the RFC with synchronous communication such as a working group and in-person meetings. But time is still saved, as people can read the RFC before the meeting rather than having all the information shared during the meeting.
+## 原理
 
-## Rationale
+多年来，RFC在开源世界中证明了自己。对于互联网整体而言，RFC在制定标准方面发挥了重要作用（例如，见[30 Years of RFCs][30-years-of-rfcs]），对于其他开源项目也是如此，它们采用这种方法来促进社区的透明决策（例如，[RUST][rust]，[ZeroMQ][zeromq]）。
 
-RFCs haven proven themselves in the Open Source world for many years. This is true both for the Internet as a whole where RFCs have been instrumental in developing standards (e.g. see [30 Years of RFCs][30-years-of-rfcs]), as well for other Open Source projects that have adapted this method to promote transparent decision making in their community (e.g. [RUST][rust], [ZeroMQ][zeromq]).
+在内源的背景下，其他公司也分享了他们在类似RFC方法方面的经验，例如[Uber][uber]和[Europace][europace]。
 
-In the context of InnerSource, other companies have shared their experiences with RFC-like approaches too, such as [Uber][uber] and [Europace][europace].
+对于纯粹的软件设计决策之外的决策，透明的决策模型也是有效的，例如在努力实现开放组织的时候。一个例子见Red Hat的[Open Decision Framework][open-decision-framework]（2016年6月7日公开发布）。
 
-Also for decision making outside of pure software design decisions, transparent decision making models can be effective e.g. when working towards an Open Organization. For an example see Red Hat’s [Open Decision Framework][open-decision-framework] (released publicly on June 7, 2016).
+## 已知实例
 
-## Known Instances
+- **BBC iPlayer & Sounds** - 如2020年ISC秋季峰会[利用内部RFCs加强合作][bbc]所述。
+- **Europace** - 如在开放组织中所述。[在开放中设置跨团队的标准和最佳实践][europace]。
+- **Uber** - 根据Gergely Orosz的这篇博文：[通过RFCs扩展工程团队：将事情写下来][uber]。
+- **Google Design Docs** - 根据Malte Ubl的博文[Google的Design Docs][google]的描述。
+- **DAZN** (10/2021) - DAZN做出技术决定的一种方式是通过RFCs。RFCs仅用于适用于工程范围内流程的决定！RFCs存在于GitHub中。RFCs存在于GitHub仓库中，然后技术标准逐渐被他们的工具和工程师所采用。一个RFC可以由任何工程师提出，并由所有工程师投票表决。如果支持率超过反对率，RFC就会被采纳。值得注意的是，RFC的投票过程至今没有因为任何争议的决定引发"压力测试"。- 正如Lou Bichard在这篇博文中所描述的：[建立一个DX团队：经验教训][dazn]
 
-- **BBC iPlayer & Sounds** - As presented at the ISC Fall Summit 2020 [Using Internal RFCs to Enhance Collaboration][bbc].
-- **Europace** - As described in Open Organization: [Setting cross-team standards and best practices in the open][europace].
-- **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via RFCs: Writing Things Down][uber].
-- **Google Design Docs** - As described in this blog post by Malte Ubl [Design Docs at Google][google]
-- **DAZN** (10/2021) - One way that DAZN makes technical decisions is via RFCs. RFCs are used for decisions that apply to engineering-wide processes only! The RFCs live in a GitHub repository, and technical standards are then gradually adopted within their tools and by their engineers. An RFC can be raised by any engineer, and voted on by all engineers. If upvotes exceed downvotes, the RFC is adopted. It’s worth noting, that the RFC voting process hasn’t yet been “stress-tested” by any contentious decisions. - As described in this blog post by Lou Bichard: [Building A DX Team: Lessons Learned][dazn]
+## 状态
 
-## Status
-
-Structured
+结构化
 
 ## Author(s)
 
 - Tom Sadler
 - Sebastian Spier
 
-## Aliases
+## 别名
 
-- [Design Docs][google]
-- Architecture Decision Record (ADRs) - Not necessarily a direct alias, as they can sometimes be used very differently e.g. RFCs for seeking input and building consensus, ADRs for recording decisions and implementation detail
+- [设计文档][google]
+- 架构决策记录（ADR）--不一定是直接的别名，因为它们有时会有非常不同的使用方式，例如，RFC用于寻求意见和建立共识，ADR用于记录决策和实施细节。
+
+## 翻译校对
+
+- 翻译 [姜宁][willem]
+- 校对 [龙文选][hncslwx]
 
 [requests-for-comments]: https://en.wikipedia.org/wiki/Request_for_Comments
 [30-years-of-rfcs]: https://www.rfc-editor.org/rfc/rfc2555.txt
@@ -123,3 +128,5 @@ Structured
 [bbc]: https://www.youtube.com/watch?v=U6zlghE0HcE
 [google]: https://www.industrialempathy.com/posts/design-docs-at-google/
 [dazn]: https://medium.com/dazn-tech/building-a-dx-team-lessons-learned-4a66446088bc
+[willem]: https://github.com/willemjiang
+[hncslwx]: https://github.com/hncslwx
