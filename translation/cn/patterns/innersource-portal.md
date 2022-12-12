@@ -1,97 +1,102 @@
-## Title
+## 标题
 
-InnerSource Portal
+内源 门户网站
 
 ## Patlet
 
-Potential contributors cannot easily discover InnerSource projects that they are interested in. By creating an intranet website that indexes all available InnerSource project information you enable contributors to learn about projects that might interest them and InnerSource project owners to attract an outside audience.
+潜在的贡献者很难找到他们感兴趣的内源项目。你可以通过创建一个索引所有可用的内源项目信息的内部网站，可以让贡献者了解他们可能感兴趣的项目，也可以让内源项目的负责人发展外部受众。
 
-## Problem
+## 问题
 
-InnerSource project teams are finding it difficult to attract outside contributions.
+内源项目团队发现吸引外部贡献是件很难做的事情。
 
-InnerSource projects at your organization are increasing but potential contributors have no easy way of discovering them.
+你的组织的内源项目逐渐增加，但潜在的贡献者却没有办法轻易找到这些项目。
 
-## Story
+## 故事
 
-You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.  
+你正尝试在你的组织内建立一个内源实践。 你知道有些项目正在使用内源模式运行，但它们只是通过口耳相传、电子邮件或与其他员工的旁听对话来获知其存在。 因此，内源项目负责人发现吸引贡献者是件很难做到事情。
 
-There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.  
+没有一个专注于分享InnerSource项目信息的网站可以供整个组织的员工去方便地使用来了解所有正在进行的InnerSource项目。 这严重制约了每个InnerSource项目的发展。
 
-What can be done to help all InnerSource projects raise their visibility to as large an audience as possible and attract contributors organization-wide?
+做什么才能帮助所有InnerSource项目尽可能高地提高其知名度，并吸引整个组织范围中的贡献者呢？
 
-## Context
+## 背景
 
-* Your organization is interested in adopting an InnerSource work style.
-* InnerSource project owners are seeking a way to attract audiences to their projects. However, they are limited by the communication channels available to them through which they could advertise to potential contributors.
-* InnerSource projects at your organization are increasing.
-* Compounding this problem is the fact that the shared source control management application in use has such limited search capabilities that even developers in search of InnerSource projects find it frustrating to locate them.
+* 你的组织有兴趣采用内源的工作方式。
+* 内源项目的所有者正在寻求一种方法来吸引受众参与他们的项目。然而，他们受限于现有的沟通渠道，无法向潜在的贡献者进行宣传。
+* 你的组织中的内源项目正在增加。
+* 让问题变得更加复杂的是，正在使用的共享源码控制管理应用程序的搜索功能非常有限，即使是寻找内源项目的开发人员也很难找到相关的项目。
 
-### Prerequisites
+### 前提
 
-* Managers have given tacit acceptance that their employees should take part in InnerSource projects
-* A shared source control management system is in use which provides programmatic access to the contents of the repositories it hosts
-* There is a department within your organization with the responsibility of promoting InnerSource collaboration
+* 管理层已经默许他们的员工参与内源项目。
+* 使用一个共享的源码控制管理系统，该系统提供了对其托管的代码资源库内容的程序化访问。
+* 在你的组织中，有一个部门负责推进内源合作。
 
-## Forces
+## 约束
 
-* The full potential for separate engineering teams to partner on shared challenges is not being realized
-* It is difficult for individuals to discover what InnerSource projects exist
-* It is difficult for InnerSource project owners to attract an audience of external contributors
+* 相互独立的工程团队协作应对共同挑战的潜力没有得到充分发挥
+* 个人很难发现内源项目的存在
+* 内源项目的负责人很难吸引外部贡献者的关注
 
-## Solutions
+## 解决方案
 
-Create an InnerSource Portal intranet website where InnerSource project owners can easily advertise the availability of their projects.
+创建一个内源门户的内部网站，内源项目的负责人可以很容易地宣传其项目的可用性。
 
-Key properties of the portal are:
+该门户网站的关键属性是：
 
-* Visitors to the InnerSource Portal should be able to see all available projects as well as search for specific projects based on various criteria such as project name, technologies in use, contributor names, sponsoring business unit etc.  
-* The information displayed via the InnerSource Portal should be under the full control of the InnerSource project owners at all times.  Preferably, by sourcing this information directly from a specific data file or meta-data stored in the project repository itself.  
-* Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors' names, a brief description and links to the code repository or any supporting documentation.  
-* (optional) While most organizations will choose to make their portal only available on their intranet, some organizations have opted to make their portal available on the public internet. The latter can be interesting for organizations that want to show additional information about their InnerSource approach in their portal e.g. for branding and recruitment purposes.
+* 内源门户网站的访问者应该能够看到所有可用的项目，以及根据各种标准搜索特定的项目，如项目名称、使用的技术、贡献者姓名、赞助的业务部门等。
+* 通过内源门户网站显示的信息应该在任何时候都在内源项目负责人的完全控制之下。 最好是通过直接从特定的数据文件或存储在项目库本身的元数据中获取这些信息。
+* 项目负责人应在这些数据文件中包括所有与他们的项目有关的信息，包括项目名称、受信任的贡献者的名字、简要描述和链接到代码库或任何支持文件。
+* （可选）虽然大多数组织会选择只在其内部网络上提供他们的门户，但有些组织也会选择在公共互联网上提供他们的门户。后者对于那些想在门户中显示有关其内源方法的额外信息的组织来说可能很有意思，例如出于品牌和招聘的目的。
 
-When launching the portal, a communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should be considered, to bolster the number of projects displayed within the portal.
+在启动门户网站时，应该考虑开展宣传活动，推进大家将内源数据文件或元数据添加到代码库中，以增加门户网站中显示的项目数量。
 
-A [reference implementation](https://github.com/SAP/project-portal-for-innersource) of an InnerSource portal is available on GitHub and open for contributions. It lists all InnerSource projects of an organization in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
+在GitHub上有一个内源门户的[参考实现](https://github.com/SAP/project-portal-for-内源)，并开放众人贡献。它以一种互动和易于使用的方式列出了一个组织的所有内源项目。项目可以通过一个专门的GitHub主题进行自我注册，并提供额外的元数据。
 
-![Example of an InnerSource Portal](../../assets/img/portal-overview.png "Example of an InnerSource Portal")
+![内源门户网站实例](../../../assets/img/portal-overview.png)
 
-## Resulting Context
+## 结果
 
-* The InnerSource Portal has enabled InnerSource project owners to advertise their projects to an organization-wide audience.  Due to this increased visibility they are attracting much larger communities of contributors than ever before.
-* For those looking to get involved in InnerSource projects, the InnerSource Portal has allowed them to discover exactly the kind of opportunities they are interested in by searching across all available InnerSource projects simultaneously based on their specific criteria.
-* Satisfying the needs of both of these audiences has helped establish InnerSource as a viable and attractive option for all areas of the organization to leverage to accomplish things together they could not have separately.
+* InnerSource门户网站使InnerSource项目负责人能够向整个组织的受众宣传他们的项目。 由于曝光度的提高，他们吸引了比以往更大的贡献者群体。
+* 对于那些希望参与InnerSource项目的人来说，InnerSource 门户允许他们根据特定标准同时搜索所有可用的 InnerSource 项目，从而准确发现他们感兴趣的机会类型。
+* 满足供给者和消费者的需求，有助于将内源确立为一个可行的、有吸引力的选择方案，使组织内的所有领域都能利用它来完成他们单独无法完成的事情。
 
-## Known Instances
+## 已知实例
 
-* **A large financial services organization** has used the creation of an InnerSource Portal to provide a mechanism of advertising and discovering InnerSource projects in existence across different business units
-* **SAP** promotes InnerSource projects in the InnerSource Portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6). Its codebase is published as a [reference implementation](https://github.com/SAP/project-portal-for-innersource) and open for contributions.
-* **Elbit Systems** has used this pattern and added gamification on top.
-  * [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
-  * Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
-  * The code realizing this platform has been open sourced and is available at [gitlab.com/gilda2](https://gitlab.com/gilda2)
-* **American Airlines** promotes InnerSource projects via an [internal InnerSource Marketplace](https://tech.aa.com/2020-10-30-innersource/). Similarly to SAP, projects self-register by adding `innersource` as a GitHub topic. Projects are searchable and filterable by language, topics, number of open issues, etc.
-* **Banco Santander** has created a public portal called [Santander ONE Europe InnerSource Community](https://innersourceportal.santander.com/) to support and increase InnerSource adoption. In addition to the catalog of projects the portal includes relevant content such as documentation, way of working, news, and events.
+* **一家大型金融服务机构**利用创建的内源 Portal提供了一个宣传和发现不同业务部门的内源项目的机制。
+* **SAP**在内源 Portal中推广内源项目--项目可以使用GitHub主题自行注册。[代码仓活跃度评分](repository-activity-score.md)定义了内源项目在门户中的默认顺序。也可参见[Michael Graf & Harish B (SAP) at ISC.S11 - 应用内源模式非常规路径]（https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6）。它的代码库以[参考实现](https://github.com/SAP/project-portal-for-内源)的形式发布，并开放给众人贡献。
+* **Elbit Systems**使用了这个模式，并在上面添加了游戏化内容。
+  * [游戏化作为文化变革的手段和内源参与的助推器](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - 波特兰，俄勒冈州
+  * 岛屿、怪兽和内源 [(幻灯片)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(视频)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | 2019年内源春季峰会（爱尔兰，高威）
+  * 实现这一平台的代码已经开源，可在[gitlab.com/gilda2](https://gitlab.com/gilda2)上查阅。
+* **美国航空公司**通过[内部内源 市场](https://tech.aa.com/2020-10-30-内源/)推广内源项目。与SAP类似，项目通过添加`内源`作为GitHub主题进行自我注册。项目可按语言、主题、开放问题的数量等进行搜索和过滤。
+* **Banco Santander**创建了一个名为[Santander ONE Europe 内源 Community]（https://内源portal.santander.com/）的公共门户，以支持和增加内源的采用。除了项目目录外，该门户还包括相关内容，如文档、工作方式、新闻和活动。
 
-![Santander InnerSource Portal](../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
+![Santander 内源门户网站](../../../assets/img/santander_portal.png)
 
-* **Airbus** deployed the [SAP portal](https://github.com/SAP/project-portal-for-innersource) with minor modifications to match Airbus graphical identity. In addition, the [Python crawler](https://github.com/zkoppert/innersource-crawler) was patched to work with GitHub Enterprise instances.
+* **空中客车公司**部署了[SAP门户](https://github.com/SAP/project-portal-for-内源)，并进行了小的修改以符合空中客车公司的图形标识。此外，对[Python爬虫](https://github.com/zkoppert/内源-crawler)进行了修补，以便与GitHub企业实例协同工作。
 
-## References
+## 参考
 
-* The InnerSource Portal pattern has been proven to work extremely well with the associated InnerSource [Gig Marketplace](./gig-marketplace.md) pattern in this context
+* 在这种情况下，内源 门户模式已经被证明与相关的内源 [零工市场](./gig-marketplace.md)模式配合使用效果非常好。
 
-## Status
+## 状态
 
-* Structured
+* 结构化
 
-## Author(s)
+## 作者
 
 * Stephen McCall
 
-## Acknowledgements
+## 致谢
 
 * Shelly Nizri
 * Melinda Malmgren
 * Michael Graf
 * Jesús Alonso Gutierrez
+
+## 翻译校对
+
+* 翻译[姜宁](https://github.com/willemjiang)
+* 校对[安旭](https://github.com/anzipomelo)
