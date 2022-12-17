@@ -74,7 +74,7 @@ In order for the extensions model to be successful, there are few architectural 
    - Create criteria for when an extension can be ported to the primary repository, such as adoption of the extension by internal products and demand for the feature.
    - Porting process of the extension to the primary repository will follow more stringent code review guidelines as set by library maintainers.
 
-![Project extensions](../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
+![Software architecture with extensions](../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
 Following these principles ensures that:
 
@@ -87,7 +87,7 @@ Following these principles ensures that:
 ## Resulting Context
 
 - The project is able to scale with the addition of new features, without adding maintenance overhead on the primary project repository.
-- Faster release of new features and experimental features for the community to explore, encouraging innovation and experimentation.
+- Faster release of new features for the community to explore, encouraging innovation and experimentation.
 - Reduced the costly code review and feature hardening process until the feature is able to prove its utility. This has cost savings benefits for the organization.
 - A post problem that can be introduced - what happens if an extension can not complete the full lifecycle?
    - If an extension is not adopted over a period of time and could not build a community around it to support maintenance, it would be up to the extension owner to continue maintaining it for however long they want to. If an extension is left unmaintained, it would be unpublished.
