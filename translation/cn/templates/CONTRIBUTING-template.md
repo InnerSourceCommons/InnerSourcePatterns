@@ -1,51 +1,37 @@
-# Contributing to ____
+# 向 ____ 做贡献
 
-## Types of contributions
+## 贡献的类型
 
-Provide information on what kinds of contributions your project is looking for
-here. For example these can be bug reports, help with answering user questions,
-improving documentation, fixes to bugs, as well as new feature implementations.
+在这里提供你的项目需要什么样的贡献的信息。例如，这些可以是错误报告，帮助回答用户问题，改进文档，修复错误，以及新功能的实现。
 
-## Bug reports
+## 错误报告
 
-Add information on how to submit bug reports here. This should include
-hints about which type of information the project will need in order to
-reproduce and fix issues. It can also include information on commonly found
-mis-configurations that look like bugs.
+在这里添加关于如何提交错误报告的信息。这应该包括提示项目需要哪种类型的信息，以便重现和修复问题。它还可以包括常见的看起来像bug的错误配置的信息。
 
-Also include information on what contributors can expect in terms of time to
-first response and process after that.
+也可以包括关于贡献者在首次回应和之后的处理方面可以期待的信息。
 
-## Feature requests
+## 功能请求
 
-Add information on how to submit feature requests here. Also include information
-on what contributors can expect in terms of time to first response and process
-after that.
+在这里添加关于如何提交功能请求的信息。也包括关于贡献者在首次回应和之后的处理方面可以期待的信息。
 
-## Contributing documentation
+## 贡献文档
 
-Include information on any documentation best practices your project follows as
-well as how to build documentation, checks to run and how to submit the changes
-made back to the project.
+包括关于你的项目所遵循的任何文档最佳实践的信息，以及如何构建文档、运行检查和如何将所做的修改提交给项目。
 
-## Contributing source code
+## 贡献源代码
 
-This section should contain information on
+本节应包含以下信息
 
-- How to access the project source code,
-- General project layout,
-- Any requirements to the development environment,
-- Code formatting guidelines,
-- How to run the test suite.
+- 如何访问项目的源代码。
+- 一般的项目布局。
+- 对开发环境的任何要求。
+- 代码格式和风格指南。
+- 如何运行测试套件。
 
-## How to become a Trusted Committer
+## 如何成为Trusted Committers
 
-This section should make the process for becoming a Trusted Committer explicit
-if that route is open to contributors.
+如果成为Trusted Committers的途径对贡献者是开放的，那么这一节应该明确解释成为Trusted Committers的过程。
 
-## How to nominate Trusted Committers
+## 如何提名Trusted Committers
 
-This section serves as a reminder to existing and explanation for new Trusted
-Committers detailing how to add others to the host team. Again ideally this
-information is identical for all projects in the organisation so central
-information can be linked to from here.
+这一节是对现有Trusted Committers的提醒，也是向新的Trusted Committers提供详细解释，如何增补其他人到项目拥有者团队中。理想情况下，本信息也应该适用在组织中的所有项目，因此本信息可以作为统一的定义已链接的形式引用。
