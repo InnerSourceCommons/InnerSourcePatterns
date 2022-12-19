@@ -4,7 +4,7 @@
 
 这里应该包含一个关于你的项目使命的简短描述（3-5句话）。其目的是说明项目打算做什么，并帮助外部的贡献者大致了解项目的哪些类型的功能可能会受到欢迎。
 
-参见《生产开源软件》中的[使命宣言篇]（https://producingoss.com/en/producingoss.html#mission-statement）。
+参见《生产开源软件》中的[使命宣言篇](https://producingoss.com/en/producingoss.html#mission-statement)。
 
 ## 快速入门
 
