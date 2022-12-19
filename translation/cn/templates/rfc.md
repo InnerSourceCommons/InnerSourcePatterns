@@ -1,91 +1,85 @@
-# 000-Template
+# 000-模版
 
-- Feature Name: (fill me in with a unique ident, `my_awesome_feature`)
-- Start Date: (fill me in with today's date, YYYY-MM-DD)
-- Nominated owners: (Representatives of technical ownership areas affected by the RFC. This will often be tech leads, but they may delegate. RFCs cannot be accepted until all nominated owners have signed off.)
+- 功能名称。(请填写一个独特的身份，`my_awesome_feature`)
+- 开始日期: (填写今天的日期，YYY-MM-DD)
+- 被提名的负责人：（受RFC影响的技术领域专家代表。这通常是技术负责人，但他们可以委托。在所有被提名的所有者签字之前，RFC不能被接受。）
 
-## Summary
+## 概述
 
-One paragraph explanation of the feature.
+一段对该功能的解释。
 
-## Retrospective
+## 回顾
 
-This section is essential to allow us to learn from the things we are implementing.
+这一部分对于让我们从正在实施的事情中学习是至关重要的。
 
-_When is the retrospective?_
+_什么时候进行回顾？_
 
-[ ] Retro completed?
+[] 复盘完成？
 
-(where/how it will be held, how can people get involved, where are the results?)
+(将在哪里/如何举行，人们如何参与，结果在哪里？)
 
-## Motivation
+## 动机
 
-Why are we doing this? What use cases does it support? What is the expected outcome?
+我们为什么要这样做？它支持什么用例？预期的结果是什么？
 
-## Guide-level explanation
+## 指南级的介绍
 
-Explain the proposal as if it was already existing and you were teaching it to another engineer. That generally means:
+就像在向另一个工程师介绍一个已经存在的提案一样介绍该提案。这通常意味着：
 
-- Introducing new named concepts.
-- Explaining the feature largely in terms of examples.
-- Explaining how engineers should think about the feature. It should explain the impact as concretely as possible.
-- If applicable (eg code/architecture proposal), provide sample error messages, deprecation warnings, or migration guidance.
-- If applicable, describe the differences between teaching this to existing engineers and new engineers.
+- 引入新的命名概念。
+- 用示例来解释主要特点。
+- 解释工程师是如何思考这个功能的。应该尽可能具体地解释其带来的影响。
+- 如果适用的话（例如代码/架构建议），提供错误信息样本、弃用警告信息或迁移指导文档。
+- 如果适用的话，描述向现有的工程师和新的工程师传授这些知识的区别。
 
-For implementation-oriented RFCs, this section should focus on how contributors should think about the change, and give examples of its concrete impact. For policy/process RFCs, this section should provide an example-driven introduction to the policy/process, and explain its impact in concrete terms.
+对于面向实现的RFC来说，这一部分应该关注贡献者应该如何思考这个变化，并举例说明其具体影响。对于政策/流程型RFC，本节应提供一个以实例为导向的政策/流程介绍，并具体解释其影响。
 
-## Reference-level explanation
+## 参考实现级别的介绍
 
-This is the technical portion of the RFC. Explain the design in sufficient detail that:
+这是RFC的技术部分。对设计进行足够详细的介绍，以便
 
-- Its interaction with other features is clear.
-- It is reasonably clear how the feature would be implemented.
-- Corner cases are dissected by example.
+- 它与其他功能的交互是清晰的。
+- 合理地清楚介绍该功能将如何实现。
+- 通过实例剖析如何处理极端情况。
 
-The section should return to the examples given in the previous section, and explain more fully how the detailed proposal makes those examples work.
+该部分应该回到上一节给出的例子，并更充分地详细地解释如何实现这些例子的。
 
-## Drawbacks
+## 缺点
 
-Why should we _not_ do this?
+为什么我们不应该这样做？
 
-## Rationale and alternatives
+## 理由和替代方案
 
-- Why is this design the best in the space of possible designs?
-- What other designs have been considered and what is the rationale for not choosing them?
-- What is the impact of not doing this?
+- 为什么这个设计是可能的设计空间中最好的？
+- 还有哪些设计被考虑过，不选择这些设计的理由是什么？
+- 不这样做的影响是什么？
 
-## Prior art
+## 现有技术
 
-Discuss prior art, both the good and the bad, in relation to this proposal.
-A few examples of what this can include are:
+讨论与本提案有关的现有技术，包括好的和坏的。
+这可以包括几个例子。
 
-- For language, library, tools etc: Does this feature exist in other places and what experience have their community had?
-- For community proposals: Is this done by some other community and what were their experiences with it?
-- For other teams: What lessons can we learn from what other communities have done here?
-- Papers: Are there any published papers or great posts that discuss this? If you have some relevant papers to refer to, this can serve as a more detailed theoretical background.
+- 对于语言、库、工具等。这个功能在其他地方是否存在，他们的社区有什么经验？
+- 对于社区建议。这个功能是否由在其他社区已经实现了，他们在这方面有什么经验？
+- 对于其他团队。我们可以从其他社区所做的事情中吸取什么教训？
+- 论文。是否有任何已发表的论文或有相关的帖子来讨论这个问题？如果你有一些相关的论文可以参考，这可以作为一个更详细的理论背景。
 
-This section is intended to encourage you as an author to think about the lessons from other places, provide readers of your RFC with a fuller picture.
-If there is no prior art, that is fine - your ideas are interesting to us whether they are brand new or if it is an adaptation from other places.
+这一部分的目的是鼓励你作为作者思考其他地方的经验教训，为你的RFC的读者提供更全面的信息。
+如果没有现有技术，那也没关系--你的想法无论是否是全新的，还是从其他地方改编而来，我们都很感兴趣。
 
-## Unresolved questions
+## 未解决的问题
 
-- What parts of the design do you expect to resolve through the RFC process before this gets merged?
-- What parts of the design do you expect to resolve through the implementation of this feature before stabilization?
-- What related issues do you consider out of scope for this RFC that could be addressed in the future independently of the solution that comes out of this RFC?
+- 在提案被接受之前，你希望通过RFC过程来解决哪些部分的设计问题？
+- 在提案酝酿成熟之前，你希望通过实现这个功能来解决哪些部分的设计问题？
+- 你认为哪些相关问题超出了本RFC的范围，可以在未来独立于本RFC的解决方案而得到解决？
 
-## Future possibilities
+## 未来的可能性
 
-Think about what the natural extension and evolution of your proposal would
-be and how it would affect the teams and projects as a whole in a holistic
-way. Try to use this section as a tool to more fully consider all possible
-interactions with the project and teams in your proposal.
-Also consider how the this all fits into the roadmap for the project
-and of the relevant sub-team.
-This is also a good place to "dump ideas", if they are out of scope for the
-RFC you are writing but otherwise related.
-If you have tried and cannot think of any future possibilities,
-you may simply state that you cannot think of anything.
-Note that having something written down in the future-possibilities section
-is not a reason to accept the current or a future RFC; such notes should be
-in the section on motivation or rationale in this or subsequent RFCs.
-The section merely provides additional information.
+思考你的提案的自然延伸和演变是什么，以及它将如何全面地影响团队和项目。
+试着把这一节作为一个工具，更全面地考虑你的提案中与项目和团队的所有可能的相互作用。
+还要考虑这一切如何与项目和相关子团队的路线图相适应。
+这也是一个 "倾倒想法 "的好地方，如果它们超出了你正在写的RFC的范围，但又与之相关。
+如果这些想法超出了你正在写的RFC的范围，但又与之相关，那么这里也是 "抛弃想法 "的好地方。
+如果你已经试过了，却想不出任何未来的可能性。你可以简单地说，你想不出任何东西。
+请注意，在未来可能性部分写下一些东西并不是接受当前或未来RFC的理由；这样的说明应该放在动机或理由部分。
+在这个或以后的RFC中的动机或理由部分。该部分只是提供额外的信息。
