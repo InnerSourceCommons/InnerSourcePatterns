@@ -1,134 +1,140 @@
-## Title
+## 标题
 
-Repository Activity Score
+代码仓活跃度评分
 
 ## Patlet
 
-Potential contributors want to find active InnerSource projects in need of their help. By calculating a repository activity score for each project, a ranked list of projects can be created (e.g. on the [InnerSource Portal](innersource-portal.md)), so that potential contributors can more easily determine which project they want to contribute to.
+潜在的贡献者希望找到需要他们帮助的活跃的内源项目。通过计算每个项目的代码库活跃度评分，可以创建一个项目的排名列表（例如在[内源门户网站](内源-portal.md)上），这样潜在的贡献者可以更容易地确定他们想要贡献的项目。
 
-## Problem
+## 问题
 
-**In which order** shall InnerSource projects be presented? Typical ranking KPIs like *GitHub Stars*, *Number of Forks*, *Number of Commits*, *Lines of Code*,  *Last Update* aren't sufficient to concisely indicate the activity of a project.
+内源项目应以**何种顺序**呈现？典型的排名指标，如*GitHub星数*、*复刻（fork）数*、*提交数*、*代码行*、*最后更新*，都不足以简明地表明项目的活动。
 
-Active projects with a lot of traction, but also fairly new and enthusiastic projects that are in need of new contributors should be ranked higher than matured projects with little activity or in maintenance mode.
+活跃的项目有很多吸引力，但也有相当新的和热情的项目，需要新的贡献者，应该比活动很少或处于维护模式的成熟项目排名更高。
 
-A new metric derived from several KPIs is needed to define a reliable and versatile score for a project's activity level.
-It can be used to sort projects according to their activity level.
+为了给项目的活动水平定义一个可靠的、通用的分数，我们需要一个从几个KPI中得出的新指标。
+它可以被用来根据项目的活动水平进行分类排序。
 
-## Story
+## 故事
 
-When InnerSource is practiced for a long time or scales beyond a certain number of projects (let's say 50 to give a meaningful threshold) it is hard to find the currently most popular and active InnerSource projects. Projects that exist for a long time are well-known but may no longer be very active. Fairly new projects on the other hand don't have a reputation or an active community yet.
+当内源实践了很长时间，或者规模超过了一定数量的项目（比方说50个，给一个有意义的门槛），就很难找到目前最流行和最活跃的内源项目。存在了很长时间的项目是众所周知的，但可能不再是非常活跃的。另一方面，相当新的项目还没有声誉或活跃的社区。
 
-A list of InnerSource projects should not be considered a static resource, but an exciting place to discover and explore new and active projects, just like a news page listing the most interesting topics of the day first. Thus it is beneficial when the order of the projects is regularly updated and changes according to the project's popularity and activity.
+内源项目列表不应该被认为是一个静态资源，而是一个发现和探索新的和活跃的项目的令人兴奋的地方，就像一个新闻页面首先列出当天最有趣的话题一样。因此，当项目的顺序定期更新，并根据项目的受欢迎程度和活动情况而改变时，这是很有好处的。
 
-These considerations led to a first prototype to calculate a repository activity score, which worked surprisingly well and determines an ever-changing order of projects according to their activity.
+这些考虑导致了第一个计算代码库活跃度评分的原型，它的效果出乎意料地好，并根据项目的活动提供不断变化的排名顺序。
 
-## Context
+## 背景
 
-Discovering InnerSource projects can be facilitated with the [InnerSource Portal](innersource-portal.md) and the [Gig Marketplace](gig-marketplace.md) pattern, or by promoting projects on other communication channels and platforms. The activity score defines a default order in which projects are presented to the community.
+发现内源项目可以通过[内源门户网站](innersource-portal.md)和[零工市场](gig-marketplace.md)模式，或者通过在其他交流渠道和平台上推广项目来实现。活跃度评分定义了项目被展示给社区的默认顺序。
 
-## Forces
+## 约束
 
-Automated KPIs that can be fetched by querying the GitHub API are only part of the truth. What about code quality, the availability of good documentation, or an active and helping community that makes the project a fun place to contribute?
+通过查询GitHub的API可以自动获取到和代码开发相关的关键绩效指标。那么如何评价，代码质量、良好文档的可用性，或者使项目成为一个有趣的贡献场所的活跃和互助的社区呢？
 
-Such "soft" KPIs would have to be manually or semi-automatically added to the calculation and the resulting score. If tools exist that provide more context for the repository, like a code coverage reporting, they can easily be worked in.
+这些 "软"的关键绩效指标必须手动或半自动地添加到计算中，并得出分数。如果有工具可以为代码库提供更多的背景，如代码覆盖率报告，它们可以很容易地被加入。
 
-## Sketch
+## 素描
 
-![Ecosystem for the Repository Activity Score](../../assets/img/repository_activity_score.png)
+![代码仓活跃度评分的生态系统](../../../assets/img/repository_activity_score.png)
 
-A centralized approach for calculating and applying the repository activity score. For more details, see [Resulting Context](#resulting-context)
+一个集中的方法来计算和应用代码仓活跃度评分。更多细节，见[结果](#结果)
 
-## Solutions
+## 解决方案
 
-The repository activity score is a numeric value that represents the (GitHub) activity of an InnerSource project. It is derived automatically from repository statistics like GitHub stars, watches, and forks and may be enriched with KPIs from other tools or manual evaluations.
+代码仓活跃评分是一个数值，代表内源项目的（GitHub）活跃度。它是由GitHub星数、关注和复刻等代码仓库统计数据自动得出的，并可以用其他工具或人工评估的KPI来进行补充。
 
-In addition, it considers activity parameters like last update and creation date of the repo to give young projects with a lot of traction a boost.
-Projects with contributing guidelines, active participation stats, and issues (public backlog) receive a higher ranking as well.
+此外，它还考虑了活动参数，如 repo 的最后更新和创建日期，以便为具有大量吸引力的年轻项目提供助力。
+拥有贡献指南、积极参与的统计数据和问题（公共backlog）的项目也会获得更高的排名。
 
-All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://docs.github.com/en/rest/search#search-repositories) and [GitHub statistics API](https://docs.github.com/en/rest/metrics/statistics). Other code versioning systems like BitBucket, Gitlab, Gerrit can be integrated as well if a similar API is available.
+所有这些都可以通过[GitHub搜索API](https://docs.github.com/en/rest/search#search-repositories)和[GitHub统计API](https://docs.github.com/en/rest/metrics/statistics)的结果集来自动获取和计算。如果有类似的API，其他代码版本系统如BitBucket、Gitlab、Gerrit也可以被整合。
 
-The code below assumes the variable `repo` contains an entity fetched from the GitHub `search` API and the `participation` object contains an entity from the GitHub `stats/participation` API.
+下面的代码假设变量`repo`包含一个从GitHub`search`API获取的实体，`participation`对象包含一个来自GitHub`stats/participation`API的实体。
 
-Manual adjustments according to soft KPIs (see [Forces](#forces)) can be made on top if needed.
+如果需要，可以根据软的关键绩效指标（见[约束](#约束)）在上面进行手动调整。
 
 ``` javascript
-// calculate a virtual InnerSource score from stars, watches, commits, and issues
+// 从标星、关注、提交和问题中计算出一个虚拟的内源分数
 function calculateScore(repo) {
-    // initial score is 50 to give active repos with low GitHub KPIs (forks, watchers, stars) a better starting point
+    // 初始分值为50分，作为GitHub KPI（复刻、观察者、标星）较低的活跃仓库一个的起点
     let iScore = 50;
-    // weighting: forks and watches count most, then stars, add some little score for open issues, too
+    // 权重：复刻和关注最多，然后是星标，对没有关闭的问题也加一些小分
     iScore += repo.forks_count * 5;
     iScore += (repo.subscribers_count ? repo.subscribers_count : 0);
     iScore += repo.stargazers_count / 3;
     iScore += repo.open_issues_count / 5;
 
-    // updated in last 3 months: adds a bonus multiplier between 0..1 to overall score (1 = updated today, 0 = updated more than 100 days ago)
+    // 在过去3个月内更新：给总分增加一个0...1的奖励乘数（1=今天更新，0=100天以前更新）
     let iDaysSinceLastUpdate = (new Date().getTime() - new Date(repo.updated_at).getTime()) / 1000 / 86400;
     iScore = iScore * ((1 + (100 - Math.min(iDaysSinceLastUpdate, 100))) / 100);
 
-    // evaluate participation stats for the previous  3 months
+    // 评估过去3个月的参与统计
     repo._InnerSourceMetadata = repo._InnerSourceMetadata || {};
     if (repo._InnerSourceMetadata.participation) {
-        // average commits: adds a bonus multiplier between 0..1 to overall score (1 = >10 commits per week, 0 = less than 3 commits per week)
+        // 平均提交量：为总分增加一个0...1的奖励乘数（1=每周提交量大于10，0=每周提交量小于3）
         let iAverageCommitsPerWeek = repo._InnerSourceMetadata.participation.slice(-13).reduce((a, b) => a + b) / 13;
         iScore = iScore * ((1 + (Math.min(Math.max(iAverageCommitsPerWeek - 3, 0), 7))) / 7);
     }
 
-    // boost calculation:
-    // all repositories updated in the previous year will receive a boost of maximum 1000 declining by days since last update
+    // 加分计算
+    // 所有在前一年更新的资源库都将获得最大1000的加分，并按上次更新后的天数递减
     let iBoost = (1000 - Math.min(iDaysSinceLastUpdate, 365) * 2.74);
-    // gradually scale down boost according to repository creation date to mix with "real" engagement stats
+    // 根据资源库的创建日期，逐步缩小加分的规模，与 "真实 "的参与统计相混合
     let iDaysSinceCreation = (new Date().getTime() - new Date(repo.created_at).getTime()) / 1000 / 86400;
     iBoost *= (365 - Math.min(iDaysSinceCreation, 365)) / 365;
-    // add boost to score
+    // 在总评分中加分
     iScore += iBoost;
-    // give projects with a meaningful description a static boost of 50
+    // 给予有意义的描述的项目以50的静态加分
     iScore += (repo.description?.length > 30 || repo._InnerSourceMetadata.motivation?.length > 30 ? 50 : 0);
-    // give projects with contribution guidelines (CONTRIBUTING.md) file a static boost of 100
+    // 给予有贡献指南（CONTRIBUTING.md）文件的项目以100的静态加分
     iScore += (repo._InnerSourceMetadata.guidelines ? 100 : 0);
-    // build in a logarithmic scale for very active projects (open ended but stabilizing around 5000)
+    // 为非常活跃的项目建立一个对数表（不限，但稳定在5000左右）
     if (iScore > 3000) {
         iScore = 3000 + Math.log(iScore) * 100;
     }
-    // final score is a rounded value starting from 0 (subtract the initial value)
+    // 最终得分是一个从0开始的四舍五入值（减去初始值）
     iScore = Math.round(iScore - 50);
-    // add score to metadata on the fly
+    // 为元数据添加分数
     repo._InnerSourceMetadata.score = iScore;
 
     return iScore;
 }
 ```
 
-## Resulting Context
+## 结果
 
-Contributors are free to commit a part of their time to InnerSource project. They may choose to contribute to a project that they depend on for the work in their regular team anyways. However they may also choose to contribute to something completely different, based on their interests and personal development goals.
+贡献者可以自由地将他们的一部分时间投入到内源项目中。他们可以选择为一个他们在常规团队中依赖的项目做出贡献。然而，他们也可以根据自己的兴趣和个人发展目标，选择为一些完全不同的项目做贡献。
 
-Projects can be sorted and presented by repository activity score to give a meaningful order in a portal presenting projects to potential new contributors. The score can be calculated on the fly or in a background job that evaluates all projects on a regular basis and stores a list of results.
+项目可以按照资源库活动得分进行分类和展示，在向潜在的新贡献者展示项目的门户中给出一个有意义的顺序。分数可以即时计算，也可以在后台工作中计算，定期评估所有项目并存储结果列表。
 
-A crawler that regularly searches all InnerSource repositories (e.g. tagged with a certain [topic](https://github.com/topics) in GitHub) can be a helpful addition as well. It provides a ranked list of projects that can be used as an input for tools like the [InnerSource Portal](innersource-portal.md), a search engine, or an interactive chat bot.
+一个定期搜索所有内源仓库的爬虫（例如在GitHub中被标记为某个[主题](https://github.com/topics)）也可以是一个有用的补充。它提供了一个经过排序的项目列表，可以作为[内源门户](innersource-portal.md)、搜索引擎或互动聊天机器人等工具的输入。
 
-## Rationale
+## 原理
 
-The repository activity score is a simple calculation based on the GitHub API. It can be fully automated and easily adapted to new requirements.
+仓库活跃评分是一个基于GitHub API的简单计算。它可以完全自动化，并容易适应新的需求。
 
-## Known Instances
+## 已知实例
 
-* Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to InnerSourceCommons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
+* 在SAP的内源项目门户中使用，用于定义内源项目的默认展示顺序。它首次创建于2020年7月，此后经常进行微调和更新。在2020年7月向 InnerSource Commons 提出时，出现了这种模式。另见[Michael Graf & Harish B (SAP) at ISC.S11 - 不知不觉实现了一个内源模式]（https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6）。
 
-## Status
+## 状态
 
-* Structured
+* 结构化
 
-## Author(s)
+## 作者
 
 [Michael Graf (SAP)](mailto:mi.graf@sap.com)
 
-## Acknowledgements
+## 致谢
 
-Thank you to the InnerSource Commons Community for lightning-fast advice, and a lot of helpful input to feed this pattern! Especially:
+感谢 InnerSource Commons社区光速提供的建议，以及大量有益的意见，不断完善这个模式。特别感谢：
 
 * Johannes Tigges
 * Sebastian Spier
 * Maximilian Capraro
 * Tim Yao
+
+## 翻译校对
+
+* 翻译[姜宁](https://github.com/willemjiang)
+* 校对[龙文选](https://github.com/hncslwx)
+  
