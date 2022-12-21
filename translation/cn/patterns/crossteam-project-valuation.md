@@ -1,108 +1,112 @@
-## Title
+## 标题
 
-Cross-Team Project Valuation
+跨团队的项目评估
 
 ## Patlet
 
-It's hard to sell the value of cross-team InnerSource projects that don't provide a direct impact on company revenue.
-Here's a data-driven way to represent your project that both articulates its value and amplifies it.
+要推销跨团队的内源项目的价值是很难的，因为这些项目并没有对公司的收入产生直接影响。
+这里有一个数据驱动的方法来展示和凸显你的项目价值。
 
-## Context
+## 背景
 
-* You are responsible for a cross-team that serves as a platform for others in the company.
-* The cross-team project does not deliver any direct value for company revenue.
+* 你负责一个跨团队项目，为公司其他团队提供平台服务。
+* 这种跨团队的项目并没有为公司的收入带来任何直接的价值。
 
-## Problem
+## 问题
 
-Cross-team projects can potentially have a very large impact on the company yet are difficult to represent in a data-driven fashion.
-As a result, it is easy and common to either pursue projects that does not provide real value or to underfund what would otherwise produce great value.
+跨团队的项目有可能对公司产生非常大的影响，但很难用数据驱动的方式来表示。
+因此，在不提供真正价值的项目中耗费很多精力或对本来会产生巨大价值的项目投资不足是一种非常容易产生和普遍的现象。
 
-## Forces
+## 约束
 
-* Projects need to show value (objective or subjective) to company leadership in order to be funded.
-* Cross-team project value is dispersed across multiple end business units.
-* Due to this dispersal, cross-team project value is difficult to measure directly.
+* 项目需要向公司领导展示价值（客观或主观）以获得资金支持。
+* 跨团队的项目价值分散在多个终端业务部门。
+* 由于这种分散性，跨团队项目的价值很难直接衡量。
 
-## Solution
+## 解决方案
 
-Set in place a pattern and model of how to value cross-team projects.
-Such models give us the tool that we need to focus and amplify high-value collaboration for the company.
+定义一个如何评估跨团队项目价值的模式和模型。
+这种模式给我们提供一个需要关注和放大公司的高价值合作的工具。
 
-The core of all cross-team project value is the idea that we can get more done together than apart.
-Ascribing value to a cross-team effort is an exercise in quantifying _how much more_ is getting done together.
-The exact delta in productivity will vary by domain and project.
-There is a common process, by which you can create a model to calculate it.
+所有跨团队项目价值的核心是，我们可以一起完成比分头行动更多的工作。
+衡量一个跨团队的工作价值是一个量化大家一起完成的工作 _怎么就更多_ 的练习。
+不同的领域和项目的生产效率存在差距。
+有一个常见的流程，你可以用它来创建一个模型，用来计算这个协同带来的价值。
 
-### Explanation
+### 解释
 
-Assemble a small team of subject matter experts in your domain.
-Using that team of experts, estimate 4 things about each consumer of your project output:
+组建一个由你的领域内的相关专家组成的小团队。
+利用这个专家团队，对使用你项目的每个消费者进行4个方面的估计：
 
-* How long does it take them to consume your project output?
-* How long would it otherwise take them to home-roll the value of your project output for themselves?
-* What percentage of your project output is actually useful for them?
-* How much time on an ongoing basis (ideally per-use) would they otherwise spend maintaining their home-rolled solution?
+* 他们需要多长时间来消费你的项目产出？
+* 如果一切都靠他们自己来实现，他们需要多长时间才能实现和你项目一样的功能？
+* 你的项目产出中有多大比例对他们来说是有用的？
+* 如果不这样做，他们会花多少时间（每个用户）来维护他们自己的解决方案？
 
-When making these estimations, it's impossible to know with high accuracy _exactly_ how long any activities take.  That's not your goal.
-Rather than exactness, you should strive to _**set a worst-case bound**_ on these estimates.
-The idea is for the group of experts to be able to say to each other, "We don't know exactly how long it would take, but we can all agree it's _at least_ this much."
-Specifically, you should estimate a _maximum_ reasonable time to consume your project output and _minimum_ reasonable times for consumers to otherwise home-roll, use and maintain their own solutions.
+在进行这些估计时，不可能高度准确地知道任何活动需要多长时间。 这不是你的目标。
+与其说是准确，不如说你应该努力为这些估算_**设定一个最坏情况下的界限**_。
+我们的想法是让专家组能够达成一致："我们不知道到底要花多长时间，但我们都同意至少要花这么多时间"。
+具体来说，你应该估计出使用你的项目的_最大_合理时间，以及消费者如果自制、使用和维护他们自己的解决方案的_最小_合理时间。
 
-One note about cost of "rolling your own solution" (home-roll).  The cost to home-roll a solution is NOT necessarily (very unlikely, in fact) the same as the cost of making a shared solution.
-Oftentimes for the same functionality the modularity and quality involved in building a cross-team, shared solution makes it a noticeably higher investment than a quick, hardcoded implementation used just once.
+关于 "实现你自己的解决方案"（home-roll）的成本的一个说明。 自研解决方案的成本不一定（事实上不太可能）与制作一个共享解决方案的成本相同。
+通常情况下，对于相同的功能，建立一个跨团队的共享解决方案所涉及的模块化和质量的投入明显高于只使用一次的快速、硬编码的实现。
 
-### Formula
+### 公式
 
-Once you have your worst-case bounds you can value your cross-team project output during a given time frame via the simple formula:
+一旦你有了最坏情况的界定，你就可以通过简单的公式来评估你在给定时间内的跨团队项目产出。
 
 ```
-[Time Saved] - [Time Invested]
+[节省的时间] - [投入的时间] 
 
-([Count of New Onboardings] * [Cost to Home-Roll] * [Percent Useful Functionality] + [Count of Usages] * [Maintenance Cost Per Use]) - ([Count of New Onboardings] * [Cost to Onboard])
+([新用户数] * [自研成本] * [有用功能百分比] + [使用次数] * [每次使用的维护成本]) - ([新用户数] * [用户入门成本])
 
-[Count of New Onboardings] * ([Cost to Home-Roll] * [Percent Useful Functionality] - [Cost to Onboard]) + [Count of Usages] * [Maintenance Cost Per Use]
+[新用户数] * ([自研成本] * [有用功能百分比] - [用户入门成本]) + [使用次数] * [每次使用的维护成本] 
 ```
 
-### Commentary
+### 评论
 
-Despite the trappings of rigor, this process does not yield an exact way to measure cross-team project output.
-In-practice, however, it does give a framework by which you can make a sound decision at how to fund this work.
-After having good, reasonable data according to the above explanation, you should fund dedicated development hours toward running the project up to _**at least**_ of the lesser of the following three levels:
+尽管有严谨的外表，这个过程并没有给出衡量跨团队项目产出的确切方法。
+然而，在实践中，它确实提供了一个计算框架，你可以据此对如何资助这个项目做出合理的决定。
+根据上面的解释，在有了好的、合理的数据之后，你应该运作项目投入专门的开发时间，投入_**至少**_要达到以下三个层面中的较小者。
 
-1. The raw hours saved by the formula above.  Since we're all sure that the formula will produce a number that is below the true number of hours saved, you can have confidence that funding the project up to that point is a sure win for you.
-1. The amount of time that it takes to support inner sourced contributions to cross-team projects.  Since the contributor would likely have done the work anyway in a one-off fashion, it is worth it to fund the time it takes to facilitate their work going into a shared location.
-1. Whatever feels good to you.  One intentional side effect of having a valuation formula is that it naturally forces measurement of the key points of usage that provide value to consumers.
+1. 通过上述公式节省的原始时间。 既然我们都确信这个公式会产生一个低于真实节省的小时数的数字，你就可以有信心，就项目投入到节省的时间，对你来说是稳赚的。
+1. 支持内源性贡献给跨团队项目所需的时间。 由于贡献者很可能会以一次性的方式完成工作，所以资助他们的工作以达到协同工作所需的时间是值得的。
+1. 只要你觉得好就行。拥有一个估值公式的一个有益的副作用是，它自然会迫使大家对项目消费者提供价值的关键使用点进行测量。
 
-Those measurements can be understood and consumed in their raw form to provide you with a gut-feel idea of how valuable is the project.
+通过理解这些测量结果，并以其原始形式进行使用，那你就可以得到一个关于项目有多大价值的直觉想法。
 
-Some may be concerned about the lack of accuracy in this valuation approach.  It's okay for this process to not give an exact measurement.  It just needs to be accurate enough to accomplish 2 purposes:
+有些人可能会担心这种评估方法缺乏准确性。 虽然这个过程不能给出一个非常准确的测量结果，但它只需要在两个方面提供足够准确评估：
 
-1. Give a means to represent the value of what is happening to those that are organizing and funding cross-team efforts.
-1. Help those involved to know what areas of cross-team effort are higher priority to pursue based on their value.
+1. 为那些组织和资助跨团队工作的人提供一种展示正在发生的价值的手段。
+1. 帮助那些参与者根据价值的优先级明确跨团队工作的哪些领域是值得追求的。
 
-In-practice, as long as these valuations are within an order-of-magnitude of reality and one-another, they are sufficiently accurate to fill these purposes.
-They will provide a head-and-shoulders improvement in on-the-ground results over the ad-hoc valuations (and resultant effects) described in the **Problem** section at the beginning of this document.
+在实践中，只要这些价值是在现实和彼此之间的一个数量级内，它们就足够准确，并满足这些目的。与本文开头的**问题**部分所描述的临时评估（以及由此产生的影响）相比，它们将在实际结果中提供一个从源头入手的改进。
 
-## Resulting Context
+## 结果
 
-* Data-driven means to discuss the value and funding of the cross-team project with leadership.
-* Key metrics around the cross-team project instrumented in raw form.
-* Defining how the cross-team project provides value tends to lead to it actually producing greater value for the company.
-* Generally-successful project and "buzz" around it.
+* 用数据驱动的方式与领导层讨论跨团队项目的价值和资金。
+* 围绕跨团队项目的关键指标，以原始形式进行检测。
+* 定义跨团队项目所提供的价值，可能导致它实际上为公司产生更大的价值。
+* 推动更多项目成功，并且不断宣传这些成功项目。
 
-## Known Instances
+## 已知实例
 
 * Nike
 
-## Status
+## 状态
 
-* Structured
-* Proven in multiple domains.
+* 结构化
+* 在多个领域得到证实。
 
-## Authors
+## 作者
 
 * Russ Rutledge
 
-## Acknowledgement
+## 致谢
 
-* Jeremiah Wright for teaching me to think about cross-team projects as an internal business dealing in the currency of developer time.
+* Jeremiah Wright教我把跨团队项目看作是以开发者时间为货币的内部业务。
+
+## 翻译校对
+
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对[龙文选](https://github.com/hncslwx)
