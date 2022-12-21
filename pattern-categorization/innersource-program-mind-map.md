@@ -121,3 +121,9 @@
 #### Lack of open source knowledge
 
 ##### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)
+
+### Technical Challenges
+
+#### Increasing maintenance overhead
+
+##### [Extensions for Sustainable Growth](https://patterns.innersourcecommons.org/p/extensions-for-sustainable-growth)
