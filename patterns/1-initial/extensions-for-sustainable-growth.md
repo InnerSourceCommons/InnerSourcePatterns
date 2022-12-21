@@ -1,23 +1,43 @@
 ## Title
 
-Extensions to Manage Contributions at Scale
+Extensions for Sustainable Growth
 
 ## Patlet
 
-An InnerSource project is receiving too many contributions, making maintenance difficult and resulting in a large code review backlog or premature rejection of new feature contributions. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.
+An InnerSource project is receiving too many contributions, making maintenance difficult. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.
 
 ## Problem
 
-As the number of new feature contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. How do we allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
+As the number of contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. This results in a large code review backlog or premature rejection of new feature contributions.
+
+How can the host team allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
+
+## Story
+
+There is a strategic project that aims to collect the best innovations within a domain space to one common stack, allowing reuse of a common infrastructure and providing a standard user experience. Through InnerSource, various teams in the organization that work within the domain space get an opportunity to collaborate and contribute their innovations to the common codebase.
+
+However, a large number of contributions in parallel from several developers is making maintenance of the codebase difficult. This is adding a huge burden on the project maintainers who assume ownership over the code quality standards and enable the community through various forms of communication.
+
+Project maintainers are at risk of burnout due to:
+
+- Everlasting backlog of pull requests from contributors that need to be reviewed.
+- Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
+- Perceived lack of accomplishment: Not all contributed features have adequate user demand and result in consequent adoption.
+- Time consuming releases: More features in the codebase results in long running tests.
+- Increase in maintenance activities: More bugs raised as new capabilities are added.
+
+A lot of time is spent on maturing every new feature contribution, before potential users even get an opportunity to explore the feature for their use cases. If it turns out that new feature isn't fulfilling the use case, then all that time spent on achieving the desired code quality standards are waste.
 
 ## Context
 
-- More employees are contributing to a strategic InnerSource codebase, which is scaling rapidly with new feature contributions. This is adding a huge code review burden on a smaller group of maintainers, resulting in a backlog of feature contributions as well as slowing down release of new capabilities.
-- With the high volume of new capabilities being added, the organization is investing large amounts of time on code review cycles to harden the capabilities before release.  Not all of these capabilities gain adoption as they may not serve an internal use case.
-- Adding an excessive number of capabilities and code to the strategic repository is making it difficult to maintain.
-- As the maintainers cannot keep up with feedback to the contributors and code reviews anymore it creates a growing backlog of new features and ideas for the project which has scaled.
+- A strategic InnerSource codebase is scaling rapidly with new feature contributions from several employees.
+- The ratio of reviewers to contributions results in a growing backlog of pull requests. This is slowing down release of new features to the community.
+- Quality of the codebase is degrading and user experience is adversely impacted.
+- Maintainers of the codebase are burdened and cannot keep up with the influx of contributions and increased community support.
+- Some of the contributed features are not gaining adoption by users, and might even turn fully dormant. However even though they are unused, these features are still adding to the maintenance overhead.
+- Organization is investing heavily in hardening of new feature contributions to retain quality standards before the ideas are explored by the community.
 - The pattern applies in either scenario:
-   - Maintainers find themselves rejecting new feature ideas to narrow down the scope of the products. This is hampering innovation in the community and restricting further expansion.
+   - Maintainers find themselves rejecting new feature ideas to narrow down the scope of the project. This is hampering innovation in the community and restricting further expansion.
    - To reduce backlog, new features are getting released without thorough documentation, hardening, or testing, creating a poor user experience. This is also bloating the size of the codebase, adding a huge dependency graph and making it difficult to maintain.
 
 ## Forces
@@ -28,7 +48,7 @@ As the number of new feature contributions to a mature InnerSource repository ra
 
 ## Solutions
 
-Allowing extensions/plugins to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
+Allowing [extensions/plugins](https://en.wikipedia.org/wiki/Extensibility) to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
 
 Extensions provide a filter for new capabilities that may eventually move into the core of the project. Extensions also act as an incubation and community hardening environment, allowing for much of that hardening to happen organically rather than in a costly review process.
 
@@ -54,18 +74,20 @@ In order for the extensions model to be successful, there are few architectural 
    - Create criteria for when an extension can be ported to the primary repository, such as adoption of the extension by internal products and demand for the feature.
    - Porting process of the extension to the primary repository will follow more stringent code review guidelines as set by library maintainers.
 
-Following the principles outlined above ensures that:
+![Software architecture with extensions](../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
-- The addition of the extensions pattern with easy to use templates enables developers to add new features to a project's ecosystem without requiring them to write large amounts of boilerplate code.
-- Extensions are discoverable in a repeatable manner to all users of the primary project; just because code doesn't live in the main repository yet does not mean it is not valuable.
+Following these principles ensures that:
+
+- Developers can add new features to a project's ecosystem without requiring them to write large amounts of [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) code.
+- Extensions are discoverable in a repeatable manner by all users of the primary project; just because code doesn't live in the main repository yet does not mean it is not valuable.
 - The maintainer burden is reduced until an extension has demonstrated that it fills an important gap in the primary project.
 - The core project's common code (e.g. base classes and utility functions) can be a starting point for new development that extends project's domain. This avoids the need to port innovative work after-the-fact, thus reducing the overall burden of developing novel features for the project.
 - Developers are more likely to contribute and stay involved in maintenance and building communities for their codebase, which is also good for the health of the overall project ecosystem.
 
 ## Resulting Context
 
-- The project is able to scale with the addition of new features, without adding a maintenance overhead on the primary project repository.
-- Faster release of new features and experimental features for the community to explore, encouraging innovation and experimentation.
+- The project is able to scale with the addition of new features, without adding maintenance overhead on the primary project repository.
+- Faster release of new features for the community to explore, encouraging innovation and experimentation.
 - Reduced the costly code review and feature hardening process until the feature is able to prove its utility. This has cost savings benefits for the organization.
 - A post problem that can be introduced - what happens if an extension can not complete the full lifecycle?
    - If an extension is not adopted over a period of time and could not build a community around it to support maintenance, it would be up to the extension owner to continue maintaining it for however long they want to. If an extension is left unmaintained, it would be unpublished.
@@ -73,7 +95,11 @@ Following the principles outlined above ensures that:
 
 ## Known Instances
 
-**IBM Corporation** has adopted this solution to scale InnerSource AI libraries. Using extensions, developers are able to extend AI libraries with more algorithms and share their innovations with the community. The core libraries only contain strategic algorithms that have been adopted and validated, keeping them easier to maintain as we scale contributions.
+* **IBM Corporation** has adopted this solution to scale [InnerSource AI libraries](https://youtu.be/Lz-tIc2cyRM). Using extensions, developers are able to extend AI libraries with more algorithms and share their innovations with the company-internal community. The core libraries only contain strategic algorithms that have been adopted and validated, keeping them easier to maintain as we scale contributions.
+
+## Alias
+
+Extensions to Manage Contributions at Scale
 
 ## Status
 
