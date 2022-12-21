@@ -103,7 +103,7 @@ Extensions to Manage Contributions at Scale
 
 ## Status
 
-Initial
+Structured
 
 ## Author(s)
 
