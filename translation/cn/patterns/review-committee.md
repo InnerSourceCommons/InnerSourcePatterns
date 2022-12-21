@@ -1,57 +1,62 @@
-## Title
+## 标题
 
-Review Committee
+评审委员会
 
 ## Patlet
 
-The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarise themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.
+对于开发人员和管理人员来说，内源的工作模式与更多的传统方法截然不同。通过建立一个评审委员会，作为内源计划和所有参与该计划的业务部门高级管理人员之间的接口，后者更有可能更加熟悉并支持该计划，因为评审委员会为他们提供了一定程度的监督和控制，而不会助长微管理。
 
-## Problem
+## 问题
 
-Managers will perceive the InnerSource working model as a radical departure from the working models they are accustomed to and have experience with. As a consequence, it is likely that they will either reject or micro manage the InnerSource initiative in order to try to minimize the perceived risk of this change. In both cases, the benefits of InnerSource can not be realized. As a result, InnerSource is subsequently discredited.
+管理人员会认为内源的工作模式与他们习惯的和有经验的工作模式有很大的不同。因此，他们很可能会拒绝内源计划，或对其进行微观管理，以尽量减少这种变化所带来的风险。在这两种情况下，内源的好处都无法实现。结果是，大家都不相信内源能够成功实施。
 
-## Context
+## 背景
 
-Company A wants to introduce its first InnerSource initiative. Most managers in company A are not familiar with the Open Source working model and are instead accustomed to hierarchical, top-down control style management.
+A公司想引进它的第一个内源计划。A公司的大多数经理都不熟悉开放源码的工作模式，而是习惯于等级制度、自上而下的控制式管理。
 
-## Forces
+## 约束
 
- - The more perceived control a manager has over the work in the InnerSource initiative, the more likely it is that she or he will support the initiative without prior experience.
- - The less experience a manager has with the open source working model the more likely it is that she or he will want to control the risk of the initiative.
- - The more heavy handed and micro managerial InnerSource initiatives are managed, the less likely it is that the open source working model can be adopted to the required extent. As a result, the benefits of InnerSource will not be realized.
+ - 管理者对 内源 计划中的工作的控制感越强，就越有可能在没有经验的情况下支持该计划。
+ - 管理者对开源工作模式的经验越少，就越有可能希望控制内源 计划的风险。
+ - 对内源计划的管理越严厉、越微观，开源工作模式就越不可能被广泛采纳。因此，内源的好处将无法实现。
 
-## Solution
+## 解决方案
 
-- Establish a review committee comprised of senior managers of all business units which participate in the InnerSource initiative.
-- The review committee members are given the authority to decide as a group which InnerSource projects will receive support in general and funding in particular.
-- Applicants can be elected by review committee members before meetings to present their proposed InnerSource project during review committee meetings for consideration.
-- Leaders of InnerSource projects currently funded by the review committee are obliged to report on the status of their project during every review committee meeting.
-- Review committee members are obliged to provide constructive feedback to both new applicants and current project leaders during review committee meetings.
-- Every InnerSource project is to be given the chance to react to feedback received on one session of the review committee until the next session in order to avoid shutting down the project prematurely.
-- An InnerSource project leader can also present the motion to be shut down on its own initiative on a review committee. The review committee then has to decide whether or not the business units using the software need to be given time to put measures in place to ensure that development and/or maintenance of the codebase continues until an alternative solution to development by the InnerSource community is found (if business relevant or mission critical).
-- The review committee should convene regularly. A cadence of two meetings per year has proven successful.
+- 建立一个评审委员会，由参与内源计划的所有业务单位的高级管理人员组成。
+- 评审委员会成员有权以集体评议的方式决定哪些内源项目将获得通用资源的支持，特别是资金。
+- 申请人可以在会议前被评审委员会成员推选，在评审委员会会议期间提出其拟议的内源项目供评审。
+- 目前由评审委员会资助的 内源 项目的负责人有义务在每次评审委员会会议上汇报其项目的情况。
+- 评审委员会成员有义务在评审委员会会议期间向新申请人和现有项目负责人提供建设性的反馈意见。
+- 每个内源项目都要有对评审委员会会议上收到的反馈做出反应的机会，直到下一次会议，以避免过早地关闭项目。
+- 内源项目负责人也可以在评审委员会上主动提出要关闭的项目的动议。然后，评审委员会要决定是否需要给使用该软件的业务部门时间来制定措施，以确保代码库的开发和/或维护继续进行，直到找到内源社区开发的替代解决方案（如果与业务相关或任务关键）。
+- 评审委员会应定期举行会议。事实证明，每年召开两次会议是成功的。
 
-![Review Committee Sketch](../../assets/img/review-committee-sketch.jpg)
+![评审委员会草图](../../../assets/img/review-committe-sketch.jpg)
 
-## Resulting Context
+## 结果
 
-- Managers apply a tool they are comfortable with to InnerSource in order to get the required amount of information about and control over the inner workings of the InnerSource initiative. This familiarity will make it more likely for them to sign off on the InnerSource initiative and grant the required degree of freedom for InnerSource projects.
-- Developers can still self organize to a sufficient degree. Micro management does not happen because the review committee convenes rather infrequently.
+- 管理者将他们熟悉的工具应用于内源，以获得所需的关于内源计划内部运作的足量信息和控制权。这种熟悉程度将使他们更有可能签署内源计划，并给予内源项目所需的自由度。
+- 开发人员在一定程度上仍然有自组织的空间。微观管理不会发生，因为评审委员会召开的频率相当低。
 
-## Known Instances
+## 已知实例
 
 * BIOS at Robert Bosch GmbH
 
-## Status
+## 状态
 
-* Structured
-* _Finalized and Reviewed_ as of 8/31/17.
+* 结构化
+* 截至17年8月31日，_已定稿和评审完毕_。
 
-## Authors
+## 作者
 
 - Georg Grütter, Robert Bosch GmbH
 - Diogo Fregonese, Robert Bosch GmbH
 
-## Alias
+## 别名
 
-Cheese Interface
+奶酪接口(Cheese Interface)
+
+## 翻译校对
+
+- 翻译[姜宁](https://github.com/willemjiang)
+- 校对[龙文选](https://github.com/hncslwx)
