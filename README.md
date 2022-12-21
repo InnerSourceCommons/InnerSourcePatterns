@@ -55,7 +55,7 @@ Our mission
 * [Start as an Experiment](patterns/2-structured/start-as-experiment.md) - *Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.*
 * [Core Team](patterns/2-structured/core-team.md) - *Even when an InnerSource project is widely needed, contributions and usage may be hindered because the project is difficult to work with. Establish a core team that is dedicated to take care of the project's fundamental items. Their work enables contributors to add and use the features that provide value to their scenarios.*
 * [Document your Guiding Principles](patterns/2-structured/document-your-guiding-principles.md) - *The usual InnerSource explanation of "applying open source best practices inside an organisation" does not work well with people lacking an open source background. As a remedy the most important principles of InnerSource get documented and published widely.*
-* [Extensions for Sustainable Growth](/patterns/2-initial/extensions-for-sustainable-growth.md) - *An InnerSource project is receiving too many contributions, making maintenance difficult. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.*
+* [Extensions for Sustainable Growth](/patterns/2-structured/extensions-for-sustainable-growth.md) - *An InnerSource project is receiving too many contributions, making maintenance difficult. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.*
 
 ### Maturity Level 1: Initial
 
