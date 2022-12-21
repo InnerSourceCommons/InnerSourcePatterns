@@ -1,83 +1,88 @@
-## Title
+## 标题
 
-Praise Participants
+不要吝啬对参与者的夸奖
 
 ## Patlet
 
-After an inner source contribution, it's important to thank the contributor for their time and effort.
-This pattern gives guidance that not only effectively acknowledges the contribution but also engenders further engagement from the contributor and others.
+及时感谢贡献者对内源项目贡献的时间和付出是很重要的。
+这种模式不仅提供了有效地承认了贡献的指导，而且还吸引贡献者和其他人的进一步参与。
 
-## Problem
+## 问题
 
-How can we properly express our gratitude to a contributor for their inner source contribution to a project?
-It can be easy to forget to do so or not know the words or medium to use for adequate effect and sincerity.
-Praise and thanks are easy, affordable ways to keep contributors and their managers motivated and excited to continue.
-A pattern in this area makes it easy to do and ensures that the message comes across clearly and sincerely.
+我们怎样才能正确地表达我们对贡献者对项目的内源贡献的感谢？
+我们很容易忘记这样做，或者不知道该用什么样的语言或方式来达到足够的效果和诚意。
+赞扬和感谢是简单的、低成本的方法，可以激励贡献者和他们的经理保持持续贡献动力。
+这方面的模式使赞扬很容易做到，并确保信息能清晰和真诚地传达出来。
 
-## Context
+## 背景
 
-* You are the [Trusted Committer](./trusted-committer.md) or maintainer on an inner source project.
-* You value the community of contributors and want to maintain and grow it.
+* 你是[Trusted Committer](./trusted-committer.md)或内源项目的维护者。
+* 你重视贡献者的社群，并希望维护和发展它。
 
-## Forces
+## 约束
 
-* You are busy, which makes it easy to forget some soft touches like praise and thanks.
-* You may not be someone that is comfortable in social situations or good with words.
-* Peer recognition is very important to job satisfaction and career development.
+* 你很忙，这使得你很容易忘记一些柔软的能触动人心的表达，例如赞美和感谢。
+* 你可能不是一个在社交牛人或善于言辞的人。
+* 同行的认可对工作满意度和职业发展非常重要。
 
-## Solutions
+## 解决方案
 
-It feels good to anyone to be recognized by others.
-In a professional setting, increased recognition is also an avenue to increased influence and growth.
-Any time someone gives to your inner source project, recognize them with a sincere and qualified "thank you".
+对任何人来说，被他人认可的感觉都很好。
+在职业环境中，增加认可也是增加影响力和成长的途径。
+任何时候，当有人为你的内源项目做出贡献时，请用一句真诚的、沉甸甸的 "谢谢 "来认可他们。
 
-For non-trivial contributions (all code contributions and significant time contributions), say thank you via the following mechanisms:
+对于有价值的贡献（所有的代码贡献和重要的时间贡献），通过以下机制说谢谢。
 
-(1) Call out the person by name in any chat location (e.g. _Slack_) where you organize your project activity.  Let everyone know what they did and thank them publicly.  
+(1) 在你组织项目活动的任何聊天地点（例如_Slack_），叫出这个人的名字。 让大家知道他们做了什么并公开感谢他们。
 
-Example:
+示例：
 
-> Everyone @here give a high-five to @andrew.clegg for updating the _rcs-viewer_ to the latest version of the _hebo-client_ (https://github.com/rcs/rcs-viewer/pull/81).
-Thanks for helping keep this library up-to-date, Andy!
+> 每个人都@这里给@andrew.clegg击掌，因为他把_rcs-viewer_更新到_hebo-client_的最新版本（https://github.com/rcs/rcs-viewer/pull/81）。
+谢谢你帮助更新这个库，Andy!
 
-(2) Email them and their manager (cc'd) privately thanking them for the contribution.
-For code contributions often-times you can just forward the merge notification mail.
+(2) 给他们和他们的经理（抄送）发邮件，感谢他们的贡献。
+对于代码贡献，很多时候你可以直接转发合并通知邮件。
 
-Example:
+示例：
 
-> Hi, Andy, I want to thank you again for making this update.
-It may have been a small amount of time, but it's attention like this from each person that make the RCS project work for all of us.
-Thanks for solving your own problem in a way that also makes the _rcs-viewer_ better for everyone.
+> 嗨，安迪，我想再次感谢你的这次更新。
+这可能只是一小部分时间，但正是每个人这样的关注才使得RCS项目为我们所有人工作。
+感谢你解决了自己的问题，同时也使_rcs-viewer_更加好用。
 
-## Resulting Context
+## 结果
 
-Feedback like this leaves the contributor with a fantastic feeling and ready to come back for more.
-Combining **both** forms of thanks gives them recognition in front of their peers (breadth) and in front of their direct manager (depth).
-There's a subtle encouragement for those peers in chat to consider contributing themselves and for that manager to look for appropriate circumstances to encourage their other direct reports to do the same.
-Additionally, awareness of the inner source project spreads to the manager, who may have previously not known of the team's use and involvement with it.
+这样的反馈让贡献者有一种奇妙的感觉，并准备回来继续努力。
+**同时**结合两种形式的感谢，让他们在同行面前（广度）和在直接经理面前（深度）得到认可。
+在聊天中，有一种微妙的鼓励，让那些同行考虑自己做出贡献，也让那个经理寻找适当的环境，鼓励他们的直接报告下属也这样做。
+此外，不知道团队已经开始的使用和参与内源项目的经理也会了解到内源项目的进展。
 
-One caveat - keep it real.
-Make sure that your words stem from the sincere thanks that you feel inside for what they've done.
-Keep the level and verbosity of praise appropriate to their level of involvement.
-Overdoing it may feel insincere and mechanical and defeat your purpose in reaching out.
+有一点需要注意的是--保持真实。
+确保你的话来自于你内心对他们所做的事情的真诚感谢。
+保持赞美的水平和言辞与他们的参与程度相称。
+过度的赞美可能会让人觉得不真诚和机械，并使你寻求援手的目的落空。
 
-## Related Patterns
+## 相关模式
 
-* _Just Say Thanks_ (from the book [_Fearless Change_](https://fearlesschangepatterns.com/))
+* _只是说声谢谢_（摘自《_无畏的改变_》一书）（https://fearlesschangepatterns.com/）
 
-## Known Instances
+## 已知实例
 
 * Nike (multiple projects)
 
-## Status
+## 状态
 
-* Structured
+* 结构化
 
-## Author(s)
+## 作者
 
 * Russ Rutledge
 
-## Acknowledgements
+## 致谢
 
-* [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real".
-* [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of a "qualified" thank you.
+* [Todd Lisonbee](https://github.com/tlisonbee)，鼓励 "保持真实"。
+* [Isabel Drost-Fromm](https://github.com/MaineC)为"合格 "感谢进行的[这个额外的解释](https://youtu.be/h3MPewsk5PU?t=357) 。
+
+## 翻译校对
+
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [谭中意](https://github.com/tanzhongyi003)
