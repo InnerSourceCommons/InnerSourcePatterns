@@ -1,69 +1,69 @@
-## Title
+## 标题
 
-Start as an Experiment
+以实验的方式开始
 
 ## Patlet
 
-Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.
+将内源实践倡议作为一个有时间限制的实验开始，使不熟悉内源的管理人员更容易认可和支持该倡议。
 
-## Problem
+## 问题
 
-An InnerSource initiative is considered but not started because management is unsure about its outcome and, as a result, is not willing to commit to an investment.
+一项内源倡议被考虑但没有开始实施，因为管理层对其结果没有把握，因此不愿意承诺投资。
 
-## Context
+## 背景
 
-The company is considering InnerSource to increase the efficiency of collaboration on software projects. However, most managers are not familiar with the Open Source working model and are instead accustomed to hierarchical, top-down control style management. The idea of InnerSource is very popular with software developers in the company, not the least because many developers use or are actively developing Open Source software.
+该公司正在考虑采用内源来提高软件项目开发的协作效率。然而，大多数管理人员并不熟悉开放源码的工作模式，而是习惯于等级制度、自上而下的控制式管理。内源的想法在该公司的软件开发人员中非常流行，这主要是因为许多开发人员使用或正在积极开发开源软件。
 
-## Forces
+## 约束
 
-- Managers will want to validate the claims of improved collaboration through InnerSource before making a long term investment. This usually involves measuring the improvements.
-- If the InnerSource initiative will likely have a huge uptake among developers and if many projects are likely to rely on it, a decision to shut it down will be very unpopular and therefore hard to make. The perceived resulting loss of control might deter some managers to even start with InnerSource.
-- Implementing InnerSource style working models are often a radical departure from previously practiced working models. It is therefore likely, that existing, mandatory processes are no longer applicable and that appropriate governing processes are missing. The result might be that one has to operate in a regulatory, sometimes legal no-mans land. Examples are tax and export control related regulations in large corporations with multiple legal entities in multiple countries.
+- 在进行长期投资之前，管理人员希望验证通过内源改善协作的说法。这通常涉及到对协作改进的测量。
+- 如果内源计划在开发者中可能有巨大的接受度，如果许多项目可能依赖它，那么关闭它的决定将非常不受欢迎，因此也很难做出。由此产生的控制权的丧失可能会使一些管理人员甚至不敢开始推行内源。
+- 实施内源风格的工作模式往往与以前的工作模式截然不同。因此，现有的、强制性的流程很可能不再适用，并且缺少适当的管理流程。其结果可能是，人们不得不在有时是法律上的无主之地监管运作。例如，在多个国家拥有多个法律实体的大公司的税收和出口控制相关法规。
 
-## Solution
+## 解决方案
 
-Declare the InnerSource initiative as a time limited experiment. Define and communicate the criteria for projects to join the InnerSource experiment. Choose criteria that will maximize the chances of building a healthy community. A set of criteria is a good one if the insights generated from it within the context of the experiment can intuitively be applied to contexts involving other potential InnerSource projects.
+宣布内源计划是一个有时间限制的实验。界定并宣传加入内源实验的项目标准。选择能够最大限度地提高建立一个健康社群的实施标准。如果一套标准在实验中积累的洞察指标能够直观地应用于涉及其他潜在内源项目的环境中，那么这就是一个好的标准。
 
-Examples for such criteria are:
+这种标准的例子有：
 
-- Sufficient geographical distribution of developers
-- Sufficient departmental mix of developers
-- Openness of communication within community
-- Career path based on merit within community
-- Democratic decision making within community
+- 开发者有足够的地理分布
+- 足够的开发人员的部门参与
+- 社群内交流的开放性
+- 社群内基于功绩的职业道路
+- 社群内的民主决策
 
-Consider designating the end of the experiment a _pivot_, _change_ or _pause_ point to re-evaluate. Also consider establishing a [Review Committee](review-committee.md) to increase the chances of management buy-in through participation. Depending on company culture, it might be helpful to accompany the experiment with appropriate metrics [First Steps With Metrics](../1-initial/introducing-metrics-in-innersource.md). If the projects in the experiment don't provide a direct impact on the companies revenue, consider introducing [Cross-Team Project Valuation](crossteam-project-valuation.md) to highlight their value contributions.
+考虑将实验结束时指定为_支点_、_变化_或_暂停_点，以重新评估。还可以考虑建立一个[评审委员会](review-committee.md)，通过参与增加管理层认同的机会。根据公司文化，在实验中加入适当的指标[First Steps With Metrics]（.../.../.../patterns/1-initial/introducing-metrics-innersource.md）可能会有帮助。如果实验中的项目没有对公司的收入产生直接影响，可以考虑引入[跨团队的项目评估](crossteam-project-valuation.md)来强调其价值贡献。
 
-## Resulting Context
+## 结果
 
-Managers are able to kick start InnerSource for the following reasons:
+管理人员能够启动内源的原因如下：
 
-- The experimental setup eases the need for managers to scrutinize the InnerSource program numbers in the same way that they would for typical projects.
-- The possibility of failure of the experiment is understood and accepted. The personal risk for the supporting managers is minimized.
-- Even in case of a failure, the setup ensures that the company will learn from the experiment.
-- In case of success, the data gathered during the experiment will allow managers to make a longer lasting commitment to InnerSource.
+- 实验性的设置减轻了管理人员对内源项目数字的审查需要，就像他们对典型项目的审查一样。
+- 实验失败的可能性被理解和接受。管理人员支持内源的个人风险被降至最低。
+- 即使在失败的情况下，这种设置也能确保公司将从实验中学习。
+- 在成功的情况下，实验期间收集的数据将使管理人员能够对内源做出更长期的承诺。
 
-Participants in the InnerSource experiment are now conscious that they have to prove to management that InnerSource yields the promised benefits. It will therefore help to focus work on those activities which provide the most demonstrable value thus increasing the chances of success.
+内源实验的参与者现在意识到，他们必须向管理层证明内源产生了承诺的效益。因此，这将有助于将工作重点放在那些能提供最明显价值的活动上，从而增加成功的机会。
 
-Finally, starting as an experiment makes it much easier to sidestep regulations and forces such as tool and process policies which could decrease the chances of success.
+最后，作为一个实验开始，它更容易避开可能会减少成功机会的法规和约束，如工具和流程政策。
 
-## Related Patterns
+## 相关模式
 
-- _Trial Run_ (from the book [Fearless Change](https://fearlesschangepatterns.com/))
+- _Trial Run_(摘自[无畏的改变]一书)(https://fearlesschangepatterns.com/)
 
-## Known Instances
+## 已知实例
 
-- Robert Bosch GmbH (globally distributed software development)
+- Robert Bosch GmbH (全球分布式软件开发)
 
-## Status
+## 状态
 
-* Structured
+* 结构化
 
-## Author
+## 作者
 
 - Georg Grütter (Robert Bosch GmbH)
 
-## Acknowledgements
+## 致谢
 
 - Jason Zink (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)
@@ -72,3 +72,8 @@ Finally, starting as an experiment makes it much easier to sidestep regulations 
 - Russ Rutledge (Nike)
 - Tim Yao (Nokia)
 - Clint Cain (Optum)
+
+## 翻译校对
+
+- 翻译[姜宁](https://github.com/willemjiang)
+- 校对[龙文选](https://github.com/hncslwx)
