@@ -14,7 +14,7 @@ As the number of contributions to a mature InnerSource repository rapidly increa
 
 There is a strategic project that aims to collect the best innovations within a domain space to one common stack, allowing reuse of a common infrastructure and providing a standard user experience. Through InnerSource, various teams in the organization that work within the domain space get an opportunity to collaborate and contribute their innovations to the common codebase. However, a large number of contributions in parallel from several developers is making maintenance of the codebase difficult. This is adding a huge burden on the project maintainers who assume ownership over the code quality standards and enable the community through various forms of communication.
 
-Project maintainers are burnt out due to:
+Project maintainers are at risk of burnout due to:
 
 - Everlasting backlog of pull requests that need to be reviewed.
 - Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
