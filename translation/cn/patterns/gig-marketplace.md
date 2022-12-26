@@ -1,73 +1,78 @@
-## Title
+## 标题
 
-Gig Marketplace
+零工市场
 
 ## Patlet  
 
-Establish a marketplace by creating an intranet website that lists specific InnerSource project needs as "Gigs" with explicit time and skill requirements.  This will enable managers to better understand their employee’s time commitment and professional benefits thereby increasing the likelihood of garnering approval to make InnerSource contributions.
+建立一个市场，创建一个内部网站，将特定的内源项目需求列为 "任务"，并提出明确的时间和技能要求。 这将使管理人员能够更好地了解员工的时间承诺和专业利益，从而增加获得批准做出内源贡献的可能性。
 
-## Problem
+## 问题
 
-Neither managers nor employees understand how they might benefit from getting involved in an InnerSource project.
+经理和员工都不明白他们如何能从参与内源项目中获益。
 
-It is difficult for employees to communicate to their management what commitment of time they will need to make to an InnerSource project.  
+员工很难向管理层传达他们需要为内源项目投入多少时间。
 
-Managers have no uniform way of keeping track of or rewarding their employee’s involvement in InnerSource projects.
+管理人员没有统一的方法来跟踪或奖励员工对内源项目的参与。
 
-## Story
+## 故事
 
-You’ve successfully created an InnerSource program at your company and have buy-in from senior management, middle-management and developers.  However, after nearly a year there have been few actual contributions made to any InnerSource projects outside of the teams that originally created them.  After interviewing all the parties involved the main sticking point seems to be that it is difficult to know the time commitment developers will be asked to make if they choose to get involved in an InnerSource project and how they will personally benefit. There is also no uniform way of advertising what opportunities for contributors exist, what they’ll be asked to do and approximately how long it might take.  Managers are supportive and want their employees to participate but so far have lacked a way of accounting for or rewarding their employees’ activities within InnerSource projects.  What can be done to improve this situation for all the parties involved (InnerSource project owners, potential contributors and development managers)?
+你已经成功地在公司创建了一个内源项目，并得到了高级管理层、中级管理层和开发人员的支持。 然而，在将近一年之后，除了最初创建内源项目的团队之外，很少有人对这些项目做出实际贡献。 在采访了所有相关方后，主要的症结似乎是很难知道如果开发者选择参与内源项目，他们将被要求做出多少时间承诺，以及他们个人将如何受益。没有统一的方式来告知能够为贡献者提供什么样的机会，他们会被要求做什么，以及大概需要多长时间。 经理们都很支持，并希望他们的员工参与进来，但到目前为止，还缺乏一种方法来记录或奖励他们的员工在内源项目中的活动。 对于所有相关方（内源项目所有者、潜在贡献者和开发经理）来说，可以做些什么来改善这种状况？
 
-## Context
+## 背景
 
-Employees wish they could gain exposure to activities going on within other areas of the company without having to leave their current positions. InnerSource projects exist and could provide these experiences but there are two main factors preventing employees from participating. First, is the inability to easily discover what opportunities for contribution exist within ongoing InnerSource projects and to communicate these to their managers.  Second, is the inability of managers to plan and account for their employees' time commitments to these InnerSource project tasks.  As a result InnerSource project owners are finding it difficult to build communities of sufficient size to fulfill their stated goals.
+员工希望他们能够在不离开他们目前的职位就能接触到公司其他领域的活动。内源项目的存在，可以提供这些经验，但有两个主要因素阻碍了员工的参与。首先，他们无法轻易发现正在进行的内源项目中存在哪些贡献机会，也无法将这些机会传达给他们的经理。 其次，是经理们无法计划和说明他们的员工对这些内源项目任务的时间承诺。 因此，内源项目所有者发现很难建立足够规模的社区来实现他们的既定目标。
 
-## Forces
+## 约束
 
-* Employees have no easy way to discover what InnerSource opportunities exist
-* Employees don't understand how contributing might benefit them professionally
-* Managers don't understand the time/effort requirements associated with InnerSource project related tasks
+* 员工没有简单的方法来发现内源存在的机会。
+* 员工不了解如何做出对他们职业发展有利的贡献。
+* 管理人员不了解与内源项目相关的时间/精力要求。
 
-### Prerequisites
+### 前提
 
-* Employees have been provided time by their managers to involve themselves in InnerSource projects
-* Managers require a way for InnerSource contributions to be quantified, tracked and recorded so they can be accounted for and rewarded
+* 经理为员工提供时间，让他们参与到内源项目中。
+* 管理人员需要一种方法来量化、跟踪和记录内源的贡献，以便对其进行核算和奖励。
 
-## Solutions
+## 解决方案
 
-Create a “Gig” based intranet site where individuals can advertise their skills and areas of interest and InnerSource project owners can advertise opportunities for collaboration.
+创建一个基于 "零工"的内部网站，个人可以在这里宣传他们的技能和兴趣领域，内源项目负责人可以宣传合作机会。
 
-Employees should be able to create a profile within the application in which they can list their skills and areas of interest.  The system should leverage this information by proactively informing individuals (via email or some other means) when a Gig is posted that matches one or more of those criteria.
+员工应该能够在应用程序中创建一个档案，在其中列出他们的技能和兴趣领域。 该系统应利用这些信息，在有符合一个或多个标准的零工发布时，主动通知个人（通过电子邮件或其他方式）。
 
-Each Gig posted by an InnerSource project owner should include the estimated skill and time requirements so those can be easily matched to an available employee and clearly communicated to their direct management. The description should also include a rationale as to how it will benefit the person taking on the task in order to make it as attractive as possible.
+内源项目负责人发布的每项任务都应包括估计的技能和时间要求，这样就可以很容易地与可用的员工匹配，并清楚地传达给他们的直接管理人员。说明中还应包括一个理由，说明该任务对承担该任务的人有什么好处，以使其尽可能具有吸引力。
 
-A points based system could be created to reward and track an employee’s involvement in a Gig.  For instance, 10 points awarded to the Gig owner for posting a Gig once it is completed and 100 points for a developer who completes a Gig. Points accrued by completing Gigs could then be used as a gamification mechanism and as performance management criteria to garner insight in to the areas of expertise that exist within an organization.
+可以建立一个基于积分的系统，以奖励和跟踪员工参与零工的情况。 例如，一旦任务完成，任务拥有者可获得10分，完成任务的开发人员可获得100分。完成任务所积累的积分可以作为一种游戏化机制和绩效管理标准，以展示其在组织内专业领域表现。
 
-Those wishing to accept a Gig should first be vetted by the Gig owner to determine that the employee has the prerequisite skills and allotted time from their manager to complete the Gig.
+那些希望接受零工的人应该首先由零工的所有者进行审查，以确定该员工是否具备必要的技能，以及他的经理分配给他完成零工的时间。
 
-The transparency of contributions made via Gigs can help a contributor build (or detract from) her reputation thereby creating a greater likelihood that the quality of the contribution will be high.  Completion of Gigs can also act as proof of expertise in a particular area.  
+通过工作任务所做贡献的透明度可以帮助贡献者建立（或减损）她的声誉，从而创造更多的可能性，使贡献的质量高。 完成 "任务 "也可以作为一个特定领域的专业知识的证明。
 
-The nature of Gigs posted to the marketplace can include both hard and soft skills such as organizing a group event, writing a report or requests for mentorship etc.
+发布在市场上的工作性质可以包括硬技能和软技能，如组织团体活动、撰写报告或请求提供指导等。
 
-The creation of the Gig Marketplace should ideally be taken on by a team within an organization with the responsibilities to provide company-wide infrastructure and capabilities.
+创建零工市场的工作最好由组织内的一个团队承担，这个团队负责提供全公司的基础设施和能力。
 
-## Resulting Context
+## 结果
 
-The InnerSource Gig Marketplace has vastly increased the number of InnerSource projects as well as the number of employees involved in them. The self-directed nature of the Gig Marketplace has enhanced job satisfaction amongst employees by allowing them a level of choice in the work they perform and with whom they can partner across the company.  Employees understand exactly what they are signing up for and what they can expect from the experience. Managers are better able to estimate and track their employee’s time commitments with respect to InnerSource projects, recognize their individual efforts and use the completion of Gigs as a way of validating their specific skillsets.  Managers are also able to leverage any existing downtime their employees may be experiencing by allowing them to pivot to work available in the Gig Marketplace.  The data generated by the interactions within the Gig Marketplace is also helping to drive hiring and training decisions across all departments.
+内源零工市场极大地增加了内源项目的数量以及参与这些项目的员工人数。零工市场的自我导向性提高了员工的工作满意度，因为他们可以对自己的工作和公司内部的合作伙伴有一定程度的选择。 员工们清楚地了解他们所签署的是什么，以及他们能从这种经历中得到什么。经理们能够更好地估计和跟踪员工在内源项目上的时间承诺，认可他们的个人努力，并将完成零工作为验证他们具体技能的一种方式。 经理们还能够利用其员工可能遇到的任何现有的休整时间，让他们转而从事零工市场中的工作。 零工市场内的互动所产生的数据也有助于推动所有部门的招聘和培训决策。
 
-When used in combination with the InnerSource Portal pattern, the Gig Marketplace provides a finer level of context and detail in addition to the links to the code repositories and documentation for the project to which the Gig relates.
+当与内源门户模式结合使用时，零工市场除了提供与零工相关的项目的代码库和文档的链接外，还提供了更精细的背景和细节。
 
-## Known Instances
+## 已知实例
 
-* A large financial services organization has used the creation of an InnerSource Gig Marketplace website to foster their InnerSource program.
-* SAP implemented the Gig Marketplace pattern - a new InnerSource program was added to the internal job platform where positions and similar offerings can be posted.
-* The Gig Marketplace pattern has been proven to work extremely well with the associated [InnerSource Portal](./innersource-portal.md) pattern in this context.  The InnerSource Portal increases awareness of specific projects currently underway while the Gig Marketplace advertises tasks of a certain type available to be worked on within those projects.
+* 一家大型金融服务机构利用创建内源零工市场网站来推进其内源计划。
+* SAP实施了零工市场网站模式-在内部工作平台上增加了一个新的内源项目，在这里可以发布职位和类似的任务。
+* 在这种情况下，零工市场模式与相关的[内源门户](./innersource-portal.md)模式已被证明效果非常好。 内源门户网站提高了人们对目前正在进行的具体项目的认识，而零工市场则公布了在这些项目中可以进行的某种类型的任务。
 
-## Status
+## 状态
 
-* Structured
+* 结构化
 
-## Author(s)
+## 作者
 
 * Stephen McCall
 * Shreyans Dugar
+
+## 翻译校对
+
+* 翻译[姜宁](https://github.com/willemjiang)
+* 校对[龙文选](https://github.com/hncslwx)
