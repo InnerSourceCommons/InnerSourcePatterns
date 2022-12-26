@@ -72,14 +72,16 @@ BOOK_LANGUAGE = ARGV[0]
 puts "Generating ToC for language: #{BOOK_LANGUAGE}"
 
 ## Files to be used for the different languages
-if (BOOK_LANGUAGE == "ja")
-  TOC_TEMPLATE_FILE = "../ja/toc_template.md"
-  TOC_FILE = "../ja/toc.md"
-  PATTERNS = Dir["../../translation/ja/patterns/*.md"]
-else 
+## Note: the folder structure for the patterns is slightly different for 'en' than it is for the other languages,
+## hence this slightly complicated logic here.
+if (BOOK_LANGUAGE == "en")
   TOC_TEMPLATE_FILE = "../en/toc_template.md"
   TOC_FILE = "../en/toc.md"  
   PATTERNS = Dir["../../patterns/2-structured/*.md","../../patterns/2-structured/project-setup/*.md", "../../patterns/3-validated/*.md"]
+else 
+  TOC_TEMPLATE_FILE = "../#{BOOK_LANGUAGE}/toc_template.md"
+  TOC_FILE = "../#{BOOK_LANGUAGE}/toc.md"
+  PATTERNS = Dir["../../translation/#{BOOK_LANGUAGE}/patterns/*.md"]
 end
 
 # Generate list of patterns and sort them by name
