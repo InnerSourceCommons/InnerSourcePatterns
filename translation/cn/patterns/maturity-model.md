@@ -1,214 +1,193 @@
-## Title
+## 标题
 
-Maturity Model
+成熟度模型
 
 ## Patlet
 
-Teams have started adopting InnerSource. The practice is spreading to multiple
-departments. However, the understanding of what constitutes an InnerSource
-project varies. The solution is to provide a maturity model to allow for teams
-to go through a self check and discover patterns and practices that they are not
-yet aware of.
+各个团队已经开始采用内源。这种做法正在向多个部门蔓延。然而，人们对什么是内源项目的理解各不相同。解决方案是提供一个成熟度模型，让团队通过自我检查，发现他们还没有意识到的模式和做法。
 
-## Problem
+## 问题
 
-When InnerSource adoption in an enterprise starts to increase, individual
-mentoring of each project through one evangelist becomes unfeasible. Also, more
-and more people are gaining at least a basic understanding of what it means to
-work in an InnerSource project. Looking at all InnerSource projects though the
-depth of understanding for the concept will diverge. Teams may not be aware of
-proven patterns that would help them move to the next level and solve issues and
-pain points that they are dealing with.
+当内源在企业中的应用开始增加时，通过一个布道者对每个项目进行单独指导就变得不可行了。此外，越来越多的人至少对在内源项目中工作的意义有了基本的了解。纵观所有的内源项目，对这一概念的理解深度会有差异。团队可能没有意识到那些可以帮助他们进入下一阶段并解决他们所处理的问题和痛点的成熟模式。
 
-## Context
+## 背景
 
-Several teams have started adopting InnerSource practices. The exact level of
-understanding of the practice diverges between teams. The exact problems teams
-run into diverge depending on the context and working environment of each team.
-As a result the definition of what are important best practices in an
-InnerSource project differs depending on each team.
+一些团队已经开始采用内源实践。各个团队对该实践的确切理解程度不尽相同。团队遇到的具体问题也因每个团队的背景和工作环境而不同。因此，在内源项目中，对什么是重要的最佳实践的定义因每个团队而异。
 
-## Forces
+## 约束
 
-Teams sharing InnerSource learnings run into misunderstandings as they are not
-aware of their respective level of InnerSource adoption.
+分享内源经验的团队遇到了误解，因为他们没有意识到各自采用内源的水平。
 
-Teams believe that "it's all about migrating to a shared software development
-[forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
+团队认为，"这都是迁移到一个共享的软件开发[锻造](https://en.wikipedia.org/wiki/Forge_%28software%29)"（GitLab、GitHub或Bitbucket是这种锻造的众所周知的例子）。
 
-Teams are not aware of best practices that would help them solve issues that
-they run into in their daily doing.
+团队没有意识到可以帮助他们解决日常工作中遇到的问题的最佳实践。
 
-## Solution
+## 解决方案
 
-Ask teams to self assess against the proposed maturity model.
+要求团队根据建议的成熟度模型进行自我评估。
 
-### Transparency
+### 透明
 
-**Plans & Products**
+**产品和规划**
 
-InnerSource project benefit from planning being transparent across the organization by enabling stakeholders to better understand decisions and influence them in a way that can be followed by others.
+内源项目路标规划在组织内公开透明，不仅可以使利益相关者能够更好地理解相关决策，也可以让组织内的其他人能够参与或影响决策。
 
-* PP-0: Individuals and teams do not regularly disclose their plans or products to multiple stakeholders. No formal actions exists at the organization.
-* PP-1: Individuals and teams give visibility to their plans or products to multiple stakeholders, before they are started. Shared roadmap.
-* PP-2: There are already shared roadmaps with clear guidelines and contribution rules where stakeholders can provide feedback. However, this is not standardized across the organization and not all of the projects provide this info.
-* PP-3: Roadmaps are shared by default and there is a standard process and homogeneous way to do this across the organization at the level of each InnerSource project. This contains clear rules to contribute and influence in the roadmap.
+* PP-0：组织内没有正式的路标规划。由个人和团队不定期向多个利益相关方披露他们的计划或产品。
+* PP-1: 有公开路标规划。个人和团队在启动之前，向多个利益相关者展示他们的计划或产品。
+* PP-2：有公开的路标规划，并且有清晰的指引和贡献规则帮助和指导利益相关方进行反馈。但是，这些过程没有在组织内规范化和标准化，不是所有内源都能提供这些信息。
+* PP-3: 项目的路标规划默认是公开共享的，并且在组织内的每个内源项目有统一的标准流程和方法。对路标规划的贡献和变化也有明确的规范。
 
-**Development Process & Tools**
+**开发流程及工具**
 
-InnerSource projects thrive when contributors become active and participate. As a result, making contribution easier should be balanced with pure technical goals.
+贡献者主动参与到内源项目可以让项目获得更好的发展。因此，需要在使贡献更容易和追求完美的技术目标之间达到平衡。。
 
-* DP-0: Each team follows its own development process and tools. They are not defined to share knowledge and artifacts outside development team. Siloed development teams.
-* DP-1: Development teams use shared code repositories, internally. Some teams develop their own CI process, using non corporate or standard CI tools. There is no code review process defined, although some projects teams do it internally.
-* DP-2: The organization sponsors and promotes a shared repository for collective knowledge. Some teams develop their own CI process, using corporate CI tools. There are CI environments. Code review process defined, and used by some projects. Sometimes code review is done by outside team members.
-* DP-3: Most teams develop their own CI process, using corporate CI tools. There are CI environments. Code review process defined, and used. Code review is done by both, internal and external team members.
+* DP-0: 互相区隔的开发团队。各团队有自己的开发流程和工具。没有和其他团队共享知识和作品。
+* DP-1: 公司内开发团队之间共享代码库。部分团队有自己的CI流程，没有使用公司统一或标准的CI工具。部分团队内部有自己的代码评审流程。但是公司没有统一的代码评审流程。
+* DP-2: 建设公司级的知识共享库。部分团队使用公司CI工具来开发自己的CI流程。公司存在统一的CI环境和代码检视流程。部分项目已经应用。代码审查会邀请外部团队成员协助完成。
+* DP-3: 大多数团队使用公司CI工具来完成自己的CI流程。有统一的CI环境和代码检视流程。代码检视由团队内部和外部成员共同完成。
 
-**Decisions**
+**决策**
 
-In order to motivate colleagues to contribute work outside of their core team they need visibility into the decision-making process of the host project - but also feel that their voices are being heard and valued.
+为了激励员工在他们所属的核心团队之外的工作中做出贡献，他们需要了解项目的决策过程，同时也要感觉到他们的声音是被倾听和重视的。
 
-* DC-0: Decision-makers often intentionally or accidentally withhold data and resources related to project decisions.
-* DC-1: Materials that are part of decision-making practices become available for review after decisions are finalized.
-* DC-2: People feel like they know about—and are helping to shape—most (but not all) important decisions as those decisions are unfolding. Materials that are part of decision-making practices are available at defined project milestones.
-* DC-3: People feel like they are a part of a shared, standard process for collective decision-making that the organization endorses. Materials that are part of decision-making practices are continuously accessible during work processes.
+* DC-0：决策者往往有意或无意的隐瞒与项目决策相关的数据和资源。
+* DC-1：决策结论定稿后，决策过程中的部分材料可共享可评审。
+* DC-2：人们感觉自己了解并帮助决策大多数（但不是所有）重要决定。决策过程公开，可在所参与的项目里程碑中获得决策的相关材料。
+* DC-3：人们感觉自己是集体决策的重要一环，决策过程公开规范，并且被组织所支持。可以持续地获取到决策过程中的相关材料。
 
-**Helpful Resources**
+**提供有用的资源**
 
-In order to attract contributors helpful supporting material needs to be easily accessible.
+为了吸引贡献者，需要让贡献者很容易获得有用的信息。
 
-* RS-0: Individuals and teams neither contribute to nor draw upon a shared repository of knowledge.
-* RS-1: Individuals and teams release project materials for review internally, after they've finished their work. Individuals and teams share resources, but in disconnected, fragmented, or individualized/siloed systems or repositories. Individuals and teams share resources, but there is no commonly expressed or shared understanding of the criteria used to determine whether information is sensitive or not. Do not "share thinking on others".
-* RS-2: Individuals and teams make project-related materials accessible to some members of project teams according to clearly defined and shared formats and/or protocols. Individuals and teams withhold sensitive data and resources, provide limited details, context, and scope.
-* RS-3: Individuals and teams make project-related materials broadly accessible to the organization—and possibly outside the organization as well—according to clearly defined and shared formats and/or protocols. Individuals and teams who must withhold sensitive data and resources are clear about what they're not sharing, and others understand why those materials are not available to them.
+* RS-0：个人和团队既不贡献，也不利用共享的知识库。
+* RS-1：个人和团队的交付件在内部评审。个人和团队有共享资源，但是知识是碎片化、不连贯的，存储在不同的系统和仓库内。个人和团队有共享资源，但无法确定信息是否敏感，对哪些信息需要共享没有达成共识，也没有标准和规范。没有“和他人分享想法”。
+* RS-2：个人和团队可参考已明确定义的信息共享格式或协议，可以让团队成员方便地获取相关资料。团队对于必须保留的敏感信息，仅提供了有限的细节、背景信息和共享范围。
+* RS-3：个人和团队可参考明确定义的信息共享格式和协议，可以让组织内部、外部相关人员方便地获取相关资料。对于必须保留的敏感信息，明确定义了共享范围，其他人也能够了解哪些信息不能共享。
 
-**Stories**
+**总结经验**
 
-When working in host teams mistakes will automatically be widely visible. In order keep contribution levels up, corporate culture needs to celebrate failure as an opportunity for growth and learning.
+当在东道主团队中工作时，错误会自动被广泛看见。为了保持贡献水平，企业文化需要庆祝失败，作为大家共同成长和学习的机会。
 
-* ST-0: Individuals and teams do not share successes or failures for others to learn.
-* ST-1: Individuals and teams are comfortable sharing stories about successes, but not about failures.
-* ST-2: Individuals and teams are comfortable sharing stories of successes and failures during retrospectives and reviews.
-* ST-3: Individuals and teams are comfortable sharing stories of successes and failures, and learn from failures according to formal protocols.
+* ST-0：个人和团队不分享成功或失败的经验，其他人无法学习。
+* ST-1：个人和团队愿意分享成功经验，但不愿意分享失败经验。
+* ST-2：个人和团队在回顾和评审时，愿意分享成功和失败的经验。。
+* ST-3：个人和团队很方便的分享成功和失败的经验，并例行开展总结和学习活动。
 
-### Collaboration
+### 协同
 
-**Channels for Providing Feedback**
+**提供反馈渠道**
 
-For silos to be reduced colleagues need to be comfortable sharing feedback openly. One easy way to support that is to use the same communication principles across hierarchies.
+为了减少工作间壁垒（silos），同事们需要坦诚地分享反馈意见。一个简单的支持方式是跨层级使用相同的通信原则。
+理想情况下，您最终会建立起适当的沟通渠道，并被整个组织广泛使用。这些渠道将聚焦于不同的目标（公告、用户支持、开发渠道、非正式讨论、等）。你将逐渐形成一套最佳实践，例如采用网络礼仪准则，为每一个新的内源项目开辟一套成熟的标准化沟通渠道（消息即时存档、可公开访问、提供搜索功能）。
 
-Ideally you will end up with proper communication channels that are known by anyone in the organization - with channels focussed on different goals (announcements, user support, development channels, infra discussions, etc.). Some of the best practices you will establish as your InnerSource projects mature: Adoption of netiquette guidelines, opening a proven set of standard channels (which are being archived, publicly accessible, searchable) for each new InnerSource project.
+* CF-0: 没有流程也没有建立渠道。组织成员通过私人渠道或讨论分享资料。
+* CF-1：组织开始建立内部规范和渠道，以便组织的任何成员都可以使用，通过这样的渠道来鼓励对公司/部门决策提出不同观点。组织的一些成员利用非官方平台非正式地分享决策材料。领导者至少有一个明确、直接的渠道，让组织成员就一些与工作相关的事项分享有建设性的意见。
+* CF-2：组织已经确立了内部规范和渠道，并提供特定的资源（培训项目、获取内容等），来鼓励和征求对于团队或决策的多方意见。
+* CF-3：组织成员在官方认可的平台上分享决策材料，组织成员通过多种渠道和方法公开分享材料，征求反馈意见。领导者自己使用这些渠道，并公开鼓励其他成员使用这些渠道。对于收到的反馈以及针对反馈的处理意见，有专门面向团队的公开记录。
 
-* CF-0: There are no processes nor established channels. Some members of the organization share materials via private channels or discussions.
-* CF-1: The organization is in the process of establishing internal guidelines and channels for encouraging diverse points of view about company/departmental decisions, so that anyone belonging to the organization can use them. Some members of the organization share decision-making materials informally using unofficial platforms. Leaders maintain at least one clear and direct channel for organization members to share opinions constructively on some matters relevant to their work.
-* CF-2: The organization has established internal guidelines and channels, and provides specific resources (training programs, access to content, etc.), for encouraging and soliciting diverse points of view on team or decisions.
-* CF-3: Members of the organization share decision-making materials on officially sanctioned platforms Members of the organization share materials openly via multiple channels and methods for feedback.
-Leaders use those channels themselves, openly encourage others to use them, and maintain team-facing or public-facing records of the feedback they've received and/or the actions they've taken to address this feedback.
+**领导力**
 
-**Leadership**
+内源项目鼓励员工在不受其部门主管直接影响的情况下为部门外项目做出贡献。这需要信任的文化。
 
-InnerSource projects encourage employees to contribute to projects outside of the direct influence of their direct line manager. This needs a culture of trust.
+* LS-0：在一个高度层级化的组织中，大家奉行的是指挥与控制文化。
+* LS-1：一些领导人愿意接受反馈，并创造一个让人们感到能够安全反馈的环境。
+* LS-2：多数领导人愿意接受反馈，并创造一个让人们感到能够安全反馈的环境。领导者在理解所有成员是否都感到有权力和能够分享时表现出消极的态度。组织鼓励领导者积极寻找对话中没有出现的声音，以求包容。
+* LS-3：成员们感到有力量，能够就任何与其工作有关的事项或他们有激情的事项建设性地分享意见。
 
-* LS-0: Command & control culture, within a highly hierarchical organization.
-* LS-1: Some leaders are open to receiving feedback and creating an environment where people feel safe providing it.
-* LS-2: Most leaders in the organization are open to receiving feedback and creating an environment where people feel safe providing it. Leaders show passivity about understanding whether all members feel empowered and enabled to share. Organization encourages leaders to actively seek voices not present in dialog out for inclusion.
-* LS-3: Members feel empowered and enabled to share opinions constructively on any matter relevant to their work or about which they feel passionate.
+**组织和功能结构**
 
-**Organizational and Functional Structure**
+当内源的理念离开单纯的编码层面，而是进入社区和工作团队的层面时，即使无法直接进行代码协作，也可以有效减少壁垒。
 
-When InnerSource leaves the pure coding level and enters the community and working group level, there is potential for reducing silos even where direct code collaboration is not possible.
+* OF-0：工作团队中的成员构成和技能组合往往是长期不变的。
+* OF-1：跨职能部门团队存在，但团队的定位往往不明确，治理结构也很模糊。
+* OF-2：跨职能部门团队较常见，团队会公开指出他们的定位和目标。
+* OF-3：跨职能部门团队很常见，并在组织中广泛宣传他们的活动；反过来，组织也会推广这种合作的最佳实践。
 
-* OF-0: Working groups tend to be static in terms of membership and skill sets.
-* OF-1: Cross-functional teams exist, but team roles are often unclear and governance structures are vague.
-* OF-2: Cross-functional teams are common, and teams post their roles and goals publicly.
-* OF-3: Cross-functional teams are common and make their activities known broadly to the organization; in turn, the organization promotes best practices for working together.
+**贡献**
 
-**Contribution**
+为了减少壁垒，需要牢记改进组织内贡献模式的目标是为了增加职能部门间的合作。
 
-The goal with designing contributions patterns needs to keep collaboration in mind if it's to reduce silos.
+* CB-0：完全区隔的状态，团队和团队间没有协作。只是由于一些跨职能部门团队的需要，会有一些协作。
+* CB-1：组织成员会在团队间达成协作，但经常反映 "太难"。团队不经常注重审视合作的结果。
+* CB-2：团队中的成员会积极寻找合作机会。团队经常就他们的合作成果进行讨论、审视并辩论，并默认这些合作成果是公开可用的。
+* CB-3：组织成员通过内部和外部合作的方式，使所有参与者受益。团队经常就他们的合作成果进行讨论、重新审视和辩论，并在组织外分享他们的学习成果，并默认将这些成果对外公布。
 
-* CB-0: Completely siloed, no collaboration outside the teams. Just some collaborations due to cross-functional teams.
-* CB-1: Members of the organization and teams collaborate but frequently say it's "too difficult". Teams infrequently revisit the outcomes of their collaborations.
-* CB-2: Members of the organization and teams actively seek opportunities to collaborate. Teams routinely discuss, revisit and debate the outcomes of their collaborative efforts, and make these outcomes available by default.
-* CB-3: Members of the organization collaborate both internally and externally in ways that benefit all involved. Teams routinely discuss, revisit and debate the outcomes of their collaborative efforts, and share their learnings outside the organization, and make these outcomes externally available by default.
+### 社群
 
-### Community
+**共享策略**
 
-**Sharing Policies**
+共同的共享价值观可以让大家跨越组织边界更好地协作起来。如果拥有一套标准、通用的共享规则及准则，那么跨团队协作将变得更加的容易。
 
-Having a baseline of shared values makes it easier to work across team boundaries. Crossing boundaries becomes easier if a limited set of baseline rules and guidelines apply everywhere and can easily be referenced.
+* SP-0：没有共享文化，也没有书面的共享政策。
+* SP-1: 组织中的一些成员联合起来协定价值观和原则，但他们这样行为并没有得到明确的支持。
+* SP-2：组织成员集体撰写共同的愿景和协议，如使命宣言和行为准则等，使其易于获取，并可以经常参考。入职材料和迎新仪式提供充分的背景材料和信息，以帮助新成员了解组织如何得益于他们的贡献。
+* SP-3：共同的价值观和原则为组织成员之间的决策、冲突解决和评估过程提供信息，组织成员以口头和书面的形式不断地引用这些价值观和原则。
 
-* SP-0: No sharing culture nor written policies.
-* SP-1: Some members of the organization unite to define values and principles, but are not clearly supported when they do.
-* SP-2: Members of the organization collectively document shared visions and agreements like mission statements and codes of conduct, make them easily accessible, and reference them often. Onboarding materials and orientation rituals provide adequate context for helping new members understand how the organization will benefit from their contributions.
-* SP-3: Shared values and principles inform decision-making, conflict resolution, and assessment processes among members of the organization, who reference these values and principles consistently in both verbal and written formats.
+**组织的归属感**
 
-**Feel part of the Organization**
+将内源引入组织的可能动因之一是员工参与度的增加。这一条目追踪了组织内推行内源时参与度的变化情况。
 
-One of the possible reasons for introducing InnerSource into organisations can be increased engagement. This point tracks how engagement is changing while adopting InnerSource.
+PA-0：参与度低，没有合作，人们不喜欢与他人分享。
+PA-1：组织成员对于分享他们的想法和意见感到安全，但只在熟悉的领域发表意见。不必担心因此被攻击。人们明白，只有最好的想法会最终会被采纳，而领导权将会根据贡献和付出的多少来分派。
+PA-2：组织成员在分享他们的想法和意见时，不必担心因此被攻击。领导者对组织的共同价值观表示认可并投入精力建设。
+PA-3：组织积极主动地告诉成员，组织从他们的贡献中受益；因此，成员表现出强烈的集体意识和强大的执行力，并感到对组织的责任感。领导者明白，他们是通过帮助他人成长而获得自身成长的，因而他们会为组织的初级成员提供指导。
 
-* PA-0: Low engagement, no collaboration and people do not feel comfortable sharing with others.
-* PA-1: Members of the organization feel comfortable sharing their thoughts and opinions without fear of retribution, but only in familiar domains. People understand that the best ideas win, and leadership responsibilities accrue to people with histories of contribution and commitment.
-* PA-2: Members of the organization feel comfortable sharing their thoughts and opinions without fear of retribution. Leaders demonstrate dedication to the organization's shared values.
-* PA-3: The organization is proactive in telling members that it benefits from their contributions; as such, members demonstrate shared consciousness and empowered execution, and feel a sense of responsibility to the community. Leaders understand that they grow by helping others grow, and they mentor junior members of the organization.
+### 治理
 
-### Governance
+**奖励**
 
-**Rewards**
+为了吸引更多的人参与到内源项目中，可以使用一些外在的激励手段来增加跨团队的协作。
 
-In order to drive adoption, extrinsic motivators can be used to increase cross team collaboration.
+* RW-0：没有奖励。
+* RW-1：内源项目的管理者鼓励协作，想要奖励那些对项目作出卓越贡献的个人或组织，但是没有制定政策和流程来作为支撑。
+* RW-2 制定了标准的流程和制度来鼓励内源项目开发团队之外的组织和个人参与协作，并进行奖励，奖励谁是由项目管理者或者项目管理委员会来决定的。
+* RW-3：奖励不仅由组织提出，社区也会提出他们认为的更有价值的奖励。内源社区有责任决定谁应该得到奖励。
 
-* RW-0: No rewards.
-* RW-1: Leaders are encouraged to reward exceptional collaborations, but there are no policies or processes established.
-* RW-2: Standard processes are established to reward collaborations outside the developers' teams. Team leaders or boards decide who has to be rewarded.
-* RW-3: Rewards are not only proposed by the organization, but the communities are able to define their more valuable rewards. The community is responsible to decide who has to be rewarded.
+**监管原则**
 
-**Monitoring Policies**
+内源项目需要一种自我评估的方法。度量指标可以作为促进自我评估的一个方面。此外，在一个成熟的内源项目中，我们期望采用一种基于清晰、一致指标的跟踪方法来监控内源项目。
 
-InnerSource projects need a means for self assessment. Metrics can be one aspect to facilitate this assessment. Also, in organisations with a mature InnerSource adoption level we expect adoption of the method to be tracked based on clear, agreed upon metrics.
+* MP-0：组织中不存在任何级别的监控策略。
+* MP-1：指标对某些团队很重要，但他们仅以一种孤立的方式在使用它们。
+* MP-2：在组织层面有一个关于度量指标的策略，有助于在整个组织内验证特定的政策。在某些内源项目的层面也存在监控政策。
+* MP-3：在组织提供的相应基础设施上，有明确的指导方针、建议和培训，来应用具体的度量指标。这在两个层面都起作用：在组织层面，以及内源项目层面。
 
-* MP-0: No existing monitoring policies at any level in the organization.
-* MP-1: Metrics are important for certain teams, and they start using them in an isolated way.
-* MP-2: There is a strategy at the organizational level with respect to metrics that help to validate specific policies across the organization. This monitoring policy exists at the level of some InnerSource projects.
-* MP-3: There are clear guidelines, recommendations, and trainings about the use of metrics with certain infrastructure provided by the organization. This works at both levels: InnerSource program to understand the general InnerSource adoption within the organization, and at the level of InnerSource projects.
+**支持和维护**
 
-**Support and Maintenance**
+内源团队不仅要负责特性开发，支持和维护也是内源团队核心任务的一部分。
 
-Not only should feature development be owned by InnerSource teams - support and maintenance is also part of the teams core tasks.
+* SM-0: 由核心开发或支持团队给予支持和维护，通过商业合同来保证产品的支持和维护。团队之外对产品一无所知。
+* SM-1: 有由专门的支持团队提供的规则和制度，来使对产品的支持和维护正式确立。
+* SM-2: 通过内源模式来使内源贡献的支持得以正式确立，如：[30天保修](./30-day-warranty.md)或[服务与库](./service-vs-library.md)。
+* SM-3: 有成熟社区的规则和制度正式支持产品。
 
-* SM-0: Support given by the core dev or support team. A business contract guaranties the support. There is no knowledge about the product outside the team.
-* SM-1: There are rules and regulations to formalize the support on the product, given by a dedicated supporting team.
-* SM-2: Support for InnerSource contributions is formalized through InnerSource patterns like [30 Day Warranty](./30-day-warranty.md) or [Service vs. Library](./service-vs-library.md).
-* SM-3: There are rules and regulations to formalize the support on the product, given by a mature community.
+**文化**
 
-**Culture**
+在多种层次上向合作文化迈进。
 
-There are multiple levels moving towards a collaborative culture.
+* CL-0：筒仓型 - 团队独立的工作，相互封闭隔离，缺少交流和信息共享，甚至缺少协作。
+* CL-1: 被动型 - 团队独立的工作，但知道如何对依赖性中的缺陷做出反应。
+* CL-2: 贡献型 - 团队通过贡献积极帮助改善他们的依赖性。
+* CL-3: 积极型 - 团队积极寻求帮助、指导和招募新的贡献者。
 
-* CL-0: Silos - teams work independently but also in isolation.
-* CL-1: Reactive - teams work independently, but know how to react to flaws in dependencies.
-* CL-2: Contributive - teams actively help improve their dependencies by contributing.
-* CL-3: Activist - teams actively seek help, mentor and recruit new contributors.
+**内源角色**
 
-**InnerSource Roles**
+内源带有明确的角色。虽然在早期阶段，某些模式可能不需要采用这些角色，但是在项目内部使用明确的角色称号进行沟通会变得更加容易。
 
-InnerSource comes with explicit roles. While in early stages some patterns may be useable without adopting those roles, communicating within projects using explicit role titles becomes easier.
+* RO-0: 没有具体角色帮助内源夯实。只有常见的开发角色：开发人员、分析师、测试人员等。
+* RO-1: 偶尔有个人和团队参与其他项目。这些是技术贡献，即用户/贡献者角色。对于某些团队，可以指定至少一个成员作为技术指导，该成员向其他开发团队成员解释开发过程。他/她可以作为受信任的提交者(trusted committer)角色的候选人。
+* RO-2: 内源管理者角色负责治理和支持，包括流程等。识别教育需求，并确保向组织提供所需的教育和培训。内源领导和教练负责组织参与内源项目。第一个正式步骤是：定义内源愿景和路标。组织定义了受信任的提交者（trusted committer）角色，不仅为开发团队成员，而且为外部贡献者提供联系/参考。有一个标准的流程描述如何为社区做出贡献，贡献者角色是存在的。数据安全员角色负责管理内源活动留下的操作日志，这是需要衡量内源演变所必需的。受信任的提交者（trusted committer）角色将演变为更具技术性的形象，社区管理员将负责“激励”社区，他的主要职责是吸引和留住新的开发者/用户（贡献者/社区成员）。
+* RO-3: 布道师在组织内部活动，让其他人了解当前的工作，内源做什么以及如何做，并帮助其他人理解并成为内源动议的一部分。非技术贡献者出现。
 
-* RO-0: There are no specific roles helping InnerSource adoption. Only common development roles are present: developer, analyst, tester, etc.
-* RO-1: Occasionally some individuals and teams contribute to other projects. These are technical contributions, where the user/contributor role is seen. For some teams, it can be identified at least one member being a technical reference, who explains the development process to other development team members. He/she could be a candidate for covering the trusted committer role.
-* RO-2: An InnerSource Officer role is in charge of governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for dev team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
-* RO-3: Evangelists are moving inside organization, to let others know about the current work, what InnerSource does and how to do it, and help others to understand and become part of the initiative. Non technical contributors appear.
+## 结果
 
-## Resulting Context
+所有团队都了解现有的最佳实践。
 
-All teams are aware of available best practices.
+团队了解他们对内源的采用程度。
 
-Teams understand their level of InnerSource adoption.
+在采用内源作为工作模式之前，团队了解对他们的期望的做法--无论是短期的还是长期的。
 
-Prior to adopting InnerSource as a working model, teams are aware of the
-practices that are expected of them - both in the short term and in the
-long term.
-
-## Known Instances
+## 已知实例
 
 * Entelgy
 * Zylk
@@ -221,15 +200,20 @@ long term.
 * Jorge
 * Nerea
 
-## Acknowledgements
+## 致谢
 
-* Alexander Andrade (special thanks for the spelling fixes)
+* Alexander Andrade （特别感谢拼写修正）
 
-## Alias
+## 别名
 
-Maturity model: Learn about InnerSource best practices
+成熟度模型： 了解内源的最佳实践
 
-## Status
+## 状态
 
-* Structured
-* Drafted in September 2019
+* 结构化
+* 于2019年9月起草
+
+# 翻译校对
+
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [龙文选](https://github.com/hncslwx)
