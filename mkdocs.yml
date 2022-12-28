@@ -1,0 +1,44 @@
+site_name: ''
+site_author: InnerSource Commons
+site_description: some description here
+copyright: CC BY-SA
+# docs_dir: '/'
+repo_url: https://github.com/InnerSourceCommons/InnerSourcePatterns
+edit_uri: tree/main/docs/
+theme:
+  name: material
+  logo: https://www.gitbook.com/cdn-cgi/image/width=256,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F1385462519-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-MC7n_pjfRUZ5rxMCw_K%252Favatar-rectangle-1614361129734.png%3Fgeneration%3D1614361130231134%26alt%3Dmedia
+  palette:
+    scheme: default
+    primary: teal
+  features:
+    - navigation.expand
+markdown_extensions:
+    - toc:
+        permalink: "#"
+
+nav:
+    # - Home: 'index.md'
+    - Introduction: 'book/en/introduction.md'
+    - 'Explore Patterns': 'book/en/explore-patterns.md'
+    - 'Contribute to this book': 'book/en/contribute.md'
+    - Patterns:
+      - '30 Day Warranty': 'patterns/2-structured/30-day-warranty.md'
+      - 'InnerSource License': 'patterns/2-structured/innersource-license.md'
+      - 'InnerSource Portal': 'patterns/2-structured/innersource-portal.md'
+    # - Appendix:
+    - Resources:
+      - 'This book on GitHub': 'https://github.com/InnerSourceCommons/InnerSourcePatterns'
+      - 'InnerSource Commons': 'http://innersourcecommons.org'
+
+extra:
+  alternate:
+    - name: English
+      link: / 
+      lang: en
+    - name: Japanese
+      link: /ja/
+      lang: ja
+    - name: Chinese
+      link: /zh/
+      lang: zh
