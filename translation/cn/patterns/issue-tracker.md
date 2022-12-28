@@ -56,5 +56,5 @@ Isabel Drost-Fromm
 
 ## 翻译校对
 
-* 翻译[姜宁](https://github.com/willemjiang)
-* 校对[龙文选](https://github.com/hncslwx)
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [龙文选](https://github.com/hncslwx)

@@ -92,5 +92,5 @@ DB AG内部的第一批法律实体（公司）正在使用他们的内源许可
 
 ## 翻译校对
 
-- 翻译[姜宁](https://github.com/willemjiang)
-- 校对[孙振华](https://github.com/sunzhh02)
+- 翻译 [姜宁](https://github.com/willemjiang)
+- 校对 [孙振华](https://github.com/sunzhh02)

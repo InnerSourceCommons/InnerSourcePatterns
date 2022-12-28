@@ -98,5 +98,5 @@
 
 ## 翻译校对
 
-* 翻译[姜宁](https://github.com/willemjiang)
-* 校对[安旭](https://github.com/anzipomelo)
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [安旭](https://github.com/anzipomelo)

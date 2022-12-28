@@ -109,8 +109,8 @@
 
 ## 翻译校对
 
-* 翻译[姜宁](https://github.com/willemjiang)
-* 校对[曾江云](https://github.com/skw0rm)
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [曾江云](https://github.com/skw0rm)
 
 [tc-learning-path]: https://innersourcecommons.org/learn/learning-path/trusted-committer/
 [tc-pattern]: ./trusted-committer.md

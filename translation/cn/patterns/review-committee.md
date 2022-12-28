@@ -58,5 +58,5 @@ A公司想引进它的第一个内源计划。A公司的大多数经理都不熟
 
 ## 翻译校对
 
-- 翻译[姜宁](https://github.com/willemjiang)
-- 校对[龙文选](https://github.com/hncslwx)
+- 翻译 [姜宁](https://github.com/willemjiang)
+- 校对 [龙文选](https://github.com/hncslwx)
