@@ -1,4 +1,4 @@
-# Table of Contents
+# 目录
 
 <!--
 Do not edit toc.md directly!!!
@@ -10,25 +10,25 @@ Instead edit toc_template.md
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
 
-* [Introduction](./introduction.md)
-* [Table of Contents](./toc.md)
-* [Explore Patterns](./explore-patterns.md)
-* [Contribute to this book](./contribute.md)
+* [介绍](./introduction.md)
+* [目录](./toc.md)
+* [模式探索](./explore-patterns.md)
+* [为这本书做贡献](./contribute.md)
 
-![Mind Map of InnerSource Patterns](../../pattern-categorization/innersource-program-mind-map.png)
+![内源模式脑图](../../pattern-categorization/innersource-program-mind-map.png)
 
-## Patterns <a id="p"></a>
+## 模式 <a id="p"></a>
 
 <<PATTERS_HERE>>
 
-## Appendix
+## 附录
 
-* [Pattern Template](../../meta/pattern-template.md)
-* Extras
-  * [README Template](../../patterns/2-structured/project-setup/templates/README-template.md)
-  * [CONTRIBUTING Template](../../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
+* [模式模板](../../meta/pattern-template.md)
+* 额外
+  * [README 模板](../../translation/cn/templates/README-template.md)
+  * [CONTRIBUTING 模板](../../translation/cn/templates/CONTRIBUTING-template.md)
 
-## Resources
+## 资源
 
-* [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
+* [本书在 GitHub 代码仓地址](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)

@@ -1,4 +1,4 @@
-# Table of Contents
+# 目录
 
 <!--
 Do not edit toc.md directly!!!
@@ -10,45 +10,45 @@ Instead edit toc_template.md
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
 
-* [Introduction](./introduction.md)
-* [Table of Contents](./toc.md)
-* [Explore Patterns](./explore-patterns.md)
-* [Contribute to this book](./contribute.md)
+* [概述](./introduction.md)
+* [目录](./toc.md)
+* [模式探索](./explore-patterns.md)
+* [为这本书做贡献](./contribute.md)
 
-![Mind Map of InnerSource Patterns](../../pattern-categorization/innersource-program-mind-map.png)
+![内源模式脑图](../../pattern-categorization/innersource-program-mind-map.png)
 
-## Patterns <a id="p"></a>
+## 模式 <a id="p"></a>
 
-* [30 Day Warranty](../../translation/cn/30-day-warranty.md) - When accepting contributions from outside of your own team, there is a natural aversion to taking responsibility for code not written by the team itself. Through the 30 Day Warranty the contributing team consents to provide bug fixes to the receiving team, which will increase the level of trust between both teams and makes it more likely that contributions get accepted.
-* [Common Requirements](../../translation/cn/common-requirements.md) - Common code in a shared repository isn't meeting the needs of all the project-teams that want to use it; this is solved through requirements alignment and refactoring.
-* [Communication Tooling](../../translation/cn/communication-tooling.md) - An InnerSource project is being used outside the original development team but users are having trouble getting help and getting in touch with the project team. The idea is to set up and document standard communication tooling that allows for discussions to become visible, archived and searchable.
-* [Contracted Contributor](../../translation/cn/contracted-contributor.md) - Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.
-* [Core Team](../../translation/cn/core-team.md) - Even when an InnerSource project is widely needed, contributions and usage may be hindered because the project is difficult to work with. Establish a core team that is dedicated to take care of the project's fundamental items. Their work enables contributors to add and use the features that provide value to their scenarios.
-* [Cross-Team Project Valuation](../../translation/cn/crossteam-project-valuation.md) - It's hard to sell the value of cross-team InnerSource projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.
-* [Dedicated Community Leader](../../translation/cn/dedicated-community-leader.md) - Select people with both communications and technical skills to lead the communities to ensure success in starting an InnerSource initiative.
-* [Document your Guiding Principles](../../translation/cn/document-your-guiding-principles.md) - The usual InnerSource explanation of "applying open source best practices inside an organisation" does not work well with people lacking an open source background. As a remedy the most important principles of InnerSource get documented and published widely.
-* [Gig Marketplace](../../translation/cn/gig-marketplace.md) - Establish a marketplace by creating an intranet website that lists specific InnerSource project needs as "Gigs" with explicit time and skill requirements.  This will enable managers to better understand their employee’s time commitment and professional benefits thereby increasing the likelihood of garnering approval to make InnerSource contributions.
-* [InnerSource License](../../translation/cn/innersource-license.md) - Two legal entities that belong to the same organization want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting.
-* [InnerSource Portal](../../translation/cn/innersource-portal.md) - Potential contributors cannot easily discover InnerSource projects that they are interested in. By creating an intranet website that indexes all available InnerSource project information you enable contributors to learn about projects that might interest them and InnerSource project owners to attract an outside audience.
-* [Issue Tracker Use Cases](../../translation/cn/project-setup/issue-tracker.md) - The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.
-* [Maturity Model](../../translation/cn/maturity-model.md) - Teams have started adopting InnerSource. The practice is spreading to multiple departments. However, the understanding of what constitutes an InnerSource project varies. The solution is to provide a maturity model to allow for teams to go through a self check and discover patterns and practices that they are not yet aware of.
-* [Praise Participants](../../translation/cn/praise-participants.md) - After an inner source contribution, it's important to thank the contributor for their time and effort. This pattern gives guidance that not only effectively acknowledges the contribution but also engenders further engagement from the contributor and others.
-* [Repository Activity Score](../../translation/cn/repository-activity-score.md) - Potential contributors want to find active InnerSource projects in need of their help. By calculating a repository activity score for each project, a ranked list of projects can be created (e.g. on the InnerSource Portal), so that potential contributors can more easily determine which project they want to contribute to.
-* [Review Committee](../../translation/cn/review-committee.md) - The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarise themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.
-* [Service vs. Library](../../translation/cn/service-vs-library.md) - Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.
-* [Standard Base Documentation](../../translation/cn/project-setup/base-documentation.md) - New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like README.md/CONTRIBUTING.md enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.
-* [Start as an Experiment](../../translation/cn/start-as-experiment.md) - Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.
-* [Transparent Cross-Team Decision Making using RFCs](../../translation/cn/transparent-cross-team-decision-making-using-rfcs.md) - InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.
-* [Trusted Committer](../../translation/cn/trusted-committer.md) - Many InnerSource projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations, project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.
+* [30天质量保证](../../translation/cn/30-day-warranty.md) - 当接受来自自己团队以外的贡献时，人们自然不愿意为非本团队自己编写的代码负责。通过30天质量保证，贡献团队同意向接受团队提供错误修复，这将增加两个团队之间的信任度，使贡献更有可能被接受。
+* [共同需求](../../translation/cn/common-requirements.md) - 共享资源库中的共同代码并不能满足所有想要使用它的项目团队的需求；这可以通过需求调整和重构来解决。
+* [沟通工具](../../translation/cn/communication-tooling.md) - 一个内源项目在原始开发团队之外被使用，但用户在获得帮助和与项目团队联系时遇到困难。我们的想法是建立和记录标准的沟通工具，使讨论变得可见、存档和可搜索。
+* [合同贡献者](../../translation/cn/contracted-contributor.md) - 想为内源做出贡献的同事被他们的直线管理部门劝阻。通过正式的合同和协议提供相关的支持。
+* [核心团队](../../translation/cn/core-team.md) - 即使内源项目被广泛需要，贡献和使用也可能因为该项目难以合作而受到阻碍。建立一个核心团队，专门负责处理项目的基本项目。他们的工作使贡献者能够添加和使用为其方案提供价值的功能。
+* [跨团队项目评估](../../translation/cn/crossteam-project-valuation.md) - 很难推销跨团队内源项目的价值，这些项目并没有对公司收入提供直接影响。这里有一个数据驱动的方式来代表你的项目，既能阐明其价值，又能放大其价值。
+* [专职的社群领袖](../../translation/cn/dedicated-community-leader.md) - 选择同时具备沟通和技术能力的人领导社区，以确保成功启动内源计划。
+* [记录你的指导原则](../../translation/cn/document-your-guiding-principles.md) - 通常内源对 "在组织内部应用开源最佳实践 "的解释对缺乏开源背景的人并不奏效。作为一种补救措施，内源最重要的原则被记录下来并广泛发布。
+* [零工市场](../../translation/cn/gig-marketplace.md) - E建立一个市场，通过创建一个内部网站，将特定的内源项目需求列为 "Gig"，并明确规定时间和技能要求。 这将使管理人员能够更好地了解员工的时间承诺和专业利益，从而增加获得批准做出内源贡献的可能性。
+* [内源许可协议](../../translation/cn/innersource-license.md) - T两个属于同一组织的法律实体希望相互分享软件源代码，但他们担心在法律责任或跨公司审计方面的影响。
+* [内源门户](../../translation/cn/innersource-portal.md) - 潜在贡献者不能轻易发现他们感兴趣的内源项目。通过创建一个索引所有可用的内源项目信息的内部网站，你可以让贡献者了解他们可能感兴趣的项目，也可以让内源项目所有者吸引外部受众。
+* [问题追踪的用户案例](../../translation/cn/project-setup/issue-tracker.md) - InnerSource的维护团队不仅未能使计划和进度透明，也未能使变化的背景透明。通过增加项目问题跟踪的使用案例，使其同时服务于头脑风暴、实施讨论和功能设计，就可以解决这个问题。
+* [成熟度模型](../../translation/cn/maturity-model.md) - 团队已经开始采用内源。这种做法正在向多个部门蔓延。然而，人们对什么是内源项目的理解各不相同。解决方案是提供一个成熟度模型，让团队通过自我检查，发现他们还没有意识到的模式和做法。
+* [赞美参与者](../../translation/cn/praise-participants.md) - 在内源贡献之后，感谢贡献者的时间和努力是很重要的。这个模式给出了指导，不仅有效地承认了贡献，而且还吸引了贡献者和其他人的进一步参与。
+* [代码仓活跃度评分](../../translation/cn/repository-activity-score.md) - 潜在贡献者希望找到需要他们帮助的活跃内源项目。通过计算每个项目的资源库活动得分，可以创建一个项目的排名列表（例如在内源门户网站上），这样潜在的贡献者可以更容易地确定他们想要贡献的项目。
+* [评审委员会](../../translation/cn/review-committee.md) - 内源的工作模式与更多的传统方法截然不同，对开发人员和管理人员都是如此。通过建立一个评审委员会，作为内源计划和所有参与该计划的业务部门高级经理之间的接口，后者更有可能熟悉该计划并支持它，因为它为他们提供了一定程度的监督和控制，而不会助长微管理。
+* [服务和库](../../translation/cn/service-vs-library.md) - DevOps环境中的团队可能不愿意在共同的代码库上跨团队工作，因为对谁将负责响应服务停机的问题不明确。解决办法是认识到，通常情况下，要么在独立的环境中部署相同的服务，在服务停机时有独立的问题处理升级链，要么将大量的共享代码分解到一个库中，并在此基础上进行协作。
+* [标准基础文档](../../translation/cn/project-setup/base-documentation.md) - 内源项目的新贡献者很难搞清楚谁在维护这个项目，应该做什么，以及如何贡献。在README.md/CONTRIBUTING.md等标准文件中提供文档，可以为新的贡献者提供一个自助服务过程，这样他们就可以自己找到最常见问题的答案。
+* [已试验开始](../../translation/cn/start-as-experiment.md) - 将你的内源计划作为一个有时间限制的实验开始，使不熟悉内源的管理人员更容易认可和支持这项计划。
+* [使用RFC来做跨部门的透明决策](../../translation/cn/transparent-cross-team-decision-making-using-rfcs.md) - 内源项目如果想实现高参与率并为每个参与者做出尽可能好的决策，就需要想办法在整个软件生命周期中建立参与式系统。发布内部请求评论（RFC）文件，可以在设计过程的早期进行讨论，并增加建立具有所有参与方高度承诺的解决方案的机会。
+* [Trusted Committer](../../translation/cn/trusted-committer.md) - 许多内源项目会发现自己处于不断收到贡献者的反馈、功能和错误修正的情况。在这种情况下，项目维护者会寻求方法来认可和奖励贡献者的工作，而不是单一的贡献。
 
-## Appendix
+## 附录
 
-* [Pattern Template](../../meta/pattern-template.md)
-* Extras
-  * [README Template](../../translation/cn/templates/README-template.md)
-  * [CONTRIBUTING Template](../../translation/cn/templates/templates/CONTRIBUTING-template.md)
+* [模式模板](../../meta/pattern-template.md)
+* 额外
+  * [README 模板](../../translation/cn/templates/README-template.md)
+  * [CONTRIBUTING 模板](../../translation/cn/templates/CONTRIBUTING-template.md)
 
-## Resources
+## 资源
 
-* [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
+* [本书在 GitHub 代码仓地址](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)

@@ -1,31 +1,36 @@
-# Contribute to this book
+# 为本书做贡献
 
-You want to make this book better? That is awesome!
+你想让这本书变得更好？那真是太棒了!
 
-The InnerSource Patterns book itself is an [open source project][repo], and welcomes any form of contribution. Nothing is too small!
+《内源模式》这本书本身就是一个[开源项目][repo]，欢迎任何形式的贡献。没有什么是微不足道的!
 
-No matter if you want to help us fix grammar/spelling, improve the design, or contribute entirely new patterns based on the InnerSource experiences that you have made at your workplace. We love all of that! :)
+不管你是想帮助我们修正语法/拼写，改进设计，还是根据你在工作场所的内源经验贡献全新的模式。我们喜欢所有这些（贡献）! :)
 
-If you have never made a contribution to an open source project before, know that the InnerSource Patterns community is group of friendly people and with that a safe place to try it out.
+如果你以前从未为一个开源项目做出过贡献，请知道内源模式社区是一个由友好的人组成的团体，并且有一个安全的地方可以尝试这些贡献。
 
-## Before you get started
+## 在你开始之前
 
-The sources for the InnerSource Patterns and this book are kept in a repository on GitHub. Therefore you will need a GitHub user account to make edits and  suggestions to this book. If you don't have one yet, head over to [github.com](https://github.com) and create an account for free.
+内源模式和本书的源代码都保存在GitHub上的一个仓库中。因此，你需要一个GitHub用户账户来对本书进行编辑和提交建议。如果你还没有，请前往[github.com](https://github.com)，免费创建一个账户。
 
-## Different ways to contribute
+## 贡献的不同方式
 
-Here a few ways in which you can contribute:
+这里有几种你可以做出贡献的方式。
 
-1. fix spelling, formatting, or other glitches that you notice in this book
-2. improve the content of an existing pattern (e.g. by adding a short description of how you are using a pattern as a _Known Instance_)
-3. contribute a new pattern, describing how you have overcome InnerSource-related challenges in your organization
+1. 修复你在本书中发现的拼写、格式或其他小问题
+2. 改进现有模式的内容（例如，通过添加一个简短的描述，说明你是如何使用一个模式作为_已知实例的）。
+3. 贡献一个新的模式，描述你如何在你的组织中克服内源相关的挑战。
 
-For (1) and (2) above you can simply hit the **Edit on GitHub** link that you see at the top of each page in this book. This will take you straight to the respective file in our GitHub repository, where you can suggest your changes.
+对于上述（1）和（2），你可以简单地点击本书每页顶部的**Edit on GitHub**链接。这将使你直接进入我们GitHub仓库中的相应文件，在那里你可以提出你的修改意见。
 
-For (3) you need to clone the [InnerSourcePatterns][repo] repository, and add a new file with your suggested pattern. When making such larger contributions to this book please review our [CONTRIBUTING.md](../../CONTRIBUTING.md) and also our [Contributor Handbook](../../meta/contributor-handbook.md).
+对于（3），你需要克隆[内源模式][repo]资源库，并将你建议的模式添加到一个新文件中。当对本书做出这种较大的贡献时，请查看我们的[CONTRIBUTING.md](../../CONTRIBUTING.md)和我们的[贡献者手册](../../meta/contributor-book.md)。
 
-## License of Contributions
+## 贡献的许可
 
-The contents of this repository are licensed under [CC-BY-SA-4.0](../../LICENSE.txt). By contributing to this repository, you grant us (and everyone else for that matter) the right to use your contribution in accordance with that license.
+本资源库的内容以[CC-BY-SA-4.0](../../LICENSE.txt)授权。通过向这个资源库贡献，你授予我们（以及其他所有人）根据该许可使用你的贡献的权利。
 
 [repo]: https://github.com/InnerSourceCommons/InnerSourcePatterns
+
+## 翻译校对
+
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [龙文选](https://github.com/hncslwx)

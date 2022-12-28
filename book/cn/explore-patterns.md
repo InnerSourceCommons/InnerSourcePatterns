@@ -1,19 +1,24 @@
-# Explore Patterns
+# 探索模式
 
-More and more patterns are contributed to this book by the InnerSource Commons community. That is awesome!
+越来越多的模式是由InnerSource Commons社区贡献给本书的。这真是太棒了!
 
-Now how to make it easy for readers to discover the patterns that can help them in their particular situation?
+现在，如何让读者更容易发现那些能在特定情况下帮助他们的模式？
 
-For this purpose we provide this mind map. It **categorizes patterns based on the different phases of an InnerSource Program**, and the challenges that might appear in the respective phases.
+为此，我们提供了这个思维导图。它**根据内源项目的不同阶段对模式进行了分类**，以及在各个阶段可能出现的挑战。
 
-![Mind Map of InnerSource Patterns](../../pattern-categorization/innersource-program-mind-map.png)
+![内源模式的思维导图](../../pattern-categorization/innersource-program-mind-map.png)
 
-## Improve this Mind Map
+## 改进这个思维导图
 
-If you notice anything in this mind map that looks wrong, please [open an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues), describing the problem and the fix that should be made.
+如果你注意到这个思维导图中的任何问题，请[打开一个问题](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues)，描述这个问题以及应该做的修正。
 
-Further if you have other ideas for improving the discoverability of these patterns, or want to make this mind map better, review the documentation of our [Pattern Categorization](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md) approach, and also check how to [contribute to this book](contribute.md).
+此外，如果你有其他想法来提高这些模式的可发现性，或者想让这个思维导图变得更好，请查看我们的[模式归类](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)方法的文档，也可以查看如何[为本书做贡献](contribution.md)。
 
-## References
+## 参考文献
 
-The idea for categorizing patterns like this is loosely based a description in [Thoughts on an InnerSource Pattern Language](https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view) by Tim Yao, Bob Hanmer and Padma Sudarsan (2018). For specifics see slide 15 in that slide deck.
+像这样对模式进行分类的想法大致是基于Tim Yao、Bob Hanmer和Padma Sudarsan（2018）在[有关内源模式语言的思考]（https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view）中的描述。具体内容见该幻灯片中的第15张幻灯片。
+
+## 翻译校对
+
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [龙文选](https://github.com/hncslwx)
