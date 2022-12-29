@@ -15,7 +15,7 @@
 
 在这篇介绍中，我们解释了[内源是什么](#内源是什么)，[内源模式是什么](#内源模式是什么)，以及[如何在你的组织中使用这些模式](#如何使用这些模式) 。
 
-如果你已经在你的公司使用内源，并想把你的经验贡献给本书，我们很乐意[欢迎你的贡献](contribution.md)!
+如果你已经在你的公司使用内源，并想把你的经验贡献给本书，我们很乐意[欢迎你的贡献](contribute.md)!
 
 ## 内源是什么?
 
@@ -35,7 +35,7 @@
 
 * ["什么是模式？"Youtube视频](http://bit.ly/innersource_patterns_videos) - 观看一组2-5分钟的Youtube视频，解释内源模式。
 * [模式讨论网络研讨会](https://youtu.be/i-0IVhfRVFU) - 我们在2017-03-16举行了一次网络研讨会，现场讨论一个甜甜圈模式（进入24:30的讨论）。这是对我们所遵循的评审过程的说明。也可参见[2017年6月1日O'Reilly网络研讨会上的内源模式]（http://www.oreilly.com/pub/e/3884）。
-* [模式模板](././meta/pattern-template.md) --查看一个内源模式的骨架，了解新模式的内容!
+* [模式模板](../../meta/pattern-template.md) --查看一个内源模式的骨架，了解新模式的内容!
 * [内源模式介绍（2016年秋季峰会演讲）](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) - *Tim Yao和Padma Sudarsan* (PDF)。详细的模式背景和例子 -- 详细了解为什么以及如何与我们的模式互动。也可参见【内源模式介绍（2017年秋季峰会）】(https://drive.google.com/open?id=0B7_9iQb93uBQWmYwMFpyaGh4OFU) *Tim Yao和Bob Hanmer* (PDF)。
 
 ## 如何使用这些模式?

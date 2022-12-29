@@ -12,7 +12,7 @@
 
 如果你注意到这个思维导图中的任何问题，请[打开一个问题](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues)，描述这个问题以及应该做的修正。
 
-此外，如果你有其他想法来提高这些模式的可发现性，或者想让这个思维导图变得更好，请查看我们的[模式归类](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)方法的文档，也可以查看如何[为本书做贡献](contribution.md)。
+此外，如果你有其他想法来提高这些模式的可发现性，或者想让这个思维导图变得更好，请查看我们的[模式归类](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md)方法的文档，也可以查看如何[为本书做贡献](contribute.md)。
 
 ## 参考文献
 

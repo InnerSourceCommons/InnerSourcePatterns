@@ -22,7 +22,7 @@
 
 对于上述（1）和（2），你可以简单地点击本书每页顶部的**Edit on GitHub**链接。这将使你直接进入我们GitHub仓库中的相应文件，在那里你可以提出你的修改意见。
 
-对于（3），你需要克隆[内源模式][repo]资源库，并将你建议的模式添加到一个新文件中。当对本书做出这种较大的贡献时，请查看我们的[CONTRIBUTING.md](../../CONTRIBUTING.md)和我们的[贡献者手册](../../meta/contributor-book.md)。
+对于（3），你需要克隆[内源模式][repo]资源库，并将你建议的模式添加到一个新文件中。当对本书做出这种较大的贡献时，请查看我们的[CONTRIBUTING.md](../../CONTRIBUTING.md)和我们的[贡献者手册](../../meta/contributor-handbook.md)。
 
 ## 贡献的许可
 
