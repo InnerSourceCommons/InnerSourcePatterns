@@ -36,7 +36,7 @@
 
 此外，提供明确的[贡献指南](./base-documentation.md)，阐明接收团队和贡献团队的期望，也是有帮助的。
 
-![30 Day Warranty](../../../assets/img/thirtydaywarranty.jpg)
+![30天保修](../../../assets/img/thirtydaywarranty.jpg)
 
 ## 结果
 
@@ -72,4 +72,5 @@
 
 ## 翻译校对
 
-* 翻译[姜宁](https://github.com/willemjiang)
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [龙文选](https://github.com/hncslwx)
