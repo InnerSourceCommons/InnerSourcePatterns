@@ -20,6 +20,7 @@ Instead edit toc_template.md
 ## 模式 <a id="p"></a>
 
 * [](../../translation/zh/patterns/common-requirements.md) - 共享代码库中的通用代码不能满足所有想要使用它的项目团队的需要；这一点可以通过需求调整和重构来解决。
+* [30天保修](../../translation/zh/patterns/30-day-warranty.md) - 当接受来自自己团队以外的贡献时，人们自然不愿意为非本团队自己编写的代码负责。通过30天保证，贡献团队同意向接受团队提供错误修复，这将增加两个团队之间的信任度，使贡献更有可能被接受。
 * [Contracted Contributor](../../translation/zh/patterns/contracted-contributor.md) - Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.
 * [Standard Base Documentation](../../translation/zh/patterns/base-documentation.md) - New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like README.md/CONTRIBUTING.md enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.
 
