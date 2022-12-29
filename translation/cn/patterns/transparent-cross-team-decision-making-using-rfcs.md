@@ -37,7 +37,7 @@
   
 ## 素描
 
-![在Uber的BaseUI项目中使用的RFC流程（开放源码的例子）](../../../../assets/img/rfc-process-uber-baseui.png)
+![在Uber的BaseUI项目中使用的RFC流程（开放源码的例子）](../../../assets/img/rfc-process-uber-baseui.png)
 
 ## 解决方案
 

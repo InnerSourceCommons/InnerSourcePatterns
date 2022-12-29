@@ -16,7 +16,7 @@
 
 ## 参考文献
 
-像这样对模式进行分类的想法大致是基于Tim Yao、Bob Hanmer和Padma Sudarsan（2018）在[有关内源模式语言的思考]（https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view）中的描述。具体内容见该幻灯片中的第15张幻灯片。
+像这样对模式进行分类的想法大致是基于Tim Yao、Bob Hanmer和Padma Sudarsan（2018）在[有关内源模式语言的思考](https://drive.google.com/file/d/13AY8glCOdpLOVuz7cVD6QOB8d2xbHCS1/view)中的描述。具体内容见该幻灯片中的第15张幻灯片。
 
 ## 翻译校对
 

@@ -97,7 +97,7 @@
 ## 已知实例
 
 * 围绕其可重用的CI/CD流水线，*Nike**实施了这种模式来管理其InnerSource工作。*实施了这种模式，
-* **WellSky**为一个关键项目建立了一个核心团队。这使他们能够显著扩大对该项目的InnerSource贡献--见[具有核心团队的广泛应用规模的InnerSource]（https://www.youtube.com/watch?v=kgxexjYdhIc）。
+* **WellSky**为一个关键项目建立了一个核心团队。这使他们能够显著扩大对该项目的InnerSource贡献--见[具有核心团队的广泛应用规模的InnerSource](https://www.youtube.com/watch?v=kgxexjYdhIc)。
 
 ## 状态
 

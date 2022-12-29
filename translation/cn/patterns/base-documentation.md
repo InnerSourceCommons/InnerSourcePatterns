@@ -96,13 +96,13 @@ of those aspects right from the start, the list itself is helpful for
 inspiration for what one could cover.
 
 In addition to that, this pattern comes with two very basic templates to get you
-started right away: [README-template.md](templates/README-template.md) and
-[CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+started right away: [README-template.md](../templates/README-template.md) and
+[CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
 
 ## Resulting Context
 
 * The time for contributors to get up to speed is significantly reduced.
-* Time spent on answering initial questions for [Trusted Committers](../trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
+* Time spent on answering initial questions for [Trusted Committers](./trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
 * Escalations due to misunderstandings and misalignment are significantly reduced.
 
 ## Known Instances
@@ -125,8 +125,8 @@ Provide standard base documentation through a README
 
 ## References
 
-* [README-template.md](templates/README-template.md) and
-* [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+* [README-template.md](../templates/README-template.md) and
+* [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
 
 ## Credits
 
