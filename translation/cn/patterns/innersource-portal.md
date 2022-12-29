@@ -52,9 +52,9 @@
 
 在启动门户网站时，应该考虑开展宣传活动，推进大家将内源数据文件或元数据添加到代码库中，以增加门户网站中显示的项目数量。
 
-在GitHub上有一个内源门户的[参考实现](https://github.com/SAP/project-portal-for-内源)，并开放众人贡献。它以一种互动和易于使用的方式列出了一个组织的所有内源项目。项目可以通过一个专门的GitHub主题进行自我注册，并提供额外的元数据。
+在GitHub上有一个内源门户的[参考实现](https://github.com/SAP/project-portal-for-innersource)，并开放众人贡献。它以一种互动和易于使用的方式列出了一个组织的所有内源项目。项目可以通过一个专门的GitHub主题进行自我注册，并提供额外的元数据。
 
-![内源门户网站实例](../../../../assets/img/portal-overview.png)
+![内源门户网站实例](../../../assets/img/portal-overview.png)
 
 ## 结果
 
@@ -65,15 +65,15 @@
 ## 已知实例
 
 * **一家大型金融服务机构**利用创建的内源门户提供了一个宣传和发现不同业务部门的内源项目的机制。
-* **SAP**在内源门户中推广内源项目--项目可以使用GitHub主题自行注册。[代码仓活跃度评分](repository-activity-score.md)定义了内源项目在门户中的默认顺序。也可参见[Michael Graf & Harish B (SAP) at ISC.S11 - 应用内源模式非常规路径]（https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6）。它的代码库以[参考实现](https://github.com/SAP/project-portal-for-内源)的形式发布，并开放给众人贡献。
+* **SAP**在内源门户中推广内源项目--项目可以使用GitHub主题自行注册。[代码仓活跃度评分](repository-activity-score.md)定义了内源项目在门户中的默认顺序。也可参见[Michael Graf & Harish B (SAP) at ISC.S11 - 应用内源模式非常规路径]（https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6）。它的代码库以[参考实现](https://github.com/SAP/project-portal-for-innersource)的形式发布，并开放给众人贡献。
 * **Elbit Systems**使用了这个模式，并在上面添加了游戏化内容。
   * [游戏化作为文化变革的手段和内源参与的助推器](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - 波特兰，俄勒冈州
   * 岛屿、怪兽和内源 [(幻灯片)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(视频)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | 2019年内源春季峰会（爱尔兰，高威）
   * 实现这一平台的代码已经开源，可在[gitlab.com/gilda2](https://gitlab.com/gilda2)上查阅。
-* **美国航空公司**通过[内部内源市场](https://tech.aa.com/2020-10-30-内源/)推广内源项目。与SAP类似，项目通过添加`内源`作为GitHub主题进行自我注册。项目可按语言、主题、开放问题的数量等进行搜索和过滤。
+* **美国航空公司**通过[内部内源市场](https://tech.aa.com/2020-10-30-innersource)推广内源项目。与SAP类似，项目通过添加`内源`作为GitHub主题进行自我注册。项目可按语言、主题、开放问题的数量等进行搜索和过滤。
 * **Banco Santander**创建了一个名为[Santander ONE Europe InnerSource Community]（https://innersourceportal.santander.com/）的公共门户，以支持和增加内源的采用。除了项目目录外，该门户还包括相关内容，如文档、工作方式、新闻和活动。
 
-![Santander 内源门户网站](../../../../assets/img/santander_portal.png)
+![Santander 内源门户网站](../../../assets/img/santander_portal.png)
 
 * **空中客车公司**部署了[SAP门户](https://github.com/SAP/project-portal-for-innersource)，并进行了小的修改以符合空中客车公司的图形标识。此外，对[Python爬虫](https://github.com/zkoppert/innersource-crawler)进行了修补，以便与GitHub企业实例协同工作。
 

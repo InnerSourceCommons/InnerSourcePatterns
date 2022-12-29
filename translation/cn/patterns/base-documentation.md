@@ -58,7 +58,7 @@ contain:
 * Documentation needed for making modifications to the project - or a link to that.
 * Documentation on how to contribute to the project - or a link to that.
 * A "Getting involved" section that explains which public, archived, linkable communication channels the project uses. This should include a link to the project issue tracker, but also to any further discussion media used.
-* A "Who we are" section explaining who the [Trusted Committers](../trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
+* A "Who we are" section explaining who the [Trusted Committers](./trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
 * An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists.
 
 ![README.md](../../../assets/img/standard-base-documentation/README-for-users.png)
