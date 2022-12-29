@@ -25,8 +25,8 @@ Instead edit toc_template.md
 
 * [模式模板](../../meta/pattern-template.md)
 * 额外
-  * [README 模板](../../translation/cn/templates/README-template.md)
-  * [CONTRIBUTING 模板](../../translation/cn/templates/CONTRIBUTING-template.md)
+  * [README 模板](../../translation/zh/templates/README-template.md)
+  * [CONTRIBUTING 模板](../../translation/zh/templates/CONTRIBUTING-template.md)
 
 ## 资源
 
