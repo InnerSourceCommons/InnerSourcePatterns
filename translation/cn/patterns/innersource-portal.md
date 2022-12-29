@@ -1,6 +1,6 @@
 ## 标题
 
-内源 门户网站
+内源门户网站
 
 ## Patlet
 
@@ -16,9 +16,9 @@
 
 你正尝试在你的组织内建立一个内源实践。 你知道有些项目正在使用内源模式运行，但它们只是通过口耳相传、电子邮件或与其他员工的旁听对话来获知其存在。 因此，内源项目负责人发现吸引贡献者是件很难做到事情。
 
-没有一个专注于分享InnerSource项目信息的网站可以供整个组织的员工去方便地使用来了解所有正在进行的InnerSource项目。 这严重制约了每个InnerSource项目的发展。
+没有一个专注于分享内源项目信息的网站可以供整个组织的员工去方便地使用来了解所有正在进行的内源项目。 这严重制约了每个内源项目的发展。
 
-做什么才能帮助所有InnerSource项目尽可能高地提高其知名度，并吸引整个组织范围中的贡献者呢？
+做什么才能帮助所有内源项目尽可能高地提高其知名度，并吸引整个组织范围中的贡献者呢？
 
 ## 背景
 
@@ -54,32 +54,32 @@
 
 在GitHub上有一个内源门户的[参考实现](https://github.com/SAP/project-portal-for-内源)，并开放众人贡献。它以一种互动和易于使用的方式列出了一个组织的所有内源项目。项目可以通过一个专门的GitHub主题进行自我注册，并提供额外的元数据。
 
-![内源门户网站实例](../../../assets/img/portal-overview.png)
+![内源门户网站实例](../../../../assets/img/portal-overview.png)
 
 ## 结果
 
-* InnerSource门户网站使InnerSource项目负责人能够向整个组织的受众宣传他们的项目。 由于曝光度的提高，他们吸引了比以往更大的贡献者群体。
-* 对于那些希望参与InnerSource项目的人来说，InnerSource 门户允许他们根据特定标准同时搜索所有可用的 InnerSource 项目，从而准确发现他们感兴趣的机会类型。
+* 内源门户网站使内源项目负责人能够向整个组织的受众宣传他们的项目。 由于曝光度的提高，他们吸引了比以往更大的贡献者群体。
+* 对于那些希望参与内源项目的人来说，内源门户允许他们根据特定标准同时搜索所有可用的 内源项目，从而准确发现他们感兴趣的机会类型。
 * 满足供给者和消费者的需求，有助于将内源确立为一个可行的、有吸引力的选择方案，使组织内的所有领域都能利用它来完成他们单独无法完成的事情。
 
 ## 已知实例
 
-* **一家大型金融服务机构**利用创建的内源 Portal提供了一个宣传和发现不同业务部门的内源项目的机制。
-* **SAP**在内源 Portal中推广内源项目--项目可以使用GitHub主题自行注册。[代码仓活跃度评分](repository-activity-score.md)定义了内源项目在门户中的默认顺序。也可参见[Michael Graf & Harish B (SAP) at ISC.S11 - 应用内源模式非常规路径]（https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6）。它的代码库以[参考实现](https://github.com/SAP/project-portal-for-内源)的形式发布，并开放给众人贡献。
+* **一家大型金融服务机构**利用创建的内源门户提供了一个宣传和发现不同业务部门的内源项目的机制。
+* **SAP**在内源门户中推广内源项目--项目可以使用GitHub主题自行注册。[代码仓活跃度评分](repository-activity-score.md)定义了内源项目在门户中的默认顺序。也可参见[Michael Graf & Harish B (SAP) at ISC.S11 - 应用内源模式非常规路径]（https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6）。它的代码库以[参考实现](https://github.com/SAP/project-portal-for-内源)的形式发布，并开放给众人贡献。
 * **Elbit Systems**使用了这个模式，并在上面添加了游戏化内容。
   * [游戏化作为文化变革的手段和内源参与的助推器](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - 波特兰，俄勒冈州
   * 岛屿、怪兽和内源 [(幻灯片)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(视频)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | 2019年内源春季峰会（爱尔兰，高威）
   * 实现这一平台的代码已经开源，可在[gitlab.com/gilda2](https://gitlab.com/gilda2)上查阅。
-* **美国航空公司**通过[内部内源 市场](https://tech.aa.com/2020-10-30-内源/)推广内源项目。与SAP类似，项目通过添加`内源`作为GitHub主题进行自我注册。项目可按语言、主题、开放问题的数量等进行搜索和过滤。
-* **Banco Santander**创建了一个名为[Santander ONE Europe 内源 Community]（https://内源portal.santander.com/）的公共门户，以支持和增加内源的采用。除了项目目录外，该门户还包括相关内容，如文档、工作方式、新闻和活动。
+* **美国航空公司**通过[内部内源市场](https://tech.aa.com/2020-10-30-内源/)推广内源项目。与SAP类似，项目通过添加`内源`作为GitHub主题进行自我注册。项目可按语言、主题、开放问题的数量等进行搜索和过滤。
+* **Banco Santander**创建了一个名为[Santander ONE Europe InnerSource Community]（https://innersourceportal.santander.com/）的公共门户，以支持和增加内源的采用。除了项目目录外，该门户还包括相关内容，如文档、工作方式、新闻和活动。
 
-![Santander 内源门户网站](../../../assets/img/santander_portal.png)
+![Santander 内源门户网站](../../../../assets/img/santander_portal.png)
 
-* **空中客车公司**部署了[SAP门户](https://github.com/SAP/project-portal-for-内源)，并进行了小的修改以符合空中客车公司的图形标识。此外，对[Python爬虫](https://github.com/zkoppert/内源-crawler)进行了修补，以便与GitHub企业实例协同工作。
+* **空中客车公司**部署了[SAP门户](https://github.com/SAP/project-portal-for-innersource)，并进行了小的修改以符合空中客车公司的图形标识。此外，对[Python爬虫](https://github.com/zkoppert/innersource-crawler)进行了修补，以便与GitHub企业实例协同工作。
 
 ## 参考
 
-* 在这种情况下，内源 门户模式已经被证明与相关的内源 [零工市场](./gig-marketplace.md)模式配合使用效果非常好。
+* 在这种情况下，内源门户模式已经被证明与相关的内源[零工市场](./gig-marketplace.md)模式配合使用效果非常好。
 
 ## 状态
 
