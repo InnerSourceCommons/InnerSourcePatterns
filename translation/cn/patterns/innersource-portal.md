@@ -71,11 +71,13 @@
   * 岛屿、怪兽和内源 [(幻灯片)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(视频)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | 2019年内源春季峰会（爱尔兰，高威）
   * 实现这一平台的代码已经开源，可在[gitlab.com/gilda2](https://gitlab.com/gilda2)上查阅。
 * **美国航空公司**通过[内部内源市场](https://tech.aa.com/2020-10-30-innersource)推广内源项目。与SAP类似，项目通过添加`内源`作为GitHub主题进行自我注册。项目可按语言、主题、开放问题的数量等进行搜索和过滤。
-* **Banco Santander**创建了一个名为[Santander ONE Europe InnerSource Community]（https://innersourceportal.santander.com/）的公共门户，以支持和增加内源的采用。除了项目目录外，该门户还包括相关内容，如文档、工作方式、新闻和活动。
+* **Banco Santander**创建了一个名为 "Santander ONE Europe 内源社群" 的公共门户，以支持和增加内源的采用。除了项目目录外，该门户还包括相关内容，如文档、工作方式、新闻和活动。
 
 ![Santander 内源门户网站](../../../assets/img/santander_portal.png)
 
 * **空中客车公司**部署了[SAP门户](https://github.com/SAP/project-portal-for-innersource)，并进行了小的修改以符合空中客车公司的图形标识。此外，对[Python爬虫](https://github.com/zkoppert/innersource-crawler)进行了修补，以便与GitHub企业实例协同工作。
+
+* **Mercado Libre** 使用了[SAP门户](https://github.com/SAP/project-portal-for-innersource)来展示组织内部的内源项目。
 
 ## 参考
 

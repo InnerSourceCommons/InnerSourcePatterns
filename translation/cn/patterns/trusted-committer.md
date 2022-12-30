@@ -99,6 +99,9 @@ Trusted Committer 处理什么是由每个项目和它的维护者决定的。�
 
 - Nike
 - PayPal
+- Mercado Libre - 在 `CONTRIBUTING.md` 文件加入了一段，用来描述谁是Trusted Committer。
+
+![Mercado Libre 在贡献文档中描述 Trusted Committer](../../../assets/img/mercadolibre-trusted-committers.png "Mercado Libre 在贡献文档中描述 Trusted Committer")
 
 ## 状态
 
