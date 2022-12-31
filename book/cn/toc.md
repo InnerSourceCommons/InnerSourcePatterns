@@ -36,7 +36,7 @@ Instead edit toc_template.md
 * [代码仓活跃度评分](../../translation/cn/patterns/repository-activity-score.md) - 潜在贡献者希望找到需要他们帮助的活跃内源项目。通过计算每个项目的资源库活动得分，可以创建一个项目的排名列表（例如在内源门户网站上），这样潜在的贡献者可以更容易地确定他们想要贡献的项目。
 * [评审委员会](../../translation/cn/patterns/review-committee.md) - 内源的工作模式与更多的传统方法截然不同，对开发人员和管理人员都是如此。通过建立一个评审委员会，作为内源计划和所有参与该计划的业务部门高级经理之间的接口，后者更有可能熟悉该计划并支持它，因为它为他们提供了一定程度的监督和控制，而不会助长微管理。
 * [服务和库](../../translation/cn/patterns/service-vs-library.md) - DevOps环境中的团队可能不愿意在共同的代码库上跨团队工作，因为对谁将负责响应服务停机的问题不明确。解决办法是认识到，通常情况下，要么在独立的环境中部署相同的服务，在服务停机时有独立的问题处理升级链，要么将大量的共享代码分解到一个库中，并在此基础上进行协作。
-* [标准基础文档](../../translation/cn/patterns/base-documentation.md) - 内源项目的新贡献者很难搞清楚谁在维护这个项目，应该做什么，以及如何贡献。在README.md/CONTRIBUTING.md等标准文件中提供文档，可以为新的贡献者提供一个自助服务过程，这样他们就可以自己找到最常见问题的答案。
+* [基准级的文档](../../translation/cn/patterns/base-documentation.md) - 内源项目的新贡献者很难搞清楚谁在维护这个项目，应该做什么，以及如何贡献。在README.md/CONTRIBUTING.md等标准文件中提供文档，可以为新的贡献者提供一个自助服务过程，这样他们就可以自己找到最常见问题的答案。
 * [已试验开始](../../translation/cn/patterns/start-as-experiment.md) - 将你的内源计划作为一个有时间限制的实验开始，使不熟悉内源的管理人员更容易认可和支持这项计划。
 * [使用RFC来做跨部门的透明决策](../../translation/cn/patterns/transparent-cross-team-decision-making-using-rfcs.md) - 内源项目如果想实现高参与率并为每个参与者做出尽可能好的决策，就需要想办法在整个软件生命周期中建立参与式系统。发布内部请求评论（RFC）文件，可以在设计过程的早期进行讨论，并增加建立具有所有参与方高度承诺的解决方案的机会。
 * [Trusted Committer](../../translation/cn/patterns/trusted-committer.md) - 许多内源项目会发现自己处于不断收到贡献者的反馈、功能和错误修正的情况。在这种情况下，项目维护者会寻求方法来认可和奖励贡献者的工作，而不是单一的贡献。
