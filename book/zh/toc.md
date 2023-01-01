@@ -19,9 +19,8 @@ Instead edit toc_template.md
 
 ## 模式 <a id="p"></a>
 
+* [](../../translation/zh/patterns/base-documentation.md) - 内源项目的新贡献者很难搞清楚谁在维护这个项目，该做什么，以及如何贡献。在标准文件中提供文档，如README.md/CONTRIBUTING.md，可以为新的贡献者提供一个自助服务流程，这样他们就可以自己找到最常见问题的答案。
 * [30天保修](../../translation/zh/patterns/30-day-warranty.md) - 当接受来自自己团队以外的贡献时，人们自然不愿意为非本团队自己编写的代码负责。通过30天保证，贡献团队同意向接受团队提供错误修复，这将增加两个团队之间的信任度，使贡献更有可能被接受。
-* [Contracted Contributor](../../translation/zh/patterns/contracted-contributor.md) - Associates wanting to contribute to InnerSource are discouraged from doing so by their line management. Relief is provided by formal contracts and agreements.
-* [Standard Base Documentation](../../translation/zh/patterns/base-documentation.md) - New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like README.md/CONTRIBUTING.md enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.
 * [Trusted Committer](../../translation/zh/patterns/trusted-committer.md) - 许多内源项目会发现自己处于这样一种情况：他们不断收到来自贡献者的反馈、功能和错误修正。 在这种情况下，项目维护者会想方设法对贡献者的工作进行认可和奖励，而不仅仅是对单一的贡献认可。
 * [不要吝啬对参与者的夸奖](../../translation/zh/patterns/praise-participants.md) - 及时感谢贡献者对内源项目贡献的时间和付出是很重要的。 这种模式不仅提供了有效地承认了贡献的指导，而且还吸引贡献者和其他人的进一步参与。
 * [专职的社群领导](../../translation/zh/patterns/dedicated-community-leader.md) - 选择同时具备沟通和技术能力的人领导社群，以确保成功推动内源倡议。
