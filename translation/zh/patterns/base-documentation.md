@@ -1,133 +1,104 @@
-## Title
+## 标题
 
-Standard Base Documentation
+基准级的文档
 
 ## Patlet
 
-New contributors to an InnerSource project have a hard time figuring out who
-maintains the project, what to work on, and how to contribute. Providing
-documentation in standard files like `README.md`/`CONTRIBUTING.md` enables a
-self service process for new contributors, so that they can find the answers to
-the most common questions on their own.
+内源项目的新贡献者很难搞清楚谁在维护这个项目，该做什么，以及如何贡献。在标准文件中提供文档，如`README.md`/`CONTRIBUTING.md`，可以为新的贡献者提供一个自助服务流程，这样他们就可以自己找到最常见问题的答案。
 
-## Problem
+## 问题
 
-A team wants to share either a freshly started or a pre-existing project with
-the wider organization and receive contributions to it. Potential contributors
-often are lost: They are failing to identify the team's preferred communication
-channels. They have trouble quickly making a judgment about whether a new
-feature makes sense to be added or not. They have a hard time understanding
-exactly which colleagues are currently actively maintaining the project.
+一个团队希望与更广泛的组织分享一个新开始的或已经存在的项目，并接受对它的贡献。潜在的贡献者常常迷失。他们无法确定团队的首选沟通渠道。他们难以快速判断添加一个新功能是否有意义。他们很难了解到底哪些同事目前正在积极维护该项目。
 
-## Context
+## 上下文
 
-A project is to be shared with others as an InnerSource project. In order for
-others to be able to understand what the project is about as well as how to
-contribute, the project needs to provide some base level documentation. So far
-the project is lacking either all documentation or some aspects needed for users
-to try it out in a self-service manner as well as for contributors to get up to
-speed quickly.
+一个项目要作为一个内源项目与他人分享。为了让其他人能够理解项目的内容以及如何做出贡献，项目需要提供一些基本的文件。到目前为止，该项目要么缺乏所有的文档，要么缺乏用户以自助服务的方式进行尝试以及贡献者快速上手所需的某些方面的内容。
 
-## Forces
+## 约束
 
-- The project was converted into an InnerSource project only recently. Before, users were either only internal or on-boarded in personal face-to-face sessions. Equally, people working on the project went through personal on-boarding sessions which do not scale with growing numbers of contributors or remote contributors. As a result, self service documentation is lacking.
-- The project was newly created as an InnerSource project. However the host team lacks experience with InnerSource. As a result they need guidance on which information to include in their documentation, where to put that documentation so others can find it and which types of readers to address in their documentation.
-- The project was converted into an InnerSource project only recently, the host team has limited experience with InnerSource. As a result, existing documentation addresses a lot of technical aspects. It does not cover communication, coordination, information needed to facilitate transparent planning.
-- The project was converted into an InnerSource project only recently. As a result, a lot of implicit knowledge that exists within the team is neither written down nor obvious to contributors.
-- A lack of documentation leads to potential contributors taking a long time to get setup and get started. Producing documentation (and keeping it up to date) requires a time investment. Even if the host team relies on contributors to help with lacking documentation, those contributions still need time to review.
-- Project members are spending a lot of time answering getting started questions. Maintaining a comprehensive database of what could be considered support questions requires a lot of time and effort though.
-- Different teams within the organization have diverging standards for how to format source code and which software patterns to use. As a result contributions often end up getting re-written to a large part or even entirely. Standardizing all of that and enforcing the standard often would require a lot of time and work.
-- The added work for repeated explanations and re-writes diminishes the usefulness of the InnerSource approach.
-- Frequent escalations due to extra work and delays due to re-writes lead to a big cheese situation.
+- 该项目最近才转为内源项目。以前，用户要么是内部的，要么是在个人面对面的会议上加入进来的。同样，从事项目的人员经历了入职培训，而这种入职培训并不能随着贡献者或远程贡献者人数的增加而扩大。因此，自助服务文档是缺乏的。
+- 该项目是作为一个内源项目新创建的。然而，东道主团队缺乏内源的经验。因此，他们需要指导建议在文档中包括哪些信息，把文档放在哪里，以便其他人可以找到它，以及在文档中面向的是哪些类型的读者。
+- 该项目是最近才转为内源项目的，东道主团队对内源的经验有限。因此，现有的文档解决了很多技术方面的问题。它不包括促进透明规划所需的沟通、协调和信息。
+- 该项目是最近才转化为内源项目的。因此，很多存在于团队中的隐性知识既没有被写下来，也没有对贡献者可见。
+- 文档的缺乏导致潜在的贡献者需要很长时间来设置环境和入门学习。制作文档（并保持更新）需要时间投资。即使东道主团队依靠贡献者的帮助来解决缺乏文档的问题，这些贡献仍然需要时间来评审。
+- 项目成员要花大量的时间来回答入门问题。维护一个可以被认为是支持问题的综合数据库需要大量的时间和精力。
+- 组织内的不同团队对于如何格式化源代码和使用何种软件模式有不同的标准。因此，贡献通常最后会被大幅修改甚至全部重写。将所有这些操作标准化并执行这些标准，需要大量的时间和工作。
+- 重复解释和重写的额外工作削弱了内源方法的效用。
+- 由于额外的工作和重写造成的延迟而频繁问题升级，导致了一个大奶酪的局面。
 
-## Solution
+## 解决方案
 
-Address the need for clearer documentation for new contributors. The goal when
-creating this documentation should be to make getting started as much a self
-service process as possible with frequently asked questions answered in standard
-documentation format.
+解决为新的贡献者提供更清晰的文档的需求。创建此文档的目标应该是使入门尽可能成为一个自助服务的过程，用标准的文档格式来解答常见问问题。
 
 ### README.md
 
-If it does not yet exist, create a `README.md` for your project. It should
-contain:
+如果它还不存在，为你的项目创建一个`README.md`。它应该包含。
 
-* The [mission of the project](https://producingoss.com/en/producingoss.html#mission-statement) in as a concise format as possible. It should answer what the project's purpose is and enable contributors to make a good first guess whether a suggested feature will likely be in scope for the project, or not.
-* A "Getting Started" section for downstream users of the project. It should explain how to setup/ integrate the project artifacts as well as an explanation of some of the first typical steps for first time users.
-* Deeper documentation for project users - or a link to that.
-* Documentation needed for making modifications to the project - or a link to that.
-* Documentation on how to contribute to the project - or a link to that.
-* A "Getting involved" section that explains which public, archived, linkable communication channels the project uses. This should include a link to the project issue tracker, but also to any further discussion media used.
-* A "Who we are" section explaining who the [Trusted Committers](./trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
-* An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists.
+* [项目的使命](https://producingoss.com/en/producingoss.html#mission-statement)，格式要尽可能简洁。它应该回答发起项目的目的是什么，并使贡献者能够很好地初步猜测一个建议的功能是否可能在项目的范围内。
+* 为项目的下游用户提供一个 "入门 指导"部分。它应该解释如何设置/整合项目的工程文件，以及为第一次使用的用户解释一些最初的典型操作步骤。
+* 为项目用户提供更深层次的指导文档--或者是文档链接。
+* 对项目进行修改所需的文档--或者是文档链接。
+* 关于如何为项目做出贡献的文档--或者是文档链接。
+* 一个 "参与 "部分，解释项目使用哪些公开的、存档的、可链接的交流渠道。这应该包括一个指向项目问题跟踪器的链接，但也包括任何进一步使用的讨论渠道。
+* 一个 "我们是谁 "的部分，解释谁是项目背后的[Trusted Committer](./trusted-committer.md)--并解释应使用上述公共交流渠道而不是私下联系这些人进行交流。
+* 解释项目将贡献者变成Trusted Committer的标准是什么--如果存在这种途径的话。
 
-![README.md](../../../assets/img/standard-base-documentation/README-for-users.png)
+! [README.md](../../../assets/img/standard-base-documentation/README-for-users.png)
 
 ### CONTRIBUTING.md
 
-If the explanation of the steps to make a contribution are too involved, create
-a separate `CONTRIBUTING.md` document. This document should answer frequently
-asked questions that contributors have asked in the past. There is no need to
-provide a comprehensive book up front. Rather, share information that has proven
-needed by contributors. Likely it will touch upon one or more of the following
-topics:
+如果对做出贡献的步骤的解释过于复杂，可以创建一个单独的`CONTRIBUTING.md`文档。这个文件应该回答贡献者过去经常问到的问题。没有必要预先提供全面的书籍。相反，分享已证实为贡献者所需要的信息。它可能会涉及到以下一个或多个主题。
 
-* How to checkout the project source code from version control.
-* How to make modifications to the project (potentially including information on coding guidelines).
-* How to build the project.
-* How to run tests to make sure the above modifications aren't introducing new bugs.
-* How to submit your modifications back to the project.
-* Some information on which turnaround time to expect for modifications made.
+* 如何从版本控制中签出项目的源代码。
+* 如何对项目进行修改（可能包括编码指南方面的信息）。
+* 如何构建项目。
+* 如何运行测试以确保上述修改没有引入新的错误。
+* 如何将你的修改提交给项目。
+* 关于所作修改的预期周转时间的一些信息。
 
 ![CONTRIBUTING.md](../../../assets/img/standard-base-documentation/CONTRIBUTING-for-contributors.png)
 
-There are many of good examples for how to write a `README.md` and what kind
-of information to include in a `CONTRIBUTING.md` file in various open source projects.
-Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a),
-[Open Source Guide from GitHub](https://opensource.guide/) as well as
-the book [Producing Open Source](https://producingoss.com/en/producingoss.html)
-all have valuable information on what kind of information to provide. While
-Producing Open Source does not have a chapter on writing a good README per se,
-the [Getting Started
-chapter](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)
-does provide a fairly extensive list of things that fellow host team members,
-users and contributors will need. InnerSource projects likely will not cover all
-of those aspects right from the start, the list itself is helpful for
-inspiration for what one could cover.
+在各种开源项目中，有许多关于如何写 "README.md "和在 "CONTRIBUTING.md "文件中包含何种信息的好例子，
+诸如[如何写好readme](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a)的页面。
+[来自GitHub的开源指南](https://opensource.guide/)以及[生产开源](https://producingoss.com/en/producingoss.html)
+都有关于提供什么样的信息的宝贵信息。虽然《生产开源》一书中没有关于写好README本身的章节，但[入门章节](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)确实提供了一份相当广泛的清单，列出了东道主团队成员、用户和贡献者需要的东西。InnerSource项目很可能不会从一开始就涵盖所有这些方面，该清单本身对于启发我们可以涵盖何种内容是有帮助的。
 
-In addition to that, this pattern comes with two very basic templates to get you
-started right away: [README-template.md](../templates/README-template.md) and
-[CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
+除此之外，这个模式还附带了两个非常基本的模板，可以让你马上开始。[README-template.md](../templates/README-template.md)和[CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
 
-## Resulting Context
+## 结果
 
-* The time for contributors to get up to speed is significantly reduced.
-* Time spent on answering initial questions for [Trusted Committers](./trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
-* Escalations due to misunderstandings and misalignment are significantly reduced.
+* 贡献者上手的时间大大减少。
+* 为[Trusted Committer](./trusted-committer.md)回答初始问题的时间大大减少，使他们有更多时间从事其他工作。
+* 由于误解和错位导致的问题升级明显减少。
 
-## Known Instances
+## 已知实例
 
-* Europace AG - See blog post [InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
+* Europace AG - 见博文[InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
 * Paypal Inc.
 
-## Authors
+## 作者
 
 * Isabel Drost-Fromm
 
-## Alias
+## 别名
 
-Provide standard base documentation through a README
+通过README提供标准的基础文档
 
-## Status
+## 状态
 
-* Structured
-* Drafted in December 2019.
+* 结构化
+* 于2019年12月起草。
 
-## References
+## 参考
 
 * [README-template.md](../templates/README-template.md) and
 * [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
 
-## Credits
+## 致谢
 
-[Web](https://storyset.com/web) and [People](https://storyset.com/people) illustrations by Storyset
+[网络](https://storyset.com/web)和[人物](https://storyset.com/people)的插图由Storyset制作。
+
+## 翻译校对
+
+* 翻译 [姜宁](https://github.com/willemjiang)
+* 校对 [孙振华](https://github.com/sunzhh02)
