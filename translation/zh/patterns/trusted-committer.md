@@ -122,8 +122,8 @@ Trusted Committer 处理什么是由每个项目和它的维护者决定的。�
 
 ## 翻译
 
-- 翻译 [姜宁]
-- 校对 [龙文选]
+- **2022-12-01** 翻译[姜宁]
+- **2022-12-03** 校对[龙文选]
 
 [Doron Katz]: https://github.com/doronkatz
 [Russell Rutledge]: https://github.com/rrrutledge

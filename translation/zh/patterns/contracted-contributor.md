@@ -95,6 +95,6 @@
 
 ## 翻译校对
 
-- 翻译 [姜宁](https://github.com/willemjiang)
-- 校对 [陈泳](https://github.com/gzchenyong)
+- **2022-12-06** 翻译[姜宁](https://github.com/willemjiang)
+- **2022-12-31**校对 [陈泳](https://github.com/gzchenyong)
   

@@ -84,5 +84,5 @@
 
 ## 翻译校对
 
-* 翻译 [姜宁](https://github.com/willemjiang)
-* 校对 [谭中意](https://github.com/tanzhongyi003)
+* **2022-12-07** 翻译[姜宁](https://github.com/willemjiang)
+* **2022-12-19** 校对[谭中意](https://github.com/tanzhongyi003)
