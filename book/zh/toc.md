@@ -27,7 +27,7 @@ Instead edit toc_template.md
 * [代码仓活跃度评分](../../translation/zh/patterns/repository-activity-score.md) - 潜在的贡献者希望找到需要他们帮助的活跃的内源项目。通过计算每个项目的代码库活跃度评分，可以创建一个项目的排名列表（例如在内源门户网站上），这样潜在的贡献者可以更容易地确定他们想要贡献的项目。
 * [以实验的方式开始](../../translation/zh/patterns/start-as-experiment.md) - 将内源实践倡议作为一个有时间限制的实验开始，使不熟悉内源的管理人员更容易认可和支持该倡议。
 * [共同的需求](../../translation/zh/patterns/common-requirements.md) - 共享代码库中的通用代码不能满足所有想要使用它的项目团队的需要；这一点可以通过需求调整和重构来解决。
-* [内源许可证](../../translation/zh/patterns/innersource-license.md) - 属于同一组织的两个法律实体希望彼此共享软件源代码，但他们担心在法律责任或跨公司会计方面的影响。
+* [内源 许可证](../../translation/zh/patterns/innersource-license.md) - 属于同一组织的两个法律实体希望彼此共享软件源代码，但他们担心在法律责任或跨公司会计方面的影响。
 * [内源门户网站](../../translation/zh/patterns/innersource-portal.md) - 潜在的贡献者很难找到他们感兴趣的内源项目。你可以通过创建一个索引所有可用的内源项目信息的内部网站，可以让贡献者了解他们可能感兴趣的项目，也可以让内源项目的负责人发展外部受众。
 * [利用RFC进行透明的跨团队决策](../../translation/zh/patterns/transparent-cross-team-decision-making-using-rfcs.md) - 内源项目如果想实现高参与率，并为每个参与者做出最好的决定，就需要想办法在整个软件生命周期中建立易于参与式的环境。发布内部征求意见稿（RFC）文件，可以在设计过程的早期就进行讨论，并促进在参与各方在高参与度下建立解决方案的机会。
 * [基准级的文档](../../translation/zh/patterns/base-documentation.md) - 内源项目的新贡献者很难搞清楚谁在维护这个项目，该做什么，以及如何贡献。在标准文件中提供文档，如README.md/CONTRIBUTING.md，可以为新的贡献者提供一个自助服务流程，这样他们就可以自己找到最常见问题的答案。
