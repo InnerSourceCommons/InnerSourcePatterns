@@ -1,4 +1,4 @@
-## Title
+## 标题
 
 利用RFC进行透明的跨团队决策
 
@@ -103,7 +103,7 @@ RFC方法也有我们想要指出的风险。
 
 结构化
 
-## Author(s)
+## 作者
 
 - Tom Sadler
 - Sebastian Spier

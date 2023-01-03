@@ -1,6 +1,6 @@
 ## Title
 
-内源 许可证
+内源许可证
 
 ## Patlet
 
@@ -51,7 +51,7 @@
 
 ## 已知实例
 
-DB Systel创建了他们自己的内源 许可协议，见[DB Inner Source License][db-inner-source-license]。他们使用了[EUPL][eupl]是因为它提供了一个类似于开源的起点，然后在他们特定的组织环境中制定了所需的约束和附加规则。
+DB Systel创建了他们自己的内源许可协议，见[DB Inner Source License][db-inner-source-license]。他们使用了[EUPL][eupl]是因为它提供了一个类似于开源的起点，然后在他们特定的组织环境中制定了所需的约束和附加规则。
 
 DB AG内部的第一批法律实体（公司）正在使用他们的内源许可证。
 
