@@ -193,7 +193,7 @@ PA-3：组织积极主动地告诉成员，组织从他们的贡献中受益；�
 * Zylk
 * Bitergia
 
-## Authors
+## 作者
 
 * Daniel Izquierdo Cortazar
 * Isabel Drost-Fromm
