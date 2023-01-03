@@ -100,5 +100,5 @@
 
 ## 翻译校对
 
-* 翻译 [姜宁](https://github.com/willemjiang)
-* 校对 [孙振华](https://github.com/sunzhh02)
+* **2022-12-21** 翻译[姜宁](https://github.com/willemjiang)
+* **2022-12-31** 校对[孙振华](https://github.com/sunzhh02)

@@ -80,5 +80,5 @@
 
 ## 翻译校对
 
-- 翻译 [姜宁](https://github.com/willemjiang)
-- 校对 [曾江云](https://github.com/skw0rm )
+- **2022-12-02** 翻译[姜宁](https://github.com/willemjiang)
+- **2022-12-06** 校对[曾江云](https://github.com/skw0rm )

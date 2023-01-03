@@ -75,5 +75,5 @@ Robert Hanmer
 
 ## 翻译校对
 
-* 翻译 [姜宁](https://github.com/willemjiang)
-* 校对 [龙文选](https://github.com/hncslwx)
+* **2022-12-05** 翻译[姜宁](https://github.com/willemjiang)
+* **2022-12-09** 校对[龙文选](https://github.com/hncslwx)

@@ -135,6 +135,6 @@ function calculateScore(repo) {
 
 ## 翻译校对
 
-* 翻译 [姜宁](https://github.com/willemjiang)
-* 校对 [龙文选](https://github.com/hncslwx)
+* **2022-12-08** 翻译[姜宁](https://github.com/willemjiang)
+* **2022-12-16** 校对[龙文选](https://github.com/hncslwx)
   
