@@ -28,13 +28,13 @@ The `/book` folder contains generator scripts and extra content required to crea
 - `/book/en/explore-patterns.md` - Shows the mind map of all patterns. Allows readers to link to the mind map directly.
 - patterns content:
   - The English patterns are in `/patterns`
-  - The translated patterns (e.g. for Japanese) are in `/translation/ja`
+  - The translated patterns are in `/translation/<YOUR_LANGUAGE>`[^1]
 
 The book is generated in multiple languages.
 
 The descriptions above are for the English book. You find the English content in `/book/en`.
 
-For other languages (e.g. for Japanese), the content is mirrored and translated to folders like  `/book/ja`.
+For other languages the content is mirrored and translated to folders like `/book/<YOUR_LANGUAGE>`[^1].
 
 For more on the translation process see [these translation instructions](../translation/README.md).
 
@@ -45,7 +45,7 @@ The book is generated in multiple languages.
 Depending on which **branch** a change is merged into, a different book is generated:
 
 * changes merged to `main` branch: triggers the book generation for the **English** book.
-* changes merged to `book-ja` branch: triggers the book generation for the **Japanese** book.
+* changes merged to `book-<YOUR_LANGUAGE>`[^1] branch: triggers the book generation for the book in the given language e.g. `book-jp` for the **Japanese** book.
 
 ## Objectives of the book
 
@@ -64,3 +64,5 @@ There are a couple of good reasons to publish the InnerSource patterns as a gitb
 [InnerSourcePatterns]: https://github.com/InnerSourceCommons/InnerSourcePatterns
 [book_production]: https://patterns.innersourcecommons.org
 [book_staging]: https://innersourcecommons.gitbook.io/innersource-patterns-staging/
+
+[^1]: Replace `<YOUR_LANGUAGE>` with the [2-letter ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language.

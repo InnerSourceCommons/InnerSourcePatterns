@@ -59,4 +59,4 @@ Trusted Committers in this repository will also be onboarded during the translat
 
 When you complete a translation under `/translation/<YOUR_LANGUAGE>/`, a GitHub Actions pipeline will run to generate the output for publication in the gitbook. The process is described in detail in [/book/README.md](/book/README.md).
 
-[^1]: Replace `<YOUR_LANGUAGE>` with the 2-letter language code for your language.
+[^1]: Replace `<YOUR_LANGUAGE>` with the [2-letter ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language.
