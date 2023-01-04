@@ -114,7 +114,7 @@ function calculateScore(repo) {
 
 ## 已知实例
 
-* 在SAP的内源项目门户中使用，用于定义内源项目的默认展示顺序。它首次创建于2020年7月，此后经常进行微调和更新。在2020年7月向 InnerSource Commons 提出时，出现了这种模式。另见[Michael Graf & Harish B (SAP) at ISC.S11 - 不知不觉实现了一个内源模式]（https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6）。
+* 在SAP的内源项目门户中使用，用于定义内源项目的默认展示顺序。它首次创建于2020年7月，此后经常进行微调和更新。在2020年7月向 InnerSource Commons 提出时，出现了这种模式。另见[Michael Graf & Harish B (SAP) at ISC.S11 - 不知不觉实现了一个内源模式](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6)。
 
 ## 状态
 

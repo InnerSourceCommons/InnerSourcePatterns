@@ -23,7 +23,7 @@ Instead edit toc_template.md
 * [Trusted Committer](../../translation/zh/patterns/trusted-committer.md) - 许多内源项目会发现自己处于这样一种情况：他们不断收到来自贡献者的反馈、功能和错误修正。 在这种情况下，项目维护者会想方设法对贡献者的工作进行认可和奖励，而不仅仅是对单一的贡献认可。
 * [不要吝啬对参与者的夸奖](../../translation/zh/patterns/praise-participants.md) - 及时感谢贡献者对内源项目贡献的时间和付出是很重要的。 这种模式不仅提供了有效地承认了贡献的指导，而且还吸引贡献者和其他人的进一步参与。
 * [专职的社群领导](../../translation/zh/patterns/dedicated-community-leader.md) - 选择同时具备沟通和技术能力的人领导社群，以确保成功推动内源倡议。
-* [交流工具](../../translation/zh/patterns/communication-tooling.md) - 一个InnerSource项目正在原始开发团队之外使用，但用户在寻求帮助和与项目团队联系时遇到困难。 我们的想法是建立和记录标准的通信工具，使讨论变得可见、存档和可搜索。
+* [交流工具](../../translation/zh/patterns/communication-tooling.md) - 一个内源项目正在原始开发团队之外使用，但用户在寻求帮助和与项目团队联系时遇到困难。 我们的想法是建立和记录标准的通信工具，使讨论变得可见、存档和可搜索。
 * [代码仓活跃度评分](../../translation/zh/patterns/repository-activity-score.md) - 潜在的贡献者希望找到需要他们帮助的活跃的内源项目。通过计算每个项目的代码库活跃度评分，可以创建一个项目的排名列表（例如在内源门户网站上），这样潜在的贡献者可以更容易地确定他们想要贡献的项目。
 * [以实验的方式开始](../../translation/zh/patterns/start-as-experiment.md) - 将内源实践倡议作为一个有时间限制的实验开始，使不熟悉内源的管理人员更容易认可和支持该倡议。
 * [共同的需求](../../translation/zh/patterns/common-requirements.md) - 共享代码库中的通用代码不能满足所有想要使用它的项目团队的需要；这一点可以通过需求调整和重构来解决。
@@ -33,7 +33,7 @@ Instead edit toc_template.md
 * [基准级的文档](../../translation/zh/patterns/base-documentation.md) - 内源项目的新贡献者很难搞清楚谁在维护这个项目，该做什么，以及如何贡献。在标准文件中提供文档，如README.md/CONTRIBUTING.md，可以为新的贡献者提供一个自助服务流程，这样他们就可以自己找到最常见问题的答案。
 * [成熟度模型](../../translation/zh/patterns/maturity-model.md) - 各个团队已经开始采用内源。这种做法正在向多个部门蔓延。然而，人们对什么是内源项目的理解各不相同。解决方案是提供一个成熟度模型，让团队通过自我检查，发现他们还没有意识到的模式和做法。
 * [服务 vs. 库](../../translation/zh/patterns/service-vs-library.md) - 由于对服务宕机责任的模糊不清，DevOps团队都不太愿意基于公共代码进行跨团队工作。 解决办法是让大家认识到通常情况下：要么在独立的环境中部署相同的服务，在服务宕机时有独立的问题处理兜底机制；要么将大量的共享代码纳入一个库，大家在此基础上进行协作。
-* [核心团队](../../translation/zh/patterns/core-team.md) - 即使一个InnerSource项目被广泛应用，但也可能因为项目难以协作而阻碍项目的贡献和使用。 建立一个核心团队，专门负责处理项目的基本事务。 他们的工作可以确保贡献者能够增加和使用满足他们自己使用场景需要的特性。
+* [核心团队](../../translation/zh/patterns/core-team.md) - 即使一个内源项目被广泛应用，但也可能因为项目难以协作而阻碍项目的贡献和使用。 建立一个核心团队，专门负责处理项目的基本事务。 他们的工作可以确保贡献者能够增加和使用满足他们自己使用场景需要的特性。
 * [签约贡献者](../../translation/zh/patterns/contracted-contributor.md) - 想为内源做贡献的同事被他们的直线管理层劝阻。正式的合同和协议为这种困境提供援助。
 * [记录你的指导原则](../../translation/zh/patterns/document-your-guiding-principles.md) - 通常内源对 "在组织内部应用开源最佳实践 "的解释对缺乏开源背景的人来说效果并不好。 作为一种补救措施，内源最重要的原则被记录下来并广泛宣传。
 * [评审委员会](../../translation/zh/patterns/review-committee.md) - 对于开发人员和管理人员来说，内源的工作模式与更多的传统方法截然不同。通过建立一个评审委员会，作为内源计划和所有参与该计划的业务部门高级管理人员之间的接口，后者更有可能更加熟悉并支持该计划，因为评审委员会为他们提供了一定程度的监督和控制，而不会助长微管理。

@@ -16,7 +16,7 @@
 
 ## 背景
 
-* 你是[Trusted Committer](./trusted-committer.md)或内源项目的维护者。
+* 你是 [Trusted Committer](./trusted-committer.md) 或内源项目的维护者。
 * 你重视贡献者的社群，并希望维护和发展它。
 
 ## 约束
@@ -33,11 +33,11 @@
 
 对于有价值的贡献（所有的代码贡献和重要的时间贡献），通过以下机制说谢谢。
 
-(1) 在你组织项目活动的任何聊天地点（例如_Slack_），叫出这个人的名字。 让大家知道他们做了什么并公开感谢他们。
+(1) 在你组织项目活动的任何聊天地点（例如 _Slack_），叫出这个人的名字。 让大家知道他们做了什么并公开感谢他们。
 
 示例：
 
-> 每个人都@这里给@andrew.clegg击掌，因为他把_rcs-viewer_更新到_hebo-client_的最新版本（https://github.com/rcs/rcs-viewer/pull/81）。
+> 每个人都@这里给@andrew.clegg击掌，因为他把 _rcs-viewer_ 更新到 _hebo-client_ 的最新版本（https://github.com/rcs/rcs-viewer/pull/81）。
 谢谢你帮助更新这个库，Andy!
 
 (2) 给他们和他们的经理（抄送）发邮件，感谢他们的贡献。
@@ -47,7 +47,7 @@
 
 > 嗨，安迪，我想再次感谢你的这次更新。
 这可能只是一小部分时间，但正是每个人这样的关注才使得RCS项目为我们所有人工作。
-感谢你解决了自己的问题，同时也使_rcs-viewer_更加好用。
+感谢你解决了自己的问题，同时也使 _rcs-viewer_ 更加好用。
 
 ## 结果
 
