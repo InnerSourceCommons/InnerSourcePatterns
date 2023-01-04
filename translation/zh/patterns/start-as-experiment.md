@@ -32,7 +32,7 @@
 - 社群内基于功绩的职业道路
 - 社群内的民主决策
 
-考虑将实验结束时指定为_支点_、_变化_或_暂停_点，以重新评估。还可以考虑建立一个[评审委员会](review-committee.md)，通过参与增加管理层认同的机会。根据公司文化，在实验中加入适当的指标[First Steps With Metrics]（.../.../.../patterns/1-initial/introducing-metrics-innersource.md）可能会有帮助。如果实验中的项目没有对公司的收入产生直接影响，可以考虑引入[跨团队的项目评估](crossteam-project-valuation.md)来强调其价值贡献。
+考虑将实验结束时指定为_支点_、_变化_或_暂停_点，以重新评估。还可以考虑建立一个[评审委员会](review-committee.md)，通过参与增加管理层认同的机会。根据公司文化，在实验中加入适当的指标，[设置指标的第一步](../../../patterns/1-initial/introducing-metrics-innersource.md)可能会有帮助。如果实验中的项目没有对公司的收入产生直接影响，可以考虑引入[跨团队的项目评估](crossteam-project-valuation.md)来强调其价值贡献。
 
 ## 结果
 
