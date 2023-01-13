@@ -73,7 +73,7 @@ Dedicated Community Manager
 - Georg Grütter (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)
 
-## Acknowledgements
+## Acknowledgments
 
 - Tim Yao
 - Padma Sudarsan

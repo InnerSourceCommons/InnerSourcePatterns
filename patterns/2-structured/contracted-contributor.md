@@ -31,12 +31,12 @@ initiative and partake in periodic reviews until there is proof it yields
 the expected results (see [Review Committee](review-committee.md)).  Top level
 management has announced their support for InnerSource on various company-internal meetings.
 
-However, top-level management has not yet empowered or incentivised mid-level
+However, top-level management has not yet empowered or incentivized mid-level
 managers to allow or even motivate their employees to participate in
 cross-divisional InnerSource activities. In addition to that, the capacity of
 every associate is usually allocated to non InnerSource projects for 100 % of
 their working time. Cross organizational collaboration is not yet the norm and
-line managers usually do not have targets outside of their own organisation.
+line managers usually do not have targets outside of their own organization.
 Contributions to InnerSource projects are expected to be made during working
 hours, not during free time.
 
@@ -46,7 +46,7 @@ hours, not during free time.
 - Line managers and HR will, by default, judge the performance of their subordinates against their business units goals, which might not be aligned with the goals of the InnerSource community.
 - The less executive air cover a line manager perceives he has, the less likely is he or she to have his or her staff participate in InnerSource activities which contribute to another business unit.
 - The less transparency and control a line manager has of work done by one of her subordinates, the less likely is she to allow her to contribute.
-- The less formally work in InnerSource is managed and organised, the less likely a line manager who is accustomed to formal processes is to sign off on one of her employees contributing to InnerSource.
+- The less formally work in InnerSource is managed and organized, the less likely a line manager who is accustomed to formal processes is to sign off on one of her employees contributing to InnerSource.
 - The more time an associate spends on contributions to an InnerSource project which does not benefit his day-to-day work, the more will the workload for his teammates in his business unit increase.
 - Individual contributors will likely consider participating in InnerSource as an opportunity to enhance their professional network within the company and to gain knowledge and experience in the technical area of her contributions.
 
@@ -93,7 +93,7 @@ A formal contracting is also beneficial for contributors and communities:
 
 - Georg Grütter (Robert Bosch GmbH)
 
-## Acknowledgements
+## Acknowledgments
 
 - Diogo Fregonese (Robert Bosch GmbH)
 - Robert Hansel (Robert Bosch GmbH)
