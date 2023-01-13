@@ -12,8 +12,8 @@ matrix:
   pipeline:
   - pyspelling.filters.markdown:
       markdown_extensions:
-      # - markdown.extensions.extra:
       - pymdownx.superfences:
+      # - markdown.extensions.extra:
   - pyspelling.filters.html:
       comments: true
       # attributes:

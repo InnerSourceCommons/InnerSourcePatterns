@@ -1,3 +1,5 @@
+# Uses pyspelling (Aspell).
+# Further info in `.pyspelling.yml` and `/config/spellcheck/*`
 name: Spell Check
 on:
   push:

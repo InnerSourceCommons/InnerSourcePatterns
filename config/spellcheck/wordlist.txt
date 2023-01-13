@@ -126,6 +126,8 @@ md
 
 # all exceptions below are for the 'praise-participants.md' pattern. 
 # not sure how to reduce this list.
+# instead of adding all of these words, we could ignore text in '<blockquote>' entirely.
+# not sure if that would be better though?
 
 andrew
 clegg
