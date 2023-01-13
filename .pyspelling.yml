@@ -1,0 +1,28 @@
+matrix:
+- name: Markdown
+  aspell:
+    lang: en
+    d: en_US
+  dictionary:
+    wordlists:
+    - wordlist.txt
+    - wordlist-orgs-authors.txt
+    output: wordlist.dic
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.markdown:
+      markdown_extensions:
+      # - markdown.extensions.extra:
+      - pymdownx.superfences:
+  - pyspelling.filters.html:
+      comments: true
+      # attributes:
+      # - title
+      # - alt
+      ignores:
+      - ':matches(code, pre)'
+      - 'code'
+      - 'pre'
+  sources:
+  - 'patterns/2-structured/**/*.md'
+  default_encoding: utf-8
