@@ -5,9 +5,9 @@ matrix:
     d: en_US
   dictionary:
     wordlists:
-    - wordlist.txt
-    - wordlist-orgs-authors.txt
-    output: wordlist.dic
+    - config/spellcheck/wordlist.txt
+    - config/spellcheck/wordlist-orgs-authors.txt
+    output: config/spellcheck/wordlist.dic
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
