@@ -21,3 +21,10 @@ jobs:
 
     - name: Check Spelling
       uses: rojopolis/spellcheck-github-actions@0.29.0
+
+    - name: Vale Linting
+      uses: errata-ai/vale-action@reviewdog
+      with:
+        files: patterns/2-structured
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
