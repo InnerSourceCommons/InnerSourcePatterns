@@ -39,7 +39,6 @@ The contents of this repository are licensed under [CC-BY-SA-4.0](LICENSE.txt). 
 
 If you list yourself as the author of a pattern, we assume we have your permission to mention you when referring to the respective pattern.
 
-
 ## Code of Conduct
 
 We do not yet have a fully formalized code of conduct yet. We expect all contributors to treat each other respectfully and help us to keep this community free of harassment and discrimination.
