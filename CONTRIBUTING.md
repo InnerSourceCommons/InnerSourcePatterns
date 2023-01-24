@@ -35,6 +35,10 @@ Join the InnerSource Commons [Slack instance](https://isc-inviter.herokuapp.com/
 
 The contents of this repository are licensed under [CC-BY-SA-4.0](LICENSE.txt). By contributing to this repository, you grant us (and everyone else for that matter) the right to use your contribution in accordance with that license.
 
+## Acknowledgment of Contributions
+
+If you list yourself as the author of a pattern, we assume we have your permission to mention you when referring to the respective pattern.
+
 ## Code of Conduct
 
 We do not yet have a fully formalized code of conduct yet. We expect all contributors to treat each other respectfully and help us to keep this community free of harassment and discrimination.
