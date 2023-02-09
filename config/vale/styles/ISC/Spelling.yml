@@ -1,0 +1,7 @@
+# Uses a custom en_US dictionary
+extends: spelling
+message: "Did you really mean '%s'?"
+level: error
+dicpath: config/vale
+dictionaries:
+  - en_US

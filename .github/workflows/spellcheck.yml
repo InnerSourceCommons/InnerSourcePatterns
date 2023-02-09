@@ -13,14 +13,19 @@ on:
 
 jobs:
   spellcheck:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
 
-    - name: Check Spelling
-      uses: rojopolis/spellcheck-github-actions@0.29.0
+    # - name: Check Spelling
+    #   uses: rojopolis/spellcheck-github-actions@0.29.0
+
+    - name: Download Dictionaries
+      run: |
+        cd config/vale/
+        wget -O en_US.aff https://cgit.freedesktop.org/libreoffice/dictionaries/plain/en/en_US.aff
+        wget -O en_US.dic https://cgit.freedesktop.org/libreoffice/dictionaries/plain/en/en_US.dic
 
     - name: Vale Linting
       uses: errata-ai/vale-action@reviewdog
