@@ -1,6 +1,6 @@
 [![Check Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml)
 [![Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml)
-[![Join our Slack!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=slack&label=slack)](https://innersourcecommons-inviter.herokuapp.com)
+[![Join our Slack!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=slack&label=slack)](https://innersourcecommons.org/slack)
 
 # InnerSource Patterns
 
