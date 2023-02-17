@@ -40,7 +40,7 @@
 
 #### How to determine a project's release process and cadence
 
-##### [Standard Release Process and Published Artifacts](https://patterns.innersourcecommons.org/p/release-process)
+##### [Standard Release Process](https://patterns.innersourcecommons.org/p/release-process)
 
 ### Cultural Challenges
 
