@@ -38,9 +38,11 @@
 
 ##### [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
 
-#### How to determine a project's release process and cadence
+#### Can we trust the project for an extended period?
 
 ##### [Standard Release Process](https://patterns.innersourcecommons.org/p/release-process)
+
+##### [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
 
 ### Cultural Challenges
 
