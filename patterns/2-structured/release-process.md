@@ -4,27 +4,34 @@ Standard Release Process
 
 ## Patlet
 
-Teams may be reluctant to use InnerSource projects that they are unfamiliar with when there is no clear release process apparent in the repository.
+Teams may be reluctant to use InnerSource projects that they are unfamiliar with when there is no clear release process in the repository.
 Providing clear release notes and a published artifact (binary, docker image, jar, etc) gives people confidence you are publishing a quality product.
 
 ## Problem
 
-When a team is deciding whether or not to use an InnerSource projects, one of their considerations is whether they trust that they can rely on the given project for an extended period. Switching the tools/projects that they are using has a cost, so they only want to make those investments sporadically.
+When a team is deciding whether to use an InnerSource project, one of their considerations is whether they trust that they can rely on the given project for an extended period. Switching the tools/projects that they are using has a cost, so they only want to make those investments sporadically.
 
-It reduces trust if the given InnerSource projects doesn't have a published artifact or publicly viewable release process, as the team won't know when they can expect new features or the next release, how breaking changes are handled, etc.
+Innersource projects that don't have a published artifact or release process reduces trust. Teams won't know when they can expect the next release, when breaking changes are introduced, etc.
 
 ## Context
 
-It is common practice in Open Source projects to have releases, with release notes documenting breaking changes,
-new features, etc along with either a published binary or link to a Docker image. This practice may not be as
-transparent or well documented/visible for InnerSource projects, modules, etc. Providing robust release notes
-along with a published artifact that is the result of a clearly documented and visible release process builds trust and confidence in your project.
+It is common practice in Open Source projects to have releases, with release notes documenting breaking changes, new features, etc along with either a published binary or link to a Docker image. This practice may not be as transparent or well documented/visible for InnerSource projects, modules, etc. Providing robust release notes along with a published artifact that is the result of a documented and visible release process builds trust and confidence in your project.
+
+A lack of release notes and versioned, released binaries is very often an issue for internal projects. Teams get comfortable with the build process and internalize what goes into a release without showing the details. Any internal project with no pre-built binary or docker image available for external users fits this pattern. Without releasing often, providing clear documentation of what is included in the release, and providing an easy way to use the software, folks may shy away from using and contributing to your application or tool.
 
 ## Forces
 
-- Difficult for organizations that don't have a central CI/CD system
-- Adds the burden of publishing release notes
-- Becomes more difficult if the organization does not provide an internal location to host artifacts
+### Difficult for organizations that don't have a central CI/CD system
+
+For organizations that don't provide engineers a centralized CI/CD system, automating a build and release process can be challenging. The team may need to stand up their own tool (Jenkins, Drone, etc). Without a CI/CD system, builds and release notes can still be produced, however, it may require a local build of the software and manual upload to whichever tool is hosting build artifacts. 
+
+### Added burden of publishing release notes
+
+In addition to building your source code, writing release notes can be tedious without the ability to auto-generate a list of git commits. This would be left for someone to do manually, in addition to writing more high level details on a release.
+
+### Increased difficulty without a location to host artifacts
+
+If a company does not provide a centralized location for storing build artifacts (jars, npm modules, etc.) and docker images, engineers may be left deciding for themselves where is appropriate to store versioned software. Tools like GitHub provide this for you, however, if a company is not using one of these popular tools, this could pose a burden.
 
 ## Solution
 
@@ -38,7 +45,7 @@ A good example of quality Release notes can be found [here](https://github.com/j
 
 Teams who come across your project will see published release notes and gain confidence in your tool. Published artifacts also make using your product easier and quicker to adopt. Having well-defined and visible processes such as these also help with cross-team collaboration and new contributors. Folks can be confident that their contributions are made available and distributed in a reasonable amount of time with a clear usage path.
 
-Release notes are also a great opportunity to [praise participants](praise-participants.md)! As we know, [documentation is extremely important](project-setup/base-documentation.md) for new folks looking to get involved with you project. Praising outside teammates for contributions, including documentation and release notes is a great way to foster community and grow your user base.
+Release notes are also a great opportunity to [praise participants](praise-participants.md)! As we know, [documentation is extremely important](project-setup/base-documentation.md) for new folks looking to get involved with your project. Praising outside teammates for contributions, including documentation and release notes is a great way to foster community and grow your user base.
 
 ## Known Instances
 
