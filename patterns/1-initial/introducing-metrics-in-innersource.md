@@ -23,6 +23,7 @@ This pattern applies very widely from InnerSource initiatives in their infancy s
 ## Forces
 
 Against:
+
 * People do not like to be tracked or measured.
 * There is no canonical monitoring infrastructure for the software development process. Furthermore, such infrastructure is hard to build or to get funding for.
 * There is not a culture of software development metrics.
@@ -34,6 +35,7 @@ Against:
 * There might be a learning curve in the discussion about metrics. And perhaps the tools do not support the InnerSource metrics we are looking for.
 
 In favour:
+
 * Management needs to understand how InnerSource is impacting development. Metrics allow for accurate visualizations.
 * There are several industry standards for monitoring the software development process (DORA, CHAOSS, ...).
 * There are many tools providing metrics for monitoring the software development process and the software product.
