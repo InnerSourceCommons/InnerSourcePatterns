@@ -42,15 +42,21 @@ In favour:
 
 ## Solution
 
+### Manage people's needs
+
 Bring developers, middle managers and C-level to have a discussion about metrics. And consider other roles out of the usual development process such as Human Resources, legal departments, product management, and others.
 
 Let developers and middle managers know that these metrics or KPIs are not focused on tracking their personal performance, but to compare if the initiative is currently working as expected.
 
 Consider a third party that is seen as a neutral player to produce such metrics.
 
+### Approach professionaly
+
 Have specific training on the topic of metrics and good practices to use them. An example is to have a methodology to follow metrics such as the Goal-Question-Metric approach or the Objectives-KeyResults one. On the other hand, try to reflect the short-term and medium-term goals in the metrics to be used.
 
-Metrics when published or discussed should be done so in the aggregate without referring to specific people.
+Metrics when published or discussed should
+* be aggregated, without referring to specific people,
+* watching out for outliers.
 
 Produce a characterization of metrics as this might be helpful for others to understand and follow.
 
