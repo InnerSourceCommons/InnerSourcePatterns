@@ -61,6 +61,8 @@ and therefore promotes external contributions and onboarding of newcomers.
   1. define decoupling scope and prefferred decoupling methods,
   1. develop automated testing protection
   1. document usage of modules.
+  1. introduce semantic versioning
+  1. use a dependency management software such as pip, nuget, npm
 * More information and techniques are available from the book **Working Effectively with Legacy Code** by Michael Feathers and **Refactoring: Improving the Design of Existing Code** by Martin Fowler
 
 ## Resulting Context
