@@ -58,7 +58,7 @@ and therefore promotes external contributions and onboarding of newcomers.
     Establish standards on testing methodology, labeling of repos.
 * Eat the elephant in small bites. Break modularization down into baby steps, like
   1. find internal would-be customers. Better ask them over guessing on your own.
-  1. define decoupling scope and prefferred decoupling methods,
+  1. define decoupling scope and preferred decoupling methods,
   1. develop automated testing protection
   1. document usage of modules.
   1. introduce semantic versioning
