@@ -18,7 +18,7 @@ The lack of modularization in the software architecture prevents reuseability, a
 * There might be potentially reusable functionality buried in monolithic code.
   Legacy code tends to be less modular than new one.
 * There is an available repository for sharing code.
-* Source code can be a useful as documentation on small enough pieces.
+* Source code can be as useful as documentation on small enough pieces.
 * Documentation needed for getting started using a small piece of code is easy to write.
 * Time commitments might already have been made for customer deliveries (not changeable).
 * The value of modularity is nearly invisible for end users.
@@ -31,7 +31,7 @@ The lack of modularization in the software architecture prevents reuseability, a
   * You might be dealing with legacy systems. Might be a fear that if not done properly, quality might be impacted.
   * Architectural constraints might impact modularity.
   * The value of modularity is nearly invisible for end users.
-* In favour:
+* In favor:
   * Modularization mitigates risk and fear of quality degradation from accepting InnerSource contributions.
   * Companies moving to use more open source code will appreciate modularity more over time.
   * Code protected through reliable automated testing offers a chance for newcomers to safely have an impact by refactoring. Modularization is a powerful goal for refactoring. And refactoring usually drags additional benefits.
@@ -49,7 +49,7 @@ and therefore promotes external contributions and onboarding of newcomers.
   * On why: Lack of modularity is technical debt. It increases costs but hides them by shifting these into the future.
   * On how: Modular code is well-understood; there is a lot of literature in favor of this.
   * Select certain "success projects", teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
-* Introduce refactoring as organic effort and strive for it to become part of the culture.
+* Introduce refactoring as an organic effort and strive for it to become part of the culture.
   * Acknowledge and drive acceptance for the investment in modularization. Build time into the release schedule for this.
 * Search for modularizable functionalities:
   * Identify common functionalities and code blocks with potential for profitable modularity.
