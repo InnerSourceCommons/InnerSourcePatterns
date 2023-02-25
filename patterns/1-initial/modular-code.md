@@ -70,7 +70,7 @@ and therefore promotes external contributions and onboarding of newcomers.
 
 * Modular code facilitates division of parallel labor (as required for work in larger teams, or as an open source project).
 * Modular projects enable team members to focus on their own smaller assigned tasks.
-* Modular code makes Agile implementation easier.
+* Modular code helps Agile: For the same functionality, you'll need to change more bits, but the modularity helps to materialize sooner (earlier and more reliable validations) and to prioritize the most relevant bits (separate value from waste).
 * Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
 * Modular code makes the pathway to InnerSource and open source smoother.
 
