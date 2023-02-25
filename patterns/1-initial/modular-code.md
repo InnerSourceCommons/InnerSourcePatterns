@@ -67,7 +67,8 @@ and therefore promotes external contributions and onboarding of newcomers.
 
 ## Resulting Context
 
-* Modular code facilitates division of paralell labour (as required for work in larger teams, or as an open source project). Modular projects enable team members to focus on their own smaller assigned tasks.
+* Modular code facilitates division of parallel labor (as required for work in larger teams, or as an open source project).
+* Modular projects enable team members to focus on their own smaller assigned tasks.
 * Modular code makes Agile implementation easier.
 * Modular efforts increase autonomy and accountability for Engineers, which can raise satisfaction and quality.
 * Modular code makes the pathway to InnerSource and open source smoother.
