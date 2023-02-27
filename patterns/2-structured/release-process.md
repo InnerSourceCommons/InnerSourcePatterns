@@ -23,7 +23,7 @@ A lack of release notes and versioned, released binaries is very often an issue 
 
 ### Difficult for organizations that don't have a central CI/CD system
 
-For organizations that don't provide engineers a centralized CI/CD system, automating a build and release process can be challenging. The team may need to stand up their own tool (Jenkins, Drone, etc). Without a CI/CD system, builds and release notes can still be produced, however, it may require a local build of the software and manual upload to whichever tool is hosting build artifacts. 
+For organizations that don't provide engineers a centralized CI/CD system, automating a build and release process can be challenging. The team may need to stand up their own tool (Jenkins, Drone, etc). Without a CI/CD system, builds and release notes can still be produced, however, it may require a local build of the software and manual upload to whichever tool is hosting build artifacts.
 
 ### Added burden of publishing release notes
 
