@@ -48,7 +48,7 @@ and therefore promotes external contributions and onboarding of newcomers.
 
 * Offer education.
   * On why: Lack of modularity is technical debt. It increases costs but hides them by shifting these into the future.
-  * On how: Modular code is well-understood; there is a lot of literature in favor of this.
+  * On how: Modular code is well-understood; there is a lot of literature in favor of this that can be used for training.
   * Select certain "success projects", teams that have developed reusable code and can demonstrate the long term success. This can help motivate others, as they see what is possible and what is in it for them. Learning directly from other developers is critical.
 * Introduce refactoring as an organic effort and strive for it to become part of the culture.
   * Acknowledge and drive acceptance for the investment in modularization. Build time into the release schedule for this.
@@ -58,13 +58,13 @@ and therefore promotes external contributions and onboarding of newcomers.
     There could be requirements on tests, tools and documentation before considering a component as reusable.
     Establish standards on testing methodology, labeling of repos.
 * Eat the elephant in small bites. Break modularization down into baby steps, like
-  1. find internal would-be customers. Better ask them over guessing on your own.
-  1. define decoupling scope and preferred decoupling methods,
-  1. develop automated testing protection
-  1. document usage of modules.
-  1. introduce semantic versioning
-  1. use a dependency management software such as pip, nuget, npm
-* More information and techniques are available from the book **Working Effectively with Legacy Code** by Michael Feathers and **Refactoring: Improving the Design of Existing Code** by Martin Fowler
+  1. Find internal would-be customers. Better ask them over guessing on your own.
+  1. Define decoupling scope and preferred decoupling methods.
+  1. Develop automated testing protection.
+  1. Document usage of modules.
+  1. Introduce semantic versioning.
+  1. Use a dependency management software such as pip, nuget, npm.
+* More information and techniques are available from the book **Working Effectively with Legacy Code** by Michael Feathers and **Refactoring: Improving the Design of Existing Code** by Martin Fowler.
 
 ## Resulting Context
 
