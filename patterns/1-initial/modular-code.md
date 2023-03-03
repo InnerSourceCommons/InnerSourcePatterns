@@ -16,8 +16,7 @@ Sometimes the first problem causes the second, but it might also happen spontane
 
 ## Context
 
-* There might be potentially reusable functionality buried in monolithic code.
-  Legacy code tends to be less modular than new one.
+* There might be potentially reusable functionality buried in monolithic code. Legacy code tends to be less modular than new one.
 * There is an available repository for sharing code.
 * Source code can be as useful as documentation on small enough pieces.
 * Documentation needed for getting started using a small piece of code is easy to write.
