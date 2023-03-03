@@ -49,7 +49,7 @@ and therefore promotes external contributions and onboarding of newcomers.
 * Offer education.
   * On why: Lack of modularity is technical debt. It increases costs but hides them by shifting these into the future.
   * On how: Modular code is well-understood; there is a lot of literature in favor of this.
-  * Select certain "success projects", teams that will develop reusable code and demonstrate the long term success. This can help motivate others (they see what is possible and what is in it for them). Transparency is critical.
+  * Select certain "success projects", teams that have developed reusable code and can demonstrate the long term success. This can help motivate others, as they see what is possible and what is in it for them. Learning directly from other developers is critical.
 * Introduce refactoring as an organic effort and strive for it to become part of the culture.
   * Acknowledge and drive acceptance for the investment in modularization. Build time into the release schedule for this.
 * Search for modularizable functionalities:
