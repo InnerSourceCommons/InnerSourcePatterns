@@ -62,7 +62,7 @@ and therefore promotes external contributions and onboarding of newcomers.
   1. Develop automated testing protection.
   1. Document usage of modules.
   1. Introduce semantic versioning.
-  1. Committing to not breaking backwards compatibility. 
+  1. Committing to not breaking backwards compatibility.
   1. Use a dependency management software such as pip, nuget, npm.
 * More information and techniques are available from the book *[Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)* by Michael Feathers and *[Refactoring: Improving the Design of Existing Code](https://martinfowler.com/books/refactoring.html)* by Martin Fowler.
 
@@ -78,6 +78,7 @@ and therefore promotes external contributions and onboarding of newcomers.
 ## Known Instances
 
 Elements of the resolution have been proven by various companies such as
+
 - GitHub
 
 ## Status
