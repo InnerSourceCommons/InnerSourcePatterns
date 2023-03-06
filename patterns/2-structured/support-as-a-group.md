@@ -54,11 +54,13 @@ Keep the project up-to-date as the dependencies and frameworks it uses continue 
 * **Updates**.  If someone wants to add new feature to the project, give them the design and technical support necessary for them to build it so that it both works for them and is a good addition to the project.
 Review incoming pull requests in a timely manner.
 
-Being a volunteer group, there can't be a hard-and-fast commitment to do those things, but as a group they all try their best.
+Since this group is comprised of volunteers, it is important to communicate that support is "best effort" only.
+Accordingly this model of support is not well-suited for run-time critical, production projects like live APIs.
+It is better suited for projects that are consumed at build-time like libraries/packages/modules.
 
 ## Resulting Context
 
-* There is support for the InnerSource project.
+* There is some "best-effort" support for the InnerSource project.
 
 ## Rationale
 
