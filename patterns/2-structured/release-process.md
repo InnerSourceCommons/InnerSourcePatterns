@@ -45,7 +45,7 @@ A good example of quality release notes can be found [here](https://github.com/j
 
 Teams who come across your project will see published release notes and gain confidence in your tool. Published artifacts also make using your product easier and quicker to adopt. Having well-defined and visible processes such as these also help with cross-team collaboration and new contributors. Folks can be confident that their contributions are made available and distributed in a reasonable amount of time with a clear usage path.
 
-Release notes are also a great opportunity to [praise participants](praise-participants.md)! As we know, [documentation is extremely important](project-setup/base-documentation.md) for new folks looking to get involved with your project. Praising outside teammates for contributions, including documentation and release notes is a great way to foster community and grow your user base.
+Release notes are also a great opportunity to [praise participants](praise-participants.md)! As we know, [documentation is extremely important](project-setup/base-documentation.md) for new folks looking to get involved with your project. Praising outside teammates for contributions, including documentation and release notes, is a great way to foster community and grow your user base.
 
 ## Known Instances
 
