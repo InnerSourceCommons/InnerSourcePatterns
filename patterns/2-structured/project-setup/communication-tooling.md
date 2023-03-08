@@ -4,7 +4,7 @@ Communication Tooling
 
 ## Patlet
 
-The users of an InnerSource project have trouble getting help and getting in touch with the project team.
+The users of an InnerSource project have trouble getting help and getting in touch with the host team.
 By consistently using asynchronous communication tooling, the project makes discussions visible, archived and searchable, leading to an improved level of support for users.
 
 ## Problem
