@@ -4,7 +4,7 @@ Standard Release Process
 
 ## Patlet
 
-Teams may be reluctant to use InnerSource projects that they are unfamiliar with when there is no clear release process in the repository.
+Teams are reluctant to use InnerSource projects that they are unfamiliar with when they are unclear about the release process.
 Providing clear release notes and a published artifact (binary, docker image, jar, etc) gives people confidence you are publishing a quality product.
 
 ## Problem
