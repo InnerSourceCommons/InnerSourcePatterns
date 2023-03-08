@@ -1,0 +1,5 @@
+root : ./
+
+structure:
+  readme: book/zh/introduction.md
+  summary: book/zh/toc.md

@@ -34,14 +34,27 @@ These are ideas for solutions to the problem that have not been tested yet. This
 
 There are several approaches that can be taken in the context of Agile depending on who's listening. The following main concepts are from [Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development)
 
-* *Incremental and evolutionary processes* - Submitting pull requests for early feedback, or creating an issue for early stakeholder discussion aids this process, allowing ideas to be shaped and defined in the very early conceptual stages, thus being able to nourish good ideas and filter out unfeasible ideas before there are any significant costs associated with them.
-* *Efficient and face-to-face communication* - Many enterprises still implement collaboration models centered around face to face collaboration with teams being colocated. It is possible that management may view the "If it isn't written down and announced on the mailing list, it didn't happen" cultural norm of IS as unnecessary. For IS to work, having communications written down is crucial.
+* _Incremental and evolutionary processes_ - Submitting pull requests for early feedback, or creating an issue for early stakeholder discussion aids this process, allowing ideas to be shaped and defined in the very early conceptual stages, thus being able to nourish good ideas and filter out unfeasible ideas before there are any significant costs associated with them.
+* _Efficient and face-to-face communication_ - Many enterprises still implement collaboration models centered around face to face collaboration with teams being colocated. It is possible that management may view the "If it isn't written down and announced on the mailing list, it didn't happen" cultural norm of IS as unnecessary. For IS to work, having communications written down is crucial.
 One can highlight benefits to corporations from implementing IS practices.
 a) Business continuity in managing "Key man risk"
 When key people depart, the knowledge does not go out of the door with them. Robust documentation including decision records/RFCs and the like capture the rationale for important project design decisions and are key to continued productivity of new employees within the scrum team.
 b) Fostering productivity
 While the corporation's strategy may involve colocating employees who collaborate with each other regularly, it may still be a global corporation. Robust CI/CD and documentation facilitates collaboration and productivity across time zones and geographical locations. It eliminates barriers between teams and the production environment.
-* *Quality Focus* this is a major point for IS. Because of the expected submission by a variety of teams and individuals, extra care is taken to make sure that the submitted code is screened to be production quality. Comprehensive documentation for submitters, test coverage, CI/CD, static code analysis and other techniques are often used to screen code from strangers in the open source world, these techniques have great benefits for internal teams.
+* _Quality Focus_ this is a major point for IS. Because of the expected submission by a variety of teams and individuals, extra care is taken to make sure that the submitted code is screened to be production quality. Comprehensive documentation for submitters, test coverage, CI/CD, static code analysis and other techniques are often used to screen code from strangers in the open source world, these techniques have great benefits for internal teams.
+
+#### [Modern Agile](https://modernagile.org)
+
+The four principles of "Modern Agile" can be connected easily to the goals of InnerSource practices.
+
+For example:
+
+* **Make People Awesome**: A significant advantage of InnerSource is to promote team collaboration. The collaboration process positively exposes people, allowing everyone to know their contributions, thus encouraging them to contribute more and get recognized for it.
+* **Make Safety A Prerequisite**: Open and transparent collaboration promoted by InnerSource is a great way to encourage and demonstrate that collaboration is discussed respectfully and aimed at promoting learning.
+* **Experiment & Learn Rapidly**: Experimentation and learning are in the essence of the open source model and naturally are a fundamental part of the InnerSource. Fast development, good documentation, code reuse, and team collaboration promote experimentation and quick learning.
+* **Deliver Value Continuously**: This is a consequence of the three previous principles, and all the InnerSource work philosophy supports it.
+
+_Note: The above is just an illustration of how to explain this connection. It is by no means the only way to tie these two concepts together._
 
 #### [SCRUM](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)
 

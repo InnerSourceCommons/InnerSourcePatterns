@@ -74,6 +74,7 @@ to a lower need to repeat explanations.
 
 * Europace AG
 * Paypal Inc.
+* Mercado Libre
 
 ## Authors
 

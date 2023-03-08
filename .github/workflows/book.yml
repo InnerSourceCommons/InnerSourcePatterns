@@ -1,36 +1,42 @@
-name: Book ToC Generation
+name: Gitbook Generation
 
 on:
   push:
     branches:
       - "main"
-      - "book-staging"
+      - "book-*"
 
 jobs:
-  book-toc-generation:
+  gitbook-generation:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         ref: ${{ github.head_ref }}
 
-    - uses: actions/setup-ruby@v1
+    - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '2.6'
+        working-directory: 'book/scripts/'
+        bundler-cache: true
 
-    - name: Install ruby dependencies
+    - name: Determine book language
       run: |
-        cd book/
-        gem install bundler
-        bundle install
+        [[ "$GITHUB_REF_NAME" =~ ^book-.*$ ]] && book_language=${GITHUB_REF_NAME:5:2} || book_language="en"
+        echo "BOOK_LANGUAGE=$book_language" >> $GITHUB_ENV
 
     - name: Generate ToC
       run: |
-        cd book/
-        ruby generate_toc.rb
+        cd book/scripts/
+        ruby generate_toc.rb $BOOK_LANGUAGE 
+        echo "Generated book for: $BOOK_LANGUAGE" >> $GITHUB_STEP_SUMMARY
 
-    - name: Commit new ToC to book/toc.md
+    - name: Copy .gitbook.yml to root
+      run: |
+        cp book/$BOOK_LANGUAGE/.gitbook.yaml .
+
+    - name: Commit updated files for the book
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Writing new ToC for the book
+        commit_message: Writing updated files for the book

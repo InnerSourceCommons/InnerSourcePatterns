@@ -49,7 +49,6 @@ def extract_text(node)
   return section_nodes
 end
 
-
 def generate_patterns_overview(patterns)
   pattern_overview = Hash.new()
 
@@ -68,12 +67,25 @@ end
 
 # Main block
 
-TOC_TEMPLATE_FILE = "./toc_template.md"
-TOC_FILE = "./toc.md"
+## 2-letter language code of the book to-be-generated is passed into this script.
+BOOK_LANGUAGE = ARGV[0]
+puts "Generating ToC for language: #{BOOK_LANGUAGE}"
 
-## Generate list of patterns and sort them by name
-patterns = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md", "../patterns/3-validated/*.md"]
-pattern_overview = generate_patterns_overview(patterns)
+## Files to be used for the different languages
+## Note: the folder structure for the patterns is slightly different for 'en' than it is for the other languages,
+## hence this slightly complicated logic here.
+if (BOOK_LANGUAGE == "en")
+  TOC_TEMPLATE_FILE = "../en/toc_template.md"
+  TOC_FILE = "../en/toc.md"  
+  PATTERNS = Dir["../../patterns/2-structured/*.md","../../patterns/2-structured/project-setup/*.md", "../../patterns/3-validated/*.md"]
+else 
+  TOC_TEMPLATE_FILE = "../#{BOOK_LANGUAGE}/toc_template.md"
+  TOC_FILE = "../#{BOOK_LANGUAGE}/toc.md"
+  PATTERNS = Dir["../../translation/#{BOOK_LANGUAGE}/patterns/*.md"]
+end
+
+# Generate list of patterns and sort them by name
+pattern_overview = generate_patterns_overview(PATTERNS)
 pattern_overview = pattern_overview.sort.to_h
 
 toc_snippet = pattern_overview.map{|title, values| "* [#{title}](#{values[:file]}) - #{values[:patlet]}"}
@@ -86,4 +98,4 @@ new_toc_content = new_toc_content.gsub(/<<PATTERS_HERE>>/,toc_snippet)
 ## Write the new ToC to file
 File.write(TOC_FILE, new_toc_content)
 
-puts "Written new ToC for book to #{TOC_FILE}"
+puts "Written new ToC for #{BOOK_LANGUAGE} book to #{TOC_FILE}"

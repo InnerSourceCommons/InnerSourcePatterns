@@ -95,7 +95,9 @@ The core team fills those gaps and greases the wheels so that the contribution e
 
 ## Known Instances
 
-Nike implemented this pattern to manage the InnerSource effort around its reusable CI/CD pipelines.
+* **Nike** implemented this pattern to manage the InnerSource effort around its reusable CI/CD pipelines.
+* **WellSky** established a Core Team for a key project. This allowed them to scale their InnerSource contributions to that project significantly - see [Wide-Scaled InnerSource with a Core Team](https://www.youtube.com/watch?v=kgxexjYdhIc).
+* **BBVA AI Factory** implemented this pattern as part of an InnerSource strategy to foster contribution to and reuse of data science code - see [Mercury: Scaling Data Science reusability at BBVA](https://www.bbvaaifactory.com/mercury-acelerando-la-reutilizacion-en-ciencia-de-datos-dentro-de-bbva/).
 
 ## Status
 
