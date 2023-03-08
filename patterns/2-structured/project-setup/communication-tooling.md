@@ -47,6 +47,8 @@ All communication channels should be documented in the project `README.md`. For 
 
 The host team members need to make an effort to direct questions that they receive personally (e.g. via email or private chat messages) back to official communication channels.
 
+![Recommended Communication Tooling for an InnerSource Project](../../../assets/img/communication-tooling/communication-tooling.png)
+
 ## Resulting Context
 
 Setting up and consistently using official asynchronous communication channels
@@ -84,3 +86,7 @@ Isabel Drost-Fromm
 
 * Structured
 * Drafted in December 2019.
+
+## Credits
+
+[People](https://storyset.com/people) illustrations by Storyset
