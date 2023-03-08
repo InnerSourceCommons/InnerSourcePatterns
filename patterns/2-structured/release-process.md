@@ -11,7 +11,7 @@ Providing clear release notes and a published artifact (binary, docker image, ja
 
 When a team is deciding whether to use an InnerSource project, one of their considerations is whether they trust that they can rely on the given project for an extended period. Switching the tools/projects that they are using has a cost, so they only want to make those investments sporadically.
 
-Innersource projects that don't have a published artifact or release process reduces trust. Teams won't know when they can expect the next release, when breaking changes are introduced, etc.
+InnerSource projects that don't have a published artifact or release process reduces trust. Teams won't know when they can expect the next release, when breaking changes are introduced, etc.
 
 ## Context
 
