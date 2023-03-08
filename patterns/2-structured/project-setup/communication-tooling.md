@@ -82,6 +82,10 @@ to a lower need to repeat explanations.
 
 Isabel Drost-Fromm
 
+## Acknowledgement
+
+Sebastian Spier (for the visual)
+
 ## Status
 
 * Structured
