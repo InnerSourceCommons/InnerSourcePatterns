@@ -17,9 +17,9 @@ answer.
 
 ## Context
 
-A team depends on another team's component. It would like to make contributions
-to that component. Even when it happens in writing, communication happens in a
-1-on-1 fashion.
+- A team depends on another team's component.
+- It would like to make contributions to that component.
+- Even when it happens in writing, communication happens in a 1-on-1 fashion.
 
 ## Forces
 
