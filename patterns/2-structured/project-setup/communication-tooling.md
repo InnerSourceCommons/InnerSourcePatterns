@@ -4,16 +4,8 @@ Communication Tooling
 
 ## Patlet
 
-An InnerSource project is being used outside the original development team but
-users are having trouble getting help and getting in touch with the project
-team. The idea is to set up and document standard communication tooling that
-allows for discussions to become visible, archived and searchable.
-
-## Context
-
-A team depends on another team's component. It would like to make contributions
-to that component. Even when it happens in writing, communication happens in a
-1-on-1 fashion.
+The users of an InnerSource project have trouble getting help and getting in touch with the host team.
+By consistently using asynchronous communication tooling, the project makes discussions visible, archived and searchable, leading to an improved level of support for users.
 
 ## Problem
 
@@ -23,6 +15,12 @@ leading to incoherent information being shared, delays in answers received,
 contributors pinging multiple host team members before receiving a definitive
 answer.
 
+## Context
+
+- A team depends on another team's component.
+- It would like to make contributions to that component.
+- Even when it happens in writing, communication happens in a 1-on-1 fashion.
+
 ## Forces
 
 - The host team is interested in receiving contributions and willing to mentor contributors.
@@ -31,30 +29,30 @@ answer.
 
 ## Solution
 
-The host team needs to be clear on the benefit of providing company-public,
-archived, searchable, linkable communication channels that are free to subscribe
-to by anyone in the company.
+The host team should provide company-public, archived, searchable, linkable communication channels that anyone in the company can subscribe to, as there are measurable benefits to supporting open, written communications channels.
 
 The goal when streamlining communication channels for InnerSource projects
 should be to align communication around topics, not around certain sets of
-people:
+people.
 
-- The project should have its own issue tracker where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow.
-- The project should have one or more discussion channels that come with less rigid a structure. Typically, this will be mailing lists, online forums or even archived chat channels. Usually it is enough to start with just one channel for the project, if traffic increases too much it's helpful to split discussions about project usage from discussions about project development.
-- In addition, the project should have one private channel where sensitive communication can happen between [Trusted Committers](../trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
+A project should set up the following communication tooling:
 
-While communication can happen outside of written channels, as much information
-as possible should be brought back to the asynchronous channels.
+1. **a dedicated issue tracker** where structured communication, decision-making and progress tracking can happen transparently for all host team members but also for downstream users and contributors to follow. For further applications of the issue tracker see [Issue Tracker Use Cases](./issue-tracker.md).
+2. **public discussion channel(s)** that come with less rigid a structure. Typically, this will be mailing lists, online forums, Q&A systems or even archived chat channels. Usually it is enough to start with just one channel for the project. If traffic increases too much it is helpful to split discussions about project usage from discussions about project development.
+3. **a private channel** where communication about sensitive topics can happen between [Trusted Committers](../trusted-committer.md) - e.g. adding further Trusted Committers to the host team. This channel should be used with great care such that communication defaults to open and is kept private only under very rare circumstances.
 
-All communication channels should be documented in the project `README.md`. The
-host team members need to make an effort to direct questions that they receive
-personally back to official communication channels.
+While communication can happen outside of those written channels, as much information as possible should be brought back to the asynchronous channels.
+
+All communication channels should be documented in the project `README.md`. For more details on the use of this file see [Standard Base Documentation](./base-documentation.md).
+
+The host team members need to make an effort to direct questions that they receive personally (e.g. via email or private chat messages) back to official communication channels.
+
+![Recommended Communication Tooling for an InnerSource Project](../../../assets/img/communication-tooling/communication-tooling.png)
 
 ## Resulting Context
 
 Setting up and consistently using official asynchronous communication channels
-helps create a base level of passive documentation that can be referenced again
-when similar questions come up again.
+helps create a base level of [passive documentation](https://www.oreilly.com/library/view/understanding-the-innersource/9781491986899/ch04.html) that can be referenced again when similar questions come up again.
 
 With communication happening in the open others can easily follow project
 progress and get active contributing. Others lurking and reading lowers the
@@ -84,7 +82,15 @@ to a lower need to repeat explanations.
 
 Isabel Drost-Fromm
 
+## Acknowledgement
+
+Sebastian Spier (for the visual)
+
 ## Status
 
 * Structured
 * Drafted in December 2019.
+
+## Credits
+
+[People](https://storyset.com/people) illustrations by Storyset
