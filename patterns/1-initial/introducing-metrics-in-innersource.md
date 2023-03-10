@@ -37,7 +37,7 @@ Against:
 In favor:
 
 * Management needs to understand how InnerSource is impacting development. Metrics allow for accurate visualizations.
-* There are several industry standards for monitoring the software development process (DORA, CHAOSS, ...).
+* There are several industry standards for monitoring the software development process (e.g. [DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance), [CHAOSS](https://chaoss.community/)).
 * There are many tools providing metrics for monitoring the software development process and the software product.
 
 ## Solution
