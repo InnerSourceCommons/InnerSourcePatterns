@@ -34,7 +34,7 @@ Against:
 * Some organizations in some countries may face extra complexity when introducing metrics as the countries may not allow tracking individuals.
 * There might be a learning curve in the discussion about metrics. And perhaps the tools do not support the InnerSource metrics we are looking for.
 
-In favour:
+In favor:
 
 * Management needs to understand how InnerSource is impacting development. Metrics allow for accurate visualizations.
 * There are several industry standards for monitoring the software development process (DORA, CHAOSS, ...).
