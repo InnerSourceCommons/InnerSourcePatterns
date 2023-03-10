@@ -30,8 +30,6 @@ These organizations might have an existing strategy, such as Agile, Lean, or Dev
 
 ### Agile
 
-These are ideas for solutions to the problem that have not been tested yet. This is still a Donut pattern without Solution, and without any Known Instances.
-
 There are several approaches that can be taken in the context of Agile depending on who's listening. The following main concepts are from [Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development)
 
 * _Incremental and evolutionary processes_ - Submitting pull requests for early feedback, or creating an issue for early stakeholder discussion aids this process, allowing ideas to be shaped and defined in the very early conceptual stages, thus being able to nourish good ideas and filter out unfeasible ideas before there are any significant costs associated with them.
@@ -71,11 +69,15 @@ InnerSource helps in this process by its emphasis on a CI/CD workflow as well as
 
 ## Resulting Context
 
-TBD
+Management and newcomers to InnerSource engage in conversations around InnerSource, perceived benefits, expected difficulties, etc.
+They are usually comparing InnerSource to previous experiences around the anchored concepts.
 
 ## Status
 
-* Initial (Donut)
+* Initial
+
+The above are ideas for solutions to the problem that have not been tested yet.
+This pattern does not have any Known Instances yet.
 
 ## Author(s)
 
