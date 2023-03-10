@@ -50,7 +50,7 @@ Let developers and middle managers know that these metrics or KPIs are not focus
 
 Consider a third party that is seen as a neutral player to produce such metrics.
 
-### Approach professionaly
+### Approach professionally
 
 Have specific training on the topic of metrics and good practices to use them. An example is to have a methodology to follow metrics such as the Goal-Question-Metric approach or the Objectives-KeyResults one. On the other hand, try to reflect the short-term and medium-term goals in the metrics to be used.
 
