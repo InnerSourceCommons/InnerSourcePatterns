@@ -69,13 +69,15 @@ InnerSource helps in this process by its emphasis on a CI/CD workflow as well as
 
 ## Resulting Context
 
-Management and newcomers to InnerSource engage in conversations around InnerSource, percieved benefits, expected difficulties, etc. Usually comparing to  previous experiences around the anchored concepts.
+Management and newcomers to InnerSource engage in conversations around InnerSource, perceived benefits, expected difficulties, etc.
+They are usually comparing InnerSource to previous experiences around the anchored concepts.
 
 ## Status
 
-Initial.
-These are ideas for solutions to the problem that have not been tested yet.
-This is still a pattern any Known Instances.
+* Initial
+
+The above are ideas for solutions to the problem that have not been tested yet.
+This pattern does not have any Known Instances yet.
 
 ## Author(s)
 
