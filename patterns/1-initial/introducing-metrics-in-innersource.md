@@ -115,3 +115,6 @@ Initial
 - [Aaron Stewart](https://github.com/a-a-ron/innersource-template-pluralsight/tree/master/metrics)
 - Wilson Mar
 - Addie Girouard
+- Alberto Pérez García-Plaza
+- Daniel Izquierdo Cortázar
+
