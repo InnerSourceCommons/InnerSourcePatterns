@@ -8,7 +8,7 @@ Solving an issue by deadline without consideration of the current scope of chang
 
 ## Problem
 
-Results are expected to take place within a few days/weeks after a process has started. Adding a process or a toolchain by itself will not provide any result by itself beyond developer frustration. Stating that something has to work by a certain deadline will not make it possible, this will just force the situation and workarounds will be done by developers.
+Results are expected to take place within a few days/weeks after a process has started. Adding a process or a toolchain will not provide any result by itself beyond developer frustration. Stating that something has to work by a certain deadline will not make it possible. This will just force the situation, and workarounds will be done by developers.
 
 ## Forces
 
