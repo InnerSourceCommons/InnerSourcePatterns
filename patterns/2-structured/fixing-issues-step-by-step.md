@@ -15,6 +15,7 @@ Results are expected to take place within a few days/weeks after a process has s
 * Developer frustration is spread and at high levels. Complaints about pressure and stress.
 * Clumpsy workarounds, undocumented and/or prone to be broken/voided are frequent.
 * Voluntary contributions are scant.
+
 ## Forces
 
 Understanding step changes in a process requires adequate time and clarity of impact
