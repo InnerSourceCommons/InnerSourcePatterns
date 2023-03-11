@@ -117,4 +117,3 @@ Initial
 - Addie Girouard
 - Alberto Pérez García-Plaza
 - Daniel Izquierdo Cortázar
-
