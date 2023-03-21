@@ -121,6 +121,10 @@ All Trusted Committers of a project are published.
 
 ## Known Instances
 
+* Europace AG
+* GitHub
+* Robert Bosch GmbH
+
 ### Europace AG
 
 The InnerSource principles listed in the Solution above are mostly based on Europace's experience.
