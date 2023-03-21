@@ -52,8 +52,8 @@ The license simplifies the conversations within our organization about sharing s
 
 ## Known Instances
 
-- **DB Systel** 
-- **Robert Bosch GmbH** 
+- **DB Systel**
+- **Robert Bosch GmbH**
 
 ## DB Systel
 
