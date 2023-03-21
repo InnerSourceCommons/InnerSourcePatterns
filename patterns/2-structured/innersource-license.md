@@ -52,6 +52,11 @@ The license simplifies the conversations within our organization about sharing s
 
 ## Known Instances
 
+- **DB Systel** 
+- **Robert Bosch GmbH** 
+
+## DB Systel
+
 DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open source like starting point, and then worked out the constraints and additional rules required in their specific organizational context.
 
 The first legal entities (companies) within the DB AG are using their InnerSource License.
@@ -66,8 +71,6 @@ The mentioned collaboration challenges include:
 - building communities for collaboration on projects, just like in Open Source
 
 It is worth mentioning that so far the software shared under this InnerSource license is mostly tooling, infrastructure, and tools lower in the stack.
-
-- **Robert Bosch GmbH** 
 
 ## Status
 
