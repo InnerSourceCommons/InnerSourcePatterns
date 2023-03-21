@@ -64,7 +64,7 @@ end
 
 # Main block
 
-puts "## 1-Initial patterns primed for upgrade to 2-Structured  (based on Known Instances only)"
+puts "## 1-Initial patterns primed for upgrade to 2-Structured (based on Known Instances only)"
 l1_patterns = Dir["../../patterns/1-initial/*.md"]
 
 l1_patterns.each do |file|
