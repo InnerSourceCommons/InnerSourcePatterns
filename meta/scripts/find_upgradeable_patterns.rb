@@ -5,16 +5,15 @@ Bundler.require(:default)
 require 'pp'
 
 # ------------------------------------------------------------------------------------------------------------
-# This script scans all patterns in patterns/1-initial and patterns/2-structured.
+# This script scans all patterns in /patterns/1-initial and /patterns/2-structured.
 # Based on the number of Known Instances in the pattern, it suggests which patterns that might be ready to be leveled-up.
 #
 # The number of Known Instances are only one of the [requirement](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/contributor-handbook.md#requirements-level-2---structured) 
 # for our patterns to reach the next level. Therefore reading the pattern and the level requirements in detail is still required
 # to decide whether or not a pattern can be pushed to the next level.
 
-# NOTE: This script is not related to the book generation!
-# However as it uses very similar dependencies, we left it here to see if we can generalize some of the functionality 
-# available in `generate_toc.rb` and `find_upgradeable_patterns.rb`.
+# NOTE: This script and `/book/scripts/generate_toc.rb` have some overlap in how they are parsing markdown.
+# However the overlap seemed minimal, so I opted not to do any deduplication of code.
 # ------------------------------------------------------------------------------------------------------------
 
 # Count Known Instances in a pattern
