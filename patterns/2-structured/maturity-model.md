@@ -4,11 +4,8 @@ Maturity Model
 
 ## Patlet
 
-Teams have started adopting InnerSource. The practice is spreading to multiple
-departments. However, the understanding of what constitutes an InnerSource
-project varies. The solution is to provide a maturity model to allow for teams
-to go through a self check and discover patterns and practices that they are not
-yet aware of.
+The InnerSource practices are spreading to multiple teams and departments, however the understanding of what constitutes an InnerSource project varies.
+Defining a maturity model enablesq teams to do a self-assessment and discover patterns and practices that they are not yet aware of.
 
 ## Problem
 
