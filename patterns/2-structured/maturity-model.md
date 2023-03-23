@@ -228,6 +228,7 @@ long term.
 * Isabel Drost-Fromm
 * Jorge
 * Nerea
+* Sebastian Spier
 
 ## Acknowledgements
 
