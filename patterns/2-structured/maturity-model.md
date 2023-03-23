@@ -208,13 +208,9 @@ InnerSource comes with explicit roles. While in early stages some patterns may b
 
 ## Resulting Context
 
-All teams are aware of available best practices.
-
-Teams understand their level of InnerSource adoption.
-
-Prior to adopting InnerSource as a working model, teams are aware of the
-practices that are expected of them - both in the short term and in the
-long term.
+* All teams are aware of available best practices.
+* Teams understand their level of InnerSource adoption.
+* Prior to adopting InnerSource as a working model, teams are aware of the practices that are expected of them - both in the short term and in the long term.
 
 ## Known Instances
 
