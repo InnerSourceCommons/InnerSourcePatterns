@@ -30,13 +30,9 @@ InnerSource project differs depending on each team.
 
 ## Forces
 
-Teams sharing InnerSource learnings run into misunderstandings as they are not
-aware of their respective level of InnerSource adoption.
-
-Teams believe that "it's all about migrating to a shared software development
-[forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
-
-Teams are not aware of best practices that would help them solve issues that
+* Teams sharing InnerSource learnings run into misunderstandings as they are not aware of their respective level of InnerSource adoption.
+* Teams believe that "it's all about migrating to a shared software development [forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
+* Teams are not aware of best practices that would help them solve issues that
 they run into in their daily doing.
 
 ## Solution
