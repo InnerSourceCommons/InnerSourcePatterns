@@ -22,11 +22,10 @@ pain points that they are dealing with.
 
 ## Context
 
-Several teams have started adopting InnerSource practices. The exact level of
-understanding of the practice diverges between teams. The exact problems teams
-run into diverge depending on the context and working environment of each team.
-As a result the definition of what are important best practices in an
-InnerSource project differs depending on each team.
+* Several teams have started adopting InnerSource practices.
+* The exact level of understanding of the practice diverges between teams.
+* The exact problems teams run into diverge depending on the context and working environment of each team.
+* As a result the definition of what are important best practices in an InnerSource project differs depending on each team.
 
 ## Forces
 
