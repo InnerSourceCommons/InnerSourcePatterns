@@ -4,7 +4,7 @@ Early and fluid quality management for predictable delivery
 
 ## Patlet
 
-Testing practices are often short-cutted to meet deadlines leading to stability questions regarding the code. Frequent code review and testing is embedded in a smaller pull-request culture. 
+Testing practices are often short-cutted to meet deadlines leading to stability questions regarding the code. Frequent code review and testing is embedded in a smaller pull-request culture.
 
 ## Problem
 
@@ -25,7 +25,7 @@ Lack of confidence in the master branch of development, lack of stability.
 
 ## Solutions
 
-Automated testing, routine code review, and frequent pull request processes are put in place to ensure quality. 
+Automated testing, routine code review, and frequent pull request processes are put in place to ensure quality.
 
 Planning: Break the delivery in smaller chunks (minimum viable changes). This goes also for processes and tooling.
 Coordination: Agree on outcome validation criteria upfront.
@@ -40,9 +40,9 @@ Since changes are small and review is very automated, reviews are swift and prob
 Early and flawless delivery of key functionality provides and hardens confidence in the development.
 Common pull request culture enables other stakeholders to provide and validate solution proposals. Development accelerates with InnerSource contributions.
 
-## Known Instances 
+## Known Instances
 
-Santander Bank
+* Santander Bank
 
 ## Status 
 
@@ -55,6 +55,6 @@ Alberto Pérez García-Plaza
 Daniel Izquierdo Cortázar
 Addie Girouard
 
-## Acknowledgements 
+## Acknowledgements
 
 Igor Zubiaurre
