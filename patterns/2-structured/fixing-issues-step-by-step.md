@@ -6,6 +6,7 @@ Fixing Issues Step by Step
 
 Solving an issue by deadline without consideration of the current scope of change to process causes developer frustration and decreased efficiencies. Utilize a continuous improvement approach which right-sizes the work and provides realistic expectations.
 A baby-step development culture fosters external contributions (more opportunities for engaging, less to learn, less to comply with, less to document, less to review). This culture reflects in the open source mantra _["Release early, release often"](https://en.wikipedia.org/wiki/Release_early,_release_often)_.
+
 ## Problem
 
 Results are expected to take place within a few days/weeks after a process has started. Adding a process or a toolchain will not provide any result by itself beyond developer frustration. Stating that something has to work by a certain deadline will not make it possible. This will just force the situation, and workarounds will be done by developers.
