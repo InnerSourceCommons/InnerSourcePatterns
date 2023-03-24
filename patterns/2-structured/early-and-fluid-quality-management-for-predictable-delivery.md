@@ -11,6 +11,7 @@ Testing practices are often short-cutted to meet deadlines leading to stability 
 Code stability depends on how confident we are on our tests. In some cases, proper testing is not taking place until later stages (even pre-production deployment), generating delays in the delivery of the releases. Part of the problem is the size of changes. Bigger changes are more difficult to review and test. In other words, our development code is sent to pre-production without passing the tests, creating blocks and loops against pre-production environments while fixing the issues.
 
 The lack of automated testing coverage leaves a lot of room for fears of breaking things (regressions), which in turn tend to prevent contributions and their acceptance. The contributions are also more error-prone and thus need more corrective effort. This delays them and increases the risk of conflicting with other code changes.
+
 ## Forces
 
 Against:
