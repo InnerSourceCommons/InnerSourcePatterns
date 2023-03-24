@@ -44,7 +44,7 @@ Common pull request culture enables other stakeholders to provide and validate s
 
 * Santander Bank
 
-## Status 
+## Status
 
 Initial
 Published internally in Santander Bank; drafted via pull-request in December of 2022
