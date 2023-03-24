@@ -29,7 +29,7 @@ Splitting targets into smaller bits multiplies the opportunities for engagement.
 
 When reviewing contributions, don't strive for perfection and approve them as soon as there's a tangible improvement (regressions must be avoided, of course).
 
-Lurkers will feel that the (small) achievement is within their reach and will convince them to contribute. This bootstraps a virtuous cycle, as more frequent and diverse contributions also seduce other lurkers to join the party. 
+Lurkers will feel that the (small) achievement is within their reach and will convince them to contribute. This bootstraps a virtuous cycle, as more frequent and diverse contributions also seduce other lurkers to join the party.
 
 ## Resulting Context
 
