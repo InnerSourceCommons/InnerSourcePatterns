@@ -13,6 +13,7 @@ Code stability depends on how confident we are on our tests. In some cases, prop
 The lack of automated testing coverage leaves a lot of room for fears of breaking things (regressions), which in turn tend to prevent contributions and their acceptance. The contributions are also more error-prone and thus need more corrective effort. This delays them and increases the risk of conflicting with other code changes.
 
 ## Context
+
 * Proper testing is not taking place until the late stages
 * There's fear of regressions for the parts that were once tested. This blocks contribution and innovation because contributors fear breaking working software, and verification is effort-consuming and difficult to schedule for maintainers.
 * Testing finds severe and deeply embedded bugs that need significant changes
