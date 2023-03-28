@@ -1,6 +1,6 @@
 ## Title
 
-Support as a Group
+Group Support
 
 ## Patlet
 
