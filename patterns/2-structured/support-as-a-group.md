@@ -4,7 +4,7 @@ Support as a Group
 
 ## Patlet
 
-What happens when the team or individual that was supporting an InnerSource project is no longer able to do so?
+What happens if a team or individual no longer supports an InnerSource project?
 Form a group of interested individuals from anywhere in the company to keep the project going.
 
 ## Problem
