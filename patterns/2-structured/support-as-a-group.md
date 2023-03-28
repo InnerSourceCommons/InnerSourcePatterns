@@ -26,6 +26,7 @@ What a shame if that were to happen to a perfectly good and useful project!
 
 * Popular InnerSource project.
 * No one is actively supporting it.
+* The company cannot assign a team to support.
 
 ## Forces
 
@@ -39,12 +40,7 @@ Call for interested volunteers from anywhere in the company to form a group of [
 You may need to reach out to specific individuals based on commit or usage history.
 It is important that there are enough so that the burden on each can be reasonably small.
 
-When forming, this group should identify or create:
-
-* A chat channel where questions and discussion about the project should happen.
-* Clear contributing instructions.
-* Link to both of the above in the project README.
-* A chat channel just for the [Trusted Committer]s.
+When forming, this group should identify or create [Standard Base Documentation] and [Communication Tooling].
 
 The group should do its best to manage these aspects of the project:
 
@@ -55,8 +51,9 @@ Keep the project up-to-date as the dependencies and frameworks it uses continue 
 Review incoming pull requests in a timely manner.
 
 Since this group is comprised of volunteers, it is important to communicate that support is "best effort" only.
-Accordingly this model of support is not well-suited for run-time critical, production projects like live APIs.
+Accordingly, this model of support is not well-suited for run-time critical, production projects like live APIs.
 It is better suited for projects that are consumed at build-time like libraries/packages/modules.
+The group is not expected to implement any new functionality for others.
 
 ## Resulting Context
 
@@ -82,5 +79,6 @@ Structured
 
 ## Acknowledgements
 
-[Trusted Committer]: https://patterns.innersourcecommons.org/p/trusted-committer
 [Russell R. Rutledge]: https://github.com/rrrutledge
+[Standard Base Documentation]: https://patterns.innersourcecommons.org/p/base-documentation
+[Communication Tooling]: https://patterns.innersourcecommons.org/p/communication-tooling
