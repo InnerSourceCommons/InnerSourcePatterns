@@ -5,11 +5,11 @@ Support as a Group
 ## Patlet
 
 What happens if a team or individual no longer supports an InnerSource project?
-Form a group of interested individuals from anywhere in the company to keep the project going.
+Keep the project alive by forming a group of interested individuals.
 
 ## Problem
 
-* A popular InnerSource project is orphaned with no one to support it.
+* A popular InnerSource project is orphaned.
 * There isn't an obvious home for it to land.
 
 ## Story
