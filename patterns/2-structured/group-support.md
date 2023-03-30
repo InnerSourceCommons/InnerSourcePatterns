@@ -80,5 +80,6 @@ Structured
 ## Acknowledgements
 
 [Russell R. Rutledge]: https://github.com/rrrutledge
-[Standard Base Documentation]: https://patterns.innersourcecommons.org/p/base-documentation
-[Communication Tooling]: https://patterns.innersourcecommons.org/p/communication-tooling
+[Standard Base Documentation]: ../2-structured/project-setup/base-documentation.md
+[Communication Tooling]: ../2-structured/project-setup/communication-tooling.md
+[Trusted Committer]: ../2-structured/trusted-committer.md
