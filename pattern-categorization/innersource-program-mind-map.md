@@ -90,7 +90,7 @@
 
 ##### [Core Team](https://patterns.innersourcecommons.org/p/core-team)
 
-##### [Support as a Group](https://patterns.innersourcecommons.org/p/support-as-a-group)
+##### [Group Support](https://patterns.innersourcecommons.org/p/group-support)
 
 ### Cross Legal Entities Challenges
 
