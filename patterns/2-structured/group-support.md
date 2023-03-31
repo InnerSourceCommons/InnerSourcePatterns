@@ -25,6 +25,7 @@ What a shame if that were to happen to a perfectly good and useful project!
 ## Context
 
 * Popular InnerSource project.
+* Consumed as a build-time dependency (e.g. code module).
 * No one is actively supporting it.
 * The company cannot assign a team to support.
 
