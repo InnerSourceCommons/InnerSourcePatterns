@@ -37,11 +37,11 @@ What a shame if that were to happen to a perfectly good and useful project!
 
 ## Solutions
 
-Call for interested volunteers from anywhere in the company to form a group of [Trusted Committer]s to support the project.
+Call for interested volunteers from anywhere in the company to form a group of [Trusted Committer][]s to support the project.
 You may need to reach out to specific individuals based on commit or usage history.
 It is important that there are enough so that the burden on each can be reasonably small.
 
-When forming, this group should identify or create [Standard Base Documentation] and [Communication Tooling].
+When forming, this group should identify or create [Standard Base Documentation][] and [Communication Tooling][].
 
 The group should do its best to manage these aspects of the project:
 
@@ -59,12 +59,12 @@ The group is not expected to implement any new functionality for others.
 ## Resulting Context
 
 * There is some fragile support for the InnerSource project.
-* In the long-term the group support is likely to dissolve again at some point. If the project continues in the long run, then use this period of stable group support to find a long-lived way to support it (e.g. [Core Team]).
+* In the long-term the group support is likely to dissolve again at some point. If the project continues in the long run, then use this period of stable group support to find a long-lived way to support it (e.g. [Core Team][]).
 
 ## Rationale
 
 People generally want to help.
-If there is personal outreach for someone to join as a [Trusted Committer], there are generally a number of people that will say "yes".
+If there is personal outreach for someone to join as a [Trusted Committer][], there are generally a number of people that will say "yes".
 Feeling part of a group and being given some structure and responsibility generally motivates people to try their best, which many times ends up being enough.
 
 ## Known Instances
@@ -77,9 +77,7 @@ Structured
 
 ## Author
 
-[Russell R. Rutledge]
-
-## Acknowledgements
+[Russell R. Rutledge][]
 
 [Russell R. Rutledge]: https://github.com/rrrutledge
 [Standard Base Documentation]: ../2-structured/project-setup/base-documentation.md
