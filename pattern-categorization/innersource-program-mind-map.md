@@ -90,6 +90,8 @@
 
 ##### [Core Team](https://patterns.innersourcecommons.org/p/core-team)
 
+##### [Group Support](https://patterns.innersourcecommons.org/p/group-support)
+
 ### Cross Legal Entities Challenges
 
 #### Concern on legal liabilities or cross-company accounting
