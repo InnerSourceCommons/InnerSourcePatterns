@@ -59,8 +59,7 @@ The group is not expected to implement any new functionality for others.
 ## Resulting Context
 
 * There is some fragile support for the InnerSource project.
-* In the long-term the group support is likely to dissolve again at some point.
-If the project continues in the long run, then use this period of stable group support to find a long-lived way to support it (e.g. [Core Team]).
+* In the long-term the group support is likely to dissolve again at some point. If the project continues in the long run, then use this period of stable group support to find a long-lived way to support it (e.g. [Core Team]).
 
 ## Rationale
 
