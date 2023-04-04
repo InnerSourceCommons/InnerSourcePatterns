@@ -58,7 +58,9 @@ The group is not expected to implement any new functionality for others.
 
 ## Resulting Context
 
-* There is some "best-effort" support for the InnerSource project.
+* There is some fragile support for the InnerSource project.
+* In the long-term the group support is likely to dissolve again at some point.
+If the project continues in the long run, then use this period of stable group support find a long-lived way to support it (e.g. [Core Team]).
 
 ## Rationale
 
@@ -84,3 +86,4 @@ Structured
 [Standard Base Documentation]: ../2-structured/project-setup/base-documentation.md
 [Communication Tooling]: ../2-structured/project-setup/communication-tooling.md
 [Trusted Committer]: ../2-structured/trusted-committer.md
+[Core Team]: ../2-structured/core-team.md
