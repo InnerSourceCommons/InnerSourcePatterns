@@ -60,7 +60,7 @@ Elementos importantes da solução são:
 ### Exemplos/Modelos
 
 - [Rust][rust] é um bom exemplo de código aberto para modelo e processo de RFC, e tem sido a base para muitos outros processos de RFC.
-- [Modelo de RFC genérico do BBC iPlayer & Sounds](../templates/rfc.md), originalmente baseado no modelo do [Rust][rust]
+- [Modelo de RFC genérico do BBC iPlayer & Sounds](../../../patterns/2-structured//templates/rfc.md), originalmente baseado no modelo do [Rust][rust]
 
 ## Contexto Resultante
 
