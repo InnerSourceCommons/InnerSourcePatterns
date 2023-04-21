@@ -4,13 +4,13 @@ Feature Owners
 
 ## Patlet
 
-This pattern is for scaling inner source project contributions aligned with business initiatives and for aspirant associates who are looking for stretch assignments, more accountability, develop their soft skills and be successful at work.
+This pattern is for scaling inner source project contributions aligned with business initiatives and for aspirant employees who are looking for stretch assignments, more accountability, develop their soft skills and be successful at work.
 
 ## Problem
 
 Contributions in innersource projects mostly are all volunteer based. Below are the challenges we see in day-to-day life:
 - How to increase more contributions in the project.
-- How to create opportunities for associates who want to play more than an individual contributor role and are looking for:
+- How to create opportunities for employees who want to play more than an individual contributor role and are looking for:
     - Elevating leadership skills.
     - More visibility at work.
     - More accountability.
@@ -19,7 +19,7 @@ Contributions in innersource projects mostly are all volunteer based. Below are 
 
 ## Story
 
-A single project which is on high demand and consumption is increasing every month. We need to expand the contributions and add new functionalities. But associates have a concern on how they can play more than an individual contributor role and which will motivate them to contribute more.
+A single project which is on high demand and consumption is increasing every month. We need to expand the contributions and add new functionalities. But employees have a concern on how they can play more than an individual contributor role and which will motivate them to contribute more.
 
 ## Context
 
@@ -37,7 +37,7 @@ Business & [Community leader](patterns/2-structured/core-team.md) looking for sc
 
 Define all the features needed in the project. Per definition, <em>"A feature is the product's service/function that provides business value, meets customer needs and must be able to be done in 2-3 months".</em> 
 
-Invite all contributors for open participation. Empower associates to pick the features which they would be interested in and become feature owners. There can be more than one owner for any given feature.
+Invite all contributors for open participation. Empower employees to pick the features which they would be interested in and become feature owners. There can be more than one owner for any given feature.
 
 Feature owners responsibilities:
 - Analyze the work. 
