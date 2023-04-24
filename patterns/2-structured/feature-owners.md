@@ -49,7 +49,7 @@ Feature owners responsibilities:
 - Review contributions to the feature.
 - Become SMEs on that feature.
 
-![Feature Owner Responsibilities](../../assets/img/feature-owner.PNG)
+![Feature Owner Responsibilities](../../assets/img/feature-owner.png)
 
 ## Resulting Context
 
