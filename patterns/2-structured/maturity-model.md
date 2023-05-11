@@ -41,7 +41,7 @@ InnerSource projects benefit from planning to be transparent across the organiza
 
 InnerSource projects thrive when contributors become active and participate. As a result, making contributions easier should be balanced with pure technical goals.
 
-* DP-0: Each team follows its development process and tools. They are not defined to share knowledge and artifacts outside the development team. Siloed development teams.
+* DP-0: Each team follows its own development process and tools. They are not defined to share knowledge and artifacts outside the development team. Siloed development teams.
 * DP-1: Development teams use shared code repositories, internally. Some teams develop their own CI process, using non-corporate or standard CI tools. There is no code review process defined, although some project teams do it internally.
 * DP-2: The organization sponsors and promotes a shared repository for collective knowledge. Some teams develop their own CI process, using corporate CI tools. There are CI environments. The code review process is defined, and used by some projects. Sometimes code review is done by outside team members.
 * DP-3: Most teams develop their own CI process, using corporate CI tools. There are CI environments. Code review process defined, and used. Code review is done by both, internal and external team members.
