@@ -158,7 +158,7 @@ Not only should feature development be owned by InnerSource teams - support and 
 
 * SM-0: Support given by the core dev or support team. A business contract guarantees support. There is no knowledge about the product outside the team.
 * SM-1: There are rules and regulations to formalize the support on the product, given by a dedicated supporting team.
-* SM-2: Support for InnerSource contributions is formalized through InnerSource patterns like 30-Day[Warranty](./30-day-warranty.md) or [Service vs. Library](./service-vs-library.md).
+* SM-2: Support for InnerSource contributions is formalized through InnerSource patterns like [30 Day Warranty](./30-day-warranty.md) or [Service vs. Library](./service-vs-library.md).
 * SM-3: There are rules and regulations to formalize the support for the product, given by a mature community.
 
 #### Culture
