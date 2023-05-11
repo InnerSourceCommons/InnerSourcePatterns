@@ -4,40 +4,23 @@ Maturity Model
 
 ## Patlet
 
-Teams have started adopting InnerSource. The practice is spreading to multiple
-departments. However, the understanding of what constitutes an InnerSource
-project varies. The solution is to provide a maturity model to allow for teams
-to go through a self check and discover patterns and practices that they are not
-yet aware of.
+Teams have started adopting InnerSource. The practice is spreading to multiple departments. However, the understanding of what constitutes an InnerSource project varies. The solution is to provide a maturity model to allow for teams to go through a self check and discover patterns and practices that they are not yet aware of.
 
 ## Problem
 
-When InnerSource adoption in an enterprise starts to increase, individual
-mentoring of each project through one evangelist becomes unfeasible. Also, more
-and more people are gaining at least a basic understanding of what it means to
-work in an InnerSource project. Looking at all InnerSource projects though the
-depth of understanding for the concept will diverge. Teams may not be aware of
-proven patterns that would help them move to the next level and solve issues and
-pain points that they are dealing with.
+When InnerSource adoption in an enterprise starts to increase, individual mentoring of each project through one evangelist becomes unfeasible. Also, more and more people are gaining at least a basic understanding of what it means to work in an InnerSource project. Looking at all InnerSource projects though the depth of understanding for the concept will diverge. Teams may not be aware of proven patterns that would help them move to the next level and solve issues and pain points that they are dealing with.
 
 ## Context
 
-Several teams have started adopting InnerSource practices. The exact level of
-understanding of the practice diverges between teams. The exact problems teams
-run into diverge depending on the context and working environment of each team.
-As a result the definition of what are important best practices in an
-InnerSource project differs depending on each team.
+Several teams have started adopting InnerSource practices. The exact level of understanding of the practice diverges between teams. The exact problems teams run into diverge depending on the context and working environment of each team. As a result the definition of what are important best practices in an InnerSource project differs depending on each team.
 
 ## Forces
 
-Teams sharing InnerSource learnings run into misunderstandings as they are not
-aware of their respective level of InnerSource adoption.
+Teams sharing InnerSource learnings run into misunderstandings as they are not aware of their respective level of InnerSource adoption.
 
-Teams believe that "it's all about migrating to a shared software development
-[forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
+Teams believe that "it's all about migrating to a shared software development [forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
 
-Teams are not aware of best practices that would help them solve issues that
-they run into in their daily doing.
+Teams are not aware of best practices that would help them solve issues that they run into in their daily doing.
 
 ## Solution
 
