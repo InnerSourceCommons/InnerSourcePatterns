@@ -154,7 +154,7 @@ InnerSource projects need a means for self-assessment. Metrics can be one aspect
 
 #### Support and Maintenance
 
-Not only should feature development be owned by InnerSource teams - support and maintenance is also part of the team's core tasks.
+Not only should feature development be owned by InnerSource teams - support and maintenance is also part of the teams' core tasks.
 
 * SM-0: Support given by the core dev or support team. A business contract guarantees support. There is no knowledge about the product outside the team.
 * SM-1: There are rules and regulations to formalize the support on the product, given by a dedicated supporting team.
