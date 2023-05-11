@@ -30,7 +30,7 @@ Ask teams to self-assess against the proposed maturity model.
 
 #### Plans & Products
 
-InnerSource project benefits from planning to be transparent across the organization by enabling stakeholders to better understand decisions and influence them in a way that can be followed by others.
+InnerSource projects benefit from planning to be transparent across the organization by enabling stakeholders to better understand decisions and influence them in a way that can be followed by others.
 
 * PP-0: Individuals and teams do not regularly disclose their plans or products to multiple stakeholders. No formal actions exist in the organization.
 * PP-1: Individuals and teams give visibility to their plans or products to multiple stakeholders, before they are started. Shared roadmap.
