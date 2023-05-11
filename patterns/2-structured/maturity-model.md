@@ -134,7 +134,9 @@ One of the possible reasons for introducing InnerSource into organizations can b
 
 ### Governance
 
-### Rewards*To drive adoption, extrinsic motivators can be used to increase cross-team collaboration.
+#### Rewards
+
+To drive adoption, extrinsic motivators can be used to increase cross-team collaboration.
 
 * RW-0: No rewards.
 * RW-1: Leaders are encouraged to reward exceptional collaborations, but there are no policies or processes established.
