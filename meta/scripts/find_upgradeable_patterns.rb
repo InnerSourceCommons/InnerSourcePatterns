@@ -64,6 +64,7 @@ end
 
 # Main block
 
+puts "## Initial => Structured"
 puts "## 1-Initial patterns primed for upgrade to 2-Structured (based on Known Instances only)"
 l1_patterns = Dir["../../patterns/1-initial/*.md"]
 
@@ -73,6 +74,7 @@ l1_patterns.each do |file|
 end
 
 puts "\n"
+puts "## Structured => Validated"
 puts "## 2-Structured patterns primed for upgrade to 3-Validated (based on Known Instances only)"
 l2_patterns = Dir["../../patterns/2-structured/*.md", "../../patterns/2-structured/project-setup/*.md"]
 
