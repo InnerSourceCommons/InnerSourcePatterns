@@ -1,4 +1,5 @@
-name: Vale Checks
+name: Spelling & Styles
+
 on:
   push:
     branches:
