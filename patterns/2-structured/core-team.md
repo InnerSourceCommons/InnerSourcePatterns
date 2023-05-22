@@ -1,13 +1,3 @@
-Everything should be innersourced!
-
-Inner Source
-
-organization
-
-organisation
-
-I am schtuck.
-
 ## Title
 
 Core Team
