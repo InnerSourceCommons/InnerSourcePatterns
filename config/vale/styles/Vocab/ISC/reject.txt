@@ -1,4 +1,0 @@
-(?i)inner source
-(?i)innersourcing
-(?i)inner sourcing
-(?i)innersourced
