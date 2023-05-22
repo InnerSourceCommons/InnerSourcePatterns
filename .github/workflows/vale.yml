@@ -1,4 +1,4 @@
-name: Spell Check
+name: Vale Checks
 on:
   push:
     branches:
@@ -10,7 +10,7 @@ on:
     - main
 
 jobs:
-  spellcheck:
+  vale:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,6 +19,6 @@ jobs:
     - name: Vale Linting
       uses: errata-ai/vale-action@reviewdog
       with:
-        files: patterns/2-structured
+        files: '["patterns/2-structured/*.md", "patterns/2-structured/project-setup/*.md"]'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
