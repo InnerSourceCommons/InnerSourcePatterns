@@ -10,7 +10,7 @@ on:
   pull_request:
     paths:
       - ".github/workflows/lint-patterns.yml"
-      - "config/lint-pattern-syntax/*"
+      - ".github/lint-pattern-syntax/*"
       - "patterns/2-structured/*.md"
       - "patterns/2-structured/project-setup/*.md"
       - "patterns/3-validated/*.md"
@@ -25,6 +25,6 @@ jobs:
     - name: Lint pattern files (markdown)
       uses: avto-dev/markdown-lint@v1
       with:
-        rules: './config/lint-pattern-syntax/pattern-template.js'
-        config: './config/lint-pattern-syntax/pattern-template.yml'
+        rules: './.github/lint-pattern-syntax/pattern-template.js'
+        config: './.github/lint-pattern-syntax/pattern-template.yml'
         args: 'patterns/2-structured/*.md patterns/2-structured/project-setup/*.md patterns/3-validated/*.md'
