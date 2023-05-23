@@ -82,7 +82,7 @@ to a lower need to repeat explanations.
 
 Isabel Drost-Fromm
 
-## Acknowledgement
+## Acknowledgment
 
 Sebastian Spier (for the visual)
 
