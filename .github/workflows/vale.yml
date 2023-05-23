@@ -20,6 +20,7 @@ jobs:
     - name: Vale Linting
       uses: errata-ai/vale-action@reviewdog
       with:
-        files: '["patterns/2-structured/*.md", "patterns/2-structured/project-setup/*.md"]'
+        files: '["patterns/2-structured/", "patterns/3-validated/"]'
+        vale_flags: "--glob=*.md"
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
