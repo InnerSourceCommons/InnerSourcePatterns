@@ -22,5 +22,3 @@ jobs:
       with:
         files: '["patterns/2-structured/", "patterns/3-validated/"]'
         vale_flags: "--glob=*.md"
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
