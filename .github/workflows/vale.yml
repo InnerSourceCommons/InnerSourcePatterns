@@ -22,4 +22,5 @@ jobs:
       with:
         files: '["patterns/2-structured/", "patterns/3-validated/"]'
         vale_flags: "--glob=*.md"
-        filter_mode: file
+        filter_mode: nofilter
+        reporter: github-pr-review
