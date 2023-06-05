@@ -4,11 +4,11 @@ Explicit Shared Ownership
 
 # Patlet
 
-A software component that several teams depend on has grown to the point where owners are no longer capable of taking full ownership. There is confusion who to involve for changes. Sharing ownership explicitly and making expected behaviour visible removes ambiguity. Writing a contributions document creates a natural way to evolve ownership.
+A software component that several teams depend on has grown to the point where owners are no longer capable of taking full ownership. There is confusion who to involve for changes. Sharing ownership explicitly and making expected behavior visible removes ambiguity. Writing a contributions document creates a natural way to evolve ownership.
 
 # Problem
 
-An organisation is already using InnerSource best practices in several teams. The architecture of the software offered has grown organically.
+An organization is already using InnerSource best practices in several teams. The architecture of the software offered has grown organically.
 
 While talking about code ownership and accountability, teams notice that there is a component that is in a worrying state: Developed by an original team of authors it has grown it's userbase way beyond what the original team can handle. From time to time others step up to help out, however there is no formal process established. As a result, conflicts arise around who should do the work, and who should decide on project direction.
 

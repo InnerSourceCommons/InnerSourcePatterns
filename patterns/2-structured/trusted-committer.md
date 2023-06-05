@@ -141,7 +141,7 @@ This has been tried and proven successful at:
 
 - [Fernando Freire]
 
-## Acknowledgements
+## Acknowledgments
 
 - [Russell Rutledge]
 - [Loren Sanz]

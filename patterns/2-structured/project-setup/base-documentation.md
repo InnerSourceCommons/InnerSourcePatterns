@@ -12,7 +12,7 @@ the most common questions on their own.
 
 ## Problem
 
-A team wants to share either a freshly started or a pre-existing project with
+A team wants to share either a freshly started or a preexisting project with
 the wider organization and receive contributions to it. Potential contributors
 often are lost: They are failing to identify the team's preferred communication
 channels. They have trouble quickly making a judgment about whether a new

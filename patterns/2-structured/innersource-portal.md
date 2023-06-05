@@ -69,7 +69,7 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 * **Elbit Systems** has used this pattern and added gamification on top.
   * [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
   * Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
-  * The code realizing this platform has been open sourced and is available at [gitlab.com/gilda2](https://gitlab.com/gilda2)
+  * The [code](https://gitlab.com/gilda2) realizing this platform has been open sourced.
 * **American Airlines** promotes InnerSource projects via an [internal InnerSource Marketplace](https://tech.aa.com/2020-10-30-innersource/). Similarly to SAP, projects self-register by adding `innersource` as a GitHub topic. Projects are searchable and filterable by language, topics, number of open issues, etc.
 * **Banco Santander** has created a public portal called "Santander ONE Europe InnerSource Community" to support and increase InnerSource adoption. In addition to the catalog of projects the portal includes relevant content such as documentation, way of working, news, and events.
 
@@ -91,7 +91,7 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 
 * Stephen McCall
 
-## Acknowledgements
+## Acknowledgments
 
 * Shelly Nizri
 * Melinda Malmgren
