@@ -96,4 +96,4 @@ DB 社の中で最初の法人(企業) は、このインナーソース ライ�
 
 - **2022-06-05** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
 - **2022-06-13** - レビュー [@kanazawazawa](https://github.com/kanazawazawa)
-- **2023-06-18** - 更新 [Yuki Hattori](https://github.com/yuhattor)
+- **2023-06-18** - 最終更新

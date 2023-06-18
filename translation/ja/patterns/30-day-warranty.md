@@ -76,4 +76,4 @@
 ## 翻訳の履歴
 
 - **2022-05-26** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
-- **2023-06-18** - 更新 [Yuki Hattori](https://github.com/yuhattor)
+- **2023-06-18** - 最終更新

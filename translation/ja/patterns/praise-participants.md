@@ -86,4 +86,4 @@ Andy さんの活動の中で修正していただいた _rcs-viewer_ は、お�
 
 - **2022-06-06** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
 - **2022-06-15** - レビュー [@hirotakatoya](https://github.com/hirotakatoya)
-- **2023-06-18** - 更新 [Yuki Hattori](https://github.com/yuhattor)
+- **2023-06-18** - 最終更新
