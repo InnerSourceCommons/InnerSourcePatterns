@@ -97,7 +97,7 @@ jobs:
             if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
               gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
             else
-              gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l documentation
+              gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l i18n
             fi
           fi
         env:
