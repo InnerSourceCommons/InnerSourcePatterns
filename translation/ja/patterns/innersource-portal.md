@@ -102,3 +102,4 @@
 
 - **2022-06-06** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
 - **2022-06-13** - レビュー [@kanazawazawa](https://github.com/kanazawazawa)
+- **2023-06-18** - 更新 [Yuki Hattori](https://github.com/yuhattor)
