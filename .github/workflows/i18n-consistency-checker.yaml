@@ -7,7 +7,7 @@ on:
     paths:
       - .github/workflows/i18n-consistency-check.yml
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 1 * *' # run at midnight, on day 1 of the month
   workflow_dispatch:
 
 jobs:
