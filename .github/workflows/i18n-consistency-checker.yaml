@@ -30,7 +30,8 @@ jobs:
           The following files may have consistency issues with the English version. Please check and update the files.\\n\
           \\n\
           This issue is created when there is an update to content/en. It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.\\n"
-          
+
+          # Loop through all the files in the English directory    
           for file in $(find patterns/2-structured -name '*.md'); do
           
             # Get the translated file name and check if it exists
@@ -40,7 +41,7 @@ jobs:
             fi
             echo $file
             echo $i18n_filename
-            # Loop through all the files in the English directory
+
             # Get the last updated date of the original file and the translated file
             original_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $file)" +%s) 
             i18n_content_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $i18n_filename)" +%s)
@@ -59,8 +60,8 @@ jobs:
               original_last_update_hash=$(git log -1 --format=%H $file)
               # Get the parent hash of the original last update hash
               parent_hash=$(git log -1 --format=%P $original_last_update_hash)
-                # Get the diff between the original file and the translated file
-          
+
+              # Get the diff between the original file and the translated file
               result=$(echo "$(git diff ${parent_hash} HEAD $file)" | sed '1,4 s/^/# /')
               echo -e "$result"
           
