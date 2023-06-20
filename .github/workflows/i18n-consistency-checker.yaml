@@ -80,6 +80,7 @@ jobs:
             fi
           done
       - name: Create Issue
+        if: ${{ <expression> }}
         run: | 
           # Declare the flags
           declare -A flags=(
