@@ -1,4 +1,4 @@
-name: i18n check consistency and notify on GitHub Issues
+name: i18n Consistency Check
 
 on:
   pull_request:
