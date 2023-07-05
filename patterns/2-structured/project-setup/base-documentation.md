@@ -5,8 +5,9 @@ Standard Base Documentation
 ## Patlet
 
 New contributors to an InnerSource project have a hard time figuring out who
-maintains the project, what to work on, and how to contribute. Providing
-documentation in standard files like `README.md`/`CONTRIBUTING.md` enables a
+maintains the project, what to work on, how to contribute, and how to communicate
+or collaborate with others. Providing documentation in standard files like
+`README.md`, `CONTRIBUTING.md`, or `CODE_OF_CONDUCT.md` enables a
 self service process for new contributors, so that they can find the answers to
 the most common questions on their own.
 
@@ -81,6 +82,18 @@ topics:
 
 ![CONTRIBUTING.md](../../../assets/img/standard-base-documentation/CONTRIBUTING-for-contributors.png)
 
+### CODE_OF_CONDUCT.md
+
+Defining a Code of Conduct within an InnerSource project is essential for fostering a welcoming and
+inclusive community environment. It sets clear expectations for behavior and establishes guidelines that
+promote respectful and collaborative interactions among project contributors. A well-crafted Code of Conduct
+helps prevent and address issues such as harassment, discrimination, and toxic behavior, ensuring that
+everyone feels safe and valued within the project. By providing a framework for positive and inclusive
+participation, a Code of Conduct encourages diverse perspectives, enhances collaboration, and ultimately
+leads to the development of higher-quality open-source software.
+
+![CODE_OF_CONDUCT.md](../../../assets/img/standard-base-documentation/CODE_OF_CONDUCT-for-the-community.png)
+
 There are many of good examples for how to write a `README.md` and what kind
 of information to include in a `CONTRIBUTING.md` file in various open source projects.
 Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a),
@@ -95,9 +108,14 @@ users and contributors will need. InnerSource projects likely will not cover all
 of those aspects right from the start, the list itself is helpful for
 inspiration for what one could cover.
 
+The [Contributor Covenant](https://www.contributor-covenant.org/) provides a set of good
+templates of `CODE_OF_CONDUCT.md`, very common in the Open Source space. It is a good
+reference to build your own in your InnerSource project.
+
 In addition to that, this pattern comes with two very basic templates to get you
-started right away: [README-template.md](templates/README-template.md) and
-[CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+started right away: [README-template.md](templates/README-template.md),
+[CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md), and
+[CODE_OF_CONDUCT-template.md](templates/CODE_OF_CONDUCT-template.md).
 
 ## Resulting Context
 
@@ -128,7 +146,9 @@ Provide standard base documentation through a README
 
 * [README-template.md](templates/README-template.md) and
 * [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+* [CODE_OF_CONDUCT-template.md](templates/CODE_OF_CONDUCT-template.md)
 
 ## Credits
 
-[Web](https://storyset.com/web) and [People](https://storyset.com/people) illustrations by Storyset
+[Web](https://storyset.com/web), [People](https://storyset.com/people), and
+[Group chat](https://storyset.com/illustration/group-chat) illustrations by Storyset.
