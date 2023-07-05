@@ -151,4 +151,4 @@ Provide standard base documentation through a README
 ## Credits
 
 [Web](https://storyset.com/web), [People](https://storyset.com/people), and
-[Group chat](https://storyset.com/illustration/group-chat) illustrations by Storyset.
+[Community](https://storyset.com/community) illustrations by Storyset.

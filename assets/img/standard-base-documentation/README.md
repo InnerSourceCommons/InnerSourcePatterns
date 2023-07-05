@@ -10,4 +10,4 @@ See:
 
 - [Web illustrations by Storyset](https://storyset.com/web)
 - [People illustrations by Storyset](https://storyset.com/people)
-- [Group chat illustrations by Storyset](https://storyset.com/illustration/group-chat)
+- [Community illustrations by Storyset](https://storyset.com/community)
