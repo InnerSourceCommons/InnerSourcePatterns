@@ -1,10 +1,12 @@
 # COMMUNICATION.md
+
 ***
 Put an individual COMMUNICATION.md file tailored to the project in each repo. If project repo ownership is transferred to a different team in the future, they need to be able to access and edit documentation related to the project. This includes documentation that outlines the communication processes that users should use to contact the team.
 
 **Delete top paragraph when this section is filled out.** 
 
 ## Team Communication
+
 Team Slack channel:
 
 Special Slack Channels: (topic specific and accessible to anyone who would be an external contributor)
@@ -12,7 +14,8 @@ Special Slack Channels: (topic specific and accessible to anyone who would be an
 Team Email:
 
 ## How to Contact Us
-The following types of actions can be moved to the appropriate section and more added. 
+
+The following types of actions can be moved to the appropriate section and more added.
 
 | Action                         | (General team contact)   | 
 |--------------------------------|--------------------------|
@@ -30,9 +33,8 @@ The following types of actions can be moved to the appropriate section and more 
 | other               |                                |
 | Add more here...	   |                                |
 
-
-
 ## Roles and Responsibilities
+
 Managers or roles and specific situations they should be contacted for outside the team channel. 
 
 (this is set up this way so that the document can easily be changed if there are new members on the team)
@@ -43,8 +45,8 @@ Managers or roles and specific situations they should be contacted for outside t
 |      |      |                          |
 |      |      |                          | 
 
-
 ## Outbound Communication
+
 | Scenarios                                                                         | When users will recieve communication   | Stakeholders who will recieve   | Action - how to recieve these communications  |
 |-----------------------------------------------------------------------------------|--------|----------------|----------|
 | Breaking changes (for e.g. any changes to our API or messaging contracts)         |        |                |          |
@@ -59,6 +61,7 @@ Managers or roles and specific situations they should be contacted for outside t
 
 
 ## Documentation Contacts
+
 Tell how to find the owner, responsible party, or group people should contact if they have questions about documentation in the repo 
 
 Describe this communication process.
