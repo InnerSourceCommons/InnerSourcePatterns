@@ -23,7 +23,7 @@ The following types of actions can be moved to the appropriate section and more 
 | Bug report                     |                          |
 | Feature request                |                          |
 | Contribution process questions |                          |
-| MRs after submission           |                          |
+| Merge Requests after submission           |                          |
 | Add more here…                 |                          |
 
 | Special Situations: | Direct point of contact (Role) |
