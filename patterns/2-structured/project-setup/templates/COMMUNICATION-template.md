@@ -3,7 +3,7 @@
 ***
 Put an individual COMMUNICATION.md file tailored to the project in each repo. If project repo ownership is transferred to a different team in the future, they need to be able to access and edit documentation related to the project. This includes documentation that outlines the communication processes that users should use to contact the team.
 
-**Delete top paragraph when this section is filled out.** 
+**Delete top paragraph when this section is filled out.**
 
 ## Team Communication
 
@@ -17,14 +17,14 @@ Team Email:
 
 The following types of actions can be moved to the appropriate section and more added.
 
-| Action                         | (General team contact)   | 
+| Action                         | (General team contact)   |
 |--------------------------------|--------------------------|
 | Contact Method                 | (email or slack channel) |
 | Bug report                     |                          |
-| Feature request                |                          | 
+| Feature request                |                          |
 | Contribution process questions |                          |
 | MRs after submission           |                          |
-| Add more here…                 |                          | 
+| Add more here…                 |                          |
 
 | Special Situations: | Direct point of contact (Role) |
 |---------------------|--------------------------------|
@@ -35,7 +35,7 @@ The following types of actions can be moved to the appropriate section and more 
 
 ## Roles and Responsibilities
 
-Managers or roles and specific situations they should be contacted for outside the team channel. 
+Managers or roles and specific situations they should be contacted for outside the team channel.
 
 (this is set up this way so that the document can easily be changed if there are new members on the team)
 
@@ -59,14 +59,14 @@ Managers or roles and specific situations they should be contacted for outside t
 | Internal team and any other teams who contribute to team project repos            |        |                |          |
 | Add more…                                                                         |        |                |          |
 
-
 ## Documentation Contacts
 
-Tell how to find the owner, responsible party, or group people should contact if they have questions about documentation in the repo 
+Tell how to find the owner, responsible party, or group people should contact if they have questions about documentation in the repo.
 
 Describe this communication process.
 
 For example:
+
 * If you have questions on a specific piece of documentation, you can find the team member responsible for the information by looking here:
 * You can contact the responsible party by sending a message in the xyz channel, send them a direct message in chat, email, etc. The individual who last certified the documentation is the responsible party.
 
