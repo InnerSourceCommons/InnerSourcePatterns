@@ -47,12 +47,12 @@ Managers or roles and specific situations they should be contacted for outside t
 
 ## Outbound Communication
 
-| Scenarios                                                                         | When users will recieve communication   | Stakeholders who will recieve   | Action - how to recieve these communications  |
+| Scenarios                                                                         | When users will receive communication   | Stakeholders who will receive   | Action - how to receive these communications  |
 |-----------------------------------------------------------------------------------|--------|----------------|----------|
 | Breaking changes (for e.g. any changes to our API or messaging contracts)         |        |                |          |
 | Extended/planned outages (service downtime for maintenance related activities)    |        |                |          |
 | Unexpected Outages                                                                |        |                |          |
-| Traffic specific changes (eg. team to team, etc.)                                 |        |                |          |
+| Traffic specific changes (e.g. team to team, etc.)                                 |        |                |          |
 | New Feature rollout                                                               |        |                |          |
 | As per product guidelines                                                         |        |                |          |
 | Month end and company wide code freeze                                            |        |                |          |
