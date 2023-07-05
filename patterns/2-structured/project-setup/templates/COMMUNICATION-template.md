@@ -31,7 +31,7 @@ The following types of actions can be moved to the appropriate section and more 
 | Status updates      |                                |
 | other               |                                |
 | other               |                                |
-| Add more here...	   |                                |
+| Add more here...    |                                |
 
 ## Roles and Responsibilities
 
@@ -43,7 +43,7 @@ Managers or roles and specific situations they should be contacted for outside t
 |------|------|--------------------------|
 |      |      |                          |
 |      |      |                          |
-|      |      |                          | 
+|      |      |                          |
 
 ## Outbound Communication
 
