@@ -9,7 +9,7 @@ Variables to be replaced:
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, {{ Community-Name }} as
-contributor and maintainer pledge to making participation in this project a 
+contributor and maintainer pledge to making participation in this project a
 harassment-free experience for everyone, regardless of age, body
 size, disability, ethnicity, sex characteristics, gender identity and expression,
 level of experience, education, socio-economic status, nationality, personal
