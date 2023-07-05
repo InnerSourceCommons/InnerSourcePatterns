@@ -129,6 +129,7 @@ started right away.
 * Mercado Libre - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBUTING, CODING_GUIDELINES, etc).
 * Analog Devices Inc.
 * Airbus
+* Red Hat - at foundational base for many of the internal communities
 
 ## Authors
 
