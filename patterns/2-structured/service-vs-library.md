@@ -74,6 +74,7 @@ Related to this pattern is the [30 Day Warranty](30-day-warranty.md) pattern tha
 
 * Europace AG
 * Flutter Entertainment: A [Flutter InnerSource application](https://innersource.flutter.com/sdlc/) has a shared code "service" repository with cross-team contribution and CI pipeline to build and publish a shared release artifact. Each adopting team has a "deployment config" repository defining their own deployment. This is driven by varying regulatory requirements, service and incident management practices and infrastructure skill sets in different areas of the business.
+* WellSky (see [Continuous InnerSource in Production - 5 Times](https://www.youtube.com/watch?v=loSTj4yIG9Q&pp=ygUkY29udGludW91cyBpbm5lcnNvdXJjZSBpbiBwcm9kdWN0aW9u))
 
 ## Status
 
