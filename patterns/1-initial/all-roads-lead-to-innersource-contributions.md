@@ -22,7 +22,9 @@ Sometimes there is a story that helps people understand the pattern better.
 
 ## Context
 
-Users of a service, library or application (software), as well as consumers of any kind of InnerSource content (e.g. documentation), are unaware of the InnerSource project behind the software or content, or even unaware of the InnerSource concept.
+Users of a service, library or application (software), as well as consumers of any kind of InnerSource content (e.g. documentation), are unaware of the InnerSource project behind the software or content, or even unaware of the InnerSource concept (i.e. they don't know they can contribute).
+
+Potential contributors have their first contact with the project through content that was not designed as a landing page for new comers, e.g. by finding pieces of the backlog, documents, repositories, presentations, etc... through intranet search engines.
 
 ## Forces
 
