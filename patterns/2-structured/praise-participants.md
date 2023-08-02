@@ -4,7 +4,7 @@ Praise Participants
 
 ## Patlet
 
-After an InnerSource contribution, it's important to thank the contributor for their time and effort.
+After an inner source contribution, it's important to thank the contributor for their time and effort.
 This pattern gives guidance that not only effectively acknowledges the contribution but also engenders further engagement from the contributor and others.
 
 ## Problem
