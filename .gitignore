@@ -1,3 +1,2 @@
 # We want to ignore our vale StylesPath
 .github/vale/*
-!.github/vale/Vocab/Base/*
