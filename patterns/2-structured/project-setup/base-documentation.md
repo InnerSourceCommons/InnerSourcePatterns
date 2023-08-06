@@ -112,10 +112,8 @@ The [Contributor Covenant](https://www.contributor-covenant.org/) provides a set
 templates of `CODE_OF_CONDUCT.md`, very common in the Open Source space. It is a good
 reference to build your own in your InnerSource project.
 
-In addition to that, this pattern comes with two very basic templates to get you
-started right away: [README-template.md](templates/README-template.md),
-[CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md), and
-[CODE_OF_CONDUCT-template.md](templates/CODE_OF_CONDUCT-template.md).
+In addition to that, this pattern comes with [basic templates](#references) to get you
+started right away.
 
 ## Resulting Context
 
@@ -149,7 +147,7 @@ Provide standard base documentation through a README
 
 ## References
 
-* [README-template.md](templates/README-template.md) and
+* [README-template.md](templates/README-template.md)
 * [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
 * [CODE_OF_CONDUCT-template.md](templates/CODE_OF_CONDUCT-template.md)
 
