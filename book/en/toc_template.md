@@ -27,6 +27,7 @@ Instead edit toc_template.md
 * Extras
   * [README Template](../../patterns/2-structured/project-setup/templates/README-template.md)
   * [CONTRIBUTING Template](../../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
+  * [CODE_OF_CONDUCT Template](../../patterns/2-structured/project-setup/templates/CODE_OF_CONDUCT-template.md)
 
 ## Resources
 
