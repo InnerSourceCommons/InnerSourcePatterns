@@ -94,6 +94,8 @@ leads to the development of higher-quality open-source software.
 
 ![CODE_OF_CONDUCT.md](../../../assets/img/standard-base-documentation/CODE_OF_CONDUCT-for-the-community.png)
 
+### Don't start from scratch
+
 There are many of good examples for how to write a `README.md` and what kind
 of information to include in a `CONTRIBUTING.md` file in various open source projects.
 Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a),
