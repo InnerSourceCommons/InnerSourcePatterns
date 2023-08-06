@@ -133,6 +133,11 @@ started right away: [README-template.md](templates/README-template.md),
 
 * Isabel Drost-Fromm
 
+## Acknowledgments
+
+* [Sebastian Spier](https://github.com/spier) - for improving the visuals of `README.md` and `CONTRIBUTING.md`
+* [Jose Roman Martin Gil](https://github.com/rmarting) - for adding the `CODE_OF_CONDUCT.md` concept
+
 ## Alias
 
 Provide standard base documentation through a README
