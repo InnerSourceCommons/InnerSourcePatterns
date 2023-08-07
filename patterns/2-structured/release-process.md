@@ -9,7 +9,7 @@ Providing clear release notes and a published artifact gives people confidence y
 
 ## Problem
 
-When a team is deciding whether to use an InnerSource project, one of their considerations is whether they trust that they can rely on the given project for an extended period. Switching the tools/projects that they are using has a cost, so they only want to make those investments when necessary and has tangible benefits.
+When a team is deciding whether to use an InnerSource project, one of their considerations is whether they can rely on the given project for an extended period. Switching the tools/projects that they are using has a cost, so they only want to make those investments when necessary and has tangible benefits.
 
 It is common practice for Open Source projects to have versioned releases, with notes documenting breaking changes, and new features along with either a published binary or link to a Docker image. This practice may not be as transparent or well documented/visible for InnerSource projects, modules, etc.
 
