@@ -16,7 +16,7 @@ InnerSource projects that don't have a published artifact or release process red
 
 ## Context
 
-Large organizations produce a lot of internal software, much of which could be reused by teams across the company. Operational tooling, software libraries, and Infrastructure as a Service modules are all examples of this. Most large organizations don't publish internal software to be consumed by other teams in the company, however. This can occur either because they are too busy provide documentation or don't realize it's value to others.
+Large organizations produce a lot of internal software, much of which could be reused by teams across the company. Operational tooling, software libraries, and infrastructure as code (IaC) modules are common examples of type of software. Most large organizations, however, don't publish internal software to be consumed by other teams in the company. This can occur either because they are to busy to publish software artifacts or don't realize the projects value to others.
 
 An internal or public source repository should be available where source code is stored, but teams lack a process for making software consumable by outside teams.
 
@@ -37,6 +37,7 @@ In addition to building your source code, writing release notes can be tedious w
 If a company does not provide a centralized location for storing build artifacts (jars, npm modules, etc.) and docker images, engineers may be left deciding for themselves where is appropriate to store versioned software. Tools like GitHub provide this for you, however, if a company is not using one of these popular tools, this could pose a burden.
 
 ## Solution
+
 By providing clear **release notes** and a published artifact you increase people's confidence that you are publishing a quality product that they can rely on.
 
 The following are key elements to achieve this:
