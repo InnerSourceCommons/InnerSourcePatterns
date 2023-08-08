@@ -4,8 +4,7 @@ Standard Release Process
 
 ## Patlet
 
-Teams are reluctant to use InnerSource projects that they are unfamiliar with when they are unclear about the release process.
-Providing clear release notes and a published artifact gives people confidence you are publishing a quality product.
+Teams may hesitate to adopt an InnerSource project if they're unsure of its maturity. To address this, consistent release notes and published artifacts are crucial. These practices showcase a strong dedication to the project, instilling confidence and assuring users of ongoing commitment to sustainable and well-managed software.
 
 ## Problem
 
