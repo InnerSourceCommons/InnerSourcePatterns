@@ -52,8 +52,9 @@ jobs:
       uses: flameddd/screenshots-ci-action@master
       with:
         url: file://${{ github.workspace }}/pattern-categorization/innersource-program-mind-map.html
+        type: 'png'
         # devices: iPhone 6,iPhone 6 landscape,Nexus 7,Pad Pro,Galaxy S III landscape,iPad Pro landscape
-    # - uses: actions/upload-artifact@v2 # Upload screenshots to Actions Artifacts via actions/upload-artifact@v2
-    #   with:
-    #     path: screenshots
-    #     name: Download-screenshots
+    - uses: actions/upload-artifact@v2 # Upload screenshots to Actions Artifacts via actions/upload-artifact@v2
+      with:
+        path: screenshots
+        name: Download-screenshots
