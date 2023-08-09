@@ -31,7 +31,7 @@ jobs:
       run: npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
-      uses: swinton/screenshot-website@v1
+      uses: swinton/screenshot-website@v1.x
       with:
         source: pattern-categorization/innersource-program-mind-map.html
         destination: innersource-program-mind-map.png
