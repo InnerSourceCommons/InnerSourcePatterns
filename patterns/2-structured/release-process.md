@@ -4,7 +4,7 @@ Standard Release Process
 
 ## Patlet
 
-Teams may hesitate to adopt an InnerSource project if they're unsure of its maturity. To address this, consistent release notes and published artifacts are crucial. These practices showcase a strong dedication to the project, instilling confidence and assuring users of ongoing commitment to sustainable and well-managed software.
+Teams may hesitate to adopt an InnerSource project if they are unsure of its maturity. To address this, consistent release notes and published artifacts are crucial. These practices showcase a strong dedication to the project, instilling confidence and assuring users of ongoing commitment to sustainable and well-managed software.
 
 ## Problem
 
@@ -16,7 +16,7 @@ InnerSource projects that don't have a published artifact or release process red
 
 ## Context
 
-Large organizations produce a lot of internal software, much of which could be reused by teams across the company. Operational tooling, software libraries, and infrastructure as code (IaC) modules are common examples of type of software. Most large organizations, however, don't publish internal software to be consumed by other teams in the company. This can occur either because they are to busy provide documentation or don't realize the projects value to others.
+Large organizations produce a lot of internal software, much of which could be reused by teams across the company. Operational tooling, software libraries, and infrastructure as code (IaC) modules are common examples of this type of software. Most large organizations, however, don't publish internal software to be consumed by other teams in the company. This can occur either because they are to busy to provide documentation or don't realize the projects value to others.
 
 An internal or public source repository should be available where source code is stored, but teams lack a process for making software consumable by outside teams.
 
