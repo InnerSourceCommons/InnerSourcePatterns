@@ -51,7 +51,7 @@ jobs:
     - name: screenshots-ci-action
       uses: flameddd/screenshots-ci-action@master
       with:
-        url: pattern-categorization/innersource-program-mind-map.html
+        url: file://${{ GITHUB_WORKSPACE }}/pattern-categorization/innersource-program-mind-map.html
         # devices: iPhone 6,iPhone 6 landscape,Nexus 7,Pad Pro,Galaxy S III landscape,iPad Pro landscape
     # - uses: actions/upload-artifact@v2 # Upload screenshots to Actions Artifacts via actions/upload-artifact@v2
     #   with:
