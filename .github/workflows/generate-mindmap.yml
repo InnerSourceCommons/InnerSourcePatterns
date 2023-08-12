@@ -28,7 +28,7 @@ jobs:
     - name: Install Node.js dependencies
       run: npm install
     - name: Run Markmap
-      run: npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
+      run: npx markmap --no-open --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
       uses: swinton/screenshot-website@main
