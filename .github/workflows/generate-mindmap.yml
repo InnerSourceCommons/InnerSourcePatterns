@@ -29,13 +29,13 @@ jobs:
       run: npm install
     - name: Run Markmap
       run: npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
-    # - name: Screenshot Markmap Website
-    #   id: screenshot-generator
-    #   uses: swinton/screenshot-website@v1.x
-    #   with:
-    #     source: pattern-categorization/innersource-program-mind-map.html
-    #     destination: innersource-program-mind-map.png
-    #     full-page: false
+    - name: Screenshot Markmap Website
+      id: screenshot-generator
+      uses: swinton/screenshot-website@main
+      with:
+        source: pattern-categorization/innersource-program-mind-map.html
+        destination: innersource-program-mind-map.png
+        full-page: false
     # - name: Copy Screenshot
     #   run: cp ${{ steps.screenshot-generator.outputs.path }} .
     # - name: Reduce Screenshot Size (PNG)
@@ -44,17 +44,3 @@ jobs:
     #   uses: stefanzweifel/git-auto-commit-action@v4
     #   with:
     #     commit_message: Re-creating markmap and screenshot
-    - name: install puppeteer-headful
-      uses: mujo-code/puppeteer-headful@master # Required for headful puppeteer
-      env:
-        CI: 'true'
-    - name: screenshots-ci-action
-      uses: flameddd/screenshots-ci-action@master
-      with:
-        url: file://${{ github.workspace }}/pattern-categorization/innersource-program-mind-map.html
-        type: 'png'
-        # devices: iPhone 6,iPhone 6 landscape,Nexus 7,Pad Pro,Galaxy S III landscape,iPad Pro landscape
-    - uses: actions/upload-artifact@v2 # Upload screenshots to Actions Artifacts via actions/upload-artifact@v2
-      with:
-        path: screenshots
-        name: Download-screenshots
