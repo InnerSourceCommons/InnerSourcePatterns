@@ -36,11 +36,11 @@ jobs:
         source: pattern-categorization/innersource-program-mind-map.html
         destination: innersource-program-mind-map.png
         full-page: false
-    # - name: Copy Screenshot
-    #   run: cp ${{ steps.screenshot-generator.outputs.path }} .
-    # - name: Reduce Screenshot Size (PNG)
-    #   run: npx optipng innersource-program-mind-map.png
-    # - name: Commit Changes
-    #   uses: stefanzweifel/git-auto-commit-action@v4
-    #   with:
-    #     commit_message: Re-creating markmap and screenshot
+    - name: Copy Screenshot
+      run: cp ${{ steps.screenshot-generator.outputs.path }} .
+    - name: Reduce Screenshot Size (PNG)
+      run: npx optipng innersource-program-mind-map.png
+    - name: Commit Changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Re-creating markmap and screenshot
