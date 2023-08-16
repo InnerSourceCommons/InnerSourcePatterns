@@ -4,7 +4,7 @@ InnerSource Guidance Group
 
 ## Patlet
 
-A highly divergent set of development standards in different teams can slow down collaboration betweens these teams. A InnerSource Guidance Group that establishes broad governance and behavioral guidelines can help to reduce these frictions.
+A highly divergent set of development standards in different teams can slow down collaboration between these teams. A InnerSource Guidance Group that establishes broad governance and behavioral guidelines can help to reduce these frictions.
 
 ## Problem
 

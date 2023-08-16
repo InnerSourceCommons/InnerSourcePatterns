@@ -10,7 +10,7 @@ By consistently using asynchronous communication tooling, the project makes disc
 ## Problem
 
 A team is open to receiving contributions from downstream users of their
-component. Coordination and communication happens in an ad-hoc fashion though
+component. Coordination and communication happens in an ad hoc fashion though
 leading to incoherent information being shared, delays in answers received,
 contributors pinging multiple host team members before receiving a definitive
 answer.
@@ -82,7 +82,7 @@ to a lower need to repeat explanations.
 
 Isabel Drost-Fromm
 
-## Acknowledgement
+## Acknowledgment
 
 Sebastian Spier (for the visual)
 

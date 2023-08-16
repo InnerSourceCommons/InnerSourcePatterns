@@ -75,7 +75,7 @@
 
 * **アメリカン航空**は、[インターナルインナーソースマーケットプレイス](https://tech.aa.com/2020-10-30-innersource/)を介してInnerSourceプロジェクトを推進しています。SAPと同様に、プロジェクトはGitHubのトピックとして `innersource` を追加することで自己登録されます。プロジェクトは、言語、トピック、オープンイシューの数などで検索やフィルタリングが可能です。
 
-* **Banco Santander**社は、インナーソースをサポートして増やすために、[Santander ONE Europe InnerSource Community](https://innersourceportal.santander.com/)という公開ポータルを作成しました。このポータルには、プロジェクトのカタログに加え、ドキュメント、仕事の進め方、ニュース、イベントなどの関連コンテンツが含まれています。
+* **Banco Santander**社は、インナーソースをサポートして増やすために、Santander ONE Europe InnerSource Communityという公開ポータルを作成しました。このポータルには、プロジェクトのカタログに加え、ドキュメント、仕事の進め方、ニュース、イベントなどの関連コンテンツが含まれています。
 
 ![Santander InnerSource Portal](../../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
 

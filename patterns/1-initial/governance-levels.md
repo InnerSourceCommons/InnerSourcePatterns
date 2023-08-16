@@ -32,13 +32,13 @@ There are projects on GitHub, published purely for the pleasure of the author wi
 
 There are projects where the roadmap is created in-house, hidden from public view. Where commit rights come and go with the contract of the employees of one company (e.g. MongoDB, Elastic, Tensorflow). Users are welcome to submit patches, they will even be mentored through. All development happens in the open, but control and strategy is never shared. This would be the equivalent of stage "Contributions Welcome".
 
-There are projects that share write access, but do not share the power to decide who gets write access next. This applies to everyone who is only a committer at an Apache project. There are projects that are fully shared across multiple independent organisations (e.g. k8s, any Apache project) - those would be "Shared Ownership".
+There are projects that share write access, but do not share the power to decide who gets write access next. This applies to everyone who is only a committer at an Apache project. There are projects that are fully shared across multiple independent organizations (e.g. k8s, any Apache project) - those would be "Shared Ownership".
 
-The same levels make sense inside of organisations.
+The same levels make sense inside of organizations.
 
 ## Context
 
-- InnerSource concepts are established within an organisation with multiple projects and teams adopting InnerSource.
+- InnerSource concepts are established within an organization with multiple projects and teams adopting InnerSource.
 - Internal InnerSource practices are not prescribed in detail.
 - Teams/projects have the autonomy to optimise for their local circumstances.
 
@@ -51,7 +51,7 @@ The same levels make sense inside of organisations.
 
 ## Solution
 
-The solution is to create a universally understood language to describe the InnerSource operating models that are used in your organisation.
+The solution is to create a universally understood language to describe the InnerSource operating models that are used in your organization.
 
 We define **InnerSource operating model** as a description of how much influence the core development team of a project ist willing to share with contributing teams. Or in other terms, the level of influence a contributing team can gain in the respective project.
 
@@ -59,7 +59,7 @@ The shared language for these InnerSource operating models can be established wi
 
 1. Identify the common recurring InnerSource operating models that exist in your teams and projects.
 2. Document each model in detail, and give each a distinctive name.
-3. Promote the use of these names to describe projects until the name's meaning is understood across the whole organisation.
+3. Promote the use of these names to describe projects until the name's meaning is understood across the whole organization.
 
 Examples of common InnerSource operating models (1) are:
 
@@ -77,11 +77,13 @@ Examples of promoting the model names (3) are:
 ## Resulting Context
 
 - Cross team communication occurs efficiently without confusion using terms that are universally understood and centrally documented.
-- Organisation leaders understand the nuances within practising InnerSource and make better informed and more precise decisions that are easier to communicate.
-- Increased standardisation of InnerSource practices within the organisation as the named and documented building blocks are used by teams as a menu for adoption.
+- Organization leaders understand the nuances within practising InnerSource and make better informed and more precise decisions that are easier to communicate.
+- Increased standardisation of InnerSource practices within the organization as the named and documented building blocks are used by teams as a menu for adoption.
 - Teams can adopt InnerSource best practices in a step-by-step way which makes adoption easier and less intimidating.
 
 ## Known Instances
+
+* Flutter Entertainment
 
 ![InnerSource Pyramid used by Flutter Entertainment](../../assets/img/flutter-pyramid.svg)
 
