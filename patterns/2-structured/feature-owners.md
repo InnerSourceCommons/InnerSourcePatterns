@@ -8,7 +8,7 @@ This pattern is for scaling InnerSource project contributions aligned with busin
 
 ## Problem
 
-Contributions in innersource projects mostly are all volunteer based. Below are the challenges we see in day-to-day life:
+Contributions in InnerSource projects mostly are all volunteer based. Below are the challenges we see in day-to-day life:
 
 - How to increase more contributions in the project.
 - How to create opportunities for employees who want to play more than an individual contributor role and are looking for:
@@ -47,28 +47,28 @@ Feature owners responsibilities:
 - Support feature critical issues. Refer [30-day-warranty Pattern](./30-day-warranty.md).
 - Maintain feature work based on bandwidth OR find additional feature owners.
 - Review contributions to the feature.
-- Become SMEs on that feature.
+- Become subject matter expert on that feature.
 
 ![Feature Owner Responsibilities](../../assets/img/feature-owner.png)
 
 ## Resulting Context
 
-* Scale innersource contributions.
+* Scale InnerSource contributions.
 * Aspiring employees excel at their jobs by elevating a variety of skills.
 
 ## Known Instances
 
-* **Fidelity Investments** implemented this pattern to scale the innersource contributions.
+* **Fidelity Investments** implemented this pattern to scale the InnerSource contributions.
 
 ## Authors
 
-- Manoj Gawande
+* Manoj Gawande
 
 ## Acknowledgement
 
-- Dinesh Ramadoss
-- Amit Chauhan
-- Adrian Prezioso
+* Dinesh Ramadoss
+* Amit Chauhan
+* Adrian Prezioso
 
 ## Status
 
