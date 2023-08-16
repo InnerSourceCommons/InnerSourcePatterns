@@ -64,7 +64,7 @@ Feature owners responsibilities:
 
 * Manoj Gawande
 
-## Acknowledgement
+## Acknowledgments
 
 * Dinesh Ramadoss
 * Amit Chauhan
