@@ -4,7 +4,7 @@ Feature Owners
 
 ## Patlet
 
-This pattern is for scaling inner source project contributions aligned with business initiatives and for aspirant employees who are looking for stretch assignments, more accountability, develop their soft skills and be successful at work.
+This pattern is for scaling InnerSource project contributions aligned with business initiatives and for aspirant employees who are looking for stretch assignments, more accountability, develop their soft skills and be successful at work.
 
 ## Problem
 
@@ -24,7 +24,7 @@ A single project which is on high demand and consumption is increasing every mon
 
 ## Context
 
-Business & [Community leader](./core-team.md) looking for scaling inner source contributions and to drive engaging associate experiences by maximizing their development and growth.
+Business & [Community leader](./core-team.md) looking for scaling InnerSource contributions and to drive engaging associate experiences by maximizing their development and growth.
 
 ## Forces
 
