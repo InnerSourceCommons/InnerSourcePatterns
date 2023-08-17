@@ -38,6 +38,12 @@
 
 ##### [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
 
+#### Can we rely on the project for an extended period?
+
+##### [Standard Release Process](https://patterns.innersourcecommons.org/p/release-process)
+
+##### [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
+
 ### Cultural Challenges
 
 #### Unrecognized effort

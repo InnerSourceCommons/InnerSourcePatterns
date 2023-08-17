@@ -1,6 +1,6 @@
 ## Title
 
-Repo for Shared Code Different from Repo the Product Org Uses in its Build
+Source Repo different from Deployment Chain
 
 ## Patlet
 
@@ -8,7 +8,7 @@ Deal with the overhead of having shared code in a separate repository that isn't
 
 ## Problem
 
-Deal with the overhead of having shared code in a separate repository that isn't the same as the project-specific one that is tied to production builds.
+The InnerSource code repo is different from the repos used in production builds. This causes friction each time changes are made to the InnerSource repo.
 
 ## Context
 
@@ -16,11 +16,15 @@ Shared code is kept in an accessible repository that is different from SCMs used
 
 ## Forces
 
-When the shared code is in a separate repository, any use of it could result in forking modifications, leading to complications later when the source is changed by the owning organization. When starting an inner sourcing program, it is possible there are many SCM systems in use; and, frequently, a new SCM is used for the inner sourcing program. Migrating from one SCM to another is not trivial. Since the using organization has a copy, they might not be aware of changes to the shared code. It is difficult and expensive for the using organization to change their automated build process to use a foreign repo.
+When the shared code is in a separate repository, any use of it could result in forking modifications, leading to complications later when the source is changed by the owning organization. When starting an InnerSource program, it is possible there are many source control management systems ([SCM](https://en.wikipedia.org/wiki/Version_control)) in use; and, frequently, a new SCM is used for the InnerSource program. Migrating from one SCM to another is not trivial. Since the using organization has a copy, they might not be aware of changes to the shared code. It is difficult and expensive for the using organization to change their automated build process to use a foreign repo.
 
 ## Solution
 
-Continuous integration, not only to with testing but also in production (aligns with DevOps). Known marker that shows the code hasn't been modified. Improved communication between teams. Accountability when you screw up; hold people accountable. Publish good stats about the negative implications of errors and processes for making this everyone's problem.  
+* Continuous integration, not only for testing but also in production (aligns with DevOps).
+* Known marker that shows the code hasn't been modified.
+* Improved communication between teams.
+* Accountability when you screw up; hold people accountable.
+* Publish good stats about the negative implications of errors and processes for making this everyone's problem.
 
 ## Resulting Context
 

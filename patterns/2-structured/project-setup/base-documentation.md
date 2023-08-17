@@ -12,7 +12,7 @@ the most common questions on their own.
 
 ## Problem
 
-A team wants to share either a freshly started or a pre-existing project with
+A team wants to share either a freshly started or a preexisting project with
 the wider organization and receive contributions to it. Potential contributors
 often are lost: They are failing to identify the team's preferred communication
 channels. They have trouble quickly making a judgment about whether a new
@@ -109,7 +109,7 @@ started right away: [README-template.md](templates/README-template.md) and
 
 * Europace AG - See blog post [InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
 * Paypal Inc.
-* Mercado Libre - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBNUTING, CODING_GUIDELINES, etc).
+* Mercado Libre - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBUTING, CODING_GUIDELINES, etc).
 
 ## Authors
 

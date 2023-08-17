@@ -43,7 +43,7 @@ communication channels.
 This is a good place to give credit to Trusted Committers of the project.
 
 It's also a good place to include information on what being a Trusted Committer
-means for this project - although ideally all projects in an organisation use
+means for this project - although ideally all projects in an organization use
 the same definition that is only linked to from here. The reason to keep the
 link here is for colleagues who have no or little experience with working in and
 contributing to InnerSource projects to have a direct link back to company wide

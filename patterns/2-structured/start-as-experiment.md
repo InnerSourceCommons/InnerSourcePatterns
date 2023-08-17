@@ -63,7 +63,7 @@ Finally, starting as an experiment makes it much easier to sidestep regulations 
 
 - Georg Grütter (Robert Bosch GmbH)
 
-## Acknowledgements
+## Acknowledgments
 
 - Jason Zink (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)

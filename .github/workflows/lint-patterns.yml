@@ -1,4 +1,6 @@
 # from: https://github.com/marketplace/actions/markdown-linting-action
+# To test this locally, switch to the root of the repo and run:
+# markdownlint -r config/lint/pattern-template.js -c config/lint/pattern-template.yml patterns/2-structured/*.md patterns/2-structured/project-setup/*.md patterns/3-validated/*.md
 name: Pattern Syntax Validation
 
 on:
@@ -8,7 +10,7 @@ on:
   pull_request:
     paths:
       - ".github/workflows/lint-patterns.yml"
-      - "lint/*"
+      - ".github/lint-pattern-syntax/*"
       - "patterns/2-structured/*.md"
       - "patterns/2-structured/project-setup/*.md"
       - "patterns/3-validated/*.md"
@@ -23,6 +25,6 @@ jobs:
     - name: Lint pattern files (markdown)
       uses: avto-dev/markdown-lint@v1
       with:
-        rules: './lint/pattern-template.js'
-        config: './lint/pattern-template.yml'
+        rules: './.github/lint-pattern-syntax/pattern-template.js'
+        config: './.github/lint-pattern-syntax/pattern-template.yml'
         args: 'patterns/2-structured/*.md patterns/2-structured/project-setup/*.md patterns/3-validated/*.md'

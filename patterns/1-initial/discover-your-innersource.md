@@ -53,7 +53,7 @@ Make it easy to find the reusable code.
 * Tool with a central view (but people are more inclined to google externally than look internally)
 * Concierge service (guide) to help product people find stuff. Might not scale but could be helpful in the beginning.
 * Need some very visible lighthouse projects that start using inner source components and make positive statements about the inner source program.
-* Establish a common, asynchronous communication channel (e.g., like slack or metamorph or yammer) across team boundaries. This might not scale beyond a certain organisation size. It is possible people will start splitting this one channel into multiple channels by topic once traffic gets too high. Note: having one channel for many users of one tool might be considered an anti-pattern because they can't find it unless they already know about it.
+* Establish a common, asynchronous communication channel (e.g., like slack or metamorph or yammer) across team boundaries. This might not scale beyond a certain organization size. It is possible people will start splitting this one channel into multiple channels by topic once traffic gets too high. Note: having one channel for many users of one tool might be considered an anti-pattern because they can't find it unless they already know about it.
 * Encourage (and reward) owners of reusable code to use the same search engine to continually search for products that are candidates for use and adoption of the reusable code but not currently doing so.
 * Consider creating a marketplace for marketing InnerSource programs (management can use this mechanism to know which InnerSource projects to fund, but seeing how the marketplace reacts).
 
