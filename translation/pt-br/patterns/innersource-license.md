@@ -18,7 +18,6 @@ No momento do compartilhamento do código-fonte, não é possível prever de for
 
 ## Context
 
-
 - Uma grande organização com muitas entidades jurídicas (subsidiárias) que desejam compartilhar código. À medida que a organização cresce, o valor desse padrão aumenta.
 - Conforme definição, as entidades jurídicas possuem seus próprios direitos e obrigações legais.
 - Várias dessas entidades jurídicas estão desenvolvendo software e usando serviços de outras entidades jurídicas. Elas têm motivação para contribuir com o código-fonte umas das outras.
@@ -91,6 +90,6 @@ Vale mencionar que até agora, o software compartilhado sob essa licença InnerS
 [db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-05-04** - Tradução [Eneri Junior](https://github.com/jrcosta)

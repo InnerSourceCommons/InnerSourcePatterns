@@ -78,6 +78,6 @@ Sebastian Spier (for the visual)
 
 [People](https://storyset.com/people) illustrations by Storyset
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-20** - Tradução [Eneri Junior](https://github.com/jrcosta)

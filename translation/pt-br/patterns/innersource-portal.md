@@ -98,6 +98,6 @@ Uma [implementação de referência](https://github.com/SAP/project-portal-for-i
 * Michael Graf
 * Jesús Alonso Gutierrez
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-06-13** - Tradução [Eneri Junior](https://github.com/jrcosta)

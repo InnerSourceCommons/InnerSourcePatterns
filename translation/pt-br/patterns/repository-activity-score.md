@@ -132,6 +132,6 @@ Um agradecimento à comunidade InnerSource Commons por fornecer conselhos extrem
 * Maximilian Capraro
 * Tim Yao
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-08-20** - Tradução [Eneri Junior](https://github.com/jrcosta)

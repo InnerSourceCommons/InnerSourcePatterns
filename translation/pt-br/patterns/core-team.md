@@ -114,6 +114,6 @@ Structured
 [tc-learning-path]: https://innersourcecommons.org/learn/learning-path/trusted-committer/
 [tc-pattern]: ../2-structured/trusted-committer.md
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-21** - Tradução [Eneri Junior](https://github.com/jrcosta)

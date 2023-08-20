@@ -39,7 +39,6 @@ Abraçar a filosofia de "escrito em vez de verbal" não apenas para o desenvolvi
 - O uso consistente de canais de comunicação públicos atrai mais pessoas para acompanhar uma discussão. Isso significa que há mais pessoas qualificadas que podem responder perguntas, contribuir para issues abertas ou apontar falhas em funcionalidades planejadas que, de outra forma, seriam descobertas apenas muito tempo depois.
 - Mover discussões para uma plataforma de discussão pública cria uma oportunidade para potenciais colaboradores futuros observarem, acompanharem, se familiarizarem e aprenderem sobre os caminhos do projeto muito antes de precisarem se envolver pela primeira vez.
 
-
 ## Known Instances
 
 * Europace AG - See blog post [Issue Use Cases](https://tech.europace.de/post/using-issues-for-asking-questions-and-tracking-work/)
@@ -52,6 +51,6 @@ Isabel Drost-Fromm
 
 Structured
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-06-13** - Tradução [Eneri Junior](https://github.com/jrcosta)

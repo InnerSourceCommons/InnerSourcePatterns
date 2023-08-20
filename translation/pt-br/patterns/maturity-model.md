@@ -86,7 +86,6 @@ Idealmente, você acabará com canais de comunicação adequados que sejam conhe
 * CF-2: A organização estabeleceu diretrizes e canais internos, e fornece recursos específicos (programas de treinamento, acesso a conteúdo, etc.) para incentivar e solicitar pontos de vista diversos sobre decisões de equipe ou decisões em geral.
 * CF-3: Membros da organização compartilham materiais de tomada de decisão em plataformas oficialmente sancionadas. Membros da organização compartilham materiais abertamente por meio de múltiplos canais e métodos para feedback. Líderes usam esses canais, encorajam abertamente outros a usá-los e mantêm registros voltados para a equipe ou públicos do feedback que receberam e/ou das ações que tomaram para abordar esse feedback.
 
-
 **Leadership**
 
 Projetos InnerSource incentivam os funcionários a contribuírem para projetos fora da influência direta de seu gerente direto. Isso requer uma cultura de confiança.
@@ -215,6 +214,6 @@ Modelo de Maturidade: Conheça as Melhores Práticas do InnerSource
 * Structured
 * Drafted in September 2019
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-08-19** - Tradução [Eneri Junior](https://github.com/jrcosta)

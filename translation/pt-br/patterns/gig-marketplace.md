@@ -72,6 +72,6 @@ Quando usado em combinação com o padrão do Portal InnerSource, o Gig Marketpl
 * Stephen McCall
 * Shreyans Dugar
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-29** - Tradução [Eneri Junior](https://github.com/jrcosta)

@@ -8,7 +8,7 @@ O código comum em um repositório compartilhado não está atendendo às necess
 
 ## Problem
 
-O código comum no repositório compartilhado não está atendendo às necessidades de todos os projetos que desejam usá-lo. 
+O código comum no repositório compartilhado não está atendendo às necessidades de todos os projetos que desejam usá-lo.
 
 ## Context
 
@@ -23,7 +23,7 @@ O código comum no repositório compartilhado não está atendendo às necessida
 
 ## Forces
 
-No código disponibilizado pelo projeto original tem um conjunto de necessidades. Suas necessidades são semelhantes ao que algumas das organizações receptoras desejam, mas não exatamente as mesmas. Os requisitos do código devem ser derivados das necessidades reais dos clientes. 
+No código disponibilizado pelo projeto original tem um conjunto de necessidades. Suas necessidades são semelhantes ao que algumas das organizações receptoras desejam, mas não exatamente as mesmas. Os requisitos do código devem ser derivados das necessidades reais dos clientes.
 
 As necessidades dos diferentes clientes são geralmente bastante similares; no entanto, elas podem ser expressas de maneira diferente ou ponderadas de forma diferente entre os clientes. Um exemplo pode ser como alguns clientes querem que algum resultado seja apresentado de uma forma, enquanto outros querem que seja apresentado na ordem inversa. É simples fazer a tradução entre eles, mas requer codificação adicional para um dos casos e, como resultado, o módulo que calcula o resultado não pode ser reutilizado por ambos os clientes.
 
@@ -72,6 +72,6 @@ Robert Hanmer
 * Tim Yao
 * Sebastian Spier
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-20** - Tradução [Eneri Junior](https://github.com/jrcosta)

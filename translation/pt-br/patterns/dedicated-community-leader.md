@@ -87,6 +87,6 @@ Gerente de Comunidade Dedicado
 - **2016-11-06** - 1st review
 - **2017-04-06** - 2nd review
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-21** - Tradução [Eneri Junior](https://github.com/jrcosta)

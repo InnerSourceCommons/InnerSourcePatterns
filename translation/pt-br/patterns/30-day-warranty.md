@@ -70,6 +70,6 @@ Além disso, ajuda a fornecer diretrizes claras de [contribuição](./project-se
 
 - Ensure cooperation of dependent teams by making them a community by having more than one, meritocratically appointed "[Trusted Committers](./trusted-committer.md)" (TCs) take responsibility.
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-13** - Tradução [Eneri Junior](https://github.com/jrcosta)

@@ -43,7 +43,6 @@ Se ainda não existir, crie um arquivo `README.md para o seu projeto. Ele deve c
 * Uma seção "Quem somos" explicando quem são os [Trusted Committers](../trusted-committer.md) por trás do projeto - com uma explicação de que, em vez de entrar em contato com essas pessoas em particular, os canais públicos de comunicação acima devem ser usados para comunicação.
 * Uma explicação dos critérios para o projeto transformar contributors em Trusted Committers - se esse caminho existir.
 
-
 ![README.md](../../../assets/img/standard-base-documentation/README-for-users.png)
 
 ### CONTRIBUTING.md
@@ -61,9 +60,7 @@ Se a explicação dos passos para fazer uma contribuição for muito complexa, c
 
 Existem muitos bons exemplos de como escrever um arquivo `README.md` e que tipo de informações incluir em um arquivo `CONTRIBUTING.md` em vários projetos de código aberto. Páginas como [como escrever um readme que se destaca](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), o [Guia de Código Aberto do GitHub](https://opensource.guide/) e o livro [Producing Open Source](https://producingoss.com/en/producingoss.html) têm informações valiosas sobre que tipo de informações fornecer. Embora Producing Open Source não tenha um capítulo sobre como escrever um bom README em si, o capítulo [Começando a partir do que você tem](https://producingoss.com/en/producingoss.html#starting-from-what-you-have) fornece uma lista bastante extensa de coisas que os membros da equipe, usuários e contributors precisarão. Os projetos InnerSource provavelmente não cobrirão todos esses aspectos desde o início, mas a própria lista é útil para inspiração do que pode ser abordado.
 
-
 Além disso, este padrão vem com dois modelos básicos para você começar imediatamente: [README-template.md](templates/README-template.md) e [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
-
 
 ## Resulting Context
 
@@ -99,6 +96,6 @@ Fornecer documentação básica padrão através de um README
 
 [Web](https://storyset.com/web) and [People](https://storyset.com/people) illustrations by Storyset
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-14** - Tradução [Eneri Junior](https://github.com/jrcosta)

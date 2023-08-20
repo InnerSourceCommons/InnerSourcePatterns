@@ -4,7 +4,7 @@ Documente seus Princípios Orientadores
 
 ## Patlet
 
-A explicação comum do InnerSource, "aplicando as melhores práticas de código aberto dentro de uma organização", não funciona bem com pessoas que não possuem um background em código aberto. 
+A explicação comum do InnerSource, "aplicando as melhores práticas de código aberto dentro de uma organização", não funciona bem com pessoas que não possuem um background em código aberto.
 Como solução, os princípios mais importantes do InnerSource são documentados e publicados amplamente.
 
 ## Problem
@@ -18,7 +18,7 @@ As equipes desenvolvem ideias divergentes sobre os objetivos do InnerSource e co
 
 ## Story
 
-Experimentos iniciais em uma organização mostraram que as melhores práticas de colaboração em código aberto podem ser benéficas. 
+Experimentos iniciais em uma organização mostraram que as melhores práticas de colaboração em código aberto podem ser benéficas.
 O próximo passo agora é levar a iniciativa para equipes e indivíduos que não possuem um amplo conhecimento em código aberto.
 
 A meta agora é comunicar claramente os objetivos da iniciativa InnerSource, bem como um caminho claro para alcançar os mesmos.
@@ -76,9 +76,9 @@ O código-fonte, documentação e dados relevantes para o desenvolvimento do pro
 
 (2) Contribuições em vez de pedidos de funcionalidade.
 
-Todos os envolvidos em um projeto agem como potenciais colaboradores e são tratados e apoiados como tal. 
-As contribuições permanecem como sugestões em vez de requisitos. 
-A coordenação antes de uma contribuição ajuda a evitar esforço desperdiçado. 
+Todos os envolvidos em um projeto agem como potenciais colaboradores e são tratados e apoiados como tal.
+As contribuições permanecem como sugestões em vez de requisitos.
+A coordenação antes de uma contribuição ajuda a evitar esforço desperdiçado.
 Os projetos fornecem diretrizes de contribuição para evitar fricção.
 
 (3) Erros são oportunidades de aprendizado.
@@ -209,6 +209,6 @@ Structured
 
 Explicit InnerSource Principles
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-29** - Tradução [Eneri Junior](https://github.com/jrcosta)

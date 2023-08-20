@@ -23,7 +23,7 @@ Projetos entre equipes podem ter um impacto muito grande na empresa, mas são di
 
 ## Solution
 
-Estabeleça um padrão e modelo de como valorizar projetos entre equipes. 
+Estabeleça um padrão e modelo de como valorizar projetos entre equipes.
 
 Tais modelos nos fornecem a ferramenta necessária para nos concentrarmos e ampliar a colaboração de alto valor para a empresa.
 
@@ -100,6 +100,6 @@ Na prática, desde que essas valorações estejam dentro de uma ordem de grandez
 
 * Jeremiah Wright por me ensinar a pensar em projetos entre equipes como um negócio interno que opera na moeda do tempo dos desenvolvedores.
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-04-27** - Tradução [Eneri Junior](https://github.com/jrcosta)

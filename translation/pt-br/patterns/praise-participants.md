@@ -88,6 +88,6 @@ Exagerar pode parecer insincero e mecânico, derrotando o propósito de se comun
 * [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real".
 * [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of a "qualified" thank you.
 
-## Histórico de Tradução 
+## Histórico de Tradução
 
 - **2022-08-20** - Tradução [Eneri Junior](https://github.com/jrcosta)
