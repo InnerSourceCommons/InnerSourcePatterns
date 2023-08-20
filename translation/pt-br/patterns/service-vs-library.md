@@ -75,3 +75,7 @@ Obrigado, Tobias Gesellchen, pela revisão interna na Europace AG.
 ## Alias
 
 Serviço vs. Biblioteca: É Inner Source, Não implantação interna
+
+## Histórico de Tradução
+
+- **2022-08-20** - Tradução [Eneri Junior](https://github.com/jrcosta)
