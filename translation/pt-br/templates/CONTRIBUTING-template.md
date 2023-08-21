@@ -1,51 +1,37 @@
-# Contributing to ____
+# Contribuindo para ____
 
-## Types of contributions
+## Tipos de contribuições
 
-Provide information on what kinds of contributions your project is looking for
-here. For example these can be bug reports, help with answering user questions,
-improving documentation, fixes to bugs, as well as new feature implementations.
+Forneça informações sobre que tipos de contribuições o seu projeto está procurando aqui. Por exemplo, isso pode incluir relatórios de bugs, ajuda para responder perguntas de usuários, melhorias na documentação, correções de bugs e implementações de novas funcionalidades.
 
-## Bug reports
+## Relatórios de Bugs
 
-Add information on how to submit bug reports here. This should include
-hints about which type of information the project will need in order to
-reproduce and fix issues. It can also include information on commonly found
-misconfigurations that look like bugs.
+Adicione informações sobre como enviar relatórios de bugs aqui. Isso deve incluir dicas sobre que tipo de informações o projeto precisará para reproduzir e corrigir problemas. Também pode incluir informações sobre configurações incorretas comuns que parecem ser bugs.
 
-Also include information on what contributors can expect in terms of time to
-first response and process after that.
+Inclua também informações sobre o que os colaboradores podem esperar em termos de tempo para a primeira resposta e o processo após isso.
 
-## Feature requests
+## Solicitações de features
 
-Add information on how to submit feature requests here. Also include information
-on what contributors can expect in terms of time to first response and process
-after that.
+Adicione informações sobre como enviar solicitações de features aqui. Inclua também informações sobre o que os colaboradores podem esperar em termos de tempo para a primeira resposta e o processo após isso.
 
-## Contributing documentation
+## Contribuição de Documentação
 
-Include information on any documentation best practices your project follows as
-well as how to build documentation, checks to run and how to submit the changes
-made back to the project.
+Inclua informações sobre as melhores práticas de documentação que o seu projeto segue, bem como como criar documentação, verificações a serem executadas e como enviar as alterações feitas de volta para o projeto.
 
-## Contributing source code
+## Contribuição de Código Fonte
 
-This section should contain information on
+Esta seção deve conter informações sobre
 
-- How to access the project source code,
-- General project layout,
-- Any requirements to the development environment,
-- Code formatting guidelines,
-- How to run the test suite.
+- Como acessar o código fonte do projeto;
+- Layout geral do projeto;
+- Quaisquer requisitos para o ambiente de desenvolvimento;
+- Diretrizes de formatação de código;
+- Como executar o conjunto de testes.
 
-## How to become a Trusted Committer
+## Como se tornar um Colaborador Confiável
 
-This section should make the process for becoming a Trusted Committer explicit
-if that route is open to contributors.
+Esta seção deve deixar explícito o processo para se tornar um Colaborador Confiável, caso essa opção esteja aberta para os contribuidores.
 
-## How to nominate Trusted Committers
+## Como indicar Trusted Committers
 
-This section serves as a reminder to existing and explanation for new Trusted
-Committers detailing how to add others to the host team. Again ideally this
-information is identical for all projects in the organization so central
-information can be linked to from here.
+Esta seção serve como um lembrete para os Trusted Committers existentes e uma explicação para os novos, detalhando como adicionar outras pessoas à equipe anfitriã. Idealmente, essa informação é idêntica para todos os projetos na organização, para que informações centrais possam ser vinculadas a partir daqui.
