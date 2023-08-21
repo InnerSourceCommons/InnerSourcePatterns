@@ -75,7 +75,7 @@ Often, this is yourself.
 If you need to, find someone in the InnerSource Commons to be the nominal author (As Told To).
 Could also be no-one if you do not want to take on authorship (common with a donut looking for a solution).
 
-## Acknowledgements (optional)
+## Acknowledgments (optional)
 
 Include those who assisted in helping with this pattern - both for attribution and for possible future follow up.
 Though optional, most patterns should list who helped in their creation.

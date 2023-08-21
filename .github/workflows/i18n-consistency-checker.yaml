@@ -1,0 +1,104 @@
+name: i18n check consistency and notify on GitHub Issues
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - .github/workflows/i18n-consistency-check.yml
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  consistency-check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language: [ja, zh]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'
+      - name: Check consistency
+        id: check-consistency
+        run: |
+          # Set the issue header
+          issue="\
+          # i18n Contents Consistency Issue\\n\
+          \\n\
+          The following files may have consistency issues with the English version. Please check and update the files.\\n\
+          \\n\
+          This issue is created when there is an update to content/en. It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.\\n"
+          
+          for file in $(find patterns/2-structured -name '*.md'); do
+          
+            # Get the translated file name and check if it exists
+            i18n_filename=$(echo "$file" | sed 's/patterns\/2-structured/translation\/${{matrix.language}}\/patterns/g')
+            if [[ ! -e "$i18n_filename" ]]; then
+            	continue
+            fi
+            echo $file
+            echo $i18n_filename
+            # Loop through all the files in the English directory
+            # Get the last updated date of the original file and the translated file
+            original_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $file)" +%s) 
+            i18n_content_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $i18n_filename)" +%s)
+             
+            # print the last updated date of the original file and the translated file
+            
+            # Check if the translated file is updated after the original file
+            if [[ $(($original_updated_at - $i18n_content_updated_at)) -ge 1 ]]; then
+              # Get the title of the content
+              content_header=$(echo "$(cat "$file")" | grep -E '^title+' | sort -r | head -n1)
+              content_title=$(echo "$content_header" | sed 's/title: //g')
+            
+              # Get the days since the translated file is overdue
+              days_since_overdue_updates=$(($(( $(date +%s) - $original_updated_at))/ 60 / 60 / 24))
+              # Get the diff between the original file and the translated file
+              original_last_update_hash=$(git log -1 --format=%H $file)
+              # Get the parent hash of the original last update hash
+              parent_hash=$(git log -1 --format=%P $original_last_update_hash)
+                # Get the diff between the original file and the translated file
+          
+              result=$(echo "$(git diff ${parent_hash} HEAD $file)" | sed '1,4 s/^/# /')
+              echo -e "$result"
+          
+              # Add the contents to the issue.md file
+              issue+="<details><summary><b>$content_title</b> ($file)</summary>\\n\\n"
+              issue+="- Original File(en): [$file](https://github.com/$GITHUB_REPOSITORY/blob/master/$file)\\n"
+              issue+="- Translated File(${{matrix.language}}): [$i18n_filename](https://github.com/$GITHUB_REPOSITORY/blob/master/$i18n_filename)\\n"
+              issue+="- [Diff on GitHub](https://github.com/yuhattor/innersourcecommons.org/compare/$i18n_last_update_hash...$original_last_update_hash)\\n"
+              issue+="- Days since overdue updates: $days_since_overdue_updates days\\n"
+              issue+="\`\`\`diff\\n"
+              issue+="$result"
+              issue+="\\n\`\`\`\\n"
+              issue+="</details>\\n"
+              echo -e "$issue" >> issue.md
+              issue=""
+            fi
+          done
+      - name: Create Issue
+        run: | 
+          # Declare the flags
+          declare -A flags=(
+            ["ja"]="🇯🇵 Japanese"
+            ["zh"]="🇨🇳 Chinese"
+          )
+
+          # Set the issue title
+          issue_title="${flags[${{matrix.language}}]}: Content Consistency Issue"
+
+          # Get the existing issue ID
+          existing_issue_id=$(gh issue list -S "state:open type:issue title:$issue_title" | cut -f1)
+
+          # If the issue.md file exists, create a new issue or comment on the existing issue
+          if [ -f issue.md ]; then
+            if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
+              gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
+            else
+              gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
+            fi
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
