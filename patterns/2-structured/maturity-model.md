@@ -96,7 +96,7 @@ When working in host teams mistakes will automatically be widely visible. In ord
 
 For silos to be reduced colleagues need to be comfortable sharing feedback openly. One easy way to support that is to use the same communication principles across hierarchies.
 
-Ideally you will end up with proper communication channels that are known by anyone in the organization - with channels focussed on different goals (announcements, user support, development channels, infra discussions, etc.). Some of the best practices you will establish as your InnerSource projects mature: Adoption of netiquette guidelines, opening a proven set of standard channels (which are being archived, publicly accessible, searchable) for each new InnerSource project.
+Ideally you will end up with proper communication channels that are known by anyone in the organization - with channels focused on different goals (announcements, user support, development channels, infra discussions, etc.). Some of the best practices you will establish as your InnerSource projects mature: Adoption of netiquette guidelines, opening a proven set of standard channels (which are being archived, publicly accessible, searchable) for each new InnerSource project.
 
 * CF-0: There are no processes nor established channels. Some members of the organization share materials via private channels or discussions.
 * CF-1: The organization is in the process of establishing internal guidelines and channels for encouraging diverse points of view about company/departmental decisions, so that anyone belonging to the organization can use them. Some members of the organization share decision-making materials informally using unofficial platforms. Leaders maintain at least one clear and direct channel for organization members to share opinions constructively on some matters relevant to their work.
@@ -139,12 +139,12 @@ Having a baseline of shared values makes it easier to work across team boundarie
 
 * SP-0: No sharing culture nor written policies.
 * SP-1: Some members of the organization unite to define values and principles, but are not clearly supported when they do.
-* SP-2: Members of the organization collectively document shared visions and agreements like mission statements and codes of conduct, make them easily accessible, and reference them often. Onboarding materials and orientation rituals provide adequate context for helping new members understand how the organization will benefit from their contributions.
+* SP-2: Members of the organization collectively document shared visions and agreements like mission statements and codes of conduct, make them easily accessible, and reference them often. On-boarding materials and orientation rituals provide adequate context for helping new members understand how the organization will benefit from their contributions.
 * SP-3: Shared values and principles inform decision-making, conflict resolution, and assessment processes among members of the organization, who reference these values and principles consistently in both verbal and written formats.
 
 **Feel part of the Organization**
 
-One of the possible reasons for introducing InnerSource into organisations can be increased engagement. This point tracks how engagement is changing while adopting InnerSource.
+One of the possible reasons for introducing InnerSource into organizations can be increased engagement. This point tracks how engagement is changing while adopting InnerSource.
 
 * PA-0: Low engagement, no collaboration and people do not feel comfortable sharing with others.
 * PA-1: Members of the organization feel comfortable sharing their thoughts and opinions without fear of retribution, but only in familiar domains. People understand that the best ideas win, and leadership responsibilities accrue to people with histories of contribution and commitment.
@@ -164,7 +164,7 @@ In order to drive adoption, extrinsic motivators can be used to increase cross t
 
 **Monitoring Policies**
 
-InnerSource projects need a means for self assessment. Metrics can be one aspect to facilitate this assessment. Also, in organisations with a mature InnerSource adoption level we expect adoption of the method to be tracked based on clear, agreed upon metrics.
+InnerSource projects need a means for self assessment. Metrics can be one aspect to facilitate this assessment. Also, in organizations with a mature InnerSource adoption level we expect adoption of the method to be tracked based on clear, agreed upon metrics.
 
 * MP-0: No existing monitoring policies at any level in the organization.
 * MP-1: Metrics are important for certain teams, and they start using them in an isolated way.
@@ -175,7 +175,7 @@ InnerSource projects need a means for self assessment. Metrics can be one aspect
 
 Not only should feature development be owned by InnerSource teams - support and maintenance is also part of the teams core tasks.
 
-* SM-0: Support given by the core dev or support team. A business contract guaranties the support. There is no knowledge about the product outside the team.
+* SM-0: Support given by the core development or support team. A business contract guaranties the support. There is no knowledge about the product outside the team.
 * SM-1: There are rules and regulations to formalize the support on the product, given by a dedicated supporting team.
 * SM-2: Support for InnerSource contributions is formalized through InnerSource patterns like [30 Day Warranty](./30-day-warranty.md) or [Service vs. Library](./service-vs-library.md).
 * SM-3: There are rules and regulations to formalize the support on the product, given by a mature community.
@@ -195,7 +195,7 @@ InnerSource comes with explicit roles. While in early stages some patterns may b
 
 * RO-0: There are no specific roles helping InnerSource adoption. Only common development roles are present: developer, analyst, tester, etc.
 * RO-1: Occasionally some individuals and teams contribute to other projects. These are technical contributions, where the user/contributor role is seen. For some teams, it can be identified at least one member being a technical reference, who explains the development process to other development team members. He/she could be a candidate for covering the trusted committer role.
-* RO-2: An InnerSource Officer role is in charge of governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for dev team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
+* RO-2: An InnerSource Officer role is in charge of governance and support, including processes, etc. Identifies the education needs and ensures it is provided to the organization. Leads and mentors the organization in the engagement in IS projects. Is the first formal step in the way, defining the IS vision and roadmap. The organization has defined a trusted committer role, being a point of contact/reference not only for development team members but also for external contributors. There is a standard process describing how to contribute to the community, contributor role is present. Data Scientist role is in charge of managing the traces of activity left by the InnerSource initiative, needed to measure the IS evolution. Trusted committer role will evolve to a more technical profile, and a community manager will be in charge of "energizing" the community, being his main responsibility to attract and retain new developers/users (contributors/community members).
 * RO-3: Evangelists are moving inside organization, to let others know about the current work, what InnerSource does and how to do it, and help others to understand and become part of the initiative. Non technical contributors appear.
 
 ## Resulting Context
@@ -221,7 +221,7 @@ long term.
 * Jorge
 * Nerea
 
-## Acknowledgements
+## Acknowledgments
 
 * Alexander Andrade (special thanks for the spelling fixes)
 

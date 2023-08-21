@@ -15,7 +15,7 @@ Here's a data-driven way to represent your project that both articulates its val
 ## Problem
 
 Cross-team projects can potentially have a very large impact on the company yet are difficult to represent in a data-driven fashion.
-As a result, it is easy and common to either pursue projects that does not provide real value or to underfund what would otherwise produce great value.
+As a result, it is easy and common to either pursue projects that do not provide real value or to underfund what would otherwise produce great value.
 
 ## Forces
 
@@ -49,7 +49,7 @@ The idea is for the group of experts to be able to say to each other, "We don't 
 Specifically, you should estimate a _maximum_ reasonable time to consume your project output and _minimum_ reasonable times for consumers to otherwise home-roll, use and maintain their own solutions.
 
 One note about cost of "rolling your own solution" (home-roll).  The cost to home-roll a solution is NOT necessarily (very unlikely, in fact) the same as the cost of making a shared solution.
-Oftentimes for the same functionality the modularity and quality involved in building a cross-team, shared solution makes it a noticeably higher investment than a quick, hardcoded implementation used just once.
+Oftentimes for the same functionality the modularity and quality involved in building a cross-team, shared solution makes it a noticeably higher investment than a quick, hard-coded implementation used just once.
 
 ### Formula
 
@@ -58,9 +58,9 @@ Once you have your worst-case bounds you can value your cross-team project outpu
 ```
 [Time Saved] - [Time Invested]
 
-([Count of New Onboardings] * [Cost to Home-Roll] * [Percent Useful Functionality] + [Count of Usages] * [Maintenance Cost Per Use]) - ([Count of New Onboardings] * [Cost to Onboard])
+([Count of New On-boardings] * [Cost to Home-Roll] * [Percent Useful Functionality] + [Count of Usages] * [Maintenance Cost Per Use]) - ([Count of New On-boardings] * [Cost to On-board])
 
-[Count of New Onboardings] * ([Cost to Home-Roll] * [Percent Useful Functionality] - [Cost to Onboard]) + [Count of Usages] * [Maintenance Cost Per Use]
+[Count of New On-boardings] * ([Cost to Home-Roll] * [Percent Useful Functionality] - [Cost to On-board]) + [Count of Usages] * [Maintenance Cost Per Use]
 ```
 
 ### Commentary
@@ -81,7 +81,7 @@ Some may be concerned about the lack of accuracy in this valuation approach.  It
 1. Help those involved to know what areas of cross-team effort are higher priority to pursue based on their value.
 
 In-practice, as long as these valuations are within an order-of-magnitude of reality and one-another, they are sufficiently accurate to fill these purposes.
-They will provide a head-and-shoulders improvement in on-the-ground results over the ad-hoc valuations (and resultant effects) described in the **Problem** section at the beginning of this document.
+They will provide a head-and-shoulders improvement in on-the-ground results over the ad hoc valuations (and resultant effects) described in the **Problem** section at the beginning of this document.
 
 ## Resulting Context
 
@@ -103,6 +103,6 @@ They will provide a head-and-shoulders improvement in on-the-ground results over
 
 * Russ Rutledge
 
-## Acknowledgement
+## Acknowledgments
 
 * Jeremiah Wright for teaching me to think about cross-team projects as an internal business dealing in the currency of developer time.

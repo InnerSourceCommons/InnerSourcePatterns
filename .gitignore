@@ -1,0 +1,2 @@
+# We want to ignore our vale StylesPath
+.github/vale/*

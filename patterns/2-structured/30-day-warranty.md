@@ -54,7 +54,7 @@ In addition it helps to provide clear [contribution guidelines](./project-setup/
 
 - Cedric Williams
 
-## Acknowledgement
+## Acknowledgments
 
 - Dirk-Willem van Gulik
 - Padma Sudarsan

@@ -1,0 +1,26 @@
+name: Spelling & Styles
+
+on:
+  push:
+    branches:
+    - main
+    paths:
+    - '**.md'
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  vale:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Vale Linting
+      uses: errata-ai/vale-action@reviewdog
+      with:
+        files: '["patterns/2-structured/", "patterns/3-validated/"]'
+        vale_flags: "--glob=*.md"
+        filter_mode: added
+        debug: true
