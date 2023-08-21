@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Trusted Committer
 
@@ -9,14 +9,14 @@ consistentemente recebem feedback, funcionalidades e correções de bugs de cont
 Nessas situações, os mantenedores do projeto buscam maneiras de reconhecer e recompensar
 o trabalho do contribuidor acima e além de contribuições individuais.
 
-## Problem
+## Problema
 
 - Os mantenedores do projeto desejam encontrar maneiras de aumentar a capacidade de suporte a um projeto.
 - Os mantenedores do projeto desejam encontrar maneiras de prolongar o valor entregue por um projeto.
 - Os mantenedores do projeto desejam recompensar visivelmente os contribuidores frequentes e capacitá-los a ampliar sua contribuição de valor.
 - Falta de mecanismo e linguagem para reconhecer contribuições entre equipes dentro de uma organização.
 
-## Context
+## Contexto
 
 - Você é o mantenedor de uma biblioteca, serviço ou recurso compartilhado entre equipes.
 - Você recebe contribuições regulares.
@@ -24,14 +24,14 @@ o trabalho do contribuidor acima e além de contribuições individuais.
 - Você recebe solicitações regulares de correções de bugs.
 - Existem contribuidores motivados buscando construir experiência por meio de projetos InnerSource.
 
-## Forces
+## Forças
 
 - Ao longo do ciclo de vida de um projeto, o foco dos mantenedores pode se deslocar para acomodar as mudanças nas prioridades comerciais.
 - Os contribuidores buscam reconhecimento visível de suas contribuições, demonstrando valor.
 - Manter um projeto de complexidade razoável é desgastante para uma equipe pequena.
 - Desenvolver recursos do projeto em escala é desgastante para uma equipe pequena.
 
-## Solution
+## Solução
 
 ### Definindo o Papel de Trusted Committer para um Projeto
 
@@ -89,7 +89,7 @@ Um plano para remover o acesso aos recursos do projeto deve ser acordado por amb
 
 Ao remover o acesso, [agradeça ao Trusted Committer pela participação publicamente][praise]. O reconhecimento público garante uma comunicação clara da transição e continuidade dentro da comunidade.
 
-## Resulting Context
+## Contexto Resultante
 
 ### Para os Contribuidores
 
@@ -106,7 +106,7 @@ aspectos do projeto sejam melhor atendidos ao longo do tempo.
 Um conjunto saudável de Trusted Committers garante que, se os mantenedores do projeto se afastarem,
 haja um plano para a administração responsável.
 
-## Known Instances
+## Instâncias Conhecidas
 
 Isso foi experimentado e comprovado como bem-sucedido em:
 
@@ -117,16 +117,16 @@ Isso foi experimentado e comprovado como bem-sucedido em:
 
 ![Trusted Committer section in CONTRIBUTING.md of Mercado Libre](../../assets/img/mercadolibre-trusted-committers.png "Trusted Committer section in CONTRIBUTING.md of Mercado Libre")
 
-## Status
+## Estado
 
 - Structured
 - Published internally at Nike; drafted via pull-request in June of 2018.
 
-## Authors
+## Autores
 
 - [Fernando Freire]
 
-## Acknowledgements
+## Reconhecimento
 
 - [Russell Rutledge]
 - [Loren Sanz]

@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Equipe Central
 
@@ -8,7 +8,7 @@ Mesmo quando um projeto InnerSource é amplamente necessário, as contribuiçõe
 Estabelecer uma equipe central dedicada a cuidar dos itens fundamentais do projeto.
 O trabalho deles permite que os contributors adicionem e usem recursos que oferecem valor para seus cenários.
 
-## Problem
+## Problema
 
 * É difícil contribuir para o projeto.
 Isso pode ser devido a coisas como:
@@ -22,7 +22,7 @@ Algumas possíveis causas:
   * Bugs frequentes.
   * Configuração não intuitiva.
 
-## Story
+## História
 
 Existe um projeto central do qual todos dependem.
 Que ótimo candidato para InnerSource!
@@ -30,19 +30,19 @@ Infelizmente, o projeto cresceu organicamente, com várias contribuições e adi
 Agora é uma massa espessa e confusa de código que ninguém entende e todos têm medo de tocar.
 É claramente necessário uma revisão completa (por exemplo, refatoração, testes, documentação, etc.), mas mesmo que todos precisem e queiram que esse trabalho aconteça, ninguém tira tempo para fazê-lo.
 
-## Context
+## Contexto
 
 - Muitas equipes precisam do projeto.
 - O projeto tem uma dívida técnica significativa.
 - Adoção e iteração lentas no projeto.
 - Não há um proprietário ou mantenedor que assuma a responsabilidade pelo ecossistema de projeto e contribuição como um todo.
 
-## Forces
+## Forças
 
 - Cada equipe contribuinte está ocupada e, portanto, prioriza o trabalho que resulta em um retorno imediato para si mesmos.
 - Conforme o projeto cresce, a tendência natural é que ele se torne mais difícil de usar e modificar.
 
-## Solution
+## Solução
 
 Forme uma equipe central cujo trabalho é manter este projeto em um estado para que outros possam facilmente aderir e contribuir para ele.
 Esta equipe central faz o trabalho necessário para um ecossistema de uso e contribuição saudável.
@@ -87,27 +87,27 @@ O foco contínuo nesses indicadores naturalmente levará a equipe central a prio
 
 ![Responsibilities of Core Team and InnerSource Contributors](../../assets/img/core-team.png)
 
-## Resulting Context
+## Contexto Resultante
 
 - O projeto é fácil de usar e contribuir.
 - Muitas equipes usam e contribuem para o projeto.
 - A equipe central tem o sucesso definido em termos da interação e resposta dos outros ao seu projeto.
 
-## Rationale
+## Fundamentação
 
 Separar uma equipe central e encarregá-la dessa forma ajuda a preencher as lacunas que um projeto de sucesso precisa, mas são deixadas para trás por contribuidores que estão perseguindo apenas sua própria agenda. A equipe central preenche essas lacunas e lubrifica as engrenagens para que o ecossistema de contribuição permaneça saudável.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * **Nike** implementou esse padrão para gerenciar o esforço de InnerSource em torno de seus pipelines de CI/CD reutilizáveis.
 * **WellSky** estabeleceu uma equipe central para um projeto importante. Isso permitiu que eles escalassem significativamente suas contribuições de InnerSource para esse projeto - veja [Wide-Scaled InnerSource with a Core Team](https://www.youtube.com/watch?v=kgxexjYdhIc).
 * **BBVA AI Factory** implementou esse padrão como parte de uma estratégia de InnerSource para promover a contribuição e reutilização de código de ciência de dados - veja [Mercury: Scaling Data Science reusability at BBVA](https://www.bbvaaifactory.com/mercury-acelerando-la-reutilizacion-en-ciencia-de-datos-dentro-de-bbva/).
 
-## Status
+## Estado
 
 Structured
 
-## Author
+## Autores
 
 [Russell R. Rutledge](https://github.com/rrrutledge)
 

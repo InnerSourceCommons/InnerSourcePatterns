@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Ferramentas de Comunicação
 
@@ -7,23 +7,23 @@ Ferramentas de Comunicação
 Os usuários de um projeto InnerSource têm dificuldade em obter ajuda e entrar em contato com a equipe responsável pelo projeto.
 Ao usar consistentemente ferramentas de comunicação assíncronas, o projeto torna as discussões visíveis, arquivadas e pesquisáveis, o que leva a um nível melhorado de suporte para os usuários.
 
-## Problem
+## Problema
 
 Uma equipe está aberta a receber contribuições dos usuários downstream do seu componente. A coordenação e comunicação acontecem de forma ad-hoc, levando a informações incoerentes sendo compartilhadas, atrasos nas respostas recebidas, e os contributors contatando múltiplos membros da equipe anfitriã antes de receberem uma resposta definitiva.
 
-## Context
+## Contexto
 
 - Uma equipe depende do componente de outra equipe.
 - Ela gostaria de fazer contribuições para esse componente.
 - Mesmo quando a comunicação é feita por escrito, ela ocorre de forma individual.
 
-## Forces
+## Forças
 
 - A equipe anfitriã está interessada em receber contribuições e disposta a orientar os colaboradores.
 - As equipes têm uma forte cultura de comunicação verbal e têm pouca experiência em configurar canais de comunicação assíncronos específicos do projeto.
 - Os canais de comunicação podem estar alinhados a grupos específicos que devem ser alcançados, mas não por objetivo de comunicação específico.
 
-## Solution
+## Solução
 
 A equipe anfitriã deve fornecer canais de comunicação arquivados, pesquisáveis e vinculáveis ​​públicos da empresa, aos quais qualquer pessoa na empresa possa se inscrever, uma vez que existem benefícios mensuráveis ​​em apoiar canais de comunicação escritos e abertos.
 
@@ -43,7 +43,7 @@ Embora a comunicação possa ocorrer fora desses canais escritos, o máximo de i
 
 ![Recomendações de ferramentas de comunicação para um projeto InnerSource](../../../assets/img/communication-tooling/communication-tooling.png)
 
-## Resulting Context
+## Contexto Resultante
 
 Configurar e utilizar consistentemente canais de comunicação assíncronos oficiais ajuda a criar um nível básico de [documentação passiva](https://www.oreilly.com/library/view/understanding-the-innersource/9781491986899/ch04.html) que pode ser referenciado novamente quando surgirem perguntas semelhantes no futuro.
 
@@ -55,26 +55,26 @@ Manter a comunicação em canais assíncronos permite que os participantes com d
 
 Responder perguntas nesses canais significa que não apenas outros membros da equipe podem ouvir e fornecer informações adicionais, mas também significa que outros usuários com a mesma pergunta veem (ou mais tarde encontram) a resposta anterior, levando a uma menor necessidade de repetir explicações.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * Europace AG
 * Paypal Inc.
 * Mercado Libre
 
-## Authors
+## Autores
 
 Isabel Drost-Fromm
 
-## Acknowledgement
+## Reconhecimento
 
 Sebastian Spier (for the visual)
 
-## Status
+## Estado
 
 * Structured
 * Drafted in December 2019.
 
-## Credits
+## Créditos
 
 [People](https://storyset.com/people) illustrations by Storyset
 

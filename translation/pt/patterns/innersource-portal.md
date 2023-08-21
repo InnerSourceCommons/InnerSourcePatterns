@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Portal InnerSource
 
@@ -6,13 +6,13 @@ Portal InnerSource
 
 Potenciais contribuidores não conseguem descobrir facilmente os projetos de InnerSource que lhes interessam. Ao criar um site de intranet que indexa todas as informações disponíveis sobre projetos de InnerSource, você permite que os contribuidores aprendam sobre projetos que possam interessá-los e que os proprietários de projetos de InnerSource atraiam um público externo.
 
-## Problem
+## Problema
 
 Os times de projetos de InnerSource estão achando difícil atrair contribuições externas.
 
 Os projetos de InnerSource em sua organização estão aumentando, mas os potenciais contribuidores não têm uma maneira fácil de descobri-los.
 
-## Story
+## História
 
 Você está tentando estabelecer uma prática de InnerSource dentro de sua organização. Você está ciente de que alguns projetos estão sendo executados usando um modelo InnerSource, mas sua existência é comunicada apenas por boca a boca, e-mail ou conversas laterais com outros funcionários. Como resultado, os proprietários de projetos de InnerSource estão achando difícil atrair contribuidores.
 
@@ -20,26 +20,26 @@ Não há um recurso único e compartilhado para os funcionários em toda a organ
 
 O que pode ser feito para ajudar todos os projetos de InnerSource a aumentar sua visibilidade para o maior público possível e atrair contribuidores em toda a organização?
 
-## Context
+## Contexto
 
 * Sua organização está interessada em adotar um estilo de trabalho InnerSource.
 * Os proprietários de projetos de InnerSource estão procurando uma maneira de atrair audiências para seus projetos. No entanto, eles estão limitados pelos canais de comunicação disponíveis para eles, através dos quais poderiam anunciar para potenciais contribuidores.
 * Os projetos de InnerSource em sua organização estão aumentando.
 * Agravando esse problema está o fato de que o aplicativo compartilhado de gerenciamento de controle de _código fonte_ em uso tem capacidades de pesquisa tão limitadas que até mesmo os desenvolvedores em busca de projetos de InnerSource acham frustrante localizá-los.
 
-### Prerequisites
+### Pré-requisitos
 
 * Os gerentes deram aceitação tácita de que seus funcionários devem participar de projetos de InnerSource.
 * Um sistema compartilhado de gerenciamento de controle de _código fonte_ está em uso, que fornece acesso programático ao conteúdo dos repositórios que hospeda.
 * Há um departamento dentro de sua organização com a responsabilidade de promover a colaboração em InnerSource.
 
-## Forces
+## Forças
 
 * O potencial completo das equipes de engenharia separadas de colaborar em desafios compartilhados não está sendo realizado.
 * É difícil para indivíduos descobrir quais projetos InnerSource existem.
 * É difícil para proprietários de projetos InnerSource atrair uma audiência de contribuidores externos.
 
-## Solutions
+## Soluções
 
 Crie um site de intranet de Portal InnerSource onde os proprietários de projetos InnerSource possam anunciar facilmente a disponibilidade de seus projetos.
 
@@ -56,13 +56,13 @@ Uma [implementação de referência](https://github.com/SAP/project-portal-for-i
 
 ![Exemplo de um Portal InnerSource](../../assets/img/portal-overview.png "Exemplo de um Portal InnerSource")
 
-## Resulting Context
+## Contexto Resultante
 
 * O Portal InnerSource permitiu que os proprietários de projetos InnerSource divulgassem seus projetos para um público em toda a organização. Devido a essa maior visibilidade, eles estão atraindo comunidades de contribuidores muito maiores do que nunca.
 * Para aqueles que desejam se envolver em projetos InnerSource, o Portal InnerSource permitiu que eles descobrissem exatamente o tipo de oportunidades em que estão interessados, pesquisando simultaneamente todos os projetos InnerSource disponíveis com base em critérios específicos.
 * Atender às necessidades desses dois públicos ajudou a estabelecer o InnerSource como uma opção viável e atraente para todas as áreas da organização aproveitarem para realizar coisas juntas que não poderiam ter feito separadamente.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * **Uma grande organização de serviços financeiros** utilizou a criação de um Portal InnerSource para fornecer um mecanismo de publicidade e descoberta de projetos InnerSource existentes em diferentes unidades de negócios.
 * **SAP** promove projetos InnerSource no Portal InnerSource - os projetos podem se registrar automaticamente usando tópicos do GitHub. O [Repository Activity Score](repository-activity-score.md) define a ordem padrão dos projetos InnerSource no portal. Veja também [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6). Seu código-fonte é publicado como uma [implementação de referência](https://github.com/SAP/project-portal-for-innersource) e está aberto para contribuições.
@@ -79,19 +79,19 @@ Uma [implementação de referência](https://github.com/SAP/project-portal-for-i
 
 * **Mercado Libre** utiliza uma instância do [portal SAP](https://github.com/SAP/project-portal-for-innersource) para descobrir projetos InnerSource existentes dentro da organização.
 
-## References
+## Referências
 
 * O padrão de Portal InnerSource tem se mostrado extremamente eficiente quando combinado com o padrão de [Mercado de Trabalhos InnerSource](./gig-marketplace.md) associado, nesse contexto.
 
-## Status
+## Estado
 
 * Structured
 
-## Author(s)
+## Autores
 
 * Stephen McCall
 
-## Acknowledgements
+## Reconhecimento
 
 * Shelly Nizri
 * Melinda Malmgren

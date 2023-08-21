@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Elogiar Participantes
 
@@ -7,25 +7,25 @@ Elogiar Participantes
 Após uma contribuição de InnerSource, é importante agradecer ao contribuidor pelo seu tempo e esforço.
 Este padrão fornece orientações que não apenas reconhecem efetivamente a contribuição, mas também promovem um maior envolvimento do contribuidor e de outros.
 
-## Problem
+## Problema
 
 Como podemos expressar adequadamente nossa gratidão a um contribuidor por sua contribuição para um projeto InnerSource?
 Pode ser fácil esquecer de fazer isso ou não saber as palavras ou o meio a usar para um efeito adequado e sincero.
 Elogios e agradecimentos são maneiras fáceis e acessíveis de manter os contribuidores e seus gerentes motivados e entusiasmados para continuar.
 Um padrão nesta área facilita a realização desse gesto e garante que a mensagem seja transmitida de forma clara e sincera.
 
-## Context
+## Contexto
 
 * Você é o [Trusted Committer](./trusted-committer.md) ou mantenedor de um projeto InnerSource.
 * Você valoriza a comunidade de contribuidores e deseja mantê-la e fazê-la crescer.
 
-## Forces
+## Forças
 
 * Você está ocupado, o que torna fácil esquecer de gestos suaves como elogios e agradecimentos.
 * Você pode não ser alguém que se sinta confortável em situações sociais ou tenha facilidade com as palavras.
 * O reconhecimento dos colegas é muito importante para a satisfação no trabalho e o desenvolvimento da carreira.
 
-## Solutions
+## Solução
 
 É gratificante para qualquer pessoa ser reconhecida por outros.
 Em um ambiente profissional, um aumento no reconhecimento também é uma via para um aumento de influência e crescimento.
@@ -55,7 +55,7 @@ Exemplo:
 Pode ter sido um pequeno período de tempo, mas é atenção como essa de cada pessoa que faz o projeto RCS funcionar para todos nós.
 Obrigado por resolver seu próprio problema de uma maneira que também melhora o _rcs-viewer_ para todos.
 
-## Resulting Context
+## Contexto Resultante
 
 O feedback como esse deixa o contribuidor com um sentimento fantástico e pronto para voltar para mais.
 Combinar **ambas** as formas de agradecimento dá a eles reconhecimento diante de seus colegas (abrangência) e diante de seu gerente direto (profundidade).
@@ -67,26 +67,26 @@ Certifique-se de que suas palavras derivem do sincero agradecimento que você se
 Mantenha o nível e a verbosidade dos elogios adequados ao nível de envolvimento deles.
 Exagerar pode parecer insincero e mecânico, derrotando o propósito de se comunicar.
 
-## Related Patterns
+## Patterns Relacionados
 
 * _Apenas Diga Obrigado_ (do livro [_Fearless Change_](https://fearlesschangepatterns.com/))
 
-## Known Instances
+## Instâncias Conhecidas
 
 * Nike (multiple projects)
 
-## Status
+## Estado
 
 * Structured
 
-## Author(s)
+## Autores
 
 * Russ Rutledge
 
-## Acknowledgements
+## Reconhecimento
 
-* [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real".
-* [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of a "qualified" thank you.
+* [Todd Lisonbee](https://github.com/tlisonbee) por encorajar a "manter isto real"
+* [Isabel Drost-Fromm](https://github.com/MaineC) para [esta explicação adicional](https://youtu.be/h3MPewsk5PU?t=357) de um agradecimento "qualificado".
 
 ## Histórico de Tradução
 

@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Comitê de Revisão
 
@@ -6,21 +6,21 @@ Comitê de Revisão
 
 O Modelo de Trabalho InnerSource é uma ruptura radical das abordagens mais tradicionais, tanto para desenvolvedores quanto para gerentes. Ao estabelecer um Comitê de Revisão como uma interface entre a iniciativa InnerSource e todos os gerentes sêniores das unidades de negócios que participam dela, é mais provável que estes últimos se familiarizem com a iniciativa e a apoiem, uma vez que isso lhes proporciona um certo nível de supervisão e controle sem promover a microgestão.
 
-## Problem
+## Problema
 
 Os gerentes perceberão o Modelo de Trabalho InnerSource como uma ruptura radical dos modelos de trabalho aos quais estão acostumados e têm experiência. Como consequência, é provável que eles rejeitem ou façam uma microgestão da iniciativa InnerSource para tentar minimizar o risco percebido dessa mudança. Em ambos os casos, os benefícios do InnerSource não podem ser obtidos. Como resultado, o InnerSource é subsequentemente desacreditado.
 
-## Context
+## Contexto
 
 A Empresa A deseja introduzir sua primeira iniciativa InnerSource. A maioria dos gerentes na Empresa A não está familiarizada com o modelo de trabalho de Código Aberto e, em vez disso, está acostumada com um estilo de gestão hierárquico e de controle de cima para baixo.
 
-## Forces
+## Forças
 
 - Quanto mais controle percebido um gerente tem sobre o trabalho na iniciativa InnerSource, mais provável é que ele ou ela apoie a iniciativa mesmo sem experiência prévia.
 - Quanto menos experiência um gerente tem com o modelo de trabalho de Código Aberto, mais provável é que ele ou ela queira controlar o risco da iniciativa.
 - Quanto mais rígidas e controladoras forem as iniciativas InnerSource gerenciadas, menos provável é que o modelo de trabalho de Código Aberto possa ser adotado na extensão necessária. Como resultado, os benefícios do InnerSource não serão obtidos.
 
-## Solution
+## Solução
 
 - Estabelecer um comitê de revisão composto por gerentes seniores de todas as unidades de negócios que participam da iniciativa InnerSource.
 - Os membros do comitê de revisão têm a autoridade para decidir em grupo quais projetos InnerSource receberão suporte de forma geral e financiamento em particular.
@@ -33,21 +33,21 @@ A Empresa A deseja introduzir sua primeira iniciativa InnerSource. A maioria dos
 
 ![Review Committee Sketch](../../assets/img/review-committee-sketch.jpg)
 
-## Resulting Context
+## Contexto Resultante
 
 - Os gerentes aplicam uma ferramenta com a qual estão familiarizados ao InnerSource para obter a quantidade necessária de informações e controle sobre o funcionamento interno da iniciativa InnerSource. Essa familiaridade tornará mais provável que eles aprovem a iniciativa InnerSource e concedam o grau necessário de liberdade para os projetos InnerSource.
 - Os desenvolvedores ainda podem se auto-organizar até certo ponto. O microgerenciamento não ocorre porque o comitê de revisão se reúne com pouca frequência.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * BIOS at Robert Bosch GmbH
 
-## Status
+## Estado
 
 * Structured
 * _Finalized and Reviewed_ as of 8/31/17.
 
-## Authors
+## Autores
 
 - Georg Grütter, Robert Bosch GmbH
 - Diogo Fregonese, Robert Bosch GmbH

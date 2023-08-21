@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Colaborador Contratado
 
@@ -6,11 +6,11 @@ Colaborador Contratado
 
 Associados que desejam contribuir com o InnerSource são desencorajados a fazê-lo por sua gerência de linha. O alívio é fornecido por meio de contratos e acordos formais.
 
-## Problem
+## Problema
 
 Sem o suporte da gerência intermediária, é provável que o número total de colaboradores e, consequentemente, a quantidade de contribuições feitas e o valor gerado pela iniciativa InnerSource fiquem abaixo das expectativas da gerência de nível superior. Isso provavelmente será amplificado se não houver financiamento adequado e capacitação dos [Líderes Comunitários Dedicados](dedicated-community-leader.md). Isso corre o risco de fazer com que a gerência de nível superior abandone a ideia do InnerSource.
 
-## Context
+## Contexto
 
 Uma grande corporação iniciou uma iniciativa InnerSource. Os principais objetivos da iniciativa são aumentar a eficiência do desenvolvimento de software distribuído e promover a inovação, permitindo que todos os associados contribuam voluntariamente para projetos InnerSource, independentemente do tópico e unidade de negócios.
 
@@ -18,7 +18,7 @@ A gerência de nível superior está apoiando a iniciativa InnerSource. Para ele
 
 No entanto, a gerência de nível superior ainda não capacitou ou incentivou os gerentes de nível intermediário a permitir ou até mesmo motivar seus funcionários a participar de atividades de InnerSource interdepartamentais. Além disso, a capacidade de cada associado geralmente é alocada para projetos não InnerSource por 100% do seu tempo de trabalho. A colaboração interorganizacional ainda não é a norma e os gerentes de linha geralmente não têm metas fora de sua própria organização. Espera-se que as contribuições para projetos InnerSource sejam feitas durante o horário de trabalho, e não durante o tempo livre.
 
-## Forces
+## Forças
 
 - Os gerentes são responsáveis pelos resultados de suas unidades de negócio. Permitir que sua equipe participe de atividades de InnerSource que possam gastar tempo fazendo contribuições fora de sua unidade de negócio reduz efetivamente a capacidade de sua unidade. Isso provavelmente tornará mais difícil para os gerentes atingir ou exceder seus objetivos.
 - Os gerentes de linha e os recursos humanos, por padrão, avaliarão o desempenho de seus subordinados em relação aos objetivos de suas unidades de negócio, o que pode não estar alinhado com os objetivos da comunidade InnerSource.
@@ -28,7 +28,7 @@ No entanto, a gerência de nível superior ainda não capacitou ou incentivou os
 - Quanto mais tempo um associado gasta em contribuições para um projeto InnerSource que não beneficia seu trabalho diário, mais aumentará a carga de trabalho para seus colegas de equipe em sua unidade de negócio.
 - Os contribuidores individuais provavelmente considerarão a participação no InnerSource como uma oportunidade para melhorar sua rede profissional dentro da empresa e adquirir conhecimento e experiência na área técnica de suas contribuições.
 
-## Solution
+## Solução
 
 Estabeleça um contrato formal entre o contribuidor, seu gerente de linha e um escritório de governança InnerSource (ISGO) financiado e dirigido centralmente. O ISGO reembolsará as unidades de negócios que contrataram os contribuidores pelo tempo contratado.
 
@@ -41,7 +41,7 @@ Estabeleça um contrato formal entre o contribuidor, seu gerente de linha e um e
 
 ![Contribuidor Contratado](../../assets/img/contracted-contributor.png)
 
-## Resulting Context
+## Contexto Resultante
 
 A formalização do contrato e o reembolso financiado centralmente comunicam de maneira convincente o apoio da organização à iniciativa InnerSource, o que capacita a gestão intermediária a aprová-la:
 
@@ -54,19 +54,19 @@ Um contrato formal também é benéfico para os contribuidores e comunidades:
 - Com um grupo estável de contribuidores, é mais provável que alguns deles eventualmente alcancem o status de [Trusted Committer](./trusted-committer.md).
 - Um contrato formal fornece uma base para resolver conflitos relacionados à participação em atividades InnerSource. Note que a mediação provavelmente terá sucesso apenas em algumas empresas com uma cultura propícia a isso.
 
-## Known Instances
+## Instâncias Conhecidas
 
 - BIOS at Robert Bosch GmbH
 
-## Status
+## Estado
 
 * Structured
 
-## Author
+## Autores
 
 - Georg Grütter (Robert Bosch GmbH)
 
-## Acknowledgements
+## Reconhecimento
 
 - Diogo Fregonese (Robert Bosch GmbH)
 - Robert Hansel (Robert Bosch GmbH)

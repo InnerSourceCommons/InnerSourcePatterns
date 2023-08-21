@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Licença InnerSource
 
@@ -8,7 +8,7 @@ Duas entidades jurídicas que pertencem à mesma organização desejam compartil
 
 Uma **Licença InnerSource** fornece uma estrutura legal reutilizável para o compartilhamento de código-fonte dentro da organização. Isso abre novas opções de colaboração e torna explícitos os direitos e obrigações das entidades jurídicas envolvidas.
 
-## Problem
+## Problema
 
 Quando duas ou mais entidades jurídicas dentro de uma organização desejam compartilhar código entre si, elas precisam de um acordo sobre os termos e, muitas vezes, um contrato legal. Criar tais acordos por projeto requer esforço e cria uma barreira para o compartilhamento. Por exemplo, uma equipe dentro de uma entidade jurídica pode decidir não compartilhar seu código-fonte com outra entidade jurídica na organização porque parece complicado.
 
@@ -16,14 +16,14 @@ Barreiras para o compartilhamento podem levar a silos e à duplicação de esfor
 
 No momento do compartilhamento do código-fonte, não é possível prever de forma confiável qual será o valor do compartilhamento. Se a atividade de compartilhamento requer um esforço significativo (ou seja, negociar os termos de uso), as entidades jurídicas têm menos probabilidade de fazê-lo, pois estão preocupadas com o retorno sobre o investimento.
 
-## Context
+## Contexto
 
 - Uma grande organização com muitas entidades jurídicas (subsidiárias) que desejam compartilhar código. À medida que a organização cresce, o valor desse padrão aumenta.
 - Conforme definição, as entidades jurídicas possuem seus próprios direitos e obrigações legais.
 - Várias dessas entidades jurídicas estão desenvolvendo software e usando serviços de outras entidades jurídicas. Elas têm motivação para contribuir com o código-fonte umas das outras.
 - Uma complexidade suficiente da organização e de sua estrutura organizacional.
 
-## Forces
+## Forças
 
 - **Nível de esforço** necessário para escrever acordos formais, especialmente se eles precisam levar em conta perspectivas técnicas, legais e de negócios.
 - Uma grande organização (composta por muitas entidades jurídicas) possui muitas **regulações internas**. Quaisquer novos acordos que sejam feitos devem estar em conformidade com essas regulamentações, como segurança, privacidade, processos de aquisição, etc. O volume de regulamentações pode dificultar a avaliação de se o compartilhamento de software entre duas entidades jurídicas está em conformidade com essas regulamentações, especialmente quando não há um procedimento padrão.
@@ -33,7 +33,7 @@ No momento do compartilhamento do código-fonte, não é possível prever de for
 - Existem contratos legais em vigor que cobrem o compartilhamento de código-fonte. Esses contratos não são padronizados, o que cria esforço adicional na negociação e compreensão para cada projeto. Os contratos existentes também podem não permitir o compartilhamento de código-fonte de uma maneira aberta o suficiente para suportar uma abordagem verdadeiramente InnerSource.
 - Alternativamente, não existem contratos legais em vigor, mas o código-fonte é compartilhado informalmente. Isso pode criar incerteza em casos em que é necessária clareza sobre a propriedade e os direitos e obrigações.
 
-## Solutions
+## Solução
 
 Criar uma **Licença InnerSource** personalizada de acordo com as necessidades da organização em questão (e suas entidades jurídicas). Esta licença precisa ser genérica o suficiente para ser aplicada às relações interempresariais mais importantes.
 
@@ -41,7 +41,7 @@ Criar uma **Licença InnerSource** personalizada de acordo com as necessidades d
 
 A Licença é escrita como um documento legal formal e pode ser usada como parte de contratos entre as entidades jurídicas para governar acordos de compartilhamento de código.
 
-## Resulting Context
+## Contexto Resultante
 
 Com a Licença InnerSource, temos uma ferramenta para compartilhar código entre entidades jurídicas dentro da nossa organização.
 
@@ -49,7 +49,7 @@ A licença simplifica as conversas dentro da nossa organização sobre compartil
 
 **Nota**: O experimento descrito em **Instâncias Conhecidas** ainda está em uma fase inicial. Portanto, um **contexto resultante** sólido ainda não foi formado. Em alguns meses, os efeitos da Licença InnerSource nesse espaço de problemas estarão mais claros e esta seção poderá ser atualizada.
 
-## Known Instances
+## Instâncias Conhecidas
 
 A DB Systel criou sua própria Licença InnerSource, consulte [DB Inner Source License][db-inner-source-license]. Eles usaram a [EUPL][eupl], já que ela oferecia um ponto de partida semelhante ao do código aberto, e depois trabalharam nas restrições e regras adicionais necessárias em seu contexto organizacional específico.
 
@@ -66,23 +66,23 @@ Os desafios de colaboração mencionados incluem:
 
 Vale mencionar que até agora, o software compartilhado sob essa licença InnerSource é principalmente ferramentas, infraestrutura e ferramentas mais baixas na pilha de tecnologia.
 
-## Status
+## Estado
 
 * Structured
 * O experimento listado em **Exemplos Conhecidos** está em execução desde 02/2020. A experiência inicial mostra os primeiros efeitos positivos, mas mais experiência é necessária para avaliar totalmente o padrão.
 
-## Author(s)
+## Autores
 
 - Cornelius Schumacher (DB Systel GmbH)
 - Schlomo Schapiro (DB Systel GmbH)
 - Sebastian Spier
 
-## References
+## Referências
 
 - FOSSBack 2020 Presentation: [Cornelius Schumacher - Blending Open Source and Corporate Values](https://youtu.be/hikC6U8X_Ec) - watch 27:30 and onwards for details about the InnerSource License
 - [DB Inner Source License][db-inner-source-license]
 
-## Glossary
+## Glossário
 
 - organização - um guarda-chuva para várias entidades legais. (sinônimos: grupo, empresa) (e.g., Lufthansa)
 -entidade jurídica - Uma entidade que possui seus próprios direitos e obrigações legais (sinônimos: empresa, subsidiária) (por exemplo, Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)

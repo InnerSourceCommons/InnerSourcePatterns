@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Requisitos Comuns
 
@@ -6,11 +6,11 @@ Requisitos Comuns
 
 O código comum em um repositório compartilhado não está atendendo às necessidades de todas as equipes de projeto que desejam usá-lo; isso é resolvido por meio do alinhamento de requisitos e refatoração.
 
-## Problem
+## Problema
 
 O código comum no repositório compartilhado não está atendendo às necessidades de todos os projetos que desejam usá-lo.
 
-## Context
+## Contexto
 
 * Muitos projetos estão tentando usar um código comum. Existe um repositório compartilhado que todos os projetos acessam.
 * Alguém (ou algum projeto) escreveu o código em primeiro lugar e o contribuiu para o repositório.
@@ -21,7 +21,7 @@ O código comum no repositório compartilhado não está atendendo às necessida
     * há uma **propriedade de código fraca** ou seja, ninguém realmente é dono do código
     * não há um **Patrocinador Benevolente** ou seja, nenhuma organização ou executivo está fornecendo recursos para organizar o código comum de forma InnerSource.
 
-## Forces
+## Forças
 
 No código disponibilizado pelo projeto original tem um conjunto de necessidades. Suas necessidades são semelhantes ao que algumas das organizações receptoras desejam, mas não exatamente as mesmas. Os requisitos do código devem ser derivados das necessidades reais dos clientes.
 
@@ -30,7 +30,7 @@ As necessidades dos diferentes clientes são geralmente bastante similares; no e
 Muitos clientes querem que o fornecedor os ajude a saber do que precisam. A empresa tem muitos "Engenheiros de Sistemas" que escrevem requisitos para os produtos. Esses requisitos devem ser uma destilação das necessidades dos clientes para orientar o desenvolvimento do produto.
 Reutilizar o código é um objetivo importante para economizar tempo e dinheiro da empresa.
 
-## Solution
+## Solução
 
 Existem dois aspectos para resolver este problema que devem ser feitos em paralelo:
 
@@ -43,7 +43,7 @@ No exemplo apresentado acima, o fornecedor ajuda ambos os clientes a perceberem 
 
 ![Common Requirements](../../assets/img/CommonReqtsv2.jpg)
 
-## Resulting Context
+## Contexto Resultante
 
 Isso pode exigir negociação de mudanças nos requisitos com o cliente. As mudanças também podem exigir o envolvimento das equipes de vendas e gerentes de produtos para obter alinhamento nos requisitos. O cliente pode precisar de incentivos, como descontos, para concordar com as mudanças.
 
@@ -53,19 +53,19 @@ Um desafio relacionado (e possivelmente um novo padrão) é um exercício de esc
 * Os gerentes de programa reescrevem a história para expressar melhor suas necessidades - mantendo a essência da história. Quando a história retorna para os desenvolvedores, eles não a reconhecem como algo que eles queriam fazer originalmente e, portanto, hesitam em implementá-la.
 * A solução para esse padrão é ter mais assentos ao redor da mesa de planejamento para que as modificações de histórias sejam compreendidas em todo o projeto, não apenas nos campos dos desenvolvedores ou gerentes de programa.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * Grande provedor de telecomunicações
 
-## Status
+## Estado
 
 * Structured
 
-## Author
+## Autores
 
 Robert Hanmer
 
-## Acknowledgements
+## Reconhecimento
 
 * Manrique Lopez
 * Daniel Izquierdo

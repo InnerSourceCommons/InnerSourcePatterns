@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Tomada de Decisão Transparente entre Equipes usando RFCs
 
@@ -6,7 +6,7 @@ Tomada de Decisão Transparente entre Equipes usando RFCs
 
 Projetos InnerSource que desejam alcançar altas taxas de participação e tomar as melhores decisões possíveis para todos os envolvidos precisam encontrar maneiras de criar sistemas participativos ao longo de todo o ciclo de vida do software. A publicação de documentos internos de "Requests for Comments" (RFCs) permite discussões desde o início do processo de design e aumenta as chances de construir soluções com um alto grau de comprometimento de todas as partes envolvidas.
 
-## Problem
+## Problema
 
 Para que um projeto InnerSource seja saudável, ele precisa de um número substancial de contribuidores. Esses contribuidores (ou equipes) podem ter diferentes requisitos para o projeto em questão, por exemplo, eles podem querer adicionar recursos ao projeto que não são compatíveis entre si ou que levem a um excesso de complexidade na arquitetura.
 
@@ -14,7 +14,7 @@ Descobrir tais desacordos ou mal-entendidos tardiamente no processo, por exemplo
 
 Para um projeto InnerSource, essa situação ocorre com mais frequência quando o projeto é mantido por várias equipes na empresa, ou seja, possui propriedade compartilhada.
 
-## Story
+## História
 
 Um projeto ou aplicação composta por vários projetos é mantido por várias equipes diferentes, cada uma delas sendo responsável por diferentes áreas do projeto ou aplicação. Essas equipes fazem contribuições InnerSource nas áreas umas das outras, mas mudanças maiores que afetam várias partes do projeto são apenas conduzidas pelos líderes técnicos das equipes trabalhando juntos, ou nem acontecem. Isso resulta na maioria dos engenheiros não sendo capazes de realizar mudanças em larga escala que cortem várias partes do projeto, o que reduz a inovação e as oportunidades de colaboração.
 
@@ -22,7 +22,7 @@ Ao implementar um processo e um modelo para RFCs (Requests for Comments), as equ
 
 Assim como em qualquer processo, isso deve ser continuamente aprimorado. Pode ser necessário fazer alterações no modelo ou no processo de RFC para garantir que seja inclusivo, colaborativo e eficaz.
 
-## Context
+## Contexto
 
 - Compartilhamento de Propriedade por Muitas Equipes de um Projeto InnerSource
 - Decisões de design abrangentes não podem ser sempre tomadas por um órgão central (por exemplo, um grupo de arquitetos), pois eles não têm tempo suficiente nem conhecimento específico do domínio para tomar boas decisões em todos os casos.
@@ -30,16 +30,16 @@ Assim como em qualquer processo, isso deve ser continuamente aprimorado. Pode se
 - As decisões precisam ser tomadas de forma assíncrona, pelo menos em parte, já que não é viável realizar reuniões síncronas frequentes com todos os participantes.
 - Existe o desejo de documentar as decisões tomadas, ou seja, garantir que sejam registradas por escrito, em vez de apenas verbalmente.
 
-## Forces
+## Forças
 
 - Na maioria das vezes, as partes envolvidas desejam tomar uma decisão bastante rápida (por exemplo, o tempo de design inicial é bastante limitado).
 - Escrever as coisas (sem implementá-las imediatamente) muitas vezes é uma nova habilidade para muitas das pessoas envolvidas.
 
-## Sketch
+## Esboço
 
 ![Processo de RFC usado no projeto BaseUI da Uber (exemplo de código aberto)](../../assets/img/rfc-process-uber-baseui.png)
 
-## Solutions
+## Solução
 
 Escolhemos um processo semelhante ao RFC para aumentar a transparência do nosso processo de tomada de decisão entre equipes (consulte também [Requests for Comments][requests-for-comments]).
 
@@ -57,12 +57,12 @@ Elementos importantes da solução são:
     - ferramentas adequadas escolhidas (por exemplo, não-engenheiros podem não ter acesso a ferramentas de controle de código fonte)
 - um compromisso em iterar no modelo de RFC e no processo
 
-### Examples/Templates
+### Exemplos/Modelos
 
 - [Rust][rust] é um bom exemplo de código aberto para modelo e processo de RFC, e tem sido a base para muitos outros processos de RFC.
 - [Modelo de RFC genérico do BBC iPlayer & Sounds](templates/rfc.md), originalmente baseado no modelo do [Rust][rust]
 
-## Resulting Context
+## Contexto Resultante
 
 Implementar um processo semelhante a um RFC provou ser valioso, pois torna o processo de tomada de decisão entre equipes mais transparente para todos, permitindo que todas as vozes sejam ouvidas.
 
@@ -83,7 +83,7 @@ A abordagem de RFC também possui riscos que queremos destacar:
 - Escrever propostas de design (arquitetura, protocolos, etc.) antecipadamente tem um elemento de design semelhante ao waterfall que não se encaixa na abordagem de desenvolvimento iterativo que muitas equipes de desenvolvimento preferem. Lembre-se: "Software em funcionamento sobre documentação abrangente" ([Manifesto Ágil](https://agilemanifesto.org/)). O processo de RFC deve ser o mais leve possível.
 - Um RFC pode se tornar extenso e difícil de gerenciar. Isso muitas vezes é evidenciado por longas conversas e discussões a seu respeito. Nessas situações, podemos decidir complementar o RFC com comunicação síncrona, como um grupo de trabalho e reuniões presenciais. Mas o tempo ainda é economizado, pois as pessoas podem ler o RFC antes da reunião em vez de terem todas as informações compartilhadas durante a reunião.
 
-## Rationale
+## Justificativa
 
 As RFCs têm se mostrado eficazes no mundo do código aberto há muitos anos. Isso é verdade tanto para a Internet como um todo, onde as RFCs têm sido instrumentais no desenvolvimento de padrões (por exemplo, veja [30 Anos de RFCs][30-years-of-rfcs]), quanto para outros projetos de código aberto que adaptaram esse método para promover a tomada de decisões transparente em suas comunidades (por exemplo, [RUST][rust], [ZeroMQ][zeromq]).
 
@@ -91,7 +91,7 @@ No contexto do InnerSource, outras empresas também compartilharam suas experiê
 
 Além disso, para a tomada de decisões fora das decisões puramente de design de software, modelos transparentes de tomada de decisões podem ser eficazes, por exemplo, ao trabalhar em direção a uma Organização Aberta. Para um exemplo, veja o [Framework de Decisões Abertas][open-decision-framework] da Red Hat (lançado publicamente em 7 de junho de 2016).
 
-## Known Instances
+## Instâncias Conhecidas
 
 - **BBC iPlayer & Sounds** - Como apresentado na ISC Fall Summit 2020 [Using Internal RFCs to Enhance Collaboration][bbc].
 - **Europace** - Como descrito em Open Organization: [Setting cross-team standards and best practices in the open][europace].
@@ -99,11 +99,11 @@ Além disso, para a tomada de decisões fora das decisões puramente de design d
 - **Google Design Docs** - Como descrito neste post no blog por Malte Ubl: [Design Docs at Google][google].
 - **DAZN** (10/2021) - Uma forma pela qual a DAZN toma decisões técnicas é por meio de RFCs. RFCs são usados para decisões que se aplicam apenas a processos em toda a engenharia! As RFCs ficam em um repositório do GitHub, e os padrões técnicos são gradualmente adotados em suas ferramentas e por seus engenheiros. Uma RFC pode ser proposta por qualquer engenheiro e votada por todos os engenheiros. Se os votos a favor excederem os votos contra, a RFC é adotada. Vale ressaltar que o processo de votação de RFCs ainda não foi "testado sob pressão" por nenhuma decisão controversa. - Como descrito neste post no blog por Lou Bichard: [Building A DX Team: Lessons Learned][dazn].
 
-## Status
+## Estado
 
 Structured
 
-## Author(s)
+## Autores
 
 - Tom Sadler
 - Sebastian Spier

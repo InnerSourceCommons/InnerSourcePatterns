@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Repositório  Pontuação de Atividade
 
@@ -6,7 +6,7 @@ Repositório  Pontuação de Atividade
 
 Potenciais contribuidores desejam encontrar projetos InnerSource ativos que precisem de sua ajuda. Ao calcular uma pontuação de atividade do repositório para cada projeto, uma lista classificada de projetos pode ser criada (por exemplo, no [Portal InnerSource](innersource-portal.md)), para que os potenciais contribuidores possam determinar mais facilmente em qual projeto desejam contribuir.
 
-## Problem
+## Problema
 
 **Em que ordem** os projetos InnerSource devem ser apresentados? Indicadores de classificação típicos, como *GitHub Stars*, *Número de Forks*, *Número de Commits*, *Linhas de Código*, *Última Atualização*, não são suficientes para indicar de forma concisa a atividade de um projeto.
 
@@ -15,7 +15,7 @@ Projetos ativos com muita tração, mas também projetos relativamente novos e e
 Uma nova métrica derivada de vários indicadores de desempenho é necessária para definir uma pontuação confiável e versátil para o nível de atividade de um projeto.
 Ela pode ser usada para ordenar projetos de acordo com o nível de atividade deles.
 
-## Story
+## História
 
 Quando o InnerSource é praticado por um longo período de tempo ou se expande além de um certo número de projetos (digamos 50 para ter um limite significativo), torna-se difícil encontrar os projetos InnerSource mais populares e ativos no momento. Projetos que existem por muito tempo são conhecidos, mas podem não estar tão ativos. Projetos relativamente novos, por outro lado, não têm reputação ou uma comunidade ativa ainda.
 
@@ -23,7 +23,7 @@ Uma lista de projetos InnerSource não deve ser considerada um recurso estático
 
 Essas considerações levaram a um primeiro protótipo para calcular uma pontuação de atividade do repositório, que funcionou surpreendentemente bem e determina uma ordem sempre em mudança de projetos de acordo com a sua atividade.
 
-## Context
+## Contexto
 
 A descoberta de projetos InnerSource pode ser facilitada com o [Portal InnerSource](innersource-portal.md) e o padrão [Gig Marketplace](gig-marketplace.md), ou promovendo projetos em outros canais de comunicação e plataformas. A pontuação de atividade define uma ordem padrão na qual os projetos são apresentados à comunidade.
 
@@ -33,13 +33,13 @@ Indicadores-chave de desempenho automatizados que podem ser obtidos consultando 
 
 Esses KPIs "soft" teriam que ser adicionados manualmente ou de forma semi-automática ao cálculo e à pontuação resultante. Se existirem ferramentas que forneçam mais contexto para o repositório, como relatórios de cobertura de código, eles podem ser facilmente incorporados.
 
-## Sketch
+## Esboço
 
 ![Ecossistema para a Pontuação de Atividade do Repositório](../../assets/img/repository_activity_score.png)
 
-Abordagem centralizada para calcular e aplicar a pontuação de atividade do repositório. Para mais detalhes, veja [Resulting Context](#resulting-context).
+Abordagem centralizada para calcular e aplicar a pontuação de atividade do repositório. Para mais detalhes, veja [Contexto Resultante](#contexto-resultante).
 
-## Solutions
+## Solução
 
 A pontuação de atividade do repositório é um valor numérico que representa a atividade (no GitHub) de um projeto InnerSource. Ela é derivada automaticamente de estatísticas do repositório, como estrelas (GitHub stars), observadores (watches) e forks, e pode ser enriquecida com KPIs de outras ferramentas ou avaliações manuais.
 
@@ -99,7 +99,7 @@ function calculateScore(repo) {
 }
 ```
 
-## Resulting Context
+## Contexto Resultante
 
 Os contribuidores têm a liberdade de dedicar parte do seu tempo a projetos InnerSource. Eles podem optar por contribuir para um projeto do qual dependem para o trabalho em sua equipe regular. No entanto, também podem escolher contribuir para algo completamente diferente, com base em seus interesses e objetivos de desenvolvimento pessoal.
 
@@ -107,23 +107,23 @@ Os projetos podem ser ordenados e apresentados de acordo com a pontuação de at
 
 Um rastreador que pesquisa regularmente todos os repositórios InnerSource (por exemplo, marcados com um [tópico específico](https://github.com/topics) no GitHub) também pode ser uma adição útil. Ele fornece uma lista classificada de projetos que podem ser usados como entrada para ferramentas como o [InnerSource Portal](innersource-portal.md), um mecanismo de busca ou um bot de chat interativo.
 
-## Rationale
+## Justificativa
 
 A pontuação de atividade do repositório é um cálculo simples baseado na API do GitHub. Pode ser totalmente automatizada e facilmente adaptada a novos requisitos.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * Usado no portal de projetos InnerSource da SAP para definir a ordem padrão dos projetos InnerSource. Foi criado pela primeira vez em julho de 2020 e vem sendo ajustado e atualizado com frequência desde então. Quando proposto para o InnerSourceCommons em julho de 2020, este padrão emergiu. Veja também [Michael Graf & Harish B (SAP) em ISC.S11 - O Caminho Inesperado da Aplicação de Padrões InnerSource](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
 
-## Status
+## Estado
 
 * Structured
 
-## Author(s)
+## Autores
 
 [Michael Graf (SAP)](mailto:mi.graf@sap.com)
 
-## Acknowledgements
+## Reconhecimento
 
 Um agradecimento à comunidade InnerSource Commons por fornecer conselhos extremamente rápidos e muitas contribuições úteis para enriquecer este padrão! Em especial:
 

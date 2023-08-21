@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Documente seus Princípios Orientadores
 
@@ -7,7 +7,7 @@ Documente seus Princípios Orientadores
 A explicação comum do InnerSource, "aplicando as melhores práticas de código aberto dentro de uma organização", não funciona bem com pessoas que não possuem um background em código aberto.
 Como solução, os princípios mais importantes do InnerSource são documentados e publicados amplamente.
 
-## Problem
+## Problema
 
 A organização está tentando implementar o InnerSource em uma escala maior.
 A iniciativa começou entre entusiastas de código aberto.
@@ -16,25 +16,25 @@ Para esse público, o slogan típico de "aplicar as melhores práticas de códig
 Como resultado, a adoção do InnerSource na organização diminui.
 As equipes desenvolvem ideias divergentes sobre os objetivos do InnerSource e como implementá-lo da melhor maneira, o que leva a confusão quando os contribuidores começam a cruzar as fronteiras das equipes
 
-## Story
+## História
 
 Experimentos iniciais em uma organização mostraram que as melhores práticas de colaboração em código aberto podem ser benéficas.
 O próximo passo agora é levar a iniciativa para equipes e indivíduos que não possuem um amplo conhecimento em código aberto.
 
 A meta agora é comunicar claramente os objetivos da iniciativa InnerSource, bem como um caminho claro para alcançar os mesmos.
 
-## Context
+## Contexto
 
 * A terminologia InnerSource está circulando entre os funcionários.
 * A iniciativa começou entre entusiastas do código aberto.
 
-## Forces
+## Forças
 
 * As equipes têm dificuldade em comunicar exatamente quais são os aspectos importantes do InnerSource.
 * As pessoas que não possuem experiência em código aberto falham em entender o que significa trazer as melhores práticas do código aberto para dentro da organização.
 * No dia a dia, as equipes que tentam seguir as melhores práticas do InnerSource têm dificuldade em decidir se o que estão fazendo está alinhado com os valores gerais do InnerSource.
 
-## Solution
+## Solução
 
 Aqueles que lideram a iniciativa InnerSource na organização precisam ajudar as equipes e indivíduos que têm pouco conhecimento em código aberto e, portanto, têm menos compreensão intuitiva do InnerSource.
 
@@ -110,14 +110,14 @@ Todas as contribuições (por exemplo, código fonte, documentação, relatório
 Aqueles que demonstram apoio ao projeto são convidados como [Trusted Committers](../2-structured/trusted-committer.md).
 Todos os Trusted Committers de um projeto são publicados.
 
-## Resulting Context
+## Contexto Resultante
 
 * Membros da organização entendem quais desafios podem ser enfrentados aplicando as melhores práticas de InnerSource.
 * Membros da organização sem experiência prévia em código aberto entendem os valores e princípios básicos dos projetos InnerSource.
 * Membros da organização sem experiência prévia em código aberto conseguem verificar suas atividades diárias em relação a um conjunto de valores comuns estabelecidos.
 * As práticas de desenvolvimento da organização se tornam mais semelhantes aos projetos de código aberto, tornando mais fácil para os membros da organização participar de projetos de código aberto.
 
-## Known Instances
+## Instâncias Conhecidas
 
 ### Europace AG
 
@@ -126,11 +126,11 @@ Para mais detalhes, consulte [Europace InnerSource Prinzipien](https://tech.euro
 
 ### GitHub
 
-#### Purpose
+#### Objetivo
 
 Muitas vezes, na GitHub, trabalhamos em um modelo em que equipes contribuem com recursos para áreas fora de sua responsabilidade. Exemplos comuns incluem engenharia de vendas contribuindo com recursos para desbloquear uma venda, projetos especiais contribuindo com recursos urgentemente necessários e de alto impacto em todo o produto e uma equipe trabalhando em várias áreas para entregar uma funcionalidade.
 
-#### Principles
+#### Princípios
 
 No geral, os princípios descritos neste documento visam evitar o aumento da dívida técnica e da carga de suporte para a equipe responsável. Muitas vezes, ajuda é oferecida a uma equipe porque eles estão atrasados devido aos custos de suporte e manutenção em sua área de responsabilidade e não têm capacidade para contribuir para o recurso. Qualquer novo recurso realizado por outra equipe que aumente essa carga de suporte ou dívida técnica significa ainda menos tempo para a equipe responsável trabalhar em novos recursos, portanto, queremos garantir que sejam feitos corretamente.
 
@@ -160,7 +160,7 @@ Com isso em mente, aqui estão os princípios em que concordamos:
   - Correção de bugs
   - Documentação atualizada
 
-#### Engagement
+#### Compromisso
 
 Usamos um modelo de engajamento porque gostamos de definir quais medidas concretas podem ser tomadas por uma equipe ao contribuir com recursos para áreas fora de sua área de responsabilidade.
 
@@ -172,11 +172,11 @@ Um modelo de envolvimento típico no GitHub é parecido com este:
 
 ### Robert Bosch GmbH
 
-#### Purpose
+#### Objetivo
 
 Promover a colaboração, o aprendizado e a inovação é o foco principal da iniciativa Bosch InnerSource (BIOS).
 
-#### Principles
+#### Princípios
 
 Para isso, a Bosch aplicou os seguintes princípios:
 
@@ -192,16 +192,16 @@ Os princípios _Abertura_, _Transparência_ e _Voluntariedade_ ajudaram a desenv
 A _Meritocracia_ provou ser uma motivação eficaz para fazer grandes contribuições.
 A _Autodeterminação_ permitiu que as comunidades usassem seu tempo limitado para contribuições da maneira mais eficaz e eficiente.
 
-## Status
+## Estado
 
 Structured
 
-## Authors
+## Autores
 
 * Isabel Drost-Fromm
 * Georg Grütter
 
-## Acknowledgements
+## Reconhecimento
 
 * Zack Koppert - for sharing GitHub's approach in the Known Instances
 

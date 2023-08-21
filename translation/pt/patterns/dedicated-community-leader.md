@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Líder de Comunidade Dedicado
 
@@ -6,17 +6,17 @@ Líder de Comunidade Dedicado
 
 Selecione pessoas com habilidades tanto em comunicação quanto em técnicas para liderar as comunidades e garantir o sucesso na iniciativa InnerSource
 
-## Problem
+## Problema
 
 Como garantir que uma nova iniciativa InnerSource tenha o [Líder de Comunidade](http://www.artofcommunityonline.org/) correto para aumentar seu impacto?
 
 Selecionar as pessoas erradas e/ou não fornecer capacitação suficiente para elas pode acarretar em esforços desperdiçados e, em última análise, no fracasso de uma nova iniciativa InnerSource.
 
-## Story
+## História
 
 Considere a seguinte história. Uma empresa deseja iniciar uma iniciativa InnerSource para promover a colaboração entre as fronteiras organizacionais. Eles decidiram começar com uma fase experimental com escopo limitado. A gerência selecionou um tópico piloto adequado para a primeira comunidade do InnerSource e espera contribuições de muitas unidades de negócios da organização. A empresa nomeou um novo contratado para liderar a comunidade durante 50% do seu tempo de trabalho, pois ele ainda não estava 100% planejado. Após seis meses, a comunidade recebeu apenas algumas contribuições, a maioria delas de uma única unidade de negócios. A empresa substitui o líder da comunidade por alguém que tem um histórico mais longo na empresa, dessa vez por apenas 30% de seu tempo. Após mais seis meses, o número de contribuições aumentou apenas marginalmente. A empresa não está mais convencida de que o InnerSource ajuda a atingir sua meta de aumentar a colaboração entre divisões e abandona o InnerSource.
 
-## Context
+## Contexto
 
 - A empresa é uma empresa grande e antiga. Ela não tem experiência anterior em código aberto ou em outros modelos de trabalho baseados na comunidade. A cultura da empresa é mais bem caracterizada como um estilo clássico de gerenciamento de cima para baixo e, em geral, está em desacordo com a cultura da comunidade.
 - Embora haja apoiadores e um patrocinador na gerência de alto nível, a gerência intermediária da empresa ainda não está convencida do InnerSource.
@@ -24,7 +24,7 @@ Considere a seguinte história. Uma empresa deseja iniciar uma iniciativa InnerS
 - O líder da comunidade inicialmente selecionado tem pouca ou nenhuma experiência anterior com o modelo de trabalho de código aberto.
 - O líder da comunidade de desenvolvedores inicialmente selecionado não tem uma rede extensa na empresa.
 
-## Forces
+## Forças
 
 Se uma empresa não investe significativamente na comunidade inicial de InnerSource em termos de orçamento e capacidade para InnerSource, a credibilidade de seu compromisso com InnerSource pode ser questionada. Um impulso comum de uma empresa com uma cultura de gestão tradicional diante de um projeto ou iniciativa que não esteja atendendo às expectativas é substituir seu líder. Fazer isso sem envolver a comunidade e seguir princípios meritocráticos ainda prejudicará o compromisso da empresa com InnerSource, destacando o atrito entre a cultura atual da empresa e a cultura almejada - uma cultura comunitária.
 
@@ -36,7 +36,7 @@ Se uma comunidade não consegue crescer rápido o suficiente e ganhar impulso, �
 
 Se a empresa selecionar um gerente de projeto ou de linha experiente imerso em métodos tradicionais de gestão para ser o líder da comunidade, é provável que ele ou ela se concentre em tópicos de gestão tradicional, como alocação de recursos, fornecimento de estrutura e canais de relatório, em vez de liderar pelo exemplo por meio de princípios meritocráticos. Isso minará a credibilidade da iniciativa InnerSource aos olhos dos desenvolvedores.
 
-## Solution
+## Solução
 
 Selecione um líder da comunidade que:
 
@@ -50,13 +50,13 @@ Selecione um líder da comunidade que:
 
 Empodere o líder da comunidade a dedicar 100% do seu tempo ao trabalho comunitário, incluindo comunicação e desenvolvimento. Informe a gestão sobre a necessidade de ser sensível às opiniões da comunidade ao engendrar uma mudança na gestão da comunidade. Idealmente, capacite a comunidade a indicar seu próprio líder.
 
-## Resulting Context
+## Contexto Resultante
 
 Um líder da comunidade com as propriedades descritas acima dará um rosto e incorporará o compromisso da empresa com o InnerSource. Isso tornará mais provável que outros associados em sua rede sigam seu exemplo e contribuam para o InnerSource. Com o tempo, ele ou ela poderá construir uma equipe central estável de desenvolvedores e, assim, aumentar as chances de sucesso para o projeto InnerSource. Ao convencer uma audiência grande o suficiente dentro de sua empresa sobre o potencial do InnerSource, ele ou ela fará uma contribuição importante para mudar a cultura da empresa em direção a uma cultura comunitária.
 
 Ter líder da comunidade excelentes e dedicados é uma condição prévia para o sucesso do InnerSource. No entanto, não é uma solução mágica. Existem muitos desafios do InnerSource que vão além do que um líder da comunidade pode enfrentar, como desafios orçamentários, legais, fiscais ou organizacionais.
 
-## Known Instances
+## Instâncias Conhecidas
 
 _BIOS na Robert Bosch GmbH_. Note que o InnerSource na Bosch teve como objetivo principal aumentar a inovação e, em grande parte, lidou com produtos voltados para uso interno. Esse padrão atualmente não é utilizado na Bosch por falta de financiamento.
 
@@ -64,16 +64,16 @@ _BIOS na Robert Bosch GmbH_. Note que o InnerSource na Bosch teve como objetivo 
 
 Gerente de Comunidade Dedicado
 
-## Status
+## Estado
 
 * Structured
 
-## Authors
+## Autores
 
 - Georg Grütter (Robert Bosch GmbH)
 - Diogo Fregonese (Robert Bosch GmbH)
 
-## Acknowledgements
+## Reconhecimento
 
 - Tim Yao
 - Padma Sudarsan

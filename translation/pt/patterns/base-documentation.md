@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Documentação Base Padrão
 
@@ -6,15 +6,15 @@ Documentação Base Padrão
 
 Novos contributors para um projeto InnerSource têm dificuldade em descobrir quem é o responsável pelo projeto, o que trabalhar e como contribuir. Fornecer documentação em arquivos padrão como `README.md`/`CONTRIBUTING.md` permite um processo de autoatendimento para novos contributors, para que possam encontrar as respostas para as perguntas mais comuns por conta própria.
 
-## Problem
+## Problema
 
 Uma equipe deseja compartilhar um projeto recém-iniciado ou já existente com toda a organização e receber contribuições. Os potenciais contributors muitas vezes ficam perdidos: eles não conseguem identificar os canais de comunicação preferidos da equipe. Eles têm dificuldade em julgar rapidamente se uma nova funcionalidade faz sentido ser adicionada ou não. Eles têm dificuldade em entender exatamente quais colegas estão mantendo ativamente o projeto no momento.
 
-## Context
+## Contexto
 
 Um projeto será compartilhado com outros como um projeto InnerSource. Para que outros possam entender do que se trata o projeto e como contribuir, o projeto precisa fornecer alguma documentação básica. Até agora, o projeto não tem nenhuma documentação ou faltam alguns aspectos necessários para que os usuários possam testá-lo de forma autônoma e para que os contributors possam se atualizar rapidamente.
 
-## Forces
+## Forças
 
 - O projeto foi convertido em um projeto InnerSource apenas recentemente. Antes, os usuários eram apenas internos ou passavam por sessões pessoais presenciais para serem integrados. Da mesma forma, as pessoas que trabalhavam no projeto passavam por sessões pessoais de integração que não escalavam com o aumento do número de contribuidores ou contribuidores remotos. Como resultado, falta documentação de autoatendimento.
 - O projeto foi recém-criado como um projeto InnerSource. No entanto, a equipe anfitriã não tem experiência com InnerSource. Como resultado, eles precisam de orientação sobre quais informações incluir em sua documentação, onde colocar essa documentação para que outros possam encontrá-la e quais tipos de leitores abordar em sua documentação.
@@ -26,7 +26,7 @@ Um projeto será compartilhado com outros como um projeto InnerSource. Para que 
 - O trabalho adicional de explicações repetidas e reescritas diminui a utilidade da abordagem InnerSource.
 - Escalações frequentes devido ao trabalho extra e atrasos devido a reescritas levam a uma situação de grande problema ("big cheese situation").
 
-## Solution
+## Solução
 
 Abordar a necessidade de documentação mais clara para novos contribuidores. O objetivo ao criar essa documentação deve ser tornar o processo de início o mais automatizado possível, com perguntas frequentes respondidas em um formato padrão de documentação.
 
@@ -62,19 +62,19 @@ Existem muitos bons exemplos de como escrever um arquivo `README.md` e que tipo 
 
 Além disso, este padrão vem com dois modelos básicos para você começar imediatamente: [README-template.md](templates/README-template.md) e [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
 
-## Resulting Context
+## Contexto Resultante
 
 * O tempo necessário para que os contribuidores se ambientem é significativamente reduzido.
 * O tempo gasto respondendo às perguntas iniciais de [Trusted Committers](../trusted-committer.md) é significativamente reduzido, deixando-os mais tempo para trabalhar em outras tarefas.
 * As escalonamentos devido a mal-entendidos e falta de alinhamento são significativamente reduzidos.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * Europace AG - Veja a postagem do blog [InnerSource: Adicionando documentação básica](https://tech.europace.de/post/innersource-base-documentation/)
 * Paypal Inc.
 * Mercado Libre - criado um site de documentação que contendo informações sobre como começar com InnerSource e definido também os artefatos básicos que um repositório deve ter para ser InnerSource (README, CONTRIBUTING, CODING_GUIDELINES, etc.).
 
-## Authors
+## Autores
 
 * Isabel Drost-Fromm
 
@@ -82,17 +82,17 @@ Além disso, este padrão vem com dois modelos básicos para você começar imed
 
 Fornecer documentação básica padrão através de um README
 
-## Status
+## Estado
 
 * Structured
 * Drafted in December 2019.
 
-## References
+## Referências
 
 * [README-template.md](templates/README-template.md) and
 * [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
 
-## Credits
+## Créditos
 
 [Web](https://storyset.com/web) and [People](https://storyset.com/people) illustrations by Storyset
 

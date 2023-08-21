@@ -1,4 +1,4 @@
-## Title
+## Título
 
 Avaliação de Projeto entre Equipes
 
@@ -6,22 +6,22 @@ Avaliação de Projeto entre Equipes
 
 É difícil vender o valor de projetos InnerSource entre equipes que não proporcionam um impacto direto na receita da empresa. Aqui está uma maneira baseada em dados para representar seu projeto que articula seu valor e o amplifica.
 
-## Context
+## Contexto
 
 * Você é responsável por uma equipe cross que serve como plataforma para outros na empresa.
 * O projeto entre equipes não proporciona nenhum valor direto para a receita da empresa.
 
-## Problem
+## Problema
 
 Projetos entre equipes podem ter um impacto muito grande na empresa, mas são difíceis de representar de maneira baseada em dados. Como resultado, é fácil e comum tanto buscar projetos que não fornecem valor real quanto subfinanciar o que, de outra forma, produziria grande valor.
 
-## Forces
+## Forças
 
 * Os projetos precisam demonstrar valor (objetivo ou subjetivo) à liderança da empresa para serem financiados.
 * O valor do projeto entre equipes é disperso em várias unidades de negócios finais.
 * Devido a essa dispersão, o valor do projeto entre equipes é difícil de medir diretamente.
 
-## Solution
+## Solução
 
 Estabeleça um padrão e modelo de como valorizar projetos entre equipes.
 
@@ -29,7 +29,7 @@ Tais modelos nos fornecem a ferramenta necessária para nos concentrarmos e ampl
 
 O core de todo o valor do projeto entre equipes é a ideia de que podemos realizar mais juntos do que separados. Atribuir valor a um esforço entre equipes é um exercício em quantificar _quanto mais_ está sendo feito juntos. O delta exato na produtividade variará de acordo com o domínio e o projeto. Existe um processo comum pelo qual você pode criar um modelo para calculá-lo.
 
-### Explanation
+### Explicação
 
 Monte uma pequena equipe de especialistas em seu domínio.
 Usando essa equipe de especialistas, estime 4 coisas sobre cada consumidor de sua saída de projeto:
@@ -45,7 +45,7 @@ Especificamente, você deve estimar um tempo máximo razoável para consumir a s
 
 Uma observação sobre o custo de "criar sua própria solução" (home-roll). O custo de criar uma solução por conta própria NÃO é necessariamente o mesmo (muito improvável, na verdade) do custo de criar uma solução compartilhada. Muitas vezes, para a mesma funcionalidade, a modularidade e qualidade envolvidas na construção de uma solução compartilhada entre equipes tornam o investimento significativamente maior do que uma implementação rápida e codificada usada apenas uma vez.
 
-### Formula
+### Fórmula
 
 Depois de estimar os limites piores casos, você pode calcular o valor da saída do seu projeto de equipe cross durante um determinado período de tempo usando a fórmula simples:
 
@@ -57,7 +57,7 @@ Depois de estimar os limites piores casos, você pode calcular o valor da saída
 [Número de novas implementações] * ([Custo para desenvolver internamente] * [Porcentagem de funcionalidade útil] - [Custo de implementação]) + [Número de usos] * [Custo de manutenção por uso]
 ```
 
-### Commentary
+### Comentário
 
 Apesar das aparências de rigor, esse processo não produz uma forma exata de medir a saída de projetos entre equipes.
 Na prática, entretanto, ele oferece um modelo através do qual você pode tomar uma decisão adequada de como financiar esse trabalho.
@@ -76,27 +76,27 @@ Algumas pessoas podem se preocupar com a falta de precisão nessa abordagem de v
 
 Na prática, desde que essas valorações estejam dentro de uma ordem de grandeza da realidade e uma da outra, elas são suficientemente precisas para cumprir esses propósitos. Elas fornecerão uma melhoria significativa nos resultados em relação às valorações ad hoc (e aos efeitos resultantes) descritas na seção Problema no início deste documento.
 
-## Resulting Context
+## Contexto Resultante
 
 * Meios baseados em dados para discutir o valor e financiamento do projeto de equipe cross com a liderança.
 * Métricas-chave em torno do projeto de equipe cross instrumentalizadas em forma bruta.
 * Definir como o projeto de equipe cross fornece valor tende a levar a ele produzir maior valor para a empresa.
 * Projeto geralmente bem-sucedido e "buzz" em torno dele.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * Nike
 
-## Status
+## Estado
 
 * Structured
 * Proven in multiple domains.
 
-## Authors
+## Autores
 
 * Russ Rutledge
 
-## Acknowledgement
+## Reconhecimento
 
 * Jeremiah Wright por me ensinar a pensar em projetos entre equipes como um negócio interno que opera na moeda do tempo dos desenvolvedores.
 
