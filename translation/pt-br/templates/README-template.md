@@ -1,76 +1,64 @@
-# Insert the name of your project here
+# Insira o nome do seu projeto aqui
 
-## Mission
+## Missão
 
-This should contain a brief (3-5 sentences) description of the mission of your
-project. The goal is to state what you are planning to work on and help external
-contributors understand roughly which types of features will likely be welcome
-for this project.
+Esta seção deve conter uma breve descrição (3-5 frases) da missão do seu projeto. O objetivo é declarar sobre o que você planeja trabalhar e ajudar os contribuidores externos a entenderem mais ou menos quais tipos de recursos provavelmente serão bem-vindos para este projeto.
 
-See also [mission statement chapter](https://producingoss.com/en/producingoss.html#mission-statement) in Producing Open Source Software.
+Veja também o [capítulo de declaração de missão](https://producingoss.com/en/producingoss.html#mission-statement) em Producing Open Source Software.
 
-## Getting Started
+## Primeiros Passos
 
-This section should contain brief documentation written for first time users on
-how to get started using the project. Further more detailed documentation can be
-linked to from here.
+Esta seção deve conter uma breve documentação escrita para usuários iniciantes sobre como começar a usar o projeto. Além disso, documentação mais detalhada pode ser vinculada a partir daqui.
 
-## Further information
+## Mais Informações
 
-This section can list any or all of the following:
+Esta seção pode listar qualquer uma ou todas as seguintes informações:
 
-- A list of features, use cases that the software addresses.
-- Information on design principles that are used to resolve trade-offs
-- Links to further user level documentation
-- Answers to frequently asked questions (FAQ), preferably in a format that allows to link to specific questions and their answers for easier reference.
+- Uma lista de recursos, casos de uso que o software aborda.
+- Informações sobre os princípios de design que são usados para resolver compensações.
+- Links para documentação de nível de usuário mais detalhada.
+- Respostas às perguntas frequentes (FAQ), de preferência em um formato que permita vincular a perguntas específicas e suas respostas para referência mais fácil.
 
-## Getting help
+## Obtendo Ajuda
 
-This section should contain a brief documentation on how to get help for the
-project as a user. This could be as simple as pointing users to the issue
-tracker if this is how your project would like to answer questions. It could
-also point to an archived and searchable chat channel, some archived searchable
-mailing list, some online user forum.
+Esta seção deve conter uma breve documentação sobre como obter ajuda para o projeto como usuário. Isso pode ser tão simples quanto direcionar os usuários para o rastreador de problemas se este for o método que seu projeto deseja usar para responder a perguntas. Também pode apontar para um canal de chat arquivado e pesquisável, alguma lista de discussão arquivada e pesquisável, ou algum fórum online para usuários.
 
-## Getting involved
+## Se envolvendo
 
-This section should include information on how to get in touch with the project:
-Typically this will contain links to archived, searchable and linkable
-communication channels.
+Esta seção deve incluir informações sobre como entrar em contato com o projeto:
+Tipicamente, isso conterá links para canais de comunicação arquivados, pesquisáveis e linkáveis.
 
-## Who we are
+## Quem somos
 
-This is a good place to give credit to Trusted Committers of the project.
+Este é um bom lugar para dar crédito aos Trusted Committers do projeto.
 
-It's also a good place to include information on what being a Trusted Committer
-means for this project - although ideally all projects in an organization use
-the same definition that is only linked to from here. The reason to keep the
-link here is for colleagues who have no or little experience with working in and
-contributing to InnerSource projects to have a direct link back to company wide
-information from the technological projects they need for their daily work.
+Também é um bom lugar para incluir informações sobre o que significa ser um Trusted Committer
+para este projeto - embora o ideal seja que todos os projetos em uma organização usem
+a mesma definição que é vinculada apenas a partir daqui. A razão para manter o
+link aqui é para que colegas que não têm ou têm pouca experiência em trabalhar e
+contribuir para projetos InnerSource tenham um link direto de volta para informações em toda a empresa dos projetos tecnológicos necessários para seu trabalho diário.
 
-## Contributing
+## Contribuindo
 
-This section should document (or link to documentation) on all things that a
-first time contributor needs to know to get started. Typically not all of the
-topics below will be covered. Focus on what differs in your project from
-standard setup and what previous contributors found hard to understand.
+Esta seção deve documentar (ou vincular à documentação) tudo o que um
+contribuidor de primeira viagem precisa saber para começar. Normalmente, nem todos os
+tópicos abaixo serão cobertos. Foque no que difere em seu projeto do
+setup padrão e no que contribuidores anteriores acharam difícil de entender.
 
-- Finding the source code.
-- Finding a list of issues that your project needs help with - these can be both, technical and non-technical issues. Typically you will keep those in an issue tracker accessible to contributors.
-- Links to further documentation e.g. about the architecture of the project, general coding conventions, testing conventions...
-- For technical contributions: Making changes, building the project and testing your changes.
-- Submitting your changes back to the project.
+- Encontrar o código-fonte.
+- Encontrar uma lista de problemas para os quais seu projeto precisa de ajuda - esses problemas podem ser técnicos e não técnicos. Geralmente você manterá esses problemas em um rastreador de problemas acessível aos contribuidores.
+- Links para documentação adicional, por exemplo, sobre a arquitetura do projeto, convenções gerais de codificação, convenções de teste...
+- Para contribuições técnicas: Fazer alterações, construir o projeto e testar suas alterações.
+- Enviar suas alterações de volta para o projeto.
 
-Ideally you also include information on what the preferred process for changes
-looks like for the project: Should contributors first open an issue and submit a
-proposal, or are they welcome to submit changes right away? What is important to
-you when reviewing contributions?
+Idealmente, você também inclui informações sobre como é o processo preferido para alterações
+no projeto: Os contribuidores devem primeiro abrir um problema e enviar uma
+proposta, ou eles podem enviar alterações imediatamente? O que é importante
+para você ao revisar as contribuições?
 
-In addition you should outline any design values you want to follow in the
-project. Making those explicit often helps resolve trade-offs more quickly and
-more easily. In addition it helps making changes to otherwise implicit
-assumptions transparent.
+Além disso, você deve esboçar quaisquer valores de design que deseja seguir no
+projeto. Tornar esses valores explícitos frequentemente ajuda a resolver trade-offs mais rapidamente e
+mais facilmente. Além disso, ajuda a tornar transparentes as alterações em pressupostos anteriormente implícitos.
 
-Over time you will notice that this section grows substantially. In that case
-think about moving the information to separate files, e.g. a `CONTRIBUTING.md` and `TESTING.md`.
+Com o tempo, você notará que esta seção crescerá substancialmente. Nesse caso,
+considere mover as informações para arquivos separados, como `CONTRIBUTING.md` e `TESTING.md`.
