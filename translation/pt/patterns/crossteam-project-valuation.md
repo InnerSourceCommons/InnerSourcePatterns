@@ -103,3 +103,4 @@ Na prática, desde que essas valorações estejam dentro de uma ordem de grandez
 ## Histórico de Tradução
 
 - **2022-04-27** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2022-04-27** - Tradução [Humberto Zilio](https://github.com/zilio)

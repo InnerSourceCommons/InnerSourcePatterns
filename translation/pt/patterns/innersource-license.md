@@ -93,3 +93,4 @@ Vale mencionar que até agora, o software compartilhado sob essa licença InnerS
 ## Histórico de Tradução
 
 - **2022-05-04** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2022-05-04** - Tradução [Humberto Zilio](https://github.com/zilio)

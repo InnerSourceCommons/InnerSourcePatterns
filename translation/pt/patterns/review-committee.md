@@ -59,3 +59,4 @@ Cheese Interface
 ## Histórico de Tradução
 
 - **2022-08-20** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2022-08-20** - Tradução [Humberto Zilio](https://github.com/zilio)

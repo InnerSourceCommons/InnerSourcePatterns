@@ -217,3 +217,4 @@ Modelo de Maturidade: Conheça as Melhores Práticas do InnerSource
 ## Histórico de Tradução
 
 - **2022-08-19** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2022-08-19** - Tradução [Humberto Zilio](https://github.com/zilio)

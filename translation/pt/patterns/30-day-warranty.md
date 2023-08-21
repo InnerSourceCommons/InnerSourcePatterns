@@ -73,3 +73,4 @@ Além disso, ajuda a fornecer diretrizes claras de [contribuição](./project-se
 ## Histórico de Tradução
 
 - **2022-04-13** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2022-04-13** - Tradução [Humberto Zilio](https://github.com/zilio)

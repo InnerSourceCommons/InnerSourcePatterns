@@ -54,3 +54,4 @@ Structured
 ## Histórico de Tradução
 
 - **2022-06-13** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2022-06-13** - Tradução [Humberto Zilio](https://github.com/zilio)
