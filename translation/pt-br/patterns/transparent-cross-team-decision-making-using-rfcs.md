@@ -85,11 +85,11 @@ A abordagem de RFC também possui riscos que queremos destacar:
 
 ## Rationale
 
-As RFCs têm se mostrado eficazes no mundo do código aberto há muitos anos. Isso é verdade tanto para a Internet como um todo, onde as RFCs têm sido instrumentais no desenvolvimento de padrões (por exemplo, veja [30 Anos de RFCs](30-years-of-rfcs)), quanto para outros projetos de código aberto que adaptaram esse método para promover a tomada de decisões transparente em suas comunidades (por exemplo, [RUST](rust), [ZeroMQ](zeromq)).
+As RFCs têm se mostrado eficazes no mundo do código aberto há muitos anos. Isso é verdade tanto para a Internet como um todo, onde as RFCs têm sido instrumentais no desenvolvimento de padrões (por exemplo, veja [30 Anos de RFCs][30-years-of-rfcs]), quanto para outros projetos de código aberto que adaptaram esse método para promover a tomada de decisões transparente em suas comunidades (por exemplo, [RUST][rust], [ZeroMQ][zeromq]).
 
-No contexto do InnerSource, outras empresas também compartilharam suas experiências com abordagens semelhantes às RFCs, como [Uber](uber) e [Europace](europace).
+No contexto do InnerSource, outras empresas também compartilharam suas experiências com abordagens semelhantes às RFCs, como [Uber][uber] e [Europace][europace].
 
-Além disso, para a tomada de decisões fora das decisões puramente de design de software, modelos transparentes de tomada de decisões podem ser eficazes, por exemplo, ao trabalhar em direção a uma Organização Aberta. Para um exemplo, veja o [Framework de Decisões Abertas](open-decision-framework) da Red Hat (lançado publicamente em 7 de junho de 2016).
+Além disso, para a tomada de decisões fora das decisões puramente de design de software, modelos transparentes de tomada de decisões podem ser eficazes, por exemplo, ao trabalhar em direção a uma Organização Aberta. Para um exemplo, veja o [Framework de Decisões Abertas][open-decision-framework] da Red Hat (lançado publicamente em 7 de junho de 2016).
 
 ## Known Instances
 
