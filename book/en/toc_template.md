@@ -19,7 +19,7 @@ Instead edit toc_template.md
 
 ## Patterns <a id="p"></a>
 
-<<PATTERS_HERE>>
+<<PATTERNS_HERE>>
 
 ## Appendix
 

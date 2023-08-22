@@ -19,7 +19,7 @@ Em vez disso, edite toc_template.md
 
 ## Padrões <a id="p"></a>
 
-<<AQUI_PATRONES>>
+<<PATTERNS_HERE>>
 
 ## Apêndice
 
