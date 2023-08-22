@@ -61,3 +61,4 @@ Cheese Interface
 
 - **2022-06-02** - 翻訳 [Yuki Hattori](https://github.com/yuhattor)
 - **2022-06-15** - レビュー [@kanazawazawa](https://github.com/kanazawazawa)
+- **2023-06-18** - 最終更新
