@@ -111,6 +111,7 @@
 
 * **2022-12-08** 翻译[姜宁](https://github.com/willemjiang)
 * **2022-12-08** 校对[曾江云](https://github.com/skw0rm)
+* **2023-06-18** 最后更新日期
 
 [tc-learning-path]: https://innersourcecommons.org/learn/learning-path/trusted-committer/
 [tc-pattern]: ./trusted-committer.md

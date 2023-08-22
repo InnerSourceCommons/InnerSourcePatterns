@@ -117,6 +117,7 @@ RFC方法也有我们想要指出的风险。
 
 - **2022-12-01** 翻译[姜宁][willem]
 - **2022-12-11** 校对[龙文选][hncslwx]
+- **2023-06-18** 最后更新日期
 
 [requests-for-comments]: https://en.wikipedia.org/wiki/Request_for_Comments
 [30-years-of-rfcs]: https://www.rfc-editor.org/rfc/rfc2555.txt
