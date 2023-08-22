@@ -60,7 +60,7 @@ Se a explicação dos passos para fazer uma contribuição for muito complexa, c
 
 Existem muitos bons exemplos de como escrever um arquivo `README.md` e que tipo de informações incluir em um arquivo `CONTRIBUTING.md` em vários projetos de código aberto. Páginas como [como escrever um readme que se destaca](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), o [Guia de Código Aberto do GitHub](https://opensource.guide/) e o livro [Producing Open Source](https://producingoss.com/en/producingoss.html) têm informações valiosas sobre que tipo de informações fornecer. Embora Producing Open Source não tenha um capítulo sobre como escrever um bom README em si, o capítulo [Começando a partir do que você tem](https://producingoss.com/en/producingoss.html#starting-from-what-you-have) fornece uma lista bastante extensa de coisas que os membros da equipe, usuários e contributors precisarão. Os projetos InnerSource provavelmente não cobrirão todos esses aspectos desde o início, mas a própria lista é útil para inspiração do que pode ser abordado.
 
-Além disso, este padrão vem com dois modelos básicos para você começar imediatamente: [README-template.md](templates/README-template.md) e [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+Além disso, este padrão vem com dois modelos básicos para você começar imediatamente: [README-template.md](../templates/README-template.md) e [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
 
 ## Contexto Resultante
 
