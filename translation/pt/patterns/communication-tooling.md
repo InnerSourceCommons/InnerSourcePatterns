@@ -33,7 +33,7 @@ Um projeto deve configurar as seguintes ferramentas de comunicação:
 
 1. um **issue tracker dedicado** onde a comunicação estruturada, a tomada de decisões e o acompanhamento do progresso possam ocorrer de forma transparente para todos os membros da equipe anfitriã, mas também para os usuários e colaboradores downstream acompanharem. Para outras aplicações do issue tracker, consulte [Issue Tracker Use Cases](./issue-tracker.md).
 2. **canal(is) de discussão pública** que possuem uma estrutura menos rígida. Normalmente, isso será listas de e-mails, fóruns on-line, sistemas de perguntas e respostas ou até mesmo canais de bate-papo arquivados. Geralmente, é suficiente começar com apenas um canal para o projeto. Se o tráfego aumentar demais, é útil separar as discussões sobre o uso do projeto das discussões sobre o desenvolvimento do projeto.
-3. **um canal privado** onde a comunicação sobre tópicos sensíveis possa ocorrer entre [Trusted Committers](../trusted-committer.md) - por exemplo, adicionando mais Trusted Committers à equipe anfitriã. Esse canal deve ser usado com muito cuidado, de modo que a comunicação padrão seja aberta e seja mantida privada apenas em circunstâncias muito raras.
+3. **um canal privado** onde a comunicação sobre tópicos sensíveis possa ocorrer entre [Trusted Committers](./trusted-committer.md) - por exemplo, adicionando mais Trusted Committers à equipe anfitriã. Esse canal deve ser usado com muito cuidado, de modo que a comunicação padrão seja aberta e seja mantida privada apenas em circunstâncias muito raras.
 
 While communication can happen outside of those written channels, as much information as possible should be brought back to the asynchronous channels.
 
