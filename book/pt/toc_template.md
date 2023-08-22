@@ -25,8 +25,8 @@ Em vez disso, edite toc_template.md
 
 * [Modelo de Padrão](../../meta/pattern-template.md)
 * Extras
-  * [Modelo de README](../../patterns/2-structured/project-setup/templates/README-template.md)
-  * [Modelo de CONTRIBUTING](../../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
+  * [Modelo de README](../../translation/pt/templates/README-template.md)
+  * [Modelo de CONTRIBUTING](../../translation/pt/templates/CONTRIBUTING-template.md)
 
 ## Recursos
 
