@@ -53,7 +53,8 @@ In particular, for special terms, such as "Trusted Committer", please review not
 
 ### Publishing Translations
 
-The books currently available are in English and Japanese.
+The patterns books is published in multiple languages, including English, Japanese and Chinese (as of August/2023).
+Find the full list of available languages in the [patterns books](https://patterns.innersourcecommons.org/).
 
 Trusted Committers in this repository will also be onboarded during the translation process.
 
