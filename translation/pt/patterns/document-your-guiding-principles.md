@@ -107,7 +107,7 @@ Dois avisos, no entanto:
 (6) Recompensar Trusted Committership
 
 Todas as contribuições (por exemplo, código fonte, documentação, relatórios de bugs, participação em discussões, suporte ao usuário, marketing) são bem-vindas e são recompensadas.
-Aqueles que demonstram apoio ao projeto são convidados como [Trusted Committers](../2-structured/trusted-committer.md).
+Aqueles que demonstram apoio ao projeto são convidados como [Trusted Committers](./trusted-committer.md).
 Todos os Trusted Committers de um projeto são publicados.
 
 ## Contexto Resultante
@@ -186,7 +186,7 @@ Para isso, a Bosch aplicou os seguintes princípios:
 - Autodeterminação**: As comunidades da BIOS são livres para escolher no que trabalhar, quando trabalhar e quais ferramentas e processos usar para trabalhar.
 - Meritocracia**: O poder é investido nos membros do projeto BIOS com base em seus méritos, ou seja, com base na qualidade e na quantidade de suas contribuições.
 
-![BIOS Principles](../../assets/img/bios-principles.png)
+![BIOS Principles](../../../assets/img/bios-principles.png)
 
 Os princípios _Abertura_, _Transparência_ e _Voluntariedade_ ajudaram a desenvolver diversas comunidades de associados intrinsecamente motivados.
 A _Meritocracia_ provou ser uma motivação eficaz para fazer grandes contribuições.

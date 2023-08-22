@@ -40,7 +40,7 @@ Se ainda não existir, crie um arquivo `README.md para o seu projeto. Ele deve c
 * Documentação necessária para fazer modificações no projeto - ou um link para isso.
 * Documentação sobre como contribuir para o projeto - ou um link para isso.
 * Uma seção "Iniciando" que explique quais canais públicos, arquivados e vinculáveis de comunicação o projeto utiliza. Isso deve incluir um link para o rastreador de problemas do projeto, mas também para quaisquer outras mídias de discussão utilizadas.
-* Uma seção "Quem somos" explicando quem são os [Trusted Committers](../trusted-committer.md) por trás do projeto - com uma explicação de que, em vez de entrar em contato com essas pessoas em particular, os canais públicos de comunicação acima devem ser usados para comunicação.
+* Uma seção "Quem somos" explicando quem são os [Trusted Committers](./trusted-committer.md) por trás do projeto - com uma explicação de que, em vez de entrar em contato com essas pessoas em particular, os canais públicos de comunicação acima devem ser usados para comunicação.
 * Uma explicação dos critérios para o projeto transformar contributors em Trusted Committers - se esse caminho existir.
 
 ![README.md](../../../assets/img/standard-base-documentation/README-for-users.png)
@@ -65,7 +65,7 @@ Além disso, este padrão vem com dois modelos básicos para você começar imed
 ## Contexto Resultante
 
 * O tempo necessário para que os contribuidores se ambientem é significativamente reduzido.
-* O tempo gasto respondendo às perguntas iniciais de [Trusted Committers](../trusted-committer.md) é significativamente reduzido, deixando-os mais tempo para trabalhar em outras tarefas.
+* O tempo gasto respondendo às perguntas iniciais de [Trusted Committers](./trusted-committer.md) é significativamente reduzido, deixando-os mais tempo para trabalhar em outras tarefas.
 * As escalonamentos devido a mal-entendidos e falta de alinhamento são significativamente reduzidos.
 
 ## Instâncias Conhecidas
@@ -89,8 +89,8 @@ Fornecer documentação básica padrão através de um README
 
 ## Referências
 
-* [README-template.md](templates/README-template.md) and
-* [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+* [README-template.md](../templates/README-template.md) and
+* [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
 
 ## Créditos
 

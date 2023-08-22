@@ -115,7 +115,7 @@ Isso foi experimentado e comprovado como bem-sucedido em:
 - Mercado Libre - adiciona uma seção no arquivo `CONTRIBUTING.md` para informar quem são os Trusted Committers.
 - Robert Bosch GmbH - nós não chamamos o papel de 'Trusted Committer', mas tivemos esse papel no início de nossa jornada InnerSource. Os Trusted Committers eram financiados em 100% do tempo para poderem se concentrar nesse papel.
 
-![Trusted Committer section in CONTRIBUTING.md of Mercado Libre](../../assets/img/mercadolibre-trusted-committers.png "Trusted Committer section in CONTRIBUTING.md of Mercado Libre")
+![Trusted Committer section in CONTRIBUTING.md of Mercado Libre](../../../assets/img/mercadolibre-trusted-committers.png "Trusted Committer section in CONTRIBUTING.md of Mercado Libre")
 
 ## Estado
 

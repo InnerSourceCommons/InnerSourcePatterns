@@ -41,7 +41,7 @@ Além disso, aproveite que os clientes esperam que o fornecedor ajude a elucidar
 
 No exemplo apresentado acima, o fornecedor ajuda ambos os clientes a perceberem que eles querem a mesma coisa, e isso economizará esforço (e dinheiro) se eles concordarem em aceitar o resultado no mesmo formato.
 
-![Common Requirements](../../assets/img/CommonReqtsv2.jpg)
+![Common Requirements](../../../assets/img/CommonReqtsv2.jpg)
 
 ## Contexto Resultante
 

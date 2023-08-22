@@ -85,7 +85,7 @@ Uma boa maneira de lembrar constantemente a equipe central desse objetivo é ped
 
 O foco contínuo nesses indicadores naturalmente levará a equipe central a priorizar geralmente o trabalho correto para criar um ecossistema InnerSource próspero em torno do projeto.
 
-![Responsibilities of Core Team and InnerSource Contributors](../../assets/img/core-team.png)
+![Responsibilities of Core Team and InnerSource Contributors](../../../assets/img/core-team.png)
 
 ## Contexto Resultante
 
@@ -112,7 +112,7 @@ Structured
 [Russell R. Rutledge](https://github.com/rrrutledge)
 
 [tc-learning-path]: https://innersourcecommons.org/learn/learning-path/trusted-committer/
-[tc-pattern]: ../2-structured/trusted-committer.md
+[tc-pattern]: ./trusted-committer.md
 
 ## Histórico de Tradução
 

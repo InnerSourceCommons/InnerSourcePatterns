@@ -35,7 +35,7 @@ Esses KPIs "soft" teriam que ser adicionados manualmente ou de forma semi-autom�
 
 ## Esboço
 
-![Ecossistema para a Pontuação de Atividade do Repositório](../../assets/img/repository_activity_score.png)
+![Ecossistema para a Pontuação de Atividade do Repositório](../../../assets/img/repository_activity_score.png)
 
 Abordagem centralizada para calcular e aplicar a pontuação de atividade do repositório. Para mais detalhes, veja [Contexto Resultante](#contexto-resultante).
 

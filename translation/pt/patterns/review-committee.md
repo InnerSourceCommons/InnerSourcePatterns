@@ -31,7 +31,7 @@ A Empresa A deseja introduzir sua primeira iniciativa InnerSource. A maioria dos
 - Um líder de projeto InnerSource também pode apresentar a proposta de encerramento por conta própria em uma reunião do comitê de revisão. O comitê de revisão então deve decidir se as unidades de negócios que utilizam o software precisam ter tempo para implementar medidas para garantir que o desenvolvimento e/ou manutenção do código continue até que uma solução alternativa para o desenvolvimento pela comunidade InnerSource seja encontrada (se for relevante para o negócio ou crítico para a missão).
 - O comitê de revisão deve se reunir regularmente. Uma frequência de duas reuniões por ano tem se mostrado bem-sucedida.
 
-![Review Committee Sketch](../../assets/img/review-committee-sketch.jpg)
+![Review Committee Sketch](../../../assets/img/review-committee-sketch.jpg)
 
 ## Contexto Resultante
 

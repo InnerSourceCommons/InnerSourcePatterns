@@ -39,7 +39,7 @@ Estabeleça um contrato formal entre o contribuidor, seu gerente de linha e um e
 - O escritório de governança oferece mediação entre o contribuidor e seu gerente de linha em caso de conflito relacionado ao tempo para contribuições.
 - O [Dedicated Community Leader](dedicated-community-leader.md) participa ou fornece informações para as avaliações de desempenho dos contribuidores contratados por mais de 20%.
 
-![Contribuidor Contratado](../../assets/img/contracted-contributor.png)
+![Contribuidor Contratado](../../../assets/img/contracted-contributor.png)
 
 ## Contexto Resultante
 

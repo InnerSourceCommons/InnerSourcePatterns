@@ -10,7 +10,7 @@ Observação: Este documento contém recomendações com o objetivo de eliminar 
 
 ## Os Princípios de Tradução e Recomendações
 
-- O alvo da tradução são padrões estruturados. Encontre-os na pasta [/patterns/2-structured/](../patterns/2-structured/). Apenas os padrões estruturados serão publicados no Gitbook.
+- O alvo da tradução são padrões estruturados. Encontre-os na pasta [/patterns/2-structured/](../../../patterns/2-structured/). Apenas os padrões estruturados serão publicados no Gitbook.
 - O inglês é recomendado para mensagens de commit. Se suas alterações forem mescladas, suas mensagens de commit serão vistas por membros de todo o mundo. Isso facilitará para os membros globais encontrar suas atividades e também acelerará a colaboração.
 - Em relação a Pull Requests e Issues, é uma boa ideia usar o inglês, pelo menos para o título e a declaração de propósito no prefácio. Contribuições em seu idioma e discussões acompanhantes podem ser úteis para outros projetos de tradução no futuro.
 - Cada país tem seu próprio contexto cultural e histórico, assim como diferentes contextos linguísticos. Não é necessário discutir nuances específicas de idioma e expressões linguísticas difíceis em inglês em sua revisão. Especialmente se for uma comunidade local de várias pessoas traduzindo juntas, priorize a facilidade de tradução nessa comunidade.

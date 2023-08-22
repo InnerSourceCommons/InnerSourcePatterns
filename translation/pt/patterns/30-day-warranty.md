@@ -34,9 +34,9 @@ Aborde os medos tanto da equipe que recebe quanto da equipe que contribui, estab
 
 Observe que o período de garantia também pode ser de 45, 60 ou 100 dias. A duração pode variar com base nas restrições do projeto, no ciclo de vida do software do projeto, nos compromissos com os clientes e em outros fatores.
 
-Além disso, ajuda a fornecer diretrizes claras de [contribuição](./project-setup/base-documentation.md), especificando as expectativas da equipe receptora e da equipe contribuinte.
+Além disso, ajuda a fornecer diretrizes claras de [contribuição](./base-documentation.md), especificando as expectativas da equipe receptora e da equipe contribuinte.
 
-![Garantia de 30 dias](../../assets/img/thirtydaywarranty.jpg)
+![Garantia de 30 dias](../../../assets/img/thirtydaywarranty.jpg)
 
 ## Contexto Resultante
 

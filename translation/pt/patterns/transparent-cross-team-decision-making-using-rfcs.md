@@ -37,7 +37,7 @@ Assim como em qualquer processo, isso deve ser continuamente aprimorado. Pode se
 
 ## Esboço
 
-![Processo de RFC usado no projeto BaseUI da Uber (exemplo de código aberto)](../../assets/img/rfc-process-uber-baseui.png)
+![Processo de RFC usado no projeto BaseUI da Uber (exemplo de código aberto)](../../../assets/img/rfc-process-uber-baseui.png)
 
 ## Solução
 
@@ -60,7 +60,7 @@ Elementos importantes da solução são:
 ### Exemplos/Modelos
 
 - [Rust][rust] é um bom exemplo de código aberto para modelo e processo de RFC, e tem sido a base para muitos outros processos de RFC.
-- [Modelo de RFC genérico do BBC iPlayer & Sounds](templates/rfc.md), originalmente baseado no modelo do [Rust][rust]
+- [Modelo de RFC genérico do BBC iPlayer & Sounds](../templates/rfc.md), originalmente baseado no modelo do [Rust][rust]
 
 ## Contexto Resultante
 

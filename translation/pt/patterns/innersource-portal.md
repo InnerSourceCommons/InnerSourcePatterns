@@ -54,7 +54,7 @@ Ao lançar o portal, deve-se considerar uma campanha de comunicação promovendo
 
 Uma [implementação de referência](https://github.com/SAP/project-portal-for-innersource) de um portal InnerSource está disponível no GitHub e aberta para contribuições. Ele lista todos os projetos InnerSource de uma organização de maneira interativa e fácil de usar. Os projetos podem se registrar automaticamente usando um tópico dedicado no GitHub e fornecer metadados adicionais.
 
-![Exemplo de um Portal InnerSource](../../assets/img/portal-overview.png "Exemplo de um Portal InnerSource")
+![Exemplo de um Portal InnerSource](../../../assets/img/portal-overview.png "Exemplo de um Portal InnerSource")
 
 ## Contexto Resultante
 
@@ -73,7 +73,7 @@ Uma [implementação de referência](https://github.com/SAP/project-portal-for-i
 * **American Airlines** promove projetos InnerSource por meio de um [Mercado Interno InnerSource](https://tech.aa.com/2020-10-30-innersource/). Da mesma forma que a SAP, os projetos se registram adicionando `innersource` como um tópico no GitHub. Os projetos podem ser pesquisados e filtrados por linguagem, tópicos, número de problemas abertos, etc.
 * **Banco Santander** criou um portal público chamado "Santander ONE Europe InnerSource Community" para apoiar e aumentar a adoção do InnerSource. Além do catálogo de projetos, o portal inclui conteúdo relevante, como documentação, forma de trabalho, notícias e eventos.
 
-![Santander InnerSource Portal](../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
+![Santander InnerSource Portal](../../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
 
 * **Airbus** implantou o [portal SAP](https://github.com/SAP/project-portal-for-innersource) com modificações mínimas para se adequar à identidade visual da Airbus. Além disso, o [rastreador Python](https://github.com/zkoppert/innersource-crawler) foi corrigido para funcionar com instâncias do GitHub Enterprise.
 
