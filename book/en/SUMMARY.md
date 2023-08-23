@@ -10,8 +10,8 @@ Instead edit toc_template.md
   Paths in here are relative to this file, and not relative to the root specified in .gitbook.yaml.
 -->
 
-* [Introduction](./introduction.md)
-* [Table of Contents](./toc.md)
+* [Introduction](./README.md)
+* [Table of Contents](./SUMMARY.md)
 * [Explore Patterns](./explore-patterns.md)
 * [Contribute to this book](./contribute.md)
 
