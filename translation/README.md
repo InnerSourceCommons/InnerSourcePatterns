@@ -34,8 +34,8 @@ That is awesome! We welcome your passion. When implementing InnerSource practice
 
 Before starting a new translation please talk to us in Slack (in the `#innersource-patterns` channel). Alternatively open an issue on this GitHub repo to start an async conversation about your translation project.
 
-The translation should begin by creating a `book-<YOUR_LANGUAGE>` branch to work on.[^1]
-e.g. `book-jp` is used for the Japanese translation.
+The translation should begin by creating a new `translation-<YOUR_LANGUAGE>` branch to work on.[^1]
+e.g. `translation-ja` is used for the Japanese translation.
 
 There are a few things you should prepare before starting a translation project.
 
