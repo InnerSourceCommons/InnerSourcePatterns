@@ -27,7 +27,7 @@ Essas considerações levaram a um primeiro protótipo para calcular uma pontua�
 
 A descoberta de projetos InnerSource pode ser facilitada com o [Portal InnerSource](innersource-portal.md) e o padrão [Gig Marketplace](gig-marketplace.md), ou promovendo projetos em outros canais de comunicação e plataformas. A pontuação de atividade define uma ordem padrão na qual os projetos são apresentados à comunidade.
 
-## Forces
+## Forças
 
 Indicadores-chave de desempenho automatizados que podem ser obtidos consultando a API do GitHub são apenas parte da verdade. E quanto à qualidade do código, a disponibilidade de boa documentação ou uma comunidade ativa e prestativa que torna o projeto um local divertido para contribuir?
 
