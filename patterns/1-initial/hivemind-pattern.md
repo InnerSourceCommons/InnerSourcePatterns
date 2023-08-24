@@ -44,11 +44,6 @@ TBD
 
 Initial
 
-## Alias
-
-* Helping repo owners be compliant by writing their CONTRIBUTING.md for them as a pull request
-* Let us help you be compliant
-
 ## Authors
 
 * Mishari Muqbil
