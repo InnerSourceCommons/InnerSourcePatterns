@@ -6,7 +6,7 @@ on:
       - "main"
   pull_request:
     branches:
-    - main
+      - main
 
 jobs:
   gitbook-generation:
@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        language: [en, jp, zn]
+        language: [en, jp, zh]
 
     steps:
     - uses: actions/checkout@v3
