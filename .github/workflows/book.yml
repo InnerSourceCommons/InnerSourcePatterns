@@ -3,7 +3,7 @@ name: Gitbook Generation
 on:
   push:
     branches:
-      - "main"
+      - main
   pull_request:
     branches:
       - main
@@ -33,7 +33,7 @@ jobs:
         ruby generate_toc.rb ${{ matrix.language }} 
         echo "Generated book for: ${{ matrix.language }}" >> $GITHUB_STEP_SUMMARY
 
-    - name: Commit updated files for the book
+    - name: Commit updated toc.md for the book
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Writing updated files for the book
+        commit_message: Writing updated toc.md for the ${{ matrix.language }} book
