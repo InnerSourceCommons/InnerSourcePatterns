@@ -23,56 +23,61 @@ jobs:
       - name: Check consistency and create issue
         id: check-consistency
         run: |
-          # Set the issue header
-          issue_header=$(cat <<- EOM
-            # i18n Contents Consistency Issue
-
-            The following files may have consistency issues with the English version. Please check and update the files.
-
-            This issue is created when there is an update to content/en. It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
+          # Declare the flags
+          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese")
+        
+          issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
+        
+          # Heredoc for issue header
+          cat <<- EOM > issue.md
+          # i18n Contents Consistency Issue
+        
+          The following files may have consistency issues with the English version. Please check and update the files.
+        
+          This issue is created when there is an update to content/en. It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
           EOM
-          )
-
-          # Loop through all the files in the English directory
-          for file in \$(find patterns/2-structured -name '*.md'); do
-            # Rest of the code for consistency check
-            
-            # If issues found, append to a temporary issue file
-            if [ <issue_condition> ]; then
-              issue_content=$(cat <<- EOM
-                <details>
-                <summary><b>\$content_title</b> (\$file)</summary>
-
-                - Original File(en): [\$file](https://github.com/\$GITHUB_REPOSITORY/blob/master/\$file)
-                - Translated File(\${{matrix.language}}): [\$i18n_filename](https://github.com/\$GITHUB_REPOSITORY/blob/master/\$i18n_filename)
-                - [Diff on GitHub](https://github.com/\$GITHUB_REPOSITORY/compare/\$i18n_last_update_hash...\$original_last_update_hash)
-                - Days since overdue updates: \$days_since_overdue_updates days
-
-                \`\`\`diff
-                \$result
-                \`\`\`
-                </details>
-              EOM
-              )
-
-              echo "\$issue_content" >> issue.md
+        
+          # Loop through all files in the English directory
+          for file in $(find patterns/2-structured -name '*.md'); do
+            i18n_filename=$(echo "$file" | sed "s/patterns\/2-structured/translation\/${{matrix.language}}\/patterns/g")
+        
+            if [[ ! -e "$i18n_filename" ]]; then
+              continue
+            fi
+        
+            original_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $file)" +%s)
+            i18n_content_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $i18n_filename)" +%s)
+        
+            if [[ $((original_updated_at - i18n_content_updated_at)) -ge 1 ]]; then
+              content_header=$(grep -E '^title+' "$file" | sort -r | head -n1)
+              content_title=$(echo "$content_header" | sed 's/title: //g')
+              days_since_overdue_updates=$(( ($(date +%s) - original_updated_at) / 60 / 60 / 24 ))
+              original_last_update_hash=$(git log -1 --format=%H $file)
+              parent_hash=$(git log -1 --format=%P $original_last_update_hash)
+              result=$(git diff "${parent_hash}" HEAD "$file" | sed '1,4 s/^/# /')
+        
+              # Append to the issue.md file
+              cat <<- EOM >> issue.md
+          <details><summary><b>$content_title</b> ($file)</summary>
+          For more information, please compare [the original file(en)](https://github.com/$GITHUB_REPOSITORY/blob/master/$file) with[the translated file](https://github.com/$GITHUB_REPOSITORY/blob/master/$i18n_filename) . You can view [the differences](https://github.com/yuhattor/innersourcecommons.org/compare/$i18n_last_update_hash...$original_last_update_hash) on GitHub.  The number of days since overdue updates is **$days_since_overdue_updates** days.
+              
+          \`\`\`diff
+          $result
+          \`\`\`
+          </details>
+          EOM
             fi
           done
-
-          # Create the issue or comment on the existing one
-          flags=(
-            ["ja"]="🇯🇵 Japanese"
-            ["zh"]="🇨🇳 Chinese"
-          )
-          issue_title="\${flags[\${{matrix.language}}]}: Content Consistency Issue"
-          existing_issue_id=\$(gh issue list -S "state:open type:issue title:\$issue_title" | cut -f1)
-
+        
+          # Get the existing issue ID
+          existing_issue_id=$(gh issue list -S "is:issue is:open $issue_title" | cut -f1)
+          echo "existing_issue_id: $existing_issue_id"
+          # Create a new issue or comment on the existing one
           if [ -f issue.md ]; then
-            if expr "\$existing_issue_id" : '^[0-9]*$' >/dev/null; then
-              gh issue comment "\$existing_issue_id" -F issue.md -R \$GITHUB_REPOSITORY
+            if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
+              gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
             else
-              gh issue create -t "\$issue_title" -F issue.md -R \$GITHUB_REPOSITORY -l "Type - Translation"
+              gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
             fi
           fi
-        env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+        
