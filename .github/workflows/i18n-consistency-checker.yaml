@@ -1,11 +1,6 @@
 name: i18n Consistency Check
 
 on:
-  pull_request:
-    branches:
-      - master
-    paths:
-      - .github/workflows/i18n-consistency-check.yml
   schedule:
     - cron: '0 0 1 * *'  # run at midnight, on day 1 of the month
   workflow_dispatch:
@@ -42,8 +37,7 @@ jobs:
           # Loop through all files in the English directory
           for file in $(find patterns/{2-structured,3-validated} -name '*.md'); do
             [[ $file =~ "3-validated" ]] && continue # if the file is under 3-validated, skip (one liner) - 2023/08/26
-            i18n_filename=$(echo "$file" | sed "s/patterns\/2-structured/translation\/${{matrix.language}}\/patterns/g")
-            i18n_filename=$(echo "$file" | sed "s/patterns\/\(2-structured\|3-validated\)/translation\/{{matrix.language}}\/patterns/g")
+            i18n_filename=$(echo "$file" | sed "s/patterns\/\(2-structured\|3-validated\)/translation\/${{matrix.language}}\/patterns/g")
             
             if [[ ! -e "$i18n_filename" ]]; then
               continue
