@@ -34,7 +34,7 @@ Padrões são uma forma de descrever uma solução repetível e comprovada para 
 Os padrões podem fornecer uma maneira para os participantes da InnerSource Commons compartilharem informações de forma concisa, melhorando a prática do InnerSource. Os padrões são divididos em Título, Declaração do Problema, Contexto, Forças e Soluções como suas principais seções.
 
 * [`O que são padrões?` Vídeos no Youtube](http://bit.ly/innersource_patterns_videos) - Assista a uma série de vídeos no Youtube de 2-5 minutos explicando Padrões InnerSource.
-* [Webinar de Discussão de Padrões](https://youtu.be/i-0IVhfRVFU) - Realizamos um webinar em 16 de março de 2017 para discutir ao vivo um padrão de rosquinha (vá para 24:30 para a discussão). Isso ilustra o processo de revisão que seguimos. Veja também o [Webinar O'Reilly de 1 de junho de 2017 sobre Padrões InnerSource](http://www.oreilly.com/pub/e/3884).
+* [Webinar de Discussão de Padrões](https://youtu.be/i-0IVhfRVFU) - Realizamos um webinar em 16 de março de 2017 para discutir ao vivo um *donut pattern*[^1] (vá para 24:30 para a discussão). Isso ilustra o processo de revisão que seguimos. Veja também o [Webinar O'Reilly de 1 de junho de 2017 sobre Padrões InnerSource](http://www.oreilly.com/pub/e/3884).
 * [Modelo de Padrão](../../meta/pattern-template.md) - Veja um padrão InnerSource esqueleto para ter uma ideia do que é necessário para criar um novo padrão!
 * [Introdução aos Padrões InnerSource (apresentação do Fall Summit 2016)](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) - *Tim Yao e Padma Sudarsan* (PDF). Fundo e exemplos detalhados de padrões - Entenda detalhadamente por que e como interagir com nossos padrões. Veja também a [Introdução aos Padrões InnerSource (Fall Summit 2017)](https://drive.google.com/open?id=0B7_9iQb93uBQWmYwMFpyaGh4OFU) *Tim Yao e Bob Hanmer* (PDF).
 
@@ -42,7 +42,7 @@ Os padrões podem fornecer uma maneira para os participantes da InnerSource Comm
 
 Os padrões devem ser usados com cuidado. Eles não podem ser aplicados indiscriminadamente. Na maioria dos casos, você precisará adaptar a solução fornecida à sua situação; mas as informações dadas no padrão, definindo o contexto (restrições imutáveis) e as forças (restrições que podem ser alteradas e equilibradas entre si), devem ajudá-lo a fazer isso. Note que você também precisará determinar se existem restrições adicionais (contexto da empresa e forças da empresa) que se aplicam à sua empresa/organização específica e que devem ser adicionadas ao padrão (como um tipo de filtro). Essas restrições adicionais podem exigir etapas de solução adicionais a serem aplicadas.
 
-A forma do padrão é útil para descrever soluções comprovadas, mas também pode ser usada para *brainstorming de novas soluções* onde os padrões ainda não estão estabelecidos. Isso ocorre porque a anatomia de um padrão fornece um framework para pensar em um problema de maneira estruturada. Você também pode criar um *padrão de rosquinha* (preenchendo os campos de problema, contexto, forças e contexto resultante, mas deixando a solução em branco) como uma maneira de pedir ajuda à comunidade da InnerSource Commons (para encontrar uma solução comprovada ou para gerar ideias para tentar).
+A forma do padrão é útil para descrever soluções comprovadas, mas também pode ser usada para *brainstorming de novas soluções* onde os padrões ainda não estão estabelecidos. Isso ocorre porque a anatomia de um padrão fornece um framework para pensar em um problema de maneira estruturada. Você também pode criar um *donut pattern* (preenchendo os campos de problema, contexto, forças e contexto resultante, mas deixando a solução em branco) como uma maneira de pedir ajuda à comunidade da InnerSource Commons (para encontrar uma solução comprovada ou para gerar ideias para tentar).
 
 ## Como Contribuir?
 
@@ -63,3 +63,5 @@ A imagem de capa deste livro foi criada por [Sebastian Spier](https://spier.hu) 
 ![Licença Creative Commons](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 InnerSourcePatterns por [InnerSourceCommons.org](http://innersourcecommons.org) está licenciado sob uma [Licença Internacional Creative Commons Attribution-ShareAlike 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[^1]: *Donut pattern* não possui tradução direta para português. No contexto em que está utilizado refere-se a um padrão ainda não está totalmente definido, com o campo solução ainda pendente de discussões.

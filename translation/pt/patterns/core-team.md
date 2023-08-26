@@ -68,11 +68,6 @@ A equipe central pode ser composta por um pequeno número de pessoas em tempo in
 A escolha depende da quantidade de trabalho necessário, da disponibilidade de recursos e da cultura da organização.
 A consideração mais importante é formar a equipe de forma que permita que a organização a capacite e a responsabilize da mesma maneira que qualquer outra equipe.
 
-Due to their central role, core team members should nearly always fill the role of **Trusted Committers** as well (for more on that concept see [Learning Path][tc-learning-path] and [Pattern][tc-pattern]).
-While the Trusted Committer role focuses mostly on facilitating others' contribution and use of the project, a core team member regularly contributes to the project as well.
-The core team doesn't have its own business agenda that determines its contributions.
-They decide what to work on based on what will help others most to use and contribute to the project.
-
 Devido ao seu papel central, os membros da equipe central devem quase sempre ocupar também o papel de **Trusted Committers** (para mais informações sobre esse conceito, consulte [Learning Path][tc-learning-path] e [Pattern][tc-pattern]).
 Enquanto o papel do Trusted Committer se concentra principalmente em facilitar a contribuição e uso do projeto por outros, um membro da equipe central contribui regularmente para o projeto também.
 A equipe central não possui sua própria agenda de negócios que determine suas contribuições.
