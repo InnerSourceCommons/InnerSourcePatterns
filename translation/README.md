@@ -22,20 +22,20 @@ Please note that this document contains recommendations, aimed at removing barri
 - Please make your changes to the respective `.md` file.
 - Once you are ready, send us a Pull Request.
 
-### Translating a new InnerSource Patterns
+### Adding a new InnerSource Pattern to an Existing Translation
 
 - Copy the pattern that you want to translate from `/patterns/2-structured/<file>.md` to `/translation/<YOUR_LANGUAGE>/patterns/<file>.md`.[^1] Make sure to keep the file name the same.
 - Then start your translation in that new file.
 - Once you are ready, send us a Pull Request.
 
-### Starting the Translation of a New Language
+### Starting the Translation of an Entirely New Language
 
 That is awesome! We welcome your passion. When implementing InnerSource practices in your region, there can be language barriers. There is great value in getting people in your organization to understand InnerSource in their own language.
 
 Before starting a new translation please talk to us in Slack (in the `#innersource-patterns` channel). Alternatively open an issue on this GitHub repo to start an async conversation about your translation project.
 
-The translation should begin by creating a `book-<YOUR_LANGUAGE>` branch to work on.[^1]
-e.g. `book-jp` is used for the Japanese translation.
+The translation should begin by creating a new `translation-<YOUR_LANGUAGE>` branch to work on.[^1]
+e.g. `translation-de` would be used for the German translation.
 
 There are a few things you should prepare before starting a translation project.
 
@@ -56,7 +56,8 @@ In particular, for special terms, such as "Trusted Committer", please review not
 The patterns books is published in multiple languages, including English, Japanese and Chinese (as of August/2023).
 Find the full list of available languages in the [patterns books](https://patterns.innersourcecommons.org/).
 
-Trusted Committers in this repository will also be onboarded during the translation process.
+When publishing an entirely new language to our book, we also like to add at least one of the translators as a Trusted Committer to the project.
+They will then get notified on any fixes/additions to the translation in the future, and can greatly help us by providing reviews.
 
 When you complete a translation under `/translation/<YOUR_LANGUAGE>/`, a GitHub Actions pipeline will run to generate the output for publication in the gitbook. The process is described in detail in [/book/README.md](/book/README.md).
 
