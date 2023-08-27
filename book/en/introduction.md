@@ -3,7 +3,8 @@
 ![InnerSource Patterns book](innersource-patterns-book-cover.jpg)
 
 {% hint style="info" %}
-You can help us to create the best possible book about InnerSource Patterns :). Learn how to [contribute to this book](contribute.md).
+You can help us to create the best possible book about InnerSource Patterns :).
+Learn how to [contribute to this book](contribute.md).
 {% endhint %}
 
 Welcome to the **InnerSource Patterns Book**.
