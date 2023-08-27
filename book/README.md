@@ -48,7 +48,7 @@ To do so, we need to provide a full list of all patterns that should be dipslaye
 As the list of patterns grows over time, we generate the list automatically using `/book/scripts/generate_toc.rb`.
 The script is triggered by the [.github/workflows/book.yml](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/.github/workflows/book.yml) workflow, which contains a hard-coded list of all languages for which we need to generate `toc.md` files.
 
-If a new language is added, you need to modify [this line](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/monorepo-test/.github/workflows/book.yml#L17) in `.github/workflows/book.yml` and add the 2-letter language code of the language that you are adding.
+If a new language is added, you need to modify [this line](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/.github/workflows/book.yml#L17) in `.github/workflows/book.yml` and add the 2-letter language code of the language that you are adding.
 
 ## Objectives of the book
 
