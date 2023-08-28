@@ -8,7 +8,7 @@
 # the repo. Unless a later match takes precedence,
 # @global-owner1 and @global-owner2 will be requested for
 # review when someone opens a pull request.
-*       @lenucksi @NewMexicoKid @cewilliams @spier @robtuley
+*       @lenucksi @NewMexicoKid @cewilliams @spier @robtuley @yuhattor
 
 # These people ar familiar with the translation of our patterns to a specific language:
 /translation/ja/    @yuhattor
