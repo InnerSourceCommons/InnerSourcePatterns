@@ -14,7 +14,7 @@ In the intricate ecosystem of modern organizations, individuals often find thems
 
 2.    **Highly Formal Culture:** Some organizations maintain a stringent, formal communication culture. Every piece of prose, whether it's an idea, suggestion, or question, is expected to adhere to a particular standard, effectively discouraging quick, spontaneous exchanges. This formality can stymie the organic flow of creativity and exploration, demanding fully formed thoughts at the cost of spontaneity.
 
- 3.   **Limited External Input:** Teams or individuals frequently work on projects or problems in isolation, seldom seeking insights from colleagues outside their immediate circle. This restriction confines them to a limited set of perspectives and potentially overlooks valuable insights.
+3.   **Limited External Input:** Teams or individuals frequently work on projects or problems in isolation, seldom seeking insights from colleagues outside their immediate circle. This restriction confines them to a limited set of perspectives and potentially overlooks valuable insights.
 
 4.    **Linguistic and Cultural Barriers:** In global organizations, linguistic differences or cultural hesitations can act as barriers. Some may feel apprehensive about communicating imperfectly or fear misunderstandings, which curtails open discussion.
 
