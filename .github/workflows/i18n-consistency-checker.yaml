@@ -31,7 +31,7 @@ jobs:
         
           The following files may have consistency issues with the English version. Please check and update the files.
         
-          This issue is created when there is an update to content/en. It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
+          This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
           EOM
         
           # Loop through all files in the English directory
