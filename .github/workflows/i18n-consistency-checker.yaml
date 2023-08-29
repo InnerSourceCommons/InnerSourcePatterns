@@ -50,7 +50,10 @@ jobs:
             i18n_content_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $i18n_filename)" +%s)
         
             if [[ $((original_updated_at - i18n_content_updated_at)) -ge 1 ]]; then
-              content_title= $(awk '/## Title/{flag=1; next} /##/{flag=0; exit} flag{printf "%s", $0}' "$file")
+              content_header=$(grep -E '^title+' "$file" | sort -r | head -n1)
+              content_title=$(echo "$content_header" | sed 's/title: //g')
+
+              content_title=$(awk '/## Title/{flag=1; next} /##/{flag=0; exit} flag{printf "%s", $0}' "$file")
               days_since_overdue_updates=$(( ($(date +%s) - original_updated_at) / 60 / 60 / 24 ))
               original_last_update_hash=$(git log -1 --format=%H $file)
               parent_hash=$(git log -1 --format=%P $original_last_update_hash)
