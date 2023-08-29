@@ -82,4 +82,6 @@ jobs:
               gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
             fi
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
