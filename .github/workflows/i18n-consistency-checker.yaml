@@ -60,7 +60,8 @@ jobs:
               # Append to the issue.md file
               cat <<- EOM >> issue.md
           <details><summary><b>$content_title</b> ($file)</summary>
-          For more information, please compare [the original file(en)](https://github.com/$GITHUB_REPOSITORY/blob/master/$file) with[the translated file](https://github.com/$GITHUB_REPOSITORY/blob/master/$i18n_filename) . You can view [the differences](https://github.com/yuhattor/innersourcecommons.org/compare/$i18n_last_update_hash...$original_last_update_hash) on GitHub.  The number of days since overdue updates is **$days_since_overdue_updates** days.
+          
+          For more information, please compare [the original file(en)](https://github.com/$GITHUB_REPOSITORY/blob/master/$file) with [the translated file](https://github.com/$GITHUB_REPOSITORY/blob/master/$i18n_filename). You can view [the differences](https://github.com/$GITHUB_REPOSITORY/compare/$i18n_last_update_hash...$original_last_update_hash) on GitHub. The number of days since overdue updates is **$days_since_overdue_updates** days.
               
           \`\`\`diff
           $result
