@@ -15,23 +15,18 @@ newIssueWelcomeComment: >
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
 
 # Comment to be posted to on PRs from first time contributors in your repository
-newPRWelcomeComment: >
+newPRWelcomeComment: |
   [![Thank You Banner](https://zenodo.org/api/iiif/v2/0c0188d3-d03c-4830-a6e3-00405f5c22fa:7fbd97cf-283b-480c-b8e1-11866e26245c:BannerThanks.jpg/full/750,/0/default.jpg)](https://zenodo.org/record/3695300)
 
-  :sparkling_heart: Thanks for opening this pull request! :sparkling_heart:
-  _The InnerSource Commons_ community really appreciates your time and effort to contribute to the project.
-  Please make sure you have read our [Contributing Guidelines](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/CONTRIBUTING.md).
+  :sparkling_heart: Thanks for opening this pull request! :sparkling_heart: _The InnerSource Commons_ community really appreciates your time and effort to contribute to the project. Please make sure you have read our [Contributing Guidelines](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/CONTRIBUTING.md).
 
-  If you are submitting a new pattern, the following things will help get your pull request across the finish line! :checkered_flag:
+  If you are submitting a **new pattern**, the following things will help get your pull request across the finish line! :checkered_flag:
 
-  - Check you have used our [pattern template](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md) and removed any placeholder text and sections that your pattern did not need.
+  - Confirm that you have used our [pattern template](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md). Please remove any placeholder text and sections that your pattern did not need.
+  - We run a number of automated checks on your PR. Please review the output of those checks on the PR itself, and see if any issues got flagged that you can fix yourself.
+  - Make sure you have added your new pattern to the list of patterns in the main [README.md](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/README.md). If you are unsure where to add your pattern, just let us know by commenting on your PR and we will help you.
 
-  - We will run a number of automated checks on your PR. Please review the output of those checks on the PR itself, and see if any issues got flagged that you can fix yourself.
-
-  - Make sure you have added your new pattern to the list of patterns in the main [README.md](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/README.md). If you are unsure where to add your pattern, no worries. Just let us know on the PR and we will help you.
-
-  <br>This project has a small number of maintainers, volunteering their time to this project. So please be patient and we will get back to you as soon as we can.
-  If we don't acknowledge this pull request after 7 days, feel free to chat to us about it in our [Slack workspace](https://innersourcecommons.org/slack).
+  This project has a small number of maintainers, volunteering their time to this project. So please be patient and we will get back to you as soon as we can. If we don't acknowledge this pull request after 7 days, feel free to chat to us about it in our [Slack workspace](https://innersourcecommons.org/slack).
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 
