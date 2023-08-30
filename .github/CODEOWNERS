@@ -8,11 +8,15 @@
 # the repo. Unless a later match takes precedence,
 # @global-owner1 and @global-owner2 will be requested for
 # review when someone opens a pull request.
-*       @lenucksi @NewMexicoKid @cewilliams @spier @robtuley
+*       @lenucksi @NewMexicoKid @cewilliams @spier @robtuley @yuhattor
 
-# Trying out folder-specific CODEOWNERS permissions, by example of our Japanese book
-/translation/   @yuhattor
-/book/          @yuhattor
+# These people ar familiar with the translation of our patterns to a specific language:
+/translation/ja/    @yuhattor
+/book/ja/           @yuhattor
+/translation/zh/    @WillemJiang
+/book/zh/           @WillemJiang
+/translation/pt/    @jrcosta @zilio
+/book/pt/           @jrcosta @zilio
 
 # Order is important; the last matching pattern takes the most
 # precedence. When someone opens a pull request that only
