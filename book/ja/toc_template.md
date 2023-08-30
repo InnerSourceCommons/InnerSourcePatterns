@@ -19,7 +19,7 @@ Instead edit toc_template.md
 
 ## パターン<a id="p"></a>
 
-<<PATTERS_HERE>>
+<<PATTERNS_HERE>>
 
 ## 付録<a id="appendix"></a>
 
