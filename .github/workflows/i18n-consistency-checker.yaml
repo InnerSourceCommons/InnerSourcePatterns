@@ -74,29 +74,32 @@ jobs:
         # Only runs if all of the files exists
         run: echo issue.md exists. should create/update issue now.
 
-      # - if: ${{ env.MARKDOWN_FILES != '' }}
-      #   name: Create issue
-      #   run: |
-      #     # Heredoc for issue header
-      #     cat <<- EOM > issue.md
-      #     # i18n Contents Consistency Issue
+      - if: ${{ env.MARKDOWN_FILES != '' }}
+        name: Create issue
+        run: |
+          # Heredoc for issue header
+          cat <<- EOM > issue-full.md
+          # i18n Contents Consistency Issue
         
-      #     The following files may have consistency issues with the English version. Please check and update the files.
+          The following files may have consistency issues with the English version. Please check and update the files.
         
-      #     This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
-      #     EOM  
+          This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
+          EOM  
 
-      #     # Get the existing issue ID
-      #     existing_issue_id=$(gh issue list -S "is:issue is:open $issue_title" | cut -f1)
-      #     echo "existing_issue_id: $existing_issue_id"
-      #     # Create a new issue or comment on the existing one
-      #     if [ -f issue.md ]; then
-      #       if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
-      #         gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
-      #       else
-      #         gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
-      #       fi
-      #     fi
+          # combine header and rest of file created in previous steps
+          cat issue.md >> issue-full.md
+
+          # Get the existing issue ID
+          existing_issue_id=$(gh issue list -S "is:issue is:open $issue_title" | cut -f1)
+          echo "existing_issue_id: $existing_issue_id"
+          # Create a new issue or comment on the existing one
+          if [ -f issue.md ]; then
+            if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
+              gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
+            else
+              gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
+            fi
+          fi
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
