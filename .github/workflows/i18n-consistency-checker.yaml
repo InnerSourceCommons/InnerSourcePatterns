@@ -37,7 +37,7 @@ jobs:
               continue
             fi
 
-            if [[ ${{matrix.language}} == "ja" ]]
+            if [[ ${{matrix.language}} == "ja" ]]; then
               cat "test content" >> issue.md
             fi
         
