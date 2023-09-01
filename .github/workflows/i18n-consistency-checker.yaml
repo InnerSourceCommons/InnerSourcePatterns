@@ -36,10 +36,6 @@ jobs:
             if [[ ! -e "$i18n_filename" ]]; then
               continue
             fi
-
-            if [[ ${{matrix.language}} == "ja" ]]; then
-              echo "test content" >> issue.md
-            fi
         
             original_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $file)" +%s)
             i18n_content_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $i18n_filename)" +%s)
