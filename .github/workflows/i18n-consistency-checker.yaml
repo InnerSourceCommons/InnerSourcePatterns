@@ -38,7 +38,7 @@ jobs:
             fi
 
             if [[ ${{matrix.language}} == "ja" ]]; then
-              cat "test content" >> issue.md
+              echo "test content" >> issue.md
             fi
         
             original_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $file)" +%s)
