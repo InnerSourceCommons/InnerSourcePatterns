@@ -69,11 +69,6 @@ jobs:
           files: "issue.md"
       - name: Create issue
         if: steps.check_files.outputs.files_exists == 'true'
-        # Only runs if all of the files exists
-        run: echo issue.md exists. should create/update issue now.
-
-      - if: ${{ env.MARKDOWN_FILES != '' }}
-        name: Create issue
         run: |
           # Heredoc for issue header
           cat <<- EOM > issue-full.md
