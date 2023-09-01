@@ -64,7 +64,7 @@ jobs:
             fi
           done
 
-       - name: Check issue.md existence
+      - name: Check issue.md existence
         id: check_files
         uses: andstor/file-existence-action@v2
         with:
