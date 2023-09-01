@@ -20,22 +20,13 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: '0'
-      - name: Check consistency and create issue
+      - name: Check consistency
         id: check-consistency
         run: |
           # Declare the flags
           declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician")
         
           issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
-        
-          # Heredoc for issue header
-          cat <<- EOM > issue.md
-          # i18n Contents Consistency Issue
-        
-          The following files may have consistency issues with the English version. Please check and update the files.
-        
-          This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
-          EOM
         
           # Loop through all files in the English directory
           for file in $(find patterns/{2-structured,3-validated} -name '*.md'); do
@@ -72,18 +63,41 @@ jobs:
           EOM
             fi
           done
+
+       - name: Check issue.md existence
+        id: check_files
+        uses: andstor/file-existence-action@v2
+        with:
+          files: "issue.md"
+      - name: File exists
+        if: steps.check_files.outputs.files_exists == 'true'
+        # Only runs if all of the files exists
+        run: echo issue.md exists. should create/update issue now.
+
+      # - if: ${{ env.MARKDOWN_FILES != '' }}
+      #   name: Create issue
+      #   run: |
+      #     # Heredoc for issue header
+      #     cat <<- EOM > issue.md
+      #     # i18n Contents Consistency Issue
         
-          # Get the existing issue ID
-          existing_issue_id=$(gh issue list -S "is:issue is:open $issue_title" | cut -f1)
-          echo "existing_issue_id: $existing_issue_id"
-          # Create a new issue or comment on the existing one
-          if [ -f issue.md ]; then
-            if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
-              gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
-            else
-              gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
-            fi
-          fi
+      #     The following files may have consistency issues with the English version. Please check and update the files.
+        
+      #     This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
+      #     EOM  
+
+      #     # Get the existing issue ID
+      #     existing_issue_id=$(gh issue list -S "is:issue is:open $issue_title" | cut -f1)
+      #     echo "existing_issue_id: $existing_issue_id"
+      #     # Create a new issue or comment on the existing one
+      #     if [ -f issue.md ]; then
+      #       if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
+      #         gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
+      #       else
+      #         gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
+      #       fi
+      #     fi
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
