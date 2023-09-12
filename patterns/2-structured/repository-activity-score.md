@@ -37,7 +37,7 @@ Such "soft" KPIs would have to be manually or semi-automatically added to the ca
 
 ![Ecosystem for the Repository Activity Score](../../assets/img/repository_activity_score.png)
 
-A centralized approach for calculating and applying the repository activity score. For more details, see [Resulting Context](#resulting-context)
+A centralized approach for calculating and applying the repository activity score. For more details, see [Resulting Context](#resulting-context).
 
 ## Solutions
 
