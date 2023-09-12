@@ -51,7 +51,8 @@ GitHub API で取得できる自動化された KPI は、全ての事柄のう�
 
 以下のコードでは、変数 `repo` に GitHub `search` API から取得したエンティティを、`Participation` オブジェクトに GitHub `stats/participation` API から取得したエンティティを格納することを仮定しています。
 
-必要であれば、ソフトKPI([組織に働く力学](#組織に働く力学)を参照)に従って手動で調整することもできます。
+<!-- markdownlint-disable-next-line link-fragments -->
+必要であれば、ソフトKPI([組織に働く力学](#niku)を参照)に従って手動で調整することもできます。
 
 ``` javascript
 // スター数、ウォッチ数、コミット数、およびイシュー数から仮想のInnerSourceスコアを計算します。
