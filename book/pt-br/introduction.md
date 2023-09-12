@@ -13,6 +13,7 @@ Este livro contém as melhores práticas InnerSource codificadas em um formato e
 
 A [InnerSource Commons](http://innersourcecommons.org) coletou esses padrões ao longo de muitos anos, publicando os padrões mais maduros neste livro, onde membros da comunidade revisam cada padrão, com pelo menos uma instância conhecida de uso do padrão.
 
+<!-- markdownlint-disable-next-line link-fragments -->
 Nesta introdução, explicamos [o que é InnerSource](#o-que-e-innersource), [o que é um padrão](#o-que-sao-padroes-innersource) e [Como você pode usar Padrões InnerSource?](#como-voce-pode-usar-padroes-innersource) em sua organização.
 
 Se você já está usando InnerSource em sua empresa e deseja contribuir com suas experiências para este livro, adoraríamos [receber suas contribuições](contribute.md)!
