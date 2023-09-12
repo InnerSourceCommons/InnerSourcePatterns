@@ -13,8 +13,8 @@
 
 [インナーソース](http://innersourcecommons.org) は、長年にわたってこれらのパターンを収集し、この本で最も成熟したパターンを公開しています。また、コミュニティのメンバーが、少なくとも一つの事例をもって、それぞれのパターンをレビューしています。
 
-<!-- markdownlint-disable-next-line link-fragments -->
-このイントロダクションでは、[インナーソースとは何か](#nei-yuan-shi-shen-me)、[パターンとは何か](#nei-yuan-mo-shi-shi-shen-me)、そしてあなたの組織における[これらのパターンの使い方](#ru-he-shi-yong-zhe-xie-mo-shi) について説明します。
+<!-- markdownlint-disable-next-line MD051 -->
+このイントロダクションでは、[インナーソースとは何か](#innssutohaka)、[パターンとは何か](#innssupatntohaka)、そしてあなたの組織における[これらのパターンの使い方](#donoyouniinnssupatnwouka) について説明します。
 
 もしあなたが既に会社でインナーソースを使っていて、その経験を本書に提供したいのであれば、ぜひ[本書へのコントリビューション](./contribute.md)をよろしくお願いします！
 
