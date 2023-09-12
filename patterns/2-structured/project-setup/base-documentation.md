@@ -83,7 +83,7 @@ topics:
 
 ### COMMUNICATION.md
 
-Create a separate `COMMUNICATION.md` document. Link this document to your README.md so comprehensive contact information can be provided and not take up the extra space in your README. This document should answer frequently
+Create a separate `COMMUNICATION.md` document. Link this document to your `README.md` so comprehensive contact information can be provided and not take up the extra space in your README. This document should answer frequently
 asked questions about communicating with your team that contributors need to know. The goal is to streamline communications so users and contributors reach out to the correct person through a single channel. This reduces unnecessary distractions for team members and organizes communications so they do not get lost.
 
 These communications can be broken into incoming and outgoing communications. Sections in the COMMUNICATION.md include:
