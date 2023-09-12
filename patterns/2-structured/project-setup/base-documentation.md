@@ -6,7 +6,7 @@ Standard Base Documentation
 
 New contributors to an InnerSource project have a hard time figuring out who
 maintains the project, what to work on, and how to contribute. Providing
-documentation in standard files like `README.md`/`CONTRIBUTING.md` enables a
+documentation in standard files like `README.md`/`CONTRIBUTING.md`/`COMMUNICATION.md` enables a
 self service process for new contributors, so that they can find the answers to
 the most common questions on their own.
 
@@ -81,6 +81,25 @@ topics:
 
 ![CONTRIBUTING.md](../../../assets/img/standard-base-documentation/CONTRIBUTING-for-contributors.png)
 
+### COMMUNICATION.md
+
+Create a separate `COMMUNICATION.md` document. Link this document to your README.md so comprehensive contact information can be provided and not take up the extra space in your README. This document should answer frequently
+asked questions about communicating with your team that contributors need to know. The goal is to streamline communications so users and contributors reach out to the correct person through a single channel. This reduces unnecessary distractions for team members and organizes communications so they do not get lost.
+
+These communications can be broken into ingoing and outgoing communications. Sections in the COMMUNICATION.md include:
+Points of contact for incoming communication and how to contact those users. Some examples include:
+* Reporting a bug
+* Following up on a PR
+* Feature requests
+* Questions about documentation
+* Escalations
+
+How and when the team communicates outbound with users and how to get added to those communications. Some examples include where/how to get communications about:
+* Planned and unplanned outages
+* Feature releases
+* Code freezes
+* Breaking changes
+
 There are many of good examples for how to write a `README.md` and what kind
 of information to include in a `CONTRIBUTING.md` file in various open source projects.
 Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a),
@@ -95,9 +114,9 @@ users and contributors will need. InnerSource projects likely will not cover all
 of those aspects right from the start, the list itself is helpful for
 inspiration for what one could cover.
 
-In addition to that, this pattern comes with two very basic templates to get you
-started right away: [README-template.md](templates/README-template.md) and
-[CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+In addition to that, this pattern comes with three very basic templates to get you
+started right away: [README-template.md](templates/README-template.md), 
+[CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md), and [COMMUNICATION-template.md](templates/COMMUNICATION-template.md).
 
 ## Resulting Context
 
@@ -110,10 +129,12 @@ started right away: [README-template.md](templates/README-template.md) and
 * Europace AG - See blog post [InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
 * Paypal Inc.
 * Mercado Libre - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBUTING, CODING_GUIDELINES, etc).
+* Analog Devices Inc.
 
 ## Authors
 
 * Isabel Drost-Fromm
+* Katie Schueths
 
 ## Alias
 
