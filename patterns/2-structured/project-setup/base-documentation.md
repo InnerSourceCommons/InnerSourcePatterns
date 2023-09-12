@@ -88,6 +88,7 @@ asked questions about communicating with your team that contributors need to kno
 
 These communications can be broken into ingoing and outgoing communications. Sections in the COMMUNICATION.md include:
 Points of contact for incoming communication and how to contact those users. Some examples include:
+
 * Reporting a bug
 * Following up on a PR
 * Feature requests
@@ -95,6 +96,7 @@ Points of contact for incoming communication and how to contact those users. Som
 * Escalations
 
 How and when the team communicates outbound with users and how to get added to those communications. Some examples include where/how to get communications about:
+
 * Planned and unplanned outages
 * Feature releases
 * Code freezes
@@ -115,7 +117,7 @@ of those aspects right from the start, the list itself is helpful for
 inspiration for what one could cover.
 
 In addition to that, this pattern comes with three very basic templates to get you
-started right away: [README-template.md](templates/README-template.md), 
+started right away: [README-template.md](templates/README-template.md),
 [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md), and [COMMUNICATION-template.md](templates/COMMUNICATION-template.md).
 
 ## Resulting Context
