@@ -109,8 +109,7 @@ Pages like [how to write a readme that rocks](https://m.dotdev.co/how-to-write-a
 the book [Producing Open Source](https://producingoss.com/en/producingoss.html)
 all have valuable information on what kind of information to provide. While
 Producing Open Source does not have a chapter on writing a good README per se,
-the [Getting Started
-chapter](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)
+the [Getting Started chapter](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)
 does provide a fairly extensive list of things that fellow host team members,
 users and contributors will need. InnerSource projects likely will not cover all
 of those aspects right from the start, the list itself is helpful for
