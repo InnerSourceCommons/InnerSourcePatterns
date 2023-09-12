@@ -49,7 +49,8 @@ Tudo isso pode ser obtido e calculado automaticamente usando o conjunto de resul
 
 O código abaixo pressupõe que a variável `repo` contenha uma entidade obtida a partir da API de pesquisa do GitHub (`search`) e que o objeto `participation` contenha uma entidade da API do GitHub (`stats/participation`).
 
-Ajustes manuais de acordo com os KPIs "soft" (consulte [Forças](#forças)) podem ser feitos conforme necessário.
+<!-- markdownlint-disable-next-line link-fragments -->
+Ajustes manuais de acordo com os KPIs "soft" (consulte [Forças](#forcas)) podem ser feitos conforme necessário.
 
 ``` javascript
 // calcular uma pontuação virtual de InnerSource a partir de estrelas, seguidores, commits e issues
