@@ -37,7 +37,8 @@
 
 ![代码仓活跃度评分的生态系统](../../../assets/img/repository_activity_score.png)
 
-一个集中的方法来计算和应用代码仓活跃度评分。更多细节，见[结果](#结果)
+<!-- markdownlint-disable-next-line link-fragments -->
+一个集中的方法来计算和应用代码仓活跃度评分。更多细节，见[结果](#jie-guo)
 
 ## 解决方案
 
@@ -50,7 +51,8 @@
 
 下面的代码假设变量`repo`包含一个从GitHub`search`API获取的实体，`participation`对象包含一个来自GitHub`stats/participation`API的实体。
 
-如果需要，可以根据软的关键绩效指标（见[约束](#约束)）在上面进行手动调整。
+<!-- markdownlint-disable-next-line link-fragments -->
+如果需要，可以根据软的关键绩效指标（见[约束](#yue-shu)）在上面进行手动调整。
 
 ``` javascript
 // 从标星、关注、提交和问题中计算出一个虚拟的内源分数
