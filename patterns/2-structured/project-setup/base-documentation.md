@@ -86,7 +86,7 @@ topics:
 Create a separate `COMMUNICATION.md` document. Link this document to your `README.md` so comprehensive contact information can be provided and not take up the extra space in your README. This document should answer frequently
 asked questions about communicating with your team that contributors need to know. The goal is to streamline communications so users and contributors reach out to the correct person through a single channel. This reduces unnecessary distractions for team members and organizes communications so they do not get lost.
 
-Sections in the `COMMUNICATION.md` points of contact for incoming communications and information about outgoing communications from the project's ownership team. Included below are some examples.
+Sections in the `COMMUNICATION.md` include points of contact for incoming communications and information about outgoing communications from the project's ownership team. See some examples below.
 
 Points of contact for incoming communication and how to contact those users:
 
