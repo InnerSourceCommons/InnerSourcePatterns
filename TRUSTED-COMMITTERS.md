@@ -43,7 +43,7 @@ We work based on trust: Our goal is to add most people who contributed a sizeabl
 
 We follow this process:
 
-1. Any trusted committer (TC) can nominate a new TC in the private Slack channel `#innersource-patterns-tcs`. The TC should provide the following information:
+1. Any Trusted Committer (TC) can nominate a new TC in the private Slack channel `#innersource-patterns-tcs`. The TC should provide the following information:
    * Name of the candidate
    * Reason for candidate
    * Github handle of the candidate
@@ -62,8 +62,8 @@ We follow this process:
 
 A handful of individuals are currently the technical GitHub Admins for this repository. This includes most members of the InnerSource Commons' #tech-infra team and members of the [InnerSource Commons GitHub Organization](https://github.com/innersourcecommons).
 
-However, please channel working group-specific requests through the trusted committers.
+However, please channel working group-specific requests through the Trusted Committers.
 
 ## References
 
-Our trusted committer process was inspired by [this](https://tech.europace.de/voting-in-new-trusted-committers/).
+Our Trusted Committer process was inspired by [this](https://tech.europace.de/voting-in-new-trusted-committers/).
