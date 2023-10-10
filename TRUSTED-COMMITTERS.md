@@ -17,6 +17,15 @@ For further information about the concept, also see the [Trusted Committer Patte
 * [@NewMexicoKid](https://github.com/NewMexicoKid) (added 2017-03-02)
 * [@cewilliams](https://github.com/cewilliams) (added 2017-03-02)
 
+### Translation Leads
+
+In addition to the Trusted Committers, these Translation Leads help us with the translation of our patterns to other languages.
+While they don't take all responsibilities of a Trusted Committer (yet), they do have increased permissions so that they can work with our patterns more easily.
+
+* Japanese - [@yuhattor](https://github.com/yuhattor)
+* Chinese - [@WillemJiang](https://github.com/WillemJiang)
+* Brazilian Portuguese - [@jrcosta](https://github.com/jrcosta), [@zilio](https://github.com/zilio)
+
 ## Hall of Fame (aka Alumni)
 
 While Trusted Committers are in principle appointed for lifetime, interests or priorities of a TC can change and they might not have enough time any more to contribute to the project.
