@@ -30,10 +30,10 @@ jobs:
 
     - name: Check out the code so we can get the CODEOWNERS names
       uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            .github/CODEOWNERS
-          sparse-checkout-cone-mode: false
+      with:
+        sparse-checkout: |
+          .github/CODEOWNERS
+        sparse-checkout-cone-mode: false
 
     - name: Get usernames from CODEOWNERS file
       shell: bash
