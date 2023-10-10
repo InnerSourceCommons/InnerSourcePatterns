@@ -1,0 +1,124 @@
+name: Monthly issue metrics
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 2 1 * *'
+
+permissions:
+  issues: write
+  pull-requests: read
+
+jobs:
+  issue-metrics:
+    name: issue metrics
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Get dates for last month
+      shell: bash
+      run: |
+        # Calculate the first day of the previous month
+        first_day=$(date -d "last month" +%Y-%m-01)
+
+        # Calculate the last day of the previous month
+        last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
+
+        #Set an environment variable with the date range
+        echo "$first_day..$last_day"
+        echo "last_month=$first_day..$last_day" >> "$GITHUB_ENV"
+
+    - name: Check out the code so we can get the CODEOWNERS names
+      uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github/CODEOWNERS
+          sparse-checkout-cone-mode: false
+
+    - name: Get usernames from CODEOWNERS file
+      shell: bash
+      run: |
+        # open a file called CODEOWNERS and load the content into a variable
+        CODEOWNERS_FILE=$(cat .github/CODEOWNERS)
+        
+        # Extract words from CODEOWNERS that start with @ and convert them into a comma-separated string
+        # ie, "-author:spier -author:zkoppert"
+        # This will be used to filter out these codeowners from certain stats in later steps
+        CODEOWNERS_FILTER=$(echo $CODEOWNERS_FILE | grep -o "@[a-zA-Z0-9\-]*" | sed 's/@/-author:/g' | tr '\n' ' ')
+
+        # Print usernames to terminal for easy debugging
+        echo "CODEOWNERS_FILTER: $CODEOWNERS_FILTER"
+
+        # Store CODEOWNERS_FILTERto GitHub Action environment (not permanent)
+        echo "CODEOWNERS_FILTER=$CODEOWNERS_FILTER" >> "$GITHUB_ENV"
+
+    - name: Run issue-metrics tool
+      uses: github/issue-metrics@v2
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SEARCH_QUERY: 'repo:InnerSourceCommons/InnerSourcePatterns is:issue created:${{ env.last_month }} -reason:"not planned" ${{ env.CODEOWNERS_FILTER }}'
+        HIDE_TIME_TO_ANSWER: "True"
+        HIDE_LABEL_METRICS: "True"
+
+    - name: Create issue
+      uses: peter-evans/create-issue-from-file@v4
+      with:
+        title: Monthly New Issues Data ${{ env.last_month }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        content-filepath: ./issue_metrics.md
+        assignees: spier
+  
+  pr-metrics:
+    name: pull request metrics
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Get dates for last month
+      shell: bash
+      run: |
+        # Calculate the first day of the previous month
+        first_day=$(date -d "last month" +%Y-%m-01)
+
+        # Calculate the last day of the previous month
+        last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
+
+        #Set an environment variable with the date range
+        echo "$first_day..$last_day"
+        echo "last_month=$first_day..$last_day" >> "$GITHUB_ENV"
+
+    - name: Check out the code so we can get the CODEOWNERS names
+      uses: actions/checkout@v4
+
+    - name: Get usernames from CODEOWNERS file
+      shell: bash
+      run: |
+        # open a file called CODEOWNERS and load the content into a variable
+        CODEOWNERS_FILE=$(cat .github/CODEOWNERS)
+        
+        # Extract words from CODEOWNERS that start with @ and convert them into a comma-separated string
+        # ie, "-author:spier -author:zkoppert"
+        # This will be used to filter out these codeowners from certain stats in later steps
+        CODEOWNERS_FILTER=$(echo $CODEOWNERS_FILE | grep -o "@[a-zA-Z0-9\-]*" | sed 's/@/-author:/g' | tr '\n' ' ')
+
+        # Print usernames to terminal for easy debugging
+        echo "CODEOWNERS_FILTER: $CODEOWNERS_FILTER"
+
+        # Store CODEOWNERS_FILTERto GitHub Action environment (not permanent)
+        echo "CODEOWNERS_FILTER=$CODEOWNERS_FILTER" >> "$GITHUB_ENV"
+
+    - name: Run issue-metrics tool
+      uses: github/issue-metrics@v2
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SEARCH_QUERY: 'repo:InnerSourceCommons/InnerSourcePatterns is:pr created:${{ env.last_month }} -reason:"not planned" ${{ env.CODEOWNERS_FILTER }}'
+        HIDE_TIME_TO_ANSWER: "True"
+        HIDE_LABEL_METRICS: "True"
+
+    - name: Create issue
+      uses: peter-evans/create-issue-from-file@v4
+      with:
+        title: Monthly New Pull Request Data ${{ env.last_month }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        content-filepath: ./issue_metrics.md
+        assignees: spier
