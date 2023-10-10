@@ -44,7 +44,7 @@ jobs:
         # Extract words from CODEOWNERS that start with @ and convert them into a comma-separated string
         # ie, "-author:spier -author:zkoppert"
         # This will be used to filter out these codeowners from certain stats in later steps
-        CODEOWNERS_FILTER=$(echo $CODEOWNERS_FILE | grep -o "@[a-zA-Z0-9\-]*" | sed 's/@/-author:/g' | tr '\n' ' ')
+        CODEOWNERS_FILTER=$(echo $CODEOWNERS_FILE | grep -o "@[a-zA-Z0-9\-]*" | sed 's/@/-author:/g' | sort | uniq | tr '\n' ' ')
 
         # Print usernames to terminal for easy debugging
         echo "CODEOWNERS_FILTER: $CODEOWNERS_FILTER"
@@ -99,7 +99,7 @@ jobs:
         # Extract words from CODEOWNERS that start with @ and convert them into a comma-separated string
         # ie, "-author:spier -author:zkoppert"
         # This will be used to filter out these codeowners from certain stats in later steps
-        CODEOWNERS_FILTER=$(echo $CODEOWNERS_FILE | grep -o "@[a-zA-Z0-9\-]*" | sed 's/@/-author:/g' | tr '\n' ' ')
+        CODEOWNERS_FILTER=$(echo $CODEOWNERS_FILE | grep -o "@[a-zA-Z0-9\-]*" | sed 's/@/-author:/g' | sort | uniq | tr '\n' ' ')
 
         # Print usernames to terminal for easy debugging
         echo "CODEOWNERS_FILTER: $CODEOWNERS_FILTER"
