@@ -21,7 +21,7 @@ For further information about the concept, also see the [Trusted Committer Patte
 
 While Trusted Committers are in principle appointed for lifetime, interests or priorities of a TC can change and they might not have enough time any more to contribute to the project.
 
-In those cases we ask them if we should move them to the Hall of Fame. Doing so allows us to appropriately thank them for all of their fantastic contributions. When doing so we also remove them from `.github/CODEOWNERS`, so that reviews of Pull Requests aren't assigned to them anymore, and GitHub notifications are reduced. That increases the clarity for the community who to expect feedback from when creating PRs.
+In those cases we ask them if we should move them to the Hall of Fame. Doing so allows us to appropriately thank them for all of their fantastic contributions. When doing so we also remove them from [.github/CODEOWNERS](.github/CODEOWNERS), so that reviews of Pull Requests aren't assigned to them anymore, and GitHub notifications are reduced. That increases the clarity for the community who to expect feedback from when creating PRs.
 
 The alumni in the Hall of Fame can of course always start contributing again in the future and go back to being Trusted Committers if they want to.
 
@@ -44,8 +44,8 @@ We follow this process:
 4. The TC who nominated the candidate informs her/him in private about the nomination and its acceptance. The candidate can decide on whether to accept or reject the offer.
 5. If the candidate accepts the offer, the TC who nominated the candidate, makes sure:
    1. New TC receives write access to this repository (this needs to happen first, so that step 5.iii works)
-   2. New TC is added to this file (`TRUSTED-COMMITTERS.md`)
-   3. New TC is added to `.github/CODEOWNERS`, so that they get notified about new PRs automatically
+   2. New TC is added to this file [TRUSTED-COMMITTERS.md](./TRUSTED-COMMITTERS.md)
+   3. New TC is added to [.github/CODEOWNERS](.github/CODEOWNERS), so that they get notified about new PRs automatically
    4. New TC is added to the `#innersource-patterns-tcs` channel
    5. New TC is praised in the [#innersource-patterns](https://app.slack.com/client/T04PXKRM0/C2EFRTS6A) channel.
 
