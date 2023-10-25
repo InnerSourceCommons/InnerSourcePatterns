@@ -39,7 +39,7 @@ jobs:
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: "Monthly Metrics: Contributors"
+        title: "Monthly Metrics: Contributors ${{ env.START_DATE }}..${{ env.END_DATE }}"
         token: ${{ secrets.GITHUB_TOKEN }}
         content-filepath: ./contributors.md
         assignees: spier
