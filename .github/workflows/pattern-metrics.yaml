@@ -82,7 +82,7 @@ jobs:
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: Monthly New Pull Request Data ${{ env.last_month }}
+        title: Monthly Metrics: New Issues + New Pull Requests ${{ env.last_month }}
         token: ${{ secrets.GITHUB_TOKEN }}
         content-filepath: ./all.md
         assignees: spier
