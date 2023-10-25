@@ -86,3 +86,5 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         content-filepath: ./all.md
         assignees: spier
+        labels: |
+            community metrics
