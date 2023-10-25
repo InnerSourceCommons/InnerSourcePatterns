@@ -87,4 +87,4 @@ jobs:
         content-filepath: ./all.md
         assignees: spier
         labels: |
-            community metrics
+          community metrics
