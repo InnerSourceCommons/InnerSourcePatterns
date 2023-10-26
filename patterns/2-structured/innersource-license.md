@@ -51,6 +51,7 @@ The license simplifies the conversations within our organization about sharing s
 ## Known Instances
 
 * DB Systel
+* GovTech (Singapore Government)
 
 ### DB Systel
 
@@ -68,6 +69,15 @@ The mentioned collaboration challenges include:
 - building communities for collaboration on projects, just like in Open Source
 
 It is worth mentioning that so far the software shared under this InnerSource license is mostly tooling, infrastructure, and tools lower in the stack.
+
+### GovTech (Singapore Government)
+
+GovTech is responsible for the delivery of the Singapore government's digital services to the public.
+They created the GovTech Public Sector License (GPSL) as a permissive license to ensure that code can be shared between legal entities across government.
+The GPSL covers both usage of code by licensees (agencies and their vendors) as well as contributions back to GovTech.
+Following open source practices, the GPSL `LICENSE` file is included in each repository that is made available as InnerSource.
+
+For more details see the InnerSource Commons Community call from 09/2023 [Improving Engineering Collaboration across the Singapore Government through InnerSource](https://www.youtube.com/watch?v=-zu2X2iERv8&t=1257s&ab_channel=InnerSourceCommons) (around 20:50) by Hunter Nield.
 
 ## Status
 
