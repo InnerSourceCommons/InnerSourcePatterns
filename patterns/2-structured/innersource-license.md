@@ -5,7 +5,6 @@ InnerSource License
 ## Patlet
 
 Two legal entities that belong to the same organization want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting.
-
 An **InnerSource License** provides a reusable legal framework for the sharing of source code within the organization. This opens up new collaboration options, and makes the rights and obligations of the involved legal entities explicit.
 
 ## Problem
