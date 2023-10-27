@@ -66,6 +66,7 @@ By using this pattern you will gain information that will help you to describe y
 ## Known Instances
 
 * Indeed - see reference [InnerSource Sleuth: Identifying Your Pain Points - Katie Schueths (Indeed) - IS Summit 2022](https://www.youtube.com/watch?v=Et7-DzdY2yw)
+* Analog Devices Inc.
 
 ## Status
 
