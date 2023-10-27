@@ -1,112 +1,117 @@
 ## Title
 
-Extensions for Sustainable Growth
+Extensões para Crescimento Sustentável
 
 ## Patlet
 
-An InnerSource project is receiving too many contributions, making maintenance difficult. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.
+Um projeto InnerSource está recebendo um grande número de contribuições, tornando a manutenção difícil. Ao oferecer um mecanismo de extensão fora do projeto principal, os mantenedores possibilitam a expansão das capacidades do projeto com custos mínimos e sobrecarga de manutenção.
 
-## Problem
+## Problema
 
-As the number of contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. This results in a large code review backlog or premature rejection of new feature contributions.
+À medida que o número de contribuições para um repositório InnerSource maduro aumenta rapidamente, isso gera mais carga nas revisões de código e na manutenção. Isso resulta em um grande acúmulo de revisões de código ou na rejeição prematura de novas contribuições de recursos.
 
-How can the host team allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
+Como a equipe anfitriã pode permitir um lançamento mais rápido de novos recursos, incentivando a inovação e a experimentação, ao mesmo tempo em que mantém o repositório bem mantido?
 
-## Story
+## História
 
-There is a strategic project that aims to collect the best innovations within a domain space to one common stack, allowing reuse of a common infrastructure and providing a standard user experience. Through InnerSource, various teams in the organization that work within the domain space get an opportunity to collaborate and contribute their innovations to the common codebase.
+Há um projeto estratégico que tem como objetivo coletar as melhores inovações dentro de um espaço de domínio em uma pilha comum, permitindo a reutilização de uma infraestrutura comum e proporcionando uma experiência do usuário padronizada. Através do InnerSource, várias equipes na organização que trabalham dentro do espaço de domínio têm a oportunidade de colaborar e contribuir com suas inovações para o código base comum.
 
-However, a large number of contributions in parallel from several developers is making maintenance of the codebase difficult. This is adding a huge burden on the project maintainers who assume ownership over the code quality standards and enable the community through various forms of communication.
+No entanto, um grande número de contribuições em paralelo de vários desenvolvedores está tornando a manutenção do código base difícil. Isso está adicionando uma grande carga para os mantenedores do projeto, que assumem a responsabilidade pelas normas de qualidade do código e capacitam a comunidade através de várias formas de comunicação.
 
-Project maintainers are at risk of burnout due to:
+Os mantenedores do projeto estão em risco de esgotamento devido a:
 
-- Everlasting backlog of pull requests from contributors that need to be reviewed.
-- Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
-- Perceived lack of accomplishment: Not all contributed features have adequate user demand and result in consequent adoption.
-- Time consuming releases: More features in the codebase results in long running tests.
-- Increase in maintenance activities: More bugs raised as new capabilities are added.
+- Um backlog interminável de solicitações de pull de colaboradores que precisam ser revisadas.
+- Insatisfação no trabalho: A maioria do tempo dos mantenedores é gasta no suporte à comunidade, o que não deixa espaço para inovação.
+- Percepção de falta de realização: Nem todos os recursos contribuídos têm demanda de usuários adequada e resultam em adoção subsequente.
+- Liberações demoradas: Mais recursos no código base resultam em testes de longa duração.
+- Aumento das atividades de manutenção: Mais bugs são relatados à medida que novas capacidades são adicionadas.
 
-A lot of time is spent on maturing every new feature contribution, before potential users even get an opportunity to explore the feature for their use cases. If it turns out that new feature isn't fulfilling the use case, then all that time spent on achieving the desired code quality standards are waste.
+Muito tempo é gasto amadurecendo cada nova contribuição de recurso, antes mesmo que os potenciais usuários tenham a oportunidade de explorar o recurso para seus casos de uso. Se acontecer que o novo recurso não atende ao caso de uso, então todo o tempo gasto para atingir os padrões desejados de qualidade do código é desperdiçado.
 
-## Context
+## Contexto
 
-- A strategic InnerSource codebase is scaling rapidly with new feature contributions from several employees.
-- The ratio of reviewers to contributions results in a growing backlog of pull requests. This is slowing down release of new features to the community.
-- Quality of the codebase is degrading and user experience is adversely impacted.
-- Maintainers of the codebase are burdened and cannot keep up with the influx of contributions and increased community support.
-- Some of the contributed features are not gaining adoption by users, and might even turn fully dormant. However even though they are unused, these features are still adding to the maintenance overhead.
-- Organization is investing heavily in hardening of new feature contributions to retain quality standards before the ideas are explored by the community.
-- The pattern applies in either scenario:
-   - Maintainers find themselves rejecting new feature ideas to narrow down the scope of the project. This is hampering innovation in the community and restricting further expansion.
-   - To reduce backlog, new features are getting released without thorough documentation, hardening, or testing, creating a poor user experience. This is also bloating the size of the codebase, adding a huge dependency graph and making it difficult to maintain.
+- Um código-fonte InnerSource estratégico está crescendo rapidamente com novas contribuições de recursos de vários funcionários.
+- A proporção de revisores para contribuições resulta em um crescente backlog de solicitações de pull. Isso está atrasando o lançamento de novos recursos para a comunidade.
+- A qualidade do código está degradando e a experiência do usuário está sendo impactada negativamente.
+- Os mantenedores do código estão sobrecarregados e não conseguem acompanhar o influxo de contribuições e o aumento do suporte à comunidade.
+- Alguns dos recursos contribuídos não estão sendo adotados pelos usuários e podem até se tornar completamente inativos. No entanto, mesmo que não sejam usados, esses recursos ainda adicionam à sobrecarga de manutenção.
+- A organização está investindo pesadamente na consolidação das novas contribuições de recursos para manter os padrões de qualidade antes que as ideias sejam exploradas pela comunidade.
+- O padrão se aplica a ambos os cenários:
+   - Os mantenedores se veem rejeitando novas ideias de recursos para limitar o escopo do projeto. Isso está prejudicando a inovação na comunidade e restringindo ainda mais a expansão.
+   - Para reduzir o backlog, novos recursos estão sendo lançados sem documentação completa, consolidação ou teste detalhado, o que cria uma experiência de usuário ruim. Isso também aumenta o tamanho do código, adicionando um grande grafo de dependências e tornando a manutenção difícil.
 
-## Forces
+## Forças
 
-- Maintainers and product owners want to allow for expansion, encourage innovation and experimentation without being overly restrictive on contributions, while also keeping good code and quality standards for user experience.
-- A large amount of time goes into hardening and thorough testing of features to meet product standards, but product owners may want to allow for faster release of new innovations for adopting products to explore before investing time in maturing the capabilities.
-- Maintainers want to encourage the community to share innovations that combine product capabilities with other use-cases without adding more dependencies to the primary repository.
+- Os mantenedores e proprietários do produto desejam permitir a expansão, incentivar a inovação e a experimentação sem serem excessivamente restritivos em relação às contribuições, ao mesmo tempo em que mantêm boas práticas de código e padrões de qualidade para a experiência do usuário.
+- Uma grande quantidade de tempo é dedicada à consolidação e testes rigorosos de recursos para atender aos padrões do produto, mas os proprietários do produto podem querer permitir o lançamento mais rápido de novas inovações para que os produtos em adoção as explorem antes de investir tempo na consolidação das capacidades.
+- Os mantenedores desejam incentivar a comunidade a compartilhar inovações que combinem as capacidades do produto com outros casos de uso, sem adicionar mais dependências ao repositório principal.
 
-## Solutions
+## Solução
 
-Allowing [extensions/plugins](https://en.wikipedia.org/wiki/Extensibility) to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
+Permitir [extensões/plugins](https://en.wikipedia.org/wiki/Extensibility) em código-fonte InnerSource em grande escala pode aliviar a carga de manutenção dos mantenedores do repositório e permitir um lançamento mais rápido de novos recursos para que produtos em adoção possam explorar. Isso transfere a manutenção das capacidades para os proprietários de extensões e permite que o repositório principal suporte capacidades que foram adotadas de forma mais ampla e são mais estratégicas.
 
-Extensions provide a filter for new capabilities that may eventually move into the core of the project. Extensions also act as an incubation and community hardening environment, allowing for much of that hardening to happen organically rather than in a costly review process.
+As extensões fornecem um filtro para novas capacidades que podem eventualmente ser movidas para o núcleo do projeto. As extensões também atuam como um ambiente de incubação e consolidação da comunidade, permitindo que grande parte da consolidação aconteça organicamente, em vez de em um processo de revisão custoso.
 
-In order for the extensions model to be successful, there are few architectural considerations to keep in mind:
+Para que o modelo de extensões seja bem-sucedido, há algumas considerações arquiteturais a serem mantidas em mente:
 
-1. **Easy to create:** To obtain community participation, extensions need to be easy to create.
-   - Create a repository template that extensions should use as a starting point. This allows the extensions to add their new features in new repositories, separate from the core project. The template should provide the same modular structure as the primary repository, and include the framework to package and release extensions.
-      - Ensure that as the primary repository changes, the template(s) are well-maintained. The primary repository maintainers are responsible for updating the template(s) to ensure it is compatible with the main project. Following good versioning conventions, e.g., [semver](https://semver.org/), makes this easier to follow.
-      - It is further recommended that the primary repository maintainers provide guidance on how to update extensions based on older versions of the template as newer versions are released.
-   - Add example extension(s) developed from the template, which project developers can reference to understand how to write a well-patterned extension.
-   - Loosen the requirements for contributors to create extensions by bypassing reviews to allow for faster release or experimentation.
-2. **Loose coupling:** Having modular components that contain functionality can allow loose coupling, where changes to extensions do not impact the quality of the main codebase or other extensions.
-3. **Dependency management:**  Each extension should be careful to pin the version range of the primary repository that it is built against (the same way it would any other dependency) and should be careful in its use of other dependencies that shadow dependencies of the primary repository such that the versions it chooses for those dependencies are compatible with the primary repository versions selected. Any conflicts with primary repository will be caught in the test framework for the extension.
-4. **Testing strategy:** How to test extensions both individually and in combination?
-   - **Testing extension individually:** Extensions template will provide a test framework to be used by the extension developers to test the capability added. This can include a framework for unit tests, runtime performance and quality tests.
-   - **Testing extension in combination with primary repository:** Extension developers have a well-patterned method for testing their extension against specific versions of the primary repository without involvement from the primary repository's maintainers.
-   - **Testing extension in combination with other extensions:** Providing a test framework for this scenario could result in being excessive especially if there are a large number of extensions that are still being explored by users and unlikely to be all used in combination. If a user runs into conflicts while using extensions in combination (which should be unlikely with sufficient loose coupling), the user can raise an issue to the respective extension owners who will sort it out. As an extension reaches later phases of the lifecycle and gets merged into the primary repository, it would be tested in combination with rest of library and any dependency conflicts will have to be resolved at the time.
-5. **Discoverability and Usability:**
-   - Make extensions easily discoverable with a publishing page showing the extensions that users have created and want to share for product usage.
-   - Allow registration of extensions with the primary project for users to leverage extensions alongside the original project, thus keeping the same user experience.
-6. **Lifecycle of extensions and maintainability:** Establish the lifecycle for extensions from creation to porting into the primary codebase, along with clear ownership guidelines.
-   - Extension creators continue maintaining the extension, providing any support and fixing defects. Any extension left unmaintained will be unlisted from the publishing page.
-   - Create criteria for when an extension can be ported to the primary repository, such as adoption of the extension by internal products and demand for the feature.
-   - Porting process of the extension to the primary repository will follow more stringent code review guidelines as set by library maintainers.
+1. **Fácil de criar:** Para obter a participação da comunidade, as extensões precisam ser fáceis de criar.
+   - Crie um modelo de repositório que as extensões devem usar como ponto de partida. Isso permite que as extensões adicionem seus novos recursos em novos repositórios, separados do projeto principal. O modelo deve fornecer a mesma estrutura modular que o repositório principal e incluir o framework para empacotar e lançar as extensões.
+      - Certifique-se de que, à medida que o repositório principal muda, os modelos sejam conservados. Os mantenedores do repositório principal são responsáveis por atualizar os modelos para garantir que sejam compatíveis com o projeto principal. Seguir boas práticas de versionamento, como [semver](https://semver.org/), torna isso mais fácil de seguir.
+      - É recomendável ainda que os mantenedores do repositório principal forneçam orientações sobre como atualizar extensões com base em versões mais antigas do modelo à medida que novas versões são lançadas.
+   - Adicione exemplo(s) de extensão desenvolvida(s) a partir do modelo, que os desenvolvedores do projeto podem usar como referência para entender como escrever uma extensão bem estruturada.
+   - Flexibilize os requisitos para que os contribuidores criem extensões, permitindo a liberação mais rápida ou experimentação ao contornar revisões.
+2. **Acoplamento flexível:** Ter componentes modulares que contenham funcionalidades pode permitir um acoplamento flexível, onde as alterações nas extensões não afetam a qualidade do código principal ou de outras extensões.
+3. **Gerenciamento de dependências:** Cada extensão deve ser cuidadosa ao fixar a faixa de versão do repositório principal com o qual ela é construída (da mesma forma que faria com qualquer outra dependência) e deve ser cuidadosa em seu uso de outras dependências que possam sobrescrever dependências do repositório principal, de forma que as versões escolhidas para essas dependências sejam compatíveis com as versões selecionadas do repositório principal. Quaisquer conflitos com o repositório principal serão detectados no framework de teste da extensão.
+4. **Estratégia de testes:** Como testar extensões individualmente e em combinação?
+   - **Testando extensões individualmente:** O modelo de extensões fornecerá um framework de teste a ser usado pelos desenvolvedores de extensões para testar a capacidade adicionada. Isso pode incluir um framework para testes de unidade, testes de desempenho em tempo de execução e testes de qualidade.
+   - **Testando extensões em combinação com o repositório principal:** Os desenvolvedores de extensões têm um método bem estruturado para testar suas extensões em relação a versões específicas do repositório principal sem envolvimento dos mantenedores do repositório principal.
+   - **Testando extensões em combinação com outras extensões:** Fornecer um framework de teste para esse cenário pode ser excessivo, especialmente se houver um grande número de extensões que ainda estão sendo exploradas pelos usuários e é improvável que todas sejam usadas em combinação. Se um usuário encontrar conflitos ao usar extensões em combinação (o que deve ser improvável com um acoplamento suficientemente flexível), o usuário pode levantar um problema com os proprietários da extensão correspondente, que resolverão a situação. Conforme uma extensão atinge fases posteriores do ciclo de vida e é mesclada no repositório principal, ela será testada em combinação com o restante da biblioteca e quaisquer conflitos de dependência terão que ser resolvidos na época.
+5. **Descoberta e Usabilidade:**
+   - Torne as extensões facilmente descobríveis com uma página de publicação mostrando as extensões que os usuários criaram e desejam compartilhar para uso de produtos.
+   - Permita o registro de extensões no projeto principal para que os usuários possam aproveitar as extensões junto com o projeto original, mantendo a mesma experiência do usuário.
+6. **Ciclo de vida das extensões e manutenção:** Estabeleça o ciclo de vida das extensões, desde a criação até a migração para o código principal, juntamente com diretrizes claras de propriedade.
+   - Os criadores das extensões continuam a manter a extensão, fornecendo suporte e correção de defeitos. Qualquer extensão não mantida será retirada da página de publicação.
+   - Crie critérios para quando uma extensão pode ser migrada para o repositório principal, como a adoção da extensão por produtos internos e a demanda por recursos.
+   - O processo de migração da extensão para o repositório principal seguirá diretrizes mais rigorosas de revisão de código estabelecidas pelos mantenedores da biblioteca.
 
-![Software architecture with extensions](../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
+![Arquitetura de software com extensões](../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
-Following these principles ensures that:
+Seguir esses princípios garante que:
 
-- Developers can add new features to a project's ecosystem without requiring them to write large amounts of [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) code.
-- Extensions are discoverable in a repeatable manner by all users of the primary project; just because code doesn't live in the main repository yet does not mean it is not valuable.
-- The maintainer burden is reduced until an extension has demonstrated that it fills an important gap in the primary project.
-- The core project's common code (e.g. base classes and utility functions) can be a starting point for new development that extends project's domain. This avoids the need to port innovative work after-the-fact, thus reducing the overall burden of developing novel features for the project.
-- Developers are more likely to contribute and stay involved in maintenance and building communities for their codebase, which is also good for the health of the overall project ecosystem.
+- Os desenvolvedores podem adicionar novos recursos ao ecossistema de um projeto sem precisar escrever grandes quantidades de código [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code).
+- As extensões são facilmente descobertas de maneira repetitiva por todos os usuários do projeto principal; apenas porque o código não está no repositório principal não significa que ele não seja valioso.
+- A carga dos mantenedores é reduzida até que uma extensão tenha demonstrado que preenche uma lacuna importante no projeto principal.
+- O código comum do projeto principal (por exemplo, classes base e funções de utilidade) pode ser um ponto de partida para novos desenvolvimentos que ampliam o domínio do projeto. Isso evita a necessidade de portar o trabalho inovador após o fato, reduzindo assim a carga geral de desenvolver recursos inovadores para o projeto.
+- Os desenvolvedores têm mais probabilidade de contribuir e se envolver na manutenção e na construção de comunidades para sua base de código, o que também é benéfico para a saúde do ecossistema geral do projeto.
 
-## Resulting Context
+## Contexto Resultante
 
-- The project is able to scale with the addition of new features, without adding maintenance overhead on the primary project repository.
-- Faster release of new features for the community to explore, encouraging innovation and experimentation.
-- Reduced the costly code review and feature hardening process until the feature is able to prove its utility. This has cost savings benefits for the organization.
-- A post problem that can be introduced - what happens if an extension can not complete the full lifecycle?
-   - If an extension is not adopted over a period of time and could not build a community around it to support maintenance, it would be up to the extension owner to continue maintaining it for however long they want to. If an extension is left unmaintained, it would be unpublished.
-   - If an extension developer is unable to further maintain their project, and other developers in the community want to continue supporting it, they may maintain the extension going forward.
+- O projeto é capaz de dimensionar com a adição de novos recursos, sem adicionar sobrecarga de manutenção ao repositório do projeto principal.
+- Lançamento mais rápido de novos recursos para a comunidade explorar, incentivando a inovação e experimentação.
+- Redução do custoso processo de revisão de código e consolidação de recursos até que o recurso seja capaz de provar sua utilidade. Isso tem benefícios de economia de custos para a organização.
+- Um problema pós-introdução que pode surgir - o que acontece se uma extensão não conseguir completar o ciclo de vida inteiro?
+   - Se uma extensão não for adotada ao longo do tempo e não conseguir criar uma comunidade para apoiar sua manutenção, caberá ao proprietário da extensão continuar a mantê-la pelo tempo que desejarem. Se uma extensão não for mantida, será retirada da publicação.
+   - Se um desenvolvedor de extensão não puder mais manter seu projeto e outros desenvolvedores na comunidade desejarem continuar a oferecer suporte, eles podem manter a extensão no futuro.
 
-## Known Instances
+## Instâncias Conhecidas
 
-* **IBM Corporation** has adopted this solution to scale [InnerSource AI libraries](https://youtu.be/Lz-tIc2cyRM). Using extensions, developers are able to extend AI libraries with more algorithms and share their innovations with the company-internal community. The core libraries only contain strategic algorithms that have been adopted and validated, keeping them easier to maintain as we scale contributions.
+* **IBM Corporation** adotou essa solução para dimensionar [bibliotecas de IA InnerSource](https://youtu.be/Lz-tIc2cyRM). Usando extensões, os desenvolvedores podem ampliar as bibliotecas de IA com mais algoritmos e compartilhar suas inovações com a comunidade interna da empresa. As bibliotecas principais contêm apenas algoritmos estratégicos que foram adotados e validados, tornando mais fácil mantê-las à medida que ampliamos as contribuições.
 
 ## Alias
 
-Extensions to Manage Contributions at Scale
+Extensões para Gerenciar Contribuições em Escala
 
-## Status
+## Estado
 
 Structured
 
-## Author(s)
+## Autores
 
 - Sukriti Sharma, IBM
 - Alexander Brooks, IBM
 - Gabe Goodhart, IBM
+
+## Histórico de Tradução
+
+- **2023-10-26** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2023-10-26** - Tradução [Humberto Zilio](https://github.com/zilio)
