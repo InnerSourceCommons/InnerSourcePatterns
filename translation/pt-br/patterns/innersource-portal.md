@@ -100,5 +100,5 @@ Uma [implementação de referência](https://github.com/SAP/project-portal-for-i
 
 ## Histórico de Tradução
 
-- **2022-06-13** - Tradução [Eneri Junior](https://github.com/jrcosta)
-- **2022-06-13** - Tradução [Humberto Zilio](https://github.com/zilio)
+- **2023-06-13** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2023-06-13** - Tradução [Humberto Zilio](https://github.com/zilio)

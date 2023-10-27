@@ -211,5 +211,5 @@ Explicit InnerSource Principles
 
 ## Histórico de Tradução
 
-- **2022-04-29** - Tradução [Eneri Junior](https://github.com/jrcosta)
-- **2022-04-29** - Tradução [Humberto Zilio](https://github.com/zilio)
+- **2023-04-29** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2023-04-29** - Tradução [Humberto Zilio](https://github.com/zilio)
