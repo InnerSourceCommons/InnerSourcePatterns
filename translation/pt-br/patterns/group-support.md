@@ -1,81 +1,81 @@
 ## Title
 
-Group Support
+Suporte em Grupo
 
 ## Patlet
 
-What happens if a team or individual no longer supports an InnerSource project?
-Keep the project alive by forming a group of interested individuals.
+O que acontece se uma equipe ou indivíduo não suporta mais um projeto InnerSource?
+Mantenha o projeto vivo formando um grupo de indivíduos interessados.
 
-## Problem
+## Problema
 
-* A popular InnerSource project is orphaned.
-* There isn't an obvious home for it to land.
+* Um projeto InnerSource popular está órfão.
+* Não há um destino óbvio para ele.
 
-## Story
+## História
 
-A library of UI widgets is used by over 50 projects throughout the company.
-The funding for the team that owns the library runs out and the team disbands.
-At first, no one notices, but after a while whenever someone asks "who owns it" there isn't an answer.
-What will happen next?
-Will new teams shy away from using it?
-Will the project stagnate and linger until its users eventually are forced to move on to something else?
-What a shame if that were to happen to a perfectly good and useful project!
+Uma biblioteca de widgets de interface do usuário é usada por mais de 50 projetos em toda a empresa.
+O financiamento da equipe que é proprietária da biblioteca se esgota e a equipe se dissipa.
+No início, ninguém percebe, mas depois de um tempo, sempre que alguém pergunta "quem é o responsável", não há uma resposta.
+O que acontecerá em seguida?
+As novas equipes evitarão usá-lo?
+O projeto estagnará e permanecerá até que seus usuários eventualmente sejam forçados a migrar para outra solução?
+Que pena se isso acontecer a um projeto perfeitamente bom e útil!
 
-## Context
+## Contexto
 
-* Popular InnerSource project.
-* Consumed as a build-time dependency (e.g. code module).
-* No one is actively supporting it.
-* The company cannot assign a team to support.
+* Projeto InnerSource popular.
+* Consumido como uma dependência de tempo de compilação (por exemplo, módulo de código).
+* Ninguém está oferecendo suporte ativamente.
+* A empresa não pode alocar uma equipe para oferecer suporte.
 
-## Forces
+## Forças
 
-* No one is assigned by their day job to work on it.
-* Everyone is busy.
-* High cost to migrate off the project.
+* Ninguém é designado por seu trabalho diário para trabalhar nele.
+* Todos estão ocupados.
+* Alto custo para migrar do projeto.
 
-## Solutions
+## Solução
 
-Call for interested volunteers from anywhere in the company to form a group of [Trusted Committer][]s to support the project.
-You may need to reach out to specific individuals based on commit or usage history.
-It is important that there are enough so that the burden on each can be reasonably small.
+Chamar voluntários interessados de qualquer parte da empresa para formar um grupo de [Trusted Committer][]s para oferecer suporte ao projeto.
+Você pode precisar entrar em contato com indivíduos específicos com base no histórico de commits ou uso.
+É importante que haja pessoas suficientes para que a carga sobre cada uma seja razoavelmente pequena.
 
-When forming, this group should identify or create [Standard Base Documentation][] and [Communication Tooling][].
+Ao formar este grupo, ele deve identificar ou criar [Standard Base Documentation][] e [Communication Tooling][].
 
-The group should do its best to manage these aspects of the project:
+O grupo deve fazer o melhor para gerenciar esses aspectos do projeto:
 
-* **Maintenance**.  If the project is flat-out broken for the standard use case, then fix it.
-Keep the project up-to-date as the dependencies and frameworks it uses continue to evolve.
-* **Onboarding**.  If someone has a question about how to use the project, make sure they get a reasonable answer.
-* **Updates**.  If someone wants to add new feature to the project, give them the design and technical support necessary for them to build it so that it both works for them and is a good addition to the project.
-Review incoming pull requests in a timely manner.
+* **Manutenção**. Se o projeto estiver completamente quebrado para o caso de uso padrão, então conserte-o.
+Mantenha o projeto atualizado à medida que as dependências e estruturas que ele usa continuam a evoluir.
+* **Integração**. Se alguém tiver uma pergunta sobre como usar o projeto, certifique-se de que eles obtenham uma resposta razoável.
+* **Atualizações**. Se alguém desejar adicionar um novo recurso ao projeto, forneça o suporte de design e técnico necessário para que eles o construam, de modo que funcione para eles e seja uma boa adição ao projeto.
+Revise as solicitações de pull que chegam de forma oportuna.
 
-Since this group is comprised of volunteers, it is important to communicate that support is "best effort" only.
-Accordingly, this model of support is not well-suited for run-time critical, production projects like live APIs.
-It is better suited for projects that are consumed at build-time like libraries/packages/modules.
-The group is not expected to implement any new functionality for others.
+Uma vez que este grupo é composto por voluntários, é importante comunicar que o suporte é "melhor esforço" apenas.
+Portanto, este modelo de suporte não é adequado para projetos críticos em tempo de execução, como APIs em produção.
+Ele é mais adequado para projetos que são consumidos no momento de compilação, como bibliotecas/pacotes/módulos.
+Não se espera que o grupo implemente qualquer nova funcionalidade para outros.
 
-## Resulting Context
+## Contexto Resultante
 
-* There is some fragile support for the InnerSource project.
-* In the long-term the group support is likely to dissolve again at some point. If the project continues in the long run, then use this period of stable group support to find a long-lived way to support it (e.g. [Core Team][]).
+* Existe algum suporte frágil para o projeto InnerSource.
+* A longo prazo, é provável que o suporte do grupo se dissolva novamente em algum momento. Se o projeto continuar a longo prazo, aproveite este período de suporte estável do grupo para encontrar uma maneira duradoura de suportá-lo (por exemplo, [Core Team][]).
 
-## Rationale
+## Justificativa
 
-People generally want to help.
-If there is personal outreach for someone to join as a [Trusted Committer][], there are generally a number of people that will say "yes".
-Feeling part of a group and being given some structure and responsibility generally motivates people to try their best, which many times ends up being enough.
+As pessoas geralmente querem ajudar.
+Se houver uma abordagem pessoal para que alguém se junte como um [Trusted Committer][], geralmente haverá várias pessoas que dirão "sim".
+Sentir-se parte de um grupo e ser atribuído a alguma estrutura e responsabilidade geralmente motiva as pessoas a fazer o seu melhor, o que muitas vezes acaba sendo suficiente.
 
-## Known Instances
+## Instâncias Conhecidas
 
 * WellSky
 
-## Status
+## Estado
 
 Structured
 
-## Author
+## Autores
 
 [Russell R. Rutledge][]
 
@@ -84,3 +84,8 @@ Structured
 [Communication Tooling]: ../2-structured/project-setup/communication-tooling.md
 [Trusted Committer]: ../2-structured/trusted-committer.md
 [Core Team]: ../2-structured/core-team.md
+
+## Histórico de Tradução
+
+- **2023-10-26** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2023-10-26** - Tradução [Humberto Zilio](https://github.com/zilio)
