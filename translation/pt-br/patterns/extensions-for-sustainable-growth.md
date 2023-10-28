@@ -74,7 +74,7 @@ Para que o modelo de extensões seja bem-sucedido, há algumas considerações a
    - Crie critérios para quando uma extensão pode ser migrada para o repositório principal, como a adoção da extensão por produtos internos e a demanda por recursos.
    - O processo de migração da extensão para o repositório principal seguirá diretrizes mais rigorosas de revisão de código estabelecidas pelos mantenedores da biblioteca.
 
-![Arquitetura de software com extensões](../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
+![Arquitetura de software com extensões](../../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
 Seguir esses princípios garante que:
 
