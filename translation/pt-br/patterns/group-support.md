@@ -80,10 +80,10 @@ Structured
 [Russell R. Rutledge][]
 
 [Russell R. Rutledge]: https://github.com/rrrutledge
-[Standard Base Documentation]: ../2-structured/project-setup/base-documentation.md
-[Communication Tooling]: ../2-structured/project-setup/communication-tooling.md
-[Trusted Committer]: ../2-structured/trusted-committer.md
-[Core Team]: ../2-structured/core-team.md
+[Standard Base Documentation]: ../base-documentation.md
+[Communication Tooling]: ../communication-tooling.md
+[Trusted Committer]: ../trusted-committer.md
+[Core Team]: ../core-team.md
 
 ## Histórico de Tradução
 
