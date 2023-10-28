@@ -53,7 +53,7 @@ Um bom exemplo de notas de lançamento de qualidade pode ser encontrado [aqui](h
 
 As equipes que encontrarem o seu projeto verão notas de lançamento publicadas e ganharão confiança em sua ferramenta. Artefatos publicados também facilitam e aceleram a adoção do seu produto. Ter processos bem definidos e visíveis, como esses, também ajuda na colaboração entre equipes e com novos contribuidores. As pessoas podem ter confiança de que suas contribuições serão disponibilizadas e distribuídas em um tempo razoável, com um caminho de uso claro.
 
-As notas de lançamento também são uma ótima oportunidade para [elogiar os participantes](praise-participants.md)! Como sabemos, [a documentação é extremamente importante](project-setup/base-documentation.md) para novas pessoas que desejam se envolver com o seu projeto. Elogiar colegas de outras equipes por suas contribuições, incluindo documentação e notas de lançamento, é uma ótima maneira de fomentar a comunidade e expandir sua base de usuários.
+As notas de lançamento também são uma ótima oportunidade para [elogiar os participantes](praise-participants.md)! Como sabemos, [a documentação é extremamente importante](base-documentation.md) para novas pessoas que desejam se envolver com o seu projeto. Elogiar colegas de outras equipes por suas contribuições, incluindo documentação e notas de lançamento, é uma ótima maneira de fomentar a comunidade e expandir sua base de usuários.
 
 ## Instâncias Conhecidas
 
