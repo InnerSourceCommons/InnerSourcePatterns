@@ -93,7 +93,7 @@ toc_snippet = toc_snippet.join("\n")
 
 ## Inject the list of patterns into the ToC template
 new_toc_content = open(TOC_TEMPLATE_FILE).readlines().join()
-new_toc_content = new_toc_content.gsub(/<<PATTERS_HERE>>/,toc_snippet)
+new_toc_content = new_toc_content.gsub(/<<PATTERNS_HERE>>/,toc_snippet)
 
 ## Write the new ToC to file
 File.write(TOC_FILE, new_toc_content)
