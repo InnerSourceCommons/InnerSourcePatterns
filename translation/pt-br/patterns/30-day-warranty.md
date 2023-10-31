@@ -72,5 +72,5 @@ Além disso, ajuda a fornecer diretrizes claras de [contribuição](./base-docum
 
 ## Histórico de Tradução
 
-- **2022-04-13** - Tradução [Eneri Junior](https://github.com/jrcosta)
-- **2022-04-13** - Tradução [Humberto Zilio](https://github.com/zilio)
+- **2023-04-13** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2023-04-13** - Tradução [Humberto Zilio](https://github.com/zilio)
