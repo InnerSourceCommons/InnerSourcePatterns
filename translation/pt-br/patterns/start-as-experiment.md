@@ -75,5 +75,5 @@ Finalmente, começar como um experimento torna muito mais fácil evitar regulame
 
 ## Histórico de Tradução
 
-- **2022-08-20** - Tradução [Eneri Junior](https://github.com/jrcosta)
-- **2022-08-20** - Tradução [Humberto Zilio](https://github.com/zilio)
+- **2023-08-20** - Tradução [Eneri Junior](https://github.com/jrcosta)
+- **2023-08-20** - Tradução [Humberto Zilio](https://github.com/zilio)
