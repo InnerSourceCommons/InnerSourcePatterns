@@ -1,6 +1,7 @@
 name: Gitbook Generation
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
