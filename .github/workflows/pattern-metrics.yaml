@@ -52,7 +52,7 @@ jobs:
         # Store CODEOWNERS_FILTERto GitHub Action environment (not permanent)
         echo "CODEOWNERS_FILTER=$CODEOWNERS_FILTER" >> "$GITHUB_ENV"
 
-    - name: Run issue-metrics tool
+    - name: Run issue-metrics tool for issues
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
