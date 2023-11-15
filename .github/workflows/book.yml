@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        language: [en, ja, zh, pt-br]
+        language: [en, ja, zh, pt-br, gl]
 
     steps:
     - uses: actions/checkout@v3
