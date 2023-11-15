@@ -1,4 +1,4 @@
-# Introdución 
+# Introdución
 
 ![Modelos InnerSource](innersource-patterns-book-cover.png)
 
@@ -74,4 +74,4 @@ Distribúese baixo licenza Creative Commons Atribución - Compartir Igual 4.0 In
 * Leticia Gómez Cadahía
 * María Lucía González Castro
 
-<img src="fondos-publicos.png" title="Fondos Públicos">
+![Fondos Públicos](fondos-publicos.png)
