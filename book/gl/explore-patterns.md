@@ -4,15 +4,15 @@ A comunidade InnerSource Commons aporta cada vez máis modelos a este libro; o q
 
 Pero, como facilitar que os/as lectores/as descubran os modelos que poden axudalos/as na súa situación particular?
 
-Para isto proporcionamos este mapa conceptual, que **clasifica os modelos en función das diferentes fases dun programa InnerSource** e dos desafíos que poden xurdir nas respectivas fases. 
+Para isto proporcionamos este mapa conceptual, que **clasifica os modelos en función das diferentes fases dun programa InnerSource** e dos desafíos que poden xurdir nas respectivas fases.
 
 ![Mapa conceptual dos modelos InnerSource](../../pattern-categorization/gl/innersource-program-mind-map.png)
 
 ## Mellore este mapa conceptual
 
-Se vostede detecta algo neste mapa conceptual que lle resulta incorrecto, pode [abrir unha incidencia](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) na que describa o problema xunto co arranxo que se debería levar a cabo. 
+Se vostede detecta algo neste mapa conceptual que lle resulta incorrecto, pode [abrir unha incidencia](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues) na que describa o problema xunto co arranxo que se debería levar a cabo.
 
-Ademais, se ten outras ideas para dar a coñecer estes modelos ou desexa mellorar este mapa conceptual, revise a documentación do noso enfoque de [Categorización de modelos](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md) e verifique como [contribuír a este libro](./contribute.md). 
+Ademais, se ten outras ideas para dar a coñecer estes modelos ou desexa mellorar este mapa conceptual, revise a documentación do noso enfoque de [Categorización de modelos](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/pattern-categorization/README.md) e verifique como [contribuír a este libro](./contribute.md).
 
 ## Referencias
 
