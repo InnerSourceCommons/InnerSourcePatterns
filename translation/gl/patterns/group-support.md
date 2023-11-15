@@ -34,10 +34,10 @@ Convocar voluntarios/as interesados/as de calquera sector da compañía para for
 
 Ao formarse, este grupo debería identificar ou constituír unha [documentación base estándar](./base-documentation.md) e [ferramentas de comunicación](.communication-tooling.md).
 
-O grupo fará o posible para xestionar estes aspectos do proxecto: 
+O grupo fará o posible para xestionar estes aspectos do proxecto:
 
 * **Mantemento**. Se o proxecto está totalmente roto para o caso de uso estándar, haberá que arranxalo. É preciso manter o proxecto actualizado a medida que as dependencias e os marcos que usa seguen a desenvolverse.
-* **Incorporación**. Se alguén ten unha pregunta sobre como empregar o proxecto, haberá que asegurarse de que obtén unha resposta razoable. 
+* **Incorporación**. Se alguén ten unha pregunta sobre como empregar o proxecto, haberá que asegurarse de que obtén unha resposta razoable.
 * **Actualizacións**. Se alguén quere engadir novas funcionalidades ao proxecto, proporcionaráselle o deseño e soporte técnico precisos para a súa contribución, de xeito que sexa tanto bo para eles/as como para o proxecto. As *pull requests* entrantes revisaranse de maneira oportuna.
 
 Posto que o grupo está formado por voluntarios/as, é importante comunicar que o soporte é só o seu «mellor esforzo». E, en consecuencia, este modelo de soporte non é adecuado para proxectos de produción críticos en tempo de execución como as *live* API. Será máis axeitado para proxectos que se consomen no tempo de compilación, como librarías/paquetes/módulos. Non se espera que o grupo introduza ningunha funcionalidade nova para outros.

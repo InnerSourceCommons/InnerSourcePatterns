@@ -34,7 +34,7 @@ O proxecto InnerSource benefíciase de que a planificación sexa transparente en
 
 * PP-0: Os individuos e os equipos non divulgan regularmente os seus plans ou produtos a múltiples partes interesadas. Non existen accións formais na organización.
 * PP-1: Os individuos e equipos dan visibilidade aos seus plans ou produtos a múltiples partes interesadas antes de comezar. Folla de ruta compartida.
-* PP-2: Xa hai follas de ruta compartidas con directrices claras e regras de contribución nas que os/as interesados/as poden aportar retroalimentación. Non obstante, isto non está estandarizado en toda a organización e non tódolos proxectos proporcionan esta información. 
+* PP-2: Xa hai follas de ruta compartidas con directrices claras e regras de contribución nas que os/as interesados/as poden aportar retroalimentación. Non obstante, isto non está estandarizado en toda a organización e non tódolos proxectos proporcionan esta información.
 * PP-3: As follas de ruta compártense por defecto e hai un proceso estándar e unha forma homoxénea de facelo en toda a organización a nivel de cada proxecto InnerSource. Esta contén regras claras para contribuír e influír na folla de ruta.
 
 **Proceso de desenvolvemento e ferramentas**
@@ -44,7 +44,7 @@ Os proxectos InnerSource prosperan cando os/as contribuidores/as se volven activ
 * DP-0: Cada equipo segue o seu propio proceso de desenvolvemento e ferramentas. Non están definidos para compartir coñecementos e dispositivos fóra do equipo de desenvolvemento. Equipos de desenvolvemento en silos.
 * DP-1: Os equipos de desenvolvemento usan repositorios de código compartido internamente. Algúns equipos desenvolven o seu propio proceso de CI, utilizando ferramentas de CI non corporativas ou estándar. Non hai un proceso de revisión de código definido, aínda que algúns equipos de proxectos fano internamente.
 * DP-2: A organización patrocina e promove un repositorio compartido para o coñecemento colectivo. Algúns equipos desenvolven o seu propio proceso de CI, usando ferramentas de CI corporativas. Hai ambientes CI, así como un proceso de revisión do código definido que se emprega nalgúns proxectos. Ás veces, a revisión do código é realizada por membros externos do equipo.
-* DP-3: A meirande parte dos equipos desenvolven o seu propio proceso de CI, utilizando ferramentas de CI corporativas. Existen ambientes CI, así como un proceso de revisión do código definido e utilizado. A revisión do código realízana os membros do equipo interno e externo. 
+* DP-3: A meirande parte dos equipos desenvolven o seu propio proceso de CI, utilizando ferramentas de CI corporativas. Existen ambientes CI, así como un proceso de revisión do código definido e utilizado. A revisión do código realízana os membros do equipo interno e externo.
 
 **Decisións**
 
@@ -60,7 +60,7 @@ Para motivar aos/ás compañeiros/as a contribuír ao traballo fóra do seu *cor
 Para atraer contribuidores/as, o material útil de soporte debe ser facilmente accesible.
 
 * RS-0: Individuos e equipos non contribúen nin recorren a un repositorio de coñecemento compartido.
-* RS-1: Individuos e equipos liberan materiais do proxecto para a súa revisión interna, despois de rematar o seu traballo. Individuos e equipos comparten recursos, pero en sistemas ou repositorios desconectados, fragmentados ou individualizados/en silos. Individuos e equipos comparten recursos, pero non existe unha comprensión común ou compartida dos criterios utilizados para determinar se a información é sensible ou non. 
+* RS-1: Individuos e equipos liberan materiais do proxecto para a súa revisión interna, despois de rematar o seu traballo. Individuos e equipos comparten recursos, pero en sistemas ou repositorios desconectados, fragmentados ou individualizados/en silos. Individuos e equipos comparten recursos, pero non existe unha comprensión común ou compartida dos criterios utilizados para determinar se a información é sensible ou non.
 * RS-2: Individuos e equipos fan que os materiais relacionados co proxecto sexan accesibles a algúns membros dos equipos do proxecto segundo formatos e/ou protocolos compartidos claramente definidos. Individuos e equipos manteñen datos e recursos confidenciais e proporcionan detalles, contexto e alcance limitados.
 * RS-3: Individuos e equipos fan que os materiais relacionados co proxecto sexan amplamente accesibles para a organización e, posiblemente, tamén fóra dela, segundo formatos e/ou protocolos claramente definidos e compartidos. Os individuos e equipos que deben reter datos e recursos confidenciais teñen claro o que non están a compartir, e outros entenden por que eses materiais non están dispoñibles para eles/as.
 
@@ -131,7 +131,7 @@ Unha das posibles razóns para introducir InnerSource nas organizacións pode se
 * PA-0: Baixo grao de compromiso, sen colaboración a xente non se sente cómoda compartindo cos/coas demais.
 * PA-1: Os membros da organización séntense cómodos compartindo as súas opinións sen medo a represalias, pero só en ámbitos coñecidos. A xente entende que as mellores ideas gañan e as responsabilidades de liderado recaen en persoas cun historial de contribución e compromiso.
 * PA-2: Os membros da organización séntense cómodos compartindo os seus pensamentos e opinións sen medo a represalias. Os/As líderes demostran dedicación aos valores compartidos da organización.
-* PA-3: A empresa é proactiva á hora de facerlles saber aos membros que se beneficia das súas contribucións; como tal, os membros amosan ter unha conciencia compartida e unha execución apoderada, e senten un sentido de responsabilidade coa comunidade. Os/As líderes entenden que crecen axudando a outros/as a crecer e son mentores/as dos membros máis novos da organización. 
+* PA-3: A empresa é proactiva á hora de facerlles saber aos membros que se beneficia das súas contribucións; como tal, os membros amosan ter unha conciencia compartida e unha execución apoderada, e senten un sentido de responsabilidade coa comunidade. Os/As líderes entenden que crecen axudando a outros/as a crecer e son mentores/as dos membros máis novos da organización.
 
 ### Gobernación
 

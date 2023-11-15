@@ -54,7 +54,7 @@ Este modelo está relacionado co de [garantía de 30 días](./30-day-warranty.md
 ## Exemplos coñecidos
 
 - Europace AG
-- Flutter Entertainment: A[ aplicación Flutter InnerSource ](https://innersource.flutter.com/docs/)ten un repositorio de «servizo» de código compartido para as contribucións entre equipos e o fluxo de traballo da CI co fin de crear e publicar un dispositivo de lanzamento compartido. Cada equipo ten un repositorio de «configuración de uso» que define a súa propia implantación. Isto débese a requisitos normativos cambiantes que impulsaron diferentes requisitos normativos, prácticas de xestión de servizos e incidencias e conxuntos de habilidades de infraestrutura en diferentes áreas de negocio. 
+- Flutter Entertainment: A[aplicación Flutter InnerSource](https://innersource.flutter.com/docs/)ten un repositorio de «servizo» de código compartido para as contribucións entre equipos e o fluxo de traballo da CI co fin de crear e publicar un dispositivo de lanzamento compartido. Cada equipo ten un repositorio de «configuración de uso» que define a súa propia implantación. Isto débese a requisitos normativos cambiantes que impulsaron diferentes requisitos normativos, prácticas de xestión de servizos e incidencias e conxuntos de habilidades de infraestrutura en diferentes áreas de negocio.
 
 ## Estado
 

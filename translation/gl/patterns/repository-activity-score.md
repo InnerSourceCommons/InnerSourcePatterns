@@ -124,7 +124,7 @@ A cualificación da actividade do repositorio é un cálculo sinxelo baseado na 
 
 ## Recoñecementos
 
-Grazas á comunidade InnerSource Commons polos consellos rápidos como un lóstrego e moitas aportacións útiles para alimentar este modelo. Especialmente: 
+Grazas á comunidade InnerSource Commons polos consellos rápidos como un lóstrego e moitas aportacións útiles para alimentar este modelo. Especialmente:
 
 * Johannes Tigges
 * Sebastian Spier

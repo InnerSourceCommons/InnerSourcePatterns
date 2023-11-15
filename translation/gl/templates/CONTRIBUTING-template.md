@@ -2,7 +2,7 @@
 
 ## Tipos de contribucións
 
-Nesta sección proporcione información sobre o tipo de contribucións que está a procurar o seu proxecto. Por exemplo, poden ser informes de erros, axuda para responder preguntas dos/as usuarios/as, melloras da documentación, corrixir erros e a posta en marcha de funcionalidades. 
+Nesta sección proporcione información sobre o tipo de contribucións que está a procurar o seu proxecto. Por exemplo, poden ser informes de erros, axuda para responder preguntas dos/as usuarios/as, melloras da documentación, corrixir erros e a posta en marcha de funcionalidades.
 
 ## Informes de erros
 

@@ -25,7 +25,7 @@ Esta sección debe conter unha breve documentación sobre a maneira de obter axu
 
 ## Familiarización
 
-Esta sección debe incluír información breve sobre como entrar en contacto co proxecto; polo xeral, este apartado contén as ligazóns ás canles de comunicación arquivadas e de busca. 
+Esta sección debe incluír información breve sobre como entrar en contacto co proxecto; polo xeral, este apartado contén as ligazóns ás canles de comunicación arquivadas e de busca.
 
 ## Quen somos
 
@@ -38,7 +38,7 @@ Tamén é a sección na que incluír información sobre o que significa ser un/u
 Nesta sección debe documentar (ou incluír unha ligazón á documentación) aqueles aspectos que calquera novo/a contribuidor/a precisa saber para comezar. Polo xeral, non se cubrirán tódolos temas seguintes. Céntrese naquilo que difire no seu proxecto respecto da configuración estándar, así como naquilo que lles resultou difícil de entender aos/ás contribuidores/as anteriores.
 
 - Atopar o código fonte.
-- Atopar unha listaxe de incidencias coas que o seu proxecto precisa axuda que pode ser técnica ou non. Polo xeral, os/as contribuidores/as poden acceder a través dun sistema de seguimento de incidencias. 
+- Atopar unha listaxe de incidencias coas que o seu proxecto precisa axuda que pode ser técnica ou non. Polo xeral, os/as contribuidores/as poden acceder a través dun sistema de seguimento de incidencias.
 - Ligazóns á documentación adicional, por exemplo, sobre a arquitectura do proxecto, convencións xerais de codificación, convencións de proba...
 - Para contribucións técnicas: Facer cambios, construír o proxecto e probar os cambios.
 - Enviar os cambios ao proxecto.

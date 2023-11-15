@@ -38,7 +38,7 @@ Dedícase moito tempo a madurar cada nova funcionalidade engadida, antes de que 
 - A organización inverte considerablemente no fortalecemento das contribucións de novas funcionalidades para manter os estándares de calidade, mesmo antes de que esas ideas sexan exploradas pola comunidade.
 - O modelo aplícase en calquera escenario:
   - Os/As mantedores/as teñen que rexeitar ideas de novas funcionalidades para limitar o alcance do proxecto. Isto está a dificultar a innovación na comunidade e a restrinxir unha expansión maior.
-  - Para reducir as acumulacións, lánzanse novas funcionalidades sen documentación, fortalecemento ou probas exhaustivas; o que xera unha experiencia de usuario/a deficiente. Ademais, isto está a aumentar o tamaño da base de código, un grande engadido no gráfico de dependencia que dificulta o seu mantemento. 
+  - Para reducir as acumulacións, lánzanse novas funcionalidades sen documentación, fortalecemento ou probas exhaustivas; o que xera unha experiencia de usuario/a deficiente. Ademais, isto está a aumentar o tamaño da base de código, un grande engadido no gráfico de dependencia que dificulta o seu mantemento.
 
 ## Aspectos que mellorar
 
@@ -67,7 +67,7 @@ Para que o modelo de extensións teña éxito, haberá que ter en conta algunhas
    - **Probar a extensión en combinación co repositorio primario:** Os/As desenvolvedores/as de extensións teñen un método ben establecido para probar a súa extensión fronte a versións específicas do repositorio primario sen a implicación dos/as mantedores/as do devandito repositorio.
    - **Probar a extensión en combinación con outras extensións:** Proporcionar un marco de proba para este escenario podería resultar excesivo, especialmente se hai un gran número de extensións que aínda están explorando os/as usuarios/as e é improbable que se empreguen todas de xeito combinado. Se un/unha usuario/a se atopa con conflitos ao usar extensións combinadas (o que debería ser improbable cunha baixa dependencia), pode informar dunha incidencia aos/ás respectivos/as *extension owners* para que o resolvan. A medida que unha extensión acade as derradeiras fases do seu ciclo de vida e se integre co repositorio primario, pasará probas combinadas co resto da libraría e calquera incidencia posible resolveríase nese intre.
 5. **Dispoñibilidade e utilización:**
-   - É necesario que os/as usuarios/as que crearon as extensións as mostren nunha páxina de publicación, co fin de compartilas de maneira sinxela para o seu uso. 
+   - É necesario que os/as usuarios/as que crearon as extensións as mostren nunha páxina de publicación, co fin de compartilas de maneira sinxela para o seu uso.
    - Será preciso permitir o rexistro de extensións co proxecto primario, para que os/as usuarios/as poidan valerse das extensións xunto co proxecto orixinal, mantendo así a mesma experiencia de usuario/a.
 6. **Ciclo de vida das extensións e o seu mantemento:** Débese establecer o ciclo de vida das extensións desde a súa creación ata a súa portabilidade á base de código primario, xunto con directrices de propiedade claras.
    - Os/As creadores/as de extensións teñen que continuar o seu mantemento, proporcionar asistencia e corrixir as fallas. Calquera extensión sen mantemento será eliminada da páxina de publicación.

@@ -9,7 +9,7 @@ Nestas situacións, as persoas encargadas do mantemento do proxecto buscan forma
 
 ## Problema
 
-- As persoas encargadas do mantemento de proxectos queren atopar xeitos de incrementar a súa capacidade para brindar apoio a un proxecto. 
+- As persoas encargadas do mantemento de proxectos queren atopar xeitos de incrementar a súa capacidade para brindar apoio a un proxecto.
 - As persoas encargadas do mantemento de proxectos queren atopar xeitos de prolongar o valor que aportou o proxecto.
 - As persoas encargadas do mantemento de proxectos queren recompensar visiblemente aos/ás contribuidores/as frecuentes e capacitalos/as para que melloren o valor das contribucións.
 - Falla de mecanismos e linguaxe para recoñecer as contribucións que levaban a cabo os equipos dunha organización.

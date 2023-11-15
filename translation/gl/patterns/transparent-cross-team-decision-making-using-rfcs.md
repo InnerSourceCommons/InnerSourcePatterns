@@ -93,7 +93,7 @@ Por outra banda, en canto á toma de decisións fóra das puras decisións de de
 
 ## Exemplos coñecidos
 
-- **BBC iPlayer & Sounds**: Tal como se presentou no cume de outono de 2020 de ISC, [*Using Internal RFCs to Enhance Collaboration*](https://www.youtube.com/watch?v=U6zlghE0HcE) [O uso de RFC para promover a colaboración]. 
+- **BBC iPlayer & Sounds**: Tal como se presentou no cume de outono de 2020 de ISC, [*Using Internal RFCs to Enhance Collaboration*](https://www.youtube.com/watch?v=U6zlghE0HcE) [O uso de RFC para promover a colaboración].
 - **Europace:** Como se describe en Open Organization: [*Setting cross-team standards and best practices in the open*](https://github.com/open-organization/open-org-distributed-work-guide/blob/master/drostfromm-remote-first-through-openess.md#setting-cross-team-standards-and-best-practices-in-the-open) [Establecemento de estándares entre equipos e mellores prácticas no marco de decisións aberto].
 - **Uber:** Segundo esta publicación de blog de Gergely Orosz: [*Scaling Engineering Teams via RFCs: Writing Things Down*](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/) [A escalada dos equipos de enxeñaría mediante RFC].
 - **Google Design Docs:** Como se describe na publicación de blog de Malte Ubl: [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)[](https://www.industrialempathy.com/posts/design-docs-at-google/).
