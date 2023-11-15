@@ -15,7 +15,7 @@ No canto diso edite toc_template.md
 * [Explore os modelos](./explore-patterns.md)
 * [Contribúa a este libro](./contribute.md)
 
-![Mapa conceptual dos modelos InnerSource](../../pattern-categorization/gl/innersource-program-mind-map.png)
+![Mapa conceptual dos modelos InnerSource](../../pattern-categorization/innersource-program-mind-map.png)
 
 ## Modelos <a id="p"></a>
 
