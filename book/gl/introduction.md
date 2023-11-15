@@ -65,7 +65,7 @@ Modelos InnerSource de [InnerSourceCommons.org](http://innersourcecommons.org) t
 
 ## Sobre a tradución
 
-Esta tradución á lingua galega foi elaborada pola [AMTEGA](https://amtega.xunta.gal) (Xunta de Galicia). Cofinanciada a través de Fondos Europeos.
+Esta tradución á lingua galega foi elaborada pola [AMTEGA](https://amtega.xunta.gal) (Xunta de Galicia). Cofinanciada a través de Fondos Europeos. Esta iniciativa foi coordinada pola [Oficina de Software Libre](https://amtega.xunta.gal/gl/software-libre).
 
 Distribúese baixo licenza Creative Commons Atribución - Compartir Igual 4.0 Internacional (CC BY-SA 4.0). Pode consultar as condicións desta licenza [aquí](https://creativecommons.org/licenses/by‐sa/4.0/deed.gl).
 
