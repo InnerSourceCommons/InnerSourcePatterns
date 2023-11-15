@@ -23,11 +23,12 @@ No canto diso edite toc_template.md
 
 ## Apéndice
 
-- [Prototipo de modelo](../../meta/gl/pattern-template.md) 
+- [Prototipo de modelo](../../meta/pattern-template.md)
 - Extras
   - [Prototipo README](../../translation/gl/templates/README-template.md)
   - [Prototipo CONTRIBUTING](../../translation/gl/templates/CONTRIBUTING-template.md)
 
 ## Recursos
+
 - [O libro en GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 - [InnerSource Commons](http://innersourcecommons.org)
