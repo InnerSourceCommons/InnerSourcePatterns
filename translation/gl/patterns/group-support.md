@@ -32,7 +32,7 @@ Máis de 50 proxectos de toda a compañía empregan unha libraría de *widgets* 
 
 Convocar voluntarios/as interesados/as de calquera sector da compañía para formar un grupo de [*trusted committers*](./trusted-committer.md) que dean soporte ao proxecto. Pode ser preciso pórse en contacto con individuos específicos, en función do historial de uso e *commits*. É importante que sexan suficientes para que a carga de cada un/unha deles/as sexa razoablemente pequena.
 
-Ao formarse, este grupo debería identificar ou constituír unha [documentación base estándar](./base-documentation.md) e [ferramentas de comunicación](.communication-tooling.md).
+Ao formarse, este grupo debería identificar ou constituír unha [documentación base estándar](./base-documentation.md) e [ferramentas de comunicación](./communication-tooling.md).
 
 O grupo fará o posible para xestionar estes aspectos do proxecto:
 

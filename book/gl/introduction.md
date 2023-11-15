@@ -34,7 +34,7 @@ Os modelos poden proporcionar aos/ás participantes de InnerSource Commons un me
 
 * [Vídeos de Youtube sobre que son os modelos](http://bit.ly/innersource_patterns_videos): Visualice esta serie de vídeos de YouTube de entre 2 e 5 minutos, na que se explican os modelos InnerSource.
 * [Webinario sobre os modelos](https://youtu.be/i-0IVhfRVFU): O 16 de marzo de 2017 levouse a cabo este webinario no que se debateu en vivo un modelo donut (minuto 24:30). É un exemplo do proceso de revisión que seguimos. Tamén pode consultar o [webinario sobre modelos InnerSource de O’Reilly do 1 de xuño de 2017](http://www.oreilly.com/pub/e/3884).
-* [Prototipo de modelo](../../meta/gl/pattern-template.md): Observe a estrutura dun modelo InnerSource para ter unha idea do que acontece nun modelo novo.
+* [Prototipo de modelo](../../meta/pattern-template.md): Observe a estrutura dun modelo InnerSource para ter unha idea do que acontece nun modelo novo.
 * [Introdución aos modelos InnerSource (presentación en inglés do cumio de outono de 2016)](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc), de Tim Yao e Padma Sudarsan (PDF). Expón os antecedentes e algúns exemplos de modelos, e permitiralle comprender en detalle os motivos polos que facer uso dos nosos modelos e como facelo. Consulte tamén a [Introdución aos modelos InnerSource (do cume de outono de 2017)](https://drive.google.com/open?id=0B7_9iQb93uBQWmYwMFpyaGh4OFU) de Tim Yao e Bob Hanmer (PDF).
 
 ## Como pode empregar os modelos InnerSource?
@@ -67,7 +67,7 @@ Modelos InnerSource de [InnerSourceCommons.org](http://innersourcecommons.org) t
 
 Esta tradución á lingua galega foi elaborada pola [AMTEGA](https://amtega.xunta.gal) (Xunta de Galicia). Cofinanciada a través de Fondos Europeos. Esta iniciativa foi coordinada pola [Oficina de Software Libre](https://amtega.xunta.gal/gl/software-libre).
 
-Distribúese baixo licenza Creative Commons Atribución - Compartir Igual 4.0 Internacional (CC BY-SA 4.0). Pode consultar as condicións desta licenza [aquí](https://creativecommons.org/licenses/by‐sa/4.0/deed.gl).
+Distribúese baixo licenza Creative Commons Atribución - Compartir Igual 4.0 Internacional (CC BY-SA 4.0). Pode consultar as condicións desta licenza [aquí](https://creativecommons.org/licenses/by-sa/4.0/deed.gl).
 
 **Autoras da tradución:**
 
