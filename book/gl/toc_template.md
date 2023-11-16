@@ -23,7 +23,7 @@ No canto diso edite toc_template.md
 
 ## Apéndice
 
-- [Prototipo de modelo](../../meta/pattern-template.md)
+- [Prototipo de modelo](../../translation/gl/templates/pattern-template.md)
 - Extras
   - [Prototipo README](../../translation/gl/templates/README-template.md)
   - [Prototipo CONTRIBUTING](../../translation/gl/templates/CONTRIBUTING-template.md)
