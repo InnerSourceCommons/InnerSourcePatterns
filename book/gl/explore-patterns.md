@@ -6,7 +6,7 @@ Pero, como facilitar que os/as lectores/as descubran os modelos que poden axudal
 
 Para isto proporcionamos este mapa conceptual, que **clasifica os modelos en función das diferentes fases dun programa InnerSource** e dos desafíos que poden xurdir nas respectivas fases.
 
-![Mapa conceptual dos modelos InnerSource](../../pattern-categorization/innersource-program-mind-map.png)
+![Mapa conceptual dos modelos InnerSource](../../pattern-categorization/gl/innersource-program-mind-map.png)
 
 ## Mellore este mapa conceptual
 
