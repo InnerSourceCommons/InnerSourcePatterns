@@ -11,9 +11,9 @@ on:
       - "pattern-categorization/package.json"
       - "pattern-categorization/gl/*"
 
-defaults:
-  run:
-    working-directory: pattern-categorization
+# defaults:
+#   run:
+#     working-directory: pattern-categorization
 
 jobs:
   generate-mindmap:
@@ -33,7 +33,9 @@ jobs:
         cache: 'npm'
         cache-dependency-path: pattern-categorization/package-lock.json
     - name: Install Node.js dependencies
-      run: npm install
+      run: |
+        cd pattern-categorization
+        npm install
 
     - name: Run Markmap
       run: npx markmap --no-toolbar ${{ matrix.folder }}/innersource-program-mind-map.md -o ${{ matrix.folder }}/innersource-program-mind-map.html
