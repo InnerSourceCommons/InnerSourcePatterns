@@ -25,6 +25,7 @@ While they don't take all responsibilities of a Trusted Committer (yet), they do
 * Japanese - [@yuhattor](https://github.com/yuhattor)
 * Chinese - [@WillemJiang](https://github.com/WillemJiang)
 * Brazilian Portuguese - [@jrcosta](https://github.com/jrcosta), [@zilio](https://github.com/zilio)
+* Galician - [@psanxiao](https://github.com/psanxiao)
 
 ## Hall of Fame (aka Alumni)
 
