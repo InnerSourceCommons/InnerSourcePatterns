@@ -21,7 +21,7 @@ jobs:
 
     strategy:
       matrix:
-        folder: ["pattern-categorization", "pattern-categorization/gl"]
+        folder: [".", "./gl"]
 
     steps:
 
@@ -38,7 +38,9 @@ jobs:
         npm install
 
     - name: Run Markmap
-      run: npx markmap --no-toolbar ${{ matrix.folder }}/innersource-program-mind-map.md -o ${{ matrix.folder }}/innersource-program-mind-map.html
+      run: |
+        cd pattern-categorization
+        npx markmap --no-open --no-toolbar ${{ matrix.folder }}/innersource-program-mind-map.md -o ${{ matrix.folder }}/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
       uses: swinton/screenshot-website@v1.x
