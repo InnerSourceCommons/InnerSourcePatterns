@@ -17,6 +17,11 @@ defaults:
 jobs:
   generate-mindmap:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        folder: ["."]
+
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js
@@ -28,19 +33,19 @@ jobs:
     - name: Install Node.js dependencies
       run: npm install
     - name: Run Markmap
-      run: npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
+      run: npx markmap --no-toolbar ${{ matrix.language }}/innersource-program-mind-map.md -o ${{ matrix.language }}/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
       uses: swinton/screenshot-website@v1.x
       with:
-        source: pattern-categorization/innersource-program-mind-map.html
+        source: ${{ matrix.language }}/innersource-program-mind-map.html #pattern-categorization/
         destination: innersource-program-mind-map.png
         full-page: false
     - name: Copy Screenshot
-      run: cp ${{ steps.screenshot-generator.outputs.path }} .
+      run: cp ${{ steps.screenshot-generator.outputs.path }} ${{ matrix.language }}
     - name: Reduce Screenshot Size (PNG)
-      run: npx optipng innersource-program-mind-map.png
-    - name: Commit Changes
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Re-creating markmap and screenshot
+      run: npx optipng ${{ matrix.language }}/innersource-program-mind-map.png
+    # - name: Commit Changes
+    #   uses: stefanzweifel/git-auto-commit-action@v4
+    #   with:
+    #     commit_message: Re-creating markmap and screenshot
