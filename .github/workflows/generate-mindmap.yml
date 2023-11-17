@@ -39,7 +39,7 @@ jobs:
       id: screenshot-generator
       uses: swinton/screenshot-website@v1.x
       with:
-        source: ${{ matrix.folder }}/innersource-program-mind-map.html #pattern-categorization/
+        source: pattern-categorization/${{ matrix.folder }}/innersource-program-mind-map.html
         destination: innersource-program-mind-map.png
         full-page: false
     - name: Copy Screenshot
