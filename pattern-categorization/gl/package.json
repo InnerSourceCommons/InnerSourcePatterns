@@ -1,0 +1,22 @@
+{
+  "name": "pattern-mindmap-generator",
+  "version": "0.0.1",
+  "description": "Generate mindmap of the patterns in our book, using markmap.",
+  "dependencies": {
+    "markmap-cli": ">=0.13.3",
+    "optipng-bin": "^9.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnerSourceCommons/InnerSourcePatterns.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnerSourceCommons/InnerSourcePatterns/issues"
+  },
+  "homepage": "https://github.com/InnerSourceCommons/InnerSourcePatterns#readme",
+  "private": true
+}
