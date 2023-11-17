@@ -40,7 +40,7 @@ jobs:
       id: screenshot-generator
       uses: swinton/screenshot-website@v1.x
       with:
-        source: pattern-categorization/${{ matrix.folder }}/innersource-program-mind-map.html
+        source: pattern-categorization/${{ matrix.folder }}/innersource-program-mind-map.html #strange syntax here. seems to not respect the working-directory default either
         destination: innersource-program-mind-map.png
         full-page: false
     - name: Copy Screenshot
