@@ -46,7 +46,7 @@ jobs:
       uses: swinton/screenshot-website@v1.x
       with:
         source: ${{ matrix.folder }}/innersource-program-mind-map.html
-        destination: ${{ matrix.folder }}/innersource-program-mind-map.png
+        destination: innersource-program-mind-map.png
         full-page: false
     - name: Copy Screenshot
       run: cp ${{ steps.screenshot-generator.outputs.path }} ${{ matrix.folder }}
