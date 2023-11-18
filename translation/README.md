@@ -62,3 +62,16 @@ They will then get notified on any fixes/additions to the translation in the fut
 When you complete a translation under `/translation/<YOUR_LANGUAGE>/`, a GitHub Actions pipeline will run to generate the output for publication in the gitbook. The process is described in detail in [/book/README.md](/book/README.md).
 
 [^1]: Replace `<YOUR_LANGUAGE>` with the [2-letter ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language.
+
+## Maintainer Section
+
+This documentation contains information that is only relevant for maintainers of this repo.
+If you are just creating a new translation you do not need this information!
+
+**If you are a maintainer of this repo, keep reading :)**
+
+When a new translation is added, there are a couple of tasks to do:
+
+a) determine a translation lead, and add them to the relevant files. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/commit/95b8fc76b64909af5e95bf93fad6e7c105307812)
+b) update the GitHub Actions that generate book. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/commit/241bdf2a12c8750c66e71865a770d321cca67511)
+c) update the GitHub Actions that generate performs the consistency checks. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/619/commits/fce53091faac83b99de8d699d7672a44810408f0)
