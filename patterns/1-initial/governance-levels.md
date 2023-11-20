@@ -74,6 +74,8 @@ Examples of promoting the model names (3) are:
 - Presenting the names as a menu of adoption options for new InnerSource projects.
 - Including the names and models in any internal InnerSource training or promotion.
 
+![image](https://user-images.githubusercontent.com/70953/197144534-42dafb93-9d2d-46d1-a1f2-e7a70e593f6c.png)
+
 ## Resulting Context
 
 - Cross team communication occurs efficiently without confusion using terms that are universally understood and centrally documented.
