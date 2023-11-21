@@ -1,6 +1,7 @@
 name: Generate Mindmap
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - "main"
@@ -9,6 +10,7 @@ on:
       - ".github/workflows/generate-mindmap.yml"
       - "pattern-categorization/innersource-program-mind-map.md"
       - "pattern-categorization/package.json"
+      - "pattern-categorization/gl/*"
 
 defaults:
   run:
@@ -17,29 +19,34 @@ defaults:
 jobs:
   generate-mindmap:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        folder: [".", "./gl"]
+
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Use Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-        node-version: 12.x
+        node-version: 16
         cache: 'npm'
         cache-dependency-path: pattern-categorization/package-lock.json
     - name: Install Node.js dependencies
       run: npm install
     - name: Run Markmap
-      run: npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
+      run: npx markmap --no-toolbar ${{ matrix.folder }}/innersource-program-mind-map.md -o ${{ matrix.folder }}/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
       uses: swinton/screenshot-website@v1.x
       with:
-        source: pattern-categorization/innersource-program-mind-map.html
+        source: pattern-categorization/${{ matrix.folder }}/innersource-program-mind-map.html #strange syntax here. seems to not respect the working-directory default either
         destination: innersource-program-mind-map.png
         full-page: false
     - name: Copy Screenshot
-      run: cp ${{ steps.screenshot-generator.outputs.path }} .
+      run: cp ${{ steps.screenshot-generator.outputs.path }} ${{ matrix.folder }}
     - name: Reduce Screenshot Size (PNG)
-      run: npx optipng innersource-program-mind-map.png
+      run: npx optipng ${{ matrix.folder }}/innersource-program-mind-map.png
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:

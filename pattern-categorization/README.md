@@ -10,13 +10,19 @@ This first categorization effort uses a mind map to categorize patterns based on
 
 In the mind map you will see patterns categorized from left to right in increasing levels of detail.
 
-The logic for these levels is (from left to right):
+```mermaid
+graph LR
+    L0(L0 InnerSource Program) --> L1(L1 Phase) --> L2(L2 Problem Category)
+    L2(L2 Problem Category) --> L3(L3 Specific Problem) --> L4("L4 Pattern (Solution)")
+````
 
-- level 0: the InnerSource program itself (as the root)
-- level 1: phase of an InnerSource Program (begin/adopt/grow/scale)
-- level 2: problem category
-- level 3: specific problem occurring in an InnerSource context
-- level 4: pattern (solution to the problem)
+The logic for these levels is:
+
+- L0: the InnerSource program itself (as the root)
+- L1: phase of an InnerSource Program (begin/adopt/grow/scale)
+- L2: problem category
+- L3: specific problem occurring in an InnerSource context
+- L4: pattern (solution to the problem)
 
 ## Adding a Pattern to the Mind Map
 
@@ -29,8 +35,15 @@ To test your changes locally, you can also generate the mind map yourself like t
 We are using `node 12.x` at the moment.
 
 ```
+# install the markmap CLI
 npm install -g markmap-cli
-npx markmap --no-toolbar innersource-program-mind-map.md
+
+# then generate the mindmap (it will open in your browser automatically)
+npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
+
+# to generate the mindmap for a different language, run the script on the files in the respetive subfolder.
+# e.g. for Galician (`gl`)
+npx markmap --no-toolbar gl/innersource-program-mind-map.md -o gl/innersource-program-mind-map.html
 ```
 
 ## Future Ideas for Categorization

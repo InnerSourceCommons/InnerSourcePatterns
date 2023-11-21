@@ -22,6 +22,8 @@ This pattern applies very widely from InnerSource initiatives in their infancy s
 
 ## Forces
 
+Against:
+
 * People do not like to be tracked or measured.
 * There is no canonical monitoring infrastructure for the software development process. Furthermore, such infrastructure is hard to build or to get funding for.
 * There is not a culture of software development metrics.
@@ -32,7 +34,15 @@ This pattern applies very widely from InnerSource initiatives in their infancy s
 * Some organizations in some countries may face extra complexity when introducing metrics as the countries may not allow tracking individuals.
 * There might be a learning curve in the discussion about metrics. And perhaps the tools do not support the InnerSource metrics we are looking for.
 
+In favor:
+
+* Management needs to understand how InnerSource is impacting development. Metrics allow for accurate visualizations.
+* There are several industry standards for monitoring the software development process (e.g. [DORA](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance), [CHAOSS](https://chaoss.community/)).
+* There are many tools providing metrics for monitoring the software development process and the software product.
+
 ## Solution
+
+### Manage people's needs
 
 Bring developers, middle managers and C-level to have a discussion about metrics. And consider other roles out of the usual development process such as Human Resources, legal departments, product management, and others.
 
@@ -40,9 +50,14 @@ Let developers and middle managers know that these metrics or KPIs are not focus
 
 Consider a third party that is seen as a neutral player to produce such metrics.
 
+### Approach professionally
+
 Have specific training on the topic of metrics and good practices to use them. An example is to have a methodology to follow metrics such as the Goal-Question-Metric approach or the Objectives-KeyResults one. On the other hand, try to reflect the short-term and medium-term goals in the metrics to be used.
 
-Metrics when published or discussed should be done so in the aggregate without referring to specific people.
+When publishing or discussing metrics they should be
+
+* aggregated - without referring to specific people
+* watching out for outliers
 
 Produce a characterization of metrics as this might be helpful for others to understand and follow.
 
@@ -77,7 +92,7 @@ Continued monitoring of these metrics will help middle management and developers
 
 ## Known Instances
 
-TBD
+* **Santander Bank**
 
 ## Status
 
@@ -91,6 +106,7 @@ Initial
 - Russ Rutledge
 - Tom
 - Jack Yang
+- Igor Zubiaurre
 
 ## Acknowledgement
 
@@ -98,3 +114,6 @@ Initial
 - Bob
 - [Aaron Stewart](https://github.com/a-a-ron/innersource-template-pluralsight/tree/master/metrics)
 - Wilson Mar
+- Addie Girouard
+- Alberto Pérez García-Plaza
+- Daniel Izquierdo Cortázar

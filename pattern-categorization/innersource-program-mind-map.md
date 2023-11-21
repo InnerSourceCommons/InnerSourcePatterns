@@ -38,6 +38,12 @@
 
 ##### [Cross-Team Project Valuation](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
 
+#### Can we rely on the project for an extended period?
+
+##### [Standard Release Process](https://patterns.innersourcecommons.org/p/release-process)
+
+##### [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
+
 ### Cultural Challenges
 
 #### Unrecognized effort
@@ -90,6 +96,8 @@
 
 ##### [Core Team](https://patterns.innersourcecommons.org/p/core-team)
 
+##### [Group Support](https://patterns.innersourcecommons.org/p/group-support)
+
 ### Cross Legal Entities Challenges
 
 #### Concern on legal liabilities or cross-company accounting
@@ -121,3 +129,9 @@
 #### Lack of open source knowledge
 
 ##### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)
+
+### Technical Challenges
+
+#### Increasing maintenance overhead
+
+##### [Extensions for Sustainable Growth](https://patterns.innersourcecommons.org/p/extensions-for-sustainable-growth)
