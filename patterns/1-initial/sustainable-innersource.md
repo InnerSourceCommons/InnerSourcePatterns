@@ -12,6 +12,9 @@ Given an InnerSource programme and/or community has been started within your org
 
 ## Context
 
+* The problem exists in fledgling InnerSource programmes/communities
+* You may not have full time support from an InnerSource or Open Source Programme Office (ISPO/OSPO)
+* There is no clear vision on the future of the programme
 * You are worried that key people will move on to new roles, momentum will be lost and silently die, or future leaders will stop supporting InnerSource.
 * You are an individual or organization who is concerned with the fragile state and future of highly-used and impactful InnerSource projects.
 [1] Sustain. 2017. [https://sustainoss.org/assets/pdf/SustainOSS-west-2017-report.pdf](https://sustainoss.org/assets/pdf/SustainOSS-west-2017-report.pdf)
@@ -19,10 +22,8 @@ Given an InnerSource programme and/or community has been started within your org
 
 ## Forces
 
-* The problem exists in fledgling InnerSource programmes/communities
-* You do not have full time support from an InnerSource or Open Source Programme Office (ISPO/OSPO)
-* You may be reliant on key people to keep InnerSource going
-* There is no clear vision on the future of the programme
+* The business may not believe further investment in InnerSource is necessary
+* Key individuals may be seeking new challenges in other initiatives or job roles
 
 ## Solutions
 
