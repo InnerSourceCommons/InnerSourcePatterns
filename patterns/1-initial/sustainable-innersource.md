@@ -12,7 +12,7 @@ Given an InnerSource programme and/or community has been started within your org
 
 ## Context
 
-* The problem exists in fledgling InnerSource programmes/communities
+* The problem exists in fledgling InnerSource programs/communities
 * You may not have full time support from an InnerSource or Open Source Programme Office (ISPO/OSPO)
 * There is no clear vision on the future of the programme
 * You are worried that key people will move on to new roles, momentum will be lost and silently die, or future leaders will stop supporting InnerSource.
