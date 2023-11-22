@@ -6,7 +6,7 @@ Agora, como tornar mais fácil para os leitores descobrirem os padrões que pode
 
 Para esse propósito, fornecemos este mapa mental. Ele **classifica os padrões com base nas diferentes fases de um Programa InnerSource** e nos desafios que podem surgir nas respectivas fases.
 
-![Mapa Mental dos Padrões InnerSource](../../pattern-categorization/innersource-program-mind-map.png)
+![Mapa Mental dos Padrões InnerSource](../../pattern-categorization/pt-br/innersource-program-mind-map.png)
 
 ## Melhore este Mapa Mental
 
