@@ -1,6 +1,6 @@
 ## Title
 
-Sustainable InnerSource Programme
+Sustainable InnerSource Program
 
 ## Patlet
 
