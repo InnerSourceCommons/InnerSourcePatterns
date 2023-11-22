@@ -18,7 +18,7 @@ Given an InnerSource program and/or community has been started within your organ
 * You are worried that key people will move on to new roles, momentum will be lost and silently die, or future leaders will stop supporting InnerSource.
 * You are an individual or organization who is concerned with the fragile state and future of highly-used and impactful InnerSource projects.
 [1] Sustain. 2017. [https://sustainoss.org/assets/pdf/SustainOSS-west-2017-report.pdf](https://sustainoss.org/assets/pdf/SustainOSS-west-2017-report.pdf)
-* There is increasing quantity and decreasing quality of InnerSource projects at your organization are changing.
+* There is increasing quantity and decreasing quality of InnerSource projects at your organization.
 
 ## Forces
 
