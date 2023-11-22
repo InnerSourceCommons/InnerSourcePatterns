@@ -4,7 +4,7 @@ Sustainable InnerSource Programme
 
 ## Patlet
 
-I've started an InnerSource programme - what next? How do I ensure InnerSource remains a part of how we create software in the long term.
+I've started an InnerSource program - what next? How do I ensure InnerSource remains a part of how we create software in the long term?
 
 ## Problem
 
