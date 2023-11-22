@@ -11,6 +11,7 @@ on:
       - "pattern-categorization/innersource-program-mind-map.md"
       - "pattern-categorization/package.json"
       - "pattern-categorization/gl/*"
+      - "pattern-categorization/pt-br/*"
 
 defaults:
   run:
@@ -22,7 +23,7 @@ jobs:
 
     strategy:
       matrix:
-        folder: [".", "./gl"]
+        folder: [".", "./gl", "./pt-br"]
 
     steps:
     - uses: actions/checkout@v3

@@ -15,7 +15,7 @@ Em vez disso, edite toc_template.md
 * [Explorar Padrões](./explore-patterns.md)
 * [Contribuir para Este Livro](./contribute.md)
 
-![Mapa Mental dos Padrões InnerSource](../../pattern-categorization/innersource-program-mind-map.png)
+![Mapa Mental dos Padrões InnerSource](../../pattern-categorization/pt-br/innersource-program-mind-map.png)
 
 ## Padrões <a id="p"></a>
 
