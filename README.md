@@ -108,7 +108,7 @@ This is why we keep these patterns at the bottom of the list.
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
 * [Incentive mechanisms to foster voluntary contribution](patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md)
 * [Duplicated Projects](patterns/1-initial/duplicated-projects.md)
-* [Sustainable InnerSource Programme](patterns/1-initial/sustainable-innersource.md)
+* [Sustainable InnerSource Programme](patterns/1-initial/sustainable-innersource-program.md)
 
 ## What are InnerSource Patterns?
 
