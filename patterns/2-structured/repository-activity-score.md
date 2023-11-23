@@ -115,6 +115,7 @@ The repository activity score is a simple calculation based on the GitHub API. I
 ## Known Instances
 
 * Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to the InnerSource Commons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
+* Airbus took a lot of inspiration from this pattern to create an "InnerSource score" that combines the activity score together with checks from the [Standard Base Documentation](../project-setup/base-documentation.md) and the [InnerSource License](./innersource-license.md).
 
 ## Status
 

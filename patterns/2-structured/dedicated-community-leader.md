@@ -59,6 +59,7 @@ Having excellent and dedicated community leaders is a precondition for the succe
 ## Known Instances
 
 * _BIOS at Robert Bosch GmbH_. Note that InnerSource at Bosch was, for the majority, aimed at increasing innovation and to a large degree dealt with internal facing products. This pattern is currently not used at Bosch for lack of funding.
+* _Airbus_. A data scientist wanted to improve the collaboration with peers in the group and found: i) many developers (beyond data science) wanted that too and were happy someone was taking care of the issue, and ii) support from line manager and middle management to eventually act as the *de facto* community leader, on top of his regular line of duty.
 
 ## Alias
 
