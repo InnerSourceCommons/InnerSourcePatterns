@@ -46,7 +46,7 @@ Instead edit toc_template.md
 
 ## Adopters
 
-* [Europace](adopters/europace.md)
+* [Europace](../../adopters/europace.md)
 
 ## Appendix
 
