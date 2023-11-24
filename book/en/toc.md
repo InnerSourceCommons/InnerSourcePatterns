@@ -46,6 +46,7 @@ Instead edit toc_template.md
 
 ## Adopters
 
+* [Airbus](../../adopters/airbus.md)
 * [Europace](../../adopters/europace.md)
 
 ## Appendix
