@@ -54,6 +54,7 @@ The license simplifies the conversations within our organization about sharing s
 
 - **DB Systel**
 - **Robert Bosch GmbH**
+- **Airbus**
 
 ## DB Systel
 
@@ -71,6 +72,8 @@ The mentioned collaboration challenges include:
 - building communities for collaboration on projects, just like in Open Source
 
 It is worth mentioning that so far the software shared under this InnerSource license is mostly tooling, infrastructure, and tools lower in the stack.
+
+## Airbus
 
 Airbus created ad hoc InnerSource licenses to enable InnerSource way of working within a large part of the group.
 
