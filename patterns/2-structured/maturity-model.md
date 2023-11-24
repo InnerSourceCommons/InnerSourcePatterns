@@ -213,6 +213,7 @@ long term.
 * Entelgy
 * Zylk
 * Bitergia
+* Airbus
 
 ## Authors
 

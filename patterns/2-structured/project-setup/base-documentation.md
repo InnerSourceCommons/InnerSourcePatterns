@@ -128,6 +128,7 @@ started right away.
 * Paypal Inc.
 * Mercado Libre - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBUTING, CODING_GUIDELINES, etc).
 * Analog Devices Inc.
+* Airbus
 
 ## Authors
 
