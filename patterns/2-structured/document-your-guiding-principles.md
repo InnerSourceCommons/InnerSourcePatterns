@@ -4,21 +4,21 @@ Document your Guiding Principles
 
 ## Patlet
 
-The usual InnerSource explanation of "applying open source best practices inside an organisation" does not work well with people lacking an open source background.
+The usual InnerSource explanation of "applying open source best practices inside an organization" does not work well with people lacking an open source background.
 As a remedy the most important principles of InnerSource get documented and published widely.
 
 ## Problem
 
-The organisation is trying to roll out InnerSource at a larger scale.
+The organization is trying to roll out InnerSource at a larger scale.
 The initiative started among open source enthusiasts.
 The goal is now to get buy-in from people that are lacking open source experience.
 For that audience the typical slogan of "applying open source best practices" is no longer sufficient to transport the message of what InnerSource is, which problems it solves and which tools it uses for solving these issues.
-As a result InnerSource adoption in the organisation slows down.
+As a result InnerSource adoption in the organization slows down.
 Teams develop diverging ideas of what the goals of InnerSource is about and how to best implement it leading to confusion when contributors are starting to cross team boundaries.
 
 ## Story
 
-Early experiments in an organisation have shown that open source collaboration best practices can be beneficial.
+Early experiments in an organization have shown that open source collaboration best practices can be beneficial.
 The next step now is to move the initiative to teams and individuals lacking a deep background in open source.
 
 The goal now is to clearly communicate the goals of the InnerSource initiative
@@ -32,27 +32,27 @@ as well as a clear path towards achieving these goals.
 ## Forces
 
 * Teams have trouble communicating exactly what the important aspects of InnerSource are.
-* People lacking open source experience fail to understand what it means to bring open source best practices into the organisation.
+* People lacking open source experience fail to understand what it means to bring open source best practices into the organization.
 * On a daily basis teams trying to follow InnerSource best practices have a hard time deciding if what they are doing is inline with general InnerSource values.
 
 ## Solution
 
-Those driving the InnerSource initiative in the organisation need to help the teams and individuals that are lacking a deep background in open source, and therefore have a less intuitive understanding of InnerSource.
+Those driving the InnerSource initiative in the organization need to help the teams and individuals that are lacking a deep background in open source, and therefore have a less intuitive understanding of InnerSource.
 
 Clarity should be provided to teams and individuals by documenting these two areas:
 
-1. **Purpose** - Why does the organisation want to adopt InnerSource?
+1. **Purpose** - Why does the organization want to adopt InnerSource?
 2. **Principles** - Which InnerSource principles will help to address these challenges?
 
 The following sections provide more details about both of these, meant as possible starting points to document them for your organization.
 
-### Why does the organisation want to adopt InnerSource?
+### Why does the organization want to adopt InnerSource?
 
-In the past InnerSource has proven to be successful to solve several issues commonly found in organisations.
+In the past InnerSource has proven to be successful to solve several issues commonly found in organizations.
 
 However which organizational challenges does your organization hope to improve upon using InnerSource?
 
-Instead of going for generalizations, try to exactly identify the solutions that match the challenges of your organisation - preferably with those affected by the change you want to see.
+Instead of going for generalizations, try to exactly identify the solutions that match the challenges of your organization - preferably with those affected by the change you want to see.
 
 Some challenges that others have addressed by following InnerSource best practices:
 
@@ -71,9 +71,9 @@ Once teams understand which problems InnerSource will help them address, the nex
 
 Based on basic open source development principles the following guidelines have been proven successful:
 
-(1) Code must be transparently hosted within the organisation
+(1) Code must be transparently hosted within the organization
 
-Source code, documentation, data relevant for project development must be available and easy to find for anyone in the organisation.
+Source code, documentation, data relevant for project development must be available and easy to find for anyone in the organization.
 
 (2) Contributions over feature requests
 
@@ -84,7 +84,7 @@ Projects provide contribution guidelines to avoid friction.
 
 (3) Mistakes are opportunities for learning
 
-With work visible across the entire organisation any mistake is visible to everyone.
+With work visible across the entire organization any mistake is visible to everyone.
 As a result a culture must be established in which mistakes are opportunities for learning instead of failure that should be avoided at all cost.
 
 (4) Written over verbal communication
@@ -104,7 +104,7 @@ Previous communication needs to be stored in a way that can easily be searched.
 Two caveats though:
 
 1. This does not replace structured documentation. It can serve as a starting point to collect structured documentation though.
-2. There are exceptions to the rule of everything being written and accessible to the entire organisation: People related discussions as well as security related discussions are sensitive and should not be held in public.
+2. There are exceptions to the rule of everything being written and accessible to the entire organization: People related discussions as well as security related discussions are sensitive and should not be held in public.
 
 (6) Reward Trusted Committership
 
@@ -114,17 +114,21 @@ All Trusted Committers of a project are published.
 
 ## Resulting Context
 
-* Organisation members understand which challenges they can address by applying InnerSource best practices.
-* Organisation members lacking prior open source experience understand the basic values and principles of InnerSource projects.
-* Organisation members lacking prior open source experience are able to check their daily activities against a set of common established values.
-* The organisation's development practices become more similar to open source projects thus making it easier for organisation members to participate in open source projects.
+* Organization members understand which challenges they can address by applying InnerSource best practices.
+* Organization members lacking prior open source experience understand the basic values and principles of InnerSource projects.
+* Organization members lacking prior open source experience are able to check their daily activities against a set of common established values.
+* The organization's development practices become more similar to open source projects thus making it easier for organization members to participate in open source projects.
 
 ## Known Instances
 
+* Europace AG
+* GitHub
+* Robert Bosch GmbH
+
 ### Europace AG
 
-The InnerSource principles listed in the Solution above are mostly based on Europace's experience.
-For more details see [Europace InnerSource Prinzipien](https://tech.europace.de/post/europace-inner-source-prinzipien/) (in German).
+The InnerSource principles listed in the Solution section above are mostly based on Europace's experience.
+See [details](https://tech.europace.de/post/europace-inner-source-prinzipien/) (in German).
 
 ### GitHub
 
@@ -202,7 +206,7 @@ Structured
 * Isabel Drost-Fromm
 * Georg Grütter
 
-## Acknowledgements
+## Acknowledgments
 
 * Zack Koppert - for sharing GitHub's approach in the Known Instances
 

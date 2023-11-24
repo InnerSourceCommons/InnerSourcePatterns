@@ -69,15 +69,15 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 * **Elbit Systems** has used this pattern and added gamification on top.
   * [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
   * Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
-  * The code realizing this platform has been open sourced and is available at [gitlab.com/gilda2](https://gitlab.com/gilda2)
+  * The [code](https://gitlab.com/gilda2) realizing this platform has been open sourced.
 * **American Airlines** promotes InnerSource projects via an [internal InnerSource Marketplace](https://tech.aa.com/2020-10-30-innersource/). Similarly to SAP, projects self-register by adding `innersource` as a GitHub topic. Projects are searchable and filterable by language, topics, number of open issues, etc.
 * **Banco Santander** has created a public portal called "Santander ONE Europe InnerSource Community" to support and increase InnerSource adoption. In addition to the catalog of projects the portal includes relevant content such as documentation, way of working, news, and events.
 
 ![Santander InnerSource Portal](../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
 
-* **Airbus** deployed the [SAP portal](https://github.com/SAP/project-portal-for-innersource) with minor modifications to match Airbus graphical identity. In addition, the [Python crawler](https://github.com/zkoppert/innersource-crawler) was patched to work with GitHub Enterprise instances.
-
+* **Airbus** used the [SAP Portal](https://github.com/SAP/project-portal-for-innersource) as a Proof of Concept. It is now using the [Bazaar plugin](https://github.com/backstage/backstage/blob/master/plugins/bazaar/README.md) of [Backstage](https://backstage.io) as the latter became the official developer experience tool internally. It provides a convenient self-registering capability for all the divisions.
 * **Mercado Libre** use an instance of the [SAP portal](https://github.com/SAP/project-portal-for-innersource) to discover existing InnerSource projects within the organization.
+* **Mercedes-Benz** is [using](https://opensource.mercedes-benz.com/news/sponsor_innersource_commonsoss) the SAP reference implementation mentioned above for their InnerSource Portal.
 
 ## References
 
@@ -91,7 +91,7 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 
 * Stephen McCall
 
-## Acknowledgements
+## Acknowledgments
 
 * Shelly Nizri
 * Melinda Malmgren

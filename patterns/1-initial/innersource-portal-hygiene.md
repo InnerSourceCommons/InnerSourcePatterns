@@ -6,7 +6,7 @@ InnerSource Portal - Hygiene
 
 Based off the [InnerSource portal](../2-structured/innersource-portal.md) pattern.
 
-Allow generation of an official badge for projects intending to be recognised as InnerSource project within your company.
+Allow generation of an official badge for projects intending to be recognized as InnerSource project within your company.
 
 This will help users distinguishing InnerSource projects which strive to adhere to InnerSourcing principals from repos that - have been made public by mistake, due to negligence or for ease of discoverability (but do NOT adhere to InnerSource patterns/best practices). Furthermore the badge serves as additional marketing for the InnerSource initiative at your company.
 
@@ -17,7 +17,7 @@ This will help users distinguishing InnerSource projects which strive to adhere 
 
 ## Context
 
-Large organisation with lots of public repos, not all necessarily meeting the desired innerSource project standard.
+Large organization with lots of public repos, not all necessarily meeting the desired innerSource project standard.
 
 ## Forces
 
@@ -57,7 +57,7 @@ The last step is for users update there repos `README.md` file to include the ba
 Query InnerSource projects which have an expired badge. Delete badge file causing the badge to not appear in the repos rendered README anymore.
 - Notify projects approaching expiry.  
 Query InnerSource projects which have a badge close to expiration. Send a notification to the InnerSource projects code owners, publish an issue to the repo, publish a message in the InnerSource channel on Teams. This should be ample warning to go update the badge.
-- Bonus: Notify owners of public repos not registered as InnerSource projects yet to either make their repos private or to consider registering their repo as an innerSource project. This isn't entirely related to hygiene of the InnerSource portal rather general hygiene of all repos in your organisations SCM system. Also servers as excellent marketing and awareness generation for your organisations InnerSource initiative.
+- Bonus: Notify owners of public repos not registered as InnerSource projects yet to either make their repos private or to consider registering their repo as an innerSource project. This isn't entirely related to hygiene of the InnerSource portal rather general hygiene of all repos in your organizations SCM system. Also servers as excellent marketing and awareness generation for your organizations InnerSource initiative.
 
 ## Resulting Context
 

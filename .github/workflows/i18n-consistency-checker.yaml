@@ -1,0 +1,89 @@
+# -------------------------
+# To add a new language, do the following:
+# - add the 2-letter language code in matrix.language
+# - add the flag and language name that you want to use at the beginning of the #check-consistency step
+# -------------------------
+name: i18n Consistency Check
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # run at midnight, on day 1 of the month
+  workflow_dispatch:
+
+jobs:
+  consistency-check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language: [ja, zh, pt-br, gl]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+      - name: Check consistency and create issue
+        id: check-consistency
+        run: |
+          # Declare the flags
+          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician")
+        
+          issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
+        
+          # Heredoc for issue header
+          cat <<- EOM > issue.md
+          # i18n Contents Consistency Issue
+        
+          The following files may have consistency issues with the English version. Please check and update the files.
+        
+          This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
+          EOM
+        
+          # Loop through all files in the English directory
+          for file in $(find patterns/{2-structured,3-validated} -name '*.md'); do
+            [[ $file =~ "3-validated" ]] && continue # if the file is under 3-validated, skip (one liner) - 2023/08/26
+            i18n_filename=$(echo "$file" | sed "s/patterns\/\(2-structured\|3-validated\)/translation\/${{matrix.language}}\/patterns/g")
+            
+            if [[ ! -e "$i18n_filename" ]]; then
+              continue
+            fi
+        
+            original_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $file)" +%s)
+            i18n_content_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $i18n_filename)" +%s)
+        
+            if [[ $((original_updated_at - i18n_content_updated_at)) -ge 1 ]]; then
+              content_header=$(grep -E '^title+' "$file" | sort -r | head -n1)
+              content_title=$(echo "$content_header" | sed 's/title: //g')
+
+              content_title=$(awk '/## Title/{flag=1; next} /##/{flag=0; exit} flag{printf "%s", $0}' "$file")
+              days_since_overdue_updates=$(( ($(date +%s) - original_updated_at) / 60 / 60 / 24 ))
+              original_last_update_hash=$(git log -1 --format=%H $file)
+              parent_hash=$(git log -1 --format=%P $original_last_update_hash)
+              result=$(git diff "${parent_hash}" HEAD "$file" | sed '1,4 s/^/# /')
+        
+              # Append to the issue.md file
+              cat <<- EOM >> issue.md
+          <details><summary><b>$content_title</b> ($file)</summary>
+          
+          For more information, please compare [the original file(en)](https://github.com/$GITHUB_REPOSITORY/blob/master/$file) with [the translated file](https://github.com/$GITHUB_REPOSITORY/blob/master/$i18n_filename). You can view [the differences](https://github.com/$GITHUB_REPOSITORY/compare/$i18n_last_update_hash...$original_last_update_hash) on GitHub. The number of days since overdue updates is **$days_since_overdue_updates** days.
+              
+          \`\`\`diff
+          $result
+          \`\`\`
+          </details>
+          EOM
+            fi
+          done
+        
+          # Get the existing issue ID
+          existing_issue_id=$(gh issue list -S "is:issue is:open $issue_title" | cut -f1)
+          echo "existing_issue_id: $existing_issue_id"
+          # Create a new issue or comment on the existing one
+          if [ -f issue.md ]; then
+            if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
+              gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
+            else
+              gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
+            fi
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        

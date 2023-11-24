@@ -11,7 +11,7 @@ improving documentation, fixes to bugs, as well as new feature implementations.
 Add information on how to submit bug reports here. This should include
 hints about which type of information the project will need in order to
 reproduce and fix issues. It can also include information on commonly found
-mis-configurations that look like bugs.
+misconfigurations that look like bugs.
 
 Also include information on what contributors can expect in terms of time to
 first response and process after that.
@@ -47,5 +47,5 @@ if that route is open to contributors.
 
 This section serves as a reminder to existing and explanation for new Trusted
 Committers detailing how to add others to the host team. Again ideally this
-information is identical for all projects in the organisation so central
+information is identical for all projects in the organization so central
 information can be linked to from here.

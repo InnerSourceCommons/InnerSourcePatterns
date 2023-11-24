@@ -128,6 +128,7 @@ This has been tried and proven successful at:
 - Nike
 - PayPal
 - Mercado Libre - adds a section in the `CONTRIBUTING.md` file to inform who the Trusted Committers are.
+- Robert Bosch GmbH - we didn't call the role 'Trusted Committer' but we had this role at the beginning of our InnerSource journey. Trusted Committers would be funded for 100 % of their time to be able to focus on this role.
 
 ![Trusted Committer section in CONTRIBUTING.md of Mercado Libre](../../assets/img/mercadolibre-trusted-committers.png "Trusted Committer section in CONTRIBUTING.md of Mercado Libre")
 
@@ -140,7 +141,7 @@ This has been tried and proven successful at:
 
 - [Fernando Freire]
 
-## Acknowledgements
+## Acknowledgments
 
 - [Russell Rutledge]
 - [Loren Sanz]

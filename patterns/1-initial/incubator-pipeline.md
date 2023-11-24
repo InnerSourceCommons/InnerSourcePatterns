@@ -60,7 +60,7 @@ This pattern was inspired by things like the Apache Software Foundation's incuba
 
 ## Known Instances
 
-Being implemented at U.S. Bank.
+* Being implemented at **U.S. Bank**.
 
 ## Status
 
