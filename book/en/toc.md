@@ -48,6 +48,12 @@ Instead edit toc_template.md
 
 * [Airbus](../../adopters/airbus.md)
 * [Europace](../../adopters/europace.md)
+* [Bosch](../../adopters/bosch.md)
+* [Nike](../../adopters/nike.md)
+* [PayPal](../../adopters/paypal.md)
+* [GitHub](../../adopters/github.md)
+* [SAP](../../adopters/sap.md)
+* [Mercado Libre](../../adopters/mercado-libre.md)
 
 ## Appendix
 
