@@ -1,5 +1,7 @@
 # Airbus
 
+These are the InnerSource Patterns that Airbus has adopted:
+
 * [InnerSource License](../patterns/2-structured/innersource-license.md)
 * [Repository Activity Score](../patterns/2-structured/repository-activity-score.md)
 * [Start as an Experiment](../patterns/2-structured/start-as-experiment.md)

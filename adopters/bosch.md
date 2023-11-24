@@ -1,5 +1,7 @@
 # Bosch
 
+These are the InnerSource Patterns that Bosch has adopted:
+
 * [Review Committee](../patterns/2-structured/review-committee.md)
 * [Start as an Experiment](../patterns/2-structured/start-as-experiment.md)
 * [Document your Guiding Principles](../patterns/2-structured/document-your-guiding-principles.md)
