@@ -9,6 +9,4 @@ These are the InnerSource Patterns that **Europace** has adopted:
 * [Communication Tooling](../patterns/2-structured/project-setup/communication-tooling.md)
 * [Issue Tracker Use Cases](../patterns/2-structured/project-setup/issue-tracker.md)
 
-If you work at **Europace** and want to modify the list above, go to pattern that you are using, and add **Europace** to **Known Instances** section.
-Use the 'Edit on GitHub' functionality to do this.
-Once the Pull Request with your changes has been merged, the list above will update automatically.
+If you work at **Europace** and want to modify the list above, please follow [these instructions](./README.md).

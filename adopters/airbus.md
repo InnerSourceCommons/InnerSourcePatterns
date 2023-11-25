@@ -10,6 +10,4 @@ These are the InnerSource Patterns that **Airbus** has adopted:
 * [Dedicated Community Leader](../patterns/2-structured/dedicated-community-leader.md)
 * [Standard Base Documentation](../patterns/2-structured/project-setup/base-documentation.md)
 
-If you work at **Airbus** and want to modify the list above, go to pattern that you are using, and add **Airbus** to **Known Instances** section.
-Use the 'Edit on GitHub' functionality to do this.
-Once the Pull Request with your changes has been merged, the list above will update automatically.
+If you work at **Airbus** and want to modify the list above, please follow [these instructions](./README.md).
