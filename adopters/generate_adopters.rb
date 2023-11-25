@@ -124,7 +124,6 @@ adopter_patterns.each do |org, patterns_files|
     file_content += "If you work at **#{org}** and want to modify the list above, go to pattern that you are using, and add **#{org}** to **Known Instances** section.\n"
     file_content += "Use the 'Edit on GitHub' functionality to do this.\n"
     file_content += "Once the Pull Request with your changes has been merged, the list above will update automatically.\n"
-    file_content += "\n"
     
     File.write(markdown_filename, file_content)
 end
