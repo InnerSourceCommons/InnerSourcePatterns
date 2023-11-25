@@ -120,6 +120,7 @@ adopter_patterns.each do |org, patterns_files|
     file_content = "# #{org}\n\n"
     file_content += "These are the InnerSource Patterns that #{org} has adopted:\n\n"
     file_content += patterns_files.map{|f| "* [#{pattern_titles[f]}](#{f})"}.join("\n")
+    file_content += "\n"
     
     File.write(markdown_filename, file_content)
 end
