@@ -123,7 +123,7 @@ adopter_patterns.each do |org, patterns_files|
     File.write(markdown_filename, file_content)
 
     # print in format required for inclusion in the ToC
-    puts "* [#{org}](../../#{markdown_filename})"
+    puts "* [#{org}](../../adopters/#{markdown_filename})"
 end
 
 # pp adopter_patterns
