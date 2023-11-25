@@ -46,15 +46,16 @@ Instead edit toc_template.md
 
 ## Adopters
 
-* [Airbus](../../adopters/airbus.md)
-* [Europace](../../adopters/europace.md)
-* [Bosch](../../adopters/bosch.md)
-* [Nike](../../adopters/nike.md)
-<!-- * [PayPal](../../adopters/paypal.md)
-* [GitHub](../../adopters/github.md)
-* [SAP](../../adopters/sap.md)
-* [Mercado Libre](../../adopters/mercado-libre.md) -->
-* [All Adopters](../../adopters/adopters-overview.md)
+* Adopters
+  * [Airbus](../../adopters/airbus.md)
+  * [Europace](../../adopters/europace.md)
+  * [Bosch](../../adopters/bosch.md)
+  * [Nike](../../adopters/nike.md)
+  * [PayPal](../../adopters/paypal.md)
+  * [GitHub](../../adopters/github.md)
+  * [SAP](../../adopters/sap.md)
+  * [Mercado Libre](../../adopters/mercado-libre.md)
+<!-- * [All Adopters](../../adopters/adopters-overview.md) -->
 
 ## Appendix
 
