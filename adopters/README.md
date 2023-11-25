@@ -1,6 +1,10 @@
 ---
 cover: https://todaysveterinarybusiness.com/wp-content/uploads/sites/2/2020/03/Innovation-Station.jpg
 coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
 ---
 
 # Adopters
