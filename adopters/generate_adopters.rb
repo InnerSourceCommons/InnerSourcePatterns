@@ -121,6 +121,9 @@ adopter_patterns.each do |org, patterns_files|
     file_content += "Once the Pull Request with your changes has been merged, the list above will update automatically.\n"
     
     File.write(markdown_filename, file_content)
+
+    # print in format required for inclusion in the ToC
+    puts "* [#{org}](../../#{markdown_filename})"
 end
 
 # pp adopter_patterns
