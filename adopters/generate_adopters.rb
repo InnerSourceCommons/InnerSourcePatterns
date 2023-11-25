@@ -120,6 +120,9 @@ adopter_patterns.each do |org, patterns_files|
     file_content = "# #{org}\n\n"
     file_content += "These are the InnerSource Patterns that #{org} has adopted:\n\n"
     file_content += patterns_files.map{|f| "* [#{pattern_titles[f]}](#{f})"}.join("\n")
+    file_content += "If you work at *#{org}* and want to modify the list above, go to pattern that you are using, and add *#{org}* to *Known Instances* section."
+    file_content += "Use the 'Edit on GitHub' functionality to do this.\n"
+    file_content += "Once you the Pull Request with your changes has been merged, the list above will updated automatically.\n"
     file_content += "\n"
     
     File.write(markdown_filename, file_content)
