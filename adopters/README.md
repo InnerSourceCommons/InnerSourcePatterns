@@ -7,7 +7,7 @@ layout:
     visible: true
     size: hero
   outline:
-    visible: true
+    visible: false
 ---
 
 # Adopters
