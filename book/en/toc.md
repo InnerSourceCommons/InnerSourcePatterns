@@ -15,6 +15,17 @@ Instead edit toc_template.md
 * [Explore Patterns](./explore-patterns.md)
 * [Contribute to this book](./contribute.md)
 
+* Adopters
+  * [Airbus](../../adopters/airbus.md)
+  * [Europace](../../adopters/europace.md)
+  * [Bosch](../../adopters/bosch.md)
+  * [Nike](../../adopters/nike.md)
+  * [PayPal](../../adopters/paypal.md)
+  * [GitHub](../../adopters/github.md)
+  * [SAP](../../adopters/sap.md)
+  * [Mercado Libre](../../adopters/mercado-libre.md)
+<!-- * [All Adopters](../../adopters/adopters-overview.md) -->
+
 ![Mind Map of InnerSource Patterns](../../pattern-categorization/innersource-program-mind-map.png)
 
 ## Patterns <a id="p"></a>
@@ -43,19 +54,6 @@ Instead edit toc_template.md
 * [Start as an Experiment](../../patterns/2-structured/start-as-experiment.md) - Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.
 * [Transparent Cross-Team Decision Making using RFCs](../../patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md) - InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.
 * [Trusted Committer](../../patterns/2-structured/trusted-committer.md) - Many InnerSource projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations, project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.
-
-<!-- ## Adopters -->
-
-* Adopters
-  * [Airbus](../../adopters/airbus.md)
-  * [Europace](../../adopters/europace.md)
-  * [Bosch](../../adopters/bosch.md)
-  * [Nike](../../adopters/nike.md)
-  * [PayPal](../../adopters/paypal.md)
-  * [GitHub](../../adopters/github.md)
-  * [SAP](../../adopters/sap.md)
-  * [Mercado Libre](../../adopters/mercado-libre.md)
-<!-- * [All Adopters](../../adopters/adopters-overview.md) -->
 
 ## Appendix
 
