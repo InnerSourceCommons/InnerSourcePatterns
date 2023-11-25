@@ -85,12 +85,7 @@ def generate_markdown_filename(org_name)
 end
 
 PATTERNS = Dir["../patterns/2-structured/*.md","../patterns/2-structured/project-setup/*.md", "../patterns/3-validated/*.md"]
-ORGS = [
-    "Europace", "Bosch", "PayPal", "GitHub", "Microsoft", "Mercado Libre", "Analog Devices", 
-    "Airbus", "Mercedes-Benz", "SAP", "Banco Santander", "American Airlines", "IBM", "Flutter Entertainment", 
-    "Nike", "Entelgy", "Zylk", "Bitergia", "WellSky", "BBVA AI Factory", "DB Systel", "Elbit Systems", "Comcast", 
-    "BBC", "Uber", "DAZN", "Google"
-]
+ORGS = File.readlines('adopters.txt').map(&:chomp)
 
 adopter_patterns = Hash.new()
 pattern_titles = Hash.new()
