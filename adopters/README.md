@@ -1,3 +1,8 @@
+---
+cover: https://todaysveterinarybusiness.com/wp-content/uploads/sites/2/2020/03/Innovation-Station.jpg
+coverY: 0
+---
+
 # Adopters
 
 Each pattern in this book has been contributed by an organization. That confirms that a single organization is using a given approach.
