@@ -15,7 +15,7 @@ Instead edit toc_template.md
 * [Explore Patterns](./explore-patterns.md)
 * [Contribute to this book](./contribute.md)
 
-* [Adopters](../../adopters/README.md))
+* [Adopters](../../adopters/README.md)
   * [Airbus](../../adopters/airbus.md)
   * [Europace](../../adopters/europace.md)
   * [Bosch](../../adopters/bosch.md)
