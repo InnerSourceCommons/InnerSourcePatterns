@@ -44,6 +44,8 @@ Instead edit toc_template.md
 * [Transparent Cross-Team Decision Making using RFCs](../../patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md) - InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.
 * [Trusted Committer](../../patterns/2-structured/trusted-committer.md) - Many InnerSource projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations, project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.
 
+## Adopters <a id=""></a>
+
 * [Adopters](../../adopters/README.md)
   * [Airbus](../../adopters/airbus.md)
   * [American Airlines](../../adopters/american-airlines.md)
