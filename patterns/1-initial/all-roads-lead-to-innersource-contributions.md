@@ -11,7 +11,7 @@ From http://wiki.c2.com/?PatLet
 
 ## Problem
 
-Projects are adopting InnerSource, but struggling to convert users, consumers or stakeholders into contributors, or forming a community.
+Projects are adopting InnerSource, but struggling to convert users, consumers or stakeholders into contributors, or community members.
 
 In this context, the InnerSource Program is considered also an InnerSource Project.
 
@@ -24,13 +24,15 @@ Sometimes there is a story that helps people understand the pattern better.
 
 Users of a service, library or application (software), as well as consumers of any kind of InnerSource content (e.g. documentation), are unaware of the InnerSource project behind the software or content, or even unaware of the InnerSource concept (i.e. they don't know they can contribute).
 
-Potential contributors have their first contact with the project through content that was not designed as a landing page for new comers, e.g. by finding pieces of the backlog, documents, repositories, presentations, etc... through intranet search engines.
+Potential community members and/or contributors have their first contact with the project through content that was not initially designed as a landing page for new comers, e.g. by finding pieces of the backlog, documents, repositories, presentations, etc... (touch points). These touch points can be reached, for instance, through an intranet corporate search.
+
+InnerSource projects do not reach their full potential due to the lack of conversion of consumers into community members and/or contributors.
 
 ## Forces
 
-Project maintainers do not see the conversion of users, consumers and interested parties into contributors as a user experience challenge that they need to solve.
+Project maintainers do not see conversion of users, consumers and interested parties into contributors as a user experience/marketing challenge that they need to solve.
 
-Project maintainers are unaware that they potential contributors may not be familiar with InnerSource.
+Project maintainers are unaware that their potential contributors may not be familiar with InnerSource.
 
 ## Sketch (optional)
 
@@ -39,8 +41,16 @@ visual illustration
 
 ## Solutions
 
-TODO
-Verified resolutions and possible resolutions to the problem.
+Maintainers shall look at the journey from consumer to community member to contributor as a design problem.
+
+In essence, that means putting themselves in the shoes of their consumers, and ensuring that there is a path to becoming a community member and/or contributor, starting at the most commons touch points.
+
+Examples of commons consumer touch points:
+
+* Documentation for consumers of InnerSource projects
+    * should link to an InnerSource beginner's guide
+    * should clearly indicate the possibility of contributing and becoming part of the project's community
+* User facing tools should have a path for becoming part of the project's community and for contributing, directly in the tool's user interface
 
 ## Resulting Context
 
