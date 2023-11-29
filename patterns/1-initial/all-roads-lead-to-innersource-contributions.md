@@ -47,10 +47,19 @@ In essence, that means putting themselves in the shoes of their consumers, and e
 
 Examples of commons consumer touch points:
 
-* Documentation for consumers of InnerSource projects
-    * should link to an InnerSource beginner's guide
-    * should clearly indicate the possibility of contributing and becoming part of the project's community
-* User facing tools should have a path for becoming part of the project's community and for contributing, directly in the tool's user interface
+- Search results in intranet corporate search 
+- Documentation for consumers of applications, tools, services, reuse libraries, etc...
+- Blog posts and videos promoting the project or serving as secondary documentation
+- The project backlog (e.g. a project in Jira)
+- The user interface of applications, tools and services
+
+All such touch points should:
+
+- State that the project is InnerSource
+- Link to information about InnerSource (e.g. a beginner's guide)
+- Have information, or link to information, on how to become a member of the project's community and/or become a project contributor 
+
+If necessary, search engine optimization should be done to ensure that the project is well represented on the organization's intranet corporate search.
 
 ## Resulting Context
 
