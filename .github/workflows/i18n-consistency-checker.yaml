@@ -30,6 +30,7 @@ jobs:
           for file in $(find patterns/{2-structured,3-validated} -name '*.md'); do
             echo "Original file: $file"
             [[ $file =~ "3-validated" ]] && continue # if the file is under 3-validated, skip (one liner) - 2023/08/26
+            [[ $file =~ "/templates" ]] && continue # if the file is under /templates, skip. consistency check does not work for that yet.
             i18n_filename=$(echo "$file" | sed -E "s_patterns/(2-structured|3-validated)(/project-setup)?_translation/${{matrix.language}}/patterns_g")
             echo "Translation file: $i18n_filename"
 
