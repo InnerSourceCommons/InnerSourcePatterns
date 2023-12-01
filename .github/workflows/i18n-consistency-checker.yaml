@@ -84,7 +84,7 @@ jobs:
           The following files may have consistency issues with the English version. Please check and update the files.
         
           This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
-          EOM  
+          EOM
 
           # combine header and rest of file created in previous steps
           cat issue.md >> issue-full.md
