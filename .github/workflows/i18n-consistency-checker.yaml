@@ -90,7 +90,7 @@ jobs:
           cat issue.md >> issue-full.md
 
           # title of the GitHub issue to look for
-          issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
+          issue_title="${flags[\"${{matrix.language}}\"]}: Content Consistency Issue"
 
           # Get the existing issue ID
           search_query="is:issue is:open in:title \"$issue_title\""
