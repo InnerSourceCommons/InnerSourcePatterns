@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        language: [ja, zh]
+        language: [ja, zh, pt-br, gl]
     steps:
       - uses: actions/checkout@v3
         with:
@@ -24,15 +24,17 @@ jobs:
         id: check-consistency
         run: |
           # Declare the flags
-          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese")
+          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician" )
         
           # Loop through all files in the English directory
           for file in $(find patterns/{2-structured,3-validated} -name '*.md'); do
-            echo "Checking file: $file"
+            echo "Original file: $file"
             [[ $file =~ "3-validated" ]] && continue # if the file is under 3-validated, skip (one liner) - 2023/08/26
             i18n_filename=$(echo "$file" | sed "s/patterns\/\(2-structured\|3-validated\)/translation\/${{matrix.language}}\/patterns/g")
-            
+            echo "Translation file: $i18n_filename"
+
             if [[ ! -e "$i18n_filename" ]]; then
+              echo "\t:?: File not translated yet"
               continue
             fi
         
@@ -62,7 +64,7 @@ jobs:
           </details>
           EOM
             else
-              echo ":white_check_mark: No translation inconsistencies found"
+              echo "\t:white_check_mark: No translation inconsistencies found"
             fi
 
           done
