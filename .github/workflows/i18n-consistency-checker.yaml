@@ -86,15 +86,15 @@ jobs:
           issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
 
           # Get the existing issue ID
-          existing_issue_id=$(gh issue list -S "is:issue is:open $issue_title" | cut -f1)
+          existing_issue_id=$(gh issue list -S "is:issue is:open in:title '$issue_title'" | cut -f1)
           echo "existing_issue_id: $existing_issue_id"
           
           # Create a new issue or comment on the existing one
-          if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
-            gh issue comment "$existing_issue_id" -F issue-full.md -R $GITHUB_REPOSITORY
-          else
-            gh issue create -t "$issue_title" -F issue-full.md -R $GITHUB_REPOSITORY -l "Type - Translation"
-          fi
+          #if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
+          #  gh issue comment "$existing_issue_id" -F issue-full.md -R $GITHUB_REPOSITORY
+          #else
+          #  gh issue create -t "$issue_title" -F issue-full.md -R $GITHUB_REPOSITORY -l "Type - Translation"
+          #fi
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
