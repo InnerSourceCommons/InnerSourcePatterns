@@ -28,6 +28,7 @@ jobs:
         
           # Loop through all files in the English directory
           for file in $(find patterns/{2-structured,3-validated} -name '*.md'); do
+            echo "Checking file: $file"
             [[ $file =~ "3-validated" ]] && continue # if the file is under 3-validated, skip (one liner) - 2023/08/26
             i18n_filename=$(echo "$file" | sed "s/patterns\/\(2-structured\|3-validated\)/translation\/${{matrix.language}}\/patterns/g")
             
@@ -39,6 +40,7 @@ jobs:
             i18n_content_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $i18n_filename)" +%s)
         
             if [[ $((original_updated_at - i18n_content_updated_at)) -ge 1 ]]; then
+              echo "\t:x: translation inconsistencies found"
               content_header=$(grep -E '^title+' "$file" | sort -r | head -n1)
               content_title=$(echo "$content_header" | sed 's/title: //g')
 
@@ -59,7 +61,10 @@ jobs:
           \`\`\`
           </details>
           EOM
+            else
+              echo ":white_check_mark: No translation inconsistencies found"
             fi
+
           done
 
       - name: Check issue.md existence
