@@ -77,6 +77,9 @@ jobs:
       - name: Create issue
         if: steps.check_files.outputs.files_exists == 'true'
         run: |
+          # Declare the flags
+          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician" )
+
           # Heredoc for issue header
           cat <<- EOM > issue-full.md
           # i18n Contents Consistency Issue
@@ -90,7 +93,7 @@ jobs:
           cat issue.md >> issue-full.md
 
           # title of the GitHub issue to look for
-          issue_title="${flags[\"${{matrix.language}}\"]}: Content Consistency Issue"
+          issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
 
           # Get the existing issue ID
           search_query="is:issue is:open in:title \"$issue_title\""
