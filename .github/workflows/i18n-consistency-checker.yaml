@@ -34,7 +34,7 @@ jobs:
             echo "Translation file: $i18n_filename"
 
             if [[ ! -e "$i18n_filename" ]]; then
-              echo "\t:?: File not translated yet"
+              echo "NOT TRANSLATED"
               continue
             fi
         
