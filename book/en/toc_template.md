@@ -25,9 +25,9 @@ Instead edit toc_template.md
 
 * [Pattern Template](../../meta/pattern-template.md)
 * Extras
-  * [README Template](../../patterns/2-structured/project-setup/templates/README-template.md)
-  * [CONTRIBUTING Template](../../patterns/2-structured/project-setup/templates/CONTRIBUTING-template.md)
-  * [COMMUNICATION Template](../../patterns/2-structured/project-setup/templates/COMMUNICATION-template.md)
+  * [README Template](../../patterns/2-structured/templates/README-template.md)
+  * [CONTRIBUTING Template](../../patterns/2-structured/templates/CONTRIBUTING-template.md)
+  * [COMMUNICATION Template](../../patterns/2-structured/templates/COMMUNICATION-template.md)
   * [RFC Template](../../patterns/2-structured/templates/rfc.md)
 
 ## Resources
