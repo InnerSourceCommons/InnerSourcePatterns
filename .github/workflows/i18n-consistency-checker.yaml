@@ -99,7 +99,7 @@ jobs:
           # Get the existing issue ID
           search_query="is:issue is:open in:title \"$issue_title\""
           echo "search_query: $search_query"
-          existing_issue_id=$(gh issue list -S "$search_query" | cut -f1)
+          existing_issue_id=$(gh issue list -L 1 -S "$search_query" | cut -f1)
           echo "existing_issue_id: $existing_issue_id"
           
           # Create a new issue or comment on the existing one
