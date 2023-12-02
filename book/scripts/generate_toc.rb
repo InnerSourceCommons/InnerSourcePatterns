@@ -77,7 +77,7 @@ puts "Generating ToC for language: #{BOOK_LANGUAGE}"
 if (BOOK_LANGUAGE == "en")
   TOC_TEMPLATE_FILE = "../en/toc_template.md"
   TOC_FILE = "../en/toc.md"  
-  PATTERNS = Dir["../../patterns/2-structured/*.md","../../patterns/2-structured/project-setup/*.md", "../../patterns/3-validated/*.md"]
+  PATTERNS = Dir["../../patterns/2-structured/*.md", "../../patterns/3-validated/*.md"]
 else 
   TOC_TEMPLATE_FILE = "../#{BOOK_LANGUAGE}/toc_template.md"
   TOC_FILE = "../#{BOOK_LANGUAGE}/toc.md"
