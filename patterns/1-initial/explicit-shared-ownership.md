@@ -41,7 +41,7 @@ A volunteer creates an issue in the component's repository highlighting the appa
 
 There is an initial team of [Trusted Committers](../2-structured/trusted-committer.md) committed to the component.
 
-Expectations related to collaboration are transparent for everyone involved going forward e.g. by creating [base documentation in CONTRIBUTING.md](../2-structured/project-setup/base-documentation.md).
+Expectations related to collaboration are transparent for everyone involved going forward e.g. by creating [base documentation in CONTRIBUTING.md](../2-structured/base-documentation.md).
 
 The entire decision process backing the result is transparent and can be influenced by those affected, leading to higher buy-in for the final result. Also the argument leading to the final decisions are accessible for those new to the project.
 
