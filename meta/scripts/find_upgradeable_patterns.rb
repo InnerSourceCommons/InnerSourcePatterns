@@ -76,7 +76,7 @@ end
 puts "\n"
 puts "## Structured => Validated"
 puts "## 2-Structured patterns primed for upgrade to 3-Validated (based on Known Instances only)"
-l2_patterns = Dir["../../patterns/2-structured/*.md", "../../patterns/2-structured/project-setup/*.md"]
+l2_patterns = Dir["../../patterns/2-structured/*.md"]
 
 l2_patterns.each do |file|
   known_instances_count = count_known_instances(file)

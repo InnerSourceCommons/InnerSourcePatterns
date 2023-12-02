@@ -33,7 +33,7 @@ Recognize that Trusted Committers are both **situational leaders** and **subject
 
 - The “committee” is scheduled periodically as necessary by the Trusted Committers – twice a week, once a month, quarterly, etc.
 - The goal is to establish general direction, or a highway, while leaving freedom for individual teams to adapt to local needs, or side streets
-- Trusted Committers establish organization guidelines that become templates for [Contribution Agreements](../2-structured/project-setup/base-documentation.md)
+- Trusted Committers establish organization guidelines that become templates for [Contribution Agreements](../2-structured/base-documentation.md)
 - Trusted Committers collaborate on and refine guidelines asynchronously via passive documentation and the establishment of organizational patterns.
     - This guideline definition project itself can be run as an InnerSource project, accepting contributions from anywhere in the organization.
     - By running this as a collaborative documentation project, it can role-model and verify the behaviors that they want to promote for other InnerSource projects as well.
