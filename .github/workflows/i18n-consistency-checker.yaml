@@ -33,7 +33,7 @@ jobs:
             #[[ $file =~ "/templates" ]] && continue # if the file is under /templates, skip. consistency check does not work for that yet.
 
             if [[ $file =~ "/templates" ]]; then
-              i18n_filename=$(echo "$file" | sed -E "s_patterns/(2-structured|3-validated)/templates_translation/${{matrix.language}}/templates")
+              i18n_filename=$(echo "$file" | sed -E "s_patterns/(2-structured|3-validated)/templates_translation/${{matrix.language}}/templates_g")
             else
               i18n_filename=$(echo "$file" | sed -E "s_patterns/(2-structured|3-validated)_translation/${{matrix.language}}/patterns_g")
             fi
