@@ -4,7 +4,7 @@ Review Committee
 
 ## Patlet
 
-The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarise themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.
+The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarize themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.
 
 ## Problem
 

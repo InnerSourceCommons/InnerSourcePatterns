@@ -40,5 +40,5 @@ Not so good:
 > “We’re InnerSourcing that repo.”
 
 [opengl_1200]: https://web.archive.org/web/20180411080939/http://archive.oreilly.com/pub/a/oreilly/ask_tim/2000/opengl_1200.html
-[foreword_AdoptingInnerSource]: https://innersourcecommons.org/assets/files/AdoptingInnerSource.pdf
+[foreword_AdoptingInnerSource]: https://innersourcecommons.org/documents/books/AdoptingInnerSource.pdf
 [no-open-source-trademark]: https://opensource.org/pressreleases/certified-open-source.php

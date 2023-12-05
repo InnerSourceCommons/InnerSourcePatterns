@@ -56,7 +56,7 @@ A related challenge (and possible new pattern) is a circular story-writing exerc
 
 ## Known Instances
 
-* Large telecom provider
+* Large telecommunications provider
 
 ## Status
 
@@ -66,7 +66,7 @@ A related challenge (and possible new pattern) is a circular story-writing exerc
 
 Robert Hanmer
 
-## Acknowledgements
+## Acknowledgments
 
 * Manrique Lopez
 * Daniel Izquierdo

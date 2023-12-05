@@ -47,7 +47,7 @@ Key properties of the portal are:
 
 * Visitors to the InnerSource Portal should be able to see all available projects as well as search for specific projects based on various criteria such as project name, technologies in use, contributor names, sponsoring business unit etc.  
 * The information displayed via the InnerSource Portal should be under the full control of the InnerSource project owners at all times.  Preferably, by sourcing this information directly from a specific data file or meta-data stored in the project repository itself.  
-* Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors names, a brief description and links to the code repository or any supporting documentation.  
+* Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors' names, a brief description and links to the code repository or any supporting documentation.  
 * (optional) While most organizations will choose to make their portal only available on their intranet, some organizations have opted to make their portal available on the public internet. The latter can be interesting for organizations that want to show additional information about their InnerSource approach in their portal e.g. for branding and recruitment purposes.
 
 When launching the portal, a communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should be considered, to bolster the number of projects displayed within the portal.
@@ -65,15 +65,19 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 ## Known Instances
 
 * **A large financial services organization** has used the creation of an InnerSource Portal to provide a mechanism of advertising and discovering InnerSource projects in existence across different business units
-* **SAP** promotes InnerSource projects in the InnerSource Portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6). It's codebase is published as a [reference implementation](https://github.com/SAP/project-portal-for-innersource) and open for contributions.
+* **SAP** promotes InnerSource projects in the InnerSource Portal - projects can self-register using GitHub topics. The [Repository Activity Score](repository-activity-score.md) defines the default order of the InnerSource projects in the portal. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6). Its codebase is published as a [reference implementation](https://github.com/SAP/project-portal-for-innersource) and open for contributions.
 * **Elbit Systems** has used this pattern and added gamification on top.
   * [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
   * Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
-  * The code realizing this platform has been open sourced and is available at [gitlab.com/gilda2](https://gitlab.com/gilda2)
+  * The [code](https://gitlab.com/gilda2) realizing this platform has been open sourced.
 * **American Airlines** promotes InnerSource projects via an [internal InnerSource Marketplace](https://tech.aa.com/2020-10-30-innersource/). Similarly to SAP, projects self-register by adding `innersource` as a GitHub topic. Projects are searchable and filterable by language, topics, number of open issues, etc.
-* **Banco Santander** has created a public portal called [Santander ONE Europe InnerSource Community](https://innersourceportal.santander.com/) to support and increase InnerSource adoption. In addition to the catalog of projects the portal includes relevant content such as documentation, way of working, news, and events.
+* **Banco Santander** has created a public portal called "Santander ONE Europe InnerSource Community" to support and increase InnerSource adoption. In addition to the catalog of projects the portal includes relevant content such as documentation, way of working, news, and events.
 
 ![Santander InnerSource Portal](../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
+
+* **Airbus** used the [SAP Portal](https://github.com/SAP/project-portal-for-innersource) as a Proof of Concept. It is now using the [Bazaar plugin](https://github.com/backstage/backstage/blob/master/plugins/bazaar/README.md) of [Backstage](https://backstage.io) as the latter became the official developer experience tool internally. It provides a convenient self-registering capability for all the divisions.
+* **Mercado Libre** use an instance of the [SAP portal](https://github.com/SAP/project-portal-for-innersource) to discover existing InnerSource projects within the organization.
+* **Mercedes-Benz** is [using](https://opensource.mercedes-benz.com/news/sponsor_innersource_commonsoss) the SAP reference implementation mentioned above for their InnerSource Portal.
 
 ## References
 
@@ -87,7 +91,7 @@ A [reference implementation](https://github.com/SAP/project-portal-for-innersour
 
 * Stephen McCall
 
-## Acknowledgements
+## Acknowledgments
 
 * Shelly Nizri
 * Melinda Malmgren

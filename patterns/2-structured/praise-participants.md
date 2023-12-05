@@ -77,7 +77,7 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 
 * Russ Rutledge
 
-## Acknowledgements
+## Acknowledgments
 
 * [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real".
 * [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of a "qualified" thank you.
