@@ -54,7 +54,6 @@ When launching the portal, a communications campaign promoting the addition of I
 
 ### Implementations
 
-
 #### SAP Project Portal
 
 A [reference implementation](https://github.com/SAP/project-portal-for-innersource) of an InnerSource portal is available on GitHub and open for contributions. It lists all InnerSource projects of an organization in an interactive and easy to use way. Projects can self-register using a dedicated GitHub topic and provide additional metadata.
