@@ -80,48 +80,37 @@ jobs:
             fi
 
           done
-
-      - name: Check issue.md existence
-        id: check_files
-        uses: andstor/file-existence-action@v2
-        with:
-          files: "issue.md"
       - name: Create issue
         if: steps.check_files.outputs.files_exists == 'true'
         run: |
-          # Declare the flags
-          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician" )
-
-          # Heredoc for issue header
-          cat <<- EOM > issue-full.md
-          # i18n Contents Consistency Issue
-        
-          The following files may have consistency issues with the English version. Please check and update the files.
-        
-          This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
-          EOM
-
-          # combine header and rest of file created in previous steps
-          cat issue.md >> issue-full.md
-
-          # title of the GitHub issue to look for
-          issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
-
-          # Get the existing issue ID
-          search_query="is:issue is:open in:title \"$issue_title\""
-          echo "search_query: $search_query"
-          existing_issue_id=$(gh issue list -L 1 -S "$search_query" | cut -f1)
-          echo "existing_issue_id: $existing_issue_id"
-
-          cat issue-full.md
+          # Check if the issue.md file exists
+          if [ -e issue.md ]; then
+            # Declare the flags
+            declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician" )
+  
+            # Heredoc for issue header
+            cat <<- EOM > issue-full.md
+            # i18n Contents Consistency Issue
           
-          # Create a new issue or comment on the existing one
-          #if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
-          #  gh issue comment "$existing_issue_id" -F issue-full.md -R $GITHUB_REPOSITORY
-          #else
-          #  gh issue create -t "$issue_title" -F issue-full.md -R $GITHUB_REPOSITORY -l "Type - Translation"
-          #fi
-
+            The following files may have consistency issues with the English version. Please check and update the files.
+          
+            This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
+            EOM
+  
+            # combine header and rest of file created in previous steps
+            cat issue.md >> issue-full.md
+  
+            # title of the GitHub issue to look for
+            issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
+  
+            # Get the existing issue ID
+            search_query="is:issue is:open in:title \"$issue_title\""
+            echo "search_query: $search_query"
+            existing_issue_id=$(gh issue list -L 1 -S "$search_query" | cut -f1)
+            echo "existing_issue_id: $existing_issue_id"
+  
+            cat issue-full.md
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
