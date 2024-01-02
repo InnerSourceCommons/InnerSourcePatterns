@@ -70,7 +70,7 @@ Too much information will make the page overwhelming and difficult to use.
 Here is a sample set of columns:
 
 * **Name**.  Name of the project (optionally linked to its homepage).
-* **Brief Description**.
+* **Brief Description**.  Explaining the purpose of the project (which problem does it solve?)
 * **Technology Pre-requisites**.  You must use these technologies in order to on-board to the project.
 * **Getting Started**.  Link to instructions on how to start using the project.
 * **Chat**.  Link to a chat channel to ask questions about the project.
