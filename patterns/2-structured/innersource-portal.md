@@ -66,6 +66,7 @@ As a simple way to start, you can set aside a page on an internal wiki for listi
 An easy way to display this information is in a table with columns giving just a little bit of extra information about the projects.
 Try to have just enough columns so that viewers can determine if they want to learn more about the project, but no more.
 Too much information will make the page overwhelming and difficult to use.
+Individuals and teams can self-add their projects to the page.
 
 Here is a sample set of columns:
 
@@ -74,9 +75,15 @@ Here is a sample set of columns:
 * **Technology Pre-requisites**.  You must use these technologies in order to on-board to the project.
 * **Getting Started**.  Link to instructions on how to start using the project.
 * **Chat**.  Link to a chat channel to ask questions about the project.
-* **Sponsoring Team**.  Seeing if a team is behind the project can help others to have the confidence to use it.
+* **Host Team**.  Seeing if a team is behind the project can help others to have the confidence to use it.
 * **Production Since**.  How long as the project been used in a production environment?  Seeing this information is a rough proxy for its maturity.
 * **Contribution**.  Link to instructions on how to contribute to the project.
+
+This solution doesn't allow for a fancy display - it is just a wiki table.
+If it's important for you to have a snazzy-looking UI, then this idea won't work for you.
+Additionally, if you end up with a lot of projects (e.g. nearing 100),
+this solution won't scale to allow the search and filtering or auto-updating of project entries that you'll probably need.
+It is a good solution for a portal with a few dozen projects, though.
 
 ## Resulting Context
 
