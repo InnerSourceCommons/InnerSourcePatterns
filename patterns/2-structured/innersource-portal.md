@@ -100,7 +100,7 @@ Here is a sample set of columns:
 * **Airbus** used the [SAP Portal](https://github.com/SAP/project-portal-for-innersource) as a Proof of Concept. It is now using the [Bazaar plugin](https://github.com/backstage/backstage/blob/master/plugins/bazaar/README.md) of [Backstage](https://backstage.io) as the latter became the official developer experience tool internally. It provides a convenient self-registering capability for all the divisions.
 * **Mercado Libre** use an instance of the [SAP portal](https://github.com/SAP/project-portal-for-innersource) to discover existing InnerSource projects within the organization.
 * **Mercedes-Benz** is [using](https://opensource.mercedes-benz.com/news/sponsor_innersource_commonsoss) the SAP reference implementation mentioned above for their InnerSource Portal.
-* **WellSky** has a simple _Confluence_ page were InnerSource and reusable projects are listed.
+* **WellSky** has a simple _Confluence Wiki_ page were InnerSource and reusable projects are listed.
 
 ## References
 
