@@ -5,7 +5,7 @@
 # InnerSource Patterns
 
 <a href="https://patterns.innersourcecommons.org">
-<img align="right" src="book/en/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" width="30%"></a>
+<img align="right" src="book/en/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" alt="The InnerSource Patterns book" width="30%"></a>
 
 This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them.
 
