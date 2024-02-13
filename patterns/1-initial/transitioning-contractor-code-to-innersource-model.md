@@ -8,7 +8,7 @@ Contract developers are often not motivated to engage in InnerSource activities,
 
 ## Problem
 
-Contractor developers are often not motivated (through forces described below) to not engage in InnerSource activities. Once delivered, and even if the code is made visible, their projects are often less likely to be part of successful InnerSourced engagements.
+Contractor developers are often not motivated (through forces described below) to engage in InnerSource activities. Once delivered, and even if the code is made visible, their projects are often less likely to be part of successful InnerSource engagements.
 
 ## Context
 
