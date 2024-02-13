@@ -12,7 +12,7 @@ Despite an organization has an InnerSource program, it is challenging to establi
 
 ## Context
 
-InnerSource is not a means to an end. It must deliver clear benefits to your organization and support its goals. If InnerSource and its benefits is mainly explained and positioned in a rather abstract way, it might be difficult to convince management and a critical mass of the development teams. People might say/think "InnerSource sounds great, but it is not relevant for our organization".
+InnerSource is not an end in itself. It must deliver clear benefits to your organization and support its goals. If InnerSource and its benefits is mainly explained and positioned in a rather abstract way, it might be difficult to convince management and a critical mass of the development teams. People might say/think "InnerSource sounds great, but it is not relevant for our organization".
 
 ## Forces
 
