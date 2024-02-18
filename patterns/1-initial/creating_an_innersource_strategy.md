@@ -73,6 +73,6 @@ May mention:
 
 Initial
 
-## Author(s) (optional)
+## Author(s)
 
 Michael Picht
