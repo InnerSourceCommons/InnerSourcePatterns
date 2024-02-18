@@ -75,4 +75,4 @@ Initial
 
 ## Author(s)
 
-Michael Picht
+- Michael Picht
