@@ -8,7 +8,9 @@ Sometimes, it is difficult to convince people of the relevance of InnerSource fo
 
 ## Problem
 
-Despite an organization has an InnerSource program, it is challenging to establish InnerSource in that organization. Missing management support and low awareness in some or many development teams are among the reasons. Potentially, the InnerSource program itself is missing clear goals and/or approaches how to achieve those.
+- Despite an organization has an InnerSource program, it is challenging to establish InnerSource in that organization
+- Missing management support and low awareness in some or many development teams are among the reasons
+- Potentially, the InnerSource program itself is missing clear goals and/or approaches how to achieve those.
 
 ## Context
 
@@ -34,7 +36,7 @@ A high level table of contents of an InnerSource strategy document could look li
 - Executive summary
 - What InnerSource is
 - Why InnerSource is important for our organization
-- Current status of InnerSource in your organization
+- Current status of InnerSource in our organization
 - Target state
 - Recommended actions (to reach the target state)
 
