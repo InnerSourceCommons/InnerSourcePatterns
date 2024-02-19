@@ -55,26 +55,14 @@ Often this section can include discussion of the next possible Patterns/problems
 This section can be short in content - the solution may not introduce new problems or change much context.
 -->
 
-## Known Instances (optional)
+## Known Instances
 
-SAP has an InnerSource strategy (see blog post "[Cultivating InnerSource at SAP](https://community.sap.com/t5/open-source-blogs/cultivating-innersource-at-sap/ba-p/13575274)")
-
-TODO
-
-<!--
-Where has this been seen before?
-Helps to reinforce that this is a REAL pattern and that you match the context.
-
-May mention:
-
-* A particular business
-* Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
--->
+- **SAP** has an InnerSource strategy (see blog post "[Cultivating InnerSource at SAP](https://community.sap.com/t5/open-source-blogs/cultivating-innersource-at-sap/ba-p/13575274)")
 
 ## Status
 
 Initial
 
-## Author(s) (optional)
+## Author(s)
 
-Michael Picht
+- Michael Picht
