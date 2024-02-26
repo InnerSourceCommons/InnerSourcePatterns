@@ -14,7 +14,10 @@ Sometimes, it is difficult to convince people of the relevance of InnerSource fo
 
 ## Context
 
-InnerSource is not an end in itself. It must deliver clear benefits to your organization and support its goals. If InnerSource and its benefits is mainly explained and positioned in a rather abstract way, it might be difficult to convince management and a critical mass of the development teams. People might say/think "InnerSource sounds great, but it is not relevant for our organization".
+- InnerSource is not an end in itself. It must deliver clear benefits to your organization and support its goals
+- If InnerSource and its benefits is mainly explained and positioned in a rather abstract way, it might be difficult to convince management and a critical mass of the development teams
+- People see InnerSource as a rather abstract methodology which does not really fit to their situation. They might say/think "InnerSource sounds great, but it is not relevant for our organization"
+- People struggle to make a connection between InnerSource and their goals/the goals of their organisation
 
 ## Forces
 
