@@ -34,7 +34,7 @@ Address the fears of both the receiving and the contributing teams by establishi
 
 Note that the warranty period could be 45, 60, or 100 days too. The duration may vary based upon the constraints of the project, the software life cycle of the project, commitments to customers, and other factors.
 
-In addition it helps to provide clear [contribution guidelines](./project-setup/base-documentation.md), spelling out the expectations of the receiving team and the contributing team.
+In addition it helps to provide clear [contribution guidelines](./base-documentation.md), spelling out the expectations of the receiving team and the contributing team.
 
 ![30 Day Warranty](../../assets/img/thirtydaywarranty.jpg)
 

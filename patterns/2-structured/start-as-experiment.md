@@ -54,6 +54,7 @@ Finally, starting as an experiment makes it much easier to sidestep regulations 
 ## Known Instances
 
 - Robert Bosch GmbH (globally distributed software development)
+- Airbus: the data science community collaborated on shared Python libraries that eventually lead to a group-wide InnerSource scheme for any software.
 
 ## Status
 

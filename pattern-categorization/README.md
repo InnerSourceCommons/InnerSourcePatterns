@@ -35,8 +35,15 @@ To test your changes locally, you can also generate the mind map yourself like t
 We are using `node 12.x` at the moment.
 
 ```
+# install the markmap CLI
 npm install -g markmap-cli
-npx markmap --no-toolbar innersource-program-mind-map.md
+
+# then generate the mindmap (it will open in your browser automatically)
+npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
+
+# to generate the mindmap for a different language, run the script on the files in the respetive subfolder.
+# e.g. for Galician (`gl`)
+npx markmap --no-toolbar gl/innersource-program-mind-map.md -o gl/innersource-program-mind-map.html
 ```
 
 ## Future Ideas for Categorization

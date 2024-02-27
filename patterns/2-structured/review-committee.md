@@ -30,6 +30,7 @@ Company A wants to introduce its first InnerSource initiative. Most managers in 
 - Every InnerSource project is to be given the chance to react to feedback received on one session of the review committee until the next session in order to avoid shutting down the project prematurely.
 - An InnerSource project leader can also present the motion to be shut down on its own initiative on a review committee. The review committee then has to decide whether or not the business units using the software need to be given time to put measures in place to ensure that development and/or maintenance of the codebase continues until an alternative solution to development by the InnerSource community is found (if business relevant or mission critical).
 - The review committee should convene regularly. A cadence of two meetings per year has proven successful.
+- The review committee can become optional, if InnerSource has been widely adopted and understood by the organization.
 
 ![Review Committee Sketch](../../assets/img/review-committee-sketch.jpg)
 
@@ -40,7 +41,7 @@ Company A wants to introduce its first InnerSource initiative. Most managers in 
 
 ## Known Instances
 
-* BIOS at Robert Bosch GmbH
+* BIOS at Robert Bosch GmbH (in the early stages of adoption, only - 2009-2012)
 
 ## Status
 

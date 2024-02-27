@@ -5,7 +5,7 @@
 # InnerSource Patterns
 
 <a href="https://patterns.innersourcecommons.org">
-<img align="right" src="book/en/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" width="30%"></a>
+<img align="right" src="book/en/innersource-patterns-book-cover.jpg" title="The InnerSource Patterns book" alt="The InnerSource Patterns book" width="30%"></a>
 
 This repository contains the InnerSource Patterns collected by the [InnerSource Commons][isc-website]. These patterns are InnerSource best practices codified in a specific format to make it easy to understand, evaluate, and reuse them.
 
@@ -47,9 +47,9 @@ Our mission
 * [Review Committee](patterns/2-structured/review-committee.md) - *The InnerSource working model is a radical departure from more traditional approaches, for developers and managers alike. By establishing a review committee as an interface between the InnerSource initiative and all senior managers of business units participating in it, the latter are more likely to familiarise themselves with the initiative and support it, as it affords them a certain level of oversight and control without fostering micromanagement.*
 * [Service vs. Library](patterns/2-structured/service-vs-library.md) - *Teams in a DevOps environment may be reluctant to work across team boundaries on common code bases due to ambiguity over who will be responsible for responding to service downtime. The solution is to realize that often it's possible to either deploy the same service in independent environments with separate escalation chains in the event of service downtime or factor a lot of shared code out into one library and collaborate on that.*
 * [Trusted Committer](patterns/2-structured/trusted-committer.md) - *Many InnerSource projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.*
-* [Standard Base Documentation](patterns/2-structured/project-setup/base-documentation.md) - *New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like README.md/CONTRIBUTING.md enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.*
-* [Issue Tracker Use Cases](patterns/2-structured/project-setup/issue-tracker.md) - *The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.*
-* [Communication Tooling](patterns/2-structured/project-setup/communication-tooling.md) - *The users of an InnerSource project have trouble getting help and getting in touch with the host team. By consistently using asynchronous communication tooling, the project makes discussions visible, archived and searchable, leading to an improved level of support for users.*
+* [Standard Base Documentation](patterns/2-structured/base-documentation.md) - *New contributors to an InnerSource project have a hard time figuring out who maintains the project, what to work on, and how to contribute. Providing documentation in standard files like README.md/CONTRIBUTING.md enables a self service process for new contributors, so that they can find the answers to the most common questions on their own.*
+* [Issue Tracker Use Cases](patterns/2-structured/issue-tracker.md) - *The InnerSource host team fails to make not only plans and progress but also context for changes transparent. This is solved by increasing the use cases for the project issue tracker to also serve brainstorming, implementation discussion, and feature design.*
+* [Communication Tooling](patterns/2-structured/communication-tooling.md) - *The users of an InnerSource project have trouble getting help and getting in touch with the host team. By consistently using asynchronous communication tooling, the project makes discussions visible, archived and searchable, leading to an improved level of support for users.*
 * [Cross-Team Project Valuation](patterns/2-structured/crossteam-project-valuation.md) - *It's hard to sell the value of cross-team InnerSource projects that don't provide a direct impact on company revenue. Here's a data-driven way to represent your project that both articulates its value and amplifies it.*
 * [Transparent Cross-Team Decision Making using RFCs](patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md) - *InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.*
 * [Start as an Experiment](patterns/2-structured/start-as-experiment.md) - *Start your InnerSource initiative as a time limited experiment to make it easier for managers unfamiliar with InnerSource to endorse and support the initiative.*
@@ -108,6 +108,7 @@ This is why we keep these patterns at the bottom of the list.
 * [Bad Weather For Liftoff](patterns/1-initial/bad-weather-for-liftoff.md)
 * [Incentive mechanisms to foster voluntary contribution](patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md)
 * [Duplicated Projects](patterns/1-initial/duplicated-projects.md)
+* [Sustainable InnerSource Program](patterns/1-initial/sustainable-innersource-program.md)
 
 ## What are InnerSource Patterns?
 

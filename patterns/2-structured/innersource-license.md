@@ -31,6 +31,7 @@ At the time of sharing the source code, it can not be reliably predicted what th
 - Freedom over using the software leads to competition, and spread of ownership
 - There are legal contracts in place which cover the sharing of source code. These contracts are not standardized, so they create additional effort in negotiating and understanding for every project. The existing contracts may also not allow sharing source code in an open enough sense to support a true InnerSource approach.
 - Alternatively, there are no legal contracts in place but source code is shared informally. That might create uncertainty in cases where clarity about ownership and rights and obligations is needed.
+- Choosing a restrictive and/or copyleft license can constitute a barrier for InnerSource adoption. Specifically, limiting publication to the organisation might require a costly relicensing procedure prior to transitioning to Open Source.
 
 ## Solutions
 
@@ -50,8 +51,10 @@ The license simplifies the conversations within our organization about sharing s
 
 ## Known Instances
 
-* DB Systel
-* GovTech (Singapore Government)
+- **DB Systel**
+- **Robert Bosch GmbH**
+- **Airbus**
+- **GovTech (Singapore Government)**
 
 ### DB Systel
 
@@ -69,6 +72,10 @@ The mentioned collaboration challenges include:
 - building communities for collaboration on projects, just like in Open Source
 
 It is worth mentioning that so far the software shared under this InnerSource license is mostly tooling, infrastructure, and tools lower in the stack.
+
+## Airbus
+
+Airbus created ad hoc InnerSource licenses to enable InnerSource way of working within a large part of the group.
 
 ### GovTech (Singapore Government)
 

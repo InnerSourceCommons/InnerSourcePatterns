@@ -58,10 +58,10 @@ contain:
 * Documentation needed for making modifications to the project - or a link to that.
 * Documentation on how to contribute to the project - or a link to that.
 * A "Getting involved" section that explains which public, archived, linkable communication channels the project uses. This should include a link to the project issue tracker, but also to any further discussion media used.
-* A "Who we are" section explaining who the [Trusted Committers](../trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
+* A "Who we are" section explaining who the [Trusted Committers](trusted-committer.md) behind the project are - with an explanation that instead of contacting these people privately the public communication channels above should be used for communication.
 * An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists.
 
-![README.md](../../../assets/img/standard-base-documentation/README-for-users.png)
+![README.md](../../assets/img/standard-base-documentation/README-for-users.png)
 
 ### CONTRIBUTING.md
 
@@ -79,7 +79,7 @@ topics:
 * How to submit your modifications back to the project.
 * Some information on which turnaround time to expect for modifications made.
 
-![CONTRIBUTING.md](../../../assets/img/standard-base-documentation/CONTRIBUTING-for-contributors.png)
+![CONTRIBUTING.md](../../assets/img/standard-base-documentation/CONTRIBUTING-for-contributors.png)
 
 ### COMMUNICATION.md
 
@@ -123,7 +123,7 @@ started right away: [README-template.md](templates/README-template.md),
 ## Resulting Context
 
 * The time for contributors to get up to speed is significantly reduced.
-* Time spent on answering initial questions for [Trusted Committers](../trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
+* Time spent on answering initial questions for [Trusted Committers](trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
 * Escalations due to misunderstandings and misalignment are significantly reduced.
 
 ## Known Instances
@@ -132,6 +132,7 @@ started right away: [README-template.md](templates/README-template.md),
 * Paypal Inc.
 * Mercado Libre - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBUTING, CODING_GUIDELINES, etc).
 * Analog Devices Inc.
+* Airbus
 
 ## Authors
 

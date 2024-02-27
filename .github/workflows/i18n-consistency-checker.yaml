@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        language: [ja, zh]
+        language: [ja, zh, pt-br, gl]
     steps:
       - uses: actions/checkout@v3
         with:
@@ -24,7 +24,7 @@ jobs:
         id: check-consistency
         run: |
           # Declare the flags
-          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese")
+          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician")
         
           issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
         
