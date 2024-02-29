@@ -137,14 +137,9 @@ started right away.
 
 ## Acknowledgments
 
-<<<<<<< HEAD:patterns/2-structured/base-documentation.md
 * Sebastian Spier - for improving the visuals of `README.md` and `CONTRIBUTING.md`
 * Katie Schueths - for adding the `COMMUNICATION.md` concept
 * Roman Martin Gil - for adding the `CODE_OF_CONDUCT.md` concept
-=======
-* [Sebastian Spier](https://github.com/spier) - for improving the visuals of `README.md` and `CONTRIBUTING.md`
-* [Jose Roman Martin Gil](https://github.com/rmarting) - for adding the `CODE_OF_CONDUCT.md` concept
->>>>>>> 4c2d80a (Adding Acknowledgments section to attribute the additional contributors to this pattern):patterns/2-structured/project-setup/base-documentation.md
 
 ## Alias
 
