@@ -66,7 +66,7 @@ leading to enhanced innovation and problem-solving.
 ## Known Instances
 
 - Red Hat - Many of the internal communities
-- National Australia Bank - 
+- National Australia Bank
 
 ## Authors
 
