@@ -73,7 +73,7 @@ The mentioned collaboration challenges include:
 
 It is worth mentioning that so far the software shared under this InnerSource license is mostly tooling, infrastructure, and tools lower in the stack.
 
-## Airbus
+### Airbus
 
 Airbus created ad hoc InnerSource licenses to enable InnerSource way of working within a large part of the group.
 
