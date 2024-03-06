@@ -29,7 +29,6 @@ that states the goals, the pricing schema, and the expected outcome and output f
 No collaboration happens at the outsourced company or contractor level and each of them are working
 in a silo-based mode with no interactions with others, but the mother company.
 
-
 ## Forces
 
 * Legal teams and outsourced companies trying to avoid risk exposure and responsibilities.
@@ -70,11 +69,7 @@ Outsourced companies and contractors are safe to collaborate with other competit
 rules are clear, common processes and tools are in place, and the legal framework of each participant
 allows to move into this direction.
 
-
-
 ## Author(s) (optional)
-
-
 
 ## Acknowledgments (optional)
 
