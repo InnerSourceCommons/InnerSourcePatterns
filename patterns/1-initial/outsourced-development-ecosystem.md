@@ -59,7 +59,7 @@ in a silo-based mode with no interactions with others, but the mother company.
      across companies or contractors.
 * Train the mother company POs to work with several suppliers within the same project.
 * Define clear and fair guidelines across internal outsourced companies to avoid internal friction.
-* Skill up you suppliers on InnerSource practices
+* Skill up your suppliers on InnerSource practices
 * Resources discussions may be part of the conversation at some point, be sure to define the limitations
   of their interactions within other existing projects.
 
