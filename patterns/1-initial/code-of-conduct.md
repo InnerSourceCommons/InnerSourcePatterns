@@ -43,7 +43,7 @@ However, adopt the following life cycle can improve the implementation and adopt
 4. Regularly review and update the Code of Conduct as needed to reflect evolving community norms and values.
 
 A good practice for the third point is to share the Code of Conduct in each InnerSource community repository as a file named `CODE_OF_CONDUCT.md`.
-This file can be part of the [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation) of any InnerSource project repository.
+This file can be part of the [Standard Base Documentation](../2-structured/base-documentation.md) of any InnerSource project repository.
 
 ![CODE_OF_CONDUCT.md](../../assets/img/code-of-conduct/CODE_OF_CONDUCT-for-the-community.png)
 
@@ -67,7 +67,7 @@ Community members feel empowered to contribute openly and engage in meaningful d
 
 ## Related Patterns
 
-- [InnerSource Commons Pattern - Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation)
+- [InnerSource Commons Pattern - Standard Base Documentation](../2-structured/base-documentation.md)
 - [Open Practice Library - Social Contract](https://openpracticelibrary.com/practice/social-contract/)
 - [Contributor Covenant](https://www.contributor-covenant.org/)
 
