@@ -20,7 +20,8 @@ This welcoming, respectful and inclusive environment fosters more collaboration 
 
 ## Forces
 
-A well-crafted Code of Conduct helps prevent and address issues such as harassment, discrimination, and other harmful behavior, ensuring that everyone feels safe and valued within the project. By providing the framework for positive and inclusive participation, the Code of Conduct encourages diverse perspectives, enhances collaboration, and ultimately leads to the development of higher-quality open-source software.
+A well-crafted Code of Conduct helps prevent and address issues such as harassment, discrimination, and other harmful behavior, ensuring that everyone feels safe and valued within the project.
+By providing the framework for positive and inclusive participation, the Code of Conduct encourages diverse perspectives, enhances collaboration, and ultimately leads to the development of higher-quality open-source software.
 
 ## Solution
 
