@@ -138,10 +138,6 @@ started right away: [README-template.md](templates/README-template.md),
 
 * Isabel Drost-Fromm
 * Katie Schueths
-  
-## Acknowledgments
-
-
 
 ## Alias
 
