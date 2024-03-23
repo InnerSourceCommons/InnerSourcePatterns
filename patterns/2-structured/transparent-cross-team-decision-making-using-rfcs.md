@@ -41,7 +41,7 @@ Like with any process, this must be continually improved upon. There may need to
 
 ## Solutions
 
-We chose an RFC-like process for increasing the transparency of our cross-team decision making process (also see [Requests for Comments][requests-for-comments]).
+We chose an RFC-like process for increasing the transparency of our cross-team decision making process (also see IETF's [Requests for Comments][requests-for-comments]).
 
 Important elements of the solution are:
 
