@@ -61,7 +61,7 @@ Important elements of the solution are:
 
 - [Rust][rust] is a good Open Source example of RFC template and process, and has been the basis for many other RFC processes.
 - [Generalized BBC iPlayer & Sounds RFC template](templates/rfc.md), originally based on the [Rust][rust] template
-- [jakobo/rfc][https://github.com/jakobo/rfc] outlines how to set up a company-internal RFC process. It contains a [detailed explanation](https://github.com/jakobo/rfc/blob/master/text/0001-using_rfcs.md) of why RFCs are important and an [RFC template](https://github.com/jakobo/rfc/blob/master/0000-template.md) to help you write your first RFC. It contains contains information such as motivation/rational, guide implementation, a reference implementation, drawbacks, as well as alternatives to the RFC approach. Bonus: The description itself is an RFC, so while reading it you are already getting a sense of how an RFC works.
+- [jakobo/rfc](https://github.com/jakobo/rfc) outlines how to set up a company-internal RFC process. It contains a [detailed explanation](https://github.com/jakobo/rfc/blob/master/text/0001-using_rfcs.md) of why RFCs are important and an [RFC template](https://github.com/jakobo/rfc/blob/master/0000-template.md) to help you write your first RFC. It contains contains information such as motivation/rational, guide implementation, a reference implementation, drawbacks, as well as alternatives to the RFC approach. Bonus: The description itself is an RFC, so while reading it you are already getting a sense of how an RFC works.
 
 ## Resulting Context
 
