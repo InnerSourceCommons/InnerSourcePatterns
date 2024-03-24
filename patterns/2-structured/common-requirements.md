@@ -16,7 +16,7 @@ The common code in the shared repository isn't meeting the needs of all the proj
 * Someone (or some project) wrote the code in the first place and contributed it to the repository.
 * The common code is a small percentage of the overall deliverable from any of the projects.
 * Each project has its own delivery schedule, set of deliverables and customers.
-* This pattern applies in either of these situations:
+* This pattern applies in any of these situations:
     * there is a **Strong Code Owner** i.e. all changes to the shared repository have to be approved by the repo owner
     * there is **weak code ownership** i.e. no one really owns the code
     * there is **no Benevolent Sponsor** i.e. no organization or executive is providing resources to organize the common code in an InnerSource fashion
