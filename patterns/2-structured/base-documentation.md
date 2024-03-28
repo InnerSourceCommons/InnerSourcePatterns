@@ -137,7 +137,7 @@ started right away: [README-template.md](templates/README-template.md),
 ## Authors
 
 * Isabel Drost-Fromm
-* Katie Schueths
+* Katie Schueths - for adding the `COMMUNICATION.md` concept
 
 ## Alias
 
