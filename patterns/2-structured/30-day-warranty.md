@@ -49,6 +49,7 @@ In addition it helps to provide clear [contribution guidelines](./base-documenta
 - This was tried and proven successful at PayPal.
 - GitHub internally uses this pattern with a modified warranty timeline of 6 weeks.
 - Microsoft recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
+- SAP - see: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
 
 ## Authors
 
