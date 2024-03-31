@@ -68,8 +68,7 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 ## Known Instances
 
 * Nike (multiple projects)
-* SAP
-  * See: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
+* SAP - see: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
 
 ## Status
 
