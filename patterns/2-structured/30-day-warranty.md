@@ -50,6 +50,7 @@ In addition it helps to provide clear [contribution guidelines](./base-documenta
 - GitHub internally uses this pattern with a modified warranty timeline of 6 weeks.
 - Microsoft recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
 - SAP - see: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
+  - Explore how SAP's InnerSource-based Everest project leverages the '30 Day Warranty' pattern to transform collaboration, ensuring contributions are not just accepted but also supported, enhancing trust and driving forward the culture of shared responsibility and innovation.
 
 ## Authors
 
