@@ -90,9 +90,9 @@ Acadar o *status* de *trusted committer* nun proxecto demostra iniciativa á hor
 
 ### Para os/as mantedores/as
 
-A medida que un proxecto madura, as persoas encargadas do mantemento poden familiarizarse menos cos aspectos chave dun proxecto. Os/As *trusted committers* enchen estes ocos baleiros, asegurando que tódolos aspectos do proxecto sexan atendidos mellor co tempo.
+Á medida que un proxecto madura, as persoas encargadas do mantemento poden familiarizarse menos cos aspectos chave dun proxecto. Os/As *trusted committers* enchen estes ocos baleiros, asegurando que todos os aspectos do proxecto sexan atendidos mellor co tempo.
 
-Contar cun conxunto robusto de *trusted committers* asegura que, se o persoal encargado do mantemento do proxecto segue adiante, sempre existirá un plan para a administración responsable.
+Contar cun conxunto robusto de *trusted committers* asegura que, se o persoal encargado do mantemento do proxecto segue adiante, sempre existirá un plan para a Administración responsable.
 
 ## Exemplos coñecidos
 
@@ -101,7 +101,7 @@ Esta iniciativa foi levada a cabo con éxito en:
 - Nike
 - Paypal
 - Mercado Libre: Engadindo unha sección no arquivo `CONTRIBUTING.md` para informar de quen son os/as *trusted committers*.
-- Robert Bosch GmbH: Non se designou co nome de «*trusted committer*», pero si se implantou este rol ao comezo da implantación de InnerSource. Os/As *trusted committers* recibiron financiación para o 100 % do seu tempo laboral co obxectivo de que puidesen centrarse neste papel.
+- Robert Bosch GmbH: non se designou co nome de «*trusted committer*», pero si se implantou este rol ao comezo da implantación de InnerSource. Os/As *trusted committers* recibiron financiación para o 100 % do seu tempo laboral co obxectivo de que puidesen centrarse neste papel.
 
 ![Sección dos/as *trusted committers* en CONTRIBUTING.md de Mercado Libre](../../../assets/img/mercadolibre-trusted-committers.png)
 

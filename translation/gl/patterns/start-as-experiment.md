@@ -8,17 +8,17 @@ Comece a súa iniciativa InnerSource como un experimento de tempo limitado para 
 
 ## Problema
 
-A empresa considera adoptar unha iniciativa InnerSource pero non se pon en marcha porque a dirección non está segura do seu resultado e, polo tanto, non está disposta a comprometerse cunha inversión.
+A empresa considera adoptar unha iniciativa InnerSource pero non se pon en marcha porque a dirección non está segura do seu resultado e, polo tanto, non está disposta a comprometerse cun investimento.
 
 ## Contexto
 
-A empresa está a considerar a aplicación de InnerSource para aumentar a eficiencia da colaboración nos proxectos de software. Porén, a maioría do persoal directivo non está familiarizado co modelo de traballo do Sistema de software libre e, en cambio, están acostumados a unha xestión xerárquica de arriba cara abaixo. A iniciativa InnerSource é moi popular entre os/as desenvolvedores/as de software da empresa, sobre todo porque moitos/as deles/as xa a están a empregar ou porque están a desenvolver de maneira activa o software libre.
+A empresa está a considerar a aplicación de InnerSource para aumentar a eficiencia da colaboración nos proxectos de software. Porén, a maioría do persoal directivo non está familiarizado co modelo de traballo do sistema de software libre e, en cambio, están acostumados a unha xestión xerárquica de arriba cara abaixo. A iniciativa InnerSource é moi popular entre os/as desenvolvedores/as de software da empresa, sobre todo porque moitos/as deles/as xa a están a empregar ou porque están a desenvolver de maneira activa o software libre.
 
 ## Aspectos que mellorar
 
-- A dirección procurará verificar as afirmacións arredor das melloras na colaboración mediante InnerSource antes de realizar unha inversión a longo prazo. Isto, xeralmente, implica medir as melloras.
-- No caso de que sexa probable que a iniciativa InnerSource teña unha grande aceptación entre os/as desenvolvedores/as e que moitos proxectos dependan dela, a decisión de eliminala tería mala acollida e, polo tanto, sería unha decisión difícil de tomar. A percepción de perda de control resultante podería disuadir a algún/algunha directivo/a de tan sequera comezar a implantar InnerSource.
-- A implantación de modelos de traballo ao estilo InnerSource adoitan supor un cambio radical con respecto aos modelos de traballo que se empregaban anteriormente. Polo tanto, é probable que os procesos obrigatorios existentes xa non sexan aplicables e que os procesos de goberno tampouco sexan apropiados. O resultado podería ser que a empresa teña que operar cun regulamento que se atope en terra de ninguén desde o punto de vista xurídico. Como, por exemplo, no caso das regulacións relacionadas co control de taxas e exportacións en grandes corporacións con múltiples entidades xurídicas en múltiples países.
+- A dirección procurará verificar as afirmacións arredor das melloras na colaboración mediante InnerSource antes de realizar un investimento a longo prazo. Isto, xeralmente, implica medir as melloras.
+- No caso de que sexa probable que a iniciativa InnerSource teña unha grande aceptación entre os/as desenvolvedores/as e que moitos proxectos dependan dela, a decisión de eliminala tería mala acollida e, polo tanto, sería unha decisión difícil de tomar. A percepción de perda de control resultante podería disuadir algún/algunha directivo/a de tan sequera comezar a implantar InnerSource.
+- A implantación de modelos de traballo ao estilo InnerSource adoita supor un cambio radical con respecto aos modelos de traballo que se empregaban anteriormente. Polo tanto, é probable que os procesos obrigatorios existentes xa non sexan aplicables e que os procesos de goberno tampouco sexan apropiados. O resultado podería ser que a empresa teña que operar cun regulamento que se atope en terra de ninguén desde o punto de vista xurídico. Como, por exemplo, no caso das regulacións relacionadas co control de taxas e exportacións en grandes corporacións con múltiples entidades xurídicas en múltiples países.
 
 ## Solución
 
@@ -26,13 +26,13 @@ Declare a iniciativa InnerSource como un experimento cun tempo limitado. Defina 
 
 Exemplos de tales criterios son:
 
-- Axeitada distribución xeográfica dos/as desenvolvedores/as.
+- Axeitada distribución xeográfica dos/das desenvolvedores/as.
 - Axeitada mestura de departamentos nos que se atopan os/as desenvolvedores/as.
 - Apertura da comunicación na comunidade.
 - Traxectoria profesional baseada nos méritos acadados nesa comunidade.
 - Toma de decisións democrática na comunidade.
 
-Considere a posibilidade de designar o final do experimento como o punto a partir do cal facer un cambio ou pausa para a reavaliación. Considere tamén establecer un [Comité de revisión](./review-committee.md) para aumentar as probabilidades de que a dirección se implique a través da participación. Dependendo da cultura da empresa, podería ser útil acompañar o experimento con métricas axeitadas como en [Primeiros pasos coas métricas](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/introducing-metrics-in-innersource.md). Se os proxectos no experimento non brindan un impacto directo nos ingresos da empresa, considere presentarllos a unha [avaliación entre equipos](./crossteam-project-valuation.md) e para resaltar as súas contribucións de valor.
+Considere a posibilidade de designar o final do experimento como o punto a partir do cal facer un cambio ou pausa para a reavaliación. Considere tamén establecer un [comité de revisión](./review-committee.md) para aumentar as probabilidades de que a dirección se implique a través da participación. Dependendo da cultura da empresa, podería ser útil acompañar o experimento con métricas axeitadas como en [Primeiros pasos coas métricas](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/introducing-metrics-in-innersource.md). Se os proxectos no experimento non brindan un impacto directo nos ingresos da empresa, considere presentalos a unha [avaliación entre equipos](./crossteam-project-valuation.md) e para resaltar as súas contribucións de valor.
 
 ## Contexto resultante
 
@@ -43,7 +43,7 @@ O persoal directivo pode pór en marcha InnerSource polas seguintes razóns:
 - Incluso no caso de fracasar, a configuración garante que a empresa aprenderá do experimento.
 - En caso de éxito, os datos recollidos durante o experimento permitirán que o persoal directivo se comprometa a longo prazo con InnerSource.
 
-As persoas participantes no experimento InnerSource son agora conscientes de que teñen que demostrarlle ao persoal directivo que InnerSource produce os beneficios prometidos. Polo tanto, será útil centrar o traballo naquelas actividades que aporten un valor máis demostrable, aumentando así as posibilidades de éxito.
+As persoas participantes no experimento InnerSource son agora conscientes de que teñen que demostrarlle ao persoal directivo que InnerSource produce os beneficios prometidos. Polo tanto, será útil centrar o traballo naquelas actividades que acheguen un valor máis demostrable, aumentando así as posibilidades de éxito.
 
 Finalmente, comezar cunha práctica a modo experimento, fai que sexa moito máis fácil eludir as normativas e os impedimentos tales como as políticas de ferramentas e os procesos, que poderían diminuír as posibilidades de éxito.
 

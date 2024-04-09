@@ -4,7 +4,7 @@ Portal InnerSource
 
 ## Patlet
 
-Os/As contribuidores/as potenciais non poden descubrir dun xeito sinxelo os proxectos InnerSource nos que están interesados/as. Ao crear unha intranet que indexe toda a información dispoñible do proxecto InnerSource, permítese que os/as contribuidores/as coñezan os proxectos que lles poderían interesar; do mesmo xeito que lles serve aos/ás *project owners* de InnerSource para atraer a un público externo.
+Os/As contribuidores/as potenciais non poden descubrir dun xeito sinxelo os proxectos InnerSource nos que están interesados/as. Ao crear unha intranet que indexe toda a información dispoñible do proxecto InnerSource, permítese que os/as contribuidores/as coñezan os proxectos que lles poderían interesar; do mesmo xeito que lles serve aos/ás *project owners* de InnerSource para atraer un público externo.
 
 ## Problema
 
@@ -14,11 +14,11 @@ Os proxectos InnerSource da súa organización están en aumento, pero os/as pos
 
 ## Historia
 
-Está tentando establecer unha práctica InnerSource dentro da súa organización. Coñece algúns proxectos que se executan mediante un modelo InnerSource, pero a súa existencia só se comunica a través do boca en boca, o correo electrónico ou conversas privadas con outros/as empregados/as. Como resultado, os/as *project owners* de InnerSource teñen dificultades para atraer aos/ás contribuidores/as.
+Está tentando establecer unha práctica InnerSource dentro da súa organización. Coñece algúns proxectos que se executan mediante un modelo InnerSource, pero a súa existencia só se comunica a través do boca en boca, o correo electrónico ou conversas privadas con outros/as empregados/as. Como resultado, os/as *project owners* de InnerSource teñen dificultades para atraer os/as contribuidores/as.
 
-Non hai un recurso de acceso único e compartido para os/as empregados/as de toda a organización que lles permita descubrir facilmente tódolos proxectos InnerSource en curso. Isto está a limitar dun xeito importante o potencial de crecemento de cada proxecto InnerSource.
+Non hai un recurso de acceso único e compartido para os/as empregados/as de toda a organización que lles permita descubrir facilmente todos os proxectos InnerSource en curso. Isto está a limitar dun xeito importante o potencial de crecemento de cada proxecto InnerSource.
 
-Que se pode facer para axudar a que tódolos proxectos de InnerSource eleven a súa visibilidade a un público tan grande como sexa posible e poidan atraer contribuidores/as de toda a organización?
+Que se pode facer para axudar a que todos os proxectos de InnerSource eleven a súa visibilidade a un público tan grande como sexa posible e poidan atraer contribuidores/as de toda a organización?
 
 ## Contexto
 
@@ -37,7 +37,7 @@ Que se pode facer para axudar a que tódolos proxectos de InnerSource eleven a s
 
 * Non se está a conseguir todo o potencial de equipos separados de enxeñaría para colaborar en desafíos compartidos.
 * É difícil que os individuos descubran que proxectos InnerSource existen.
-* É difícil para os/as *project owners* de InnerSource atraer a un público de contribuidores/as externos/as.
+* É difícil para os/as *project owners* de InnerSource atraer un público de contribuidores/as externos/as.
 
 ## Solucións
 
@@ -45,22 +45,22 @@ Que se pode facer para axudar a que tódolos proxectos de InnerSource eleven a s
 
 As propiedades chave do portal poden ser:
 
-* As persoas visitantes do portal InnerSource deberían poder ver tódolos proxectos dispoñibles e buscar proxectos específicos en función de varios criterios, como o nome do proxecto, as tecnoloxías en uso, os nomes dos/as contribuidores/as, a área empresarial patrocinadora etc.
-* A información que se mostra a través do portal InnerSource debe estar baixo o control total dos/as *project owners* de InnerSource en todo momento. E, preferiblemente, esta información obterase directamente dun ficheiro de datos específico ou metadatos almacenados no propio repositorio do proxecto.
-* Os/As *project owners* deben incluír toda a información relevante sobre os seus proxectos nos ficheiros de datos; e engadir o nome do proxecto, os nomes dos/as *trusted contributors*, unha breve descrición e ligazóns ao repositorio de código ou calquera documentación do soporte.
-* (Opcional) Aínda que a meirande parte das organizacións escollerán facer o seu portal dispoñible só na súa intranet, algunhas outras optaron por deixalo dispoñible na internet pública. Esta última opción pode ser interesante para as organizacións que queiran mostrar información adicional sobre o seu enfoque InnerSource no seu portal; por exemplo, con fins corporativos e de contratación.
+* As persoas visitantes do portal InnerSource deberían poder ver todos os proxectos dispoñibles e buscar proxectos específicos en función de varios criterios, como o nome do proxecto, as tecnoloxías en uso, os nomes dos contribuidores/as, a área empresarial patrocinadora etc.
+* A información que se mostra a través do portal InnerSource debe estar baixo o control total dos *project owners* de InnerSource en todo momento. E, preferiblemente, esta información obterase directamente dun ficheiro de datos específico ou de metadatos almacenados no propio repositorio do proxecto.
+* Os/As *project owners* deben incluír toda a información relevante sobre os seus proxectos nos ficheiros de datos; e engadir o nome do proxecto, os nomes dos *trusted contributors*, unha breve descrición e ligazóns ao repositorio de código ou calquera documentación do soporte.
+* (Opcional) Aínda que a meirande parte das organizacións escollerá facer o seu portal dispoñible só na súa intranet, algunhas outras optaron por deixalo dispoñible na internet pública. Esta última opción pode ser interesante para as organizacións que queiran mostrar información adicional sobre o seu enfoque InnerSource no seu portal; por exemplo, con fins corporativos e de contratación.
 
 No lanzamento do portal debe terse en consideración unha campaña de comunicación que promova a suma de ficheiros InnerSource de datos ou metadatos aos repositorios de código, para reforzar o número de proxectos que se mostran no portal.
 
-Unha [implantación de referencia](https://github.com/SAP/project-portal-for-innersource) dun portal InnerSource está dispoñible en GitHub e aberta ás contribucións. Enumera tódolos proxectos InnerSource dunha organización dun xeito interactivo e fácil de usar. Os proxectos poden autorrexistrarse a partir dun tema dedicado de GitHub e proporcionar metadatos adicionais.
+Unha [implantación de referencia](https://github.com/SAP/project-portal-for-innersource) dun portal InnerSource está dispoñible en GitHub e aberta ás contribucións. Enumera todos os proxectos InnerSource dunha organización dun xeito interactivo e fácil de usar. Os proxectos poden autorrexistrarse a partir dun tema dedicado de GitHub e proporcionar metadatos adicionais.
 
 ![Exemplo de portal InnerSource](../../../assets/img/portal-overview.png "Exemplo de portal InnerSource")
 
 ## Contexto resultante
 
-* O portal InnerSource permitiu aos/ás *project owners* anunciar os seus proxectos a toda a organización. Debido a esta maior visibilidade, están a atraer comunidades de contribuidores/as moito máis grandes que nunca antes.
-* Para aqueles/as que buscan involucrarse en proxectos InnerSource, o portal InnerSource permitiulles descubrir exactamente o tipo de oportunidades que lles interesan ou poder buscar de maneira simultánea entre tódolos proxectos InnerSource dispoñibles, en función dos seus criterios específicos.
-* Satisfacer as necesidades destes dous tipos de audiencia axudou a establecer InnerSource como unha opción viable e atractiva para que tódalas áreas da organización poidan chegar a logros comúns que non poderían alcanzar por separado.
+* O portal InnerSource permitiulles aos/ás *project owners* anunciar os seus proxectos a toda a organización. Debido a esta maior visibilidade, están a atraer comunidades de contribuidores/as moito máis grandes que nunca antes.
+* Para aqueles/as que buscan involucrarse en proxectos InnerSource, o portal InnerSource permitiulles descubrir exactamente o tipo de oportunidades que lles interesan ou poder buscar de maneira simultánea entre todos os proxectos InnerSource dispoñibles, en función dos seus criterios específicos.
+* Satisfacer as necesidades destes dous tipos de audiencia axudou a establecer InnerSource como unha opción viable e atractiva para que todas as áreas da organización poidan chegar a logros comúns que non poderían alcanzar por separado.
 
 ## Exemplos coñecidos
 
