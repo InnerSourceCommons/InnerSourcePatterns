@@ -24,7 +24,7 @@ Onde está o problema? Cales son as circunstancias previas? É importante descri
 
 ### Aspectos que mellorar
 
-Que dificulta o problema? Cales son os sacrificios? Neste apartado, abórdanse as limitacións que **poden cambiar** a un certo custo. A solución podería mudar un ou máis destes impedimentos co obxectivo de resolver o problema, o cal tamén afecta ao contexto.
+Que dificulta o problema? Cales son os sacrificios? Neste apartado, abórdanse as limitacións que **poden cambiar** a un certo custo. A solución podería mudar un ou máis destes impedimentos co obxectivo de resolver o problema, o cal tamén afecta o contexto.
 
 ### Exemplo ilustrativo (opcional)
 
@@ -53,17 +53,17 @@ Pode facer referencia a:
 
 ### Estado (opcional ata a integración)
 
-O estado xeral do modelo almacénase no sistema de etiquetado de GitHub; consulte aquí calquera *pull request*. Teña en conta que o sistema de etiquetado de GitHub faise menos visible unha vez que o modelo se remata e se integra, polo que é útil contar con información neste eido.
+O estado xeral do modelo almacénase no sistema de etiquetaxe de GitHub; consulte aquí calquera *pull request*. Teña en conta que o sistema de etiquetaxe de GitHub se fai menos visible unha vez que o modelo se remata e se integra, polo que é útil contar con información neste eido.
 
 Tamén pode almacenar outra información de interese neste apartado, como un historial de revisión, por exemplo: «Tres de nós revisamos isto o 5/2/17 e precísase dos coñecementos especializados de John antes de que se poida continuar».
 
 ### Autoría (opcional)
 
-En moitos casos, vostede mesmo/a pode formar parte da autoría. Se é necesario, procure a alguén en InnerSource Commons para que sexa o/a autor/a nominal (tal e como se explicou anteriormente). Tamén podería manter o anonimato no caso de que non queira asumir a autoría (algo común cando se emprega un *donut* para procurar unha solución).
+En moitos casos, vostede mesmo/a pode formar parte da autoría. Se é necesario, procure alguén en InnerSource Commons para que sexa o/a autor/a nominal (tal e como se explicou anteriormente). Tamén podería manter o anonimato no caso de que non queira asumir a autoría (algo común cando se emprega un *donut* para procurar unha solución).
 
 ### Recoñecementos (opcional)
 
-Inclúa a aquelas persoas que axudaron a desenvolver este modelo; tanto para a atribución como para un posible seguimento futuro. Aínda que é opcional, a maioría dos modelos deben citar ás persoas que contribuíron na súa creación.
+Inclúa aquelas persoas que axudaron a desenvolver este modelo; tanto para a atribución como para un posible seguimento futuro. Aínda que é opcional, a maioría dos modelos deben citar as persoas que contribuíron na súa creación.
 
 ### Título alternativo (opcional)
 

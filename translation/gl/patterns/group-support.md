@@ -4,7 +4,7 @@ Soporte grupal
 
 ## Patlet
 
-Que acontece se un equipo ou unha persoa abandona un proxecto InnerSource? Para manter vivo o proxecto fórmase un novo grupo de colaboradores/as interesados/as.
+que acontece se un equipo ou unha persoa abandona un proxecto InnerSource? Para manter vivo o proxecto fórmase un novo grupo de colaboradores/as interesados/as.
 
 ## Problema
 
