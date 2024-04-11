@@ -4,7 +4,7 @@ Licenza InnerSource
 
 ## Patlet
 
-Dúas entidades xurídicas que pertencen á mesma organización queren compartir o código fonte do software entre elas, mais preocúpanlles as implicacións en termos de responsabilidades legais ou de contabilidade entre as empresas.
+dúas entidades xurídicas que pertencen á mesma organización queren compartir o código fonte do software entre elas, mais preocúpanlles as implicacións en termos de responsabilidades legais ou de contabilidade entre as empresas.
 
 Unha **licenza InnerSource** proporciona un marco legal reutilizable para compartir o código fonte dentro da organización. Isto abre novas opcións de colaboración e fai explícitos os dereitos e as obrigas das persoas xurídicas implicadas.
 

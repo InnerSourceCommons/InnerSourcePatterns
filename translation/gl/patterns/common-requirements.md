@@ -4,7 +4,7 @@ Requisitos comúns
 
 ## Patlet
 
-O código común dun repositorio compartido non satisfai as necesidades de tódolos equipos do proxecto que desexan empregalo; isto resólvese mediante a aliñación de requisitos e a refactorización.
+o código común dun repositorio compartido non satisfai as necesidades de todos os equipos do proxecto que desexan empregalo; isto resólvese mediante a aliñación de requisitos e a refactorización.
 
 ## Problema
 

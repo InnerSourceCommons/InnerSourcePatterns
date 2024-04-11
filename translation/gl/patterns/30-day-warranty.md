@@ -4,7 +4,7 @@ Garantía de 30 días
 
 ## Patlet
 
-Cando se aceptan contribucións externas, existe unha aversión natural do equipo a asumir a responsabilidade do código que non foi escrito por eles/as. A través da garantía de 30 días, o equipo contribuidor acepta proporcionar correccións de erros ao equipo receptor. Isto aumentará o nivel de confianza de ambos equipos e fará que sexa máis probable que se acepten as contribucións.
+cando se aceptan contribucións externas, existe unha aversión natural do equipo a asumir a responsabilidade do código que non foi escrito por eles/as. A través da garantía de 30 días, o equipo contribuidor acepta proporcionar correccións de erros ao equipo receptor. Isto aumentará o nivel de confianza de ambos os equipos e fará que sexa máis probable que se acepten as contribucións.
 
 ## Problema
 

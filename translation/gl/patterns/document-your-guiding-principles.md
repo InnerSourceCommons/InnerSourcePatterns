@@ -4,7 +4,7 @@ Documente os seus principios reitores
 
 ## Patlet
 
-A explicación habitual de InnerSource baseada en «aplicar as mellores prácticas de software libre dentro dunha organización» non funciona correctamente coas persoas que carecen de experiencia con software libre. Como solución, os principios InnerSource máis importantes documéntanse e publícanse de maneira aberta.
+a explicación habitual de InnerSource baseada en «aplicar as mellores prácticas de software libre dentro dunha organización» non funciona correctamente coas persoas que carecen de experiencia con software libre. Como solución, os principios InnerSource máis importantes documéntanse e publícanse de maneira aberta.
 
 ## Problema
 

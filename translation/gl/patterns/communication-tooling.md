@@ -4,7 +4,7 @@ Ferramentas de comunicación
 
 ## Patlet
 
-Os/As usuarios/as dun proxecto InnerSource teñen problemas para obter axuda e poñerse en contacto co *host team*. Mediante o uso sistemático de ferramentas de comunicación asíncrona, os debates serán visibles e permanecerán arquivados e accesibles; o que se traduce nunha mellora do nivel de asistencia aos/ás usuarios/as.
+os/as usuarios/as dun proxecto InnerSource teñen problemas para obter axuda e poñerse en contacto co host team. Mediante o uso sistemático de ferramentas de comunicación asíncrona, os debates serán visibles e permanecerán arquivados e accesibles; o que se traduce nunha mellora do nivel de asistencia aos/ás usuarios/as.
 
 ## Problema
 

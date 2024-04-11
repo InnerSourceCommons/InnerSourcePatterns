@@ -4,7 +4,7 @@ Servizo vs. libraría
 
 ## Patlet
 
-Os equipos DevOps poden ser reticentes a traballar máis alá dos límites do equipo, en bases de código comúns; posto que non está definido quen sería a persoa responsable de responder ante unha situación de inactividade do servizo. Con frecuencia, a solución pode ser implantar o mesmo servizo en contextos independentes con cadeas de escalada separadas, en caso de caída do servizo ou de factorización dunha gran cantidade de código compartido nunha libraría na que se poidan facer colaboracións.
+os equipos DevOps poden ser reticentes a traballar máis alá dos límites do equipo, en bases de código comúns; posto que non está definido quen sería a persoa responsable de responder ante unha situación de inactividade do servizo. Con frecuencia, a solución pode ser implantar o mesmo servizo en contextos independentes con cadeas de escalada separadas, en caso de caída do servizo ou de factorización dunha gran cantidade de código compartido nunha libraría na que se poidan facer colaboracións.
 
 ## Problema
 

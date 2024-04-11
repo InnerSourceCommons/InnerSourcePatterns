@@ -4,7 +4,7 @@ Valoración de proxectos entre equipos
 
 ## Patlet
 
-É difícil convencer acerca do valor dos proxectos InnerSource desenvolvidos entre equipos que non teñen un impacto directo nos ingresos da empresa. Velaquí unha forma de representar o seu proxecto baseada en datos, que articula o seu valor e amplifícao.
+é difícil convencer acerca do valor dos proxectos InnerSource desenvolvidos entre equipos que non teñen un impacto directo nos ingresos da empresa. Velaquí unha forma de representar o seu proxecto baseada en datos, que articula o seu valor e amplifícao.
 
 ## Contexto
 

@@ -4,7 +4,7 @@ Comece como un experimento
 
 ## Patlet
 
-Comece a súa iniciativa InnerSource como un experimento de tempo limitado para facilitar que o persoal directivo, que non estea familiarizado con InnerSource, secunde e apoie a iniciativa.
+comece a súa iniciativa InnerSource como un experimento de tempo limitado para facilitar que o persoal directivo, que non estea familiarizado con InnerSource, secunde e apoie a iniciativa.
 
 ## Problema
 

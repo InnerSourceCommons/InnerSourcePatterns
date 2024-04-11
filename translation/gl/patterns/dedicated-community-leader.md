@@ -4,7 +4,7 @@ Líder da comunidade experto/a en InnerSource
 
 ## Patlet
 
-Seleccione persoas con habilidades técnicas e de comunicación para liderar as comunidades e garantir o éxito no inicio dunha iniciativa InnerSource
+seleccione persoas con habilidades técnicas e de comunicación para liderar as comunidades e garantir o éxito no inicio dunha iniciativa InnerSource
 
 ## Problema
 

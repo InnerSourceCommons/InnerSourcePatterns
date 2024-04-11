@@ -4,8 +4,7 @@
 
 ## Patlet
 
-Moitos proxectos InnerSource recibirán valoracións constantemente ou requirirán a posta en marcha de novas funcionalidades e a corrección de erros por parte dos/as contribuidores/as.
-Nestas situacións, as persoas encargadas do mantemento do proxecto buscan formas de recoñecer e recompensar o traballo do/a contribuidor/a máis alá das contribucións individuais.
+moitos proxectos InnerSource recibirán valoracións constantemente ou requirirán a posta en marcha de novas funcionalidades e a corrección de erros por parte dos contribuidores/as. Nestas situacións, as persoas encargadas do mantemento do proxecto buscan formas de recoñecer e recompensar o traballo do contribuidor/a máis alá das contribucións individuais.
 
 ## Problema
 

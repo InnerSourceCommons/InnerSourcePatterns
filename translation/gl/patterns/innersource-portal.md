@@ -4,7 +4,7 @@ Portal InnerSource
 
 ## Patlet
 
-Os/As contribuidores/as potenciais non poden descubrir dun xeito sinxelo os proxectos InnerSource nos que están interesados/as. Ao crear unha intranet que indexe toda a información dispoñible do proxecto InnerSource, permítese que os/as contribuidores/as coñezan os proxectos que lles poderían interesar; do mesmo xeito que lles serve aos/ás *project owners* de InnerSource para atraer un público externo.
+os/as contribuidores/as potenciais non poden descubrir dun xeito sinxelo os proxectos InnerSource nos que están interesados/as. Ao crear unha intranet que indexe toda a información dispoñible do proxecto InnerSource, permítese que os/as contribuidores/as coñezan os proxectos que lles poderían interesar; do mesmo xeito que lles serve aos/ás project owners de InnerSource para atraer a un público externo.
 
 ## Problema
 

@@ -4,7 +4,7 @@ Documentación base estándar
 
 ## Patlet
 
-Os/As novos/as contribuidores/as dun proxecto InnerSource teñen dificultades para determinar quen mantén o proxecto, en que traballar e como contribuír. Ao proporcionar documentación en arquivos estándar como `README.md`/`CONTRIBUTING.md` permítese un proceso de autoservizo para os/as novos/as contribuidores/as, de xeito que poidan atopar por si mesmos/as as respostas ás preguntas máis comúns.
+ós/ás novos/as contribuidores/as dun proxecto InnerSource teñen dificultades para determinar quen mantén o proxecto, en que traballar e como contribuír. Ao proporcionar documentación en arquivos estándar como README.md/CONTRIBUTING.md permítese un proceso de autoservizo para os/as novos/as contribuidores/as, de xeito que poidan atopar por si mesmos/as as respostas ás preguntas máis comúns.
 
 ## Problema
 

@@ -4,7 +4,7 @@ Extensións para o crecemento sostible
 
 ## Patlet
 
-Un proxecto InnerSource está a recibir demasiadas contribucións, o que dificulta o seu mantemento. Os/As responsables ofrecen un mecanismo de extensión fóra do proxecto principal, que permite escalar as capacidades do proxecto cun custo e gastos xerais de mantemento mínimos.
+un proxecto InnerSource está a recibir demasiadas contribucións, o que dificulta o seu mantemento. Os/As responsables ofrecen un mecanismo de extensión fóra do proxecto principal, que permite escalar as capacidades do proxecto cun custo e gastos xerais de mantemento mínimos.
 
 ## Problema
 
