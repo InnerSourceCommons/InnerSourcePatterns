@@ -18,7 +18,7 @@ jobs:
         language: [en, ja, zh, pt-br, gl]
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - uses: ruby/setup-ruby@v1
       with:
@@ -33,7 +33,7 @@ jobs:
         echo "Generated book for: ${{ matrix.language }}" >> $GITHUB_STEP_SUMMARY
 
     - name: Commit updated toc.md for the book
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Writing updated toc.md for the ${{ matrix.language }} book
         branch: ${{ github.head_ref }}
