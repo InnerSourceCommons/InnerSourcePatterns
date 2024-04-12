@@ -28,9 +28,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: 16
+        node-version: 20
         cache: 'npm'
         cache-dependency-path: pattern-categorization/package-lock.json
     - name: Install Node.js dependencies
@@ -49,6 +49,6 @@ jobs:
     - name: Reduce Screenshot Size (PNG)
       run: npx optipng ${{ matrix.folder }}/innersource-program-mind-map.png
     - name: Commit Changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Re-creating markmap and screenshot
