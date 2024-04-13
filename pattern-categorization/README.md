@@ -32,7 +32,7 @@ Then create a PR with your changes. This triggers an [action](https://github.com
 
 To test your changes locally, you can also generate the mind map yourself like this:
 
-We are using `node 12.x` at the moment.
+We are using `node 20.x` at the moment.
 
 ```
 # install the markmap CLI
