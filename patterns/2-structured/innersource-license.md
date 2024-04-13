@@ -31,7 +31,7 @@ At the time of sharing the source code, it can not be reliably predicted what th
 - Freedom over using the software leads to competition, and spread of ownership
 - There are legal contracts in place which cover the sharing of source code. These contracts are not standardized, so they create additional effort in negotiating and understanding for every project. The existing contracts may also not allow sharing source code in an open enough sense to support a true InnerSource approach.
 - Alternatively, there are no legal contracts in place but source code is shared informally. That might create uncertainty in cases where clarity about ownership and rights and obligations is needed.
-- Choosing a restrictive and/or copyleft license can constitute a barrier for InnerSource adoption. Specifically, limiting publication to the organisation might require a costly relicensing procedure prior to transitioning to Open Source.
+- Choosing a restrictive and/or copyleft license can constitute a barrier for InnerSource adoption. Specifically, limiting publication to the organization might require a costly relicensing procedure prior to transitioning to Open Source.
 
 ## Solutions
 
