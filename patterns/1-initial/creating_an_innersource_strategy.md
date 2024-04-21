@@ -69,3 +69,7 @@ Initial
 ## Author(s)
 
 - Michael Picht
+
+## References
+
+For discussions about this pattern idea please see [this PR](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/652) as well.
