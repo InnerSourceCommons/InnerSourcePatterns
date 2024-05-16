@@ -36,7 +36,7 @@ The Code of Conduct will articulate the shared values and principles of the Inne
 ## Implementation
 
 The adoption of well-known covenants, such as the [Contributor Covenant](https://www.contributor-covenant.org/), or the adaptation of some internal covenant for members of the organization are good starting points for implementation of this pattern.
-However, adopt the following life cycle can improve the implementation and adoption of the Code of Conduct in a InnerSource community:
+However, adopting the following life cycle can improve the implementation and adoption of the Code of Conduct in an InnerSource community:
 
 1. Collaboratively draft the Code of Conduct, involving input from community members representing diverse perspectives.
 2. Seek feedback and consensus from the community to ensure buy-in and ownership of the guidelines.
