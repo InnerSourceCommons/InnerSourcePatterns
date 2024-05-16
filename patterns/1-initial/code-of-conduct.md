@@ -4,8 +4,8 @@ Code of Conduct
 
 ## Patlet
 
-A healthy and inclusive InnerSource community requires strong levels of communications and interactions.
-Establishing a Code of Conduct provides guidelines for establishing rules and expectations regarding behavior and interactions within the community.
+Communications and interactions between collaborators are rude, not inclusive or offensive, harming and increasing the discussions without any value added.
+A Code of Conduct provides guidelines for establishing rules and expectations regarding behavior and interactions within the community to build stronger levels of collaboration.
 
 ## Problem
 
@@ -15,13 +15,15 @@ Without established guidelines, members may engage in behavior that is harmful, 
 
 ## Context
 
-Different individuals and teams within the organization collaborate in a healthy and inclusive community without conflicts.
-This welcoming, respectful and inclusive environment fosters more collaboration and creates trusted relationships across the organization where all community members feel safe and valued.
+This pattern emerges when the communications between different team members are very far away of the goals, focused on personal references, blaming other opinions or following non-inclusive behaviors.
 
 ## Forces
 
-A well-crafted Code of Conduct helps prevent and address issues such as harassment, discrimination, and other harmful behavior, ensuring that everyone feels safe and valued within the project.
-By providing the framework for positive and inclusive participation, the Code of Conduct encourages diverse perspectives, enhances collaboration, and ultimately leads to the development of higher-quality open-source software.
+* Define or establish rules of communication to avoid conflicts.
+* Create a welcoming, respectful and inclusive environment to foster more collaboration.
+* Create trusted relationships across different teams.
+* Create the environment where all community members feel safe and valued.
+* Connect to corporate's compliance, and business ethics
 
 ## Solution
 
@@ -35,18 +37,24 @@ The Code of Conduct will articulate the shared values and principles of the Inne
 
 ## Implementation
 
-The adoption of well-known covenants, such as the [Contributor Covenant](https://www.contributor-covenant.org/), or the adaptation of some internal covenant for members of the organization are good starting points for implementation of this pattern.
-However, adopting the following life cycle can improve the implementation and adoption of the Code of Conduct in an InnerSource community:
+The adoption of well-known handbooks, such as the [Contributor Covenant](https://www.contributor-covenant.org/), or the adaptation of some internal employee handbooks for members of the organization are good starting points for implementation of this pattern.
+However, adopt the following life cycle can improve the implementation and adoption of the Code of Conduct in an InnerSource community:
 
 1. Collaboratively draft the Code of Conduct, involving input from community members representing diverse perspectives.
 2. Seek feedback and consensus from the community to ensure buy-in and ownership of the guidelines.
-3. Publish the finalized documents in a prominent location accessible to all community members, such as the InnerSource platform or collaboration tools.
+3. Publish the finalized documents in a prominent location accessible to all community members, such as the [InnerSource portal](https://patterns.innersourcecommons.org/p/innersource-portal) or communication channels.
 4. Regularly review and update the Code of Conduct as needed to reflect evolving community norms and values.
 
 A good practice for the third point is to share the Code of Conduct in each InnerSource community repository as a file named `CODE_OF_CONDUCT.md`.
+In order to avoid content duplication of the Code of Conduct, another good practice is include a reference to a centralized resource within the organization where the content is published to all the InnerSource projects.  
 This file can be part of the [Standard Base Documentation](../2-structured/base-documentation.md) of any InnerSource project repository.
 
 ![CODE_OF_CONDUCT.md](../../assets/img/code-of-conduct/CODE_OF_CONDUCT-for-the-community.png)
+
+It is important to understand that simply adopting a Code of Conduct will not prevent conflict or toxicity in the InnerSource project.
+The [Core Team](https://patterns.innersourcecommons.org/p/core-team) and [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader) are responsible for the safe, fair, and transparent enforcement of the community's code of conduct.
+That responsibility will imply provide a reporting process, a gathering information process and the consequences of any unacceptable behavior.
+These references must be part of the Code of Conduct to encourage the behavior expected in the InnerSource project.  
 
 ## Resulting Context
 
