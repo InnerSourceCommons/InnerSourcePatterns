@@ -4,7 +4,7 @@
 
 ## Patlet
 
-Incluso cando se necesita moito un proxecto InnerSource, as colaboracións e o seu uso poden verse obstaculizados porque é difícil traballar co proxecto. Estableza un *core team* que se dedique a coidar dos elementos fundamentais do proxecto. O traballo do *core team* permite aos/ás contribuidores/as engadir e empregar as funcionalidades que aportan valor aos seus escenarios.
+incluso cando se necesita moito un proxecto InnerSource, as colaboracións e o seu uso poden verse obstaculizados porque é difícil traballar co proxecto. Estableza un core team que se dedique a coidar dos elementos fundamentais do proxecto. O traballo do core team permítelle aos/ás contribuidores/as engadir e empregar as funcionalidades que achegan valor aos seus escenarios.
 
 ## Problema
 

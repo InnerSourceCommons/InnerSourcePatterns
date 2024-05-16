@@ -4,7 +4,7 @@ Cualificación da actividade do repositorio
 
 ## Patlet
 
-Os/As potenciais contribuidores/as queren atopar proxectos InnerSource activos que precisen da súa participación. Ao calcular a cualificación da actividade do repositorio para cada proxecto, pódese crear unha listaxe clasificada de proxectos (por exemplo, no [portal InnerSource](./innersource-portal.md)) para que os/as posibles contribuidores/as poidan determinar dun xeito máis doado en que proxecto desexan colaborar.
+os/as potenciais contribuidores/as queren atopar proxectos InnerSource activos que precisen da súa participación. Ao calcular a cualificación da actividade do repositorio para cada proxecto, pódese crear unha listaxe clasificada de proxectos (por exemplo, no portal InnerSource) para que os/as posibles contribuidores/as poidan determinar dun xeito máis doado en que proxecto desexan colaborar.
 
 ## Problema
 

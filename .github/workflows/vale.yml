@@ -9,13 +9,16 @@ on:
   pull_request:
     branches:
     - main
+  workflow_dispatch:
+  schedule:
+    - cron: '3 2 1 * *'
 
 jobs:
   vale:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Vale Linting
       uses: errata-ai/vale-action@reviewdog

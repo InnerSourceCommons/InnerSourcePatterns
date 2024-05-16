@@ -4,7 +4,7 @@ Casos de uso cun sistema de seguimento de incidencias
 
 ## Patlet
 
-O *host team* de InnerSource non logra ter transparencia nos plans nin no progreso, e tampouco no contexto para os cambios. Isto resólvese aumentando os casos de uso co sistema de seguimento de incidencias do proxecto para que tamén favoreza o intercambio de ideas, o debate sobre estas e o deseño de funcionalidades.
+o host team de InnerSource non logra ter transparencia nos plans nin no progreso, e tampouco no contexto para os cambios. Isto resólvese aumentando os casos de uso co sistema de seguimento de incidencias do proxecto para que tamén favoreza o intercambio de ideas, o debate sobre estas e o deseño de funcionalidades.
 
 ## Problema
 

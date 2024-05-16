@@ -137,10 +137,7 @@ started right away: [README-template.md](templates/README-template.md),
 ## Authors
 
 * Isabel Drost-Fromm
-
-## Acknowledgments
-
-* Katie Schueths - for adding the `COMMUNICATION.md` concept
+* Katie Schueths - added the `COMMUNICATION.md` concept
 
 ## Alias
 
@@ -153,8 +150,9 @@ Provide standard base documentation through a README
 
 ## References
 
-* [README-template.md](templates/README-template.md) and
+* [README-template.md](templates/README-template.md)
 * [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
+* [COMMUNICATION-template.md](templates/COMMUNICATION-template.md)
 
 ## Credits
 
