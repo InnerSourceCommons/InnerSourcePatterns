@@ -4,18 +4,19 @@ Retrospectives for continuous improvement
 
 ## Patlet
 
-A host team working with contributors outside of their own line of management constantly runs into misunderstandings. 
+A host team working with contributors outside of their own line of management constantly runs into misunderstandings.
 As a result collaboration becomes brittle and frustrating.
 Setting aside time for regular retrospectives for the InnerSource team consisting of trusted committers and contributors can help make communication smooth.
 
 ## Problem
 
-For long running collaborations friction between host team and collaborators is substantially reducing focus and energy for everyone involved. 
+For long running collaborations friction between host team and collaborators is substantially reducing focus and energy for everyone involved.
 Willingness to continue the collaboration is shrinking.
 
 ## Context
 
-A host team of trusted committers has started a long running collaboration with a group of contributors. 
+A host team of trusted committers has started a long running collaboration with a group of contributors.
+
 * Over time the number of misunderstandings grows.
 * People may run into mis-communication.
 * Teams may discover slight differences in development culture.
@@ -36,18 +37,20 @@ As a result little is invested in forming a shared team of trusted committers an
 ## Solution
 
 Bring host team and contributors together:
+
 * As a first step it can help to share a meal together and get to know each other.
 * For collaborations running over several weeks establish a monthly 30 minute retrospective meeting that involves everyone who is needed for a successful contribution.
 * Make sure that action items for each restrospective are being followed up upon, ideally check these action items at the beginning of the next retrospective.
 * Keep the agenda of retrospectives stable and predictable: It's already uncomfortable enough to name and resolve collaboration issues.
 
 Example agenda:
+
 * 5 minute checkin so everyone can test their audio setup, silly questions preferred so people can laugh together, reducing overall stress.
 * 5 minute review for action items from last meeting (each item presented by its owner)
 * 10 minutes to gather strengths and weaknesses of the past collaboration time period. Do this as a combination of writing (sticky notes on a digital white board) and verbally explaining the stickies to make sure introverts get involved as well.
-* 2 minutes to put dots against weaknesses that should be addressed in the next cycle. 
+* 2 minutes to put dots against weaknesses that should be addressed in the next cycle.
 Pick the top 1-2 weaknesses.
-* 10 minutes to gather potential remedy actions to address the picked weaknesses. 
+* 10 minutes to gather potential remedy actions to address the picked weaknesses.
 Again use time for writing sticky notes to involve everyone.
 * 2 minutes to put dots against action items (each participant may add 2-3 dots), pick at most top 3 items, assign each item two owners - one trusted committers and one contributor.
 * 5 minutes for checkout so everyone can wind down and leave feedback on the meeting.
