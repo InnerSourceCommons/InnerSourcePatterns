@@ -79,6 +79,7 @@ Community members feel empowered to contribute openly and engage in meaningful d
 - [InnerSource Commons Pattern - Standard Base Documentation](../2-structured/base-documentation.md)
 - [Open Practice Library - Social Contract](https://openpracticelibrary.com/practice/social-contract/)
 - [Contributor Covenant](https://www.contributor-covenant.org/)
+- [GitHub Open Source Guide: Code of Conduct](https://opensource.guide/code-of-conduct/)
 
 ## Status
 
