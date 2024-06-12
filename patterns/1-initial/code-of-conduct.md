@@ -74,7 +74,7 @@ Community members feel empowered to contribute openly and engage in meaningful d
 
 - Matt Cobby - Adding the National Australia Bank reference
 
-## Related Patterns
+## References
 
 - [InnerSource Commons Pattern - Standard Base Documentation](../2-structured/base-documentation.md)
 - [Open Practice Library - Social Contract](https://openpracticelibrary.com/practice/social-contract/)
