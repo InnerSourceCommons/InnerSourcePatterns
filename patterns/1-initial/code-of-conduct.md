@@ -17,13 +17,21 @@ Without established guidelines, members may engage in behavior that is harmful, 
 
 This pattern emerges when the communications between different team members are very far away of the goals, focused on personal references, blaming other opinions or following non-inclusive behaviors.
 
+Some examples of this context:
+
+* The organization has gone through a rapid growth phase, where maintaining a strong collaborative culture has suffered.
+* The organization has acquired multiple smaller organizations over a short period of time, and each of these organizations bring their own slightly different culture.
+* The organization is highly distributed over multiple countries, nationalities, cultures, and timezones.
+* Members of different teams at the organization have not established strong inter-personal relationships.
+* Previous attempts to establish ground rules for collaboration have been treated as mere lip service, and have had little to no effect.
+
 ## Forces
 
 * Define or establish rules of communication to avoid conflicts.
 * Create a welcoming, respectful and inclusive environment to foster more collaboration.
 * Create trusted relationships across different teams.
 * Create the environment where all community members feel safe and valued.
-* Connect to corporate's compliance, and business ethics
+* Connect to corporate's compliance, and business ethics.
 
 ## Solution
 
