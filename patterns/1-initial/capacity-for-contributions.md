@@ -17,6 +17,7 @@ The BBC's connected TV application are built by a number of teams, each with dif
 The team reapsonsible for the build process for the JavaScript bundles received a major pull request, changing how depedencies were bundled. This PR introduced a new build time dependency, a new strucutre to the deployed JavaSctipt bundles, and touched 503 files, with 6,699 lines of code added and 2,828 lines of code deleted. A contribution of this size required signicant time to code review, test, and ensure the team understood the new tooling snd structure introduced. Normally, InnerSource contriobutions would be reviewed ad-hoc, but the team estimated that this review process would take days rather than hours. Reviewing this PR would have delayed the team's other work, so the team raised this with the team lead, delivery manager, and product manager, to prioritise this work against other work. Time was set aside to review this contribution at future date.
 
 This process was formalised in the team:
+
 * Larger contributions have a ticket created on the team's backlog and included in prioritisation disacussion alongside other tickets. The contributor will be informed of the priority call and given an estimate as to when it will be reviewed and released.
 * Smaller contributions can still be reviewed ad-hoc.
 
