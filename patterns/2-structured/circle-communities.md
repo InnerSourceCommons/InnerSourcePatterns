@@ -68,6 +68,7 @@ By following this pattern, Circle Communities can become vibrant, effective and 
 * [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
 * [Ignacio Pedragon](https://www.linkedin.com/in/ignaciopedregon)
 * [Dale Sackrider](https://www.linkedin.com/in/sackrider)
+* [Jason Fisher](https://www.linkedin.com/in/jasonrfisher)
 * [Michael Ward](https://www.linkedin.com/in/michaelwardqa)
 * [Nick Basil](https://www.linkedin.com/in/nick-basil)
 * [Fred Zuill](https://www.linkedin.com/in/fredzuill)
