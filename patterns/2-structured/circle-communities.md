@@ -47,7 +47,7 @@ By following this pattern, Circle Communities can become vibrant, effective and 
   * Fridays at 13:00 UTC at https://circle.dojo.center
   * Hosted by [Dojo Center](https://dojo.center)
   * Engaged via [InnerSource Commons Foundation](https://innersourcecommons.org) in Slack at ```#dojo-center```
-  * Affiliated by the Mindset, Agile and InnerSource sub-communities within _InnerSource Dojo from SAP_
+  * Affiliated with the Mindset, Agile and InnerSource sub-communities within _InnerSource Dojo from SAP_
 * [InnerSource Dojo from SAP](https://www.youtube.com/watch?v=fXoVm5iTSCc)
 * _Unplugged InnerSource_ sessions within the _Reuse & InnerSource_ workgroup of [SAP Cross-Platform Architecture](https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600)
 
