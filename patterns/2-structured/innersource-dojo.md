@@ -41,7 +41,7 @@ Implementing this pattern helps InnerSource Dojos become vibrant, effective and 
 ## Related Patterns
 
 * [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
-* [Circle Communities]([TODO](https://patterns.innersourcecommons.org/p/circle-communities)
+* [Circle Communities](https://patterns.innersourcecommons.org/p/circle-communities)
 
 ## Known Instances
 
