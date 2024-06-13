@@ -4,7 +4,7 @@ InnerSource Dojo
 
 ## Patlet
 
-An InnerSource Dojo is a structured environment where participants collaboratively create, share and refine content, tools and practices using InnerSource methodologies.  This fosters a culture of continuous learning, innovation and collective improvement.  It can be applied to various domains such as DevOps, Agile practices, Systems Thinking exploration and or Mindset transformation.
+An InnerSource Dojo is a structured environment where participants collaboratively create, share and refine content, tools and practices using InnerSource methodologies.  This fosters a culture of continuous learning, innovation and collective improvement.  It can be applied to various domains such as Agile / DevOps / DevSecOps practices, InnerSource methodologies, Systems Thinking exploration and or Mindset transformation.
 
 ## Problem
 
@@ -30,6 +30,8 @@ Adopt a structured approach to create and sustain an InnerSource Dojo, focusing 
 1. **Facilitate Regular Meetings**: Schedule regular meetings to maintain engagement and momentum.  Use these sessions for open discussions, sharing insights and addressing challenges.  Meetings are open for unpacking issues, with goals set by attendees.
 1. **Rotate Leadership**: Promote shared leadership by rotating the facilitation role among members, fostering ownership and responsibility.
 1. **Use Collaborative Tools**: Utilize tools like Jitsi Meet, Slack and GitHub for communication and documentation.  Insights can be optionally shared on social channels, ensuring privacy.
+1. **Encourage Voluntary Code Contribution**: Foster an environment where contributions are voluntary, allowing individuals to work on what interests them and aligning with their strengths.
+1. **Prioritized Mentorship**: Implement a mentorship structure with Sensei (teachers) providing guidance and Senpai (senior students) supporting newer members. This dual-layer mentorship enhances skill development and community cohesion.
 1. **Foster a Culture of Continuous Improvement**: Regularly seek feedback to identify improvement areas, refining the Dojo's structure and activities accordingly.
 
 ## Resulting Context
