@@ -39,7 +39,7 @@ By following this pattern, Circle Communities can become vibrant, effective and 
 ## Related Patterns
 
 * [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
-* [InnerSource Dojo](TODO)
+* [InnerSource Dojo]([TODO](https://patterns.innersourcecommons.org/p/innersource-dojo)
 
 ## Known Instances
 
