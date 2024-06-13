@@ -74,3 +74,4 @@ By following this pattern, Circle Communities can become vibrant, effective and 
 * [Fred Zuill](https://www.linkedin.com/in/fredzuill)
 * [Allison Kaufmann](https://www.linkedin.com/in/allisonkaufmann29)
 * [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
+* [Dojo Consortium](https://dojoconsortium.org)
