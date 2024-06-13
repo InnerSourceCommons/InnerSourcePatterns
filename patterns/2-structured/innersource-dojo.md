@@ -26,7 +26,7 @@ The InnerSource Dojo is designed for organizations aiming to harness the power o
 Adopt a structured approach to create and sustain an InnerSource Dojo, focusing on clear objectives, inclusive participation and continuous improvement.  Implement the following steps:
 
 1. **Define the Purpose**: Clearly articulate the Dojo's purpose and goals, ensuring alignment with broader organizational objectives.
-1. **Establish Ground Rules**: Develop and communicate rules promoting respect, inclusivity and open dialogue.  Encourage adherence to these rules for a supportive environment.
+1. **Establish Social Conventions**: Develop and communicate social conventions that promote respect, inclusivity and open dialogue.  Encourage members to adhere to these guidelines to create a safe and supportive environment.
 1. **Facilitate Regular Meetings**: Schedule regular meetings to maintain engagement and momentum.  Use these sessions for open discussions, sharing insights and addressing challenges.  Meetings are open for unpacking issues, with goals set by attendees.
 1. **Rotate Leadership**: Promote shared leadership by rotating the facilitation role among members, fostering ownership and responsibility.
 1. **Use Collaborative Tools**: Utilize tools like Jitsi Meet, Slack and GitHub for communication and documentation.  Insights can be optionally shared on social channels, ensuring privacy.
