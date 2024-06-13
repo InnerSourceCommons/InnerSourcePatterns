@@ -4,7 +4,7 @@ Circle Communities
 
 ## Patlet
 
-Circle Communities are essential for fostering a culture of collaborative innovation and continuous learning.  In these communities, individuals come together to share knowledge, discuss challenges and co-create solutions in a safe and inclusive environment.  These circles can be formed around various topics, interests or goals, such as Agile practices, InnerSource methodologies, Systems Thinking exploration and or Mindset transformation.
+Circle Communities are essential for fostering a culture of collaborative innovation and continuous learning.  In these communities, individuals come together to share knowledge, discuss challenges and co-create solutions in a safe and inclusive environment.  These circles can be formed around various topics, interests or goals, such as Agile / DevOps / DevSecOps practices, InnerSource methodologies, Systems Thinking exploration and or Mindset transformation.
 
 ## Problem
 
