@@ -66,3 +66,4 @@ Implementing this pattern helps InnerSource Dojos become vibrant, effective and 
 * [Ryan Uttech](https://www.linkedin.com/in/ryanuttech)
 * [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
 * [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
+* [Dojo Consortium](https://dojoconsortium.org)
