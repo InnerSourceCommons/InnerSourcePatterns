@@ -57,10 +57,10 @@ Implementing this pattern helps InnerSource Dojos become vibrant, effective and 
 ## Authors
 
 * [Michael Basil](https://www.linkedin.com/in/michaelrbasil)
+* [Bill Westfall](https://www.linkedin.com/in/bill-westfall-3268494)
 
 ## Acknowledgements
 
-* [Bill Westfall](https://www.linkedin.com/in/bill-westfall-3268494)
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
 * [James Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
 * [Ryan Uttech](https://www.linkedin.com/in/ryanuttech)
