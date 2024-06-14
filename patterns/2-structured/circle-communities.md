@@ -34,7 +34,7 @@ Implement a stragetic approach to forming and nurturing Circle Communities that 
 
 ## Resulting Context
 
-By embracing this pattern, Circle Communities can become vibrant, effective and sustainable.  Members will feel more connected and engaged, leading to increased knowledge sharing, innovation and collective growth.
+Embracing this pattern helps InnerSource programs become vibrant, effective and sustainable. Participants will feel more connected and engaged, leading to increased knowledge sharing, innovation and collective growth.
 
 ## Related Patterns
 
