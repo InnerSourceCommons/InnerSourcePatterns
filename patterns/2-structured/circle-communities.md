@@ -64,15 +64,15 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
 * [James Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
-* [Ryan Uttech](https://www.linkedin.com/in/ryanuttech)
 * [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
+* [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
 * InnerSource Dojo from SAP:
+  * [Ryan Uttech](https://www.linkedin.com/in/ryanuttech)
   * [Ignacio Pedragon](https://www.linkedin.com/in/ignaciopedregon)
   * [Dale Sackrider](https://www.linkedin.com/in/sackrider)
   * [Jason Fisher](https://www.linkedin.com/in/jasonrfisher)
   * [Michael Ward](https://www.linkedin.com/in/michaelwardqa)
 * [Nick Basil](https://www.linkedin.com/in/nick-basil)
 * [Allison Kaufmann](https://www.linkedin.com/in/allisonkaufmann29)
-* [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
 * [Dojo Consortium](https://dojoconsortium.org)
 * [Thingy Farm](https://thingyfarm.com/)
