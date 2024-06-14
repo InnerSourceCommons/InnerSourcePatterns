@@ -16,10 +16,10 @@ Circle Communities often bring together individuals with different backgrounds, 
 
 ## Forces
 
-1. **Diversity of Participants**: Circle Communities often bring together individuals with different backgrounds, expertise and expectations.
-1. **Need for Safe Spaces**: Members must feel safe to share their thoughts, experiences and perspectives.
-1. **Continuous Engagement**: Sustained participation is crucial for the longevity and impact of the community.
-1. **Knowledge Sharing**: Effective mechanisms for sharing knowledge and best practices are needed.
+* **Diversity of Participants**: Circle Communities often bring together individuals with different backgrounds, expertise and expectations.
+* **Need for Safe Spaces**: Members must feel safe to share their thoughts, experiences and perspectives.
+* **Continuous Engagement**: Sustained participation is crucial for the longevity and impact of the community.
+* **Knowledge Sharing**: Effective mechanisms for sharing knowledge and best practices are needed.
 
 ## Solutions
 
