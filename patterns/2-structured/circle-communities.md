@@ -59,11 +59,11 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 
 * [Michael Basil](https://www.linkedin.com/in/michaelrbasil)
 * [Bill Westfall](https://www.linkedin.com/in/bill-westfall-3268494)
+* [Jim Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
 
 ## Acknowledgements
 
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
-* [James Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
 * [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
 * [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
 * InnerSource Dojo from SAP:
