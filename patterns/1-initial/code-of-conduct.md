@@ -73,6 +73,7 @@ Community members feel empowered to contribute openly and engage in meaningful d
 
 - Red Hat - Many of the internal communities
 - National Australia Bank
+- GitHub (Company wide "Handbook for Hubbers")
 
 ## Authors
 
