@@ -49,8 +49,7 @@ Example agenda:
 * 5 minute review for action items from last meeting (each item presented by its owner)
 * 10 minutes to gather strengths and weaknesses of the past collaboration time period. Do this as a combination of writing (sticky notes on a digital white board) and verbally explaining the stickies to make sure introverts get involved as well.
 * 2 minutes to put dots against weaknesses that should be addressed in the next cycle. Pick the top 1-2 weaknesses.
-* 10 minutes to gather potential remedy actions to address the picked weaknesses.
-Again use time for writing sticky notes to involve everyone.
+* 10 minutes to gather potential remedy actions to address the picked weaknesses. Again use time for writing sticky notes to involve everyone.
 * 2 minutes to put dots against action items (each participant may add 2-3 dots), pick at most top 3 items, assign each item two owners - one trusted committers and one contributor.
 * 5 minutes for checkout so everyone can wind down and leave feedback on the meeting.
 
