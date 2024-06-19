@@ -15,7 +15,7 @@ Willingness to continue the collaboration is shrinking.
 
 ## Context
 
-A host team of trusted committers has started a long running collaboration with a group of contributors.
+A host team of [trusted committers](../2-structured/trusted-committer.md) has started a long running collaboration with a group of contributors.
 
 * Over time the number of misunderstandings grows.
 * People may run into mis-communication.
