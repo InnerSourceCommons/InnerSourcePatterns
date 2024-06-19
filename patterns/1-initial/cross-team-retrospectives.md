@@ -66,7 +66,8 @@ Caveat: In particular for cases where people have tried to collaborate for a lon
 
 ## Related material
 
-* [Generator for Checkin Questions](https://www.checkin-generator.de/)
+* [Generator for checkin questions](https://www.checkin-generator.de) (in German)
+* [Examples of retrospective formats](https://retromat.org/en/)
 
 ## Known Instances
 
