@@ -62,7 +62,7 @@ Caveat: In particular for cases where people have tried to collaborate for a lon
 * Likely both uncover issues that are beyond their direct control but also see ways to address these in the organisation adopting InnerSource.
 * Ideally several learnings can be shared with other InnerSource teams so they avoid running into the same trouble.
 * When done regularly after a handful of retrospectives collaboration improves, issues uncovered reduce, turning the session more and more into a lot of positive feedback. As a result motivation on both sides increases.
-* [Communication Tooling](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/communication-tooling.md) and [Base Documentation](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/base-documentation.md) improves.
+* [Communication Tooling](../2-structured/communication-tooling.md) and [Base Documentation](../2-structured/base-documentation.md) improves.
 
 ## Related material
 
