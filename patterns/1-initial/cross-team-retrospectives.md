@@ -20,7 +20,7 @@ A host team of trusted committers has started a long running collaboration with 
 * Over time the number of misunderstandings grows.
 * People may run into mis-communication.
 * Teams may discover slight differences in development culture.
-* Team members may discover that assumptions they made about the other team are false.
+* Team members may discover that assumptions they made about how the other team works are false.
 * Contribution processes may not be entirely clear and workable for everyone involved.
 
 ## Forces
