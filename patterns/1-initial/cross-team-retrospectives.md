@@ -39,7 +39,7 @@ As a result little is invested in forming a shared team of trusted committers an
 Bring host team and contributors together:
 
 * As a first step it can help to share a meal together and get to know each other.
-* For collaborations running over several weeks establish a monthly 30 minute retrospective meeting that involves everyone who is needed for a successful contribution.
+* For collaborations running over several weeks establish a monthly retrospective meeting that involves everyone who is needed for a successful contribution.
 * Make sure that action items for each restrospective are being followed up upon, ideally check these action items at the beginning of the next retrospective.
 * Keep the agenda of retrospectives stable and predictable: It's already uncomfortable enough to name and resolve collaboration issues.
 
