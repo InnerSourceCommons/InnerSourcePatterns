@@ -45,7 +45,7 @@ Bring host team and contributors together:
 
 Example agenda:
 
-* 5 minute checkin so everyone can test their audio setup, silly questions preferred so people can laugh together, reducing overall stress.
+* 5 minute check-in so everyone can test their audio setup, silly questions preferred so people can laugh together, reducing overall stress.
 * 5 minute review for action items from last meeting (each item presented by its owner)
 * 10 minutes to gather strengths and weaknesses of the past collaboration time period. Do this as a combination of writing (sticky notes on a digital white board) and verbally explaining the stickies to make sure introverts get involved as well.
 * 2 minutes to put dots against weaknesses that should be addressed in the next cycle. Pick the top 1-2 weaknesses.
@@ -66,7 +66,7 @@ Caveat: In particular for cases where people have tried to collaborate for a lon
 
 ## Related material
 
-* [Generator for checkin questions](https://www.checkin-generator.de) (in German)
+* [Generator for check-in questions](https://www.checkin-generator.de) (in German)
 * [Examples of retrospective formats](https://retromat.org/en/)
 
 ## Known Instances
