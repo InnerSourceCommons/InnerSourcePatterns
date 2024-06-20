@@ -41,6 +41,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 ## Related Patterns
 
 * [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
+* [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)
 * [Circle Communities](https://patterns.innersourcecommons.org/p/circle-communities)
 
 ## Known Instances
