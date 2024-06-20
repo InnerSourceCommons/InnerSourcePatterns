@@ -12,7 +12,7 @@ Creating and sustaining effective Circle Communities can be challenging due to a
 
 ## Context
 
-Circle Communities often bring together individuals with different backgrounds, expertise and expectations.  Members must feel safe to share their thoughts, experiences and perspectives.  Sustained participation is crucial for the longevity and impact of the community.  Effective mechanisms for sharing knowledge and best practices are needed.
+Circle Communities are a collaboration forum based community. Participation is voluntary. Except for the duties of a facilitator, no distinction is enforced between participants, and intends to invoke round-table equality to maximize authenticity and diversity. Circle Communities often bring together individuals with different backgrounds, expertise and expectations.  Members must feel safe to share their thoughts, experiences and perspectives.  Sustained participation is crucial for the longevity and impact of the community.  Effective mechanisms for sharing knowledge and best practices are needed.
 
 ## Forces
 
