@@ -40,7 +40,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 
 * [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 * [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)
-* [InnerSource Dojo](https://patterns.innersourcecommons.org/p/innersource-dojo)
+* [Agile InnerSource Dojo](https://patterns.innersourcecommons.org/p/agile-innersource-dojo)
 
 ## Known Instances
 
