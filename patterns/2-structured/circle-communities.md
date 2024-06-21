@@ -12,7 +12,7 @@ Creating and sustaining effective Circle Communities can be challenging due to a
 
 ## Context
 
-Circle Communities are a collaboration forum based community. Participation is voluntary. Except for the duties of a facilitator, no distinction is enforced between participants, and intends to invoke round-table equality to maximize authenticity and diversity. Circle Communities often bring together individuals with different backgrounds, expertise and expectations.  Members must feel safe to share their thoughts, experiences and perspectives.  Sustained participation is crucial for the longevity and impact of the community.  Effective mechanisms for sharing knowledge and best practices are needed.
+Circle Communities are a collaboration forum based community. Participation is voluntary. Except for the duties of a facilitator, no distinction is enforced between participants. This invokes round-table equality which maximizes authenticity and diversity. Circle Communities often bring together individuals with different backgrounds, expertise and expectations.  Members must feel safe to share their thoughts, experiences and perspectives.  Sustained participation is crucial for the longevity and impact of the community.  Effective mechanisms for sharing knowledge and best practices are needed.
 
 ## Forces
 
@@ -62,10 +62,11 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Bill Westfall](https://www.linkedin.com/in/bill-westfall-3268494)
 * [Jim Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
-
+* [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
+* 
+ 
 ## Acknowledgements
 
-* [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
 * [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
 * InnerSource Dojo from SAP:
   * [Ryan Uttech](https://www.linkedin.com/in/ryanuttech)
