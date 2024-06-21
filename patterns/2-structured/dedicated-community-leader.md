@@ -59,7 +59,7 @@ Having excellent and dedicated community leaders is a precondition for the succe
 ## Related Patterns
 
 * [Circle Communities](https://patterns.innersourcecommons.org/p/circle-communities)
-* [InnerSource Dojo](https://patterns.innersourcecommons.org/p/innersource-dojo)
+* [Agile InnerSource Dojo](https://patterns.innersourcecommons.org/p/agile-innersource-dojo)
 
 ## Known Instances
 
