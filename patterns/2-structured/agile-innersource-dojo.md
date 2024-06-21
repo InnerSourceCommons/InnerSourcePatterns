@@ -1,10 +1,10 @@
 ## Title
 
-InnerSource Dojo
+Agile InnerSource Dojo
 
 ## Patlet
 
-An InnerSource Dojo is a community of practice where participants collaboratively create, share and refine content, tools and practices using InnerSource methodologies.  This fosters a culture of continuous learning, innovation and collective improvement.  It can be applied to various domains such as Agile / DevOps / DevSecOps practices, InnerSource methodologies, Systems Thinking exploration and or Mindset transformation.
+An Agile InnerSource Dojo is a community of practice where participants collaboratively create, share and refine content, tools and practices using InnerSource methodologies.  This fosters a culture of continuous learning, innovation and collective improvement.  It can be applied to various domains such as Agile / DevOps / DevSecOps practices, InnerSource methodologies, Systems Thinking exploration and or Mindset transformation.
 
 ## Problem
 
