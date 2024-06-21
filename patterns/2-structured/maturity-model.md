@@ -212,7 +212,7 @@ long term.
 
 * [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 * [Circle Communities](https://patterns.innersourcecommons.org/p/circle-communities)
-* [InnerSource Dojo](https://patterns.innersourcecommons.org/p/innersource-dojo)
+* [Agile InnerSource Dojo](https://patterns.innersourcecommons.org/p/agile-innersource-dojo)
 
 ## Known Instances
 
