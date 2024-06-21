@@ -63,7 +63,6 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Jim Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
 * [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
-* 
  
 ## Acknowledgements
 
