@@ -50,10 +50,7 @@ BBC iPlayer & Sounds
 
 ## Status (optional until merging)
 
-General pattern status is stored in GitHub's Label tagging - see any pull request.
-Note that this GitHub label tagging becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful.
-
-You might store other related info here, such as review history: "Three of us reviewed this on 2/5/17 and it needs John's expertise before it can go further."
+Initial
 
 ## Author(s)
 
