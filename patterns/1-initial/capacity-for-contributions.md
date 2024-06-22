@@ -48,7 +48,7 @@ Maintaining team understands the overhead of reviewing large contributions and i
 
 BBC iPlayer & Sounds
 
-## Status (optional until merging)
+## Status
 
 Initial
 
