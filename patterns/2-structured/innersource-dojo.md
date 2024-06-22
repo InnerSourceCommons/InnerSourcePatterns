@@ -12,7 +12,7 @@ Establishing a sustainable, collaborative environment that ensures consistent an
 
 ## Context
 
-A dojo is a didactic participatory practice group, predicated on traditional martial arts dojo practices. It creates opportunities for participants to learn by doing (embodied learning), under supervision and guidance of others who have prior experience. The InnerSource Dojo is designed for organizations aiming to harness the power of InnerSource to increase potentials for transofrmation and innovation.  This setting brings together individuals from various backgrounds, expertise and roles to collaboratively work on shared goals, ensuring the learning journeys remain relevant, beneficial and peer supported.
+A dojo is a didactic participatory practice group, predicated on traditional martial arts dojo practices. It creates opportunities for participants to learn by doing (embodied learning), under supervision and guidance of others who have prior experience. The InnerSource Dojo is designed for organizations aiming to harness the power of InnerSource to increase potentials for transformation and innovation.  This setting brings individuals from various backgrounds, expertise and roles to collaboratively work on shared goals, ensuring the learning journeys remain relevant, beneficial and peer supported.
 
 ## Forces
 
@@ -61,10 +61,11 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Bill Westfall](https://www.linkedin.com/in/bill-westfall-3268494)
 * [Jim Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
+* [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
 
+  
 ## Acknowledgements
 
 * [Ryan Uttech](https://www.linkedin.com/in/ryanuttech)
-* [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
 * [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
 * [Dojo Consortium](https://dojoconsortium.org)
