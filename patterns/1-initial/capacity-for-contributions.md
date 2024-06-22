@@ -42,7 +42,7 @@ Maintainers of a successful InnerSource project are finding it difficult to revi
 
 ## Resulting Context
 
-Maintaining team understands the overhead of reviewing large contributions and is given capacity to do so. Delivery and product managers are better able to plan, estimate, and track other work in the team by accounting for the time taken to review InnerSource contributions. Contributors understand when their contribution will be reviewed and released, and how long before the maintainers will provide initial feedback.
+Maintaining team understands the overhead of reviewing large contributions and is given capacity to do so. Project manager and product managers are better able to plan, estimate, and track other work in the team by accounting for the time taken to review InnerSource contributions. Contributors understand when their contribution will be reviewed and released, and how long before the maintainers will provide initial feedback.
 
 ## Known Instances
 
