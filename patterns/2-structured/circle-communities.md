@@ -23,7 +23,7 @@ Circle Communities are a collaboration forum based community. Participation is v
 
 ## Solutions
 
-Implement a stragetic approach to forming and nurturing Circle Communities that emphasizes clear objectives, inclusive participation and continuous improvement.  This can be achieved through the following parallel efforts:
+Implement a strategic approach to forming and nurturing Circle Communities that emphasizes clear objectives, inclusive participation and continuous improvement.  This can be achieved through the following parallel efforts:
 
 * **Define the Purpose**: Clearly articulate the purpose and goals of the Circle Community.  Ensure that these align with the broader mission of your organization or initiative.
 * **Establish Social Conventions**: Develop and communicate social conventions that promote respect, inclusivity and open dialogue.  Encourage members to embrace and evolve these guidelines to create a safe and supportive environment.
@@ -45,7 +45,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 ## Known Instances
 
 * Dojo Circle
-  * Fridays at 13:00 UTC at https://circle.dojo.center
+  * Fridays at 13:00 UTC at <https://circle.dojo.center>
   * Hosted by [Dojo Center](https://dojo.center)
   * Engaged via [InnerSource Commons Foundation](https://innersourcecommons.org) in Slack at ```#dojo-center```
   * Affiliated with the Mindset, Agile and InnerSource sub-communities within _InnerSource Dojo from SAP_
@@ -63,7 +63,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Jim Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
 * [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
- 
+
 ## Acknowledgements
 
 * [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
