@@ -52,7 +52,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 
 ## Status
 
-* Structured
+* Initial
 
 ## Authors
 
