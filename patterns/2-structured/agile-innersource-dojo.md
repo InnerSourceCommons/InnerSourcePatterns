@@ -50,7 +50,6 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Microsoft DevOps Dojo](https://innersourcecommons.org/stories/microsoft)
 * [Dojo Center](https://dojo.center)
 
-
 ## Status
 
 * Structured
@@ -63,7 +62,6 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
 * [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
 
-  
 ## Acknowledgements
 
 * [Ryan Uttech](https://www.linkedin.com/in/ryanuttech)
