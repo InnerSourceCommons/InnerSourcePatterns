@@ -25,26 +25,26 @@ This process was formalized in the team:
 
 ## Context
 
-Maintainers of a successful InnerSource project are finding it difficult to review contributions, especially large contributions. They do not want to disrupt their team's other work, but also want to support contributions by reviewing/releasing them in a timely fashion.
+Host team of a successful InnerSource project are finding it difficult to review contributions, especially large contributions. They do not want to disrupt their team's other work, but also want to support contributions by reviewing/releasing them in a timely fashion.
 
 ## Forces
 
 * Contributors expect timely feedback on their contributions
-* Maintaining team are expected to deliver other work alongside reviewing contributions
-* Missing communication between contributors and maintainers on expectations/lead time for contributions to be reviewed/released
+* Host team are expected to deliver other work alongside reviewing contributions
+* Missing communication between contributors and host team on expectations/lead time for contributions to be reviewed/released
 * Tension in prioritizing InnerSource contributions against other work
 
 ## Solutions
 
 * Reviewing larger contributions is tracked in the team's ticketing system/bug tracker (e.g. Jira, GitHub issues)
-* Maintaining team is given time to review larger contributions in team capacity planning
+* Host team is given time to review larger contributions in team capacity planning
 * Reviewing contributions is prioritized against other work (e.g. in sprint planning)
-* Maintainers communicate their capacity for reviewing contributions, the priority of contributions, and an estimate of when a contribution will be reviewed/released
-* Maintaining team has a service level objective (SLO) (e.g. 2 working days) for contributions receiving initial feedback
+* Host team communicate their capacity for reviewing contributions, the priority of contributions, and an estimate of when a contribution will be reviewed/released
+* Host team has a service level objective (SLO) (e.g. 2 working days) for contributions receiving initial feedback
 
 ## Resulting Context
 
-Maintaining team understands the overhead of reviewing large contributions and is given capacity to do so. Project manager and product managers are better able to plan, estimate, and track other work in the team by accounting for the time taken to review InnerSource contributions. Contributors understand when their contribution will be reviewed and released, and how long before the maintainers will provide initial feedback.
+Host team understands the overhead of reviewing large contributions and is given capacity to do so. Project manager and product managers are better able to plan, estimate, and track other work in the team by accounting for the time taken to review InnerSource contributions. Contributors understand when their contribution will be reviewed and released, and how long before the host team will provide initial feedback.
 
 ## Known Instances
 
