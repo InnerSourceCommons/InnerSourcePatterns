@@ -33,6 +33,7 @@ Host team of a successful InnerSource project are finding it difficult to review
 * Host team are expected to deliver other work alongside reviewing contributions
 * Missing communication between contributors and host team on expectations/lead time for contributions to be reviewed/released
 * Tension in prioritizing InnerSource contributions against other work
+* Contributors already strive to make small PRs, but find instances where larger PRs are unavoidable
 
 ## Solutions
 
