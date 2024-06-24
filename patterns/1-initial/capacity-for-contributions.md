@@ -4,7 +4,7 @@ Managing capacity for reviewing contributions
 
 ## Patlet
 
-Reviewing InnerSource contributions takes time and effort. This should be reflected in capacity planning, especially for larger contributions. Expectations and available capacity should be transparent so that contributors understand when their contributions will be reviewed and released.
+Reviewing InnerSource contributions takes time and effort. This should be reflected in capacity planning, especially for larger contributions. Expectations and available capacity should be transparent so that contributors understand when their contributions will be reviewed and, if accepted, released.
 
 ## Problem
 
