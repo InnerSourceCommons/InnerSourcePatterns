@@ -68,3 +68,7 @@ Tom Sadler
 ## Acknowledgments
 
 Clare Dillon
+Sebastian Spier
+Guilherme Dellagustin
+Michael Basil
+Bill Westfall
