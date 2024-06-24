@@ -35,3 +35,4 @@ Instead edit toc_template.md
 
 * [This book on GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)
+
