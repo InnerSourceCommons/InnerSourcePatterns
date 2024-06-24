@@ -43,10 +43,13 @@ Host team of a successful InnerSource project are finding it difficult to review
 * Reviewing contributions is prioritized against other work (e.g. in sprint planning)
 * Host team communicate their capacity for reviewing contributions, the priority of contributions, and an estimate of when a contribution will be reviewed/released
 * Host team has a service level objective (SLO) (e.g. 2 working days) for contributions receiving initial feedback
+* Smaller contributions are still reviewed ad-hoc; the team may have guidelines on what they consider to be a smaller contribution (e.g. review should take less than an hour)
 
 ## Resulting Context
 
 Host team understands the overhead of reviewing large contributions and is given capacity to do so. Project manager and product managers are better able to plan, estimate, and track other work in the team by accounting for the time taken to review InnerSource contributions. Contributors understand when their contribution will be reviewed and released, and how long before the host team will provide initial feedback.
+
+Smaller PRs are still reviewed ad-hoc, minimising overhead and unnecessary additional process.
 
 ## Known Instances
 
