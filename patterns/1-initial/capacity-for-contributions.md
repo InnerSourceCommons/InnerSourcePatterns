@@ -51,6 +51,8 @@ Host team understands the overhead of reviewing large contributions and is given
 
 Smaller PRs are still reviewed ad-hoc, minimising overhead and unnecessary additional process.
 
+There may still be conflict in prioritising contribution reviews, especially if the host team is overburdened with other work. This only works if contributions are valued by the decision makers in the team's planning process.
+
 ## Known Instances
 
 BBC iPlayer & Sounds
