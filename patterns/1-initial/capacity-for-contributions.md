@@ -8,7 +8,7 @@ Reviewing InnerSource contributions takes time and effort. This should be reflec
 
 ## Problem
 
-Large InnerSource contributions are causing delays to other work in the team and/or contributions are taking longer to be released than expected. Reviewing contributions may be significant invisible work, not tracked in a team's agile development process.
+Large InnerSource contributions are causing delays to other work in the team and/or contributions are taking longer to be released than expected. Reviewing contributions may be significant invisible work, not tracked in a team's Agile development process.
 
 ## Story
 
@@ -33,7 +33,7 @@ Host team of a successful InnerSource project are finding it difficult to review
 * Host team are expected to deliver other work alongside reviewing contributions
 * Missing communication between contributors and host team on expectations/lead time for contributions to be reviewed/released
 * Tension in prioritizing InnerSource contributions against other work
-* Contributors already strive to make small PRs, but find instances where larger PRs are unavoidable
+* Contributors already strive to make small PRs in line with Agile, InnerSource, and Continuous Delivery principles, but find instances where larger PRs are unavoidable
 
 ## Solutions
 
