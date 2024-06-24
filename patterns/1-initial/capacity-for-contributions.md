@@ -36,6 +36,7 @@ Host team of a successful InnerSource project are finding it difficult to review
 
 ## Solutions
 
+* Contributors are encouraged to give the host team early visibility of larger contributions (e.g. via GitHub Issues, draft PRs, [RFCs](../2-structured/transparent-cross-team-decision-making-using-rfcs.md), or informal discussions) and are made aware that not doing so could delay review of their contribution
 * Reviewing larger contributions is tracked in the team's ticketing system/bug tracker (e.g. Jira, GitHub issues)
 * Host team is given time to review larger contributions in team capacity planning
 * Reviewing contributions is prioritized against other work (e.g. in sprint planning)
