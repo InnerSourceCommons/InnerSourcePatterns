@@ -81,7 +81,7 @@ PP-3, DP-3, DC-3, RS-3, ST-3, CF-3, LS-3, OF-3, CB-3, SP-3, PS-3, RW-3, MP-3, SM
 
 For InnerSource patterns, start by looking at the following ones (in addition to the ones above):
 
-* [Group Support](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/group-support.md)
-* [Explicit Shared Ownership](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/explicit-shared-ownership.md)
-* [Modular Code](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/modular-code.md)
-* [Source Repo different from deployment chain](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/shared-code-repo-different-from-build-repo.md)
+* [Group Support](../2-structured/group-support.md)
+* [Explicit Shared Ownership](../1-initial/explicit-shared-ownership.md)
+* [Modular Code](../1-initial/modular-code.md)
+* [Source Repo different from deployment chain](../1-initial/shared-code-repo-different-from-build-repo.md)
