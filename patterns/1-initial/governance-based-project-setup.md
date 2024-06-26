@@ -48,7 +48,6 @@ For InnerSource patterns, start by looking at the following ones:
 * [Trusted Committer](../2-structured/trusted-committer.md)
 * [Improve Findability](../1-initial/improve-findability.md)
 
-
 ### Level: "Contributions Welcome"
 
 To reach this level, a team needs to give contributors the option to submit pull requests. In addition, contributors need to have clear options to follow the development of the project in order to better understand project direction and established best practices. In addition the host team needs to set aside time for mentoring contributors and giving timely feedback.
