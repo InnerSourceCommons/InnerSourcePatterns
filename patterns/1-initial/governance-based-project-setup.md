@@ -59,15 +59,15 @@ PP-2, DP-2, DC-2, RS-3, ST-3, CF-2, LS-2, OF-2, CB-2, SP-2, PA-2, RW-2, MP-2, SM
 
 For InnerSource patterns, start by looking at the following ones (in addition to the ones above):
 
-* [30-day warranty](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/30-day-warranty.md)
-* [Extensions for Sustainable Growth](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/extensions-for-sustainable-growth.md)
-* [Review Committee](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/review-committee.md)
-* [Service vs. Library](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/service-vs-library.md)
-* [Transparent cross team decision making](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md)
-* [Cross team retrospectives](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/cross-team-retrospectives.md)
-* [Incentive Mechanisms](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/incentive-mechanisms-for-voluntary-contribution.md)
-* [Include Product Owners](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/include-product-owners.md)
-* [Reluctance to accept contributions](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/reluctance-to-accept-contributions.md)
+* [30-day warranty](../2-structured/30-day-warranty.md)
+* [Extensions for Sustainable Growth](../2-structured/extensions-for-sustainable-growth.md)
+* [Review Committee](../2-structured/review-committee.md)
+* [Service vs. Library](../2-structured/service-vs-library.md)
+* [Transparent cross team decision making](../2-structured/transparent-cross-team-decision-making-using-rfcs.md)
+* [Cross team retrospectives](../1-initial/cross-team-retrospectives.md)
+* [Incentive Mechanisms](../1-initial/incentive-mechanisms-for-voluntary-contribution.md)
+* [Include Product Owners](../1-initial/include-product-owners.md)
+* [Reluctance to accept contributions](../1-initial/reluctance-to-accept-contributions.md)
 
 ### Level: Shared Ownership
 
