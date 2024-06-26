@@ -40,13 +40,13 @@ PP-1, DP-1, DC-1, RS-1, ST-1, CF-1, LS-1, OF-2, CB-2, SP-2, PA-2, RW-1, MP-1, SM
 
 For InnerSource patterns, start by looking at the following ones:
 
-* [Base Documentation](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/base-documentation.md)
-* [Communiation Tooling](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/communication-tooling.md)
-* [Issue Tracker](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/issue-tracker.md)
-* [Praise Participants](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/praise-participants.md)
-* [Standard Release Process](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/release-process.md)
-* [Trusted Committer](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/trusted-committer.md)
-* [Improve Findability](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/improve-findability.md)
+* [Base Documentation](../2-structured/base-documentation.md)
+* [Communiation Tooling](../2-structured/communication-tooling.md)
+* [Issue Tracker](../2-structured/issue-tracker.md)
+* [Praise Participants](../2-structured/praise-participants.md)
+* [Standard Release Process](../2-structured/release-process.md)
+* [Trusted Committer](../2-structured/trusted-committer.md)
+* [Improve Findability](../1-initial/improve-findability.md)
 
 
 ### Level: "Contributions Welcome"
