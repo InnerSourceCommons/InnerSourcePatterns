@@ -14,6 +14,7 @@ The company wants to adopt InnerSource as software development methodology but o
 
 Scenario 1:
 The senior leadership believes in InnerSource and wants to drive it throughout the company. The engineers who are familiar with open source principles and/or understand the benefits of InnerSource are the early adopters. There is success with these initial pilot project and teams. Now the next step is to drive it across the company. There might be reluctance from engineering teams due to various factors like:
+
 * not familiar with InnerSource and being ignorant to know about it
 * not enough time to prioritize InnerSource, given the regular work deliverables
 * relunctance to changing ways of working when everything works well already
@@ -21,6 +22,7 @@ The senior leadership believes in InnerSource and wants to drive it throughout t
 
 Scenario 2:
 Teams slowly start adopting InnerSource and open up their repositories. Some new projects are started as InnerSource projects from the start (that is open for contributions). However, there are not many contributors. It is also challenging to build a community around those projects, in spite of publishing the projects in an InnerSource Portal.  This could be due to various reasons like:
+
 * engineers do not have time to explore new InnerSource projects and contribute, outside regular work deliverables
 * no additional incentive to this effort apart from being acknowledged
 * lack of motivation by middle management
@@ -28,6 +30,7 @@ Teams slowly start adopting InnerSource and open up their repositories. Some new
 ## Forces
 
 Apart from the reasons listed in the Context section, there are other factors from different entities that prevent teams from adopting InnerSource like:
+
 * From middle management: perception of no direct benefit to the team apart from team upskilling and individual growth; eventually resulting in no motivation by the middle management to the engineers in trying out InnerSource ways of working.
 * From engineers: investing time to try new ways of working when there is already time and resource constraint for regular work deliverables; it is also challenging to balance both and show outcomes in both; this curbs motivation from the engineers as there is little safe space to experiment.
 * From senior leadership: not prioritizing investment in InnerSource ways of working such as it being part of long term goals or OKRs.
@@ -43,6 +46,7 @@ It can preferrable be organized by InnerSource Program Office (ISPO), if it exis
 All engineers in the organization can participate in the hackathon. The participants can be new to InnerSource, or InnerSource practitioners already. They can participate individually or as a team. Participating as a team also provides a safe environment, for example, those are new to InnerSource can team up InnerSource practitioners.
 
 There could be one or more categories to participate as follows:
+
 * Start a new InnerSource project: It could be either starting a new project from scratch as InnerSource or making a existing project InnerSource ready.
 * Contribute to the existing InnerSource project: InnerSource project owners can list down the features in GitHub issues as a pre-requisite before the hackathon and the participants can contribute to it during the hackathon.
 * Participate as an InnerSource mentor: Participants can also mentor new InnerSource practitioners and provide knowledge transfer or coaching during the event.
