@@ -49,8 +49,12 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 ## Known Instances
 
 * [InnerSource Dojo from SAP](https://www.youtube.com/watch?v=fXoVm5iTSCc)
+  * [SAP Samples Dojo Model (live demo) - Mindset | Agile | InnerSource](https://sap-samples.github.io/dojo)
+  * [SAP Samples Dojo Model (source) - Mindset | Agile | InnerSource](https://github.com/SAP-samples/dojo)
+  * [SAP Samples GitHub Pull Analyzer](https://github.com/SAP-samples/github-pull-analyzer)
 * [Microsoft DevOps Dojo](https://innersourcecommons.org/stories/microsoft)
 * [Dojo Center](https://dojo.center)
+  * [Source](https://github.com/dojo-center/dojo-center.github.io) 
 
 ## Status
 
