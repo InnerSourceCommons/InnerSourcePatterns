@@ -4,7 +4,7 @@ Agile InnerSource Dojo
 
 ## Patlet
 
-Organizations struggle with siloed knowledge and slow adaptation. Agile environments left unchecked can lead to redundant codebases feeding the desire to over-standardized practices that ultimately stifle innovation. The Agile InnerSource Dojo creates a structured learning environment which fosters improved collaboration, reduced waste, improved efficiency and promotes generative culture, supporting DevOps and scaled change initiatives.
+Organizations struggle with siloed knowledge and slow adaptation. Agile environments left unchecked can lead to redundant codebases feeding the desire to over-standardized practices that ultimately stifle innovation. Implementing an Agile InnerSource Dojo creates a structured learning environment which fosters improved collaboration, reduced waste, improved efficiency and promotes generative culture, supporting DevOps and scaled change initiatives.
 
 ## Problem
 
@@ -12,10 +12,11 @@ Agile projects, especially those using Scrum and promoting autonomy and self-org
 
 ## Context
 
-A dojo is a didactic participatory practice group, predicated on traditional martial arts dojo practices. It creates opportunities for participants to learn by doing (embodied learning), under supervision and guidance of others who have prior experience. The InnerSource Dojo is designed for organizations aiming to harness the power of InnerSource to increase potentials for transformation and innovation.  This setting brings individuals from various backgrounds, expertise and roles to collaboratively work on shared goals, ensuring the learning journeys remain relevant, beneficial and peer supported.
+A dojo is a didactic participatory practice group, predicated on traditional martial arts dojo practices. It creates opportunities for participants to learn by doing (embodied learning), under supervision and guidance of others who have prior experience. Agile InnerSource Dojos are designed for organizations aiming to harness the power of InnerSource to increase potentials for transformation and innovation.  This setting brings individuals from various backgrounds, expertise and roles to collaboratively work on shared goals, ensuring the learning journeys remain relevant, beneficial and peer supported.  
 
 ## Forces
 
+* **Lack of Awareness**: Many Agile practioners are unware of InnerSource methodologies and vice versa.
 * **Diversity of Participants**: The Dojo involves individuals with different backgrounds, expertise and expectations.
 * **Need for Safe Spaces**: Participants must feel safe to share their insights and challenges.
 * **Continuous Engagement**: Ongoing participation is crucial for maintaining the Dojo's momentum and impact.
@@ -23,7 +24,7 @@ A dojo is a didactic participatory practice group, predicated on traditional mar
 
 ## Solutions
 
-Adopt a strategic approach to create and sustain an InnerSource Dojo, focusing on clear objectives, inclusive participation and continuous improvement.  This can be achieved through the following parallel efforts:
+Adopt a strategic approach to create and sustain an Agile InnerSource Dojo, focusing on clear objectives, inclusive participation and continuous improvement.  This can be achieved through the following parallel efforts:
 
 * **Define the Purpose**: Clearly articulate the Dojo's purpose and goals, ensuring alignment with broader organizational objectives.
 * **Establish Social Conventions**: Develop and communicate social conventions that promote respect, inclusivity and open dialogue.  Encourage members to embrace and evolve these guidelines to create a safe and supportive environment.
