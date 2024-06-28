@@ -4,7 +4,7 @@ Governance Level Guided Project Setup
 
 ## Patlet
 
-A team wants to setup a new InnerSource project or convert an existing project to be InnerSource ready. They already decided on a [Governance Level](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/governance-levels.md) to use. However the team is at a loss at what the chosen Governance Level means in terms of impact on the project.
+A team wants to a project to be InnerSource ready. They already decided on a [Governance Level](../1-initial/governance-levels.md) to use. However the team is at a loss at what the chosen Governance Level means in terms of impact on the project.
 
 Following our list of best practices, recommended patterns and maturity levels to reach helps address this problem.
 
