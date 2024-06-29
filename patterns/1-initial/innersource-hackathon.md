@@ -53,7 +53,7 @@ There could be one or more categories to participate as follows:
 
 The event could be held virtually or physically in different locations in the organization based on the cost and budget involved. A virtual event will have best ROI but it could depend on each organization.
 
-The winners and participants should be recognized and acknowledged in a company wide forum at the end of the hackathon. This is important as it keeps motivating them and more engineers to adopt and practice InnerSource going forward.
+The winners and participants should be recognized and acknowledged in a company-wide forum at the end of the hackathon. This is important as it keeps motivating them and more engineers to adopt and practice InnerSource going forward.
 
 Such an event provides a safe space for the engineers who want to adopt or contribute to InnerSource but didn't have the time and motivation to do it or for those who kept deprioritizing due to high priority work deliverables. From middle management point of view, 1 or 2 days for such an event is not much of an ask and hence they are more likely to accept.
 
