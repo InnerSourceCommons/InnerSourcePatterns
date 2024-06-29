@@ -39,7 +39,7 @@ For those new to InnerSource or any technology/methodology, there is a need for 
 
 ## Solution
 
-Organize a company wide hackathon focused on InnerSource. An InnerSource hackathon provides a safe space for engineers to try and contribute to InnerSource projects without any presumption and prejudice. It could be a 1 or 2 day event.
+Organize a company-wide hackathon focused on InnerSource. An InnerSource hackathon provides a safe space for engineers to try and contribute to InnerSource projects without any presumption and prejudice. It could be a 1 or 2 day event.
 
 It can preferrable be organized by InnerSource Program Office (ISPO), if it exists in the organization or by the Open Source Program Office (OSPO), if OSPO also drives InnerSource within the company. It can also be organized by other common service organizations too, if need be. Basically a central team or a group of individuals, who believe in InnerSource, can organize the hackathon.
 
