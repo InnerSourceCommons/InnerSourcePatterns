@@ -20,7 +20,8 @@ The senior leadership believes in InnerSource and wants to drive it throughout t
 * relunctance to changing ways of working when everything works well already
 * perception that InnerSource requires more work and responsibilities
 
-Scenario 2:
+### Scenario 2: Challenges in getting contributions and building community around InnerSource projects
+
 Teams slowly start adopting InnerSource and open up their repositories. Some new projects are started as InnerSource projects from the start (that is open for contributions). However, there are not many contributors. It is also challenging to build a community around those projects, in spite of publishing the projects in an InnerSource Portal.  This could be due to various reasons like:
 
 * engineers do not have time to explore new InnerSource projects and contribute, outside regular work deliverables
