@@ -65,7 +65,7 @@ Such an event provides a safe space for the engineers who want to adopt or contr
 * Communities start to form around these InnerSource projects.
 * This happens not only during the event but continues after the event too, with the hackathon participants acting as InnerSource ambassadors in their teams.
 * It also helps ISPO and OSPO spread awareness about InnerSource best practices quickly, across the whole engineering community in the organization.
-* Such an event also helps discover some cool hobby projects that were developed to solve the needs of a specific team but turns out that many teams have similar requirements.
+* Such an event also gives more exposure to projects that were developed to solve the needs of a specific team but turns out that many teams have similar requirements.
 
 All these help scale InnerSource in the organization.
 
