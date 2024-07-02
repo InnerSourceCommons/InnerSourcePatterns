@@ -16,7 +16,7 @@ A dojo is a didactic participatory practice group, predicated on traditional mar
 
 ## Forces
 
-* **Lack of Awareness**: Many Agile practioners are unware of InnerSource methodologies and vice versa.
+* **Lack of Awareness**: Many Agile practitioners are unaware of InnerSource methodologies and vice versa.
 * **Diversity of Participants**: The Dojo involves individuals with different backgrounds, expertise and expectations.
 * **Need for Safe Spaces**: Participants must feel safe to share their insights and challenges.
 * **Continuous Engagement**: Ongoing participation is crucial for maintaining the Dojo's momentum and impact.
