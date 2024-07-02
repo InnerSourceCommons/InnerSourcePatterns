@@ -55,7 +55,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
   * [SAP Samples GitHub Pull Analyzer](https://github.com/SAP-samples/github-pull-analyzer)
 * [Microsoft DevOps Dojo](https://innersourcecommons.org/stories/microsoft)
 * [Dojo Center](https://dojo.center)
-  * [Source](https://github.com/dojo-center/dojo-center.github.io) 
+  * [Source](https://github.com/dojo-center/dojo-center.github.io)
 
 ## Status
 
