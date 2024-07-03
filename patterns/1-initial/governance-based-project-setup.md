@@ -14,7 +14,7 @@ A team has decided that they want to publish an InnerSource project. They are tr
 
 ## Context
 
-- The team has expierence working as contributors to other InnerSource projects.
+- The team has experience working as contributors to other InnerSource projects.
 - The team would like to publish an InnerSource project themselves but has only limited InnerSource Trusted Committer experience.
 - The team does have enough autonomy to decide on how much time they can invest into supporting the resulting InnerSource project.
 
