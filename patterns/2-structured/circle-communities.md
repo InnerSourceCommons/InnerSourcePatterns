@@ -66,7 +66,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
 * [AnuOlu Balogun](https://www.linkedin.com/in/anuolu)
 
-## Acknowledgements
+## Acknowledgments
 
 * [Guilherme Dellagustin](https://www.linkedin.com/in/dellagustin)
 * InnerSource Dojo from SAP:
