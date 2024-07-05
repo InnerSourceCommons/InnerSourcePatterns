@@ -42,10 +42,10 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 ## Related Patterns
 
 * [Dedicated Community Leader](../2-structured/dedicated-community-leader.md)
-* [Core Team](https://patterns.innersourcecommons.org/p/core-team)
-* [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)
-* [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)
-* [Circle Communities](https://patterns.innersourcecommons.org/p/circle-communities)
+* [Core Team](../2-structured/core-team.md)
+* [Trusted Committer](../2-structured/trusted-committer.md)
+* [Maturity Model](../2-structured/maturity-model.md)
+* [Circle Communities](../1-initial/circle-communities.md)
 
 ## Known Instances
 
