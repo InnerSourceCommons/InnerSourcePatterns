@@ -81,7 +81,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Dojo Consortium](https://dojoconsortium.org)
 * [Thingy Farm](https://thingyfarm.com/)
 
-# Alias
+## Alias
 
 * [Community of Practice](https://en.wikipedia.org/wiki/Community_of_practice)
 * [Guilds](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/)
