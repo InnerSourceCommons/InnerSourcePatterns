@@ -4,7 +4,7 @@ Agile InnerSource Dojo
 
 ## Patlet
 
-Organizations struggle with siloed knowledge and slow adaptation. Agile environments left unchecked can lead to redundant codebases feeding the desire to over-standardized practices that ultimately stifle innovation. Implementing an Agile InnerSource Dojo creates a structured learning environment which fosters improved collaboration, reduced waste, improved efficiency and promotes generative culture, supporting DevOps and scaled change initiatives.
+Organizations struggle with siloed knowledge and slow adaptation. Agile environments left unchecked can lead to redundant codebases feeding the desire to over-standardized practices that ultimately stifle innovation. Implementing an Agile InnerSource Dojo creates a structured learning environment which fosters improved collaboration, reduced waste, improved efficiency and promotes generative culture, supporting scaled change initiatives and other best practices such as DevOps.
 
 ## Problem
 
