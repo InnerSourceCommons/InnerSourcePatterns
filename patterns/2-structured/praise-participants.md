@@ -6,7 +6,7 @@ Praise Participants
 
 When you receive an InnerSource contribution, it's important to thank the contributor for their time and effort.
 Extending your gratiutude not only effectively acknowledges the contribution but also engenders further engagement from the contributor and others.
-Praising contributors' positive contributions to your InnerSource project motivates those contributors (and their managers) to continue investing in the effort. 
+Praising contributors' positive contributions to your InnerSource project motivates those contributors (and their managers) to continue investing in the effort.
 
 ## Problem
 
