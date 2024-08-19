@@ -22,7 +22,7 @@ It also makes us less likely to forget to praise our contributors, which is unfo
 
 ## Forces
 
-* You are busy, forgetting some soft touches (like praise and thanks) easier.
+* You are busy, which makes forgetting some soft touches (like praise and thanks) easier.
 * You may not be someone that is comfortable in social situations or good with words.
 * Peer recognition is very important to job satisfaction and career development.
 
