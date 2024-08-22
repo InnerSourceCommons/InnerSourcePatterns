@@ -10,9 +10,10 @@ Praising contributors' positive contributions to your InnerSource project motiva
 
 ## Problem
 
-How can we properly express our gratitude to a contributor for their InnerSource contribution to a project?
+How can we properly express our gratitude to a contributor for their contribution to an InnerSource project?
 We may not know precisely which words or communication channels we should use to express ourselves sincerely.
-Effective praise for participants follows a pattern, and following this pattern helps ensure that our messages of thanks come across clearly and graciously.
+But recognizing and thanking contributors is critical for keeping those contributors (and their managers) engaged in the work.
+Luckily, effective praise for participants follows a pattern, and following this pattern helps ensure that our messages of thanks come across clearly and graciously.
 It also makes us less likely to forget to praise our contributors, which is unfortunately too easy to do.
 
 ## Context
@@ -30,7 +31,8 @@ It also makes us less likely to forget to praise our contributors, which is unfo
 
 Being recognized by others feels good.
 And in a professional setting, recognition from peers can also increase your organizational influence and career growth.
-Any time someone contributes to your InnerSource project, recognize them with an authentic sincere "thank you."
+Any time someone contributes to your InnerSource project, recognize them with an authentic, sincere "thank you."
+Be sure to highlight specific examples of ways these contributions have impacted the project positively.
 
 For non-trivial contributions (all code contributions and significant time contributions), say "thank you" via the following mechanisms:
 
