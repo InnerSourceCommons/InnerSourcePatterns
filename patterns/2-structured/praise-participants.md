@@ -84,4 +84,4 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 ## Acknowledgments
 
 * [Todd Lisonbee](https://github.com/tlisonbee) for encouraging to "keep it real."
-* [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of the importances of providing specific examples of how the contribution has positively impacted the project.
+* [Isabel Drost-Fromm](https://github.com/MaineC) for [this extra explanation](https://youtu.be/h3MPewsk5PU?t=357) of the importance of providing specific examples of how the contribution has positively impacted the project.
