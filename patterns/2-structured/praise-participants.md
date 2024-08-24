@@ -38,7 +38,8 @@ For non-trivial contributions (all code contributions and significant time contr
 
 (1) Call out the person by name in any chat location (e.g. _Slack_) where you organize your project activity.
 Let everyone know what they did and thank them publicly.
-For example:
+
+Example:
 
 > Everyone @here give a high-five to @andrew.clegg for updating the _rcs-viewer_ to the latest version of the _hebo-client_ (https://github.com/rcs/rcs-viewer/pull/81).
 > Thanks for helping keep this library up-to-date, Andy!
