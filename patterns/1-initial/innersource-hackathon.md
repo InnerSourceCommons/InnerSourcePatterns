@@ -16,10 +16,10 @@ The company wants to adopt InnerSource as software development methodology but o
 
 The senior leadership believes in InnerSource and wants to drive it throughout the company. The engineers who are familiar with open source principles and/or understand the benefits of InnerSource are the early adopters. There is success with these initial pilot project and teams. Now the next step is to drive it across the company. There might be reluctance from engineering teams due to various factors like:
 
-* not familiar with InnerSource and being ignorant to know about it
+* not familiar with InnerSource and not aware about it
 * not enough time to prioritize InnerSource, given the regular work deliverables
 * relunctance to changing ways of working when everything works well already
-* perception that InnerSource requires more work and responsibilities
+* unclear ROI for the upfront setup innersourcing takes
 
 ### Scenario 2: Challenges in getting contributions and building community around InnerSource projects
 
