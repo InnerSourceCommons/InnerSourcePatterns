@@ -47,6 +47,7 @@ Instead edit toc_template.md
 ## Appendix
 
 * [Pattern Template](../../meta/pattern-template.md)
+* [Glossary](../../meta/glossary.md)
 * Extras
   * [README Template](../../patterns/2-structured/templates/README-template.md)
   * [CONTRIBUTING Template](../../patterns/2-structured/templates/CONTRIBUTING-template.md)
