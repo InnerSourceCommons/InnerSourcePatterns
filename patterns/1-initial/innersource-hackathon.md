@@ -18,7 +18,7 @@ The senior leadership believes in InnerSource and wants to drive it throughout t
 
 * not familiar with InnerSource and not aware about it
 * not enough time to prioritize InnerSource, given the regular work deliverables
-* relunctance to changing ways of working when everything works well already
+* reluctance to changing ways of working when everything works well already
 * unclear ROI for the upfront setup innersourcing takes
 
 ### Scenario 2: Challenges in getting contributions and building community around InnerSource projects
