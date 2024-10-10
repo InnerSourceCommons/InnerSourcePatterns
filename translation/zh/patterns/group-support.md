@@ -1,6 +1,6 @@
 ## Title
 
-群体支持
+小组支持
 
 ## Patlet
 
@@ -14,58 +14,58 @@
 
 ## 故事
 
-A library of UI widgets is used by over 50 projects throughout the company.
-The funding for the team that owns the library runs out and the team disbands.
-At first, no one notices, but after a while whenever someone asks "who owns it" there isn't an answer.
-What will happen next?
-Will new teams shy away from using it?
-Will the project stagnate and linger until its users eventually are forced to move on to something else?
-What a shame if that were to happen to a perfectly good and useful project!
+一个 UI 组件类库，在全公司有 50 多个项目使用。
+该类库的开发团队在资源耗尽后，宣布解散。
+起初，没有人注意到，但过了一段时间，每当有人问“谁负责它”时，得不到答案。
+接下来会怎么样？
+新的团队会避免使用它吗？
+该项目是否会停滞不前，直到其用户最终被迫转向其他项目？
+如果一个完美且有价值的项目出现这种情况，那将是多么令人遗憾！
 
 ## 上下文
 
-* Popular InnerSource project.
-* Consumed as a build-time dependency (e.g. code module).
-* No one is actively supporting it.
-* The company cannot assign a team to support.
+* 广受欢迎的 InnerSource 项目。
+* 作为一个构件时的依赖项使用（比如 代码模块）。
+* 没有活跃的开发者提供支持。
+* 公司无法指派团队提供支持。
 
 ## 约束
 
-* No one is assigned by their day job to work on it.
-* Everyone is busy.
-* High cost to migrate off the project.
+* 没有人在日常工作中被指派负责这项工作。
+* 每个人都很忙。
+* 项目迁移的成本很高。
 
 ## 解决方案
 
-Call for interested volunteers from anywhere in the company to form a group of [Trusted Committer][]s to support the project.
-You may need to reach out to specific individuals based on commit or usage history.
-It is important that there are enough so that the burden on each can be reasonably small.
+面向全公司征集感兴趣的志愿者，组成一个 [可信任提交者][] 小组来支持该项目。
+可能需要根据提交或使用的历史记录联系特定的个人。
+重要的一点是要有足够的数量，这样每个人的负担可以相对较小。
 
-When forming, this group should identify or create [Standard Base Documentation][] and [Communication Tooling][].
+该小组成立后，应确定或创建[标准基础文档][]和[沟通工具][]。
 
-The group should do its best to manage these aspects of the project:
+团队应尽全力从以下方面管理项目：
 
-* **Maintenance**.  If the project is flat-out broken for the standard use case, then fix it.
-Keep the project up-to-date as the dependencies and frameworks it uses continue to evolve.
-* **Onboarding**.  If someone has a question about how to use the project, make sure they get a reasonable answer.
-* **Updates**.  If someone wants to add new feature to the project, give them the design and technical support necessary for them to build it so that it both works for them and is a good addition to the project.
-Review incoming pull requests in a timely manner.
+* **维护**.  如果项目在标准用例中完全失效，那就修复它。
+随着项目使用的依赖关系和框架的不断发展，及时更新项目。
+* **新人上手**.  如果有人对如何使用项目有疑问，确保他们能得到合理的答复。
+* **更新**.  如果有人想在项目中添加新功能，请为他们提供必要的设计和技术支持，以便他们实现该新功能，使其既能为自己所用，又能为项目增光添彩。
+及时评审收到的 PR。
 
-Since this group is comprised of volunteers, it is important to communicate that support is "best effort" only.
-Accordingly, this model of support is not well-suited for run-time critical, production projects like live APIs.
-It is better suited for projects that are consumed at build-time like libraries/packages/modules.
-The group is not expected to implement any new functionality for others.
+由于该小组由志愿者组成，因此重要的是要传达提供“尽力而为”的支持。
+因此，这种支持模式不太适合像实时 API 这类运行时关键的生产项目。
+它更适合在构建时使用的项目，例如类库/包/模块。
+该小组预计不会为其他人实现任何新功能。
 
 ## 结果背景
 
-* There is some fragile support for the InnerSource project.
-* In the long-term the group support is likely to dissolve again at some point. If the project continues in the long run, then use this period of stable group support to find a long-lived way to support it (e.g. [Core Team][]).
+* 对 InnerSource 项目有些微弱的支持。
+* 从长远来看，小组支持可能会在某个时候再次解散。如果该项目长期持续下去，那么就利用这段稳定的小组支持期，找到一种长期支持的方式（比如 [核心小组][]）。
 
 ## 理由
 
-People generally want to help.
-If there is personal outreach for someone to join as a [Trusted Committer][], there are generally a number of people that will say "yes".
-Feeling part of a group and being given some structure and responsibility generally motivates people to try their best, which many times ends up being enough.
+人们通常都愿意提供帮助。
+如果有人邀请某个人是否愿意加入成为[可信任提交者][]，通常会有很多人回答“是的”。
+感受到自己是集体的一员，并在组织结构上体现和被赋予一定的责任，通常会激励人们尽最大努力，很多时候这就已经足够了。
 
 ## 已知实例
 
