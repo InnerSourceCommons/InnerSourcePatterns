@@ -80,10 +80,10 @@
 [Russell R. Rutledge][]
 
 [Russell R. Rutledge]: https://github.com/rrrutledge
-[Standard Base Documentation]: ../2-structured/base-documentation.md
-[Communication Tooling]: ../2-structured/communication-tooling.md
-[Trusted Committer]: ../2-structured/trusted-committer.md
-[Core Team]: ../2-structured/core-team.md
+[标准基础文档]: ../base-documentation.md
+[沟通工具]: ../communication-tooling.md
+[可信任提交者]: ../trusted-committer.md
+[核心小组]: ../core-team.md
 
 ## 翻译校对
 
