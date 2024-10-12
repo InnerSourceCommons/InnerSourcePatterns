@@ -1,101 +1,102 @@
 ## Title
 
-进一步扩展可持续增长
+通过扩展实现可持续增长
 
 ## Patlet
 
-InnerSource 项目收到了太多贡献，会导致维护变得困难。通过在核心项目之外提供扩展机制，维护者可以以最小的成本和维护开销扩展项目功能。
+InnerSource 项目收到了太多的贡献，这会导致维护变得困难。通过在核心项目之外提供扩展机制，维护者可以用最小的成本和维护开销扩展项目功能。
 
 ## 问题
 
-As the number of contributions to a mature InnerSource repository rapidly increases, it adds more burden on code reviews and maintenance. This results in a large code review backlog or premature rejection of new feature contributions.
+随着对成熟 InnerSource 代码库的贡献数量迅速增加，代码评审和维护的负担也随之加重。这将导致大量代码评审任务积压或过早拒绝新功能贡献。
 
-How can the host team allow for faster release of new features, encouraging innovation and experimentation; while also keeping the repository well maintained?
+项目团队如何才能更快地发布新功能、鼓励创新和实验，同时又能很好地维护代码库呢？
 
 ## 故事
 
-There is a strategic project that aims to collect the best innovations within a domain space to one common stack, allowing reuse of a common infrastructure and providing a standard user experience. Through InnerSource, various teams in the organization that work within the domain space get an opportunity to collaborate and contribute their innovations to the common codebase.
+有一个战略性项目，旨在将某一领域内的最佳创新集合到一个通用栈中，从而实现通用基础架构的重复使用，并提供标准的用户体验。通过 InnerSource，组织内从事该领域工作的各个团队都有机会开展合作，并将自己的创新成果贡献给通用代码库。
 
-However, a large number of contributions in parallel from several developers is making maintenance of the codebase difficult. This is adding a huge burden on the project maintainers who assume ownership over the code quality standards and enable the community through various forms of communication.
+然而，来自多个开发人员的大量并行贡献给代码库的维护带来了困难。这给项目维护者增加了巨大的负担，因为他们要承担起代码质量标准的责任，并通过各种形式的交流来促进社区的发展。
 
-Project maintainers are at risk of burnout due to:
+项目维护人员面临职业倦怠的风险，原因如下：
 
-- Everlasting backlog of pull requests from contributors that need to be reviewed.
-- Job dissatisfaction: Majority of maintainers' time spent in community support leaves no room for innovation.
-- Perceived lack of accomplishment: Not all contributed features have adequate user demand and result in consequent adoption.
-- Time consuming releases: More features in the codebase results in long running tests.
-- Increase in maintenance activities: More bugs raised as new capabilities are added.
+- 待评审的贡献者 PR 不断积压。
+- 工作不满意： 维护者的大部分时间都花在社区支持上，没有创新的空间。
+- 缺乏成就感： 并非所有贡献的功能都有足够的用户需求，并因此被采用。
+- 发布耗时： 代码库中的功能越多，测试时间就越长。
+- 维护活动增加： 随着新功能的增加，会出现更多错误。
 
-A lot of time is spent on maturing every new feature contribution, before potential users even get an opportunity to explore the feature for their use cases. If it turns out that new feature isn't fulfilling the use case, then all that time spent on achieving the desired code quality standards are waste.
+在潜在用户有机会根据自己的用例探索新功能之前，我们就已经花费了大量时间来完善每一个新功能。如果结果证明新功能不能满足用例，那么为达到理想的代码质量标准所花费的时间就都白费了。
 
 ## 上下文
 
-- A strategic InnerSource codebase is scaling rapidly with new feature contributions from several employees.
-- The ratio of reviewers to contributions results in a growing backlog of pull requests. This is slowing down release of new features to the community.
-- Quality of the codebase is degrading and user experience is adversely impacted.
-- Maintainers of the codebase are burdened and cannot keep up with the influx of contributions and increased community support.
-- Some of the contributed features are not gaining adoption by users, and might even turn fully dormant. However even though they are unused, these features are still adding to the maintenance overhead.
-- Organization is investing heavily in hardening of new feature contributions to retain quality standards before the ideas are explored by the community.
-- The pattern applies in either scenario:
-   - Maintainers find themselves rejecting new feature ideas to narrow down the scope of the project. This is hampering innovation in the community and restricting further expansion.
-   - To reduce backlog, new features are getting released without thorough documentation, hardening, or testing, creating a poor user experience. This is also bloating the size of the codebase, adding a huge dependency graph and making it difficult to maintain.
+- 一个具有战略意义的 InnerSource 代码库正随着多名员工对新功能的贡献而迅速扩展。
+- 评审人员与贡献者的比例悬殊导致 PR 积压越来越多，这拖慢了向社区发布新功能的速度。
+- 代码库质量下降，用户体验受到负面影响。
+- 代码库维护人员不堪重负，无法及时应对大量贡献和社区支持的增加。
+- 一些贡献的功能没有得到用户的采用，甚至可能完全处于休眠状态。然而，即使这些功能未被使用，它们仍然会增加维护开销。
+- 组织正在投入巨资强化新功能的贡献，以便在社区探索这些想法之前保持质量标准。
+- 这种模式适用于任何一种情况：
+   - 维护者发现自己拒绝了新功能的想法，以缩小项目的范围。这阻碍了社区的创新，限制了进一步扩展。
+   - 为了减少项目积压，新功能在没有完整文档、加固或测试的情况下就被发布，造成了糟糕的用户体验。这也在扩大代码库的规模，增大依赖关系图，使其难以维护。
 
 ## 约束
 
-- Maintainers and product owners want to allow for expansion, encourage innovation and experimentation without being overly restrictive on contributions, while also keeping good code and quality standards for user experience.
-- A large amount of time goes into hardening and thorough testing of features to meet product standards, but product owners may want to allow for faster release of new innovations for adopting products to explore before investing time in maturing the capabilities.
-- Maintainers want to encourage the community to share innovations that combine product capabilities with other use-cases without adding more dependencies to the primary repository.
+- 维护者和产品所有者希望允许扩展、鼓励创新和试验，但又不过于限制贡献，同时还要保持良好的代码和质量标准，以保证用户体验。
+- 为达到产品标准，需要花费大量时间对功能进行加固和全面测试，但产品所有者可能希望在投入时间使功能成熟之前，允许更快地发布新的创新，供采用产品的用户探索。
+- 维护者希望鼓励社区分享将产品功能与其他用例相结合的创新，而不给主代码库增加更多的依赖性。
 
 ## 解决方案
 
-Allowing [extensions/plugins](https://en.wikipedia.org/wiki/Extensibility) to high-scale InnerSource codebases can relieve the maintenance burden on repository maintainers and allow faster release of new features for adopting products to explore. This shifts maintenance of capabilities to extension owners and allows the primary repository to support capabilities that have been adopted more widely and are more strategic.  
+允许[扩展/插件](https://en.wikipedia.org/wiki/Extensibility)进入大规模的 InnerSource 代码库，可以减轻代码库维护者的维护负担，并允许更快地发布新功能供采用产品及探索。这就将功能的维护工作转移给了扩展所有者，并允许主代码库支持已被更广泛采用且更具战略性的功能。
 
-Extensions provide a filter for new capabilities that may eventually move into the core of the project. Extensions also act as an incubation and community hardening environment, allowing for much of that hardening to happen organically rather than in a costly review process.
+扩展为最终可能进入项目核心的新功能提供了一个过滤器。扩展还充当了孵化和社区加固环境的角色，使许多加固工作能够有机地进行，而不是在代价高昂的评审过程中进行。
 
-In order for the extensions model to be successful, there are few architectural considerations to keep in mind:
+为了使扩展模式取得成功，在架构上有一些注意事项需要牢记：
 
-1. **Easy to create:** To obtain community participation, extensions need to be easy to create.
-   - Create a repository template that extensions should use as a starting point. This allows the extensions to add their new features in new repositories, separate from the core project. The template should provide the same modular structure as the primary repository, and include the framework to package and release extensions.
-      - Ensure that as the primary repository changes, the template(s) are well-maintained. The primary repository maintainers are responsible for updating the template(s) to ensure it is compatible with the main project. Following good versioning conventions, e.g., [semver](https://semver.org/), makes this easier to follow.
-      - It is further recommended that the primary repository maintainers provide guidance on how to update extensions based on older versions of the template as newer versions are released.
-   - Add example extension(s) developed from the template, which project developers can reference to understand how to write a well-patterned extension.
-   - Loosen the requirements for contributors to create extensions by bypassing reviews to allow for faster release or experimentation.
-2. **Loose coupling:** Having modular components that contain functionality can allow loose coupling, where changes to extensions do not impact the quality of the main codebase or other extensions.
-3. **Dependency management:**  Each extension should be careful to pin the version range of the primary repository that it is built against (the same way it would any other dependency) and should be careful in its use of other dependencies that shadow dependencies of the primary repository such that the versions it chooses for those dependencies are compatible with the primary repository versions selected. Any conflicts with primary repository will be caught in the test framework for the extension.
-4. **Testing strategy:** How to test extensions both individually and in combination?
-   - **Testing extension individually:** Extensions template will provide a test framework to be used by the extension developers to test the capability added. This can include a framework for unit tests, runtime performance and quality tests.
-   - **Testing extension in combination with primary repository:** Extension developers have a well-patterned method for testing their extension against specific versions of the primary repository without involvement from the primary repository's maintainers.
-   - **Testing extension in combination with other extensions:** Providing a test framework for this scenario could result in being excessive especially if there are a large number of extensions that are still being explored by users and unlikely to be all used in combination. If a user runs into conflicts while using extensions in combination (which should be unlikely with sufficient loose coupling), the user can raise an issue to the respective extension owners who will sort it out. As an extension reaches later phases of the lifecycle and gets merged into the primary repository, it would be tested in combination with rest of library and any dependency conflicts will have to be resolved at the time.
-5. **Discoverability and Usability:**
-   - Make extensions easily discoverable with a publishing page showing the extensions that users have created and want to share for product usage.
-   - Allow registration of extensions with the primary project for users to leverage extensions alongside the original project, thus keeping the same user experience.
-6. **Lifecycle of extensions and maintainability:** Establish the lifecycle for extensions from creation to porting into the primary codebase, along with clear ownership guidelines.
-   - Extension creators continue maintaining the extension, providing any support and fixing defects. Any extension left unmaintained will be unlisted from the publishing page.
-   - Create criteria for when an extension can be ported to the primary repository, such as adoption of the extension by internal products and demand for the feature.
-   - Porting process of the extension to the primary repository will follow more stringent code review guidelines as set by library maintainers.
+1. **易于创建：** 为了获得社区参与，扩展需要易于创建。
+   - 创建一个初始扩展的代码库模板，作为新扩展的起点。这允许扩展在新代码库中添加新功能，与核心项目分开。该模板应提供与主代码库相同的模块化结构，并包含打包和发布扩展的框架。
+   - 确保随着主代码库的变更，模板得到良好维护。主代码库维护人员负责更新模板以确保其与主项目兼容。遵循良好的版本控制约定，例如 [semver](https://semver.org/)，可以使这更容易遵循。
+   - 进一步建议主代码库维护者提供相关介绍，以指导如何在新版本发布时基于旧版本模板更新扩展。
+   - 添加从模板开发的示例扩展，项目开发人员可以参考这些扩展来了解如何编写模式良好的扩展。
+   - 放宽对贡献者创建扩展的要求，绕过评审，以实现更快的发布或试验。
+2. **低耦合：** 拥有包含功能的模块化组件可以允许松散耦合，其中扩展的更改不会影响主代码库或其他扩展的质量。
+3. **依赖管理：** 每个扩展都应小心固定其构建的主代码库的版本范围（与任何其他依赖项相同），并且在使用其他依赖项时应小心主存储库的依赖项，以便为这些依赖项选择的版本与所选的主代码库版本兼容。与主代码库的任何冲突都将在扩展的测试框架中捕获。
+4. **测试策略：** 如何单独和组合测试扩展？
+   - **单独测试扩展：** 扩展模板将提供一个测试框架，供扩展开发人员用来测试添加的功能。这可以包括单元测试、运行时性能和质量测试的框架。
+   - **与主代码库结合测试扩展：** 扩展开发人员有一种模式良好的方法，可以针对主代码库的特定版本测试其扩展，而无需主代码库维护人员的参与。
+   - **与其他扩展结合测试扩展：** 为此场景提供测试框架可能会导致过度，特别是如果用户仍在探索大量扩展并且不太可能全部组合使用。如果用户在组合使用扩展时遇到冲突（如果有足够的松散耦合，这种情况应该不太可能发生），用户可以向相应的扩展所有者提出问题，由他们来解决。当扩展到达生命周期的后期阶段并合并到主代码库时，它将与库的其余部分结合进行测试，并且当时必须解决所有的依赖项冲突。
+5. **可发现性和可用性：**
+  - 通过显示用户已创建并希望共享以供产品使用的扩展的发布页面，使扩展易于被发现。
+  - 允许在主项目中注册扩展，以便用户可以在原始项目中利用扩展，从而保持相同的用户体验。
+6. **扩展的生命周期和可维护性：** 建立扩展从创建到移植到主代码库的生命周期，以及明确的所有权准则。
+   - 扩展创建者继续维护扩展，提供任何支持并修复缺陷。任何未维护的扩展都不会从发布页面列出。
+   - 创建何时可以将扩展移植到主代码库的标准，例如内部产品对扩展的采用以及对该功能的需求。
+   - 扩展到主代码库的移植过程将遵循库维护人员制定的更严格的代码评审指南。
+  
 
-![Software architecture with extensions](../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
+![可扩展软件架构](.../.../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
-Following these principles ensures that:
+遵循这些原则可确保：
 
-- Developers can add new features to a project's ecosystem without requiring them to write large amounts of [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) code.
-- Extensions are discoverable in a repeatable manner by all users of the primary project; just because code doesn't live in the main repository yet does not mean it is not valuable.
-- The maintainer burden is reduced until an extension has demonstrated that it fills an important gap in the primary project.
-- The core project's common code (e.g. base classes and utility functions) can be a starting point for new development that extends project's domain. This avoids the need to port innovative work after-the-fact, thus reducing the overall burden of developing novel features for the project.
-- Developers are more likely to contribute and stay involved in maintenance and building communities for their codebase, which is also good for the health of the overall project ecosystem.
+- 开发人员无需编写大量[样板](https://en.wikipedia.org/wiki/Boilerplate_code)代码，即可为项目生态系统添加新功能。
+- 主项目的所有用户都能以可重复的方式发现扩展功能；代码还没有存入主资源库并不意味着它没有价值。
+- 维护者的负担会减轻，直到扩展证明它填补了主项目中的重要空白。
+- 核心项目的通用代码（如基类和实用功能）可以作为扩展项目领域的新开发的起点。这就避免了事后移植创新工作的需要，从而减轻了为项目开发新功能的总体负担。
+- 开发人员更有可能为他们的代码库做出贡献，并继续参与维护和社区建设，这也有利于整个项目生态系统的健康发展。
 
 ## 结果背景
 
-- The project is able to scale with the addition of new features, without adding maintenance overhead on the primary project repository.
-- Faster release of new features for the community to explore, encouraging innovation and experimentation.
-- Reduced the costly code review and feature hardening process until the feature is able to prove its utility. This has cost savings benefits for the organization.
-- A post problem that can be introduced - what happens if an extension can not complete the full lifecycle?
-   - If an extension is not adopted over a period of time and could not build a community around it to support maintenance, it would be up to the extension owner to continue maintaining it for however long they want to. If an extension is left unmaintained, it would be unpublished.
-   - If an extension developer is unable to further maintain their project, and other developers in the community want to continue supporting it, they may maintain the extension going forward.
+- 项目能够通过增加新功能来扩展，同时不会增加主项目代码库的维护成本。
+- 更快地发布新功能供社区探索，鼓励创新和试验。
+- 减少了成本高昂的代码评审和功能加固过程，直到功能能够证明其实用性，这将为企业节省成本。
+- 可能引入的一个后置问题——如果扩展无法完成一个完整的生命周期，会怎么样？
+   - 如果一个扩展在一段时间内没有被采用，也无法围绕它建立一个支持维护的社区，那么就需要扩展所有者在他们希望的任何时间内继续维护它。如果扩展没有得到维护，就会被取消发布。
+   - 如果扩展开发者无法继续维护其项目，而社区中的其他开发者希望继续支持该扩展，他们可以继续维护该扩展。
 
 ## 已知实例
 
-* **IBM Corporation** has adopted this solution to scale [InnerSource AI libraries](https://youtu.be/Lz-tIc2cyRM). Using extensions, developers are able to extend AI libraries with more algorithms and share their innovations with the company-internal community. The core libraries only contain strategic algorithms that have been adopted and validated, keeping them easier to maintain as we scale contributions.
+* **IBM 公司**采用了这一解决方案来扩展[InnerSource 人工智能类库](https://youtu.be/Lz-tIc2cyRM)。通过使用扩展库，开发人员能够用更多算法扩展人工智能类库，并与公司内部社区分享他们的创新成果。核心库只包含已被采用和验证的战略算法，因此在我们扩大贡献时更易于维护。
 
 ## 别名
 
