@@ -75,7 +75,7 @@ InnerSource 项目收到了太多的贡献，这会导致维护变得困难。�
    - 扩展到主代码库的移植过程将遵循库维护人员制定的更严格的代码评审指南。
   
 
-![可扩展软件架构](.../.../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
+![可扩展软件架构](../../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
 遵循这些原则可确保：
 
