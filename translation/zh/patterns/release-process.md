@@ -22,7 +22,7 @@
 
 随着组织的发展和更多内部软件的编写，这种模式的价值也在增加。
 
-## 约束 
+## 约束
 
 ### 对于没有集中式 CI/CD 系统的组织来说很困难
 
@@ -70,4 +70,4 @@ David Grizzanti
 
 ## 翻译校对
 
-* **2022-12-08** 翻译 [Chris Yang](https:github.com/node) 
+* **2022-12-08** 翻译 [Chris Yang](https:github.com/node)
