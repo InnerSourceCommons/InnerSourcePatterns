@@ -70,4 +70,5 @@ David Grizzanti
 
 ## 翻译校对
 
-* **2022-12-08** 翻译 [Chris Yang](https:github.com/node)
+* **2024-10-08** 翻译[Chris Yang](https:github.com/node)
+* **2024-10-12** 校对[姜宁](https://github.com/willemjiang)
