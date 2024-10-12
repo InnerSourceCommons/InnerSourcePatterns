@@ -73,7 +73,6 @@ InnerSource 项目收到了太多的贡献，这会导致维护变得困难。�
    - 扩展创建者继续维护扩展，提供任何支持并修复缺陷。任何未维护的扩展都不会从发布页面列出。
    - 创建何时可以将扩展移植到主代码库的标准，例如内部产品对扩展的采用以及对该功能的需求。
    - 扩展到主代码库的移植过程将遵循库维护人员制定的更严格的代码评审指南。
-  
 
 ![可扩展软件架构](../../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
