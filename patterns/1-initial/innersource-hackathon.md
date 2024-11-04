@@ -14,7 +14,9 @@ The company wants to adopt InnerSource as software development methodology but o
 
 ### Scenario 1: Challenges in scaling beyond the early adopters
 
-The senior leadership believes in InnerSource and wants to drive it throughout the company. The engineers who are familiar with open source principles and/or understand the benefits of InnerSource are the early adopters. There is success with these initial pilot project and teams. Now the next step is to drive it across the company. There might be reluctance from engineering teams due to various factors like:
+The senior leadership believes in InnerSource and wants to drive it throughout the company. The engineers who are familiar with open source principles and/or understand the benefits of InnerSource are the early adopters. There is success with these initial pilot project and teams.
+
+Now the next step is to drive it across the company. There might be reluctance from engineering teams due to various factors like:
 
 * not familiar with InnerSource and not aware about it
 * not enough time to prioritize InnerSource, given the regular work deliverables
