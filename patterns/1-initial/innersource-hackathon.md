@@ -19,7 +19,7 @@ The senior leadership believes in InnerSource and wants to drive it throughout t
 * not familiar with InnerSource and not aware about it
 * not enough time to prioritize InnerSource, given the regular work deliverables
 * reluctance to changing ways of working when everything works well already
-* unclear ROI for the upfront setup innersourcing takes
+* unclear return on investment for the upfront setup costs that an InnerSource project takes
 
 ### Scenario 2: Challenges in getting contributions and building community around InnerSource projects
 
