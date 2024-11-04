@@ -18,7 +18,7 @@ The senior leadership believes in InnerSource and wants to drive it throughout t
 
 Now the next step is to drive it across the company. There might be reluctance from engineering teams due to various factors like:
 
-* not familiar with InnerSource and not aware about it
+* not familiar with InnerSource or open source practices
 * not enough time to prioritize InnerSource, given the regular work deliverables
 * reluctance to changing ways of working when everything works well already
 * unclear return on investment for the upfront setup costs that an InnerSource project takes
