@@ -54,7 +54,7 @@ This pattern emerges in organizations with multiple InnerSource development team
 
 The diagram reflects both the high-level architecture and the workflow of the IDP:
 
-1. Developer Interface Layer (Top Layer)
+1. **Developer Interface Layer (Top Layer)**
 
 Self-Service Portal: A central access point for developers to interact with the IDP. This portal provides UI/UX for developers to provision environments, initiate CI/CD pipelines, deploy code, and monitor applications. It should have integrations with internal services such as:
 
@@ -63,7 +63,7 @@ Self-Service Portal: A central access point for developers to interact with the 
 - Access to documentation, templates, and tools
 - Monitoring dashboards
 
-2. IDP Core Components (Middle Layer)
+2. **IDP Core Components (Middle Layer)**
 
 These components form the operational backbone of the IDP and facilitate the interaction between the developers and the infrastructure.
 
@@ -73,7 +73,7 @@ These components form the operational backbone of the IDP and facilitate the int
 - **Automation & IaC**: Infrastructure as Code (IaC) to provision resources, manage environments, and automate repeatable processes.
 - **Plugin Architecture**: A modular system that allows teams to extend the IDP by adding new tools or services via plugins (e.g., integrating with third-party APIs or custom tooling).
 
-3. Platform Services & Resources (Bottom Layer)
+3. **Platform Services & Resources (Bottom Layer)**
 
 These components are what the IDP exposes to developers through the portal and what it orchestrates.
 
@@ -111,7 +111,7 @@ Adoption of an Internal Developer Platform helps to address directly a number of
 **Solving project/team dependencies beyond "wait it out" and "build workarounds", thereby reducing engineering bottlenecks**:
 IDPs allow teams to self-serve infrastructure, environments, and tools, reducing dependency on other teams to manually provision resources. By centralizing access to infrastructure and automating common processes like CI/CD pipelines, dependencies are less likely to create bottlenecks.
 
-**Increase quality**: IDPs increase software quality by promoting consistent and standardized practices and providing built-in guardrails for governance, security, and compliance. Automated testing and deployment pipelines ensure that all code adheres to the organization’s quality standards before it goes into production. Moreover, since developers can focus more on solving high-level problems rather than fighting with tooling and environment setup, they have more time to improve code quality​.
+**Increasing quality**: IDPs increase software quality by promoting consistent and standardized practices and providing built-in guardrails for governance, security, and compliance. Automated testing and deployment pipelines ensure that all code adheres to the organization’s quality standards before it goes into production. Moreover, since developers can focus more on solving high-level problems rather than fighting with tooling and environment setup, they have more time to improve code quality​.
 
 **Increasing employee happiness**: The number one objective of an IDP is to increase Developer happiness, by treating and promoting the platform as an internal product. By reducing friction in the development process, an IDP allows developers to focus on what they do best which is writing code and solving meaningful problems. Self-service capabilities reduce waiting times for resources, while centralized platforms eliminate the complexity of managing disparate tools. This leads to a more streamlined developer experience, which in turn boosts job satisfaction and productivity​.
 
