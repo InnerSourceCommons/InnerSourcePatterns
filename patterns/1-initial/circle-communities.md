@@ -4,20 +4,22 @@ Circle Communities
 
 ## Patlet
 
-Circle Communities are essential for fostering a culture of collaborative innovation and continuous learning. Organizations often have many individuals who need to learn about new domains but struggle due to a lack of understanding and inability to ask the right questions. These communities provide a platform for synchronous conversations, where knowledgeable and confident members can engage in active listening and help build the necessary connections and understanding.
+InnerSource adoption in organizations is slow due to limited understanding and engagement. Circle Communities foster a culture of collaboration and continuous learning, which are essential to InnerSource. These communities provide a platform for synchronous conversations, where knowledgeable and confident members can engage in active listening and help build the necessary connections and understanding.
 
 ## Problem
 
-Organizations face several challenges in creating and sustaining effective Circle Communities, particularly when individuals need to learn about unfamiliar domains:
+Organizations face several challenges in building individual understanding around InnerSource and growing a stakeholder community. Problems can be broken down into a few sub-categories:
 
-* **Lack of Contextual Understanding**: Employees often struggle with relevance about new domains, hindering their learning process.
+* **Lack of Contextual Understanding**: Employees often struggle with relevance about InnerSource, hindering their learning process.
 * **Knowledge Gaps**: There is often a significant gap between what individuals know and what they need to learn, making it difficult to engage meaningfully.
 * **Engagement Issues**: Without predictable and structured opportunities for synchronous conversations, engagement and participation can be low.
 * **Limited Expertise**: Organizations may lack sufficient confident and knowledgeable individuals who can facilitate discussions and bridge the knowledge gaps.
 
 ## Context
 
-Circle Communities are a collaboration forum based community. Participation is voluntary. Except for the duties of a facilitator, no distinction is enforced between participants. This invokes round-table equality which maximizes authenticity and diversity. Circle Communities often bring together individuals with different backgrounds, expertise and expectations.  Members must feel safe to share their thoughts, experiences and perspectives.  Sustained participation is crucial for the longevity and impact of the community.  Effective mechanisms for sharing knowledge and best practices are needed.
+Scenerio 1: Few InnerSource champions exist within your heavily sileod organization. The practice has struggled to build sustainable engagement as the culture is not hospitable to open collaboration and innovation.
+
+Scenerio 2: Your organization is decentralized and often stakeholders are unaware of other projects or programs. InnerSource has struggled to get engagement as the culture highly dispersed and segmented across the organization.
 
 ## Forces
 
@@ -27,6 +29,8 @@ Circle Communities are a collaboration forum based community. Participation is v
 * **Knowledge Sharing**: Effective mechanisms for sharing knowledge and best practices are needed.
 
 ## Solutions
+
+Circle Communities are a collaboration forum based community. Participation is voluntary. Except for the duties of a facilitator, no distinction is enforced between participants. This invokes round-table equality which maximizes authenticity and diversity. Circle Communities often bring together individuals with different backgrounds, expertise and expectations.  Members must feel safe to share their thoughts, experiences and perspectives.  Sustained participation is crucial for the longevity and impact of the community.  Effective mechanisms for sharing knowledge and best practices are needed. 
 
 Implement a strategic approach to forming and nurturing Circle Communities that emphasizes clear objectives, inclusive participation and continuous improvement.  This can be achieved through the following parallel efforts:
 
@@ -66,6 +70,7 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 ## Authors
 
 * [Michael Basil](https://www.linkedin.com/in/michaelrbasil)
+* [Addie Girouard](https://www.linkedin.com/in/addiegirouard)
 * [Bill Westfall](https://www.linkedin.com/in/bill-westfall-3268494)
 * [Jim Manzzullo](https://www.linkedin.com/in/jimmanzzullo)
 * [Jeremy McMillan](https://www.linkedin.com/in/jeremymcm)
