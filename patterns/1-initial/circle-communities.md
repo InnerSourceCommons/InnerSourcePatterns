@@ -30,7 +30,7 @@ Scenerio 2: Your organization is decentralized and often stakeholders are unawar
 
 ## Solutions
 
-Circle Communities are a collaboration forum based community. Participation is voluntary. Except for the duties of a facilitator, no distinction is enforced between participants. This invokes round-table equality which maximizes authenticity and diversity. Circle Communities often bring together individuals with different backgrounds, expertise and expectations.  Members must feel safe to share their thoughts, experiences and perspectives.  Sustained participation is crucial for the longevity and impact of the community.  Effective mechanisms for sharing knowledge and best practices are needed. 
+Circle Communities are a collaboration forum based community. Participation is voluntary. Except for the duties of a facilitator, no distinction is enforced between participants. This invokes round-table equality which maximizes authenticity and diversity. Circle Communities often bring together individuals with different backgrounds, expertise and expectations.  Members must feel safe to share their thoughts, experiences and perspectives.  Sustained participation is crucial for the longevity and impact of the community.  Effective mechanisms for sharing knowledge and best practices are needed.
 
 Implement a strategic approach to forming and nurturing Circle Communities that emphasizes clear objectives, inclusive participation and continuous improvement.  This can be achieved through the following parallel efforts:
 
