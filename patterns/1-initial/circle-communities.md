@@ -50,7 +50,6 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [Dedicated Community Leader](../2-structured/dedicated-community-leader.md)
 * [Core Team](../2-structured/core-team.md)
 * [Maturity Model](../2-structured/maturity-model.md)
-* [Agile InnerSource Dojo](../1-initial/agile-innersource-dojo.md)
 
 ## Known Instances
 
