@@ -129,7 +129,7 @@ An IDP provides a solution to the competing forces of consistency, flexibility, 
 
 ## Status
 
-Initial Draft
+* Initial
 
 ## Author(s)
 
