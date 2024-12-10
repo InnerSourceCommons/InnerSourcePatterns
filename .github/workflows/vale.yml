@@ -21,7 +21,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Vale Linting
-      uses: errata-ai/vale-action@reviewdog
+      uses: errata-ai/vale-action@v2
       with:
         files: '["patterns/2-structured/", "patterns/3-validated/"]'
         vale_flags: "--glob=*.md"
