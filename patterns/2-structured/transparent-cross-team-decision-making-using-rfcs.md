@@ -99,6 +99,7 @@ Also for decision making outside of pure software design decisions, transparent 
 - **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via RFCs: Writing Things Down][uber].
 - **Google Design Docs** - As described in this blog post by Malte Ubl [Design Docs at Google][google]
 - **DAZN** (10/2021) - One way that DAZN makes technical decisions is via RFCs. RFCs are used for decisions that apply to engineering-wide processes only! The RFCs live in a GitHub repository, and technical standards are then gradually adopted within their tools and by their engineers. An RFC can be raised by any engineer, and voted on by all engineers. If upvotes exceed downvotes, the RFC is adopted. It’s worth noting, that the RFC voting process hasn’t yet been “stress-tested” by any contentious decisions. - As described in this blog post by Lou Bichard: [Building A DX Team: Lessons Learned][dazn]
+- **SAP** (03/2024) - SAP has a mature tool-assisted process for document review across teams. It is primarily used for the review of Architecture Decision Records (ADR) originating from cross-team work done on the Cross-Product Architecture collaboration model. Some noteworthy implementation differences from this pattern: The review process is not easily available for decisions on small projects. Also, the documents are not restricted to InnerSource projects only. - As described in the blog post [Cross-Product Architecture: Embracing Conway's Law for Better Software Architecture][sap-cpa].
 
 ## Status
 
@@ -124,3 +125,4 @@ Structured
 [bbc]: https://www.youtube.com/watch?v=U6zlghE0HcE
 [google]: https://www.industrialempathy.com/posts/design-docs-at-google/
 [dazn]: https://medium.com/dazn-tech/building-a-dx-team-lessons-learned-4a66446088bc
+[sap-cpa]: https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600
