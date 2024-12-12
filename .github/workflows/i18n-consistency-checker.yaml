@@ -20,29 +20,33 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: '0'
-      - name: Check consistency and create issue
+      - name: Check consistency
         id: check-consistency
         run: |
           # Declare the flags
-          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician")
-        
-          issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
-        
-          # Heredoc for issue header
-          cat <<- EOM > issue.md
-          # i18n Contents Consistency Issue
-        
-          The following files may have consistency issues with the English version. Please check and update the files.
-        
-          This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
-          EOM
+          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician" )
         
           # Loop through all files in the English directory
           for file in $(find patterns/{2-structured,3-validated} -name '*.md'); do
-            [[ $file =~ "3-validated" ]] && continue # if the file is under 3-validated, skip (one liner) - 2023/08/26
-            i18n_filename=$(echo "$file" | sed "s/patterns\/\(2-structured\|3-validated\)/translation\/${{matrix.language}}\/patterns/g")
-            
+            echo "Original file: $file"
+            #[[ $file =~ "3-validated" ]] && continue # if the file is under 3-validated, skip (one liner) - 2023/08/26
+            #[[ $file =~ "/templates" ]] && continue # if the file is under /templates, skip. consistency check does not work for that yet.
+
+            if [[ $file =~ "/templates" ]]; then
+              i18n_filename=$(echo "$file" | sed -E "s_patterns/(2-structured|3-validated)/templates_translation/${{matrix.language}}/templates_g")
+            else
+              i18n_filename=$(echo "$file" | sed -E "s_patterns/(2-structured|3-validated)_translation/${{matrix.language}}/patterns_g")
+            fi
+            echo "Translation file: $i18n_filename"
+
             if [[ ! -e "$i18n_filename" ]]; then
+              echo "NOT TRANSLATED"
+              cat <<- EOM >> issue.md
+              <details><summary><b>New File</b> ($file)</summary>
+
+              For more information, please compare [the original file(en)](https://github.com/$GITHUB_REPOSITORY/blob/master/$file).
+              </details>
+          EOM
               continue
             fi
         
@@ -50,6 +54,7 @@ jobs:
             i18n_content_updated_at=$(date -d "$(git log -1 --format=%cd --date=iso $i18n_filename)" +%s)
         
             if [[ $((original_updated_at - i18n_content_updated_at)) -ge 1 ]]; then
+              echo "WARNING"
               content_header=$(grep -E '^title+' "$file" | sort -r | head -n1)
               content_title=$(echo "$content_header" | sed 's/title: //g')
 
@@ -70,20 +75,53 @@ jobs:
           \`\`\`
           </details>
           EOM
-            fi
-          done
-        
-          # Get the existing issue ID
-          existing_issue_id=$(gh issue list -S "is:issue is:open $issue_title" | cut -f1)
-          echo "existing_issue_id: $existing_issue_id"
-          # Create a new issue or comment on the existing one
-          if [ -f issue.md ]; then
-            if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
-              gh issue comment "$existing_issue_id" -F issue.md -R $GITHUB_REPOSITORY
             else
-              gh issue create -t "$issue_title" -F issue.md -R $GITHUB_REPOSITORY -l "Type - Translation"
+              echo "CHECK"
             fi
-          fi
+
+          done
+
+      - name: Check issue.md existence
+        id: check_files
+        uses: andstor/file-existence-action@v2
+        with:
+          files: "issue.md"
+      - name: Create issue
+        if: steps.check_files.outputs.files_exists == 'true'
+        run: |
+          # Declare the flags
+          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician" )
+
+          # Heredoc for issue header
+          cat <<- EOM > issue-full.md
+          # i18n Contents Consistency Issue
+        
+          The following files may have consistency issues with the English version. Please check and update the files.
+        
+          This issue is created when any of the English patterns have changed (in folder `patterns/`). It compares the git update history to let you know what updates are overdue. The issue should be closed when the update is complete.
+          EOM
+
+          # combine header and rest of file created in previous steps
+          cat issue.md >> issue-full.md
+
+          # title of the GitHub issue to look for
+          issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
+
+          # Get the existing issue ID
+          search_query="is:issue is:open in:title \"$issue_title\""
+          echo "search_query: $search_query"
+          existing_issue_id=$(gh issue list -L 1 -S "$search_query" | cut -f1)
+          echo "existing_issue_id: $existing_issue_id"
+
+          cat issue-full.md
+          
+          # Create a new issue or comment on the existing one
+          #if expr "$existing_issue_id" : '^[0-9]*$' >/dev/null; then
+          #  gh issue comment "$existing_issue_id" -F issue-full.md -R $GITHUB_REPOSITORY
+          #else
+          #  gh issue create -t "$issue_title" -F issue-full.md -R $GITHUB_REPOSITORY -l "Type - Translation"
+          #fi
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
