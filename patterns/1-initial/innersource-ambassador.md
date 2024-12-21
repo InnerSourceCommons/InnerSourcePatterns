@@ -10,7 +10,7 @@ To extend the reach and effectiveness of the InnerSource Program Office (ISPO), 
 
 The ISPO cannot be everywhere at once within a large, decentralized organization. Without localized support, the ISPO struggles to understand the unique challenges and needs of different departments or regions and cannot effectively promote InnerSource practices across the organization.
 
-## Story (optional)
+## Story
 
 In a multinational organization, the ISPO implemented InnerSource initiatives but noticed uneven adoption across departments. After appointing a local ambassador in one department, adoption rates improved as the ambassador tailored practices to the department's context and provided valuable feedback to the ISPO.
 
@@ -47,7 +47,7 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 - Ambassadors become advocates for InnerSource, fostering a culture of collaboration.
 - Workload balancing remains a challenge, but most ambassadors find the role rewarding and career-enhancing.
 
-## Rationale (optional)
+## Rationale
 
 InnerSource Ambassadors leverage their existing knowledge of their departments and relationships within the organization to address challenges the ISPO cannot solve alone. This decentralization of responsibility enhances the ISPO's reach while maintaining centralized oversight.
 
@@ -59,7 +59,7 @@ InnerSource Ambassadors leverage their existing knowledge of their departments a
 
 - Initial
 
-## Author(s) (optional)
+## Authors
 
 - Sebastian Spier
 - ChatGPT :)
