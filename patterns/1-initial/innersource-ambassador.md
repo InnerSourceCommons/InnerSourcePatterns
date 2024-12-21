@@ -68,5 +68,5 @@ This pattern is in the **Draft** stage. Feedback is welcome, especially on ensur
 
 ## Alias (optional)
 
-- Departmental InnerSource Representatives
-- Local InnerSource Representatives
+- Departmental InnerSource Representatives/Champion/Ambassador
+- Local InnerSource Representatives/Champion/Ambassador
