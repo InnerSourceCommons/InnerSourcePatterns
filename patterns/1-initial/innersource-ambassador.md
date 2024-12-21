@@ -14,7 +14,7 @@ The ISPO cannot be everywhere at once within a large, decentralized organization
 
 In a multinational organization, the ISPO implemented InnerSource initiatives but noticed uneven adoption across departments. After appointing a local ambassador in one department, adoption rates improved as the ambassador tailored practices to the department's context and provided valuable feedback to the ISPO.  
 
-## Context  
+## Context
 
 - The organization is large and has multiple independent departments.  
 - An ISPO has been established to drive InnerSource adoption.  
@@ -51,10 +51,9 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 
 InnerSource Ambassadors leverage their existing knowledge of their departments and relationships within the organization to address challenges the ISPO cannot solve alone. This decentralization of responsibility enhances the ISPO's reach while maintaining centralized oversight.  
 
-## Known Instances (optional)  
+## Known Instances
 
-- A global financial services firm successfully used InnerSource Ambassadors to foster collaboration between its IT and business units.  
-- A technology company implemented this approach to overcome departmental silos during its InnerSource adoption.  
+- *SAP* has a concept called [Open Source Champions](https://community.sap.com/t5/open-source-blogs/sap-open-source-champions/ba-p/13539587) that seems related
 
 ## Status (optional until merging)  
 
