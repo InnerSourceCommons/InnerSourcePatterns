@@ -66,8 +66,6 @@ This pattern is in the **Draft** stage. Feedback is welcome, especially on ensur
 
 ## Acknowledgments (optional)  
 
-
-
 ## Alias (optional)  
 
 - Departmental InnerSource Representatives
