@@ -55,9 +55,9 @@ InnerSource Ambassadors leverage their existing knowledge of their departments a
 
 - *SAP* has a concept called [Open Source Champions](https://community.sap.com/t5/open-source-blogs/sap-open-source-champions/ba-p/13539587) that seems related
 
-## Status (optional until merging)
+## Status
 
-This pattern is in the **Draft** stage. Feedback is welcome, especially on ensuring ambassador workload balance and scaling the approach across very large organizations.
+- Initial
 
 ## Author(s) (optional)
 
