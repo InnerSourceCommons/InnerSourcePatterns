@@ -1,0 +1,75 @@
+## Title  
+
+InnerSource Ambassadors  
+
+## Patlet  
+
+To extend the reach and effectiveness of the InnerSource Program Office (ISPO), volunteer InnerSource Ambassadors act as the eyes, ears, and voice of the ISPO within their departments. They support InnerSource goals while maintaining their primary organizational roles.  
+
+## Problem  
+
+The ISPO cannot be everywhere at once within a large, decentralized organization. Without localized support, the ISPO struggles to understand the unique challenges and needs of different departments or regions and cannot effectively promote InnerSource practices across the organization.  
+
+## Story (optional)  
+
+In a multinational organization, the ISPO implemented InnerSource initiatives but noticed uneven adoption across departments. After appointing a local ambassador in one department, adoption rates improved as the ambassador tailored practices to the department's context and provided valuable feedback to the ISPO.  
+
+## Context  
+
+- The organization is large and has multiple independent departments.  
+- An ISPO has been established to drive InnerSource adoption.  
+- There is a need for consistent and tailored InnerSource implementation across diverse teams.  
+- Employees with a passion for collaboration and InnerSource principles are present within the organization.  
+
+## Forces  
+
+- **Geographical and organizational scale:** The ISPO cannot physically or logistically engage with every department.  
+- **Communication barriers:** Departments may have unique cultures and needs that are not immediately visible to the ISPO.  
+- **Workload balance:** Ambassadors must fulfill this role alongside their primary responsibilities.  
+- **Trust and credibility:** Ambassadors must be trusted by their teams and the ISPO.  
+
+## Sketch (optional)  
+
+*A diagram showing the ISPO at the center, with ambassadors positioned in various departments acting as bidirectional conduits of information and influence.*  
+
+## Solutions  
+
+- Identify and recruit volunteer ambassadors from across the organization who are enthusiastic about InnerSource.  
+- Train ambassadors on InnerSource principles, tools, and the goals of the ISPO.  
+- Establish clear expectations for ambassadors, including acting as a liaison, promoting InnerSource practices, and providing feedback to the ISPO.  
+- Create a support network among ambassadors to share best practices and foster a sense of community.  
+- Schedule regular check-ins between ambassadors and the ISPO to gather insights and provide guidance.  
+
+## Resulting Context  
+
+- Localized InnerSource support increases adoption and effectiveness.  
+- The ISPO gains valuable, real-time feedback on challenges, successes, and opportunities within different departments.  
+- Ambassadors become advocates for InnerSource, fostering a culture of collaboration.  
+- Workload balancing remains a challenge, but most ambassadors find the role rewarding and career-enhancing.  
+
+## Rationale (optional)  
+
+InnerSource Ambassadors leverage their existing knowledge of their departments and relationships within the organization to address challenges the ISPO cannot solve alone. This decentralization of responsibility enhances the ISPO's reach while maintaining centralized oversight.  
+
+## Known Instances (optional)  
+
+- A global financial services firm successfully used InnerSource Ambassadors to foster collaboration between its IT and business units.  
+- A technology company implemented this approach to overcome departmental silos during its InnerSource adoption.  
+
+## Status (optional until merging)  
+
+This pattern is in the **Draft** stage. Feedback is welcome, especially on ensuring ambassador workload balance and scaling the approach across very large organizations.  
+
+## Author(s) (optional)  
+
+- Sebastian Spier
+- ChatGPT :)  
+
+## Acknowledgments (optional)  
+
+
+
+## Alias (optional)  
+
+- Departmental InnerSource Representatives
+- Local InnerSource Representatives
