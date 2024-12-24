@@ -4,11 +4,12 @@ InnerSource Ambassadors
 
 ## Patlet
 
-To extend the reach and effectiveness of the InnerSource Program Office (ISPO), volunteer InnerSource Ambassadors act as the eyes, ears, and voice of the ISPO within their departments. They support InnerSource goals while maintaining their primary organizational roles.
+When driving InnerSource adoption through a large, decentralized organization it is hard to understand and address the local challenges that come up in different departments and regions.
+Local volunteers, called InnerSource Ambassadors, provide localized support by promoting InnerSource principles and acting as a communication bridge between their teams and the ISPO.
 
 ## Problem
 
-The ISPO cannot be everywhere at once within a large, decentralized organization. Without localized support, the ISPO struggles to understand the unique challenges and needs of different departments or regions and cannot effectively promote InnerSource practices across the organization.
+The InnerSource Program Office (ISPO) cannot be everywhere at once within a large, decentralized organization. Without localized support, the ISPO struggles to understand the unique challenges and needs of different departments or regions and cannot effectively promote InnerSource practices across the organization.
 
 ## Story
 
@@ -34,7 +35,7 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 
 ## Solutions
 
-- Identify and recruit volunteer ambassadors from across the organization who are enthusiastic about InnerSource.
+- Identify and recruit volunteer ambassadors from across the organization who are enthusiastic about InnerSource. They support InnerSource goals while maintaining their primary organizational roles.
 - Train ambassadors on InnerSource principles, tools, and the goals of the ISPO.
 - Establish clear expectations for ambassadors, including acting as a liaison, promoting InnerSource practices, and providing feedback to the ISPO.
 - Create a support network among ambassadors to share best practices and foster a sense of community.
