@@ -80,7 +80,7 @@ jobs:
         cat ready_to_merge_issues_report.md hr.md issue_metrics.md > all.md
 
     - name: Create issue
-      uses: peter-evans/create-issue-from-file@v4
+      uses: peter-evans/create-issue-from-file@v5
       with:
         title: "Monthly Metrics: New Issues + New Pull Requests ${{ env.last_month }}"
         token: ${{ secrets.GITHUB_TOKEN }}
