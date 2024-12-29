@@ -26,7 +26,8 @@ This process was formalized in the team:
 
 ## Context
 
-Host team of a successful InnerSource project are finding it difficult to review contributions, especially large contributions. They do not want to disrupt their team's other work, but also want to support contributions by reviewing/releasing them in a timely fashion.
+* Host team of a successful InnerSource project are finding it difficult to review contributions, especially large contributions.
+* They do not want to disrupt their team's other work, but also want to support contributions by reviewing/releasing them in a timely fashion.
 
 ## Forces
 
