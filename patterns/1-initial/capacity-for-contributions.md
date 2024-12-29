@@ -20,7 +20,8 @@ Normally, InnerSource contributions would be reviewed ad-hoc, but the team estim
 
 This process was formalized in the team:
 
-* Larger contributions have a ticket created on the team's backlog and included in prioritization discussion alongside other tickets. The contributor will be informed of the priority call and given an estimate as to when it will be reviewed and released.
+* Larger contributions have a ticket created on the team's backlog and included in prioritization discussion alongside other tickets.
+* The contributor will be informed of the priority call and given an estimate as to when it will be reviewed and released.
 * Smaller contributions can still be reviewed ad-hoc.
 
 ## Context
