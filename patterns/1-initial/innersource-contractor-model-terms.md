@@ -60,7 +60,7 @@ Some community participants have seen this approach work with their clients. Der
 
 ## Status (optional until merging)
 
-TBD
+- Initial
 
 ## Author(s) (optional)
 
