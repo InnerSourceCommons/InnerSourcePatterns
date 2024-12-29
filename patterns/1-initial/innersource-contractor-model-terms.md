@@ -56,7 +56,7 @@ The end result should also be more sustainable code for the contracting organiza
 
 ## Known Instances (optional)
 
-Some community participants have seen this approach work with their clients. Derek Murawsky  can add details as appropriate.
+Some community participants have seen this approach work with their clients. Derek Murawsky can add details as appropriate.
 
 ## Status (optional until merging)
 
