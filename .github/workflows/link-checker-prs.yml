@@ -21,7 +21,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v44
+        uses: tj-actions/changed-files@v45
 
       - name: Filter markdown files only
         run: |
@@ -37,7 +37,7 @@ jobs:
 
       - if: ${{ env.MARKDOWN_FILES != '' }}
         name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.2
+        uses: lycheeverse/lychee-action@v2
         with:
           args: --verbose --no-progress --exclude-mail --cache --max-cache-age 1d $MARKDOWN_FILES
           fail: true
