@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Generate mindmap of the patterns in our book, using markmap.",
   "dependencies": {
-    "markmap-cli": ">=0.15.4",
+    "markmap-cli": ">=0.18.4",
     "optipng-bin": "^9.0.0"
   },
   "scripts": {
