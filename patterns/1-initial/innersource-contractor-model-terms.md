@@ -51,7 +51,7 @@ Implicit in these new terms is a move away from a rigid SOW with a hard deadline
 
 ## Resulting Context
 
-This patlet can help re-define standard contract terms with software development vendors. When implemented, it gives individual contractors permission and guarantees reward for engaging in the InnerSource process.
+This pattern can help re-define standard contract terms with software development vendors. When implemented, it gives individual contractors permission and guarantees reward for engaging in the InnerSource process.
 The end result should also be more sustainable code for the contracting organization.
 
 ## Known Instances (optional)
