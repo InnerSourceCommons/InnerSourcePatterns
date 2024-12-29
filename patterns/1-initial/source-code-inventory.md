@@ -65,7 +65,7 @@ Mockup dashboard             |  Mockup questionnaire
   * Consumption
   * Contribution
   * Ecosystem
-* Example of such a framework: [github.com/trieshard/source-strategy-assessment/blob/master/framework.md](https://github.com/trieshard/source-strategy-assessment/blob/master/framework.md)
+* Example of such a framework: [github.com/trieshard/source-strategy-assessment/blob/master/framework.md](https://github.com/trieshard/source-strategy-assessment/blob/master/framework.md) (no longer reachable)
 
 ## Resulting Context
 
