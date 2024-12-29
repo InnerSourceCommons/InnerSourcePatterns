@@ -1,6 +1,6 @@
 ## Title
 
-Managing capacity for reviewing contributions
+Managing Capacity for Reviewing Contributions
 
 ## Patlet
 
