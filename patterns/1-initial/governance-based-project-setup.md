@@ -30,7 +30,7 @@ Support new Trusted Committers with a list of resources targeted at each of the 
 
 ### Level: "Bug reports and Issues welcome"
 
-Ideally the host team goes through the InnerSource Learning Path to get a first understanding of the concepts and roles involved.
+Ideally the host team goes through the [InnerSource Learning Path](https://innersourcecommons.org/learn/learning-path/) to get a first understanding of the concepts and roles involved.
 
 To reach this level, a team needs to make their source code readable. They need to give write access to their issue tracker.
 
