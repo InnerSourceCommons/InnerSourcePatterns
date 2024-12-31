@@ -10,7 +10,7 @@ Following our list of best practices, recommended patterns and maturity levels t
 
 ## Problem
 
-A team has decided that they want to publish an InnerSource project. They are trying to decide on a [Governance Level](../1-initial/governance-levels.md). However lacking practical experience they need further guidance on the impact each of the levels will have on their daily doing.
+A team has decided that they want to publish an InnerSource project. They are trying to decide on a [Governance Level](../1-initial/governance-levels.md) for their project. However lacking practical experience they need further guidance on the impact each of the levels will have on their daily doing.
 
 ## Context
 
@@ -26,7 +26,7 @@ A team has decided that they want to publish an InnerSource project. They are tr
 
 ## Solution
 
-Support new Trusted committers with a list of resources targeted at each of the three governance levels.
+Support new Trusted Committers with a list of resources targeted at each of the three governance levels.
 
 ### Level: "Bug reports and Issues welcome"
 
