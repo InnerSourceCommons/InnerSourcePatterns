@@ -70,9 +70,9 @@ For InnerSource patterns, start by looking at the following ones (in addition to
 
 ### Level: Shared Ownership
 
-To reach this level the host team mixed of members of different teams in the organisation needs to understand that they are to act as one virtual team. There needs to be alignment of where the project is headed and increased trust between Trusted Committers.
+To reach this level the host team, mixed of members of different teams in the organisation, needs to understand that they are to act as one virtual team. There needs to be alignment of where the project is headed and increased trust between Trusted Committers.
 
-All project decisions need to be taken where they can not only be seen by others but influenced by the entire team of Trusted Committers - even if not all can make it to all meetings.
+All project decisions need to be taken where they can not only be seen by others but influenced by the entire team of Trusted Committers - even if not everybody can make it to all meetings.
 
 For the [maturity model](../2-structured/maturity-model.md), the relevant levels needed are at least:
 
