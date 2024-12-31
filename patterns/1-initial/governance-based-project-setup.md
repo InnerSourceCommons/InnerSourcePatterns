@@ -34,7 +34,7 @@ Ideally the host team goes through the InnerSource Learning Path to get a first 
 
 To reach this level, a team needs to make their source code readable. They need to give write access to their issue tracker.
 
-For the maturity model, the relevant levels needed are at least:
+For the [maturity model](../2-structured/maturity-model.md), the relevant levels needed are at least:
 
 PP-1, DP-1, DC-1, RS-1, ST-1, CF-1, LS-1, OF-2, CB-2, SP-2, PA-2, RW-1, MP-1, SM-1, CL-1, RO-1
 
@@ -52,7 +52,7 @@ For InnerSource patterns, start by looking at the following ones:
 
 To reach this level, a team needs to give contributors the option to submit pull requests. In addition, contributors need to have clear options to follow the development of the project in order to better understand project direction and established best practices. In addition the host team needs to set aside time for mentoring contributors and giving timely feedback.
 
-For the maturity model, the relevant levels needed are at least:
+For the [maturity model](../2-structured/maturity-model.md), the relevant levels needed are at least:
 
 PP-2, DP-2, DC-2, RS-3, ST-3, CF-2, LS-2, OF-2, CB-2, SP-2, PA-2, RW-2, MP-2, SM-2, CL-3, RO-2
 
@@ -74,7 +74,7 @@ To reach this level the host team mixed of members of different teams in the org
 
 All project decisions need to be taken where they can not only be seen by others but influenced by the entire team of Trusted Committers - even if not all can make it to all meetings.
 
-For the maturity model, the relevant levels needed are at least:
+For the [maturity model](../2-structured/maturity-model.md), the relevant levels needed are at least:
 
 PP-3, DP-3, DC-3, RS-3, ST-3, CF-3, LS-3, OF-3, CB-3, SP-3, PS-3, RW-3, MP-3, SM-3, CL-3, RO-3
 
