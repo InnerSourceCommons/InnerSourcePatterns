@@ -28,7 +28,10 @@ A team has decided that they want to publish an InnerSource project. They are tr
 
 Support new Trusted Committers with a list of resources targeted at each of the three governance levels.
 
-### Level: "Bug reports and Issues welcome"
+### Governance Level: "Bug reports and Issues welcome"
+
+Definition:
+> People outside the core development team may use the code. They can submit feature requests and bug reports for things they would like to see changed.
 
 Ideally the host team goes through the [InnerSource Learning Path](https://innersourcecommons.org/learn/learning-path/) to get a first understanding of the concepts and roles involved.
 
@@ -48,7 +51,10 @@ For InnerSource patterns, start by looking at the following ones:
 * [Trusted Committer](../2-structured/trusted-committer.md)
 * [Improve Findability](../1-initial/improve-findability.md)
 
-### Level: "Contributions Welcome"
+### Governance Level: "Contributions Welcome"
+
+Definition:
+> People outside the core development team may use the code. They can also make modifications and submit them to core team for inclusion.
 
 To reach this level, a team needs to give contributors the option to submit pull requests. In addition, contributors need to have clear options to follow the development of the project in order to better understand project direction and established best practices. In addition the host team needs to set aside time for mentoring contributors and giving timely feedback.
 
@@ -68,7 +74,10 @@ For InnerSource patterns, start by looking at the following ones (in addition to
 * [Include Product Owners](../1-initial/include-product-owners.md)
 * [Reluctance to accept contributions](../1-initial/reluctance-to-accept-contributions.md)
 
-### Level: Shared Ownership
+### Governance Level: Shared Ownership
+
+Definition:
+> Members of different teams collaborate on the project as equal peers. Everyone has the ability to merge code. Everyone has an equal say on the project direction. Everyone has an equal say in who else to add to this group.
 
 To reach this level the host team, mixed of members of different teams in the organisation, needs to understand that they are to act as one virtual team. There needs to be alignment of where the project is headed and increased trust between Trusted Committers.
 
