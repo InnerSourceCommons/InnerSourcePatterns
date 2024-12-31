@@ -86,7 +86,7 @@ For InnerSource patterns, start by looking at the following ones (in addition to
 Definition:
 > Members of different teams collaborate on the project as equal peers. Everyone has the ability to merge code. Everyone has an equal say on the project direction. Everyone has an equal say in who else to add to this group.
 
-To reach this level the host team, mixed of members of different teams in the organisation, needs to understand that they are to act as one virtual team. There needs to be alignment of where the project is headed and increased trust between Trusted Committers.
+To reach this level the host team, mixed of members of different teams in the organization, needs to understand that they are to act as one virtual team. There needs to be alignment of where the project is headed and increased trust between Trusted Committers.
 
 All project decisions need to be taken where they can not only be seen by others but influenced by the entire team of Trusted Committers - even if not everybody can make it to all meetings.
 
@@ -111,7 +111,7 @@ TBD
 
 ## Status
 
-- Intiial
+- Initial
 
 ## Authors
 
