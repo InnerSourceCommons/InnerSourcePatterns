@@ -99,3 +99,19 @@ For InnerSource patterns, start by looking at the following ones (in addition to
 * [Explicit Shared Ownership](../1-initial/explicit-shared-ownership.md)
 * [Modular Code](../1-initial/modular-code.md)
 * [Source Repo different from deployment chain](../1-initial/shared-code-repo-different-from-build-repo.md)
+
+## Resulting Context
+
+TBD
+
+## Known Instances
+
+TBD
+
+## Status
+
+- Intiial
+
+## Authors
+
+- Isabel Drost-Fromm
