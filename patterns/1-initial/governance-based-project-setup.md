@@ -29,10 +29,12 @@ A team has decided that they want to publish an InnerSource project. They are tr
 Support new Trusted Committers with a list of resources targeted at each of the three governance levels.
 
 This solution ties together various resources that are provided by the InnerSource Commons:
-- the [maturity model](../2-structured/maturity-model.md)
-- InnerSource Patterns applicable to each level
 
-Your organization may have other custom resources relevant for each of these governance levels, that you could link to in addition to the above.
+- the [Maturity Model](../2-structured/maturity-model.md)
+- **InnerSource Patterns** applicable to each level
+
+Your organization may have additional custom resources relevant for each of these governance levels.
+You may want to link to those in addition to the ones above.
 
 ### Governance Level: "Bug Reports and Issues Welcome"
 
