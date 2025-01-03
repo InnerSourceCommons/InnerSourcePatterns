@@ -67,7 +67,7 @@ InnerSource Ambassadors leverage their existing knowledge of their departments a
 ## Acknowledgments
 
 - [Russell R. Rutledge](https://github.com/rrrutledge) for sharing the idea and providing feedback
-- [Guilherme Dellagustin](https://github.com/dellagustin-sap) for sharing a similar concept used for open source adoption 
+- [Guilherme Dellagustin](https://github.com/dellagustin-sap) for sharing a similar concept used for open source adoption
 
 ## Alias
 
