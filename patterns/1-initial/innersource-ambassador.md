@@ -63,11 +63,13 @@ InnerSource Ambassadors leverage their existing knowledge of their departments a
 ## Authors
 
 - Sebastian Spier
-- ChatGPT :)
 
-## Acknowledgments (optional)
+## Acknowledgments
 
-## Alias (optional)
+- [Russell R. Rutledge](https://github.com/rrrutledge) for sharing the idea and providing feedback
+- [Guilherme Dellagustin](https://github.com/dellagustin-sap) for sharing a similar concept used for open source adoption 
+
+## Alias
 
 - Departmental InnerSource Representatives/Champion/Ambassador
 - Local InnerSource Representatives/Champion/Ambassador
