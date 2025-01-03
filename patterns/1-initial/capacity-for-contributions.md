@@ -12,7 +12,7 @@ Large InnerSource contributions are causing delays to other work in the team and
 
 ## Story
 
-The BBC's connected TV application are built by a number of teams, each with different areas of responsibility. They work on each other's areas of the codebase via InnerSource on a regular basis.
+An application is built by a number of teams, each with different areas of responsibility. They work on each other's areas of the codebase via InnerSource on a regular basis.
 
 The team responsible for the build process for the JavaScript bundles received a major pull request, changing how dependencies were bundled. This PR introduced a new build time dependency, a new structure to the deployed JavaScript bundles, and touched 503 files, with 6,699 lines of code added and 2,828 lines of code deleted. A contribution of this size required significant time to code review, test, and ensure the team understood the new tooling and structure introduced.
 
