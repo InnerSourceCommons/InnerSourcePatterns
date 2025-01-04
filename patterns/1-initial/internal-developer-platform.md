@@ -123,7 +123,7 @@ IDPs allow teams to self-serve infrastructure, environments, and tools, reducing
 
 An IDP provides a solution to the competing forces of consistency, flexibility, and scalability. By centralizing the management of development environments and tooling while offering self-service capabilities, it balances the needs of both developers and platform teams. InnerSource practices further contribute by fostering a culture of collaboration and reuse across the organization​. It supports scalable and controlled growth within the internal software development community, facilitating the adoption of wider InnerSource practices.
 
-## Known Instances (optional)
+## Known Instances
 
 (known instances to be added)
 
