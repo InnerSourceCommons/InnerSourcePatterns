@@ -30,10 +30,6 @@ A lack of standardization across development environments and tools significantl
 
 Without a standardized foundation, InnerSource efforts struggle to scale as inconsistencies across teams lead to inefficiencies, delays, and misaligned governance practices. Contributors face challenges in understanding and integrating with unfamiliar environments, while teams resist external contributions due to perceived risks or integration overhead. An Internal Developer Platform (IDP) mitigates these issues by providing a self-service, unified platform that standardizes tools, processes, and environments. This enables InnerSource contributors to focus on delivering value rather than overcoming technical incompatibilities, fostering a culture of collaboration and accelerating the adoption of InnerSource at scale.
 
-## Story (optional)
-
-(to be done)
-
 ## Context
 
 This pattern emerges in organizations with multiple InnerSource development teams working on different projects. As teams grow and evolve, discrepancies in the setup of development environments and access to resources become more prominent, hampering collaboration, introducing security risks, and reducing developer productivity. The need for uniformity without compromising flexibility drives the adoption of an IDP.
