@@ -137,8 +137,7 @@ Vincent Caldeira
 
 ## Acknowledgments (optional)
 
-Include those who assisted in helping with this pattern - both for attribution and for possible future follow up.
-Though optional, most patterns should list who helped in their creation.
+- [Jose Roman Martin Gil](https://github.com/rmarting) for providing early feedback on this pattern and helping to look for organizations that have implemented this pattern
 
 ## Links
 
