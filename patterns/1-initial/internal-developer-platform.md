@@ -140,6 +140,7 @@ Vincent Caldeira
 Include those who assisted in helping with this pattern - both for attribution and for possible future follow up.
 Though optional, most patterns should list who helped in their creation.
 
-## Alias (optional)
+## Links
 
-(known aliases to be added)
+* [Promoting InnerSource Practices with an Internal Developer Platform](https://www.youtube.com/watch?v=mqeBbQcDjTE&ab_channel=InnerSourceCommons)
+* [internaldeveloperplatform.org](https://internaldeveloperplatform.org/)
