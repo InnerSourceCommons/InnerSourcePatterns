@@ -4,7 +4,7 @@ Circle Communities
 
 ## Patlet
 
-InnerSource adoption in organizations is slow due to limited understanding and engagement. Circle Communities foster a culture of collaboration and continuous learning, which are essential to InnerSource. These communities provide a platform for synchronous conversations, where knowledgeable and confident members can engage in active listening and help build the necessary connections and understanding.
+InnerSource adoption is slow in organizations due to limited understanding, engagement, and contextual relevance. Circle Communities address this by fostering synchronous conversations that build connections, close knowledge gaps, and cultivate collaboration and continuous learning.
 
 ## Problem
 
