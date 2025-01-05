@@ -83,8 +83,6 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
   * [Alfred Darby III](https://www.linkedin.com/in/alfred-darby-iii-21b6683)
 * [Nick Basil](https://www.linkedin.com/in/nick-basil)
 * [Allison Kaufmann](https://www.linkedin.com/in/allisonkaufmann29)
-* [Dojo Consortium](https://dojoconsortium.org)
-* [Thingy Farm](https://thingyfarm.com/)
 
 ## Alias
 
