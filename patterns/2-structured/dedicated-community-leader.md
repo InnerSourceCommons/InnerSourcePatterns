@@ -56,11 +56,6 @@ A community leader with the properties described above will lend a face and embo
 
 Having excellent and dedicated community leaders is a precondition for the success of InnerSource. It is, however, not a silver bullet. There are many challenges of InnerSource which are above and beyond what a community leader can tackle, such as budgetary, legal, fiscal or other organizational challenges.
 
-## Related Patterns
-
-* [Circle Communities](https://patterns.innersourcecommons.org/p/circle-communities)
-* [Agile InnerSource Dojo](https://patterns.innersourcecommons.org/p/agile-innersource-dojo)
-
 ## Known Instances
 
 * _BIOS at Robert Bosch GmbH_. Note that InnerSource at Bosch was, for the majority, aimed at increasing innovation and to a large degree dealt with internal facing products. This pattern is currently not used at Bosch for lack of funding.
