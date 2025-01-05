@@ -56,7 +56,6 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * [InnerSource Dojo from SAP](https://www.youtube.com/watch?v=fXoVm5iTSCc)
 * _Unplugged InnerSource_ sessions within the _Reuse & InnerSource_ workgroup of [SAP Cross-Platform Architecture](https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600)
 * [Guilds at the BBC](https://youtu.be/MyYgk-jdjSw?t=511)
-* [Mindset Dojo Community](https://dojo.center)
 
 ## Status
 
