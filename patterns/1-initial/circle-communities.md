@@ -17,7 +17,7 @@ Organizations face several challenges in building individual understanding aroun
 
 ## Context
 
-Scenario 1: Few InnerSource champions exist within your heavily siloed organization. The practice has struggled to build sustainable engagement as the culture is not hospitable to open collaboration and innovation.
+Scenario 1: Few people with extensive InnerSource knowledge exist within your heavily siloed organization. The practice has struggled to build sustainable engagement as the culture is not hospitable to open collaboration and innovation.
 
 Scenario 2: Your organization is decentralized and often stakeholders are unaware of other projects or programs. InnerSource has struggled to get engagement as the culture is highly dispersed and segmented across the organization.
 
