@@ -56,7 +56,7 @@ If applied, this model brings more transparency to any of the decision making pr
 
 ## Status
 
-* Initial status
+* Initial
 
 ## Author(s)
 
