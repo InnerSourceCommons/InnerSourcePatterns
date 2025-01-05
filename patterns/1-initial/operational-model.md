@@ -14,8 +14,6 @@ This pattern aims at providing an overview to management and Chief level of how 
 
 This may help provide a helpful framework for connecting patterns to help practitioners make better sense of InnerSource from a development lifecycle perspective.
 
-## Story (optional)
-
 ## Context
 
 Visitors to InnerSource patterns may often wonder about the applicability of a given pattern to their own situation.
