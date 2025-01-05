@@ -208,12 +208,6 @@ Prior to adopting InnerSource as a working model, teams are aware of the
 practices that are expected of them - both in the short term and in the
 long term.
 
-## Related Patterns
-
-* [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
-* [Circle Communities](https://patterns.innersourcecommons.org/p/circle-communities)
-* [Agile InnerSource Dojo](https://patterns.innersourcecommons.org/p/agile-innersource-dojo)
-
 ## Known Instances
 
 * Entelgy
