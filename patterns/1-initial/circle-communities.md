@@ -51,6 +51,12 @@ Embracing this pattern helps InnerSource programs become vibrant, effective and 
 * _Unplugged InnerSource_ sessions within the _Reuse & InnerSource_ workgroup of [SAP Cross-Platform Architecture](https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600)
 * [Guilds at the BBC](https://youtu.be/MyYgk-jdjSw?t=511)
 
+## Related Patterns
+
+* [Dedicated Community Leader](../2-structured/dedicated-community-leader.md)
+* [Core Team](../2-structured/core-team.md)
+* [Maturity Model](../2-structured/maturity-model.md)
+
 ## Status
 
 * Initial
