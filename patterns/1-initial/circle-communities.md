@@ -45,12 +45,6 @@ Implement a strategic approach to forming and nurturing Circle Communities that 
 
 Embracing this pattern helps InnerSource programs become vibrant, effective and sustainable. Participants will feel more connected and engaged, leading to increased knowledge sharing, innovation and collective growth.
 
-## Related Patterns
-
-* [Dedicated Community Leader](../2-structured/dedicated-community-leader.md)
-* [Core Team](../2-structured/core-team.md)
-* [Maturity Model](../2-structured/maturity-model.md)
-
 ## Known Instances
 
 * [InnerSource Dojo from SAP](https://www.youtube.com/watch?v=fXoVm5iTSCc)
