@@ -25,7 +25,6 @@ Organizations face several challenges in building individual understanding aroun
 
 The following factors make solving these problems difficult:
 
-* **Meeting Participants Where They Are**: Participants often join with varying levels of understanding, making it challenging to balance discussions for newcomers and experienced practitioners alike.
 * **Complexity of Understanding**: InnerSource principles can feel abstract, especially for those new to the concept or lacking mentorship, making it difficult to connect patterns and practices to the principles.
 * **Mindset Gaps**: Adopting InnerSource requires shifts in mindset, such as embracing openness, transparency, and voluntary contribution, which are not always intuitive in traditional organizational cultures.
 * **Lack of Structured Engagement Opportunities**: Without formal or recurring spaces for discussions, participation and the reinforcement of behavioral change remain inconsistent.
