@@ -9,7 +9,7 @@ Local volunteers, called InnerSource Ambassadors, provide localized support by p
 
 ## Problem
 
-The InnerSource Program Office (ISPO) cannot be everywhere at once within a large, decentralized organization. Without localized support, the ISPO struggles to understand the unique challenges and needs of different departments or regions and cannot effectively promote InnerSource practices across the organization.
+The InnerSource Program Office (ISPO) cannot be everywhere at once within a large, decentralized organization. Without localized support, the ISPO struggles to understand and/or fill the unique challenges and needs of different departments or regions and cannot effectively promote InnerSource practices across the organization.
 
 ## Story
 
@@ -18,8 +18,10 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 ## Context
 
 - The organization is large and has multiple independent departments.
+- The departments have separate, independent drivers of culture and workflow.
 - An ISPO has been established to drive InnerSource adoption.
-- There is a need for consistent and tailored InnerSource implementation across diverse teams.
+- Departmental leadership is supportive of InnerSource.
+- The ISPO is too small or disconnected to effectively influence change across all departments at the organization.
 - Employees with a passion for collaboration and InnerSource principles are present within the organization.
 
 ## Forces
@@ -35,7 +37,11 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 
 ## Solutions
 
-- Identify and recruit volunteer ambassadors from across the organization who are enthusiastic about InnerSource. They support InnerSource goals while maintaining their primary organizational roles.
+- Identify and recruit at least one volunteer ambassador from each department in the organization.
+- Multiple ambassadors may be needed if there isn't a single person that has visibility and influence across the department to effectively advocate for and support InnerSource everywhere.
+People in the department can help to identify if one ambassador is sufficient or if multiple are needed.
+- Ambassadors support and encourage InnerSource across the department while maintaining their primary organizational roles.
+- Strive to have departmental leadership support (and even assist in identifying) the ambassador.
 - Train ambassadors on InnerSource principles, tools, and the goals of the ISPO.
 - Establish clear expectations for ambassadors, including acting as a liaison, promoting InnerSource practices, and providing feedback to the ISPO.
 - Create a support network among ambassadors to share best practices and foster a sense of community.
@@ -55,6 +61,7 @@ InnerSource Ambassadors leverage their existing knowledge of their departments a
 ## Known Instances
 
 - *SAP* has a concept called [Open Source Champions](https://community.sap.com/t5/open-source-blogs/sap-open-source-champions/ba-p/13539587) that seems related
+- [WellSky](https://wellsky.com/) has the analogous concept of InnerSource Champions representing each business area of the company.
 
 ## Status
 
@@ -63,6 +70,7 @@ InnerSource Ambassadors leverage their existing knowledge of their departments a
 ## Authors
 
 - Sebastian Spier
+- Russell Rutledge
 
 ## Acknowledgments
 
