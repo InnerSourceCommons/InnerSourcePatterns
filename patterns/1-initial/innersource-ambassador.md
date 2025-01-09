@@ -55,6 +55,12 @@ InnerSource Ambassadors leverage their existing knowledge of their departments a
 ## Known Instances
 
 - *SAP* has a concept called [Open Source Champions](https://community.sap.com/t5/open-source-blogs/sap-open-source-champions/ba-p/13539587) that seems related
+- *IBM* has a concept called [IBM Champions](https://www.ibm.com/community/ibm-champions/) that seems related
+- *IBM* has a concept called [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program) that seems related
+- *IBM* has a concept called [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-ambassador-program) that seems related
+- *IBM Research* has a concept called [IBM Quantum Ambassadors](https://www.ibm.com/training/badge/ibm-quantum-associate-ambassador) that seems related
+- *Red Hat* has a concept called [Red Hat Champions](https://access.redhat.com/champions) that seems related
+- *CNCF* has a concept called [CNCF Ambassadors](https://www.cncf.io/people/ambassadors/application-process/) that seems related
 
 ## Status
 
