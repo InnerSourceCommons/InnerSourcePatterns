@@ -38,7 +38,7 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 ## Solutions
 
 - Identify and recruit at least one volunteer ambassador from each department in the organization.
-- The ambassadors should be enthusiastic about InnerSource and ideally have experience with open source. 
+- The ambassadors should be enthusiastic about InnerSource and ideally have experience with open source.
 - Multiple ambassadors may be needed if there isn't a single person that has visibility and influence across the department to effectively advocate for and support InnerSource everywhere. People in the department can help to identify if one ambassador is sufficient or if multiple are needed.
 - Ambassadors support and encourage InnerSource across the department while maintaining their primary organizational roles.
 - Strive to have departmental leadership support (and even assist in identifying) the ambassador.
