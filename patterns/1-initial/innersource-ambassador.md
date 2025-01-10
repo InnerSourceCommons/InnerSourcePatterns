@@ -38,12 +38,13 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 ## Solutions
 
 - Identify and recruit at least one volunteer ambassador from each department in the organization.
-- Multiple ambassadors may be needed if there isn't a single person that has visibility and influence across the department to effectively advocate for and support InnerSource everywhere.
-People in the department can help to identify if one ambassador is sufficient or if multiple are needed.
+- The ambassadors should be enthusiastic about InnerSource and ideally have experience with open source. 
+- Multiple ambassadors may be needed if there isn't a single person that has visibility and influence across the department to effectively advocate for and support InnerSource everywhere. People in the department can help to identify if one ambassador is sufficient or if multiple are needed.
 - Ambassadors support and encourage InnerSource across the department while maintaining their primary organizational roles.
 - Strive to have departmental leadership support (and even assist in identifying) the ambassador.
 - Train ambassadors on InnerSource principles, tools, and the goals of the ISPO.
 - Establish clear expectations for ambassadors, including acting as a liaison, promoting InnerSource practices, and providing feedback to the ISPO.
+- Create incentives for the ambassors, e.g. making ambassador work part of the reward system of the organization and praising their work (refer to the pattern [Praise Participants](../2-structured/praise-participants.md)).
 - Create a support network among ambassadors to share best practices and foster a sense of community.
 - Schedule regular check-ins between ambassadors and the ISPO to gather insights and provide guidance.
 
@@ -57,6 +58,8 @@ People in the department can help to identify if one ambassador is sufficient or
 ## Rationale
 
 InnerSource Ambassadors leverage their existing knowledge of their departments and relationships within the organization to address challenges the ISPO cannot solve alone. This decentralization of responsibility enhances the ISPO's reach while maintaining centralized oversight.
+
+The rewards for the ambassadors will vary by individual motivations. Rewards that ambassadors have expressed are that being an ambassador provides opportunity to build their internal network, enhance their communication and influence skills, build their knowledge further about InnerSource, build their presentation and speaking skills, and learn about other products and teams within their company.
 
 ## Known Instances
 
