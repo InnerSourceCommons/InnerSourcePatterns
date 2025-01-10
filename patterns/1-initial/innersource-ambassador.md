@@ -50,7 +50,9 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 
 ## Rationale
 
-InnerSource Ambassadors leverage their existing knowledge of their departments and relationships within the organization to address challenges the ISPO cannot solve alone. This decentralization of responsibility enhances the ISPO's reach while maintaining centralized oversight.  The rewards for the Ambassadors will vary by individual motivations.  Rewards that ambassadors have expressed are that being an ambassador provides opportunity to build their internal network, enhance their communication and influence skills, build their knowledge further about innersourcing, build their presentation and speaking skills, and learn about other products and teams within their company.
+InnerSource Ambassadors leverage their existing knowledge of their departments and relationships within the organization to address challenges the ISPO cannot solve alone. This decentralization of responsibility enhances the ISPO's reach while maintaining centralized oversight.
+
+The rewards for the ambassadors will vary by individual motivations. Rewards that ambassadors have expressed are that being an ambassador provides opportunity to build their internal network, enhance their communication and influence skills, build their knowledge further about InnerSource, build their presentation and speaking skills, and learn about other products and teams within their company.
 
 ## Known Instances
 
