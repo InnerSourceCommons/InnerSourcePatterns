@@ -75,7 +75,7 @@ All these help scale InnerSource in the organization.
 
 ## Known Instances
 
-* Retail company in northern Europe
+* IKEA (Ingka Group)
 
 ## Status
 

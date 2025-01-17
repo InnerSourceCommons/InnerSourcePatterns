@@ -9,6 +9,7 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '30 8 * * 5'
+  workflow_dispatch:
 
 jobs:
   linkChecker:
@@ -24,9 +25,9 @@ jobs:
           restore-keys: cache-lychee-
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.2
+        uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --exclude-mail --cache --max-cache-age 1d README.md patterns/ book/ translation/
+          args: --verbose --no-progress --cache --max-cache-age 1d README.md patterns/ book/ translation/
           fail: true
           jobSummary: true
         env:
