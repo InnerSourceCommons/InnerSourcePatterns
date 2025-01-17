@@ -8,22 +8,6 @@ As InnerSource adoption increases throughout an organisation, it is not unusual 
 
 There is a symbiotic relationship between the IDP and InnerSource as their relationship enhances the scalability and effectiveness of both practices, especially in large organizations.
 
-### IDP Helps to Scale InnerSource
-
-**Standardizing Development Practices**: In large organizations, development teams often use varied tools, environments, and processes. This lack of standardization makes it challenging for InnerSource contributors to effectively participate in projects outside their immediate teams. An IDP provides a unified platform that standardizes tools, templates, and workflows, creating a consistent development ecosystem. This in turns helps to accelerate software delivery, reduces cognitive load on developers and ultimately serves as a catalyst for scaling InnerSource practices across large organizations. InnerSource Contributors can quickly adapt and become productive, which is crucial for scaling InnerSource rapidly across diverse teams.
-
-**Improving Accessibility and Collaboration**: By streamlining access to essential resources and services through a self-service model, IDPs remove barriers that impede collaboration. InnerSource strategies are amplified through the standardization and accessibility provided by an IDP, making cross-team collaboration and innovation more effective. Developers can then more easily find and contribute to shared projects without navigating complex or unfamiliar environments.
-
-**Breaking Down Silos**: Excessive ownership culture often arises in organizations lacking common platform engineering practices, where individual teams or departments hold disproportionate control over their tools, processes, or codebases. Often in this kind of situation, teams treat their codebase as proprietary and actively discourage contributions from other teams by failing to document code properly, setting up overly restrictive access controls or even dismissing external contributions by blocking pull requests. This creates organisational silos, reducing opportunities for cross-team contributions. An IDP addresses this by promoting shared ownership of platform components leading over time to shared standards and practices, fostering a culture of openness and collaboration, which is at the heart of InnerSource.
-
-### InnerSource Practices Amplify the Adoption of IDP
-
-**Channeling Contributions to Platform Development**: InnerSource creates an avenue for developers across the organization to contribute directly to the IDP. For example, they can suggest or implement features that address common pain points or enhance usability. This community-driven approach ensures that the IDP evolves in response to real-world challenges faced by its users, making it more relevant and effective.
-
-**Encouraging Shared Ownership of the Platform**: Through InnerSource, developers treat the IDP as a shared product rather than something imposed by a centralized team. This increases adoption and engagement, as teams feel a sense of ownership and responsibility for its success.
-
-**Improving Documentation and Knowledge Sharing**: InnerSource practices naturally encourage contributions to documentation. Teams using the IDP can provide feedback, improve documentation, or add usage examples, ensuring that knowledge is continuously refined and up-to-date.
-
 ## Problem
 
 A lack of standardization across development environments and tools significantly hampers the scalability of InnerSource practices. In fragmented ecosystems, contributors must navigate diverse setups, workflows, and toolchains, creating unnecessary barriers to effective collaboration. This not only increases the cognitive load for developers contributing to projects outside their teams but also limits the organization’s ability to harness the full potential of shared codebases, reusable components, and collective innovation.
@@ -118,6 +102,22 @@ IDPs allow teams to self-serve infrastructure, environments, and tools, reducing
 ## Rationale
 
 An IDP provides a solution to the competing forces of consistency, flexibility, and scalability. By centralizing the management of development environments and tooling while offering self-service capabilities, it balances the needs of both developers and platform teams. InnerSource practices further contribute by fostering a culture of collaboration and reuse across the organization​. It supports scalable and controlled growth within the internal software development community, facilitating the adoption of wider InnerSource practices.
+
+### IDP Helps to Scale InnerSource
+
+**Standardizing Development Practices**: In large organizations, development teams often use varied tools, environments, and processes. This lack of standardization makes it challenging for InnerSource contributors to effectively participate in projects outside their immediate teams. An IDP provides a unified platform that standardizes tools, templates, and workflows, creating a consistent development ecosystem. This in turns helps to accelerate software delivery, reduces cognitive load on developers and ultimately serves as a catalyst for scaling InnerSource practices across large organizations. InnerSource Contributors can quickly adapt and become productive, which is crucial for scaling InnerSource rapidly across diverse teams.
+
+**Improving Accessibility and Collaboration**: By streamlining access to essential resources and services through a self-service model, IDPs remove barriers that impede collaboration. InnerSource strategies are amplified through the standardization and accessibility provided by an IDP, making cross-team collaboration and innovation more effective. Developers can then more easily find and contribute to shared projects without navigating complex or unfamiliar environments.
+
+**Breaking Down Silos**: Excessive ownership culture often arises in organizations lacking common platform engineering practices, where individual teams or departments hold disproportionate control over their tools, processes, or codebases. Often in this kind of situation, teams treat their codebase as proprietary and actively discourage contributions from other teams by failing to document code properly, setting up overly restrictive access controls or even dismissing external contributions by blocking pull requests. This creates organisational silos, reducing opportunities for cross-team contributions. An IDP addresses this by promoting shared ownership of platform components leading over time to shared standards and practices, fostering a culture of openness and collaboration, which is at the heart of InnerSource.
+
+### InnerSource Practices Amplify the Adoption of IDP
+
+**Channeling Contributions to Platform Development**: InnerSource creates an avenue for developers across the organization to contribute directly to the IDP. For example, they can suggest or implement features that address common pain points or enhance usability. This community-driven approach ensures that the IDP evolves in response to real-world challenges faced by its users, making it more relevant and effective.
+
+**Encouraging Shared Ownership of the Platform**: Through InnerSource, developers treat the IDP as a shared product rather than something imposed by a centralized team. This increases adoption and engagement, as teams feel a sense of ownership and responsibility for its success.
+
+**Improving Documentation and Knowledge Sharing**: InnerSource practices naturally encourage contributions to documentation. Teams using the IDP can provide feedback, improve documentation, or add usage examples, ensuring that knowledge is continuously refined and up-to-date.
 
 ## Known Instances
 
