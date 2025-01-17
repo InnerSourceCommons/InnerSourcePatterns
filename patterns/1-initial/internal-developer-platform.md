@@ -16,7 +16,9 @@ Without a standardized foundation, InnerSource efforts struggle to scale as inco
 
 ## Context
 
-This pattern emerges in organizations with multiple InnerSource development teams working on different projects. As teams grow and evolve, discrepancies in the setup of development environments and access to resources become more prominent, hampering collaboration, introducing security risks, and reducing developer productivity. The need for uniformity without compromising flexibility drives the adoption of an IDP.
+- The organization has development teams working on different projects. These teams are already using InnerSource practices.
+- As teams grow and evolve, discrepancies in the setup of development environments and access to resources become more prominent, hampering collaboration, introducing security risks, and reducing developer productivity.
+- The teams (as well as the leadership of the organization) are looking to increase consistency in tools and processes without compromising on the flexibility to adapt to project-specific needs.
 
 ## Forces
 
