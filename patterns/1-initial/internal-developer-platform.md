@@ -129,11 +129,11 @@ An IDP provides a solution to the competing forces of consistency, flexibility, 
 
 * Initial
 
-## Author(s)
+## Authors
 
-Vincent Caldeira
+- Vincent Caldeira
 
-## Acknowledgments (optional)
+## Acknowledgments
 
 - [Jose Roman Martin Gil](https://github.com/rmarting) for providing early feedback on this pattern and helping to look for organizations that have implemented this pattern
 
