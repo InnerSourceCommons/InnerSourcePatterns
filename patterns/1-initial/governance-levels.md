@@ -83,7 +83,7 @@ Examples of promoting the model names (3) are:
 
 ## Known Instances
 
-* BBC (see also [talk online](https://www.youtube.com/watch?v=O8TK7QG3FjM)
+* BBC - referenced in this talk: [Ownership in a DevOps and InnerSource environment - Tom Sadler (BBC)](https://www.youtube.com/watch?v=O8TK7QG3FjM)
 * Flutter Entertainment
 
 ![InnerSource Pyramid used by Flutter Entertainment](../../assets/img/flutter-pyramid.svg)
