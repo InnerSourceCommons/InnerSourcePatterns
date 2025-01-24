@@ -65,7 +65,7 @@ Examples of common InnerSource operating models (1) are:
 
 - **Bug Reports and Issues Welcome**: People outside the core development team may use the code. They can submit feature requests and bug reports for things they would like to see changed.
 - **Contributions Welcome**: People outside the core development team may use the code. They can also make modifications and submit them to core team for inclusion.
-- **Shared Ownership**: Members of different teams collaborate on the project as equal peers. Everyone has the ability to merge code. Everyone has an equal say on the project direction. Everyone has an equal say in who else to add to this group.
+- **Shared Ownership** (sometimes called **Distributed Ownership**): Members of different teams collaborate on the project as equal peers. Everyone has the ability to merge code. Everyone has an equal say on the project direction. Everyone has an equal say in who else to add to this group.
 
 Examples of promoting the model names (3) are:
 
@@ -83,6 +83,7 @@ Examples of promoting the model names (3) are:
 
 ## Known Instances
 
+* BBC - referenced in this talk: [Ownership in a DevOps and InnerSource environment - Tom Sadler (BBC)](https://www.youtube.com/watch?v=O8TK7QG3FjM)
 * Flutter Entertainment
 
 ![InnerSource Pyramid used by Flutter Entertainment](../../assets/img/flutter-pyramid.svg)
