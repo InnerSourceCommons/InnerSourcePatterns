@@ -1,6 +1,6 @@
 ## Title
 
-Transparent Governance Levels
+Project Governance Levels
 
 ## Patlet
 
