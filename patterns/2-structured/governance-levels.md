@@ -64,6 +64,8 @@ The shared language for these InnerSource operating models can be established wi
 2. Document each model in detail, and give each a distinctive name.
 3. Promote the use of these names to describe projects until the name's meaning is understood across the whole organization.
 
+### Commonly used Governance Levels
+
 Examples of common InnerSource operating models (1) are:
 
 - **Bug Reports and Issues Welcome**:
@@ -80,6 +82,8 @@ Examples of common InnerSource operating models (1) are:
     - Everyone has an equal say on the project direction.
     - Everyone has an equal say in who else to add to this group.
     - aka **Distributed Ownership**, **Maintainers in Multiple Team**
+
+### Promoting the Governance Levels
 
 Examples of promoting the model names (3) are:
 
