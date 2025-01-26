@@ -58,7 +58,7 @@ Our mission
 * [Extensions for Sustainable Growth](/patterns/2-structured/extensions-for-sustainable-growth.md) - *An InnerSource project is receiving too many contributions, making maintenance difficult. By offering an extension mechanism outside of the core project, the maintainers enable scaling of project capabilities with minimal cost and maintenance overhead.*
 * [Standard Release Process](patterns/2-structured/release-process.md) - *Teams may hesitate to adopt an InnerSource project if they are unsure of its maturity. To address this, consistent release notes and published artifacts are crucial. These practices showcase a strong dedication to the project, instilling confidence and assuring users of ongoing commitment to sustainable and well-managed software.*
 * [Group Support](patterns/2-structured/group-support.md) - *What happens if a team or individual no longer supports an InnerSource project? Keep the project alive by forming a group of interested individuals.*
-* [Transparent Governance Levels](patterns/2-initial/governance-levels.md) - *There are projects in multiple stages of InnerSource adoption. Contributors get confused when working with projects that are at different stages.*
+* [Project Governance Levels](patterns/2-structured/governance-levels.md) - *There are projects in multiple stages of InnerSource adoption. Contributors get confused when working with projects that are at different stages.*
 
 ### Maturity Level 1: Initial
 

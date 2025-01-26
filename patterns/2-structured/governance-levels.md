@@ -56,7 +56,7 @@ The same levels make sense inside of organizations.
 
 The solution is to create a universally understood language to describe the InnerSource operating models that are used in your organization.
 
-We define **InnerSource operating model** as a description of how much influence the core development team of a project ist willing to share with contributing teams. Or in other terms, the level of influence a contributing team can gain in the respective project.
+We define **InnerSource operating model** as a description of how much influence the core development team of a project is willing to share with contributing teams. Or in other terms, the level of influence a contributing team can gain in the respective project.
 
 The shared language for these InnerSource operating models can be established with these steps:
 
