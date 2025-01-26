@@ -60,13 +60,12 @@ We define **InnerSource operating model** as a description of how much influence
 
 The shared language for these InnerSource operating models can be established with these steps:
 
-1. Identify the common recurring InnerSource operating models that exist in your teams and projects.
-2. Document each model in detail, and give each a distinctive name.
-3. Promote the use of these names to describe projects until the name's meaning is understood across the whole organization.
+1. Document the commonly used InnerSource operating models that exist in your teams and projects. Make sure to give each of a distinctive and descriptive name.
+2. Promote the use of these names to describe projects until the meaning of the respective InnerSource operating model is understood across the whole organization.
 
 ### Commonly used Governance Levels
 
-Examples of common InnerSource operating models (1) are:
+Examples of common InnerSource operating models are:
 
 - **Bug Reports and Issues Welcome**:
     - People outside the core development team may use the code.
@@ -87,7 +86,7 @@ Examples of common InnerSource operating models (1) are:
 
 ### Promoting the Governance Levels
 
-Examples of promoting the model names (3) are:
+Examples of promoting the model names are:
 
 - Using the names within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/base-documentation.md)).
 - Labelling projects with the names in an [InnerSource Portal](../2-structured/innersource-portal.md).
