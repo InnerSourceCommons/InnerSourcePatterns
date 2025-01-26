@@ -83,6 +83,8 @@ Examples of common InnerSource operating models (1) are:
     - Everyone has an equal say in who else to add to this group.
     - aka **Distributed Ownership**, **Maintainers in Multiple Team**
 
+![InnerSource Pyramid as used by Flutter Entertainment](https://innersource.flutter.com/how/pyramid/pyramid.png)
+
 ### Promoting the Governance Levels
 
 Examples of promoting the model names (3) are:
