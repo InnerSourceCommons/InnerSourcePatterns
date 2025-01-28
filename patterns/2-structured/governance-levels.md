@@ -1,11 +1,10 @@
 ## Title
 
-Transparent Governance Levels
+Project Governance Levels
 
 ## Patlet
 
 Several teams are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to usefully describe a set of working practices without confusion.
-
 Estabilishing a more accurate common language that is understood across all teams allows anyone to communicate intent or set expectations efficiently without ambiguity.
 
 ## Problem
@@ -18,7 +17,9 @@ The result is confusion and frustration when teams collaborate as the expectatio
 
 ### Example of Confusion
 
-For two projects InnerSource best practices have been adopted. Project A has a shared ownership model with [Trusted Committers](../2-structured/trusted-committer.md) from multiple teams. Project B is fully owned by one team with contributions from other teams. New users of either project are regularly confused about the level of influence they can gain in the respective project. This leads to long discussions, escalations and time lost on clarifications.
+For two projects InnerSource best practices have been adopted. Project A has a shared ownership model with [Trusted Committers](../2-structured/trusted-committer.md) from multiple teams. Project B is fully owned by one team with contributions from other teams.
+
+New users of either project are regularly confused about the level of influence they can gain in the respective project. This leads to long discussions, escalations and time lost on clarifications.
 
 ### Example of Delayed Decision
 
@@ -28,11 +29,13 @@ Project C is currently closed source and used only by team 1. Team 2 want to use
 
 Like "InnerSource", Open Source is also a broad term.
 
-There are projects on GitHub, published purely for the pleasure of the author with no intention of long term maintenance, not intention to fix bugs submitted by users. This would be the equivalent of "Bug Reports and Issues Welcome" - you can report the bug, but its on the owner to find the time to fix it.
+There are projects on GitHub, published purely for the pleasure of the author with no intention of long term maintenance, not intention to fix bugs submitted by users. This would be the equivalent of "Bug Reports and Issues Welcome" - you can report the bug, but its on the owner to find the time to fix it. We call this **shared source**, which would not qualify as open source software (OSS) yet.
 
-There are projects where the roadmap is created in-house, hidden from public view. Where commit rights come and go with the contract of the employees of one company (e.g. MongoDB, Elastic, Tensorflow). Users are welcome to submit patches, they will even be mentored through. All development happens in the open, but control and strategy is never shared. This would be the equivalent of stage "Contributions Welcome".
+There are projects where the roadmap is created in-house, hidden from public view. Where commit rights come and go with the contract of the employees of one company (e.g. MongoDB, Elastic, Tensorflow). Users are welcome to submit patches, they will even be mentored through. All development happens in the open, but control and strategy is never shared. This would be the equivalent of stage "Contributions Welcome". We call this **single vendor OSS**.
 
-There are projects that share write access, but do not share the power to decide who gets write access next. This applies to everyone who is only a committer at an Apache project. There are projects that are fully shared across multiple independent organizations (e.g. k8s, any Apache project) - those would be "Shared Ownership".
+There are projects that share write access, but do not share the power to decide who gets write access next. This applies to everyone who is only a committer at an Apache project.
+
+There are projects that are fully shared across multiple independent organizations (e.g. k8s, any Apache project) - those would be "Shared Ownership". We call this **vendor neutral OS**.
 
 The same levels make sense inside of organizations.
 
@@ -53,21 +56,37 @@ The same levels make sense inside of organizations.
 
 The solution is to create a universally understood language to describe the InnerSource operating models that are used in your organization.
 
-We define **InnerSource operating model** as a description of how much influence the core development team of a project ist willing to share with contributing teams. Or in other terms, the level of influence a contributing team can gain in the respective project.
+We define **InnerSource operating model** as a description of how much influence the core development team of a project is willing to share with contributing teams. Or in other terms, the level of influence a contributing team can gain in the respective project.
 
 The shared language for these InnerSource operating models can be established with these steps:
 
-1. Identify the common recurring InnerSource operating models that exist in your teams and projects.
-2. Document each model in detail, and give each a distinctive name.
-3. Promote the use of these names to describe projects until the name's meaning is understood across the whole organization.
+1. Document the commonly used InnerSource operating models that exist in your teams and projects. Make sure to give each of a distinctive and descriptive name.
+2. Promote the use of these names to describe projects until the meaning of the respective InnerSource operating model is understood across the whole organization.
 
-Examples of common InnerSource operating models (1) are:
+### Commonly used Governance Levels
 
-- **Bug Reports and Issues Welcome**: People outside the core development team may use the code. They can submit feature requests and bug reports for things they would like to see changed.
-- **Contributions Welcome**: People outside the core development team may use the code. They can also make modifications and submit them to core team for inclusion.
-- **Shared Ownership** (sometimes called **Distributed Ownership**): Members of different teams collaborate on the project as equal peers. Everyone has the ability to merge code. Everyone has an equal say on the project direction. Everyone has an equal say in who else to add to this group.
+Examples of common InnerSource operating models are:
 
-Examples of promoting the model names (3) are:
+- **Bug Reports and Issues Welcome**:
+    - People outside the core development team may use the code.
+    - They can submit feature requests and bug reports for things they would like to see changed.
+    - aka **Readable Source**, **Shared Source**
+- **Contributions Welcome**:
+    - People outside the core development team may use the code.
+    - They can also make modifications and submit them to core team for inclusion.
+    - aka **Guest Contributions**
+- **Shared Ownership**:
+    - Members of different teams collaborate on the project as equal peers.
+    - Everyone has the ability to merge code.
+    - Everyone has an equal say on the project direction.
+    - Everyone has an equal say in who else to add to this group.
+    - aka **Distributed Ownership**, **Maintainers in Multiple Team**
+
+![InnerSource Pyramid as used by Flutter Entertainment](https://innersource.flutter.com/how/pyramid/pyramid.png)
+
+### Promoting the Governance Levels
+
+Examples of promoting the model names are:
 
 - Using the names within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/base-documentation.md)).
 - Labelling projects with the names in an [InnerSource Portal](../2-structured/innersource-portal.md).
@@ -85,6 +104,7 @@ Examples of promoting the model names (3) are:
 
 * BBC - referenced in this talk: [Ownership in a DevOps and InnerSource environment - Tom Sadler (BBC)](https://www.youtube.com/watch?v=O8TK7QG3FjM)
 * Flutter Entertainment
+* Europace AG
 
 ![InnerSource Pyramid used by Flutter Entertainment](../../assets/img/flutter-pyramid.svg)
 
@@ -98,3 +118,8 @@ Structured
 
 - Isabel Drost-Fromm
 - Rob Tuley
+- Tom Sadler
+
+## Alias
+
+- Transparent Governance Levels
