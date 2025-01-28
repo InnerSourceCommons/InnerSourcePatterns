@@ -30,6 +30,10 @@
 
 ##### [Issue Tracker Use Cases](https://patterns.innersourcecommons.org/p/issue-tracker)
 
+#### Language around project governance is ambiguous
+
+##### [Project Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels)
+
 ## Adopt
 
 ### Valuation Challenges
