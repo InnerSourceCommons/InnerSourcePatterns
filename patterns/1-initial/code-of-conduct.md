@@ -50,7 +50,7 @@ However, adopt the following life cycle can improve the implementation and adopt
 
 1. Collaboratively draft the Code of Conduct, involving input from community members representing diverse perspectives.
 2. Seek feedback and consensus from the community to ensure buy-in and ownership of the guidelines.
-3. Publish the finalized documents in a prominent location accessible to all community members, such as the [InnerSource portal](https://patterns.innersourcecommons.org/p/innersource-portal) or communication channels.
+3. Publish the finalized documents in a prominent location accessible to all community members, such as the [InnerSource portal](../2-structured/innersource-portal.md) or communication channels.
 4. Regularly review and update the Code of Conduct as needed to reflect evolving community norms and values.
 
 A good practice for the third point is to share the Code of Conduct in each InnerSource community repository as a file named `CODE_OF_CONDUCT.md`.
@@ -60,7 +60,7 @@ This file can be part of the [Standard Base Documentation](../2-structured/base-
 ![CODE_OF_CONDUCT.md](../../assets/img/code-of-conduct/CODE_OF_CONDUCT-for-the-community.png)
 
 It is important to understand that simply adopting a Code of Conduct will not prevent conflict or toxicity in the InnerSource project.
-The [Core Team](https://patterns.innersourcecommons.org/p/core-team) and [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader) are responsible for the safe, fair, and transparent enforcement of the community's code of conduct.
+The [Core Team](../2-structured/core-team.md) and [Dedicated Community Leader](../2-structured/dedicated-community-leader.md) are responsible for the safe, fair, and transparent enforcement of the community's code of conduct.
 That responsibility will imply provide a reporting process, a gathering information process and the consequences of any unacceptable behavior.
 These references must be part of the Code of Conduct to encourage the behavior expected in the InnerSource project.  
 
