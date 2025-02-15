@@ -16,7 +16,7 @@ In an InnerSource project, where the entire organization must remain resilient t
 - What criteria are used to decide between available options?
 - What are the best approach to find the right people to decide and implement?
 
-To support an open environment for contributions and make changes easier to implement, contributors need clarity. 
+To support an open environment for contributions and make changes easier to implement, contributors need clarity.
 
 - But how can a contributor understand the rationale behind current decisions?
 - How can a team effectively discuss the risks of a radical refactor or redesign?
@@ -84,7 +84,7 @@ Like any process, this requires ongoing refinement to maintain its effectiveness
   - Each architectural decision requires careful preparation, considering current and future system requirements, technical constraints, and potential changes.
 - **Continuous definition of technical debt**:
   - As you work on the system, you must document and track technical debt, preparing it for potential future changes or refactors.
-- **Input from various types of users**: 
+- **Input from various types of users**:
   - Key stakeholders such as developers, product owners, and product managers provide valuable input on the direction and decisions related to specific projects.
 - **Asynchronous decision-making**:
   - Given the diverse stakeholders, decisions must be made asynchronously, avoiding the need for frequent synchronous meetings and instead encouraging discussions via writers' workshops and ongoing documentation.
@@ -115,7 +115,7 @@ A project team or organisation chose an ADR and TDR like process for increasing 
 
 Important elements of the solution are:
 
-- **A description of when to document an ADR/TDR (and when not to)**: 
+- **A description of when to document an ADR/TDR (and when not to)**:
   - Clear guidelines for when architectural decisions or technical debts require formal documentation and when they can be managed informally.
 - **A template for ADR/TDR documentation**:
   - Should encourage the author to examine the decision from multiple perspectives (technical, business, user, etc.).
@@ -126,7 +126,7 @@ Important elements of the solution are:
   - How to incorporate the feedback and adjust the ADR/TDR as needed.
   - How to move the ADR/TDR towards a conclusion or final decision (e.g., with sign-off from relevant maintainers or decision-makers).
   - The use of appropriate tools, considering that non-technical stakeholders may not have direct access to source control or specialized software. Publish the decsions to a website or wiki.
-- **A commitment to iterating on the ADR/TDR templates and process**: 
+- **A commitment to iterating on the ADR/TDR templates and process**:
   - Regularly refining the ADR/TDR templates and associated processes based on feedback and the evolving needs of the organization.
 
 ### Examples/Templates
