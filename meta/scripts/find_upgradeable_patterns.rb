@@ -22,6 +22,7 @@ require 'pp'
 def count_known_instances(file)
   section_nodes = collect_section_nodes(file, "Known Instances")
   list_nodes = []
+  
   # pick the first list in the "Known Instances" section, and return the number of elements in that list.
   # CAUTION: this assumes a certain structure across all patterns. Therefore fairly brittle.
   list_nodes = section_nodes.select {|n| n.type == :list}
@@ -32,6 +33,7 @@ def count_known_instances(file)
   return known_instances_count
 end
 
+# Extract all nodes below a given headline
 def collect_section_nodes(file, section_title)
   markdown = open(file).readlines().join
   doc = Commonmarker.parse(markdown)
