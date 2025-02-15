@@ -19,7 +19,7 @@ In an InnerSource project, where the entire organization must remain resilient t
 To support an open environment for contributions and make changes easier to implement, contributors need clarity. 
 
 - But how can a contributor understand the rationale behind current decisions?
-- How can we effectively discuss the risks of a radical refactor or redesign?
+- How can a team effectively discuss the risks of a radical refactor or redesign?
 
 Clear documentation and collaborative discussions are key to addressing these challenges and ensuring the project's adaptability and sustainability.
 
@@ -72,7 +72,7 @@ This story underscores the value of combining technical rigor, experimentation, 
 
 This approach leads to greater innovation, closer collaboration, and the widespread dissemination of knowledge across the organization. Achieving this requires full buy-in from all disciplines at every level, and most importantly, an environment of psychological safety where individuals feel comfortable proposing and debating ideas openly. This culture of open dialogue and shared decision-making is the foundation for creating impactful solutions.
 
-Like any process, this requires ongoing refinement to maintain its effectiveness. Regular feedback may reveal areas for improvement, such as adjustments to the ADRs- and TDRs-templates or the decision-making process itself, ensuring that it remains inclusive, collaborative, and adaptive. By supporting an environment of continuous learning and improvement, we not only enhance the decisions we make today but also create a sustainable foundation for future growth and innovation.
+Like any process, this requires ongoing refinement to maintain its effectiveness. Regular feedback may reveal areas for improvement, such as adjustments to the ADRs- and TDRs-templates or the decision-making process itself, ensuring that it remains inclusive, collaborative, and adaptive. By supporting an environment of continuous learning and improvement, a team not only enhance the decisions they make today but also create a sustainable foundation for future growth and innovation.
 
 ## Context
 
@@ -111,7 +111,7 @@ structured
 
 ## Solutions
 
-We chose an ADR and TDR like process for increasing the transparency of our architectural decision making process.
+A project team or organisation chose an ADR and TDR like process for increasing the transparency of our architectural decision making process.
 
 Important elements of the solution are:
 
@@ -153,11 +153,11 @@ Observable positive effects:
 - **Aligning processes** by clearly documenting workflows such as the out-of-hours support procedure, promoting consistency and clarity.
 - **Enhancing clarity** of thought through documentation, encouraging authors to critically assess and refine their reasoning behind architectural decisions.
 
-The ADR/TDR approach also carries risks that we want to acknowledge:
+The ADR/TDR approach also carries risks that a team want to acknowledge:
 
 - **It doesn’t always work!** Some people might still challenge a decision made through the ADR/TDR process. However, having a decision documented in writing is still valuable in these situations because it provides a clear record of when and why a decision was made.
-- **Pre-documenting design proposals (architecture, protocols, etc.) can resemble waterfall-like design**, which may not fit the iterative development model preferred by many teams. We must remember the Agile principle: “Working software over comprehensive documentation.” Therefore, the ADR/TDR process should be as lightweight as possible to avoid unnecessary overhead.
-- **The ADR/TDR can become too long and cumbersome**, leading to long comment threads and debates. In these cases, we might complement the process with synchronous communication, such as working groups or in-person meetings. Still, time is saved by allowing participants to review the ADR/TDR before the meeting rather than explaining everything during the discussion.
+- **Pre-documenting design proposals (architecture, protocols, etc.) can resemble waterfall-like design**, which may not fit the iterative development model preferred by many teams. A team must remember the Agile principle: “Working software over comprehensive documentation.” Therefore, the ADR/TDR process should be as lightweight as possible to avoid unnecessary overhead.
+- **The ADR/TDR can become too long and cumbersome**, leading to long comment threads and debates. In these cases, a team might complement the process with synchronous communication, such as working groups or in-person meetings. Still, time is saved by allowing participants to review the ADR/TDR before the meeting rather than explaining everything during the discussion.
 
 ## Rationale
 
