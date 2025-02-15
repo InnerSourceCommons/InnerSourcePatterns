@@ -4,7 +4,7 @@ Document Architecture Decisions
 
 ## Patlet
 
-InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory format for all system components, tools and workflows. Michael Nygard announced 2011 the idea to document architecture decision with a simple markdown template and shared it with a simple git project. Today this **ADR tool** is well proven and a many of teams around the globe use **Architetecure Desicion Records (ADRs)** to document there design desicions.
+InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory format for all system components, tools and workflows. Michael Nygard announced 2011 the idea to document architecture decision with a simple markdown template and shared it with a simple git project. Today this **ADR tool** is well proven and a many of teams around the globe use **Architecture Desicion Records (ADRs)** to document there design desicions.
 
 Another important aspect of defining architectural decisions is documenting consequences. In Technical Debt Records, Dr. Michael Stal explores the systematic tracking and management of technical debt in software development using **Technical Debt Records (TDRs)**. Similar to how Architecture Design Records (ADRs) capture architectural decisions, TDRs document trade-offs in code quality made to accelerate delivery. The TDRs provides a detailed template for documenting technical debt, and Christoph Kappel  introduces a record tool to streamline the process of ADRs and TDRs.
 
@@ -44,7 +44,7 @@ In one such scenario, the system's scalability is identified as a critical issue
 
 To address these possibilities, the teams convene a series of writers' workshops. Here, architects, maintainers, and engineers document the technical debt in their respective areas and outline how each solution impacts the project. These workshops were designed to help committers produce well-documented decisions using structured templates, such as **Architecture Decision Records (ADRs)** and **Technical Debt Records (TDRs)**. By utilizing these templates, the workshops supported a shared understanding of existing trade-offs and supported open, transparent discussions. The ADRs captured the rationale behind architectural choices, while the TDRs helped document the technical debt in various parts of the system. This approach not only ensured a thorough exploration of options but also created a traceable record of decisions, making it easier for all stakeholders to follow the reasoning behind each direction taken.
 
-- [Writes Workshop Pattern](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
+- [Writers Workshop Pattern](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
 
 ### Building Prototypes Before Committing
 
@@ -111,7 +111,7 @@ structured
 
 ## Solutions
 
-A project team or organisation chose an ADR and TDR like process for increasing the transparency of our architectural decision making process.
+A project team or organization chose an ADR and TDR like process for increasing the transparency of our architectural decision making process.
 
 Important elements of the solution are:
 
@@ -188,10 +188,10 @@ Drafted
 
 - [Michael Nygards ADRs Idea](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 
-## Links with other innersource patterns
+## Links with other InnerSource patterns
 
 - [Transparent Cross-Team Decision Making using RFCs](../2-structured/transparent-cross-team-decision-making-using-rfcs.md)
-- [Common Requierments](../2-structured/common-requirements.md)
+- [Common Requirements](../2-structured/common-requirements.md)
 
 ## Related material
 
