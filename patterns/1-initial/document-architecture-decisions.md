@@ -193,7 +193,7 @@ The ADR/TDR approach also carries risks that a team want to acknowledge:
 - [Transparent Cross-Team Decision Making using RFCs](../2-structured/transparent-cross-team-decision-making-using-rfcs.md)
 - [Common Requirements](../2-structured/common-requirements.md)
 
-## Related material
+## Related Material
 
 - [Architectural Decision](https://en.wikipedia.org/wiki/Architectural_decision)
 - [Architectural Decision Records](https://adr.github.io)
