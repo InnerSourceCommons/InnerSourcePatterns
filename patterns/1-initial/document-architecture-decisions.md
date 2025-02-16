@@ -188,7 +188,7 @@ The ADR/TDR approach also carries risks that a team want to acknowledge:
 
 - [Michael Nygards ADRs Idea](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 
-## Links with other InnerSource patterns
+## Related InnerSource Patterns
 
 - [Transparent Cross-Team Decision Making using RFCs](../2-structured/transparent-cross-team-decision-making-using-rfcs.md)
 - [Common Requirements](../2-structured/common-requirements.md)
