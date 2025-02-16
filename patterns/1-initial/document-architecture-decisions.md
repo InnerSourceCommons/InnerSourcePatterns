@@ -177,7 +177,7 @@ The ADR/TDR approach also carries risks that a team want to acknowledge:
 
 ## Status
 
-Drafted
+- Initial
 
 ## Author(s)
 
