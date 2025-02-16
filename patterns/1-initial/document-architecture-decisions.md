@@ -29,7 +29,9 @@ Identifying such conflicts or misunderstandings late in the development processâ
 
 For an InnerSource project this situation happens more frequently when the project is maintained by multiple teams in the company i.e. shared ownership.
 
-## Story - The Challenge of Balancing Decisions and Collaboration
+## Story
+
+The Challenge of Balancing Decisions and Collaboration
 
 Imagine a complex application composed of multiple interconnected projects, each maintained by a different team. Each team owns its domain of the system and occasionally contributes InnerSource changes to other areas. However, the real challenges begin when larger, cross-cutting changes are proposed. These require collaboration across team boundaries, involving diverse technical perspectives, competing priorities, and varying levels of technical debt in different parts of the system.
 
