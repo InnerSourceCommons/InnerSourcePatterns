@@ -47,7 +47,7 @@ jobs:
       uses: AxolStudio/screenshot-website@1.1
       with:
         source: pattern-categorization/${{ matrix.folder }}/innersource-program-mind-map.html #strange syntax here. seems to not respect the working-directory default either
-        destination: ${{ matrix.folder }}/innersource-program-mind-map.png
+        destination: innersource-program-mind-map-${{ matrix.runs-on }}.png
         full-page: false
         makeartifact: true
     - name: Copy Screenshot
