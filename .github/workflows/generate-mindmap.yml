@@ -43,7 +43,8 @@ jobs:
       run: npx markmap --no-toolbar ${{ matrix.folder }}/innersource-program-mind-map.md -o ${{ matrix.folder }}/innersource-program-mind-map.html
     - name: Screenshot Markmap Website
       id: screenshot-generator
-      uses: swinton/screenshot-website@v1.x
+      # uses: swinton/screenshot-website@v1.x
+      uses: AxolStudio/screenshot-website@v1.1
       with:
         source: pattern-categorization/${{ matrix.folder }}/innersource-program-mind-map.html #strange syntax here. seems to not respect the working-directory default either
         destination: innersource-program-mind-map.png
