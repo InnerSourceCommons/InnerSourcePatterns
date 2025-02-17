@@ -49,6 +49,7 @@ jobs:
         source: pattern-categorization/${{ matrix.folder }}/innersource-program-mind-map.html #strange syntax here. seems to not respect the working-directory default either
         destination: innersource-program-mind-map.png
         full-page: false
+        makeartifact: true
     - name: Copy Screenshot
       run: cp ${{ steps.screenshot-generator.outputs.path }} ${{ matrix.folder }}
     - name: Reduce Screenshot Size (PNG)
