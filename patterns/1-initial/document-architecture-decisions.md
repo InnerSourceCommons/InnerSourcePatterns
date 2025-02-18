@@ -27,6 +27,29 @@ Identifying such conflicts or misunderstandings late in the development process�
 
 For an InnerSource project this situation happens more frequently when the project is maintained by multiple teams in the company i.e. shared ownership.
 
+## Context
+
+- **Shared ownership by many teams and contributors of the System Architecture**:
+  - The architecture is a collective responsibility, involving diverse teams that each own different parts of the system.
+- **Overarching design decisions cannot always be made by a central body (e.g., a group of architects)**:
+  - Due to time constraints and insufficient domain-specific knowledge, centralized decision-making is impractical in all cases.
+- **Decisions need preparation**:
+  - Each architectural decision requires careful preparation, considering current and future system requirements, technical constraints, and potential changes.
+- **Continuous definition of technical debt**:
+  - As you work on the system, you must document and track technical debt, preparing it for potential future changes or refactors.
+- **Input from various types of users**:
+  - Key stakeholders such as developers, product owners, and product managers provide valuable input on the direction and decisions related to specific projects.
+- **Asynchronous decision-making**:
+  - Given the diverse stakeholders, decisions must be made asynchronously, avoiding the need for frequent synchronous meetings and instead encouraging discussions via writers' workshops and ongoing documentation.
+- **Desire to document decisions**:
+  - It’s essential to record decisions and technical deps in writing to create a clear, traceable record, ensuring that all stakeholders can refer back to the rationale behind every architectural choice made.
+- **Define a revision process**:
+  - Update the records (ADR and TDR) to document, assess, and refine key architectural decisions and technical deps, ensuring alignment with evolving requirements and technologies.
+  - Regularly review decisions to confirm their practical application; if not effectively implemented, reevaluate and adjust accordingly.
+- **Define Governance**:
+  - Facilitate the process by providing clear moderation and oversight.
+  - Establish a mentoring framework to guide and support stakeholders throughout the process.
+
 ## Forces
 
 - Often, the involved parties want to make decisions promptly, balancing speed with quality.
@@ -101,29 +124,6 @@ This story underscores the value of combining technical rigor, experimentation, 
 This approach leads to greater innovation, closer collaboration, and the widespread dissemination of knowledge across the organization. Achieving this requires full buy-in from all disciplines at every level, and most importantly, an environment of psychological safety where individuals feel comfortable proposing and debating ideas openly. This culture of open dialogue and shared decision-making is the foundation for creating impactful solutions.
 
 Like any process, this requires ongoing refinement to maintain its effectiveness. Regular feedback may reveal areas for improvement, such as adjustments to the ADRs- and TDRs-templates or the decision-making process itself, ensuring that it remains inclusive, collaborative, and adaptive. By supporting an environment of continuous learning and improvement, a team not only enhance the decisions they make today but also create a sustainable foundation for future growth and innovation.
-
-## Context
-
-- **Shared ownership by many teams and contributors of the System Architecture**:
-  - The architecture is a collective responsibility, involving diverse teams that each own different parts of the system.
-- **Overarching design decisions cannot always be made by a central body (e.g., a group of architects)**:
-  - Due to time constraints and insufficient domain-specific knowledge, centralized decision-making is impractical in all cases.
-- **Decisions need preparation**:
-  - Each architectural decision requires careful preparation, considering current and future system requirements, technical constraints, and potential changes.
-- **Continuous definition of technical debt**:
-  - As you work on the system, you must document and track technical debt, preparing it for potential future changes or refactors.
-- **Input from various types of users**:
-  - Key stakeholders such as developers, product owners, and product managers provide valuable input on the direction and decisions related to specific projects.
-- **Asynchronous decision-making**:
-  - Given the diverse stakeholders, decisions must be made asynchronously, avoiding the need for frequent synchronous meetings and instead encouraging discussions via writers' workshops and ongoing documentation.
-- **Desire to document decisions**:
-  - It’s essential to record decisions and technical deps in writing to create a clear, traceable record, ensuring that all stakeholders can refer back to the rationale behind every architectural choice made.
-- **Define a revision process**:
-  - Update the records (ADR and TDR) to document, assess, and refine key architectural decisions and technical deps, ensuring alignment with evolving requirements and technologies.
-  - Regularly review decisions to confirm their practical application; if not effectively implemented, reevaluate and adjust accordingly.
-- **Define Governance**:
-  - Facilitate the process by providing clear moderation and oversight.
-  - Establish a mentoring framework to guide and support stakeholders throughout the process.
 
 ### Architecture Decision Record (ADR) Tooling
 
