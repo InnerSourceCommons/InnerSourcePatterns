@@ -22,6 +22,7 @@ require 'pp'
 def count_known_instances(file)
   section_nodes = collect_section_nodes(file, "Known Instances")
   list_nodes = []
+  
   # pick the first list in the "Known Instances" section, and return the number of elements in that list.
   # CAUTION: this assumes a certain structure across all patterns. Therefore fairly brittle.
   list_nodes = section_nodes.select {|n| n.type == :list}
@@ -32,15 +33,16 @@ def count_known_instances(file)
   return known_instances_count
 end
 
+# Extract all nodes below a given headline
 def collect_section_nodes(file, section_title)
   markdown = open(file).readlines().join
-  doc = CommonMarker.render_doc(markdown)
+  doc = Commonmarker.parse(markdown)
 
   title_found = false
   section_nodes = []
   
   doc.walk do |node|
-    if node.type == :header
+    if node.type == :heading
       if title_found == false
         node.each do |subnode|
           if subnode.type == :text and subnode.string_content == section_title
@@ -70,7 +72,10 @@ l1_patterns = Dir["../../patterns/1-initial/*.md"]
 
 l1_patterns.each do |file|
   known_instances_count = count_known_instances(file)
-  puts "#{known_instances_count} | #{file}" if known_instances_count >= 1
+  file_display = file.gsub("../../patterns/1-initial/","")
+  file_link = file.gsub("../../","https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/")
+
+  puts "#{known_instances_count} | [#{file_display}](#{file_link})"
 end
 
 puts "\n"
@@ -80,5 +85,8 @@ l2_patterns = Dir["../../patterns/2-structured/*.md"]
 
 l2_patterns.each do |file|
   known_instances_count = count_known_instances(file)
-  puts "#{known_instances_count} | #{file}" if known_instances_count >= 3
+  file_display = file.gsub("../../patterns/2-structured/","")
+  file_link = file.gsub("../../","https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/")
+
+  puts "#{known_instances_count} | [#{file_display}](#{file_link})" 
 end
