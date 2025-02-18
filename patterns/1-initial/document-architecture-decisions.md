@@ -156,7 +156,7 @@ How to Use ADR Tools:
   - Maintain ADRs by updating them when decisions evolve or new insights emerge.
 - Share and Collaborate
   – Store ADRs in version control (e.g., Git) to facilitate team discussions and long-term knowledge retention.
-  - Publish your __Record Catalog__ on a website or wiki and actively share its content through your chat systems.
+  - Publish your **Record Catalog** on a website or wiki and actively share its content through your chat systems.
 
 By leveraging ADR tooling, teams can ensure well-documented architectural decisions, improve collaboration, and maintain software sustainability over time.
 
