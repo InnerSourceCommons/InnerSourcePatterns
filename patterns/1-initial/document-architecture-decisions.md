@@ -218,6 +218,7 @@ Another important aspect of defining architectural decisions is documenting cons
 - [Architectural Decision](https://en.wikipedia.org/wiki/Architectural_decision)
 - [Architectural Decision Records](https://adr.github.io)
 - [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html)
+- [DeciCollab - System Architecture Decision Collaboration](https://github.com/rossbachp/DeciCollab)
 - [GitHub: ADR GitHub organization](https://adr.github.io/)
 - [Learnings from using ADR in a real project](https://blog.unexist.dev/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
 - [Joel Parker Templates to ADR](https://github.com/joelparkerhenderson/architecture-decision-record)
