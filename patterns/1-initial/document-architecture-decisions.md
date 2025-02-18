@@ -27,6 +27,34 @@ Identifying such conflicts or misunderstandings late in the development process�
 
 For an InnerSource project this situation happens more frequently when the project is maintained by multiple teams in the company i.e. shared ownership.
 
+## Forces
+
+- Often, the involved parties want to make decisions promptly, balancing speed with quality.
+- Documenting decisions (before implementation begins) is a new skill for many of those involved in the process.
+- Typically, only one option is thoroughly discussed or implemented.
+- No one discusses the architectural decisions and technical deps with a broader audience.
+- The owners continuously evaluate upcoming challenges and strive for excellence, refusing to settle for a "good enough" solution.
+
+## Solutions
+
+A project team or organization chose an ADR and TDR like process for increasing the transparency of our architectural decision making process.
+
+Important elements of the solution are:
+
+- **A description of when to document an ADR/TDR (and when not to)**:
+  - Clear guidelines for when architectural decisions or technical debts require formal documentation and when they can be managed informally.
+- **A template for ADR/TDR documentation**:
+  - Should encourage the author to examine the decision from multiple perspectives (technical, business, user, etc.).
+  - Should prompt the author to provide both a high-level, easily accessible overview as well as a detailed, in-depth explanation of the rationale and implications.
+- **A well-defined, lightweight process surrounding ADR/TDRs**:
+  - How to publish an ADR/TDR and share it with all relevant stakeholders (e.g., via chat message, mailing lists, or project boards).
+  - How to collect feedback effectively on the ADR/TDR from diverse stakeholders, ensuring a broad range of input.
+  - How to incorporate the feedback and adjust the ADR/TDR as needed.
+  - How to move the ADR/TDR towards a conclusion or final decision (e.g., with sign-off from relevant maintainers or decision-makers).
+  - The use of appropriate tools, considering that non-technical stakeholders may not have direct access to source control or specialized software. Publish the decsions to a website or wiki.
+- **A commitment to iterating on the ADR/TDR templates and process**:
+  - Regularly refining the ADR/TDR templates and associated processes based on feedback and the evolving needs of the organization.
+
 ## Story
 
 The Challenge of Balancing Decisions and Collaboration
@@ -96,43 +124,41 @@ Like any process, this requires ongoing refinement to maintain its effectiveness
 - **Define Governance**:
   - Facilitate the process by providing clear moderation and oversight.
   - Establish a mentoring framework to guide and support stakeholders throughout the process.
-  
-## Forces
 
-- Often, the involved parties want to make decisions promptly, balancing speed with quality.
-- Documenting decisions (before implementation begins) is a new skill for many of those involved in the process.
-- Typically, only one option is thoroughly discussed or implemented.
-- No one discusses the architectural decisions and technical deps with a broader audience.
-- The owners continuously evaluate upcoming challenges and strive for excellence, refusing to settle for a "good enough" solution.
+### Architecture Decision Record (ADR) Tooling
 
-## Solutions
+Architecture Decision Records (ADRs) provide a structured way to document design decisions and their rationale, ensuring clarity and continuity in software projects. Several tools facilitate the creation and management of ADRs, making it easier for teams to track and share their architectural choices.
 
-A project team or organization chose an ADR and TDR like process for increasing the transparency of our architectural decision making process.
+Key ADR Tools:
 
-Important elements of the solution are:
-
-- **A description of when to document an ADR/TDR (and when not to)**:
-  - Clear guidelines for when architectural decisions or technical debts require formal documentation and when they can be managed informally.
-- **A template for ADR/TDR documentation**:
-  - Should encourage the author to examine the decision from multiple perspectives (technical, business, user, etc.).
-  - Should prompt the author to provide both a high-level, easily accessible overview as well as a detailed, in-depth explanation of the rationale and implications.
-- **A well-defined, lightweight process surrounding ADR/TDRs**:
-  - How to publish an ADR/TDR and share it with all relevant stakeholders (e.g., via chat message, mailing lists, or project boards).
-  - How to collect feedback effectively on the ADR/TDR from diverse stakeholders, ensuring a broad range of input.
-  - How to incorporate the feedback and adjust the ADR/TDR as needed.
-  - How to move the ADR/TDR towards a conclusion or final decision (e.g., with sign-off from relevant maintainers or decision-makers).
-  - The use of appropriate tools, considering that non-technical stakeholders may not have direct access to source control or specialized software. Publish the decsions to a website or wiki.
-- **A commitment to iterating on the ADR/TDR templates and process**:
-  - Regularly refining the ADR/TDR templates and associated processes based on feedback and the evolving needs of the organization.
-
-### Examples/Templates
-
-- [Documenting architecture decisions - Michael Nygard](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
-- [ADR-Tools - markdown](https://github.com/adr/adr-tools)
-- [ADR-Tools from Nat Pryce - markdown](https://github.com/npryce/adr-tools)
+- [Michael Nygard’s ADR Approach](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+  - Introduces the concept of ADRs and their benefits in maintaining architectural transparency.
+- [ADR-Tools (adr/adr-tools)](https://github.com/adr/adr-tools)
+  - A simple command-line toolset to create and manage ADRs in Markdown format.
+- [ADR-Tools by Nat Pryce](https://github.com/npryce/adr-tools)
+  - Another CLI-based ADR tool, helping teams efficiently document decisions in Markdown.
 - [ADR-Tools from Christoph Kappel - asciidoc](https://github.com/unexist/adr-tools)
-- [Record-Tools from Christoph Kappel - acsiidoc](https://github.com/unexist/record-tools)
+  - Similar to the previous tools but supports AsciiDoc format for enhanced readability.
+- [Record-Tools by Christoph Kappel](https://github.com/unexist/record-tools)
+  - An extended version of ADR tools and support for TDRs, also based on AsciiDoc, enabling better integration with documentation workflows.
 - [mADR - markdown](https://adr.github.io/madr/)
+  – A structured Markdown-based ADR template that standardizes documentation across projects.
+
+How to Use ADR Tools:
+
+- Choose a Format
+  – Select Markdown or AsciiDoc based on your team's documentation preferences.
+- Set Up the Tool
+  – Install one of the ADR tools (e.g., adr-tools or mADR) in your repository.
+- Create ADRs or TDRs
+  – Use CLI commands to generate new ADRs, document architectural decisions, and track changes over time.
+- Review and Update
+  - Maintain ADRs by updating them when decisions evolve or new insights emerge.
+- Share and Collaborate
+  – Store ADRs in version control (e.g., Git) to facilitate team discussions and long-term knowledge retention.
+  - Publish your __Record Catalog__ on a website or wiki and actively share its content through your chat systems.
+
+By leveraging ADR tooling, teams can ensure well-documented architectural decisions, improve collaboration, and maintain software sustainability over time.
 
 ## Resulting Context
 
