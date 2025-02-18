@@ -5,7 +5,7 @@ Project Governance Levels
 ## Patlet
 
 Several teams are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to usefully describe a set of working practices without confusion.
-Estabilishing a more accurate common language that is understood across all teams allows anyone to communicate intent or set expectations efficiently without ambiguity.
+Establishing a more accurate common language that is understood across all teams allows anyone to communicate intent or set expectations efficiently without ambiguity.
 
 ## Problem
 
@@ -89,7 +89,7 @@ Examples of common InnerSource operating models are:
 Examples of promoting the model names are:
 
 - Using the names within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/base-documentation.md)).
-- Labelling projects with the names in an [InnerSource Portal](../2-structured/innersource-portal.md).
+- Labeling projects with the names in an [InnerSource Portal](../2-structured/innersource-portal.md).
 - Presenting the names as a menu of adoption options for new InnerSource projects.
 - Including the names and models in any internal InnerSource training or promotion.
 
@@ -97,7 +97,7 @@ Examples of promoting the model names are:
 
 - Cross team communication occurs efficiently without confusion using terms that are universally understood and centrally documented.
 - Organization leaders understand the nuances within practising InnerSource and make better informed and more precise decisions that are easier to communicate.
-- Increased standardisation of InnerSource practices within the organization as the named and documented building blocks are used by teams as a menu for adoption.
+- Increased standardization of InnerSource practices within the organization as the named and documented building blocks are used by teams as a menu for adoption.
 - Teams can adopt InnerSource best practices in a step-by-step way which makes adoption easier and less intimidating.
 
 ## Known Instances
@@ -108,7 +108,7 @@ Examples of promoting the model names are:
 
 ![InnerSource Pyramid used by Flutter Entertainment](../../assets/img/flutter-pyramid.svg)
 
-Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutter.com/how/) to describe 3 different InnerSource operating models: Readable Source, Guest Contributions and Maintainers in Multiple Teams. Each name is centrally documented. The use of these names is encouraged via repeated usage, direct training and categorisation of each InnerSource project.
+Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutter.com/how/) to describe 3 different InnerSource operating models: Readable Source, Guest Contributions and Maintainers in Multiple Teams. Each name is centrally documented. The use of these names is encouraged via repeated usage, direct training and categorization of each InnerSource project.
 
 ## Status
 
