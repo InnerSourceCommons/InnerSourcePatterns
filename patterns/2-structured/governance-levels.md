@@ -13,7 +13,7 @@ Several teams are using InnerSource practices. However the degree to which they 
 
 The result is confusion and frustration when teams collaborate as the expectation of what InnerSource means in practice is different in each team. This confusion also affects strategy planning and decisions on future InnerSource intent as the term is too vague which leads to long discussions and time lost on clarifications.
 
-## Stories
+## Story
 
 ### Example of Confusion
 
@@ -82,8 +82,6 @@ Examples of common InnerSource operating models are:
     - Everyone has an equal say in who else to add to this group.
     - aka **Distributed Ownership**, **Maintainers in Multiple Team**
 
-![InnerSource Pyramid as used by Flutter Entertainment](https://innersource.flutter.com/how/pyramid/pyramid.png)
-
 ### Promoting the Governance Levels
 
 Examples of promoting the model names are:
@@ -106,9 +104,11 @@ Examples of promoting the model names are:
 * Flutter Entertainment
 * Europace AG
 
-![InnerSource Pyramid used by Flutter Entertainment](../../assets/img/flutter-pyramid.svg)
+### Flutter Entertainment
 
 Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutter.com/how/) to describe 3 different InnerSource operating models: Readable Source, Guest Contributions and Maintainers in Multiple Teams. Each name is centrally documented. The use of these names is encouraged via repeated usage, direct training and categorization of each InnerSource project.
+
+![InnerSource Pyramid as used by Flutter Entertainment](../../assets/img/flutter-pyramid.png)
 
 ## Status
 
