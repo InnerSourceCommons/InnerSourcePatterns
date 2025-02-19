@@ -4,7 +4,7 @@ Document Architecture Decisions
 
 ## Patlet
 
-InnerSource contributors often face challenges in grasping the system's design rationale, which can result in misalignment between maintainers, contributors, and stakeholders—potentially discouraging participation. To enhance decision-making and transparency, we recommend capturing architecture decisions and their consequences in a lightweight, accessible format to streamline onboarding, clarify decisions, and support long-term project sustainability.
+InnerSource contributors often face challenges in grasping the system's design rationale, which can result in misalignment between maintainers, contributors, and stakeholders — potentially discouraging participation. To enhance decision-making and transparency, we recommend capturing architecture decisions and their consequences in a lightweight, accessible format to streamline onboarding, clarify decisions, and support long-term project sustainability.
 
 ## Problem
 
