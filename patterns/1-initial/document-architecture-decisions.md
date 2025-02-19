@@ -41,14 +41,11 @@ For an InnerSource project this situation happens more frequently when the proje
   - Key stakeholders such as developers, product owners, and product managers provide valuable input on the direction and decisions related to specific projects.
 - **Asynchronous decision-making**:
   - Given the diverse stakeholders, decisions must be made asynchronously, avoiding the need for frequent synchronous meetings and instead encouraging discussions via writers' workshops and ongoing documentation.
-- **Desire to document decisions**:
-  - It’s essential to record decisions and technical deps in writing to create a clear, traceable record, ensuring that all stakeholders can refer back to the rationale behind every architectural choice made.
-- **Define a revision process**:
-  - Update the records (ADR and TDR) to document, assess, and refine key architectural decisions and technical deps, ensuring alignment with evolving requirements and technologies.
-  - Regularly review decisions to confirm their practical application; if not effectively implemented, reevaluate and adjust accordingly.
-- **Define Governance**:
-  - Facilitate the process by providing clear moderation and oversight.
-  - Establish a mentoring framework to guide and support stakeholders throughout the process.
+- **Commitment to Documenting Decisions**:
+  - Teams often face challenges in tracking past architectural decisions and technical dependencies, leading to misalignment, redundancy, or repeated discussions.
+- **Missing Governance**:
+  - When stakeholders or new team members frequently ask, “Why was this decision made?” or struggle to trace past choices, a structured documentation process becomes essential.
+  - Organizations seeking clear decision-making frameworks and long-term knowledge continuity will benefit from maintaining well-documented records.
 
 ## Forces
 
