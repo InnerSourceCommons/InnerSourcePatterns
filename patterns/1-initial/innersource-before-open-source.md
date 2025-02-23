@@ -56,7 +56,7 @@ By requiring InnerSource before Open Source, organizations ensure that projects 
 
 ## Known Instances
 
-TBD 
+TBD
 
 ## Status
 
