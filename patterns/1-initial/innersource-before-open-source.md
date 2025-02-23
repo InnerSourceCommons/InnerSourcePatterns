@@ -1,4 +1,4 @@
-# Title 
+# Title
 
 Require InnerSource before Open Source
 
@@ -56,8 +56,7 @@ By requiring InnerSource before Open Source, organizations ensure that projects 
 
 ## Known Instances
 
-- Several large enterprises, including major tech companies, require internal projects to undergo an InnerSource phase before being open-sourced.  
-- Open source foundations often encourage organizations to refine their collaboration processes internally before publicly launching a project.  
+TBD 
 
 ## Status
 
@@ -71,3 +70,4 @@ By requiring InnerSource before Open Source, organizations ensure that projects 
 
 - InnerSource as a Stepping Stone to Open Source
 - InnerSource before Open Source
+- InnerSource Incubation before Open Source
