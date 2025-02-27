@@ -37,8 +37,8 @@ This pattern applies in organizations that:
 
 Before making a project open source, require it to go through an InnerSource phase where:
 
-1. The project is made available internally for contributions from other teams.  
-2. Clear documentation, contribution guidelines, and governance structures are established.  
+1. The project is made available internally for contributions from other teams e.g. via an [InnerSource Portal](../2-structured/innersource-portal.md).
+2. Clear documentation, contribution guidelines, and governance structures are established. See also [Standard Base Documentation](../2-structured/base-documentation.md).
 3. Maintainers gain experience managing contributions, reviewing pull requests, and addressing issues.  
 4. Internal adoption and success metrics are measured to determine if the project is ready for external release.  
 5. Feedback loops are created to refine processes before engaging a broader open source audience.  
@@ -47,7 +47,7 @@ Before making a project open source, require it to go through an InnerSource pha
 
 - Teams develop the skills necessary to manage open source projects effectively.  
 - Contributor documentation and governance structures are established and tested.  
-- Internal adoption increases, providing validation of the project's value before external release.  
+- Further internal teams start using the project (adoption), providing validation of the project's value before external release.
 - The transition to open source is smoother, with better preparedness for external collaboration.  
 
 ## Rationale
