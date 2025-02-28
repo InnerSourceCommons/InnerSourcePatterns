@@ -59,7 +59,8 @@ Make it easy to find the reusable code.
 
 ## Known Instances
 
-TBD
+* Nike Inc.
+* WellSky
 
 ## Resulting Context
 
@@ -72,7 +73,7 @@ TBD
 
 ## Status
 
-* Initial (brainstormed solution)
+* Structured
 
 ## Authors
 
