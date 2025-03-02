@@ -79,7 +79,7 @@ If you are just creating a new translation you do not need this information!
 
 When a new translation is added, there are a couple of tasks to do:
 
-a) determine a translation lead, and add them to the relevant files. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/commit/95b8fc76b64909af5e95bf93fad6e7c105307812)
-b) [book.yml](../.github/workflows/book.yml) - update the GitHub Actions that generate book. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/commit/241bdf2a12c8750c66e71865a770d321cca67511)
-c) [i18n-consistency-checker.yaml](../.github/workflows/i18n-consistency-checker.yaml) - update the GitHub Actions that does the consistency checks. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/619/commits/fce53091faac83b99de8d699d7672a44810408f0)
-d) (optional) [generate-mindmap.yml](../.github/workflows/generate-mindmap.yml) - if the mindmap was translated too, you need to update the GitHub Actions that regenerates the mindmap as well
+1. determine a translation lead, and add them to the relevant files. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/commit/95b8fc76b64909af5e95bf93fad6e7c105307812)
+2. [book.yml](../.github/workflows/book.yml) - update the GitHub Actions that generate book. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/commit/241bdf2a12c8750c66e71865a770d321cca67511)
+3. [i18n-consistency-checker.yaml](../.github/workflows/i18n-consistency-checker.yaml) - update the GitHub Actions that does the consistency checks. See [code change](https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/619/commits/fce53091faac83b99de8d699d7672a44810408f0)
+4. (optional) [generate-mindmap.yml](../.github/workflows/generate-mindmap.yml) - if the mindmap was translated too, you need to update the GitHub Actions that regenerates the mindmap as well
