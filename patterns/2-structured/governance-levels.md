@@ -85,12 +85,26 @@ Examples of common project governance levels are:
     - People outside the core development team may use the code.
     - They can also make modifications and submit them to the core team for inclusion.
     - aka **Guest Contributions**
+- **Shared Write Access**:
+    - People outside of the core development team can get write access to the project.
+    - The core development team may decide to give these outside contributors additional leverage in the strategic direction of the project
+    - Related Pattern: [Trusted Committer](../2-structured/trusted-committer.md)
 - **Shared Ownership**:
-    - Members of different teams collaborate on the project as equal peers.
+    - Members of different teams (or even the entire teams) collaborate on the project as equal peers.
     - Everyone has the ability to merge code.
     - Everyone has an equal say on the project direction.
     - Everyone has an equal say in who else to add to this group.
     - aka **Distributed Ownership**, **Maintainers in Multiple Team**
+    - Related Pattern: [Group Support](../2-structured/group-support.md)
+
+
+<img width="50%" src="../../assets/img/governance-levels/1.png" />
+
+<img width="50%" src="../../assets/img/governance-levels/2.png" />
+
+<img width="50%" src="../../assets/img/governance-levels/3.png" />
+
+<img width="50%" src="../../assets/img/governance-levels/4.png" />
 
 ### Example: Different Ways of Promoting the Governance Levels
 
