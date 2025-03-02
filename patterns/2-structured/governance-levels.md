@@ -33,20 +33,6 @@ Project C is currently closed source and used only by team 1.
 Team 2 want to use project C and the leadership of the two teams negotiates options which include InnerSource practices.
 Agreement takes longer than expected because the "InnerSource" term did not describe a target state that could be agreed without ambiguity, and the teams had to document bespoke options for their leadership to consider before a decision could be made.
 
-### Examples from Open Source
-
-Like "InnerSource", Open Source is also a broad term.
-
-There are projects on GitHub, published purely for the pleasure of the author with no intention of long term maintenance, not intention to fix bugs submitted by users. This would be the equivalent of "Bug Reports and Issues Welcome" - you can report the bug, but its on the owner to find the time to fix it. We call this **shared source**, which would not qualify as open source software (OSS) yet.
-
-There are projects where the roadmap is created in-house, hidden from public view. Where commit rights come and go with the contract of the employees of one company (e.g. MongoDB, Elastic, Tensorflow). Users are welcome to submit patches, they will even be mentored through. All development happens in the open, but control and strategy is never shared. This would be the equivalent of stage "Contributions Welcome". We call this **single vendor OSS**.
-
-There are projects that share write access, but do not share the power to decide who gets write access next. This applies to everyone who is only a committer at an Apache project.
-
-There are projects that are fully shared across multiple independent organizations (e.g. k8s, any Apache project) - those would be "Shared Ownership". We call this **vendor neutral OS**.
-
-The same levels make sense inside of organizations.
-
 ## Context
 
 - InnerSource concepts are established within an organization with multiple projects and teams adopting InnerSource.
@@ -119,6 +105,20 @@ Examples of common project governance levels are:
 - Organization leaders understand the nuances within practising InnerSource and make better informed and more precise decisions that are easier to communicate.
 - Increased standardization of InnerSource practices within the organization as the named and documented building blocks are used by teams as a menu for adoption.
 - Teams can adopt InnerSource best practices in a step-by-step way which makes adoption easier and less intimidating.
+
+## Rationale
+
+Like "InnerSource", Open Source is also a broad term.
+
+There are projects on GitHub, published purely for the pleasure of the author with no intention of long term maintenance, not intention to fix bugs submitted by users. This would be the equivalent of "Bug Reports and Issues Welcome" - you can report the bug, but its on the owner to find the time to fix it. We call this **shared source**, which would not qualify as open source software (OSS) yet.
+
+There are projects where the roadmap is created in-house, hidden from public view. Where commit rights come and go with the contract of the employees of one company (e.g. MongoDB, Elastic, Tensorflow). Users are welcome to submit patches, they will even be mentored through. All development happens in the open, but control and strategy is never shared. This would be the equivalent of stage "Contributions Welcome". We call this **single vendor OSS**.
+
+There are projects that share write access, but do not share the power to decide who gets write access next. This applies to everyone who is only a committer at an Apache project.
+
+There are projects that are fully shared across multiple independent organizations (e.g. k8s, any Apache project) - those would be "Shared Ownership". We call this **vendor neutral OS**.
+
+The same levels make sense inside of organizations.
 
 ## Known Instances
 
