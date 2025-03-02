@@ -108,7 +108,12 @@ However each step also requires more transparency and shared communication resou
 
 <img width="50%" src="../../assets/img/governance-levels/4.png" />
 
-<figure><img src="../../assets/img/governance-levels/1.png" alt="Bug Reports and Issues Welcome"><figcaption><p>Bug Reports and Issues Welcome</p></figcaption></figure>
+<div>
+    <figure><img src="../../assets/img/governance-levels/1.png" alt="Bug Reports and Issues Welcome" width="50%"><figcaption><p>Bug Reports and Issues Welcome</p></figcaption></figure>
+    <figure><img src="../../assets/img/governance-levels/2.png" alt="Contributions Welcome" width="50%"><figcaption><p>Contributions Welcome</p></figcaption></figure>
+    <figure><img src="../../assets/img/governance-levels/3.png" alt="Shared Write Access"><figcaption><p>Shared Write Access</p></figcaption></figure>
+    <figure><img src="../../assets/img/governance-levels/4.png" alt="Shared Ownership"><figcaption><p>Shared Ownership</p></figcaption></figure>
+</div>
 
 ### Example: Different Ways of Promoting the Governance Levels
 
