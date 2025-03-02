@@ -9,21 +9,29 @@ Establishing a more accurate common language that is understood across all teams
 
 ## Problem
 
-Several teams are using InnerSource practices. However the degree to which they welcome contributions and give equal collaboration rights to contributors differ. Despite these differences, all teams refer to their way of working as "InnerSource" without any additional qualifiers.
+Several teams are using InnerSource practices.
+However the degree to which they welcome contributions and give equal collaboration rights to contributors differ.
+Despite these differences, all teams refer to their way of working as "InnerSource" without any additional qualifiers.
 
-The result is confusion and frustration when teams collaborate as the expectation of what InnerSource means in practice is different in each team. This confusion also affects strategy planning and decisions on future InnerSource intent as the term is too vague which leads to long discussions and time lost on clarifications.
+The result is confusion and frustration when teams collaborate as the expectation of what InnerSource means in practice is different in each team.
+This confusion also affects strategy planning and decisions on future InnerSource intent as the term is too vague which leads to long discussions and time lost on clarifications.
 
 ## Story
 
 ### Example of Confusion
 
-For two projects InnerSource best practices have been adopted. Project A has a shared ownership model with [Trusted Committers](../2-structured/trusted-committer.md) from multiple teams. Project B is fully owned by one team with contributions from other teams.
+For two projects, different InnerSource practices have been adopted.
+Project A has a shared ownership model with [Trusted Committers](../2-structured/trusted-committer.md) from multiple teams.
+Project B is fully owned by one team with contributions from other teams.
 
-New users of either project are regularly confused about the level of influence they can gain in the respective project. This leads to long discussions, escalations and time lost on clarifications.
+New users of either project are regularly confused about the level of influence they can gain in the respective project.
+This leads to long discussions, escalations and time lost on clarifications.
 
 ### Example of Delayed Decision
 
-Project C is currently closed source and used only by team 1. Team 2 want to use project C and the leadership of the two teams negotiates options which include InnerSource practices. Agreement takes longer than expected because the "InnerSource" term did not describe a target state that could be agreed without ambiguity, and the teams had to document bespoke options for their leadership to consider before a decision could be made.
+Project C is currently closed source and used only by team 1.
+Team 2 want to use project C and the leadership of the two teams negotiates options which include InnerSource practices.
+Agreement takes longer than expected because the "InnerSource" term did not describe a target state that could be agreed without ambiguity, and the teams had to document bespoke options for their leadership to consider before a decision could be made.
 
 ### Examples from Open Source
 
@@ -43,29 +51,45 @@ The same levels make sense inside of organizations.
 
 - InnerSource concepts are established within an organization with multiple projects and teams adopting InnerSource.
 - Internal InnerSource practices are not prescribed in detail.
-- Teams/projects have the autonomy to optimise for their local circumstances.
+- Teams/projects have the autonomy to optimize for their local circumstances.
 
 ## Forces
 
-- Projects adopt different InnerSource patterns and practices to optimise for their context.
+- Projects adopt different InnerSource patterns and practices to optimize for their context.
 - Users want clarity on the level of influence they can gain in an InnerSource project when deciding whether or how to use it.
 - Leaders want clarity on InnerSource project intentions to understand the expected cost and benefits.
 - Writing a detailed description of a set of InnerSource practices requires significant effort.
 
 ## Solution
 
-The solution is to create a universally understood language to describe the InnerSource operating models that are used in your organization.
+Create a universally understood language to describe the project governance levels that are used in your organization.
+Note: These governance levels may also be referred to as "operating models", or "ownership models". We stick to the term "governance levels" throughout this pattern but feel free to use whatever terms fits your organization best.
 
-We define **InnerSource operating model** as a description of how much influence the core development team of a project is willing to share with contributing teams. Or in other terms, the level of influence a contributing team can gain in the respective project.
+We define **governance levels** as a description of how much influence the core development team of a project is willing to share with contributing teams.
+Or in other terms, the level of influence a contributing team can gain in the respective project.
 
-The shared language for these InnerSource operating models can be established with these steps:
+Examples of governance levels (more details below):
 
-1. Document the commonly used InnerSource operating models that exist in your teams and projects. Make sure to give each of a distinctive and descriptive name.
-2. Promote the use of these names to describe projects until the meaning of the respective InnerSource operating model is understood across the whole organization.
+- Bug Reports and Issues Welcome
+- Contributions Welcome
+- Shared Ownership
 
-### Commonly used Governance Levels
+To evangelize these governance levels in your organization, follow these steps:
 
-Examples of common InnerSource operating models are:
+1. Define your governance levels
+   - Document the governance levels that are commonly used in your organization.
+   - Document additional governance levels that you don't have yet, but that would benefit the cross-team collaboration in your organization.
+   - Give each of them a distinctive and descriptive name.
+   - Use specific projects as examples where helpful.
+   - **Goal**: Have a clear written description of the governance levels, that you can refer to as a reference.
+2. Promote your governance levels
+   - Present your governance levels in existing knowledge sharing forums in your organization.
+   - Stick to the names of these governance levels that you chose above.
+   - **Goal**: The governance levels are known and understood throughout your organization.
+
+### Example: Commonly used Governance Levels
+
+Examples of common project governance levels are:
 
 - **Bug Reports and Issues Welcome**:
     - People outside the core development team may use the code.
@@ -73,7 +97,7 @@ Examples of common InnerSource operating models are:
     - aka **Readable Source**, **Shared Source**
 - **Contributions Welcome**:
     - People outside the core development team may use the code.
-    - They can also make modifications and submit them to core team for inclusion.
+    - They can also make modifications and submit them to the core team for inclusion.
     - aka **Guest Contributions**
 - **Shared Ownership**:
     - Members of different teams collaborate on the project as equal peers.
@@ -82,14 +106,12 @@ Examples of common InnerSource operating models are:
     - Everyone has an equal say in who else to add to this group.
     - aka **Distributed Ownership**, **Maintainers in Multiple Team**
 
-### Promoting the Governance Levels
+### Example: Different Ways of Promoting the Governance Levels
 
-Examples of promoting the model names are:
-
-- Using the names within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/base-documentation.md)).
-- Labeling projects with the names in an [InnerSource Portal](../2-structured/innersource-portal.md).
-- Presenting the names as a menu of adoption options for new InnerSource projects.
-- Including the names and models in any internal InnerSource training or promotion.
+- Use the chosen names of your governance levels within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/base-documentation.md)).
+- Label projects with the governance levels in an [InnerSource Portal](../2-structured/innersource-portal.md), so that contributors can see at a glance what type of InnerSource collaboration the core team currently supports.
+- Create training material contain examples of projects in your organization, that make it easier for people in your organization what these governance levels mean and how they work.
+- Presenting the governance levels as a menu of adoption options when launching new InnerSource projects.
 
 ## Resulting Context
 
@@ -106,7 +128,7 @@ Examples of promoting the model names are:
 
 ### Flutter Entertainment
 
-Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutter.com/how/pyramid/) to describe 3 different InnerSource operating models: Readable Source, Guest Contributions and Maintainers in Multiple Teams. Each name is centrally documented. The use of these names is encouraged via repeated usage, direct training and categorization of each InnerSource project.
+Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutter.com/how/pyramid/) to describe three different operating models: Readable Source, Guest Contributions and Maintainers in Multiple Teams. Each name is centrally documented. The use of these names is encouraged via repeated usage, direct training and categorization of each InnerSource project.
 
 ![InnerSource Pyramid as used by Flutter Entertainment](../../assets/img/flutter-pyramid.png)
 
