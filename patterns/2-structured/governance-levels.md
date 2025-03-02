@@ -75,28 +75,30 @@ To evangelize these governance levels in your organization, follow these steps:
 
 ### Example: Commonly used Governance Levels
 
-Examples of common project governance levels are:
+These are governance levels that are commonly used when practicing InnerSource.
 
-- **Bug Reports and Issues Welcome**:
+Each of these levels adds more influence/karma to the contributing team.
+However each step also requires more transparency and shared communication resources between both teams.
+
+1. **Bug Reports and Issues Welcome**:
     - People outside the core development team may use the code.
     - They can submit feature requests and bug reports for things they would like to see changed.
     - aka **Readable Source**, **Shared Source**
-- **Contributions Welcome**:
+2. **Contributions Welcome**:
     - People outside the core development team may use the code.
     - They can also make modifications and submit them to the core team for inclusion.
     - aka **Guest Contributions**
-- **Shared Write Access**:
+3. **Shared Write Access**:
     - People outside of the core development team can get write access to the project.
     - The core development team may decide to give these outside contributors additional leverage in the strategic direction of the project
     - Related Pattern: [Trusted Committer](../2-structured/trusted-committer.md)
-- **Shared Ownership**:
+4. **Shared Ownership**:
     - Members of different teams (or even the entire teams) collaborate on the project as equal peers.
     - Everyone has the ability to merge code.
     - Everyone has an equal say on the project direction.
     - Everyone has an equal say in who else to add to this group.
     - aka **Distributed Ownership**, **Maintainers in Multiple Team**
     - Related Pattern: [Group Support](../2-structured/group-support.md)
-
 
 <img width="50%" src="../../assets/img/governance-levels/1.png" />
 
@@ -105,6 +107,8 @@ Examples of common project governance levels are:
 <img width="50%" src="../../assets/img/governance-levels/3.png" />
 
 <img width="50%" src="../../assets/img/governance-levels/4.png" />
+
+<figure><img src="../../assets/img/governance-levels/1.png" alt="Bug Reports and Issues Welcome"><figcaption><p>Bug Reports and Issues Welcome</p></figcaption></figure>
 
 ### Example: Different Ways of Promoting the Governance Levels
 
