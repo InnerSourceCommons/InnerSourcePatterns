@@ -116,7 +116,7 @@ However each step also requires more transparency and shared communication resou
 
 ## Resulting Context
 
-- Cross team communication occurs efficiently without confusion using terms that are universally understood and centrally documented.
+- Cross team communication occurs efficiently without confusion, using terms that are universally understood and centrally documented.
 - Organization leaders understand the nuances within practising InnerSource and make better informed and more precise decisions that are easier to communicate.
 - Increased standardization of InnerSource practices within the organization as the named and documented building blocks are used by teams as a menu for adoption.
 - Teams can adopt InnerSource best practices in a step-by-step way which makes adoption easier and less intimidating.
@@ -156,6 +156,7 @@ Structured
 - Isabel Drost-Fromm
 - Rob Tuley
 - Tom Sadler
+- Sebastian Spier
 
 ## Alias
 
