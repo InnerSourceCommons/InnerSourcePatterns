@@ -49,33 +49,38 @@ Agreement takes longer than expected because the "InnerSource" term did not desc
 ## Solution
 
 Create a universally understood language to describe the project governance levels that are used in your organization.
-Note: These governance levels may also be referred to as "operating models", or "ownership models". We stick to the term "governance levels" throughout this pattern but feel free to use whatever terms fits your organization best.
+Note: These governance levels may also be referred to as "operating models", or "ownership models". We stick to the term "governance levels" throughout this pattern. Feel free to use whatever terms fits your organization best.
 
 We define **governance levels** as a description of how much influence the core development team of a project is willing to share with contributing teams.
 Or in other terms, the level of influence a contributing team can gain in the respective project.
 
-Examples of governance levels (more details below):
+Examples of governance levels:
 
 - Bug Reports and Issues Welcome
 - Contributions Welcome
+- Shared Write Access
 - Shared Ownership
 
-To evangelize these governance levels in your organization, follow these steps:
+To establish governance levels in your organization, we recommend these activities:
 
-1. Define your governance levels
-   - Document the governance levels that are commonly used in your organization.
-   - Document additional governance levels that you don't have yet, but that would benefit the cross-team collaboration in your organization.
-   - Give each of them a distinctive and descriptive name.
-   - Use specific projects as examples where helpful.
-   - **Goal**: Have a clear written description of the governance levels, that you can refer to as a reference.
-2. Promote your governance levels
-   - Present your governance levels in existing knowledge sharing forums in your organization.
-   - Stick to the names of these governance levels that you chose above.
-   - **Goal**: The governance levels are known and understood throughout your organization.
+1. Define your governance levels - **Goal**: Have a clear written description of the governance levels, that you can refer to as a reference.
+2. Promote your governance levels - **Goal**: The governance levels are known and understood throughout your organization.
 
-### Example: Commonly used Governance Levels
+We will go into more detail on each of these activities in the following sections.
 
-These are governance levels that are commonly used when practicing InnerSource.
+### Define your Governance Levels
+
+The goal of this activity is to have a clear written description of the governance levels, that you can refer to as a reference.
+
+ - Document the governance levels that are commonly used in your organization.
+ - Document additional governance levels that you don't have yet, but that would benefit the cross-team collaboration in your organization.
+ - Give each of them a distinctive and descriptive name.
+ - Use specific projects as examples where helpful.
+ - Keep this documentation in a central place that you can easily reference that can be accessed by everybody.
+
+#### Commonly used Governance Levels
+
+The following governance levels are commonly used when practicing InnerSource.
 
 Each of these levels adds more influence/karma to the contributing team.
 However each step also requires more transparency and shared communication resources between both teams.
@@ -107,12 +112,16 @@ However each step also requires more transparency and shared communication resou
     <figure><img src="../../assets/img/governance-levels/4.png" alt="Shared Ownership"><figcaption><p>Shared Ownership</p></figcaption></figure>
 </div>
 
-### Example: Different Ways of Promoting the Governance Levels
+### Promote your Governance Levels
 
-- Use the chosen names of your governance levels within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/base-documentation.md)).
+The goal of this activity is that the governance levels are known and understood throughout your organization, and that some of your higher profile InnerSource project start to adopt these governance levels explicitly.
+
+- Present your governance levels in existing knowledge sharing forums in your organization. Make sure to explain the why, not just the what!
+- Whenever talking about your governance levels, make sure to stick to he exact names/titles of your governance levels.
+- Use the names of your governance levels within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/base-documentation.md)).
 - Label projects with the governance levels in an [InnerSource Portal](../2-structured/innersource-portal.md), so that contributors can see at a glance what type of InnerSource collaboration the core team currently supports.
-- Create training material contain examples of projects in your organization, that make it easier for people in your organization what these governance levels mean and how they work.
-- Presenting the governance levels as a menu of adoption options when launching new InnerSource projects.
+- Create training material containing examples of projects in your organization. That makes it easier for people in your organization to related to these examples and understand what these governance levels mean and how they work.
+- Present the governance levels as a menu of adoption options when launching new InnerSource projects.
 
 ## Resulting Context
 
