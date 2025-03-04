@@ -6,26 +6,15 @@ Discover Your InnerSource
 
 When developers don't look for or can't find internally developed solutions, they may waste time and resources creating redundant software. To solve this, implement a robust internal search engine and processes that encourage the discovery and reuse of internal code.
 
+## Problem
+
+People don't bother looking for internally developed solutions - they might not find the repo at all or be aware of its existence.
+
 ## Context
 
 * Software component(s) are available internally but users can't easily find these.
 * This problem is more likely to occur in large, federated companies where different organizational units operate as silos.
 * Historically, the company does not have a culture of sharing code across silos.
-
-## Discussion on
-
-* Comments may appear in the timeline but not with the file once it is edited (github)?
-* https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60
-* If only X knew what X knew; the internal search engine is bad. No one can find anything because it is difficult to add things  to the search index.
-* We have similar challenges getting data sources pulled into the search engine. PayPal is building a project called Agora to do this and they are planning to open source it.
-* Github Enterprise and npmjs have built-in searches on meta-data. Enterprise that opts into these tooling will get some of that functi
-* Software component(s) are available internally but users can't easily find these.
-* This problem is more likely to occur where there are silos in the company (e.g., larger companies; smaller companies may have fewer opportunities for reuse of internally developed software).
-* The company traditionally has been bad at sharing across silos (people don't have the culture of sharing).
-
-## Problem
-
-People don't bother looking for internally developed solutions - they might not find the repo at all or be aware of its existence.
 
 ## Forces
 
@@ -51,11 +40,6 @@ Make it easy to find the reusable code.
 * Encourage (and reward) owners of reusable code to use the same search engine to continually search for products that are candidates for use and adoption of the reusable code but not currently doing so.
 * Consider creating a marketplace for marketing InnerSource programs (management can use this mechanism to know which InnerSource projects to fund, but seeing how the marketplace reacts).
 
-## Known Instances
-
-* Nike Inc.
-* WellSky
-
 ## Resulting Context
 
 * Internal components are easily visible
@@ -64,6 +48,11 @@ Make it easy to find the reusable code.
 * Search results are combined (internal and external)
 * Process changes, establishing a common communications channel, and encouraging and rewarding owners of reusable code to use the same search engine can contribute to changing the corporate culture. Transformation begins from the grassroots but requires strategic involvement of thought leaders.
 * See [Improved Findability](../1-initial/improve-findability.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
+
+## Known Instances
+
+* Nike Inc.
+* WellSky
 
 ## Status
 
@@ -85,3 +74,14 @@ Make it easy to find the reusable code.
 * Not looking for stuff internally
 * Don't bother looking
 * Find it Inside
+
+## Discussion on
+
+* Comments may appear in the timeline but not with the file once it is edited (github)?
+* https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60
+* If only X knew what X knew; the internal search engine is bad. No one can find anything because it is difficult to add things  to the search index.
+* We have similar challenges getting data sources pulled into the search engine. PayPal is building a project called Agora to do this and they are planning to open source it.
+* Github Enterprise and npmjs have built-in searches on meta-data. Enterprise that opts into these tooling will get some of that functi
+* Software component(s) are available internally but users can't easily find these.
+* This problem is more likely to occur where there are silos in the company (e.g., larger companies; smaller companies may have fewer opportunities for reuse of internally developed software).
+* The company traditionally has been bad at sharing across silos (people don't have the culture of sharing).
