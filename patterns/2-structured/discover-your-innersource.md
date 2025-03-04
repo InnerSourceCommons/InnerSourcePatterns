@@ -4,7 +4,7 @@ Discover Your InnerSource
 
 ## Patlet
 
-TBD
+When developers don't look for or can't find internally developed solutions, they may waste time and resources creating redundant software. To solve this, implement a robust internal search engine and processes that encourage the discovery and reuse of internal code.
 
 ## Also Known As
 
@@ -69,7 +69,7 @@ Make it easy to find the reusable code.
 * Developers are now looking internally for software components
 * Search results are combined (internal and external)
 * Process changes, establishing a common communications channel, and encouraging and rewarding owners of reusable code to use the same search engine can contribute to changing the corporate culture. Transformation begins from the grassroots but requires strategic involvement of thought leaders.
-* See [Improved Findability](improve-findability.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
+* See [Improved Findability](../1-initial/improve-findability.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
 
 ## Status
 
