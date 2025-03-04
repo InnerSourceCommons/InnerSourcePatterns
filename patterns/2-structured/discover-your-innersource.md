@@ -6,12 +6,6 @@ Discover Your InnerSource
 
 When developers don't look for or can't find internally developed solutions, they may waste time and resources creating redundant software. To solve this, implement a robust internal search engine and processes that encourage the discovery and reuse of internal code.
 
-## Also Known As
-
-* Not looking for stuff internally
-* Don't bother looking
-* Find it Inside
-
 ## Context
 
 * Software component(s) are available internally but users can't easily find these.
@@ -85,3 +79,9 @@ Make it easy to find the reusable code.
 ## Acknowledgements
 
 * Contributions from Russ Rutledge, Ofer Hermoni and Robert Hanmer
+
+## Alias
+
+* Not looking for stuff internally
+* Don't bother looking
+* Find it Inside
