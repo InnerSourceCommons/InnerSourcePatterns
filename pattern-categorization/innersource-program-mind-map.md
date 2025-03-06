@@ -32,7 +32,7 @@
 
 #### Language around project governance is ambiguous
 
-##### [Project Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels)
+##### [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels)
 
 ## Adopt
 
@@ -95,6 +95,10 @@
 #### Difficult cross-team coordination
 
 ##### [Transparent Cross-Team Decision Making using RFCs](https://patterns.innersourcecommons.org/p/transparent-cross-team-decision-making-using-rfcs)
+
+#### Level of influence for contributing teams is unclear
+
+##### [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels)
 
 #### Project without an owner/maintainer
 

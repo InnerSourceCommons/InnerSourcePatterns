@@ -1,6 +1,6 @@
 ## Title
 
-Explicitly Defined Governance Levels
+Explicit Governance Levels
 
 ## Patlet
 
