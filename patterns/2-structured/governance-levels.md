@@ -4,7 +4,7 @@ Project Governance Levels
 
 ## Patlet
 
-Several teams are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to usefully describe a set of working practices without confusion.
+Several teams are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to describe a set of working practices without confusion.
 Establishing a more accurate common language that is understood across all teams allows anyone to communicate intent or set expectations efficiently without ambiguity.
 
 ## Problem
@@ -48,11 +48,13 @@ Agreement takes longer than expected because the "InnerSource" term did not desc
 
 ## Solution
 
-Create a universally understood language to describe the project governance levels that are used in your organization.
-Note: These governance levels may also be referred to as "operating models", or "ownership models". We stick to the term "governance levels" throughout this pattern. Feel free to use whatever terms fits your organization best.
-
-We define **governance levels** as a description of how much influence the core development team of a project is willing to share with contributing teams.
+Create centrally maintained documentation of the project governance levels that are used in your organization.
+The governance levels describe how much influence the host team of a project is willing to share with contributing teams.
 Or in other terms, the level of influence a contributing team can gain in the respective project.
+
+Note: Instead of "governance levels" we might also say "operating models", or "ownership models".
+We stick to the term "governance levels" throughout this pattern.
+Feel free to use whatever terms fits your organization best.
 
 Examples of governance levels:
 
@@ -86,19 +88,19 @@ Each of these levels adds more influence/karma to the contributing team.
 However each step also requires more transparency and shared communication resources between both teams.
 
 1. **Bug Reports and Issues Welcome**:
-    - People outside the core development team may use the code.
+    - People outside the host team may use the code.
     - They can submit feature requests and bug reports for things they would like to see changed.
     - aka **Readable Source**, **Shared Source**
 2. **Contributions Welcome**:
-    - People outside the core development team may use the code.
-    - They can also make modifications and submit them to the core team for inclusion.
+    - People outside the host team may use the code.
+    - They can make modifications and submit them to the host team for inclusion.
     - aka **Guest Contributions**
 3. **Shared Write Access**:
-    - People outside of the core development team can get write access to the project.
-    - The core development team may decide to give these outside contributors additional leverage in the strategic direction of the project
+    - People outside of the host team can get write access to the project.
+    - The host team may give outside contributors additional leverage in the strategic direction of the project.
     - Related Pattern: [Trusted Committer](../2-structured/trusted-committer.md)
 4. **Shared Ownership**:
-    - Members of different teams (or even the entire teams) collaborate on the project as equal peers.
+    - Members of different teams collaborate on the project as equal peers.
     - Everyone has the ability to merge code.
     - Everyone has an equal say on the project direction.
     - Everyone has an equal say in who else to add to this group.
@@ -119,7 +121,7 @@ The goal of this activity is that the governance levels are known and understood
 - Present your governance levels in existing knowledge sharing forums in your organization. Make sure to explain the why, not just the what!
 - Whenever talking about your governance levels, make sure to stick to he exact names/titles of your governance levels.
 - Use the names of your governance levels within project documentation and contributing guides (see also [Standard Base Documentation](../2-structured/base-documentation.md)).
-- Label projects with the governance levels in an [InnerSource Portal](../2-structured/innersource-portal.md), so that contributors can see at a glance what type of InnerSource collaboration the core team currently supports.
+- Label projects with the governance levels in an [InnerSource Portal](../2-structured/innersource-portal.md), so that contributors can see at a glance what type of InnerSource collaboration the host team supports for the given project.
 - Create training material containing examples of projects in your organization. That makes it easier for people in your organization to related to these examples and understand what these governance levels mean and how they work.
 - Present the governance levels as a menu of adoption options when launching new InnerSource projects.
 
@@ -170,3 +172,7 @@ Structured
 ## Alias
 
 - Transparent Governance Levels
+- Explicitly Defined Governance
+- Defined Project Governance
+- Explicit Governance Levels
+- Project Ownership Models
