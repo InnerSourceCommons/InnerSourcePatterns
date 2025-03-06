@@ -56,13 +56,6 @@ Note: Instead of "governance levels" we might also say "operating models", or "o
 We stick to the term "governance levels" throughout this pattern.
 Feel free to use whatever terms fits your organization best.
 
-Examples of governance levels:
-
-- Bug Reports and Issues Welcome
-- Contributions Welcome
-- Shared Write Access
-- Shared Ownership
-
 To establish governance levels in your organization, we recommend these activities:
 
 1. Define your governance levels - **Goal**: Have a clear written description of the governance levels, that you can refer to as a reference.
