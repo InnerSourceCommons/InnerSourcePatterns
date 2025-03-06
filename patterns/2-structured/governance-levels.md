@@ -4,8 +4,8 @@ Project Governance Levels
 
 ## Patlet
 
-Several teams are using different InnerSource patterns and all calling it "InnerSource", so the term is not precise enough to describe a set of working practices without confusion.
-Establishing a more accurate common language that is understood across all teams allows anyone to communicate intent or set expectations efficiently without ambiguity.
+Different teams within an organization use InnerSource practices in varying ways, leading to confusion and inefficiencies due to inconsistent expectations of collaboration and contribution rights.
+Establish centrally documented governance levels that define the extent of influence contributing teams can have on a project, improving clarity for contributors and host teams alike.
 
 ## Problem
 
