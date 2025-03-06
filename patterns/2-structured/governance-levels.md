@@ -149,7 +149,7 @@ The same levels make sense inside of organizations.
 
 Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutter.com/how/pyramid/) to describe three different operating models: Readable Source, Guest Contributions and Maintainers in Multiple Teams. Each name is centrally documented. The use of these names is encouraged via repeated usage, direct training and categorization of each InnerSource project.
 
-![InnerSource Pyramid as used by Flutter Entertainment](../../assets/img/flutter-pyramid.png)
+![InnerSource Pyramid as used by Flutter Entertainment](../../assets/governance-levels/img/flutter-pyramid.png)
 
 ## Status
 
