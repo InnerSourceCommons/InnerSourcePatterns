@@ -1,6 +1,6 @@
 ## Title
 
-Project Governance Levels
+Explicitly Defined Governance Levels
 
 ## Patlet
 
