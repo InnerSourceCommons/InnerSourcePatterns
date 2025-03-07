@@ -2,7 +2,7 @@
 
 Colaborador Contratado
 
-## Resumen
+## Patlet
 
 Los colaboradores que desean contribuir a InnerSource son desalentados por su gerencia directa. La solución se proporciona mediante contratos y acuerdos formales.
 

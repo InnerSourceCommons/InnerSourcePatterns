@@ -2,7 +2,7 @@
 
 Mercado de Gigs
 
-## Resumen
+## Patlet
 
 Establece un mercado creando un sitio web interno que liste necesidades específicas de proyectos InnerSource como "Gigs" con requisitos explícitos de tiempo y habilidades. Esto permitirá a los gerentes comprender mejor el compromiso de tiempo de sus empleados y los beneficios profesionales, aumentando así la probabilidad de obtener aprobación para realizar contribuciones InnerSource.
 

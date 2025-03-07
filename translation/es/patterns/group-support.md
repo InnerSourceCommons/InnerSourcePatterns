@@ -2,7 +2,7 @@
 
 Soporte Grupal
 
-## Resumen
+## Patlet
 
 ¿Qué sucede si un equipo o individuo deja de mantener un proyecto InnerSource?
 Mantén el proyecto activo formando un grupo de personas interesadas.

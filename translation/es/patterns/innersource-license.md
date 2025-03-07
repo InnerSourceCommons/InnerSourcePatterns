@@ -2,7 +2,7 @@
 
 Licencia InnerSource
 
-## Resumen
+## Patlet
 
 Dos entidades legales que pertenecen a la misma organización quieren compartir código fuente entre sí pero están preocupadas por las implicaciones en términos de responsabilidades legales o contabilidad entre empresas.
 Una **Licencia InnerSource** proporciona un marco legal reutilizable para compartir código fuente dentro de la organización. Esto abre nuevas opciones de colaboración y hace explícitos los derechos y obligaciones de las entidades legales involucradas.

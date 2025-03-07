@@ -2,7 +2,7 @@
 
 Comité de Revisión
 
-## Resumen
+## Patlet
 
 El modelo de trabajo InnerSource es un cambio radical respecto a los enfoques más tradicionales, tanto para desarrolladores como para gerentes. Al establecer un comité de revisión como interfaz entre la iniciativa InnerSource y todos los gerentes senior de las unidades de negocio participantes, es más probable que estos últimos se familiaricen con la iniciativa y la apoyen, ya que les proporciona cierto nivel de supervisión y control sin fomentar la microgestión.
 

@@ -2,7 +2,7 @@
 
 Herramientas de Comunicación
 
-## Resumen
+## Patlet
 
 Los usuarios de un proyecto InnerSource tienen dificultades para obtener ayuda y contactar con el equipo anfitrión.
 Mediante el uso consistente de herramientas de comunicación asincrónica, el proyecto hace que las discusiones sean visibles, archivadas y buscables, lo que conduce a un mejor nivel de soporte para los usuarios.

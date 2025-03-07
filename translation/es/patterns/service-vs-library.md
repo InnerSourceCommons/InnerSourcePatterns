@@ -2,7 +2,7 @@
 
 Servicio vs Biblioteca
 
-## Resumen
+## Patlet
 
 Los equipos en un entorno DevOps pueden mostrarse reacios a trabajar a través de los límites del equipo en bases de código comunes debido a la ambigüedad sobre quién será responsable de responder ante la interrupción del servicio. La solución es comprender que a menudo es posible implementar el mismo servicio en entornos independientes con cadenas de escalamiento separadas en caso de interrupciones del servicio, o bien extraer gran parte del código compartido en una biblioteca y colaborar en ella.
 

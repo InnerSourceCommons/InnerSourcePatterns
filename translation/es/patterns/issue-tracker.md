@@ -2,7 +2,7 @@
 
 Casos de Uso del Issue Tracker
 
-## Resumen
+## Patlet
 
 El equipo anfitrión de InnerSource no logra hacer transparentes no solo los planes y el progreso sino también el contexto de los cambios. Esto se resuelve aumentando los casos de uso del issue tracker del proyecto para también servir en lluvia de ideas, discusión de implementación y diseño de funcionalidades.
 

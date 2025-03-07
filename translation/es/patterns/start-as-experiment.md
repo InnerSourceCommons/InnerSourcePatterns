@@ -2,7 +2,7 @@
 
 Comenzar como Experimento
 
-## Resumen
+## Patlet
 
 Inicia tu iniciativa InnerSource como un experimento con tiempo limitado para facilitar que los gerentes no familiarizados con InnerSource respalden y apoyen la iniciativa.
 

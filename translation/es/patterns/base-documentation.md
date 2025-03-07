@@ -2,7 +2,7 @@
 
 Documentación Base Estándar
 
-## Resumen
+## Patlet
 
 Los nuevos contribuidores a un proyecto InnerSource tienen dificultades para identificar quién
 mantiene el proyecto, en qué trabajar y cómo contribuir. Proporcionar

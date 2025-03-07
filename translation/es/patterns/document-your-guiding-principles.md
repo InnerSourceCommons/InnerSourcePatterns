@@ -2,7 +2,7 @@
 
 Documenta tus Principios Rectores
 
-## Resumen
+## Patlet
 
 La explicación habitual de InnerSource como "aplicación de mejores prácticas de open source dentro de una organización" no funciona bien con personas que carecen de experiencia en open source.
 Como solución, los principios más importantes de InnerSource se documentan y publican ampliamente.

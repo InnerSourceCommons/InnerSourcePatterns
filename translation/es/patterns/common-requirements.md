@@ -2,7 +2,7 @@
 
 Requerimientos Comunes
 
-## Resumen
+## Patlet
 
 El código común en un repositorio compartido no satisface las necesidades de todos los equipos de proyecto que desean utilizarlo; esto se resuelve mediante la alineación de requerimientos y la refactorización.
 

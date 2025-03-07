@@ -2,7 +2,7 @@
 
 Líder de Comunidad Dedicado
 
-## Resumen
+## Patlet
 
 Selecciona personas con habilidades tanto de comunicación como técnicas para liderar las comunidades y asegurar el éxito al iniciar una iniciativa InnerSource.
 

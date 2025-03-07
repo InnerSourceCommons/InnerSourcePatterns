@@ -2,7 +2,7 @@
 
 Extensiones para un Crecimiento Sostenible
 
-## Resumen
+## Patlet
 
 Un proyecto InnerSource está recibiendo demasiadas contribuciones, haciendo difícil su mantenimiento. Al ofrecer un mecanismo de extensiones fuera del proyecto principal, los mantenedores permiten escalar las capacidades del proyecto con un costo y mantenimiento mínimos.
 

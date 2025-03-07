@@ -2,7 +2,7 @@
 
 Equipo Central (Core Team)
 
-## Resumen
+## Patlet
 
 Incluso cuando un proyecto InnerSource es ampliamente necesario, las contribuciones y el uso pueden verse obstaculizados porque el proyecto es difícil de trabajar.
 Establece un equipo central dedicado a ocuparse de los elementos fundamentales del proyecto.

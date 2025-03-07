@@ -2,7 +2,7 @@
 
 Proceso Estándar de Liberación
 
-## Resumen
+## Patlet
 
 Los equipos pueden dudar en adoptar un proyecto InnerSource si no están seguros de su madurez. Para abordar esto, las notas de versión consistentes y los artefactos publicados son cruciales. Estas prácticas demuestran una fuerte dedicación al proyecto, generando confianza y asegurando a los usuarios un compromiso continuo con un software sostenible y bien gestionado.
 

@@ -2,7 +2,7 @@
 
 Trusted Committer
 
-## Resumen
+## Patlet
 
 Muchos proyectos InnerSource se encontrarán en una situación donde reciben constantemente retroalimentación, funcionalidades y correcciones de errores de los contribuidores. En estas situaciones, los mantenedores del proyecto buscan formas de reconocer y recompensar el trabajo del contribuidor más allá de las contribuciones individuales.
 

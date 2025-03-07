@@ -2,7 +2,7 @@
 
 Reconocimiento a los Participantes
 
-## Resumen
+## Patlet
 
 Cuando recibes una contribución InnerSource, es importante agradecer al contribuidor por su tiempo y esfuerzo.
 Extender tu gratitud no solo reconoce efectivamente la contribución sino que también genera mayor compromiso del contribuidor y otros.

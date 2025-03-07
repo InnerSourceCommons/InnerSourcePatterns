@@ -2,7 +2,7 @@
 
 Puntuación de Actividad del Repositorio
 
-## Resumen
+## Patlet
 
 Los contribuidores potenciales quieren encontrar proyectos InnerSource activos que necesiten su ayuda. Al calcular una puntuación de actividad del repositorio para cada proyecto, se puede crear una lista clasificada de proyectos (por ejemplo, en el [Portal InnerSource](innersource-portal.md)), para que los contribuidores potenciales puedan determinar más fácilmente a qué proyecto quieren contribuir.
 

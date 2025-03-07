@@ -2,7 +2,7 @@
 
 Portal InnerSource
 
-## Resumen
+## Patlet
 
 Los contribuidores potenciales no pueden descubrir fácilmente proyectos InnerSource que les interesen. Al crear un sitio web en la intranet que indexe toda la información disponible de proyectos InnerSource, permitirás que los contribuidores aprendan sobre proyectos que podrían interesarles y que los propietarios de proyectos InnerSource atraigan una audiencia externa.
 

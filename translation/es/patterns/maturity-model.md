@@ -2,7 +2,7 @@
 
 Modelo de Madurez
 
-## Resumen
+## Patlet
 
 Los equipos han comenzado a adoptar InnerSource. La práctica se está extendiendo a múltiples
 departamentos. Sin embargo, la comprensión de lo que constituye un proyecto InnerSource

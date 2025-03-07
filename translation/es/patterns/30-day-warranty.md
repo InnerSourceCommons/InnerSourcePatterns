@@ -2,7 +2,7 @@
 
 Garantía de 30 Días
 
-## Resumen
+## Patlet
 
 Al aceptar contribuciones de fuera de tu propio equipo, existe una aversión natural a asumir la responsabilidad del código no escrito por el equipo mismo. A través de la Garantía de 30 Días, el equipo contribuyente se compromete a proporcionar correcciones de errores al equipo receptor, lo que aumentará el nivel de confianza entre ambos equipos y hace más probable que se acepten las contribuciones.
 

@@ -2,7 +2,7 @@
 
 Valoración de Proyectos Cross-Team
 
-## Resumen
+## Patlet
 
 Es difícil vender el valor de los proyectos InnerSource cross-team que no proporcionan un impacto directo en los ingresos de la empresa.
 Aquí hay una forma basada en datos para representar tu proyecto que articula y amplifica su valor.
