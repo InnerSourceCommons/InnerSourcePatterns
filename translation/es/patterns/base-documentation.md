@@ -74,7 +74,6 @@ un documento `CONTRIBUTING.md` separado. Este documento debe responder preguntas
 
 ![CONTRIBUTING.md](../../../assets/img/standard-base-documentation/CONTRIBUTING-for-contributors.png)
 
-
 ### COMMUNICATION.md
 
 Crea un documento `COMMUNICATION.md` separado. Enlaza este documento a tu `README.md` para que se pueda proporcionar información de contacto completa sin ocupar espacio adicional en tu README. Este documento debe responder preguntas frecuentes sobre cómo comunicarse con tu equipo que los contribuidores necesitan saber. El objetivo es agilizar las comunicaciones para que los usuarios y contribuidores se comuniquen con la persona correcta a través de un solo canal. Esto reduce distracciones innecesarias para los miembros del equipo y organiza las comunicaciones para que no se pierdan.
@@ -110,8 +109,8 @@ esos aspectos desde el principio, pero la lista en sí es útil para
 inspiración sobre qué se podría cubrir.
 
 Además de eso, este patrón viene con tres plantillas muy básicas para que
-puedas comenzar de inmediato: [README-template.md](templates/README-template.md),
-[CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md) y [COMMUNICATION-template.md](templates/COMMUNICATION-template.md).
+puedas comenzar de inmediato: [README-template.md](../templates/README-template.md),
+[CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md) y [COMMUNICATION-template.md](../templates/COMMUNICATION-template.md).
 
 ## Contexto Resultante
 
@@ -143,9 +142,9 @@ Proporcionar documentación base estándar a través de un README
 
 ## Referencias
 
-* [README-template.md](templates/README-template.md)
-* [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md)
-* [COMMUNICATION-template.md](templates/COMMUNICATION-template.md)
+* [README-template.md](../templates/README-template.md)
+* [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
+* [COMMUNICATION-template.md](../templates/COMMUNICATION-template.md)
 
 ## Créditos
 

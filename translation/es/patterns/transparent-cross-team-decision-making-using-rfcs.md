@@ -60,7 +60,7 @@ Elementos importantes de la solución son:
 ### Ejemplos/Plantillas
 
 - [Rust][rust] es un buen ejemplo de código abierto de plantilla y proceso de RFC, y ha sido la base para muchos otros procesos de RFC.
-- [Plantilla generalizada de RFC de BBC iPlayer & Sounds](templates/rfc.md), originalmente basada en la plantilla de [Rust][rust]
+- [Plantilla generalizada de RFC de BBC iPlayer & Sounds](../templates/rfc.md), originalmente basada en la plantilla de [Rust][rust]
 - [jakobo/rfc](https://github.com/jakobo/rfc) describe cómo configurar un proceso de RFC interno de la empresa. Contiene una [explicación detallada](https://github.com/jakobo/rfc/blob/master/text/0001-using_rfcs.md) de por qué los RFCs son importantes y una [plantilla de RFC](https://github.com/jakobo/rfc/blob/master/0000-template.md) para ayudarte a escribir tu primer RFC. Contiene información como motivación/razón, guía de implementación, una implementación de referencia, desventajas, así como alternativas al enfoque de RFC. Bonus: La descripción en sí misma es un RFC, por lo que mientras la lees ya estás obteniendo una idea de cómo funciona un RFC.
 
 ## Contexto Resultante

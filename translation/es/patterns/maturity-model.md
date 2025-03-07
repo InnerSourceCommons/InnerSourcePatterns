@@ -53,7 +53,7 @@ Los proyectos InnerSource prosperan cuando los contribuyentes se vuelven activos
 
 **Decisiones**
 
-Para motivar a los colegas a contribuir con trabajo fuera de su equipo principal, necesitan visibilidad en el proceso de toma de decisiones del proyecto anfitrión, pero también sentir que sus voces son escuchadas y valoradas.
+Para motivar a los colegas a contribuir con trabajo fuera de su equipo central, necesitan visibilidad en el proceso de toma de decisiones del proyecto anfitrión, pero también sentir que sus voces son escuchadas y valoradas.
 
 * DC-0: Los responsables de la toma de decisiones a menudo retienen intencional o accidentalmente datos y recursos relacionados con las decisiones del proyecto.
 * DC-1: Los materiales que forman parte de las prácticas de toma de decisiones se ponen a disposición para su revisión después de que se finalizan las decisiones.

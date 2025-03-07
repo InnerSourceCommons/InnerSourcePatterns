@@ -71,7 +71,6 @@ Además, ayuda proporcionar [directrices de contribución](./base-documentation.
 
 - Asegurar la cooperación de equipos dependientes convirtiéndolos en una comunidad al tener más de un "[Trusted Committer](./trusted-committer.md)" (TC) designado meritocráticamente que asuma la responsabilidad.
 
-
 ## Histórico de Traducciones
 
 - **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)

@@ -63,6 +63,7 @@ ISGO reembolse a las unidades de negocio que contrataron colaboradores por el ti
 - El [Dedicated Community Leader](dedicated-community-leader.md) participa o proporciona información para las evaluaciones de desempeño de los colaboradores contratados por más del 20 %.
 
 ![Contracted Contributor](../../../assets/img/contracted-contributor.png)
+
 ## Contexto Resultante
 
 Un contrato formal y reembolsos financiados centralmente comunican de manera convincente

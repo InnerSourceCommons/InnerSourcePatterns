@@ -2,10 +2,12 @@
 
 ## Tipos de contribuciones
 
-Proporcione información aquí sobre qué tipos de contribuciones busca su proyecto. 
-Por ejemplo, pueden ser reportes de errores (bug reports), ayuda para responder 
-preguntas de usuarios, mejoras en la documentación, corrección de errores y 
+Proporcione información aquí sobre qué tipos de contribuciones busca su proyecto.
+Por ejemplo, pueden ser reportes de errores (bug reports), ayuda para responder
+preguntas de usuarios, mejoras en la documentación, corrección de errores y
 también implementación de nuevas funcionalidades.
+
+Por favor, sigue estos pasos para contribuir a este proyecto:
 
 ## Reportes de errores
 
@@ -17,10 +19,11 @@ configuraciones incorrectas comunes que parecen errores.
 También incluya información sobre qué pueden esperar los contribuyentes en términos
 de tiempo de primera respuesta y proceso posterior.
 
+- Si tienes preguntas, abre un problema en el rastreador de problemas.
+
 ## Solicitudes de funcionalidades
 
-Agregue aquí información sobre cómo enviar solicitudes de funcionalidades. 
-También incluya información sobre qué pueden esperar los contribuyentes en términos
+Agregue aquí información sobre cómo enviar solicitudes de funcionalidades. También incluya información sobre qué pueden esperar los contribuyentes en términos
 de tiempo de primera respuesta y proceso posterior.
 
 ## Contribuir documentación
@@ -47,6 +50,6 @@ si esa ruta está abierta a los contribuyentes.
 ## Cómo nominar Trusted Committers
 
 Esta sección sirve como recordatorio para los existentes y explicación para nuevos
-Trusted Committers detallando cómo agregar otros al equipo principal. Idealmente,
+Trusted Committers detallando cómo agregar otros al equipo central. Idealmente,
 esta información es idéntica para todos los proyectos en la organización, por lo que
 se puede vincular a la información central desde aquí.

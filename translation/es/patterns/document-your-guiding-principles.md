@@ -109,7 +109,7 @@ Dos advertencias, sin embargo:
 (6) Recompensar el Compromiso de Confiabilidad
 
 Todas las contribuciones (por ejemplo, código fuente, documentación, informes de errores, aportes a discusiones, soporte a usuarios, marketing) son bienvenidas y se recompensan.
-Aquellos que muestran apoyo al proyecto son invitados como [Contribuidores de Confianza](../2-structured/trusted-committer.md).
+Aquellos que muestran apoyo al proyecto son invitados como [Contribuidores de Confianza](../../../patterns/2-structured/trusted-committer.md).
 Todos los Contribuidores de Confianza de un proyecto se publican.
 
 ## Contexto Resultante
@@ -191,7 +191,7 @@ Para ello, Bosch aplicó los siguientes principios:
 - **Autodeterminación**: Las comunidades BIOS son libres de elegir en qué trabajar, cuándo trabajar y qué herramientas y procesos utilizar para trabajar.
 - **Meritocracia**: El poder se otorga a los miembros del proyecto BIOS en función de sus méritos, es decir, en función de la calidad y cantidad de sus contribuciones.
 
-![Principios BIOS](../../assets/img/bios-principles.png)
+![Principios BIOS](../../../assets/img/bios-principles.png)
 
 Los principios de _Apertura_, _Transparencia_ y _Voluntariedad_ ayudaron a crecer comunidades diversas de asociados intrínsecamente motivados.
 La _Meritocracia_ ha demostrado ser una motivación efectiva para hacer grandes contribuciones.
