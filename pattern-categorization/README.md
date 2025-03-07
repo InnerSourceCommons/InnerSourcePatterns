@@ -41,7 +41,7 @@ npm install -g markmap-cli
 # then generate the mindmap (it will open in your browser automatically)
 npx markmap --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
 
-# to generate the mindmap for a different language, run the script on the files in the respective subfolder.
+# to generate the mindmap for a different language, run the script on the files in the respetive subfolder.
 # e.g. for Galician (`gl`)
 npx markmap --no-toolbar gl/innersource-program-mind-map.md -o gl/innersource-program-mind-map.html
 ```
