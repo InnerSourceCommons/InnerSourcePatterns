@@ -48,7 +48,7 @@ Todo esto se puede obtener y calcular automáticamente utilizando el conjunto de
 
 El código a continuación asume que la variable `repo` contiene una entidad obtenida de la API de `búsqueda` de GitHub y el objeto `participation` contiene una entidad de la API de `stats/participation` de GitHub.
 
-Se pueden hacer ajustes manuales según los KPIs suaves (ver [Resistencias](#Resistencias)) si es necesario.
+Se pueden hacer ajustes manuales según los KPIs suaves (ver [Resistencias](#resistencias)) si es necesario.
 
 ``` javascript
 // calcular una puntuación virtual de InnerSource a partir de estrellas, observadores, commits y problemas

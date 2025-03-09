@@ -60,8 +60,8 @@ Si la explicación de los pasos para hacer una contribución es demasiado detall
 
 ### COMMUNICATION.md
 
-Crea un documento `COMMUNICATION.md` separado. Enlaza este documento a tu `README.md` para que se pueda proporcionar información de contacto completa sin ocupar espacio adicional en tu README. 
-Este documento debe responder preguntas frecuentes sobre cómo comunicarse con tu equipo que los contribuidores necesitan saber. El objetivo es agilizar las comunicaciones para que los usuarios y contribuidores se comuniquen con la persona correcta a través de un solo canal. 
+Crea un documento `COMMUNICATION.md` separado. Enlaza este documento a tu `README.md` para que se pueda proporcionar información de contacto completa sin ocupar espacio adicional en tu README.
+Este documento debe responder preguntas frecuentes sobre cómo comunicarse con tu equipo que los contribuidores necesitan saber. El objetivo es agilizar las comunicaciones para que los usuarios y contribuidores se comuniquen con la persona correcta a través de un solo canal.
 Esto reduce distracciones innecesarias para los miembros del equipo y organiza las comunicaciones para que no se pierdan.
 
 Las secciones en el `COMMUNICATION.md` incluyen puntos de contacto para comunicaciones entrantes e información sobre comunicaciones salientes del equipo de propiedad del proyecto. A continuación, algunos ejemplos.
@@ -81,9 +81,9 @@ Cómo y cuándo el equipo se comunica con los usuarios y cómo ser agregado a es
 * Congelaciones de código
 * Cambios importantes
 
-Hay muchos buenos ejemplos de cómo escribir un `README.md` y qué tipo de información incluir en un archivo `CONTRIBUTING.md` en varios proyectos de código abierto. 
-Páginas como [cómo escribir un readme que destaque](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), [Guía de Código Abierto de GitHub](https://opensource.guide/) así como el libro [Producing Open Source](https://producingoss.com/en/producingoss.html) tienen información valiosa sobre qué tipo de información proporcionar. 
-Aunque Producing Open Source no tiene un capítulo sobre cómo escribir un buen README per se, el [capítulo de Primeros Pasos](https://producingoss.com/en/producingoss.html#starting-from-what-you-have) proporciona una lista bastante extensa de cosas que los miembros del equipo anfitrión, usuarios y contribuidores necesitarán. 
+Hay muchos buenos ejemplos de cómo escribir un `README.md` y qué tipo de información incluir en un archivo `CONTRIBUTING.md` en varios proyectos de código abierto.
+Páginas como [cómo escribir un readme que destaque](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a), [Guía de Código Abierto de GitHub](https://opensource.guide/) así como el libro [Producing Open Source](https://producingoss.com/en/producingoss.html) tienen información valiosa sobre qué tipo de información proporcionar.
+Aunque Producing Open Source no tiene un capítulo sobre cómo escribir un buen README per se, el [capítulo de Primeros Pasos](https://producingoss.com/en/producingoss.html#starting-from-what-you-have) proporciona una lista bastante extensa de cosas que los miembros del equipo anfitrión, usuarios y contribuidores necesitarán.
 Los proyectos InnerSource probablemente no cubrirán todos esos aspectos desde el principio, pero la lista en sí es útil para inspiración sobre qué se podría cubrir.
 
 Además de eso, este patrón viene con tres plantillas muy básicas para que puedas comenzar de inmediato: [README-template.md](../templates/README-template.md),
