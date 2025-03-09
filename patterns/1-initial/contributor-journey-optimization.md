@@ -32,7 +32,7 @@ This pattern applies to InnerSource projects that:
 
 ## Sketch (optional)
 
-![](../../assets/img/contributor-journey-stages.jpg)
+![Stages of the Contributor Journey](../../assets/img/contributor-journey-stages.jpg)
 
 A visual representation of the Contributor Journey stages and common obstacles at each transition could be useful.
 
