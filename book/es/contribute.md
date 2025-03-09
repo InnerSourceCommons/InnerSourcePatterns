@@ -20,9 +20,9 @@ Aquí hay algunas formas en las que puedes contribuir:
 2. mejorar el contenido de un patrón existente (por ejemplo, agregando una breve descripción de cómo estás utilizando un patrón como una _Instancia Conocida_)
 3. contribuir con un nuevo patrón, describiendo cómo has superado desafíos relacionados con InnerSource en tu organización
 
-Para (1) y (2) arriba, simplemente puedes hacer clic en el enlace **Edit on GitHub** que ves en la parte superior de cada página de este libro. Esto te llevará directamente al archivo respectivo en nuestro repositorio de GitHub, donde puedes sugerir tus cambios.
+Para los puntos (1) y (2), simplemente puedes hacer clic en el enlace **Edit on GitHub** que ves en la parte superior de cada página de este libro. Esto te llevará directamente al archivo respectivo en nuestro repositorio de GitHub, donde puedes sugerir tus cambios.
 
-Para (3) necesitas clonar el repositorio de [InnerSourcePatterns][repo], y agregar un nuevo archivo con tu patrón sugerido. Al hacer contribuciones más grandes a este libro, por favor revisa nuestro [CONTRIBUTING.md](../../CONTRIBUTING.md) y también nuestro [Manual del Contribuidor](../../meta/contributor-handbook.md).
+Para el punto (3) necesitas clonar el repositorio de [InnerSourcePatterns][repo], y agregar un nuevo archivo con tu patrón sugerido. Al hacer contribuciones más grandes a este libro, por favor revisa nuestro [CONTRIBUTING.md](../../CONTRIBUTING.md) y también nuestro [Manual del Contribuidor](../../meta/contributor-handbook.md).
 
 ## Licencia de Contribuciones
 

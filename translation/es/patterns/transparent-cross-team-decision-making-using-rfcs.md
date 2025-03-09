@@ -30,7 +30,7 @@ Como con cualquier proceso, este debe mejorarse continuamente. Puede ser necesar
 - las decisiones deben tomarse de manera asincrónica, al menos en parte, ya que no es factible convocar reuniones sincrónicas frecuentes con todos los participantes
 - hay un deseo de documentar las decisiones tomadas, es decir, asegurarse de que se hagan por escrito, en lugar de solo verbalmente
 
-## Fuerzas
+## Resistencias
 
 - la mayoría de las veces, las partes involucradas quieren tomar una decisión bastante rápido (por ejemplo, el tiempo de diseño inicial es bastante limitado)
 - escribir las cosas (sin ya implementarlas) a menudo es una habilidad nueva para muchas de las personas involucradas
@@ -45,17 +45,17 @@ Elegimos un proceso similar a RFC para aumentar la transparencia de nuestro proc
 
 Elementos importantes de la solución son:
 
-- una descripción de cuándo publicar un RFC (y cuándo no)
-- una plantilla para documentos RFC
-    - debe provocar que el autor del RFC considere su propuesta desde múltiples ángulos
-    - debe solicitar tanto una visión general accesible de alto nivel como una explicación detallada en profundidad
-- un proceso ligero y bien conocido que rodea a los RFCs, por ejemplo
-    - cómo publicar un RFC y compartirlo con todos los interesados (por ejemplo, Slack, lista de correo)
-    - cómo recopilar comentarios para el RFC
-    - cómo trabajar en los comentarios
-    - cómo mover el RFC hacia una conclusión o decisión (por ejemplo, mantenedores nominados relevantes para aprobar)
-    - herramientas apropiadas elegidas (por ejemplo, los no ingenieros pueden no tener acceso a herramientas de control de versiones)
-- un compromiso para iterar en la plantilla y el proceso de RFC
+- Una descripción de cuándo publicar un RFC (y cuándo no)
+- Una plantilla para documentos RFC
+    - Debe provocar que el autor del RFC considere su propuesta desde múltiples ángulos
+    - Debe solicitar tanto una visión general accesible de alto nivel como una explicación detallada en profundidad
+- Un proceso ligero y bien conocido que rodea a los RFCs, por ejemplo
+    - Cómo publicar un RFC y compartirlo con todos los interesados (por ejemplo, Slack, lista de correo)
+    - Cómo recopilar comentarios para el RFC
+    - Cómo trabajar en los comentarios
+    - Cómo mover el RFC hacia una conclusión o decisión (por ejemplo, mantenedores nominados relevantes para aprobar)
+    - Herramientas apropiadas elegidas (por ejemplo, los no ingenieros pueden no tener acceso a herramientas de control de versiones)
+- Un compromiso para iterar en la plantilla y el proceso de RFC
 
 ### Ejemplos/Plantillas
 

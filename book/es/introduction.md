@@ -9,9 +9,9 @@ Aprende cómo [contribuir a este libro](contribute.md).
 
 Bienvenido al **Libro de InnerSource Patterns**.
 
-Este libro contiene las mejores prácticas de InnerSource codificadas en un formato específico para que sea fácil de entender, evaluar y aplicar en tu contexto. Llamamos a este formato un **patrón**.
+Este libro recopila las mejores prácticas de InnerSource en un formato específico para que sea fácil de entender, evaluar y aplicar en tu contexto. Llamamos a este formato un **patrón**.
 
-El [InnerSource Commons](http://innersourcecommons.org) ha recopilado estos patrones durante muchos años, publicando los patrones más maduros en este libro, donde los miembros de la comunidad revisan cada patrón, con al menos una instancia conocida de uso del patrón.
+La [Comunidad InnerSource Commons](http://innersourcecommons.org) ha recopilado estos patrones durante muchos años, publicando los patrones más maduros en este libro, donde los miembros de la comunidad revisan cada patrón, con al menos una instancia conocida de uso del patrón.
 
 En esta introducción explicamos [qué es InnerSource](#qué-es-innersource), [qué es un patrón](#qué-son-los-innersource-patterns) y [cómo usar estos patrones](#cómo-puedes-usar-los-innersource-patterns) en tu organización.
 
@@ -29,9 +29,9 @@ Para las empresas que construyen principalmente software de código cerrado, Inn
 
 ## ¿Qué son los InnerSource Patterns?
 
-Los patrones son una forma de describir una solución repetible y probada a un problema dentro de un contexto. Los patrones siguen una forma simple que te ayuda durante la implementación de una solución a entender las restricciones del problema, comprender las fuerzas que necesitas equilibrar y el contexto resultante: la situación creada al aplicar la solución.
+Los patrones son una forma de describir una solución repetible y probada a un problema dentro de un contexto. Los patrones siguen una forma simple que te ayuda durante la implementación de una solución a entender las restricciones del problema, comprender las resistencias que necesitas equilibrar y el contexto resultante: la situación creada al aplicar la solución.
 
-Los patrones pueden proporcionar una forma para que los participantes de InnerSource Commons compartan información de manera concisa, mejorando la práctica de InnerSource. Los patrones se dividen en Título, Declaración del Problema, Contexto, Fuerzas y Soluciones como sus secciones principales.
+Los patrones pueden proporcionar una forma para que los participantes de InnerSource Commons compartan información de manera concisa, mejorando la práctica de InnerSource. Los patrones se dividen en Título, Declaración del Problema, Contexto, Resistencias y Soluciones como sus secciones principales.
 
 * [`¿Qué son los patrones?` Videos de Youtube](http://bit.ly/innersource_patterns_videos) - Mira un conjunto de videos de youtube de 2-5 min que explican los InnerSource Patterns
 * [Webinar de Discusión de Patrones](https://youtu.be/i-0IVhfRVFU) - Realizamos un webinar el 16-03-2017 para discutir en vivo un patrón de donut (ve a 24:30 para la discusión). Esta es una ilustración del proceso de revisión que seguimos. También vea el [Webinar de O'Reilly sobre InnerSource Patterns del 1 de junio de 2017](http://www.oreilly.com/pub/e/3884).
@@ -40,9 +40,9 @@ Los patrones pueden proporcionar una forma para que los participantes de InnerSo
 
 ## ¿Cómo puedes usar los InnerSource Patterns?
 
-Los patrones deben usarse con cuidado. No se pueden aplicar indiscriminadamente. En la mayoría de los casos, necesitarás adaptar la solución dada a tu situación; pero la información proporcionada en el patrón, que define el contexto (restricciones inamovibles) y las fuerzas (restricciones que se pueden cambiar y equilibrar entre sí), debería ayudarte a hacerlo. Ten en cuenta que también necesitarás determinar si hay restricciones adicionales (contexto de la empresa y fuerzas de la empresa) que se aplican a tu empresa/organización en particular y que deben agregarse al patrón (como una especie de filtro). Estas restricciones adicionales pueden requerir pasos adicionales de solución para ser aplicados.
+Los patrones deben usarse con cuidado. No se pueden aplicar indiscriminadamente. En la mayoría de los casos, necesitarás adaptar la solución dada a tu situación; pero la información proporcionada en el patrón, que define el contexto (restricciones inamovibles) y las resistencias (restricciones que se pueden cambiar y equilibrar entre sí), debería ayudarte a hacerlo. Ten en cuenta que también necesitarás determinar si hay restricciones adicionales (contexto de la empresa y resistencias de la empresa) que se aplican a tu empresa/organización en particular y que deben agregarse al patrón (como una especie de filtro). Estas restricciones adicionales pueden requerir pasos adicionales de solución para ser aplicados.
 
-La forma del patrón es útil para describir soluciones probadas, pero también puede usarse para *brainstorming de nuevas soluciones* donde los patrones aún no están establecidos. Esto se debe a que la anatomía de un patrón proporciona un marco para pensar en un problema de manera estructurada. También podrías crear un *patrón de donut* (rellenando los campos de problema, contexto, fuerzas y contexto resultante pero dejando la solución en blanco) como una forma de pedir ayuda a la comunidad de InnerSource Commons (para encontrar una solución probada o para generar ideas sobre cosas para probar).
+La forma del patrón es útil para describir soluciones probadas, pero también puede usarse para *brainstorming de nuevas soluciones* donde los patrones aún no están establecidos. Esto se debe a que la anatomía de un patrón proporciona un marco para pensar en un problema de manera estructurada. También podrías crear un *patrón de donut* (rellenando los campos de problema, contexto, resistencias y contexto resultante pero dejando la solución en blanco) como una forma de pedir ayuda a la comunidad de InnerSource Commons (para encontrar una solución probada o para generar ideas sobre cosas para probar).
 
 ## ¿Cómo Contribuir?
 

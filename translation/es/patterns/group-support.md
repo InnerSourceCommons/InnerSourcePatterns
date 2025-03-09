@@ -14,8 +14,8 @@ Mantén el proyecto activo formando un grupo de personas interesadas.
 
 ## Historia
 
-Una biblioteca de widgets de UI es utilizada por más de 50 proyectos en toda la empresa.
-El financiamiento para el equipo propietario de la biblioteca se agota y el equipo se disuelve.
+Una librería de widgets de UI es utilizada por más de 50 proyectos en toda la empresa.
+El financiamiento para el equipo propietario de la librería se agota y el equipo se disuelve.
 Al principio, nadie lo nota, pero después de un tiempo cuando alguien pregunta "¿quién es el propietario?" no hay respuesta.
 ¿Qué sucederá después?
 ¿Los nuevos equipos evitarán usarlo?
@@ -29,7 +29,7 @@ Al principio, nadie lo nota, pero después de un tiempo cuando alguien pregunta 
 * Nadie lo está manteniendo activamente.
 * La empresa no puede asignar un equipo para mantenerlo.
 
-## Fuerzas
+## Resistencias
 
 * Nadie está asignado por su trabajo diario para trabajar en ello.
 * Todos están ocupados.
@@ -53,7 +53,7 @@ Revisa las pull requests entrantes de manera oportuna.
 
 Dado que este grupo está compuesto por voluntarios, es importante comunicar que el soporte es solo "mejor esfuerzo".
 En consecuencia, este modelo de soporte no es adecuado para proyectos críticos en tiempo de ejecución, como APIs en vivo.
-Es más adecuado para proyectos que se consumen en tiempo de compilación, como bibliotecas/paquetes/módulos.
+Es más adecuado para proyectos que se consumen en tiempo de compilación, como librerías/paquetes/módulos.
 No se espera que el grupo implemente ninguna funcionalidad nueva para otros.
 
 ## Contexto Resultante

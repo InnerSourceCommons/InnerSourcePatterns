@@ -60,7 +60,7 @@
 
 #### Miedo a la responsabilidad compartida de soporte
 
-##### [Servicio vs. Biblioteca](https://patterns.innersourcecommons.org/p/service-vs-library)
+##### [Servicio vs. Librería](https://patterns.innersourcecommons.org/p/service-vs-library)
 
 #### Proyecto difícil de contribuir y usar
 
@@ -82,7 +82,7 @@
 
 #### Miedo a la responsabilidad compartida de soporte
 
-##### [Servicio vs. Biblioteca](https://patterns.innersourcecommons.org/p/service-vs-library)
+##### [Servicio vs. Librería](https://patterns.innersourcecommons.org/p/service-vs-library)
 
 #### No hay suficientes mantenedores para escalar
 

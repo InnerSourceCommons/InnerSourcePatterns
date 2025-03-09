@@ -26,7 +26,7 @@ Estas consideraciones llevaron a un primer prototipo para calcular una puntuaci�
 
 Descubrir proyectos InnerSource puede facilitarse con el [Portal InnerSource](innersource-portal.md) y el patrón [Gig Marketplace](gig-marketplace.md), o promoviendo proyectos en otros canales de comunicación y plataformas. La puntuación de actividad define un orden predeterminado en el que se presentan los proyectos a la comunidad.
 
-## Fuerzas
+## Resistencias
 
 Los KPIs automatizados que se pueden obtener consultando la API de GitHub son solo una parte de la verdad. ¿Qué pasa con la calidad del código, la disponibilidad de buena documentación o una comunidad activa y servicial que hace que el proyecto sea un lugar divertido para contribuir?
 
@@ -48,7 +48,7 @@ Todo esto se puede obtener y calcular automáticamente utilizando el conjunto de
 
 El código a continuación asume que la variable `repo` contiene una entidad obtenida de la API de `búsqueda` de GitHub y el objeto `participation` contiene una entidad de la API de `stats/participation` de GitHub.
 
-Se pueden hacer ajustes manuales según los KPIs suaves (ver [Fuerzas](#fuerzas)) si es necesario.
+Se pueden hacer ajustes manuales según los KPIs suaves (ver [Resistencias](#Resistencias)) si es necesario.
 
 ``` javascript
 // calcular una puntuación virtual de InnerSource a partir de estrellas, observadores, commits y problemas

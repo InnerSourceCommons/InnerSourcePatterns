@@ -5,8 +5,7 @@ Equipo Central (Core Team)
 ## Patlet
 
 Incluso cuando un proyecto InnerSource es ampliamente necesario, las contribuciones y el uso pueden verse obstaculizados porque el proyecto es difícil de trabajar.
-Establece un equipo central dedicado a ocuparse de los elementos fundamentales del proyecto.
-Su trabajo permite que los contribuyentes agreguen y utilicen las funciones que aportan valor a sus escenarios.
+Establece un equipo central dedicado a ocuparse de los elementos fundamentales del proyecto. Su trabajo permite que los contribuyentes agreguen y utilicen las funciones que aportan valor a sus escenarios.
 
 ## Problema
 
@@ -37,7 +36,7 @@ Claramente necesita una revisión (por ejemplo, refactorización, pruebas, docum
 * Adopción e iteración lenta en el proyecto.
 * No hay un propietario o mantenedor que se responsabilice del proyecto y del ecosistema de contribución en su conjunto.
 
-## Fuerzas
+## Resistencias
 
 * Cada equipo contribuyente está ocupado y, por lo tanto, prioriza el trabajo que resulta en un beneficio inmediato para ellos.
 * A medida que el proyecto crece, la tendencia natural es que se vuelva más difícil de usar y modificar.

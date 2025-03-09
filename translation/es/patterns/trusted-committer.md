@@ -15,13 +15,13 @@ Muchos proyectos InnerSource se encontrarán en una situación donde reciben con
 
 ## Contexto
 
-- Eres el mantenedor de una biblioteca, servicio o recurso compartido entre equipos
+- Eres el mantenedor de una librería, servicio o recurso compartido entre equipos
 - Recibes contribuciones regularmente
 - Recibes solicitudes de funcionalidades regularmente
 - Recibes solicitudes de corrección de errores regularmente
 - Hay contribuidores motivados que buscan desarrollar experiencia a través de proyectos InnerSource
 
-## Fuerzas
+## Resistencias
 
 - Durante el ciclo de vida de un proyecto, el enfoque de los mantenedores puede cambiar para acomodar las prioridades cambiantes del negocio
 - Los contribuidores buscan reconocimiento visible de sus contribuciones, demostrando valor

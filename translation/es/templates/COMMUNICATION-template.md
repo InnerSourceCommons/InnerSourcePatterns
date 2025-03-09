@@ -1,7 +1,7 @@
 # COMMUNICATION.md
 
 ***
-Coloque un archivo COMMUNICATION.md individual adaptado al proyecto en cada repositorio. Si la propiedad del repositorio del proyecto se transfiere a un equipo diferente en el futuro, necesitarán poder acceder y editar la documentación relacionada con el proyecto. Esto incluye la documentación que describe los procesos de comunicación que los usuarios deben usar para contactar al equipo.
+Coloque un archivo COMMUNICATION.md adaptado al proyecto en cada repositorio. Si la propiedad del repositorio del proyecto se transfiere a un equipo diferente en el futuro, necesitarán poder acceder y editar la documentación relacionada con el proyecto. Esto incluye la documentación que describe los procesos de comunicación que los usuarios deben usar para contactar al equipo.
 
 **Elimine el párrafo superior cuando esta sección esté completa.**
 

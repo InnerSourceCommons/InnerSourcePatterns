@@ -21,15 +21,13 @@ El código común en el repositorio compartido no satisface las necesidades de t
     * existe un **Weak Code Owner**, es decir, nadie realmente es dueño del código
     * no existe un **Benevolent Sponsor**, es decir, ninguna organización o ejecutivo proporciona recursos para organizar el código común de manera InnerSource
 
-## Fuerzas
+## Resistencias
 
-El proyecto que hizo disponible el código tiene un conjunto de necesidades. Sus necesidades son similares a lo que algunas organizaciones receptoras desean, pero no exactamente iguales.
-Los requerimientos del código deben derivarse de necesidades reales del cliente.
+El proyecto que hizo disponible el código tiene un conjunto de necesidades. Sus necesidades son similares a lo que algunas organizaciones receptoras desean, pero no exactamente iguales. Los requerimientos del código deben derivarse de necesidades reales del cliente.
 
 Las necesidades de diferentes clientes son generalmente bastante similares; sin embargo, pueden expresarse de manera diferente o tener diferentes prioridades entre clientes. Un ejemplo podría ser cómo algunos clientes desean que algún resultado se presente de una manera mientras que otros lo quieren en orden inverso. Es simple hacer la traducción entre ellos, pero requiere codificación adicional para uno de los casos y como resultado el módulo que calcula el resultado no puede ser reutilizado por ambos clientes.
 
-Muchos clientes desean que el proveedor les ayude a identificar sus necesidades. La empresa tiene muchos "Ingenieros de Sistemas" escribiendo requerimientos para los productos. Estos requerimientos deben ser una destilación de las necesidades del cliente para guiar el desarrollo del producto.
-Reutilizar código es un objetivo importante para ahorrar tiempo y dinero a la empresa.
+Muchos clientes desean que el proveedor les ayude a identificar sus necesidades. La empresa tiene muchos "Ingenieros de Sistemas" escribiendo requerimientos para los productos. Estos requerimientos deben ser una destilación de las necesidades del cliente para guiar el desarrollo del producto. Reutilizar código es un objetivo importante para ahorrar tiempo y dinero a la empresa.
 
 ## Solución
 

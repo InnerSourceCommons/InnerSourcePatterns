@@ -59,7 +59,7 @@ La sección debe volver a los ejemplos dados en la sección anterior y explicar 
 Discute el arte previo, tanto lo bueno como lo malo, en relación con esta propuesta.
 Algunos ejemplos de lo que esto puede incluir son:
 
-- Para lenguaje, biblioteca, herramientas, etc.: ¿Existe esta funcionalidad en otros lugares y qué experiencia ha tenido su comunidad?
+- Para lenguaje, librería, herramientas, etc.: ¿Existe esta funcionalidad en otros lugares y qué experiencia ha tenido su comunidad?
 - Para propuestas comunitarias: ¿Esto lo hace alguna otra comunidad y cuáles fueron sus experiencias con ello?
 - Para otros equipos: ¿Qué lecciones podemos aprender de lo que otras comunidades han hecho aquí?
 - Artículos: ¿Hay algún artículo publicado o publicaciones destacadas que discutan esto? Si tienes algunos artículos relevantes a los que referirte, esto puede servir como un trasfondo teórico más detallado.

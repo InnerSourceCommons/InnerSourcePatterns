@@ -1,10 +1,10 @@
 ## Title
 
-Servicio vs Biblioteca
+Servicio vs Librería
 
 ## Patlet
 
-Los equipos en un entorno DevOps pueden mostrarse reacios a trabajar a través de los límites del equipo en bases de código comunes debido a la ambigüedad sobre quién será responsable de responder ante la interrupción del servicio. La solución es comprender que a menudo es posible implementar el mismo servicio en entornos independientes con cadenas de escalamiento separadas en caso de interrupciones del servicio, o bien extraer gran parte del código compartido en una biblioteca y colaborar en ella.
+Los equipos en un entorno DevOps pueden mostrarse reacios a trabajar a través de los límites del equipo en bases de código comunes debido a la ambigüedad sobre quién será responsable de responder ante la interrupción del servicio. La solución es comprender que a menudo es posible implementar el mismo servicio en entornos independientes con cadenas de escalamiento separadas en caso de interrupciones del servicio, o bien extraer gran parte del código compartido en una librería y colaborar en ella.
 
 ## Problema
 
@@ -16,7 +16,7 @@ Cuando los equipos trabajan en un entorno DevOps, los desarrolladores son respon
 * Están organizados en equipos DevOps completamente funcionales: cada equipo es responsable de sus contribuciones de principio a fin, incluyendo mantenimiento, soporte y atención al cliente.
 * Un equipo tiene la tarea de proporcionar un servicio a sus clientes downstream que es bastante similar a un servicio existente construido por otro equipo.
 
-## Fuerzas
+## Resistencias
 
 * Las rutas de escalamiento organizacional pueden ser diferentes para cada uno de los equipos.
 * Los miembros de cada equipo pueden no estar dispuestos a responder al soporte en caso de errores que no afectan a sus propios clientes downstream.
@@ -32,7 +32,7 @@ Solo el código fuente compartido se mantiene como parte del proyecto InnerSourc
 Desacoplar las configuraciones de despliegue y las tuberías de CI del negocio real.
 Establecer un segundo despliegue del servicio para el segundo equipo.
 
-Tratar la base común como una biblioteca que es utilizada por ambos equipos con propiedad compartida del código.
+Tratar la base común como una librería que es utilizada por ambos equipos con propiedad compartida del código.
 
 Las configuraciones de despliegue pueden incluirse como proyectos separados en su portafolio de InnerSource para permitir a los equipos discutir/colaborar o a un nuevo equipo copiarlas.
 
@@ -50,7 +50,7 @@ Fomenta la estandarización operativa incremental en el empaquetado de lanzamien
 
 ## Ver también
 
-Relacionado con este patrón está el patrón [Garantía de 30 Días](30-day-warranty.md) que toma un enfoque diferente para resolver las fuerzas descritas anteriormente.
+Relacionado con este patrón está el patrón [Garantía de 30 Días](30-day-warranty.md) que toma un enfoque diferente para resolver las resistencias descritas anteriormente.
 
 ## Instancias Conocidas
 
@@ -73,7 +73,7 @@ Gracias a Tobias Gesellchen por la revisión interna en Europace AG.
 
 ## Alias
 
-Servicio vs. biblioteca: Es InnerSource, no despliegue interno
+Servicio vs. librería: Es InnerSource, no despliegue interno
 
 ## Histórico de Traducciones
 

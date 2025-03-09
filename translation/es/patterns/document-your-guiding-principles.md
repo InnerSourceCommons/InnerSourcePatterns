@@ -21,15 +21,14 @@ Los equipos desarrollan ideas divergentes sobre cuáles son los objetivos de Inn
 Los primeros experimentos en una organización han demostrado que las mejores prácticas de colaboración en open source pueden ser beneficiosas.
 El siguiente paso ahora es mover la iniciativa a equipos e individuos que carecen de un profundo conocimiento en open source.
 
-El objetivo ahora es comunicar claramente los objetivos de la iniciativa InnerSource
-así como un camino claro hacia la consecución de estos objetivos.
+El objetivo ahora es comunicar claramente los objetivos de la iniciativa InnerSource así como un camino claro hacia la consecución de estos objetivos.
 
 ## Contexto
 
 * InnerSource como término está circulando entre los empleados.
 * La iniciativa comenzó entre entusiastas del open source.
 
-## Fuerzas
+## Resistencias
 
 * Los equipos tienen problemas para comunicar exactamente cuáles son los aspectos importantes de InnerSource.
 * Las personas que carecen de experiencia en open source no entienden lo que significa llevar las mejores prácticas de open source a la organización.

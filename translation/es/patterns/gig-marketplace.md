@@ -22,7 +22,7 @@ Has creado exitosamente un programa InnerSource en tu empresa y cuentas con el r
 
 Los empleados desearían poder conocer las actividades que se llevan a cabo en otras áreas de la empresa sin tener que dejar sus puestos actuales. Existen proyectos InnerSource que podrían proporcionar estas experiencias, pero hay dos factores principales que impiden que los empleados participen. Primero, la incapacidad de descubrir fácilmente qué oportunidades de contribución existen dentro de los proyectos InnerSource en curso y comunicarlas a sus gerentes. Segundo, la incapacidad de los gerentes para planificar y contabilizar los compromisos de tiempo de sus empleados en estas tareas de proyectos InnerSource. Como resultado, los propietarios de proyectos InnerSource encuentran difícil construir comunidades de tamaño suficiente para cumplir con sus objetivos declarados.
 
-## Fuerzas
+## Resistencias
 
 * Los empleados no tienen una forma fácil de descubrir qué oportunidades InnerSource existen
 * Los empleados no entienden cómo contribuir podría beneficiarlos profesionalmente

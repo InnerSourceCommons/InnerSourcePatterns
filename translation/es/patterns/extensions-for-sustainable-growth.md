@@ -40,7 +40,7 @@ Se dedica mucho tiempo a madurar cada nueva contribución de funcionalidad, ante
    - Los mantenedores se encuentran rechazando nuevas ideas de funcionalidades para reducir el alcance del proyecto. Esto está obstaculizando la innovación en la comunidad y restringiendo la expansión.
    - Para reducir la acumulación, se están liberando nuevas funcionalidades sin una documentación, endurecimiento o pruebas exhaustivas, creando una mala experiencia de usuario. Esto también está inflando el tamaño de la base de código, añadiendo un gran gráfico de dependencias y dificultando su mantenimiento.
 
-## Fuerzas
+## Resistencias
 
 - Los mantenedores y propietarios del producto quieren permitir la expansión, fomentar la innovación y la experimentación sin ser demasiado restrictivos con las contribuciones, mientras mantienen buenos estándares de código y calidad para la experiencia del usuario.
 - Se dedica una gran cantidad de tiempo a endurecer y probar exhaustivamente las funcionalidades para cumplir con los estándares del producto, pero los propietarios del producto pueden querer permitir una liberación más rápida de nuevas innovaciones para que los productos adoptantes las exploren antes de invertir tiempo en madurar las capacidades.
@@ -65,14 +65,14 @@ Para que el modelo de extensiones tenga éxito, hay algunas consideraciones arqu
 4. **Estrategia de pruebas:** ¿Cómo probar las extensiones tanto individualmente como en combinación?
    - **Pruebas de extensión individualmente:** La plantilla de extensiones proporcionará un marco de pruebas que los desarrolladores de extensiones deben usar para probar la capacidad añadida. Esto puede incluir un marco para pruebas unitarias, pruebas de rendimiento en tiempo de ejecución y pruebas de calidad.
    - **Pruebas de extensión en combinación con el repositorio principal:** Los desarrolladores de extensiones tienen un método bien estructurado para probar su extensión contra versiones específicas del repositorio principal sin la participación de los mantenedores del repositorio principal.
-   - **Pruebas de extensión en combinación con otras extensiones:** Proporcionar un marco de pruebas para este escenario podría resultar excesivo, especialmente si hay un gran número de extensiones que aún están siendo exploradas por los usuarios y es poco probable que se utilicen todas en combinación. Si un usuario encuentra conflictos al usar extensiones en combinación (lo cual debería ser poco probable con un acoplamiento suficientemente suelto), el usuario puede plantear un problema a los respectivos propietarios de las extensiones, quienes lo resolverán. A medida que una extensión alcanza fases posteriores del ciclo de vida y se fusiona en el repositorio principal, se probará en combinación con el resto de la biblioteca y cualquier conflicto de dependencias deberá resolverse en ese momento.
+   - **Pruebas de extensión en combinación con otras extensiones:** Proporcionar un marco de pruebas para este escenario podría resultar excesivo, especialmente si hay un gran número de extensiones que aún están siendo exploradas por los usuarios y es poco probable que se utilicen todas en combinación. Si un usuario encuentra conflictos al usar extensiones en combinación (lo cual debería ser poco probable con un acoplamiento suficientemente suelto), el usuario puede plantear un problema a los respectivos propietarios de las extensiones, quienes lo resolverán. A medida que una extensión alcanza fases posteriores del ciclo de vida y se fusiona en el repositorio principal, se probará en combinación con el resto de la librería y cualquier conflicto de dependencias deberá resolverse en ese momento.
 5. **Descubribilidad y Usabilidad:**
    - Hacer que las extensiones sean fácilmente descubribles con una página de publicación que muestre las extensiones que los usuarios han creado y desean compartir para el uso del producto.
    - Permitir el registro de extensiones con el proyecto principal para que los usuarios aprovechen las extensiones junto con el proyecto original, manteniendo así la misma experiencia de usuario.
 6. **Ciclo de vida de las extensiones y mantenibilidad:** Establecer el ciclo de vida de las extensiones desde la creación hasta la portación a la base de código principal, junto con directrices claras de propiedad.
    - Los creadores de extensiones continúan manteniendo la extensión, proporcionando cualquier soporte y corrigiendo defectos. Cualquier extensión que quede sin mantenimiento será deslistada de la página de publicación.
    - Crear criterios para cuando una extensión puede ser portada al repositorio principal, como la adopción de la extensión por productos internos y la demanda de la funcionalidad.
-   - El proceso de portación de la extensión al repositorio principal seguirá directrices de revisión de código más estrictas establecidas por los mantenedores de la biblioteca.
+   - El proceso de portación de la extensión al repositorio principal seguirá directrices de revisión de código más estrictas establecidas por los mantenedores de la librería.
 
 ![Arquitectura de software con extensiones](../../../assets/img/extensions-for-sustainable-growth/extensions-for-sustainable-growth.png)
 
@@ -95,7 +95,7 @@ Seguir estos principios asegura que:
 
 ## Instancias Conocidas
 
-* **IBM Corporation** ha adoptado esta solución para escalar [bibliotecas de IA InnerSource](https://youtu.be/Lz-tIc2cyRM). Usando extensiones, los desarrolladores pueden extender las bibliotecas de IA con más algoritmos y compartir sus innovaciones con la comunidad interna de la empresa. Las bibliotecas principales solo contienen algoritmos estratégicos que han sido adoptados y validados, manteniéndolos más fáciles de mantener a medida que escalamos las contribuciones.
+* **IBM Corporation** ha adoptado esta solución para escalar [librerías de IA InnerSource](https://youtu.be/Lz-tIc2cyRM). Usando extensiones, los desarrolladores pueden extender las librerías de IA con más algoritmos y compartir sus innovaciones con la comunidad interna de la empresa. Las librería principales solo contienen algoritmos estratégicos que han sido adoptados y validados, manteniéndolos más fáciles de mantener a medida que escalamos las contribuciones.
 
 ## Alias
 

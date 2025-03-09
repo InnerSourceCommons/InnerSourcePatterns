@@ -21,7 +21,7 @@ También nos hace menos propensos a olvidar agradecer a nuestros contribuidores,
 * Eres el [Trusted Committer](./trusted-committer.md) o mantenedor de un proyecto InnerSource.
 * Valoras la comunidad de contribuidores y quieres mantenerla y hacerla crecer.
 
-## Fuerzas
+## Resistencias
 
 * Estás ocupado, lo que hace que sea más fácil olvidar algunos toques suaves (como el reconocimiento y el agradecimiento).
 * Puede que no seas alguien que se sienta cómodo en situaciones sociales o que sea bueno con las palabras.
@@ -29,8 +29,7 @@ También nos hace menos propensos a olvidar agradecer a nuestros contribuidores,
 
 ## Soluciones
 
-Ser reconocido por otros se siente bien.
-Y en un entorno profesional, el reconocimiento de los compañeros también puede aumentar tu influencia organizacional y tu crecimiento profesional.
+Ser reconocido por otros se siente bien. Y en un entorno profesional, el reconocimiento de los compañeros también puede aumentar tu influencia organizacional y tu crecimiento profesional.
 Cada vez que alguien contribuya a tu proyecto InnerSource, reconócelos con un "gracias" auténtico y sincero.
 Asegúrate de resaltar ejemplos específicos de cómo estas contribuciones han impactado positivamente el proyecto.
 
@@ -42,7 +41,7 @@ Haz saber a todos lo que hicieron y agradéceles públicamente.
 Ejemplo:
 
 > Todos @aquí denle un aplauso a @andrew.clegg por actualizar el _rcs-viewer_ a la última versión del _hebo-client_ (https://github.com/rcs/rcs-viewer/pull/81).
-> ¡Gracias por ayudar a mantener esta biblioteca actualizada, Andy!
+> ¡Gracias por ayudar a mantener esta librería actualizada, Andy!
 
 (2) Envíales un correo electrónico a ellos y a su gerente (con copia) en privado, agradeciéndoles por la contribución.
 Para contribuciones de código, considera reenviar el correo de notificación de la fusión.

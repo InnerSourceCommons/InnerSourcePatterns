@@ -4,11 +4,7 @@ Modelo de Madurez
 
 ## Patlet
 
-Los equipos han comenzado a adoptar InnerSource. La práctica se está extendiendo a múltiples
-departamentos. Sin embargo, la comprensión de lo que constituye un proyecto InnerSource
-varía. La solución es proporcionar un modelo de madurez que permita a los equipos
-realizar una autoevaluación y descubrir patrones y prácticas que aún
-no conocen.
+Los equipos han comenzado a adoptar InnerSource. La práctica se está extendiendo a múltiples departamentos. Sin embargo, la comprensión de lo que constituye un proyecto InnerSource varía. La solución es proporcionar un modelo de madurez que permita a los equipos realizar una autoevaluación y descubrir patrones y prácticas que aún no conocen.
 
 ## Problema
 
@@ -18,7 +14,7 @@ Cuando la adopción de InnerSource en una empresa comienza a aumentar, la tutor�
 
 Varios equipos han comenzado a adoptar prácticas de InnerSource. El nivel exacto de comprensión de la práctica diverge entre los equipos. Los problemas exactos que enfrentan los equipos divergen según el contexto y el entorno de trabajo de cada equipo. Como resultado, la definición de cuáles son las mejores prácticas importantes en un proyecto InnerSource difiere según cada equipo.
 
-## Fuerzas
+## Resistencias
 
 Los equipos que comparten aprendizajes de InnerSource se encuentran con malentendidos, ya que no son conscientes de su respectivo nivel de adopción de InnerSource.
 

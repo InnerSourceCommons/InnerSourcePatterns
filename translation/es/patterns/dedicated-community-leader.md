@@ -24,7 +24,7 @@ Considera la siguiente historia. Una empresa quiere iniciar una iniciativa Inner
 - El líder de la comunidad inicialmente seleccionado tiene poca o ninguna experiencia previa con el modelo de trabajo Open Source.
 - El líder de la comunidad de desarrolladores inicialmente seleccionado no tiene una red extensa dentro de la empresa.
 
-## Fuerzas
+## Resistencias
 
 Si una empresa no invierte significativamente en la comunidad InnerSource inicial en términos de presupuesto y capacidad para InnerSource, la credibilidad de su compromiso con InnerSource podría percibirse como cuestionable. Un impulso común de una empresa con una cultura de gestión tradicional ante un proyecto o iniciativa que no rinde como se esperaba será reemplazar a su líder. Hacerlo sin involucrar a la comunidad y seguir principios meritocráticos socavará aún más el compromiso de la empresa con InnerSource al resaltar la fricción entre la cultura actual de la empresa y la cultura objetivo: una cultura comunitaria.
 

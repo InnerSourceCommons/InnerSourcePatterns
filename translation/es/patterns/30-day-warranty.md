@@ -15,7 +15,7 @@ Un equipo desarrolla un componente que se utiliza en toda una organización. Est
 - Los equipos dependen de que otro equipo acepte sus contribuciones para que un componente producido por el equipo receptor pueda ser utilizado por el equipo contribuyente.
 - El equipo receptor no tiene los recursos, conocimientos, permisos y/o inclinación para escribir el componente/funcionalidad contribuido por sí mismos.
 
-## Fuerzas
+## Resistencias
 
 - Existe desconfianza hacia las contribuciones debido a un historial de engaños: los equipos enviaron contribuciones a medio terminar y posteriormente presentaron solicitudes de correcciones para hacerlas listas para su uso en producción.
 - Si el código es contribuido desde fuera del equipo, el equipo tiene la sospecha natural de que el otro equipo no sabe cómo escribir código que cumpla con las expectativas del equipo receptor.

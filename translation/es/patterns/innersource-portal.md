@@ -33,7 +33,7 @@ No existe un recurso único y compartido para que los empleados de toda la organ
 * Se está utilizando un sistema de gestión de control de código compartido que proporciona acceso programático al contenido de los repositorios que aloja.
 * Hay un departamento dentro de tu organización con la responsabilidad de promover la colaboración InnerSource.
 
-## Fuerzas
+## Resistencias
 
 * No se está realizando todo el potencial para que equipos de ingeniería separados colaboren en desafíos compartidos.
 * Es difícil para los individuos descubrir qué proyectos InnerSource existen.

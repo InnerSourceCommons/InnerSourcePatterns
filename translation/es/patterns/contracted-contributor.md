@@ -8,38 +8,17 @@ Los colaboradores que desean contribuir a InnerSource son desalentados por su ge
 
 ## Problema
 
-Sin el apoyo de la gerencia media, el número total de colaboradores y, como
-resultado, la cantidad de contribuciones realizadas y el valor generado por la
-iniciativa InnerSource probablemente estará por debajo de las expectativas de la
-alta dirección. Esto probablemente se amplificará si no hay financiamiento adecuado
-y empoderamiento de los [Dedicated Community Leaders](dedicated-community-leader.md).
-Esto corre el riesgo de que la alta dirección abandone la idea de InnerSource.
+Sin el apoyo de la gerencia media, el número total de colaboradores y, como resultado, la cantidad de contribuciones realizadas y el valor generado por la iniciativa InnerSource probablemente estará por debajo de las expectativas de la alta dirección. Esto probablemente se amplificará si no hay financiamiento adecuado y empoderamiento de los [Dedicated Community Leaders](dedicated-community-leader.md). Esto corre el riesgo de que la alta dirección abandone la idea de InnerSource.
 
 ## Contexto
 
-Una gran corporación ha iniciado una iniciativa InnerSource. Los objetivos principales
-de la iniciativa son aumentar la eficiencia del desarrollo de software distribuido
-y fomentar la innovación permitiendo que cada colaborador contribuya voluntariamente
-a proyectos InnerSource, independientemente del tema y la unidad de negocio.
+Una gran corporación ha iniciado una iniciativa InnerSource. Los objetivos principales de la iniciativa son aumentar la eficiencia del desarrollo de software distribuido y fomentar la innovación permitiendo que cada colaborador contribuya voluntariamente a proyectos InnerSource, independientemente del tema y la unidad de negocio.
 
-La alta dirección está a bordo y apoyando la iniciativa InnerSource. Para
-ellos, la iniciativa InnerSource es solo una de las muchas iniciativas para fomentar
-la innovación y la eficiencia. Están financiando InnerSource con dinero y
-capacidad para líderes comunitarios y están dando gran autonomía en cuanto a cómo se
-gasta el presupuesto. También están limitando el alcance y la duración de la
-iniciativa y participan en revisiones periódicas hasta que haya pruebas de que produce
-los resultados esperados (ver [Review Committee](review-committee.md)). La alta dirección
-ha anunciado su apoyo a InnerSource en varias reuniones internas de la empresa.
+La alta dirección está a bordo y apoyando la iniciativa InnerSource. Para ellos, la iniciativa InnerSource es solo una de las muchas iniciativas para fomentar la innovación y la eficiencia. Están financiando InnerSource con dinero y capacidad para líderes comunitarios y están dando gran autonomía en cuanto a cómo se gasta el presupuesto. También están limitando el alcance y la duración de la iniciativa y participan en revisiones periódicas hasta que haya pruebas de que produce los resultados esperados (ver [Review Committee](review-committee.md)). La alta dirección ha anunciado su apoyo a InnerSource en varias reuniones internas de la empresa.
 
-Sin embargo, la alta dirección aún no ha empoderado ni incentivado a los gerentes de nivel medio
-para permitir o incluso motivar a sus empleados a participar en
-actividades de InnerSource interdivisionales. Además de eso, la capacidad de
-cada colaborador generalmente se asigna a proyectos que no son de InnerSource para el 100 % de
-su tiempo de trabajo. La colaboración interorganizacional aún no es la norma y
-los gerentes de línea generalmente no tienen objetivos fuera de su propia organización.
-Se espera que las contribuciones a los proyectos de InnerSource se realicen durante el horario laboral, no durante el tiempo libre.
+Sin embargo, la alta dirección aún no ha empoderado ni incentivado a los gerentes de nivel medio para permitir o incluso motivar a sus empleados a participar en actividades de InnerSource interdivisionales. Además de eso, la capacidad de cada colaborador generalmente se asigna a proyectos que no son de InnerSource para el 100 % de su tiempo de trabajo. La colaboración interorganizacional aún no es la norma y los gerentes de línea generalmente no tienen objetivos fuera de su propia organización. Se espera que las contribuciones a los proyectos de InnerSource se realicen durante el horario laboral, no durante el tiempo libre.
 
-## Fuerzas
+## Resistencias
 
 - Los gerentes son responsables de los resultados de sus unidades de negocio. Permitir que su personal participe en actividades de InnerSource, lo que podría hacer que dediquen tiempo a contribuciones fuera de su unidad de negocio, reduce efectivamente la capacidad de su unidad. Esto probablemente dificultará que los gerentes alcancen o superen sus objetivos.
 - Los gerentes de línea y HR, por defecto, juzgarán el desempeño de sus subordinados en función de los objetivos de sus unidades de negocio, que pueden no estar alineados con los objetivos de la comunidad InnerSource.
@@ -51,9 +30,7 @@ Se espera que las contribuciones a los proyectos de InnerSource se realicen dura
 
 ## Solución
 
-Establecer un contrato formal entre el colaborador, su gerente de línea y una
-oficina de gobernanza InnerSource (ISGO) financiada y dirigida centralmente. Hacer que la
-ISGO reembolse a las unidades de negocio que contrataron colaboradores por el tiempo contratado.
+Establecer un contrato formal entre el colaborador, su gerente de línea y una oficina de gobernanza InnerSource (ISGO) financiada y dirigida centralmente. Hacer que la ISGO reembolse a las unidades de negocio que contrataron colaboradores por el tiempo contratado.
 
 - El contrato especifica un porcentaje máximo del tiempo de trabajo del colaborador en InnerSource.
 - El contrato establece claramente que el trabajo en la unidad de negocio del colaborador tiene prioridad sobre el trabajo en InnerSource.
@@ -66,8 +43,7 @@ ISGO reembolse a las unidades de negocio que contrataron colaboradores por el ti
 
 ## Contexto Resultante
 
-Un contrato formal y reembolsos financiados centralmente comunican de manera convincente
-el apoyo de la organización a la iniciativa InnerSource, empoderando así a la gerencia media para aprobarla:
+Un contrato formal y reembolsos financiados centralmente comunican de manera convincente el apoyo de la organización a la iniciativa InnerSource, empoderando así a la gerencia media para aprobarla:
 
 - La asignación de fondos corporativos a las unidades de negocio para el reembolso de la capacidad de desarrollo señala a los gerentes de línea que InnerSource es considerado valioso por la organización, que tiene apoyo ejecutivo y que se espera que ellos también lo apoyen.
 - Un contrato formal señala que el trabajo en InnerSource se gestiona profesionalmente e inspira confianza.

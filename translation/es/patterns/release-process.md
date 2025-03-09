@@ -16,13 +16,13 @@ Los proyectos InnerSource que no tienen un artefacto publicado o un proceso de l
 
 ## Contexto
 
-Las grandes organizaciones producen mucho software interno, gran parte del cual podría ser reutilizado por equipos en toda la empresa. Herramientas operativas, bibliotecas de software y módulos de infraestructura como código (IaC) son ejemplos comunes de este tipo de software. Sin embargo, la mayoría de las grandes organizaciones no publican software interno para ser consumido por otros equipos en la empresa. Esto puede ocurrir porque están demasiado ocupados para proporcionar documentación o no se dan cuenta del valor del proyecto para otros.
+Las grandes organizaciones producen mucho software interno, gran parte del cual podría ser reutilizado por equipos en toda la empresa. Herramientas operativas, librerías de software y módulos de infraestructura como código (IaC) son ejemplos comunes de este tipo de software. Sin embargo, la mayoría de las grandes organizaciones no publican software interno para ser consumido por otros equipos en la empresa. Esto puede ocurrir porque están demasiado ocupados para proporcionar documentación o no se dan cuenta del valor del proyecto para otros.
 
 Debe estar disponible un repositorio de código fuente interno o público donde se almacene el código fuente, pero los equipos carecen de un proceso para hacer que el software sea consumible por equipos externos.
 
 A medida que una organización crece y se escribe más software interno, el valor de este patrón crece.
 
-## Fuerzas
+## Resistencias
 
 ### Difícil para organizaciones que no tienen un sistema CI/CD central
 

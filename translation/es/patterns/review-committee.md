@@ -14,7 +14,7 @@ Los gerentes percibirán el modelo de trabajo InnerSource como un cambio radical
 
 La empresa A quiere introducir su primera iniciativa InnerSource. La mayoría de los gerentes de la empresa A no están familiarizados con el modelo de trabajo de código abierto y, en cambio, están acostumbrados a la gestión jerárquica y de control descendente.
 
-## Fuerzas
+## Resistencias
 
  - Cuanto más control percibido tenga un gerente sobre el trabajo en la iniciativa InnerSource, más probable es que apoye la iniciativa sin experiencia previa.
  - Cuanta menos experiencia tenga un gerente con el modelo de trabajo de código abierto, más probable es que quiera controlar el riesgo de la iniciativa.

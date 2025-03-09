@@ -14,7 +14,7 @@ Se considera una iniciativa InnerSource pero no se inicia porque la gerencia tie
 
 La empresa está considerando InnerSource para aumentar la eficiencia de la colaboración en proyectos de software. Sin embargo, la mayoría de los gerentes no están familiarizados con el modelo de trabajo de Open Source y, en cambio, están acostumbrados a un estilo de gestión jerárquico y de control de arriba hacia abajo. La idea de InnerSource es muy popular entre los desarrolladores de software de la empresa, no menos porque muchos desarrolladores usan o están desarrollando activamente software de Open Source.
 
-## Fuerzas
+## Resistencias
 
 - Los gerentes querrán validar las afirmaciones de mejora de la colaboración a través de InnerSource antes de hacer una inversión a largo plazo. Esto generalmente implica medir las mejoras.
 - Si la iniciativa InnerSource probablemente tendrá una gran aceptación entre los desarrolladores y si muchos proyectos probablemente dependerán de ella, una decisión de cerrarla será muy impopular y, por lo tanto, difícil de tomar. La pérdida de control percibida podría disuadir a algunos gerentes de siquiera comenzar con InnerSource.
@@ -45,7 +45,7 @@ Los gerentes pueden iniciar InnerSource por las siguientes razones:
 
 Los participantes en el experimento InnerSource ahora son conscientes de que deben demostrar a la gerencia que InnerSource ofrece los beneficios prometidos. Por lo tanto, ayudará a enfocar el trabajo en aquellas actividades que proporcionen el valor más demostrable, aumentando así las posibilidades de éxito.
 
-Finalmente, comenzar como un experimento facilita mucho eludir las regulaciones y fuerzas como las políticas de herramientas y procesos que podrían disminuir las posibilidades de éxito.
+Finalmente, comenzar como un experimento facilita mucho eludir las regulaciones y resistencias como las políticas de herramientas y procesos que podrían disminuir las posibilidades de éxito.
 
 ## Patrones Relacionados
 
@@ -54,7 +54,7 @@ Finalmente, comenzar como un experimento facilita mucho eludir las regulaciones 
 ## Instancias Conocidas
 
 - Robert Bosch GmbH (desarrollo de software distribuido globalmente)
-- Airbus: la comunidad de ciencia de datos colaboró en bibliotecas compartidas de Python que eventualmente llevaron a un esquema InnerSource en todo el grupo para cualquier software.
+- Airbus: la comunidad de ciencia de datos colaboró en librerías compartidas de Python que eventualmente llevaron a un esquema InnerSource en todo el grupo para cualquier software.
 
 ## Estado
 

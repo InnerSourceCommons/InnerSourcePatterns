@@ -14,7 +14,7 @@ Un equipo desarrolla un componente del que dependen muchos equipos en la organiz
 
 El tooling del proyecto InnerSource está todo configurado. Sin embargo, el issue tracker del proyecto se utiliza principalmente para compartir el progreso. En los proyectos de InnerSource hay muchos más casos de uso que un issue tracker puede utilizar para facilitar la comunicación remota y asincrónica.
 
-## Fuerzas
+## Resistencias
 
 - A los contribuyentes les gustaría entender si la característica que les falta ya está en la hoja de ruta. Sin embargo, con mucho contexto faltante en los problemas, es imposible decidir si los problemas existentes coinciden con las necesidades del equipo contribuyente.
 - Como resultado, se abren muchos problemas duplicados que el equipo anfitrión tiene que manejar.

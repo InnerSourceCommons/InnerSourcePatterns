@@ -17,7 +17,7 @@ Aquí hay una forma basada en datos para representar tu proyecto que articula y 
 Los proyectos cross-team pueden tener potencialmente un gran impacto en la empresa, pero son difíciles de representar de manera basada en datos.
 Como resultado, es fácil y común perseguir proyectos que no proporcionan valor real o subfinanciar lo que de otro modo produciría gran valor.
 
-## Fuerzas
+## Resistencias
 
 * Los proyectos necesitan mostrar valor (objetivo o subjetivo) al liderazgo de la empresa para ser financiados.
 * El valor del proyecto cross-team está disperso a través de múltiples unidades de negocio finales.

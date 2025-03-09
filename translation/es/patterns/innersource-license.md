@@ -22,7 +22,7 @@ En el momento de compartir el código fuente, no se puede predecir de manera con
 - Varias de estas entidades legales están desarrollando software y están utilizando servicios de otras entidades legales. Tienen una motivación para contribuir al código fuente de los demás.
 - Una complejidad suficiente de la organización y su estructura organizativa.
 
-## Fuerzas
+## Resistencias
 
 - **Nivel de esfuerzo** requerido para redactar acuerdos formales, especialmente si necesitan tener en cuenta perspectivas técnicas, legales y comerciales.
 - Una organización grande (compuesta por muchas entidades legales) tiene muchas **regulaciones internas**. Cualquier nuevo acuerdo que se haga debe cumplir con estas regulaciones, por ejemplo, seguridad, privacidad, procesos de adquisición, etc. El volumen de regulaciones puede dificultar la evaluación de si compartir software entre dos entidades legales es conforme con estas regulaciones, especialmente cuando no hay un procedimiento estándar.
