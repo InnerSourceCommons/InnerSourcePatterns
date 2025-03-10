@@ -26,7 +26,7 @@ Como resultado, es fácil y común perseguir proyectos que no proporcionan valor
 ## Solución
 
 Establece un patrón y modelo sobre cómo valorar proyectos cross-team.
-Estos modelos nos proporcionan las herramientas necesaria para enfocar y amplificar la colaboración de alto valor para la empresa.
+Estos modelos nos proporcionan las herramientas necesarias para enfocar y amplificar la colaboración de alto valor para la empresa.
 
 El núcleo de todo el valor del proyecto cross-team es la idea de que podemos hacer más juntos que separados.
 Asignar valor a un esfuerzo cross-team es un ejercicio de cuantificar _cuánto más_ se está logrando juntos.
