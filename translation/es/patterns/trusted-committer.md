@@ -8,8 +8,8 @@ Muchos proyectos InnerSource se encontrarán en una situación donde reciben con
 
 ## Problema
 
-- Los mantenedores del proyecto quieren encontrar formas de escalar su capacidad para dar soporte a un proyecto
-- Los mantenedores del proyecto quieren encontrar formas de prolongar el valor entregado por un proyecto
+- Los mantenedores del proyecto buscan formas de escalar su capacidad para dar soporte a un proyecto
+- Los mantenedores del proyecto buscan formas de prolongar el valor entregado por un proyecto
 - Los mantenedores del proyecto quieren recompensar visiblemente a los contribuidores frecuentes y empoderarlos para amplificar su contribución de valor
 - Falta de mecanismos y lenguaje para reconocer contribuciones entre equipos dentro de una organización
 
@@ -32,7 +32,7 @@ Muchos proyectos InnerSource se encontrarán en una situación donde reciben con
 
 ### Definiendo el Rol de Trusted Committer para un Proyecto
 
-Lo que maneja un Trusted Committer depende de cada proyecto y sus mantenedores. Asegúrate de documentar dentro del proyecto el alcance de tu rol de Trusted Committer. Una documentación clara establece expectativas para los nuevos miembros de la comunidad y establece el rol para futuros candidatos.
+Las responsabilidades de un Trusted Committer depende de cada proyecto y sus mantenedores. Asegúrate de documentar dentro del proyecto el alcance de tu rol de Trusted Committer. Una documentación clara establece expectativas para los nuevos miembros de la comunidad y establece el rol para futuros candidatos.
 
 Las siguientes son algunas pautas para identificar un posible Trusted Committer:
 
@@ -43,7 +43,7 @@ Las siguientes son algunas pautas para identificar un posible Trusted Committer:
 
 El primer paso es acercarse a los candidatos sobre convertirse en un Trusted Committer. Los mantenedores deben educar a los candidatos sobre el rol de un Trusted Committer. No hay expectativa de que los candidatos acepten el rol de Trusted Committer. Cada candidato debe evaluar si tienen la disponibilidad para asumir las responsabilidades.
 
-Cuando un candidato acepta el rol, depende de los mantenedores del proyecto reconocer públicamente la transición de usuario a Trusted Committer. También es una buena idea agregar su nombre a una sección de Trusted Committers en el README de tu proyecto. Como ejemplo:
+Cuando un candidato acepta el rol, los mantenedores del proyecto deben reconocer públicamente su transición de usuario a Trusted Committer. También es una buena idea agregar su nombre a una sección de Trusted Committers en el README de tu proyecto. Como ejemplo:
 
 ```markdown
 # nombre-del-proyecto
@@ -131,4 +131,4 @@ Esto ha sido probado y ha tenido éxito en:
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

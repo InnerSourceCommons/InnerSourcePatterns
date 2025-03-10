@@ -32,7 +32,7 @@ Abordar la necesidad de una documentación más clara para nuevos contribuidores
 
 ### README.md
 
-Si aún no existe, crea un `README.md` para tu proyecto. Debe contener:
+Si tu proyecto aún no tiene un README.md, créalo e incluye lo siguiente:
 
 * La [misión del proyecto](https://producingoss.com/en/producingoss.html#mission-statement) en un formato lo más conciso posible. Debe responder cuál es el propósito del proyecto y permitir a los contribuidores hacer una buena suposición inicial sobre si una funcionalidad sugerida probablemente estará dentro del alcance del proyecto o no.
 * Una sección de "Primeros pasos" para los usuarios del proyecto. Debe explicar cómo configurar/integrar los artefactos del proyecto, así como una explicación de algunos de los primeros pasos típicos para los usuarios primerizos.
@@ -129,4 +129,4 @@ Ilustraciones de [Web](https://storyset.com/web) y [People](https://storyset.com
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

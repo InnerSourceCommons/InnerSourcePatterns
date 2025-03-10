@@ -34,7 +34,7 @@ La comunicación ocupa un porcentaje significativo del trabajo diario de un líd
 
 Si una comunidad no puede crecer lo suficientemente rápido y ganar suficiente velocidad, es probable que no puedan demostrar de manera convincente el potencial de InnerSource.
 
-Si la empresa selecciona a un gerente de proyecto o de línea experimentado inmerso en métodos tradicionales de gestión para ser el líder de la comunidad, es probable que se centre en temas tradicionales de gestión como la asignación de recursos, la provisión de estructura y canales de informes en lugar de liderar con el ejemplo a través de principios meritocráticos. Esto socavará la credibilidad de la iniciativa InnerSource a los ojos de los desarrolladores.
+Si la empresa selecciona a un gerente de proyecto o de línea con experiencia en métodos tradicionales de gestión para ser el líder de la comunidad, es probable que se centre en temas tradicionales de gestión como la asignación de recursos, la provisión de estructura y canales de informes en lugar de liderar con el ejemplo a través de principios meritocráticos. Esto socavará la credibilidad de la iniciativa InnerSource a los ojos de los desarrolladores.
 
 ## Solución
 
@@ -90,4 +90,4 @@ Gerente de Comunidad Dedicado
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

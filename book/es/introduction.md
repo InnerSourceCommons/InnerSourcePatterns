@@ -23,7 +23,7 @@ Definimos InnerSource como:
 
 > El uso de principios y prácticas de código abierto para el desarrollo de software dentro de los confines de una organización.
 
-InnerSource toma las lecciones aprendidas del desarrollo de software de código abierto y las aplica a la forma en que las empresas desarrollan software internamente. A medida que los desarrolladores se han acostumbrado a trabajar en software de código abierto de clase mundial, existe un fuerte deseo de llevar esas prácticas de vuelta dentro del firewall y aplicarlas al software que las empresas pueden ser reacias a liberar.
+InnerSource toma las lecciones aprendidas del desarrollo de software de código abierto y las aplica a la forma en que las empresas desarrollan software internamente. A medida que los desarrolladores se han acostumbrado a trabajar en software de código abierto de clase mundial, existe un fuerte deseo de llevar esas prácticas de vuelta dentro del firewall y aplicarlas al software que las empresas pueden ser reacias a publicar.
 
 Para las empresas que construyen principalmente software de código cerrado, InnerSource puede ser una gran herramienta para ayudar a romper los silos, fomentar y escalar la colaboración interna, acelerar la incorporación de nuevos ingenieros e identificar oportunidades para contribuir con software al mundo del código abierto.
 

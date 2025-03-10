@@ -4,7 +4,7 @@ Valoración de Proyectos Cross-Team
 
 ## Patlet
 
-Es difícil vender el valor de los proyectos InnerSource cross-team que no proporcionan un impacto directo en los ingresos de la empresa.
+Es difícil demostrar el valor de los proyectos InnerSource cross-team que no proporcionan un impacto directo en los ingresos de la empresa.
 Aquí hay una forma basada en datos para representar tu proyecto que articula y amplifica su valor.
 
 ## Contexto
@@ -38,7 +38,7 @@ Hay un proceso común, mediante el cual puedes crear un modelo para calcularlo.
 Reúne un pequeño equipo de expertos en tu dominio.
 Usando ese equipo de expertos, estima 4 cosas sobre cada consumidor de la salida de tu proyecto:
 
-* ¿Cuánto tiempo les lleva consumir la salida de tu proyecto?
+* ¿Cuánto tiempo les lleva consumir el output de tu proyecto?
 * ¿Cuánto tiempo les llevaría de otra manera crear por sí mismos el valor de la salida de tu proyecto?
 * ¿Qué porcentaje de la salida de tu proyecto es realmente útil para ellos?
 * ¿Cuánto tiempo de manera continua (idealmente por uso) gastarían de otra manera manteniendo su solución propia?
@@ -109,4 +109,4 @@ Proporcionarán una mejora notable en los resultados sobre el terreno en compara
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

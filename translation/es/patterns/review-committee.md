@@ -4,15 +4,15 @@ Comité de Revisión
 
 ## Patlet
 
-El modelo de trabajo InnerSource es un cambio radical respecto a los enfoques más tradicionales, tanto para desarrolladores como para gerentes. Al establecer un comité de revisión como interfaz entre la iniciativa InnerSource y todos los gerentes senior de las unidades de negocio participantes, es más probable que estos últimos se familiaricen con la iniciativa y la apoyen, ya que les proporciona cierto nivel de supervisión y control sin fomentar la microgestión.
+El modelo de trabajo InnerSource es un cambio radical respecto a los enfoques más tradicionales, tanto para desarrolladores como para gerentes. Al establecer un comité de revisión como puente entre la iniciativa InnerSource y todos los gerentes senior de las unidades de negocio participantes, es más probable que estos últimos se familiaricen con la iniciativa y la apoyen, ya que les proporciona cierto nivel de supervisión y control sin fomentar la microgestión.
 
 ## Problema
 
-Los gerentes percibirán el modelo de trabajo InnerSource como un cambio radical respecto a los modelos de trabajo a los que están acostumbrados y con los que tienen experiencia. Como consecuencia, es probable que rechacen o microgestionen la iniciativa InnerSource para tratar de minimizar el riesgo percibido de este cambio. En ambos casos, los beneficios de InnerSource no se pueden realizar. Como resultado, InnerSource se desacredita posteriormente.
+Los gerentes percibirán el modelo de trabajo InnerSource como un cambio radical respecto a los modelos de trabajo a los que están acostumbrados y con los que tienen experiencia. Como consecuencia, es probable que rechacen o microgestionen la iniciativa InnerSource para tratar de minimizar el riesgo percibido de este cambio. En ambos casos, los beneficios de InnerSource no se pueden materializar. Como resultado, InnerSource se desacredita posteriormente.
 
 ## Contexto
 
-La empresa A quiere introducir su primera iniciativa InnerSource. La mayoría de los gerentes de la empresa A no están familiarizados con el modelo de trabajo de código abierto y, en cambio, están acostumbrados a la gestión jerárquica y de control descendente.
+La empresa A quiere introducir su primera iniciativa InnerSource. La mayoría de los gerentes de la empresa A no están familiarizados con el modelo de trabajo de código abierto y, en cambio, están acostumbrados a la gestión jerárquica y centralizada.
 
 ## Resistencias
 
@@ -24,7 +24,7 @@ La empresa A quiere introducir su primera iniciativa InnerSource. La mayoría de
 
 - Establecer un comité de revisión compuesto por gerentes senior de todas las unidades de negocio que participan en la iniciativa InnerSource.
 - Los miembros del comité de revisión tienen la autoridad para decidir en grupo qué proyectos InnerSource recibirán apoyo en general y financiación en particular.
-- Los solicitantes pueden ser elegidos por los miembros del comité de revisión antes de las reuniones para presentar su proyecto InnerSource propuesto durante las reuniones del comité de revisión para su consideración.
+- Los miembros del comité pueden seleccionar a solicitantes antes de las reuniones para que presenten su proyecto InnerSource durante las sesiones del comité.
 - Los líderes de los proyectos InnerSource actualmente financiados por el comité de revisión están obligados a informar sobre el estado de su proyecto durante cada reunión del comité de revisión.
 - Los miembros del comité de revisión están obligados a proporcionar comentarios constructivos tanto a los nuevos solicitantes como a los líderes de proyectos actuales durante las reuniones del comité de revisión.
 - A cada proyecto InnerSource se le debe dar la oportunidad de reaccionar a los comentarios recibidos en una sesión del comité de revisión hasta la siguiente sesión para evitar cerrar el proyecto prematuramente.
@@ -59,4 +59,4 @@ Interfaz de Queso
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

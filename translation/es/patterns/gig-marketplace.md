@@ -4,7 +4,7 @@ Mercado de Gigs
 
 ## Patlet
 
-Establece un mercado creando un sitio web interno que liste necesidades específicas de proyectos InnerSource como "Gigs" con requisitos explícitos de tiempo y habilidades. Esto permitirá a los gerentes comprender mejor el compromiso de tiempo de sus empleados y los beneficios profesionales, aumentando así la probabilidad de obtener aprobación para realizar contribuciones InnerSource.
+Establece un mercado creando un sitio web interno donde se publiquen necesidades específicas de proyectos InnerSource como "Gigs" con requisitos explícitos de tiempo y habilidades. Esto permitirá a los gerentes comprender mejor el compromiso de tiempo de sus empleados y los beneficios profesionales, aumentando así la probabilidad de obtener aprobación para realizar contribuciones InnerSource.
 
 ## Problema
 
@@ -35,7 +35,7 @@ Los empleados desearían poder conocer las actividades que se llevan a cabo en o
 
 ## Soluciones
 
-Crea un sitio intranet basado en “Gigs” donde las personas puedan anunciar sus habilidades y áreas de interés y los propietarios de proyectos InnerSource puedan anunciar oportunidades de colaboración.
+Crea un sitio interno basado en “Gigs” donde las personas puedan anunciar sus habilidades y áreas de interés y los propietarios de proyectos InnerSource puedan anunciar oportunidades de colaboración.
 
 Los empleados deberían poder crear un perfil dentro de la aplicación en el que puedan listar sus habilidades y áreas de interés. El sistema debería aprovechar esta información informando proactivamente a las personas (por correo electrónico u otro medio) cuando se publique un Gig que coincida con uno o más de esos criterios.
 
@@ -74,4 +74,4 @@ Cuando se usa en combinación con el patrón del Portal InnerSource, el Mercado 
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

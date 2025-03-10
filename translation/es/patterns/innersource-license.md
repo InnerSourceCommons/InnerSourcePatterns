@@ -112,4 +112,4 @@ Para más detalles, vea la llamada de la Comunidad InnerSource Commons de 09/202
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

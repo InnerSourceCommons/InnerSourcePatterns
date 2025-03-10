@@ -21,7 +21,7 @@ Los equipos desarrollan ideas divergentes sobre cuáles son los objetivos de Inn
 Los primeros experimentos en una organización han demostrado que las mejores prácticas de colaboración en open source pueden ser beneficiosas.
 El siguiente paso ahora es mover la iniciativa a equipos e individuos que carecen de un profundo conocimiento en open source.
 
-El objetivo ahora es comunicar claramente los objetivos de la iniciativa InnerSource así como un camino claro hacia la consecución de estos objetivos.
+El objetivo ahora es comunicar claramente los objetivos de la iniciativa InnerSource así como un camino definido para lograr los objetivos.
 
 ## Contexto
 
@@ -145,7 +145,7 @@ Un buen resumen de los principios es dejar el área en tan buen estado o mejor q
 
 Con eso en mente, aquí están los principios en los que estamos de acuerdo:
 
-- Evitar productos mínimos viables (MVP) que acumulen deuda de características. Está bien lanzar un MVP para obtener comentarios de los clientes, pero el equipo contribuyente debe comprometerse a terminar el conjunto de características. Ejemplos incluyen:
+- Evitar productos mínimos viables (MVP) que acumulen deuda técnica. Está bien lanzar un MVP para obtener comentarios de los clientes, pero el equipo contribuyente debe comprometerse a terminar el conjunto de características. Ejemplos incluyen:
   - Compromiso de ir más allá del MVP a una solución que satisfaga a la mayoría de los clientes.
   - Soporte completo para la administración de nuevas características (por ejemplo, soporte en la interfaz de usuario de configuración en lugar de solo hacer una línea de comando).
   - Características de superficie tanto en la interfaz de usuario como en la API en lugar de solo entregar una API (o viceversa)
@@ -215,4 +215,4 @@ Principios InnerSource Explícitos
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

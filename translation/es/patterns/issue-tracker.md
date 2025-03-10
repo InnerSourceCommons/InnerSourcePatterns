@@ -4,11 +4,11 @@ Casos de Uso del Issue Tracker
 
 ## Patlet
 
-El equipo anfitrión de InnerSource no logra hacer transparentes no solo los planes y el progreso sino también el contexto de los cambios. Esto se resuelve aumentando los casos de uso del issue tracker del proyecto para también servir en lluvia de ideas, discusión de implementación y diseño de funcionalidades.
+El equipo anfitrión de InnerSource no logra hacer transparentes no solo los planes y el progreso sino también el contexto de los cambios. Esto se resuelve aumentando los casos de uso del issue tracker del proyecto para también servir como herramienta de lluvia de ideas, discusión de implementación y diseño de funcionalidades.
 
 ## Problema
 
-Un equipo desarrolla un componente del que dependen muchos equipos en la organización. Utiliza un issue tracker estándar para rastrear errores abiertos y solicitudes de características. Sin embargo, el contexto en cada entrada es muy limitado. Como resultado, los posibles contribuyentes no tienen forma de saber de qué cambio exactamente está hablando cada problema.
+Un equipo desarrolla un componente del que dependen muchos equipos en la organización. Utiliza un issue tracker estándar para rastrear errores abiertos y solicitudes de características. Sin embargo, el contexto en cada entrada es muy limitado. Como resultado, los posibles contribuyentes no tienen forma de saber de qué cambio exactamente está hablando cada issue.
 
 ## Contexto
 
@@ -18,17 +18,17 @@ El tooling del proyecto InnerSource está todo configurado. Sin embargo, el issu
 
 - A los contribuyentes les gustaría entender si la característica que les falta ya está en la hoja de ruta. Sin embargo, con mucho contexto faltante en los problemas, es imposible decidir si los problemas existentes coinciden con las necesidades del equipo contribuyente.
 - Como resultado, se abren muchos problemas duplicados que el equipo anfitrión tiene que manejar.
-- Dado que el contexto en los problemas abiertos es tan limitado, los contribuyentes no pueden ayudar al equipo anfitrión implementando algunos problemas más fáciles que ya están abiertos. Como resultado, mucho trabajo permanece en manos del equipo anfitrión.
+- Debido a la falta de contexto en los issues abiertos, los contribuyentes no pueden ayudar al equipo anfitrión a implementar tareas más sencillas ya disponibles. Como resultado, mucho trabajo permanece en manos del equipo anfitrión.
 - Con un fuerte enfoque en la comunicación verbal, es imposible discernir después de un par de meses o años por qué se eligió implementar una característica en particular. Como resultado, las refactorizaciones, en particular la simplificación del componente, se convierten en un ejercicio de arqueología de proyectos y de recoger ideas de personas que recuerdan lo que se discutió.
 
 ## Solución
 
-Adopte la filosofía de "escrito sobre verbal" no solo para el desarrollo de software puro, sino también durante la fase de planificación de nuevas características:
+Adopte la filosofía de 'priorizar lo escrito sobre lo verbal' no solo en el desarrollo de software, sino también durante la fase de planificación de nuevas características:
 
 - Para errores, características planificadas e ideas de características, cree problemas separados. En cada uno de ellos, incluya tanta información como sea posible para que los posibles contribuyentes externos puedan entender el contexto. Idealmente, en particular para cambios más fáciles, incluya suficiente información para que los contribuyentes externos apoyen al equipo anfitrión implementando la funcionalidad en cuestión.
 - Potencialmente use el issue tracker como un canal para hacer preguntas. Esto es particularmente útil si carece de otras fuentes de comunicación para abordar las preguntas de los usuarios.
 - Haga uso de etiquetas y categorías para distinguir problemas utilizados para diferentes propósitos.
-- Para iniciar una sesión de lluvia de ideas de manera asincrónica, abra un problema para recopilar ideas. Cuando la discusión comience a calmarse, resuma los puntos identificados en este problema en un documento separado. Publíquelo para revisión como una solicitud de extracción para profundizar en los puntos individuales que aún necesitan aclaración. El documento resultante se puede utilizar para publicar los resultados en otros canales apropiados, así como para referencia futura.
+- Para iniciar una sesión de lluvia de ideas de manera asincrónica, abra un issue para recopilar ideas. Cuando la discusión comience a calmarse, resuma los puntos identificados en este issue en un documento separado. Publíquelo para revisión como un pull request para profundizar en los puntos individuales que aún necesitan aclaración. El documento resultante se puede utilizar para publicar los resultados en otros canales apropiados, así como para referencia futura.
 - La mayoría de las implementaciones de issue tracker permiten plantillas de problemas. Utilice estas no solo para recopilar información comúnmente necesaria para informes de errores, sino también incluya pistas sobre qué tipo de información se necesita para los otros tipos de uso.
 
 ## Contexto Resultante
@@ -53,4 +53,4 @@ Estructurado
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

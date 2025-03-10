@@ -4,11 +4,11 @@ Toma de Decisiones Transparente Entre Equipos usando RFCs
 
 ## Patlet
 
-Los proyectos InnerSource que buscan alcanzar altas tasas de participación y tomar las mejores decisiones posibles para todos los involucrados necesitan encontrar formas de crear sistemas participativos a lo largo de todo el ciclo de vida del software. La publicación de documentos internos de Solicitud de Comentarios (RFC) permite discusiones desde el inicio del proceso de diseño y aumenta las probabilidades de construir soluciones con un alto grado de compromiso de todas las partes involucradas.
+Los proyectos InnerSource que buscan alcanzar altas tasas de participación y tomar las mejores decisiones posibles para todos los involucrados. Por ello necesitan encontrar formas de crear sistemas participativos a lo largo de todo el ciclo de vida del software. La publicación de documentos internos de Solicitud de Comentarios (RFC) permite discusiones desde el inicio del proceso de diseño y aumenta las probabilidades de construir soluciones con un alto grado de compromiso de todas las partes involucradas.
 
 ## Problema
 
-Para que un proyecto InnerSource sea saludable, necesita una cantidad sustancial de contribuyentes. Estos contribuyentes (o equipos) pueden tener diferentes requisitos para el proyecto dado. Por ejemplo, pueden querer agregar características al proyecto que no sean compatibles entre sí o que conduzcan a una sobrecarga no saludable en la arquitectura.
+Para que un proyecto InnerSource prospere, necesita una cantidad sustancial de contribuyentes. Estos contribuyentes (o equipos) pueden tener diferentes requisitos para el proyecto dado. Por ejemplo, pueden querer agregar características al proyecto que no sean compatibles entre sí o que conduzcan a una sobrecarga no saludable en la arquitectura.
 
 Descubrir tales desacuerdos o malentendidos tarde en el proceso, por ejemplo, una vez que el software ya ha sido construido, es muy costoso. Estos desacuerdos pueden llevar a frustraciones por parte de todos los involucrados e incluso pueden ser perjudiciales para la salud de la cultura de colaboración en el proyecto. Una situación común donde surge tal desacuerdo es una solicitud de cambio (pull request) que está abierta durante mucho tiempo porque el autor de la solicitud de cambio y los mantenedores del proyecto esencialmente no están de acuerdo en que el cambio propuesto deba realizarse.
 
@@ -53,7 +53,7 @@ Elementos importantes de la solución son:
     - Cómo publicar un RFC y compartirlo con todos los interesados (por ejemplo, Slack, lista de correo)
     - Cómo recopilar comentarios para el RFC
     - Cómo trabajar en los comentarios
-    - Cómo mover el RFC hacia una conclusión o decisión (por ejemplo, mantenedores nominados relevantes para aprobar)
+    - Cómo llevar el RFC hacia una conclusión o decisión (por ejemplo, mantenedores nominados relevantes para aprobar)
     - Herramientas apropiadas elegidas (por ejemplo, los no ingenieros pueden no tener acceso a herramientas de control de versiones)
 - Un compromiso para iterar en la plantilla y el proceso de RFC
 
@@ -86,7 +86,7 @@ El enfoque de RFC también tiene riesgos que queremos señalar:
 
 ## Justificación
 
-Los RFCs se han demostrado a sí mismos en el mundo del código abierto durante muchos años. Esto es cierto tanto para Internet en su conjunto, donde los RFCs han sido instrumentales en el desarrollo de estándares (ver [30 Años de RFCs][30-years-of-rfcs]), como para otros proyectos de código abierto que han adaptado este método para promover la toma de decisiones transparente en su comunidad (por ejemplo, [RUST][rust], [ZeroMQ][zeromq]).
+Los RFCs se han demostrado a sí mismos en el mundo del código abierto durante muchos años. Esto es cierto tanto para Internet en su conjunto, donde los RFCs han sido fundamentales en el desarrollo de estándares (ver [30 Años de RFCs][30-years-of-rfcs]), como para otros proyectos de código abierto que han adaptado este método para promover la toma de decisiones transparente en su comunidad (por ejemplo, [RUST][rust], [ZeroMQ][zeromq]).
 
 En el contexto de InnerSource, otras empresas también han compartido sus experiencias con enfoques similares a RFC, como [Uber][uber] y [Europace][europace].
 
@@ -129,4 +129,4 @@ Estructurado
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

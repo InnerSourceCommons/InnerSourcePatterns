@@ -40,7 +40,7 @@
 
 #### ¿Podemos confiar en el proyecto por un período prolongado?
 
-##### [Proceso de Liberación Estándar](https://patterns.innersourcecommons.org/p/release-process)
+##### [Proceso de Publicación Estándar](https://patterns.innersourcecommons.org/p/release-process)
 
 ##### [Documentación Base Estándar](https://patterns.innersourcecommons.org/p/base-documentation)
 

@@ -48,7 +48,7 @@ Todo esto se puede obtener y calcular automáticamente utilizando el conjunto de
 
 El código a continuación asume que la variable `repo` contiene una entidad obtenida de la API de `búsqueda` de GitHub y el objeto `participation` contiene una entidad de la API de `stats/participation` de GitHub.
 
-Se pueden hacer ajustes manuales según los KPIs suaves (ver [Resistencias](#resistencias)) si es necesario.
+Se pueden hacer ajustes manuales según los KPIs cualitativos (ver [Resistencias](#resistencias)) si es necesario.
 
 ``` javascript
 // calcular una puntuación virtual de InnerSource a partir de estrellas, observadores, commits y problemas
@@ -102,7 +102,7 @@ function calculateScore(repo) {
 
 Los contribuidores son libres de dedicar parte de su tiempo a proyectos InnerSource. Pueden elegir contribuir a un proyecto del que dependen para el trabajo en su equipo regular de todos modos. Sin embargo, también pueden optar por contribuir a algo completamente diferente, basado en sus intereses y objetivos de desarrollo personal.
 
-Los proyectos pueden ordenarse y presentarse por puntuación de actividad del repositorio para dar un orden significativo en un portal que presenta proyectos a nuevos contribuidores potenciales. La puntuación se puede calcular sobre la marcha o en un trabajo en segundo plano que evalúa todos los proyectos regularmente y almacena una lista de resultados.
+Los proyectos pueden ordenarse y presentarse por puntuación de actividad del repositorio para establecer un orden relevante en un portal que presenta proyectos a nuevos contribuidores potenciales. La puntuación se puede calcular sobre la marcha o en un trabajo en segundo plano que evalúa todos los proyectos regularmente y almacena una lista de resultados.
 
 Un rastreador que busca regularmente todos los repositorios InnerSource (por ejemplo, etiquetados con un cierto [tema](https://github.com/topics) en GitHub) también puede ser una adición útil. Proporciona una lista clasificada de proyectos que se puede usar como entrada para herramientas como el [Portal InnerSource](innersource-portal.md), un motor de búsqueda o un chatbot interactivo.
 
@@ -134,4 +134,4 @@ La puntuación de actividad del repositorio es un cálculo simple basado en la A
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

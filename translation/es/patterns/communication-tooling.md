@@ -52,7 +52,7 @@ Con las preguntas siendo respondidas en público, más personas pueden agregar s
 
 Mantener la comunicación en canales asincrónicos permite que los participantes con diferentes horarios - ya sea debido a diferentes zonas horarias o debido a diferentes rutinas, horarios de reuniones, rutinas de equipo - contribuyan significativamente al proyecto.
 
-Responder preguntas en estos canales significa que no solo otros miembros del equipo pueden escuchar y proporcionar información adicional, sino que también significa que otros usuarios con la misma pregunta ven (o encuentran más tarde) la respuesta anterior, lo que lleva a una menor necesidad de repetir explicaciones.
+Responder preguntas en estos canales significa que no solo otros miembros del equipo pueden escuchar y proporcionar información adicional, sino que también que otros usuarios con la misma pregunta ven (o encuentran más tarde) la respuesta anterior, lo que lleva a una menor necesidad de repetir explicaciones.
 
 ## Instancias Conocidas
 
@@ -79,4 +79,4 @@ Ilustraciones de [People](https://storyset.com/people) por Storyset
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

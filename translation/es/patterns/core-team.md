@@ -4,7 +4,7 @@ Equipo Central (Core Team)
 
 ## Patlet
 
-Incluso cuando un proyecto InnerSource es ampliamente necesario, las contribuciones y el uso pueden verse obstaculizados porque el proyecto es difícil de trabajar.
+Incluso cuando un proyecto InnerSource es ampliamente necesario, las contribuciones y el uso pueden verse obstaculizados porque el proyecto es difícil de manejar.
 Establece un equipo central dedicado a ocuparse de los elementos fundamentales del proyecto. Su trabajo permite que los contribuyentes agreguen y utilicen las funciones que aportan valor a sus escenarios.
 
 ## Problema
@@ -27,7 +27,7 @@ Hay un proyecto central del que todos dependen.
 ¡Qué gran candidato para InnerSource!
 Desafortunadamente, el proyecto ha crecido orgánicamente, con varias contribuciones y adiciones hechas de manera desordenada.
 Ahora es un lío espeso de código que nadie entiende y todos temen tocar.
-Claramente necesita una revisión (por ejemplo, refactorización, pruebas, documentación, etc.), pero aunque todos necesitan y quieren que ese trabajo se realice, nadie se toma el tiempo para hacerlo.
+Claramente necesita una revisión (por ejemplo, refactorización, pruebas, documentación, etc.), pero, aunque todos lo consideran necesario, nadie se toma el tiempo para hacerlo.
 
 ## Contexto
 
@@ -44,9 +44,9 @@ Claramente necesita una revisión (por ejemplo, refactorización, pruebas, docum
 ## Solución
 
 Forma un equipo central cuyo trabajo sea mantener este proyecto en un estado que permita a otros integrarse y contribuir fácilmente.
-Este equipo central realiza el trabajo necesario para un ecosistema de uso y contribución saludable.
+Este equipo se encarga de garantizar un ecosistema saludable para el uso y la contribución.
 Este trabajo crítico tiende a no ser priorizado como una contribución.
-Las categorías de este tipo de trabajo incluyen comunicación, entorno local e infraestructura de DevOps.
+Las principales áreas de enfoque incluyen comunicación, entorno local e infraestructura de DevOps.
 
 Aquí hay algunos ejemplos específicos:
 
@@ -94,7 +94,7 @@ El equipo central llena esos vacíos y engrasa las ruedas para que el ecosistema
 
 ## Instancias Conocidas
 
-* **Nike** implementó este patrón para gestionar el esfuerzo InnerSource en torno a sus pipelines reutilizables de CI/CD.
+* **Nike** implementó este patrón para gestionar su iniciativa InnerSource en torno a sus pipelines reutilizables de CI/CD.
 * **WellSky** estableció un Equipo Central para un proyecto clave. Esto les permitió escalar significativamente sus contribuciones InnerSource a ese proyecto - ver [Wide-Scaled InnerSource with a Core Team](https://www.youtube.com/watch?v=kgxexjYdhIc).
 * **BBVA AI Factory** implementó este patrón como parte de una estrategia InnerSource para fomentar la contribución y reutilización del código de ciencia de datos - ver [Mercury: Scaling Data Science reusability at BBVA](https://www.bbvaaifactory.com/mercury-acelerando-la-reutilizacion-en-ciencia-de-datos-dentro-de-bbva/).
 
@@ -111,4 +111,4 @@ Estructurado
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

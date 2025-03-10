@@ -10,7 +10,7 @@ Mantén el proyecto activo formando un grupo de personas interesadas.
 ## Problema
 
 * Un proyecto InnerSource popular queda huérfano.
-* No hay un destino obvio donde pueda aterrizar.
+* No tiene un equipo claro que lo adopte.
 
 ## Historia
 
@@ -87,4 +87,4 @@ Estructurado
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

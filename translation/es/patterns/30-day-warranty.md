@@ -4,7 +4,7 @@ Garantía de 30 Días
 
 ## Patlet
 
-Al aceptar contribuciones de fuera de tu propio equipo, existe una aversión natural a asumir la responsabilidad del código no escrito por el equipo mismo. A través de la Garantía de 30 Días, el equipo contribuyente se compromete a proporcionar correcciones de errores al equipo receptor, lo que aumentará el nivel de confianza entre ambos equipos y hace más probable que se acepten las contribuciones.
+Al aceptar contribuciones externas, es natural que un equipo tenga cierta aversión a asumir la responsabilidad de código escrito por otros. A través de la Garantía de 30 Días, el equipo contribuyente se compromete a proporcionar correcciones de errores al equipo receptor, lo que aumentará el nivel de confianza entre ambos equipos y hace más probable que se acepten las contribuciones.
 
 ## Problema
 
@@ -18,10 +18,10 @@ Un equipo desarrolla un componente que se utiliza en toda una organización. Est
 ## Resistencias
 
 - Existe desconfianza hacia las contribuciones debido a un historial de engaños: los equipos enviaron contribuciones a medio terminar y posteriormente presentaron solicitudes de correcciones para hacerlas listas para su uso en producción.
-- Si el código es contribuido desde fuera del equipo, el equipo tiene la sospecha natural de que el otro equipo no sabe cómo escribir código que cumpla con las expectativas del equipo receptor.
+- Si el código es contribuido desde fuera del equipo, se tiene la sospecha natural de que el otro equipo no sabe cómo escribir código que cumpla con las expectativas del equipo receptor.
 - Cada equipo busca primero ayudar a sus propios líderes a alcanzar sus objetivos. Esta dirección de lealtad puede complicar la resolución de este problema.
 - Existe una aversión natural a asumir la responsabilidad del código no escrito por uno mismo.
-- El código contribuido necesita ser reescrito considerablemente antes de ser aceptado en la base de código.
+- El código contribuido necesita ser reescrito considerablemente antes de ser aceptado en el código fuente.
 - Existe el temor de que los contribuyentes no estén disponibles para el soporte en la corrección de errores después del momento de la contribución.
 - Los equipos temen que el código contribuido lleve a costos de mantenimiento más altos pero no saben cómo controlarlo.
 - Los equipos receptores pueden temer que enseñar a otros cómo contribuir código expondrá deuda técnica en su sistema y que esa visibilidad pueda ser dañina.
@@ -32,7 +32,7 @@ Un equipo desarrolla un componente que se utiliza en toda una organización. Est
 
 Aborda los temores de ambos equipos, tanto el receptor como el contribuyente, estableciendo un **período de garantía de 30 días** que comienza cuando el código contribuido entra en producción. Durante este período de garantía, el equipo contribuyente acepta proporcionar correcciones de errores al equipo receptor.
 
-Ten en cuenta que el período de garantía podría ser de 45, 60 o 100 días también. La duración puede variar según las restricciones del proyecto, el ciclo de vida del software del proyecto, los compromisos con los clientes y otros factores.
+El período de garantía puede extenderse a 45, 60 o incluso 100 días, según las necesidades del proyecto. La duración puede variar según las restricciones del proyecto, el ciclo de vida del software del proyecto, los compromisos con los clientes y otros factores.
 
 Además, ayuda proporcionar [directrices de contribución](./base-documentation.md) claras, detallando las expectativas tanto del equipo receptor como del equipo contribuyente.
 
@@ -73,4 +73,4 @@ Además, ayuda proporcionar [directrices de contribución](./base-documentation.
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

@@ -36,7 +36,7 @@ Hay dos aspectos para resolver este problema que deben realizarse en paralelo:
 1. Alinear los requerimientos de los proyectos para que el código que cumple los requerimientos de un proyecto también satisfaga las necesidades de los otros proyectos.
 2. Refactorizar el código en piezas más pequeñas para las cuales los múltiples proyectos que lo utilizan puedan acordar requerimientos.
 
-Adicionalmente, aprovechar que los clientes esperan que el proveedor ayude a elucidar los requerimientos. Lograr la alineación de requerimientos durante las negociaciones con el cliente e influir en los requerimientos del cliente en lugar de cambiar el componente.
+Adicionalmente, aprovechar que los clientes esperan que el proveedor ayude a comprender los requerimientos. Lograr la alineación de requerimientos durante las negociaciones con el cliente e influir en los requerimientos del cliente en lugar de cambiar el componente.
 
 En el ejemplo presentado anteriormente, el proveedor ayuda a ambos clientes a darse cuenta de que quieren lo mismo, y ahorrará esfuerzo (y dinero) a todos si acuerdan aceptar el resultado en el mismo formato.
 
@@ -73,4 +73,4 @@ Robert Hanmer
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

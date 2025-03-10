@@ -12,13 +12,13 @@ Se considera una iniciativa InnerSource pero no se inicia porque la gerencia tie
 
 ## Contexto
 
-La empresa está considerando InnerSource para aumentar la eficiencia de la colaboración en proyectos de software. Sin embargo, la mayoría de los gerentes no están familiarizados con el modelo de trabajo de Open Source y, en cambio, están acostumbrados a un estilo de gestión jerárquico y de control de arriba hacia abajo. La idea de InnerSource es muy popular entre los desarrolladores de software de la empresa, no menos porque muchos desarrolladores usan o están desarrollando activamente software de Open Source.
+La empresa está considerando InnerSource para aumentar la eficiencia de la colaboración en proyectos de software. Sin embargo, la mayoría de los gerentes no están familiarizados con el modelo de trabajo de Open Source y, en cambio, están acostumbrados a un estilo de gestión jerárquico y de control de arriba hacia abajo. La idea de InnerSource es muy popular entre los desarrolladores de software de la empresa, porque muchos desarrolladores usan o están desarrollando activamente software de Open Source.
 
 ## Resistencias
 
 - Los gerentes querrán validar las afirmaciones de mejora de la colaboración a través de InnerSource antes de hacer una inversión a largo plazo. Esto generalmente implica medir las mejoras.
-- Si la iniciativa InnerSource probablemente tendrá una gran aceptación entre los desarrolladores y si muchos proyectos probablemente dependerán de ella, una decisión de cerrarla será muy impopular y, por lo tanto, difícil de tomar. La pérdida de control percibida podría disuadir a algunos gerentes de siquiera comenzar con InnerSource.
-- Implementar modelos de trabajo al estilo InnerSource a menudo es un cambio radical con respecto a los modelos de trabajo practicados anteriormente. Por lo tanto, es probable que los procesos obligatorios existentes ya no sean aplicables y que falten los procesos de gobierno apropiados. El resultado podría ser que uno tenga que operar en una tierra de nadie regulatoria, a veces legal. Ejemplos son las regulaciones relacionadas con impuestos y control de exportaciones en grandes corporaciones con múltiples entidades legales en múltiples países.
+- Si la iniciativa InnerSource probablemente tendrá una gran aceptación entre los desarrolladores y si muchos proyectos dependerán de ella, una decisión de cerrarla será muy impopular y, por lo tanto, difícil de tomar. La pérdida de control percibida podría disuadir a algunos gerentes de siquiera comenzar con InnerSource.
+- Implementar modelos de trabajo al estilo InnerSource a menudo es un cambio radical con respecto a los modelos de trabajo practicados anteriormente. Por lo tanto, es probable que los procesos obligatorios existentes ya no sean aplicables y que falten los procesos de gobierno apropiados. Esto podría llevar a operar en un vacío regulatorio, e incluso legal. Ejemplos son las regulaciones relacionadas con impuestos y control de exportaciones en grandes corporaciones con múltiples entidades legales en múltiples países.
 
 ## Solución
 
@@ -38,7 +38,7 @@ Considera designar el final del experimento como un punto de _pivot_, _cambio_ o
 
 Los gerentes pueden iniciar InnerSource por las siguientes razones:
 
-- La configuración experimental reduce la necesidad de que los gerentes examinen los números del programa InnerSource de la misma manera que lo harían con los proyectos típicos.
+- La configuración experimental reduce la necesidad de que los gerentes examinen los indicadores del programa InnerSource de la misma manera que lo harían con los proyectos típicos.
 - La posibilidad de fracaso del experimento se entiende y se acepta. El riesgo personal para los gerentes que apoyan se minimiza.
 - Incluso en caso de fracaso, la configuración asegura que la empresa aprenderá del experimento.
 - En caso de éxito, los datos recopilados durante el experimento permitirán a los gerentes comprometerse a largo plazo con InnerSource.
@@ -76,4 +76,4 @@ Finalmente, comenzar como un experimento facilita mucho eludir las regulaciones 
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

@@ -4,7 +4,7 @@ Modelo de Madurez
 
 ## Patlet
 
-Los equipos han comenzado a adoptar InnerSource. La práctica se está extendiendo a múltiples departamentos. Sin embargo, la comprensión de lo que constituye un proyecto InnerSource varía. La solución es proporcionar un modelo de madurez que permita a los equipos realizar una autoevaluación y descubrir patrones y prácticas que aún no conocen.
+Los equipos han comenzado a adoptar InnerSource. La práctica se está expandiendo a múltiples departamentos. Sin embargo, la comprensión de lo que constituye un proyecto InnerSource varía. La solución es proporcionar un modelo de madurez que permita a los equipos realizar una autoevaluación y descubrir patrones y prácticas que aún no conocen.
 
 ## Problema
 
@@ -80,12 +80,12 @@ Cuando se trabaja en equipos anfitriones, los errores serán automáticamente vi
 
 Para que los silos se reduzcan, los colegas deben sentirse cómodos compartiendo retroalimentación abiertamente. Una forma fácil de apoyar eso es usar los mismos principios de comunicación a través de las jerarquías.
 
-Idealmente, terminarás con canales de comunicación adecuados que sean conocidos por todos en la organización, con canales enfocados en diferentes objetivos (anuncios, soporte al usuario, canales de desarrollo, discusiones de infraestructura, etc.). Algunas de las mejores prácticas que establecerás a medida que tus proyectos InnerSource maduren: Adopción de pautas de netiqueta, apertura de un conjunto probado de canales estándar (que se archivan, son de acceso público, se pueden buscar) para cada nuevo proyecto InnerSource.
+Idealmente, se establecerán canales de comunicación adecuados que sean conocidos por todos en la organización, con canales enfocados en diferentes objetivos (anuncios, soporte al usuario, canales de desarrollo, discusiones de infraestructura, etc.). Algunas de las mejores prácticas que establecerás a medida que tus proyectos InnerSource maduren: Adopción de pautas de netiqueta, apertura de un conjunto probado de canales estándar (que se archivan, son de acceso público, se pueden buscar) para cada nuevo proyecto InnerSource.
 
 * CF-0: No hay procesos ni canales establecidos. Algunos miembros de la organización comparten materiales a través de canales o discusiones privadas.
 * CF-1: La organización está en proceso de establecer pautas y canales internos para fomentar diversos puntos de vista sobre decisiones de la empresa/departamento, para que cualquier persona que pertenezca a la organización pueda usarlos. Algunos miembros de la organización comparten materiales de toma de decisiones de manera informal utilizando plataformas no oficiales. Los líderes mantienen al menos un canal claro y directo para que los miembros de la organización compartan opiniones constructivamente sobre algunos asuntos relevantes para su trabajo.
 * CF-2: La organización ha establecido pautas y canales internos, y proporciona recursos específicos (programas de capacitación, acceso a contenido, etc.) para fomentar y solicitar diversos puntos de vista sobre decisiones de equipo o de la organización.
-* CF-3: Los miembros de la organización comparten materiales de toma de decisiones en plataformas oficialmente sancionadas. Los miembros de la organización comparten materiales abiertamente a través de múltiples canales y métodos para recibir retroalimentación. Los líderes usan esos canales ellos mismos, alientan abiertamente a otros a usarlos y mantienen registros orientados al equipo o al público de la retroalimentación que han recibido y/o las acciones que han tomado para abordar esta retroalimentación.
+* CF-3: Los miembros de la organización comparten materiales de toma de decisiones en plataformas oficialmente sancionadas. Los miembros de la organización comparten materiales abiertamente a través de múltiples canales y métodos para recibir retroalimentación. Los líderes también utilizan esos canales, alientan abiertamente a otros a usarlos y mantienen registros orientados al equipo o al público de la retroalimentación que han recibido y/o las acciones que han tomado para abordar esta retroalimentación.
 
 **Liderazgo**
 
@@ -218,4 +218,4 @@ Modelo de madurez: Aprender sobre las mejores prácticas de InnerSource
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

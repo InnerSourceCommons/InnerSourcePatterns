@@ -35,7 +35,7 @@ No existe un recurso único y compartido para que los empleados de toda la organ
 
 ## Resistencias
 
-* No se está realizando todo el potencial para que equipos de ingeniería separados colaboren en desafíos compartidos.
+* No No se está aprovechando completamente el potencial de colaboración entre equipos de ingeniería.
 * Es difícil para los individuos descubrir qué proyectos InnerSource existen.
 * Es difícil para los propietarios de proyectos InnerSource atraer una audiencia de contribuidores externos.
 
@@ -94,7 +94,7 @@ Es una buena solución para un portal con unas pocas docenas de proyectos, sin e
 ## Instancias Conocidas
 
 * **Una gran organización de servicios financieros** ha utilizado la creación de un Portal InnerSource para proporcionar un mecanismo de publicidad y descubrimiento de proyectos InnerSource en existencia en diferentes unidades de negocio.
-* **SAP** promueve proyectos InnerSource en el Portal InnerSource: los proyectos pueden auto-registrarse utilizando temas de GitHub. El [Puntaje de Actividad del Repositorio](repository-activity-score.md) define el orden predeterminado de los proyectos InnerSource en el portal. También ver [Michael Graf & Harish B (SAP) en ISC.S11 - El Camino Inesperado de Aplicar Patrones InnerSource](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6). Su base de código se publica como una [implementación de referencia](https://github.com/SAP/project-portal-for-innersource) y está abierta a contribuciones.
+* **SAP** promueve proyectos InnerSource en el Portal InnerSource: los proyectos pueden auto-registrarse utilizando temas de GitHub. El [Puntaje de Actividad del Repositorio](repository-activity-score.md) define el orden predeterminado de los proyectos InnerSource en el portal. También ver [Michael Graf & Harish B (SAP) en ISC.S11 - El Camino Inesperado de Aplicar Patrones InnerSource](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6). Su código fuente se publica como una [implementación de referencia](https://github.com/SAP/project-portal-for-innersource) y está abierta a contribuciones.
 * **Elbit Systems** ha utilizado este patrón y ha añadido gamificación encima.
   * [Gamificación Como Medio de Cambio Cultural y Potenciador de Compromiso InnerSource](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
   * De Islas, Monstruos y InnerSource [(diapositivas)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Irlanda)
@@ -130,4 +130,4 @@ Es una buena solución para un portal con unas pocas docenas de proyectos, sin e
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

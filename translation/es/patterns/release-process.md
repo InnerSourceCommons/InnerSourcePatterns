@@ -1,6 +1,6 @@
 ## Title
 
-Proceso Estándar de Liberación
+Proceso Estándar de Publicación
 
 ## Patlet
 
@@ -12,7 +12,7 @@ Cuando un equipo está decidiendo si usar un proyecto InnerSource, una de sus co
 
 Es una práctica común para los proyectos de código abierto tener versiones versionadas, con notas que documentan cambios importantes y nuevas características junto con un binario publicado o un enlace a una imagen de Docker. Esta práctica puede no ser tan transparente o bien documentada/visible para los proyectos InnerSource, módulos, etc.
 
-Los proyectos InnerSource que no tienen un artefacto publicado o un proceso de liberación reducen la confianza. Los equipos no sabrán cuándo pueden esperar la próxima versión, cuándo se introducen cambios importantes, etc.
+Los proyectos InnerSource que no tienen un artefacto publicado o un proceso de publicación reducen la confianza. Los equipos no sabrán cuándo pueden esperar la próxima versión, cuándo se introducen cambios importantes, etc.
 
 ## Contexto
 
@@ -26,7 +26,7 @@ A medida que una organización crece y se escribe más software interno, el valo
 
 ### Difícil para organizaciones que no tienen un sistema CI/CD central
 
-Para las organizaciones que no proporcionan a los ingenieros un sistema CI/CD centralizado, automatizar un proceso de construcción y liberación puede ser un desafío. El equipo puede necesitar implementar su propia herramienta (Jenkins, Drone, etc). Sin un sistema CI/CD, las construcciones y las notas de versión aún se pueden producir, sin embargo, puede requerir una construcción local del software y una carga manual a la herramienta que esté alojando los artefactos de construcción.
+Para las organizaciones que no proporcionan a los ingenieros un sistema CI/CD centralizado, automatizar un proceso de construcción y publicación puede ser un desafío. El equipo puede necesitar implementar su propia herramienta (Jenkins, Drone, etc). Sin un sistema CI/CD, las construcciones y las notas de versión aún se pueden producir, sin embargo, puede requerir una construcción local del software y una carga manual a la herramienta que esté alojando los artefactos de construcción.
 
 ### Carga adicional de publicar notas de versión
 
@@ -38,11 +38,11 @@ Si una empresa no proporciona una ubicación centralizada para almacenar artefac
 
 ## Solución
 
-Al proporcionar **notas de versión** claras y un artefacto publicado, aumentas la confianza de las personas en que estás publicando un producto de calidad en el que pueden confiar.
+Al proporcionar **notas de versión** claras y un artefacto publicado, aumentas la confianza de las personas en que estás publicando un producto de calidad en el que puede confiar.
 
 Los siguientes son elementos clave para lograr esto:
 
-- Un pipeline CI/CD se encuentra dentro de tu repositorio que [automatiza el proceso de liberación](https://opensource.guide/best-practices/#use-tools-to-automate-basic-maintenance-tasks)
+- Un pipeline CI/CD se encuentra dentro de tu repositorio que [automatiza el proceso de publicación](https://opensource.guide/best-practices/#use-tools-to-automate-basic-maintenance-tasks)
 - Los artefactos de construcción son generados por el sistema CI/CD (binario, imagen de Docker, jar, etc)
 - Las versiones están claramente etiquetadas y marcadas con [versionado semántico](https://github.com/semantic-release/semantic-release)
 - Las versiones incluyen notas sobre Nuevas Características, Corrección de Errores y cualquier "Cambio Importante"
@@ -70,4 +70,4 @@ Estructurado
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

@@ -5,7 +5,7 @@ Reconocimiento a los Participantes
 ## Patlet
 
 Cuando recibes una contribución InnerSource, es importante agradecer al contribuidor por su tiempo y esfuerzo.
-Extender tu gratitud no solo reconoce efectivamente la contribución sino que también genera mayor compromiso del contribuidor y otros.
+Expresar tu gratitud no solo reconoce efectivamente la contribución sino que también genera mayor compromiso del contribuidor y otros.
 Reconocer las contribuciones positivas de los contribuidores a tu proyecto InnerSource motiva a estos contribuidores (y sus gerentes) a continuar invirtiendo en el esfuerzo.
 
 ## Problema
@@ -13,7 +13,7 @@ Reconocer las contribuciones positivas de los contribuidores a tu proyecto Inner
 ¿Cómo podemos expresar adecuadamente nuestra gratitud a un contribuidor por su contribución a un proyecto InnerSource?
 Puede que no sepamos exactamente qué palabras o canales de comunicación usar para expresarnos sinceramente.
 Pero reconocer y agradecer a los contribuidores es fundamental para mantener a esos contribuidores (y sus gerentes) comprometidos con el trabajo.
-Afortunadamente, el reconocimiento efectivo de los participantes sigue un patrón, y seguir este patrón ayuda a garantizar que nuestros mensajes de agradecimiento se transmitan de manera clara y amable.
+Afortunadamente, el reconocimiento efectivo de los participantes sigue un patrón, y seguirlo ayuda a garantizar que nuestros mensajes de agradecimiento se transmitan de manera clara y amable.
 También nos hace menos propensos a olvidar agradecer a nuestros contribuidores, lo cual es desafortunadamente demasiado fácil de hacer.
 
 ## Contexto
@@ -23,7 +23,7 @@ También nos hace menos propensos a olvidar agradecer a nuestros contribuidores,
 
 ## Resistencias
 
-* Estás ocupado, lo que hace que sea más fácil olvidar algunos toques suaves (como el reconocimiento y el agradecimiento).
+* Estás ocupado, lo que hace que sea más fácil olvidar algunos toques cualitativos (como el reconocimiento y el agradecimiento).
 * Puede que no seas alguien que se sienta cómodo en situaciones sociales o que sea bueno con las palabras.
 * El reconocimiento de los compañeros es muy importante para la satisfacción laboral y el desarrollo profesional.
 
@@ -88,4 +88,4 @@ Exagerar puede parecer insincero y mecánico y frustrar tu propósito al comunic
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)

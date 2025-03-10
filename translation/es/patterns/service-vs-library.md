@@ -4,7 +4,7 @@ Servicio vs Librería
 
 ## Patlet
 
-Los equipos en un entorno DevOps pueden mostrarse reacios a trabajar a través de los límites del equipo en bases de código comunes debido a la ambigüedad sobre quién será responsable de responder ante la interrupción del servicio. La solución es comprender que a menudo es posible implementar el mismo servicio en entornos independientes con cadenas de escalamiento separadas en caso de interrupciones del servicio, o bien extraer gran parte del código compartido en una librería y colaborar en ella.
+Los equipos en un entorno DevOps pueden mostrarse reacios a trabajar a través de los límites del equipo en bases de código comunes debido a la ambigüedad sobre quién será responsable de responder ante la interrupción del servicio. La solución es entender que, en muchos casos, se puede desplegar el mismo servicio en entornos independientes con rutas de escalamiento separadas para manejar interrupciones del servicio, o bien extraer gran parte del código compartido en una librería y colaborar en ella.
 
 ## Problema
 
@@ -77,4 +77,4 @@ Servicio vs. librería: Es InnerSource, no despliegue interno
 
 ## Histórico de Traducciones
 
-- **2025-04-03** - Tradución [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)
