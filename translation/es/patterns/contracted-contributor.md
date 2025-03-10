@@ -8,7 +8,7 @@ Los colaboradores que desean contribuir a InnerSource son desalentados por su ge
 
 ## Problema
 
-Sin el apoyo de la gerencia media, la cantidad de colaboradores y, en consecuencia, el número de contribuciones y el valor generado por la iniciativa InnerSource probablemente estarán por debajo de las expectativas de la alta dirección. Esto probablemente podría agravarse si no hay financiamiento adecuado y empoderamiento de los [Líder de Comunidad Dedicados](dedicated-community-leader.md). Esto corre el riesgo de que la alta dirección abandone la idea de InnerSource.
+Sin el apoyo de la gerencia media, la cantidad de colaboradores y, en consecuencia, el número de contribuciones y el valor generado por la iniciativa InnerSource probablemente estarán por debajo de las expectativas de la alta dirección. Esto probablemente podría agravarse si no hay financiamiento adecuado y empoderamiento de los [Lideres de Comunidad Dedicados](dedicated-community-leader.md). Esto corre el riesgo de que la alta dirección abandone la idea de InnerSource.
 
 ## Contexto
 

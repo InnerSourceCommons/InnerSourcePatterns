@@ -35,7 +35,7 @@ No existe un recurso único y compartido para que los empleados de toda la organ
 
 ## Resistencias
 
-* No No se está aprovechando completamente el potencial de colaboración entre equipos de ingeniería.
+* No se está aprovechando completamente el potencial de colaboración entre equipos de ingeniería.
 * Es difícil para los individuos descubrir qué proyectos InnerSource existen.
 * Es difícil para los propietarios de proyectos InnerSource atraer una audiencia de contribuidores externos.
 
