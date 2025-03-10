@@ -39,7 +39,7 @@ Si tu proyecto aún no tiene un README.md, créalo e incluye lo siguiente:
 * Documentación más profunda para los usuarios del proyecto, o un enlace a ella.
 * Documentación necesaria para hacer modificaciones al proyecto, o un enlace a ella.
 * Documentación sobre cómo contribuir al proyecto, o un enlace a ella.
-* Una sección de "Participar" que explique qué canales de comunicación públicos, archivados y enlazables utiliza el proyecto. Esto debe incluir un enlace al rastreador de problemas del proyecto, pero también a cualquier otro medio de discusión utilizado.
+* Una sección de "Participar" que explique qué canales de comunicación públicos, archivados y enlazables utiliza el proyecto. Esto debe incluir un enlace al gestor de tareas (issue tracker) del proyecto, pero también a cualquier otro medio de discusión utilizado.
 * Una sección de "Quiénes somos" que explique quiénes son los [Trusted Committers](trusted-committer.md) detrás del proyecto, con una explicación de que en lugar de contactar a estas personas en privado, se deben utilizar los canales de comunicación públicos mencionados anteriormente.
 * Una explicación de cuáles son los criterios para que el proyecto convierta a los contribuidores en Trusted Committers, si ese camino existe.
 

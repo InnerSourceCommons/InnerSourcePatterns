@@ -19,7 +19,7 @@ configuraciones incorrectas comunes que parecen errores.
 También incluya información sobre qué pueden esperar los contribuyentes en términos
 de tiempo de primera respuesta y proceso posterior.
 
-- Si tienes preguntas, abre un problema en el rastreador de problemas.
+- Si tienes preguntas, abre un problema en el gestor de tareas (issue tracker).
 
 ## Solicitudes de funcionalidades
 

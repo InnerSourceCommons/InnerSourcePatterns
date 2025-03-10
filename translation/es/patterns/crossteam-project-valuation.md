@@ -1,6 +1,6 @@
 ## Title
 
-Valoración de Proyectos Cross-Team
+Valoración de Proyectos Transversales
 
 ## Patlet
 

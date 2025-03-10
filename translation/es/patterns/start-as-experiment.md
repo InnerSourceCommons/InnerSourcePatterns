@@ -32,7 +32,7 @@ Ejemplos de tales criterios son:
 - Trayectoria profesional basada en el mérito dentro de la comunidad
 - Toma de decisiones democrática dentro de la comunidad
 
-Considera designar el final del experimento como un punto de _pivot_, _cambio_ o _pausa_ para reevaluar. También considera establecer un [Comité de Revisión](review-committee.md) para aumentar las posibilidades de aceptación de la gerencia a través de la participación. Dependiendo de la cultura de la empresa, podría ser útil acompañar el experimento con métricas apropiadas [Primeros Pasos con Métricas](../../../patterns/1-initial/introducing-metrics-in-innersource.md). Si los proyectos en el experimento no tienen un impacto directo en los ingresos de la empresa, considera introducir [Valoración de Proyectos entre Equipos](crossteam-project-valuation.md) para resaltar sus contribuciones de valor.
+Considera designar el final del experimento como un punto de _pivot_, _cambio_ o _pausa_ para reevaluar. También considera establecer un [Comité de Revisión](review-committee.md) para aumentar las posibilidades de aceptación de la gerencia a través de la participación. Dependiendo de la cultura de la empresa, podría ser útil acompañar el experimento con métricas apropiadas [Primeros Pasos con Métricas](../../../patterns/1-initial/introducing-metrics-in-innersource.md). Si los proyectos en el experimento no tienen un impacto directo en los ingresos de la empresa, considera introducir [Valoración de Proyectos Transversales](crossteam-project-valuation.md) para resaltar sus contribuciones de valor.
 
 ## Contexto Resultante
 

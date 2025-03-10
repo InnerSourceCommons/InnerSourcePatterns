@@ -28,7 +28,7 @@
 
 #### Hoja de ruta y dirección del proyecto no transparentes
 
-##### [Casos de Uso del Rastreador de Problemas](https://patterns.innersourcecommons.org/p/issue-tracker)
+##### [Casos de Uso del Gestor de Tareas](https://patterns.innersourcecommons.org/p/issue-tracker)
 
 ## Adoptar
 
@@ -36,11 +36,11 @@
 
 #### Cómo medir el valor comercial de un proyecto
 
-##### [Valoración de Proyectos entre Equipos](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
+##### [Valoración de Proyectos Transversales](https://patterns.innersourcecommons.org/p/crossteam-project-valuation)
 
 #### ¿Podemos confiar en el proyecto por un período prolongado?
 
-##### [Proceso de Publicación Estándar](https://patterns.innersourcecommons.org/p/release-process)
+##### [Proceso Estándar de Publicación](https://patterns.innersourcecommons.org/p/release-process)
 
 ##### [Documentación Base Estándar](https://patterns.innersourcecommons.org/p/base-documentation)
 
@@ -48,19 +48,19 @@
 
 #### Esfuerzo no reconocido
 
-##### [Elogiar a los Participantes](https://patterns.innersourcecommons.org/p/praise-participants)
+##### [Reconocimiento a los Participantes](https://patterns.innersourcecommons.org/p/praise-participants)
 
-##### [Committer de Confianza](https://patterns.innersourcecommons.org/p/trusted-committer)
+##### [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)
 
 ### Desafíos Técnicos
 
 #### No satisfacer las necesidades de todos
 
-##### [Requisitos Comunes](https://patterns.innersourcecommons.org/p/common-requirements)
+##### [Requerimientos Comunes](https://patterns.innersourcecommons.org/p/common-requirements)
 
 #### Miedo a la responsabilidad compartida de soporte
 
-##### [Servicio vs. Librería](https://patterns.innersourcecommons.org/p/service-vs-library)
+##### [Servicio vs Librería](https://patterns.innersourcecommons.org/p/service-vs-library)
 
 #### Proyecto difícil de contribuir y usar
 
@@ -70,7 +70,7 @@
 
 #### Desaliento de recursos para contribuir
 
-##### [Contribuidor Contratado](https://patterns.innersourcecommons.org/p/contracted-contributor)
+##### [Colaborador Contratado](https://patterns.innersourcecommons.org/p/contracted-contributor)
 
 #### Rechazo a aceptar contribuciones
 
@@ -82,11 +82,11 @@
 
 #### Miedo a la responsabilidad compartida de soporte
 
-##### [Servicio vs. Librería](https://patterns.innersourcecommons.org/p/service-vs-library)
+##### [Servicio vs Librería](https://patterns.innersourcecommons.org/p/service-vs-library)
 
 #### No hay suficientes mantenedores para escalar
 
-##### [Committer de Confianza](https://patterns.innersourcecommons.org/p/trusted-committer)
+##### [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)
 
 #### Difícil coordinación entre equipos
 
@@ -96,7 +96,7 @@
 
 ##### [Equipo Central](https://patterns.innersourcecommons.org/p/core-team)
 
-##### [Soporte de Grupo](https://patterns.innersourcecommons.org/p/group-support)
+##### [Grupo de Soporte](https://patterns.innersourcecommons.org/p/group-support)
 
 ### Desafíos entre Entidades Legales
 
@@ -134,4 +134,4 @@
 
 #### Aumento de la sobrecarga de mantenimiento
 
-##### [Extensiones para el Crecimiento Sostenible](https://patterns.innersourcecommons.org/p/extensions-for-sustainable-growth)
+##### [Extensiones para un Crecimiento Sostenible](https://patterns.innersourcecommons.org/p/extensions-for-sustainable-growth)

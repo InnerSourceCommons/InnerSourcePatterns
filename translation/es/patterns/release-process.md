@@ -53,7 +53,7 @@ Un buen ejemplo de notas de versión de calidad se puede encontrar [aquí](https
 
 Los equipos que encuentren tu proyecto verán notas de versión publicadas y ganarán confianza en tu herramienta. Los artefactos publicados también facilitan y aceleran el uso de tu producto. Tener procesos bien definidos y visibles como estos también ayuda con la colaboración entre equipos y nuevos contribuyentes. Las personas pueden estar seguras de que sus contribuciones están disponibles y distribuidas en un tiempo razonable con una ruta de uso clara.
 
-Las notas de versión también son una gran oportunidad para [elogiar a los participantes](praise-participants.md)! Como sabemos, [la documentación es extremadamente importante](base-documentation.md) para las nuevas personas que buscan involucrarse en tu proyecto. Elogiar a los compañeros externos por sus contribuciones, incluida la documentación y las notas de versión, es una excelente manera de fomentar la comunidad y hacer crecer tu base de usuarios.
+Las notas de versión también son una gran oportunidad para [reconocimiento a los participantes](praise-participants.md)! Como sabemos, [la documentación es extremadamente importante](base-documentation.md) para las nuevas personas que buscan involucrarse en tu proyecto. Elogiar a los compañeros externos por sus contribuciones, incluida la documentación y las notas de versión, es una excelente manera de fomentar la comunidad y hacer crecer tu base de usuarios.
 
 ## Instancias Conocidas
 
