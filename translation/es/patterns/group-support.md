@@ -1,6 +1,6 @@
 ## Title
 
-Soporte Grupal
+Grupo de Soporte
 
 ## Patlet
 
@@ -59,7 +59,7 @@ No se espera que el grupo implemente ninguna funcionalidad nueva para otros.
 ## Contexto Resultante
 
 * Hay algún soporte frágil para el proyecto InnerSource.
-* A largo plazo, es probable que el soporte grupal se disuelva nuevamente en algún momento. Si el proyecto continúa a largo plazo, utiliza este período de soporte grupal estable para encontrar una forma de mantenerlo a largo plazo (por ejemplo, [Equipo Central][]).
+* A largo plazo, es probable que el grupo de soporte se disuelva nuevamente en algún momento. Si el proyecto continúa a largo plazo, utiliza este período de grupo de soporte estable para encontrar una forma de mantenerlo a largo plazo (por ejemplo, [Equipo Central][]).
 
 ## Razonamiento
 

@@ -8,14 +8,14 @@ Los colaboradores que desean contribuir a InnerSource son desalentados por su ge
 
 ## Problema
 
-Sin el apoyo de la gerencia media, la cantidad de colaboradores y, en consecuencia, el número de contribuciones y el valor generado por la iniciativa InnerSource probablemente estarán por debajo de las expectativas de la alta dirección. Esto probablemente podría agravarse si no hay financiamiento adecuado y empoderamiento de los [Dedicated Community Leaders](dedicated-community-leader.md). Esto corre el riesgo de que la alta dirección abandone la idea de InnerSource.
+Sin el apoyo de la gerencia media, la cantidad de colaboradores y, en consecuencia, el número de contribuciones y el valor generado por la iniciativa InnerSource probablemente estarán por debajo de las expectativas de la alta dirección. Esto probablemente podría agravarse si no hay financiamiento adecuado y empoderamiento de los [Líder de Comunidad Dedicados](dedicated-community-leader.md). Esto corre el riesgo de que la alta dirección abandone la idea de InnerSource.
 
 ## Contexto
 
 Una gran corporación ha iniciado una iniciativa InnerSource. Los objetivos principales de la iniciativa son aumentar la eficiencia del desarrollo de software distribuido y fomentar la innovación permitiendo que cada colaborador contribuya voluntariamente a proyectos InnerSource, independientemente del tema y la unidad de negocio.
 
 La alta dirección está a bordo y apoyando la iniciativa InnerSource. Para ellos, la iniciativa InnerSource es solo una de las muchas iniciativas para fomentar la innovación y la eficiencia.
-Están financiando InnerSource con dinero y capacidad para líderes comunitarios y están dando gran autonomía en cuanto a cómo se gasta el presupuesto. También están limitando el alcance y la duración de la iniciativa y participan en revisiones periódicas hasta que haya pruebas de que produce los resultados esperados (ver [Review Committee](review-committee.md)).
+Están financiando InnerSource con dinero y capacidad para líderes comunitarios y están dando gran autonomía en cuanto a cómo se gasta el presupuesto. También están limitando el alcance y la duración de la iniciativa y participan en revisiones periódicas hasta que haya pruebas de que produce los resultados esperados (ver [Comité de Revisión](review-committee.md)).
 La alta dirección ha anunciado su apoyo a InnerSource en varias reuniones internas de la empresa.
 
 Sin embargo, la alta dirección aún no ha empoderado ni incentivado a los gerentes de nivel medio para permitir o incluso motivar a sus empleados a participar en actividades de InnerSource interdivisionales. Además de eso, la capacidad de cada colaborador generalmente se asigna a proyectos que no son de InnerSource para el 100 % de su tiempo de trabajo. La colaboración interorganizacional aún no es la norma y los gerentes de línea generalmente no tienen objetivos fuera de su propia organización. Se espera que las contribuciones a los proyectos de InnerSource se realicen durante el horario laboral, no durante el tiempo libre.
@@ -37,9 +37,9 @@ Establecer un contrato formal entre el colaborador, su gerente de línea y una o
 - El contrato especifica un porcentaje máximo del tiempo de trabajo del colaborador en InnerSource.
 - El contrato establece claramente que el trabajo en la unidad de negocio del colaborador tiene prioridad sobre el trabajo en InnerSource.
 - El contrato establece que no es obligatorio trabajar en InnerSource durante el porcentaje máximo especificado en el contrato.
-- El contrato es firmado por el colaborador, el gerente de línea del colaborador, la oficina de gobernanza y el [Dedicated Community Leader](dedicated-community-leader.md) de la comunidad a la que el colaborador contribuirá.
+- El contrato es firmado por el colaborador, el gerente de línea del colaborador, la oficina de gobernanza y el [Líder de Comunidad Dedicado](dedicated-community-leader.md) de la comunidad a la que el colaborador contribuirá.
 - La oficina de gobernanza ofrece mediar entre el colaborador y su gerente de línea en caso de conflicto respecto al tiempo para contribuciones.
-- El [Dedicated Community Leader](dedicated-community-leader.md) participa o proporciona información para las evaluaciones de desempeño de los colaboradores contratados por más del 20 %.
+- El [Líder de Comunidad Dedicado](dedicated-community-leader.md) participa o proporciona información para las evaluaciones de desempeño de los colaboradores contratados por más del 20 %.
 
 ![Contracted Contributor](../../../assets/img/contracted-contributor.png)
 

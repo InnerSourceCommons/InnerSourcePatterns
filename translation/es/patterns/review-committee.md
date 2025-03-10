@@ -32,7 +32,7 @@ La empresa A quiere introducir su primera iniciativa InnerSource. La mayoría de
 - El comité de revisión debe reunirse regularmente. Una cadencia de dos reuniones por año ha demostrado ser exitosa.
 - El comité de revisión puede volverse opcional si InnerSource ha sido ampliamente adoptado y comprendido por la organización.
 
-![Review Committee Sketch](../../../assets/img/review-committee-sketch.jpg)
+![Comité de Revisión Sketch](../../../assets/img/review-committee-sketch.jpg)
 
 ## Contexto Resultante
 
@@ -55,7 +55,7 @@ La empresa A quiere introducir su primera iniciativa InnerSource. La mayoría de
 
 ## Alias
 
-Interfaz de Queso
+Cheese Interface
 
 ## Histórico de Traducciones
 
