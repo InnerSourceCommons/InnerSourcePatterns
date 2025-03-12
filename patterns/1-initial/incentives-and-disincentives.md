@@ -16,7 +16,7 @@ It is important for Trusted Committers to be aware of and advertise incentives f
 ## Context
 
 * Potential contributors in a corporate environment are most likely fully utilized and have no "free" time to contribute to InnerSource projects, especially when they are not directly related to their work.
-* Especially in early stages of InnerSource adoption, potential contributors as well as unexperienced Trusted Committers might not be aware of the incentives of InnerSource contribution.
+* Especially in early stages of InnerSource adoption, potential contributors as well as inexperienced Trusted Committers might not be aware of the incentives of InnerSource contribution.
 
 ## Forces
 
