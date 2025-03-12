@@ -30,7 +30,7 @@ El objetivo al optimizar los canales de comunicación para proyectos InnerSource
 
 Un proyecto debe establecer las siguientes herramientas de comunicación:
 
-1. **Gestor de tareas dedicado** donde la comunicación estructurada, la toma de decisiones y el seguimiento del progreso pueden ocurrir de manera transparente para todos los miembros del equipo anfitrión y también para los usuarios y contribuyentes posteriores. Para más aplicaciones del gestor de problemas, ver [Casos de Uso del Gestor de Problemas](./issue-tracker.md).
+1. **Gestor de tareas dedicado** donde la comunicación estructurada, la toma de decisiones y el seguimiento del progreso pueden ocurrir de manera transparente para todos los miembros del equipo anfitrión y también para los usuarios y contribuyentes posteriores. Para más aplicaciones del Gestor de Tareas, ver [Casos de Uso del Gestor de Tareas](./issue-tracker.md).
 2. **Canales de discusión públicos** que tienen una estructura menos rígida. Típicamente, serán listas de correo, foros en línea, sistemas de preguntas y respuestas o incluso canales de chat archivados. Usualmente es suficiente comenzar con solo un canal para el proyecto. Si el tráfico aumenta demasiado, es útil separar las discusiones sobre el uso del proyecto de las discusiones sobre el desarrollo del proyecto.
 3. **Un canal privado** donde la comunicación sobre temas sensibles puede ocurrir entre [Trusted Committers](./trusted-committer.md) - por ejemplo, agregar más Trusted Committers al equipo anfitrión. Este canal debe usarse con mucho cuidado para que la comunicación por defecto sea abierta y se mantenga privada solo en circunstancias muy raras.
 
@@ -80,3 +80,4 @@ Ilustraciones de [People](https://storyset.com/people) por Storyset
 ## Histórico de Traducciones
 
 - **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Roman Martin Gil](https://github.com/rmarting)

@@ -131,3 +131,4 @@ Es una buena solución para un portal con unas pocas docenas de proyectos, sin e
 ## Histórico de Traducciones
 
 - **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Roman Martin Gil](https://github.com/rmarting)

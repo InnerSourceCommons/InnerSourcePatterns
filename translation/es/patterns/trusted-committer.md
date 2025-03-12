@@ -132,3 +132,4 @@ Esto ha sido probado y ha tenido éxito en:
 ## Histórico de Traducciones
 
 - **2025-04-03** - Traducción [Oscar Lobaton S.](https://github.com/ovas04)
+- **2025-04-03** - Traducción [Roman Martin Gil](https://github.com/rmarting)
