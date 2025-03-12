@@ -26,6 +26,7 @@ While they don't take all responsibilities of a Trusted Committer (yet), they do
 * Chinese - [@WillemJiang](https://github.com/WillemJiang)
 * Brazilian Portuguese - [@jrcosta](https://github.com/jrcosta), [@zilio](https://github.com/zilio)
 * Galician - [@psanxiao](https://github.com/psanxiao)
+* Spanish - [@ovas04](https://github.com/ovas04)
 
 ## Hall of Fame (aka Alumni)
 
