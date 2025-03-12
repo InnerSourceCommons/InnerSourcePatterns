@@ -64,10 +64,13 @@ Trusted Committers can actively leverage incentives when soliciting contribution
 
 ## Known Instances
 
+TBD
+
 ## Authors
 
 * Georg Grütter (Robert Bosch GmbH)
 
 ## Status
 
+* Initial
 * Drafted at the InnerSource Gathering Berlin 2025
