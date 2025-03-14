@@ -51,6 +51,7 @@ This visibility led to a promotion opportunity that she wouldn’t have had othe
 - Employees who contribute to InnerSource gain recognition, mentorship, and new skills that accelerate career growth.
 - Organizations benefit from a more engaged workforce that collaborates across silos to drive innovation.
 - Career advancement shifts from being solely dependent on a direct manager’s evaluation to being based on demonstrated impact across the company.
+- Concern: Some managers may become opposed to InnerSource contributions, as they are worried that this path makes it more likely for those developers to leave their immediate team more quickly.
 
 ## Rationale
 
