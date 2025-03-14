@@ -33,15 +33,17 @@ This visibility led to a promotion opportunity that she wouldn’t have had othe
 - **Visibility**: Employees need to be recognized by influential leaders and decision-makers to advance their careers.
 - **Skill Growth**: Learning new technologies or methodologies can be difficult within a single team’s scope.
 
-## Sketch (optional)
+## Sketch
 
 ## Solutions
 
-- **Increased Visibility**: Contributing to InnerSource projects exposes employees to leaders and colleagues beyond their immediate team, increasing recognition and career opportunities.
-- **Skill Development**: Employees gain hands-on experience with different technologies, coding practices, and architectural patterns by working on projects outside their usual domain.
+- **Expanding Your Network**: Contributing to InnerSource projects exposes employees to leaders and colleagues beyond their immediate team, increasing recognition and career opportunities.
+- **Improve Coding Skills**: Employees gain hands-on experience with different technologies, coding practices, and architectural patterns by working on projects outside their usual domain.
 - **Mentorship and Learning**: InnerSource projects often attract senior engineers and thought leaders, providing opportunities for mentorship and knowledge sharing.
-- **Cross-Team Collaboration**: Working across teams helps employees build a broader professional network, which can lead to new job opportunities or project leadership roles.
+- **Exposure to the Change Agents in Your Organization**: While you can learn a lot from your immediate team, many of the key change agents in your organization—senior engineers, architects, and thought leaders—are working in other teams. InnerSource projects often attract these influential individuals. By contributing, you gain the opportunity to collaborate with them, learn from their expertise, and expand your perspective on how the organization operates at a higher level.
 - **Demonstrating Initiative**: Taking the initiative to contribute to InnerSource projects showcases leadership skills, proactivity, and adaptability, traits valued in career advancement discussions.
+- **Architecture Skills & Pragmatic Solutions**: InnerSource helps you develop the ability to design pragmatic, scalable solutions rather than reinventing the wheel for every problem. Writing code is one thing, but making thoughtful trade-offs and crafting solutions that balance functionality, maintainability, and company-wide efficiency is a much harder skill to master. Exposure to real-world architecture decisions in InnerSource projects helps sharpen this critical capability.  
+- **Improve Social Skills**: InnerSource contributions naturally expose you to people from different teams, disciplines, and backgrounds. This environment provides a valuable opportunity to develop and refine soft skills such as cross-team communication, stakeholder management, and conflict resolution—skills that are just as crucial as technical expertise in advancing your career.  
 
 ## Resulting Context
 
@@ -49,13 +51,13 @@ This visibility led to a promotion opportunity that she wouldn’t have had othe
 - Organizations benefit from a more engaged workforce that collaborates across silos to drive innovation.
 - Career advancement shifts from being solely dependent on a direct manager’s evaluation to being based on demonstrated impact across the company.
 
-## Rationale (optional)
+## Rationale
 
 Psychology suggests that intrinsic motivation—such as learning and mastery—leads to higher engagement and satisfaction, which can translate into career success.
 
 Game theory indicates that those who optimize for global success (rather than local team constraints) often gain long-term benefits, as they are seen as high-value contributors in an interconnected system.
 
-## Known Instances (optional)
+## Known Instances
 
 - Engineers in large tech firms have reported faster career growth after contributing to InnerSource projects that attracted leadership attention.
 - Organizations with mature InnerSource programs have documented increased cross-team promotions and internal mobility due to enhanced visibility and networking.
@@ -64,11 +66,17 @@ Game theory indicates that those who optimize for global success (rather than lo
 
 - Initial
 
-## Author(s) (optional)
+## Authors
 
 - ChatGPT ;)
+- Sebastian Spier
 
-## Alias (optional)
+## References
+
+- Dirk Riehle - [How Open Source Is Changing the Software Developer’s Career](https://dirkriehle.com/wp-content/uploads/2015/04/r5rie-v3.pdf)
+- Bertrand Delacretaz - [How to convince your left brain (or manager) to follow the Open Source path your right brain desires](https://www.youtube.com/watch?v=F0SmiQ3SF6Q)
+
+## Alias
 
 - InnerSource for Career Growth
 - Expanding Career Horizons with InnerSource
