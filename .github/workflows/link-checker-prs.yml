@@ -41,6 +41,7 @@ jobs:
         with:
           args: --verbose --no-progress --cache --max-cache-age 1d $MARKDOWN_FILES
           fail: true
+          failIfEmpty: false
           jobSummary: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
