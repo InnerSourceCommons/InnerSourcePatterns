@@ -121,7 +121,7 @@ The goal of this activity is that the governance levels are known and understood
 ## Resulting Context
 
 - Cross team communication occurs efficiently without confusion, using terms that are universally understood and centrally documented.
-- Organization leaders understand the nuances within practising InnerSource and make better informed and more precise decisions that are easier to communicate.
+- Organization leaders understand the nuances within practicing InnerSource and make better informed and more precise decisions that are easier to communicate.
 - Increased standardization of InnerSource practices within the organization as the named and documented building blocks are used by teams as a menu for adoption.
 - Teams can adopt InnerSource best practices in a step-by-step way which makes adoption easier and less intimidating.
 
@@ -141,9 +141,9 @@ The same levels make sense inside of organizations.
 
 ## Known Instances
 
-* BBC - referenced in this talk: [Ownership in a DevOps and InnerSource environment - Tom Sadler (BBC)](https://www.youtube.com/watch?v=O8TK7QG3FjM)
-* Flutter Entertainment
-* Europace AG
+- BBC - referenced in this talk: [Ownership in a DevOps and InnerSource environment - Tom Sadler (BBC)](https://www.youtube.com/watch?v=O8TK7QG3FjM)
+- Flutter Entertainment
+- Europace AG
 
 ### Flutter Entertainment
 
@@ -153,7 +153,7 @@ Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutte
 
 ## Status
 
-Structured
+- Structured
 
 ## Authors
 
