@@ -164,8 +164,6 @@ Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutte
 
 ## Alias
 
-- Transparent Governance Levels
-- Explicitly Defined Governance
 - Defined Project Governance
-- Explicit Governance Levels
 - Project Ownership Models
+- Explicitly Defined Governance
