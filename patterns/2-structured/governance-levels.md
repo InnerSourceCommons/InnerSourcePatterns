@@ -1,6 +1,6 @@
 ## Title
 
-Governance Framework
+Explicit Governance Levels
 
 ## Patlet
 
@@ -164,7 +164,7 @@ Flutter Entertainment define an [InnerSource Pyramid](https://innersource.flutte
 
 ## Alias
 
-- Explicit Governance Levels
+- Governance Framework (for InnerSource)
 - Defined Project Governance
 - Project Ownership Models
 - Explicitly Defined Governance
