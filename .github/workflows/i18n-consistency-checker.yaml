@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        language: [ja, zh, pt-br, gl]
+        language: [ja, zh, pt-br, gl, es]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,7 +24,7 @@ jobs:
         id: check-consistency
         run: |
           # Declare the flags
-          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician")
+          declare -A flags=( ["ja"]=":jp: Japanese" ["zh"]=":cn: Chinese" ["pt-br"]=":brazil: Brazilian Portuguese" ["gl"]="Galician" ["es"]=":es: Spanish" )
         
           issue_title="${flags['${{matrix.language}}']}: Content Consistency Issue"
         
@@ -86,4 +86,3 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
