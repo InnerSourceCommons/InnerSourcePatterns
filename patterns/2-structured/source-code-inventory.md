@@ -100,7 +100,7 @@ The Source Code Strategy Assessment Framework helps teams to understand the valu
 
 ## Status
 
-* Initial
+* Structured
 
 ## Author(s)
 
