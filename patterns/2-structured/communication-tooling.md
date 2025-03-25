@@ -77,6 +77,7 @@ to a lower need to repeat explanations.
 * Europace AG
 * Paypal Inc.
 * Mercado Libre
+* Siemens makes extensive use of communication channels accessible to all employees for all user questions and discussions around code.siemens.com, InnerSource and Open Source.
 
 ## Authors
 

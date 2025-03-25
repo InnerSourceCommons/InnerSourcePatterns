@@ -50,6 +50,7 @@ development but also during the planning phase of new features:
 ## Known Instances
 
 * Europace AG - See blog post [Issue Use Cases](https://tech.europace.de/post/using-issues-for-asking-questions-and-tracking-work/)
+* Siemens manages work on their InnerSource Platform in a fully transparent way. Therefore the work on the InnerSource Platform itself is organized as an InnerSource project. This includes tracking enhancements and bugs, as well as marketing, communication activities and support requests from users.
 
 ## Authors
 

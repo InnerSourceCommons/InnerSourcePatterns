@@ -108,6 +108,7 @@ It is a good solution for a portal with a few dozen projects, though.
 * **Mercado Libre** use an instance of the [SAP portal](https://github.com/SAP/project-portal-for-innersource) to discover existing InnerSource projects within the organization.
 * **Mercedes-Benz** is [using](https://opensource.mercedes-benz.com/news/sponsor_innersource_commonsoss) the SAP reference implementation mentioned above for their InnerSource Portal.
 * **WellSky** has a simple _Confluence Wiki_ page were InnerSource and reusable projects are listed.
+* **Siemens** has set up an internal portal that provides documentation for InnerSource maintainers, contributors, users and their managers. It also serves as an entry point to explore available projects and gives hints to improve project visibility.
 
 ## References
 
