@@ -14,9 +14,9 @@ InnerSource projects at your organization are increasing but potential contribut
 
 ## Story
 
-You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.  
+You are attempting to establish an InnerSource practice within your organization.  You are aware of some projects being run using an InnerSource model but their existence is only being communicated via word of mouth, email or sidebar conversations with other employees.  As a result InnerSource project owners are finding it difficult to attract contributors.
 
-There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.  
+There is no single, shared resource for employees across the organization to access which will allow them to easily discover all ongoing InnerSource projects.  This is severely limiting the growth potential of every InnerSource project.
 
 What can be done to help all InnerSource projects raise their visibility to as large an audience as possible and attract contributors organization-wide?
 
@@ -45,9 +45,9 @@ Create an InnerSource Portal intranet website where InnerSource project owners c
 
 Key properties of the portal are:
 
-* Visitors to the InnerSource Portal should be able to see all available projects as well as search for specific projects based on various criteria such as project name, technologies in use, contributor names, sponsoring business unit etc.  
-* The information displayed via the InnerSource Portal should be under the full control of the InnerSource project owners at all times.  Preferably, by sourcing this information directly from a specific data file or meta-data stored in the project repository itself.  
-* Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors' names, a brief description and links to the code repository or any supporting documentation.  
+* Visitors to the InnerSource Portal should be able to see all available projects as well as search for specific projects based on various criteria such as project name, technologies in use, contributor names, sponsoring business unit etc.
+* The information displayed via the InnerSource Portal should be under the full control of the InnerSource project owners at all times.  Preferably, by sourcing this information directly from a specific data file or meta-data stored in the project repository itself.
+* Project owners should include all relevant information concerning their projects within those data files including the project name, trusted contributors' names, a brief description and links to the code repository or any supporting documentation.
 * (optional) While most organizations will choose to make their portal only available on their intranet, some organizations have opted to make their portal available on the public internet. The latter can be interesting for organizations that want to show additional information about their InnerSource approach in their portal e.g. for branding and recruitment purposes.
 
 When launching the portal, a communications campaign promoting the addition of InnerSource data files or meta-data to code repositories should be considered, to bolster the number of projects displayed within the portal.
@@ -99,7 +99,7 @@ It is a good solution for a portal with a few dozen projects, though.
   * [Gamification As Means of Cultural Change and InnerSource Engagement Booster](https://www.oreilly.com/library/view/oscon-2018-/9781492026075/video321579.html) | Shelly Nizri | OSCON 2018 - Portland, Oregon
   * Of Islands, Monsters & InnerSource [(slides)](https://docs.google.com/presentation/d/1P1OCEK9B6eSrVRUclVWY6meSI-qHOBjM_UAPNvCZamU/edit#slide=id.p15), [(video)](https://drive.google.com/file/d/1pM89uHMn0vhE3ayFJDGYcCO8R0tAXXZD/view?usp=drivesdk) | InnerSource Spring Summit 2019 (Galway, Ireland)
   * The [code](https://gitlab.com/gilda2) realizing this platform has been open sourced.
-* **American Airlines** promotes InnerSource projects via an [internal InnerSource Marketplace](https://tech.aa.com/2020-10-30-innersource/). Similarly to SAP, projects self-register by adding `innersource` as a GitHub topic. Projects are searchable and filterable by language, topics, number of open issues, etc.
+* **American Airlines** promotes InnerSource projects via an [internal InnerSource Marketplace](https://web.archive.org/web/20240226230502/https://tech.aa.com/2020-10-30-innersource). Similarly to SAP, projects self-register by adding `innersource` as a GitHub topic. Projects are searchable and filterable by language, topics, number of open issues, etc.
 * **Banco Santander** has created a public portal called "Santander ONE Europe InnerSource Community" to support and increase InnerSource adoption. In addition to the catalog of projects the portal includes relevant content such as documentation, way of working, news, and events.
 
 ![Santander InnerSource Portal](../../assets/img/santander_portal.png "Banco Santander InnerSource Portal")
@@ -108,6 +108,7 @@ It is a good solution for a portal with a few dozen projects, though.
 * **Mercado Libre** use an instance of the [SAP portal](https://github.com/SAP/project-portal-for-innersource) to discover existing InnerSource projects within the organization.
 * **Mercedes-Benz** is [using](https://opensource.mercedes-benz.com/news/sponsor_innersource_commonsoss) the SAP reference implementation mentioned above for their InnerSource Portal.
 * **WellSky** has a simple _Confluence Wiki_ page were InnerSource and reusable projects are listed.
+* **Siemens** has set up an internal portal that provides documentation for InnerSource maintainers, contributors, users and their managers. It also serves as an entry point to explore available projects and gives hints to improve project visibility.
 
 ## References
 

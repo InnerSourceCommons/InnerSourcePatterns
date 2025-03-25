@@ -61,16 +61,20 @@ InnerSource Ambassadors leverage their existing knowledge of their departments a
 
 The rewards for the ambassadors will vary by individual motivations. Rewards that ambassadors have expressed are that being an ambassador provides opportunity to build their internal network, enhance their communication and influence skills, build their knowledge further about InnerSource, build their presentation and speaking skills, and learn about other products and teams within their company.
 
+There are many examples in the industry, using similar concepts. Sometimes used as part of the marketing activities of the company as well (i.e. to advertise for their products).
+
+Here some examples from the commercial domain, academa and open source:
+
+- **IBM** is using similar concepts in various areas: [IBM Champions](https://www.ibm.com/community/ibm-champions/), [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program), [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-ambassador-program)
+- **IBM Research** has a concept called [IBM Quantum Ambassadors](https://www.ibm.com/training/badge/ibm-quantum-associate-ambassador)
+- **Red Hat** has a concept called [Red Hat Champions](https://access.redhat.com/champions)
+- **CNCF** has a concept called [CNCF Ambassadors](https://www.cncf.io/people/ambassadors/application-process/)
+
 ## Known Instances
 
 - **SAP** has a concept called [Open Source Champions](https://community.sap.com/t5/open-source-blogs/sap-open-source-champions/ba-p/13539587) that seems related
 - **[WellSky](https://wellsky.com/)** has the analogous concept of InnerSource Champions representing each business area of the company.
-- **IBM** has a concept called [IBM Champions](https://www.ibm.com/community/ibm-champions/) that seems related
-- **IBM** has a concept called [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program) that seems related
-- **IBM** has a concept called [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-ambassador-program) that seems related
-- **IBM Research** has a concept called [IBM Quantum Ambassadors](https://www.ibm.com/training/badge/ibm-quantum-associate-ambassador) that seems related
-- **Red Hat** has a concept called [Red Hat Champions](https://access.redhat.com/champions) that seems related
-- **CNCF** has a concept called [CNCF Ambassadors](https://www.cncf.io/people/ambassadors/application-process/) that seems related
+- **Siemens** has 70 Social Coding Ambassadors from across subsidiaries and countries that promote the Open and InnerSource mindset across the company.
 
 ## Status
 

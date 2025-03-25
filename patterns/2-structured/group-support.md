@@ -69,7 +69,7 @@ Feeling part of a group and being given some structure and responsibility genera
 
 ## Known Instances
 
-* WellSky
+* **WellSky**
 
 ## Status
 

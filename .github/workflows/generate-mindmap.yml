@@ -12,6 +12,7 @@ on:
       - "pattern-categorization/package.json"
       - "pattern-categorization/gl/*"
       - "pattern-categorization/pt-br/*"
+      - "pattern-categorization/es/*"
 
 defaults:
   run:
@@ -27,7 +28,7 @@ jobs:
 
     strategy:
       matrix:
-        folder: [".", "./gl", "./pt-br"]
+        folder: [".", "./gl", "./pt-br", "./es"]
 
     steps:
     - uses: actions/checkout@v4
