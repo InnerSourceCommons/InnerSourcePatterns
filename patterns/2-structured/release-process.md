@@ -57,8 +57,8 @@ Release notes are also a great opportunity to [praise participants](praise-parti
 
 ## Known Instances
 
-* Comcast (multiple projects)
-* GitHub (multiple projects)
+* **Comcast** (multiple projects)
+* **GitHub** (multiple projects)
 
 ## Authors
 
