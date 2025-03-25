@@ -92,5 +92,6 @@ Here some examples from the commercial domain, academa and open source:
 
 ## Alias
 
-- Departmental InnerSource Representatives/Champion/Ambassador
-- Local InnerSource Representatives/Champion/Ambassador
+- Departmental InnerSource Representatives/Champion/Ambassador/Evangelist
+- Local InnerSource Representatives/Champion/Ambassador/Evangelist
+- Social Coding Ambassador
