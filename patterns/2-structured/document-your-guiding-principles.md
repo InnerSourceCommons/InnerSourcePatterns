@@ -121,10 +121,10 @@ All Trusted Committers of a project are published.
 
 ## Known Instances
 
-* Europace AG
-* GitHub
-* Robert Bosch GmbH
-* Siemens' InnerSource strategy is built upon the guiding principles of Documentation, Workflow, Transparency, Continuous Integration and Culture which are detailed in their InnerSource portal.
+* **Europace AG**
+* **GitHub**
+* **Robert Bosch GmbH**
+* **Siemens'** InnerSource strategy is built upon the guiding principles of Documentation, Workflow, Transparency, Continuous Integration and Culture which are detailed in their InnerSource portal.
 
 ### Europace AG
 

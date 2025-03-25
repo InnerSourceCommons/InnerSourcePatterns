@@ -41,7 +41,7 @@ Company A wants to introduce its first InnerSource initiative. Most managers in 
 
 ## Known Instances
 
-* BIOS at Robert Bosch GmbH (in the early stages of adoption, only - 2009-2012)
+* BIOS at **Robert Bosch GmbH** (in the early stages of adoption, only - 2009-2012)
 
 ## Status
 
