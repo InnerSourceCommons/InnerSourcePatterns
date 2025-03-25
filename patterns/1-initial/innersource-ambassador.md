@@ -65,6 +65,7 @@ The rewards for the ambassadors will vary by individual motivations. Rewards tha
 
 - *SAP* has a concept called [Open Source Champions](https://community.sap.com/t5/open-source-blogs/sap-open-source-champions/ba-p/13539587) that seems related
 - [WellSky](https://wellsky.com/) has the analogous concept of InnerSource Champions representing each business area of the company.
+- *Siemens* has 70 Social Coding Ambassadors from across subsidiaries and countries that promote the Open and InnerSource mindset across the company.
 
 ## Status
 
