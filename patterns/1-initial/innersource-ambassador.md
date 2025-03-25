@@ -63,7 +63,7 @@ The rewards for the ambassadors will vary by individual motivations. Rewards tha
 
 There are many examples in the industry, using similar concepts. Sometimes used as part of the marketing activities of the company as well (i.e. to advertise for their products).
 
-Here some examples from the commercial domain, academa and open source:
+Here some examples from the commercial domain, academia and open source:
 
 - **IBM** is using similar concepts in various areas: [IBM Champions](https://www.ibm.com/community/ibm-champions/), [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program), [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-ambassador-program)
 - **IBM Research** has a concept called [IBM Quantum Ambassadors](https://www.ibm.com/training/badge/ibm-quantum-associate-ambassador)
