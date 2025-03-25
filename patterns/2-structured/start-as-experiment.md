@@ -55,7 +55,7 @@ Finally, starting as an experiment makes it much easier to sidestep regulations 
 
 - Robert Bosch GmbH (globally distributed software development)
 - Airbus: the data science community collaborated on shared Python libraries that eventually lead to a group-wide InnerSource scheme for any software.
-- Siemens started their InnerSource Platform [code.siemens.com](https://about.gitlab.com/customers/siemens/) from a single department with a few hundred users and over the years scaled it to a company-wide service with 50,000 active users.
+- Siemens started their [InnerSource Platform](https://about.gitlab.com/customers/siemens/) code.siemens.com from a single department with a few hundred users. Over the years they scaled it to a company-wide service with 50,000 active users.
 
 ## Status
 
