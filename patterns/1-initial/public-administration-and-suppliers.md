@@ -21,7 +21,7 @@ of the development effort in outsourced partners.
 
 The proposed context is the relationship between a public administration, all its suppliers, and the
 process to build a trusted collaboration environment. There are not official channels to accelerate
-certain developments while the backlog keeps growing over time, even when suppliers are willing to 
+certain developments while the backlog keeps growing over time, even when suppliers are willing to
 advance in some of those tasks.
 
 ## Forces
@@ -41,7 +41,6 @@ projects and collaborate with others.
 * Cultural Resistance to Change: Some individuals may resist changes to traditional development practices
 and may be hesitant to adopt new approaches like InnerSource.
 
-
 ## Solutions
 
 To address these challenges, the organization may explore the adoption of InnerSource practices.
@@ -57,14 +56,12 @@ such as project owners, developers, and reviewers.
 * Overcoming Legal and Organizational Hurdles: Addressing legal and organizational challenges, such
 as intellectual property rights and procurement regulations.
 
-
 ## Resulting Context
 
 Suppliers would start working in a more collaborative way as the legal framework has evolved and allow
 them to work accordingly. At the same time, the centralized assets would help to have visibility on the
 next steps and given the existence of a public backlog, this would allow to accelerate certain areas
 of interest for the public administration and the several suppliers.
-
 
 ## Authors
 
@@ -74,4 +71,3 @@ Jesús Rey, Altia
 Javier, Altia
 Pablo Sanxiao, OSPO Xunta de Galicia
 Daniel Izquierdo, Bitergia
-
