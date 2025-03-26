@@ -58,16 +58,21 @@ as intellectual property rights and procurement regulations.
 
 ## Resulting Context
 
-Suppliers would start working in a more collaborative way as the legal framework has evolved and allow
-them to work accordingly. At the same time, the centralized assets would help to have visibility on the
+* Suppliers would start working in a more collaborative way as the legal framework has evolved and allow
+them to work accordingly.
+* At the same time, the centralized assets would help to have visibility on the
 next steps and given the existence of a public backlog, this would allow to accelerate certain areas
 of interest for the public administration and the several suppliers.
 
+## Status
+
+Initial
+
 ## Authors
 
-Eva María Iglesias, Balidea
-Pablo Paz-Trelles, Xunta de Galicia
-Jesús Rey, Altia
-Javier, Altia
-Pablo Sanxiao, OSPO Xunta de Galicia
-Daniel Izquierdo, Bitergia
+* Eva María Iglesias, Balidea
+* Pablo Paz-Trelles, Xunta de Galicia
+* Jesús Rey, Altia
+* Javier, Altia
+* Pablo Sanxiao, OSPO Xunta de Galicia
+* Daniel Izquierdo, Bitergia
