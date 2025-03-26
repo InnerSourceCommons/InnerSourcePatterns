@@ -17,7 +17,7 @@ and accelerate development.
 
 Public administrations are typically slow making decisions, but when a decision is made, this stays
 for longer time. Decisions are conservative as they have to serve citizens, and they usually base most
-of the develoment effort in outsourced partners.
+of the development effort in outsourced partners.
 
 The proposed context is the relationship between a public administration, all its suppliers, and the
 process to build a trusted collaboration environment. There are not official channels to accelerate
