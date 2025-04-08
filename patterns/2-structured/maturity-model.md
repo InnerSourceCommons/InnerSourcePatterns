@@ -210,10 +210,10 @@ long term.
 
 ## Known Instances
 
-* Entelgy
-* Zylk
-* Bitergia
-* Airbus
+* **Entelgy**
+* **Zylk**
+* **Bitergia**
+* **Airbus**
 
 ## Authors
 

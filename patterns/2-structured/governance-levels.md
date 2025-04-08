@@ -141,9 +141,9 @@ The same levels make sense inside of organizations.
 
 ## Known Instances
 
-- BBC - referenced in this talk: [Ownership in a DevOps and InnerSource environment - Tom Sadler (BBC)](https://www.youtube.com/watch?v=O8TK7QG3FjM)
-- Flutter Entertainment
-- Europace AG
+- **BBC** - referenced in this talk: [Ownership in a DevOps and InnerSource environment - Tom Sadler (BBC)](https://www.youtube.com/watch?v=O8TK7QG3FjM)
+- **Flutter Entertainment**
+- **Europace AG**
 
 ### Flutter Entertainment
 

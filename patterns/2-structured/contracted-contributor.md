@@ -83,7 +83,7 @@ A formal contracting is also beneficial for contributors and communities:
 
 ## Known Instances
 
-- BIOS at Robert Bosch GmbH
+- BIOS at **Robert Bosch GmbH**
 
 ## Status
 
