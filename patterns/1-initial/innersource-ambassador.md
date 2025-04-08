@@ -65,7 +65,7 @@ There are many examples in the industry, using similar concepts. Sometimes used 
 
 Here some examples from the commercial domain, academia and open source:
 
-- **IBM** is using similar concepts in various areas: [IBM Champions](https://www.ibm.com/community/ibm-champions/), [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program), [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-ambassador-program)
+- **IBM** is using similar concepts in various areas: [IBM Champions](https://www.ibm.com/community/ibm-champions/), [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program), [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-student-ambassador-role)
 - **IBM Research** has a concept called [IBM Quantum Ambassadors](https://www.ibm.com/training/badge/ibm-quantum-associate-ambassador)
 - **Red Hat** has a concept called [Red Hat Champions](https://access.redhat.com/champions)
 - **CNCF** has a concept called [CNCF Ambassadors](https://www.cncf.io/people/ambassadors/application-process/)
