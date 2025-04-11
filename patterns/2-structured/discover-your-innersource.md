@@ -39,7 +39,7 @@ Make it easy to find the reusable code.
 * Tool with a central view (but people are more inclined to google externally than look internally)
 * Concierge service (guide) to help product people find stuff. Might not scale but could be helpful in the beginning.
 * Need some very visible lighthouse projects that start using InnerSource components and make positive statements about the InnerSource program.
-* Establish a common, asynchronous communication channel (e.g., like slack or metamorph or yammer) across team boundaries.
+* Establish a common, asynchronous communication platform (e.g., chat based) across team boundaries.
   * This might not scale beyond a certain organization size.
   * It is possible people will start splitting this one channel into multiple channels by topic once traffic gets too high.
   * Note: having one channel for many users of one tool might be considered an anti-pattern because they can't find it unless they already know about it.
