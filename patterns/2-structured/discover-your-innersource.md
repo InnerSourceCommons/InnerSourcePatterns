@@ -26,12 +26,16 @@ People don't bother looking for internally developed solutions - they might not 
     - might not be maintained
     - might have poor reusability
     - if someone put out a SW internally, the expectation is that they wouldn't have time to support it (vs. open source options)
+* Difficulty in adding content to the search index makes it hard for people to find anything
 
 ## Solution
 
 Make it easy to find the reusable code.
 
 * Pull in Repo names, descriptions and README.md files into the search engine assuming that a search engine exists. Note: a one-stop-shop kind of search engine for all relevant communication and documentation is difficult to attain. Even when using Github's enterprise offering, people often deploy additional systems like wikis to host content orthogonal to what is in the code repositories, slack channels (or IRC), mailing lists (or even nntp servers), some place to store stuff written down in office formats, search over personal e-mail etc. Several of these systems come with search built-in, but integrating this content in one search box or even just deploying a federated search engine across all sources often doesn't come off-the-shelf.
+* Consider using existing tools:
+  * GitHub Enterprise and npmjs have built-in searches on meta-data
+  * PayPal's Agora project (planned to be open sourced) addresses similar challenges with data source integration
 * Implement process change to first check for internal solutions for this problem.
 * Tool with a central view (but people are more inclined to google externally than look internally)
 * Concierge service (guide) to help product people find stuff. Might not scale but could be helpful in the beginning.
@@ -76,14 +80,3 @@ Make it easy to find the reusable code.
 * Not looking for stuff internally
 * Don't bother looking
 * Find it Inside
-
-## Discussion on
-
-* Comments may appear in the timeline but not with the file once it is edited (github)?
-* https://github.com/InnerSourceCommons/InnerSourcePatterns/pull/60
-* If only X knew what X knew; the internal search engine is bad. No one can find anything because it is difficult to add things to the search index.
-* We have similar challenges getting data sources pulled into the search engine. PayPal is building a project called Agora to do this and they are planning to open source it.
-* Github Enterprise and npmjs have built-in searches on meta-data. Enterprise that opts into these tooling will get some of that functi
-* Software component(s) are available internally but users can't easily find these.
-* This problem is more likely to occur where there are silos in the company (e.g., larger companies; smaller companies may have fewer opportunities for reuse of internally developed software).
-* The company traditionally has been bad at sharing across silos (people don't have the culture of sharing).
