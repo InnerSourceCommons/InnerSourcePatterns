@@ -55,7 +55,7 @@ Can you get consistent answers within the Organization to questions like:
 
 Mockup dashboard             |  Mockup questionnaire
 :-------------------------:|:-------------------------:
-![Mockup dashboard](../../assets/img/source-code-inventory-mockup-dashboard.PNG)  |  ![Mockup questionnaire](../../assets/img/source-code-inventory-mockup-questionnaire.PNG)
+![Mockup dashboard](../../assets/img/source-code-inventory/source-code-inventory-mockup-dashboard.png)  |  ![Mockup questionnaire](../../assets/img/source-code-inventory/source-code-inventory-mockup-questionnaire.png)
 
 ### Define a Source Code Strategy Assessment Framework
 
