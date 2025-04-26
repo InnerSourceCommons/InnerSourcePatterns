@@ -43,7 +43,7 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 - Ambassadors support and encourage InnerSource across the department while maintaining their primary organizational roles.
 - Strive to have departmental leadership support (and even assist in identifying) the ambassador.
 - Train ambassadors on InnerSource principles, tools, and the goals of the ISPO.
-- Establish clear expectations for ambassadors, including acting as a liaison, promoting InnerSource practices, and providing feedback to the ISPO.
+- Establish clear expectations for ambassadors, including acting as a liaison, promoting InnerSource practices, reporting impactful instances of InnerSource activity, and providing feedback to the ISPO.
 - Create incentives for the ambassors, e.g. making ambassador work part of the reward system of the organization and praising their work (refer to the pattern [Praise Participants](../2-structured/praise-participants.md)).
 - Create a support network among ambassadors to share best practices and foster a sense of community.
 - Schedule regular check-ins between ambassadors and the ISPO to gather insights and provide guidance.
