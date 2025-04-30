@@ -12,7 +12,7 @@ Instead edit toc_template.md
 
 * [イントロダクション](./introduction.md)
 * [目次](./toc.md)
-* [パターンの一覧](./explore-patterns.md)
+* [パターンを探る](./explore-patterns.md)
 * [この本へのコントリビューション](./contribute.md)
 
 ![インナーソースパターンのマインドマップ](../../pattern-categorization/innersource-program-mind-map.png)
