@@ -17,7 +17,7 @@ organization. However, if the team itself does not adhere to these principles, o
 rhetoric rather than a transformative practice. Without leading by example, adoption and trust in InnerSource
 initiatives may suffer.
 
-## Story (optional)
+## Story
 
 At Siemens, when the InnerSource journey began, many of the early contributors were deeply inspired by the Open Source
 culture, several were also active participants in community projects. For them, setting up an InnerSource platform
@@ -123,18 +123,15 @@ Committer Base" or "InnerSource Project Lifecycle Management" to ensure sustaina
 
 ## Known Instances
 
-- At Siemens, the experts behind the InnerSource initiative applied the same principles they advocated, developing key
+- **Siemens** - The experts behind the InnerSource initiative applied the same principles they advocated, developing key
 assets such as documentation portals and contribution tooling transparently in shared repositories. Discussions about
 governance, onboarding, and platform features were handled openly using issue trackers and pull requests. This visible
 commitment to openness not only boosted trust among developers but also encouraged other teams to adopt similar
 practices, accelerating InnerSource adoption organically across departments.
 
-## Status (optional until merging)
+## Status
 
-> General pattern status is stored in GitHub's Label tagging - see any pull request. Note that this GitHub label tagging
-  becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful.
-  You might store other related info here, such as review history: "Three of us reviewed this on 2/5/17 and it needs
-  John's expertise before it can go further."
+- Initial
 
 ## Author(s)
 
