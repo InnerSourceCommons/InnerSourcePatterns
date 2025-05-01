@@ -59,14 +59,11 @@ skills not always prioritized in internal tooling teams.
   increases acceptance, especially when people feel included in the process. However, it also requires a mindset shift:
   embracing open discussion, being comfortable with disagreement, and being willing to justify decisions in public and
   potentially critical forums.
-
 - **Speed vs. Quality**: working transparently can slow things down in the short term compared to quick, closed
   decision-making. However, this slower pace often leads to higher-quality outcomes: better-informed decisions, fewer
   misunderstandings, and solutions that are easier to maintain.
-
 - **Effort vs. Reuse**: documenting decisions, maintaining contribution guidelines, and curating issues takes time. But
 this investment leads to higher reusability, easier onboarding, and better scaling of knowledge.
-
 - **Risk vs. Trust**: opening up work may expose mistakes or half-finished ideas. But by showing authentic work in
 progress, teams build credibility and foster trust across organizational boundaries.
 
