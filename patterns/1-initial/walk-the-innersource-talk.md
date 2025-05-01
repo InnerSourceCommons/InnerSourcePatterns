@@ -144,3 +144,9 @@ practices, accelerating InnerSource adoption organically across departments.
 - Ercan Uçan (Siemens AG)
 - Fabio Huser (Siemens AG)
 - Max Wittig (Siemens AG)
+
+## Alias
+
+- Show, don't tell
+- Dogfooding the InnerSource behaviors
+- Role-modeling the InnerSource behaviors
