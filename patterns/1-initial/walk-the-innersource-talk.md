@@ -73,6 +73,13 @@ expectations, improves trust in the initiative, and helps shift the broader orga
 
 ## Solutions
 
+Rather than **telling** the teams in your organization how to practice InnerSource, find ways to **show** them how to do it.
+
+This role-modelling of the desired behaviors can be done by any team. However the more central that team is, i.e. the more touch points it has with other teams,
+the more effective this role-modelling will be as it disseminates the InnerSouces behaviors into many different teams and parts of the organization.
+
+Therefore, we recommend to identify some central teams (e.g. platform teams, DevEx teams, enablement teams, or maybe even the team behind the InnerSource initiative to do this role-modelling.
+
 ✅ Verified Resolutions
 
 These have been successfully applied in real-world InnerSource initiatives (including at Siemens) and are known to help
@@ -81,7 +88,7 @@ solve the problem:
 1. Use version-controlled repositories for all InnerSource-related assets (policies, guidelines, tooling code,
 documentation), accessible to all relevant developers.
 1. Make decisions in the open by using issue trackers and discussions rather than closed-door meetings or emails.
-1. Apply contribution workflows to internal platforms and tools exactly as recommended for InnerSource projects: open
+2. Apply contribution workflows to internal platforms and tools exactly as recommended for InnerSource projects: open
 pull requests, reviews, contribution guidelines, etc.
 1. Document frequently asked questions (FAQs), design rationales, and change histories transparently, as part of the
 repositories.
