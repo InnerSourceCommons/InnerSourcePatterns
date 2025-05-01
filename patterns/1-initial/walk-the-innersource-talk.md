@@ -155,5 +155,6 @@ practices, accelerating InnerSource adoption organically across departments.
 ## Alias
 
 - Show, don't tell
+- Lead by example
 - Dogfooding the InnerSource behaviors
 - Role-modeling the InnerSource behaviors
