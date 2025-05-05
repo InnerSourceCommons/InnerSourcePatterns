@@ -76,7 +76,7 @@ expectations, improves trust in the initiative, and helps shift the broader orga
 Rather than **telling** the teams in your organization how to practice InnerSource, find ways to **show** them how to do it.
 
 This role-modelling of the desired behaviors can be done by any team. However the more central that team is, i.e. the more touch points it has with other teams,
-the more effective this role-modelling will be as it disseminates the InnerSouces behaviors into many different teams and parts of the organization.
+the more effective this role-modelling will be as it disseminates the InnerSource behaviors into many different teams and parts of the organization.
 
 Therefore, we recommend to identify some central teams (e.g. platform teams, DevEx teams, enablement teams, or maybe even the team behind the InnerSource initiative to do this role-modelling.
 
