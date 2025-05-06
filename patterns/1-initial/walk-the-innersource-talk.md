@@ -88,7 +88,7 @@ solve the problem:
 1. Use version-controlled repositories for all InnerSource-related assets (policies, guidelines, tooling code,
 documentation), accessible to all relevant developers.
 1. Make decisions in the open by using issue trackers and discussions rather than closed-door meetings or emails.
-2. Apply contribution workflows to internal platforms and tools exactly as recommended for InnerSource projects: open
+1. Apply contribution workflows to internal platforms and tools exactly as recommended for InnerSource projects: open
 pull requests, reviews, contribution guidelines, etc.
 1. Document frequently asked questions (FAQs), design rationales, and change histories transparently, as part of the
 repositories.
