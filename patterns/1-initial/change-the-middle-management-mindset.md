@@ -71,7 +71,7 @@ The InnerSource program does not live up to its expectations because middle mana
 
 * Empowering Middle Management - InnerSource readiness checklist; Middle Management should partner with their developers. What are the opportunities out there. Can we come up with justification for you to spend any time on this (how does this tie together with our KPIs)
 
-* If the organzation is doing Agile development, during release planning, time and resources for InnerSource practices should be built into sprints.
+* If the organization is doing Agile development, during release planning, time and resources for InnerSource practices should be built into sprints.
 
 * **1 step back, 3 steps forward** (aka "the tax"): If my team contributes, what's the tax (in terms of time/resources)?
   * Finding opportunities for contribution
