@@ -133,6 +133,10 @@ governance, onboarding, and platform features were handled openly using issue tr
 commitment to openness not only boosted trust among developers but also encouraged other teams to adopt similar
 practices, accelerating InnerSource adoption organically across departments.
 
+- **Eurospace** - This pattern was also successfully applied at Eurospace, details about this case study can be found in
+the book [Adopting InnerSource](https://innersourcecommons.org/documents/books/AdoptingInnerSource.pdf) by Danese Cooper
+and Klaas-Jan Stol (O'REILLY), see in particular the chapter _Leading by Example_.
+
 ## Status
 
 - Initial
