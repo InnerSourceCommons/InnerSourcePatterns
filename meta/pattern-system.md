@@ -78,7 +78,7 @@ our InnerSource pattern system.
 
 Takashi Iba has published an article in the ACM Digital Library from PLoP 2016:
 [A pattern language for creating pattern languages: 364 patterns for pattern
-mining, writing, and symbolizing](https://dl.acm.org/citation.cfm?id=3158175&CFID=831673585&CFTOKEN=74341142&qualifier=LU1011674)
+mining, writing, and symbolizing](https://dl.acm.org/doi/10.5555/3158161.3158175)
 
 - for those without ACM DL access, there is [an earlier draft of the paper from
 PLoP 2016](http://www.hillside.net/plop/2016/papers/three/26.3.pdf).
