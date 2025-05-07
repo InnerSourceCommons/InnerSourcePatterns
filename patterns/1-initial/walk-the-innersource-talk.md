@@ -17,7 +17,7 @@ organization. However, if the team itself does not adhere to these principles, o
 rhetoric rather than a transformative practice. Without leading by example, adoption and trust in InnerSource
 initiatives may suffer.
 
-## Story (optional)
+## Story
 
 At Siemens, when the InnerSource journey began, many of the early contributors were deeply inspired by the Open Source
 culture, several were also active participants in community projects. For them, setting up an InnerSource platform
@@ -49,8 +49,8 @@ are often used to working behind closed doors. Decision-making happens in meetin
 scattered, and ownership is unclear. Shifting to transparent, open collaboration requires both cultural change and a
 reevaluation of existing workflows.
 - Working in the open can feel scary - when everything is public, people might hold back from contributing because they worry their work isn't perfect enough. This fear of not being "good enough" can stop many valuable ideas from being shared.
-- People in central roles may fear scrutiny, overload from unsolicited input, or loss of control. Additionally, moving
-towards open collaboration demands more discipline in documentation, async communication, and community management -
+- People in central roles may fear scrutiny, overload from unsolicited input, or loss of control.
+- Moving towards open collaboration demands more discipline in documentation, async communication, and community management -
 skills not always prioritized in internal tooling teams.
 
 ### What are the trade-offs?
@@ -59,14 +59,11 @@ skills not always prioritized in internal tooling teams.
   increases acceptance, especially when people feel included in the process. However, it also requires a mindset shift:
   embracing open discussion, being comfortable with disagreement, and being willing to justify decisions in public and
   potentially critical forums.
-
 - **Speed vs. Quality**: working transparently can slow things down in the short term compared to quick, closed
   decision-making. However, this slower pace often leads to higher-quality outcomes: better-informed decisions, fewer
   misunderstandings, and solutions that are easier to maintain.
-
 - **Effort vs. Reuse**: documenting decisions, maintaining contribution guidelines, and curating issues takes time. But
 this investment leads to higher reusability, easier onboarding, and better scaling of knowledge.
-
 - **Risk vs. Trust**: opening up work may expose mistakes or half-finished ideas. But by showing authentic work in
 progress, teams build credibility and foster trust across organizational boundaries.
 
@@ -75,6 +72,13 @@ internally - addresses these forces by modeling the desired behavior. It increas
 expectations, improves trust in the initiative, and helps shift the broader organizational culture over time.
 
 ## Solutions
+
+Rather than **telling** the teams in your organization how to practice InnerSource, find ways to **show** them how to do it.
+
+This role-modelling of the desired behaviors can be done by any team. However the more central that team is, i.e. the more touch points it has with other teams,
+the more effective this role-modelling will be as it disseminates the InnerSource behaviors into many different teams and parts of the organization.
+
+Therefore, we recommend to identify some central teams (e.g. platform teams, DevEx teams, enablement teams, or maybe even the team behind the InnerSource initiative to do this role-modelling.
 
 ✅ Verified Resolutions
 
@@ -123,18 +127,15 @@ Committer Base" or "InnerSource Project Lifecycle Management" to ensure sustaina
 
 ## Known Instances
 
-- At Siemens, the experts behind the InnerSource initiative applied the same principles they advocated, developing key
+- **Siemens** - The experts behind the InnerSource initiative applied the same principles they advocated, developing key
 assets such as documentation portals and contribution tooling transparently in shared repositories. Discussions about
 governance, onboarding, and platform features were handled openly using issue trackers and pull requests. This visible
 commitment to openness not only boosted trust among developers but also encouraged other teams to adopt similar
 practices, accelerating InnerSource adoption organically across departments.
 
-## Status (optional until merging)
+## Status
 
-> General pattern status is stored in GitHub's Label tagging - see any pull request. Note that this GitHub label tagging
-  becomes less visible once the pattern is finalized and merged, so having some information in this field is helpful.
-  You might store other related info here, such as review history: "Three of us reviewed this on 2/5/17 and it needs
-  John's expertise before it can go further."
+- Initial
 
 ## Author(s)
 
@@ -150,3 +151,10 @@ practices, accelerating InnerSource adoption organically across departments.
 - Ercan Uçan (Siemens AG)
 - Fabio Huser (Siemens AG)
 - Max Wittig (Siemens AG)
+
+## Alias
+
+- Show, don't tell
+- Lead by example
+- Dogfooding the InnerSource behaviors
+- Role-modelling the InnerSource behaviors
