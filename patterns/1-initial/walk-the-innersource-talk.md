@@ -163,4 +163,4 @@ and Klaas-Jan Stol (O'REILLY), see in particular the chapter _Leading by Example
 - Show, don't tell
 - Lead by example
 - Dogfooding the InnerSource behaviors
-- Role-modeling the InnerSource behaviors
+- Role-modelling the InnerSource behaviors
