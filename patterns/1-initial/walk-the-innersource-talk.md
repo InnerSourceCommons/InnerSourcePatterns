@@ -133,11 +133,10 @@ governance, onboarding, and platform features were handled openly using issue tr
 commitment to openness not only boosted trust among developers but also encouraged other teams to adopt similar
 practices, accelerating InnerSource adoption organically across departments.
 
-- **Europace** - This pattern was also successfully applied at Europace, details about this case study can be found in
-the book [Adopting InnerSource](https://innersourcecommons.org/documents/books/AdoptingInnerSource.pdf) by Danese Cooper
-and Klaas-Jan Stol (O'REILLY), see in particular the chapter _Leading by Example_.
+- **Europace** - This pattern was also successfully applied at Europace. Details about this case study can be found in
+the book [Adopting InnerSource][Adopting-InnerSource-book], see in particular the chapter _Leading by Example_.
 
-- **Robert Bosch** - The InnerSource team at Bosch has applied the InnerSource working model and collaboration values from the very beginning. Their issue tracker and Kanban boards are open for the whole community to see. Their automations and governance infrastructure are developed in InnerSource repositories. The most successful example is the InnerSource documentation, which is hosted in an InnerSource repository and follows the docs-as-code practice. The documentation has proven as a low barrier opportunity to contribute and has received numerous contributions from individuals throughout the company. More details can also be found in the book Adopting InnerSource](https://innersourcecommons.org/documents/books/AdoptingInnerSource.pdf).
+- **Robert Bosch** - The InnerSource team at Bosch has applied the InnerSource working model and collaboration values from the very beginning. Their issue tracker and Kanban boards are open for the whole community to see. Their automations and governance infrastructure are developed in InnerSource repositories. The most successful example is the InnerSource documentation, which is hosted in an InnerSource repository and follows the docs-as-code practice. The documentation has proven as a low barrier opportunity to contribute and has received numerous contributions from individuals throughout the company. More details can be found in the book [Adopting InnerSource][Adopting-InnerSource-book].
 
 ## Status
 
@@ -164,3 +163,5 @@ and Klaas-Jan Stol (O'REILLY), see in particular the chapter _Leading by Example
 - Lead by example
 - Dogfooding the InnerSource behaviors
 - Role-modelling the InnerSource behaviors
+
+[Adopting-InnerSource-book]: https://innersourcecommons.org/documents/books/AdoptingInnerSource.pdf
