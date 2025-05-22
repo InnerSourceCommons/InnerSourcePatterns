@@ -68,7 +68,7 @@ this investment leads to higher reusability, easier onboarding, and better scali
 progress, teams build credibility and foster trust across organizational boundaries.
 
 The solution - working in the open, documenting decisions transparently, and following InnerSource best practices
-internally - addresses these forces by modeling the desired behavior. It increases alignment with developer
+internally - addresses these forces by modelling the desired behavior. It increases alignment with developer
 expectations, improves trust in the initiative, and helps shift the broader organizational culture over time.
 
 ## Solutions
