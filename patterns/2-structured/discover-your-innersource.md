@@ -42,7 +42,7 @@ Make it easy to find the reusable code.
 * Need some very visible lighthouse projects that start using InnerSource components and make positive statements about the InnerSource program.
 * Establish a common, asynchronous communication platform (e.g., chat based) across team boundaries.
   * This might not scale beyond a certain organization size.
-  * It is possible people will start splitting this one channel into multiple channels by topic once traffic gets too high.
+  * When using common chat systems, start with one single chat channel for the InnerSource project, only split into multiple channels by topic once traffic gets too high. This way the channel feels alive. In addition the number of input channels to watch is kept at a minimum for the host team.
   * Note: having one channel for many users of one tool might be considered an anti-pattern because they can't find it unless they already know about it.
 * Encourage (and reward) owners of reusable code to use the same search engine to continually search for products that are candidates for use and adoption of the reusable code but not currently doing so.
 * Consider creating a marketplace for marketing InnerSource programs (management can use this mechanism to know which InnerSource projects to fund, but seeing how the marketplace reacts). - see [Gig Marketplace](../2-structured/gig-marketplace.md)
