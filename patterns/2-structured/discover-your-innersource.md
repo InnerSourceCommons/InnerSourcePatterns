@@ -22,10 +22,10 @@ People don't bother looking for internally developed solutions - they might not 
 * Users may not know there are common places to find internally developed solutions.
 * People don't expect to find solutions internally.
 * Many silos in the company; difficult to reach the developer base across those silos (a communications problem).
-* People might not want to use internal SW because they don't believe it will be helpful
+* People might not want to use internal software because they don't believe it will be helpful
     - might not be maintained
     - might have poor reusability
-    - if someone put out a SW internally, the expectation is that they wouldn't have time to support it (vs. open source options)
+    - if someone put out a software internally, the expectation is that they wouldn't have time to support it (vs. open source options)
 * Difficulty in adding content to the search index makes it hard for people to find anything
 
 ## Solution
