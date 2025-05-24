@@ -57,7 +57,7 @@ Key Performance Indicators (KPIs) for Product Owners are primarily product focus
 
 ## Known Instances
 
-* PayPal is looking into finding a search solution for their project Agora. They are collaborating with other teams pursuing a similar mission, eliminating redundancy and inefficiency regarding effort and tools.
+* PayPal is looking into finding a search solution for their project [SeazMe](https://github.com/paypal/seazme) (previously called Agora). They are collaborating with other teams pursuing a similar mission, eliminating redundancy and inefficiency regarding effort and tools.
 
 ## Status
 
