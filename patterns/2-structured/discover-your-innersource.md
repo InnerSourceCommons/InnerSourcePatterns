@@ -35,7 +35,7 @@ Make it easy to find the reusable code.
 * Pull in Repo names, descriptions and README.md files into the search engine assuming that a search engine exists. Note: a one-stop-shop kind of search engine for all relevant communication and documentation is difficult to attain. Even when using Github's enterprise offering, people often deploy additional systems like wikis to host content orthogonal to what is in the code repositories, slack channels (or IRC), mailing lists (or even nntp servers), some place to store stuff written down in office formats, search over personal e-mail etc. Several of these systems come with search built-in, but integrating this content in one search box or even just deploying a federated search engine across all sources often doesn't come off-the-shelf.
 * Consider using existing tools:
   * GitHub Enterprise and npmjs have built-in searches on meta-data
-  * PayPal's Agora project (planned to be open sourced) addresses similar challenges with data source integration
+  * PayPal's [SeazMe](https://github.com/paypal/seazme) project addresses similar challenges with data source integration
 * Implement process change to first check for internal solutions for this problem.
 * Tool with a central view (but people are more inclined to google externally than look internally)
 * Concierge service (guide) to help product people find stuff. Might not scale but could be helpful in the beginning.
