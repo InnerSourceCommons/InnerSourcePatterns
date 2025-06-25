@@ -71,7 +71,7 @@ Pair this with middle-out efforts such as **internal dojos**, **developer experi
 
 ## Notes / Variations
 
-- Works best when paired with [Fearless Change Patterns](https://fearlesschangepatterns.com) like **Evangelist**, **Just Enough Standards**, and **Corridor Politics**.  
+- Works best when paired with [Fearless Change Patterns](https://fearlesschangepatterns.com) like **Evangelist**, **Just Enough**, and **Corridor Politics**.  
 - Often catalyzed by middle-out roles like **Platform Leads**, **Agile Coaches**, or **DX Advocates**.  
 - Early experiments may need “tending” by a **Change Artist** who can compost tension into relationship.  
 - This is *not* about more meetings — it’s about more meaningful contact.  
