@@ -3,6 +3,7 @@
 🌿 Weaving the Garden Grid
 
 ## Also Known As
+
 - *Circles Before Systems*  
 - *Middle-Out Mycelium*  
 - *Feedback as Fertilizer*  
