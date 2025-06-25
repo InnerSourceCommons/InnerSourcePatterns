@@ -1,4 +1,6 @@
-# 🌿 Weaving the Garden Grid
+## Title
+
+🌿 Weaving the Garden Grid
 
 ## Also Known As
 - *Circles Before Systems*  
