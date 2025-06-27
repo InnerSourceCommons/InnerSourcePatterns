@@ -30,7 +30,7 @@ Transformation efforts stall when teams attempt to grow in isolation. Developers
 - 🧠 **Security demands** shift focus toward control and risk elimination.  
 - 🏃 **Agile teams** push for velocity and autonomy.  
 - 🧱 **Architects** seek elegant future states across messy current states.  
-- 🌍 **Global scale** amplifies inconsistencies across business units.  
+- 🌍 **Global scale** surfaces inconsistencies across business units.  
 - 🔄 **Feedback loops are sparse** and asynchronous, reinforcing “us/them” dynamics.  
 - 🧍‍♀️🧍‍♂️ **Overloaded staff** resist deeper engagement or new complexity.  
 - 💬 **Language habits** reinforce separation and mistrust.  
