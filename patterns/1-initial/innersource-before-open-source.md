@@ -4,7 +4,7 @@ Require InnerSource before Open Source
 
 ## Patlet
 
-Organizations often struggle with maintaining and managing open source projects due to a lack of internal collaboration practices and infrastructure. By requiring projects to be InnerSource before becoming open source, teams can establish the necessary internal support, governance, and collaboration skills needed for successful community engagement.  
+Maintaining and managing open source projects can be challenging for organizations, due to a lack of internal infrastructure and people with the knowledge of the required collaboration practices. By requiring projects to be InnerSource before becoming open source, teams have time to establish the necessary internal support, governance, and collaboration skills needed for successful community engagement.
 
 ## Problem
 
