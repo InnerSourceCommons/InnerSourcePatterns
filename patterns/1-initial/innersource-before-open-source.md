@@ -40,7 +40,7 @@ Before making a project open source, require it to go through an InnerSource pha
 1. The project is made available internally for contributions from other teams e.g. via an [InnerSource Portal](../2-structured/innersource-portal.md).
 2. Clear [documentation](../2-structured/base-documentation.md) (including contribution guidelines), and [governance structures](../2-structured/governance-levels.md) are established.
 3. Maintainers gain experience managing contributions, reviewing pull requests, and addressing issues.
-4. Maintainers get to git practice the soft skills required to support a community of people outside of their own team.
+4. Maintainers get to practice the soft skills required to support a community of people outside of their own team.
 5. Internal adoption and success metrics are measured to determine if the project is ready for external release. Some possible metrics are detailed in the [Repository Activity Score](../2-structured/repository-activity-score.md).
 6. Feedback loops are created to refine processes before engaging a broader open source audience.  
 
@@ -53,7 +53,11 @@ Before making a project open source, require it to go through an InnerSource pha
 
 ## Rationale
 
-By requiring InnerSource before Open Source, organizations ensure that projects are equipped with the right practices and infrastructure to thrive in an open community. This approach mitigates risks, improves sustainability, and maximizes the chances of long-term success.  
+Especially when an organization has never released any project as open source, that task may feel daunting. Being able to practice things internally can be a safer space for experimentation and failure.
+
+If it turns out that a given InnerSource project does not gain enough adoption internally, the organization may decide to not make the project open source at all. This assumes that the organization is large enough to allow for a realistic test.
+
+Allowing the maintainers of the project to practice the required skills internally mitigates risks, improves sustainability, and maximizes the chances of long-term success of the project.  
 
 ## Known Instances
 
