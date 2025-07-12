@@ -42,7 +42,8 @@ Before making a project open source, require it to go through an InnerSource pha
 3. Maintainers gain experience managing contributions, reviewing pull requests, and addressing issues.
 4. Maintainers get to practice the soft skills required to support a community of people outside of their own team.
 5. Internal adoption and success metrics are measured to determine if the project is ready for external release. Some possible metrics are detailed in the [Repository Activity Score](../2-structured/repository-activity-score.md).
-6. Feedback loops are created to refine processes before engaging a broader open source audience.  
+6. Feedback loops are created to refine processes before engaging a broader open source audience.
+7. Decision about whether or not the project should be released as open source (based on the success metrics defined earlier). The incubation phase as an InnerSource project can be seen a quality gate. So naturally not all projects will pass that gate.
 
 ## Resulting Context
 
@@ -53,24 +54,23 @@ Before making a project open source, require it to go through an InnerSource pha
 
 ## Rationale
 
-Especially when an organization has never released any project as open source, that task may feel daunting. Being able to practice things internally can be a safer space for experimentation and failure.
+Releasing a project as open source may feel daunting, especially when an organization has never done this before. Being able to practice things internally can be a safer space for experimentation and failure.
 
-If it turns out that a given InnerSource project does not gain enough adoption internally, the organization may decide to not make the project open source at all. This assumes that the organization is large enough to allow for a realistic test.
+If it turns out that a given InnerSource project does not gain enough adoption internally, the organization may decide to not make the project open source at all. This assumes that the organization is large enough to allow for a realistic internal test.
 
 Allowing the maintainers of the project to practice the required skills internally mitigates risks, improves sustainability, and maximizes the chances of long-term success of the project.  
 
 ## Known Instances
 
-- **MELI - Mercado Libre**
+- **Mercado Libre (MELI)**
 
-### MELI - Mercado Libre
+### Mercado Libre (MELI)
 
-We use badges to identify our projects at the stages we consider important in the maturity of an InnerSource project.
-The first step for a project is to receive the **InnerSource Ready** badge, which indicates that the project meets the structure, artifacts, and documentation quality required for the initiative.
-This stage also uploads project information to our internal [InnerSource project portal](../2-structured/innersource-portal.md), where it receives some visibility, allowing it to receive contributions and become better known within our teams.
-We are currently reviewing our InnerSource stage flow, where a project will be able to use AI-based tools to automatically generate all the necessary requirements to be considered InnerSource Ready. This will allow us to focus more on making it active and attractive to the internal community.
+Mercado Libre tags projects with badges to identify at which stage of their self-defined InnerSource maturity a project currently is.
+The first step for a project is to receive the **InnerSource Ready** badge. This indicates that the project meets the structure, artifacts, and documentation quality required for the initiative.
+This stage also uploads project information to our internal [InnerSource project portal](../2-structured/innersource-portal.md), creating more visibility for the project, allowing it to receive contributions and become better known within our teams.
 
-[Transforming software development at Mercado Libre with InnerSource](https://medium.com/mercadolibre-tech/transforming-software-development-at-mercado-libre-with-innersource-016b35e1ded3)
+We are currently reviewing our InnerSource stage flow, where a project will be able to use AI-based tools to automatically generate all the necessary requirements to be considered InnerSource Ready. This will allow us to focus more on making it active and attractive to the internal community. For more about the different different stages of InnerSource maturity used at Mercado Libre, see [Transforming software development at Mercado Libre with InnerSource](https://medium.com/mercadolibre-tech/transforming-software-development-at-mercado-libre-with-innersource-016b35e1ded3).
 
 ## Status
 
