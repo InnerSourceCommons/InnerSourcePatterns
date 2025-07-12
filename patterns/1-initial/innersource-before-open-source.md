@@ -62,13 +62,12 @@ Allowing the maintainers of the project to practice the required skills internal
 ## Known Instances
 
 - **MELI - Mercado Libre**
- - 
 
 ### MELI - Mercado Libre
 
 We use badges to identify our projects at the stages we consider important in the maturity of an InnerSource project.
-The first step for a project is to receive the InnerSource Ready badge, which indicates that the project meets the structure, artifacts, and documentation quality required for the initiative.
-This stage also uploads project information to our internal InnerSource project portal, where it receives some visibility, allowing it to receive contributions and become better known within our teams.
+The first step for a project is to receive the **InnerSource Ready** badge, which indicates that the project meets the structure, artifacts, and documentation quality required for the initiative.
+This stage also uploads project information to our internal [InnerSource project portal](../2-structured/innersource-portal.md), where it receives some visibility, allowing it to receive contributions and become better known within our teams.
 We are currently reviewing our InnerSource stage flow, where a project will be able to use AI-based tools to automatically generate all the necessary requirements to be considered InnerSource Ready. This will allow us to focus more on making it active and attractive to the internal community.
 
 [Transforming software development at Mercado Libre with InnerSource](https://medium.com/mercadolibre-tech/transforming-software-development-at-mercado-libre-with-innersource-016b35e1ded3)
