@@ -66,9 +66,7 @@ Allowing the maintainers of the project to practice the required skills internal
 
 ### Mercado Libre (MELI)
 
-Mercado Libre tags projects with badges to identify at which stage of their self-defined InnerSource maturity a project currently is.
-The first step for a project is to receive the **InnerSource Ready** badge. This indicates that the project meets the structure, artifacts, and documentation quality required for the initiative.
-This stage also uploads project information to our internal [InnerSource project portal](../2-structured/innersource-portal.md), creating more visibility for the project, allowing it to receive contributions and become better known within our teams.
+Mercado Libre tags projects with badges to identify at which stage of their self-defined InnerSource maturity a project currently is. The first step for a project is to receive the **InnerSource Ready** badge. This indicates that the project meets the structure, artifacts, and documentation quality required for the initiative. This stage also uploads project information to our internal [InnerSource project portal](../2-structured/innersource-portal.md), creating more visibility for the project, allowing it to receive contributions and become better known within our teams.
 
 We are currently reviewing our InnerSource stage flow, where a project will be able to use AI-based tools to automatically generate all the necessary requirements to be considered InnerSource Ready. This will allow us to focus more on making it active and attractive to the internal community. For more about the different different stages of InnerSource maturity used at Mercado Libre, see [Transforming software development at Mercado Libre with InnerSource](https://medium.com/mercadolibre-tech/transforming-software-development-at-mercado-libre-with-innersource-016b35e1ded3).
 
