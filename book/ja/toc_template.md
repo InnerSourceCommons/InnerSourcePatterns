@@ -17,6 +17,8 @@ Instead edit toc_template.md
 
 ![インナーソースパターンのマインドマップ](../../pattern-categorization/innersource-program-mind-map.png)
 
+<!-- Custom TOC ordering for enhanced readability - maintain when adding new patterns -->
+
 ## インナーソースをはじめよう！
 
 ### 何から準備する？
