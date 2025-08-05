@@ -17,7 +17,11 @@ Instead edit toc_template.md
 
 ![インナーソースパターンのマインドマップ](../../pattern-categorization/innersource-program-mind-map.png)
 
-<!-- Custom TOC ordering for enhanced readability - maintain when adding new patterns -->
+<<PATTERNS_HERE>>
+
+<!-- 
+NOTE: 2025/08/04 Custom TOC ordering for enhanced readability - maintain when adding new patterns 
+NOTE: 2025/08/05 Rollback because of broken link structure
 
 ## インナーソースをはじめよう！
 
@@ -101,14 +105,16 @@ Instead edit toc_template.md
 
 * [持続可能な成長のためのエクステンション](../../translation/ja/patterns/extensions-for-sustainable-growth.md) - インナーソースプロジェクトは多くのコントリビューションを受けており、メンテナンスが難しくなっています。メンテナは、プロジェクトのコア部分から離れた拡張機構を提供することで、最小のコストとメンテナンスオーバーヘッドでプロジェクトの能力をスケールアップすることを可能にします。
 
-## 付録<a id="appendix"></a>
+-->
+
+## Appendix<a id="appendix"></a>
 
 * [パターンテンプレート](../../meta/pattern-template.md)
 * その他
   * [README テンプレート](../../translation/ja/templates/README-template.md)
   * [CONTRIBUTING テンプレート](../../translation/ja/templates/CONTRIBUTING-template.md)
 
-## リソース
+## Resources
 
 * [GitHub](https://github.com/InnerSourceCommons/InnerSourcePatterns)
 * [InnerSource Commons](http://innersourcecommons.org)
