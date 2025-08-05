@@ -17,10 +17,11 @@ Instead edit toc_template.md
 
 ![インナーソースパターンのマインドマップ](../../pattern-categorization/innersource-program-mind-map.png)
 
-<<PATTERNS_HERE>>
+
 
 <!-- 
 NOTE: 2025/08/04 Custom TOC ordering for enhanced readability - maintain when adding new patterns 
+
 -->
 
 **インナーソースをはじめよう！**
