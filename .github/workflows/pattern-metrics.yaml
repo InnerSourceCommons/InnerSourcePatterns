@@ -53,7 +53,7 @@ jobs:
         echo "CODEOWNERS_FILTER=$CODEOWNERS_FILTER" >> "$GITHUB_ENV"
 
     - name: Run issue-metrics tool for issues
-      uses: github/issue-metrics@v2
+      uses: github/issue-metrics@v3
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SEARCH_QUERY: 'repo:InnerSourceCommons/InnerSourcePatterns is:issue created:${{ env.last_month }} -reason:"not planned" ${{ env.CODEOWNERS_FILTER }}'
@@ -66,7 +66,7 @@ jobs:
         mv ./issue_metrics.md ready_to_merge_issues_report.md
 
     - name: Run issue-metrics tool for PRs
-      uses: github/issue-metrics@v2
+      uses: github/issue-metrics@v3
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SEARCH_QUERY: 'repo:InnerSourceCommons/InnerSourcePatterns is:pr created:${{ env.last_month }} -reason:"not planned" ${{ env.CODEOWNERS_FILTER }}'
