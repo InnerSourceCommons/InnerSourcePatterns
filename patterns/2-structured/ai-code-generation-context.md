@@ -42,6 +42,7 @@ Create a `innersource-ai/` folder in the repository root containing:
 #### Core Documentation Files (Required)
 
 `PROMPT.md`: Project-specific instructions for AI tools
+
 *  Naming conventions (variables, functions, classes, files)
 *  Logging patterns and error handling approaches
 *  Testing strategy and preferred testing frameworks
@@ -50,6 +51,7 @@ Create a `innersource-ai/` folder in the repository root containing:
 *  Preferred libraries and frameworks for specific tasks
 
 `ARCHITECTURE.md`: Lightweight system overview
+
 *  High-level system architecture and component relationships
 *  Data flow patterns and API design principles
 *  Dependency management guidelines
@@ -57,6 +59,7 @@ Create a `innersource-ai/` folder in the repository root containing:
 *  Integration patterns with external systems
 
 `STYLE_GUIDE.md`: Comprehensive coding guidelines
+
 *  Language-specific style rules
 *  Code organization patterns
 *  Documentation standards
@@ -68,6 +71,7 @@ Create a `innersource-ai/` folder in the repository root containing:
 ##### Practical Examples
 
 `EXAMPLES/`: Sample code files demonstrating best practices
+
 *  `good-examples/`: Well-written code snippets with explanations
 *  `bad-examples/`: Common mistakes with explanations of why they're problematic
 *  `refactoring-examples/`: Before/after code showing proper improvements
@@ -76,12 +80,14 @@ Create a `innersource-ai/` folder in the repository root containing:
 ##### Configuration and Tooling
 
 `CONFIG/`: Shared formatter and analysis configurations
+
 *  `.prettierrc`, `.eslintrc`, or equivalent formatting configs
 *  `.editorconfig` for consistent editor settings
 *  Static analysis tool configurations
 *  Pre-commit hook configurations
 
 `INTEGRATION/`: AI tool-specific integration guides
+
 *  GitHub Copilot workspace configuration
 *  Custom GPT instructions and prompts
 *  IDE plugin configurations
@@ -90,6 +96,7 @@ Create a `innersource-ai/` folder in the repository root containing:
 ##### Advanced Features
 
 `EMBEDDINGS/` (Optional): For advanced LLM integrations
+
 *  Searchable knowledge base of project patterns
 *  Vector embeddings of code examples
 *  Semantic search capabilities for finding relevant patterns
@@ -101,12 +108,14 @@ Create a `innersource-ai/` folder in the repository root containing:
 ### Usage Patterns
 
 #### For Contributors
+
 * **Before Starting**: Review the AI context package to understand project standards
 * **During Development**: Reference specific files when prompting AI tools
 * **Code Generation**: Include relevant context snippets in AI prompts
 * **Validation**: Use provided examples to verify AI-generated code aligns with standards
 
 #### For AI Tool Integration
+
 *  **Direct Reference**: Copy relevant sections into AI tool prompts
 *  **URL Integration**: Reference files via repository URLs in AI tools that support web access
 *  **IDE Integration**: Configure AI plugins to automatically include context
