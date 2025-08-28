@@ -157,10 +157,6 @@ This solution balances the productivity benefits of AI tools with the quality re
 
 ## Related Patterns
 
- - [Standard Base Documentation](../2-structured/base-documentation.md): Provides the foundation documentation that AI context builds upon
- - [InnerSource Portal](../2-structured/innersource-portal.md): Could include AI context availability as searchable metadata for project discovery
- - [Trusted Committer](../2-structured/trusted-committer.md): Trusted Committers are responsible for maintaining and evolving the AI context package
-
-## License
-
-This pattern is licensed under the Creative Commons Attribution 4.0 International License.
+* [Standard Base Documentation](../base-documentation.md) - Provides the foundation documentation that AI context builds upon
+* [InnerSource Portal](../innersource-portal.md) -  Could include AI context availability as searchable metadata for project discovery
+* [Trusted Committer](../trusted-committer.md) -  Trusted Committers are responsible for maintaining and evolving the AI context package
