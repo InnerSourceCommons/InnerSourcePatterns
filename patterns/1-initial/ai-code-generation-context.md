@@ -43,28 +43,28 @@ Create an `innersource-ai/` folder in the repository root containing:
 
 `PROMPT.md`: Project-specific instructions for AI tools
 
- - Naming conventions (variables, functions, classes, files)
- - Logging patterns and error handling approaches
- - Testing strategy and preferred testing frameworks
- - Code formatting and style preferences
- - Common anti-patterns to avoid
- - Preferred libraries and frameworks for specific tasks
+* Naming conventions (variables, functions, classes, files)
+* Logging patterns and error handling approaches
+* Testing strategy and preferred testing frameworks
+* Code formatting and style preferences
+* Common anti-patterns to avoid
+* Preferred libraries and frameworks for specific tasks
 
 `ARCHITECTURE.md`: Lightweight system overview
 
- - High-level system architecture and component relationships
- - Data flow patterns and API design principles
- - Dependency management guidelines
- - Module organisation and layering principles
- - Integration patterns with external systems
+* High-level system architecture and component relationships
+* Data flow patterns and API design principles
+* Dependency management guidelines
+* Module organization and layering principles
+* Integration patterns with external systems
 
 `STYLE_GUIDE.md`: Comprehensive coding guidelines
 
- - Language-specific style rules
- - Code organisation patterns
- - Documentation standards
- - Performance considerations
- - Security guidelines and common vulnerabilities to avoid
+* Language-specific style rules
+* Code organization patterns
+* Documentation standards
+* Performance considerations
+* Security guidelines and common vulnerabilities to avoid
 
 #### Enhancements (Optional)
 
@@ -72,34 +72,34 @@ Create an `innersource-ai/` folder in the repository root containing:
 
 `EXAMPLES/`: Sample code files demonstrating best practices
 
- - `good-examples/`: Well-written code snippets with explanations
- - `bad-examples/`: Common mistakes with explanations of why they're problematic
- - `refactoring-examples/`: Before/after code showing proper improvements
- - Template files for common patterns (controllers, services, utilities)
+* `good-examples/`: Well-written code snippets with explanations
+* `bad-examples/`: Common mistakes with explanations of why they're problematic
+* `refactoring-examples/`: Before/after code showing proper improvements
+* Template files for common patterns (controllers, services, utilities)
 
 ##### Configuration and Tooling
 
 `CONFIG/`: Shared formatter and analysis configurations
 
- - `.prettierrc`, `.eslintrc`, or equivalent formatting configs
- - `.editorconfig` for consistent editor settings
- - Static analysis tool configurations
- - Pre-commit hook configurations
+* `.prettierrc`, `.eslintrc`, or equivalent formatting configs
+* `.editorconfig` for consistent editor settings
+* Static analysis tool configurations
+* Pre-commit hook configurations
 
 `INTEGRATION/`: AI tool-specific integration guides
 
- - GitHub Copilot workspace configuration
- - Custom GPT instructions and prompts
- - IDE plugin configurations
- - CLI tool integration examples
+* GitHub Copilot workspace configuration
+* Custom GPT instructions and prompts
+* IDE plugin configurations
+* CLI tool integration examples
 
 ##### Advanced Features
 
-`EMBEDDINGS/`: For advanced LLM integrations
+`EMBEDDINGS/` (Optional): For advanced LLM integrations
 
- - Searchable knowledge base of project patterns
- - Vector embeddings of code examples
- - Semantic search capabilities for finding relevant patterns
+* Searchable knowledge base of project patterns
+* Vector embeddings of code examples
+* Semantic search capabilities for finding relevant patterns
 
 **Context Efficiency**: Start with core documentation files (~1000 words of context) to balance context value with AI tool costs. Expand strategically based on measured impact on review cycles and code quality.
 
@@ -109,17 +109,17 @@ Create an `innersource-ai/` folder in the repository root containing:
 
 #### For Contributors
 
- - **Before Starting**: Review the AI context package to understand project standards
- - **During Development**: Reference specific files when prompting AI tools
- - **Code Generation**: Include relevant context snippets in AI prompts
- - **Validation**: Use provided examples to verify AI-generated code aligns with standards
+* **Before Starting**: Review the AI context package to understand project standards
+* **During Development**: Reference specific files when prompting AI tools
+* **Code Generation**: Include relevant context snippets in AI prompts
+* **Validation**: Use provided examples to verify AI-generated code aligns with standards
 
 #### For AI Tool Integration
 
- - **Direct Reference**: Copy relevant sections into AI tool prompts
- - **URL Integration**: Reference files via repository URLs in AI tools that support web access
- - **IDE Integration**: Configure AI plugins to automatically include context
- - **Custom Workflows**: Integrate context into CI/CD pipelines for automated validation
+* **Direct Reference**: Copy relevant sections into AI tool prompts
+* **URL Integration**: Reference files via repository URLs in AI tools that support web access
+* **IDE Integration**: Configure AI plugins to automatically include context
+* **Custom Workflows**: Integrate context into CI/CD pipelines for automated validation
 
 ### Maintenance Strategy
 
