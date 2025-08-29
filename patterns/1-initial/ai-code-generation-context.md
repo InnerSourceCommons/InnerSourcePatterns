@@ -151,9 +151,9 @@ This solution balances the productivity benefits of AI tools with the quality re
  - Initial
  - Drafted in August 2025
 
-## Author
+## Authors
 
-[Amburi Roy](https://www.linkedin.com/in/amburi/)
+* [Amburi Roy](https://www.linkedin.com/in/amburi/)
 
 ## Related Patterns
 
