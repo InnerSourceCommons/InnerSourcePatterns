@@ -123,20 +123,20 @@ Create an `innersource-ai/` folder in the repository root containing:
 
 ### Maintenance Strategy
 
- - **Version Control**: Track changes to AI context alongside code changes
- - **Regular Updates**: Review and update context as project standards evolve
- - **Community Contribution**: Allow contributors to suggest improvements to AI context
- - **Metrics Tracking**: Monitor the effectiveness of AI context through code review metrics
+* **Version Control**: Track changes to AI context alongside code changes
+* **Regular Updates**: Review and update context as project standards evolve
+* **Community Contribution**: Allow contributors to suggest improvements to AI context
+* **Metrics Tracking**: Monitor the effectiveness of AI context through code review metrics
 
 ## Resulting Context
 
- - **Improved Code Quality**: AI-assisted contributions become consistent with existing code standards and architectural patterns from the first submission
- - **Reduced Review Friction**: Maintainers can trust incoming PRs more readily, significantly reducing review fatigue and time-to-merge
- - **Enhanced Contributor Experience**: Contributors using AI produce better, more maintainable code even on their first attempts, leading to increased confidence and participation
- - **Scalable Collaboration**: Opens the door to scalable, AI-aware InnerSource collaboration across teams without sacrificing code quality
- - **Knowledge Preservation**: Project knowledge becomes more explicit and accessible, reducing dependency on tribal knowledge
- - **Faster Onboarding**: New contributors can leverage AI tools effectively from day one, reducing the learning curve for project-specific patterns
- - **Consistent Evolution**: As AI tools improve, the context package ensures that enhanced capabilities are channeled toward project-appropriate solutions
+* **Improved Code Quality**: AI-assisted contributions become consistent with existing code standards and architectural patterns from the first submission
+* **Reduced Review Friction**: Maintainers can trust incoming PRs more readily, significantly reducing review fatigue and time-to-merge
+* **Enhanced Contributor Experience**: Contributors using AI produce better, more maintainable code even on their first attempts, leading to increased confidence and participation
+* **Scalable Collaboration**: Opens the door to scalable, AI-aware InnerSource collaboration across teams without sacrificing code quality
+* **Knowledge Preservation**: Project knowledge becomes more explicit and accessible, reducing dependency on tribal knowledge
+* **Faster Onboarding**: New contributors can leverage AI tools effectively from day one, reducing the learning curve for project-specific patterns
+* **Consistent Evolution**: As AI tools improve, the context package ensures that enhanced capabilities are channeled toward project-appropriate solutions
 
 ## Rationale
 
