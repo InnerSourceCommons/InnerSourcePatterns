@@ -137,10 +137,6 @@ The `innersource-ai/` folder approach is intentionally explicit and discoverable
 
 This solution balances the productivity benefits of AI tools with the quality requirements of professional software development, creating a sustainable approach to AI-assisted InnerSource collaboration.
 
-## Known Instances
-
-To be added.
-
 ## Status
 
 *  Structured
