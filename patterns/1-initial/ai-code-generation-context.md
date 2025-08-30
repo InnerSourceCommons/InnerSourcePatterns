@@ -109,7 +109,7 @@ Create an `innersource-ai/` folder in the repository root containing:
 
 #### For Contributors
 
-* **Before Starting**: Review the AI context package to understand project standards
+* **Before Starting**: Review the AI context to understand project standards
 * **During Development**: Reference specific files when prompting AI tools
 * **Code Generation**: Include relevant context snippets in AI prompts
 * **Validation**: Use provided examples to verify AI-generated code aligns with standards
@@ -136,7 +136,7 @@ Create an `innersource-ai/` folder in the repository root containing:
 * **Scalable Collaboration**: Opens the door to scalable, AI-aware InnerSource collaboration across teams without sacrificing code quality
 * **Knowledge Preservation**: Project knowledge becomes more explicit and accessible, reducing dependency on tribal knowledge
 * **Faster Onboarding**: New contributors can leverage AI tools effectively from day one, reducing the learning curve for project-specific patterns
-* **Consistent Evolution**: As AI tools improve, the context package ensures that enhanced capabilities are channeled toward project-appropriate solutions
+* **Consistent Evolution**: As AI tools improve, the context ensures that enhanced capabilities are channeled toward project-appropriate solutions
 
 ## Rationale
 
@@ -159,4 +159,4 @@ This solution balances the productivity benefits of AI tools with the quality re
 
 * [Standard Base Documentation](../2-structured/base-documentation.md) - Provides the foundation documentation that AI context builds upon
 * [InnerSource Portal](../2-structured/innersource-portal.md) - Could include AI context availability as searchable metadata for project discovery
-* [Trusted Committer](../2-structured/trusted-committer.md) - Trusted Committers are responsible for maintaining and evolving the AI context package
+* [Trusted Committer](../2-structured/trusted-committer.md) - Trusted Committers are responsible for maintaining and evolving the AI context
