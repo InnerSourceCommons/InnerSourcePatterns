@@ -12,24 +12,24 @@ With the growing use of AI tools (like GitHub Copilot, ChatGPT, or custom LLMs),
 
 ## Context
 
- - InnerSource adoption is in place across the organisation.
- - Developers are encouraged to use AI tools to improve their productivity.
- - Contributors may not be familiar with or fail to meticulously prompt when generating code through AI, using the target codebase's idioms, architecture, or constraints.
- - Maintainers want to empower contributors using AI while preserving code consistency and maintainability.
- - Multiple teams are contributing to shared repositories with varying levels of familiarity with project standards.
- - Code review processes are becoming bottlenecked by AI-generated code that requires significant rework.
+* InnerSource adoption is in place across the organisation.
+* Developers are encouraged to use AI tools to improve their productivity.
+* Contributors may not be familiar with or fail to meticulously prompt when generating code through AI, using the target codebase's idioms, architecture, or constraints.
+* Maintainers want to empower contributors using AI while preserving code consistency and maintainability.
+* Multiple teams are contributing to shared repositories with varying levels of familiarity with project standards.
+* Code review processes are becoming bottlenecked by AI-generated code that requires significant rework.
 
 ## Forces
 
- - **AI Model Limitations**: AI models generate code based on generalized training data, not project-specific patterns, leading to generic solutions that may not fit the project's architecture
- - **Knowledge Gap**: New contributors using AI tools might unknowingly bypass existing architectural norms, coding standards, and established patterns
- - **Review Overhead**: AI-assisted PRs can significantly increase review load if not aligned with existing practices, as maintainers must spend time explaining and correcting deviations
- - **Productivity vs. Quality Trade-off**: While AI tools boost individual productivity, they can reduce overall team productivity if the generated code requires extensive rework
- - **Context Switching Cost**: Developers benefit from AI tools only when they have the right contextual grounding, but manually providing this context for each AI interaction is time-consuming
- - **Inconsistent Standards**: Different AI tools and different prompting approaches by contributors can lead to wildly inconsistent code styles and patterns
- - **Maintenance Burden**: Creating and maintaining the comprehensive AI context requires ongoing effort from maintainers
- - **Tool Integration Complexity**: Different AI tools have different ways of consuming context, making it challenging to create universal guidance
- - **AI Tool Cost Constraints**: Comprehensive AI context increases processing costs (AI tools charge based on "tokens" \* units of text measurement) and usage limits, requiring strategic balance between context completeness and efficiency
+* **AI Model Limitations**: AI models generate code based on generalized training data, not project-specific patterns, leading to generic solutions that may not fit the project's architecture
+* **Knowledge Gap**: New contributors using AI tools might unknowingly bypass existing architectural norms, coding standards, and established patterns
+* **Review Overhead**: AI-assisted PRs can significantly increase review load if not aligned with existing practices, as maintainers must spend time explaining and correcting deviations
+* **Productivity vs. Quality Trade-off**: While AI tools boost individual productivity, they can reduce overall team productivity if the generated code requires extensive rework
+* **Context Switching Cost**: Developers benefit from AI tools only when they have the right contextual grounding, but manually providing this context for each AI interaction is time-consuming
+* **Inconsistent Standards**: Different AI tools and different prompting approaches by contributors can lead to wildly inconsistent code styles and patterns
+* **Maintenance Burden**: Creating and maintaining the comprehensive AI context requires ongoing effort from maintainers
+* **Tool Integration Complexity**: Different AI tools have different ways of consuming context, making it challenging to create universal guidance
+* **AI Tool Cost Constraints**: Comprehensive AI context increases processing costs (AI tools charge based on "tokens" \* units of text measurement) and usage limits, requiring strategic balance between context completeness and efficiency
 
 ## Solution
 
@@ -75,7 +75,7 @@ Create an `innersource-ai/` folder in the repository root containing:
 * `good-examples/`: Well-written code snippets with explanations
 * `bad-examples/`: Common mistakes with explanations of why they're problematic
 * `refactoring-examples/`: Before/after code showing proper improvements
-* Template files for common patterns (controllers, services, utilities)
+* Template files for common patterns (controllers, services, utilities)git 
 
 ##### Configuration and Tooling
 
@@ -148,8 +148,8 @@ This solution balances the productivity benefits of AI tools with the quality re
 
 ## Status
 
- - Initial
- - Drafted in August 2025
+* Initial
+* Drafted in August 2025
 
 ## Authors
 
