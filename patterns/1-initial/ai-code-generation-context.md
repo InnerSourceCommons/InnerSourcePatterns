@@ -103,7 +103,7 @@ Create an `innersource-ai/` folder in the repository root containing:
 
 **Context Efficiency**: Start with core documentation files (~1000 words of context) to balance context value with AI tool costs. Expand strategically based on measured impact on review cycles and code quality.
 
-**Naming Conventgit ion**: The suggested file and folder names follow industry common practices. However, codebase owners may choose alternative names that are more discoverable and relatable to their specific project or codebase. Any chosen naming convention should be clearly documented and communicated to contributors through proper documentation.
+**Naming Convention**: The suggested file and folder names follow industry common practices. However, codebase owners may choose alternative names that are more discoverable and relatable to their specific project or codebase. Any chosen naming convention should be clearly documented and communicated to contributors through proper documentation.
 
 ### Usage Patterns
 
