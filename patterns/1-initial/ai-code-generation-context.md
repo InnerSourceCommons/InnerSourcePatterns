@@ -75,7 +75,7 @@ Create an `innersource-ai/` folder in the repository root containing:
 * `good-examples/`: Well-written code snippets with explanations
 * `bad-examples/`: Common mistakes with explanations of why they're problematic
 * `refactoring-examples/`: Before/after code showing proper improvements
-* Template files for common patterns (controllers, services, utilities)git 
+* Template files for common patterns (controllers, services, utilities)
 
 ##### Configuration and Tooling
 
