@@ -12,7 +12,7 @@ With the growing use of AI tools (like GitHub Copilot, ChatGPT, or custom LLMs),
 
 ## Context
 
-* InnerSource adoption is in place across the organisation.
+* InnerSource adoption is in place across the organization.
 * Developers are encouraged to use AI tools to improve their productivity.
 * Contributors may not be familiar with or fail to meticulously prompt when generating code through AI, using the target codebase's idioms, architecture, or constraints.
 * Maintainers want to empower contributors using AI while preserving code consistency and maintainability.
