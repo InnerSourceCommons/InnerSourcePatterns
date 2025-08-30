@@ -4,7 +4,7 @@ AI Code Generation Context
 
 ## Patlet
 
-AI tools generate code that diverges from project standards and architectural patterns. Provide an AI Code Generation Context Package within repositories to guide AI tools in producing contributions that align with existing project conventions, reducing review friction and maintaining code consistency.
+AI tools generate code that diverges from project standards and architectural patterns. Provide an AI Code Generation Context within the repositories to guide AI tools in producing contributions that align with existing project conventions, reducing review friction and maintaining code consistency.
 
 ## Problem
 
