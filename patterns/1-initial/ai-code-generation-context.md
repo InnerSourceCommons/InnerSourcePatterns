@@ -12,12 +12,12 @@ With the growing use of AI tools (like GitHub Copilot, ChatGPT, or custom LLMs),
 
 ## Context
 
- - InnerSource adoption is in place across the organization
- - Developers are encouraged to use AI tools to improve productivity
- - Contributors may not be familiar or failed to prompt meticulously while generating code through AI with the target codebase's idioms, architecture, or constraints
- - Maintainers want to empower contributors using AI while preserving code consistency and maintainability
- - Multiple teams are contributing to shared repositories with varying levels of familiarity with project standards
- - Code review processes are becoming bottlenecked by AI-generated code that requires significant rework
+ - InnerSource adoption is in place across the organisation.
+ - Developers are encouraged to use AI tools to improve their productivity.
+ - Contributors may not be familiar with or fail to meticulously prompt when generating code through AI, using the target codebase's idioms, architecture, or constraints.
+ - Maintainers want to empower contributors using AI while preserving code consistency and maintainability.
+ - Multiple teams are contributing to shared repositories with varying levels of familiarity with project standards.
+ - Code review processes are becoming bottlenecked by AI-generated code that requires significant rework.
 
 ## Forces
 
@@ -27,17 +27,17 @@ With the growing use of AI tools (like GitHub Copilot, ChatGPT, or custom LLMs),
  - **Productivity vs. Quality Trade-off**: While AI tools boost individual productivity, they can reduce overall team productivity if the generated code requires extensive rework
  - **Context Switching Cost**: Developers benefit from AI tools only when they have the right contextual grounding, but manually providing this context for each AI interaction is time-consuming
  - **Inconsistent Standards**: Different AI tools and different prompting approaches by contributors can lead to wildly inconsistent code styles and patterns
- - **Maintenance Burden**: Creating and maintaining comprehensive AI context requires ongoing effort from maintainers
+ - **Maintenance Burden**: Creating and maintaining the comprehensive AI context requires ongoing effort from maintainers
  - **Tool Integration Complexity**: Different AI tools have different ways of consuming context, making it challenging to create universal guidance
  - **AI Tool Cost Constraints**: Comprehensive AI context increases processing costs (AI tools charge based on "tokens" \* units of text measurement) and usage limits, requiring strategic balance between context completeness and efficiency
 
 ## Solution
 
-Provide an **AI Code Generation Context Package** within the repository to guide AI tools in producing contributions that align with project standards. This package serves as a comprehensive reference that contributors can easily provide to AI tools to ensure generated code follows project conventions.
+Provide an **AI Code Generation Context** folder within the repository to guide AI tools in producing contributions that align with project standards. This folder serves as a comprehensive reference that contributors can easily provide to AI tools, ensuring that generated code adheres to project conventions.
 
 ### Implementation Structure
 
-Create a `innersource-ai/` folder in the repository root containing:
+Create an `innersource-ai/` folder in the repository root containing:
 
 #### Core Documentation Files (Required)
 
@@ -55,18 +55,18 @@ Create a `innersource-ai/` folder in the repository root containing:
  - High-level system architecture and component relationships
  - Data flow patterns and API design principles
  - Dependency management guidelines
- - Module organization and layering principles
+ - Module organisation and layering principles
  - Integration patterns with external systems
 
 `STYLE_GUIDE.md`: Comprehensive coding guidelines
 
  - Language-specific style rules
- - Code organization patterns
+ - Code organisation patterns
  - Documentation standards
  - Performance considerations
  - Security guidelines and common vulnerabilities to avoid
 
-#### Optional Enhancements (Implement As Needed)
+#### Enhancements (Optional)
 
 ##### Practical Examples
 
@@ -95,15 +95,15 @@ Create a `innersource-ai/` folder in the repository root containing:
 
 ##### Advanced Features
 
-`EMBEDDINGS/` (Optional): For advanced LLM integrations
+`EMBEDDINGS/`: For advanced LLM integrations
 
  - Searchable knowledge base of project patterns
  - Vector embeddings of code examples
  - Semantic search capabilities for finding relevant patterns
 
-### Implementation Strategy
-
 **Context Efficiency**: Start with core documentation files (~1000 words of context) to balance context value with AI tool costs. Expand strategically based on measured impact on review cycles and code quality.
+
+**Naming Convension**: The suggested file and folder names follow industry common practices. However, codebase owners may choose alternative names that are more discoverable and relatable to their specific project or codebase. Any chosen naming convention should be clearly documented and communicated to contributors through proper documentation.
 
 ### Usage Patterns
 
@@ -148,7 +148,7 @@ This solution balances the productivity benefits of AI tools with the quality re
 
 ## Status
 
- - Structured
+ - Initial
  - Drafted in August 2025
 
 ## Author
