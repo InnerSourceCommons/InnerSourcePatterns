@@ -51,7 +51,7 @@ A licenza simplifica as conversas dentro da organización sobre o feito de compa
 
 ## Exemplos coñecidos
 
-DB Systel creou a súa propia licenza InnerSource, pódese consultar en [DB Inner Source License](https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md). Usaron a [EUPL](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12), xa que ofrecía un software libre como punto de partida, e despois elaboraron as limitacións e as regras adicionais necesarias no seu contexto organizativo específico.
+DB Systel creou a súa propia licenza InnerSource, pódese consultar en [DB Inner Source License][db-inner-source-license]. Usaron a [EUPL][eupl], xa que ofrecía un software libre como punto de partida, e despois elaboraron as limitacións e as regras adicionais necesarias no seu contexto organizativo específico.
 
 As primeiras entidades xurídicas (empresas) dentro da DB AG están a usar a súa licenza InnerSource.
 
@@ -80,12 +80,15 @@ Paga a pena mencionar que, ata agora, o software compartido baixo esta licenza I
 ## Referencias
 
 - Presentación FOSSBack 2020: [Cornelius Schumacher - Blending Open Source and Corporate Values](https://youtu.be/hikC6U8X_Ec) [Cornelius Schumacher: Mesturando código aberto e valores corporativos]; vexa a partir do minuto 27:30 para máis información sobre a licenza InnerSource.
-- [DB Inner Source License](https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md).
+- [DB Inner Source License][db-inner-source-license].
 
 ## Glosario
 
 - **Organización**: un paraugas para varias entidades xurídicas. (Sinónimos: grupo, empresa. Por exemplo, Lufthansa.).
 - **Entidade xurídica**: unha entidade que ten os seus propios dereitos e obrigas legais. (Sinónimos: empresa, filial. Por exemplo, Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH etc).
+
+[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/tree/master/inner-source-license
+[eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
 ## Tradución
 

@@ -107,7 +107,7 @@ Para más detalles, vea la llamada de la Comunidad InnerSource Commons de 09/202
 - **organización** - Un paraguas para múltiples entidades legales. (sinónimos: grupo, empresa) (por ejemplo, Lufthansa)
 - **entidad legal** - Una entidad que tiene sus propios derechos y obligaciones legales (sinónimos: empresa, subsidiaria) (por ejemplo, Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)
 
-[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
+[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/tree/master/inner-source-license
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
 ## Histórico de Traducciones
