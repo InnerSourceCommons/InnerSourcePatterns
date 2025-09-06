@@ -47,7 +47,7 @@ The following are key elements to achieve this:
 - Releases are clearly labeled and tagged with [semantic versioning](https://github.com/semantic-release/semantic-release)
 - Releases include notes on New Features, Bug Fixes, and any "Breaking Changes"
 
-A good example of quality release notes can be found [here](https://github.com/jaegertracing/jaeger/releases).
+A good example of quality release notes can be found in the [jaeger project](https://github.com/jaegertracing/jaeger/releases).
 
 ## Resulting Context
 

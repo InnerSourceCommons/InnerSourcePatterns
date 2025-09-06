@@ -49,7 +49,7 @@ However, since git does not create empty folders, it is better to create directo
 
 Most of the translations have not translated the text in the visuals (e.g. in images, the mindmap, etc). However if you like, you can!
 
-- To translate the mindmap, create a new folder similar to [pattern-categorization/gl](../pattern-categorization/gl/). Then edit the file `innersource-program-mind-map.md` in there, and run the scripts as explained [here](../pattern-categorization/README.md).
+- To translate the mindmap, create a new folder similar to [pattern-categorization/gl](../pattern-categorization/gl/). Then edit the file `innersource-program-mind-map.md` in there, and run the scripts as explained in the [Pattern Categorization README](../pattern-categorization/README.md).
 - To add translated visuals, add a subfolder in `assets/img`, see [assets/img/gl/](../assets/img/gl/) as an example. Make sure that in the markdown files of your patterns you link to the correct image files.
 
 ### Translation Quality and Review Process
