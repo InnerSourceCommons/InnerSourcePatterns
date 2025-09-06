@@ -94,7 +94,6 @@ NOTE: 2025/08/04 Custom TOC ordering for enhanced readability - maintain when ad
 
 * [持続可能な成長のためのエクステンション](../../translation/ja/patterns/extensions-for-sustainable-growth.md) - インナーソースプロジェクトは多くのコントリビューションを受けており、メンテナンスが難しくなっています。メンテナは、プロジェクトのコア部分から離れた拡張機構を提供することで、最小のコストとメンテナンスオーバーヘッドでプロジェクトの能力をスケールアップすることを可能にします。
 
-
 ## Appendix<a id="appendix"></a>
 
 * [パターンテンプレート](../../meta/pattern-template.md)
