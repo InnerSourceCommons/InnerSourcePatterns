@@ -63,6 +63,7 @@ This pattern applies when:
 ## Solutions
 
 ### Manager Education and Value Demonstration
+
 * **Educational outreach**: Provide formal training to help managers understand InnerSource benefits and value
 * **Demonstrate time savings**: Show how InnerSource practices free up time for core development work.
 * **Strategic alignment**: Clarify how InnerSource contributions align with broader organizational goals
@@ -70,6 +71,7 @@ This pattern applies when:
 * **Friction reduction**: Show how InnerSource reduces technical friction (e.g., standardizing library versions) and improves team productivity
 
 ### Performance Management Integration
+
 * **OKR integration**: Use [Objectives and Key Results (OKR)](https://en.wikipedia.org/wiki/OKR) to form horizontal teams across Business Units and align middle-management goals with quarterly objectives (L2s). OKRs provide a broader view than KPIs, fostering durable cross-unit teams connected to quarterly goals they set.
 * **Cascading goals**: Ensure InnerSource goals cascade down from high-level organizational objectives without conflicting with existing team goals
 * **Manager recognition**: Reward managers who promote InnerSource participation and enable their teams' involvement
@@ -77,17 +79,20 @@ This pattern applies when:
 * **Performance measurement**: Include InnerSource participation in performance reviews and manager evaluations
 
 ### Strategic Alignment and Communication
+
 * **Focus on reuse and collaboration**: Frame InnerSource benefits around measurable reuse and collaboration metrics rather than abstract concepts.
 * **End-of-life process integration**: Incorporate InnerSource into EOL processes to reduce redundancy and demonstrate resource efficiency
 * **Clear ownership definition**: Define what code pieces teams own and identify opportunities to consolidate competing solutions
 
 ### Community Building and Recognition
+
 * **Trusted evangelists**: Identify and empower core team members and influencers to act as ambassadors for InnerSource contributions
 * **Champions program**: Recruit champions from all groups, including middle-management champions who have successfully implemented InnerSource
 * **Badge system**: Implement recognition badges in organizational directories to highlight InnerSource contributors, or even cardboard cut-outs of champions with InnerSource t-shirts
 * **Cross-BU accountability**: Create goals that transcend individual business units and demonstrate top-down support
 
 ### Events and Engagement
+
 * **Dedicated InnerSource events**: Organize hackathons and innovation days for developers to collaborate on cross-team projects with management support. Include ShipIt Days, innovation days with 10% time, and InnerSource days focused on contributing to others' code.
 * **Gamification**: Create point systems for InnerSource contributions: opening an issue = 1 point, filing a PR = 5 points, merging a PR = 20 points, with rewards like two weeks off in Hawaii (paid, with family), 3-6 months off to innovate, or 6 months part-time.
 * **Fellows program**: Establish programs allowing trusted committers one day weekly for cross-platform work, reporting success instead of loss.
@@ -109,16 +114,19 @@ This pattern applies when:
 When this pattern is successfully applied, the following outcomes emerge:
 
 ### Manager Behavior Changes
+
 * **Support for InnerSource is automatic, standard, and expected from Middle Management.**
 * **Managers become more supportive** of InnerSource initiatives as they see clear value and recognition for their teams.
 * **Middle management gains a deeper understanding** of InnerSource benefits and how they align with organizational goals.
 
 ### Organizational Improvements
+
 * **Enhanced cross-team collaboration** and knowledge sharing across the organization
 * **Reduced friction and improved team productivity** through standardized practices and reduced duplication
 * **Better training for middle management** in negotiation and facilitation skills becomes necessary.
 
 ### Measurement and Process Evolution
+
 * **More sophisticated measurement systems** are required, as it is easier to measure your own team's work but harder to measure others' contributions.
 * **Time tracking for cross-project work** becomes more critical and systematic.
 * **Engineering cost vs. benefit balance** emerges: teams support others while other teams allow them to make PRs, creating long-term time savings.

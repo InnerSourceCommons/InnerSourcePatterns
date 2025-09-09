@@ -28,27 +28,32 @@ At a large financial services company, a developer found an InnerSource project 
 ## Forces
 
 **Time and Resource Constraints**
+
 - Employees have limited time and must prioritize their primary responsibilities
 - Teams are expected to maintain full capacity on their primary projects
 - Manager resistance to allowing team members to work on external projects
 
 **Recognition and Visibility Gaps**
+
 - Contributions to InnerSource projects lack visibility to direct managers or HR
 - No clear path for acknowledging voluntary contributions
 - Performance evaluation systems ignore cross-team collaboration
 
 **Career and Incentive Misalignment**
+
 - InnerSource work may not advance career progression or promotion
 - Managers' bonuses depend solely on business unit results
 - Cross-team collaboration reduces capacity for primary business unit goals
 
 **Individual vs. Organizational Motivations**
+
 - Contributors want to expand networks and gain technical knowledge
 - Organizations need to balance individual growth with business unit objectives
 
 ## Solutions
 
 ### Financial Incentives
+
 - **Gratitude budgets**: Allocate specific budgets for recognizing InnerSource contributions
 - **Performance bonuses**: Include InnerSource participation in annual performance evaluations
 - **Project-based rewards**: Provide financial incentives for completing specific InnerSource tasks
@@ -58,6 +63,7 @@ At a large financial services company, a developer found an InnerSource project 
 - **Engineering bonus allocation**: Allocate 15% of engineering bonuses based on InnerSource contributions
 
 ### Institutional Recognition
+
 - **Badging programs**: Implement digital badges for different levels of contribution (Acclaim, Credly)
 - **Public recognition**: Feature contributors in company newsletters, blogs, or town halls
 - **Manager awards**: Recognize managers who enable their teams' InnerSource participation
@@ -65,6 +71,7 @@ At a large financial services company, a developer found an InnerSource project 
 - **Cross-team recognition**: Promote recognition at the company level, not just within teams
 
 ### Career and Professional Growth
+
 - **Goal alignment**: Allow employees to align InnerSource work with individual performance goals
 - **Skill development**: Use InnerSource projects for upskilling in new technologies
 - **Leadership opportunities**: Create pathways for contributors to become project leaders or champions
@@ -72,6 +79,7 @@ At a large financial services company, a developer found an InnerSource project 
 - **Mentorship roles**: Enable experienced contributors to mentor others
 
 ### Manager Incentives
+
 - **Management recognition**: Reward managers who promote InnerSource participation
 - **Team efficiency metrics**: Demonstrate how InnerSource reduces friction and improves team productivity
 - **Strategic alignment**: Show how InnerSource contributions align with broader organizational goals
@@ -82,6 +90,7 @@ At a large financial services company, a developer found an InnerSource project 
 After implementing incentive mechanisms, organizations experience:
 
 **Positive Outcomes**
+
 - Increased voluntary participation in InnerSource projects
 - Better cross-team collaboration and knowledge sharing
 - Managers become more supportive as they recognize the value for their teams
@@ -90,12 +99,14 @@ After implementing incentive mechanisms, organizations experience:
 - A stable contributor group emerges, with some becoming trusted committers
 
 **Strategic Benefits**
+
 - Top management's 85%/15% capacity allocation shows executive support and makes InnerSource part of corporate goals
 - Corporate funding for InnerSource projects prevents cost center budget impacts
 - Manager bonuses tied to InnerSource success motivate participation encouragement
 - Strong InnerSource community develops with committed contributors
 
 **Potential Challenges**
+
 - New challenges in measuring contributions and ensuring fair recognition across different contribution types
 - Need for ongoing management of incentive programs and recognition systems
 
