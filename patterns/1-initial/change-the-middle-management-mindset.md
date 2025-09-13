@@ -91,7 +91,7 @@ This pattern applies when:
 ### Process and Architecture Integration
 
 * **Globalization teams example**: Teams managing countries with compliance constraints are often good at InnerSource but may fade during restructuring.
-* **InnerSource readiness checklist**: Middle Management should partner with developersortunities and justify InnerSource spending based on KPIs.
+* **InnerSource readiness checklist**: Middle Management should partner with developers and justify InnerSource spending based on KPIs.
 * **Built-in collaboration**: Design processes where delivery teams collaborate across product teams with clear mentorship expectations.
 * **Microservices architecture**: Use microservices to foster collaboration and shared responsibility. Bugs cause user problems and may breach SLAs if unresolved. Challenges arise with feature requests or design changes, beyond bug fixes.
 * **Platform development**: Focus InnerSource on platform development for multi-team application building
