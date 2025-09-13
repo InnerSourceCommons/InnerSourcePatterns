@@ -12,7 +12,7 @@ The InnerSource program does not live up to its expectations because middle mana
 
 ## Story
 
-A software development team at a large enterprise was eager to join an InnerSource project benefiting multiple teams. However, their middle manager hesitated to allocate time, citing quarterly deadlines and unclear ROI. Despite the developers' enthusiasm and potential for code reuse, theusing frustration and missed collaboration opportunities.
+A software development team at a large enterprise was eager to join an InnerSource project benefiting multiple teams. However, their middle manager hesitated to allocate time, citing quarterly deadlines and unclear ROI. Despite the developers' enthusiasm and potential for code reuse, this caused frustration and missed collaboration opportunities.
 
 ## Context
 
