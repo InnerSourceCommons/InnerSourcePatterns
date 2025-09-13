@@ -19,25 +19,15 @@ A software development team at a large enterprise was eager to join an InnerSour
 This pattern applies when:
 
 * **Top-down support exists, but it lacks middle-management buy-in. Senior leadership endorses InnerSource, but there's a gap between top-down support and developer objectives. Top-level management may have determined a new KPI around InnerSource, but it's not effectively cascaded down to middle management, leaving them unclear on implications for their teams.
-
 * **Developers are eager to participate**: Individual contributors want to engage in InnerSource projects but face resistance from their direct managers, who control their time and priorities.
-
 * **Misaligned incentive structures**: Middle management metrics omit cross-team collaboration and InnerSource, providing no clear benefit for managers to support these activities.
-
 * **Control vs. collaboration tension**: Middle managers struggle to shift from controlling team output to enabling InnerSource communities, fearing loss of oversight and priorities.
-
 * **Resource allocation conflicts**: Middle managers support InnerSource but often deprioritize it for other high-priority goals and quarterly commitments.
-
 * **Short-term thinking prevails**: Organizations often favor quick duplication over reuse and collaboration, with managers preferring the "fast and easy" rewrite approach over collaborative development.
-
 * **Developer contributions face resistance**: Developers contribute to InnerSource projects, but Product Owners, Product Managers, or Scrum Masters may discover this and put barriers between developers and the InnerSource project.
-
 * **Established programs need manager adoption**: Organizations have InnerSource programs, but face challenges with middle management adoption and support.
-
 * **Performance systems lack collaboration metrics**: Existing performance systems don't measure or reward cross-team collaboration.
-
 * **Shared infrastructure opportunities**: Teams collaborate on shared platforms, services, or infrastructure for mutual benefits.
-
 * **Recognition programs exist but aren't leveraged**: Organizations can adapt existing gratitude and recognition programs to motivate managers to support InnerSource.
 
 ## Forces
