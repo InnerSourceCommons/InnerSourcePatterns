@@ -48,7 +48,7 @@ This pattern applies when:
 
 ## Sketch
 
-![How to help Middle Managers actively support InnerSource projects involving their people](http://teiru.net/images/middle_management_sketch_img_2257.jpg)
+![How to help Middle Managers actively support InnerSource projects involving their people](../../assets/img/middle_management_sketch_img_2257.jpg)
 
 ## Solutions
 
