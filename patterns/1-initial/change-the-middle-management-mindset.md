@@ -18,7 +18,7 @@ A software development team at a large enterprise was eager to join an InnerSour
 
 This pattern applies when:
 
-* **Top-down support exists, but it lacks middle-management buy-in. Senior leadership endorses InnerSource, but there's a gap between top-down support and developer objectives. Top-level management may have determined a new KPI around InnerSource, but it's not effectively cascaded down to middle management, leaving them unclear on implications for their teams.
+* **Top-down support exists, but it lacks middle-management buy-in:** Senior leadership endorses InnerSource, but there's a gap between top-down support and developer objectives. Top-level management may have determined a new KPI around InnerSource, but it's not effectively cascaded down to middle management, leaving them unclear on implications for their teams.
 * **Developers are eager to participate**: Individual contributors want to engage in InnerSource projects but face resistance from their direct managers, who control their time and priorities.
 * **Misaligned incentive structures**: Middle management metrics omit cross-team collaboration and InnerSource, providing no clear benefit for managers to support these activities.
 * **Control vs. collaboration tension**: Middle managers struggle to shift from controlling team output to enabling InnerSource communities, fearing loss of oversight and priorities.
