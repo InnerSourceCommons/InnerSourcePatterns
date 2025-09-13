@@ -54,6 +54,6 @@ jobs:
     - name: Reduce Screenshot Size (PNG)
       run: npx optipng ${{ matrix.folder }}/innersource-program-mind-map.png
     - name: Commit Changes
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: stefanzweifel/git-auto-commit-action@v6
       with:
         commit_message: Re-creating markmap and screenshot
