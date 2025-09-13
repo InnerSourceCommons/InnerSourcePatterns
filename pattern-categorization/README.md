@@ -14,7 +14,7 @@ In the mind map you will see patterns categorized from left to right in increasi
 graph LR
     L0(L0 InnerSource Program) --> L1(L1 Phase) --> L2(L2 Problem Category)
     L2(L2 Problem Category) --> L3(L3 Specific Problem) --> L4("L4 Pattern (Solution)")
-````
+```
 
 The logic for these levels is:
 
@@ -35,7 +35,7 @@ To test your changes locally, you can also generate the mind map yourself like t
 We are using `node 20.x` at the moment.
 
 ```
-# install the markmap CLI
+# install the required dependencies (including the markmap CLI)
 npm install -g markmap-cli
 
 # then generate the mindmap (it will open in your browser automatically)
