@@ -128,6 +128,7 @@ TBD
 * Georg Gruetter (Robert Bosch GmbH)
 * Robert Hansel (Robert Bosch GmbH)
 * Nick Yeates
+* Jeff Bailey
 
 ## Alias
 
