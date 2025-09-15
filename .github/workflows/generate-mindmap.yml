@@ -9,6 +9,7 @@ on:
       - ".github/workflows/generate-mindmap.yml"
       - "pattern-categorization/innersource-program-mind-map.md"
       - "pattern-categorization/package.json"
+  workflow_dispatch:
 
 defaults:
   run:
