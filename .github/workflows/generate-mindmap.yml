@@ -30,6 +30,8 @@ jobs:
       run: npm install
     - name: Run Markmap
       run: npx markmap --no-open --no-toolbar innersource-program-mind-map.md -o innersource-program-mind-map.html
+    - name: Disable AppArmor for unprivileged user namespaces
+      run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
     - name: Screenshot Markmap Website
       run: npx pageres innersource-program-mind-map.html --overwrite --filename=innersource-program-mind-map 
     - name: Reduce Screenshot Size (PNG)
