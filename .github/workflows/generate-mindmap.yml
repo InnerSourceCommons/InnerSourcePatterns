@@ -47,7 +47,7 @@ jobs:
         # Disable AppArmor for unprivileged user namespaces
         sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
         # Take the screenshot
-        npx pageres ${{ matrix.folder }}/innersource-program-mind-map.html --overwrite --filename=${{ matrix.folder }}/innersource-program-mind-map
+        npx pageres ${{ matrix.folder }}/innersource-program-mind-map.html --overwrite --filename=${{ matrix.folder }}/innersource-program-mind-map 2560x1600
     - name: Reduce Screenshot Size (PNG)
       run: npx optipng ${{ matrix.folder }}/innersource-program-mind-map.png
     - name: Commit Changes
