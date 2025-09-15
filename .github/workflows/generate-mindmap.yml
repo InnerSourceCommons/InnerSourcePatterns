@@ -46,11 +46,17 @@ jobs:
       run: |
         # Disable AppArmor for unprivileged user namespaces
         sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
-
         # Take the screenshot
         npx pageres ${{ matrix.folder }}/innersource-program-mind-map.html --overwrite --filename=${{ matrix.folder }}/innersource-program-mind-map
     - name: Reduce Screenshot Size (PNG)
       run: npx optipng ${{ matrix.folder }}/innersource-program-mind-map.png
+
+  commit-screenshots:
+    runs-on: ubuntu-latest
+    needs:
+    - generate-mindmap
+
+    steps:
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v6
       with:
