@@ -49,9 +49,7 @@ jobs:
         # Take the screenshot
         npx pageres ${{ matrix.folder }}/innersource-program-mind-map.html --overwrite --filename=${{ matrix.folder }}/innersource-program-mind-map
     - name: Reduce Screenshot Size (PNG)
-      run: npx optipng ${{ matrix.folder }}/innersource-program-mind-map.png
-    - name: Pull Remote Changes
-      run: git pull
+      run: npx optipng ${{ matrix.folder }}/innersource-program-mind-map.png"
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v6
       with:
