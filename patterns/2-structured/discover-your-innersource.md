@@ -32,20 +32,25 @@ People don't bother looking for internally developed solutions - they might not 
 
 Make it easy to find the reusable code.
 
+### Behavior and Process Changes
+
+* Implement process change to motivate developers to first check for internal solutions for problems that they need to solve.
+* Concierge service (guide) to help product people find stuff. Might not scale but could be helpful in the beginning.
+* Need some very visible lighthouse projects that start using InnerSource components and make positive statements about the InnerSource program (to increase the trust of your developers in your InnerSource components.
+* Encourage (and reward) owners of reusable code to use the same search engine to continually search for products that are candidates for use and adoption of the reusable code but not currently doing so.
+
+### Tooling Changes
+
 * Pull in repo names, descriptions and `README.md` files into the search engine assuming that a search engine exists. Note: a one-stop-shop kind of search engine for all relevant communication and documentation is difficult to attain. Even when using GitHub's enterprise offering, people often deploy additional systems like wikis to host content orthogonal to what is in the code repositories, slack channels (or IRC), mailing lists (or even nntp servers), some place to store stuff written down in office formats, search over personal e-mail etc. Several of these systems come with search built-in, but integrating this content in one search box or even just deploying a federated search engine across all sources often doesn't come off-the-shelf.
 * Consider using existing tools:
   * GitHub Enterprise and npmjs have built-in searches on meta-data
   * PayPal's [SeazMe](https://github.com/paypal/seazme) project (previously called Agora) addresses similar challenges with data source integration
-* Implement process change to first check for internal solutions for this problem.
 * Tool with a central view (but people are more inclined to google externally than look internally)
-* Concierge service (guide) to help product people find stuff. Might not scale but could be helpful in the beginning.
-* Need some very visible lighthouse projects that start using InnerSource components and make positive statements about the InnerSource program.
 * Establish a common, asynchronous communication platform (e.g., chat based) across team boundaries.
   * This might not scale beyond a certain organization size.
   * When using common chat systems, start with one single chat channel for the InnerSource project, only split into multiple channels by topic once traffic gets too high. This way the channel feels alive. In addition the number of input channels to watch is kept at a minimum for the host team.
   * Note: having one channel for many users of one tool might be considered an anti-pattern because they can't find it unless they already know about it.
-* Encourage (and reward) owners of reusable code to use the same search engine to continually search for products that are candidates for use and adoption of the reusable code but not currently doing so.
-* Consider creating a marketplace for marketing InnerSource programs (management can use this mechanism to know which InnerSource projects to fund, by seeing how the marketplace reacts). - see [Gig Marketplace](../2-structured/gig-marketplace.md)
+* Create a marketplace for marketing InnerSource programs (management can use this mechanism to know which InnerSource projects to fund, by seeing how the marketplace reacts). - see [Gig Marketplace](../2-structured/gig-marketplace.md)
 
 ## Resulting Context
 
