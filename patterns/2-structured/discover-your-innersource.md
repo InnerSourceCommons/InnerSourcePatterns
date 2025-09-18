@@ -54,7 +54,12 @@ Make it easy to find the reusable code.
 * Developers are now looking internally for software components
 * Search results are combined (internal and external)
 * Process changes, establishing a common communications channel, and encouraging and rewarding owners of reusable code to use the same search engine can contribute to changing the corporate culture. Transformation begins from the grassroots but requires strategic involvement of thought leaders.
+
+<!--
+// we don't want to link from Structured patterns to Initial patterns. hence removing this link.
+// we can add this back in if the "Improved Findability" pattern is leveled up to maturity Structured
 * See [Improved Findability](../1-initial/improve-findability.md) (aka Poor Naming Conventions or Badly Named Piles) as a related pattern.
+-->
 
 ## Known Instances
 
