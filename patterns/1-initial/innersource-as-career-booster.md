@@ -31,9 +31,9 @@ A developer named Mia worked on a customer-facing product but frequently found h
 - **Cognitive Load**: Switching contexts between one's own project and InnerSource work can temporarily reduce productivity.
 - **Informal Influence**: Power networks within organizations often form across reporting lines, rather than within them.
 
-## Sketch (optional)
+## Sketch
 
-_(Optional illustration of a person bridging multiple teams through contribution lines, forming a network of reputation that extends beyond a siloed organizational chart.)_
+_(Illustration of a person bridging multiple teams through contribution lines, forming a network of reputation that extends beyond a siloed organizational chart.)_
 
 ## Solution
 
@@ -54,7 +54,7 @@ The organization sees better collaboration and higher retention among high-perfo
 
 This creates a reinforcing loop where career incentives and organizational goals align more closely.
 
-## Rationale (optional)
+## Rationale
 
 From a **career development** perspective, diverse project experience, network breadth, and initiative-taking are strong signals of promotability.
 
@@ -62,24 +62,21 @@ From a **career development** perspective, diverse project experience, network b
 
 From a **game theory** lens, InnerSource transforms isolated career efforts into a reputational economy, where value created for others is returned through visibility, referrals, and opportunities.
 
-## Known Instances (optional)
+## Known Instances
 
 - At a multinational tech company, engineers who consistently contributed to popular InnerSource libraries were selected for leadership tracks despite not being part of the library's core team.
 - In a large European bank, InnerSource contributors were invited to speak at internal engineering conferences, accelerating their visibility and influence.
 
-## Status (optional until merging)
+## Status
 
-Draft shared for review. Seeking feedback from InnerSource Commons members and contributors who've experienced career growth through InnerSource.
+- Initial
 
-## Author(s) (optional)
+## Authors
 
-As told to ChatGPT by practitioners familiar with InnerSource career outcomes.
+- Jeff Bailey
+- Sebastian Spier
 
-## Acknowledgments (optional)
-
-Thanks to InnerSource Commons community members and contributors to career development literature for inspiring ideas used in this pattern.
-
-## Alias (optional)
+## Alias
 
 - Career Growth through InnerSource
 - InnerSource for Personal Branding
