@@ -2,9 +2,10 @@
 
 InnerSource as a Career Booster
 
-## Patlet
+## Patlet#
 
-Employees may hesitate to contribute to InnerSource projects because they fear it won't help their careers or meet their direct manager's goals, but creating visibility, skill growth, and broader organizational impact through InnerSource contributions can directly advance personal career objectives.
+Many employees wonder how contributing to InnerSource projects benefits their careers beyond their immediate team objectives.
+By engaging in InnerSource, individuals expand their skills, grow their network, increase visibility across the organization, and unlock new career opportunities.
 
 ## Problem
 
@@ -75,6 +76,11 @@ From a **game theory** lens, InnerSource transforms isolated career efforts into
 
 - Jeff Bailey
 - Sebastian Spier
+
+## References
+
+- Dirk Riehle - [How Open Source Is Changing the Software Developer’s Career](https://dirkriehle.com/wp-content/uploads/2015/04/r5rie-v3.pdf)
+- Bertrand Delacretaz - [How to convince your left brain (or manager) to follow the Open Source path your right brain desires](https://www.youtube.com/watch?v=F0SmiQ3SF6Q)
 
 ## Alias
 
