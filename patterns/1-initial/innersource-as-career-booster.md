@@ -64,8 +64,7 @@ From a **game theory** lens, InnerSource transforms isolated career efforts into
 
 ## Known Instances (optional)
 
-- At a multinational tech company, engineers who consistently contributed to popular InnerSource libraries were selected for leadership tracks despite not being part of the library's core team.
-- In a large European bank, InnerSource contributors were invited to speak at internal engineering conferences, accelerating their visibility and influence.
+TBD
 
 ## Status (optional until merging)
 
