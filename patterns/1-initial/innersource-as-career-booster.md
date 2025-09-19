@@ -2,9 +2,10 @@
 
 InnerSource as a Career Booster
 
-## Patlet
+## Patlet#
 
-Employees may hesitate to contribute to InnerSource projects because they fear it won't help their careers or meet their direct manager's goals, but creating visibility, skill growth, and broader organizational impact through InnerSource contributions can directly advance personal career objectives.
+Many employees wonder how contributing to InnerSource projects benefits their careers beyond their immediate team objectives.
+By engaging in InnerSource, individuals expand their skills, grow their network, increase visibility across the organization, and unlock new career opportunities.
 
 ## Problem
 
@@ -31,9 +32,9 @@ A developer named Mia worked on a customer-facing product but frequently found h
 - **Cognitive Load**: Switching contexts between one's own project and InnerSource work can temporarily reduce productivity.
 - **Informal Influence**: Power networks within organizations often form across reporting lines, rather than within them.
 
-## Sketch (optional)
+## Sketch
 
-_(Optional illustration of a person bridging multiple teams through contribution lines, forming a network of reputation that extends beyond a siloed organizational chart.)_
+_(Illustration of a person bridging multiple teams through contribution lines, forming a network of reputation that extends beyond a siloed organizational chart.)_
 
 ## Solution
 
@@ -54,7 +55,7 @@ The organization sees better collaboration and higher retention among high-perfo
 
 This creates a reinforcing loop where career incentives and organizational goals align more closely.
 
-## Rationale (optional)
+## Rationale
 
 From a **career development** perspective, diverse project experience, network breadth, and initiative-taking are strong signals of promotability.
 
@@ -62,23 +63,25 @@ From a **career development** perspective, diverse project experience, network b
 
 From a **game theory** lens, InnerSource transforms isolated career efforts into a reputational economy, where value created for others is returned through visibility, referrals, and opportunities.
 
-## Known Instances (optional)
+## Known Instances
 
 TBD
 
-## Status (optional until merging)
+## Status
 
-Draft shared for review. Seeking feedback from InnerSource Commons members and contributors who've experienced career growth through InnerSource.
+- Initial
 
-## Author(s) (optional)
+## Authors
 
-As told to ChatGPT by practitioners familiar with InnerSource career outcomes.
+- Jeff Bailey
+- Sebastian Spier
 
-## Acknowledgments (optional)
+## References
 
-Thanks to InnerSource Commons community members and contributors to career development literature for inspiring ideas used in this pattern.
+- Dirk Riehle - [How Open Source Is Changing the Software Developer’s Career](https://dirkriehle.com/wp-content/uploads/2015/04/r5rie-v3.pdf)
+- Bertrand Delacretaz - [How to convince your left brain (or manager) to follow the Open Source path your right brain desires](https://www.youtube.com/watch?v=F0SmiQ3SF6Q)
 
-## Alias (optional)
+## Alias
 
 - Career Growth through InnerSource
 - InnerSource for Personal Branding
