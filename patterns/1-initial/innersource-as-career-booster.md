@@ -2,7 +2,7 @@
 
 InnerSource as a Career Booster
 
-## Patlet#
+## Patlet
 
 Many employees wonder how contributing to InnerSource projects benefits their careers beyond their immediate team objectives.
 By engaging in InnerSource, individuals expand their skills, grow their network, increase visibility across the organization, and unlock new career opportunities.
