@@ -53,9 +53,9 @@ Can you get consistent answers within the organization to questions like:
 * Visualization in place to list all assets with options to filter based on meta-data
 * Enable access to automated source code static analysis tools (e.g. identify duplicated or similar code, flag code smells, benchmark test coverage).
 
-Mockup dashboard             |  Mockup questionnaire
+Mock-up dashboard             |  Mock-up questionnaire
 :-------------------------:|:-------------------------:
-![Mockup dashboard](../../assets/img/source-code-inventory/source-code-inventory-mockup-dashboard.png)  |  ![Mockup questionnaire](../../assets/img/source-code-inventory/source-code-inventory-mockup-questionnaire.png)
+![Mock-up dashboard](../../assets/img/source-code-inventory/source-code-inventory-mockup-dashboard.png)  |  ![Mock-up questionnaire](../../assets/img/source-code-inventory/source-code-inventory-mockup-questionnaire.png)
 
 ### Define a Source Code Strategy Assessment Framework
 
