@@ -57,4 +57,4 @@ jobs:
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v6
       with:
-        commit_message: Re-creating markmap and screenshot
+        commit_message: Re-creating markmap and screenshot for ${{ matrix.folder }}
