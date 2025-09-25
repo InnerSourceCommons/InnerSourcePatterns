@@ -30,6 +30,10 @@ jobs:
       matrix:
         folder: [".", "./gl", "./pt-br", "./es"]
 
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: false
+
     steps:
     - uses: actions/checkout@v5
     - name: Use Node.js
