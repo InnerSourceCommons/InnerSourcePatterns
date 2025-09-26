@@ -27,9 +27,9 @@ jobs:
       contents: write
 
     strategy:
+      max-parallel: 1
       matrix:
         folder: [".", "./gl", "./pt-br", "./es"]
-        max-parallel: 1
 
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
