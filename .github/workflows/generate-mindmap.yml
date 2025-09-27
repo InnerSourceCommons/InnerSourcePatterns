@@ -26,15 +26,6 @@ jobs:
       # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
       contents: write
 
-    strategy:
-      max-parallel: 1
-      matrix:
-        folder: [".", "./gl", "./pt-br", "./es"]
-
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: false
-
     steps:
     - uses: actions/checkout@v5
       with:
@@ -48,21 +39,29 @@ jobs:
         cache-dependency-path: pattern-categorization/package-lock.json
     - name: Install Node.js dependencies
       run: npm install
-    - name: Run Markmap
-      run: npx markmap --no-toolbar ${{ matrix.folder }}/innersource-program-mind-map.md -o ${{ matrix.folder }}/innersource-program-mind-map.html
-    - name: Screenshot Markmap Website
+    - name: Generate mindmap and take screenshot
       run: |
-        # Disable AppArmor for unprivileged user namespaces
+        # Disable AppArmor for unprivileged user namespaces (required for 'pageres')
         sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
-        # Take the screenshot
-        npx pageres ${{ matrix.folder }}/innersource-program-mind-map.html --overwrite --filename=${{ matrix.folder }}/innersource-program-mind-map 2560x1600
-    - name: Reduce Screenshot Size (PNG)
-      run: npx optipng ${{ matrix.folder }}/innersource-program-mind-map.png
-    # - name: Commit Changes
-    #   uses: stefanzweifel/git-auto-commit-action@v6
-    #   with:
-    #     commit_message: Re-creating markmap and screenshot for ${{ matrix.folder }}
+
+        # Loops over the top-level folder and all immediate sub-folders, except for "node_modules"
+        for dir in . */; do
+          # Skip node_modules
+          [ "$(basename "$dir")" = "node_modules" ] && continue
+          
+          echo "Creating mindmap PNG for: $dir"
+          (
+            # Create markmap HTML 
+            npx markmap --no-open --no-toolbar $dir/innersource-program-mind-map.md -o $dir/innersource-program-mind-map.html
+
+            # Take the screenshot
+            npx pageres $dir/innersource-program-mind-map.html --overwrite --filename=$dir/innersource-program-mind-map 2560x1600
+
+            # Reduce Screenshot Size (PNG)
+            npx optipng $dir/innersource-program-mind-map.png
+          )
+        done
     - name: Commit Changes
-      uses: EndBug/add-and-commit@v9
+      uses: stefanzweifel/git-auto-commit-action@v6
       with:
-        message: Re-creating markmap and screenshot for ${{ matrix.folder }}
+        commit_message: Re-creating markmap and screenshot
