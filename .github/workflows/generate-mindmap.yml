@@ -58,7 +58,7 @@ jobs:
             npx pageres $dir/innersource-program-mind-map.html --overwrite --filename=$dir/innersource-program-mind-map 2560x1600
 
             # Reduce Screenshot Size (PNG)
-            npx optipng $dir/innersource-program-mind-map.png
+            npx optipng -silent $dir/innersource-program-mind-map.png
           )
         done
     - name: Commit Changes
