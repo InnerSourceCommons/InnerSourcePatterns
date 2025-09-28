@@ -15,7 +15,7 @@ yet aware of.
 When InnerSource adoption in an enterprise starts to increase, individual
 mentoring of each project through one evangelist becomes unfeasible. Also, more
 and more people are gaining at least a basic understanding of what it means to
-work in an InnerSource project. Looking at all InnerSource projects though the
+work in an InnerSource project. Looking at all InnerSource projects though, the
 depth of understanding for the concept will diverge. Teams may not be aware of
 proven patterns that would help them move to the next level and solve issues and
 pain points that they are dealing with.
@@ -33,8 +33,7 @@ InnerSource project differs depending on each team.
 Teams sharing InnerSource learnings run into misunderstandings as they are not
 aware of their respective level of InnerSource adoption.
 
-Teams believe that "it's all about migrating to a shared software development
-[forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
+Teams believe that "it's all about migrating to a shared software development [forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
 
 Teams are not aware of best practices that would help them solve issues that
 they run into in their daily doing.

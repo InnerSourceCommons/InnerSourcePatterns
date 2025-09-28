@@ -87,7 +87,7 @@ DB AG内部的第一批法律实体（公司）正在使用他们的内源许可
 - **组织** - 多个法律实体的综合体。(同义词：集团、企业）（如汉莎航空）。
 - **法律实体** - 拥有自身的法律权利和义务的实体（同义词：公司，子公司）（例如汉莎系统有限公司，汉莎工业解决方案TS有限公司，...）
 
-[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
+[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/tree/master/inner-source-license
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
 ## 翻译校对

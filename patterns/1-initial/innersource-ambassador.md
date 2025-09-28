@@ -43,7 +43,7 @@ In a multinational organization, the ISPO implemented InnerSource initiatives bu
 - Ambassadors support and encourage InnerSource across the department while maintaining their primary organizational roles.
 - Strive to have departmental leadership support (and even assist in identifying) the ambassador.
 - Train ambassadors on InnerSource principles, tools, and the goals of the ISPO.
-- Establish clear expectations for ambassadors, including acting as a liaison, promoting InnerSource practices, and providing feedback to the ISPO.
+- Establish clear expectations for ambassadors, including acting as a liaison, promoting InnerSource practices, reporting impactful instances of InnerSource activity, and providing feedback to the ISPO.
 - Create incentives for the ambassors, e.g. making ambassador work part of the reward system of the organization and praising their work (refer to the pattern [Praise Participants](../2-structured/praise-participants.md)).
 - Create a support network among ambassadors to share best practices and foster a sense of community.
 - Schedule regular check-ins between ambassadors and the ISPO to gather insights and provide guidance.
@@ -65,7 +65,7 @@ There are many examples in the industry, using similar concepts. Sometimes used 
 
 Here some examples from the commercial domain, academia and open source:
 
-- **IBM** is using similar concepts in various areas: [IBM Champions](https://www.ibm.com/community/ibm-champions/), [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program), [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-ambassador-program)
+- **IBM** is using similar concepts in various areas: [IBM Champions](https://www.ibm.com/community/ibm-champions/), [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program), [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-student-ambassador-role)
 - **IBM Research** has a concept called [IBM Quantum Ambassadors](https://www.ibm.com/training/badge/ibm-quantum-associate-ambassador)
 - **Red Hat** has a concept called [Red Hat Champions](https://access.redhat.com/champions)
 - **CNCF** has a concept called [CNCF Ambassadors](https://www.cncf.io/people/ambassadors/application-process/)
@@ -75,6 +75,7 @@ Here some examples from the commercial domain, academia and open source:
 - **SAP** has a concept called [Open Source Champions](https://community.sap.com/t5/open-source-blogs/sap-open-source-champions/ba-p/13539587) that seems related
 - **[WellSky](https://wellsky.com/)** has the analogous concept of InnerSource Champions representing each business area of the company.
 - **Siemens** has 70 Social Coding Ambassadors from across subsidiaries and countries that promote the Open and InnerSource mindset across the company.
+- **Robert Bosch GmbH** has the analogous concept of *Social Coding Advocates*.
 
 ## Status
 
