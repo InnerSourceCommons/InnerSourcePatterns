@@ -27,7 +27,7 @@ jobs:
       #     echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
       #     echo "$md_files"
 
-      - name: Check if all files exist in README
+      - name: Check if all patterns are listed in README.md
         run: |
           README="README.md"
 
@@ -40,11 +40,10 @@ jobs:
           missing=0
 
           for file in patterns/*/*.md; do
-              echo $file
               if grep -qF "$file" "$README"; then
                   echo "✔ Found: $file"
               else
-                  echo "✘ Missing: $file"
+                  echo "::error ✘ Missing: $file"
                   missing=$((missing + 1))
               fi
           done
