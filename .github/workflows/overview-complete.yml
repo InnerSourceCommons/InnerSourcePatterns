@@ -27,3 +27,32 @@ jobs:
           echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
           echo "$md_files"
 
+      - name: Check if all files exist in README
+      - run: |
+          README="README.md"
+
+          # Ensure README.md exists
+          if [[ ! -f "$README" ]]; then
+          echo "Error: $README not found!"
+          exit 1
+          fi
+
+          missing=0
+
+          for file in patterns/*/*.md; do
+              echo $file
+              if grep -qF "$file" "$README"; then
+                  echo "✔ Found: $file"
+              else
+                  echo "✘ Missing: $file"
+                  missing=$((missing + 1))
+              fi
+          done
+
+          if [[ $missing -gt 0 ]]; then
+              echo "Some files are missing from $README."
+              exit 1
+          else
+              echo "All files are mentioned in $README."
+              exit 0
+          fi
