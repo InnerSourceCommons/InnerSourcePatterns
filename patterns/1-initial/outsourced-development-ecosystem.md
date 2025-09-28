@@ -67,6 +67,5 @@ Outsourced companies and contractors are safe to collaborate with other competit
 rules are clear, common processes and tools are in place, and the legal framework of each participant
 allows to move into this direction.
 
-## Author(s) (optional)
+## Authors
 
-## Acknowledgments (optional)
