@@ -14,18 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
+      #   with:
+      #     fetch-depth: 0
 
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v47
+      # - name: Get changed files
+      #   id: changed-files
+      #   uses: tj-actions/changed-files@v47
 
-      - name: Filter markdown files only
-        run: |
-          md_files=`find ${{ steps.changed-files.outputs.all_changed_files }} -maxdepth 0 -name "*.md" | tr '\n' ' '`
-          echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
-          echo "$md_files"
+      # - name: Filter markdown files only
+      #   run: |
+      #     md_files=`find ${{ steps.changed-files.outputs.all_changed_files }} -maxdepth 0 -name "*.md" | tr '\n' ' '`
+      #     echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
+      #     echo "$md_files"
 
       - name: Check if all files exist in README
       - run: |
@@ -33,8 +33,8 @@ jobs:
 
           # Ensure README.md exists
           if [[ ! -f "$README" ]]; then
-          echo "Error: $README not found!"
-          exit 1
+              echo "Error: $README not found!"
+              exit 1
           fi
 
           missing=0
