@@ -22,12 +22,10 @@ a collaborative way of working across the organization and across outsourced com
 
 ## Context
 
-Large corporation with a big variety of outsourced companies and contractors that produce part
-of the code base of this company. Each company or contractor has its own contract in place
-that states the goals, the pricing schema, and the expected outcome and output for the organization.
-
-No collaboration happens at the outsourced company or contractor level and each of them are working
-in a silo-based mode with no interactions with others, but the mother company.
+- Large corporation with a big variety of outsourced companies and contractors that produce part of the code base of this company.
+- Each company or contractor has its own contract in place that states the goals, the pricing schema, and the expected outcome and output for the organization.
+- No collaboration happens at the outsourced company or contractor level and each of them are working
+in a silo-based mode with no interactions with others, but only with the mother company.
 
 ## Forces
 
