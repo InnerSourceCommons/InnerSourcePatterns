@@ -1,0 +1,28 @@
+# Are all patterns shown somewhere in the main overview (README)?
+name: Overview Complete
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v47
+
+      - name: Filter markdown files only
+        run: |
+          md_files=`find ${{ steps.changed-files.outputs.all_changed_files }} -maxdepth 0 -name "*.md" | tr '\n' ' '`
+          echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
+
