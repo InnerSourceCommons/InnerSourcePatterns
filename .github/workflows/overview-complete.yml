@@ -10,7 +10,7 @@ on:
       - main
 
 jobs:
-  linkChecker:
+  overviewComplete:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -25,4 +25,5 @@ jobs:
         run: |
           md_files=`find ${{ steps.changed-files.outputs.all_changed_files }} -maxdepth 0 -name "*.md" | tr '\n' ' '`
           echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
+          echo "$md_files"
 
