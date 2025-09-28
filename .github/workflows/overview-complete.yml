@@ -43,7 +43,8 @@ jobs:
               if grep -qF "$file" "$README"; then
                   echo "✔ Found: $file"
               else
-                  echo "::error ✘ Missing: $file"
+                  echo "✘ Missing: $file"
+                  echo "✘ Missing: $file" >> $GITHUB_STEP_SUMMARY
                   missing=$((missing + 1))
               fi
           done
