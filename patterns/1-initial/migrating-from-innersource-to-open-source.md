@@ -42,7 +42,7 @@ Establish a comprehensive migration process that includes:
 
 1. **Pre-Migration Assessment**: Evaluate the project's readiness using established criteria, including adoption metrics, documentation quality, and community management capabilities
 
-2. **Legal and Compliance Review**: 
+2. **Legal and Compliance Review**:
    - Conduct a thorough code review to identify and remove proprietary information.
    - Establish clear licensing terms and intellectual property ownership.
    - Perform patent and copyright clearance.
