@@ -55,7 +55,7 @@ in a silo-based mode with no interactions with others, but only with the mother 
   *  Define pull requests as the default way of working and communicating (and through that improve async collaboration)
   *  Avoid private developments and releases of tons of lines of code, keep a transparent way of
      across companies or contractors.
-* Train the mother company POs to work with several suppliers within the same project.
+* Train the Product Owners at the mother company to work with several suppliers within the same project.
 * Define clear and fair guidelines across internal outsourced companies to avoid internal friction.
 * Skill up your suppliers on InnerSource practices
 * Resources discussions may be part of the conversation at some point, be sure to define the limitations
