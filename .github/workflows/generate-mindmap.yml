@@ -36,11 +36,12 @@ jobs:
         cache-dependency-path: pattern-categorization/package-lock.json
     - name: Install Node.js dependencies
       run: npm install
-    - name: Generate mindmap and take screenshot
+    - name: Disable AppArmor
       run: |
         # Disable AppArmor for unprivileged user namespaces (required for 'pageres')
-        sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
-
+        sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0  
+    - name: Generate mindmap and take screenshot
+      run: |
         # Loops over the top-level folder and all immediate sub-folders, except for "node_modules"
         for dir in . */; do
           # Skip node_modules
