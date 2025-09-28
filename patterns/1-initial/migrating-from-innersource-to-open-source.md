@@ -44,7 +44,7 @@ Establish a comprehensive migration process that includes:
    - Assess business value and strategic alignment for external release.
    - Ensure InnerSource templates align with open source standards to reduce transition friction.
 
-2. **Legal and Compliance Review**: 
+2. **Legal and Compliance Review**:
    - Conduct a thorough code review to identify and remove proprietary information.
    - Establish clear licensing terms and intellectual property ownership.
    - Perform patent and copyright clearance.

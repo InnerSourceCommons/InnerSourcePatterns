@@ -65,7 +65,7 @@ There are many examples in the industry, using similar concepts. Sometimes used 
 
 Here some examples from the commercial domain, academia and open source:
 
-- **IBM** is using similar concepts in various areas: [IBM Champions](https://www.ibm.com/community/ibm-champions/), [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program), [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-ambassador-program)
+- **IBM** is using similar concepts in various areas: [IBM Champions](https://www.ibm.com/community/ibm-champions/), [IBM Z Ambassadors](https://www.yourbigyear.com/ibm-z-student-ambassador-program), [IBM Skillsbuild Student Ambassadors](https://www.yourbigyear.com/ibm-skillsbuild-student-ambassador-role)
 - **IBM Research** has a concept called [IBM Quantum Ambassadors](https://www.ibm.com/training/badge/ibm-quantum-associate-ambassador)
 - **Red Hat** has a concept called [Red Hat Champions](https://access.redhat.com/champions)
 - **CNCF** has a concept called [CNCF Ambassadors](https://www.cncf.io/people/ambassadors/application-process/)
@@ -75,6 +75,7 @@ Here some examples from the commercial domain, academia and open source:
 - **SAP** has a concept called [Open Source Champions](https://community.sap.com/t5/open-source-blogs/sap-open-source-champions/ba-p/13539587) that seems related
 - **[WellSky](https://wellsky.com/)** has the analogous concept of InnerSource Champions representing each business area of the company.
 - **Siemens** has 70 Social Coding Ambassadors from across subsidiaries and countries that promote the Open and InnerSource mindset across the company.
+- **Robert Bosch GmbH** has the analogous concept of *Social Coding Advocates*.
 
 ## Status
 
