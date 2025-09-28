@@ -6,7 +6,7 @@ Outsourced Development Ecosystem
 
 The burdens of existing contracts in an outsourced environment constrains the success of the
 InnerSource initiative. Outsourced companies may see this as a risky situation as they have to
-way to share knowledge, resources, and expertise with competitors within the mother company.
+weigh sharing knowledge, resources, and expertise with competitors within the mother company.
 The legal contracts typically forces to develop software in a very specific and silo-ed way.
 Redefining these rules and allowing outsourced companies would bring a more InnerSource-friendly
 way of working.
