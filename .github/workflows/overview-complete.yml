@@ -1,4 +1,4 @@
-# Are all patterns shown somewhere in the main overview (README)?
+# Check if all patterns are listed in README.md
 name: Overview Complete
 
 on:
@@ -14,18 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      #   with:
-      #     fetch-depth: 0
-
-      # - name: Get changed files
-      #   id: changed-files
-      #   uses: tj-actions/changed-files@v47
-
-      # - name: Filter markdown files only
-      #   run: |
-      #     md_files=`find ${{ steps.changed-files.outputs.all_changed_files }} -maxdepth 0 -name "*.md" | tr '\n' ' '`
-      #     echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
-      #     echo "$md_files"
 
       - name: Check if all patterns are listed in README.md
         run: |
@@ -44,15 +32,15 @@ jobs:
                   echo "✔ Found: $file"
               else
                   echo "✘ Missing: $file"
-                  echo "✘ Missing: $file" >> $GITHUB_STEP_SUMMARY
+                  echo "✘ Pattern file not listed in README.md: $file" >> $GITHUB_STEP_SUMMARY
                   missing=$((missing + 1))
               fi
           done
 
           if [[ $missing -gt 0 ]]; then
-              echo "Some files are missing from $README."
+              echo "Some patterns are missing from $README."
               exit 1
           else
-              echo "All files are mentioned in $README."
+              echo "All patterns are listed in $README."
               exit 0
           fi
