@@ -52,7 +52,7 @@ in a silo-based mode with no interactions with others, but only with the mother 
   *  Good documentation practices.
   *  Code should be hosted in a collaborative platform every company and contractor is able to reach
      out to it
-  *  State pull request / change request as the by-default way of working and communication.
+  *  Define pull requests as the default way of working and communicating (and through that improve async collaboration)
   *  Avoid private developments and releases of tons of lines of code, keep a transparent way of
      across companies or contractors.
 * Train the mother company POs to work with several suppliers within the same project.
