@@ -2,7 +2,7 @@
 
 ## Tipos de contribucións
 
-Nesta sección proporcione información sobre o tipo de contribucións que está a procurar o seu proxecto. Por exemplo, poden ser informes de erros, axuda para responder preguntas dos/as usuarios/as, melloras da documentación, corrixir erros e a posta en marcha de funcionalidades.
+Nesta sección proporcione información sobre o tipo de contribucións que está a procurar o seu proxecto. Por exemplo, poden ser informes de erros, axuda para responder preguntas dos/das usuarios/as, melloras da documentación, corrixir erros e a posta en marcha de funcionalidades.
 
 ## Informes de erros
 
@@ -12,7 +12,7 @@ Ademais, deberá incluír información sobre o que os/as contribuidores/as poden
 
 ## Peticións de funcionalidades
 
-Engada información sobre como enviar *feature requests*. Do mesmo xeito, tamén debería incluír neste apartado a información sobre o que cabe esperar por parte dos/as contribuidores/as, en termos do tempo da primeira resposta e do proceso posterior.
+Engada información sobre como enviar *feature requests*. Do mesmo xeito, tamén debería incluír neste apartado a información sobre o que cabe esperar por parte dos/das contribuidores/as, en termos do tempo da primeira resposta e do proceso posterior.
 
 ## Contribucións de documentación
 
@@ -32,6 +32,6 @@ Esta sección debería conter información sobre:
 
 Esta sección debe facer explícito o proceso para converterse nun/nunha *trusted committer* se esa ruta está aberta aos/ás contribuidores/as.
 
-## Como nomear ao/á *trusted committer*
+## Como nomear o/a *trusted committer*
 
 Esta sección serve a modo de recordatorio para os/as *trusted committers* existentes e como explicación para os/as novos/as. Nela detállase como engadir a outras persoas ao *host team*. Deste xeito, o ideal é que esta información sexa idéntica para tódolos proxectos da organización, de modo que a información máis relevante se poida vincular desde aquí.

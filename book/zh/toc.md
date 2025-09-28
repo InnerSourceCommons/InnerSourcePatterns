@@ -31,13 +31,16 @@ Instead edit toc_template.md
 * [内源门户网站](../../translation/zh/patterns/innersource-portal.md) - 潜在的贡献者很难找到他们感兴趣的内源项目。你可以通过创建一个索引所有可用的内源项目信息的内部网站，可以让贡献者了解他们可能感兴趣的项目，也可以让内源项目的负责人发展外部受众。
 * [利用RFC进行透明的跨团队决策](../../translation/zh/patterns/transparent-cross-team-decision-making-using-rfcs.md) - 内源项目如果想实现高参与率，并为每个参与者做出最好的决定，就需要想办法在整个软件生命周期中建立易于参与式的环境。发布内部征求意见稿（RFC）文件，可以在设计过程的早期就进行讨论，并促进在参与各方在高参与度下建立解决方案的机会。
 * [基准级的文档](../../translation/zh/patterns/base-documentation.md) - 内源项目的新贡献者很难搞清楚谁在维护这个项目，该做什么，以及如何贡献。在标准文件中提供文档，如README.md/CONTRIBUTING.md，可以为新的贡献者提供一个自助服务流程，这样他们就可以自己找到最常见问题的答案。
+* [小组支持](../../translation/zh/patterns/group-support.md) - 如果某个团队或个人不再支持 InnerSource 项目怎么办？ 由一群感兴趣的个人组成小组来保持项目活跃。
 * [成熟度模型](../../translation/zh/patterns/maturity-model.md) - 各个团队已经开始采用内源。这种做法正在向多个部门蔓延。然而，人们对什么是内源项目的理解各不相同。解决方案是提供一个成熟度模型，让团队通过自我检查，发现他们还没有意识到的模式和做法。
 * [服务 vs. 库](../../translation/zh/patterns/service-vs-library.md) - 由于对服务宕机责任的模糊不清，DevOps团队都不太愿意基于公共代码进行跨团队工作。 解决办法是让大家认识到通常情况下：要么在独立的环境中部署相同的服务，在服务宕机时有独立的问题处理兜底机制；要么将大量的共享代码纳入一个库，大家在此基础上进行协作。
+* [标准发布流程](../../translation/zh/patterns/release-process.md) - 如果团队不确定 InnerSource 项目的成熟度，他们可能会犹豫是否采用该项目。为了解决该问题，一致的发布说明和已发布制品至关重要。这些做法展示了对项目的坚定承诺，为用户提振了信心，并向他们保证了对可持续和管理良好的软件的持续承诺。
 * [核心团队](../../translation/zh/patterns/core-team.md) - 即使一个内源项目被广泛应用，但也可能因为项目难以协作而阻碍项目的贡献和使用。 建立一个核心团队，专门负责处理项目的基本事务。 他们的工作可以确保贡献者能够增加和使用满足他们自己使用场景需要的特性。
 * [签约贡献者](../../translation/zh/patterns/contracted-contributor.md) - 想为内源做贡献的同事被他们的直线管理层劝阻。正式的合同和协议为这种困境提供援助。
 * [记录你的指导原则](../../translation/zh/patterns/document-your-guiding-principles.md) - 通常内源对 "在组织内部应用开源最佳实践 "的解释对缺乏开源背景的人来说效果并不好。 作为一种补救措施，内源最重要的原则被记录下来并广泛宣传。
 * [评审委员会](../../translation/zh/patterns/review-committee.md) - 对于开发人员和管理人员来说，内源的工作模式与更多的传统方法截然不同。通过建立一个评审委员会，作为内源计划和所有参与该计划的业务部门高级管理人员之间的接口，后者更有可能更加熟悉并支持该计划，因为评审委员会为他们提供了一定程度的监督和控制，而不会助长微管理。
 * [跨团队的项目评估](../../translation/zh/patterns/crossteam-project-valuation.md) - 要推销跨团队的内源项目的价值是很难的，因为这些项目并没有对公司的收入产生直接影响。 这里有一个数据驱动的方法来展示和凸显你的项目价值。
+* [通过扩展实现可持续增长](../../translation/zh/patterns/extensions-for-sustainable-growth.md) - InnerSource 项目收到了太多的贡献，这会导致维护变得困难。通过在核心项目之外提供扩展机制，维护者可以用最小的成本和维护开销扩展项目功能。
 * [问题追踪器使用案例](../../translation/zh/patterns/issue-tracker.md) - 内源东道主团队不仅没有使计划和进展，而且也没有将变化背景信息变透明。这可以通过增加项目问题跟踪器的使用案例来解决，它也可以为头脑风暴、实施讨论和功能设计服务。
 * [零工市场](../../translation/zh/patterns/gig-marketplace.md) - 建立一个市场，创建一个内部网站，将特定的内源项目需求列为 "任务"，并提出明确的时间和技能要求。 这将使管理人员能够更好地了解员工的时间承诺和专业利益，从而增加获得批准做出内源贡献的可能性。
 

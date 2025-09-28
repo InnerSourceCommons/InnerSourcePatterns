@@ -4,7 +4,7 @@ Comité de revisión
 
 ## Patlet
 
-O modelo de traballo InnerSource é un afastamento radical dos enfoques máis tradicionais, tanto para os/as desenvolvedores/as como para os/as seus/súas superiores/as. Ao establecer un comité de revisión como interface entre a iniciativa InnerSource e tódolos altos cargos das áreas empresariais que participan nela, é máis probable que estes últimos se familiaricen coa iniciativa e a apoien; xa que lles brinda un certo nivel de supervisión e control, sen fomentar a microxestión.
+o modelo de traballo InnerSource é un afastamento radical dos enfoques máis tradicionais, tanto para os/as desenvolvedores/as como para os/as seus/súas superiores/as. Ao establecer un comité de revisión como interface entre a iniciativa InnerSource e todos os altos cargos das áreas empresariais que participan nela, é máis probable que estes últimos se familiaricen coa iniciativa e a apoien; xa que lles brinda un certo nivel de supervisión e control, sen fomentar a microxestión.
 
 ## Problema
 

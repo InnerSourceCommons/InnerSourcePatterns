@@ -89,7 +89,7 @@ DB 社の中で最初の法人(企業) は、このインナーソース ライ�
 - **組織** - 複数の企業の母体(同義語: グループ、ホールディング、エンタープライズ) (例: Microsoft Corporation)
 - **法的エンティティ** - 独自の法的権利と義務を有するエンティティ (同義語: グループ子会社、子会社、関連会社) (例: Microsoft Japan, GitHub, LinkedIn)
 
-[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
+[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/tree/master/inner-source-license
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
 ## 翻訳の履歴

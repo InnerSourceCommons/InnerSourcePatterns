@@ -4,7 +4,7 @@ Documentación base estándar
 
 ## Patlet
 
-Os/As novos/as contribuidores/as dun proxecto InnerSource teñen dificultades para determinar quen mantén o proxecto, en que traballar e como contribuír. Ao proporcionar documentación en arquivos estándar como `README.md`/`CONTRIBUTING.md` permítese un proceso de autoservizo para os/as novos/as contribuidores/as, de xeito que poidan atopar por si mesmos/as as respostas ás preguntas máis comúns.
+ós/ás novos/as contribuidores/as dun proxecto InnerSource teñen dificultades para determinar quen mantén o proxecto, en que traballar e como contribuír. Ao proporcionar documentación en arquivos estándar como README.md/CONTRIBUTING.md permítese un proceso de autoservizo para os/as novos/as contribuidores/as, de xeito que poidan atopar por si mesmos/as as respostas ás preguntas máis comúns.
 
 ## Problema
 
@@ -20,7 +20,7 @@ O proxecto debe compartirse con outros/as contribuidores/as como proxecto InnerS
 - O proxecto creouse como unha iniciativa InnerSource fai pouco. Con todo, o equipo anfitrión carece da experiencia con InnerSource. Como consecuencia, este necesita orientación para saber que información incluír na súa documentación, onde colocar esa documentación do código para que outros/as poidan atopala, ademais de entender como dirixirse ás persoas que despois van a ler esa documentación de código.
 - O proxecto converteuse nun proxecto InnerSource recentemente, o equipo anfitrión ten experiencia limitada con InnerSource. Como resultado, a documentación de código existente aborda moitos aspectos técnicos. Así a todo, non se aborda a comunicación, a coordinación ou a información necesaria para facilitar unha planificación transparente.
 - O proxecto converteuse nun proxecto InnerSource recentemente. Como resultado, a meirande parte do coñecemento implícito que existe dentro do equipo non está escrito, polo que non é visible para os/as contribuidores/as.
-- A falta de documentación de código fai que os/as posibles contribuíntes tarden moito tempo en distribuírse e comezar. Elaborar documentación de código (e mantela actualizada) require unha inversión de tempo. Incluso se o equipo anfitrión confía nos/as contribuidores/as para que lle axuden coa documentación de código que falta, esta aínda precisa dun tempo para revisarse.
+- A falta de documentación de código fai que os/as posibles contribuíntes tarden moito tempo en distribuírse e comezar. Elaborar documentación de código (e mantela actualizada) require un investimento de tempo. Incluso se o equipo anfitrión confía nos/nas contribuidores/as para que o axuden coa documentación de código que falta, esta aínda precisa dun tempo para revisarse.
 - Os membros do proxecto pasan moito tempo respondendo a preguntas con respecto á posta en marcha do devandito proxecto. Porén, manter unha base de datos exhaustiva cunha especie de preguntas de asistencia, require moito tempo e esforzo.
 - Os distintos equipos da empresa teñen estándares diverxentes respecto a como formatar o código fonte e que modelos de software empregar. Por conseguinte, a miúdo a maior parte de contribucións teñen que reescribirse ata incluso na súa totalidade. Estandarizar estes aspectos e facer que se cumpra a norma adoita requirir de moito tempo e traballo.
 - O traballo adicional resultado das explicacións repetidas e as reescrituras diminúe a utilidade do enfoque InnerSource.
@@ -36,11 +36,11 @@ Se aínda non o fixo, cree un arquivo `README.md` para o seu proxecto que conte�
 
 - [A misión do proxecto](https://producingoss.com/en/producingoss.html#mission-statement) no formato máis conciso posible. Debe dar resposta ao propósito do proxecto e permitir que os/as contribuidores/as se fagan unha idea inicial de se é probable que a posta en marcha da funcionalidade suxerida estea dentro do alcance do proxecto ou non.
 - Unha sección de «Comezo» para os/as usuarios/as intermedios/as do proxecto. Esta sección debe explicar como configurar/integrar os dispositivos do proxecto, así como tamén ha de incluír unha explicación dalgúns dos primeiros pasos habituais para os/as usuarios/as recentemente incorporados/as.
-- Documentación máis detallada para os/as usuarios/as do proxecto ou unha ligazón á mesma.
-- Documentación necesaria para realizar modificacións no proxecto ou unha ligazón á mesma.
+- Documentación máis detallada para os/as usuarios/as do proxecto ou unha ligazón a ela.
+- Documentación necesaria para realizar modificacións no proxecto ou unha ligazón a ela.
 - Documentación sobre como contribuír ao proxecto ou unha ligazón á mesma.
 - Unha sección de «Comezo» que explique que canles de comunicación públicas, arquivadas e asociadas se empregan no proxecto. Isto debe incluír unha ligazón ao sistema de seguimento de incidencias do proxecto, pero tamén a calquera outro medio de discusión utilizado.
-- Unha sección de «Quen somos?» na que se explica quen son os/as [*trusted committers*](./trusted-committer.md) que están detrás do proxecto, cunha explicación na que se especifica que, na contra de contactar a estas persoas en privado, débense empregar as canles de comunicación públicas mencionadas anteriormente.
+- Unha sección de «Quen somos?» na que se explica quen son os/as [*trusted committers*](./trusted-committer.md) que están detrás do proxecto, cunha explicación na que se especifica que, na contra de contactar estas persoas en privado, se deben empregar as canles de comunicación públicas mencionadas anteriormente.
 - Unha explicación que expoña os criterios do proxecto polos que os/as contribuidores/as pasan a ser *trusted committers*, no caso de que exista esa posibilidade.
 
 ![README.md](../../../assets/img/gl/README-for-users.png)
@@ -58,14 +58,14 @@ Se a guía dos pasos para facer unha contribución é demasiado complicada, cree
 
 ![CONTRIBUTING.md](../../../assets/img/gl/CONTRIBUTING-for-contributors.png)
 
-Existen moitos e moi bos exemplos de como escribir a un `README.md`, así como do tipo de información que incluír nun arquivo `CONTRIBUTING.md` en varios proxectos de software libre. Páxinas como [*How to write a readme that rocks*](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a) [Como escribir un README que sexa un éxito], [*Open Source Guide from GitHub*](https://opensource.guide/) [Guía de software libre en Github], así como o libro [*Producing Open Source*](https://producingoss.com/en/producingoss.html) [A creación do software libre] conteñen información valiosa sobre o tipo de información que precisa proporcionar aos/ás contribuidores/as. Posto que *Producing Open Source* non contén un capítulo sobre como escribir un bo README *per se*, o capítulo «[Getting Started](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)» [Comezo] proporciona unha listaxe bastante extensa de cousas que necesitarán os membros do *host team*, os/as usuarios/as e os/as contribuidores/as. É probable que os proxectos InnerSource non cubran todos eses aspectos desde o comezo, pero a listaxe en si é útil a modo inspiración que serve para determinar aquelas áreas que se poderían incluír.
+Existen moitos e moi bos exemplos de como escribir a un `README.md`, así como do tipo de información que incluír nun arquivo `CONTRIBUTING.md` en varios proxectos de software libre. Páxinas como [*How to write a readme that rocks*](https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a) [Como escribir un README que sexa un éxito], [*Open Source Guide from GitHub*](https://opensource.guide/) [Guía de software libre en Github], así como o libro [*Producing Open Source*](https://producingoss.com/en/producingoss.html) [A creación do software libre] conteñen información valiosa sobre o tipo de información que precisa proporcionar aos/ás contribuidores/as. Posto que *Producing Open Source* non contén un capítulo sobre como escribir un bo README *per se*, o capítulo «[Getting Started](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)» [Comezo] proporciona unha listaxe bastante extensa de cousas que necesitarán os membros do *host team*, os/as usuarios/as e os/as contribuidores/as. É probable que os proxectos InnerSource non cubran todos eses aspectos desde o comezo, pero a listaxe en si é útil a modo de inspiración que serve para determinar aquelas áreas que se poderían incluír.
 
 Ademais, este modelo contén dous exemplos moi básicos para que poida iniciarse de inmediato: [README-template.md](../templates/README-template.md) e [CONTRIBUTING-template.md](../templates/CONTRIBUTING-template.md)
 
 ## Contexto resultante
 
 - O tempo que tardan os/as contribuidores/as en poñerse ao día redúcese de xeito significativo.
-- Redúcese de xeito considerable o tempo dedicado a responder ás preguntas iniciais dos/as [*trusted committers*](./trusted-committer.md), o que lles permite ter máis tempo para traballar noutras tarefas.
+- Redúcese de xeito considerable o tempo dedicado a responder ás preguntas iniciais dos/das [*trusted committers*](./trusted-committer.md), o que lles permite ter máis tempo para traballar noutras tarefas.
 - As escaladas por mor de malentendidos e discordancias redúcense de xeito significativo.
 
 ## Exemplos coñecidos

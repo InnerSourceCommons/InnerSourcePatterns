@@ -9,16 +9,19 @@ on:
   pull_request:
     branches:
     - main
+  workflow_dispatch:
+  schedule:
+    - cron: '3 2 1 * *'
 
 jobs:
   vale:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
 
     - name: Vale Linting
-      uses: errata-ai/vale-action@reviewdog
+      uses: errata-ai/vale-action@v2
       with:
         files: '["patterns/2-structured/", "patterns/3-validated/"]'
         vale_flags: "--glob=*.md"

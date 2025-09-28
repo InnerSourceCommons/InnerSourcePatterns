@@ -32,7 +32,7 @@ Abordar a necessidade de documentação mais clara para novos contribuidores. O 
 
 ### README.md
 
-Se ainda não existir, crie um arquivo `README.md para o seu projeto. Ele deve conter:
+Se ainda não existir, crie um arquivo `README.md` para o seu projeto. Ele deve conter:
 
 * [Missão do projeto](https://producingoss.com/en/producingoss.html#mission-statement) de forma concisa possível. Deve responder qual é o propósito do projeto e permitir que os contributors façam uma boa primeira avaliação se um recurso sugerido provavelmente estará dentro do escopo do projeto ou não.
 * Uma seção "Primeiros passos" para os usuários downstream do projeto. Deve explicar como configurar/integrar os artefatos do projeto, bem como uma explicação dos primeiros passos típicos para usuários iniciantes.

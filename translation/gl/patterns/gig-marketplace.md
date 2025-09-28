@@ -4,7 +4,7 @@
 
 ## Patlet
 
-Establécese un *marketplace* mediante a creacion dunha intranet que enumere as necesidades específicas do proxecto InnerSource como «*Gigs*», con requisitos explícitos de tempo e habilidades. Isto permitirá ao personal directivo comprender mellor o compromiso no tempo e os beneficios profesionais dos/as seus/súas traballadores/as, o que aumentará a probabilidade de obter a aprobación para realizar contribucións InnerSource.
+establécese un marketplace mediante a creacion dunha intranet que enumere as necesidades específicas do proxecto InnerSource como «Gigs», con requisitos explícitos de tempo e habilidades. Isto permitiralle ao personal directivo comprender mellor o compromiso no tempo e os beneficios profesionais dos seus/súas traballadores/as, o que aumentará a probabilidade de obter a aprobación para realizar contribucións InnerSource.
 
 ## Problema
 

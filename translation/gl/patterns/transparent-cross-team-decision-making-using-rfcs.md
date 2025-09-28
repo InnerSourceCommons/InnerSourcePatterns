@@ -4,7 +4,7 @@ Toma de decisións transparente entre equipos mediante RFC
 
 ## Patlet
 
-Os proxectos InnerSource que desexan lograr un alto índice de participación e tomar as mellores decisións posibles para tódalas persoas involucradas, necesitan atopar formas de crear sistemas participativos durante todo o ciclo de vida do software. A publicación de documentos internos con peticións de comentarios (RFC) permite manter debates desde o comezo do proceso de deseño. Tamén aumenta as posibilidades de idear solucións cun alto grao de compromiso por parte de tódalas partes implicadas.
+os proxectos InnerSource que desexan lograr un alto índice de participación e tomar as mellores decisións posibles para todas as persoas involucradas, necesitan atopar formas de crear sistemas participativos durante todo o ciclo de vida do software. A publicación de documentos internos con peticións de comentarios (RFC) permite manter debates desde o comezo do proceso de deseño. Tamén aumenta as posibilidades de idear solucións cun alto grao de compromiso por parte de tódalas partes implicadas.
 
 ## Problema
 

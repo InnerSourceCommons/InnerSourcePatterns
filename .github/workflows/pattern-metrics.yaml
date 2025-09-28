@@ -29,7 +29,7 @@ jobs:
         echo "last_month=$first_day..$last_day" >> "$GITHUB_ENV"
 
     - name: Check out the code so we can get the CODEOWNERS names
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         sparse-checkout: |
           .github/CODEOWNERS
@@ -53,7 +53,7 @@ jobs:
         echo "CODEOWNERS_FILTER=$CODEOWNERS_FILTER" >> "$GITHUB_ENV"
 
     - name: Run issue-metrics tool for issues
-      uses: github/issue-metrics@v2
+      uses: github/issue-metrics@v3
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SEARCH_QUERY: 'repo:InnerSourceCommons/InnerSourcePatterns is:issue created:${{ env.last_month }} -reason:"not planned" ${{ env.CODEOWNERS_FILTER }}'
@@ -66,7 +66,7 @@ jobs:
         mv ./issue_metrics.md ready_to_merge_issues_report.md
 
     - name: Run issue-metrics tool for PRs
-      uses: github/issue-metrics@v2
+      uses: github/issue-metrics@v3
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SEARCH_QUERY: 'repo:InnerSourceCommons/InnerSourcePatterns is:pr created:${{ env.last_month }} -reason:"not planned" ${{ env.CODEOWNERS_FILTER }}'
@@ -80,7 +80,7 @@ jobs:
         cat ready_to_merge_issues_report.md hr.md issue_metrics.md > all.md
 
     - name: Create issue
-      uses: peter-evans/create-issue-from-file@v4
+      uses: peter-evans/create-issue-from-file@v5
       with:
         title: "Monthly Metrics: New Issues + New Pull Requests ${{ env.last_month }}"
         token: ${{ secrets.GITHUB_TOKEN }}

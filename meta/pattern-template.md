@@ -82,5 +82,5 @@ Though optional, most patterns should list who helped in their creation.
 
 ## Alias (optional)
 
-If this pattern is also known under a different name than what is listed unter **Title**, please list those alternative titles here.
+If this pattern is also known under a different name than what is listed under **Title**, please list those alternative titles here.
 e.g. if the pattern is named after the problem it solves, a helpful alias might be one that describes the solution that is applied.

@@ -4,7 +4,7 @@ Modelo de madurez
 
 ## Patlet
 
-Os equipos comezaron a adoptar InnerSource e a práctica estase estendendo a varios departamentos. Con todo, a comprensión do que constitúe un proxecto InnerSource varía. A solución consiste en proporcionar un modelo de madurez que permita aos equipos realizar unha autoavaliación e descubrir modelos e prácticas que aínda non coñecían.
+os equipos comezaron a adoptar InnerSource e a práctica estase estendendo a varios departamentos. Con todo, a comprensión do que constitúe un proxecto InnerSource varía. A solución consiste en proporcionar un modelo de madurez que lles permita aos equipos realizar unha autoavaliación e descubrir modelos e prácticas que aínda non coñecían.
 
 ## Problema
 

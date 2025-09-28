@@ -46,9 +46,10 @@ In addition it helps to provide clear [contribution guidelines](./base-documenta
 
 ## Known Instances
 
-- This was tried and proven successful at PayPal.
-- GitHub internally uses this pattern with a modified warranty timeline of 6 weeks.
-- Microsoft recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
+- **PayPal** Tried this and it was proven successful.
+- **GitHub** internally uses this pattern with a modified warranty timeline of 6 weeks.
+- **Microsoft** recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
+- **SAP** leverages this pattern in their InnerSource-based Everest project to transform collaboration, ensuring contributions are not just accepted but also supported, enhancing trust and driving forward the culture of shared responsibility and innovation. See: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
 
 ## Authors
 

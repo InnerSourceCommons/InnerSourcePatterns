@@ -4,7 +4,7 @@
 
 ## Patlet
 
-Os/As socios/as que desexen contribuír a InnerSource son disuadidos/as de facelo polos/as seus/súas superiores/as. Os contratos e acordos formais son un alivio.
+os/as socios/as que desexen contribuír a InnerSource son disuadidos/as de facelo polos/as seus/súas superiores/as. Os contratos e acordos formais son un alivio.
 
 ## Problema
 
