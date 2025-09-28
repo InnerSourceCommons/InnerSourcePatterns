@@ -28,7 +28,7 @@ jobs:
       #     echo "$md_files"
 
       - name: Check if all files exist in README
-      - run: |
+        run: |
           README="README.md"
 
           # Ensure README.md exists
