@@ -15,7 +15,7 @@ way of working.
 
 Current outsourced environments in large corporations prevent those suppliers to work in an
 InnerSource way. This includes a transparent, collaborative, and community-oriented way.
-Beyond the implications of the cultural change, and process focus, most of the limitations are
+Beyond the implications of the cultural change and process focus, most of the limitations are
 given by the existing legal framework that forces the outsourced development to charge a fee
 per hour and within a very specific project. There are not specific agreements to allow
 a collaborative way of working across the organization and across outsourced companies or contractors.
