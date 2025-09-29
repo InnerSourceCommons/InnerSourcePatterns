@@ -117,6 +117,7 @@ This migration leverages the foundation of InnerSource success—proven collabor
 - [Google's Open Source Documentation](https://opensource.google/docs/)
 - [The Open Source Way](https://www.theopensourceway.org/)
 - [Apache Software Foundation: How to Open Source](https://www.apache.org/dev/apply-license.html)
+- [Microsoft Open Source Program: Releasing Projects](https://opensource.microsoft.com/program/#program-releasing)
 
 ## Known Instances
 
