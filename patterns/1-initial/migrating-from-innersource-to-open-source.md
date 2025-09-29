@@ -116,7 +116,6 @@ This migration leverages the foundation of InnerSource success—proven collabor
 - [Mozilla's Open Source Guidelines](https://www.mozilla.org/en-US/about/policy/lean-data/build-security/)
 - [Google's Open Source Documentation](https://opensource.google/docs/)
 - [The Open Source Way](https://www.theopensourceway.org/)
-- [GitHub's Open Source Guide](https://github.com/github/opensource.guide)
 - [Apache Software Foundation: How to Open Source](https://www.apache.org/dev/apply-license.html)
 
 ## Known Instances
