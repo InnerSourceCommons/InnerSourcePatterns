@@ -112,7 +112,7 @@ This migration leverages the foundation of InnerSource success—proven collabor
 
 ## References
 
-- [Open Source Guide: How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [Open Source Guides: How to Contribute to Open Source (by GitHub)](https://opensource.guide/how-to-contribute/)
 - [Mozilla's Open Source Guidelines](https://www.mozilla.org/en-US/about/policy/lean-data/build-security/)
 - [Google's Open Source Documentation](https://opensource.google/docs/)
 - [The Open Source Way](https://www.theopensourceway.org/)
