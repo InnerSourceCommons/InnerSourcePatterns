@@ -113,8 +113,7 @@ This migration leverages the foundation of InnerSource success—proven collabor
 ## References
 
 - [Open Source Guides: How to Contribute to Open Source (by GitHub)](https://opensource.guide/how-to-contribute/)
-- [Mozilla's Open Source Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/open-source/)
-- [Google's Open Source Documentation](https://opensource.google/docs/)
+- [Google's Open Source Documentation](https://opensource.google/documentation/reference)
 - [The Open Source Way](https://www.theopensourceway.org/)
 - [Apache Software Foundation: How to Open Source](https://www.apache.org/dev/apply-license.html)
 - [Microsoft Open Source Program: Releasing Projects](https://opensource.microsoft.com/program/#program-releasing)
