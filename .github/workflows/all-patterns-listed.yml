@@ -1,0 +1,46 @@
+# Check if all patterns are listed in README.md
+name: All Patterns Listed
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  all-patterns-listed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Check if all patterns are listed in README.md
+        run: |
+          README="README.md"
+
+          # Ensure README.md exists
+          if [[ ! -f "$README" ]]; then
+              echo "Error: $README not found!"
+              exit 1
+          fi
+
+          missing=0
+
+          for file in patterns/*/*.md; do
+              if grep -qF "$file" "$README"; then
+                  echo "✔ Found: $file"
+              else
+                  echo "✘ Missing: $file"
+                  echo "✘ Pattern file not listed in README.md: $file" >> $GITHUB_STEP_SUMMARY
+                  missing=$((missing + 1))
+              fi
+          done
+
+          if [[ $missing -gt 0 ]]; then
+              echo "Some patterns are missing from $README."
+              exit 1
+          else
+              echo "All patterns are listed in $README."
+              exit 0
+          fi

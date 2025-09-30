@@ -23,7 +23,10 @@ This pattern applies in organizations that:
 - Want to release internal software as open source.  
 - Lack structured internal collaboration processes.  
 - Have teams unfamiliar with maintaining open source projects.  
-- Need to establish internal governance and contribution models before engaging the broader open source community.  
+- Need to establish internal governance and contribution models before engaging the broader open source community.
+- Operate in regulated industries (healthcare, financial services) where compliance requirements are stringent.
+- Have concerns about intellectual property, security, or competitive advantage when releasing code publicly.
+- Want to validate project value and adoption internally before external exposure.  
 
 ## Forces
 
@@ -31,7 +34,11 @@ This pattern applies in organizations that:
 - **Documentation Gaps**: A lack of contributor guidelines, API documentation, and onboarding materials can hinder adoption.  
 - **Governance & Ownership**: Without clear ownership and decision-making processes, project direction can become unclear.  
 - **Support Burden**: Open source projects require active maintainers to review pull requests, address issues, and engage the community.  
-- **Security & Compliance**: Code may require review to meet licensing and security requirements before being released publicly.  
+- **Security & Compliance**: Code may require review to meet licensing and security requirements before being released publicly.
+- **Regulatory Compliance**: Increasing government regulations may require additional considerations when moving from InnerSource to Open Source.
+- **Intellectual Property Risk**: Corporate information embedded in comments or code may create legal exposure when released publicly.
+- **Bidirectional Movement**: Projects may need to move from Open Source back to InnerSource if they become unmaintained or face sustainability challenges.
+- **Market Awareness**: Limited understanding of InnerSource practices in the broader market may affect external adoption.  
 
 ## Solution
 
@@ -43,7 +50,11 @@ Before making a project open source, require it to go through an InnerSource pha
 4. Maintainers get to practice the soft skills required to support a community of people outside of their own team.
 5. Internal adoption and success metrics are measured to determine if the project is ready for external release. Some possible metrics are detailed in the [Repository Activity Score](../2-structured/repository-activity-score.md).
 6. Feedback loops are created to refine processes before engaging a broader open source audience.
-7. Decision about whether or not the project should be released as open source (based on the success metrics defined earlier). The incubation phase as an InnerSource project can be seen a quality gate. So naturally not all projects will pass that gate.
+7. **Legal and compliance review**: Conduct thorough checks for copyright, patents, and corporate information that may be embedded in comments or code before external release.
+8. **Security assessment**: Perform security reviews to ensure open sourcing won't create vulnerabilities or expose sensitive information.
+9. **OSP/OSPO vetting**: Have an Open Source Program Office (OSPO) or equivalent team review the project for engineering quality, legal compliance, and strategic alignment.
+10. **Approval process**: Establish a formal approval workflow where projects are added to an approved list that legal departments can reference for ongoing compliance.
+11. Decision about whether or not the project should be released as open source (based on the success metrics defined earlier). The incubation phase as an InnerSource project can be seen a quality gate. So naturally not all projects will pass that gate.
 
 ## Resulting Context
 
@@ -78,6 +89,7 @@ We are currently reviewing our InnerSource stage flow, where a project will be a
 
 - Sebastian Spier
 - Fernando Correa
+- Jeff Bailey
 
 ## Alias
 
