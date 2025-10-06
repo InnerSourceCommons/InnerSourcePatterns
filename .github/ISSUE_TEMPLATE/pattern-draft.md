@@ -7,10 +7,11 @@ assignees: ''
 
 ---
 
-This is the most basic template for a new pattern.
-Here you find the full [pattern template](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md).
-
 If you don't know how to get started, try to [draft an InnerSource Pattern with AI](meta/pattern-drafts-with-ai.md).
+Then you can paste the result into the issue below, do manual edits as you see fit and submit it.
+
+Below you see a basic template for a new pattern.
+For the full details, see our [pattern template](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md).
 
 ## Title
 
@@ -61,7 +62,7 @@ May mention:
 * A particular business
 * Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
 
-## Status 
+## Status
 
 Initial
 
