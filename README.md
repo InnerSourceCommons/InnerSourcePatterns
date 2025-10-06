@@ -144,7 +144,11 @@ The pattern form is useful for describing proven patterns but it can also be use
 
 ## How to Contribute?
 
-We welcome your contribution - be it small or huge! To learn more about how you can become a contributor, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+We welcome your contribution - be it small or huge!
+
+If you are new here, and just want to play, you can quickly [draft an InnerSource Pattern with AI](meta/pattern-drafts-with-ai.md).
+
+To learn more about how to contribute, refer to our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## Licensing
 
