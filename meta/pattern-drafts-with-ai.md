@@ -24,10 +24,10 @@ https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern
 Further instructions:
 - Each headline in the template starts a new section, with a distinct semantic purpose.
 - Therefore the names of the headlines should be kept as they are. The headlines in the final pattern should appear in the same order as in the template.
-- These sections should contain the value "TBD": Known Instances, Author
+- The value of these sections should be "TBD": Known Instances, Author
+- The value of the Status section should be "Initial".
 - These sections should be removed: Acknowledgments
 - The section "Related Patterns" should contain markdown links to relevant patterns from https://patterns.innersourcecommons.org, including an explanation of how these patterns relate to this new pattern.
-- The value of the Status section should be "Initial".
 - The word "(optional)" should be removed from the headlines.
 
 This is the concept that I want to explain in the pattern:
