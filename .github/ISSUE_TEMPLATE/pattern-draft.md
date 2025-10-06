@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 This is the most basic template for a new pattern.
-See our full pattern syntax [here](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md).
+Here you find the full [pattern template](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md).
 
 If you don't know how to get started, try to [draft an InnerSource Pattern with AI](meta/pattern-drafts-with-ai.md).
 
