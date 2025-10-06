@@ -4,9 +4,10 @@ Short Title Here
 
 ## Patlet
 
-Concise 1-2 sentence description of the problem and solution.
-Readers may quickly review dozens of these patlets to discover and browse the larger library of patterns.
-From http://wiki.c2.com/?PatLet
+Concise 2 sentence description of the problem and solution.
+The 1st sentence describes the problem. The 2nd sentence describes the solution.
+Readers may quickly review dozens of these patlets (aka summaries) to discover and browse the larger library of patterns.
+From [http://wiki.c2.com/?PatLet](http://wiki.c2.com/?PatLet).
 
 ## Problem
 
