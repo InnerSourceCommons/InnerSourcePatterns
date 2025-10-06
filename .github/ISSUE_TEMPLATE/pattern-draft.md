@@ -19,7 +19,8 @@ Short Title Here
 
 ## Patlet / Summary
 
-Concise 1-2 sentence description of the problem and solution.
+Concise 2 sentence description of the problem and solution.
+The 1st sentence describes the problem. The 2nd sentence describes the solution.
 
 ## Problem
 
