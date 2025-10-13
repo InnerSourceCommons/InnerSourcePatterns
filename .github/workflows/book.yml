@@ -33,7 +33,7 @@ jobs:
         echo "Generated book for: ${{ matrix.language }}" >> $GITHUB_STEP_SUMMARY
 
     - name: Commit updated toc.md for the book
-      uses: stefanzweifel/git-auto-commit-action@v6
+      uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Writing updated toc.md for the ${{ matrix.language }} book
         branch: ${{ github.head_ref }}
