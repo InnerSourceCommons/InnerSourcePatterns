@@ -7,7 +7,8 @@ For this working group to thrive, we welcome your contribution - be it small or 
 ## How to Contribute?
 
 Please consider contributing to the InnerSource Patterns.
-Here some suggestions on how you can contribute.
+
+*Here are some suggestions on how you can contribute.*
 
 1. **Share your thoughts & spark discussion**: A fresh perspective, an interesting thought, or an early novel idea can spark discussions and yield unforeseeable results. We invite you to share your thoughts on InnerSource-related topics at any time by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new) or [via Slack](#how-to-get-in-touch).
 
@@ -21,7 +22,9 @@ Here some suggestions on how you can contribute.
 
 6. **Contribute a new pattern**: A key contribution you can make is to document an InnerSource best practice you experienced or know about. We defined different maturity levels for the contents in this repository: First time contributors should aim for maturity levels `1: initial` (for unstructured experience reports or what we call donuts - patterns with missing pieces) and `2: structured` (for best practices adhering to the patterns format and following basic writing style conventions). Our [Contributor Handbook](meta/contributor-handbook.md) discusses all this in more detail. You don't feel ready yet to contribute a new pattern? Please start a discussion by [creating an issue](https://github.com/InnerSourceCommons/InnerSourcePatterns/issues/new).
 
+8. **Draft a Pattern with AI:** Use the [Drafting InnerSource Pattern with AI](/meta/pattern-drafts-with-ai.md) instructions to quickly produce content for a new pattern.
 7. **Be a patterns advocate**: The patterns will become better and cover more topics the more people contribute their perspective and experience. A colleague told you about a novel InnerSource best practice? Please invite her/him to contribute to this repository!
+
 
 ## How to get in touch?
 
