@@ -9,7 +9,7 @@ Usual precaution should apply, as always with AI ;)
 - Add a description of the **problem** you are looking to solve, as well as the intended **solution** (if you already have one in mind).
 - Let AI do its magic.
 - Then populate the missing sections and adapt the pattern manually as you see fit.
-- Finally, submit your work as a pull request to our repo.
+- Finally, submit your work as a pull request to our repo. For more details on contributing, see our [Contributing Guide](../CONTRIBUTING.md).
 
 You might also want to instruct the AI to return the answer as a markdown file, that you can more easily copy and paste into a GitHub Pull Request.
 
