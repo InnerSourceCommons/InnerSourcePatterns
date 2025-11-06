@@ -26,7 +26,6 @@ Please consider contributing to the InnerSource Patterns.
 
 8. **Be a patterns advocate**: The patterns will become better and cover more topics the more people contribute their perspective and experience. A colleague told you about a novel InnerSource best practice? Please invite her/him to contribute to this repository!
 
-
 ## How to get in touch?
 
 We are happy to support you in contributing to the InnerSource patterns or to just chat with you.
