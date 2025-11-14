@@ -56,7 +56,7 @@ The license simplifies the conversations within our organization about sharing s
 - **Airbus**
 - **GovTech (Singapore Government)**
 - **Siemens** has developed their own InnerSource license alongside other necessary legal agreements between subsidiaries.
-- **Mercedes**
+- **Mercedes-Benz**
 
 ### DB Systel
 
