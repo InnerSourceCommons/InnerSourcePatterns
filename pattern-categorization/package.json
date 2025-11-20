@@ -4,8 +4,8 @@
   "description": "Generate mindmap of the patterns in our book, using markmap.",
   "dependencies": {
     "markmap-cli": ">=0.18.12",
-    "pageres-cli": "^9.0.0",
-    "optipng-bin": "^9.0.0"
+    "optipng-bin": "^9.0.0",
+    "pageres-cli": "^9.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

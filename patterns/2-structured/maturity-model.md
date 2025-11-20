@@ -213,6 +213,7 @@ long term.
 * **Zylk**
 * **Bitergia**
 * **Airbus**
+* **Adyen**
 
 ## Authors
 

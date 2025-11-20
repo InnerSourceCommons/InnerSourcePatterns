@@ -125,6 +125,7 @@ All Trusted Committers of a project are published.
 * **GitHub**
 * **Robert Bosch GmbH**
 * **Siemens'** InnerSource strategy is built upon the guiding principles of Documentation, Workflow, Transparency, Continuous Integration and Culture which are detailed in their InnerSource portal.
+* **Mercedes-Benz**
 * **SAP** - The [SAP Open Source Manifesto](https://github.com/SAP/open-source-manifesto) mentions principles that SAP follows that related both to Open Source and InnerSource
 
 ### Europace AG
@@ -198,6 +199,10 @@ To that end, Bosch applied the following principles:
 The principles _Openness_, _Transparency_ and _Voluntariness_ helped grow diverse communities of intrinsically motivated associates.
 _Meritocracy_ has proven to be an effective motivation for making great contributions.
 _Self-Determination_ allowed the communities to use their limited time for contributions in the most effective and efficient way.
+
+### Mercedes-Benz
+
+Mercedes-Benz highlights the principles that they hold themselves accountable to in their [Mercedes-Benz AG - FOSS Manifesto](https://opensource.mercedes-benz.com/manifesto/). They differentiate between company principles and employee principles, which adds higher granularity. Further they combine both Open Source and InnerSource in the same manifesto, highlighting how both follow the same ideals.
 
 ## Status
 
