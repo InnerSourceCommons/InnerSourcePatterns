@@ -126,6 +126,7 @@ All Trusted Committers of a project are published.
 * **Robert Bosch GmbH**
 * **Siemens'** InnerSource strategy is built upon the guiding principles of Documentation, Workflow, Transparency, Continuous Integration and Culture which are detailed in their InnerSource portal.
 * **Mercedes-Benz**
+* **SAP** - The [SAP Open Source Manifesto](https://github.com/SAP/open-source-manifesto) mentions principles that SAP follows that related both to Open Source and InnerSource
 
 ### Europace AG
 
