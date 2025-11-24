@@ -13,7 +13,7 @@ jobs:
   all-patterns-listed:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Check if all patterns are listed in README.md
         run: |
