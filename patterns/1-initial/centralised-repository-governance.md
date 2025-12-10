@@ -1,16 +1,18 @@
-# **Centralised Repository Governance**
+## Title
 
-## **Patlet**
+Centralised Repository Governance
 
-It’s easy for repository settings to drift when many teams manage their own projects. A central governance repository, backed by automated nightly audits, helps keep everything aligned with the organisation’s engineering standards while allowing teams to work freely.
+## Patlet
+
+It's easy for repository settings to drift when many teams manage their own projects. A central governance repository, backed by automated nightly audits, helps keep everything aligned with the organisation's engineering standards while allowing teams to work freely.
 
 
-## **Problem**
+## Problem
 
 As organisations grow, each team naturally sets up repositories in their own way. Over time, these settings begin to diverge:
 
 * branch protection disappears or becomes inconsistent,
-* workflow permissions expand beyond what’s allowed,
+* workflow permissions expand beyond what's allowed,
 * CODEOWNERS files go missing,
 * admin bypass quietly slips in,
 * and new repositories start life without any safeguards at all.
@@ -18,21 +20,23 @@ As organisations grow, each team naturally sets up repositories in their own way
 No one notices immediately, and no one does it on purpose. It just... happens.
 Manual audits are slow and rarely complete. Before long, the organisation has dozens of small risks scattered everywhere, hidden in plain sight.
 
-## **Story**
+## Story
 
 A platform team in a large engineering organisation realised something worrying: every few weeks, a production incident or security concern could be traced back to a simple repository misconfiguration. Nothing dramatic—just things like a missing review requirement or an overly generous GitHub Actions permission.
 
-People weren’t careless; they were busy. They moved fast, created new repos, copied old workflows, and tweaked settings when needed. Over time, these changes compounded into a patchwork of configurations.
+People weren't careless; they were busy. They moved fast, created new repos, copied old workflows, and tweaked settings when needed. Over time, these changes compounded into a patchwork of configurations.
 
-Instead of telling every team to “be more careful”, the platform team built a small governance repository. It held a clear, versioned baseline of expected repo settings, and each night a GitHub Action scanned every repository, comparing it with the baseline.
+Instead of telling every team to "be more careful", the platform team built a small governance repository. It held a clear, versioned baseline of expected repo settings, and each night a GitHub Action scanned every repository, comparing it with the baseline.
 
 The next morning, teams received a calm, simple report:
-**Here’s what changed. Here’s where drift happened. Here’s how to fix it.**
+* Here's what changed. 
+* Here's where drift happened. 
+* Here's how to fix it.
 
 Within a month, the number of incidents dropped, standards became consistent, and onboarding new repos felt effortless.
-The best part? No one’s workflow was interrupted. The whole system quietly supported good engineering hygiene in the background.
+The best part? No one's workflow was interrupted. The whole system quietly supported good engineering hygiene in the background.
 
-## **Context**
+## Context
 
 * Many repositories exist across multiple teams.
 * Teams have the freedom to configure their own repos.
@@ -40,7 +44,7 @@ The best part? No one’s workflow was interrupted. The whole system quietly sup
 * Visibility across all repos is limited.
 * GitHub Actions or similar tooling is available for automation.
 
-## **Forces**
+## Forces
 
 * **Autonomy vs alignment:** Teams need freedom to build, but consistent safeguards matter.
 * **Scale:** Manual reviews fail once repository numbers grow.
@@ -48,7 +52,7 @@ The best part? No one’s workflow was interrupted. The whole system quietly sup
 * **Low friction:** Governance should guide, not block.
 * **Early warning:** Small mistakes should surface before they turn into costly incidents.
 
-## **Solution**
+## Solutions
 
 Create a **central governance repository** that stores baseline policies as code and runs a scheduled audit—usually nightly—to compare real repository configurations against the baseline.
 
@@ -77,7 +81,7 @@ require_signed_commits: true
 enforce_admins: true
 ```
 
-These files become the shared, reviewable definition of “how we configure repositories here”.
+These files become the shared, reviewable definition of "how we configure repositories here".
 
 ### **2. Audit Engine**
 
@@ -122,7 +126,7 @@ It collects findings, creates a summary report, and optionally:
 * No blocking behaviour
 * Clear, actionable reporting
 
-## **Resulting Context**
+## Resulting Context
 
 * Repository settings become more consistent and predictable.
 * Drift is found early rather than after an incident.
@@ -131,7 +135,7 @@ It collects findings, creates a summary report, and optionally:
 * New repositories inherit standards from day one.
 * Leadership gains confidence in organisational hygiene without micromanagement.
 
-## **Use This Pattern When**
+## Use This Pattern When
 
 * You have many repositories owned by different teams.
 * You want reliable, repeatable engineering safeguards.
@@ -139,26 +143,29 @@ It collects findings, creates a summary report, and optionally:
 * You want policies to be version-controlled and adaptable.
 * You want to reduce manual audit work and platform overhead.
 
-## **Don’t Use This Pattern When**
+## Do Not Use This Pattern When
 
 * Only a few repositories exist and manual checks are enough.
 * You need hard, immediate enforcement at merge time.
 * Baseline policies change too frequently to maintain.
 * A GitHub App or read-access token cannot be used.
-* Most teams require unique repo configurations that don’t fit a shared baseline.
+* Most teams require unique repo configurations that don't fit a shared baseline.
 
-
-## **Known Instances**
+## Known Instances
 
 * Large technology organisations using GitHub Enterprise.
 * Platform teams responsible for organisational governance and lifecycle tooling.
 * Engineering groups moving towards policy-as-code and automation.
 
-## **Authors**
+## Status
+
+* Initial
+
+## Author(s)
 
 [Amburi Roy](https://www.linkedin.com/in/amburi/)
 
-## **Related Patterns**
+## Related Patterns
 
 * **Automated Testing** — shared automated checks for quality.
 * **InnerSource Product Owner** — helps with stewardship of the governance repo.
