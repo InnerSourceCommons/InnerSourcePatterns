@@ -2,48 +2,62 @@
 
 ## **Patlet**
 
-Large organisations often struggle to keep repository settings aligned across many teams. Over time, policies such as branch protection, workflow permissions, and commit signing drift away from the intended standard. A central governance repository that runs automated audits can detect this drift early and give teams clear feedback without interrupting their work.
+It’s easy for repository settings to drift when many teams manage their own projects. A central governance repository, backed by automated nightly audits, helps keep everything aligned with the organisation’s engineering standards while allowing teams to work freely.
+
 
 ## **Problem**
 
-When many teams manage their own repositories, settings naturally become inconsistent. Typical issues include:
+As organisations grow, each team naturally sets up repositories in their own way. Over time, these settings begin to diverge:
 
-* missing or weakened branch protection,
-* overly broad workflow permissions,
-* missing or outdated CODEOWNERS files,
-* admin bypass enabled unintentionally,
-* use of risky workflow triggers,
-* or new repositories lacking required protections altogether.
+* branch protection disappears or becomes inconsistent,
+* workflow permissions expand beyond what’s allowed,
+* CODEOWNERS files go missing,
+* admin bypass quietly slips in,
+* and new repositories start life without any safeguards at all.
 
-Manual checking does not scale. Teams focus on delivery, not on remembering organisation-wide rules. As a result, gaps grow slowly and silently, increasing both security exposure and operational risk.
+No one notices immediately, and no one does it on purpose. It just... happens.
+Manual audits are slow and rarely complete. Before long, the organisation has dozens of small risks scattered everywhere, hidden in plain sight.
+
+## **Story**
+
+A platform team in a large engineering organisation realised something worrying: every few weeks, a production incident or security concern could be traced back to a simple repository misconfiguration. Nothing dramatic—just things like a missing review requirement or an overly generous GitHub Actions permission.
+
+People weren’t careless; they were busy. They moved fast, created new repos, copied old workflows, and tweaked settings when needed. Over time, these changes compounded into a patchwork of configurations.
+
+Instead of telling every team to “be more careful”, the platform team built a small governance repository. It held a clear, versioned baseline of expected repo settings, and each night a GitHub Action scanned every repository, comparing it with the baseline.
+
+The next morning, teams received a calm, simple report:
+**Here’s what changed. Here’s where drift happened. Here’s how to fix it.**
+
+Within a month, the number of incidents dropped, standards became consistent, and onboarding new repos felt effortless.
+The best part? No one’s workflow was interrupted. The whole system quietly supported good engineering hygiene in the background.
 
 ## **Context**
 
-* The organisation hosts many repositories on GitHub.
-* Teams have autonomy to create and configure their own repos.
-* Leadership expects predictable engineering safeguards.
-* There is no simple way to see where configuration drift has occurred.
-* Automation is accepted and available through GitHub Actions.
+* Many repositories exist across multiple teams.
+* Teams have the freedom to configure their own repos.
+* Engineering or security leadership expects a shared baseline.
+* Visibility across all repos is limited.
+* GitHub Actions or similar tooling is available for automation.
 
 ## **Forces**
 
-* **Autonomy vs consistency** — teams should move fast, but common safeguards matter.
-* **Scale** — manual audits fail once repo count grows.
-* **Transparency** — policies should be visible and reviewable.
-* **Low friction** — governance should not slow everyday work.
-* **Early detection** — drift needs to be surfaced before it becomes risky.
+* **Autonomy vs alignment:** Teams need freedom to build, but consistent safeguards matter.
+* **Scale:** Manual reviews fail once repository numbers grow.
+* **Transparency:** Policies should be easy to understand and open to contribution.
+* **Low friction:** Governance should guide, not block.
+* **Early warning:** Small mistakes should surface before they turn into costly incidents.
 
 ## **Solution**
 
-Create a dedicated “Governance Repository” that stores the organisation’s baseline policies as code and contains an audit engine that checks all repositories on a set schedule, such as nightly. The audit compares each repository’s real configuration to the baseline and reports any drift.
+Create a **central governance repository** that stores baseline policies as code and runs a scheduled audit—usually nightly—to compare real repository configurations against the baseline.
 
-The governance repository includes three main components:
+The repository contains three essential parts.
 
 ### **1. Policy-as-Code**
 
-Store expected settings in version-controlled files under `policies/`.
-
-**Example structure:**
+Store baseline expectations under a `policies/` directory.
+This might include:
 
 ```
 policies/
@@ -54,157 +68,99 @@ policies/
   tag_protection.yml
 ```
 
-**Example baseline rule:**
+**Example baseline (branch_protection.yml):**
 
 ```yaml
 required_pull_request_reviews:
   required_approving_review_count: 1
-enforce_admins: true
 require_signed_commits: true
-dismiss_stale_reviews: true
+enforce_admins: true
 ```
 
-These files form a clear, shared baseline for all teams.
+These files become the shared, reviewable definition of “how we configure repositories here”.
 
 ### **2. Audit Engine**
 
-A script (written in Python, Node, or Go) loops through all organisation repositories using the GitHub API, retrieves their configuration, and compares it to the baseline.
+An audit script (Python, Node, or Go) uses the GitHub API to inspect every repository and compare its configuration to the baseline.
 
-**Python example (simplified):**
+**Example behaviour:**
 
-```python
-from github import Github
-import yaml, os
+* Check branch and tag protection
+* Validate CODEOWNERS
+* Examine workflow permissions (including nested job/step scopes)
+* Detect risky triggers (`pull_request_target`)
+* Identify admin bypass or unapproved overrides
 
-gh = Github(os.environ["GITHUB_TOKEN"])
-org = gh.get_organization("my-org")
-
-baseline = yaml.safe_load(open("policies/branch_protection.yml"))
-
-for repo in org.get_repos():
-    rules = repo.get_branch("main").get_protection()
-    if rules.required_pull_request_reviews is None:
-        findings.append(f"{repo.name}: Missing PR review rule")
-```
-
-Checks may include:
-
-* branch protection
-* tag protection
-* CODEOWNERS consistency
-* required reviews and approvers
-* commit signing rules
-* workflow permissions (including nested job/step scopes)
-* risky triggers such as `pull_request_target`
-* ruleset and bypass drift
-
-**Workflow trigger example:**
+**Simplified Python example:**
 
 ```python
-if "pull_request_target" in workflow_yaml["on"]:
+if "pull_request_target" in workflow_yaml.get("on", {}):
     findings.append(f"{repo.name}: Uses pull_request_target")
 ```
 
-### **3. Scheduled Audit (GitHub Actions)**
+When differences appear, the engine records them as drift.
 
-A workflow in the governance repo runs the audit regularly.
+### **3. Nightly Audit Workflow**
 
-**Example `.github/workflows/audit.yml`:**
+A GitHub Actions workflow runs the audit automatically.
 
 ```yaml
-name: Nightly Audit
-
 on:
   schedule:
     - cron: "0 2 * * *"
-  workflow_dispatch:
-
-jobs:
-  audit:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      actions: read
-    steps:
-      - uses: actions/checkout@v4
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Run audit
-        env:
-          GITHUB_TOKEN: ${{ secrets.GOVERNANCE_TOKEN }}
-        run: python audit/runner.py
-      - name: Store report
-        uses: actions/upload-artifact@v4
-        with:
-          name: nightly-report
-          path: reports/latest.json
 ```
 
-The token should be a GitHub App or PAT with read-only org access.
+It collects findings, creates a summary report, and optionally:
 
-### **4. Reporting**
+* posts to Slack,
+* opens GitHub Issues on non-compliant repositories, or
+* creates PRs to apply straightforward fixes.
 
-Results are summarised in a consolidated report. Teams may be notified through:
+**Key principles:**
 
-* a Slack message,
-* a Markdown summary stored in the governance repo,
-* GitHub Issues created on affected repositories,
-* or optional PRs that apply simple fixes.
-
-**Example GitHub Issue:**
-
-```
-Title: Repository policy drift detected
-
-Your repository does not match the organisation’s baseline.
-
-Findings:
-- Missing CODEOWNERS file
-- Workflow grants overly broad write permissions
-- Signed commits not enforced
-
-Please review and update the configuration.
-```
+* Read-only access
+* No blocking behaviour
+* Clear, actionable reporting
 
 ## **Resulting Context**
 
-* Repository settings stabilise over time, reducing risk.
-* Drift becomes visible early and is easy to address.
-* Teams keep their autonomy while receiving clear, automated feedback.
-* Policy changes flow through normal code review and remain transparent.
-* New repositories inherit governance automatically.
-* Leadership gains an accurate daily snapshot of organisational configuration health.
+* Repository settings become more consistent and predictable.
+* Drift is found early rather than after an incident.
+* Teams stay autonomous while receiving helpful guidance.
+* Policies remain transparent and open to discussion.
+* New repositories inherit standards from day one.
+* Leadership gains confidence in organisational hygiene without micromanagement.
 
 ## **Use This Pattern When**
 
-* You have many repositories maintained by different teams.
-* You want consistent engineering safeguards across the organisation.
-* You need early visibility into risky configuration changes.
-* You prefer light-touch governance rather than strict enforcement.
-* You want policies to be explicit, reviewable, and version-controlled.
-* You want to reduce manual auditing work.
+* You have many repositories owned by different teams.
+* You want reliable, repeatable engineering safeguards.
+* You prefer guidance rather than strict enforcement.
+* You want policies to be version-controlled and adaptable.
+* You want to reduce manual audit work and platform overhead.
 
 ## **Don’t Use This Pattern When**
 
-* Your organisation has only a few repositories and manual checks are easier.
-* You need strict enforcement at merge time rather than advisory feedback.
-* Your baseline policies change frequently and are not yet stable.
-* You cannot grant a GitHub App or token read access across the organisation.
-* Many repositories require unique settings, making a single baseline impractical.
-* Your organisation is not ready to adopt policy-as-code.
+* Only a few repositories exist and manual checks are enough.
+* You need hard, immediate enforcement at merge time.
+* Baseline policies change too frequently to maintain.
+* A GitHub App or read-access token cannot be used.
+* Most teams require unique repo configurations that don’t fit a shared baseline.
+
+
+## **Known Instances**
+
+* Large technology organisations using GitHub Enterprise.
+* Platform teams responsible for organisational governance and lifecycle tooling.
+* Engineering groups moving towards policy-as-code and automation.
 
 ## **Authors**
 
 [Amburi Roy](https://www.linkedin.com/in/amburi/)
 
-## **Alias**
-
-Governance-as-Code Audit Repository
-
 ## **Related Patterns**
 
 * **Automated Testing** — shared automated checks for quality.
-* **InnerSource Product Owner** — defines ownership of the governance repo.
-* **Trusted Committers** — supports safe changes to shared policy.
-* **InnerSource Portal** — complements centralising organisational knowledge.
-
+* **InnerSource Product Owner** — helps with stewardship of the governance repo.
+* **Trusted Committers** — supports safe and consistent policy changes.
+* **InnerSource Portal** — complements central access to shared organisational knowledge.
