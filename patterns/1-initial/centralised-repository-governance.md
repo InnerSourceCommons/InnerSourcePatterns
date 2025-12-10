@@ -58,7 +58,7 @@ Create a **central governance repository** that stores baseline policies as code
 
 The repository contains three essential parts.
 
-### **1. Policy-as-Code**
+### 1. Policy-as-Code
 
 Store baseline expectations under a `policies/` directory.
 This might include:
@@ -83,7 +83,7 @@ enforce_admins: true
 
 These files become the shared, reviewable definition of "how we configure repositories here".
 
-### **2. Audit Engine**
+### 2. Audit Engine
 
 An audit script (Python, Node, or Go) uses the GitHub API to inspect every repository and compare its configuration to the baseline.
 
@@ -104,7 +104,7 @@ if "pull_request_target" in workflow_yaml.get("on", {}):
 
 When differences appear, the engine records them as drift.
 
-### **3. Nightly Audit Workflow**
+### 3. Nightly Audit Workflow
 
 A GitHub Actions workflow runs the audit automatically.
 
