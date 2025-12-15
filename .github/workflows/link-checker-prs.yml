@@ -29,7 +29,7 @@ jobs:
           echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
 
       - name: Restore lychee cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .lycheecache
           key: cache-lychee-${{ github.sha }}
