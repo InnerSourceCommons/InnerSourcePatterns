@@ -3,6 +3,9 @@
 # markdownlint -r config/lint/pattern-template.js -c config/lint/pattern-template.yml patterns/2-structured/*.md patterns/3-validated/*.md
 name: Pattern Syntax Validation
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
