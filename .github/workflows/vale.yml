@@ -1,4 +1,6 @@
 name: Spelling & Styles
+permissions:
+  contents: read
 
 on:
   push:
