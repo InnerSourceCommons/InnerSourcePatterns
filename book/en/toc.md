@@ -45,6 +45,37 @@ Instead edit toc_template.md
 * [Transparent Cross-Team Decision Making using RFCs](../../patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md) - InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory systems throughout the full software lifecycle. Publishing internal Requests for Comments (RFCs) documents allows for discussions early on in the design process, and increases the chances to build solutions with a high degree of commitment from all involved parties.
 * [Trusted Committer](../../patterns/2-structured/trusted-committer.md) - Many InnerSource projects will find themselves in a situation where they consistently receive feedback, features, and bug-fixes from contributors. In these situations, project maintainers seek ways to recognize and reward the work of the contributor above and beyond single contributions.
 
+## Adopters <a id=""></a>
+
+* [Adopters](../../adopters/README.md)
+  * [Airbus](../../adopters/airbus.md)
+  * [American Airlines](../../adopters/american-airlines.md)
+  * [Analog Devices](../../adopters/analog-devices.md)
+  * [BBC](../../adopters/bbc.md)
+  * [BBVA AI Factory](../../adopters/bbva-ai-factory.md)
+  * [Banco Santander](../../adopters/banco-santander.md)
+  * [Bitergia](../../adopters/bitergia.md)
+  * [Bosch](../../adopters/bosch.md)
+  * [Comcast](../../adopters/comcast.md)
+  * [DAZN](../../adopters/dazn.md)
+  * [DB Systel](../../adopters/db-systel.md)
+  * [Elbit Systems](../../adopters/elbit-systems.md)
+  * [Entelgy](../../adopters/entelgy.md)
+  * [Europace](../../adopters/europace.md)
+  * [Flutter Entertainment](../../adopters/flutter-entertainment.md)
+  * [GitHub](../../adopters/github.md)
+  * [Google](../../adopters/google.md)
+  * [IBM](../../adopters/ibm.md)
+  * [Mercado Libre](../../adopters/mercado-libre.md)
+  * [Mercedes-Benz](../../adopters/mercedes-benz.md)
+  * [Microsoft](../../adopters/microsoft.md)
+  * [Nike](../../adopters/nike.md)
+  * [PayPal](../../adopters/paypal.md)
+  * [SAP](../../adopters/sap.md)
+  * [Uber](../../adopters/uber.md)
+  * [WellSky](../../adopters/wellsky.md)
+  * [Zylk](../../adopters/zylk.md)
+
 ## Appendix
 
 * [Pattern Template](../../meta/pattern-template.md)
