@@ -4,6 +4,9 @@
 # - add the flag and language name that you want to use at the beginning of the #check-consistency step
 # -------------------------
 name: i18n Consistency Check
+permissions:
+  contents: read
+  issues: write
 
 on:
   schedule:
