@@ -55,6 +55,8 @@ The license simplifies the conversations within our organization about sharing s
 - **Robert Bosch GmbH**
 - **Airbus**
 - **GovTech (Singapore Government)**
+- **Siemens** has developed their own InnerSource license alongside other necessary legal agreements between subsidiaries.
+- **Mercedes-Benz**
 
 ### DB Systel
 
@@ -107,5 +109,5 @@ For more details see the InnerSource Commons Community call from 09/2023 [Improv
 - **organization** - An umbrella for multiple legal entities. (synonyms: group, enterprise) (e.g. Lufthansa)
 - **legal entity** - An entity that has its own legal rights and obligations (synonyms: company, subsidiary) (e.g. Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)
 
-[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
+[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/tree/master/inner-source-license
 [eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12

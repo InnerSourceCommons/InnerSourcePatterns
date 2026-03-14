@@ -9,7 +9,7 @@ A dedicated list of resources (best practices, recommended patterns, target matu
 
 ## Problem
 
-A team has decided that they want to publish an InnerSource project. They are trying to decide on a [Governance Level](../1-initial/governance-levels.md) for their project. However lacking practical experience, they need further guidance on the impact each of the levels will have on their daily doing.
+A team has decided that they want to publish an InnerSource project. They are trying to decide on a [Governance Level](../2-structured/governance-levels.md) for their project. However lacking practical experience, they need further guidance on the impact each of the levels will have on their daily doing.
 
 ## Context
 

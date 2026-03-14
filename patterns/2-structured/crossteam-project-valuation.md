@@ -92,7 +92,7 @@ They will provide a head-and-shoulders improvement in on-the-ground results over
 
 ## Known Instances
 
-* Nike
+* **Nike**
 
 ## Status
 

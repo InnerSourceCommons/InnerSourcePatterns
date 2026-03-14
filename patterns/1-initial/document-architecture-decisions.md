@@ -71,7 +71,7 @@ Important elements of the solution are:
   - How to collect feedback effectively on the ADR/TDR from diverse stakeholders, ensuring a broad range of input.
   - How to incorporate the feedback and adjust the ADR/TDR as needed.
   - How to move the ADR/TDR towards a conclusion or final decision (e.g., with sign-off from relevant maintainers or decision-makers).
-  - The use of appropriate tools, considering that non-technical stakeholders may not have direct access to source control or specialized software. Publish the decsions to a website or wiki.
+  - The use of appropriate tools, considering that non-technical stakeholders may not have direct access to source control or specialized software. Publish the decisions to a website or wiki.
 - **A commitment to iterating on the ADR/TDR templates and process**:
   - Regularly refining the ADR/TDR templates and associated processes based on feedback and the evolving needs of the organization.
 
@@ -180,7 +180,7 @@ The ADR/TDR approach also carries risks that a team want to acknowledge:
 
 ## Rationale
 
-InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory format for all system components, tools and workflows. Michael Nygard announced 2011 the idea to document architecture decision with a simple markdown template and shared it with a simple git project. Today this **ADR tool** is well proven and a many of teams around the globe use **Architecture Desicion Records (ADRs)** to document there design desicions.
+InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory format for all system components, tools and workflows. Michael Nygard announced 2011 the idea to document architecture decision with a simple markdown template and shared it with a simple git project. Today this **ADR tool** is well proven and a many of teams around the globe use **Architecture Decision Records (ADRs)** to document there design decisions.
 
 Another important aspect of defining architectural decisions is documenting consequences. In Technical Debt Records, Dr. Michael Stal explores the systematic tracking and management of technical debt in software development using **Technical Debt Records (TDRs)**. Similar to how Architecture Design Records (ADRs) capture architectural decisions, TDRs document trade-offs in code quality made to accelerate delivery. The TDRs provides a detailed template for documenting technical debt, and Christoph Kappel  introduces a record tool to streamline the process of ADRs and TDRs.
 

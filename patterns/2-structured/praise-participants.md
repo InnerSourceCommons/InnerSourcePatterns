@@ -71,8 +71,9 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 
 ## Known Instances
 
-* Nike (multiple projects)
-* SAP - InnerSource initiatives like the Dojo and Everest projects are elevated by the 'Praise Participants' pattern, where the SAP Appreciate program plays a key role in fostering a culture of gratitude and recognition, driving innovation and collaboration to new heights. See: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
+* **Nike** (multiple projects)
+* **SAP** - InnerSource initiatives like the Dojo and Everest projects are elevated by the 'Praise Participants' pattern, where the SAP Appreciate program plays a key role in fostering a culture of gratitude and recognition, driving innovation and collaboration to new heights. See: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
+* **Siemens** awards successful InnerSource projects and contributors at their yearly internal InnerSource Summit.
 
 ## Status
 

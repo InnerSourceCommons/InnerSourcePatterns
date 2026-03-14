@@ -128,11 +128,12 @@ started right away: [README-template.md](templates/README-template.md),
 
 ## Known Instances
 
-* Europace AG - See blog post [InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
-* Paypal Inc.
-* Mercado Libre - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBUTING, CODING_GUIDELINES, etc).
-* Analog Devices Inc.
-* Airbus
+* **Europace AG** - See blog post [InnerSource: Adding base documentation](https://tech.europace.de/post/innersource-base-documentation/)
+* **Paypal Inc.**
+* **Mercado Libre** - create a documentation site that contains how to get started with InnerSource and also define the basic artifacts that a repository must have to be InnerSource (README, CONTRIBUTING, CODING_GUIDELINES, etc).
+* **Analog Devices Inc.**
+* **Airbus**
+* **Siemens** automatically creates a checklist issue for every new InnerSource project to make maintainers aware of mandatory requirements (e.g. business approval, license & copyright, export control, contributing guidelines, maintainer maturity) as well as best practices (e.g. documentation as code, semantic versioning, continuous integration/deployment).
 
 ## Authors
 

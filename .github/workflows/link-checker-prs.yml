@@ -15,13 +15,13 @@ jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v45
+        uses: tj-actions/changed-files@v47
 
       - name: Filter markdown files only
         run: |
@@ -29,7 +29,7 @@ jobs:
           echo "MARKDOWN_FILES=$md_files" >> $GITHUB_ENV
 
       - name: Restore lychee cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .lycheecache
           key: cache-lychee-${{ github.sha }}
@@ -41,6 +41,7 @@ jobs:
         with:
           args: --verbose --no-progress --cache --max-cache-age 1d $MARKDOWN_FILES
           fail: true
+          failIfEmpty: false
           jobSummary: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
