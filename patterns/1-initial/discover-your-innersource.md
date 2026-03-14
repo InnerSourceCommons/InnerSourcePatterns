@@ -73,7 +73,7 @@ Make it easy to find the reusable code.
 
 ## Status
 
-* Structured
+* Initial
 
 ## Authors
 
