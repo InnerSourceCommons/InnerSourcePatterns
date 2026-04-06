@@ -8,6 +8,10 @@
 
 ##### [Start as an Experiment](https://patterns.innersourcecommons.org/p/start-as-experiment)
 
+#### Engineers lack time and safe space to try InnerSource
+
+##### [InnerSource Hackathon](https://patterns.innersourcecommons.org/p/innersource-hackathon)
+
 #### Slow community growth hinders InnerSource
 
 ##### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
