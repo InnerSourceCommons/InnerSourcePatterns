@@ -116,4 +116,4 @@ All these help scale InnerSource in the organization.
 
 ## Acknowledgments
 
-* Tren Baumgarten and Caroline Jones (The Aerospace Corporation) for sharing their experience at the InnerSource Commons Summit.
+* Trin Baumgarten and Caroline T Jones (The Aerospace Corporation) for [sharing their experience](https://www.youtube.com/watch?v=J5KeCHFbnWA) at the InnerSource Commons Summit.
