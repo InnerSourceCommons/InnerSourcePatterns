@@ -110,7 +110,7 @@ All these help scale InnerSource in the organization.
 
 * Structured
 
-## Author(s)
+## Author
 
 * Shanmugapriya Manoharan
 
