@@ -12,6 +12,10 @@
 
 ##### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 
+#### Engineers lack time and safe space to try InnerSource
+
+##### [InnerSource Hackathon](https://patterns.innersourcecommons.org/p/innersource-hackathon)
+
 #### InnerSource principles are not intuitive for everybody
 
 ##### [Document your Guiding Principles](https://patterns.innersourcecommons.org/p/document-your-guiding-principles)

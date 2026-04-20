@@ -22,7 +22,7 @@ Now the next step is to drive it across the company. There might be reluctance f
 * reluctance to changing ways of working when everything works well already
 * unclear return on investment for the upfront setup costs that an InnerSource project takes
 
-Even when teams slowly start adopting InnerSource and open up their repositories, there are not many contributors. It is challenging to build a community around those projects, in spite of publishing the projects in an [InnerSource Portal](../2-structured/innersource-portal.md). This could be due to various reasons like:
+Even when teams slowly start adopting InnerSource and open up their repositories, there are not many contributors. It is challenging to build a community around those projects, in spite of publishing the projects in an [InnerSource Portal](./innersource-portal.md). This could be due to various reasons like:
 
 * engineers do not have time to explore new InnerSource projects and contribute, outside regular work deliverables
 * no additional incentive to this effort apart from being acknowledged
@@ -77,7 +77,7 @@ A typical event day includes:
 3. **Closing**: Thank participants, share early results, and distribute a closing survey to capture feedback and metrics.
 4. **Follow-up**: Work with participants who did not finish their tasks to close out remaining work. Coordinate with project maintainers to review and merge outstanding pull requests.
 
-The winners and participants should be recognized and acknowledged in a company-wide forum at the end of the hackathon (see [Praise Participants](../2-structured/praise-participants.md)). This is important as it keeps motivating them and more engineers to adopt and practice InnerSource going forward.
+The winners and participants should be recognized and acknowledged in a company-wide forum at the end of the hackathon (see [Praise Participants](./praise-participants.md)). This is important as it keeps motivating them and more engineers to adopt and practice InnerSource going forward.
 
 Such an event provides a safe space for engineers who want to adopt or contribute to InnerSource but did not have the time and motivation to do it, or for those who kept putting it off due to higher priority work deliverables. From a middle management point of view, 1 or 2 days for such an event is not much of an ask and hence they are more likely to accept.
 
@@ -95,11 +95,11 @@ All these help scale InnerSource in the organization.
 
 ## Related Patterns
 
-* [Start as an Experiment](../2-structured/start-as-experiment.md) - a hackathon can serve as a low-risk experiment to demonstrate the value of InnerSource to management.
-* [Praise Participants](../2-structured/praise-participants.md) - recognizing contributors during and after the hackathon helps sustain momentum.
-* [InnerSource Portal](../2-structured/innersource-portal.md) - a portal helps participants discover projects to contribute to during the hackathon, and helps them stay engaged afterward.
-* [Dedicated Community Leader](../2-structured/dedicated-community-leader.md) - the hackathon organizers often serve as community leaders who sustain InnerSource adoption after the event.
-* [Gig Marketplace](../2-structured/gig-marketplace.md) - a gig marketplace can help match participants with tasks during the hackathon based on their skills and interests.
+* [Start as an Experiment](./start-as-experiment.md) - a hackathon can serve as a low-risk experiment to demonstrate the value of InnerSource to management.
+* [Praise Participants](./praise-participants.md) - recognizing contributors during and after the hackathon helps sustain momentum.
+* [InnerSource Portal](./innersource-portal.md) - a portal helps participants discover projects to contribute to during the hackathon, and helps them stay engaged afterward.
+* [Dedicated Community Leader](./dedicated-community-leader.md) - the hackathon organizers often serve as community leaders who sustain InnerSource adoption after the event.
+* [Gig Marketplace](./gig-marketplace.md) - a gig marketplace can help match participants with tasks during the hackathon based on their skills and interests.
 
 ## Known Instances
 
