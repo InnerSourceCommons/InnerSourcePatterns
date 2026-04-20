@@ -12,7 +12,7 @@
 
 ##### [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader)
 
-#### Engineers lack time and safe space to try InnerSource
+#### Engineers lack time and a safe space to try InnerSource
 
 ##### [InnerSource Hackathon](https://patterns.innersourcecommons.org/p/innersource-hackathon)
 
