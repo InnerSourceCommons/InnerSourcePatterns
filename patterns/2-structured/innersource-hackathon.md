@@ -121,5 +121,4 @@ All these help scale InnerSource in the organization.
 
 ## Acknowledgments
 
-* Shanmugapriya Manoharan (IKEA IT AB) for [sharing IKEA's hackathon experience](https://youtu.be/7RWJUKanbqQ) at an InnerSource Commons Community Call, December 2024.
 * Trin Baumgarten and Caroline T Jones (The Aerospace Corporation) for [sharing their experience](https://www.youtube.com/watch?v=J5KeCHFbnWA) at the InnerSource Commons Summit.
