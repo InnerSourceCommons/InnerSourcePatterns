@@ -1,4 +1,4 @@
-# Title
+## Title
 
 Code Consumers
 
@@ -6,7 +6,7 @@ Code Consumers
 
 When a team opens their code for InnerSource reuse, they lose visibility into who is consuming it, making it hard to communicate vulnerabilities, gauge adoption, or retire deprecated components. Lightweight mechanisms such as dependency scanning, voluntary registration, or opt-in mailing lists restore that visibility without adding friction for consumers.
 
-# Problem
+## Problem
 
 There's several reasons why we might want to know who's using (consuming) our code. We can't do the following:
 
@@ -16,18 +16,18 @@ There's several reasons why we might want to know who's using (consuming) our co
 * encourage others to use a project - by showing how many users there already are
 * survey users for feedback
 
-# Context
+## Context
 
 This is a general issue that affects potentially all InnerSource (and open source!) projects.
 The act of opening code allows people to use it without letting you know.
 
-# Forces
+## Forces
 
 * The harder it is to download/integrate the project, the less it will be adopted (forcing people to give information when they use it adds barriers)
 * Not all projects may want you to know what they're using (tightly closed source/top secret downstream project)
 * Putting in callback/call home routines into projects may introduce distrust in downstream projects and users
 
-# Solutions
+## Solutions
 
 The following are potential solutions that have been proposed to this problem:
 
@@ -37,21 +37,21 @@ The following are potential solutions that have been proposed to this problem:
 * Audit code clones/artifact downloads
 * Incentivise/Offer users a mailing list/update stream to which they can subscribe
 
-# Resulting Context
+## Resulting Context
 
 TBD
 
-# Known Instances
+## Known Instances
 
 TBD
 
-# Authors
+## Authors
 
 * Georg Grütter (Robert Bosch GmbH)
 * Raimund Hook (EXFO Inc)
 * Katrina Novakovic (RedHat)
 
-# Status
+## Status
 
 * Initial
 * Drafted at the 2019 Spring InnerSource Commons Summit in Galway - 10 April 2019
