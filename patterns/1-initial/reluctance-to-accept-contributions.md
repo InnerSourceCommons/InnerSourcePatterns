@@ -70,6 +70,8 @@ Klaas-Jan Stol
 
 ## References
 
+Old Patlet: Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them. Summary pattern that lays out four children patterns with three to be defined.
+
 Pattern was first created in the gDoc: [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
 
 (this section can be deleted once the conversion from gDoc to markdown is complete)
