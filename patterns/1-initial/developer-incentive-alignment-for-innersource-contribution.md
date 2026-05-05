@@ -4,7 +4,7 @@ Developer Incentive Alignment for InnerSource Contribution
 
 ## Patlet
 
-TBD
+Developers are not motivated to contribute to InnerSource because organizational incentives reward individual code output over cross-team mentorship and collaboration, leading to siloed work. By embedding InnerSource contribution and mentorship expectations into job descriptions and promotion criteria at each career level, organizations align personal career advancement with InnerSource participation.
 
 ## Problem
 

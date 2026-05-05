@@ -4,7 +4,7 @@ Overcome Acquisition-based Silos (Developer Level)
 
 ## Patlet
 
-TBD
+After a company acquisition, development teams remain siloed due to distrust, unfamiliar tools and processes, and fear of losing identity or job security, preventing the efficient cross-team collaboration InnerSource requires. A neutral governance committee, clear rules for handling code redundancy, generous onboarding, and face-to-face engagement help acquired developers overcome these barriers and begin contributing through InnerSource.
 
 ## Problem
 

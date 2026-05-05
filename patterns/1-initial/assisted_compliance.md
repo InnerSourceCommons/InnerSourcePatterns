@@ -4,7 +4,7 @@ Assisted Compliance
 
 ## Patlet
 
-TBD
+Repo owners resist adding compliance documentation like CONTRIBUTING.md, blocking contributions and slowing InnerSource adoption. A compliance task force breaks the stalemate by writing the missing documentation as a pull request on behalf of the resistant team, framing it as helpful contribution rather than enforcement.
 
 ## Problem
 

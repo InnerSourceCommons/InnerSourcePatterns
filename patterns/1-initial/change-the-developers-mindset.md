@@ -4,7 +4,7 @@ Change the developers mindset
 
 ## Patlet
 
-TBD
+Developers resist adopting InnerSource collaboration practices because they are comfortable with existing hierarchical workflows and middle management does not actively support the change. Combining visible recognition of InnerSource contributions, formalized training, clearer processes, and explicit management objectives creates the conditions needed to shift developer behavior.
 
 ## Problem  
 
