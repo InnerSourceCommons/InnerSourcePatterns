@@ -2,7 +2,7 @@
 
 Explicit Shared Ownership
 
-# Patlet
+## Patlet
 
 A software component that several teams depend on has grown to the point where owners are no longer capable of taking full ownership. There is confusion who to involve for changes. Sharing ownership explicitly and making expected behavior visible removes ambiguity. Writing a contributions document creates a natural way to evolve ownership.
 

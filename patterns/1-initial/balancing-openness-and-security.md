@@ -2,7 +2,7 @@
 
 Balancing Openness and Security
 
-# Patlet
+## Patlet
 
 While InnerSource flourishes in environments with a high degree of shared code, Security/Legal prefers the limitation of source code access to only those that need it.
 By making Security/Legal part of the team, introducing explicit sharing levels and security policies for shared repositories, as well as defining what qualifies as sensitive information, code sharing can be facilitated while minimizing the associated risks.

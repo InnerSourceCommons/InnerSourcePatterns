@@ -2,9 +2,9 @@
 
 Code Consumers
 
-# Patlet
+## Patlet
 
-TBD
+When a team opens their code for InnerSource reuse, they lose visibility into who is consuming it, making it hard to communicate vulnerabilities, gauge adoption, or retire deprecated components. Lightweight mechanisms such as dependency scanning, voluntary registration, or opt-in mailing lists restore that visibility without adding friction for consumers.
 
 # Problem
 

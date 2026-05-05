@@ -4,7 +4,7 @@ Duplicated Projects
 
 ## Patlet
 
-TBD
+After opening codebases through InnerSource, teams discover they have independently built overlapping or identical products, but territorial management and differing technical approaches make consolidation difficult. Establishing a neutral governance process that gives all managers meaningful influence over the merged project makes it possible to consolidate duplicated efforts without losing key stakeholders.
 
 ## Problem
 

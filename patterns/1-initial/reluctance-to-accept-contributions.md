@@ -4,7 +4,7 @@ Reluctance to accept contributions
 
 ## Patlet
 
-TBD
+The team owning a shared InnerSource component is reluctant to accept contributions because doing so means taking on maintenance responsibility for unfamiliar code of uncertain quality. Establishing clear contribution guidelines, a time-limited post-merge support warranty from contributors, and a documented review workflow gives the host team confidence to accept contributions while setting clear expectations for contributors.
 
 ## Problem
 
