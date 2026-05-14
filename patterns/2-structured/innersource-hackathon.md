@@ -122,7 +122,7 @@ Shanmugapriya Manoharan (Engineering Advisor, OSPO, IKEA IT AB) shared this expe
 
 During and shortly after the event, 15 tickets were closed. Notably, one developer used the event to contribute a feature he needed back to an internal library rather than forking it — a direct demonstration of InnerSource solving the "fork storm" problem the company had been experiencing. Two-thirds of participants had never heard of InnerSource before the event, yet 100% of survey respondents agreed that InnerSource would have a positive impact on development and wanted to participate in a future event. Traffic to the company's internal documentation site nearly doubled in the month following the event.
 
-See: [Kickstarting InnerSource with a Contribfest](https://www.youtube.com/watch?v=J5KeCHFbnWA) (InnerSource Commons Summit 2025 talk by Trin Baumgarten and Caroline T Jones).
+See: [Kickstarting InnerSource with a Contribfest](https://www.youtube.com/watch?v=J5KeCHFbnWA) (InnerSource Commons Summit 2025 talk by Trin Baumgarten and Caroline T. Jones).
 
 ## Status
 
@@ -134,4 +134,4 @@ See: [Kickstarting InnerSource with a Contribfest](https://www.youtube.com/watch
 
 ## Acknowledgments
 
-* Trin Baumgarten and Caroline T Jones (The Aerospace Corporation) for [sharing their experience](https://www.youtube.com/watch?v=J5KeCHFbnWA) at the InnerSource Commons Summit.
+* Trin Baumgarten and Caroline T. Jones (The Aerospace Corporation) for [sharing their experience](https://www.youtube.com/watch?v=J5KeCHFbnWA) at the InnerSource Commons Summit.
