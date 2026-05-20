@@ -76,6 +76,7 @@ Here some examples from the commercial domain, academia and open source:
 - **[WellSky](https://wellsky.com/)** has the analogous concept of InnerSource Champions representing each business area of the company.
 - **Siemens** has 70 Social Coding Ambassadors from across subsidiaries and countries that promote the Open and InnerSource mindset across the company.
 - **Robert Bosch GmbH** has the analogous concept of *Social Coding Advocates*.
+- **Thales Group** calls these representatives "Community Leaders." Each Community Leader owns an InnerSource community within their business unit and meets quarterly with the Thales ISPO in a "Steering Board" session to surface blockers and emerging needs from the field. The ISPO carries these inputs to the executive sponsorship board, creating a structured bottom-up/top-down governance loop. See: [Why People Matter Most: Building a Sustainable InnerSource Strategy](https://www.youtube.com/watch?v=r0dx84lUDYY) (InnerSource Commons, 2026, by Marius Moulis).
 
 ## Status
 
