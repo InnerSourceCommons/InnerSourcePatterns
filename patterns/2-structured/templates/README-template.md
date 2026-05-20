@@ -11,9 +11,13 @@ See also [mission statement chapter](https://producingoss.com/en/producingoss.ht
 
 ## Getting Started
 
-This section should contain brief documentation written for first time users on
-how to get started using the project. Further more detailed documentation can be
-linked to from here.
+This section should get first-time users running in minutes. To reduce friction:
+
+* Make setup steps copy-pasteable. A reader should be able to copy a command and run it without rewriting it.
+* State the *expected output* of each step so readers know they are on track.
+* Include a short "Common problems" or "Troubleshooting" subsection covering the errors past first-timers have hit, so readers can resolve issues without leaving the documentation.
+
+Further more detailed documentation can be linked to from here.
 
 ## Further information
 
