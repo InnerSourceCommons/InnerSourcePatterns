@@ -159,7 +159,7 @@ If any of these are hard to find from a quick scan of your docs, decide which fi
 * **Analog Devices Inc.**
 * **Airbus**
 * **Siemens** automatically creates a checklist issue for every new InnerSource project to make maintainers aware of mandatory requirements (e.g. business approval, license & copyright, export control, contributing guidelines, maintainer maturity) as well as best practices (e.g. documentation as code, semantic versioning, continuous integration/deployment).
-* **Community talk** - Fiji "FJ", *Docs that Invite Devs*, articulates why InnerSource docs frequently fail to convert readers into contributors and proposes a README / Getting Started / Architecture / CONTRIBUTING blueprint along with a "5 questions in 5 minutes" usability check ([YouTube](https://www.youtube.com/watch?v=ay_ktbK9lhs)).
+* **Agentic Systems** - Feyijimi "FJ" Erinle's talk *Docs That Invite Devs* at the InnerSource Commons articulates why InnerSource docs frequently fail to convert readers into contributors and proposes a README / Getting Started / Architecture / CONTRIBUTING blueprint along with a "5 questions in 5 minutes" usability check ([YouTube](https://www.youtube.com/watch?v=ay_ktbK9lhs)).
 
 ## Authors
 
