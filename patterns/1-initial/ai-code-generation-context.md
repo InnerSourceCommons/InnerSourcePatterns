@@ -10,6 +10,18 @@ AI tools generate code that diverges from project standards and architectural pa
 
 With the growing use of AI tools (like GitHub Copilot, ChatGPT, or custom LLMs), InnerSource contributors are increasingly using generative AI to write code. However, without project-specific context, these tools often produce code that diverges from the project's architectural patterns, naming conventions, or quality standards. This leads to friction during reviews, inconsistent codebases, and technical debts or additional burden on maintainers.
 
+## Story
+
+A few months ago, a team was working on a project with three engineers. They had put together a Technical Requirements Document—a shared agreement on what they were doing, how they'd do it, and why it mattered. Everything looked clear on paper.
+
+But once they started writing actual code using AI-assisted tools, something interesting happened. Even though all three were using AI and following the same requirements, the code they produced looked completely different. One engineer added the new logic inside an existing method. Another split it into private methods within the same file. The third created a brand-new helper class.
+
+Different structures. Same outcome. All technically correct.
+
+During code review, they sat down together, talked through their approaches, and aligned on how they wanted things done. After that meeting, the code started to look more consistent—not identical, but aligned. What happened in that meeting room? They set the context.
+
+Now imagine this in InnerSource. Contributors and code owners might never be in the same room—they could be in different time zones, different teams, different locations. How can a code owner share the right context with contributors across teams and repositories? That's the challenge this pattern addresses.
+
 ## Context
 
 * InnerSource adoption is in place across the organization.
@@ -37,18 +49,26 @@ Provide an **AI Code Generation Context** folder within the repository to guide 
 
 ### Implementation Structure
 
-Create an `innersource-ai/` folder in the repository root containing:
+Create an `ai-context-bank/` folder in the repository root containing:
 
-#### Core Documentation Files (Required)
+#### Core Files (Required)
 
-`PROMPT.md`: Project-specific instructions for AI tools
+Start with these three essential files:
 
-* Naming conventions (variables, functions, classes, files)
-* Logging patterns and error handling approaches
-* Testing strategy and preferred testing frameworks
-* Code formatting and style preferences
-* Common anti-patterns to avoid
-* Preferred libraries and frameworks for specific tasks
+`README.md`: How to use the context bank
+
+* Overview of the AI context bank and its purpose
+* Instructions for contributors on how to best leverage the context
+* Guidelines for when and how to reference context files in AI prompts
+* Examples of effective context usage
+* Contribution guidelines for improving the context bank
+
+`PROMPT.md`: Sample prompt templates
+
+* Ready-to-use prompt templates for common tasks
+* Examples showing how to incorporate project context into AI prompts
+* Templates for different scenarios (new features, bug fixes, refactoring, testing)
+* Best practices for prompting AI tools with project-specific context
 
 `ARCHITECTURE.md`: Lightweight system overview
 
@@ -58,24 +78,24 @@ Create an `innersource-ai/` folder in the repository root containing:
 * Module organization and layering principles
 * Integration patterns with external systems
 
-`STYLE_GUIDE.md`: Comprehensive coding guidelines
+#### Contexts (Required)
 
+The `contexts/` folder contains detailed project-specific guidelines and conventions:
+
+* Naming conventions (variables, functions, classes, files)
+* Logging patterns and error handling approaches
+* Testing strategy and preferred testing frameworks
+* Code formatting and style preferences
+* Common anti-patterns to avoid
+* Preferred libraries and frameworks for specific tasks
 * Language-specific style rules
 * Code organization patterns
 * Documentation standards
 * Performance considerations
 * Security guidelines and common vulnerabilities to avoid
+* Project-specific and domain-specific instructions
 
 #### Enhancements (Optional)
-
-##### Practical Examples
-
-`EXAMPLES/`: Sample code files demonstrating best practices
-
-* `good-examples/`: Well-written code snippets with explanations
-* `bad-examples/`: Common mistakes with explanations of why they're problematic
-* `refactoring-examples/`: Before/after code showing proper improvements
-* Template files for common patterns (controllers, services, utilities)
 
 ##### Configuration and Tooling
 
@@ -123,7 +143,9 @@ Create an `innersource-ai/` folder in the repository root containing:
 * **IDE Integration**: Configure AI plugins to automatically include context
 * **Custom Workflows**: Integrate context into CI/CD pipelines for automated validation
 
-### Maintenance Strategy
+#### For Project Owners
+
+**Maintenance Strategy**:
 
 * **Version Control**: Track changes to AI context alongside code changes
 * **Regular Updates**: Review and update context as project standards evolve
@@ -144,7 +166,7 @@ Create an `innersource-ai/` folder in the repository root containing:
 
 This pattern addresses the fundamental mismatch between AI tools' general training and project-specific requirements. By providing structured, easily consumable context, we enable AI tools to generate code that feels like it was written by an experienced project contributor rather than an outsider.
 
-The `innersource-ai/` folder approach is intentionally explicit and discoverable, making it clear to both humans and AI tools where to find project-specific guidance. The modular structure allows teams to implement incrementally, starting with basic style guides and expanding to more sophisticated examples and configurations as needed.
+The `ai-context-bank/` folder approach is intentionally explicit and discoverable, making it clear to both humans and AI tools where to find project-specific guidance. The modular structure allows teams to implement incrementally, starting with basic style guides and expanding to more sophisticated examples and configurations as needed.
 
 This solution balances the productivity benefits of AI tools with the quality requirements of professional software development, creating a sustainable approach to AI-assisted InnerSource collaboration.
 
