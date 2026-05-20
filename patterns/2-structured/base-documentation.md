@@ -81,6 +81,19 @@ topics:
 
 ![CONTRIBUTING.md](../../assets/img/standard-base-documentation/CONTRIBUTING-for-contributors.png)
 
+### ARCHITECTURE.md
+
+For projects of non-trivial size, consider providing a separate `ARCHITECTURE.md` document. Where the `README.md` orients *users*, an `ARCHITECTURE.md` orients potential *contributors* so they know where to make a change and what they might break. This is distinct from Architecture Decision Records (see [Document Architecture Decisions](../1-initial/document-architecture-decisions.md)), which capture *decisions over time*; `ARCHITECTURE.md` is a current-state map of the system aimed at making contribution feel safe.
+
+Typically it should cover:
+
+* A high-level overview of the project's main components and the boundaries between them.
+* Which module or directory owns which responsibility, and how the modules interact.
+* A handful of conventions or invariants a contributor should know before changing code (e.g. "all public APIs live in the `api/` package", "anything in `core/` requires a corresponding test").
+* A pointer to where deeper design rationale lives, if Architecture Decision Records or design docs exist.
+
+Without this kind of map, would-be contributors often hesitate not because they lack skill, but because they cannot tell which parts of the system are safe to touch.
+
 ### COMMUNICATION.md
 
 Create a separate `COMMUNICATION.md` document. Link this document to your `README.md` so comprehensive contact information can be provided and not take up the extra space in your README. This document should answer frequently
@@ -120,6 +133,18 @@ In addition to that, this pattern comes with three very basic templates to get y
 started right away: [README-template.md](templates/README-template.md),
 [CONTRIBUTING-template.md](templates/CONTRIBUTING-template.md), and [COMMUNICATION-template.md](templates/COMMUNICATION-template.md).
 
+### How to know your docs are working
+
+A practical check: a newcomer scanning your project for a few minutes — without asking anyone — should be able to answer these five questions:
+
+1. What is this project?
+2. Where do I start as a user?
+3. How does it work at a high level?
+4. If I want to help, where do I begin?
+5. If I make a contribution, what happens next?
+
+If any of these are hard to find from a quick scan of your docs, decide which file should answer it and add a short, prominent entry there. Potential contributors typically scan rather than read end-to-end, and many leave silently when these questions are not quickly answered.
+
 ## Resulting Context
 
 * The time for contributors to get up to speed is significantly reduced.
@@ -134,6 +159,7 @@ started right away: [README-template.md](templates/README-template.md),
 * **Analog Devices Inc.**
 * **Airbus**
 * **Siemens** automatically creates a checklist issue for every new InnerSource project to make maintainers aware of mandatory requirements (e.g. business approval, license & copyright, export control, contributing guidelines, maintainer maturity) as well as best practices (e.g. documentation as code, semantic versioning, continuous integration/deployment).
+* **Community talk** - Fiji "FJ", *Docs that Invite Devs*, articulates why InnerSource docs frequently fail to convert readers into contributors and proposes a README / Getting Started / Architecture / CONTRIBUTING blueprint along with a "5 questions in 5 minutes" usability check ([YouTube](https://www.youtube.com/watch?v=ay_ktbK9lhs)).
 
 ## Authors
 
