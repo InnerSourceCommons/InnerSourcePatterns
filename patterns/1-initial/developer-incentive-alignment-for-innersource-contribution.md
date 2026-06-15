@@ -68,7 +68,7 @@ Developers are not motivated to contribute to InnerSource because organizational
 
 ## Known Instances
 
-* **Thales Group** - InnerSource contributions are a formal part of the expert career path at Thales. The Thales ISPO positioned InnerSource participation as demonstrable proof of leadership and technical expertise, which engineers can reference when seeking promotion to senior or expert levels. The rationale: an engineer who finds time to contribute to InnerSource projects on top of their operational commitments has demonstrated exactly the kind of initiative and cross-team collaboration that defines senior expertise. See: [Why People Matter Most: Building a Sustainable InnerSource Strategy](https://www.youtube.com/watch?v=r0dx84lUDYY) (InnerSource Commons, 2026, by Marius Moulis).
+* **Thales Group** - InnerSource contributions are part of the expert career path at Thales. The Thales ISPO positioned InnerSource participation as demonstrable proof of leadership and expertise, which engineers can reference when seeking the expert career path. The rationale: building communities around specific topics on top of their operational commitments demonstrates leadership and recognised expertise on those topics. See: [Why People Matter Most: Building a Sustainable InnerSource Strategy](https://www.youtube.com/watch?v=r0dx84lUDYY) (InnerSource Commons, 2026, by Marius Moulis).
 
 ## Status  
 
