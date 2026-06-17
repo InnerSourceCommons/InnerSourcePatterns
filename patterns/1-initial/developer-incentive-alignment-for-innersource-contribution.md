@@ -16,7 +16,7 @@ Developers are not motivated to contribute to InnerSource because organizational
 
 ## Context  
 
-* There is a need to foster team-centric behaviour and limit instances of [ego-driven development](http://deliberate-software.com/ego-driven-development/) or idolizing a 'star developer.'
+* There is a need to foster team-centric behavior and limit instances of [ego-driven development](https://deliberate-software.com/ego-driven-development/) or idolizing a 'star developer.'
 * There are multiple developers within the organization or business unit with the same or related areas of expertise, such as front-end development, devops, testing, etc.
 * Mid-to-top level management either do not have a technical background or their technical backgrounds and experiences are many years out of date; organizational emphasis is therefore on quantitative output of development team.
 * The organization wants to create more alignment between work efforts and external motivation without relying directly on financial rewards or quotas.  
@@ -26,7 +26,7 @@ Developers are not motivated to contribute to InnerSource because organizational
 
 1. Existing attitudes and developer culture
 
- * Team-centric behaviour is not evident. Developers of all levels tend to focus mostly on their own contributions. When stories are assigned, work is often done ‘locally’ and not pushed up or checked in until the end of the sprint.
+ * Team-centric behavior is not evident. Developers of all levels tend to focus mostly on their own contributions. When stories are assigned, work is often done ‘locally’ and not pushed up or checked in until the end of the sprint.
  * Asking developers to push code early and often is met with extreme resistance, accusations of micro-management, or claims that such a practice would slow velocity.
  * Existing practice commonly leads to duplicated work, missed requirements, or frequent gaps in the software or process.
 
@@ -64,7 +64,7 @@ Developers are not motivated to contribute to InnerSource because organizational
 * job descriptions include mentorship & contribution language to set expectations up front & make it easier to assess if candidates have requisite skills/experience required
 * org is retaining and better utilizing existing talent
 * devs take on professional mentorship responsibilities for their peers rather than leaving it to non-technical management
-* career progression clearly identified & understood by engs and management
+* career progression clearly identified & understood by engineers and management
 
 ## Known Instances
 
