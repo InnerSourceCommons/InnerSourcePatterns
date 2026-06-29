@@ -5,7 +5,7 @@
 
 ## Patlet
 
-TBD
+Developers share code internally for the sake of sharing without regard for reusability or production readiness, resulting in a repository of low-quality components that others find but cannot safely use. Supporting all contributions while transparently communicating component maturity — and engaging contributors in quality improvements — keeps the shared repository growing without discouraging participation.
 
 ## Context
 

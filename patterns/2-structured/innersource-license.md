@@ -57,6 +57,7 @@ The license simplifies the conversations within our organization about sharing s
 - **GovTech (Singapore Government)**
 - **Siemens** has developed their own InnerSource license alongside other necessary legal agreements between subsidiaries.
 - **Mercedes-Benz**
+- **Thales Group**
 
 ### DB Systel
 
@@ -88,6 +89,10 @@ Following open source practices, the GPSL `LICENSE` file is included in each rep
 
 For more details see the InnerSource Commons Community call from 09/2023 [Improving Engineering Collaboration across the Singapore Government through InnerSource](https://www.youtube.com/watch?v=-zu2X2iERv8&t=1257s&ab_channel=InnerSourceCommons) (around 20:50) by Hunter Nield.
 
+### Thales Group
+
+Thales Group created a framework of four ready-to-use InnerSource licenses, developed in close collaboration with legal partners. See: [Why People Matter Most: Building a Sustainable InnerSource Strategy](https://www.youtube.com/watch?v=r0dx84lUDYY) (InnerSource Commons, 2026, by Marius Moulis).
+
 ## Status
 
 * Structured
@@ -110,4 +115,4 @@ For more details see the InnerSource Commons Community call from 09/2023 [Improv
 - **legal entity** - An entity that has its own legal rights and obligations (synonyms: company, subsidiary) (e.g. Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)
 
 [db-inner-source-license]: https://github.com/dbsystel/open-source-policies/tree/master/inner-source-license
-[eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+[eupl]: https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12

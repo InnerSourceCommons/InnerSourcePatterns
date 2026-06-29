@@ -18,10 +18,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
 
     - name: Vale Linting
-      uses: errata-ai/vale-action@v2
+      uses: vale-cli/vale-action@v2
       with:
         files: '["patterns/2-structured/", "patterns/3-validated/"]'
         vale_flags: "--glob=*.md"

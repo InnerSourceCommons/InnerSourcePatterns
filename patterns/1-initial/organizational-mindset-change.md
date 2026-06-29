@@ -4,7 +4,7 @@ Organizational Mindset Change
 
 ## Patlet
 
-TBD
+Upper management, middle management, and developers all need to shift their mindset to support InnerSource, but organizational change is slow and costly, and pressures from deadlines and competition make experimentation feel too risky. A phased approach that starts with a small visible experiment, demonstrates concrete value early, and uses that momentum to broaden adoption is the most effective path to lasting culture change.
 
 ## Problem
 

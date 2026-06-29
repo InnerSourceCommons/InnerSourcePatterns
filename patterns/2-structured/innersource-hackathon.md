@@ -104,6 +104,7 @@ All these help scale InnerSource in the organization.
 ## Known Instances
 
 * **IKEA** (Ingka Group)
+* **Thales Group**
 * **The Aerospace Corporation**
 
 ### IKEA (Ingka Group)
@@ -115,6 +116,10 @@ The hackathon was held as a virtual, one-day event open to all developers in the
 The event drew participation from engineers across **six countries** and resulted in contributions to around **six InnerSource projects**. The InnerSource project landscape grew by approximately **50%** as a result of the event. One newly created project was identified as a strong candidate for open sourcing. Notably, the hackathon reached many developers who would not have engaged with InnerSource through conventional awareness campaigns — making it especially effective for the late majority who had previously ignored the topic.
 
 Shanmugapriya Manoharan (Engineering Advisor, OSPO, IKEA IT AB) shared this experience at an InnerSource Commons community call in December 2024. See: [Hackathon: A Fun and safe approach to get started with InnerSource](https://youtu.be/7RWJUKanbqQ) (InnerSource Commons Community Call, December 2024).
+
+### Thales Group
+
+**Thales Group** runs Thales I/O Days, combining a full remote 2-day Hackathon and annual in-person conference with a reward ceremony for key contributors — open to all job families, not only engineering. See: [Why People Matter Most: Building a Sustainable InnerSource Strategy](https://www.youtube.com/watch?v=r0dx84lUDYY) (InnerSource Commons, 2026, by Marius Moulis).
 
 ### The Aerospace Corporation
 
