@@ -55,6 +55,24 @@ The organization sees better collaboration and higher retention among high-perfo
 
 This creates a reinforcing loop where career incentives and organizational goals align more closely.
 
+### Consequences
+
+#### Positive:
+
+* Broader network across the organization → more opportunities and visibility.
+* Enhanced reputational capital: people know your name, your contributions, and how you collaborate.
+* Accelerated skill development via cross-team exposure and knowledge sharing.
+* Increased job satisfaction and engagement, which supports career momentum and retention.
+* Potential for roles beyond your original team (architecture, community lead, cross‐team specialist).
+
+#### Cautions:
+
+* Without genuine value and visibility, contributions may go unnoticed; simply “ticking a box” isn’t enough.
+* Overcommitment: spreading too thin across many InnerSource projects may reduce focus and lead to burnout rather than a career boost.
+* Without building social capital intentionally (not just coding), the career benefit may be limited—according to the study the effect is mediated by social capital rather than direct.
+University of Galway Research
+* The organization must provide the infrastructure and culture for InnerSource (e.g., open repositories, cross-team access, recognition mechanisms); otherwise contributions may not yield the expected social capital.
+
 ## Rationale
 
 From a **career development** perspective, diverse project experience, network breadth, and initiative-taking are strong signals of promotability.
@@ -62,6 +80,15 @@ From a **career development** perspective, diverse project experience, network b
 **Psychologically**, autonomy, mastery, and purpose—core drivers of motivation—are naturally supported by InnerSource work.
 
 From a **game theory** lens, InnerSource transforms isolated career efforts into a reputational economy, where value created for others is returned through visibility, referrals, and opportunities.
+
+Research findings (Stol et al., 2024) further confirm:
+
+* Developers engaging in InnerSource report increased job satisfaction.
+* This effect is not direct—it is mediated by gains in three dimensions of social capital:
+  1. **Structural** — broader networks across teams
+  2. **Cognitive** — shared understanding of technical and collaborative norms
+  3. **Relational** — trust, reliability, and reputation
+* These outcomes align closely with the career successes observed in active InnerSource contributors.
 
 ## Known Instances
 
@@ -78,11 +105,13 @@ TBD
 
 ## References
 
+- Klaas-Jan Stol, Mario Schaarschmidt, Lorraine Morgan: Does adopting inner source increase job satisfaction? A social capital perspective using a mixed-methods approach. [Research paper](https://www.sciencedirect.com/science/article/pii/S0963868724000015).
 - Dirk Riehle - [How Open Source Is Changing the Software Developer’s Career](https://dirkriehle.com/wp-content/uploads/2015/04/r5rie-v3.pdf)
 - Bertrand Delacretaz - [How to convince your left brain (or manager) to follow the Open Source path your right brain desires](https://www.youtube.com/watch?v=F0SmiQ3SF6Q)
 
 ## Alias
 
+- Creating Social Capital through InnerSource
 - Career Growth through InnerSource
 - InnerSource for Personal Branding
 - Cross-Team Contributions as Promotion Strategy
