@@ -27,3 +27,4 @@ jobs:
         vale_flags: "--glob=*.md"
         filter_mode: added
         debug: true
+        version: 3.14.2
