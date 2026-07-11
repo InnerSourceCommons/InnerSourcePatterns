@@ -1,7 +1,19 @@
-Adyen
-
+## For pattern: Standard Base Documentation
 [Ii]nvariants?
 Devs
 Erinle
 Feyijimi
 Agentic
+
+## For pattern: Maturity Model   
+Adyen
+
+## For pattern: InnerSource Hackathon   
+Ingka
+Manoharan
+Shanmugapriya
+Kickstarting
+Contribfest
+Baumgarten
+Trin
+El

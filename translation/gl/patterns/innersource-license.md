@@ -88,7 +88,7 @@ Paga a pena mencionar que, ata agora, o software compartido baixo esta licenza I
 - **Entidade xurídica**: unha entidade que ten os seus propios dereitos e obrigas legais. (Sinónimos: empresa, filial. Por exemplo, Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH etc).
 
 [db-inner-source-license]: https://github.com/dbsystel/open-source-policies/tree/master/inner-source-license
-[eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+[eupl]: https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12
 
 ## Tradución
 
