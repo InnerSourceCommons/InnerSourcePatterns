@@ -49,7 +49,29 @@ Provide an **AI Code Generation Context** folder within the repository to guide 
 
 ### Implementation Structure
 
-Create an `context-store/` folder in the repository root containing:
+Create a `context-store/` folder in the repository root containing:
+
+```text
+context-store/
+├── README.md
+├── PROMPT.md
+├── ARCHITECTURE.md
+├── contexts/
+│   ├── coding-style.md
+│   ├── testing.md
+│   ├── security.md
+│   └── domain-guidelines.md
+├── CONFIG/
+│   ├── .editorconfig
+│   └── formatter-config
+├── INTEGRATION/
+│   ├── copilot.md
+│   └── ide-setup.md
+└── EMBEDDINGS/
+    └── README.md
+```
+
+The exact filenames can vary by project, but the structure should make it clear where contributors can find general usage guidance, reusable prompts, architecture context, and detailed project conventions.
 
 #### Core Files (Required)
 
