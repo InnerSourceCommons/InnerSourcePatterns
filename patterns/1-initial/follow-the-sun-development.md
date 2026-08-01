@@ -103,11 +103,6 @@ These challenges may lead to related patterns like "Timezone-Aware Project Gover
 
 - Abdul Jaleel Kavungal
 
-## Acknowledgments
-
-- InnerSource Commons Pattern Working Group
-- Global development teams who face these challenges daily
-
 ## Alias
 
 - 24/7 InnerSource Development
