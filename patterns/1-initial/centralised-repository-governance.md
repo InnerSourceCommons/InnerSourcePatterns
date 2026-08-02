@@ -91,7 +91,7 @@ Avoid checkbox compliance. Where possible, evaluate freshness, required sections
 
 ### Repository Inventory
 
-Maintain the audit scope in `repository-inventory.yml`, or import it from an InnerSource Portal or source code inventory.
+Maintain the audit scope in `repository-inventory.yml`, or import it from an [InnerSource Portal](../2-structured/innersource-portal.md) or [Unified Source Code Inventory](../1-initial/source-code-inventory.md).
 
 ```yaml
 repositories:
