@@ -43,7 +43,9 @@ The audit did not block teams. It made readiness visible and helped maintainers 
 
 ## Solution
 
-Create a **central InnerSource governance repository** that defines contributor-readiness expectations as policy-as-code and audits repositories in scope. Treat it as an internal product with clear roles, review rules, actionable reports, and an exception process.
+Create a **central InnerSource governance repository** that defines contributor-readiness expectations as policy-as-code. Run audits of these policies across all repositories in scope.
+
+Treat it as an internal product with clear roles, review rules, actionable reports, and an exception process.
 
 Example structure:
 
