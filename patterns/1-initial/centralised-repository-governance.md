@@ -204,23 +204,6 @@ Use least-privilege credentials. Separate read-only audit credentials from remed
 * Incremental, staggered scans control audit cost and infrastructure load.
 * Leadership sees InnerSource health trends without micromanaging Trusted Committers or repository maintainers.
 
-## Use This Pattern When
-
-* You have many InnerSource repositories owned by different teams.
-* Contributors struggle to identify how to use or contribute to projects.
-* InnerSource Portal quality depends on repository metadata and project hygiene.
-* Manual readiness checks are too slow or incomplete.
-* You want transparent policy-as-code instead of undocumented central checks.
-* Poor contributor experience costs more than maintaining the governance process.
-
-## Don’t Use This Pattern When
-
-* Only a few InnerSource repositories exist and manual support is enough.
-* You need hard enforcement at merge time rather than periodic guidance.
-* You cannot maintain repository ownership or lifecycle metadata.
-* You cannot protect the governance repository and its credentials.
-* Most projects require unique contribution models that do not fit a small set of profiles.
-
 ## Known Instances
 
 TBD
