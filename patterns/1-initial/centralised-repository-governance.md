@@ -1,6 +1,6 @@
 ## Title
 
-Centralised InnerSource Repository Governance
+Centralized InnerSource Repository Governance
 
 ## Patlet
 
@@ -10,7 +10,7 @@ InnerSource repositories lose contributor readiness when project hygiene drifts 
 
 As InnerSource adoption grows, teams publish repositories with uneven documentation, ownership clarity, contribution guidance, communication channels, and discoverability metadata. Some projects have strong `README.md` and `CONTRIBUTING.md` files; others have no maintainer contact, no issue templates, unclear CODEOWNERS, stale labels, or no clear signal that outside contributions are welcome.
 
-Contributors then hesitate. They cannot tell whether a repository is active, who owns it, how to ask questions, what contributions are welcome, or whether the project follows the organisation's InnerSource standards. Manual reviews by an InnerSource Program Office, platform team, or community group do not scale.
+Contributors then hesitate. They cannot tell whether a repository is active, who owns it, how to ask questions, what contributions are welcome, or whether the project follows the organization's InnerSource standards. Manual reviews by an InnerSource Program Office, platform team, or community group do not scale.
 
 ## Story
 
@@ -46,6 +46,7 @@ The audit did not block teams. It made readiness visible and helped maintainers 
 * You cannot maintain repository ownership or lifecycle metadata.
 * You cannot protect the governance repository and its credentials.
 * Most projects require unique contribution models that do not fit a small set of profiles.
+
 ## Forces
 
 * **Autonomy vs consistency:** Teams need local ownership; contributors need predictable project signals.
@@ -139,7 +140,7 @@ Exceptions keep governance practical, but they must remain visible in reports. A
 
 Audit each repository against its assigned InnerSource policy profile. Findings should include repository, owner, policy, severity, expected state, actual state, exception status, and suggested remediation.
 
-Prioritise checks that affect contributor success:
+Prioritize checks that affect contributor success:
 
 * missing or incomplete base documentation,
 * missing contribution process,
@@ -186,7 +187,7 @@ Roles:
 * **Trusted Committers and repository maintainers** keep project guidance current and act on findings.
 * **InnerSource Program Office or community stewards** maintain readiness policies, templates, and reporting practices.
 * **Platform and security partners** support automation, credentials, repository settings, and control-plane protection.
-* **Product Owners or business sponsors** help prioritise remediation when contributor-readiness work competes with feature delivery.
+* **Product Owners or business sponsors** help prioritize remediation when contributor-readiness work competes with feature delivery.
 
 Trusted Committers and repository maintainers should be able to propose policy changes, improve templates, and challenge low-value checks.
 
@@ -227,4 +228,4 @@ TBD
 * [InnerSource Portal - Hygiene](innersource-portal-hygiene.md) — overlaps with checks for portal badges, metadata, and active projects.
 * [Include Product Owners](include-product-owners.md) — helps with stewardship of the governance repository.
 * [Trusted Committer](../2-structured/trusted-committer.md) — supports safe and consistent policy changes.
-* [InnerSource Portal](../2-structured/innersource-portal.md) — complements central access to shared organisational knowledge.
+* [InnerSource Portal](../2-structured/innersource-portal.md) — complements central access to shared organizational knowledge.
