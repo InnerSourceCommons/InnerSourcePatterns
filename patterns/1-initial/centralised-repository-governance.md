@@ -8,7 +8,7 @@ InnerSource repositories lose contributor readiness when project hygiene drifts 
 
 ## Problem
 
-As InnerSource adoption grows, teams publish repositories with uneven documentation, ownership clarity, contribution guidance, communication channels, and discoverability metadata. Some projects have strong `README.md` and `CONTRIBUTING.md` files; others have no maintainer contact, no issue templates, unclear CODEOWNERS, stale labels, or no clear signal that outside contributions are welcome.
+As InnerSource adoption grows, teams publish repositories with uneven documentation, ownership clarity, contribution guidance, communication channels, and discoverability metadata. Some projects have strong [Standard Base Documentation](../2-structured/base-documentation.md) (like `README.md` and `CONTRIBUTING.md`); others have no maintainer contact, no issue templates, unclear CODEOWNERS, stale labels, or no clear signal that outside contributions are welcome.
 
 Contributors then hesitate. They cannot tell whether a repository is active, who owns it, how to ask questions, what contributions are welcome, or whether the project follows the organization's InnerSource standards. Manual reviews by an InnerSource Program Office, platform team, or community group do not scale.
 
@@ -16,7 +16,7 @@ Contributors then hesitate. They cannot tell whether a repository is active, who
 
 An InnerSource Program Office observed that contributors often stopped before opening a pull request. The source code was visible, but the contribution path was not. Some repositories lacked `CONTRIBUTING.md`; others had outdated contacts or no newcomer-friendly issue labels.
 
-The program office created a governance repository with versioned InnerSource readiness policies. A scheduled audit compared participating repositories with those policies and sent Trusted Committers and repository maintainers a concise report: which checks passed, which needed attention, who owned the repository, and how to remediate gaps.
+The program office created a governance repository with versioned InnerSource readiness policies. A scheduled audit compared participating repositories with those policies and sent [Trusted Committers](../2-structured/trusted-committer.md) and repository maintainers a concise report: Which checks passed, which needed attention, who owned the repository, and how to remediate gaps.
 
 The audit did not block teams. It made readiness visible and helped maintainers improve discoverability, documentation, ownership, and contribution paths.
 
