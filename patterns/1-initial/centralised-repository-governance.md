@@ -223,7 +223,7 @@ TBD
 * [Assisted Compliance](assisted_compliance.md) — helps Trusted Committers and repository maintainers add missing contribution guidance.
 * [Communication Tooling](../2-structured/communication-tooling.md) — describes communication channels that readiness checks can require.
 * [Issue Tracker Use Cases](../2-structured/issue-tracker.md) — supports checks for issue templates and transparent planning.
-* [Unified Source Code Inventory](source-code-inventory.md) — can provide audit scope and repository metadata.
+* [Unified Source Code Inventory](../1-initial/source-code-inventory.md) — can provide audit scope and repository metadata.
 * [Explicit Governance Levels](../2-structured/governance-levels.md) — can provide profiles for InnerSource operating models.
 * [InnerSource Portal - Hygiene](innersource-portal-hygiene.md) — overlaps with checks for portal badges, metadata, and active projects.
 * [Include Product Owners](include-product-owners.md) — helps with stewardship of the governance repository.
