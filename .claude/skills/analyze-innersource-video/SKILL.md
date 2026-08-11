@@ -1,13 +1,15 @@
 ---
 name: analyze-innersource-video
-description: Analyze an InnerSource conference talk or community video on YouTube and relate it to the InnerSourcePatterns library. Identifies which existing patterns the talk instantiates (Known Instance candidates), where it suggests clarifications to an existing pattern, and whether it justifies drafting a new pattern. Use when given a YouTube URL of an InnerSource-related video and asked to relate it to this repo's pattern library.
+description: Analyze an InnerSource conference talk or community call — given either a YouTube URL or a transcript directly — and relate it to the InnerSourcePatterns library. Identifies which existing patterns the talk instantiates (Known Instance candidates), where it suggests clarifications to an existing pattern, and whether it justifies drafting a new pattern. Use when given a YouTube URL or a transcript of an InnerSource-related talk and asked to relate it to this repo's pattern library.
 ---
 
 # Analyze InnerSource Video
 
 ## When to use
 
-The user provides a YouTube URL of an InnerSource talk and asks you to compare it to the patterns in this repo. Goals: surface known instances, propose surgical clarifications to existing patterns, and identify genuinely new InnerSource pattern candidates.
+The user provides either a YouTube URL or an already-fetched transcript of an InnerSource talk and asks you to compare it to the patterns in this repo. **A transcript handed to you directly is the common case going forward** — an automated source (e.g. a Zoom transcript pulled once a community call finishes) supplies the transcript and whatever metadata it has (speaker, org, date) without a YouTube URL ever being in the loop. The YouTube-fetch path stays for backlog talks and one-off requests where only a URL exists. See Step 1 for both.
+
+Goals: surface known instances, propose surgical clarifications to existing patterns, and identify genuinely new InnerSource pattern candidates.
 
 ## Default behavior
 
@@ -15,7 +17,11 @@ The user provides a YouTube URL of an InnerSource talk and asks you to compare i
 
 ## Workflow
 
-### Step 1 — Fetch transcript and metadata
+### Step 1 — Get transcript and metadata
+
+**If a transcript was handed to you directly** (the going-forward case — e.g. a Zoom transcript an automated source already pulled), skip the fetch entirely. Take whatever metadata came with it (speaker, org, event, date); if any of it is missing, ask the caller before falling back to a placeholder — same rule as Step 7's Known Instance citation. There is no video to fetch and no YouTube URL required.
+
+**If you only have a YouTube URL** (backlog talks, one-off requests), fetch both:
 
 **Transcript** — use the `youtube-transcript-api` Python library (already available; pip-installable if not). Do *not* try `WebFetch` on YouTube watch pages — it returns only the footer.
 
@@ -132,7 +138,7 @@ Then use `AskUserQuestion` to confirm which actions to take. **Do not edit any f
 ### Step 8 — Git workflow
 
 - **Always branch off `main`**, not whichever branch the user is currently on. Confirm with `git status` and `git branch --show-current` first.
-- **One concern per PR** when possible: a Known Instance citation, a pattern clarification, and a new pattern draft are three separate concerns and may deserve separate PRs.
+- **One talk = one PR.** Bundle everything the analysis found for a single talk into one PR — Known Instance citations across several patterns, clarifications, a new pattern draft, whatever applies — the way #909 added Thales as a Known Instance across five patterns in one PR. Only split into separate PRs when the changes come from genuinely different source talks, not because they touch different patterns or different candidate types.
 - Match the repo's commit message style: sentence-case subject, no conventional-commit prefix (check `git log --oneline -5` for recent style).
 - Write the commit message body to `.tmp/commit_msg.txt` and use `git commit -F` (per user's no-heredocs rule).
 - Open the PR against `InnerSourceCommons/InnerSourcePatterns` upstream `main` (the user's fork is `origin`).
@@ -145,7 +151,7 @@ Then use `AskUserQuestion` to confirm which actions to take. **Do not edit any f
 - Don't trust the spoken introduction for the speaker's organization — get it from the video description.
 - Don't add a Known Instance entry labeled "Community talk" or similar generic placeholder — the convention is to lead with the speaker's organization.
 - Don't propose "Treat docs like code" or similar generic-engineering ideas as new InnerSource patterns. Apply the Step 5 filter.
-- Don't bundle multiple PRs into one commit on the same branch — separate concerns deserve separate PRs.
+- Don't split one talk's findings across multiple PRs — bundle Known Instances, clarifications, and new pattern drafts from the same talk into one PR (see Step 8).
 - Don't auto-commit or auto-push without confirmation from the user, even on "high confidence" calls — community library content warrants a human in the loop.
 - Don't write the commit message via heredoc — write to `.tmp/commit_msg.txt` and use `git commit -F`.
 
