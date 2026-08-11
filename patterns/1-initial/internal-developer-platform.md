@@ -123,7 +123,7 @@ An IDP provides a solution to the competing forces of consistency, flexibility, 
 
 ## Known Instances
 
-(known instances to be added)
+* **GitLab** - GitLab containerized their GitLab Development Kit (GDK), cutting new-contributor environment setup from roughly two hours (frequently failing) to under five minutes. This directly reduced time-to-first-contribution for both open source and InnerSource-style contributors. See: [Break the contribution wall](https://www.youtube.com/watch?v=d3igPlTr4Ag) (InnerSource Commons, 2026, by Raimund Hook).
 
 ## Status
 

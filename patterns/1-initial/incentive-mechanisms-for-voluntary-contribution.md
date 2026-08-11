@@ -116,7 +116,7 @@ This approach targets key human motivators for voluntary participation: financia
 
 ## Known Instances
 
-TBD
+* **GitLab** - GitLab's DevRel Engineering team built [contributors.gitlab.com](https://contributors.gitlab.com), a platform that gamifies contribution across code, code review, documentation, and translations with points, levels, and leaderboards. Points unlock access to exclusive contributor-only swag, redeemable only through sustained contribution. See: [Break the contribution wall](https://www.youtube.com/watch?v=d3igPlTr4Ag) (InnerSource Commons, 2026, by Raimund Hook).
 
 ## Status
 
