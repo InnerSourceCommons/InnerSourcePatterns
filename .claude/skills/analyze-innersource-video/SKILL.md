@@ -71,9 +71,9 @@ Produce a brief synthesis covering:
 
 ### Step 3 — Survey adjacent patterns
 
-Extract every pattern's title + patlet via a small script (write to `.tmp/extract_patlets.py`). Read the resulting file in full — you want the patlet, not just the title, to judge relevance.
+Read the "List of Patterns" section of the repo's own `README.md` — it already has every pattern's title and patlet, grouped by maturity level, kept current as patterns are added. Read it in full; you want the patlet, not just the title, to judge relevance.
 
-Then pick the 3–6 patterns whose patlets sit closest to the talk's theme and read those in full. Don't rely solely on patlets to judge a match: the talk's content may overlap meaningfully with parts of a pattern that the patlet doesn't surface.
+Then pick the 3–6 patterns whose patlets sit closest to the talk's theme and read those files in full. Don't rely solely on patlets to judge a match: the talk's content may overlap meaningfully with parts of a pattern that the patlet doesn't surface.
 
 ### Step 4 — Categorize the talk's content
 
