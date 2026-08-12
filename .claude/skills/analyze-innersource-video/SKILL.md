@@ -131,7 +131,7 @@ Then use `AskUserQuestion` to confirm which actions to take. **Do not edit any f
 - Use the prompt in `meta/pattern-drafts-with-ai.md` as the basis for drafting.
 - File name: lowercase, hyphenated, matching the title. Place in `patterns/1-initial/`.
 - Set Status to `Initial`, Known Instances to the talk itself, Author to TBD, omit Acknowledgments.
-- Be honest about what evidence the talk provides — one talk is one data point, not proof a pattern is widely applicable.
+- **One talk is enough to draft at Initial — don't hold back.** Per `meta/contributor-handbook.md`, maturity level 1 (Initial) has no validation requirement at all; it's explicitly for a single unstructured idea, even a "donut" with missing sections. One known instance clears the bar for level 2 (Structured); only 3+ instances need level 3 (Validated). So a genuine new-pattern candidate from one talk should be drafted at Initial, not held back for more evidence that this process — one talk at a time — will never accumulate on its own.
 
 ### Step 8 — Git workflow
 
