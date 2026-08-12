@@ -81,6 +81,8 @@ For each substantive point in the talk, assign it to one of:
 
 **A. Known Instance candidate** — the talk validates, exemplifies, or vividly re-derives an existing pattern's solution. The right action: add a citation under the pattern's `## Known Instances` section.
 
+**Before citing a match, re-read the pattern's `## Problem` and `## Solution` sections, not just its patlet or title.** A talk can share a topic word with a pattern — "developer environment," "onboarding," "platform" — while doing something structurally different from what that pattern actually solves. Internal Developer Platform is a real trap here: it's specifically about a centralized, deployed, org-run self-service system (a portal, CI/CD orchestration, infrastructure provisioning) — not any tool that touches "developer environments." A story about a contributor's local setup (a containerized dev kit they run on their own laptop) is not a Known Instance of it, however similar the vocabulary sounds. The test is whether the talk's example does the same thing the pattern's Solution describes, not whether it shares a theme with the patlet.
+
 **B. Clarification candidate** — the talk surfaces a real gap or vagueness in an existing pattern. The right action: a small, surgical edit that fills the gap without reframing the pattern. Bias toward additions over rewrites; bias toward concrete guidance over editorial framing.
 
 **C. New pattern candidate** — the talk presents a problem/solution pair that no existing pattern covers. The right action: propose drafting a new pattern using the AI-assisted prompt in `meta/pattern-drafts-with-ai.md`.
