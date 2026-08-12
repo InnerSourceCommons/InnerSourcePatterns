@@ -41,6 +41,8 @@ The contributor is meaningfully more likely to keep contributing on their own, a
 
 Self-service onboarding assumes the only barrier is information: if the docs are good enough, people will find their own way in. But for a contributor who is already interested and capable, the real barrier is often activation energy - the first contribution feels too costly to attempt alone, so it never gets attempted. A dedicated, bounded, human-guided sprint directly removes that activation-energy barrier for the contributors most worth the investment, converting passive users into active contributors and, sometimes, into future mentors themselves.
 
+GitLab treats this as one piece of a broader respect for a contributor's time: alongside Co-create, they containerized their local development environment (the GitLab Development Kit), cutting setup from roughly two hours to under five minutes. The reasoning is the same either way - the less time a contributor spends fighting tools or navigating an unfamiliar codebase alone, the sooner they reach real contribution work, and the less likely they are to abandon the attempt.
+
 ## Known Instances
 
 * **GitLab** - GitLab's "Co-create" program identifies high-value potential contributors (people already using GitLab's own tooling) and sends an engineer to spend a dedicated week guiding them through their first real contribution, followed by support as they build independent momentum. See: [Break the contribution wall](https://www.youtube.com/watch?v=d3igPlTr4Ag) (InnerSource Commons, 2026, by Raimund Hook).
