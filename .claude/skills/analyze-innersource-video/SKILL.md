@@ -1,13 +1,13 @@
 ---
 name: analyze-innersource-video
-description: Analyze an InnerSource conference talk or community call — given either a YouTube URL or a transcript directly — and relate it to the InnerSourcePatterns library. Identifies which existing patterns the talk instantiates (Known Instance candidates), where it suggests clarifications to an existing pattern, and whether it justifies drafting a new pattern. Use when given a YouTube URL or a transcript of an InnerSource-related talk and asked to relate it to this repo's pattern library.
+description: Analyze an InnerSource conference talk transcript and relate it to the InnerSourcePatterns library. Identifies which existing patterns the talk instantiates (Known Instance candidates), where it suggests clarifications to an existing pattern, and whether it justifies drafting a new pattern. Use when given a transcript of an InnerSource-related talk and asked to relate it to this repo's pattern library.
 ---
 
 # Analyze InnerSource Video
 
 ## When to use
 
-The user provides either a YouTube URL or an already-fetched transcript of an InnerSource talk and asks you to compare it to the patterns in this repo. **A transcript handed to you directly is the common case going forward** — an automated source (e.g. a Zoom transcript pulled once a community call finishes) supplies the transcript and whatever metadata it has (speaker, org, date) without a YouTube URL ever being in the loop. The YouTube-fetch path stays for backlog talks and one-off requests where only a URL exists. See Step 1 for both.
+The user provides a transcript of an InnerSource talk — plus whatever metadata comes with it (speaker, org, event, date) — and asks you to compare it to the patterns in this repo.
 
 Goals: surface known instances, propose surgical clarifications to existing patterns, and identify genuinely new InnerSource pattern candidates.
 
@@ -17,13 +17,11 @@ Goals: surface known instances, propose surgical clarifications to existing patt
 
 ## Workflow
 
-### Step 1 — Get transcript and metadata
+### Step 1 — Confirm the transcript and metadata
 
-**If a transcript was handed to you directly** (the going-forward case — e.g. a Zoom transcript an automated source already pulled), skip the fetch entirely. Take whatever metadata came with it (speaker, org, event, date); if any of it is missing, ask the caller before falling back to a placeholder — same rule as Step 7's Known Instance citation. There is no video to fetch and no YouTube URL required.
+You need the transcript text, plus speaker, organization, event/channel, and date. If any of that's missing, ask the caller for it before guessing — a placeholder in a Known Instance citation is worse than asking (see Step 7).
 
-**If you only have a YouTube URL** (backlog talks, one-off requests), fetch both:
-
-**Transcript** — use the `youtube-transcript-api` Python library (already available; pip-installable if not). Do *not* try `WebFetch` on YouTube watch pages — it returns only the footer.
+**If you still need to pull a transcript from a video**, get it with the `youtube-transcript-api` Python library (already available; pip-installable if not). Do *not* try `WebFetch` on a YouTube watch page — it returns only the footer.
 
 Write a script to `.tmp/fetch_transcript.py`:
 
@@ -40,7 +38,7 @@ with open(".tmp/transcript_raw.txt", "w", encoding="utf-8") as f:
 
 Then collapse it to a flat readable form in `.tmp/transcript_flat.txt` (strip timestamps, join, normalize whitespace).
 
-**Metadata** — use `yt-dlp` via `python -m yt_dlp` (the `yt-dlp` binary may not be on PATH on Windows even when the package is installed). Write `.tmp/fetch_metadata.py`:
+**If speaker/org/date are still missing** and the transcript came from a video, pull them with `yt-dlp` via `python -m yt_dlp` (the `yt-dlp` binary may not be on PATH on Windows even when the package is installed). Write `.tmp/fetch_metadata.py`:
 
 ```python
 import json, yt_dlp
@@ -63,10 +61,10 @@ print(out["title"]); print(out["channel"]); print(out["description"])
 Produce a brief synthesis covering:
 
 - **Title** (from metadata, not from the transcript's spoken title — they often differ)
-- **Speaker** — full name from the description; note any nickname the speaker uses in the talk
-- **Organization** — from the description
-- **Channel / event** — typically the InnerSource Commons channel; the description often names a specific summit or webinar
-- **Upload date** — useful for citation
+- **Speaker** — full name; note any nickname the speaker uses in the talk
+- **Organization**
+- **Event** — typically an InnerSource Commons community call; note the specific summit or webinar if named
+- **Date** — useful for citation
 - **Core thesis** in one or two sentences
 - **Main artifacts / frameworks** the speaker introduces (named structures, checklists, blueprints, mantras)
 - **Memorable lines** — verbatim quotes can become useful in the pattern's Known Instance description
@@ -120,7 +118,7 @@ Then use `AskUserQuestion` to confirm which actions to take. **Do not edit any f
 
 - Match the existing style of that pattern's Known Instances section — typically `* **<Organization>** - <one-or-two-sentence description>` with the URL inline.
 - The lead bold should be the speaker's *organization*, not "Community talk" or similar meta-labels — the existing entries are all organizational, so use the same convention. If you cannot find an organization, ask the user before defaulting to a placeholder.
-- Quote a memorable line or describe the framework concisely. Cite the YouTube link.
+- Quote a memorable line or describe the framework concisely. Cite the source link.
 
 **For clarifications:**
 
@@ -160,7 +158,7 @@ Then use `AskUserQuestion` to confirm which actions to take. **Do not edit any f
 Structure the final writeup as:
 
 ```
-## Video summary
+## Talk summary
 <5–10 lines>
 
 ## How it maps to the existing pattern library
