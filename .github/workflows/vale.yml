@@ -21,7 +21,7 @@ jobs:
     - uses: actions/checkout@v7
 
     - name: Vale Linting
-      uses: vale-cli/vale-action@v2
+      uses: vale-cli/vale-action@v3
       with:
         files: '["patterns/2-structured/", "patterns/3-validated/"]'
         vale_flags: "--glob=*.md"
