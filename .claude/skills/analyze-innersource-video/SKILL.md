@@ -1,0 +1,184 @@
+---
+name: analyze-innersource-video
+description: Analyze an InnerSource conference talk transcript and relate it to the InnerSourcePatterns library. Identifies which existing patterns the talk instantiates (Known Instance candidates), where it suggests clarifications to an existing pattern, and whether it justifies drafting a new pattern. Use when given a transcript of an InnerSource-related talk and asked to relate it to this repo's pattern library.
+---
+
+# Analyze InnerSource Video
+
+## When to use
+
+The user provides a transcript of an InnerSource talk — plus whatever metadata comes with it (speaker, org, event, date) — and asks you to compare it to the patterns in this repo.
+
+Goals: surface known instances, propose surgical clarifications to existing patterns, and identify genuinely new InnerSource pattern candidates.
+
+## Default behavior
+
+**Propose, never auto-edit.** Always present analysis and use `AskUserQuestion` to confirm direction before making file changes. Never commit or PR without explicit confirmation.
+
+## Workflow
+
+### Step 1 — Confirm the transcript and metadata
+
+You need the transcript text, plus speaker, organization, event/channel, and date. If any of that's missing, ask the caller for it before guessing — a placeholder in a Known Instance citation is worse than asking (see Step 7).
+
+**If you still need to pull a transcript from a video**, get it with the `youtube-transcript-api` Python library (already available; pip-installable if not). Do *not* try `WebFetch` on a YouTube watch page — it returns only the footer.
+
+Write a script to `.tmp/fetch_transcript.py`:
+
+```python
+from youtube_transcript_api import YouTubeTranscriptApi
+
+video_id = "<VIDEO_ID>"
+api = YouTubeTranscriptApi()
+transcript = api.fetch(video_id)
+with open(".tmp/transcript_raw.txt", "w", encoding="utf-8") as f:
+    for s in transcript:
+        f.write(f"[{s.start:.1f}] {s.text}\n")
+```
+
+Then collapse it to a flat readable form in `.tmp/transcript_flat.txt` (strip timestamps, join, normalize whitespace).
+
+**If speaker/org/date are still missing** and the transcript came from a video, pull them with `yt-dlp` via `python -m yt_dlp` (the `yt-dlp` binary may not be on PATH on Windows even when the package is installed). Write `.tmp/fetch_metadata.py`:
+
+```python
+import json, yt_dlp
+opts = {"quiet": True, "skip_download": True, "no_warnings": True}
+with yt_dlp.YoutubeDL(opts) as ydl:
+    info = ydl.extract_info("<URL>", download=False)
+keys = ["title", "uploader", "channel", "upload_date", "duration", "description", "tags"]
+out = {k: info.get(k) for k in keys}
+with open(".tmp/video_metadata.json", "w", encoding="utf-8") as f:
+    json.dump(out, f, ensure_ascii=False, indent=2)
+print(out["title"]); print(out["channel"]); print(out["description"])
+```
+
+**The description usually contains speaker name and affiliation when the transcript does not** — this is the single most important reason to fetch metadata even when you have the transcript. Speakers often introduce themselves with just a first name or nickname.
+
+**Fallback for title + channel only:** the YouTube oEmbed endpoint (`https://www.youtube.com/oembed?url=<URL>&format=json`) works through `WebFetch`.
+
+### Step 2 — Summarize the talk
+
+Produce a brief synthesis covering:
+
+- **Title** (from metadata, not from the transcript's spoken title — they often differ)
+- **Speaker** — full name; note any nickname the speaker uses in the talk
+- **Organization**
+- **Event** — typically an InnerSource Commons community call; note the specific summit or webinar if named
+- **Date** — useful for citation
+- **Core thesis** in one or two sentences
+- **Main artifacts / frameworks** the speaker introduces (named structures, checklists, blueprints, mantras)
+- **Memorable lines** — verbatim quotes can become useful in the pattern's Known Instance description
+
+### Step 3 — Survey adjacent patterns
+
+Read the "List of Patterns" section of the repo's own `README.md` — it already has every pattern's title and patlet, grouped by maturity level, kept current as patterns are added. Read it in full; you want the patlet, not just the title, to judge relevance.
+
+Then pick the 3–6 patterns whose patlets sit closest to the talk's theme and read those files in full. Don't rely solely on patlets to judge a match: the talk's content may overlap meaningfully with parts of a pattern that the patlet doesn't surface.
+
+### Step 4 — Categorize the talk's content
+
+For each substantive point in the talk, assign it to one of:
+
+**A. Known Instance candidate** — the talk validates, exemplifies, or vividly re-derives an existing pattern's solution. The right action: add a citation under the pattern's `## Known Instances` section.
+
+**Before citing a match, re-read the pattern's `## Problem` and `## Solution` sections, not just its patlet or title.** A talk can share a topic word with a pattern — "developer environment," "onboarding," "platform" — while doing something structurally different from what that pattern actually solves. Internal Developer Platform is a real trap here: it's specifically about a centralized, deployed, org-run self-service system (a portal, CI/CD orchestration, infrastructure provisioning) — not any tool that touches "developer environments." A story about a contributor's local setup (a containerized dev kit they run on their own laptop) is not a Known Instance of it, however similar the vocabulary sounds. The test is whether the talk's example does the same thing the pattern's Solution describes, not whether it shares a theme with the patlet.
+
+**B. Clarification candidate** — the talk surfaces a real gap or vagueness in an existing pattern. The right action: a small, surgical edit that fills the gap without reframing the pattern. Bias toward additions over rewrites; bias toward concrete guidance over editorial framing.
+
+**C. New pattern candidate** — the talk presents a problem/solution pair that no existing pattern covers. The right action: propose drafting a new pattern using the AI-assisted prompt in `meta/pattern-drafts-with-ai.md`.
+
+### Step 5 — Apply the "uniquely InnerSource" filter
+
+**This is the most important judgment call and the easiest mistake to make.** A talk can contain genuinely good engineering advice that is *not* uniquely InnerSource. Examples that look like new patterns but probably aren't:
+
+- "Treat docs like code" — general dev advice; well-trodden outside InnerSource.
+- "Write better READMEs" — general OSS / dev advice.
+- "Use linters / CI / automation" — general engineering.
+
+What *is* uniquely InnerSource — the signal you're looking for:
+
+- It addresses the specific dynamic of **contributors who are not on the host team** (no shared context, no shared OKRs, no shared manager).
+- It addresses **cross-team collaboration friction** inside one company (Trusted Committers, escalation, ownership ambiguity, dual-line-management tension).
+- It addresses **incentive misalignment** between a developer's team goals and contributing to a shared project.
+- It addresses **scaling InnerSource adoption** across an organization (ambassadors, ISPO, governance levels).
+
+If the talk's central insight would be equally at home in a generic "good engineering" talk, it is not new-pattern material. It may still be a Known Instance or a clarification.
+
+### Step 6 — Present analysis
+
+Present a clear, three-part writeup to the user:
+
+1. **Talk summary** (5–10 lines: speaker, org, thesis, blueprint)
+2. **Mapping to existing patterns** with confidence labels (strong match, partial match, tangential)
+3. **Candidate actions** organized as: Known Instances to add, clarifications to make, new pattern candidates (with the "uniquely InnerSource" filter applied)
+
+Then use `AskUserQuestion` to confirm which actions to take. **Do not edit any file before this confirmation.** If the user is non-committal ("you decide"), make a confident recommendation in your own voice rather than asking again.
+
+### Step 7 — Apply chosen actions
+
+**For Known Instance citations:**
+
+- Match the existing style of that pattern's Known Instances section — typically `* **<Organization>** - <one-or-two-sentence description>` with the URL inline.
+- The lead bold should be the speaker's *organization*, not "Community talk" or similar meta-labels — the existing entries are all organizational, so use the same convention. If you cannot find an organization, ask the user before defaulting to a placeholder.
+- Quote a memorable line or describe the framework concisely. Cite the source link.
+
+**For clarifications:**
+
+- Stay surgical. Prefer adding a new subsection or bullet over rewriting an existing one.
+- If the change touches the pattern's templates (e.g. `templates/README-template.md`), edit those too.
+- Cross-link to other related patterns when distinguishing what the talk adds vs. what's already covered (e.g. distinguishing a contributor-facing system map from ADRs).
+
+**For new patterns:**
+
+- Use the prompt in `meta/pattern-drafts-with-ai.md` as the basis for drafting.
+- File name: lowercase, hyphenated, matching the title. Place in `patterns/1-initial/`.
+- Set Status to `Initial`, Known Instances to the talk itself, Author to TBD, omit Acknowledgments.
+- **One talk is enough to draft at Initial — don't hold back.** Per `meta/contributor-handbook.md`, maturity level 1 (Initial) has no validation requirement at all; it's explicitly for a single unstructured idea, even a "donut" with missing sections. One known instance clears the bar for level 2 (Structured); only 3+ instances need level 3 (Validated). So a genuine new-pattern candidate from one talk should be drafted at Initial, not held back for more evidence that this process — one talk at a time — will never accumulate on its own.
+
+### Step 8 — Git workflow
+
+- **Always branch off `main`**, not whichever branch the user is currently on. Confirm with `git status` and `git branch --show-current` first.
+- **One talk = one PR.** Bundle everything the analysis found for a single talk into one PR — Known Instance citations across several patterns, clarifications, a new pattern draft, whatever applies — the way #909 added Thales as a Known Instance across five patterns in one PR. Only split into separate PRs when the changes come from genuinely different source talks, not because they touch different patterns or different candidate types.
+- Match the repo's commit message style: sentence-case subject, no conventional-commit prefix (check `git log --oneline -5` for recent style).
+- Write the commit message body to `.tmp/commit_msg.txt` and use `git commit -F` (per user's no-heredocs rule).
+- Open the PR against `InnerSourceCommons/InnerSourcePatterns` upstream `main` (the user's fork is `origin`).
+- Include a `## Test plan` checklist in the PR body — the repo's convention.
+- Ask the user before pushing/PRing rather than auto-proceeding.
+
+## Anti-patterns to avoid
+
+- Don't use `WebFetch` on YouTube watch pages — it returns only the footer. Use `youtube-transcript-api` and `yt-dlp` instead.
+- Don't trust the spoken introduction for the speaker's organization — get it from the video description.
+- Don't add a Known Instance entry labeled "Community talk" or similar generic placeholder — the convention is to lead with the speaker's organization.
+- Don't propose "Treat docs like code" or similar generic-engineering ideas as new InnerSource patterns. Apply the Step 5 filter.
+- Don't split one talk's findings across multiple PRs — bundle Known Instances, clarifications, and new pattern drafts from the same talk into one PR (see Step 8).
+- Don't auto-commit or auto-push without confirmation from the user, even on "high confidence" calls — community library content warrants a human in the loop.
+- Don't write the commit message via heredoc — write to `.tmp/commit_msg.txt` and use `git commit -F`.
+
+## Output format for the user-facing analysis
+
+Structure the final writeup as:
+
+```
+## Talk summary
+<5–10 lines>
+
+## How it maps to the existing pattern library
+
+### Strong match — Known Instance candidate
+**[Pattern Name](patterns/.../file.md)**
+<why this talk is a known instance>
+
+### Partial / adjacent match
+**[Pattern Name](patterns/.../file.md)**
+<what overlaps, what differs>
+
+### Candidate new patterns
+**Candidate A — "<name>"**
+<problem/solution; "uniquely InnerSource" rationale or honest reason it's borderline>
+
+## Recommendation
+<which actions to take, in confident voice>
+```
+
+Then `AskUserQuestion` to confirm.
