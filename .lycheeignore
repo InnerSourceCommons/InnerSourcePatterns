@@ -15,3 +15,5 @@ https://www.linkedin.com/in
 https://github.com/trieshard/source-strategy-assessment/blob/master/framework.md
 https://dl.acm.org/doi/10.5555/3158161.3158175
 https://retromat.org/en/
+# O'Reilly returns 403 to the link checker's automated requests, though the page loads fine in a browser.
+http://www.oreilly.com/pub/e/3884
