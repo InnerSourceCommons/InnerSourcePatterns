@@ -24,6 +24,6 @@ jobs:
       uses: vale-cli/vale-action@v3
       with:
         files: '["patterns/2-structured/", "patterns/3-validated/"]'
-        vale_flags: "--glob=*.md"
+        glob: '*.md'
         filter_mode: added
         debug: true
