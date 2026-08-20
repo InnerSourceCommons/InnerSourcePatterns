@@ -1,24 +1,24 @@
-# Title
+## Title
 
 Sponsor Communication and Engagement
 
-# Patlet
+## Patlet
 
 InnerSource programs typically depend on a small number of senior sponsors for funding, organizational air cover, and top-down advocacy, but sponsors who only hear about the program sporadically, only receive one-way status updates, or are recruited purely for seniority rather than genuine engagement, tend to disengage, and their support quietly erodes over time. Hold recurring, time-boxed readouts that are forward-looking rather than retrospective, and split into a presentation segment and a protected discussion segment, so sponsors stay genuinely informed, have a real voice in shaping the program's direction, and know exactly how they can help.
 
-# Problem
+## Problem
 
 InnerSource programs are usually funded and organizationally protected by a small number of senior sponsors, not by the broader engineering organization. These sponsors are not close to day-to-day program work, so their understanding of the program's health, trajectory, and needs depends entirely on what gets communicated to them.
 
 When that communication is ad hoc (an email here, a slide in an unrelated leadership meeting there, or worse, silence until a budget review), sponsors lose visibility into what the program is actually doing and why it matters. Without regular, structured information, sponsors cannot distinguish a program that is quietly succeeding from one that is quietly stalling, cannot anticipate or help mitigate risks before they become budget or headcount problems, and have no natural opening to offer help (evangelism to their peers, unblocking a stuck initiative, connecting the program to adjacent efforts) because they are never told what kind of help would actually be useful. Over time, this erodes sponsor engagement, and a program that loses its sponsors' active support is at serious risk during any change in business priorities or leadership.
 
-# Story
+## Story
 
 A CTO-funded InnerSource program at a large enterprise technology company identified a small group of senior sponsors early on: the CTO plus several engineering leaders known for genuinely believing in cross-team collaboration, not simply the most senior available names. The program manager deliberately avoided enrolling the very top business-unit heads as sponsors, reasoning that their seniority would carry organizational weight on paper but their extremely limited time would make sustained, hands-on engagement unlikely.
 
 From the start, the program manager ran quarterly sponsor readouts on a fixed 40-minute structure: the first 20 minutes covered a forward-looking presentation, emphasizing the next quarter's plan, current risks, and specific asks, with only a brief look back at prior accomplishments. The second 20 minutes were deliberately left open for sponsor discussion, not passive Q&A, but active feedback, questions, and problem-solving. Sponsors were expected to talk, not just listen. Over time, this rhythm gave sponsors a real stake in shaping the program's direction rather than simply being briefed on it. One sponsor began referencing the program's adoption metrics unprompted in their own leadership meetings. Another used the discussion time to flag an adjacent initiative in their business unit that became a productive cross-team collaboration, later shared back as a case study in a subsequent readout.
 
-# Context
+## Context
 
 * An InnerSource program depends on a small set of identified senior sponsors (executives and/or senior engineering leaders) for funding, organizational protection, and advocacy.
 * Sponsors are not embedded in day-to-day program operations and have limited natural visibility into program activity, risk, or impact.
@@ -27,7 +27,7 @@ From the start, the program manager ran quarterly sponsor readouts on a fixed 40
 * Sponsors' time is scarce and highly contested by many other organizational priorities.
 * Not every senior leader who could plausibly sponsor the program has the availability or genuine interest to engage meaningfully; some of the most senior candidates (for example, business-unit heads) may lack the bandwidth to be effective sponsors despite their organizational weight.
 
-# Forces
+## Forces
 
 * **Sponsor time vs. depth of information:** sponsors have very limited time, but a readout that is too shallow (a status color and nothing else) fails to build genuine understanding or trust.
 * **Transparency vs. self-preservation:** presenting real risks and even failures builds credibility over time, but a program manager may be tempted to only show wins, which erodes trust once a sponsor learns the full picture some other way.
@@ -37,7 +37,7 @@ From the start, the program manager ran quarterly sponsor readouts on a fixed 40
 * **Organizational seniority vs. genuine availability and buy-in:** the most senior possible sponsors (such as business-unit heads) carry the most organizational weight, but are often the busiest people in the company and may not have the bandwidth for sustained, hands-on engagement; moderately senior engineering leaders who genuinely believe in the program may offer less top-level prestige but far more consistent, active support.
 * **Retrospective reporting vs. forward-looking planning:** reviewing the past builds accountability, but spending too much of a limited readout looking backward crowds out the conversation sponsors can actually influence, which is what happens next.
 
-# Sketch
+## Sketch
 
 ```
         Quarterly Sponsor Readout (40 minutes)
@@ -63,7 +63,7 @@ From the start, the program manager ran quarterly sponsor readouts on a fixed 40
         └─────────────────────────┘      └─────────────────────────┘
 ```
 
-# Solutions
+## Solutions
 
 Establish a recurring, structured, time-boxed communication cadence with a deliberately chosen sponsor group, built around a consistent, forward-looking readout format with protected space for two-way discussion, rather than relying on ad hoc updates, maximum-seniority sponsor selection, or one-way reporting.
 
@@ -83,7 +83,7 @@ Establish a recurring, structured, time-boxed communication cadence with a delib
 
 **8. End with specific, concrete asks.** Rather than a general request for "support," ask for something the sponsor can actually do: mentioning the program in a specific upcoming leadership meeting, making an introduction to a team facing a relevant challenge, or resolving a specific organizational blocker. Specific asks are far more likely to be acted on than general ones, and they give sponsors a clear, low-effort way to feel invested in the program's success.
 
-# Resulting Context
+## Resulting Context
 
 Sponsors who receive structured, recurring readouts develop a real, current understanding of the program's trajectory rather than a stale or fragmentary impression. This has effects beyond the readout meeting itself:
 
@@ -95,7 +95,7 @@ Sponsors who receive structured, recurring readouts develop a real, current unde
 
 This solution introduces a few things to manage deliberately: preparing a good readout takes real, recurring effort from the program manager, and that time investment needs to be planned for; sponsors can turn over (promotion, reorganization, departure), so the sponsor group and their context need periodic re-establishing; and if a readout becomes a rote, unchanging template, it risks losing the sponsors' attention exactly when a real risk or ask most needs it.
 
-# Rationale
+## Rationale
 
 The pattern works because it treats sponsor engagement as something that has to be actively maintained through a designed communication practice, not something that is a side effect of the program simply doing good work. Sponsors have no independent visibility into program operations, so their confidence and willingness to advocate are entirely a function of what they are shown and how. A recurring, time-boxed format resolves the core tension between sponsors' scarce time and the program's need for real understanding: the fixed structure (a forward-looking plan, risks, metrics, case studies, and asks, followed by protected discussion time) means every session delivers genuine substance and a real chance to engage, without requiring sponsors to sit through an unstructured, meandering update or a one-way briefing.
 
@@ -103,7 +103,7 @@ Presenting risks and failures alongside successes is not incidental, it is what 
 
 Two further design choices matter for the same underlying reason: sustained engagement requires a sponsor who has both genuine interest and the time to act on it. Selecting sponsors for belief and availability rather than maximum organizational seniority trades some prestige for a sponsor group that reliably shows up and follows through, since the busiest, most senior leaders are the least likely to be able to sustain that. Weighting the readout toward forward-looking content and protecting real discussion time works the same way: sponsors engage more when the conversation is about decisions they can still influence, not a report on decisions already made. A retrospective-heavy, presentation-only format leaves sponsors as an audience; a forward-looking format with protected discussion time makes them participants.
 
-# Related Patterns
+## Related Patterns
 
 * [Introducing Metrics in InnerSource](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/introducing-metrics-in-innersource.md): addresses the broader problem of needing concrete metrics to justify an InnerSource program, particularly across a change in business leadership. This pattern relies on exactly that kind of metric as one input to the sponsor readout, and extends the general case into a specific, recurring communication practice aimed at a named sponsor group.
 * [Include Product Owners](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/include-product-owners.md): covers working with leadership broadly to gain support and internally advertise InnerSource opportunities. This pattern is a more specific, structured practice aimed at a small, named group of senior sponsors rather than leadership or product owners in general.
@@ -111,18 +111,18 @@ Two further design choices matter for the same underlying reason: sustained enga
 * [Praise Participants](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/praise-participants.md): addresses recognizing individual contributors, including making their manager aware of their involvement. This pattern operates at a different level, informing and engaging the program's senior sponsors rather than individual contributors' direct managers, but both patterns share the underlying principle that visibility and recognition sustain engagement over time.
 * [Governance Levels](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/governance-levels.md): addresses how leadership negotiates and agrees on InnerSource governance models between teams. Sponsor readouts can surface exactly the kind of ambiguity or disagreement this pattern is designed to resolve, making the two patterns complementary in practice.
 
-# Known Instances
+## Known Instances
 
 A large enterprise technology company ran this practice for its CTO-funded InnerSource program. The sponsor group consisted of a handful of senior leaders, the CTO plus several engineering leaders chosen for their genuine belief in cross-team collaboration rather than for holding the most senior title available. The InnerSource program manager held quarterly readouts on a fixed 40-minute format: a 20-minute forward-looking presentation (a brief look back, followed by the next quarter's plan, risks with mitigation status, portal and adoption metrics, and case studies), and a second 20-minute segment reserved for open sponsor discussion and feedback. Over time, sponsors moved from passively approving funding to actively evangelizing the program to their own leadership and peers, and proactively offered help beyond funding.
 
-# Status
+## Status
 
 Structured
 
-# Author(s)
+## Author(s)
 
 Shruti Bist
 
-# Alias
+## Alias
 
 Quarterly Sponsor Readouts
