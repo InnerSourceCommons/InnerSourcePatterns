@@ -1,6 +1,6 @@
 [![Check Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml)
 [![Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml)
-[![Join our Slack!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=slack&label=slack)](https://innersourcecommons.org/slack)
+[![Join our Slack!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=slack&label=slack)](https://innersourcecommons.org/slack/)
 
 # InnerSource Patterns
 
@@ -15,7 +15,7 @@ Below you find [what a pattern is](#what-are-innersource-patterns), a [list of k
 
 Are you already using InnerSource in your company? If you would like to share your experiences with the world, we would love to [welcome your contributions](#how-to-contribute)!
 
-[isc-website]: http://innersourcecommons.org
+[isc-website]: https://innersourcecommons.org
 
 ## Mission Statement
 
@@ -135,10 +135,10 @@ Patterns are a way of describing a repeatable, proven solution to a problem with
 Patterns can provide a way for the InnerSource Commons participants to concisely share information, improving the practice of InnerSource. Patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
 * [What are patterns?](https://bit.ly/innersource_patterns_videos) - Watch a set of 2-5 min videos explaining InnerSource Patterns
-* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU?t=1479) - We held a webinar 2017-03-16 to have a live discussion on a donut pattern (go to [24:40](https://youtu.be/i-0IVhfRVFU?t=1479) for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](http://www.oreilly.com/pub/e/3884).
+* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU?t=1479) - We held a webinar 2017-03-16 to have a live discussion on a donut pattern (go to [24:40](https://youtu.be/i-0IVhfRVFU?t=1479) for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](https://www.oreilly.com/pub/e/3884).
 * [Pattern Template File](meta/pattern-template.md) - View a skeleton InnerSource pattern to get an idea on what goes into a new pattern!
 * [Introduction to InnerSource Patterns (2016 Fall Summit)](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) - *Tim Yao and Padma Sudarsan* (PDF). Detailed pattern background and examples -- Get a detailed understanding of why and how to interact with our patterns. Also see the [Introduction to InnerSource Patterns (2017 Fall Summit)](https://drive.google.com/open?id=0B7_9iQb93uBQWmYwMFpyaGh4OFU) *Tim Yao and Bob Hanmer* (PDF).
-* A scientific look at how to write patterns: [A pattern language for pattern writing](http://hillside.net/index.php/a-pattern-language-for-pattern-writing), Meszaros and Doble
+* A scientific look at how to write patterns: [A pattern language for pattern writing](https://hillside.net/index.php/a-pattern-language-for-pattern-writing), Meszaros and Doble
 
 ## How can you use InnerSource Patterns?
 
