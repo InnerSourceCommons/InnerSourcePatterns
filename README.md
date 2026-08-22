@@ -1,6 +1,6 @@
 [![Check Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml)
 [![Pattern Syntax Validation](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml/badge.svg)](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/lint-patterns.yml)
-[![Join our Slack!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=slack&label=slack)](https://innersourcecommons.org/slack)
+[![Join our Slack!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=slack&label=slack)](https://innersourcecommons.org/slack/)
 
 # InnerSource Patterns
 
@@ -15,7 +15,7 @@ Below you find [what a pattern is](#what-are-innersource-patterns), a [list of k
 
 Are you already using InnerSource in your company? If you would like to share your experiences with the world, we would love to [welcome your contributions](#how-to-contribute)!
 
-[isc-website]: http://innersourcecommons.org
+[isc-website]: https://innersourcecommons.org
 
 ## Mission Statement
 
@@ -100,6 +100,7 @@ Our mission
 * [Centralized InnerSource Repository Governance](patterns/1-initial/centralized-repository-governance.md) - *InnerSource repositories lose contributor readiness when project hygiene drifts across teams. A central governance repository defines readiness checks as policy-as-code and runs automated audits that help Trusted Committers and repository maintainers keep projects discoverable, understandable, and contribution-ready without removing local ownership.*
 * [InnerSource as a Career Booster](patterns/1-initial/innersource-as-career-booster.md) - *Many employees wonder how contributing to InnerSource projects benefits their careers beyond their immediate team objectives. By engaging in InnerSource, individuals expand their skills, grow their network, increase visibility across the organization, and unlock new career opportunities.*
 * [Migrating from InnerSource to Open Source](patterns/1-initial/migrating-from-innersource-to-open-source.md) - *When an InnerSource project succeeds internally and meets criteria for external release, organizations often lack a structured approach for the transition. Establish a process that addresses legal, security, governance, and community readiness to transition the project to open source while maintaining its internal value.*
+* [Transparent Catalog of Privacy Controls and Posture](patterns/1-initial/transparent-catalog-privacy-controls-posture.md) - *Large organizations often have no standardized, discoverable set of privacy controls that engineering teams can implement against, and no reliable visibility into which teams actually comply with existing privacy requirements, so risk stays hidden until an audit or incident surfaces it. Publish a version-controlled Privacy Controls Catalog as the shared baseline, open to engineering-proposed refinements but authored by privacy/legal, and maintain a separate, access-tiered Privacy Posture Register through the same pull-request and trusted-committer workflow, so compliance becomes a continuously queryable property of the codebase instead of a periodic audit exercise.*
 
 <!--
 NOTE: The 'Initial' Patterns below don't have a Patlet yet, which is essential for readers to quickly browse our patterns.
@@ -134,10 +135,10 @@ Patterns are a way of describing a repeatable, proven solution to a problem with
 Patterns can provide a way for the InnerSource Commons participants to concisely share information, improving the practice of InnerSource. Patterns are divided into Title, Problem Statement, Context, Forces, and Solutions as their main sections.
 
 * [What are patterns?](https://bit.ly/innersource_patterns_videos) - Watch a set of 2-5 min videos explaining InnerSource Patterns
-* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU?t=1479) - We held a webinar 2017-03-16 to have a live discussion on a donut pattern (go to [24:40](https://youtu.be/i-0IVhfRVFU?t=1479) for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](http://www.oreilly.com/pub/e/3884).
+* [Pattern Discussion Webinar](https://youtu.be/i-0IVhfRVFU?t=1479) - We held a webinar 2017-03-16 to have a live discussion on a donut pattern (go to [24:40](https://youtu.be/i-0IVhfRVFU?t=1479) for the discussion). This is an illustration of the review process we follow. Also see the [June 1, 2017 O'Reilly Webinar on InnerSource Patterns](https://www.oreilly.com/pub/e/3884).
 * [Pattern Template File](meta/pattern-template.md) - View a skeleton InnerSource pattern to get an idea on what goes into a new pattern!
 * [Introduction to InnerSource Patterns (2016 Fall Summit)](https://drive.google.com/open?id=0B7_9iQb93uBQbnlkdHNuUGhpTXc) - *Tim Yao and Padma Sudarsan* (PDF). Detailed pattern background and examples -- Get a detailed understanding of why and how to interact with our patterns. Also see the [Introduction to InnerSource Patterns (2017 Fall Summit)](https://drive.google.com/open?id=0B7_9iQb93uBQWmYwMFpyaGh4OFU) *Tim Yao and Bob Hanmer* (PDF).
-* A scientific look at how to write patterns: [A pattern language for pattern writing](http://hillside.net/index.php/a-pattern-language-for-pattern-writing), Meszaros and Doble
+* A scientific look at how to write patterns: [A pattern language for pattern writing](https://hillside.net/index.php/a-pattern-language-for-pattern-writing), Meszaros and Doble
 
 ## How can you use InnerSource Patterns?
 
@@ -155,6 +156,6 @@ To learn more about how to contribute, refer to our [CONTRIBUTING.md](CONTRIBUTI
 
 ## Licensing
 
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
 
-InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
+InnerSourcePatterns by [InnerSourceCommons.org](https://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
