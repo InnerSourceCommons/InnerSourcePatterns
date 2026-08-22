@@ -156,6 +156,6 @@ To learn more about how to contribute, refer to our [CONTRIBUTING.md](CONTRIBUTI
 
 ## Licensing
 
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
 
-InnerSourcePatterns by [InnerSourceCommons.org](http://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
+InnerSourcePatterns by [InnerSourceCommons.org](https://innersourcecommons.org) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
