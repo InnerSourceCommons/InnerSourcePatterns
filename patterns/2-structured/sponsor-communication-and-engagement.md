@@ -63,7 +63,7 @@ From the start, the program manager ran quarterly sponsor readouts on a fixed 40
         └─────────────────────────┘      └─────────────────────────┘
 ```
 
-## Solutions
+## Solution
 
 Establish a recurring, structured, time-boxed communication cadence with a deliberately chosen sponsor group, built around a consistent, forward-looking readout format with protected space for two-way discussion, rather than relying on ad hoc updates, maximum-seniority sponsor selection, or one-way reporting.
 
