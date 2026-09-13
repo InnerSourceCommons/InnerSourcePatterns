@@ -60,7 +60,7 @@ Depending on the sponsor's preference, the program team either attended the meet
               (feedback signal)
 ```
 
-## Solutions
+## Solution
 
 Turn each sponsor's existing meetings into a distribution channel for the program, by planning specific, low-effort asks in advance rather than hoping sponsors improvise on their own.
 
