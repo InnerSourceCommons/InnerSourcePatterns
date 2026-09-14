@@ -1,4 +1,4 @@
-# Title
+## Title
 
 Transparent Catalog of Privacy Controls and Posture
 
