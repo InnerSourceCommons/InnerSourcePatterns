@@ -120,7 +120,7 @@ This pattern is not simply a relabeling of general InnerSource security-sharing 
 
 TBD
 
-# Status
+## Status
 
 Initial
 
