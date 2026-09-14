@@ -4,7 +4,7 @@ Sponsor-Amplified Evangelism
 
 ## Patlet
 
-An InnerSource program cannot reach broad, organization-wide awareness through its own team's channels alone. Direct outreach (roadshows, tech talks, a portal) only reaches the people already paying attention. Equip the program's sponsors with a simple, ready-to-share link and a natural cue for when to mention it, and align the program's message to organizational goals already on their agenda, so sponsors amplify the program into meetings and audiences the program team could never reach directly, turning each sponsor into a distribution channel rather than only a funding source.
+An InnerSource program cannot reach broad organizational awareness through its own channels alone. Turn your program's sponsors into distribution channels by giving them a simple link and a clear cue to mention InnerSource in their existing meetings, tied to organizational goals they're already discussing.
 
 ## Problem
 
@@ -25,6 +25,7 @@ Depending on the sponsor's preference, the program team either attended the meet
 * Sponsors are generally supportive of the program but are not going to independently identify the best moment or framing to mention it in their own meetings without help.
 * The organization has broader strategic goals or priorities that sponsors are already accountable for communicating in their own meetings, giving a natural hook for connecting InnerSource to something already on the agenda.
 * The program has a single, simple, shareable resource (such as a portal link) that works both as a landing page for the curious and a directory for people ready to act.
+* This pattern assumes the organization has already established recurring sponsor readouts as the primary communication mechanism with the program's sponsors (see the companion pattern "Sponsor Communication and Engagement"). Without that structured cadence, the planning venue for sponsor-amplified mentions doesn't exist.
 
 ## Forces
 
@@ -66,7 +67,7 @@ Turn each sponsor's existing meetings into a distribution channel for the progra
 
 **1. Use the sponsor readout as the planning venue.** During the program's recurring sponsor readouts, explicitly ask each sponsor what meetings they have coming up (their own staff meeting, a BU all-hands, an executive readout) where InnerSource could naturally fit. This turns a general ask for "evangelism" into a specific, scheduled opportunity rather than an open-ended favor.
 
-**2. Tie the message to an organizational goal already on the sponsor's agenda.** Rather than asking a sponsor to introduce InnerSource as a standalone topic, connect it to whatever strategic priority or goal the sponsor is already planning to discuss. A message that reinforces something the audience already expects to hear about is far more likely to land and far easier for the sponsor to deliver naturally.
+**2. Tie the message to an organizational goal already on the sponsor's agenda.** Rather than asking a sponsor to introduce InnerSource as a standalone topic, connect it to whatever strategic priority or goal the sponsor is already planning to discuss. A message that reinforces something the audience already expects to hear about is far more likely to land and far easier for the sponsor to deliver naturally. Make this an explicit ask during sponsor readouts. Ask each sponsor upfront what upcoming meetings and organizational goals they're planning to communicate, so they can share their agendas in advance and you can identify where InnerSource naturally fits.
 
 **3. Give sponsors one simple, dual-purpose link.** Provide a single resource, such as an InnerSource portal link, that serves both as a landing page explaining how to get started and a directory of active projects to browse. A single link is easy for a sponsor to remember, say out loud, or paste into chat; multiple links or a longer explanation are not.
 
