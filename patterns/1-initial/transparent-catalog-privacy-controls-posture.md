@@ -23,7 +23,7 @@ Separately, three teams in the same organization each independently build their 
 
 A privacy manager receives a customer security and privacy questionnaire ahead of a contract renewal. One section asks not just whether the product uses generative AI, but how: what it's used for, what data it touches, and what safeguards are in place. The privacy manager knows GenAI is used somewhere in the product, but not in what capacity, for which features, or on what data. What follows is several days of chasing the product manager and engineering team for answers before the questionnaire can be answered accurately. The customer is left waiting on a response that should have taken minutes, for information that already exists somewhere in the organization, just not anywhere the privacy manager could find it. This is the same visibility gap as the audit fire drill above, just triggered by an external customer question instead of an internal audit, and made worse because the missing information is about what's deployed at all, not only whether a known control is met.
 
-# Context
+## Context
 
 * The organization has many engineering teams building and operating services independently (a decentralized engineering model).
 * A central privacy (and/or legal, compliance) function exists and is accountable for defining regulatory and policy requirements, but is small relative to the number of engineering teams.
