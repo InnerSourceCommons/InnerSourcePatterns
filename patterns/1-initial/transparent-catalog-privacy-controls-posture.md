@@ -15,7 +15,7 @@ In a large enterprise, privacy requirements typically live in policy PDFs, wiki 
 
 These two problems compound each other: without a common, structured baseline, there is no consistent schema to report compliance against, which makes visibility even harder to establish.
 
-# Story
+## Story
 
 A platform team at a large financial services company is asked, ahead of a regulatory audit, to confirm that all customer-facing services encrypt PII at rest and support data-subject deletion requests within the required window. The privacy team sends a spreadsheet to sixty engineering teams and asks them to self-report. Three weeks later, half the responses are missing, several are contradictory, and two teams admit they were not aware the requirement applied to them because it was only described in a policy document last updated two years earlier. The audit preparation becomes a fire drill instead of a report generated from ground truth.
 
