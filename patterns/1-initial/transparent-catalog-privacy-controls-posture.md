@@ -32,7 +32,7 @@ A privacy manager receives a customer security and privacy questionnaire ahead o
 * Some information about a team's privacy posture (in particular, unaddressed gaps) is itself sensitive: if broadly exposed, it can function as a map of weak points rather than just a status report.
 * Unlike security, privacy typically lacks equivalent visibility tooling and cultural maturity. Security has decades of dedicated infrastructure (vulnerability scanners, SIEMs, dependency scanning, CVE feeds, security scorecards) that give organizations at least an approximate, largely automated view of exposure. Privacy has no comparable standard tooling: requirements like purpose limitation, consent validity, or retention compliance are much harder to detect automatically than a known vulnerability signature, so privacy status defaults to manual self-reporting, spreadsheets, and stale PIAs far more often than security status does.
 
-# Forces
+## Forces
 
 * **Standardization vs. team autonomy:** a single, mandatory baseline is easier to audit and enforce, but engineering teams resist controls that ignore their specific context or slow them down.
 * **Visibility vs. security exposure:** the more detailed and centralized the record of "what's missing," the more useful it is to leadership and auditors, but also the more useful it is to anyone trying to find the weakest target.
