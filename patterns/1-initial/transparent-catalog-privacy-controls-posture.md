@@ -106,7 +106,7 @@ The pattern works by giving the two problems, lack of standardization and lack o
 
 This pattern is not simply a relabeling of general InnerSource security-sharing practices. Security-related sharing already benefits from mature, largely automated visibility tooling (scanners, SIEMs, dependency graphs), so the open-source-inside-the-firewall question for security is mostly "how open should access to already-visible information be." Privacy starts a step earlier: the information often isn't reliably visible or standardized at all, regardless of access level, because the tooling and organizational habits that make security status legible haven't been built for privacy. This pattern's two-repository structure exists specifically to close that earlier gap, creating the standardized, structured record in the first place, before the same access-tiering logic used in security contexts can even be meaningfully applied.
 
-# Related Patterns
+## Related Patterns
 
 * [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer.md): this pattern is the direct governance model used for both the Controls Catalog and the Posture Register. Privacy/legal/security staff act as trusted committers with final review and merge authority, while broader engineering can propose changes.
 * [Common Requirements](https://patterns.innersourcecommons.org/p/common-requirements.md): describes the general problem of many teams needing the same underlying requirement met inconsistently. The Privacy Controls Catalog is a specific application of this pattern to privacy/regulatory requirements.
