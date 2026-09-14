@@ -116,7 +116,7 @@ This pattern is not simply a relabeling of general InnerSource security-sharing 
 * [Transparent Cross-Team Decision Making using RFCs](https://patterns.innersourcecommons.org/p/transparent-cross-team-decision-making-using-rfcs.md): offers a complementary mechanism for proposing new or changed controls in the Catalog with visible, structured cross-team input before a trusted committer merges them.
 * [Balancing Openness and Security](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/balancing-openness-and-security.md): a more general pattern addressing how Security/Legal can be embedded in InnerSource collaboration through explicit sharing levels and sensitivity classification. This pattern specializes and extends that idea for privacy specifically. Unlike security, privacy typically lacks the mature, largely automated visibility tooling (scanners, SIEMs, dependency graphs) that lets security status be classified and shared at the right level in the first place. This pattern's two-repository structure exists to first create a standardized, structured record of privacy controls and posture, a step security's tooling already provides, before the same access-tiering logic can be applied.
 
-# Known Instances
+## Known Instances
 
 TBD
 
