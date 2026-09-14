@@ -128,6 +128,6 @@ Initial
 
 Shruti Bist
 
-# Alias
+## Alias
 
 Privacy Controls Catalog and Posture Register
