@@ -86,7 +86,7 @@ Because both repositories are version-controlled, the age of the last update to 
 **5. Where possible, enforce controls in CI rather than relying on documentation alone.**
 Pair controls that have a code-detectable signature (for example, "must use the approved PII redaction library") with a CI check that other repositories can import, so conformance is checked automatically on every pull request rather than solely self-reported in the posture register.
 
-# Resulting Context
+## Resulting Context
 
 Engineering teams have a single, discoverable, versioned place to find out what privacy controls apply to them and how to implement them, reducing inconsistent or incorrect implementations. The privacy team can query current compliance posture directly from the register instead of running a manual survey before every audit, and staleness or drift is visible as a natural property of the repository rather than something that must be actively investigated.
 
