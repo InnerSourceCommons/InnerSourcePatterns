@@ -2,7 +2,7 @@
 
 Transparent Catalog of Privacy Controls and Posture
 
-# Patlet
+## Patlet
 
 Large organizations often have no standardized, discoverable set of privacy controls that engineering teams can implement against, and no reliable visibility into which teams actually comply with existing privacy requirements, so risk stays hidden until an audit or incident surfaces it. Publish a version-controlled Privacy Controls Catalog as the shared baseline (open to engineering-proposed refinements but authored by privacy/legal), and maintain a separate, access-tiered Privacy Posture Register through the same pull-request and trusted-committer workflow, so compliance becomes a continuously queryable property of the codebase instead of a periodic audit exercise.
 
