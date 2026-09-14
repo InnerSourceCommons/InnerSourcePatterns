@@ -60,7 +60,7 @@ A privacy manager receives a customer security and privacy questionnaire ahead o
 
 Both repositories are maintained through the same InnerSource mechanics (pull requests, review, versioning), but with different read-access levels: the catalog is the open standard; the register is the tiered record of who meets it.
 
-# Solutions
+## Solution
 
 Maintain two separate, InnerSource-governed repositories instead of one undifferentiated "privacy documentation" space, because standardization and visibility have different audiences and different risk profiles.
 
