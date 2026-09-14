@@ -40,7 +40,7 @@ A privacy manager receives a customer security and privacy questionnaire ahead o
 * **Currency vs. effort:** a baseline or posture record that is accurate today becomes stale unless updating it is cheap and built into normal engineering workflow, but keeping documentation current is usually treated as separate, de-prioritized work.
 * **Transparency vs. trust:** teams are more willing to record known gaps honestly if doing so doesn't feel like exposing themselves to blame or to attackers; excessive exposure discourages honest self-reporting.
 
-# Sketch
+## Sketch
 
 ```
  ┌─────────────────────────────┐        ┌───────────────────────────────┐
