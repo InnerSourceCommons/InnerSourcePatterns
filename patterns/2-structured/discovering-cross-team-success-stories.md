@@ -23,7 +23,7 @@ The program team then reached out directly to the flagged contributors and repos
 ## Context
 
 * The InnerSource program has scaled to a large number of repositories and participating teams, large enough that informally tracking collaboration by word of mouth is no longer feasible.
-* Contribution activity (commits, pull requests, or equivalent) on InnerSource repositories is available in a form that can be queried or extracted programmatically.
+* Merged pull request activity on InnerSource repositories is available in a form that can be queried or extracted programmatically, since accepted contributions represent real cross-team collaboration.
 * The organization has some existing directory or mapping of individuals to their team or business unit (an org chart, HR system, or internal directory) that can be used to determine a contributor's home team.
 * The program wants to identify not just that collaboration is happening, but specific, concrete instances detailed enough to serve as evidence for sponsors and as case studies for broader promotion.
 * Not all flagged cross-team activity is equally meaningful; some may be incidental (a one-off typo fix) rather than a genuine collaboration worth telling as a story.
@@ -33,7 +33,7 @@ The program team then reached out directly to the flagged contributors and repos
 * **Manual awareness vs. programmatic detection:** asking teams directly is more contextual and often surfaces detail a script cannot, but it does not scale once the number of repositories and teams grows large; a script scales but only produces a signal, not the full story.
 * **Signal vs. noise:** flagging any contribution from outside the owning team is simple to implement, but not every flagged case represents meaningful collaboration; some manual triage is needed to separate incidental contributions from genuine cross-team work.
 * **Automation effort vs. ongoing value:** building and maintaining the script and the contributor-to-team mapping takes upfront and ongoing engineering effort, but pays off repeatedly as the program continues to scale, unlike a one-time manual survey that goes stale immediately.
-* **Privacy and framing vs. usefulness:** using contributor identity data to flag individuals' activity is useful for the program, but should be framed and used carefully, as a way to find and celebrate collaboration, not as a surveillance or performance-monitoring mechanism.
+* **Privacy and framing vs. usefulness:** using contributor identity data to flag individuals' activity is useful for the program, but should be framed and used carefully, as a way to find and celebrate collaboration, not as a surveillance or performance-monitoring mechanism. While safeguards can mitigate the risk (ensuring the script is owned by the InnerSource program team rather than HR or performance management, explicitly framing data as "collaboration discovery for storytelling," and maintaining transparency about usage), the pattern itself doesn't prevent misuse by design. Organizations implementing this should establish clear governance around who controls the data and how it can be used.
 * **Breadth of coverage vs. depth of understanding:** a script can scan every repository in the program, but understanding why a flagged case matters, and whether it was organic or a deliberate response to shared business needs, still requires a human conversation with the people involved.
 
 ## Sketch
@@ -65,19 +65,19 @@ The program team then reached out directly to the flagged contributors and repos
         → sponsor readouts, evangelism, portal
 ```
 
-## Solutions
+## Solution
 
 Replace informal, ask-around discovery of cross-team collaboration with a programmatic scan of contribution data against the org's team structure, then follow up manually on what the scan surfaces.
 
 **1. Establish a contributor-to-team mapping.** Use whatever directory the organization already maintains (an org chart, HR system, or internal people directory) to determine which team or business unit each individual contributor belongs to. This mapping is the foundation the rest of the detection depends on, and it needs to be kept reasonably current as teams reorganize.
 
-**2. Script the comparison against each InnerSource repository's contributors.** Pull the list of contributors (via commit history, pull request authorship, or equivalent) for each InnerSource repository, and compare each contributor's mapped team against the repository's own owning team. Flag any contributor whose team does not match the repository's owning team.
+**2. Script the comparison against each InnerSource repository's contributors.** Pull the list of contributors (via commit history, pull request authorship, or equivalent) for each InnerSource repository, and compare each contributor's mapped team against the repository's own owning team. Owning team in this pattern refers to the teams/individuals listed in the repository's CODEOWNERS file. Flag any contributor whose team does not match the repository's owning team.
 
-**3. Treat the flagged list as a lead list, not a finished result.** The output of the script is a manageable set of specific, concrete candidates for further investigation, not a final answer about collaboration quality. Some flagged cases will be trivial (an incidental one-line fix); others will be substantial, ongoing collaboration.
+**3. Treat the flagged list as a lead list, not a finished result.** The output of the script is a manageable set of specific, concrete candidates for further investigation, not a final answer about collaboration quality. Some flagged cases will be trivial (an incidental one-line fix); others will be substantial, ongoing collaboration. Develop a template for reaching out to flagged contributors. Prioritize those with sustained, multiple contributions first, but investigate all cases on a staggered timeline. The most compelling collaboration stories often come from across all contribution levels, not just the highest-volume contributors.
 
 **4. Follow up directly with the people involved.** Reach out to the flagged contributor and the repository's owning team to understand the nature of the activity: whether it was organic and unplanned, or a deliberate collaboration arising from two teams' overlapping needs. This conversation is what turns a data point into a story with enough specific detail (who, why, what problem, what outcome) to actually be useful.
 
-**5. Feed confirmed stories into existing sponsor and evangelism channels.** Route the resulting case studies into the program's sponsor readouts and broader evangelism efforts (see the companion patterns on sponsor communication and sponsor-amplified evangelism) as concrete, specific evidence of the program's impact, rather than only aggregate metrics.
+**5. Feed confirmed stories into existing sponsor and evangelism channels.** Route the resulting case studies into the program's sponsor readouts and broader evangelism efforts (see the companion patterns on sponsor communication and sponsor-amplified evangelism) as concrete, specific evidence of the program's impact, rather than only aggregate metrics. Use a consistent template: Challenge (the business problem), Solution (how InnerSource enabled collaboration), Impact (concrete outcomes), and Testimonials (contributor quotes). Deliberately present both major and minor contributions. Meaningful collaboration happens at all scales, and showcasing contributions across all levels encourages broader participation.
 
 ## Resulting Context
 
@@ -108,7 +108,7 @@ The practice also correctly separates two different problems: finding candidates
 
 ## Known Instances
 
-A large enterprise technology company used this practice once its InnerSource program had scaled to several hundred repositories across many participating teams. The program team wrote a script that pulled contributor data from InnerSource repositories and mapped each contributor to their business unit using the organization's existing directory, flagging any contribution from someone outside the repository's owning business unit. The team followed up directly on flagged cases to confirm and understand the nature of the collaboration, distinguishing organic contributions from deliberate collaboration driven by two business units' overlapping needs. Confirmed cases became case studies used in sponsor readouts and in the program's broader efforts to promote InnerSource across the company.
+A large enterprise technology company implemented this pattern for its CTO-funded InnerSource program at scale (several hundred repositories). The programmatic contributor-to-team mapping successfully identified cross-team collaboration that manual discovery alone had missed, surfacing concrete success stories used in sponsor readouts and program evangelism. The approach proved sustainable and repeatable.
 
 ## Status
 
