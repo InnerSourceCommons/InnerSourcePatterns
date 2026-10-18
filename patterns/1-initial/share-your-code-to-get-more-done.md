@@ -4,7 +4,7 @@ Share Your Code to Get More Done
 
 ## Patlet
 
-TBD
+Development teams working in silos cannot deliver software fast enough but have no obvious path to increase throughput, unaware that opening their codebase to InnerSource contributions could unlock capacity from developers across the organization. By building an evidence-based project plan showing the value of contributions and actively recruiting potential contributors, teams expand their effective development capacity without adding permanent headcount.
 
 ## Problem
 

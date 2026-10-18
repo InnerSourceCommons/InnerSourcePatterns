@@ -78,12 +78,12 @@ our InnerSource pattern system.
 
 Takashi Iba has published an article in the ACM Digital Library from PLoP 2016:
 [A pattern language for creating pattern languages: 364 patterns for pattern
-mining, writing, and symbolizing](https://dl.acm.org/citation.cfm?id=3158175&CFID=831673585&CFTOKEN=74341142&qualifier=LU1011674)
+mining, writing, and symbolizing](https://dl.acm.org/doi/10.5555/3158161.3158175)
 
 - for those without ACM DL access, there is [an earlier draft of the paper from
 PLoP 2016](http://www.hillside.net/plop/2016/papers/three/26.3.pdf).
 
-## Candiate Classifications
+## Candidate Classifications
 
 This section shall serve to collect individual proposals for systems of ISC
 patterns. Contribute away ;)
@@ -196,7 +196,7 @@ talk "InnerSource 101 and The Apache Way"[1] as a way to characterize patterns:
 * Community
 * Meritocracy
 
-And in addition, this would have some ortogonal techniques to work on building
+And in addition, this would have some orthogonal techniques to work on building
 a proper transparency (for instance) that could go from the infrastructure to
 be used to monitoring the process and produce surveys, training and other
 actions.
@@ -244,7 +244,7 @@ potential characterization based on the companies structure?
 
 I like a lot of the other planes suggestions.  Wanted to add one more - the point in the lifecycle of the InnerSource project.  Does this pattern apply to:
 
-* Pre-launch (prepration to launch) an InnerSource project?
+* Pre-launch (preparation to launch) an InnerSource project?
 * Launch (initial kick-off)?
 * Initial growth?
 * Broad adoption?

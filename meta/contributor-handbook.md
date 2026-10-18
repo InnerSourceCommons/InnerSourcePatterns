@@ -47,6 +47,7 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
   - The pattern links to related patterns of this level or higher.
   - Links from the pattern to outside resources are working and are referencing a trusted resource - whether links are working is verified by [Check: Links](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/link-checker.yml)
   - The pattern is added to at least one phase of the [InnerSource Program Mind Map](../pattern-categorization/README.md).
+  - Spelling & Styles checks pass - see [Check: Spelling & Styles](https://github.com/InnerSourceCommons/InnerSourcePatterns/actions/workflows/vale.yml)
 
 - Artifacts:
   - The patterns are stored as markdown files in [/patterns/2-structured][patterns-structured].
@@ -64,7 +65,6 @@ To achieve a given maturity level, a pattern has to satisfy the requirements for
   - Uses & has no conflicts with working group terminology (defined by [Glossary](glossary.md) / implicit usage)
   - Fits & has no conflicts with existing patterns (of this maturity level)
   - Thorough review by at least two [trusted committers](../TRUSTED-COMMITTERS.md)
-  - Spell Checking passes - *Oops! We have not yet developed this*
 
 - Artifacts:
   - The patterns are stored as markdown files in [/patterns/3-validated][patterns-validated].

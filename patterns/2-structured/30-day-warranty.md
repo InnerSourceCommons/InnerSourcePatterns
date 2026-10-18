@@ -34,7 +34,7 @@ Address the fears of both the receiving and the contributing teams by establishi
 
 Note that the warranty period could be 45, 60, or 100 days too. The duration may vary based upon the constraints of the project, the software life cycle of the project, commitments to customers, and other factors.
 
-In addition it helps to provide clear [contribution guidelines](./project-setup/base-documentation.md), spelling out the expectations of the receiving team and the contributing team.
+In addition it helps to provide clear [contribution guidelines](./base-documentation.md), spelling out the expectations of the receiving team and the contributing team.
 
 ![30 Day Warranty](../../assets/img/thirtydaywarranty.jpg)
 
@@ -46,15 +46,16 @@ In addition it helps to provide clear [contribution guidelines](./project-setup/
 
 ## Known Instances
 
-- This was tried and proven successful at PayPal.
-- GitHub internally uses this pattern with a modified warranty timeline of 6 weeks.
-- Microsoft recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
+- **PayPal** Tried this and it was proven successful.
+- **GitHub** internally uses this pattern with a modified warranty timeline of 6 weeks.
+- **Microsoft** recommends this pattern as a principle - teams set their own specific time target matching their needs and confidence.
+- **SAP** leverages this pattern in their InnerSource-based Everest project to transform collaboration, ensuring contributions are not just accepted but also supported, enhancing trust and driving forward the culture of shared responsibility and innovation. See: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
 
 ## Authors
 
 - Cedric Williams
 
-## Acknowledgement
+## Acknowledgments
 
 - Dirk-Willem van Gulik
 - Padma Sudarsan

@@ -4,7 +4,7 @@ Culture Change through Hiring
 
 ## Patlet
 
-TBD
+An InnerSource program struggles to reach critical mass because most existing employees lack open source or InnerSource experience, and HR does not factor in collaborative development skills when recruiting or reviewing performance. By aligning Engineering and HR to actively seek and develop these skills, organizations accelerate cultural change and build a self-sustaining InnerSource community.
 
 ## Problem
 

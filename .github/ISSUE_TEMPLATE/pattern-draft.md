@@ -7,8 +7,11 @@ assignees: ''
 
 ---
 
-This is the most basic template for a new pattern.
-See our full pattern syntax [here](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md).
+If you don't know how to get started, try to [draft an InnerSource Pattern with AI](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-drafts-with-ai.md).
+Then you can paste the result into the issue below, do manual edits as you see fit and submit it.
+
+Below you see a basic template for a new pattern.
+For the full details, see our [pattern template](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/meta/pattern-template.md).
 
 ## Title
 
@@ -16,7 +19,8 @@ Short Title Here
 
 ## Patlet / Summary
 
-Concise 1-2 sentence description of the problem and solution.
+Concise 2 sentence description of the problem and solution.
+The 1st sentence describes the problem. The 2nd sentence describes the solution.
 
 ## Problem
 
@@ -59,7 +63,7 @@ May mention:
 * A particular business
 * Anonymized instances ex: "3 companies have proven that this is a good solution" or "A large financial services org...".
 
-## Status 
+## Status
 
 Initial
 

@@ -35,7 +35,7 @@ instead of running into all of the hurdles that early adopters run into.
 - The goal is to increase collaboration, reduce duplication, increase knowledge
   sharing.
 - Some teams already adopted a lot of InnerSource best practices, often when
-  doing so they had to fix hurdles within the organisation when adopting a more
+  doing so they had to fix hurdles within the organization when adopting a more
 collaborative way of working.
 - Some associates refuse to invest time in experimenting with new ways of
   working, preferring a stable environment.

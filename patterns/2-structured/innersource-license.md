@@ -5,7 +5,6 @@ InnerSource License
 ## Patlet
 
 Two legal entities that belong to the same organization want to share software source code with each other but they are concerned about the implications in terms of legal liabilities or cross-company accounting.
-
 An **InnerSource License** provides a reusable legal framework for the sharing of source code within the organization. This opens up new collaboration options, and makes the rights and obligations of the involved legal entities explicit.
 
 ## Problem
@@ -32,12 +31,13 @@ At the time of sharing the source code, it can not be reliably predicted what th
 - Freedom over using the software leads to competition, and spread of ownership
 - There are legal contracts in place which cover the sharing of source code. These contracts are not standardized, so they create additional effort in negotiating and understanding for every project. The existing contracts may also not allow sharing source code in an open enough sense to support a true InnerSource approach.
 - Alternatively, there are no legal contracts in place but source code is shared informally. That might create uncertainty in cases where clarity about ownership and rights and obligations is needed.
+- Choosing a restrictive and/or copyleft license can constitute a barrier for InnerSource adoption. Specifically, limiting publication to the organization might require a costly relicensing procedure prior to transitioning to Open Source.
 
 ## Solutions
 
 Creating an **InnerSource License** customized to the needs of the organization in question (and their legal entities). This license needs to be generic enough to be applied to the most important inter-company relationships.
 
-It is important to write the InnerSource License such that it truly allows for OpenSource-like collaborations across the boundaries of the involved legal entities. Therefore the 4 freedoms of free software should be integrated into the license.
+It is important to write the InnerSource License such that it truly allows for open source style collaboration across the boundaries of the involved legal entities. Therefore the 4 freedoms of free software should be integrated into the license.
 
 The License is written as a formal legal document, and can be used as part of contracts between the legal entities to govern the code sharing agreements.
 
@@ -50,6 +50,16 @@ The license simplifies the conversations within our organization about sharing s
 **Note:** The experiment described in **Known Instances** is in an early phase. Therefore a firm **Resulting Context** has not formed yet. In a couple of months the effects of the InnerSource License on this problem space will be more clear, and this section can be updated.
 
 ## Known Instances
+
+- **DB Systel**
+- **Robert Bosch GmbH**
+- **Airbus**
+- **GovTech (Singapore Government)**
+- **Siemens** has developed their own InnerSource license alongside other necessary legal agreements between subsidiaries.
+- **Mercedes-Benz**
+- **Thales Group**
+
+### DB Systel
 
 DB Systel created their own InnerSource License, see [DB Inner Source License][db-inner-source-license]. They used the [EUPL][eupl], as that offered an open source like starting point, and then worked out the constraints and additional rules required in their specific organizational context.
 
@@ -65,6 +75,23 @@ The mentioned collaboration challenges include:
 - building communities for collaboration on projects, just like in Open Source
 
 It is worth mentioning that so far the software shared under this InnerSource license is mostly tooling, infrastructure, and tools lower in the stack.
+
+### Airbus
+
+Airbus created ad hoc InnerSource licenses to enable InnerSource way of working within a large part of the group.
+
+### GovTech (Singapore Government)
+
+GovTech is responsible for the delivery of the Singapore government's digital services to the public.
+They created the GovTech Public Sector License (GPSL) as a permissive license to ensure that code can be shared between legal entities across government.
+The GPSL covers both usage of code by licensees (agencies and their vendors) as well as contributions back to GovTech.
+Following open source practices, the GPSL `LICENSE` file is included in each repository that is made available as InnerSource.
+
+For more details see the InnerSource Commons Community call from 09/2023 [Improving Engineering Collaboration across the Singapore Government through InnerSource](https://www.youtube.com/watch?v=-zu2X2iERv8&t=1257s&ab_channel=InnerSourceCommons) (around 20:50) by Hunter Nield.
+
+### Thales Group
+
+Thales Group created a framework of four ready-to-use InnerSource licenses, developed in close collaboration with legal partners. See: [Why People Matter Most: Building a Sustainable InnerSource Strategy](https://www.youtube.com/watch?v=r0dx84lUDYY) (InnerSource Commons, 2026, by Marius Moulis).
 
 ## Status
 
@@ -87,5 +114,5 @@ It is worth mentioning that so far the software shared under this InnerSource li
 - **organization** - An umbrella for multiple legal entities. (synonyms: group, enterprise) (e.g. Lufthansa)
 - **legal entity** - An entity that has its own legal rights and obligations (synonyms: company, subsidiary) (e.g. Lufthansa Systems GmbH, Lufthansa Industry Solutions TS GmbH, ...)
 
-[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/blob/master/DB-Inner-Source-License.md
-[eupl]: https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+[db-inner-source-license]: https://github.com/dbsystel/open-source-policies/tree/master/inner-source-license
+[eupl]: https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12

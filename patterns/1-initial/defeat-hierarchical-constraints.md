@@ -4,7 +4,7 @@ Defeat Hierarchical Constraints
 
 ## Patlet
 
-TBD
+In strongly hierarchical organizations, developers want to contribute to InnerSource projects but are blocked by direct managers who prioritize their own team's goals and fear losing their team's time to cross-team work. Making InnerSource contributions a recognized part of individual performance goals and helping managers see concrete benefits for their own teams can empower developers to participate despite these constraints.
 
 ## Problem
 

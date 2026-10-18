@@ -19,7 +19,7 @@ Instead edit toc_template.md
 
 ## 模式 <a id="p"></a>
 
-<<PATTERS_HERE>>
+<<PATTERNS_HERE>>
 
 ## 附录
 
@@ -27,6 +27,7 @@ Instead edit toc_template.md
 * 额外
   * [README 模板](../../translation/zh/templates/README-template.md)
   * [CONTRIBUTING 模板](../../translation/zh/templates/CONTRIBUTING-template.md)
+  * [RFC 模板](../../translation/zh/templates/rfc.md)  
 
 ## 资源
 

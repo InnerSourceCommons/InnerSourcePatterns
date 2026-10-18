@@ -4,7 +4,7 @@ Reluctance to accept contributions
 
 ## Patlet
 
-TBD
+The team owning a shared InnerSource component is reluctant to accept contributions because doing so means taking on maintenance responsibility for unfamiliar code of uncertain quality. Establishing clear contribution guidelines, a time-limited post-merge support warranty from contributors, and a documented review workflow gives the host team confidence to accept contributions while setting clear expectations for contributors.
 
 ## Problem
 
@@ -69,6 +69,8 @@ Klaas-Jan Stol
 * Nick Yeates
 
 ## References
+
+Old Patlet: Core owner of shared asset is reluctant to take contributions due to the required maintenance that comes with them. Summary pattern that lays out four children patterns with three to be defined.
 
 Pattern was first created in the gDoc: [Reluctance to Receive Contributions](https://docs.google.com/document/d/13QDN-BpE_BixRFVGjao32n4Ctim0ROXAHbBWMBOijb4/edit)
 

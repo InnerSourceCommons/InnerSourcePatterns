@@ -4,7 +4,7 @@ Bad weather for liftoff
 
 ## Patlet
 
-TBD
+An InnerSource initiative fails to demonstrate improvement in quality or speed because the team lacks open source development experience and deadline pressure prevents adopting new ways of working. Starting InnerSource pilots with experienced practitioners and protecting time for new practices are prerequisites for success.
 
 ## Problem
 

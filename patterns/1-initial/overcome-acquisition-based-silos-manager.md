@@ -4,7 +4,7 @@ Overcome Acquisition-based Silos (Management Level)
 
 ## Patlet
 
-TBD
+After a company acquisition, middle managers from the acquired company resist InnerSource collaboration out of fear of losing control over their team, their code domain, and their developer resources. A neutral governance committee, career advancement opportunities tied to InnerSource participation, and a realistic integration timeline with measurable milestones help managers feel secure enough to support cross-company collaboration.
 
 ## Problem
 

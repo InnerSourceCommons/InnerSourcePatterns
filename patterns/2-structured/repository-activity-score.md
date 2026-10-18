@@ -46,7 +46,7 @@ The repository activity score is a numeric value that represents the (GitHub) ac
 In addition, it considers activity parameters like last update and creation date of the repo to give young projects with a lot of traction a boost.
 Projects with contributing guidelines, active participation stats, and issues (public backlog) receive a higher ranking as well.
 
-All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://docs.github.com/en/rest/search#search-repositories) and [GitHub statistics API](https://docs.github.com/en/rest/metrics/statistics). Other code versioning systems like BitBucket, Gitlab, Gerrit can be integrated as well if a similar API is available.
+All of this can be fetched and calculated automatically using the result set of the [GitHub search API](https://docs.github.com/en/rest/search#search-repositories) and [GitHub statistics API](https://docs.github.com/en/rest/metrics/statistics). Other code versioning systems like Bitbucket, GitLab, Gerrit can be integrated as well if a similar API is available.
 
 The code below assumes the variable `repo` contains an entity fetched from the GitHub `search` API and the `participation` object contains an entity from the GitHub `stats/participation` API.
 
@@ -65,14 +65,14 @@ function calculateScore(repo) {
 
     // updated in last 3 months: adds a bonus multiplier between 0..1 to overall score (1 = updated today, 0 = updated more than 100 days ago)
     let iDaysSinceLastUpdate = (new Date().getTime() - new Date(repo.updated_at).getTime()) / 1000 / 86400;
-    iScore = iScore * ((1 + (100 - Math.min(iDaysSinceLastUpdate, 100))) / 100);
+    iScore = iScore * (1 + (100 - Math.min(iDaysSinceLastUpdate, 100)) / 100);
 
     // evaluate participation stats for the previous  3 months
     repo._InnerSourceMetadata = repo._InnerSourceMetadata || {};
     if (repo._InnerSourceMetadata.participation) {
         // average commits: adds a bonus multiplier between 0..1 to overall score (1 = >10 commits per week, 0 = less than 3 commits per week)
         let iAverageCommitsPerWeek = repo._InnerSourceMetadata.participation.slice(-13).reduce((a, b) => a + b) / 13;
-        iScore = iScore * ((1 + (Math.min(Math.max(iAverageCommitsPerWeek - 3, 0), 7))) / 7);
+        iScore = iScore * (1 + (Math.min(Math.max(iAverageCommitsPerWeek - 3, 0), 7)) / 7);
     }
 
     // boost calculation:
@@ -114,7 +114,9 @@ The repository activity score is a simple calculation based on the GitHub API. I
 
 ## Known Instances
 
-* Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to InnerSourceCommons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
+* **SAP** - Used in SAP's InnerSource project portal to define the default order of the InnerSource projects. It was first created in July 2020 and is fine-tuned and updated frequently ever since. When proposed to the InnerSource Commons in July 2020, this pattern emerged. Also see [Michael Graf & Harish B (SAP) at ISC.S11 - The Unexpected Path of Applying InnerSource Patterns](https://www.youtube.com/watch?v=6r9QOw9dcQo&list=PLCH-i0B0otNQZQt_QzGR9Il_kE4C6cQRy&index=6).
+* **Airbus** took a lot of inspiration from this pattern to create an "InnerSource score" that combines the activity score together with checks from the [Standard Base Documentation](./base-documentation.md) and the [InnerSource License](./innersource-license.md).
+* **Siemens** includes repository activity in their InnerSource project quality score. Maintainers can use the quality score to improve their project and communicate their score via badges.
 
 ## Status
 
@@ -124,7 +126,7 @@ The repository activity score is a simple calculation based on the GitHub API. I
 
 [Michael Graf (SAP)](mailto:mi.graf@sap.com)
 
-## Acknowledgements
+## Acknowledgments
 
 Thank you to the InnerSource Commons Community for lightning-fast advice, and a lot of helpful input to feed this pattern! Especially:
 

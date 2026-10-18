@@ -4,9 +4,10 @@ Short Title Here
 
 ## Patlet
 
-Concise 1-2 sentence description of the problem and solution.
-Readers may quickly review dozens of these patlets to discover and browse the larger library of patterns.
-From http://wiki.c2.com/?PatLet
+Concise 2 sentence description of the problem and solution.
+The 1st sentence describes the problem. The 2nd sentence describes the solution.
+Readers may quickly review dozens of these patlets (aka summaries) to discover and browse the larger library of patterns.
+From [http://wiki.c2.com/?PatLet](http://wiki.c2.com/?PatLet).
 
 ## Problem
 
@@ -75,12 +76,12 @@ Often, this is yourself.
 If you need to, find someone in the InnerSource Commons to be the nominal author (As Told To).
 Could also be no-one if you do not want to take on authorship (common with a donut looking for a solution).
 
-## Acknowledgements (optional)
+## Acknowledgments (optional)
 
 Include those who assisted in helping with this pattern - both for attribution and for possible future follow up.
 Though optional, most patterns should list who helped in their creation.
 
 ## Alias (optional)
 
-If this pattern is also known under a different name than what is listed unter **Title**, please list those alternative titles here.
+If this pattern is also known under a different name than what is listed under **Title**, please list those alternative titles here.
 e.g. if the pattern is named after the problem it solves, a helpful alias might be one that describes the solution that is applied.

@@ -20,7 +20,7 @@ This could be due to things like:
 Some possible causes:
   * Poor documentation (again).
   * Frequent bugs.
-  * Unintuitive setup.
+  * Nonintuitive setup.
 
 ## Story
 
@@ -35,7 +35,7 @@ It's clearly due for an overhaul (e.g. refactoring, testing, documentation, etc.
 * Many teams need the project.
 * The project has significant tech debt.
 * Slow adoption and iteration on the project.
-* There is not a owner or maintainer who takes reponsibility for the project and contribution ecosystem as a whole.
+* There is not a owner or maintainer who takes responsibility for the project and contribution ecosystem as a whole.
 
 ## Forces
 
@@ -53,7 +53,7 @@ Here are some specific examples:
 
 * Production bugs
 * Documentation
-* Onboarding tutorials and examples
+* On-boarding tutorials and examples
 * Automated testing
 * CI/CD
 * Local environment

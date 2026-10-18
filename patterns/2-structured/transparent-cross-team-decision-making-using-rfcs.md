@@ -41,7 +41,7 @@ Like with any process, this must be continually improved upon. There may need to
 
 ## Solutions
 
-We chose an RFC-like process for increasing the transparency of our cross-team decision making process (also see [Requests for Comments][requests-for-comments]).
+We chose an RFC-like process for increasing the transparency of our cross-team decision making process (also see IETF's [Requests for Comments][requests-for-comments]).
 
 Important elements of the solution are:
 
@@ -60,7 +60,8 @@ Important elements of the solution are:
 ### Examples/Templates
 
 - [Rust][rust] is a good Open Source example of RFC template and process, and has been the basis for many other RFC processes.
-- [Genericised BBC iPlayer & Sounds RFC template](templates/rfc.md), originally based on the [Rust][rust] template
+- [Generalized BBC iPlayer & Sounds RFC template](templates/rfc.md), originally based on the [Rust][rust] template
+- [jakobo/rfc](https://github.com/jakobo/rfc) outlines how to set up a company-internal RFC process. It contains a [detailed explanation](https://github.com/jakobo/rfc/blob/master/text/0001-using_rfcs.md) of why RFCs are important and an [RFC template](https://github.com/jakobo/rfc/blob/master/0000-template.md) to help you write your first RFC. It contains information such as motivation/rational, guide implementation, a reference implementation, drawbacks, as well as alternatives to the RFC approach. Bonus: The description itself is an RFC, so while reading it you are already getting a sense of how an RFC works.
 
 ## Resulting Context
 
@@ -69,7 +70,7 @@ Implementing an RFC-like process has proven to be valuable, as it makes the cros
 Observable positive effects:
 
 - **democratization of the decision making process** for decisions that impact many teams (also offloading team leads from that burden)
-- **a open asynchronous communication method** that works well across multiple teams and geos
+- **a open asynchronous communication method** that works well across multiple teams and geographies
 - **empowers individuals and teams** to effect large scale change
 - **record of decisions made** for people to refer back to for context
 - **scales impact of experienced engineers** as they can contribute to solutions asynchronously and remotely, rather than needing to be present in a meeting
@@ -98,6 +99,7 @@ Also for decision making outside of pure software design decisions, transparent 
 - **Uber** - According to this blog post by Gergely Orosz: [Scaling Engineering Teams via RFCs: Writing Things Down][uber].
 - **Google Design Docs** - As described in this blog post by Malte Ubl [Design Docs at Google][google]
 - **DAZN** (10/2021) - One way that DAZN makes technical decisions is via RFCs. RFCs are used for decisions that apply to engineering-wide processes only! The RFCs live in a GitHub repository, and technical standards are then gradually adopted within their tools and by their engineers. An RFC can be raised by any engineer, and voted on by all engineers. If upvotes exceed downvotes, the RFC is adopted. It’s worth noting, that the RFC voting process hasn’t yet been “stress-tested” by any contentious decisions. - As described in this blog post by Lou Bichard: [Building A DX Team: Lessons Learned][dazn]
+- **SAP** (03/2024) - SAP has a mature tool-assisted process for document review across teams. It is primarily used for the review of Architecture Decision Records (ADR) originating from cross-team work done on the Cross-Product Architecture collaboration model. Some noteworthy implementation differences from this pattern: The review process is not easily available for decisions on small projects. Also, the documents are not restricted to InnerSource projects only. - As described in the blog post [Cross-Product Architecture: Embracing Conway's Law for Better Software Architecture][sap-cpa].
 
 ## Status
 
@@ -123,3 +125,4 @@ Structured
 [bbc]: https://www.youtube.com/watch?v=U6zlghE0HcE
 [google]: https://www.industrialempathy.com/posts/design-docs-at-google/
 [dazn]: https://medium.com/dazn-tech/building-a-dx-team-lessons-learned-4a66446088bc
+[sap-cpa]: https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600

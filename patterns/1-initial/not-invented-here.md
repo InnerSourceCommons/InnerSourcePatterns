@@ -79,7 +79,7 @@ Companies with software developers :) We suppose that this may also be a more co
 
 ## Solutions
 
-* [Going deep into the not-invented-here syndrome](http://blog.hypeinnovation.com/the-not-invented-here-syndrome) touches on this topic, describing a prescription for overcoming the "Not Invented Here" mindset:
+* [Going deep into the not-invented-here syndrome](https://www.hypeinnovation.com/blog/the-not-invented-here-syndrome) touches on this topic, describing a prescription for overcoming the "Not Invented Here" mindset:
     * Acknowledge that the "Not Invented Here" mindset (NIH) exists
     * Assess the impact of NIH on your innovation efforts. For example, have you missed opportunities?
     * Build in explicit incentives to overcome NIH
@@ -131,5 +131,5 @@ TBD
 
 ## References
 
-* Oana-Maria Pop, Hype Innovation Blog: [Does Your Organization Have the Not Invented Here Syndrome?](http://blog.hypeinnovation.com/the-not-invented-here-syndrome)
+* Oana-Maria Pop, Hype Innovation Blog: [Does Your Organization Have the Not Invented Here Syndrome?](https://www.hypeinnovation.com/blog/the-not-invented-here-syndrome)
 * DSM, Open Innovation: [Proudly Found Elsewhere](https://www.youtube.com/watch?v=jNNz9poyKJs)

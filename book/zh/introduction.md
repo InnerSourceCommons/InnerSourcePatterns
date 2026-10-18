@@ -13,7 +13,8 @@
 
 [InnerSource Commons](http://innersourcecommons.org)多年来收集了这些模式，在本书中发布了最成熟的模式，社区成员对每个模式进行了评审，至少有一个已知的模式使用实例。
 
-在这篇介绍中，我们解释了[内源是什么](#内源是什么)，[内源模式是什么](#内源模式是什么)，以及[如何在你的组织中使用这些模式](#如何使用这些模式) 。
+<!-- markdownlint-disable-next-line link-fragments -->
+在这篇介绍中，我们解释了[内源是什么](#nei-yuan-shi-shen-me)，[内源模式是什么](#nei-yuan-mo-shi-shi-shen-me)，以及[如何在你的组织中使用这些模式](#ru-he-shi-yong-zhe-xie-mo-shi) 。
 
 如果你已经在你的公司使用内源，并想把你的经验贡献给本书，我们很乐意[欢迎你的贡献](contribute.md)!
 

@@ -4,8 +4,21 @@ https://example.com/link/to/your/trusted/committer/documentation.md
 https://github.com/rcs/rcs-viewer/pull/81
 http://creativecommons.org/licenses
 https://isc-inviter.herokuapp.com
+https://innersourcecommons-inviter.herokuapp.com
 fearlesschangepatterns.com
 https://ulir.ul.ie/bitstream/handle/10344/4443/Stol_2014_inner.pdf
 .*@andrew.clegg.*
 https://m.dotdev.co/how-to-write-a-readme-that-rocks-bc29f279611a
-https://innersourcecommons-inviter.herokuapp.com
+https://www.chathamhouse.org/about-us/chatham-house-rule
+https://www.linkedin.com/in
+# from source-code-inventory.md / no longer reachable but we want to keep the link in the pattern in case we find it again.
+https://github.com/trieshard/source-strategy-assessment/blob/master/framework.md
+https://dl.acm.org/doi/10.5555/3158161.3158175
+https://retromat.org/en/
+# O'Reilly returns 403 to the link checker's automated requests, though the page loads fine in a browser.
+http://www.oreilly.com/pub/e/3884
+# These sites return 403 to the link checker's automated requests, though the pages load fine in a browser.
+https://www.oreilly.com/library/
+https://community.sap.com/
+https://medium.com/
+artofcommunityonline.org

@@ -12,6 +12,7 @@ The topics below cover information about how we define, operate, and upkeep this
 * [Style Guide](./pattern-style-guide.md) - Recommended conventions to use when writing patterns
 * [Glossary](./glossary.md) - Defines essential terms that are commonly used when writing new patterns.
 * [Board Reports](./boardreports) - The Patterns Working Group submits a report to the Board of the InnerSource Commons Foundation on a quarterly basis. This folder contains all reports that the Patterns Working Group has created.
+* [Scripts](./scripts) - Scripts that help us with the maintenance of our patterns.
 
 ## Unfinished documentation
 
