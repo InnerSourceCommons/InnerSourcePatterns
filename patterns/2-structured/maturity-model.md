@@ -47,9 +47,9 @@ The process of going through these steps helps your organization in multiple way
 * You increase the trust in your initiative by allowing teams to go through the self-assessment at their own pace, and by opening up to feedback from them.
 * The teams going through the self-assessment will likely have discussions, possibly even disagreements about some of the points in the maturity model. These are fantastic conversation starters, and the discussions help you to create a shared understanding of InnerSource in your organization.
 
-Below we have defined a **sample maturity** model around 4 categories (Transparency, Collaboration, Community, Governance).
+Below we have defined a **sample maturity** model around 4 categories: Transparency, Collaboration, Community, and Governance.
 
-Make sure you adapt this model to fit your organization!
+And again: Make sure you adapt this model to fit your organization before applying it!
 
 ### Transparency
 
