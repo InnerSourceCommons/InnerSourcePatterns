@@ -28,13 +28,13 @@ pain points that they are dealing with.
 
 * Teams are not aware of best practices that would help them solve issues that they run into in their daily doing.
 * Teams sharing InnerSource learnings with each other run into misunderstandings as they are not aware of their respective level of InnerSource adoption.
-* Teams believe that InnerSource is purely about making their source code avaiable to the whole organization i.e. "It is all about migrating to a shared software development [forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (like GitLab, GitHub, or Bitbucket).
+* Teams believe that InnerSource is purely about making their source code available to the whole organization i.e. "It is all about migrating to a shared software development [forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (like GitLab, GitHub, or Bitbucket).
 
 ## Solution
 
 For this pattern in particular it is important to note that adopters of this pattern will likely not use the maturity modal proposed here as is!
 The context of most organization will differ to greatly to do that.
-Hence you may take the proposed maturity model as a starting point if you like, but it is key that you adapt it to the needs and goals of your orgnization!
+Hence you may take the proposed maturity model as a starting point if you like, but it is key that you adapt it to the needs and goals of your organization!
 
 Steps to implement:
 
