@@ -4,8 +4,8 @@ Maturity Model
 
 ## Patlet
 
-The InnerSource practices are spreading to multiple teams and departments, however the understanding of what constitutes an InnerSource project varies.
-Defining a maturity model enables teams to do a self-assessment and discover patterns and practices that they are not yet aware of.
+InnerSource practices are spreading to multiple teams and departments within an organization, however the understanding of what constitutes an InnerSource project varies.
+Defining a maturity model enables teams to do a self-assessment and discover new InnerSource patterns and practices, while also leading to a shared understanding of what InnerSource is.
 
 ## Problem
 
