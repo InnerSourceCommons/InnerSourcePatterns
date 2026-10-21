@@ -11,7 +11,7 @@ The ASCII is marked up in a standard format. Here are two cheatsheets for that f
 
 You can test your markdown on these online "live" editors:
 
-* http://socrates.io/
+* https://coddy.tech/tools/markdown-editor
 * https://jbt.github.io/markdown-editor/
 
 If you have content in Word or Google docs, you can simply copy the existing text and paste it in to plain text, and then modify the titles and bullets to be in markdown format. There might be a converter.
