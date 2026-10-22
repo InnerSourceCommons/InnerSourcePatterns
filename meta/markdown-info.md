@@ -2,7 +2,7 @@
 
 A markdown file is a plain ASCII text file that is meant to be easy to read in plaintext, while also being pretty once rendered.
 
-It is similar to the format that many wiki's have. As an example, you can see [this rendered pattern](../patterns/2-structured/dedicated-community-leader.md) of ours also [in plain text](/../../raw/master/patterns/2-structured/dedicated-community-leader.md). You can do this for any markdown file by clicking the ``Raw`` button when viewing a file online.
+It is similar to the format that many wiki's have. As an example, you can see [this rendered pattern](../patterns/2-structured/dedicated-community-leader.md) of ours also [in plain text](https://github.com/InnerSourceCommons/InnerSourcePatterns/raw/main/patterns/2-structured/dedicated-community-leader.md). You can do this for any markdown file by clicking the ``Raw`` button when viewing a file online.
 
 The ASCII is marked up in a standard format. Here are two cheatsheets for that format:
 
@@ -11,7 +11,7 @@ The ASCII is marked up in a standard format. Here are two cheatsheets for that f
 
 You can test your markdown on these online "live" editors:
 
-* http://socrates.io/
+* https://coddy.tech/tools/markdown-editor
 * https://jbt.github.io/markdown-editor/
 
 If you have content in Word or Google docs, you can simply copy the existing text and paste it in to plain text, and then modify the titles and bullets to be in markdown format. There might be a converter.
