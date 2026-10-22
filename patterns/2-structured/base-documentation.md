@@ -125,6 +125,7 @@ started right away: [README-template.md](templates/README-template.md),
 * The time for contributors to get up to speed is significantly reduced.
 * Time spent on answering initial questions for [Trusted Committers](trusted-committer.md) is significantly reduced, leaving them more time to work on other tasks.
 * Escalations due to misunderstandings and misalignment are significantly reduced.
+* When many InnerSource projects in an organization follow the same base documentation standard, contributors moving from one project to another find the same information in the same place, so each new project they engage with costs them less to learn.
 
 ## Known Instances
 
@@ -134,6 +135,7 @@ started right away: [README-template.md](templates/README-template.md),
 * **Analog Devices Inc.**
 * **Airbus**
 * **Siemens** automatically creates a checklist issue for every new InnerSource project to make maintainers aware of mandatory requirements (e.g. business approval, license & copyright, export control, contributing guidelines, maintainer maturity) as well as best practices (e.g. documentation as code, semantic versioning, continuous integration/deployment).
+* **NatWest Group** - The OSPO's InnerSource playbook includes a project-setup blueprint with the base documentation standards (`README.md`, `CONTRIBUTING.md`, a communication section) embedded in it, plus a readiness assessment against those standards. See: ["Growing InnerSource through OSPO Enablement"](https://youtu.be/AYXLVYy87Tk) (InnerSource Commons Community Call, October 2026, by Pooi Ling Cheong).
 
 ## Authors
 

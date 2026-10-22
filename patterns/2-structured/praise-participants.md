@@ -71,6 +71,7 @@ Overdoing it may feel insincere and mechanical and defeat your purpose in reachi
 
 ## Known Instances
 
+* **NatWest Group** - The OSPO presents InnerSource Ambassador and Contributor Recognition Awards at its quarterly internal InnerSource meetup, a hybrid event that rotates between UK and India offices. See: ["Growing InnerSource through OSPO Enablement"](https://youtu.be/AYXLVYy87Tk) (InnerSource Commons Community Call, October 2026, by Pooi Ling Cheong).
 * **Nike** (multiple projects)
 * **SAP** - InnerSource initiatives like the Dojo and Everest projects are elevated by the 'Praise Participants' pattern, where the SAP Appreciate program plays a key role in fostering a culture of gratitude and recognition, driving innovation and collaboration to new heights. See: [InnerSource: First Contribution Explored](https://community.sap.com/t5/open-source-blogs/innersource-first-contribution-explored/ba-p/13644916)
 * **Siemens** awards successful InnerSource projects and contributors at their yearly internal InnerSource Summit.
