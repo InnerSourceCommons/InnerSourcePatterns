@@ -4,11 +4,8 @@ Maturity Model
 
 ## Patlet
 
-Teams have started adopting InnerSource. The practice is spreading to multiple
-departments. However, the understanding of what constitutes an InnerSource
-project varies. The solution is to provide a maturity model to allow for teams
-to go through a self check and discover patterns and practices that they are not
-yet aware of.
+InnerSource practices are spreading to multiple teams and departments within an organization, however the understanding of what constitutes an InnerSource project varies.
+Defining a maturity model enables teams to do a self-assessment and discover new InnerSource patterns and practices, while also leading to a shared understanding of what InnerSource is.
 
 ## Problem
 
@@ -22,25 +19,37 @@ pain points that they are dealing with.
 
 ## Context
 
-Several teams have started adopting InnerSource practices. The exact level of
-understanding of the practice diverges between teams. The exact problems teams
-run into diverge depending on the context and working environment of each team.
-As a result the definition of what are important best practices in an
-InnerSource project differs depending on each team.
+* Several teams have started adopting InnerSource practices.
+* The exact level of understanding of the practice diverges between teams.
+* The exact problems teams run into diverge depending on the context and working environment of each team.
+* As a result the definition of what are important best practices in an InnerSource project differs depending on each team.
 
 ## Forces
 
-Teams sharing InnerSource learnings run into misunderstandings as they are not
-aware of their respective level of InnerSource adoption.
-
-Teams believe that "it's all about migrating to a shared software development [forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (GitLab, GitHub, or Bitbucket being well known examples of such forges).
-
-Teams are not aware of best practices that would help them solve issues that
-they run into in their daily doing.
+* Teams are not aware of best practices that would help them solve issues that they run into in their daily doing.
+* Teams sharing InnerSource learnings with each other run into misunderstandings as they are not aware of their respective level of InnerSource adoption.
+* Teams believe that InnerSource is purely about making their source code available to the whole organization i.e. "It is all about migrating to a shared software development [forge](https://en.wikipedia.org/wiki/Forge_%28software%29)" (like GitLab, GitHub, or Bitbucket).
 
 ## Solution
 
-Ask teams to self assess against the proposed maturity model.
+For this pattern it is particularly important that you adapt the maturity model below to the needs of your organization.
+The context of most organization will differ too greatly, so there is no single maturity model that fits every org.
+
+Steps to implement:
+
+1. **maturity mode definition**: Create a maturity model that fits the needs of your organization. Also consider the [Guiding Principles](../2-structured/document-your-guiding-principles.md) if you have defined those for your InnerSource program.
+2. **team self-assessment**: Then ask teams to self-assess against that maturity model. You may even do a couple of these sessions together with a few teams, to observe and learn if the maturity model is easy enough to understand.
+3. ... <what happens now? e.g. any re-assessments after some time, or suggested actions after the assessment, or anything else?>
+
+The process of going through these steps helps your organization in multiple ways:
+
+* Defining your own maturity model allows you, the organizers of the InnerSource program, to increase your own clarity. e.g. you will realize what matters to you, what training capabilities you have internally, what material is available externally, etc
+* You increase the trust in your initiative by allowing teams to go through the self-assessment at their own pace, and by opening up to feedback from them.
+* The teams going through the self-assessment will likely have discussions, possibly even disagreements about some of the points in the maturity model. These are fantastic conversation starters, and the discussions help you to create a shared understanding of InnerSource in your organization.
+
+Below we have defined a **sample maturity** model around 4 categories: Transparency, Collaboration, Community, and Governance.
+
+And again: Make sure you adapt this model to fit your organization before applying it!
 
 ### Transparency
 
@@ -199,13 +208,9 @@ InnerSource comes with explicit roles. While in early stages some patterns may b
 
 ## Resulting Context
 
-All teams are aware of available best practices.
-
-Teams understand their level of InnerSource adoption.
-
-Prior to adopting InnerSource as a working model, teams are aware of the
-practices that are expected of them - both in the short term and in the
-long term.
+* All teams are aware of available best practices.
+* Teams understand their level of InnerSource adoption.
+* Prior to adopting InnerSource as a working model, teams are aware of the practices that are expected of them - both in the short term and in the long term.
 
 ## Known Instances
 
@@ -221,6 +226,7 @@ long term.
 * Isabel Drost-Fromm
 * Jorge
 * Nerea
+* Sebastian Spier
 
 ## Acknowledgments
 
