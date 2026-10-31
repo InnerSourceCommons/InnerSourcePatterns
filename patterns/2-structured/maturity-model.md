@@ -33,7 +33,7 @@ pain points that they are dealing with.
 ## Solution
 
 For this pattern it is particularly important that you adapt the maturity model below to the needs of your organization.
-The context of most organization will differ too greatly, so there is no single maturity model that fits every org.
+The context of most organizations will differ too greatly, so there is no single maturity model that fits every org.
 
 Steps to implement:
 
