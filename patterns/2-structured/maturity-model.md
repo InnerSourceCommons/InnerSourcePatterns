@@ -39,7 +39,7 @@ Steps to implement:
 
 1. **maturity model definition**: Create a maturity model that fits the needs of your organization. Also consider the [Guiding Principles](../2-structured/document-your-guiding-principles.md) if you have defined those for your InnerSource program.
 2. **team self-assessment**: Then ask teams to self-assess against that maturity model. You may even do a couple of these sessions together with a few teams, to observe and learn if the maturity model is easy enough to understand.
-3. ... <what happens now? e.g. any re-assessments after some time, or suggested actions after the assessment, or anything else?>
+3. Define a maturity goal post assessment, derive tasks, add to your backlog, and schedule with your preferred planning system. Reassess after some time. e.g. Yearly review
 
 The process of going through these steps helps your organization in multiple ways:
 
