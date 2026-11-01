@@ -53,7 +53,7 @@ And again: Make sure you adapt this model to fit your organization before applyi
 
 ### Transparency
 
-**Plans & Products**
+#### Plans & Products
 
 InnerSource project benefit from planning being transparent across the organization by enabling stakeholders to better understand decisions and influence them in a way that can be followed by others.
 
@@ -62,7 +62,7 @@ InnerSource project benefit from planning being transparent across the organizat
 * PP-2: There are already shared roadmaps with clear guidelines and contribution rules where stakeholders can provide feedback. However, this is not standardized across the organization and not all of the projects provide this info.
 * PP-3: Roadmaps are shared by default and there is a standard process and homogeneous way to do this across the organization at the level of each InnerSource project. This contains clear rules to contribute and influence in the roadmap.
 
-**Development Process & Tools**
+#### Development Process & Tools
 
 InnerSource projects thrive when contributors become active and participate. As a result, making contribution easier should be balanced with pure technical goals.
 
@@ -71,7 +71,7 @@ InnerSource projects thrive when contributors become active and participate. As 
 * DP-2: The organization sponsors and promotes a shared repository for collective knowledge. Some teams develop their own CI process, using corporate CI tools. There are CI environments. Code review process defined, and used by some projects. Sometimes code review is done by outside team members.
 * DP-3: Most teams develop their own CI process, using corporate CI tools. There are CI environments. Code review process defined, and used. Code review is done by both, internal and external team members.
 
-**Decisions**
+#### Decisions
 
 In order to motivate colleagues to contribute work outside of their core team they need visibility into the decision-making process of the host project - but also feel that their voices are being heard and valued.
 
@@ -80,7 +80,7 @@ In order to motivate colleagues to contribute work outside of their core team th
 * DC-2: People feel like they know about—and are helping to shape—most (but not all) important decisions as those decisions are unfolding. Materials that are part of decision-making practices are available at defined project milestones.
 * DC-3: People feel like they are a part of a shared, standard process for collective decision-making that the organization endorses. Materials that are part of decision-making practices are continuously accessible during work processes.
 
-**Helpful Resources**
+#### Helpful Resources
 
 In order to attract contributors helpful supporting material needs to be easily accessible.
 
@@ -89,7 +89,7 @@ In order to attract contributors helpful supporting material needs to be easily 
 * RS-2: Individuals and teams make project-related materials accessible to some members of project teams according to clearly defined and shared formats and/or protocols. Individuals and teams withhold sensitive data and resources, provide limited details, context, and scope.
 * RS-3: Individuals and teams make project-related materials broadly accessible to the organization—and possibly outside the organization as well—according to clearly defined and shared formats and/or protocols. Individuals and teams who must withhold sensitive data and resources are clear about what they're not sharing, and others understand why those materials are not available to them.
 
-**Stories**
+#### Stories
 
 When working in host teams mistakes will automatically be widely visible. In order keep contribution levels up, corporate culture needs to celebrate failure as an opportunity for growth and learning.
 
@@ -100,7 +100,7 @@ When working in host teams mistakes will automatically be widely visible. In ord
 
 ### Collaboration
 
-**Channels for Providing Feedback**
+#### Channels for Providing Feedback
 
 For silos to be reduced colleagues need to be comfortable sharing feedback openly. One easy way to support that is to use the same communication principles across hierarchies.
 
@@ -112,7 +112,7 @@ Ideally you will end up with proper communication channels that are known by any
 * CF-3: Members of the organization share decision-making materials on officially sanctioned platforms Members of the organization share materials openly via multiple channels and methods for feedback.
 Leaders use those channels themselves, openly encourage others to use them, and maintain team-facing or public-facing records of the feedback they've received and/or the actions they've taken to address this feedback.
 
-**Leadership**
+#### Leadership
 
 InnerSource projects encourage employees to contribute to projects outside of the direct influence of their direct line manager. This needs a culture of trust.
 
@@ -121,7 +121,7 @@ InnerSource projects encourage employees to contribute to projects outside of th
 * LS-2: Most leaders in the organization are open to receiving feedback and creating an environment where people feel safe providing it. Leaders show passivity about understanding whether all members feel empowered and enabled to share. Organization encourages leaders to actively seek voices not present in dialog out for inclusion.
 * LS-3: Members feel empowered and enabled to share opinions constructively on any matter relevant to their work or about which they feel passionate.
 
-**Organizational and Functional Structure**
+#### Organizational and Functional Structure
 
 When InnerSource leaves the pure coding level and enters the community and working group level, there is potential for reducing silos even where direct code collaboration is not possible.
 
@@ -130,7 +130,7 @@ When InnerSource leaves the pure coding level and enters the community and worki
 * OF-2: Cross-functional teams are common, and teams post their roles and goals publicly.
 * OF-3: Cross-functional teams are common and make their activities known broadly to the organization; in turn, the organization promotes best practices for working together.
 
-**Contribution**
+#### Contribution
 
 The goal with designing contributions patterns needs to keep collaboration in mind if it's to reduce silos.
 
@@ -141,7 +141,7 @@ The goal with designing contributions patterns needs to keep collaboration in mi
 
 ### Community
 
-**Sharing Policies**
+#### Sharing Policies
 
 Having a baseline of shared values makes it easier to work across team boundaries. Crossing boundaries becomes easier if a limited set of baseline rules and guidelines apply everywhere and can easily be referenced.
 
@@ -150,7 +150,7 @@ Having a baseline of shared values makes it easier to work across team boundarie
 * SP-2: Members of the organization collectively document shared visions and agreements like mission statements and codes of conduct, make them easily accessible, and reference them often. On-boarding materials and orientation rituals provide adequate context for helping new members understand how the organization will benefit from their contributions.
 * SP-3: Shared values and principles inform decision-making, conflict resolution, and assessment processes among members of the organization, who reference these values and principles consistently in both verbal and written formats.
 
-**Feel part of the Organization**
+#### Feel part of the Organization
 
 One of the possible reasons for introducing InnerSource into organizations can be increased engagement. This point tracks how engagement is changing while adopting InnerSource.
 
@@ -161,7 +161,7 @@ One of the possible reasons for introducing InnerSource into organizations can b
 
 ### Governance
 
-**Rewards**
+#### Rewards
 
 In order to drive adoption, extrinsic motivators can be used to increase cross team collaboration.
 
@@ -170,7 +170,7 @@ In order to drive adoption, extrinsic motivators can be used to increase cross t
 * RW-2: Standard processes are established to reward collaborations outside the developers' teams. Team leaders or boards decide who has to be rewarded.
 * RW-3: Rewards are not only proposed by the organization, but the communities are able to define their more valuable rewards. The community is responsible to decide who has to be rewarded.
 
-**Monitoring Policies**
+#### Monitoring Policies
 
 InnerSource projects need a means for self assessment. Metrics can be one aspect to facilitate this assessment. Also, in organizations with a mature InnerSource adoption level we expect adoption of the method to be tracked based on clear, agreed upon metrics.
 
@@ -179,7 +179,7 @@ InnerSource projects need a means for self assessment. Metrics can be one aspect
 * MP-2: There is a strategy at the organizational level with respect to metrics that help to validate specific policies across the organization. This monitoring policy exists at the level of some InnerSource projects.
 * MP-3: There are clear guidelines, recommendations, and trainings about the use of metrics with certain infrastructure provided by the organization. This works at both levels: InnerSource program to understand the general InnerSource adoption within the organization, and at the level of InnerSource projects.
 
-**Support and Maintenance**
+#### Support and Maintenance
 
 Not only should feature development be owned by InnerSource teams - support and maintenance is also part of the teams core tasks.
 
@@ -188,7 +188,7 @@ Not only should feature development be owned by InnerSource teams - support and 
 * SM-2: Support for InnerSource contributions is formalized through InnerSource patterns like [30 Day Warranty](./30-day-warranty.md) or [Service vs. Library](./service-vs-library.md).
 * SM-3: There are rules and regulations to formalize the support on the product, given by a mature community.
 
-**Culture**
+#### Culture
 
 There are multiple levels moving towards a collaborative culture.
 
@@ -197,7 +197,7 @@ There are multiple levels moving towards a collaborative culture.
 * CL-2: Contributive - teams actively help improve their dependencies by contributing.
 * CL-3: Activist - teams actively seek help, mentor and recruit new contributors.
 
-**InnerSource Roles**
+#### InnerSource Roless
 
 InnerSource comes with explicit roles. While in early stages some patterns may be useable without adopting those roles, communicating within projects using explicit role titles becomes easier.
 
